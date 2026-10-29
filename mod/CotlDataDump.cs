@@ -16,6 +16,7 @@ using I2.Loc;
 using Lamb.UI.Assets;
 using MMTools;
 using Newtonsoft.Json;
+using Spine.Unity;
 using src.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -104,6 +105,7 @@ public class CotlDataDump : BaseUnityPlugin
         {
             yield return DoctrineIcons();
             Try("TraitIcons", TraitIcons); Try("CrownIcons", CrownIcons); Try("Fleeces", ReadFleeces); Try("LaterIcons", LaterIcons);
+            yield return Portraits();
         }
         // last: phase 2 adds terms too (fleece names)
         Try("Translations", ReadTranslations);
@@ -275,6 +277,7 @@ public class CotlDataDump : BaseUnityPlugin
             skinNames[id] = c.Skin[0].Skin;
             // The game has no translated skin names, only this title.
             i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = c.Title };
+            skinSources[id] = c;
             skins.Add(new Dictionary<string, object> {
                 ["id"] = id, ["nameTerm"] = $"Skins/{id}", ["unlock"] = c.DropLocation.ToString(), ["hidden"] = c.Hidden,
             });
@@ -583,6 +586,125 @@ public class CotlDataDump : BaseUnityPlugin
         if (list.Count == 0) throw new Exception("no FleeceItemBuyable loaded");
         more["fleeces"] = list;
         Logger.LogInfo($"fleeces: {list.Count}");
+    }
+
+    // ---------- portraits: follower forms, tarot cards and outfits have no sprite; the game draws them with Spine ----------
+
+    const int PortraitLayer = 31, PortraitSize = 256;
+    readonly Dictionary<string, WorshipperData.SkinAndData> skinSources = new Dictionary<string, WorshipperData.SkinAndData>();
+
+    IEnumerator Portraits()
+    {
+        var cam = new GameObject("CotlDataDumpCamera").AddComponent<Camera>();
+        cam.enabled = false;
+        cam.orthographic = true;
+        cam.cullingMask = 1 << PortraitLayer;
+        cam.clearFlags = CameraClearFlags.SolidColor;
+        cam.nearClipPlane = 0.1f;
+        cam.farClipPlane = 100f;
+        cam.aspect = 1f;
+        int n = 0;
+        // Follower forms: the follower skeleton with the form's skin and its first colour set (as the new-form card shows it).
+        var follower = WorshipperData.Instance.SkeletonData ? WorshipperData.Instance.SkeletonData.skeletonDataAsset : null;
+        foreach (var kv in skinSources)
+            if (follower)
+                yield return Portrait(cam, follower, "skins", kv.Key, s =>
+                {
+                    s.SetSkin(kv.Value.Skin[0].Skin);
+                    if (kv.Value.SlotAndColours.Count > 0)
+                        foreach (var sc in kv.Value.SlotAndColours[0].SlotAndColours) s.FindSlot(sc.Slot)?.SetColor(sc.color);
+                }, "idle", () => n++);
+        // Tarot cards: the card skeleton TarotCardAnimator shows, in its menu pose.
+        var tarot = Resources.FindObjectsOfTypeAll<Lamb.UI.TarotCardAnimator>().Select(a => a.Spine ? a.Spine.skeletonDataAsset : null).FirstOrDefault(a => a);
+        foreach (var d in more.TryGetValue("tarot", out var cards) ? cards : new List<Dict>())
+            if (tarot)
+            {
+                var card = (TarotCards.Card)Enum.Parse(typeof(TarotCards.Card), (string)d["id"]);
+                yield return Portrait(cam, tarot, "tarot", (string)d["id"], s => s.SetSkin(TarotCards.Skin(card)), "menu-static", () => n++);
+            }
+        // Outfits: their own skeleton with the clothing skin and first colour set (SpineExtensions.ConfigureFollowerOutfit).
+        foreach (var d in more.TryGetValue("outfits", out var outfits) ? outfits : new List<Dict>())
+        {
+            var cd = TailorManager.GetClothingData((FollowerClothingType)Enum.Parse(typeof(FollowerClothingType), (string)d["id"]));
+            if (!cd || !cd.SkeletonData || !cd.SkeletonData.skeletonDataAsset) continue;
+            yield return Portrait(cam, cd.SkeletonData.skeletonDataAsset, "outfits", (string)d["id"], s =>
+            {
+                s.SetSkin(FollowerBrain.GetClothingName(cd.ClothingType));
+                if (cd.SlotAndColours.Count > 0)
+                    foreach (var sc in cd.SlotAndColours[0].SlotAndColours) s.FindSlot(sc.Slot)?.SetColor(sc.color);
+            }, "idle", () => n++);
+        }
+        Destroy(cam.gameObject);
+        Logger.LogInfo($"portraits: {n} (follower skeleton {(bool)follower}, tarot skeleton {(bool)tarot})");
+    }
+
+    // One skeleton, alone on its layer far from the world: ForceVisible and no worker thread, so it builds its mesh
+    // without the gameplay camera seeing it. Drawn on black and on white; the difference gives the alpha.
+    IEnumerator Portrait(Camera cam, Spine.Unity.SkeletonDataAsset asset, string kind, string id, Action<Spine.Skeleton> setup, string anim, Action done)
+    {
+        Spine.Unity.SkeletonAnimation sa = null;
+        try
+        {
+            sa = Spine.Unity.SkeletonAnimation.NewSkeletonAnimationGameObject(asset);
+            sa.gameObject.layer = PortraitLayer;
+            sa.transform.position = new Vector3(0f, -5000f, 0f);
+            sa.ForceVisible = true;
+            Traverse.Create(sa).Field("useMultithreading").SetValue(false);
+            setup(sa.Skeleton);
+            sa.Skeleton.SetSlotsToSetupPose();
+            var a = asset.GetSkeletonData(true).FindAnimation(anim);
+            if (a != null) sa.AnimationState.SetAnimation(0, a, true);
+            sa.Update(0f);
+            sa.LateUpdate();
+        }
+        catch (Exception e) { Logger.LogWarning($"{kind} {id} portrait: {e.Message}"); if (sa) Destroy(sa.gameObject); yield break; }
+        yield return null;
+        yield return new WaitForEndOfFrame();
+        try
+        {
+            var bounds = sa.GetComponent<MeshRenderer>().bounds;
+            if (bounds.size.x <= 0f || bounds.size.y <= 0f) throw new Exception("empty mesh");
+            cam.transform.SetPositionAndRotation(bounds.center - Vector3.forward * 20f, Quaternion.identity);
+            cam.orthographicSize = Mathf.Max(bounds.extents.x, bounds.extents.y) * 1.06f;
+            var black = Shoot(cam, Color.black);
+            var white = Shoot(cam, Color.white);
+            var px = new Color32[black.Length];
+            for (int i = 0; i < px.Length; i++)
+            {
+                // over black: c*a; over white: c*a + (1-a); so a = 1 - (white - black), c = black / a
+                float alpha = 1f - ((white[i].r - black[i].r) + (white[i].g - black[i].g) + (white[i].b - black[i].b)) / (3f * 255f);
+                byte A = (byte)Mathf.Clamp(Mathf.RoundToInt(alpha * 255f), 0, 255);
+                px[i] = A == 0 ? new Color32(0, 0, 0, 0) : new Color32((byte)Mathf.Min(255, black[i].r / alpha), (byte)Mathf.Min(255, black[i].g / alpha), (byte)Mathf.Min(255, black[i].b / alpha), A);
+            }
+            var tex = new Texture2D(PortraitSize, PortraitSize, TextureFormat.RGBA32, false);
+            tex.SetPixels32(px);
+            tex.Apply();
+            string dir = Path.Combine(outDir, "icons", kind);
+            Directory.CreateDirectory(dir);
+            File.WriteAllBytes(Path.Combine(dir, id + ".png"), tex.EncodeToPNG());
+            Destroy(tex);
+            done();
+        }
+        catch (Exception e) { Logger.LogWarning($"{kind} {id} portrait: {e.Message}"); }
+        finally { Destroy(sa.gameObject); }
+    }
+
+    static Color32[] Shoot(Camera cam, Color background)
+    {
+        var rt = RenderTexture.GetTemporary(PortraitSize, PortraitSize, 24, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
+        cam.backgroundColor = background;
+        cam.targetTexture = rt;
+        cam.Render();
+        var was = RenderTexture.active;
+        RenderTexture.active = rt;
+        var tex = new Texture2D(PortraitSize, PortraitSize, TextureFormat.RGBA32, false);
+        tex.ReadPixels(new Rect(0, 0, PortraitSize, PortraitSize), 0, 0);
+        RenderTexture.active = was;
+        cam.targetTexture = null;
+        RenderTexture.ReleaseTemporary(rt);
+        var px = tex.GetPixels32();
+        Destroy(tex);
+        return px;
     }
 
     void ReadTranslations()
