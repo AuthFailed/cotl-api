@@ -184,6 +184,16 @@ class PackTest(unittest.TestCase):
         self.assertEqual(icon_param["schema"]["enum"], ["LOG", "STONE"])
         self.assertNotIn("/v1/icons/skins/{id}.png", spec["paths"])  # no skin has an icon
 
+    def test_openapi_shows_real_examples_and_links(self):
+        self.pack()
+        spec = json.loads((self.site / "openapi.json").read_text())
+        one = spec["paths"]["/v1/items/{id}.json"]["get"]["responses"]["200"]["content"]["application/json"]["example"]
+        self.assertEqual(one, self.item(one["id"]))
+        many = spec["paths"]["/v1/rituals.json"]["get"]["responses"]["200"]["content"]["application/json"]["example"]
+        self.assertEqual(many[0]["id"], "Ritual_Fast")
+        self.assertIn("changes.json", spec["info"]["description"])
+        self.assertEqual(spec["externalDocs"]["url"], "https://github.com/AuthFailed/cotl-api#readme")
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])

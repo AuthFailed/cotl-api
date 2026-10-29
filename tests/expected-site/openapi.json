@@ -695,8 +695,12 @@
       }
     }
   },
+  "externalDocs": {
+    "description": "README",
+    "url": "https://github.com/AuthFailed/cotl-api#readme"
+  },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.4.6, captured 2026-10-29T12:00:00Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.4.6, captured 2026-10-29T12:00:00Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.4.6"
   },
@@ -708,6 +712,7 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [],
                 "schema": {
                   "$ref": "#/components/schemas/Changes"
                 }
@@ -829,6 +834,20 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "capturedAt": "2026-10-29T12:00:00Z",
+                  "counts": {
+                    "items": 5,
+                    "rituals": 2,
+                    "skins": 2,
+                    "structures": 2
+                  },
+                  "gameVersion": "1.4.6",
+                  "languages": [
+                    "en",
+                    "ru"
+                  ]
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Index"
                 }
@@ -852,6 +871,69 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "category": "Food",
+                    "crop": null,
+                    "description": {},
+                    "descriptionPlain": {},
+                    "icon": null,
+                    "id": "BERRY",
+                    "meal": null,
+                    "name": {
+                      "en": "Berries"
+                    },
+                    "namePlain": {
+                      "en": "Berries"
+                    },
+                    "seed": "SEED",
+                    "tags": [
+                      "food"
+                    ],
+                    "usedIn": {
+                      "items": [
+                        "MEAL_BERRIES"
+                      ],
+                      "rituals": [],
+                      "structures": []
+                    }
+                  },
+                  {
+                    "category": "Resource",
+                    "crop": null,
+                    "description": {
+                      "en": "Wood for building.",
+                      "ru": "Дерево для стройки."
+                    },
+                    "descriptionPlain": {
+                      "en": "Wood for building.",
+                      "ru": "Дерево для стройки."
+                    },
+                    "icon": "icons/items/LOG.png",
+                    "id": "LOG",
+                    "meal": null,
+                    "name": {
+                      "en": "Logs",
+                      "ru": "Брёвна"
+                    },
+                    "namePlain": {
+                      "en": "Logs",
+                      "ru": "Брёвна"
+                    },
+                    "seed": null,
+                    "tags": [],
+                    "usedIn": {
+                      "items": [],
+                      "rituals": [
+                        "Ritual_Feast"
+                      ],
+                      "structures": [
+                        "FARM_PLOT",
+                        "SHRINE_II"
+                      ]
+                    }
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Item"
@@ -895,6 +977,32 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "category": "Food",
+                  "crop": null,
+                  "description": {},
+                  "descriptionPlain": {},
+                  "icon": null,
+                  "id": "BERRY",
+                  "meal": null,
+                  "name": {
+                    "en": "Berries"
+                  },
+                  "namePlain": {
+                    "en": "Berries"
+                  },
+                  "seed": "SEED",
+                  "tags": [
+                    "food"
+                  ],
+                  "usedIn": {
+                    "items": [
+                      "MEAL_BERRIES"
+                    ],
+                    "rituals": [],
+                    "structures": []
+                  }
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Item"
                 }
@@ -918,6 +1026,63 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "alternative": "Ritual_Feast",
+                    "cost": [],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "doctrine": "Food_FastRitual",
+                    "faith": 10.0,
+                    "group": "pair",
+                    "icon": null,
+                    "id": "Ritual_Fast",
+                    "name": {
+                      "en": "Fast",
+                      "ru": "Пост"
+                    },
+                    "namePlain": {
+                      "en": "Fast",
+                      "ru": "Пост"
+                    },
+                    "sin": 0,
+                    "trait": null,
+                    "warmth": 0.0
+                  },
+                  {
+                    "alternative": "Ritual_Fast",
+                    "cost": [
+                      {
+                        "item": "LOG",
+                        "quantity": 5
+                      }
+                    ],
+                    "description": {
+                      "en": "Feed your <color=#FFD201>followers</color>.",
+                      "ru": "Накормите последователей."
+                    },
+                    "descriptionPlain": {
+                      "en": "Feed your followers.",
+                      "ru": "Накормите последователей."
+                    },
+                    "doctrine": "Food_FeastRitual",
+                    "faith": 20.0,
+                    "group": "pair",
+                    "icon": "icons/rituals/Ritual_Feast.png",
+                    "id": "Ritual_Feast",
+                    "name": {
+                      "en": "Feast",
+                      "ru": "Пир"
+                    },
+                    "namePlain": {
+                      "en": "Feast",
+                      "ru": "Пир"
+                    },
+                    "sin": 0,
+                    "trait": null,
+                    "warmth": 0.0
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Ritual"
@@ -958,6 +1123,28 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "alternative": "Ritual_Feast",
+                  "cost": [],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "doctrine": "Food_FastRitual",
+                  "faith": 10.0,
+                  "group": "pair",
+                  "icon": null,
+                  "id": "Ritual_Fast",
+                  "name": {
+                    "en": "Fast",
+                    "ru": "Пост"
+                  },
+                  "namePlain": {
+                    "en": "Fast",
+                    "ru": "Пост"
+                  },
+                  "sin": 0,
+                  "trait": null,
+                  "warmth": 0.0
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Ritual"
                 }
@@ -981,6 +1168,36 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "hidden": false,
+                    "icon": null,
+                    "id": "Cat",
+                    "name": {
+                      "en": "Cat"
+                    },
+                    "namePlain": {
+                      "en": "Cat"
+                    },
+                    "unlock": "Other"
+                  },
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "hidden": true,
+                    "icon": null,
+                    "id": "Deer",
+                    "name": {
+                      "en": "Deer"
+                    },
+                    "namePlain": {
+                      "en": "Deer"
+                    },
+                    "unlock": "Dungeon1"
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Skin"
@@ -1021,6 +1238,20 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "description": {},
+                  "descriptionPlain": {},
+                  "hidden": false,
+                  "icon": null,
+                  "id": "Cat",
+                  "name": {
+                    "en": "Cat"
+                  },
+                  "namePlain": {
+                    "en": "Cat"
+                  },
+                  "unlock": "Other"
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Skin"
                 }
@@ -1044,6 +1275,76 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "buildable": true,
+                    "category": "FOOD",
+                    "cost": [
+                      {
+                        "item": "LOG",
+                        "quantity": 2
+                      }
+                    ],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "icon": "icons/structures/FARM_PLOT.png",
+                    "id": "FARM_PLOT",
+                    "menu": "Follower/Food",
+                    "name": {
+                      "en": "Farm Plot",
+                      "ru": "Грядка"
+                    },
+                    "namePlain": {
+                      "en": "Farm Plot",
+                      "ru": "Грядка"
+                    },
+                    "size": {
+                      "h": 1,
+                      "w": 1
+                    },
+                    "upgradesFrom": null,
+                    "upgradesTo": []
+                  },
+                  {
+                    "buildable": true,
+                    "category": "FAITH",
+                    "cost": [
+                      {
+                        "item": "STONE",
+                        "quantity": 15
+                      },
+                      {
+                        "item": "LOG",
+                        "quantity": 10
+                      }
+                    ],
+                    "description": {
+                      "en": "Gathers more devotion.",
+                      "ru": "Собирает больше веры."
+                    },
+                    "descriptionPlain": {
+                      "en": "Gathers more devotion.",
+                      "ru": "Собирает больше веры."
+                    },
+                    "icon": "icons/structures/SHRINE_II.png",
+                    "id": "SHRINE_II",
+                    "menu": "Faith/General",
+                    "name": {
+                      "en": "Shrine II",
+                      "ru": "Святилище II"
+                    },
+                    "namePlain": {
+                      "en": "Shrine II",
+                      "ru": "Святилище II"
+                    },
+                    "size": {
+                      "h": 3,
+                      "w": 3
+                    },
+                    "upgradesFrom": "SHRINE",
+                    "upgradesTo": []
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Structure"
@@ -1084,6 +1385,35 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "buildable": true,
+                  "category": "FOOD",
+                  "cost": [
+                    {
+                      "item": "LOG",
+                      "quantity": 2
+                    }
+                  ],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "icon": "icons/structures/FARM_PLOT.png",
+                  "id": "FARM_PLOT",
+                  "menu": "Follower/Food",
+                  "name": {
+                    "en": "Farm Plot",
+                    "ru": "Грядка"
+                  },
+                  "namePlain": {
+                    "en": "Farm Plot",
+                    "ru": "Грядка"
+                  },
+                  "size": {
+                    "h": 1,
+                    "w": 1
+                  },
+                  "upgradesFrom": null,
+                  "upgradesTo": []
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Structure"
                 }

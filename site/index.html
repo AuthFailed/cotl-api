@@ -6,9 +6,16 @@
   <title>Cult of the Lamb data API</title>
   <meta name="description" content="Static JSON API with Cult of the Lamb items, structures and follower skins in every game language.">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swagger-ui-dist@5.17.14/swagger-ui.css">
+  <meta name="color-scheme" content="light dark">
   <style>
     body { margin: 0; background: #fafafa; }
     .swagger-ui .topbar { display: none; }
+    /* Swagger UI has no dark theme: invert it, and invert images back so icons keep their colours. */
+    @media (prefers-color-scheme: dark) {
+      body { background: #141414; }
+      .swagger-ui { filter: invert(0.9) hue-rotate(180deg); }
+      .swagger-ui img, .swagger-ui .microlight { filter: invert(1) hue-rotate(180deg); }
+    }
   </style>
 </head>
 <body>

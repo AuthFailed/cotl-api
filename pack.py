@@ -61,8 +61,9 @@ def tree(root: Path) -> dict:
 SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "changes": "Changes"}
 
 
-def openapi(index: dict, ids: dict, icons: dict) -> dict:
-    """OpenAPI description of the site, for the docs page; ids/icons: per kind, the ids that have a file."""
+def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) -> dict:
+    """OpenAPI description of the site, for the docs page; ids/icons: per kind, the ids that have a file;
+    examples: per kind, the first entities, shown as real example responses."""
     schema_dir = Path(__file__).parent / "schema"
     schemas = {}
     for file, name in SCHEMAS.items():
@@ -77,16 +78,16 @@ def openapi(index: dict, ids: dict, icons: dict) -> dict:
             op["parameters"] = [{"name": "id", "in": "path", "required": True, "schema": {"type": "string", "enum": param}}]
         return {"get": op}
 
-    def ref(name, many=False):
+    def ref(name, many=False, example=None):
         s = {"$ref": f"#/components/schemas/{name}"}
-        return {"application/json": {"schema": {"type": "array", "items": s} if many else s}}
+        return {"application/json": {"schema": {"type": "array", "items": s} if many else s, "example": example}}
 
-    paths = {"/v1/index.json": get("index", "Game version, capture date, languages and counts", ref("Index"))}
-    paths["/v1/changes.json"] = get("index", "What each game version added, removed or changed, newest first", ref("Changes"))
+    paths = {"/v1/index.json": get("index", "Game version, capture date, languages and counts", ref("Index", example=index))}
+    paths["/v1/changes.json"] = get("index", "What each game version added, removed or changed, newest first", ref("Changes", example=changes[:1]))
     for kind in KINDS:
         name = SCHEMAS[kind[:-1]]
-        paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True))
-        paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {kind[:-1]}", ref(name), sorted(ids[kind]))
+        paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True, example=examples[kind][:2]))
+        paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {kind[:-1]}", ref(name, example=(examples[kind] or [None])[0]), sorted(ids[kind]))
         if icons[kind]:
             paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {kind[:-1]}'s icon", {"image/png": {}}, sorted(icons[kind]))
     return {
@@ -97,9 +98,12 @@ def openapi(index: dict, ids: dict, icons: dict) -> dict:
             "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game "
                            f"(version {index['gameVersion']}, captured {index['capturedAt']}). Static JSON: no keys, "
                            "no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\n"
+                           "What changed with each game version: [changes.json](/v1/changes.json). Field-by-field "
+                           "documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\n"
                            "Unofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. "
                            "Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
         },
+        "externalDocs": {"description": "README", "url": "https://github.com/AuthFailed/cotl-api#readme"},
         "servers": [{"url": "/"}],
         "tags": [{"name": "index", "description": "What this data is"},
                  {"name": "items", "description": "Resources, food, seeds, necklaces and everything else in the inventory"},
@@ -198,7 +202,8 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     # Swap in whole so ids the game dropped don't linger as stale files.
     shutil.rmtree(site_dir / "v1", ignore_errors=True)
     tmp.rename(site_dir / "v1")
-    write_json(site_dir / "openapi.json", openapi(index, ids, icons))
+    examples = {kind: read_json(site_dir / "v1" / f"{kind}.json")[:2] for kind in KINDS}
+    write_json(site_dir / "openapi.json", openapi(index, ids, icons, examples, read_json(site_dir / "v1" / "changes.json")))
     return index
 
 
