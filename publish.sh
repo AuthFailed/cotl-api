@@ -40,7 +40,7 @@ trap cleanup EXIT
 
 pc "rm -rf $OUT; printf '[General]\nArmed = true\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' > $CFG"
 pc "cat > $PLUGIN" < mod/CotlDataDump.dll
-pc 'DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus nohup steam -applaunch 1313140 >/dev/null 2>&1 &'
+pc 'DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus nohup steam -applaunch 1313140 >/tmp/cotl-launch.log 2>&1 &'
 echo "game launching; waiting for the dump (up to 10 minutes)"
 seen=0
 for _ in $(seq 60); do
