@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 5
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "يمكنك زراعة بذرة لتنمو وتصبح محصولًا.",
+    "de": "Mach aus einem Samen eine ganze Ernte.",
+    "en": "Grow a seed into a crop.",
+    "es": "Para cosechar.",
+    "fr": "Plantez une graine et laissez la magie opérer.",
+    "fr-CA": "Plantez une graine et laissez la magie opérer.",
+    "it": "Dove il seme viene trasformato in una coltura.",
+    "ja": "種を植えて作物を育てるための場所",
+    "ko": "씨앗을 키워 곡식으로 만듭니다.",
+    "nl": "Laat zaden uitgroeien tot gewassen.",
+    "pt-BR": "Faça uma semente virar uma colheita",
+    "ru": "Место, где можно что-нибудь посадить и вырастить.",
+    "tr": "Tohumdan mahsul yetiştir.",
+    "zh-CN": "将种子培育为作物",
+    "zh-TW": "將種子培育為作物"
+  },
+  "icon": "icons/structures/FARM_PLOT.png",
+  "id": "FARM_PLOT",
+  "name": {
+    "ar": "مزرعة",
+    "de": "Ackerparzelle",
+    "en": "Farm Plot",
+    "es": "Parcela",
+    "fr": "Parcelle agricole",
+    "fr-CA": "Parcelle agricole",
+    "it": "Appezzamento",
+    "ja": "農作地",
+    "ko": "밭 경작지",
+    "nl": "Landbouwperceel",
+    "pt-BR": "Terreno Agrícola",
+    "ru": "Участок земли",
+    "tr": "Tarla",
+    "zh-CN": "农地",
+    "zh-TW": "農地"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

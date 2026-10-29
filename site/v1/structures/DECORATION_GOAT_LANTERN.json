@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "أعظم قنديل على الإطلاق!",
+    "de": "Die großartigste Laterne aller Zeiten!",
+    "en": "The greatest lantern of all time!",
+    "es": "El mejor farol del mundo, ¡y no hay más que balar!",
+    "fr": "Cette lanterne va vous rendre chèvre !",
+    "fr-CA": "Cette lanterne va vous faire « chèvre-irer »!",
+    "it": "La più bella lanterna che si sia mai vista!",
+    "ja": "この世で最高のランタン！",
+    "ko": "역사상 최고, 랜턴.",
+    "nl": "De geweldigste lantaarn aller tijden!",
+    "pt-BR": "A melhor lanterna de todos os tempos!",
+    "ru": "Самый рогатый фонарь в мире.",
+    "tr": "İnatla yanmaya devam ediyor.",
+    "zh-CN": "史上最佳灯笼！",
+    "zh-TW": "史上最佳燈籠！"
+  },
+  "icon": "icons/structures/DECORATION_GOAT_LANTERN.png",
+  "id": "DECORATION_GOAT_LANTERN",
+  "name": {
+    "ar": "القنديل الأعظم",
+    "de": "Die Ziegenlaterne",
+    "en": "The Goat Lantern",
+    "es": "Farol de la Cabra",
+    "fr": "Lanterne chèvre",
+    "fr-CA": "Lanterne chèvre",
+    "it": "Lanterna del Capro",
+    "ja": "山羊のランタン",
+    "ko": "염소 랜턴",
+    "nl": "De Geitlantaarn",
+    "pt-BR": "A Lanterna do Bode",
+    "ru": "Козий фонарь",
+    "tr": "Keçi Feneri",
+    "zh-CN": "山羊灯笼",
+    "zh-TW": "山羊燈籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

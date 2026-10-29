@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 1
+    },
+    {
+      "item": "YEW_HOLY",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يصطاد الذئاب لحماية الحيوانات في مَربى الحيوانات وجمع اللحم <sprite name=\"icon_meat\">",
+    "de": "Fängt Wölfe, schützt die Tiere in der Ranch und gewinnt Fleisch. <sprite name=\"icon_meat\">",
+    "en": "Traps wolves, protecting animals in the Ranch and harvesting meat <sprite name=\"icon_meat\">",
+    "es": "Protege a los animales del rancho de los lobos y proporciona carne <sprite name=\"icon_meat\">.",
+    "fr": "Piège les loups, ce qui protège les animaux du ranch et récolte de la viande <sprite name=\"icon_meat\">.",
+    "fr-CA": "Piège les loups, ce qui protège les animaux du ranch et récolte de la viande <sprite name=\"icon_meat\">.",
+    "it": "Intrappola i lupi, proteggendo gli animali dell'Allevamento e recuperandone la carne <sprite name=\"icon_meat\">.",
+    "ja": "オオカミを捕らえるための罠。畜舎の動物を守り、肉 <sprite name=\"icon_meat\"> を入手できる",
+    "ko": "늑대를 잡는 덫으로, 목장의 동물들을 지키고 <sprite name=\"icon_meat\"> 고기를 수확합니다.",
+    "nl": "Vangt wolven, wat dieren in de veeboerderij beschermt en vlees <sprite name=\"icon_meat\"> oplevert.",
+    "pt-BR": "Captura lobos, protegendo os animais no Rancho e coletando carne <sprite name=\"icon_meat\">",
+    "ru": "Устройство, защищающее животных от волков и позволяющее добывать мясо <sprite name=\"icon_meat\">.",
+    "tr": "Kurtları yakalar, Hayvan Çiftliği'ndeki hayvanları korur ve et <sprite name=\"icon_meat\"> toplamaya olanak sağlar.",
+    "zh-CN": "利用陷阱捕狼，保护牧场内的动物并收获肉 <sprite name=\"icon_meat\">",
+    "zh-TW": "利用陷阱捕狼，保護牧場內的動物並收穫肉 <sprite name=\"icon_meat\">。"
+  },
+  "icon": "icons/structures/WOLF_TRAP.png",
+  "id": "WOLF_TRAP",
+  "name": {
+    "ar": "فخ الذئاب",
+    "de": "Wolfsfalle",
+    "en": "Wolf Trap",
+    "es": "Cepo para lobos",
+    "fr": "Piège à loup",
+    "fr-CA": "Piège à loups",
+    "it": "Trappola per lupi",
+    "ja": "オオカミバサミ",
+    "ko": "늑대 덫",
+    "nl": "Wolvenval",
+    "pt-BR": "Armadilha para Lobos",
+    "ru": "Капкан",
+    "tr": "Kurt Kapanı",
+    "zh-CN": "捕狼陷阱",
+    "zh-TW": "捕狼陷阱"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

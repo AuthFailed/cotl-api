@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 6
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "يمكنك العزف في دائرة الطبول وإغواء الأوفياء بالإيقاع... تنتج <color=#FFD201>خطيئة</color> <sprite name=\"icon_SinDoctrine\">",
+    "de": "Tritt beim Trommelkreis auf und führe die Gläubigen mit rhythmischen Beats in Versuchung ... Erzeugt <color=#FFD201>Sünde.</color> <sprite name=\"icon_SinDoctrine\">",
+    "en": "Perform at the Drum Circle and let the rhythmic beats tempt the faithful... Generates <color=#FFD201>Sin</color> <sprite name=\"icon_SinDoctrine\">",
+    "es": "Actúa en el círculo musical y deja que el ritmo tiente a los fieles... Genera <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "fr": "Prenez part au cercle de tambours et laissez le rythme convaincre les fidèles... Génère du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "fr-CA": "Prenez part au cercle de tambours et laissez le rythme s'emparer des fidèles... Génère du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "it": "Esibisciti al Circolo percussivo e lascia che battiti ritmici tentino i fedeli... Genera <color=#FFD201>Peccato</color> <sprite name=\"icon_SinDoctrine\">.",
+    "ja": "ドラムサークルで軽快なリズムを演奏することで信仰心をそそのかす。<color=#FFD201>罪</color> <sprite name=\"icon_SinDoctrine\"> を生成する",
+    "ko": "드럼 서클에서 경쾌한 비트로 신자들을 유혹합니다... <color=#FFD201>죄</color> <sprite name=\"icon_SinDoctrine\">를 만들어냅니다.",
+    "nl": "Doe mee in de trommelkring en laat het ritme trouwe volgelingen in verleiding brengen... Genereert <color=#FFD201>zonde</color> <sprite name=\"icon_SinDoctrine\">",
+    "pt-BR": "Utilize o Círculo de Tambores e deixe que as batidas rítmicas cativem os fiéis... Gera <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "ru": "Место, где можно вовлечь правоверных в танец, увеличивающий <color=#FFD201>греховность</color> <sprite name=\"icon_SinDoctrine\">.",
+    "tr": "Davul Şenliği'nde hünerlerini sergile ve inancına bağlı olanların aklını çel. <color=#FFD201>Günah</color> <sprite name=\"icon_SinDoctrine\"> oluşturur.",
+    "zh-CN": "在击鼓圈圈表演，让击鼓节奏打动信徒……产生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">",
+    "zh-TW": "在擊鼓圈圈表演，讓擊鼓節奏打動信徒……產生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">"
+  },
+  "icon": "icons/structures/DRUM_CIRCLE.png",
+  "id": "DRUM_CIRCLE",
+  "name": {
+    "ar": "دائرة الطبول",
+    "de": "Trommelkreis",
+    "en": "Drum Circle",
+    "es": "Círculo musical",
+    "fr": "Cercle de tambours",
+    "fr-CA": "Cercle de tambours",
+    "it": "Circolo percussivo",
+    "ja": "ドラムサークル",
+    "ko": "드럼 서클",
+    "nl": "Trommelkring",
+    "pt-BR": "Círculo de Tambores",
+    "ru": "Барабанный круг",
+    "tr": "Davul Şenliği",
+    "zh-CN": "击鼓圈圈",
+    "zh-TW": "擊鼓圈圈"
+  },
+  "size": {
+    "h": 4,
+    "w": 4
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": false,
+  "icon": null,
+  "id": "Horse",
+  "name": {
+    "en": "Horse"
+  },
+  "unlock": "Dungeon1"
+}

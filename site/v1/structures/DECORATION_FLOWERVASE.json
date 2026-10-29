@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "FLOWER_RED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "إضافة رقيقة إلى أي قاعدة.",
+    "de": "Eine zierliche Ergänzung für jedes Lager.",
+    "en": "A delicate addition to any base.",
+    "es": "Dale un toque delicado a tu secta.",
+    "fr": "Une touche florale pour agrémenter votre base.",
+    "fr-CA": "Une touche florale pour agrémenter votre camp.",
+    "it": "Un elegante accessorio che rallegra qualsiasi base.",
+    "ja": "どんな場所でも華やかな雰囲気にしてくれる装飾品",
+    "ko": "어느 화분에든 어울리는 섬세한 장식품입니다.",
+    "nl": "Een delicate toevoeging voor een basis.",
+    "pt-BR": "Deixa qualquer base mais delicada",
+    "ru": "Изящное украшение.",
+    "tr": "Her üsse yakışan bir dekor.",
+    "zh-CN": "让任何根据地更添风雅",
+    "zh-TW": "讓任何根據地更添風雅"
+  },
+  "icon": "icons/structures/DECORATION_FLOWERVASE.png",
+  "id": "DECORATION_FLOWERVASE",
+  "name": {
+    "ar": "إناء زهور",
+    "de": "Blumenvase",
+    "en": "Flower Vase",
+    "es": "Jarrón floral",
+    "fr": "Vase de fleurs",
+    "fr-CA": "Vase de fleurs",
+    "it": "Vaso di fiori",
+    "ja": "花瓶",
+    "ko": "꽃병",
+    "nl": "Bloemenvaas",
+    "pt-BR": "Vaso de Flores",
+    "ru": "Ваза с цветами",
+    "tr": "Çiçek Vazosu",
+    "zh-CN": "花瓶",
+    "zh-TW": "花瓶"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

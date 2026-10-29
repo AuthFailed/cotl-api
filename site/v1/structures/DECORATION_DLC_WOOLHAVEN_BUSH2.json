@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "مائلة على جانبها لكنها ما زالت تنمو.",
+    "de": "Zur Seite gestoßen, wächst aber noch immer.",
+    "en": "Knocked to the side, yet still growing.",
+    "es": "Un poco inclinado, pero sigue creciendo.",
+    "fr": "Il pousse de travers, mais il va bon train.",
+    "fr-CA": "Il pousse, même si de travers.",
+    "it": "Continua a crescere solo su un fianco.",
+    "ja": "倒れて斜めになってしまっているが、低木はそれでも育ち続けている",
+    "ko": "한쪽으로 삐뚜름하지만, 그래도 잘 자라고 있습니다.",
+    "nl": "Omgegooid, maar groeit nog steeds.",
+    "pt-BR": "Jogado de lado, mas crescendo.",
+    "ru": "Перекошенный, но всё ещё растущий куст.",
+    "tr": "Yana devrilmiş ama hâlâ yetişiyor.",
+    "zh-CN": "一边被撞歪了，但仍在生长。",
+    "zh-TW": "倒向一邊，但仍在生長。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_BUSH2.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_BUSH2",
+  "name": {
+    "ar": "الشجيرة المائلة",
+    "de": "Krummer Busch",
+    "en": "Crooked Bush",
+    "es": "Arbusto tortuoso",
+    "fr": "Buisson penché",
+    "fr-CA": "Buisson penché",
+    "it": "Cespuglio sbilenco",
+    "ja": "斜めの低木",
+    "ko": "비뚤어진 수풀",
+    "nl": "Scheve struik",
+    "pt-BR": "Arbusto Torto",
+    "ru": "Кривой куст",
+    "tr": "Yamuk Çalı",
+    "zh-CN": "弯曲灌木",
+    "zh-TW": "歪斜樹叢"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

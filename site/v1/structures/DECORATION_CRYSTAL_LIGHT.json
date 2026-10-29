@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "CRYSTAL",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "بلورة كبيرة تصدر وهجًا خافتًا.",
+    "de": "Ein großer Kristall, der sanft schimmert.",
+    "en": "A large crystal that glows softly.",
+    "es": "Un cristal grande que emite una luz suave.",
+    "fr": "Un grand cristal qui émet une douce lumière.",
+    "fr-CA": "Un grand cristal qui émet une douce lumière.",
+    "it": "Un grande cristallo che brilla di luce soffusa.",
+    "ja": "柔らかな光を放つ大きなクリスタルの塊",
+    "ko": "부드럽게 빛나는 거대한 수정입니다.",
+    "nl": "Een groot kristal met een zachte gloed.",
+    "pt-BR": "Um cristal grande que emana pouco brilho",
+    "ru": "Крупный кристалл, испускающий мягкий свет.",
+    "tr": "Loş ışık yayan büyük bir kristal.",
+    "zh-CN": "闪着柔光的大型水晶",
+    "zh-TW": "閃著柔光的大型水晶"
+  },
+  "icon": "icons/structures/DECORATION_CRYSTAL_LIGHT.png",
+  "id": "DECORATION_CRYSTAL_LIGHT",
+  "name": {
+    "ar": "قنديل بلوري",
+    "de": "Kristalllaterne",
+    "en": "Crystal Lantern",
+    "es": "Farol de cristal",
+    "fr": "Cristal lumineux",
+    "fr-CA": "Cristal lumineux",
+    "it": "Lanterna di cristallo",
+    "ja": "クリスタルランタン",
+    "ko": "수정 랜턴",
+    "nl": "Kristallantaarn",
+    "pt-BR": "Lanterna de Cristal",
+    "ru": "Кристальный фонарь",
+    "tr": "Kristal Fener",
+    "zh-CN": "水晶灯",
+    "zh-TW": "水晶燈"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

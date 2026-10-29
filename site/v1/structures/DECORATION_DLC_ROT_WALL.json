@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "مسامٍ وسميك بالإضافة إلى أنه مرن ومتماسك.",
+    "de": "Porös und dicht, schwammig und stark.",
+    "en": "Porous and dense, squishy and strong.",
+    "es": "Poroso y denso, suave y resistente.",
+    "fr": "Poreux et dense, souple et résistant.",
+    "fr-CA": "Poreux et dense, souple et résistant.",
+    "it": "Poroso e denso, molliccio e resistente.",
+    "ja": "穴がたくさん開いたカベ。密度が高くて、柔らかいわりに頑丈",
+    "ko": "통풍 잘되고, 듬직하고, 질척하고, 튼튼합니다.",
+    "nl": "Poreus en vast, zacht en sterk.",
+    "pt-BR": "Permeável e densa, esponjosa e robusta.",
+    "ru": "Пористый и податливый, но твёрдый и прочный.",
+    "tr": "Gözenekli, kalın, yumuşak ve kuvvetli.",
+    "zh-CN": "多孔而致密，柔软而结实。",
+    "zh-TW": "多孔密集，柔軟堅固。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_WALL.png",
+  "id": "DECORATION_DLC_ROT_WALL",
+  "name": {
+    "ar": "حائط فحم التعفن",
+    "de": "Fäulnisbrand-Wall",
+    "en": "Rotburn Wall",
+    "es": "Muro de petrodumbre",
+    "fr": "Mur putrescent",
+    "fr-CA": "Mur putrescent",
+    "it": "Muro di marciolite",
+    "ja": "腐敗石のカベ",
+    "ko": "부패석탄 벽",
+    "nl": "Rotsteenmuur",
+    "pt-BR": "Parede Putrefogo",
+    "ru": "Гнилогарный оплот",
+    "tr": "Çürükateş Duvarı",
+    "zh-CN": "腐烧墙",
+    "zh-TW": "腐燃牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

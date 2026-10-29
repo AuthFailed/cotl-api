@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "BatDemon",
+  "name": {
+    "en": "BatDemon"
+  },
+  "unlock": "SpecialEvents"
+}

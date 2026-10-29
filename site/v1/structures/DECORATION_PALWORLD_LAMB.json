@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "en": "A strange, round thing. Looks familiar..."
+  },
+  "icon": "icons/structures/DECORATION_PALWORLD_LAMB.png",
+  "id": "DECORATION_PALWORLD_LAMB",
+  "name": {
+    "en": "Lamball Statue"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

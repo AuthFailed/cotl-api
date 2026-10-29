@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 3
+    },
+    {
+      "item": "LOG_REFINED",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "يحرق <color=#FD1D03>فحم التعفن</color> <sprite name=\"icon_MagmaStone\"> لتدفئة الطائفة في <color=#FD1D03>الشتاء</color>. سينهي <color=#FD1D03>العواصف الثلجية</color> عندما يكون ممتلئًا إلى أقصى حد لسعته.",
+    "de": "Verbrennt <color=#FD1D03>Fäulnisbrand</color> <sprite name=\"icon_MagmaStone\">, um den Kult im <color=#FD1D03>Winter</color> warmzuhalten. Kann <color=#FD1D03>Schneestürme</color> vertreiben.",
+    "en": "Burns <color=#FD1D03>Rotburn</color> <sprite name=\"icon_MagmaStone\"> to warm the Cult in <color=#FD1D03>winter</color>. Can dispel <color=#FD1D03>blizzards</color>.",
+    "es": "Quema <color=#FD1D03>petrodumbre</color> <sprite name=\"icon_MagmaStone\"> para calentar la secta cuando llega el <color=#FD1D03>invierno</color>. Si se llena del todo, despeja las <color=#FD1D03>ventiscas</color>.",
+    "fr": "Brûle du <color=#FD1D03>charbon putrescent</color> <sprite name=\"icon_MagmaStone\"> pour réchauffer le culte en <color=#FD1D03>hiver</color>. Fait disparaître les <color=#FD1D03>blizzards</color> s'il est à pleine capacité.",
+    "fr-CA": "Brûle du <color=#FD1D03>charbon putrescent</color> <sprite name=\"icon_MagmaStone\"> pour réchauffer la secte en <color=#FD1D03>hiver</color>. Fait disparaître les <color=#FD1D03>blizzards</color> s'il est à pleine capacité.",
+    "it": "Brucia <color=#FD1D03>marciolite</color> <sprite name=\"icon_MagmaStone\"> per riscaldare il Culto in <color=#FD1D03>inverno</color>. Dissipa le <color=#FD1D03>bufere</color> quando è a capienza massima.",
+    "ja": "<color=#FD1D03>腐敗石</color> <sprite name=\"icon_MagmaStone\"> を燃やすことで、<color=#FD1D03>冬</color>の教団を温めてくれる。<color=#FD1D03>吹雪</color>を止められる",
+    "ko": "<color=#FD1D03>겨울</color>에 <color=#FD1D03>부패석탄</color> <sprite name=\"icon_MagmaStone\">을 태워 교단을 따뜻하게 유지합니다. <color=#FD1D03>눈보라</color>를 몰아냅니다.",
+    "nl": "Verbrandt <color=#FD1D03>rotsteen</color> <sprite name=\"icon_MagmaStone\"> om de sekte warm te houden in de <color=#FD1D03>winter</color>. Houdt <color=#FD1D03>sneeuwstormen</color> tegen.",
+    "pt-BR": "Queima <color=#FD1D03>Putrefogo</color> <sprite name=\"icon_MagmaStone\"> para aquecer o Culto no <color=#FD1D03>inverno</color>. Dissipará <color=#FD1D03>nevascas</color> na capacidade total.",
+    "ru": "Печь для сжигания <color=#FD1D03>гнилогара</color> <sprite name=\"icon_MagmaStone\"> и отопления поселения в течение <color=#FD1D03>зимы</color>. Разгоняет <color=#FD1D03>метель</color> при наполнении до предела.",
+    "tr": "<color=#FD1D03>Çürükateş</color> <sprite name=\"icon_MagmaStone\"> yakarak Tarikat'ı <color=#FD1D03>kışın</color> ısıtır. Tamamen doldurulduğu zaman <color=#FD1D03>tipileri</color> durdurur.",
+    "zh-CN": "燃烧<color=#FD1D03>腐烧</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>为教会供暖。可以抵御<color=#FD1D03>暴风雪</color>。",
+    "zh-TW": "<color=#FD1D03>冬天</color>燃燒<color=#FD1D03>腐燃</color> <sprite name=\"icon_MagmaStone\"> 可以溫暖教會。放入一定數量的腐燃時，可以驅散<color=#FD1D03>暴風雪</color>。"
+  },
+  "icon": "icons/structures/FURNACE_2.png",
+  "id": "FURNACE_2",
+  "name": {
+    "ar": "فرن فحم التعفن II",
+    "de": "Fäulnisbrand-Ofen II",
+    "en": "Rotburn Furnace II",
+    "es": "Caldera de petrodumbre II",
+    "fr": "Fourneau à charbon putrescent II",
+    "fr-CA": "Fournaise à charbon putrescent II",
+    "it": "Fornace a marciolite II",
+    "ja": "腐敗石ストーブ II",
+    "ko": "부패석탄 화로 II",
+    "nl": "Rotsteenoven II",
+    "pt-BR": "Fornalha Putrefogo II",
+    "ru": "Гнилогарная печь II",
+    "tr": "Çürükateş Sobası II",
+    "zh-CN": "腐烧火炉 II",
+    "zh-TW": "腐燃爐 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "FURNACE_1"
+}

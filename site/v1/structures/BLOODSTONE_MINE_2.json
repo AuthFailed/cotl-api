@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "سينتج تابع <sprite name=\"icon_stone\">",
+    "de": "Ein Anhänger erzeugt <sprite name=\"icon_stone\">",
+    "en": "A Follower will generate <sprite name=\"icon_stone\">",
+    "es": "Un adepto producirá <sprite name=\"icon_stone\">.",
+    "fr": "Permet à un adepte de miner de la <sprite name=\"icon_stone\">.",
+    "fr-CA": "Permet à un adepte d'extraire de la <sprite name=\"icon_stone\">.",
+    "it": "Un membro del Culto può generarvi <sprite name=\"icon_stone\">.",
+    "ja": "信者が <sprite name=\"icon_stone\"> を生成する場所",
+    "ko": "추종자가 <sprite name=\"icon_stone\">을 생성합니다.",
+    "nl": "Een volgeling genereert <sprite name=\"icon_stone\">",
+    "pt-BR": "Um seguidor gerará <sprite name=\"icon_stone\">",
+    "ru": "Место, где последователи могут добывать <sprite name=\"icon_stone\">.",
+    "tr": "Bir Takipçi'nin <sprite name=\"icon_stone\"> toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产 <sprite name=\"icon_stone\">",
+    "zh-TW": "一位教徒將生產 <sprite name=\"icon_stone\">"
+  },
+  "icon": "icons/structures/BLOODSTONE_MINE_2.png",
+  "id": "BLOODSTONE_MINE_2",
+  "name": {
+    "ar": "المحجر II",
+    "de": "Steinmine II",
+    "en": "Stone Mine II",
+    "es": "Mina de piedra II",
+    "fr": "Mine II",
+    "fr-CA": "Mine II",
+    "it": "Cava II",
+    "ja": "石材坑道 II",
+    "ko": "돌 광산 II",
+    "nl": "Steengroeve II",
+    "pt-BR": "Mina de Pedras II",
+    "ru": "Каменоломня II",
+    "tr": "Taş Madeni II",
+    "zh-CN": "采石场 II",
+    "zh-TW": "採石場 II"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": "BLOODSTONE_MINE"
+}

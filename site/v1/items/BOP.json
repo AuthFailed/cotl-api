@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "عليك جلب <color=#FFD201>بوب</color> إلى <color=#FFD201>بيريث</color> على الجبل.",
+    "de": "Bring <color=#FFD201>Bop</color> zu <color=#FFD201>Berith</color> auf den Berg.",
+    "en": "Bring <color=#FFD201>Bop</color> to <color=#FFD201>Berith</color> on the mountain.",
+    "es": "Lleva a <color=#FFD201>Bop</color> a la montaña para que se reúna con <color=#FFD201>Berith</color>.",
+    "fr": "Amenez <color=#FFD201>Bop</color> à <color=#FFD201>Berith</color> sur la montagne.",
+    "fr-CA": "Amenez <color=#FFD201>Bop</color> à <color=#FFD201>Berith</color> sur la montagne",
+    "it": "Riporta <color=#FFD201>Bop</color> da <color=#FFD201>Berith</color> sulla montagna.",
+    "ja": "山にいる<color=#FFD201>ベリト</color>のところに<color=#FFD201>ボップ</color>を連れていく",
+    "ko": "밥을 산의 베리스에게 데려가세요.",
+    "nl": "Breng <color=#FFD201>Bop</color> naar <color=#FFD201>Berith</color> op de berg.",
+    "pt-BR": "Leve <color=#FFD201>Bop</color> até <color=#FFD201>Berith</color> na montanha.",
+    "ru": "Отнести <color=#FFD201>Бопа</color> к <color=#FFD201>Верифу</color> на гору.",
+    "tr": "<color=#FFD201>Bop</color>'u dağda <color=#FFD201>Berith</color>'e götür.",
+    "zh-CN": "带着<color=#FFD201>巴普</color>去见山上的<color=#FFD201>贝瑞丝</color>。",
+    "zh-TW": "帶著<color=#FFD201>巴普</color>去見山上的<color=#FFD201>貝瑞絲</color>。"
+  },
+  "icon": "icons/items/BOP.png",
+  "id": "BOP",
+  "name": {
+    "ar": "بوب",
+    "de": "Bop",
+    "en": "Bop",
+    "es": "Bop",
+    "fr": "Bop",
+    "fr-CA": "Bop",
+    "it": "Bop",
+    "ja": "ボップ",
+    "ko": "밥",
+    "nl": "Bop",
+    "pt-BR": "Bop",
+    "ru": "Боп",
+    "tr": "Bop",
+    "zh-CN": "巴普",
+    "zh-TW": "巴普"
+  }
+}

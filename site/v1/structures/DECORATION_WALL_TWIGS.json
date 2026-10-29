@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "أقوى من العشب.",
+    "de": "Stabiler als Gras.",
+    "en": "Stronger than grass.",
+    "es": "Más fuerte que la hierba.",
+    "fr": "Plus solide que l'herbe.",
+    "fr-CA": "Plus solide que l'herbe.",
+    "it": "Più resistente di quello d'erba.",
+    "ja": "雑草よりはしっかりしている",
+    "ko": "풀보단 튼튼합니다.",
+    "nl": "Sterker dan gras.",
+    "pt-BR": "Mais forte que mato",
+    "ru": "Более надёжная, чем травяная ограда.",
+    "tr": "Çimden daha sağlam.",
+    "zh-CN": "比青草墙坚固",
+    "zh-TW": "比青草牆堅固"
+  },
+  "icon": "icons/structures/DECORATION_WALL_TWIGS.png",
+  "id": "DECORATION_WALL_TWIGS",
+  "name": {
+    "ar": "حائط الأغصان",
+    "de": "Zweigwall",
+    "en": "Twig Wall",
+    "es": "Muro de palitos",
+    "fr": "Mur de branches",
+    "fr-CA": "Mur de branches",
+    "it": "Muro di ramoscelli",
+    "ja": "枝のカベ",
+    "ko": "잔가지 벽",
+    "nl": "Muur van takken",
+    "pt-BR": "Parede de Galhos",
+    "ru": "Плетёная изгородь",
+    "tr": "Çırpı Duvar",
+    "zh-CN": "树枝墙",
+    "zh-TW": "樹枝牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

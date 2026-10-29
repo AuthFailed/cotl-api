@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "آثار غامضة تفتح <color=#FFD201>أردية</color> جديدة من منصة مجمعك.",
+    "de": "Mystische Relikte, die neue <color=#FFD201>Vliese</color> am Altar deines Tempels freischalten können.",
+    "en": "Mystical relics that can unlock new <color=#FFD201>Fleeces</color> from the Altar in your Temple.",
+    "es": "Las reliquias místicas pueden desbloquear nuevos <color=#FFD201>vellocinos</color> en el altar de tu templo.",
+    "fr": "Les reliques mystiques permettent de débloquer de nouvelles <color=#FFD201>pelisses</color> sur l'Autel du Temple.",
+    "fr-CA": "Les reliques mystiques permettent de débloquer de nouvelles <color=#FFD201>toisons</color> sur l'Autel du Temple.",
+    "it": "Reliquie mistiche che possono sbloccare nuovi <color=#FFD201>velli</color> all'altare del Tempio.",
+    "ja": "神秘の込められた遺物。教会堂内の講壇にて、新たな<color=#FFD201>羊毛</color>をアンロックできる",
+    "ko": "신비로운 유물은 사원의 제단에서 새로운 <color=#FFD201>양털</color>을 해금할 수 있게 해줍니다.",
+    "nl": "Met mystieke relikwieën kun je nieuwe <color=#FFD201>vachten</color> ontgrendelen bij de kansel in je tempel.",
+    "pt-BR": "Relíquias Místicas que podem debloquear novas <color=#FFD201>Lãs</color> no Altar do seu Templo.",
+    "ru": "Древняя реликвия, которая позволяет открывать новые <color=#FFD201>руна</color> в храме.",
+    "tr": "Tapınak'taki Sunak'tan yeni <color=#FFD201>Postlar</color> açmak için kullanabileceğin mistik yadigârlar.",
+    "zh-CN": "能在圣殿祭坛解锁新<color=#FFD201>毛纺</color>的神秘古物。",
+    "zh-TW": "能在聖殿祭壇解鎖新<color=#FFD201>毛紡</color>的神祕古物。"
+  },
+  "icon": "icons/items/TALISMAN.png",
+  "id": "TALISMAN",
+  "name": {
+    "ar": "تميمة عظيمة",
+    "de": "Heiliger Talisman",
+    "en": "Holy Talisman",
+    "es": "Talismán sagrado",
+    "fr": "Talisman sacré",
+    "fr-CA": "Talisman sacré",
+    "it": "Talismano sacro",
+    "ja": "聖なる魔除け",
+    "ko": "성스러운 부적",
+    "nl": "Heilige talisman",
+    "pt-BR": "Talismã Sagrado",
+    "ru": "Священный талисман",
+    "tr": "Kutsal Tılsım",
+    "zh-CN": "神圣护身符",
+    "zh-TW": "神聖護身符"
+  }
+}

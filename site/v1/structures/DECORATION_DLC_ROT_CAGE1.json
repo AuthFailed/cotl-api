@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 1
+    },
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "قفص لاحتجاز الأعداء وإجراء التجارب.",
+    "de": "Ein Käfig für Gegner und Experimente.",
+    "en": "A cage for enemies and experiments.",
+    "es": "Una jaula donde albergar experimentos y enemigos.",
+    "fr": "Une cage pour vos ennemis et autres expériences.",
+    "fr-CA": "Une cage pour vos ennemis et autres expériences.",
+    "it": "Una gabbia per nemici ed esperimenti.",
+    "ja": "敵や実験体を入れるための檻",
+    "ko": "적들과 실험체를 가두는 철창입니다.",
+    "nl": "Een kooi voor vijanden en experimenten.",
+    "pt-BR": "Uma jaula para inimigos e experimentos.",
+    "ru": "Клетка для врагов и жертв экспериментов.",
+    "tr": "Düşmanların ve deneylerin için bir kafes.",
+    "zh-CN": "存放敌人和试验品的笼子。",
+    "zh-TW": "用來裝敵人和實驗品的籠子。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_CAGE1.png",
+  "id": "DECORATION_DLC_ROT_CAGE1",
+  "name": {
+    "ar": "القفص الطويل",
+    "de": "Großer Käfig",
+    "en": "Tall Cage",
+    "es": "Jaula grande",
+    "fr": "Grande cage",
+    "fr-CA": "Grande cage",
+    "it": "Grossa gabbia",
+    "ja": "鉄製の檻",
+    "ko": "큰 철창",
+    "nl": "Hoge kooi",
+    "pt-BR": "Jaula Grande",
+    "ru": "Высокая клетка",
+    "tr": "Uzun Kafes",
+    "zh-CN": "高型笼子",
+    "zh-TW": "高鐵籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

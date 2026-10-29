@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مكون لذيذ صحي صالح للطهي.",
+    "de": "Leckere und gesunde Zutat zum Kochen.",
+    "en": "Delicious and healthy ingredient for cooking.",
+    "es": "Un ingrediente delicioso y saludable para preparar comidas.",
+    "fr": "Ingrédient pour concocter des plats sains.",
+    "fr-CA": "Ingrédient pour concocter des plats sains.",
+    "it": "Ingrediente delizioso e salutare.",
+    "ja": "味もよくて健康にいい、誰もが愛する食料",
+    "ko": "맛있고 요리하기에도 건강한 재료입니다.",
+    "nl": "Een heerlijk en gezond ingrediënt om mee te koken.",
+    "pt-BR": "Um ingrediente de cozinha delicioso e saudável.",
+    "ru": "Основа вкусных и полезных блюд.",
+    "tr": "Lezzetli ve sağlıklı bir yemek malzemesi.",
+    "zh-CN": "美味又健康的料理食材。",
+    "zh-TW": "美味又健康的料理食材。"
+  },
+  "icon": "icons/items/CAULIFLOWER.png",
+  "id": "CAULIFLOWER",
+  "name": {
+    "ar": "قرنبيط",
+    "de": "Blumenkohl",
+    "en": "Cauliflower",
+    "es": "Coliflor",
+    "fr": "Chou-fleur",
+    "fr-CA": "Chou-fleur",
+    "it": "Cavolfiore",
+    "ja": "カリフラワー",
+    "ko": "콜리플라워",
+    "nl": "Bloemkool",
+    "pt-BR": "Couve-Flor",
+    "ru": "Цветная капуста",
+    "tr": "Karnabahar",
+    "zh-CN": "花菜",
+    "zh-TW": "白花椰菜"
+  }
+}

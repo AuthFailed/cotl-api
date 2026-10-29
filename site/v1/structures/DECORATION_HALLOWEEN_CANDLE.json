@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 3
+    },
+    {
+      "item": "GRASS",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "شمعة زخرفية لإحياء ذكرى قمر الدم",
+    "de": "Eine dekorative Kerze zur Feier des Blutmondes.",
+    "en": "A decorative candle to commemorate the Blood Moon",
+    "es": "Una vela decorativa que conmemora la luna de sangre.",
+    "fr": "Une bougie décorative en l'honneur de la lune de sang.",
+    "fr-CA": "Une bougie décorative en l'honneur de la lune de sang.",
+    "it": "Una candela decorativa per commemorare la Luna di sangue.",
+    "ja": "紅血の月をお祝いするための装飾用ロウソク",
+    "ko": "핏빛 달을 기념하기 위한 장식용 촛대입니다.",
+    "nl": "Een decoratieve kaars ter ere van de bloedmaan.",
+    "pt-BR": "Uma vela decorativa para comemorar a Lua de Sangue",
+    "ru": "Декоративная свеча, напоминающая о восходе кровавой луны.",
+    "tr": "Kanlı Ay'ın anısına yakılmış dekoratif bir mum.",
+    "zh-CN": "纪念血月的装饰用蜡烛",
+    "zh-TW": "紀念血月的裝飾用蠟燭"
+  },
+  "icon": "icons/structures/DECORATION_HALLOWEEN_CANDLE.png",
+  "id": "DECORATION_HALLOWEEN_CANDLE",
+  "name": {
+    "ar": "شمعة قمر الدم",
+    "de": "Blutmond-Kerze",
+    "en": "Blood Moon Candle",
+    "es": "Vela de luna de sangre",
+    "fr": "Bougie de la lune de sang",
+    "fr-CA": "Bougie de la lune de sang",
+    "it": "Candela della Luna di sangue",
+    "ja": "紅血の月のロウソク",
+    "ko": "핏빛 달 촛대",
+    "nl": "Bloedmaankaars",
+    "pt-BR": "Vela da Lua de Sangue",
+    "ru": "Кровавая свеча",
+    "tr": "Kanlı Ay Mumu",
+    "zh-CN": "血月蜡烛",
+    "zh-TW": "血月蠟燭"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

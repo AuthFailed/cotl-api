@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 25
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "تمنع الطيور من سرقة البذور من <color=#FFD201>المزارع</color> التي في نطاقها.",
+    "de": "Hält Vögel davon ab, Saatgut von <color=#FFD201>Ackerparzellen</color> in Reichweite zu stehlen.",
+    "en": "Prevents birds from stealing the seeds from <color=#FFD201>Farm Plots</color> within range.",
+    "es": "Evita que los pájaros roben las semillas de las <color=#FFD201>parcelas</color> que estén dentro de su alcance.",
+    "fr": "Empêche les oiseaux de voler les graines des <color=#FFD201>parcelles agricoles</color> à proximité.",
+    "fr-CA": "Empêche les oiseaux de voler les graines des <color=#FFD201>parcelles agricoles</color> à proximité.",
+    "it": "Impedisce agli uccelli di rubare i semi dagli <color=#FFD201>Appezzamenti</color> nel raggio d'azione.",
+    "ja": "範囲内の<color=#FFD201>農作地</color>に植えられた種を狙う鳥を追い払ってくれる",
+    "ko": "범위 내 <color=#FFD201>밭 경작지</color>에서 씨앗을 훔치려는 새들을 막습니다.",
+    "nl": "Voorkomt dat vogels de zaden van <color=#FFD201>landbouwpercelen</color> binnen bereik stelen.",
+    "pt-BR": "Impede que os pássaros roubem sementes dos <color=#FFD201>Terrenos Agrícolas</color> dentro do alcance.",
+    "ru": "Чучело, отпугивающее птиц от <color=#FFD201>участков земли</color> в радиусе действия.",
+    "tr": "Kuşların menzil içindeki <color=#FFD201>Tarlalardan</color> tohum çalmasını önler.",
+    "zh-CN": "防止鸟偷走<color=#FFD201>农地</color>范围内的种子",
+    "zh-TW": "防止鳥偷走範圍內<color=#FFD201>農地</color>裡的種子"
+  },
+  "icon": "icons/structures/SCARECROW.png",
+  "id": "SCARECROW",
+  "name": {
+    "ar": "الفزّاعة",
+    "de": "Vogelscheuche",
+    "en": "Scarecrow",
+    "es": "Espantapájaros",
+    "fr": "Épouvantail",
+    "fr-CA": "Épouvantail",
+    "it": "Spaventapasseri",
+    "ja": "かかし",
+    "ko": "허수아비",
+    "nl": "Vogelverschrikker",
+    "pt-BR": "Espantalho",
+    "ru": "Пугало",
+    "tr": "Korkuluk",
+    "zh-CN": "稻草人",
+    "zh-TW": "稻草羊"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

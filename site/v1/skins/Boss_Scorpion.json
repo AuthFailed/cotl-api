@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Scorpion",
+  "name": {
+    "en": "Boss Scorpion"
+  },
+  "unlock": "Dungeon4"
+}

@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 10
+    },
+    {
+      "item": "GRASS",
+      "quantity": 20
+    },
+    {
+      "item": "LOG_REFINED",
+      "quantity": 15
+    }
+  ],
+  "description": {
+    "ar": "مكان لتفقيس البيض.",
+    "de": "Ein Ort, um Eier auszubrüten.",
+    "en": "A place for eggs to hatch.",
+    "es": "Para que los huevos eclosionen.",
+    "fr": "Un lieu pour faire éclore les œufs.",
+    "fr-CA": "Un lieu pour faire éclore les œufs.",
+    "it": "Un luogo dove far schiudere le uova.",
+    "ja": "タマゴをふ化する場所",
+    "ko": "알을 이곳에 놓아 부화시킵니다.",
+    "nl": "Een plaats waar eieren uitgebroed worden.",
+    "pt-BR": "Um lugar para chocar ovos.",
+    "ru": "Место, где вылупляются яйца.",
+    "tr": "Yumurtaların kuluçka dönemini geçirebileceği bir yer.",
+    "zh-CN": "供蛋孵化之处。",
+    "zh-TW": "供蛋孵化之處。"
+  },
+  "icon": "icons/structures/HATCHERY.png",
+  "id": "HATCHERY",
+  "name": {
+    "ar": "المفقس",
+    "de": "Brutstätte",
+    "en": "Hatchery",
+    "es": "Incubadora",
+    "fr": "Couveuse",
+    "fr-CA": "Couveuse",
+    "it": "Incubatrice",
+    "ja": "ふ化場",
+    "ko": "부화장",
+    "nl": "Broedplaats",
+    "pt-BR": "Chocadeira",
+    "ru": "Инкубатор",
+    "tr": "Kuluçkalık",
+    "zh-CN": "孵化所",
+    "zh-TW": "孵化所"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

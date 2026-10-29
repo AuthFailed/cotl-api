@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "يمكنك وضع الجثث فيه لتحويلها إلى سماد.",
+    "de": "Deponiere Leichen, um sie in Dünger zu verwandeln.",
+    "en": "Deposit dead bodies to turn them into fertilizer.",
+    "es": "Deposita aquí los cadáveres para convertirlos en fertilizante.",
+    "fr": "Permet de transformer les cadavres en fertilisant.",
+    "fr-CA": "Permet de transformer les cadavres en fertilisant.",
+    "it": "Trasforma i cadaveri depositati in concime.",
+    "ja": "死体を入れると分解し、肥料へと変えてくれる",
+    "ko": "시체를 배치해 퇴비로 만듭니다.",
+    "nl": "Leg hier lijken om ze in mest te veranderen.",
+    "pt-BR": "Deposite cadáveres para transformá-los em fertilizantes",
+    "ru": "Сооружение, где можно превращать трупы в удобрение.",
+    "tr": "Cesetleri gübreye dönüştür.",
+    "zh-CN": "存放遗体并转化为肥料",
+    "zh-TW": "存放遺體並化為肥料"
+  },
+  "icon": "icons/structures/COMPOST_BIN_DEAD_BODY.png",
+  "id": "COMPOST_BIN_DEAD_BODY",
+  "name": {
+    "ar": "صندوق الدفن الطبيعي",
+    "de": "Natürliche Bestattung",
+    "en": "Natural Burial",
+    "es": "Sepultura natural",
+    "fr": "Fosse naturelle",
+    "fr-CA": "Fosse naturelle",
+    "it": "Sepoltura ecologica",
+    "ja": "堆肥葬施設",
+    "ko": "수목장",
+    "nl": "Natuurbegrafenis",
+    "pt-BR": "Sepultamento Natural",
+    "ru": "Компостное захоронение",
+    "tr": "Doğal Defin",
+    "zh-CN": "自然葬点",
+    "zh-TW": "自然葬點"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

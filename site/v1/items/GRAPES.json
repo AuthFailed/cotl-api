@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يُستخدم في صنع المشروبات.",
+    "de": "Wird für Getränke verwendet.",
+    "en": "Used to make drinks.",
+    "es": "Se usa para elaborar bebidas.",
+    "fr": "Permet de préparer des boissons.",
+    "fr-CA": "Permet de préparer des boissons.",
+    "it": "Impiegata nella preparazione di bevande.",
+    "ja": "飲み物の作成に使う",
+    "ko": "음료를 만듭니다.",
+    "nl": "Hiermee worden dranken gebrouwen.",
+    "pt-BR": "Usada para criar bebidas.",
+    "ru": "Растение, использующееся для изготовления напитков.",
+    "tr": "İçecek yapmak için kullanılır.",
+    "zh-CN": "用于制作饮料。",
+    "zh-TW": "用於製作飲料。"
+  },
+  "icon": "icons/items/GRAPES.png",
+  "id": "GRAPES",
+  "name": {
+    "ar": "عنب",
+    "de": "Trauben",
+    "en": "Grapes",
+    "es": "Uvas",
+    "fr": "Raisin",
+    "fr-CA": "Raisin",
+    "it": "Uva",
+    "ja": "ブドウ",
+    "ko": "포도",
+    "nl": "Druiven",
+    "pt-BR": "Uvas",
+    "ru": "Виноград",
+    "tr": "Üzüm",
+    "zh-CN": "葡萄",
+    "zh-TW": "葡萄"
+  }
+}

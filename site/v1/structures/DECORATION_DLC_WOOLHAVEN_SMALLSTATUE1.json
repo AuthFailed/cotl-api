@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "تصوير بسيط لسيدة البرد.",
+    "de": "Eine kleine Darstellung der kalten Göttin.",
+    "en": "A small rendering of the cold God.",
+    "es": "Una representación muy modesta del dios del invierno.",
+    "fr": "Une version miniature de la déesse glaciale.",
+    "fr-CA": "Une version miniature de la déesse glaciale.",
+    "it": "Una piccola rappresentazione della divinità del freddo.",
+    "ja": "凍える神の姿を模した、小さな石像",
+    "ko": "냉혹한 신을 구현한 작은 형상.",
+    "nl": "Een kleine voorstelling van de koude god.",
+    "pt-BR": "Uma pequena representação da Deusa frígida.",
+    "ru": "Небольшое изваяние холодной богини.",
+    "tr": "Soğuk Tanrı'nın minik bir tasviri.",
+    "zh-CN": "一座冷酷之神的小雕像。",
+    "zh-TW": "寒冷之神的小灰泥像。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+  "name": {
+    "ar": "تمثال إينغيا",
+    "de": "Yngya-Idol",
+    "en": "Yngya Idol",
+    "es": "Ídolo de Yngya",
+    "fr": "Idole d'Yngya",
+    "fr-CA": "Idole d'Yngya",
+    "it": "Idolo Yngya",
+    "ja": "イングャの偶像",
+    "ko": "잉갸 우상",
+    "nl": "Yngya-idool",
+    "pt-BR": "Ídolo de Yngya",
+    "ru": "Идол Ингьи",
+    "tr": "Yngya Heykelciği",
+    "zh-CN": "殷亚神像",
+    "zh-TW": "殷亞神像"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

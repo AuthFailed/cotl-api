@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 10
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "مزار لتخليد ذكرى روح بائسة.",
+    "de": "Ein Schrein im Andenken an eine traurige Seele.",
+    "en": "A shrine in memory of a sorrowful soul.",
+    "es": "Un santuario en honor a un alma en pena.",
+    "fr": "Un autel érigé à la mémoire d'une âme en peine.",
+    "fr-CA": "Un autel érigé à la mémoire d'une âme en peine.",
+    "it": "Un santuario in memoria di un'anima afflitta.",
+    "ja": "悲しみに涙を流す魂を模した祭壇",
+    "ko": "슬픈 영혼의 기억이 담긴 신단입니다.",
+    "nl": "Een altaar ter nagedachtenis aan een bedroefde ziel.",
+    "pt-BR": "Um santuário em memória de uma alma pesarosa",
+    "ru": "Память о скорбной душе.",
+    "tr": "Hüzünlü bir ruhun anısına yapılmış bir mabet.",
+    "zh-CN": "纪念哀伤灵魂的圣坛",
+    "zh-TW": "紀念哀傷靈魂的聖壇"
+  },
+  "icon": "icons/structures/DECORATION_WEEPINGSHRINE.png",
+  "id": "DECORATION_WEEPINGSHRINE",
+  "name": {
+    "ar": "المزار الباكي",
+    "de": "Schrein des Weinens",
+    "en": "Weeping Shrine",
+    "es": "Santuario llorón",
+    "fr": "Autel des larmes",
+    "fr-CA": "Autel des larmes",
+    "it": "Santuario del pianto",
+    "ja": "嘆きの祭壇",
+    "ko": "우는 신단",
+    "nl": "Schreiend altaar",
+    "pt-BR": "Santuário Choroso",
+    "ru": "Плачущий алтарь",
+    "tr": "Ağlayan Mabet",
+    "zh-CN": "哭泣圣坛",
+    "zh-TW": "哭泣聖壇"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

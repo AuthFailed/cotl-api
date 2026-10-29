@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "ربما يُستخدم لإيواء شيء ثمين؟",
+    "de": "Wird vielleicht genutzt, um etwas Kostbares aufzubewahren.",
+    "en": "Perhaps used to house something precious?",
+    "es": "Puede que albergara algo valioso.",
+    "fr": "Peut-être abrite-t-elle quelque chose de précieux ?",
+    "fr-CA": "Peut-être qu'elle abrite quelque chose de précieux?",
+    "it": "Forse può ospitare qualcosa di prezioso?",
+    "ja": "中に入った大切なものを守るためのもの？",
+    "ko": "귀중한 물건을 담을 수 있을지도?",
+    "nl": "Wellicht gebruikt om iets kostbaars te herbergen?",
+    "pt-BR": "Possivelmente usado para guardar algo precioso.",
+    "ru": "Место, где раньше могли хранить что-то ценное.",
+    "tr": "Belki de içinde değerli bir şeyler saklıdır.",
+    "zh-CN": "或许曾经存放过贵重宝物？",
+    "zh-TW": "或許曾經存放過貴重寶物？"
+  },
+  "icon": "icons/structures/DECORATION_PILGRIM_PAGODA.png",
+  "id": "DECORATION_PILGRIM_PAGODA",
+  "name": {
+    "ar": "هيكل صغير",
+    "de": "Kleine Pagode",
+    "en": "Small Pagoda",
+    "es": "Pagoda pequeña",
+    "fr": "Petite pagode",
+    "fr-CA": "Petite pagode",
+    "it": "Piccola pagoda",
+    "ja": "ミニチュアの仏塔",
+    "ko": "소형 탑",
+    "nl": "Kleine pagode",
+    "pt-BR": "Pagode Pequeno",
+    "ru": "Маленькая пагода",
+    "tr": "Küçük Pagoda",
+    "zh-CN": "小型宝塔",
+    "zh-TW": "小型寶塔"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

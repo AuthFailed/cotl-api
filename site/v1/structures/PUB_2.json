@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 20
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 12
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تحضير مشروبات لأتباعك لإنتاج <color=#FFD201>خطيئة</color> <sprite name=\"icon_SinDoctrine\"> <br>يخزن مشروبات أكثر.",
+    "de": "Braue Getränke für deine Anhänger, um <color=#FFD201>Sünde</color> <sprite name=\"icon_SinDoctrine\"> zu erzeugen.<br>Lagert mehr Getränke.",
+    "en": "Brew drinks for your Followers to generate <color=#FFD201>Sin</color> <sprite name=\"icon_SinDoctrine\"> <br>Stores more drinks.",
+    "es": "Elabora bebidas para que tus adeptos generen <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\"> <br>Almacena más bebidas.",
+    "fr": "Préparez des boissons pour que vos adeptes génèrent du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\"><br>. Peut contenir plus de boissons.",
+    "fr-CA": "Préparez des boissons pour que vos adeptes génèrent du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.<br>Peut contenir plus de boissons.",
+    "it": "Prepara bevande per i membri del Culto, generando <color=#FFD201>Peccato</color> <sprite name=\"icon_SinDoctrine\">.<br>Conserva più bevande.",
+    "ja": "信者に<color=#FFD201>罪</color> <sprite name=\"icon_SinDoctrine\"> を生成させるための飲み物を醸造する<br>より多くの飲み物を保管できる",
+    "ko": "추종자들이 술을 마시고 <color=#FFD201>죄</color> <sprite name=\"icon_SinDoctrine\">를 만들어내게 합니다.<br>더 많은 술을 보관합니다.",
+    "nl": "Brouw dranken voor je volgelingen om <color=#FFD201>zonde</color> <sprite name=\"icon_SinDoctrine\"> te genereren. <br>Biedt meer plaats voor dranken.",
+    "pt-BR": "Prepare bebidas para seus Seguidores, que gerarão <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\"> <br>Armazena mais bebidas.",
+    "ru": "Заведение, в котором можно готовить больше напитков, увеличивающих <color=#FFD201>греховность</color> <sprite name=\"icon_SinDoctrine\">.",
+    "tr": "<color=#FFD201>Günah</color> <sprite name=\"icon_SinDoctrine\"> oluşturmak için Takipçilerine içecek hazırla. <br>Daha fazla içecek depolar.",
+    "zh-CN": "为教徒酿制饮料，产生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\"> <br>可存放更多饮料。",
+    "zh-TW": "為教徒釀製飲料，產生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\"> <br>可存放更多飲料。"
+  },
+  "icon": "icons/structures/PUB_2.png",
+  "id": "PUB_2",
+  "name": {
+    "ar": "المشرب II",
+    "de": "Getränkehaus II",
+    "en": "Drinkhouse II",
+    "es": "Tasca II",
+    "fr": "Buvette II",
+    "fr-CA": "Buvette II",
+    "it": "Bevanderia II",
+    "ja": "ドリンクスタンド II",
+    "ko": "음료소 II",
+    "nl": "Drankhuis II",
+    "pt-BR": "Taverna II",
+    "ru": "Питейное заведение II",
+    "tr": "İçecek İstasyonu II",
+    "zh-CN": "调饮室 II",
+    "zh-TW": "調飲所 II"
+  },
+  "size": {
+    "h": 4,
+    "w": 4
+  },
+  "upgradesFrom": "PUB"
+}

@@ -1,0 +1,46 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "نحته نحّات ماهر.",
+    "de": "Von einem Meister geformt.",
+    "en": "Shaped by a master.",
+    "es": "Diseñada por una mano experta.",
+    "fr": "Conçue d'une main de maître.",
+    "fr-CA": "Conçue d'une main de maître.",
+    "it": "Plasmato da un mastro artigiano.",
+    "ja": "職人の手によるランプ",
+    "ko": "장인의 손길을 거쳤습니다.",
+    "nl": "Gevormd door een meester.",
+    "pt-BR": "Criado por quem domina sua arte.",
+    "ru": "Украшение, созданное искусным плотником.",
+    "tr": "Bir usta tarafından şekillendirilmiş.",
+    "zh-CN": "大师削制而成。",
+    "zh-TW": "大師削製而成。"
+  },
+  "icon": "icons/structures/DECORATION_APPLE_LANTERN.png",
+  "id": "DECORATION_APPLE_LANTERN",
+  "name": {
+    "ar": "عمود إنارة منحوت",
+    "de": "Geschnitzter Laternenpfahl",
+    "en": "Whittled Lamp Post",
+    "es": "Farola tallada",
+    "fr": "Lampadaire sculpté",
+    "fr-CA": "Lampadaire sculpté",
+    "it": "Lampione intagliato",
+    "ja": "ツリーランプ",
+    "ko": "나무조각 등불",
+    "nl": "Uitgesneden lantaarnpaal",
+    "pt-BR": "Poste de Luz Talhado",
+    "ru": "Выточенный фонарный столб",
+    "tr": "Oyulmuş Lamba Direği",
+    "zh-CN": "木制灯柱",
+    "zh-TW": "木製燈柱"
+  },
+  "size": null,
+  "upgradesFrom": null
+}

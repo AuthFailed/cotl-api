@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 1
+    },
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "في حال لم يرَ أعداؤك التحذير الأول.",
+    "de": "Für den Fall, dass deine Feinde die erste Warnung übersehen haben.",
+    "en": "In case your enemies missed the first warning.",
+    "es": "Por si a tus enemigos les cuesta pillar las indirectas.",
+    "fr": "Si jamais vos ennemis ont manqué le premier avertissement.",
+    "fr-CA": "Si jamais vos ennemis ont manqué le premier avertissement.",
+    "it": "Nel caso in cui i tuoi nemici non avessero notato il primo avvertimento.",
+    "ja": "1つ目の警告を見逃した敵のための装飾",
+    "ko": "혹시 못 봤을까 봐 다시 보내는 경고입니다.",
+    "nl": "Voor als je vijanden de eerste waarschuwing hadden gemist.",
+    "pt-BR": "Para os inimigos que ignoraram o primeiro aviso.",
+    "ru": "Повторное предупреждение для ваших врагов.",
+    "tr": "Düşmanların ilk uyarıyı görmedilerse diye.",
+    "zh-CN": "以防敌人错过了第一个警告。",
+    "zh-TW": "以免敵人錯過第一個警告。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_CULTIST2.png",
+  "id": "DECORATION_DLC_WOLF_CULTIST2",
+  "name": {
+    "ar": "عضو طائفة مخوزق II",
+    "de": "Aufgespießter Kultist II",
+    "en": "Piked Cultist II",
+    "es": "Adepto ensartado II",
+    "fr": "Cultiste embroché II",
+    "fr-CA": "Adepte embroché II",
+    "it": "Cultista impalato II",
+    "ja": "串刺しの異端者 II",
+    "ko": "창꽂이 교단원 II",
+    "nl": "Gespietst sektelid II",
+    "pt-BR": "Cultista Empalado II",
+    "ru": "Язычник на колу II",
+    "tr": "Kazığa Oturtulmuş Tarikatçı II",
+    "zh-CN": "被刺穿的教徒 II",
+    "zh-TW": "被刺穿的邪教徒 II"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

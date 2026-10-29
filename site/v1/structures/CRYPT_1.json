@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 20
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "لدفن عديد من الأتباع الموتى وتجنب تعفن الجثث.",
+    "de": "Bette mehrere tote Anhänger zur letzten Ruhe. Vermeidet verwesende Leichen.",
+    "en": "Lay multiple dead Followers to rest. Avoids rotting corpses.",
+    "es": "Otorga reposo a varios adeptos muertos y evita que los cuerpos se descompongan.",
+    "fr": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient.",
+    "fr-CA": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient.",
+    "it": "Vi puoi seppellire più membri del Culto defunti, evitandone la decomposizione.",
+    "ja": "信者の死体を複数埋葬するための施設。死体の腐敗を防ぐ",
+    "ko": "여러 명의 죽은 추종자들을 안치합니다. 시체가 썩는 것을 방지합니다.",
+    "nl": "Leg meerdere dode volgelingen te ruste. Zo voorkom je dat lijken gaan rotten.",
+    "pt-BR": "Posicione vários Seguidores mortos para que eles descansem. Evita o apodrecimento de cadáveres.",
+    "ru": "Усыпальница, в которой можно упокоить несколько мёртвых последователей. Тела не разлагаются.",
+    "tr": "Birden fazla ölü Takipçi'yi gömebilirsin. Cesetlerin çürümesini önler.",
+    "zh-CN": "能埋葬多位死去的教徒，避免尸体腐烂",
+    "zh-TW": "能埋葬多位死去的教徒，避免屍體腐爛"
+  },
+  "icon": "icons/structures/CRYPT_1.png",
+  "id": "CRYPT_1",
+  "name": {
+    "ar": "السرداب",
+    "de": "Gruft",
+    "en": "Crypt",
+    "es": "Cripta",
+    "fr": "Crypte",
+    "fr-CA": "Crypte",
+    "it": "Cripta",
+    "ja": "地下墓地",
+    "ko": "지하묘실",
+    "nl": "Crypte",
+    "pt-BR": "Cripta",
+    "ru": "Склеп",
+    "tr": "Mezar Odası",
+    "zh-CN": "墓室",
+    "zh-TW": "墓室"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

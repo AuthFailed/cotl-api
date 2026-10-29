@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "جماجم مكومة.",
+    "de": "Aufeinandergestapelte Schädel.",
+    "en": "Skulls in a pile.",
+    "es": "Pues eso, un montón de calaveras.",
+    "fr": "Trois crânes lugubres.",
+    "fr-CA": "Une pile de crânes lugubres.",
+    "it": "Una pila di teschi.",
+    "ja": "段々に積まれた頭蓋骨",
+    "ko": "해골 더미입니다.",
+    "nl": "Een hoop schedels.",
+    "pt-BR": "Crânios empilhados",
+    "ru": "Черепа, сваленные в кучу.",
+    "tr": "Üst üste dizilmiş kafatasları.",
+    "zh-CN": "一堆头骨堆成柱子",
+    "zh-TW": "一疊頭骨"
+  },
+  "icon": "icons/structures/DECORATION_BONE_PILLAR.png",
+  "id": "DECORATION_BONE_PILLAR",
+  "name": {
+    "ar": "كومة جماجم",
+    "de": "Schädelstapel",
+    "en": "Pile O' Skulls",
+    "es": "Montón de calaveras",
+    "fr": "Trio de crânes",
+    "fr-CA": "Trio de crânes",
+    "it": "Teschi impilati",
+    "ja": "パイル・オ・スカル",
+    "ko": "해골 더미",
+    "nl": "Schedelstapel",
+    "pt-BR": "Monte de Crânios",
+    "ru": "Стопка черепов",
+    "tr": "Kafatası Yığını",
+    "zh-CN": "头骨柱",
+    "zh-TW": "頭骨疊"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

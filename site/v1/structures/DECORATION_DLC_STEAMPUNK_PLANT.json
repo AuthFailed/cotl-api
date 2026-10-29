@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    },
+    {
+      "item": "GRASS",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ما فائدة كل تلك المؤشرات والعدادات...؟",
+    "de": "Wozu sind all die Ziffernblätter und Anzeigen überhaupt gut …?",
+    "en": "What do all those dials and gauges even do...?",
+    "es": "¿Para qué sirven todos esos diales y válvulas?",
+    "fr": "À quoi peuvent bien servir tous ces cadrans et ces jauges... ?",
+    "fr-CA": "À quoi peuvent bien servir tous ces cadrans et ces jauges?",
+    "it": "A che serviranno poi tutti quelle ghiere e quei manometri...?",
+    "ja": "ダイヤルとか計量器とか、何のために付いてるんだろ…？",
+    "ko": "이 다이얼이랑 게이지는 다 어디다 쓰는 거람...?",
+    "nl": "Wat doen al die wijzertjes en meters überhaupt...?",
+    "pt-BR": "O que esses mostradores e aferidores fazem...?",
+    "ru": "Украшение с датчиками и регуляторами туманного назначения.",
+    "tr": "Bu göstergeler ne işe yarıyor acaba?",
+    "zh-CN": "这么多刻度盘和仪表是干什么用的……？",
+    "zh-TW": "那些錶盤和儀表到底有什麼功用……？"
+  },
+  "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_PLANT.png",
+  "id": "DECORATION_DLC_STEAMPUNK_PLANT",
+  "name": {
+    "ar": "نبتة سرو الشاة",
+    "de": "Eibenholz-Pflanze",
+    "en": "Yewbark Plant",
+    "es": "Planta de corteza de tejo",
+    "fr": "Plante en pot d'écorce d'if",
+    "fr-CA": "Plante en pot d'écorce d'if",
+    "it": "Pianta in legno di tasso",
+    "ja": "樹皮製の木鉢",
+    "ko": "주목나무 화분",
+    "nl": "Taxushouten plant",
+    "pt-BR": "Planta de Teixo",
+    "ru": "Растение в овциновом горшке",
+    "tr": "Porsukkabuğu Bitki",
+    "zh-CN": "紫衫绿植",
+    "zh-TW": "紫杉植物"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "طعام مغذٍ يهواه النهمون.",
+    "de": "Ein nahrhaftes Lebensmittel zum Reinbeißen.",
+    "en": "A nourishing food to sink your teeth into.",
+    "es": "Un alimento muy nutritivo al que puedes hincarle el diente.",
+    "fr": "Un aliment riche à se mettre sous la dent.",
+    "fr-CA": "Un aliment riche à se mettre sous la dent.",
+    "it": "Un alimento nutriente in cui affondare i denti.",
+    "ja": "思わず噛みつきたくなる、栄養満点の食料",
+    "ko": "침이 흐르게 만드는 영양가 많은 음식입니다.",
+    "nl": "Een voedzaam voedingsmiddel om je tanden in te zetten.",
+    "pt-BR": "Uma refeição nutritiva para você cravar seus dentes.",
+    "ru": "Ингредиент сытных блюд.",
+    "tr": "Tam dişine göre besleyici bir yiyecek.",
+    "zh-CN": "有营养的食物，可大口咬下。",
+    "zh-TW": "有營養的食物，可大口咬下。"
+  },
+  "icon": "icons/items/MEAT.png",
+  "id": "MEAT",
+  "name": {
+    "ar": "لحم",
+    "de": "Fleisch",
+    "en": "Meat",
+    "es": "Carne",
+    "fr": "Viande",
+    "fr-CA": "Viande",
+    "it": "Carne",
+    "ja": "肉",
+    "ko": "고기",
+    "nl": "Vlees",
+    "pt-BR": "Carne",
+    "ru": "Мясо",
+    "tr": "Et",
+    "zh-CN": "肉",
+    "zh-TW": "肉"
+  }
+}

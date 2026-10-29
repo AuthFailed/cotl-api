@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "عليك توصيل هذه إلى <color=#FFD201>سيلا</color> في <color=#FFD201>مسقط النعاج</color>.",
+    "de": "Bring sie zu <color=#FFD201>Scylla</color> in <color=#FFD201>Auenfall</color>.",
+    "en": "Deliver this to <color=#FFD201>Scylla</color> in <color=#FFD201>Ewefall</color>.",
+    "es": "Ve a <color=#FFD201>Balalbor</color> y dásela a <color=#FFD201>Escila</color>.",
+    "fr": "Livrez cette lettre à <color=#FFD201>Scylla</color> à la <color=#FFD201>Chute de la Brebis</color>.",
+    "fr-CA": "Livrez cette lettre à <color=#FFD201>Scylla</color> à la <color=#FFD201>Chute de la Brebis</color>.",
+    "it": "Consegnala a <color=#FFD201>Scilla</color> a <color=#FFD201>Pecoruzzola</color>.",
+    "ja": "<color=#FFD201>雌羊の滝</color>にいる<color=#FFD201>スキュラ</color>に渡そう",
+    "ko": "<color=#FFD201>암양폭포</color>의 <color=#FFD201>스킬라</color>에게 가져가세요.",
+    "nl": "Breng dit naar <color=#FFD201>Scylla</color> in <color=#FFD201>Ooiendam</color>.",
+    "pt-BR": "Entregue para <color=#FFD201>Cila</color> na <color=#FFD201>Cordeirada</color>.",
+    "ru": "Вещь, которую нужно отнести <color=#FFD201>Сцилле</color> на <color=#FFD201>Овечью гору</color>.",
+    "tr": "Bunu <color=#FFD201>Maryadibi</color>'nde <color=#FFD201>Scylla</color>'ya götür.",
+    "zh-CN": "将这封信交给<color=#FFD201>羊堕雪山</color>的<color=#FFD201>斯库拉</color>。",
+    "zh-TW": "將釣竿交給<color=#FFD201>羊墮之淵</color>的<color=#FFD201>斯庫拉</color>。"
+  },
+  "icon": "icons/items/FISHING_ROD.png",
+  "id": "FISHING_ROD",
+  "name": {
+    "ar": "صنارة صيد",
+    "de": "Angelrute",
+    "en": "Fishing Rod",
+    "es": "Caña",
+    "fr": "Canne à pêche",
+    "fr-CA": "Canne à pêche",
+    "it": "Canna da pesca",
+    "ja": "釣り竿",
+    "ko": "낚싯대",
+    "nl": "Vishengel",
+    "pt-BR": "Vara de Pesca",
+    "ru": "Удочка",
+    "tr": "Olta",
+    "zh-CN": "鱼竿",
+    "zh-TW": "釣竿"
+  }
+}

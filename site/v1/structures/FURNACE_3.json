@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 6
+    },
+    {
+      "item": "LOG_REFINED",
+      "quantity": 12
+    }
+  ],
+  "description": {
+    "ar": "يحرق <color=#FD1D03>فحم التعفن</color> <sprite name=\"icon_MagmaStone\"> لتدفئة الطائفة في <color=#FD1D03>الشتاء</color>. سينهي <color=#FD1D03>العواصف الثلجية</color> ويسع كمية أكبر من فحم التعفن. <br>يفتح أيضًا <color=#FD1D03>المدافئ</color>.",
+    "de": "Verbrennt <color=#FD1D03>Fäulnisbrand</color> <sprite name=\"icon_MagmaStone\">, um den Kult im <color=#FD1D03>Winter</color> warmzuhalten. Vertreibt <color=#FD1D03>Schneestürme</color> und kann mehr Fäulnisbrand fassen. <br>Schaltet auch <color=#FD1D03>Heizer</color> frei.",
+    "en": "Burns <color=#FD1D03>Rotburn</color> <sprite name=\"icon_MagmaStone\"> to warm the Cult in <color=#FD1D03>winter</color>. Will dispel <color=#FD1D03>blizzards</color> and holds more Rotburn. <br>Also unlocks <color=#FD1D03>Heaters</color>.",
+    "es": "Quema <color=#FD1D03>petrodumbre</color> <sprite name=\"icon_MagmaStone\"> para calentar la secta cuando llega el <color=#FD1D03>invierno</color>. Despeja las <color=#FD1D03>ventiscas</color> y almacena más petrodumbre.<br>También desbloquea los <color=#FD1D03>difusores</color>.",
+    "fr": "Brûle du <color=#FD1D03>charbon putrescent</color> <sprite name=\"icon_MagmaStone\"> pour réchauffer le culte en <color=#FD1D03>hiver</color>. Fait disparaître les <color=#FD1D03>blizzards</color> et peut contenir davantage de charbon putrescent. <br>Débloque également les <color=#FD1D03>radiateurs</color>.",
+    "fr-CA": "Brûle du <color=#FD1D03>charbon putrescent</color> <sprite name=\"icon_MagmaStone\"> pour réchauffer la secte en <color=#FD1D03>hiver</color>. Fait disparaître les <color=#FD1D03>blizzards</color> et peut contenir davantage de charbon putrescent. <br>Débloque également les <color=#FD1D03>radiateurs</color>.",
+    "it": "Brucia la <color=#FD1D03>marciolite</color> <sprite name=\"icon_MagmaStone\"> per riscaldare il Culto in <color=#FD1D03>inverno</color>. Dissipa le <color=#FD1D03>bufere</color> e può contenere più marciolite. <br>Inoltre sblocca le <color=#FD1D03>Stufe</color>.",
+    "ja": "<color=#FD1D03>腐敗石</color> <sprite name=\"icon_MagmaStone\"> を燃やすことで、<color=#FD1D03>冬</color>の教団を温めてくれる。<color=#FD1D03>吹雪</color>を止められるほか、腐敗石の容量が増える<br>また、<color=#FD1D03>暖房</color>をアンロックする",
+    "ko": "<color=#FD1D03>겨울</color>에 <color=#FD1D03>부패석탄</color> <sprite name=\"icon_MagmaStone\">을 태워 교단을 따뜻하게 유지합니다. <color=#FD1D03>눈보라</color>도 몰아낼 수 있으며, 부패석탄을 더 채울 수 있습니다.<br>또한 <color=#FD1D03>온열기</color>를 잠금 해제합니다.",
+    "nl": "Verbrandt <color=#FD1D03>rotsteen</color> <sprite name=\"icon_MagmaStone\"> om de sekte warm te houden in de <color=#FD1D03>winter</color>. Houdt <color=#FD1D03>sneeuwstormen</color> tegen en heeft meer ruimte voor rotsteen. <br>Ontgrendelt ook <color=#FD1D03>kachels</color>.",
+    "pt-BR": "Queima <color=#FD1D03>Putrefogo</color> <sprite name=\"icon_MagmaStone\"> para aquecer o Culto no <color=#FD1D03>inverno</color>. Dissipará <color=#FD1D03>nevascas</color> e suporta mais Putrefogo. <br>Desbloqueia <color=#FD1D03>Aquecedores</color>.",
+    "ru": "Печь для сжигания <color=#FD1D03>гнилогара</color> <sprite name=\"icon_MagmaStone\"> и отопления поселения в течение <color=#FD1D03>зимы</color>. Разгоняет <color=#FD1D03>метели</color> и вмещает больше гнилогара.<br>Позволяет ставить <color=#FD1D03>обогреватели</color>.",
+    "tr": "<color=#FD1D03>Çürükateş</color> <sprite name=\"icon_MagmaStone\"> yakarak Tarikat'ı <color=#FD1D03>kışın</color> ısıtır. <color=#FD1D03>Tipileri</color> durdurur ve daha fazla Çürükateş muhafaza edebilir. <br>Ayrıca <color=#FD1D03>Isıtıcıların</color> kilidini açar.",
+    "zh-CN": "燃烧<color=#FD1D03>腐烧</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>为教会供暖。可以抵御<color=#FD1D03>暴风雪</color>，而且能容纳更多腐烧。<br>并解锁<color=#FD1D03>加热器</color>。",
+    "zh-TW": "燃燒<color=#FD1D03>腐燃</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>為教會供暖。可以抵禦<color=#FD1D03>暴風雪</color>，<br>而且能容納更多腐燃。並解鎖<color=#FD1D03>加熱器</color>。"
+  },
+  "icon": "icons/structures/FURNACE_3.png",
+  "id": "FURNACE_3",
+  "name": {
+    "ar": "فرن فحم التعفن III",
+    "de": "Fäulnisbrand-Ofen III",
+    "en": "Rotburn Furnace III",
+    "es": "Caldera de petrodumbre III",
+    "fr": "Fourneau à charbon putrescent III",
+    "fr-CA": "Fournaise à charbon putrescent III",
+    "it": "Fornace a marciolite III",
+    "ja": "腐敗石ストーブ III",
+    "ko": "부패석탄 화로 III",
+    "nl": "Rotsteenoven III",
+    "pt-BR": "Fornalha Putrefogo III",
+    "ru": "Гнилогарная печь III",
+    "tr": "Çürükateş Sobası III",
+    "zh-CN": "腐烧火炉 III",
+    "zh-TW": "腐燃爐 III"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "FURNACE_2"
+}

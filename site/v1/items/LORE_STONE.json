@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "كتابات تعود إلى فترة زمنية غابرة.",
+    "de": "Schriften aus einer längst vergangenen Zeit.",
+    "en": "Writings from a time long passed.",
+    "es": "Escritos de una época lejana.",
+    "fr": "Les écrits d'une époque révolue.",
+    "fr-CA": "Les écrits d'une époque révolue.",
+    "it": "Scritti di un'epoca ormai lontana.",
+    "ja": "はるか昔に書かれたもの",
+    "ko": "오래전 지나가버린 시대의 글이 적혀있습니다.",
+    "nl": "Geschriften uit een lang vervlogen tijd.",
+    "pt-BR": "Escrituras de um tempo muito antigo.",
+    "ru": "Повествование о давно минувших днях.",
+    "tr": "Çok uzun zaman önce yazılmış yazılar.",
+    "zh-CN": "遥远时代留下的记录。",
+    "zh-TW": "遙遠時代留下的紀錄。"
+  },
+  "icon": "icons/items/LORE_STONE.png",
+  "id": "LORE_STONE",
+  "name": {
+    "ar": "اللوح القديم",
+    "de": "Uralte Tafel",
+    "en": "Ancient Tablet",
+    "es": "Losa ancestral",
+    "fr": "Tablette antique",
+    "fr-CA": "Tablette antique",
+    "it": "Tavoletta antica",
+    "ja": "いにしえの石板",
+    "ko": "고대의 명판",
+    "nl": "Eeuwenoud tablet",
+    "pt-BR": "Tábua Antiga",
+    "ru": "Древняя табличка",
+    "tr": "Kadim Yazıt",
+    "zh-CN": "古老石板",
+    "zh-TW": "古老石板"
+  }
+}

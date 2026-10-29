@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Spider_Jump",
+  "name": {
+    "en": "Boss Spider Jump"
+  },
+  "unlock": "Dungeon4"
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "PUMPKIN",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "كومة من اليقطين!",
+    "de": "Ein Haufen Kürbisse!",
+    "en": "A pile of pumpkins!",
+    "es": "¡Calabazas amontonadas!",
+    "fr": "Une pile de citrouilles !",
+    "fr-CA": "Une pile de citrouilles!",
+    "it": "Una pila di zucche!",
+    "ja": "山積みになったカボチャ！",
+    "ko": "호박 더미입니다!",
+    "nl": "Een hoop pompoenen!",
+    "pt-BR": "Uma pilha de abóboras!",
+    "ru": "Несколько тыкв, поставленных друг на друга.",
+    "tr": "Üst üste dizilmiş bal kabakları!",
+    "zh-CN": "一堆南瓜！",
+    "zh-TW": "一堆南瓜！"
+  },
+  "icon": "icons/structures/DECORATION_PUMPKIN_PILE.png",
+  "id": "DECORATION_PUMPKIN_PILE",
+  "name": {
+    "ar": "كومة يقطين",
+    "de": "Kürbishaufen",
+    "en": "Pumpkin Pile",
+    "es": "Montón de calabazas",
+    "fr": "Pile de citrouilles",
+    "fr-CA": "Pile de citrouilles",
+    "it": "Zucche impilate",
+    "ja": "山積みカボチャ",
+    "ko": "호박 더미",
+    "nl": "Pompoenenstapel",
+    "pt-BR": "Pilha de Abóboras",
+    "ru": "Стопка тыкв",
+    "tr": "Balkabağı Yığını",
+    "zh-CN": "南瓜堆",
+    "zh-TW": "南瓜堆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

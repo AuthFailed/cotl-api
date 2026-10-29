@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 5
+    },
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "نسخة مصغرة جميلة من مسقط النعاج.",
+    "de": "Auenfall in Miniaturpracht.",
+    "en": "Ewefall in miniature splendor.",
+    "es": "Una diminuta Balalbor en todo su esplendor.",
+    "fr": "La Chute de la Brebis version miniature.",
+    "fr-CA": "La Chute de la Brebis, version miniature.",
+    "it": "Splendida Pecoruzzola in miniatura.",
+    "ja": "雌羊の滝のミニチュア模型。小さくてもその美しさは変わらない",
+    "ko": "자그맣게 구현한 암양폭포.",
+    "nl": "Ooiendam in verkleinde glorie.",
+    "pt-BR": "Cordeirada em todo seu esplendor miniaturizado.",
+    "ru": "Прекрасная Овечья гора в миниатюре.",
+    "tr": "Şık bir Maryadibi minyatürü.",
+    "zh-CN": "华美的微缩母羊之陨。",
+    "zh-TW": "雄偉的縮小版羊墮之淵。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_DIORAMA.png",
+  "id": "DECORATION_DLC_WOLF_DIORAMA",
+  "name": {
+    "ar": "نموذج الجبل",
+    "de": "Darstellung des Berges",
+    "en": "Rendering of the Mountain",
+    "es": "Miniatura de la montaña",
+    "fr": "Représentation de la montagne",
+    "fr-CA": "Représentation de la montagne",
+    "it": "Riproduzione della montagna",
+    "ja": "山の模型",
+    "ko": "산 모형",
+    "nl": "Maquette van de berg",
+    "pt-BR": "Réplica da Montanha",
+    "ru": "Муляж горы",
+    "tr": "Dağ Tasviri",
+    "zh-CN": "山之绚烂",
+    "zh-TW": "灰泥高山"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

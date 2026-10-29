@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 8
+    },
+    {
+      "item": "STONE",
+      "quantity": 12
+    }
+  ],
+  "description": {
+    "ar": "حوض اغتسال لتدفئة <color=#FFD201>الأتباع المتجمدين</color> <sprite name=\"icon_Freezing\">",
+    "de": "Nimm Waschungen vor, um die <color=#FFD201>frierenden Anhänger</color> aufzuwärmen <sprite name=\"icon_Freezing\">.",
+    "en": "Perform ablutions to warm up <color=#FFD201>freezing Followers</color> <sprite name=\"icon_Freezing\">",
+    "es": "Lleva a cabo una ablución para que tus <color=#FFD201>adeptos congelados</color> <sprite name=\"icon_Freezing\"> entren en calor.",
+    "fr": "Faites des ablutions pour réchauffer les <color=#FFD201>adeptes frigorifiés</color> <sprite name=\"icon_Freezing\">.",
+    "fr-CA": "Faites des ablutions pour réchauffer les <color=#FFD201>adeptes frigorifiés</color> <sprite name=\"icon_Freezing\">.",
+    "it": "Compi delle abluzioni per riscaldare i <color=#FFD201>membri del Culto congelati</color> <sprite name=\"icon_Freezing\">.",
+    "ja": "<color=#FFD201>凍結状態の信者</color> <sprite name=\"icon_Freezing\"> を沐浴させて温めるための施設",
+    "ko": "세정식을 실시하여 <color=#FFD201>얼어붙는 추종자</color> <sprite name=\"icon_Freezing\"> 들을 따뜻하게 녹입니다",
+    "nl": "Met een zuiverend bad kun je <color=#FFD201>bevriezende volgelingen</color> <sprite name=\"icon_Freezing\"> opwarmen.",
+    "pt-BR": "Realize imersões para aquecer <color=#FFD201>Seguidores congelados</color> <sprite name=\"icon_Freezing\">.",
+    "ru": "Купальня, в которой можно согреть <color=#FFD201>замёрзших последователей</color> <sprite name=\"icon_Freezing\">.",
+    "tr": "<color=#FFD201>Donuk Takipçilerini</color> ısıtmak için onları yıka. <sprite name=\"icon_Freezing\">",
+    "zh-CN": "进行净体礼，为<color=#FFD201>受冻的教徒</color><sprite name=\"icon_Freezing\">暖身。",
+    "zh-TW": "透過沐浴溫暖<color=#FFD201>受凍的教徒</color> <sprite name=\"icon_Freezing\">。"
+  },
+  "icon": "icons/structures/VOLCANIC_SPA.png",
+  "id": "VOLCANIC_SPA",
+  "name": {
+    "ar": "حوض الانغمار",
+    "de": "Taufbad",
+    "en": "Baptismal Bath",
+    "es": "Tina bautismal",
+    "fr": "Bain de baptême",
+    "fr-CA": "Bain de baptême",
+    "it": "Vasca battesimale",
+    "ja": "洗礼の浴場",
+    "ko": "세례반",
+    "nl": "Doopbad",
+    "pt-BR": "Banho Batismal",
+    "ru": "Купель",
+    "tr": "Vaftiz Kâsesi",
+    "zh-CN": "洗礼浴",
+    "zh-TW": "聖洗池"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

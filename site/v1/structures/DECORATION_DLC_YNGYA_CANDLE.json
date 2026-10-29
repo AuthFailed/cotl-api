@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    },
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "تضيء الليلة الدافئة التي تعلن انتهاء الشتاء.",
+    "de": "Beleuchte die warme Nacht, in der der Winter sich verabschiedet.",
+    "en": "Light the warm night of winter's departure.",
+    "es": "Ilumina la cálida noche en la que se despide el invierno.",
+    "fr": "Éclairez la douce nuit du départ de l'hiver.",
+    "fr-CA": "Éclairez la douce nuit du départ de l'hiver.",
+    "it": "Illumina le calde notti di addio all'inverno.",
+    "ja": "冬に別れを告げる夜を、暖かく照らしてくれる",
+    "ko": "겨울을 떠나는 따뜻한 밤을 밝힙니다.",
+    "nl": "Verlicht de warme nacht wanneer de winter afscheid neemt.",
+    "pt-BR": "Ilumine a noite cálida ao fim do inverno.",
+    "ru": "Источник света в последнюю ночь зимы.",
+    "tr": "Kışın vedasını ılık bir akşam vakti kutlamak isteyenler için.",
+    "zh-CN": "冬日已去，点亮暖暖的夜晚。",
+    "zh-TW": "點亮冬日離別的溫暖夜晚。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_YNGYA_CANDLE.png",
+  "id": "DECORATION_DLC_YNGYA_CANDLE",
+  "name": {
+    "ar": "شمعة الصيف",
+    "de": "Sommerkerze",
+    "en": "Summer Candle",
+    "es": "Vela estival",
+    "fr": "Bougie d'été",
+    "fr-CA": "Bougie d'été",
+    "it": "Candela estiva",
+    "ja": "サマーキャンドル",
+    "ko": "여름 촛대",
+    "nl": "Zomerkaars",
+    "pt-BR": "Vela de Verão",
+    "ru": "Летняя свеча",
+    "tr": "Yaz Mumu",
+    "zh-CN": "夏日蜡烛",
+    "zh-TW": "夏日燭臺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

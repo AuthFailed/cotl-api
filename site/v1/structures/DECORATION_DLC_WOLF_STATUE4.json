@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 1
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "أدوات للفحص.",
+    "de": "Werkzeuge zum Untersuchen.",
+    "en": "Tools for examination.",
+    "es": "Herramientas para examinar a conciencia.",
+    "fr": "Outil d'examen.",
+    "fr-CA": "Outil d'examen.",
+    "it": "Attrezzi di indagine.",
+    "ja": "検査のための道具",
+    "ko": "탐구의 도구입니다.",
+    "nl": "Gereedschap voor onderzoek.",
+    "pt-BR": "Ferramentas para examinação.",
+    "ru": "Орудие для исследования.",
+    "tr": "Tahlil araç gereçleri.",
+    "zh-CN": "检验用具。",
+    "zh-TW": "檢查用的工具。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_STATUE4.png",
+  "id": "DECORATION_DLC_WOLF_STATUE4",
+  "name": {
+    "ar": "أداة الخيميائي II",
+    "de": "Alchemisten-Instrument II",
+    "en": "Alchemist's Instrument II",
+    "es": "Instrumental de alquimista II",
+    "fr": "Instrument d'alchimiste II",
+    "fr-CA": "Instrument d'alchimiste II",
+    "it": "Strumento dell'alchimista II",
+    "ja": "錬金術師の器具 II",
+    "ko": "연금술사의 도구 II",
+    "nl": "Alchemistenapparaat II",
+    "pt-BR": "Instrumento de Alquimia II",
+    "ru": "Инструмент алхимика II",
+    "tr": "Simyacı Aleti II",
+    "zh-CN": "炼金术士的器具 II",
+    "zh-TW": "鍊金術士的器具 II"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

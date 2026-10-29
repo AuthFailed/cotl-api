@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "أفضل من لا شيء.",
+    "de": "Besser als nichts.",
+    "en": "Better than nothing.",
+    "es": "Mejor que nada.",
+    "fr": "C'est toujours mieux que rien.",
+    "fr-CA": "C'est toujours mieux que rien.",
+    "it": "Meglio di niente.",
+    "ja": "何もないよりはマシだ",
+    "ko": "없는 것보단 낫습니다.",
+    "nl": "Beter dan niets.",
+    "pt-BR": "Melhor que nada",
+    "ru": "Лучше, чем ничего.",
+    "tr": "Hiç yoktan iyidir.",
+    "zh-CN": "总比没得吃好",
+    "zh-TW": "總比沒牆好"
+  },
+  "icon": "icons/structures/DECORATION_WALL_GRASS.png",
+  "id": "DECORATION_WALL_GRASS",
+  "name": {
+    "ar": "حائط عشبي",
+    "de": "Graswall",
+    "en": "Grass Wall",
+    "es": "Muro de hierba",
+    "fr": "Mur végétal",
+    "fr-CA": "Mur végétal",
+    "it": "Muro d'erba",
+    "ja": "雑草のカベ",
+    "ko": "풀 벽",
+    "nl": "Muur van gras",
+    "pt-BR": "Parede de Mato",
+    "ru": "Травяная ограда",
+    "tr": "Çim Duvar",
+    "zh-CN": "青草墙",
+    "zh-TW": "青草牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

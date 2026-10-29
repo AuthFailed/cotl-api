@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "خيوط رقيقة لكنها قوية أُخذت من شباك عناكب وتُستخدم في صنع الزينات.",
+    "de": "Zart aber kräftig; wird aus Spinnennetzen gewonnen und für Gebäudedekorationen verwendet.",
+    "en": "Delicate yet strong, pulled from the webs of spiders and used for building decorations.",
+    "es": "Delicada pero resistente, se extrae de las telarañas y sirve para construir decoraciones.",
+    "fr": "Délicate mais extrêmement solide. Extrait de toile d'araignée utilisé pour créer des décorations.",
+    "fr-CA": "Délicate, mais extrêmement solide. Provient de toile d'araignée et utilisée pour créer des décorations.",
+    "it": "Delicata ma resistente, viene ricavata dalle ragnatele dei ragni e impiegata nella decorazione delle strutture.",
+    "ja": "クモの巣から集めた、装飾品を作るための素材。繊細でありながらとても頑丈",
+    "ko": "섬세하지만 강하며, 건물 장식에 쓰이는 거미줄입니다.",
+    "nl": "Delicaat, maar sterk, getrokken uit de webben van spinnen en te gebruiken voor het bouwen van decoraties.",
+    "pt-BR": "Delicada, porém forte. É retirada de teias de aranhas e usada para decorar construções.",
+    "ru": "Тонкая, но прочная паучья нить, из которой можно создать украшения для поселения.",
+    "tr": "Örümcek ağından koparılmış, dekorasyon yapmak için kullanılan, narin ve dayanıklı bir malzeme.",
+    "zh-CN": "纤细但强韧，从蜘蛛网上抽出，可用于建造装饰。",
+    "zh-TW": "纖細但強韌，從蜘蛛網上抽出，可用於建造裝飾。"
+  },
+  "icon": "icons/items/SPIDER_WEB.png",
+  "id": "SPIDER_WEB",
+  "name": {
+    "ar": "حرير العنكبوت",
+    "de": "Spinnenseide",
+    "en": "Spider Silk",
+    "es": "Seda de araña",
+    "fr": "Soie d'araignée",
+    "fr-CA": "Soie d'araignée",
+    "it": "Seta di ragno",
+    "ja": "クモ糸",
+    "ko": "거미 명주",
+    "nl": "Spinrag",
+    "pt-BR": "Seda de Aranha",
+    "ru": "Паутина",
+    "tr": "Örümcek İpeği",
+    "zh-CN": "蜘蛛丝",
+    "zh-TW": "蜘蛛絲"
+  }
+}

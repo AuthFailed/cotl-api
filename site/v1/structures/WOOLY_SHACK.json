@@ -1,0 +1,29 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "COTTON",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "en": "Craft woollen items to keep Followers from freezing."
+  },
+  "icon": "icons/structures/WOOLY_SHACK.png",
+  "id": "WOOLY_SHACK",
+  "name": {
+    "en": "Wooly Shack"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

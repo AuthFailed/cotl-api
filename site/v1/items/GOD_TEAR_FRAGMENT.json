@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "جزء من دمعة السيد الشهيرة.",
+    "de": "Ein Fragment der sagenumwobenen Gottesträne.",
+    "en": "A fragment of the fabled God Tear.",
+    "es": "Un fragmento de la legendaria lágrima divina.",
+    "fr": "Un fragment de la légendaire larme divine.",
+    "fr-CA": "Un fragment de la légendaire larme divine.",
+    "it": "Un frammento della mitica Lacrima divina.",
+    "ja": "伝承に伝わる神の涙、そのかけら",
+    "ko": "전설적인 신의 눈물의 조각입니다.",
+    "nl": "Een stukje van de fabelachtige godentraan.",
+    "pt-BR": "Um fragmento da lendária Lágrima de Deus.",
+    "ru": "Часть легендарной слезы божества.",
+    "tr": "Efsanevi Tanrı Gözyaşı'nın bir parçası.",
+    "zh-CN": "传说中的神之泪碎块。",
+    "zh-TW": "傳說中的神之淚碎塊。"
+  },
+  "icon": "icons/items/GOD_TEAR_FRAGMENT.png",
+  "id": "GOD_TEAR_FRAGMENT",
+  "name": {
+    "ar": "جزء من دمعة سيد",
+    "de": "Gottestränen-Fragment",
+    "en": "God Tear Fragment",
+    "es": "Fragmento de lágrima divina",
+    "fr": "Fragment de larme divine",
+    "fr-CA": "Fragment de larme divine",
+    "it": "Frammento di Lacrima divina",
+    "ja": "神の涙のかけら",
+    "ko": "신의 눈물 조각",
+    "nl": "Godentraanstuk",
+    "pt-BR": "Fragmento de Lágrima de Deus",
+    "ru": "Осколок слезы божества",
+    "tr": "Tanrı Gözyaşı Parçası",
+    "zh-CN": "神之泪碎块",
+    "zh-TW": "神之淚碎塊"
+  }
+}

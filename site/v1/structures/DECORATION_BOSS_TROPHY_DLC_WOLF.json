@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "YEW_HOLY",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "جائزة لهزيمتك مارشوسياس.",
+    "de": "Eine Trophäe für den Sieg über Marchosias.",
+    "en": "A trophy for defeating Marchosias.",
+    "es": "Un trofeo otorgado a quienes han derrotado a Marchosias.",
+    "fr": "Un trophée pour avoir tué Marchosias.",
+    "fr-CA": "Un trophée pour avoir tué Marchosias.",
+    "it": "Un trofeo per aver sconfitto Marchosias.",
+    "ja": "マルコシアスを殺した証の記念碑",
+    "ko": "마르코시아스를 물리쳐서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het verslaan van Marchosias.",
+    "pt-BR": "Um troféu por derrotar Marchosias.",
+    "ru": "Доказательство того, что Мархосиас не обладает всесилием.",
+    "tr": "Marchosias öldüğünde kazandığın miras.",
+    "zh-CN": "纪念击败马可西亚斯的纪念品。",
+    "zh-TW": "擊敗馬可西亞斯的紀念品。"
+  },
+  "icon": "icons/structures/DECORATION_BOSS_TROPHY_DLC_WOLF.png",
+  "id": "DECORATION_BOSS_TROPHY_DLC_WOLF",
+  "name": {
+    "ar": "جائزة مارشوسياس",
+    "de": "Marchosias-Trophäe",
+    "en": "Marchosias Trophy",
+    "es": "Trofeo de Marchosias",
+    "fr": "Trophée de Marchosias",
+    "fr-CA": "Trophée de Marchosias",
+    "it": "Trofeo di Marchosias",
+    "ja": "マルコシアスの記念碑",
+    "ko": "마르코시아스 전리품",
+    "nl": "Marchosias-trofee",
+    "pt-BR": "Troféu de Marchosias",
+    "ru": "Трофей (Мархосиас)",
+    "tr": "Marchosias",
+    "zh-CN": "马可西亚斯纪念品",
+    "zh-TW": "馬可西亞斯紀念品"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

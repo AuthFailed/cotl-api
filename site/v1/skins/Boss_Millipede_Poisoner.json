@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Millipede_Poisoner",
+  "name": {
+    "en": "Boss Millipede Poisoner"
+  },
+  "unlock": "Dungeon4"
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "YEW_CURSED",
+      "quantity": 2
+    },
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "حزمة أغصان ما زالت صغيرة.",
+    "de": "Ein Bündel Zweige, noch grün.",
+    "en": "A bundle of branches, still green.",
+    "es": "Un ramillete de ramas bastante verdes.",
+    "fr": "Un fagot de branches feuillues.",
+    "fr-CA": "Un paquet de branches feuillues.",
+    "it": "Una fascina di rami ancora verdi.",
+    "ja": "青々とした枝を集めた束",
+    "ko": "아직 파릇파릇한 나뭇가지 묶음입니다.",
+    "nl": "Een bundel van takken die nog groen zijn.",
+    "pt-BR": "Um monte de ramos ainda verdejantes.",
+    "ru": "Связка всё ещё зелёных веток.",
+    "tr": "Hâlâ yeşil bir deste dal.",
+    "zh-CN": "一捆树枝，还是绿的。",
+    "zh-TW": "一綑樹枝，依然翠綠。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_YNGYA_STICKBUNDLE.png",
+  "id": "DECORATION_DLC_YNGYA_STICKBUNDLE",
+  "name": {
+    "ar": "حزمة الأغصان الصغيرة",
+    "de": "Bündel junger Zweige",
+    "en": "Bundle of Young Branches",
+    "es": "Ramillete de ramas",
+    "fr": "Fagot de jeunes branches",
+    "fr-CA": "Fagot de jeunes branches",
+    "it": "Fascina di giovani rami",
+    "ja": "若枝の束",
+    "ko": "새순가지묶음",
+    "nl": "Bundel jonge takken",
+    "pt-BR": "Monte de Raminhos",
+    "ru": "Вязанка молодых ветвей",
+    "tr": "Olmamış Dal Destesi",
+    "zh-CN": "嫩枝束",
+    "zh-TW": "幼枝捆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

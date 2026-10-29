@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "نوع فريد من النباتات.",
+    "de": "Eine einzigartige Floraform.",
+    "en": "A unique form of flora.",
+    "es": "Una forma de vegetación de lo más especial.",
+    "fr": "Une plante tout à fait unique.",
+    "fr-CA": "Une plante tout à fait unique.",
+    "it": "Un tipo di flora unico nel suo genere.",
+    "ja": "特徴的な見た目の木",
+    "ko": "독특한 식물입니다.",
+    "nl": "Een uniek natuurverschijnsel.",
+    "pt-BR": "Um tipo de flora único",
+    "ru": "Необычное порождение леса.",
+    "tr": "Eşsiz bir bitki.",
+    "zh-CN": "独特样貌的植物群",
+    "zh-TW": "植物群獨特的樣貌"
+  },
+  "icon": "icons/structures/DECORATION_CRYSTAL_TREE.png",
+  "id": "DECORATION_CRYSTAL_TREE",
+  "name": {
+    "ar": "شجرة بلورية",
+    "de": "Kristallbaum",
+    "en": "Crystal Tree",
+    "es": "Árbol de cristal",
+    "fr": "Arbre de cristal",
+    "fr-CA": "Arbre de cristal",
+    "it": "Albero di cristalli",
+    "ja": "クリスタルツリー",
+    "ko": "수정 나무",
+    "nl": "Kristalboom",
+    "pt-BR": "Árvore de Cristal",
+    "ru": "Кристальное дерево",
+    "tr": "Kristal Ağacı",
+    "zh-CN": "水晶树",
+    "zh-TW": "水晶樹"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

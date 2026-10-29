@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    },
+    {
+      "item": "BONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "برميل.... مليء بالعظام!",
+    "de": "Ein Fass … voller Knochen!",
+    "en": "A barrel.... full of bones!",
+    "es": "Un barril... ¡lleno de huesos!",
+    "fr": "Un baril... rempli d'ossements !",
+    "fr-CA": "Un baril... rempli d'ossements!",
+    "it": "Un barile.... pieno di ossa!",
+    "ja": "骨がいっぱいはいったタル",
+    "ko": "통... 뼈로 가득 차있습니다!",
+    "nl": "Een vat... vol botten!",
+    "pt-BR": "Um barril... cheio de ossos!",
+    "ru": "Бочка, набитая костями.",
+    "tr": "İçi kemik dolu bir fıçı!",
+    "zh-CN": "木桶里……装满了骨头！",
+    "zh-TW": "木桶裡……裝滿了骨頭！"
+  },
+  "icon": "icons/structures/DECORATION_BONE_BARREL.png",
+  "id": "DECORATION_BONE_BARREL",
+  "name": {
+    "ar": "برميل العظام",
+    "de": "Knochenfass",
+    "en": "Barrel of Bones",
+    "es": "Barril de huesos",
+    "fr": "Baril d'os",
+    "fr-CA": "Baril d'os",
+    "it": "Barile d'ossa",
+    "ja": "骨タル",
+    "ko": "뼈 통",
+    "nl": "Vat van beenderen",
+    "pt-BR": "Barril de Ossos",
+    "ru": "Бочка с костями",
+    "tr": "Kemik Fıçısı",
+    "zh-CN": "骨头木桶",
+    "zh-TW": "骨頭木桶"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

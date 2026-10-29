@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    },
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "لإضاءة المساحات الخضراء المزدهرة من حوله.",
+    "de": "Zur Beleuchtung der sattgrünen Umgebung.",
+    "en": "To illuminate the lush green surrounds.",
+    "es": "Para iluminar el exuberante entorno vegetal.",
+    "fr": "Pour illuminer la végétation luxuriante de votre base.",
+    "fr-CA": "Pour illuminer la végétation luxuriante de votre camp.",
+    "it": "Per illuminare il verde lussureggiante che lo circonda.",
+    "ja": "緑豊かな場所を照らしてくれる",
+    "ko": "주변의 무성한 녹색 잎들을 밝힙니다.",
+    "nl": "Voor verlichting van de weelderige groene omgeving.",
+    "pt-BR": "Para iluminar os ambientes ricos em vegetação",
+    "ru": "Светоч среди зелёных зарослей.",
+    "tr": "Yeşil çevreyi aydınlatmak için.",
+    "zh-CN": "照亮郁郁葱葱的环境",
+    "zh-TW": "照亮翠綠的四周"
+  },
+  "icon": "icons/structures/DECORATION_LEAFYLAMPPOST.png",
+  "id": "DECORATION_LEAFYLAMPPOST",
+  "name": {
+    "ar": "عمود إنارة مغطى بالأوراق",
+    "de": "Blättriger Laternenpfahl",
+    "en": "Leafy Lamp Post",
+    "es": "Farola frondosa",
+    "fr": "Lampe végétale suspendue",
+    "fr-CA": "Lampe végétale suspendue",
+    "it": "Lampione rigoglioso",
+    "ja": "リーフランプ",
+    "ko": "잎이 무성한 램프 말뚝",
+    "nl": "Lantaarnpaal met bladeren",
+    "pt-BR": "Poste de Luz Frondoso",
+    "ru": "Заросший фонарный столб",
+    "tr": "Yaprak Kaplı Direk",
+    "zh-CN": "叶子灯柱",
+    "zh-TW": "葉子燈柱"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

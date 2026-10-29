@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "نبراس للبدايات الجديدة.",
+    "de": "Ein Leuchtfeuer für Neuanfänge.",
+    "en": "A beacon for new beginnings.",
+    "es": "Un faro para los nuevos comienzos.",
+    "fr": "Un phare vers de nouveaux horizons.",
+    "fr-CA": "Un phare vers de nouveaux horizons.",
+    "it": "Una guida per i nuovi inizi.",
+    "ja": "新たな出発の印",
+    "ko": "새로운 시작의 봉화입니다.",
+    "nl": "Een baken voor een nieuw begin.",
+    "pt-BR": "Um sinal para novos começos.",
+    "ru": "Путеводная звезда для новых устремлений.",
+    "tr": "Yeni başlangıçlar için bir fener.",
+    "zh-CN": "迈向新开始的指引。",
+    "zh-TW": "邁向新開始的指引。"
+  },
+  "icon": "icons/structures/DECORATION_CNY_LANTERN.png",
+  "id": "DECORATION_CNY_LANTERN",
+  "name": {
+    "ar": "قنديل الحظ",
+    "de": "Glückslaterne",
+    "en": "Fortuitous Lantern",
+    "es": "Farol fortuito",
+    "fr": "Lanterne de providence",
+    "fr-CA": "Lanterne de providence",
+    "it": "Lanterna dell'auspicio",
+    "ja": "幸運のランタン",
+    "ko": "행운의 랜턴",
+    "nl": "Fortuinlijke lantaarn",
+    "pt-BR": "Lanterna Fortuita",
+    "ru": "Фонарь удачи",
+    "tr": "Şans Feneri",
+    "zh-CN": "吉祥灯笼",
+    "zh-TW": "吉祥燈籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

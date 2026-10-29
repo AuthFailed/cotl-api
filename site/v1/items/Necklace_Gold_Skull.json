@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يكتسب التابع سمة الخلود.",
+    "de": "Der Anhänger erhält die Eigenschaft: Unsterblich.",
+    "en": "Follower gains the Immortal trait.",
+    "es": "El adepto recibe el rasgo Inmortal.",
+    "fr": "L'adepte obtient la croyance Immortalité.",
+    "fr-CA": "L'adepte acquiert la croyance Immortalité.",
+    "it": "Il membro del Culto riceve il tratto Immortalità.",
+    "ja": "信者が特性「不老」を獲得する",
+    "ko": "추종자가 불사 특성을 얻습니다.",
+    "nl": "Deze volgeling krijgt de eigenschap onsterfelijk.",
+    "pt-BR": "Seguidor ganha o aspecto Imortal.",
+    "ru": "Украшение, помогающее последователю жить вечно.",
+    "tr": "Takipçi Ölümsüz özelliğini kazanır.",
+    "zh-CN": "教徒获得不老特质。",
+    "zh-TW": "教徒獲得不老特質。"
+  },
+  "icon": "icons/items/Necklace_Gold_Skull.png",
+  "id": "Necklace_Gold_Skull",
+  "name": {
+    "ar": "قلادة الجمجمة الذهبية",
+    "de": "Goldene Schädelhalskette",
+    "en": "Gold Skull Necklace",
+    "es": "Collar de calavera de oro",
+    "fr": "Collier d'ossements dorés",
+    "fr-CA": "Collier à crâne doré",
+    "it": "Collana con teschio d'oro",
+    "ja": "金髑髏のネックレス",
+    "ko": "황금 해골 목걸이",
+    "nl": "Gouden schedelketting",
+    "pt-BR": "Colar de Crânio de Ouro",
+    "ru": "Ожерелье с золотым черепом",
+    "tr": "Altın Kafatası Kolyesi",
+    "zh-CN": "金头骨项链",
+    "zh-TW": "金頭骨項鍊"
+  }
+}

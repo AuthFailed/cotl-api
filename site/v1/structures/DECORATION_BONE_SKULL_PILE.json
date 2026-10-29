@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "كومة من الجماجم!",
+    "de": "Ein Haufen Schädel!",
+    "en": "A pile of skulls!",
+    "es": "¡Calaveras a punta pala!",
+    "fr": "Une pile de crânes !",
+    "fr-CA": "Une pile de crânes!",
+    "it": "Un mucchio di teschi!",
+    "ja": "山積みされた大量の頭蓋骨！",
+    "ko": "해골 더미입니다!",
+    "nl": "Een hoop schedels!",
+    "pt-BR": "Uma pilha de crânios!",
+    "ru": "Черепа, сваленные в кучу.",
+    "tr": "Üst üste yığılmış kafatasları!",
+    "zh-CN": "一堆头骨！",
+    "zh-TW": "一堆頭骨！"
+  },
+  "icon": "icons/structures/DECORATION_BONE_SKULL_PILE.png",
+  "id": "DECORATION_BONE_SKULL_PILE",
+  "name": {
+    "ar": "كومة جماجم",
+    "de": "Schädelhaufen",
+    "en": "Skull Pile",
+    "es": "Montón de calaveras",
+    "fr": "Pile de crânes",
+    "fr-CA": "Pile de crânes",
+    "it": "Mucchio di teschi",
+    "ja": "山積み頭蓋骨",
+    "ko": "해골 더미",
+    "nl": "Stapel schedels",
+    "pt-BR": "Pilha de Crânios",
+    "ru": "Гора черепов",
+    "tr": "Kafatası Yığını",
+    "zh-CN": "头骨堆",
+    "zh-TW": "頭骨堆"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

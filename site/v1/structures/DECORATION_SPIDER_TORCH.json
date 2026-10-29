@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "لإضاءة الظلام الذي يعج بالعناكب.",
+    "de": "Zur Beleuchtung der von Spinnen wimmelnden Dunkelheit.",
+    "en": "To illuminate the spider-filled dark.",
+    "es": "Para iluminar la oscuridad llena de arañas.",
+    "fr": "Pour voir les araignées tapies dans l'ombre.",
+    "fr-CA": "Pour voir les araignées tapies dans l'ombre.",
+    "it": "Per illuminare l'oscurità in cui si annidano i ragni.",
+    "ja": "クモの巣で覆われた闇を明るくするためのもの",
+    "ko": "거미로 가득한 어둠 속을 밝힙니다.",
+    "nl": "Voor verlichting in de van spinnen vergeven duisternis.",
+    "pt-BR": "Para iluminar a escuridão cheia de aranhas",
+    "ru": "Освещает тьму, кишащую пауками.",
+    "tr": "Örümceklerle dolu karanlığı aydınlatmak için.",
+    "zh-CN": "照亮爬满蜘蛛的黑暗空间",
+    "zh-TW": "照亮爬滿蜘蛛的黑暗"
+  },
+  "icon": "icons/structures/DECORATION_SPIDER_TORCH.png",
+  "id": "DECORATION_SPIDER_TORCH",
+  "name": {
+    "ar": "شعلة العنكبوت",
+    "de": "Spinnenfackel",
+    "en": "Spider Torch",
+    "es": "Antorcha araña",
+    "fr": "Torche araignée",
+    "fr-CA": "Torche araignée",
+    "it": "Torcia aracnoidea",
+    "ja": "スパイダートーチ",
+    "ko": "거미 횃불",
+    "nl": "Spinnenfakkel",
+    "pt-BR": "Tocha de Aranha",
+    "ru": "Паучий факел",
+    "tr": "Örümcek Meşalesi",
+    "zh-CN": "蜘蛛火炬",
+    "zh-TW": "蜘蛛火炬"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

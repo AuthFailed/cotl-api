@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "ليس للاستخدام العملي.",
+    "de": "Nicht für die praktische Anwendung.",
+    "en": "Not for practical use.",
+    "es": "Sin ningún uso práctico.",
+    "fr": "Sert uniquement de décoration.",
+    "fr-CA": "Sert uniquement de décoration.",
+    "it": "Non per uso pratico.",
+    "ja": "実際に使用するためのものではない",
+    "ko": "실용적이진 않습니다.",
+    "nl": "Niet bestemd voor praktisch gebruik.",
+    "pt-BR": "Apenas para decoração",
+    "ru": "Украшение, не предназначенное для поливания цветов.",
+    "tr": "Pek kullanışlı görünmüyor.",
+    "zh-CN": "不实用",
+    "zh-TW": "不適合實際使用"
+  },
+  "icon": "icons/structures/DECORATION_WATERINGCAN.png",
+  "id": "DECORATION_WATERINGCAN",
+  "name": {
+    "ar": "إبريق ريّ",
+    "de": "Gießkanne",
+    "en": "Watering Can",
+    "es": "Regadera",
+    "fr": "Arrosoir",
+    "fr-CA": "Arrosoir",
+    "it": "Annaffiatoio",
+    "ja": "ジョウロ",
+    "ko": "물뿌리개",
+    "nl": "Gieter",
+    "pt-BR": "Regador",
+    "ru": "Лейка",
+    "tr": "Sulama Kabı",
+    "zh-CN": "浇水壶",
+    "zh-TW": "澆水壺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

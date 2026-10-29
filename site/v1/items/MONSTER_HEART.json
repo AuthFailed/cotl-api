@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "قلوب قاسية تفتح <color=#FFD201>قدرات تاج</color> جديدة من منصة مجمعك.",
+    "de": "Unheilige Herzen, die neue <color=#FFD201>Kronenfähigkeiten</color> am Altar deines Tempels freischalten können.",
+    "en": "Unholy hearts that can unlock new <color=#FFD201>Crown Abilities</color> from the Altar in your Temple.",
+    "es": "Los corazones impíos pueden desbloquear nuevos <color=#FFD201>poderes de la corona</color> en el altar de tu templo.",
+    "fr": "Les cœurs impies permettent de débloquer de nouveaux <color=#FFD201>Pouvoirs de la Couronne</color> sur l'Autel du Temple.",
+    "fr-CA": "Les cœurs impies permettent de débloquer de nouveaux <color=#FFD201>Pouvoirs de la Couronne</color> sur l'Autel du Temple.",
+    "it": "Cuori empi che possono sbloccare nuove <color=#FFD201>Abilità della Corona</color> all'altare del Tempio.",
+    "ja": "不浄なる心臓。教会堂内の講壇にて、新たな<color=#FFD201>王冠の権能</color>をアンロックするのに必要",
+    "ko": "불경한 심장은 사원의 제단에서 새로운 <color=#FFD201>왕관 능력</color>을 해금할 수 있게 해줍니다.",
+    "nl": "Met heidense harten kun je nieuwe <color=#FFD201>kroonkrachten</color> ontgrendelen bij de kansel in je tempel.",
+    "pt-BR": "Corações profanos que podem debloquear novas <color=#FFD201>Habilidades da Coroa</color> no Altar do seu Templo.",
+    "ru": "Порочное сердце, которое позволяет открывать новые <color=#FFD201>способности короны</color> в храме.",
+    "tr": "Tapınak'taki Sunak'tan yeni <color=#FFD201>Taç Yetenekleri</color> açmak için kullanabileceğin habis kalpler.",
+    "zh-CN": "能在圣殿祭坛解锁新<color=#FFD201>圣冠能力</color>的不洁之心。",
+    "zh-TW": "能在聖殿祭壇解鎖新<color=#FFD201>聖冠能力</color>的不潔之心。"
+  },
+  "icon": "icons/items/MONSTER_HEART.png",
+  "id": "MONSTER_HEART",
+  "name": {
+    "ar": "قلب منشق",
+    "de": "Herz eines Ketzers",
+    "en": "Heart of a Heretic",
+    "es": "Corazón de hereje",
+    "fr": "Cœur d'hérétique",
+    "fr-CA": "Cœur d'hérétique",
+    "it": "Cuore eretico",
+    "ja": "異端者の心臓",
+    "ko": "이단의 심장",
+    "nl": "Hart van een ketter",
+    "pt-BR": "Coração de Herege",
+    "ru": "Сердце еретика",
+    "tr": "Sapkın Kalbi",
+    "zh-CN": "异教徒之心",
+    "zh-TW": "異教徒之心"
+  }
+}

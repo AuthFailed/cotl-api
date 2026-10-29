@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": "icons/items/FOUND_ITEM_FOLLOWERSKIN.png",
+  "id": "FOUND_ITEM_FOLLOWERSKIN",
+  "name": {
+    "ar": "شكل تابع",
+    "de": "Anhängerform",
+    "en": "Follower Form",
+    "es": "Forma de adepto",
+    "fr": "Apparence d'adepte",
+    "fr-CA": "Apparence d'adepte",
+    "it": "Forma animale",
+    "ja": "信者のスキン",
+    "ko": "추종자 형태",
+    "nl": "Volgelingenvorm",
+    "pt-BR": "Forma do Seguidor",
+    "ru": "Облик последователя",
+    "tr": "Takipçi Biçimi",
+    "zh-CN": "教徒皮肤",
+    "zh-TW": "教徒外觀"
+  }
+}

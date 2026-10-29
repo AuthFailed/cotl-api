@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 25
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يتيح تقطيع الخشب بصورة أسرع.",
+    "de": "Ermöglicht schnelleres Holzhacken.",
+    "en": "Allows faster wood chopping.",
+    "es": "Permite talar más rápido.",
+    "fr": "Permet de couper du bois plus rapidement.",
+    "fr-CA": "Permet de couper du bois plus rapidement.",
+    "it": "Consente di tagliare la legna più rapidamente.",
+    "ja": "木材の伐採速度が上昇する",
+    "ko": "벌목 속도를 더 빠르게합니다.",
+    "nl": "Je volgelingen hakken sneller hout.",
+    "pt-BR": "Permite que as madeiras sejam cortadas mais rapidamente.",
+    "ru": "Небольшой алтарь, который ускоряет вырубку деревьев.",
+    "tr": "Ağaç kesmeyi hızlandırır.",
+    "zh-CN": "让伐木速度增加",
+    "zh-TW": "讓伐木速度增加"
+  },
+  "icon": "icons/structures/CHOPPING_SHRINE.png",
+  "id": "CHOPPING_SHRINE",
+  "name": {
+    "ar": "مزار التقطيع",
+    "de": "Schrein des Holzhackens",
+    "en": "Chopping Shrine",
+    "es": "Santuario de tala",
+    "fr": "Autel du bois",
+    "fr-CA": "Autel du bois",
+    "it": "Santuario del ceppo",
+    "ja": "伐採の祭壇",
+    "ko": "벌목 신단",
+    "nl": "Hakaltaar",
+    "pt-BR": "Santuário da Madeira",
+    "ru": "Алтарь лесов",
+    "tr": "Odunculuk Mabedi",
+    "zh-CN": "伐木圣坛",
+    "zh-TW": "伐木聖壇"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

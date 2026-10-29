@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Beholder_2",
+  "name": {
+    "en": "Boss Beholder 2"
+  },
+  "unlock": "Dungeon2"
+}

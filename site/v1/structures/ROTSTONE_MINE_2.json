@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 25
+    },
+    {
+      "item": "YEW_CURSED",
+      "quantity": 8
+    }
+  ],
+  "description": {
+    "ar": "سينتج تابع <sprite name=\"icon_MagmaStone\">. سينتج فحم تعفن أكثر.",
+    "de": "Ein Anhänger erzeugt <sprite name=\"icon_MagmaStone\">. Erzeugt mehr Fäulnisbrand.",
+    "en": "A Follower will generate <sprite name=\"icon_MagmaStone\">. Will produce more Rotburn.",
+    "es": "Un adepto producirá más <sprite name=\"icon_MagmaStone\"> y más petrodumbre.",
+    "fr": "Permet à un adepte de miner du <sprite name=\"icon_MagmaStone\">. Produit davantage de charbon putrescent.",
+    "fr-CA": "Permet à un adepte de miner du <sprite name=\"icon_MagmaStone\">. Produit davantage de charbon putrescent.",
+    "it": "Un membro del Culto può generarvi <sprite name=\"icon_MagmaStone\">. Produrrà più marciolite.",
+    "ja": "信者が <sprite name=\"icon_MagmaStone\"> を生成する場所。腐敗石の生成量が増える",
+    "ko": "추종자가 <sprite name=\"icon_MagmaStone\">을 생성합니다. 부패석탄이 더 산출됩니다.",
+    "nl": "Een volgeling genereert <sprite name=\"icon_MagmaStone\">. Produceert meer rotsteen.",
+    "pt-BR": "Um Seguidor gerará <sprite name=\"icon_MagmaStone\">. Produz mais Putrefogo.",
+    "ru": "Место, где последователи добывают больше <sprite name=\"icon_MagmaStone\">.",
+    "tr": "Bir Takipçi'nin <sprite name=\"icon_MagmaStone\"> toplamasını sağlar. Daha fazla Çürükateş üretir.",
+    "zh-CN": "一位教徒将生产 <sprite name=\"icon_MagmaStone\">。将生产更多腐烧。",
+    "zh-TW": "一位教徒將生產 <sprite name=\"icon_MagmaStone\">。將產生更多腐燃。"
+  },
+  "icon": "icons/structures/ROTSTONE_MINE_2.png",
+  "id": "ROTSTONE_MINE_2",
+  "name": {
+    "ar": "منجم فحم التعفن II",
+    "de": "Fäulnisbrand-Mine II",
+    "en": "Rotburn Mine II",
+    "es": "Mina de petrodumbre II",
+    "fr": "Mine à charbon putrescent II",
+    "fr-CA": "Mine à charbon putrescent II",
+    "it": "Miniera di marciolite II",
+    "ja": "腐敗石鉱 II",
+    "ko": "부패석탄 채광 II",
+    "nl": "Rotsteengroeve II",
+    "pt-BR": "Mina Putrefogo II",
+    "ru": "Гнилогарный рудник II",
+    "tr": "Çürükateş Madeni II",
+    "zh-CN": "腐烧场 II",
+    "zh-TW": "腐燃礦場 II"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": "ROTSTONE_MINE"
+}

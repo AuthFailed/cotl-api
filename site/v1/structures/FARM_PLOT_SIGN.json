@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تنظيم مزرعتك مع هذه اللافتة المفيدة.",
+    "de": "Organisiere deine Farm mit diesen praktischen Schildern.",
+    "en": "Organise your farm with this handy signpost.",
+    "es": "Organiza tu granja con esta útil señal.",
+    "fr": "Organisez votre ferme en plaçant ce panneau près d'une parcelle.",
+    "fr-CA": "Organisez votre ferme en plaçant ce panneau près d'une parcelle.",
+    "it": "Organizza la tua fattoria con questa pratica segnaletica.",
+    "ja": "農地を管理する目的で使われる看板",
+    "ko": "이 유용한 표지판으로 밭을 표시할 수 있습니다.",
+    "nl": "Vind makkelijk de weg rond je akkers met deze handige wegwijzer.",
+    "pt-BR": "Organize sua fazenda com esta placa bem útil",
+    "ru": "Указатель, помогающий понять, какие семена высажены на участке земли.",
+    "tr": "Bu kullanışlı tabelayla tarlalarını düzene kavuştur.",
+    "zh-CN": "这个方便的告示牌能帮你打理农场",
+    "zh-TW": "這個方便的告示牌能幫你打理農場"
+  },
+  "icon": "icons/structures/FARM_PLOT_SIGN.png",
+  "id": "FARM_PLOT_SIGN",
+  "name": {
+    "ar": "لافتة مزرعة",
+    "de": "Ackerparzellen-Schild",
+    "en": "Farm Plot Sign",
+    "es": "Señal de parcela",
+    "fr": "Panneau de parcelle",
+    "fr-CA": "Panneau de parcelle",
+    "it": "Cartello per coltura",
+    "ja": "農作地用の看板",
+    "ko": "밭 경작지 표지판",
+    "nl": "Bord landbouwperceel",
+    "pt-BR": "Placa de Terreno Agrícola",
+    "ru": "Табличка для участка",
+    "tr": "Tarla Tabelası",
+    "zh-CN": "农地告示牌",
+    "zh-TW": "農地告示牌"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

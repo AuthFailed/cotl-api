@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "استعراض لخيرات الطبيعة بألوان متنوعة.",
+    "de": "Eine farbige Zurschaustellung der Gaben der Natur.",
+    "en": "A colourful display of nature's blessing.",
+    "es": "Una colorida representación de las bendiciones de la naturaleza.",
+    "fr": "Un hommage à la nature.",
+    "fr-CA": "Un hommage à la nature.",
+    "it": "Un vivace sfoggio della generosità della natura.",
+    "ja": "大地の恵みを表現したカラフルなオブジェ",
+    "ko": "다채로운 자연의 축복을 보여줍니다.",
+    "nl": "Een kleurrijk vertoon van het goede van de natuur.",
+    "pt-BR": "Um arranjo colorido que exibe a benção da natureza",
+    "ru": "Выражение благодарности за дары природы.",
+    "tr": "Doğanın güzelliğini sergileyen rengârenk bir heykel.",
+    "zh-CN": "多彩多姿呈现大自然的恩赐",
+    "zh-TW": "多采多姿呈現大自然的恩賜"
+  },
+  "icon": "icons/structures/DECORATION_LEAFY_FLOWER_SCULPTURE.png",
+  "id": "DECORATION_LEAFY_FLOWER_SCULPTURE",
+  "name": {
+    "ar": "منحوتة زهور كثيفة الأوراق",
+    "de": "Blättrige Blumenskulptur",
+    "en": "Leafy Flower Sculpture",
+    "es": "Escultura de flores",
+    "fr": "Arche végétale",
+    "fr-CA": "Arche végétale",
+    "it": "Scultura rigogliosa",
+    "ja": "フラワーモニュメント",
+    "ko": "잎이 무성한 꽃 조각품",
+    "nl": "Beeld van bloemen en bladeren",
+    "pt-BR": "Escultura de Flores Frondosas",
+    "ru": "Украшение из цветов и листьев",
+    "tr": "Yaprak Kaplı Çiçek Heykel",
+    "zh-CN": "叶子花朵雕塑品",
+    "zh-TW": "葉子花朵雕塑品"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

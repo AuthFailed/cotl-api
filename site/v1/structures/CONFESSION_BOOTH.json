@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 3
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يمكنك سماع اعتراف تابع لزيادة إخلاصه. يمكن استخدامها مرة يوميًا.",
+    "de": "Hör dir die Beichte deiner Anhänger an, um ihre Loyalität zu erhöhen. Kann einmal täglich verwendet werden.",
+    "en": "Hear a Follower's confession to increase their Loyalty. Can be used once a day.",
+    "es": "Escucha las confesiones de tus adeptos para aumentar su lealtad. Solo se puede usar una vez al día.",
+    "fr": "Écoutez les confessions de vos adeptes pour augmenter leur fidélité. Peut être utilisé une fois par jour.",
+    "fr-CA": "Écoutez les confessions de vos adeptes pour accroître leur fidélité. Peut être utilisé une fois par jour.",
+    "it": "Qui puoi ascoltare la confessione di un membro del Culto per aumentarne la Fedeltà. Utilizzabile una volta al giorno.",
+    "ja": "信者の告解を聞くことで忠誠心を高めることができる。1日に1度だけ使える",
+    "ko": "추종자들의 충성심을 증가시키기 위해 고해성사를 듣습니다. 하루에 한 번 사용 가능합니다.",
+    "nl": "Luister naar de bekentenissen van volgelingen om hun loyaliteit te verhogen. Kan één keer per dag worden gebruikt.",
+    "pt-BR": "Ouça as confissões de um Seguidor para aumentar sua Lealdade dele. Pode ser usado uma vez por dia.",
+    "ru": "Помещение, где раз в день можно исповедовать последователя и укрепить его доверие.",
+    "tr": "Takipçilerin Bağlılık seviyesini artırmak için itiraflarını dinle. Günde bir kez kullanılabilir.",
+    "zh-CN": "倾听教徒的告解，提升对方的忠诚度。一天可以使用一次。",
+    "zh-TW": "傾聽教徒的告解，提升對方的忠誠度。一天可以使用一次。"
+  },
+  "icon": "icons/structures/CONFESSION_BOOTH.png",
+  "id": "CONFESSION_BOOTH",
+  "name": {
+    "ar": "غرفة الاعتراف",
+    "de": "Beichtstuhl",
+    "en": "Confession Booth",
+    "es": "Confesionario",
+    "fr": "Confessionnal",
+    "fr-CA": "Confessionnal",
+    "it": "Confessionale",
+    "ja": "告解室",
+    "ko": "고해성사실",
+    "nl": "Biechtstoel",
+    "pt-BR": "Confessionário",
+    "ru": "Исповедальня",
+    "tr": "Günah Çıkarma Odası",
+    "zh-CN": "告解室",
+    "zh-TW": "告解室"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

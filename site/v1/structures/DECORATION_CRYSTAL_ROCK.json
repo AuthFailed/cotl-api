@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "CRYSTAL",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "صخرة مرصعة ببلورات زرقاء.",
+    "de": "Ein Fels, der mit blauem Kristall durchzogen ist.",
+    "en": "A rock studded with blue crystal.",
+    "es": "Una roca con incrustaciones de cristal azul.",
+    "fr": "Une pierre portant un cristal bleu.",
+    "fr-CA": "Une pierre portant un cristal bleu.",
+    "it": "Una roccia tempestata di cristalli blu.",
+    "ja": "青色のクリスタルが埋め込まれた岩",
+    "ko": "파란색 수정이 달려있는 바위입니다.",
+    "nl": "Een steen bezaaid met blauwe kristallen.",
+    "pt-BR": "Uma rocha decorada com cristal azul",
+    "ru": "Камень, украшенный голубым кристаллом.",
+    "tr": "Mavi kristallerle bezeli bir kaya.",
+    "zh-CN": "以蓝色水晶点缀的岩石",
+    "zh-TW": "以藍色水晶點綴的岩石"
+  },
+  "icon": "icons/structures/DECORATION_CRYSTAL_ROCK.png",
+  "id": "DECORATION_CRYSTAL_ROCK",
+  "name": {
+    "ar": "صخرة بلورية",
+    "de": "Kristallfels",
+    "en": "Crystal Rock",
+    "es": "Roca de cristal",
+    "fr": "Pierre de cristal",
+    "fr-CA": "Pierre de cristal",
+    "it": "Roccia gemmata",
+    "ja": "クリスタルロック",
+    "ko": "수정 바위",
+    "nl": "Kristalsteen",
+    "pt-BR": "Rocha de Cristal",
+    "ru": "Камень с кристаллом",
+    "tr": "Kristal Kaya",
+    "zh-CN": "水晶岩石",
+    "zh-TW": "水晶岩石"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "إكليل زهور زينة بسيط من العصي.",
+    "de": "Ein einfacher dekorativer Holzkranz.",
+    "en": "A simple decorative wreath of sticks.",
+    "es": "Una corona decorativa hecha de palos.",
+    "fr": "Une couronne végétale décorative.",
+    "fr-CA": "Une couronne végétale décorative.",
+    "it": "Una semplice ghirlanda decorativa.",
+    "ja": "棒にくくりつけられた、装飾向けの簡素なリース",
+    "ko": "나뭇가지로 만들어진 단순한 장식용 화관입니다.",
+    "nl": "Een eenvoudige decoratieve krans van takken.",
+    "pt-BR": "Uma simples guirlanda decorativa feita de gravetos",
+    "ru": "Простой венок на прутьях.",
+    "tr": "Çubuklarla tutturulmuş, basit bir dekoratif çelenk.",
+    "zh-CN": "用木棒架起的简朴装饰花圈",
+    "zh-TW": "用木棒架起的簡樸裝飾花圈"
+  },
+  "icon": "icons/structures/DECORATION_WREATH_STICK.png",
+  "id": "DECORATION_WREATH_STICK",
+  "name": {
+    "ar": "إكليل زهور",
+    "de": "Kranz",
+    "en": "Wreath",
+    "es": "Corona de palos",
+    "fr": "Couronne de fleurs",
+    "fr-CA": "Couronne de fleurs",
+    "it": "Ghirlanda",
+    "ja": "リース",
+    "ko": "화관",
+    "nl": "Krans",
+    "pt-BR": "Guirlanda",
+    "ru": "Венок",
+    "tr": "Çelenk",
+    "zh-CN": "花圈",
+    "zh-TW": "花圈"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "YEW_CURSED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "تُستخدم لتغيير سمات تابع بشكل عشوائي.",
+    "de": "Verändere zufällig die Eigenschaften eines Anhängers.",
+    "en": "Randomly alter the traits of a Follower.",
+    "es": "Modifica los rasgos de un adepto al azar.",
+    "fr": "Modifie aléatoirement les croyances d'un adepte.",
+    "fr-CA": "Modifie aléatoirement les croyances d'un adepte.",
+    "it": "Altera in maniera casuale i tratti di un membro del Culto.",
+    "ja": "信者の特性をランダムに変更する",
+    "ko": "추종자의 특성을 무작위로 바꿉니다.",
+    "nl": "Verander willekeurig de eigenschappen van een volgeling.",
+    "pt-BR": "Altera aleatoriamente os aspectos de um seguidor.",
+    "ru": "Постройка, позволяющая изменить случайные особенности последователя.",
+    "tr": "Bir Takipçi'nin özelliklerini rastgele değiştirir.",
+    "zh-CN": "随机转换一名教徒的特质。",
+    "zh-TW": "隨機轉換一名教徒的特質。"
+  },
+  "icon": "icons/structures/TRAIT_MANIPULATOR_1.png",
+  "id": "TRAIT_MANIPULATOR_1",
+  "name": {
+    "ar": "منصة تعديل السمات",
+    "de": "Exorzismus-Altar",
+    "en": "Exorcism Altar",
+    "es": "Altar de exorcismos",
+    "fr": "Autel d'exorcisme",
+    "fr-CA": "Autel d'exorcisme",
+    "it": "Altare esorcizzante",
+    "ja": "悪魔祓いの祭壇",
+    "ko": "구마 제단",
+    "nl": "Uitdrijvingsaltaar",
+    "pt-BR": "Altar de Exorcismo",
+    "ru": "Алтарь экзорциста",
+    "tr": "Arındırma Sunağı",
+    "zh-CN": "驱魔祭坛",
+    "zh-TW": "驅魔祭壇"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

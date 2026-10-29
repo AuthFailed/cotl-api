@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "The gentle, hopeful light of dawn."
+  },
+  "icon": "icons/items/FORGE_FLAME.png",
+  "id": "FORGE_FLAME",
+  "name": {
+    "en": "Sacred Flame"
+  }
+}

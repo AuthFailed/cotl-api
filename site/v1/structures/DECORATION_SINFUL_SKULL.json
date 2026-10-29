@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "جمجمة تنزف بتلات ورود.",
+    "de": "Ein Schädel, aus dem sich Rosenblätter ergießen.",
+    "en": "A skull bleeding rose petals.",
+    "es": "Una calavera con pétalos de rosa ensangrentados.",
+    "fr": "Un crâne trônant sur un lit de pétales de roses.",
+    "fr-CA": "Un crâne trônant sur un lit de pétales de roses.",
+    "it": "Un teschio che perde petali di rosa.",
+    "ja": "血塗られたバラの花ビラで飾られた頭蓋骨",
+    "ko": "장미 꽃잎을 떨어뜨리는 해골입니다.",
+    "nl": "Een schedel waar bloemblaadjes uit bloeden.",
+    "pt-BR": "Um crânio que sangra pétalas de rosa.",
+    "ru": "Череп, заполненный розовыми лепестками.",
+    "tr": "Kan kırmızısı gül yapraklarıyla kaplı bir kafatası.",
+    "zh-CN": "放有玫瑰花瓣的头骨。",
+    "zh-TW": "放有玫瑰花瓣的頭骨。"
+  },
+  "icon": "icons/structures/DECORATION_SINFUL_SKULL.png",
+  "id": "DECORATION_SINFUL_SKULL",
+  "name": {
+    "ar": "جمجمة الدنس",
+    "de": "Schädel der Unreinheit",
+    "en": "Skull of Impurity",
+    "es": "Calavera de la inmoralidad",
+    "fr": "Crâne du désir",
+    "fr-CA": "Crâne du désir",
+    "it": "Teschio della caducità",
+    "ja": "不浄の頭蓋骨",
+    "ko": "불결의 해골",
+    "nl": "Schedel der onzuiverheid",
+    "pt-BR": "Crânio da Impureza",
+    "ru": "Череп скверны",
+    "tr": "Yozlaşmışlık Kafatası",
+    "zh-CN": "不纯头骨",
+    "zh-TW": "不純頭骨"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "جمع بين التحلل والتجدد.",
+    "de": "Verfall und Erneuerung in einem.",
+    "en": "Decay and renewal bound together.",
+    "es": "La unión entre declive y renovación.",
+    "fr": "Décomposition et renouveau liés.",
+    "fr-CA": "Décomposition et renouveau unis.",
+    "it": "Il connubio tra rinnovamento e decadimento.",
+    "ja": "崩壊と再生、それが1つになったもの",
+    "ko": "부패와 부활이 뭉쳤습니다.",
+    "nl": "Verrotting en vernieuwing verstrengeld.",
+    "pt-BR": "Decomposição e renovação unidas.",
+    "ru": "Союз разложения и обновления.",
+    "tr": "Çürüme ve yenilenme bir arada.",
+    "zh-CN": "腐烂与新生交融。",
+    "zh-TW": "腐爛與新生交融。"
+  },
+  "icon": "icons/items/ELECTRIFIED_MAGMA.png",
+  "id": "ELECTRIFIED_MAGMA",
+  "name": {
+    "ar": "فحم تعفن صاعق",
+    "de": "Aufgeladener Fäulnisbrand",
+    "en": "Charged Rotburn",
+    "es": "Petrodumbre tormentosa",
+    "fr": "Charbon putrescent chargé",
+    "fr-CA": "Charbon putrescent chargé",
+    "it": "Elettromarciolite",
+    "ja": "帯電した腐敗石",
+    "ko": "충전된 부패석탄",
+    "nl": "Opgeladen rotsteen",
+    "pt-BR": "Putrefogo Energizado",
+    "ru": "Заряженный гнилогар",
+    "tr": "Enerji Yüklü Çürükateş",
+    "zh-CN": "蓄能腐烧",
+    "zh-TW": "蓄能腐燃"
+  }
+}

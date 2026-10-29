@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+    "de": "Eine freakige Kreatur für deine Ranch.",
+    "en": "A freakish creature for you to Ranch.",
+    "es": "Una extraña criatura que puedes criar.",
+    "fr": "Une créature bizarroïde à élever dans votre ranch.",
+    "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+    "it": "Una bizzarra creatura da allevare.",
+    "ja": "畜舎で飼育できる、少し変わった生き物",
+    "ko": "목장에서 키우는 희한한 동물입니다.",
+    "nl": "Een ongewoon dier voor in je veeboerderij.",
+    "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+    "ru": "Странное животное для разведения.",
+    "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+    "zh-CN": "牧场的古怪生物。",
+    "zh-TW": "牧場的怪生物。"
+  },
+  "icon": "icons/items/ANIMAL_LLAMA.png",
+  "id": "ANIMAL_LLAMA",
+  "name": {
+    "ar": "حيوان اللاما",
+    "de": "Lamai",
+    "en": "Llamaish",
+    "es": "Llamis",
+    "fr": "Lamaoïde",
+    "fr-CA": "Lamaoïde",
+    "it": "Lamala",
+    "ja": "ラマモドキ",
+    "ko": "라마류",
+    "nl": "Lamaïg",
+    "pt-BR": "Lhaminha",
+    "ru": "Ламло",
+    "tr": "Lamamsı",
+    "zh-CN": "怪羊驼",
+    "zh-TW": "怪羊駝"
+  }
+}

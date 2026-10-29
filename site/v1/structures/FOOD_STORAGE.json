@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 3
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تخرين الوجبات هنا لحمايتها من <color=#01D5A2>التعفن.</color>",
+    "de": "Lagere Lebensmittel hier, um sie vor dem <color=#01D5A2>Vergammeln</color> zu schützen.",
+    "en": "Store meals here to stop them from <color=#01D5A2>rotting.</color>",
+    "es": "Almacena comida aquí para que evitar que se <color=#01D5A2>ponga mala</color>.",
+    "fr": "Permet de conserver les plats et éviter qu'ils ne <color=#01D5A2>pourrissent</color>.",
+    "fr-CA": "Permet de conserver les plats et éviter qu'ils ne <color=#01D5A2>pourrissent</color>.",
+    "it": "Vi si possono conservare i pasti per evitare che <color=#01D5A2>vadano a male</color>.",
+    "ja": "料理はここに保管しておくことで、<color=#01D5A2>腐敗</color>を防ぐことができる",
+    "ko": "음식이 <color=#01D5A2>부패</color>하지 않게 보관합니다",
+    "nl": "Bewaar hier maaltijden zodat ze niet <color=#01D5A2>rotten</color>.",
+    "pt-BR": "Armazene as refeições aqui para evitar que <color=#01D5A2>apodreçam</color>",
+    "ru": "Хранилище для приготовленной еды, в котором она не <color=#01D5A2>сгнивает</color>.",
+    "tr": "Yemeklerin <color=#01D5A2>bozulmasını</color> önlemek için onları burada depola.",
+    "zh-CN": "在此存放餐点，防止食物<color=#01D5A2>腐坏</color>",
+    "zh-TW": "在此存放餐點，防止食物<color=#01D5A2>腐壞</color>"
+  },
+  "icon": null,
+  "id": "FOOD_STORAGE",
+  "name": {
+    "ar": "مخزن الطعام",
+    "de": "Lebensmittellager",
+    "en": "Food Storage",
+    "es": "Almacén de comida",
+    "fr": "Réserve de nourriture",
+    "fr-CA": "Réserve de nourriture",
+    "it": "Contenitore per cibi",
+    "ja": "食料保管庫",
+    "ko": "음식 보관소",
+    "nl": "Voedselopslag",
+    "pt-BR": "Armazém de Alimentos",
+    "ru": "Склад продовольствия",
+    "tr": "Yiyecek Deposu",
+    "zh-CN": "食物储藏架",
+    "zh-TW": "食物儲藏架"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

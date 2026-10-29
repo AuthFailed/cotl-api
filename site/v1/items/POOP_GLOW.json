@@ -1,0 +1,39 @@
+{
+  "category": "POOP",
+  "description": {
+    "ar": "المحاصيل التي تُزرع باستخدامه تجذب يراعات ليلًا.",
+    "de": "Damit gedüngte Feldfrüchte ziehen nachts Glühwürmchen an.",
+    "en": "Crops grown with this attracts fireflies at night.",
+    "es": "Los cultivos en los que se use esto atraerán luciérnagas de noche.",
+    "fr": "Les plantations fertilisées avec ceci attirent des lucioles la nuit.",
+    "fr-CA": "Les plantations fertilisées avec ceci attirent des lucioles la nuit.",
+    "it": "Le colture attireranno le lucciole, di notte.",
+    "ja": "これを使って育てた作物は夜にホタルを引き寄せる",
+    "ko": "이 거름을 먹고 자란 곡식은 밤에 반딧불이를 끌어들입니다.",
+    "nl": "Gewassen die groeien op deze mest trekken 's nachts vuurvliegjes aan.",
+    "pt-BR": "Plantações cultivadas com isto atraem vaga-lumes à noite.",
+    "ru": "Удобрение, привлекающее к посевам светлячков по ночам.",
+    "tr": "Bununla yetişen mahsuller gece ateş böceklerini çeker.",
+    "zh-CN": "施肥后，作物夜间会引来萤火虫。",
+    "zh-TW": "施肥後，作物夜間會引來螢火蟲。"
+  },
+  "icon": "icons/items/POOP_GLOW.png",
+  "id": "POOP_GLOW",
+  "name": {
+    "ar": "سماد لامع",
+    "de": "Leuchtender Dünger",
+    "en": "Glowing Fertiliser",
+    "es": "Fertilizante luminoso",
+    "fr": "Fertilisant lumineux",
+    "fr-CA": "Fertilisant lumineux",
+    "it": "Concime splendente",
+    "ja": "輝く肥料",
+    "ko": "빛나는 퇴비",
+    "nl": "Gloeiende mest",
+    "pt-BR": "Fertilizante Reluzente",
+    "ru": "Светящееся удобрение",
+    "tr": "Parlayan Gübre",
+    "zh-CN": "发光肥料",
+    "zh-TW": "發光肥料"
+  }
+}

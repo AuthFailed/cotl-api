@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Burrow_Worm",
+  "name": {
+    "en": "Boss Burrow Worm"
+  },
+  "unlock": "Dungeon1"
+}

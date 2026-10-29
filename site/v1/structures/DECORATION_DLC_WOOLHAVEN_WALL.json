@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "لم يمنعهم من الدخول في النهاية.",
+    "de": "Ferngehalten hat sie die Gefahr letztendlich nicht.",
+    "en": "It did not, in the end, keep them out.",
+    "es": "Y, a pesar de todo, no consiguió frenar al enemigo.",
+    "fr": "N'a pas su les tenir à l'écart au final.",
+    "fr-CA": "N'a pas su les tenir à l'écart au final.",
+    "it": "Alla fine, non li ha tenuti fuori.",
+    "ja": "結局のところ、カベ程度では止めることはできなかった",
+    "ko": "끝내는 아무도 가둬두지 못했지만.",
+    "nl": "Uiteindelijk heeft dit ze niet tegengehouden.",
+    "pt-BR": "No fim, ela não os manteve longe.",
+    "ru": "Стена, не сдержавшая никого.",
+    "tr": "Nihayetinde kimseyi dışarıda tutamadı.",
+    "zh-CN": "最终也没能挡住。",
+    "zh-TW": "最終，它並未能阻隔外敵。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_WALL.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_WALL",
+  "name": {
+    "ar": "حائط ملاذ الحملان",
+    "de": "Wollhafen-Mauer",
+    "en": "Woolhaven Wall",
+    "es": "Muro de Vellones Elíseos",
+    "fr": "Mur de Havrelaine",
+    "fr-CA": "Mur de Havrelaine",
+    "it": "Muro dell'Aldilàna",
+    "ja": "羊毛の聖域のカベ",
+    "ko": "포근쉼터 벽",
+    "nl": "Wolhavenmuur",
+    "pt-BR": "Parede da Santa Lã",
+    "ru": "Шерстопольский парапет",
+    "tr": "Yüntepe Duvarı",
+    "zh-CN": "羊绒仙境墙",
+    "zh-TW": "羊絨仙境牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

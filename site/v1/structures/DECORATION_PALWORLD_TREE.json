@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "en": "Bearing odd fruit, this tree is full of potential."
+  },
+  "icon": "icons/structures/DECORATION_PALWORLD_TREE.png",
+  "id": "DECORATION_PALWORLD_TREE",
+  "name": {
+    "en": "Skilled Bonsai Tree"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

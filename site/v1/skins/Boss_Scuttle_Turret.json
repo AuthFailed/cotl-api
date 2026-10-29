@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Scuttle_Turret",
+  "name": {
+    "en": "Boss Scuttle Turret"
+  },
+  "unlock": "Dungeon3"
+}

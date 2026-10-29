@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يمكنك أخذها إلى <color=yellow>بليمبو</color> للحصول على مكافأة.",
+    "de": "Bringst du es zu <color=yellow>Plimbo</color>, erhältst du eine Belohnung.",
+    "en": "Take this to <color=yellow>Plimbo</color> for a reward.",
+    "es": "Llévale esto a <color=yellow>Plimbo</color> y consigue una recompensa.",
+    "fr": "À apporter à <color=yellow>Plimbo</color> pour recevoir une récompense.",
+    "fr-CA": "À apporter à <color=yellow>Plimbo</color> pour recevoir une récompense.",
+    "it": "Consegnalo a <color=yellow>Plimbo</color> per ricevere una ricompensa.",
+    "ja": "<color=yellow>プリンボ</color>に渡すことで報酬がもらえる",
+    "ko": "<color=yellow>플림보</color>에게 들고가면 보상을 얻습니다.",
+    "nl": "Breng dit naar <color=yellow>Plimbo</color> voor een beloning.",
+    "pt-BR": "Leve isso para o <color=yellow>Plimbo</color> e ganhe uma recompensa.",
+    "ru": "Вещь, за которую <color=yellow>Плимбо</color> даёт награду.",
+    "tr": "Ödül için bunu <color=yellow>Plimbo</color>'ya götür.",
+    "zh-CN": "可拿给<color=yellow>普霖波</color>换取奖励。",
+    "zh-TW": "可拿給<color=yellow>普霖波</color>換取獎勵。"
+  },
+  "icon": "icons/items/BEHOLDER_EYE.png",
+  "id": "BEHOLDER_EYE",
+  "name": {
+    "ar": "عين الشاهد",
+    "de": "Auge des Zeugen",
+    "en": "Eye of the Witness",
+    "es": "Ojo de testigo",
+    "fr": "Œil de Témoin",
+    "fr-CA": "Œil de Témoin",
+    "it": "Occhio di Testimone",
+    "ja": "抜け落ちた魔眼",
+    "ko": "목격자의 눈",
+    "nl": "Oog van de getuige",
+    "pt-BR": "Olho da Testemunha",
+    "ru": "Глаз свидетеля",
+    "tr": "Şahidin Gözü",
+    "zh-CN": "见证者之眼",
+    "zh-TW": "見證者之眼"
+  }
+}

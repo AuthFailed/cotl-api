@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 4
+    },
+    {
+      "item": "GRASS",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يمكن وضعه داخل مَربى الحيوانات لتتمكن الحيوانات من الأكل حين تجوع.",
+    "de": "Kann in einer Ranch platziert werden, damit die Tiere fressen können, wenn sie hungrig sind.",
+    "en": "Can be placed inside a Ranch so animals can eat when they are hungry.",
+    "es": "Colócalo en el rancho para que los animales puedan comer cuando tienen hambre.",
+    "fr": "À placer dans un ranch pour que les animaux se nourrissent quand ils ont faim.",
+    "fr-CA": "À placer dans un ranch pour que les animaux se nourrissent quand ils ont faim.",
+    "it": "Può essere posizionato nell'Allevamento per permettere agli animali di nutrirsi.",
+    "ja": "畜舎内に設置できる。腹を空かせた動物がここからエサを食べる",
+    "ko": "목장 안에 배치하면 동물들이 배가 고플 때 알아서 식사를 합니다.",
+    "nl": "Kan in een veeboerderij worden geplaatst zodat dieren kunnen eten wanneer ze honger hebben.",
+    "pt-BR": "Pode ser colocado dentro de um Rancho para que os animais se alimentem.",
+    "ru": "Приспособление для кормления животных, которое можно поставить у хлева.",
+    "tr": "Hayvanların acıktıklarında beslenebilmeleri için Hayvan Çiftliği'nin içine konulabilir.",
+    "zh-CN": "可放置于牧场内，供肚子饿的动物食用。",
+    "zh-TW": "可放置於牧場內，供肚子餓的動物食用。"
+  },
+  "icon": "icons/structures/RANCH_TROUGH.png",
+  "id": "RANCH_TROUGH",
+  "name": {
+    "ar": "معلف",
+    "de": "Trog",
+    "en": "Trough",
+    "es": "Comedero",
+    "fr": "Auge",
+    "fr-CA": "Auge",
+    "it": "Trogolo",
+    "ja": "飼い葉桶",
+    "ko": "여물통",
+    "nl": "Trog",
+    "pt-BR": "Cocho",
+    "ru": "Корыто",
+    "tr": "Yemlik",
+    "zh-CN": "饲料槽",
+    "zh-TW": "飼料槽"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "StarBunny",
+  "name": {
+    "en": "StarBunny"
+  },
+  "unlock": "SpecialEvents"
+}

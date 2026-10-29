@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "أكثر صلابة من العشب.",
+    "de": "Fester als Gras.",
+    "en": "Sturdier than grass.",
+    "es": "Más resistente que la hierba.",
+    "fr": "Plus solide que l'herbe.",
+    "fr-CA": "Plus solide que l'herbe.",
+    "it": "Più robusto di quello di ramoscelli.",
+    "ja": "雑草よりは頑丈",
+    "ko": "풀보다 견고합니다.",
+    "nl": "Steviger dan gras.",
+    "pt-BR": "Mais robusto que mato",
+    "ru": "Более надёжный, чем травяная ограда.",
+    "tr": "Çimden daha dayanıklı.",
+    "zh-CN": "比青草墙坚固",
+    "zh-TW": "比青草牆堅固"
+  },
+  "icon": "icons/structures/DECORATION_WALL_BONE.png",
+  "id": "DECORATION_WALL_BONE",
+  "name": {
+    "ar": "حائط عظمي",
+    "de": "Knochenwall",
+    "en": "Bone Wall",
+    "es": "Muro de huesos",
+    "fr": "Mur d'ossements",
+    "fr-CA": "Mur d'ossements",
+    "it": "Muro d'ossa",
+    "ja": "骨のカベ",
+    "ko": "뼈 벽",
+    "nl": "Muur van beenderen",
+    "pt-BR": "Parede de Ossos",
+    "ru": "Костяной забор",
+    "tr": "Kemik Duvar",
+    "zh-CN": "骨头墙",
+    "zh-TW": "骨頭牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

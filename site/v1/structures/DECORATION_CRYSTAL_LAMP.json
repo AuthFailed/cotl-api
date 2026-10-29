@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "CRYSTAL",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "قنديل مكون من بلورة لامعة.",
+    "de": "Eine Laterne aus leuchtenden Kristallen.",
+    "en": "A lantern comprised of shining crystal.",
+    "es": "Una lámpara hecha de cristal brillante.",
+    "fr": "Une lanterne de cristal brillant.",
+    "fr-CA": "Une lanterne de cristal brillant.",
+    "it": "Una lampada di cristallo splendente.",
+    "ja": "キラキラと輝くクリスタルでできた明かり",
+    "ko": "빛나는 수정으로 구성된 등입니다.",
+    "nl": "Een lantaarn gemaakt van gloeiend kristal.",
+    "pt-BR": "Uma lanterna composta de cristal brilhante",
+    "ru": "Фонарь, изготовленный из сверкающих кристаллов.",
+    "tr": "Parlak kristallerden yapılmış bir fener.",
+    "zh-CN": "由闪亮水晶组成的灯笼",
+    "zh-TW": "由閃亮水晶組成的燈籠"
+  },
+  "icon": "icons/structures/DECORATION_CRYSTAL_LAMP.png",
+  "id": "DECORATION_CRYSTAL_LAMP",
+  "name": {
+    "ar": "مصباح بلوري",
+    "de": "Kristalllampe",
+    "en": "Crystal Lamp",
+    "es": "Lámpara de cristal",
+    "fr": "Lanterne de cristal",
+    "fr-CA": "Lanterne de cristal",
+    "it": "Lampada di cristallo",
+    "ja": "クリスタルランプ",
+    "ko": "수정 등",
+    "nl": "Kristallamp",
+    "pt-BR": "Lamparina de Cristal",
+    "ru": "Кристальная лампа",
+    "tr": "Kristal Lamba",
+    "zh-CN": "水晶灯笼",
+    "zh-TW": "水晶燈籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

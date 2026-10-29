@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 5
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "يمكنك طهي عناصر نيئة وتحويلها إلى <color=#FFD201>وجبات</color> <sprite name=\"icon_Meal\"> يمكن للأتباع تناولها.",
+    "de": "Koche rohe Gegenstände und verwandle sie in <color=#FFD201>Mahlzeiten</color> <sprite name=\"icon_Meal\">, die Anhänger essen können.",
+    "en": "Cook raw items and turn them into <color=#FFD201>Meals</color> <sprite name=\"icon_Meal\"> that Followers can eat.",
+    "es": "Cocina alimentos crudos y conviértelos en <color=#FFD201>platos</color> <sprite name=\"icon_Meal\"> para que coman tus adeptos.",
+    "fr": "Permet de transformer de la nourriture crue en <color=#FFD201>plats comestibles</color> <sprite name=\"icon_Meal\"> à servir à vos adeptes.",
+    "fr-CA": "Permet de transformer de la nourriture crue en <color=#FFD201>plats comestibles</color> <sprite name=\"icon_Meal\"> à servir à vos adeptes.",
+    "it": "Ideale per cuocere risorse grezze e trasformarle in <color=#FFD201>pasti</color> <sprite name=\"icon_Meal\"> per i membri del Culto.",
+    "ja": "信者の空腹を満たすため、材料を調理して<color=#FFD201>料理</color> <sprite name=\"icon_Meal\">を作ろう",
+    "ko": "날것을 요리해 추종자들이 먹을 수 있는 <color=#FFD201>요리</color> <sprite name=\"icon_Meal\">로 만듭니다.",
+    "nl": "Kook rauwe ingrediënten en maak er <color=#FFD201>maaltijden</color> <sprite name=\"icon_Meal\"> van die volgelingen kunnen eten.",
+    "pt-BR": "Cozinhe itens crus e prepare <color=#FFD201>Refeições</color> <sprite name=\"icon_Meal\"> para seus Seguidores comerem.",
+    "ru": "Сооружение, на котором можно готовить для последователей <color=#FFD201>пищу</color> <sprite name=\"icon_Meal\">.",
+    "tr": "Çiğ malzemeleri pişirerek Takipçilerin yiyebileceği <color=#FFD201>Yemekler</color> <sprite name=\"icon_Meal\"> yap.",
+    "zh-CN": "烹煮生鲜食材并做成<color=#FFD201>餐点</color> <sprite name=\"icon_Meal\">，供教徒食用",
+    "zh-TW": "烹煮生鮮食材並做成<color=#FFD201>餐點</color> <sprite name=\"icon_Meal\">，供教徒食用"
+  },
+  "icon": "icons/structures/COOKING_FIRE.png",
+  "id": "COOKING_FIRE",
+  "name": {
+    "ar": "موقد الطهي",
+    "de": "Kochfeuer",
+    "en": "Cooking Fire",
+    "es": "Fuego para cocinar",
+    "fr": "Feu de cuisine",
+    "fr-CA": "Feu de cuisine",
+    "it": "Fuoco di cottura",
+    "ja": "調理用焚き火",
+    "ko": "요리용 화덕",
+    "nl": "Kookvuur",
+    "pt-BR": "Fogueira de Cozinha",
+    "ru": "Походная печь",
+    "tr": "Izgara",
+    "zh-CN": "炊火",
+    "zh-TW": "炊火"
+  },
+  "size": {
+    "h": 4,
+    "w": 4
+  },
+  "upgradesFrom": null
+}

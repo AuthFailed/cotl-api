@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 7
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يمكنك توفير مكان جيد لأتباعك ليقضوا حاجتهم فيه. سعته أكبر.",
+    "de": "Gib deinen Anhängern einen Ort, an dem sie sich erleichtern können. Größeres Fassungsvermögen.",
+    "en": "Give your Followers somewhere nice to relieve themselves. Higher capacity.",
+    "es": "Dales a tus adeptos un lugar en el que poder liberarse. Mayor capacidad.",
+    "fr": "Permet aux adeptes de se soulager. Plus grande capacité.",
+    "fr-CA": "Permet aux adeptes d'avoir un endroit où se soulager. Plus grande capacité.",
+    "it": "Offri ai membri del Culto un luogo dove poter evacuare. Ha una maggior capacità.",
+    "ja": "信者が用を足すための場所。より心地よく使えるほか、容量が増加している",
+    "ko": "추종자들에게 용변을 해결할 멋진 공간을 제공합니다. 수용도가 높습니다.",
+    "nl": "Geef je volgelingen een mooie plek om rustig hun behoefte te doen. Hogere capaciteit.",
+    "pt-BR": "Dê um bom lugar para seus Seguidores se aliviarem. Tem maior capacidade.",
+    "ru": "Помещение с большей вместимостью, где ваши последователи могут облегчиться в комфортной обстановке.",
+    "tr": "Takipçilerin içini dökebileceği, daha sevimli bir yer. Daha yüksek kapasiteye sahip.",
+    "zh-CN": "让你的教徒有个好地方能释放，容量增加。",
+    "zh-TW": "讓你的教徒有個好地方能解放，容量增加。"
+  },
+  "icon": "icons/structures/OUTHOUSE_2.png",
+  "id": "OUTHOUSE_2",
+  "name": {
+    "ar": "المرحاض II",
+    "de": "Toilettenhäuschen II",
+    "en": "Outhouse II",
+    "es": "Letrina II",
+    "fr": "Toilettes extérieures II",
+    "fr-CA": "Toilettes extérieures II",
+    "it": "Latrina II",
+    "ja": "屋外便所 II",
+    "ko": "화장실 II",
+    "nl": "Plee II",
+    "pt-BR": "Banheiro Externo II",
+    "ru": "Туалет II",
+    "tr": "Tuvalet II",
+    "zh-CN": "户外厕所 II",
+    "zh-TW": "戶外廁所 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "OUTHOUSE"
+}

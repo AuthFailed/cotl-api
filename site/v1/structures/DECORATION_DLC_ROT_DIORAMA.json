@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 5
+    },
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "نافورة تفيض بالعفن الكريه.",
+    "de": "Ein Springbrunnen, der vor Fäulnis überschäumt.",
+    "en": "A fountain frothing with foul Rot.",
+    "es": "Una fuente de la que mana una espuma repugnante.",
+    "fr": "Une fontaine bouillonnante de putrescence.",
+    "fr-CA": "Une fontaine bouillonnante de putrescence.",
+    "it": "Una fontana che schiuma di sudicio marciume.",
+    "ja": "山頂では、悪臭を放つ腐敗がぶくぶくと泡を立てている",
+    "ko": "썩은 부패가 진동하는 분수입니다.",
+    "nl": "Een fontein die schuimt van de ranzige rotting.",
+    "pt-BR": "Uma fonte repleta de Putrefação nefasta.",
+    "ru": "Сооружение, исторгающее смрадную гниль.",
+    "tr": "Kokuşmuş Çürük'le dolup taşan bir çeşme.",
+    "zh-CN": "冒着恶臭腐烂泡沫的喷泉。",
+    "zh-TW": "噴湧惡臭腐朽物的噴泉。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_DIORAMA.png",
+  "id": "DECORATION_DLC_ROT_DIORAMA",
+  "name": {
+    "ar": "نافورة التعفن",
+    "de": "Fäulnisbrunnen",
+    "en": "Rot Fountain",
+    "es": "Fuente putrefacta",
+    "fr": "Fontaine putrescente",
+    "fr-CA": "Fontaine putrescente",
+    "it": "Fontana di marciume",
+    "ja": "腐敗の小山",
+    "ko": "부패 분수",
+    "nl": "Rotfontein",
+    "pt-BR": "Fonte Putrefata",
+    "ru": "Гнилостный фонтан",
+    "tr": "Çürük Çeşmesi",
+    "zh-CN": "腐烂喷泉",
+    "zh-TW": "腐朽物噴泉"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
+    "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
+    "en": "Plant this in a <color=#FFD201>Farm Plot.</color>",
+    "es": "Plántalas en una <color=#FFD201>parcela</color>.",
+    "fr": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "fr-CA": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "it": "Piantalo in un <color=#FFD201>Appezzamento</color>.",
+    "ja": "<color=#FFD201>農作地</color>に植えよう",
+    "ko": "<color=#FFD201>밭 경작지</color>에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een <color=#FFD201>landbouwperceel</color>.",
+    "pt-BR": "Plante em um <color=#FFD201>Terreno Agrícola</color>.",
+    "ru": "Семечко, которое можно посадить на <color=#FFD201>участке земли</color>.",
+    "tr": "Bir <color=#FFD201>Tarla</color>'ya ek.",
+    "zh-CN": "可种在<color=#FFD201>农地</color>里。",
+    "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
+  },
+  "icon": "icons/items/SEED_GRAPES.png",
+  "id": "SEED_GRAPES",
+  "name": {
+    "ar": "بذور عنب",
+    "de": "Traubensamen",
+    "en": "Grape Seeds",
+    "es": "Semillas de uva",
+    "fr": "Graine de raisin",
+    "fr-CA": "Graines de raisin",
+    "it": "Seme d'uva",
+    "ja": "ブドウの種",
+    "ko": "포도 씨앗",
+    "nl": "Druivenzaden",
+    "pt-BR": "Sementes de Uvas",
+    "ru": "Семя винограда",
+    "tr": "Üzüm Tohumları",
+    "zh-CN": "葡萄种子",
+    "zh-TW": "葡萄種子"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "سيكون التابع أول ضحية لمستوى العقيدة المنخفض أو المرض أو الجوع.",
+    "de": "Der Anhänger wird das erste Opfer von geringem Glauben, Krankheit oder Hunger sein.",
+    "en": "Follower will be the first victim of low Faith, Illness or Hunger.",
+    "es": "El adepto caerá víctima de la falta de fe, la enfermedad o el hambre antes que nadie.",
+    "fr": "L'adepte sera la première victime de perte de foi, de maladie ou de famine.",
+    "fr-CA": "L'adepte sera la première victime de perte de foi, de maladie ou de famine.",
+    "it": "Il membro del Culto sarà la prima vittima causata da bassa Fede, malattia o fame.",
+    "ja": "信仰低下や不衛生、飢餓による犠牲者が発生する時、身につけた信者が最初に選ばれる",
+    "ko": "추종자가 낮은 신앙, 질병 또는 허기의 첫 번째 희생자가 됩니다.",
+    "nl": "Volgeling wordt het eerste slachtoffer van laag geloof, ziekte of honger.",
+    "pt-BR": "O seguidor será a primeira vítima de Fé baixa, Doença ou Fome.",
+    "ru": "Украшение, делающее последователя первой жертвой при эпидемии, голоде и низком уровне веры.",
+    "tr": "Takipçi düşük İnanç, Hastalık veya Açlığın ilk kurbanı olur.",
+    "zh-CN": "教徒会率先遭受低信仰值、生病或饥饿侵扰。",
+    "zh-TW": "教徒會成為低信仰值、生病或飢餓的首名苦主。"
+  },
+  "icon": "icons/items/Necklace_Targeted.png",
+  "id": "Necklace_Targeted",
+  "name": {
+    "ar": "قلادة الحظ السيئ",
+    "de": "Unglückshalskette",
+    "en": "Unlucky Necklace",
+    "es": "Collar de la mala fortuna",
+    "fr": "Collier de malchance",
+    "fr-CA": "Collier de malchance",
+    "it": "Collana del malcapitato",
+    "ja": "不運のネックレス",
+    "ko": "불운의 목걸이",
+    "nl": "Onfortuinlijke ketting",
+    "pt-BR": "Colar Azarado",
+    "ru": "Ожерелье неудачи",
+    "tr": "Talihsizlik Kolyesi",
+    "zh-CN": "不幸项链",
+    "zh-TW": "不幸項鍊"
+  }
+}

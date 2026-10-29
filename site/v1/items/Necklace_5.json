@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "التابع لن ينام.",
+    "de": "Der Anhänger schläft nie.",
+    "en": "Follower will never sleep.",
+    "es": "El adepto no dormirá nunca.",
+    "fr": "Permet à un adepte de ne jamais avoir besoin de dormir.",
+    "fr-CA": "Permet à un adepte de ne jamais avoir besoin de dormir.",
+    "it": "Il membro del Culto non dormirà mai.",
+    "ja": "信者が一切睡眠を取らなくなる",
+    "ko": "추종자가 잠을 자지 않게 됩니다.",
+    "nl": "Volgeling zal nooit slapen.",
+    "pt-BR": "O Seguidor nunca dormirá",
+    "ru": "Украшение, помогающее последователю обходиться без сна.",
+    "tr": "Takipçi asla uyumaz.",
+    "zh-CN": "教徒永远不必睡觉",
+    "zh-TW": "教徒永遠不必睡覺"
+  },
+  "icon": "icons/items/Necklace_5.png",
+  "id": "Necklace_5",
+  "name": {
+    "ar": "قلادة القمر",
+    "de": "Mondhalskette",
+    "en": "Moon Necklace",
+    "es": "Collar lunar",
+    "fr": "Collier lunaire",
+    "fr-CA": "Collier lunaire",
+    "it": "Collana lunare",
+    "ja": "月のネックレス",
+    "ko": "달 목걸이",
+    "nl": "Maanketting",
+    "pt-BR": "Colar da Lua",
+    "ru": "Ожерелье с полумесяцем",
+    "tr": "Ay Kolyesi",
+    "zh-CN": "月之项链",
+    "zh-TW": "月之項鍊"
+  }
+}

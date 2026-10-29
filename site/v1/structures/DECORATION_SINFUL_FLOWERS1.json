@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "FLOWER_RED",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "سلة أزهار جميلة ذات رائحة عبقة.",
+    "de": "Ein Korb voll herrlicher Blumen mit einem betörenden Duft.",
+    "en": "A basket of delicious flowers with a heady scent.",
+    "es": "Una cesta de flores que desprende un olor embriagador.",
+    "fr": "Un panier de fleurs magnifiques au parfum enivrant.",
+    "fr-CA": "Un panier de fleurs magnifiques au parfum enivrant.",
+    "it": "Un cesto di graziosi fiori dal profumo inebriante.",
+    "ja": "かんばしい香りを放つ花で満たされたカゴ",
+    "ko": "자극적인 향이 기분 좋은 꽃 한 바구니입니다.",
+    "nl": "Een mand vol heerlijke sterk geurende bloemen.",
+    "pt-BR": "Uma cesta de flores maravilhosas com uma essência arrebatadora.",
+    "ru": "Корзина роскошных цветов с дурманящим ароматом.",
+    "tr": "Baş döndürücü kokuya sahip bir çiçek sepeti.",
+    "zh-CN": "一篮花香令人沉醉的鲜美花朵。",
+    "zh-TW": "一籃花香令人沉醉的鮮美花朵。"
+  },
+  "icon": "icons/structures/DECORATION_SINFUL_FLOWERS1.png",
+  "id": "DECORATION_SINFUL_FLOWERS1",
+  "name": {
+    "ar": "أزهار الإغواء",
+    "de": "Blumen der Verlockung",
+    "en": "Flowers of Seduction",
+    "es": "Flores de la seducción",
+    "fr": "Fleurs de la luxure",
+    "fr-CA": "Fleurs de la luxure",
+    "it": "Fiori della seduzione",
+    "ja": "魅惑の花カゴ",
+    "ko": "유혹의 꽃",
+    "nl": "Bloemen der verleiding",
+    "pt-BR": "Flores da Sedução",
+    "ru": "Цветы соблазнения",
+    "tr": "Günahkâr Çiçekler",
+    "zh-CN": "诱惑花朵",
+    "zh-TW": "誘惑花朵"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

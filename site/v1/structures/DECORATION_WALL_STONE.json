@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "أكثر صلابة من العظام.",
+    "de": "Fester als Knochen.",
+    "en": "Sturdier than bone.",
+    "es": "Más resistente que los huesos.",
+    "fr": "Plus solide que l'os.",
+    "fr-CA": "Plus solide que l'os.",
+    "it": "Più robusto di quello d'ossa.",
+    "ja": "骨よりも頑丈",
+    "ko": "뼈보다 견고합니다.",
+    "nl": "Steviger dan botten.",
+    "pt-BR": "Mais robusto que osso",
+    "ru": "Более надёжная, чем костяной забор.",
+    "tr": "Kemikten daha dayanıklı.",
+    "zh-CN": "比骨头墙坚固",
+    "zh-TW": "比骨頭牆堅固"
+  },
+  "icon": "icons/structures/DECORATION_WALL_STONE.png",
+  "id": "DECORATION_WALL_STONE",
+  "name": {
+    "ar": "حائط حجري",
+    "de": "Steinwall",
+    "en": "Stone Wall",
+    "es": "Muro de piedra",
+    "fr": "Mur de pierre",
+    "fr-CA": "Mur de pierre",
+    "it": "Muro di pietra",
+    "ja": "石のカベ",
+    "ko": "돌 벽",
+    "nl": "Muur van steen",
+    "pt-BR": "Parede de Pedra",
+    "ru": "Каменная стена",
+    "tr": "Taş Duvar",
+    "zh-CN": "岩石墙",
+    "zh-TW": "岩石牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

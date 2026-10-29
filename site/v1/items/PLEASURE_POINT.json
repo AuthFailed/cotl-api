@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "تجسيد لفساد رعاياك. الأمر يعود إليك في التجاوز عنها والعفو عنهم.",
+    "de": "Die Manifestation der Unreinheit deiner Herde. Losgesprochen, bußfertig und zu deiner Verfügung.",
+    "en": "The manifestation of your flock's impurity. Absolved, repentant and at your disposal.",
+    "es": "La manifestación de la inmoralidad de tu rebaño. Indultados, arrepentidos y a tu disposición.",
+    "fr": "La manifestation de l'impureté de votre troupeau. Absous, repentant et à votre disposition.",
+    "fr-CA": "La manifestation de l'impureté de votre troupeau. Absous, repentant et à votre disposition.",
+    "it": "La manifestazione dell'impurità del gregge. Assolto, pentito e a tua disposizione.",
+    "ja": "教団における不浄が具現化したもの。赦免により悔い改められ、教祖の意のままに使える",
+    "ko": "추종자들의 불순함을 나타내는 징후. 죄 사함도, 뉘우침도 모두 당신이 판단합니다.",
+    "nl": "De manifestatie van de onzuiverheid van je kudde. Verlost, berouwvol en tot je beschikking.",
+    "pt-BR": "A manifestação da impureza em seu rebanho. Absolvida, arrependida e à sua disposição.",
+    "ru": "Воплощение порочности вашей паствы. Эти грехи исповеданы, прощены и отданы в ваше распоряжение.",
+    "tr": "Sürünün kirli emellerinin tezahürü. Af dileyen, kurtuluş arayan ve kendini sana teslim eden bir sürü...",
+    "zh-CN": "教众不纯洁的具体化之物。已获赦免，带有悔悟，任你处置。",
+    "zh-TW": "徒眾不純潔的具體化之物。已獲赦免，帶有悔悟，任你處置。"
+  },
+  "icon": "icons/items/PLEASURE_POINT.png",
+  "id": "PLEASURE_POINT",
+  "name": {
+    "ar": "الخطيئة",
+    "de": "Sünde",
+    "en": "Sin",
+    "es": "Pecado",
+    "fr": "Péché",
+    "fr-CA": "Péché",
+    "it": "Peccato",
+    "ja": "罪",
+    "ko": "죄",
+    "nl": "Zonde",
+    "pt-BR": "Pecado",
+    "ru": "Грех",
+    "tr": "Günah",
+    "zh-CN": "罪孽",
+    "zh-TW": "罪孽"
+  }
+}

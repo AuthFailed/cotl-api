@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "ما هذه الآلة الغريبة؟",
+    "de": "Was ist das für eine seltsame Maschine?",
+    "en": "What is this peculiar machine?",
+    "es": "¿Y esta máquina tan rara?",
+    "fr": "À quoi peut bien servir cette étrange machine ?",
+    "fr-CA": "À quoi sert cette étrange machine?",
+    "it": "Cos'è questa macchina tanto bizzarra?",
+    "ja": "なんだか変な機械だなあ",
+    "ko": "이 이상한 기계는 무엇일까요?",
+    "nl": "Wat is dit voor merkwaardige machine?",
+    "pt-BR": "Que máquina peculiar é essa?",
+    "ru": "В чём предназначение этого загадочного устройства?",
+    "tr": "Bu tuhaf makine de neyin nesi?",
+    "zh-CN": "这是什么古怪的机器？",
+    "zh-TW": "這是什麼古怪的機器？"
+  },
+  "icon": "icons/structures/DECORATION_DST_ALCHEMY.png",
+  "id": "DECORATION_DST_ALCHEMY",
+  "name": {
+    "ar": "محرك كيميائي",
+    "de": "Alchemiemaschine",
+    "en": "Alchemy Engine",
+    "es": "Motor de alquimia",
+    "fr": "Moteur d'alchimie",
+    "fr-CA": "Moteur d'alchimie",
+    "it": "Macchina alchemica",
+    "ja": "アルケミーエンジン",
+    "ko": "연금술 기계",
+    "nl": "Alchemiemotor",
+    "pt-BR": "Mecanismo de Alquimia",
+    "ru": "Алхимический двигатель",
+    "tr": "Simya Makinesi",
+    "zh-CN": "炼金引擎",
+    "zh-TW": "煉金引擎"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

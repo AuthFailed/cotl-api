@@ -1,0 +1,39 @@
+{
+  "category": "POOP",
+  "description": {
+    "ar": "المحاصيل التي تُزرع باستخدامه ستستمر في النمو خلال الشتاء.",
+    "de": "Damit gedüngte Feldfrüchte wachsen im Winter weiter.",
+    "en": "Crops grown with this will continue growing during Winter.",
+    "es": "Los cultivos en los que se use esto crecerán durante el invierno.",
+    "fr": "Les plantations fertilisées avec ceci continuent de pousser en hiver.",
+    "fr-CA": "Les plantations fertilisées avec ceci continuent de pousser en hiver.",
+    "it": "Le colture cresceranno anche in inverno.",
+    "ja": "農作物に使うと冬の間も育ち続ける",
+    "ko": "이걸로 키운 작물은 겨울에도 계속 자랍니다.",
+    "nl": "Gewassen die hiermee zijn bemest, blijven doorgroeien in de winter.",
+    "pt-BR": "Plantações cultivadas com isto crescerão durante o Inverno.",
+    "ru": "Удобрение, позволяющее выращивать урожай в зимнее время.",
+    "tr": "Bununla yetişen mahsuller kışın da büyümeye devam eder.",
+    "zh-CN": "施肥后，作物可在冬天继续生长。",
+    "zh-TW": "施肥後，作物可在冬天繼續生長。"
+  },
+  "icon": "icons/items/POOP_ROTSTONE.png",
+  "id": "POOP_ROTSTONE",
+  "name": {
+    "ar": "سماد حجر التعفن",
+    "de": "Fäulnisbrand-Dünger",
+    "en": "Rotburn Fertiliser",
+    "es": "Fertilizante petrofacto",
+    "fr": "Fertilisant putrescent",
+    "fr-CA": "Fertilisant putrescent",
+    "it": "Concime marciolitico",
+    "ja": "腐敗石の肥料",
+    "ko": "부패석탄 퇴비",
+    "nl": "Rotsteenmest",
+    "pt-BR": "Fertilizante Putrefogo",
+    "ru": "Гнилогарное удобрение",
+    "tr": "Çürükateş Gübresi",
+    "zh-CN": "腐烧肥料",
+    "zh-TW": "腐燃肥料"
+  }
+}

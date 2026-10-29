@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 6
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "تبث الدفء والخوف.",
+    "de": "Strahlt Hitze und Angst aus.",
+    "en": "Emanates heat and fear.",
+    "es": "Emana calor y pavor.",
+    "fr": "Émet de la chaleur et inspire la crainte.",
+    "fr-CA": "Émet de la chaleur et inspire la crainte.",
+    "it": "Sprigiona calore e paura.",
+    "ja": "温もりと恐怖を同時にもたらしてくれる",
+    "ko": "열기와 공포를 퍼뜨립니다.",
+    "nl": "Straalt hitte en angst uit.",
+    "pt-BR": "Emana calor e medo.",
+    "ru": "Камень, источающий жар и страх.",
+    "tr": "Isı ve korku yayar.",
+    "zh-CN": "散发出热量和恐惧。",
+    "zh-TW": "散發熱能與恐懼。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_STONE1.png",
+  "id": "DECORATION_DLC_ROT_STONE1",
+  "name": {
+    "ar": "منصة فحم التعفن",
+    "de": "Fäulnisbrand-Altar",
+    "en": "Rotburn Altar",
+    "es": "Altar de petrodumbre",
+    "fr": "Autel de charbon putrescent",
+    "fr-CA": "Autel de charbon putrescent",
+    "it": "Altare di marciolite",
+    "ja": "腐敗石の祭壇",
+    "ko": "부패석탄 제단",
+    "nl": "Rotsteenaltaar",
+    "pt-BR": "Altar Putrefogo",
+    "ru": "Гнилогарный алтарь",
+    "tr": "Çürükateş Sunağı",
+    "zh-CN": "腐烧祭坛",
+    "zh-TW": "腐燃祭壇"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

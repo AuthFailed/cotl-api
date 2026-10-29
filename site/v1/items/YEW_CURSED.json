@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "خشب خشن ملبد بعقد.",
+    "de": "Raues Holz, verdreht und knotig.",
+    "en": "Rough wood, twisted with knots.",
+    "es": "Una madera tosca y retorcida.",
+    "fr": "Un bois dur et noueux.",
+    "fr-CA": "Un bois dur et noueux.",
+    "it": "Legno grezzo e nodoso.",
+    "ja": "節くれだって、デコボコしている木材",
+    "ko": "옹이가 덕지덕지 붙은 거친 나무입니다.",
+    "nl": "Ruig hout, verwrongen met knoesten.",
+    "pt-BR": "Madeira bruta retorcida.",
+    "ru": "Грубая сучковатая древесина.",
+    "tr": "Kırık bükük, sert bir odun.",
+    "zh-CN": "扭曲打结的粗砺木头。",
+    "zh-TW": "木質粗糙，盤根錯節。"
+  },
+  "icon": "icons/items/YEW_CURSED.png",
+  "id": "YEW_CURSED",
+  "name": {
+    "ar": "سرو الشاة الملعون",
+    "de": "Verfluchtes Eibenholz",
+    "en": "Cursed Yewbark",
+    "es": "Corteza de tejo corrupta",
+    "fr": "Écorce d'if maudite",
+    "fr-CA": "Écorce d'if maudite",
+    "it": "Legno di tasso maledetto",
+    "ja": "呪われた樹皮",
+    "ko": "저주 받은 주목나무",
+    "nl": "Vervloekt taxushout",
+    "pt-BR": "Teixo Amaldiçoado",
+    "ru": "Проклятая овцина",
+    "tr": "Lanetli Porsukkabuğu",
+    "zh-CN": "受诅咒的紫杉",
+    "zh-TW": "受到詛咒的紫杉"
+  }
+}

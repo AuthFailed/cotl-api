@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "أعظم تمثال على الإطلاق!",
+    "de": "Die großartigste Statue aller Zeiten!",
+    "en": "The greatest statue of all time!",
+    "es": "Si no te gusta es que estás como una cabra.",
+    "fr": "Cette statue va vous rendre chèvre !",
+    "fr-CA": "Cette statue va vous faire « chèvre-irer »!",
+    "it": "La più bella statua che si sia mai vista!",
+    "ja": "この世で最高の像！",
+    "ko": "역사상 최고, 조각상.",
+    "nl": "Het geweldigste standbeeld aller tijden!",
+    "pt-BR": "A melhor estátua de todos os tempos!",
+    "ru": "Самая рогатая статуя в мире.",
+    "tr": "İhtişamına fazla maruz kalanlar, keçileri kaçırabilir!",
+    "zh-CN": "史上最佳雕像！",
+    "zh-TW": "史上最佳雕像！"
+  },
+  "icon": "icons/structures/DECORATION_GOAT_STATUE.png",
+  "id": "DECORATION_GOAT_STATUE",
+  "name": {
+    "ar": "التمثال الأعظم",
+    "de": "Die Ziegenstatue",
+    "en": "The Goat Statue",
+    "es": "Estatua de la Cabra",
+    "fr": "Statue chèvre",
+    "fr-CA": "Statue chèvre",
+    "it": "Statua del Capro",
+    "ja": "山羊の木像",
+    "ko": "염소 조각상",
+    "nl": "Het Geitstandbeeld",
+    "pt-BR": "A Estátua do Bode",
+    "ru": "Козья статуя",
+    "tr": "Keçi Heykeli",
+    "zh-CN": "山羊雕像",
+    "zh-TW": "山羊雕像"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

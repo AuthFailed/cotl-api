@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "en": "The stone likeness of some great winged creature."
+  },
+  "icon": "icons/structures/DECORATION_PALWORLD_STATUE.png",
+  "id": "DECORATION_PALWORLD_STATUE",
+  "name": {
+    "en": "Great Eagle Statue"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

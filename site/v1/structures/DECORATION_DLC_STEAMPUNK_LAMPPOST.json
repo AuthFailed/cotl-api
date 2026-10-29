@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "مصباح يجمع بين الأسلوبين البدائي والمعاصر.",
+    "de": "Beleuchtet den Grat zwischen rustikal und modern.",
+    "en": "Lighting the line between rustic and modern.",
+    "es": "Ilumina la frontera entre lo rústico y lo moderno.",
+    "fr": "Allie l'ancien à la modernité.",
+    "fr-CA": "Allie le rustique à la modernité.",
+    "it": "Rustico e moderno sotto una nuova luce.",
+    "ja": "昔と近代、その間の線を明るく照らしている",
+    "ko": "소박함과 모던함, 그 중간 어딘가를 밝힙니다.",
+    "nl": "Verlicht de grens tussen rustiek en modern.",
+    "pt-BR": "Lançando luz entre o rústico e o moderno.",
+    "ru": "Примитивная, но в то же время современная конструкция.",
+    "tr": "Eski ve çağdaş arasındaki ince çizgiyi aydınlatır.",
+    "zh-CN": "照亮乡村与现代之间的界限。",
+    "zh-TW": "點亮鄉村與現代的界線。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_LAMPPOST.png",
+  "id": "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+  "name": {
+    "ar": "عمود إنارة سرو الشاة",
+    "de": "Eibenholz-Lampenpfahl",
+    "en": "Yewbark Lampost",
+    "es": "Farola de corteza de tejo",
+    "fr": "Réverbère d'écorce d'if",
+    "fr-CA": "Réverbère d'écorce d'if",
+    "it": "Lampione in legno di tasso",
+    "ja": "樹皮製のランプ",
+    "ko": "주목나무 가로등",
+    "nl": "Taxushouten lantaarnpaal",
+    "pt-BR": "Poste de Luz de Teixo",
+    "ru": "Овциновый фонарь",
+    "tr": "Porsukkabuğu Lamba Direği",
+    "zh-CN": "紫衫灯柱",
+    "zh-TW": "紫杉燈桿"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

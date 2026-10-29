@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 80
+    }
+  ],
+  "description": {
+    "ar": "يمكنك إرسال تابعين في مهمة عظيمة في الوقت نفسه. سيكون احتمال نجاح الأتباع أكبر وسيكملون مهمتهم على نحو أسرع.",
+    "de": "Entsende zwei Anhänger gleichzeitig auf eine heilige Mission. Die Anhänger werden größere Erfolgschancen haben und ihre Mission schneller abschließen.",
+    "en": "Send two Followers on a holy quest at once. Followers will have a higher likelihood of success and complete their mission more quickly.",
+    "es": "Envía a dos seguidores a la vez a una misión sagrada. Los adeptos tendrán una mayor probabilidad de salir victoriosos y completar la misión en menos tiempo.",
+    "fr": "Permet d'envoyer jusqu'à deux missionnaires en même temps. Ils finiront leur mission plus rapidement et auront plus de chances de la réussir.",
+    "fr-CA": "Permet d'envoyer jusqu'à deux missionnaires en même temps. Ils finiront leur mission plus rapidement et auront plus de chances de la réussir.",
+    "it": "Invia due membri del Culto alla volta in una missione sacra. Essi avranno maggiori probabilità di successo e completeranno la missione più rapidamente.",
+    "ja": "2人の信者を聖なる宣教の使命へと派遣する。宣教の成功率が高まり、宣教が完了するまでの時間が短くなる",
+    "ko": "한 번에 성스러운 임무를 위해 추종자 둘을 보냅니다. 추종자들이 임무를 성공할 확률이 높고 더 빠르게 돌아옵니다.",
+    "nl": "Stuur twee volgelingen tegelijk op een heilige zendingsreis. De kans op succes is hoger en volgelingen voltooien hun reis sneller.",
+    "pt-BR": "Envie dois Seguidores em uma tarefa sagrada de uma vez só. Os Seguidores têm maior chance de completar a missão com sucesso e mais rapidamente.",
+    "ru": "Здание, где можно снарядить в путь двух последователей одновременно. Миссионеры находят искомое с большей вероятностью и возвращаются быстрее.",
+    "tr": "Aynı anda iki Takipçi'yi kutsal göreve gönderebilirsin. Takipçilerin başarılı olma ihtimali artar ve görev daha hızlı tamamlanır.",
+    "zh-CN": "一次能派三位教徒展开神圣任务。教徒成功的机率增加，完成传教的速度提升",
+    "zh-TW": "一次能派三位教徒展開神聖任務。教徒成功的機率增加，完成傳教的速度提升"
+  },
+  "icon": "icons/structures/MISSIONARY_II.png",
+  "id": "MISSIONARY_II",
+  "name": {
+    "ar": "مبنى البعثات II",
+    "de": "Missionar II",
+    "en": "Missionary II",
+    "es": "Misionero II",
+    "fr": "Poste de mission II",
+    "fr-CA": "Poste de mission II",
+    "it": "Missione II",
+    "ja": "宣教師 II",
+    "ko": "선교지 II",
+    "nl": "Zendingshuis II",
+    "pt-BR": "Missionário II",
+    "ru": "Домик миссионера II",
+    "tr": "Misyoner Binası II",
+    "zh-CN": "传教团 II",
+    "zh-TW": "傳教團 II"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": "MISSIONARY"
+}

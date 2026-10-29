@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "حامل قنديل من ساق كثيفة الأوراق.",
+    "de": "Ein überwachsener Laternenständer.",
+    "en": "An overgrown stand for a lantern.",
+    "es": "Un soporte descuidado para un farol.",
+    "fr": "Une lanterne couverte de végétation.",
+    "fr-CA": "Une lanterne couverte de végétation.",
+    "it": "Un portalanterna avviluppato di verde.",
+    "ja": "ランタンがつるされた、緑豊かな支柱",
+    "ko": "랜턴을 달 수 있는 과성장한 지지대입니다.",
+    "nl": "Een overgroeide standaard voor een lantaarn.",
+    "pt-BR": "Um suporte para lanterna que cresceu demais",
+    "ru": "Покрытые мхом ветки, на которые подвешен фонарь.",
+    "tr": "Üstü bitkilerle kaplanmış bir fener direği.",
+    "zh-CN": "覆满植物的灯笼架",
+    "zh-TW": "覆滿植物的燈籠架"
+  },
+  "icon": "icons/structures/DECORATION_LEAFY_LANTERN.png",
+  "id": "DECORATION_LEAFY_LANTERN",
+  "name": {
+    "ar": "قنديل الساق المورقة",
+    "de": "Blättrige Laterne",
+    "en": "Leafy Lantern",
+    "es": "Farol frondoso",
+    "fr": "Lanterne végétale",
+    "fr-CA": "Lanterne végétale",
+    "it": "Portalanterna rigoglioso",
+    "ja": "リーフランタン",
+    "ko": "잎이 무성한 랜턴",
+    "nl": "Lantaarn met bladeren",
+    "pt-BR": "Lanterna Frondosa",
+    "ru": "Деревянный фонарь",
+    "tr": "Yaprak Kaplı Fener",
+    "zh-CN": "叶子灯笼架",
+    "zh-TW": "葉子燈籠架"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

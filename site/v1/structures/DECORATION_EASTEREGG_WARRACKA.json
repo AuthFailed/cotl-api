@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "تفوح منها رائحة التربة وشائكة.",
+    "de": "Riecht erdig und fühlt sich spitz an.",
+    "en": "Smells earthy and sharp to touch.",
+    "es": "Huele a tierra y es afilada al tacto.",
+    "fr": "A une odeur de terre et fait mal aux mains.",
+    "fr-CA": "A une odeur de terre et une forme affilée.",
+    "it": "Odora di terra, affilato al tocco.",
+    "ja": "土臭い種。触るとトゲトゲしている",
+    "ko": "땅 내음이 풍기는데 만져 보면 날카롭습니다.",
+    "nl": "Ruikt naar aarde en voelt scherp aan.",
+    "pt-BR": "Aroma terroso, áspera ao toque.",
+    "ru": "Пахнущее землёй семечко с острыми краями.",
+    "tr": "Toprak gibi kokar, dokununca can yakar.",
+    "zh-CN": "闻起来有泥土气味，触感尖锐。",
+    "zh-TW": "聞起來有土味，摸起來很扎手。"
+  },
+  "icon": "icons/structures/DECORATION_EASTEREGG_WARRACKA.png",
+  "id": "DECORATION_EASTEREGG_WARRACKA",
+  "name": {
+    "ar": "بذرة واراكا",
+    "de": "Warrackas Samen",
+    "en": "Warracka's Seed",
+    "es": "Semilla de Warracka",
+    "fr": "Graine de Warracka",
+    "fr-CA": "Graine de Warracka",
+    "it": "Seme di Warracka",
+    "ja": "ワラッカの種",
+    "ko": "와라카의 씨앗",
+    "nl": "Warracka's zaad",
+    "pt-BR": "Semente de Warracka",
+    "ru": "Зерно Войнакки",
+    "tr": "Warracka'nın Tohumu",
+    "zh-CN": "沃拉卡种子",
+    "zh-TW": "沃拉卡之種"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

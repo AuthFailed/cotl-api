@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "تُسمع منه فرقعة البرق المحتجز داخله.",
+    "de": "Knistert vor gefangenen Blitzen.",
+    "en": "Crackling with trapped lightning.",
+    "es": "Crepita como el fuego de un relámpago cautivo.",
+    "fr": "Grésillant de foudre capturée.",
+    "fr-CA": "Grésillant de foudre capturée.",
+    "it": "Crepita di luce intrappolata.",
+    "ja": "雷を閉じ込めた球体。パチパチという音が聞こえる",
+    "ko": "내면에 가둔 번갯불이 지글거립니다.",
+    "nl": "Knettert van de gevangen bliksem.",
+    "pt-BR": "Estala como um raio enclausurado.",
+    "ru": "Устройство, потрескивающее от искровых разрядов.",
+    "tr": "İçinde bir tutam yıldırım taşıyor.",
+    "zh-CN": "将电光困住，劈啪作响。",
+    "zh-TW": "被困住的閃電劈啪作響。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_BULB.png",
+  "id": "DECORATION_DLC_WOLF_BULB",
+  "name": {
+    "ar": "مصباح الصواعق",
+    "de": "Blitzbirne",
+    "en": "Spark Bulb",
+    "es": "Bombilla chispeante",
+    "fr": "Bulbe étincelant",
+    "fr-CA": "Bulbe étincelant",
+    "it": "Ampolla scintillante",
+    "ja": "スパークバルブ",
+    "ko": "번뜩이는 구체",
+    "nl": "Schokpeertje",
+    "pt-BR": "Lâmpada Chispante",
+    "ru": "Искрящаяся колба",
+    "tr": "Şok Ampulü",
+    "zh-CN": "电光灯泡",
+    "zh-TW": "電光燈泡"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

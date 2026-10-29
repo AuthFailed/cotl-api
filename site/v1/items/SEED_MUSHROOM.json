@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يمكن زرعه في <color=#FFD201>مزرعة.</color>",
+    "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
+    "en": "Plant this in a <color=#FFD201>Farm Plot.</color>",
+    "es": "Plántala en una <color=#FFD201>parcela</color>.",
+    "fr": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "fr-CA": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "it": "Piantala in un <color=#FFD201>Appezzamento</color>.",
+    "ja": "<color=#FFD201>農作地</color>に植えよう",
+    "ko": "<color=#FFD201>밭 경작지</color>에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een <color=#FFD201>landbouwperceel</color>.",
+    "pt-BR": "Plante em um <color=#FFD201>Terreno Agrícola</color>.",
+    "ru": "Семечко, которое можно посадить на <color=#FFD201>участке земли</color>.",
+    "tr": "Bir <color=#FFD201>Tarla</color>'ya ek.",
+    "zh-CN": "可种在<color=#FFD201>农地</color>里。",
+    "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
+  },
+  "icon": "icons/items/SEED_MUSHROOM.png",
+  "id": "SEED_MUSHROOM",
+  "name": {
+    "ar": "بوغ فطر تطويع",
+    "de": "Gehirnwäschepilz-Spore",
+    "en": "Menticide Mushroom Spore",
+    "es": "Espora de seta lavacerebros",
+    "fr": "Spores hallucinogènes",
+    "fr-CA": "Spores hallucinogènes",
+    "it": "Spora di fungo menticida",
+    "ja": "洗脳キノコの胞子",
+    "ko": "정신살해 버섯 포자",
+    "nl": "Hersenschimmelsporen",
+    "pt-BR": "Esporo de Cogumelo Menticida",
+    "ru": "Спора дурманного гриба",
+    "tr": "Zihinbozan Mantarı Sporu",
+    "zh-CN": "噬心蘑菇孢子",
+    "zh-TW": "噬心蘑菇孢子"
+  }
+}

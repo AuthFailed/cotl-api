@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "شجيرة رائعة شُوهت لتبدو صارخة إلى الأبد.",
+    "de": "Ein wundervoller Busch, der zu einem ewigen Schrei verzerrt ist.",
+    "en": "A lovely bush contorted into an eternal scream.",
+    "es": "Un bonito arbusto que recuerda a un alarido eterno.",
+    "fr": "Un joli buisson contracté en un cri éternel.",
+    "fr-CA": "Un adorable buisson contracté en un cri éternel.",
+    "it": "Un dolce cespuglio contorto in un grido eterno.",
+    "ja": "元々は美しい低木だったが、腐敗によって歪められ、延々と悲鳴を発するようになってしまった",
+    "ko": "영원한 절규로 뒤틀려 버린 풍성한 덤불.",
+    "nl": "Een mooie struik die verwrongen is in een eindeloze schreeuw.",
+    "pt-BR": "Um arbusto adorável, contorcido em um grito eterno.",
+    "ru": "Симпатичный куст, навечно застывший в вопле.",
+    "tr": "Ebediyen feryat eden hoş bir çalılık.",
+    "zh-CN": "原本可爱的灌木遭到扭曲，永远呈现哭喊的形态。",
+    "zh-TW": "美麗的灌木被扭曲成永恆的尖叫。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_LUMP1.png",
+  "id": "DECORATION_DLC_ROT_LUMP1",
+  "name": {
+    "ar": "الشجيرة المنتحبة",
+    "de": "Klagender Busch",
+    "en": "Wailing Bush",
+    "es": "Arbusto del lamento",
+    "fr": "Buisson hurlant",
+    "fr-CA": "Buisson hurlant",
+    "it": "Cespuglio piangente",
+    "ja": "泣き叫ぶ低木",
+    "ko": "울부짖는 덤불",
+    "nl": "Huilende struik",
+    "pt-BR": "Arbusto Lamurioso",
+    "ru": "Стенающий куст",
+    "tr": "Ağlayan Çalılık",
+    "zh-CN": "哀嚎灌木",
+    "zh-TW": "哀號樹叢"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

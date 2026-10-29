@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": "icons/items/HALF_BLUE_HEART.png",
+  "id": "HALF_BLUE_HEART",
+  "name": {
+    "ar": "نصف قلب أزرق",
+    "de": "Halbes blaues Herz",
+    "en": "Half Blue Heart",
+    "es": "Medio corazón azul",
+    "fr": "Demi-cœur bleu",
+    "fr-CA": "Demi-cœur bleu",
+    "it": "Mezzo cuore blu",
+    "ja": "ブルーハート（半）",
+    "ko": "푸른 심장 반쪽",
+    "nl": "Half blauw hart",
+    "pt-BR": "Meio Coração Azul",
+    "ru": "Половина голубого сердца",
+    "tr": "Yarım Mavi Kalp",
+    "zh-CN": "半颗蓝心",
+    "zh-TW": "半顆藍心"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يمكنك وضع عشب لتحويله إلى سماد.",
+    "de": "Deponiere Gras, um es in Dünger zu verwandeln.",
+    "en": "Deposit grass to turn it into fertilizer.",
+    "es": "Deposita hierba para convertirla en fertilizante.",
+    "fr": "Déposez de l'herbe pour la transformer en fertilisant.",
+    "fr-CA": "Déposez de l'herbe pour la transformer en fertilisant.",
+    "it": "Depositaci l'erba per trasformarla in concime.",
+    "ja": "雑草を入れると分解し、肥料へと変えてくれる",
+    "ko": "풀을 놓아 비료로 변환시킵니다.",
+    "nl": "Verzamel gras om het te veranderen in mest.",
+    "pt-BR": "Deposite mato para transformá-lo em fertilizante.",
+    "ru": "Сооружение, где можно перерабатывать траву в удобрения.",
+    "tr": "Çim depolayarak gübreye dönüştür.",
+    "zh-CN": "存放青草，化为肥料。",
+    "zh-TW": "存放青草，化為肥料"
+  },
+  "icon": "icons/structures/COMPOST_BIN.png",
+  "id": "COMPOST_BIN",
+  "name": {
+    "ar": "صندوق السماد العضوي",
+    "de": "Kompostbehälter",
+    "en": "Compost Bin",
+    "es": "Compostador",
+    "fr": "Bac à compost",
+    "fr-CA": "Bac à compost",
+    "it": "Compostiera",
+    "ja": "コンポスター",
+    "ko": "퇴비통",
+    "nl": "Compostbak",
+    "pt-BR": "Composteira",
+    "ru": "Компостная яма",
+    "tr": "Gübre Kutusu",
+    "zh-CN": "堆肥箱",
+    "zh-TW": "堆肥箱"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "ينبعث منه ضوء وحرارة.",
+    "de": "Verbreitet Licht und Wärme.",
+    "en": "To cast light and warmth.",
+    "es": "Para que la luz y la calidez abriguen tu secta.",
+    "fr": "Pour apporter lumière et chaleur.",
+    "fr-CA": "Pour apporter lumière et chaleur.",
+    "it": "Emana luce e calore.",
+    "ja": "火をつけて温めるためのもの",
+    "ko": "빛과 온기를 퍼뜨립니다.",
+    "nl": "Voor licht en warmte.",
+    "pt-BR": "Para iluminar e aquecer.",
+    "ru": "Источник света и тепла.",
+    "tr": "Işık ve ısı saçar.",
+    "zh-CN": "投射光与温暖。",
+    "zh-TW": "用來製造光亮和溫暖。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_FIREPIT.png",
+  "id": "DECORATION_DLC_WOLF_FIREPIT",
+  "name": {
+    "ar": "موقد النار",
+    "de": "Feuerstelle",
+    "en": "Firepit",
+    "es": "Fogata",
+    "fr": "Brasero",
+    "fr-CA": "Foyer extérieur",
+    "it": "Braciere",
+    "ja": "焚き火台",
+    "ko": "불구덩이",
+    "nl": "Vuurkuil",
+    "pt-BR": "Fogueira",
+    "ru": "Жаровня",
+    "tr": "Ateş Çukuru",
+    "zh-CN": "火坑",
+    "zh-TW": "火盆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

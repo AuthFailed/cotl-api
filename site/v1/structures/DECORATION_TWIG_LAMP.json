@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "طريقة بسيطة لإنارة الظلام.",
+    "de": "Eine einfache Möglichkeit, das Dunkel zu erhellen.",
+    "en": "A simple way to light the dark.",
+    "es": "Una forma sencilla de disipar la oscuridad.",
+    "fr": "Une manière simple d'éclairer l'obscurité.",
+    "fr-CA": "Une manière simple d'éclairer l'obscurité.",
+    "it": "Un modo semplice per illuminare l'oscurità.",
+    "ja": "暗いところを照らすための装飾品",
+    "ko": "어둠을 밝히는 단순한 방법입니다.",
+    "nl": "Een eenvoudige manier om licht in de duisternis te brengen.",
+    "pt-BR": "Um jeito simples de iluminar a escuridão",
+    "ru": "Простой способ рассеять тьму.",
+    "tr": "Karanlığı aydınlatmanın kolay yolu.",
+    "zh-CN": "照亮黑暗的简单方法",
+    "zh-TW": "照亮黑暗的簡單方法"
+  },
+  "icon": "icons/structures/DECORATION_TWIG_LAMP.png",
+  "id": "DECORATION_TWIG_LAMP",
+  "name": {
+    "ar": "قنديلان خشبيان",
+    "de": "Holzlaternen",
+    "en": "Wooden Lanterns",
+    "es": "Faroles de madera",
+    "fr": "Lanternes de bois",
+    "fr-CA": "Lanternes de bois",
+    "it": "Lanterne di legno",
+    "ja": "木製の街路灯",
+    "ko": "목제 랜턴",
+    "nl": "Houten lantaarns",
+    "pt-BR": "Lanternas de Madeira",
+    "ru": "Плетёный фонарь",
+    "tr": "Tahta Fenerler",
+    "zh-CN": "木造灯笼架",
+    "zh-TW": "木造燈籠架"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

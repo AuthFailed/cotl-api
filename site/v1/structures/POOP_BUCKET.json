@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "بعد خوض حملة، يمكنك إيداع <color=#FFD201>السماد</color> هنا. سيوزعه الأتباع تلقائيًا على <color=#FFD201>مخازن السماد.</color>",
+    "de": "Nach einem Kreuzzug kannst du hier <color=#FFD201>Dünger</color> deponieren. Anhänger werden diesen dann automatisch auf <color=#FFD201>Düngersilos</color> verteilen.",
+    "en": "After a Crusade, deposit <color=#FFD201>Fertiliser</color> here. Followers will automatically distribute it to <color=#FFD201>Fertiliser Silos.</color>",
+    "es": "Deposita <color=#FFD201>fertilizante</color> aquí tras una cruzada para que tus adeptos lo lleven a los <color=#FFD201>silos de fertilizante</color>.",
+    "fr": "Une fois un donjon terminé, déposez du <color=#FFD201>fertilisant</color> ici. Vos adeptes le répartiront automatiquement dans les <color=#FFD201>silos à fertilisant</color>.",
+    "fr-CA": "Une fois une croisade terminée, déposez du <color=#FFD201>fertilisant</color> ici. Vos adeptes le répartiront automatiquement dans les <color=#FFD201>silos à fertilisant</color>.",
+    "it": "Deposita qui il <color=#FFD201>concime</color> dopo una crociata. I membri del Culto lo distribuiranno automaticamente ai <color=#FFD201>Silo di concime</color>.",
+    "ja": "聖戦から戻った際に<color=#FFD201>肥料</color>をここに保管すると、信者が自動で<color=#FFD201>肥料サイロ</color>に肥料を運んでくれる",
+    "ko": "성전 후, <color=#FFD201>퇴비</color>가 이곳에 쌓입니다. 추종자들은 자동적으로 <color=#FFD201>퇴비 저장고</color>에 퇴비를 가져다 놓습니다.",
+    "nl": "Deponeer hier <color=#FFD201>mest</color> na een kruistocht. Volgelingen verplaatsen die dan automatisch naar <color=#FFD201>mestsilo's</color>.",
+    "pt-BR": "Após uma cruzada, deposite <color=#FFD201>Fertilizante</color> aqui. Os seguidores o distribuirão automaticamente aos <color=#FFD201>Silos de Fertilizantes.</color>",
+    "ru": "Ведро, в которое можно положить <color=#FFD201>удобрения</color> после похода. Ваши последователи сами распределят их по <color=#FFD201>хранилищам удобрений</color>.",
+    "tr": "Bir Sefer'in ardından burada <color=#FFD201>Gübre</color> depolayabilirsin. Takipçiler Gübre'yi otomatik olarak <color=#FFD201>Gübre Ambarlarına</color> dağıtır.",
+    "zh-CN": "圣战之后，在此存放<color=#FFD201>肥料</color>。教徒会自动将肥料放入<color=#FFD201>肥料储仓</color>。",
+    "zh-TW": "聖戰之後，在此存放<color=#FFD201>肥料</color>。教徒會自動將肥料放入<color=#FFD201>肥料儲倉</color>。"
+  },
+  "icon": "icons/structures/POOP_BUCKET.png",
+  "id": "POOP_BUCKET",
+  "name": {
+    "ar": "مستودع السماد",
+    "de": "Düngerlager",
+    "en": "Fertiliser Storage",
+    "es": "Almacén de fertilizante",
+    "fr": "Réserve de fertilisant",
+    "fr-CA": "Réserve de fertilisant",
+    "it": "Contenitore per concime",
+    "ja": "肥料保管庫",
+    "ko": "퇴비 보관소",
+    "nl": "Mestopslag",
+    "pt-BR": "Armazém de Fertilizantes",
+    "ru": "Ёмкость для удобрений",
+    "tr": "Gübre Deposu",
+    "zh-CN": "肥料存放区",
+    "zh-TW": "肥料存放區"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

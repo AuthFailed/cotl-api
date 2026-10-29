@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 2
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "جمجمة كائن هلك تحت سماء حمراء...",
+    "de": "Ein Schädel, der während des Blutmonds gefunden wurde.",
+    "en": "The skull of a creature who perished under red skies...",
+    "es": "Una calavera encontrada durante la luna de sangre.",
+    "fr": "Un crâne retrouvé lors de la lune de sang.",
+    "fr-CA": "Un crâne retrouvé lors de la lune de sang.",
+    "it": "Il teschio di una creatura che è perita sotto un cielo rosso...",
+    "ja": "紅血の月を称える祭典の最中に見つけた頭蓋骨",
+    "ko": "붉은 하늘 아래 스러져간 생물의 해골입니다...",
+    "nl": "De schedel van een wezen dat sneuvelde onder een rode hemel...",
+    "pt-BR": "Um crânio encontrado durante a Lua de Sangue",
+    "ru": "Череп, найденный под кровавой луной.",
+    "tr": "Kızıl gökyüzünün altında son nefesini vermiş bir yaratığın kafatası.",
+    "zh-CN": "血色夜空下死亡的生物头骨……",
+    "zh-TW": "血色夜空下死亡的生物頭骨……"
+  },
+  "icon": "icons/structures/DECORATION_HALLOWEEN_SKULL.png",
+  "id": "DECORATION_HALLOWEEN_SKULL",
+  "name": {
+    "ar": "جمجمة قمر الدم",
+    "de": "Blutmond-Schädel",
+    "en": "Blood Moon Skull",
+    "es": "Calavera de luna de sangre",
+    "fr": "Crâne de la lune de sang",
+    "fr-CA": "Crâne de la lune de sang",
+    "it": "Teschio della Luna di sangue",
+    "ja": "紅血の月の頭蓋骨",
+    "ko": "핏빛 달 해골",
+    "nl": "Bloedmaanschedel",
+    "pt-BR": "Crânio da Lua de Sangue",
+    "ru": "Кровавый череп",
+    "tr": "Kanlı Ay Kafatası",
+    "zh-CN": "血月头骨",
+    "zh-TW": "血月頭骨"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "قد يخدعك لكنه مصنوع من الحجارة.",
+    "de": "Lass dich nicht täuschen, er ist aus einem Fels gehauen.",
+    "en": "Don't be fooled; it's made of rock.",
+    "es": "No te dejes engañar, está hecha de piedra.",
+    "fr": "Ne vous y trompez pas, ce n'est pas un vrai champignon !",
+    "fr-CA": "Ne soyez pas dupe, ce n'est pas un vrai champignon!",
+    "it": "Non farti ingannare: è fatto di roccia.",
+    "ja": "キノコではなく石なので食べることはできない",
+    "ko": "속지 마세요. 돌로 만들어졌습니다.",
+    "nl": "Laat je niet misleiden, hij is gemaakt van steen.",
+    "pt-BR": "Não se engane, ele é feito de pedra",
+    "ru": "Не «очень твёрдый гриб», а «гриб, вытесанный из камня».",
+    "tr": "Görünüşe aldanma, taştan yapıldı.",
+    "zh-CN": "别被骗了，是岩石做的",
+    "zh-TW": "別被騙了，是岩石做的"
+  },
+  "icon": "icons/structures/DECORATION_STONE_MUSHROOM.png",
+  "id": "DECORATION_STONE_MUSHROOM",
+  "name": {
+    "ar": "فطر حجري",
+    "de": "Steinerner Pilz",
+    "en": "Stone Mushroom",
+    "es": "Seta de piedra",
+    "fr": "Champignon en pierre",
+    "fr-CA": "Champignon en pierre",
+    "it": "Scultura fungina",
+    "ja": "石のキノコ",
+    "ko": "돌 버섯",
+    "nl": "Stenen paddenstoel",
+    "pt-BR": "Cogumelo de Pedra",
+    "ru": "Каменный гриб",
+    "tr": "Taş Mantar",
+    "zh-CN": "岩石蘑菇",
+    "zh-TW": "岩石蘑菇"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

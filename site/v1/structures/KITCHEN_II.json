@@ -1,0 +1,54 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 50
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "سيمكنك عند الطهي إعداد وجبة \"معززة\" ستشبع جوع تابع بفعالية أكثر.",
+    "de": "Beim Kochen wirst du „gesegnete“ Mahlzeiten herstellen können, die den Hunger deiner Anhänger weit effektiver stillen.",
+    "en": "When cooking you will be able to create a 'Blessed' meal which will satisfy a Follower's hunger far more effectively.",
+    "es": "Cuando cocines podrás preparar un plato «bendito», el cual saciará el hambre de uno de tus adeptos mucho más que un plato normal.",
+    "fr": "Donne la possibilité de préparer des plats bénis, bien plus consistants.",
+    "fr-CA": "Donne la possibilité de préparer des plats bénis, beaucoup plus rassasiants pour les adeptes.",
+    "it": "Permette di creare pasti \"benedetti\", che soddisferanno più efficacemente la fame di un membro del Culto.",
+    "ja": "信者の満腹度をより効果的に満たす「祝福された」料理を作ることができる",
+    "ko": "요리를 할 때 '축복받은' 음식을 만들어 추종자의 허기를 훨씬 더 효율적으로 채울 수 있습니다.",
+    "nl": "Je kunt tijdens het koken een 'gezegende' maaltijd bereiden. Deze maaltijd stilt veel effectiever de honger van een volgeling.",
+    "pt-BR": "Ao cozinhar, você poderá criar uma refeição \"Abençoada\" que saciará a fome de um Seguidor com muito mais eficiência.",
+    "ru": "Место, где можно приготовить благословенные блюда, насыщающие последователей гораздо быстрее.",
+    "tr": "Yemek pişirirken \"Kutsanmış\" yemek oluşturabilirsin. Kutsanmış yemek bir Takipçi'nin açlığını çok daha fazla dindirir.",
+    "zh-CN": "烹煮时，你将能制作“祝福”餐点，这种餐点补充教徒饱足感的效率更高",
+    "zh-TW": "烹煮時，你將能製作「祝福」餐點，這種餐點補充教徒飽足程度的效率更高"
+  },
+  "icon": null,
+  "id": "KITCHEN_II",
+  "name": {
+    "ar": "المطبخ",
+    "de": "Küche II",
+    "en": "Kitchen",
+    "es": "Cocina II",
+    "fr": "Cuisine II",
+    "fr-CA": "Cuisine",
+    "it": "Cucina",
+    "ja": "キッチン II",
+    "ko": "주방",
+    "nl": "Keuken",
+    "pt-BR": "Cozinha II",
+    "ru": "Кухня",
+    "tr": "Mutfak",
+    "zh-CN": "厨房 II",
+    "zh-TW": "廚房 II"
+  },
+  "size": null,
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "كومة من القش.",
+    "de": "Ein Haufen Heu.",
+    "en": "A pile of hay.",
+    "es": "Una pila de heno.",
+    "fr": "Un petit tas de foin.",
+    "fr-CA": "Un petit tas de foin.",
+    "it": "Un mucchio di fieno.",
+    "ja": "1か所にまとめられた干し草",
+    "ko": "건초 더미입니다.",
+    "nl": "Een hoop hooi.",
+    "pt-BR": "Uma pilha de feno",
+    "ru": "Небольшая куча сена.",
+    "tr": "Yığın olarak bırakılmış saman.",
+    "zh-CN": "一堆干草",
+    "zh-TW": "一堆乾草"
+  },
+  "icon": "icons/structures/DECORATION_HAY_PILE.png",
+  "id": "DECORATION_HAY_PILE",
+  "name": {
+    "ar": "كومة قش",
+    "de": "Heuhaufen",
+    "en": "Hay Pile",
+    "es": "Pila de heno",
+    "fr": "Tas de foin",
+    "fr-CA": "Tas de foin",
+    "it": "Mucchio di fieno",
+    "ja": "干し草",
+    "ko": "건초 더미",
+    "nl": "Hooistapel",
+    "pt-BR": "Pilha de Feno",
+    "ru": "Ворох сена",
+    "tr": "Saman Yığını",
+    "zh-CN": "干草堆",
+    "zh-TW": "乾草堆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

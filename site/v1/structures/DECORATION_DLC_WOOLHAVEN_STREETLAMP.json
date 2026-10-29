@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "يصدر ضوءًا مخيفًا.",
+    "de": "Wirft ein unheimliches Licht.",
+    "en": "Casts an eerie light.",
+    "es": "Desprende una luz inquietante.",
+    "fr": "Projette une lumière troublante.",
+    "fr-CA": "Projette une lumière troublante.",
+    "it": "Getta una luce tetra.",
+    "ja": "不気味な光を放っている",
+    "ko": "불길한 빛을 비춥니다.",
+    "nl": "Schijnt een akelig licht.",
+    "pt-BR": "Emite uma luz sinistra.",
+    "ru": "Источник жутковатого света.",
+    "tr": "Ürkütücü bir ışık saçar.",
+    "zh-CN": "投射出诡异的灯光。",
+    "zh-TW": "散發出怪異光芒。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_STREETLAMP.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+  "name": {
+    "ar": "عمود إنارة ملاذ الحملان",
+    "de": "Wollhafen-Laternenpfahl",
+    "en": "Woolhaven Lampost",
+    "es": "Farola de Vellones Elíseos",
+    "fr": "Réverbère de Havrelaine",
+    "fr-CA": "Lampadaire de Havrelaine",
+    "it": "Lampione dell'Aldilàna",
+    "ja": "羊毛の聖域のランプ",
+    "ko": "포근쉼터 가로등",
+    "nl": "Wolhavenlantaarnpaal",
+    "pt-BR": "Poste de Luz da Santa Lã",
+    "ru": "Шерстопольский фонарь",
+    "tr": "Yüntepe Lamba Direği",
+    "zh-CN": "羊绒仙境灯柱",
+    "zh-TW": "羊絨仙境燈桿"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

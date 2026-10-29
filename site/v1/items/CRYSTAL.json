@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مادة تُستخدم لصنع زينات جميلة.",
+    "de": "Ein Material, das zum Bau von schönen Dekorationen verwendet wird.",
+    "en": "A material used for building pretty decorations.",
+    "es": "Un material usado para construir bonitas decoraciones.",
+    "fr": "Un matériau utilisé pour fabriquer de jolies décorations.",
+    "fr-CA": "Un matériau utilisé pour fabriquer de jolies décorations.",
+    "it": "Un materiale impiegato nella realizzazione di graziose decorazioni.",
+    "ja": "美しい装飾品を作るための素材",
+    "ko": "예쁜 장식품을 짓는데 사용되는 재료입니다.",
+    "nl": "Een materiaal voor de constructie van mooie decoraties.",
+    "pt-BR": "Material usado para construir belas decorações.",
+    "ru": "Материал, из которого можно создать украшения для поселения.",
+    "tr": "Hoş görünümlü dekorasyonlar inşa etmek için kullanılan bir malzeme.",
+    "zh-CN": "用于建造漂亮装饰的材料。",
+    "zh-TW": "用於建造漂亮裝飾的材料。"
+  },
+  "icon": "icons/items/CRYSTAL.png",
+  "id": "CRYSTAL",
+  "name": {
+    "ar": "شظايا بلورية",
+    "de": "Kristallscherben",
+    "en": "Crystal Shards",
+    "es": "Fragmento de cristal",
+    "fr": "Éclat de cristal",
+    "fr-CA": "Éclat de cristal",
+    "it": "Frammenti di cristallo",
+    "ja": "クリスタルのかけら",
+    "ko": "수정 조각",
+    "nl": "Kristalsplinters",
+    "pt-BR": "Fragmentos de Cristal",
+    "ru": "Обломок кристалла",
+    "tr": "Kristal Parçaları",
+    "zh-CN": "水晶碎片",
+    "zh-TW": "水晶碎片"
+  }
+}

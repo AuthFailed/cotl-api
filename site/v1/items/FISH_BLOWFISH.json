@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "رقيقة وخطيرة.",
+    "de": "Sowohl köstlich als auch gefährlich.",
+    "en": "Both delicate and dangerous.",
+    "es": "Delicado a la par que peligroso.",
+    "fr": "Délicat mais dangereux.",
+    "fr-CA": "Délicat, mais dangereux.",
+    "it": "Tanto delicato quanto pericoloso.",
+    "ja": "おいしいが危険",
+    "ko": "별미임과 동시에 위험합니다.",
+    "nl": "Delicaat en gevaarlijk.",
+    "pt-BR": "Tão delicado quanto perigoso.",
+    "ru": "Вкусная и опасная обитательница морей.",
+    "tr": "Hem lezzetli hem tehlikeli.",
+    "zh-CN": "可口又危险。",
+    "zh-TW": "可口又危險。"
+  },
+  "icon": "icons/items/FISH_BLOWFISH.png",
+  "id": "FISH_BLOWFISH",
+  "name": {
+    "ar": "سمكة منتفخة",
+    "de": "Kugelfisch",
+    "en": "Blowfish",
+    "es": "Pez globo",
+    "fr": "Poisson porc-épic",
+    "fr-CA": "Poisson porc-épic",
+    "it": "Pesce palla",
+    "ja": "フグ",
+    "ko": "복어",
+    "nl": "Kogelvis",
+    "pt-BR": "Baiacu",
+    "ru": "Рыба-шар",
+    "tr": "Balon Balığı",
+    "zh-CN": "鲀",
+    "zh-TW": "魨"
+  }
+}

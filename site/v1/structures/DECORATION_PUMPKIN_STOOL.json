@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    },
+    {
+      "item": "PUMPKIN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يقطينة نُحت عليها تاج.",
+    "de": "Ein Kürbis mit eingeschnitzter Krone.",
+    "en": "A pumpkin carved with a crown.",
+    "es": "Una calabaza tallada con una corona.",
+    "fr": "Une citrouille avec une couronne sculptée.",
+    "fr-CA": "Une citrouille avec une couronne sculptée.",
+    "it": "Una zucca con l'intaglio della Corona.",
+    "ja": "王冠の模様が彫られたカボチャ",
+    "ko": "왕관이 새겨진 호박입니다.",
+    "nl": "Een pompoen met een gekerfde kroon.",
+    "pt-BR": "Uma abóbora com uma coroa esculpida",
+    "ru": "Тыква с вырезанной на ней короной.",
+    "tr": "Üzerinde taç oyması olan bir bal kabağı.",
+    "zh-CN": "刻了圣冠的南瓜",
+    "zh-TW": "刻了聖冠的南瓜"
+  },
+  "icon": "icons/structures/DECORATION_PUMPKIN_STOOL.png",
+  "id": "DECORATION_PUMPKIN_STOOL",
+  "name": {
+    "ar": "يقطينة منحوتة",
+    "de": "Geschnitzter Kürbis",
+    "en": "Carved Pumpkin",
+    "es": "Calabaza tallada",
+    "fr": "Citrouille sculptée",
+    "fr-CA": "Citrouille sculptée",
+    "it": "Zucca intagliata",
+    "ja": "彫りこみカボチャ",
+    "ko": "조각된 호박",
+    "nl": "Uitgesneden pompoen",
+    "pt-BR": "Abóbora Esculpida",
+    "ru": "Тыква с прорезью",
+    "tr": "Oyulmuş Balkabağı",
+    "zh-CN": "刻好的南瓜",
+    "zh-TW": "刻好的南瓜"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

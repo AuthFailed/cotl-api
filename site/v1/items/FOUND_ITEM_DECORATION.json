@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": "icons/items/FOUND_ITEM_DECORATION.png",
+  "id": "FOUND_ITEM_DECORATION",
+  "name": {
+    "ar": "مخطط",
+    "de": "Blaupause",
+    "en": "Blueprint",
+    "es": "Planos",
+    "fr": "Plan",
+    "fr-CA": "Le Plan",
+    "it": "Schema",
+    "ja": "設計図",
+    "ko": "청사진",
+    "nl": "Blauwdruk",
+    "pt-BR": "Modelo",
+    "ru": "Чертёж",
+    "tr": "Taslak",
+    "zh-CN": "蓝图",
+    "zh-TW": "藍圖"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 5
+    },
+    {
+      "item": "STONE",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "يمكنك استدعاء روح عفريت لتتلبّس تابعًا كي ينضم إليك في حملتك التالية.",
+    "de": "Du kannst einen Dämon von einem Anhänger Besitz ergreifen lassen, damit dieser dich auf deinem nächsten Kreuzzug begleitet.",
+    "en": "Possess a Follower with the spirit of a demon so that they can join you on your next Crusade.",
+    "es": "Uno de tus adeptos es poseído por el espíritu de un demonio y se unirá a ti en tu próxima cruzada.",
+    "fr": "L'esprit d'un démon possède le corps d'un adepte et lui permet de vous accompagner dans un donjon.",
+    "fr-CA": "L'esprit d'un démon possède le corps d'un adepte et lui permet de vous accompagner durant votre prochaine croisade.",
+    "it": "Permette di possedere un membro del Culto con lo spirito di un demone, così che possa accompagnarti nella prossima crociata.",
+    "ja": "信者の体に悪魔の魂を呼び降ろす。変身した悪魔は次の戦闘に加わってくれる",
+    "ko": "추종자 하나를 악령에게 홀리게 해 다음 성전 때 합류하게 합니다.",
+    "nl": "Neem een volgeling over met de geest van een demon zodat die je vergezelt op je volgende kruistocht.",
+    "pt-BR": "Deixe um Seguidor possuído pelo espírito de um demônio para que ele te acompanhe na sua próxima Cruzada.",
+    "ru": "Место, где можно вселить дух демона в одного из последователей, чтобы взять его с собой в поход.",
+    "tr": "Bir iblis ruhu bir Takipçi'yi ele geçirdiğinde o Takipçi sonraki Sefer'inde sana katılabilir.",
+    "zh-CN": "使恶魔灵魂附身一位教徒，以便加入你的下一场圣战",
+    "zh-TW": "使惡魔靈魂附身一位教徒，以便加入你的下一場聖戰"
+  },
+  "icon": "icons/structures/DEMON_SUMMONER.png",
+  "id": "DEMON_SUMMONER",
+  "name": {
+    "ar": "حلقة استدعاء العفاريت",
+    "de": "Dämonenbeschwörung",
+    "en": "Demonic Summoning Circle",
+    "es": "Círculo de invocación demoníaca",
+    "fr": "Cercle d'invocation démoniaque",
+    "fr-CA": "Cercle d'invocation démoniaque",
+    "it": "Circolo di evocazione demoniaca",
+    "ja": "悪魔召喚陣",
+    "ko": "악마 소환진",
+    "nl": "Demonische oproepkring",
+    "pt-BR": "Círculo de Invocação Demoníaca",
+    "ru": "Круг призыва демонов",
+    "tr": "İblis Çağırma Çemberi",
+    "zh-CN": "恶魔召唤阵",
+    "zh-TW": "惡魔召喚陣"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

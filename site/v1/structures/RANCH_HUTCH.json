@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 4
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "يمكن وضعها داخل مَربى الحيوانات لتتمكن الحيوانات من التكاثر.",
+    "de": "Kann in einer Ranch platziert werden, damit die Tiere sich fortpflanzen können.",
+    "en": "Can be placed inside a Ranch so animals can breed.",
+    "es": "Colócalo en el rancho para que los animales puedan aparearse.",
+    "fr": "À placer dans un ranch pour que les animaux se reproduisent.",
+    "fr-CA": "À placer dans un ranch pour que les animaux se reproduisent.",
+    "it": "Può essere posizionato nell'Allevamento per permettere agli animali di riprodursi.",
+    "ja": "畜舎内に設置できる。動物が繁殖するための場所",
+    "ko": "목장 안에 배치하면 동물들이 알아서 번식을 합니다.",
+    "nl": "Kan in een veeboerderij worden geplaatst zodat dieren kunnen paren.",
+    "pt-BR": "Pode ser colocado dentro de um Rancho para que os animais procriem.",
+    "ru": "Место для размножения животных, которое можно поставить у хлева.",
+    "tr": "Hayvanların üreyebilmesi için Hayvan Çiftliği'nin içine konulabilir.",
+    "zh-CN": "可放置于牧场内，供动物繁衍后代。",
+    "zh-TW": "可放置於牧場內，供動物繁衍後代。"
+  },
+  "icon": "icons/structures/RANCH_HUTCH.png",
+  "id": "RANCH_HUTCH",
+  "name": {
+    "ar": "حظيرة",
+    "de": "Stall",
+    "en": "Hutch",
+    "es": "Cobertizo",
+    "fr": "Clapier",
+    "fr-CA": "Petit abri",
+    "it": "Nido",
+    "ja": "飼育小屋",
+    "ko": "사육장",
+    "nl": "Nachthok",
+    "pt-BR": "Estábulo",
+    "ru": "Лежанка",
+    "tr": "Üreme Kulübesi",
+    "zh-CN": "小窝",
+    "zh-TW": "小窩"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

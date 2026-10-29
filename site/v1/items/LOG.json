@@ -1,0 +1,39 @@
+{
+  "category": "LOGS",
+  "description": {
+    "ar": "مادة بسيطة تُستخدم لبناء المباني.",
+    "de": "Ein einfaches Material, das zum Bauen verwendet wird.",
+    "en": "A simple material used for building structures.",
+    "es": "Un material sencillo usado para construir estructuras.",
+    "fr": "Un matériau de base utilisé pour construire des structures.",
+    "fr-CA": "Un matériau de base utilisé pour construire des structures.",
+    "it": "Un materiale semplice, impiegato nella costruzione di strutture.",
+    "ja": "建築物用の簡素な素材",
+    "ko": "건축 재료로 사용되는 단순한 재료입니다.",
+    "nl": "Een simpel materiaal voor de constructie van gebouwen.",
+    "pt-BR": "Material simples usado para construir estruturas.",
+    "ru": "Простейший строительный материал.",
+    "tr": "Yapı inşa etmek için kullanılan basit bir malzeme.",
+    "zh-CN": "用于建造建筑物的朴实材料。",
+    "zh-TW": "用於建造建築物的樸實材料。"
+  },
+  "icon": "icons/items/LOG.png",
+  "id": "LOG",
+  "name": {
+    "ar": "خشب",
+    "de": "Holz",
+    "en": "Lumber",
+    "es": "Madera",
+    "fr": "Bois",
+    "fr-CA": "Bois",
+    "it": "Legname",
+    "ja": "木材",
+    "ko": "나무",
+    "nl": "Hout",
+    "pt-BR": "Madeira",
+    "ru": "Бревно",
+    "tr": "Odun",
+    "zh-CN": "木材",
+    "zh-TW": "木材"
+  }
+}

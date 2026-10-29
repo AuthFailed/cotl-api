@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 3
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "لتحويل الموارد إلى: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "de": "Weihe Ressourcen ein zu: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "en": "Consecrate resources into: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "es": "Consagra recursos para: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "fr": "Permet de créer les ressources sacrées suivantes : <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "fr-CA": "Permet de créer les ressources sacrées suivantes : <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "it": "Consacra le risorse e le trasforma in: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">.",
+    "ja": "資源を聖別して <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\"> を精錬できる",
+    "ko": "자원을 다음의 자원으로 변경시킵니다: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "nl": "Wijd grondstoffen in en verander ze in: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "pt-BR": "Consagre recursos para: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "ru": "Место, где последователи могут превращать материалы в <sprite name=\"icon_LogRefined\">, <sprite name=\"icon_StoneRefined\"> и <sprite name=\"icon_GoldRefined\">.",
+    "tr": "Kaynakları şuna dönüştür: <sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">",
+    "zh-CN": "将资源圣化为：<sprite name=\"icon_LogRefined\"><sprite name=\"icon_StoneRefined\"><sprite name=\"icon_GoldRefined\">",
+    "zh-TW": "將資源聖化為：<sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">"
+  },
+  "icon": "icons/structures/REFINERY_2.png",
+  "id": "REFINERY_2",
+  "name": {
+    "ar": "وحدة المعالجة II",
+    "de": "Raffinerie II",
+    "en": "Refinery II",
+    "es": "Refinería II",
+    "fr": "Raffinerie II",
+    "fr-CA": "Raffinerie II",
+    "it": "Raffineria II",
+    "ja": "精錬所 II",
+    "ko": "정제소 II",
+    "nl": "Raffinaderij II",
+    "pt-BR": "Refinaria II",
+    "ru": "Святилище II",
+    "tr": "Rafineri II",
+    "zh-CN": "圣化台 II",
+    "zh-TW": "聖化台 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "REFINERY"
+}

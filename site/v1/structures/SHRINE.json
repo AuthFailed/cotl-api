@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "مكان مخصص لالتماسات <color=#FFD201>أتباعك</color>. سيخزن المزار الولاء <sprite name=\"icon_spirits\"> الذي يقدمونه.",
+    "de": "Ein Ort, an dem deine <color=#FFD201>Anhänger</color> beten können. Der Schrein speichert die Hingabe <sprite name=\"icon_spirits\">, die sie erschaffen.",
+    "en": "A place for your <color=#FFD201>Followers</color> to pray. The shrine will hold the Devotion <sprite name=\"icon_spirits\"> they create.",
+    "es": "Un lugar para que tus <color=#FFD201>adeptos</color> recen. El santuario guardará la devoción <sprite name=\"icon_spirits\"> que los adeptos generen.",
+    "fr": "Permet à vos <color=#FFD201>adeptes</color> de prier. L'Autel conservera la dévotion <sprite name=\"icon_spirits\"> générée.",
+    "fr-CA": "Permet à vos <color=#FFD201>adeptes</color> de prier. L'Autel conservera la dévotion <sprite name=\"icon_spirits\"> générée.",
+    "it": "Un luogo in cui i <color=#FFD201>membri del Culto</color> possono pregare, generando e accumulando Devozione <sprite name=\"icon_spirits\">.",
+    "ja": "<color=#FFD201>信者</color>が祈りを捧げるための場所。信者が生み出した祈念 <sprite name=\"icon_spirits\"> は祭壇に蓄えられる",
+    "ko": "<color=#FFD201>추종자</color>들이 기도를 드리는 곳. 성지에서 생성되는 헌신<sprite name=\"icon_spirits\">을 축적합니다.",
+    "nl": "Een plaats waar je <color=#FFD201>volgelingen</color> kunnen bidden. Het altaar bewaart de devotie <sprite name=\"icon_spirits\"> die ze genereren.",
+    "pt-BR": "Um lugar para seus <color=#FFD201>Seguidores</color> rezarem. O santuário manterá a Devoção <sprite name=\"icon_spirits\"> que gerar.",
+    "ru": "Место, где ваши <color=#FFD201>последователи</color> могут молиться. Алтарь накапливает выраженную ими преданность <sprite name=\"icon_spirits\">.",
+    "tr": "<color=#FFD201>Takipçilerin</color> dua edebileceği bir yer. Mabette Takipçilerin oluşturduğu Sadakat <sprite name=\"icon_spirits\"> birikir.",
+    "zh-CN": "让你的<color=#FFD201>教徒</color>祈祷之处。圣坛会保留教徒产生的虔诚度<sprite name=\"icon_spirits\">",
+    "zh-TW": "讓你的<color=#FFD201>教徒</color>祈禱之處。聖壇會保留教徒產生的虔誠值 <sprite name=\"icon_spirits\">"
+  },
+  "icon": "icons/structures/SHRINE.png",
+  "id": "SHRINE",
+  "name": {
+    "ar": "المزار",
+    "de": "Schrein",
+    "en": "Shrine",
+    "es": "Santuario",
+    "fr": "Autel",
+    "fr-CA": "Autel",
+    "it": "Santuario",
+    "ja": "祭壇",
+    "ko": "성지",
+    "nl": "Altaar",
+    "pt-BR": "Santuário",
+    "ru": "Алтарь",
+    "tr": "Mabet",
+    "zh-CN": "圣坛",
+    "zh-TW": "聖壇"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "FLOWER_RED",
+      "quantity": 5
+    },
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "مبخرة ذات رائحة فاتنة.",
+    "de": "Ein Räuchergefäß, das ein sinnliches Aroma verströmt.",
+    "en": "An incense burner with a luscious fragrance.",
+    "es": "Un quemador de incienso que desprende una fragancia exquisita.",
+    "fr": "Un brûleur d'encens au parfum envoûtant.",
+    "fr-CA": "Un brûleur d'encens au parfum envoûtant.",
+    "it": "Un incensiere dal profumo intenso.",
+    "ja": "甘美な香りを漂わせる香炉",
+    "ko": "항료에 감미로운 향이 흘러나오고 있습니다.",
+    "nl": "Een wierookbrander met een weelderige geur.",
+    "pt-BR": "Um incensário com uma fragrância deliciosa.",
+    "ru": "Лампа для сжигания дорогих благовоний.",
+    "tr": "Cezbedici kokuya sahip bir tütsü.",
+    "zh-CN": "香味使人心旷神怡的焚香器具。",
+    "zh-TW": "香味使人心曠神怡的焚香器具。"
+  },
+  "icon": "icons/structures/DECORATION_SINFUL_INCENSE.png",
+  "id": "DECORATION_SINFUL_INCENSE",
+  "name": {
+    "ar": "مبخرة رائحة الخطيئة",
+    "de": "Duft-der-Sünde-Räucherwerk",
+    "en": "Scent of Sin Incense",
+    "es": "Incienso del pecado",
+    "fr": "Encens du péché",
+    "fr-CA": "Encens du péché",
+    "it": "Incensiere immorale",
+    "ja": "罪の香炉",
+    "ko": "죄악의 향",
+    "nl": "Zondig wierook",
+    "pt-BR": "Incenso da Essência Pecaminosa",
+    "ru": "Курильница греха",
+    "tr": "Günah Kokulu Tütsü",
+    "zh-CN": "罪孽气息焚香",
+    "zh-TW": "罪孽氣息焚香"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

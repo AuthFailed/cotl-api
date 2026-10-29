@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "يزيد سرعة نمو كل <color=#FFD201>المزارع</color> في محيطه.",
+    "de": "Erhöhe das Wachstumstempo auf allen <color=#FFD201>Ackerparzellen</color> in Reichweite.",
+    "en": "Increase growth speed of all <color=#FFD201>Farm Plots</color> within range.",
+    "es": "Aumenta la velocidad de crecimiento de todas las <color=#FFD201>parcelas</color> que estén dentro del alcance.",
+    "fr": "Augmente la vitesse de croissance de toutes les <color=#FFD201>parcelles agricoles</color> à portée.",
+    "fr-CA": "Augmente la vitesse de croissance de toutes les <color=#FFD201>parcelles agricoles</color> à portée.",
+    "it": "Velocizza la crescita delle colture in tutti gli <color=#FFD201>Appezzamenti</color> nel raggio d'azione.",
+    "ja": "範囲内にあるすべての<color=#FFD201>農作地</color>の成長速度が上昇する",
+    "ko": "모든 범위 내의 <color=#FFD201>밭 경작지</color>의 성장 속도를 가속화합니다.",
+    "nl": "Verhoogt de groeisnelheid van alle <color=#FFD201>landbouwpercelen</color> binnen bereik.",
+    "pt-BR": "Aumente a velocidade de crescimento de todos os <color=#FFD201>Terrenos Agrícolas</color> ao alcance.",
+    "ru": "Предмет, ускоряющий созревание урожая на всех <color=#FFD201>участках земли</color> в радиусе действия.",
+    "tr": "Menzil içindeki tüm <color=#FFD201>Tarlaların</color> büyüme hızını artırır.",
+    "zh-CN": "增加范围之内所有<color=#FFD201>农地</color>的作物生长速度。",
+    "zh-TW": "增加範圍之內所有<color=#FFD201>農地</color>的作物生長速度。"
+  },
+  "icon": "icons/structures/HARVEST_TOTEM.png",
+  "id": "HARVEST_TOTEM",
+  "name": {
+    "ar": "طوطم الحصاد",
+    "de": "Erntetotem",
+    "en": "Harvest Totem",
+    "es": "Tótem de la cosecha",
+    "fr": "Totem de culture",
+    "fr-CA": "Totem de culture",
+    "it": "Totem del raccolto",
+    "ja": "豊作のトーテム",
+    "ko": "수확의 토템",
+    "nl": "Oogsttotem",
+    "pt-BR": "Totem da Colheita",
+    "ru": "Тотем урожая",
+    "tr": "Hasat Totemi",
+    "zh-CN": "收获图腾",
+    "zh-TW": "收穫圖騰柱"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

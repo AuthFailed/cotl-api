@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "تصطاد الطيور التي تحاول سرقة البذور من <color=#FFD201>المزارع</color> التي في نطاقها.",
+    "de": "Fängt Vögel, die Saatgut von <color=#FFD201>Ackerparzellen</color> in Reichweite stehlen.",
+    "en": "Catches birds that try to steal the seeds from <color=#FFD201>Farm Plots</color> within range.",
+    "es": "Atrapa a los pájaros que intentan robar las semillas de las <color=#FFD201>parcelas</color> que estén dentro de su alcance.",
+    "fr": "Piège les oiseaux qui tentent de voler les graines des <color=#FFD201>parcelles agricoles</color> à proximité.",
+    "fr-CA": "Piège les oiseaux qui tentent de voler les graines des <color=#FFD201>parcelles agricoles</color> à proximité.",
+    "it": "Cattura gli uccelli che cercano di rubare i semi dagli <color=#FFD201>Appezzamenti</color> nel raggio d'azione.",
+    "ja": "範囲内の<color=#FFD201>農作地</color>に植えられた種を狙う鳥を捕まえてくれる",
+    "ko": "범위 내 <color=#FFD201>밭 경작지</color>에서 씨앗을 훔치려는 새들을 잡아냅니다.",
+    "nl": "Vangt vogels die zaden van <color=#FFD201>landbouwpercelen</color> binnen bereik proberen te stelen.",
+    "pt-BR": "Captura os pássaros que tentam roubar sementes dos <color=#FFD201>Terrenos Agrícolas</color> dentro do alcance",
+    "ru": "Чучело, которое ловит птиц, пытающихся украсть семена с <color=#FFD201>участков земли</color> в радиусе действия.",
+    "tr": "Menzil içindeki <color=#FFD201>Tarlalardan</color> tohum çalmaya çalışan kuşları yakalar.",
+    "zh-CN": "捕捉企图偷走<color=#FFD201>农地</color>范围内种子的鸟",
+    "zh-TW": "捕捉企圖偷走範圍內<color=#FFD201>農地</color>裡種子的鳥"
+  },
+  "icon": "icons/structures/SCARECROW_2.png",
+  "id": "SCARECROW_2",
+  "name": {
+    "ar": "فزّاعة الفخاخ",
+    "de": "Vogelscheuchenfalle",
+    "en": "Trap Scarecrow",
+    "es": "Espantapájaros trampa",
+    "fr": "Épouvantail piégeur",
+    "fr-CA": "Épouvantail piégeur",
+    "it": "Spaventapasseri trappola",
+    "ja": "罠付きかかし",
+    "ko": "함정 허수아비",
+    "nl": "Vogelverschrikkerval",
+    "pt-BR": "Armadilha de Espantalho",
+    "ru": "Пугало с ловушкой",
+    "tr": "Tuzaklı Korkuluk",
+    "zh-CN": "陷阱稻草人",
+    "zh-TW": "陷阱稻草羊"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": "SCARECROW"
+}

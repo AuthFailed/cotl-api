@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 10
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "سينتج تابع <sprite name=\"icon_MagmaStone\">",
+    "de": "Ein Anhänger erzeugt <sprite name=\"icon_MagmaStone\">.",
+    "en": "A Follower will generate <sprite name=\"icon_MagmaStone\">",
+    "es": "Un adepto producirá <sprite name=\"icon_MagmaStone\">.",
+    "fr": "Permet à un adepte de miner du <sprite name=\"icon_MagmaStone\">.",
+    "fr-CA": "Permet à un adepte de miner du <sprite name=\"icon_MagmaStone\">.",
+    "it": "Un membro del Culto può generarvi <sprite name=\"icon_MagmaStone\">.",
+    "ja": "信者が <sprite name=\"icon_MagmaStone\"> を生成する場所",
+    "ko": "추종자가 <sprite name=\"icon_MagmaStone\">을 생성합니다.",
+    "nl": "Een volgeling genereert <sprite name=\"icon_MagmaStone\">",
+    "pt-BR": "Um Seguidor gerará <sprite name=\"icon_MagmaStone\">.",
+    "ru": "Место, где последователи добывают <sprite name=\"icon_MagmaStone\">.",
+    "tr": "Bir Takipçi'nin <sprite name=\"icon_MagmaStone\"> toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产 <sprite name=\"icon_MagmaStone\">",
+    "zh-TW": "一位教徒將生產 <sprite name=\"icon_MagmaStone\">"
+  },
+  "icon": "icons/structures/ROTSTONE_MINE.png",
+  "id": "ROTSTONE_MINE",
+  "name": {
+    "ar": "منجم فحم التعفن",
+    "de": "Fäulnisbrand-Mine",
+    "en": "Rotburn Mine",
+    "es": "Mina de petrodumbre",
+    "fr": "Mine à charbon putrescent",
+    "fr-CA": "Mine à charbon putrescent",
+    "it": "Miniera di marciolite",
+    "ja": "腐敗石鉱",
+    "ko": "부패석탄광",
+    "nl": "Rotsteengroeve",
+    "pt-BR": "Mina Putrefogo",
+    "ru": "Гнилогарный рудник",
+    "tr": "Çürükateş Madeni",
+    "zh-CN": "腐烧场",
+    "zh-TW": "腐燃礦場"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

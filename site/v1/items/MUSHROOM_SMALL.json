@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "فطر مخادع ورائحته تشوش العقل.",
+    "de": "Ein heimtückischer Pilz mit einem berauschendem Moschusduft.",
+    "en": "An insidious fungus, with an intoxicating musk.",
+    "es": "Un hongo malicioso que desprende un almizcle embriagador.",
+    "fr": "Un champignon comestible mais illusoire.",
+    "fr-CA": "Un champignon comestible, mais sournoisement exaltant.",
+    "it": "Un fungo insidioso, con un muschio inebriante.",
+    "ja": "魅力的な香りを放つ、危険なキノコ",
+    "ko": "서서히 퍼지는 곰팡이로, 유독한 냄새가 납니다.",
+    "nl": "Een verraderlijke schimmel met een bedwelmende geur.",
+    "pt-BR": "Um cogumelo traiçoeiro com um odor intoxicante.",
+    "ru": "Коварный гриб с опьяняющим запахом.",
+    "tr": "Cezbedici bir kokuya sahip ve algıları çarpıtan bir mantar.",
+    "zh-CN": "不知不觉中产生危害的菌类，带有使人中毒的麝香。",
+    "zh-TW": "不知不覺中產生影響的蕈菇，帶有使人中毒的麝香。"
+  },
+  "icon": "icons/items/MUSHROOM_SMALL.png",
+  "id": "MUSHROOM_SMALL",
+  "name": {
+    "ar": "فطر التطويع",
+    "de": "Gehirnwäschepilz",
+    "en": "Menticide Mushroom",
+    "es": "Seta lavacerebros",
+    "fr": "Champignon hallucinogène",
+    "fr-CA": "Champignon hallucinogène",
+    "it": "Fungo menticida",
+    "ja": "洗脳キノコ",
+    "ko": "정신살해 버섯",
+    "nl": "Hersenschimmel",
+    "pt-BR": "Cogumelo Menticida",
+    "ru": "Дурманный гриб",
+    "tr": "Zihinbozan Mantarı",
+    "zh-CN": "噬心蘑菇",
+    "zh-TW": "噬心蘑菇"
+  }
+}

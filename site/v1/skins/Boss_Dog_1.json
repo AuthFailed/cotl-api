@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Dog_1",
+  "name": {
+    "en": "Boss Dog 1"
+  },
+  "unlock": "Dungeon5"
+}

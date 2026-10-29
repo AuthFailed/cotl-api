@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "This weapon is broken, and will need to be repaired."
+  },
+  "icon": "icons/items/BROKEN_WEAPON_SWORD.png",
+  "id": "BROKEN_WEAPON_SWORD",
+  "name": {
+    "en": "<color=#FFD201>Snapped</color> Sword"
+  }
+}

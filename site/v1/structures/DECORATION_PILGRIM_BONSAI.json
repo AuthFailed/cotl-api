@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "شجرة صغيرة تُرعى بحنان.",
+    "de": "Ein kleiner Baum, der liebevoll gepflegt wird.",
+    "en": "A small tree, lovingly tended.",
+    "es": "Un arbolito cuidado con mucho mimo.",
+    "fr": "Un petit arbre, entretenu avec amour.",
+    "fr-CA": "Un petit arbre, entretenu avec amour.",
+    "it": "Un alberello, curato amorevolmente.",
+    "ja": "愛情をこめて手入れがされている",
+    "ko": "애정어린 관리를 받은 작은 나무입니다.",
+    "nl": "Een kleine boom, met liefde verzorgd.",
+    "pt-BR": "Uma arvorezinha adorável.",
+    "ru": "Маленькое ухоженное дерево.",
+    "tr": "İtinayla kırpılmış küçük bir ağaç.",
+    "zh-CN": "一棵小树，受到呵护。",
+    "zh-TW": "一棵小樹，受到呵護。"
+  },
+  "icon": "icons/structures/DECORATION_PILGRIM_BONSAI.png",
+  "id": "DECORATION_PILGRIM_BONSAI",
+  "name": {
+    "ar": "شجرة بونساي",
+    "de": "Bonsaibaum",
+    "en": "Bonsai Tree",
+    "es": "Bonsái",
+    "fr": "Bonsaï",
+    "fr-CA": "Bonsaï",
+    "it": "Bonsai",
+    "ja": "盆栽",
+    "ko": "분재 나무",
+    "nl": "Bonsaiboom",
+    "pt-BR": "Bonsai",
+    "ru": "Бонсай",
+    "tr": "Bonsai Ağacı",
+    "zh-CN": "盆栽",
+    "zh-TW": "盆栽"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

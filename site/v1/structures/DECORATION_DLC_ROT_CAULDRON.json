@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 1
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "لطهي أعدائك.",
+    "de": "Lass deine Gegner köcheln.",
+    "en": "Let thine enemies cook.",
+    "es": "Que tus enemigos sacien tu hambre.",
+    "fr": "Que cuisent vos ennemis.",
+    "fr-CA": "Que cuisent vos ennemis.",
+    "it": "Metti i tuoi nemici a cuocere.",
+    "ja": "汝の敵を調理せよ",
+    "ko": "적들이 잘 익게 하소서.",
+    "nl": "Breng je vijanden aan de kook.",
+    "pt-BR": "Deixe seus inimigos ferverem.",
+    "ru": "Огненный сувенир с поля боя.",
+    "tr": "Düşmanlarını pişir.",
+    "zh-CN": "让你的敌人们做饭。",
+    "zh-TW": "來料理敵人吧。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_CAULDRON.png",
+  "id": "DECORATION_DLC_ROT_CAULDRON",
+  "name": {
+    "ar": "المرجل المشتعل",
+    "de": "Flammenkessel",
+    "en": "Flaming Cauldron",
+    "es": "Caldero burbujeante",
+    "fr": "Chaudron ardent",
+    "fr-CA": "Chaudron ardent",
+    "it": "Pentolone bollente",
+    "ja": "マグマの大釜",
+    "ko": "불타는 솥",
+    "nl": "Vlammende ketel",
+    "pt-BR": "Caldeirão Flamejante",
+    "ru": "Раскалённый котёл",
+    "tr": "Alevli Kazan",
+    "zh-CN": "烈焰锅",
+    "zh-TW": "烈焰大釜"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

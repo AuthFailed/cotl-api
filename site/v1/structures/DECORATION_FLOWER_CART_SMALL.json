@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "خيرات الربيع في عربة.",
+    "de": "Die Fülle des Frühlings, auf Rädern.",
+    "en": "The bounty of springtime, on wheels.",
+    "es": "El botín de la primavera sobre ruedas.",
+    "fr": "La beauté du printemps, sur des roulettes.",
+    "fr-CA": "La beauté du printemps, sur des roulettes.",
+    "it": "L'abbondanza della primavera, su ruote.",
+    "ja": "春が詰め込まれたカート",
+    "ko": "봄날의 향내가 그윽하게 수레에 담겨있습니다.",
+    "nl": "De overvloed van de lente, maar dan op wielen.",
+    "pt-BR": "A dádiva da natureza sobre rodas",
+    "ru": "Дары, привезённые с цветущих лугов.",
+    "tr": "Baharın güzelliği tekerler üstünde.",
+    "zh-CN": "春季的赠礼，有轮子",
+    "zh-TW": "春季的贈禮，拉車有輪子"
+  },
+  "icon": "icons/structures/DECORATION_FLOWER_CART_SMALL.png",
+  "id": "DECORATION_FLOWER_CART_SMALL",
+  "name": {
+    "ar": "عربة زهور صغيرة",
+    "de": "Kleiner Blumenkarren",
+    "en": "Small Flower Cart",
+    "es": "Carretilla de flores pequeña",
+    "fr": "Petite charrette fleurie",
+    "fr-CA": "Petite charrette fleurie",
+    "it": "Carrettino fiorito",
+    "ja": "フラワーカート（小）",
+    "ko": "소형 꽃 수레",
+    "nl": "Kleine bloemenkar",
+    "pt-BR": "Carroça de Flores Pequena",
+    "ru": "Малая повозка с цветами",
+    "tr": "Küçük Çiçek Arabası",
+    "zh-CN": "小型花朵拉车",
+    "zh-TW": "小型花朵拉車"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

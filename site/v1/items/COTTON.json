@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "قماش ناعم يُستخدم في صناعة الملابس.",
+    "de": "Ein weicher Stoff für die Herstellung von Kleidung.",
+    "en": "A soft fabric for crafting clothes.",
+    "es": "Un suave tejido para confeccionar ropa.",
+    "fr": "Un tissu doux pour confectionner des vêtements.",
+    "fr-CA": "Un tissu doux pour confectionner des vêtements.",
+    "it": "Un tessuto morbido per realizzare indumenti.",
+    "ja": "服をクラフトするための柔らかい繊維",
+    "ko": "부드러운 직물로 옷을 만드는 데 사용됩니다.",
+    "nl": "Een zachte stof voor het maken van kleding.",
+    "pt-BR": "Um tecido macio que serve para fabricar roupas.",
+    "ru": "Мягкая ткань для создания одежды.",
+    "tr": "Kıyafet üretmek için kullanılan yumuşak bir kumaş.",
+    "zh-CN": "能制作衣物的柔软布料。",
+    "zh-TW": "能製作衣物的柔軟布料。"
+  },
+  "icon": "icons/items/COTTON.png",
+  "id": "COTTON",
+  "name": {
+    "ar": "قطن",
+    "de": "Baumwolle",
+    "en": "Cotton",
+    "es": "Algodón",
+    "fr": "Coton",
+    "fr-CA": "Coton",
+    "it": "Cotone",
+    "ja": "コットン",
+    "ko": "목화",
+    "nl": "Katoen",
+    "pt-BR": "Algodão",
+    "ru": "Хлопок",
+    "tr": "Pamuk",
+    "zh-CN": "棉花",
+    "zh-TW": "棉花"
+  }
+}

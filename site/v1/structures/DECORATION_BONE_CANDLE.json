@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "كانت تحوي دماغًا وأصبحت حامل شموع.",
+    "de": "Einst für Hirne vorgesehen, jetzt für Kerzen.",
+    "en": "Once holder of brains, now holder of candles.",
+    "es": "Antes sujetaba un cerebro, ahora, una vela.",
+    "fr": "Autrefois gardien du savoir, aujourd'hui gardien de la lumière.",
+    "fr-CA": "Autrefois gardien du savoir, aujourd'hui gardien de la lumière.",
+    "it": "Un tempo sede di un cervello, ora sorregge delle candele.",
+    "ja": "脳ミソの代わりにキャンドルを入れた頭蓋骨",
+    "ko": "한때는 뇌를 담았던 해골이 이제 초를 담고 있습니다.",
+    "nl": "Ooit bevatte deze hersenen, maar nu kaarsen.",
+    "pt-BR": "Antes alojava um cérebro, agora aloja velas",
+    "ru": "Там, где был мозг, теперь воск.",
+    "tr": "Bir zamanlar beynin olduğu yerde şimdi mumlar var.",
+    "zh-CN": "以前装脑袋，现在装蜡烛",
+    "zh-TW": "以前裝腦子，現在裝蠟燭"
+  },
+  "icon": "icons/structures/DECORATION_BONE_CANDLE.png",
+  "id": "DECORATION_BONE_CANDLE",
+  "name": {
+    "ar": "شموع الجمجمة",
+    "de": "Schädelkerze",
+    "en": "Skull Candle",
+    "es": "Vela de calavera",
+    "fr": "Bougie crâne",
+    "fr-CA": "Bougie crâne",
+    "it": "Teschio portacandele",
+    "ja": "頭蓋骨キャンドル",
+    "ko": "해골 촛대",
+    "nl": "Schedel met kaars",
+    "pt-BR": "Castiçal de Crânio",
+    "ru": "Свеча на черепе",
+    "tr": "Mumlu Kafatası",
+    "zh-CN": "头骨烛台",
+    "zh-TW": "頭骨燭臺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

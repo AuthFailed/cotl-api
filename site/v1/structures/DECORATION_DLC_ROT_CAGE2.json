@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 1
+    },
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "قفص لاحتجاز الأعداء الصغار وإجراء التجارب.",
+    "de": "Ein Käfig für kleine Gegner und Experimente.",
+    "en": "A cage for small enemies and experiments.",
+    "es": "Una jaula donde albergar experimentos y enemigos más pequeños.",
+    "fr": "Une cage pour vos petits ennemis et autres expériences.",
+    "fr-CA": "Une cage pour vos petits ennemis et autres expériences.",
+    "it": "Una piccola gabbia per nemici ed esperimenti.",
+    "ja": "小さな敵や実験体を入れるための檻",
+    "ko": "작은 적들과 실험체를 가두는 철창입니다.",
+    "nl": "Een kooi voor kleine vijanden en experimenten.",
+    "pt-BR": "Uma jaula para inimigos pequenos e experimentos.",
+    "ru": "Клетка для небольших врагов и жертв экспериментов.",
+    "tr": "Küçük düşmanların ve deneylerin için bir kafes.",
+    "zh-CN": "存放小型敌人和试验品的笼子。",
+    "zh-TW": "用來裝小型敵人和實驗品的籠子。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_CAGE2.png",
+  "id": "DECORATION_DLC_ROT_CAGE2",
+  "name": {
+    "ar": "القفص الصغير",
+    "de": "Kleiner Käfig",
+    "en": "Small Cage",
+    "es": "Jaula pequeña",
+    "fr": "Petite cage",
+    "fr-CA": "Petite cage",
+    "it": "Gabbietta",
+    "ja": "鉄製の檻（小）",
+    "ko": "작은 철창",
+    "nl": "Kleine kooi",
+    "pt-BR": "Jaula Pequena",
+    "ru": "Маленькая клетка",
+    "tr": "Kısa Kafes",
+    "zh-CN": "小型笼子",
+    "zh-TW": "小鐵籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

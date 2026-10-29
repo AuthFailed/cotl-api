@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 1
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "لإشعال الشموع لا أكثر.",
+    "de": "Für brennende Kerzen und weiter nichts.",
+    "en": "For burning candles, and nothing more.",
+    "es": "Para encender una vela... y nada más.",
+    "fr": "Pour consumer des bougies, rien de plus.",
+    "fr-CA": "Pour faire brûler des bougies, c'est tout.",
+    "it": "Per bruciare le candele e nient'altro.",
+    "ja": "ロウソクを置くための装飾。それ以上でもそれ以下でもない",
+    "ko": "그저 타오르는 촛대를 놓는 장소일 뿐입니다.",
+    "nl": "Voor het branden van kaarsen en niets anders.",
+    "pt-BR": "Para queimar velas e nada mais.",
+    "ru": "Не более чем подсвечник.",
+    "tr": "Sadece mum yakmaya yarar.",
+    "zh-CN": "为了点蜡烛，仅此而已。",
+    "zh-TW": "除了燃燒的蠟燭外，什麼都沒有。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_STATUE1.png",
+  "id": "DECORATION_DLC_WOLF_STATUE1",
+  "name": {
+    "ar": "منصة انعدام العقيدة",
+    "de": "Ungläubigen-Altar",
+    "en": "Faithless Altar",
+    "es": "Altar del impío",
+    "fr": "Autel des athées",
+    "fr-CA": "Autel des athées",
+    "it": "Altare dello Scetticismo",
+    "ja": "無神論者の祭壇",
+    "ko": "불신의 제단",
+    "nl": "Altaar der ongelovigen",
+    "pt-BR": "Altar do Infiel",
+    "ru": "Алтарь неверующих",
+    "tr": "İnançsız Sunağı",
+    "zh-CN": "不信祭坛",
+    "zh-TW": "無神祭壇"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

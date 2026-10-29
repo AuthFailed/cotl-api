@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "ماذا يكون \"العلم\"؟",
+    "de": "Was ist „Wissenschaft“?",
+    "en": "What is \"science\"?",
+    "es": "¿Qué es eso de «ciencia»?",
+    "fr": "Scientifique ? Ça se mange ?",
+    "fr-CA": "Scientifique? Ça se mange?",
+    "it": "Cos'è la \"scienza\"?",
+    "ja": "「さいえんす」…って何？",
+    "ko": "\"과학\"이 뭐죠?",
+    "nl": "Wat is 'wetenschap'?",
+    "pt-BR": "O que é \"ciência\"?",
+    "ru": "Что значит «научная»?",
+    "tr": "\"Bilim\" ne demek?",
+    "zh-CN": "什么是“科学”？",
+    "zh-TW": "什麼是「科學」？"
+  },
+  "icon": "icons/structures/DECORATION_DST_SCIENCEMACHINE.png",
+  "id": "DECORATION_DST_SCIENCEMACHINE",
+  "name": {
+    "ar": "آلة العلم",
+    "de": "Wissenschaftsmaschine",
+    "en": "Science Machine",
+    "es": "Máquina de ciencia",
+    "fr": "Machine scientifique",
+    "fr-CA": "Machine scientifique",
+    "it": "Macchina scientifica",
+    "ja": "サイエンスマシン",
+    "ko": "과학 기계",
+    "nl": "Wetenschapsmachine",
+    "pt-BR": "Máquina da Ciência",
+    "ru": "Научная машина",
+    "tr": "Bilim Makinesi",
+    "zh-CN": "科学仪器",
+    "zh-TW": "科學儀器"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "تتحول شحنات البرق فيه إلى ضوء.",
+    "de": "In Licht verwandelte Blitze.",
+    "en": "Lightning funneled into light.",
+    "es": "El poderío de un relámpago hecho lucecita.",
+    "fr": "La foudre canalisée en lumière.",
+    "fr-CA": "La foudre canalisée en lumière.",
+    "it": "Una scarica elettrica incanalata come luce.",
+    "ja": "雷のエネルギーを変換して周囲を照らすランプ",
+    "ko": "번개가 빛을 퍼뜨립니다.",
+    "nl": "Bliksem in een lamp.",
+    "pt-BR": "Raios que se tornam luz.",
+    "ru": "Молния, запертая в светильнике.",
+    "tr": "Yıldırımla parıldayan bir lamba.",
+    "zh-CN": "将闪电汇聚成灯光。",
+    "zh-TW": "閃電匯聚成光。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOLF_LAMPPOST.png",
+  "id": "DECORATION_DLC_WOLF_LAMPPOST",
+  "name": {
+    "ar": "عمود إنارة مشحون",
+    "de": "Aufgeladene Lampe",
+    "en": "Charged Lamp",
+    "es": "Lámpara tormentosa",
+    "fr": "Lampe chargée",
+    "fr-CA": "Lampe chargée",
+    "it": "Lampada carica",
+    "ja": "帯電ランプ",
+    "ko": "충전된 등잔",
+    "nl": "Opgeladen lamp",
+    "pt-BR": "Poste de Luz Energizado",
+    "ru": "Заряженный фонарь",
+    "tr": "Yüklü Lamba",
+    "zh-CN": "蓄能灯",
+    "zh-TW": "蓄能路燈"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

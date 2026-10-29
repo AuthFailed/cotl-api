@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "en": "A beautiful lantern that really captures you."
+  },
+  "icon": "icons/structures/DECORATION_PALWORLD_LANTERN.png",
+  "id": "DECORATION_PALWORLD_LANTERN",
+  "name": {
+    "en": "Palsphere Lantern"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

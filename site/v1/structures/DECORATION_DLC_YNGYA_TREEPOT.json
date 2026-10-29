@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "FLOWER_PURPLE",
+      "quantity": 2
+    },
+    {
+      "item": "GRASS",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "شجرة صغيرة تمد فروعها نحو السماء.",
+    "de": "Ein junger Baum, der nach dem Himmel greift.",
+    "en": "A young tree, reaching for the sky.",
+    "es": "Un árbol joven que sueña con llegar al cielo.",
+    "fr": "Un jeune arbre s'étirant vers le ciel.",
+    "fr-CA": "Un jeune arbre s'étirant vers le ciel.",
+    "it": "Un giovane alberello che allunga i rami al cielo.",
+    "ja": "空に向かって伸びる若木",
+    "ko": "하늘을 향해 뻗어나가는 어린 나무입니다.",
+    "nl": "Een jonge boom die naar de hemel reikt.",
+    "pt-BR": "Uma árvore jovem, ascendendo aos céus.",
+    "ru": "Молодое дерево, тянущееся к небу.",
+    "tr": "Göklere uzanan yaş bir ağaç.",
+    "zh-CN": "一棵小树，伸向天空。",
+    "zh-TW": "嚮往天空的小樹。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_YNGYA_TREEPOT.png",
+  "id": "DECORATION_DLC_YNGYA_TREEPOT",
+  "name": {
+    "ar": "شتلة الصيف",
+    "de": "Sommersetzling",
+    "en": "Summer Sapling",
+    "es": "Retoño estival",
+    "fr": "Arbrisseau estival",
+    "fr-CA": "Arbrisseau estival",
+    "it": "Virgulto estivo",
+    "ja": "夏の若木",
+    "ko": "여름 관목",
+    "nl": "Zomerboompje",
+    "pt-BR": "Muda de Verão",
+    "ru": "Летний саженец",
+    "tr": "Yaz Fidanı",
+    "zh-CN": "夏日树苗",
+    "zh-TW": "夏日樹苗"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

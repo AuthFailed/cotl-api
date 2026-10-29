@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مكون منعش فاتح للشهية وصالح للطهي.",
+    "de": "Appetitanregende und belebende Zutat für das Kochen.",
+    "en": "Appetizing and invigorating ingredient for cooking.",
+    "es": "Un ingrediente apetitoso y vigorizante.",
+    "fr": "Ingrédient plein de saveur et de nutriments.",
+    "fr-CA": "Ingrédient plein de saveur et de nutriments.",
+    "it": "Ingrediente appetitoso ed energizzante.",
+    "ja": "非常に栄養価が高い、食欲をそそる食料",
+    "ko": "든든하고 기운이 나게하는 요리용 재료입니다.",
+    "nl": "Een smakelijk en verkwikkend ingrediënt om mee te koken.",
+    "pt-BR": "Ingrediente de cozinha apetitoso e revigorante.",
+    "ru": "Аппетитный корнеплод, заряжающий энергией.",
+    "tr": "İştah açıcı ve canlandırıcı bir yemek malzemesi.",
+    "zh-CN": "烹饪食材，开胃又使人有精神。",
+    "zh-TW": "使人開胃又有精神的烹飪食材。"
+  },
+  "icon": "icons/items/BEETROOT.png",
+  "id": "BEETROOT",
+  "name": {
+    "ar": "بنجر",
+    "de": "Rote Beete",
+    "en": "Beetroot",
+    "es": "Remolacha",
+    "fr": "Betterave",
+    "fr-CA": "Betterave",
+    "it": "Barbabietola",
+    "ja": "ビートルート",
+    "ko": "비트",
+    "nl": "Rode biet",
+    "pt-BR": "Beterraba",
+    "ru": "Свёкла",
+    "tr": "Pancar",
+    "zh-CN": "甜菜根",
+    "zh-TW": "甜菜根"
+  }
+}

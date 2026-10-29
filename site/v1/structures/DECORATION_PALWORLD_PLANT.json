@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "en": "A pretty plant without a house."
+  },
+  "icon": "icons/structures/DECORATION_PALWORLD_PLANT.png",
+  "id": "DECORATION_PALWORLD_PLANT",
+  "name": {
+    "en": "Houseless Plant"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

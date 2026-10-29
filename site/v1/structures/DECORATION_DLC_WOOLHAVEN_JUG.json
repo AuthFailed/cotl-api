@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "إناء زهور فخاري عليه علامة الهلال.",
+    "de": "Eine irdene Vase mit einer Mondsichel.",
+    "en": "An earthen vase, marked with crescent moon.",
+    "es": "Un jarrón de barro decorado con una luna creciente.",
+    "fr": "Un vase en terre marqué d'un croissant de lune.",
+    "fr-CA": "Un vase en terre marqué d'un croissant de lune.",
+    "it": "Un vaso in terracotta decorato con una mezzaluna.",
+    "ja": "表面に三日月の模様が描かれた陶器",
+    "ko": "초승달을 그린 토기 꽃병.",
+    "nl": "Een vaas van aardewerk, versierd met een maan.",
+    "pt-BR": "Um vaso de barro, marcado com a lua crescente.",
+    "ru": "Глиняная ваза с изображением полумесяца.",
+    "tr": "Dolunay desenli toprak bir vazo.",
+    "zh-CN": "陶制花瓶，上面有新月图案。",
+    "zh-TW": "土製花瓶，上面有新月圖案。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_JUG.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_JUG",
+  "name": {
+    "ar": "إناء زهور الهلال",
+    "de": "Sichelvase",
+    "en": "Crescent Vase",
+    "es": "Jarrón de medialuna",
+    "fr": "Vase croissant",
+    "fr-CA": "Vase croissant",
+    "it": "Vaso con mezzaluna",
+    "ja": "三日月の陶器",
+    "ko": "초승달 꽃병",
+    "nl": "Maanvaas",
+    "pt-BR": "Vaso Lunar",
+    "ru": "Ваза с месяцем",
+    "tr": "Dolunay Vazosu",
+    "zh-CN": "新月花瓶",
+    "zh-TW": "新月花瓶"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

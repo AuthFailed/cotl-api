@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "YEW_CURSED",
+      "quantity": 8
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 12
+    }
+  ],
+  "description": {
+    "ar": "تُستخدم لتغيير سمات تابع. تسمح بإزالة سمة تمامًا.",
+    "de": "Verändere die Eigenschaften eines Anhängers. Entferne eine Eigenschaft vollständig.",
+    "en": "Alter a Followers traits. Remove a trait completely.",
+    "es": "Modifica los rasgos de un adepto. Elimina un rasgo.",
+    "fr": "Modifie les croyances d'un adepte. Supprime totalement une croyance.",
+    "fr-CA": "Modifie les croyances d'un adepte. Supprime totalement une croyance.",
+    "it": "Altera i tratti di un membro del Culto, estirpandogliene uno.",
+    "ja": "信者の特性を変更する。特性1つを完全になくす",
+    "ko": "추종자의 특성을 바꿉니다. 특성 하나를 완전히 제거합니다.",
+    "nl": "Verander de eigenschappen van een volgeling. Verwijder een eigenschap helemaal.",
+    "pt-BR": "Altera os aspectos de um seguidor. Remove um aspecto completamente.",
+    "ru": "Постройка, позволяющая избавить последователя от особенности.",
+    "tr": "Bir Takipçi'nin özelliklerini değiştirir. Bir özelliği tamamen kaldırabilirsin.",
+    "zh-CN": "转换一名教徒的特质。完全移除一项特质。",
+    "zh-TW": "轉換一名教徒的特質。完全移除一項特質。"
+  },
+  "icon": "icons/structures/TRAIT_MANIPULATOR_2.png",
+  "id": "TRAIT_MANIPULATOR_2",
+  "name": {
+    "ar": "منصة تعديل السمات II",
+    "de": "Exorzismus-Altar II",
+    "en": "Exorcism Altar II",
+    "es": "Altar de exorcismos II",
+    "fr": "Autel d'exorcisme II",
+    "fr-CA": "Autel d'exorcisme II",
+    "it": "Altare esorcizzante II",
+    "ja": "悪魔祓いの祭壇 II",
+    "ko": "구마 제단 II",
+    "nl": "Uitdrijvingsaltaar II",
+    "pt-BR": "Altar de Exorcismo II",
+    "ru": "Алтарь экзорциста II",
+    "tr": "Arındırma Sunağı II",
+    "zh-CN": "驱魔祭坛 II",
+    "zh-TW": "驅魔祭壇 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "TRAIT_MANIPULATOR_1"
+}

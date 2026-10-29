@@ -1,0 +1,39 @@
+{
+  "category": "GRASS",
+  "description": {
+    "ar": "مادة بسيطة تُستخدم كوقود.",
+    "de": "Ein einfaches Material, das als Brennstoff verwendet wird.",
+    "en": "A simple material used as fuel.",
+    "es": "Un material sencillo utilizado como combustible.",
+    "fr": "Un matériau de base utilisé pour alimenter le feu.",
+    "fr-CA": "Un matériau de base utilisé pour alimenter le feu.",
+    "it": "Un materiale semplice, impiegato come combustibile.",
+    "ja": "燃料として使うことのできる素材",
+    "ko": "연료로 사용되는 단순한 재료입니다.",
+    "nl": "Een simpel materiaal dat wordt gebruikt als brandstof.",
+    "pt-BR": "Material simples usado como combustível.",
+    "ru": "Простейший горючий материал.",
+    "tr": "Yakıt olarak kullanılan basit bir malzeme.",
+    "zh-CN": "用作燃料的朴实材料。",
+    "zh-TW": "用作燃料的樸實材料。"
+  },
+  "icon": "icons/items/GRASS.png",
+  "id": "GRASS",
+  "name": {
+    "ar": "عشب",
+    "de": "Gras",
+    "en": "Grass",
+    "es": "Hierba",
+    "fr": "Herbe",
+    "fr-CA": "Herbe",
+    "it": "Erba",
+    "ja": "雑草",
+    "ko": "풀",
+    "nl": "Gras",
+    "pt-BR": "Mato",
+    "ru": "Трава",
+    "tr": "Çim",
+    "zh-CN": "青草",
+    "zh-TW": "青草"
+  }
+}

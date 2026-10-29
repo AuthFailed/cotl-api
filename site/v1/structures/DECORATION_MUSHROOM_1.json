@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "MUSHROOM_SMALL",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "فطر صغير الحجم.",
+    "de": "Ein kleiner Pilz.",
+    "en": "A small mushroom.",
+    "es": "Una seta pequeña.",
+    "fr": "Un petit champignon.",
+    "fr-CA": "Un petit champignon.",
+    "it": "Un piccolo fungo.",
+    "ja": "装飾向けのキノコの小物",
+    "ko": "작은 버섯입니다.",
+    "nl": "Een kleine paddenstoel.",
+    "pt-BR": "Um pequeno cogumelo",
+    "ru": "Гриб небольшого размера.",
+    "tr": "Küçük bir mantar.",
+    "zh-CN": "一朵小蘑菇",
+    "zh-TW": "一朵小蘑菇"
+  },
+  "icon": "icons/structures/DECORATION_MUSHROOM_1.png",
+  "id": "DECORATION_MUSHROOM_1",
+  "name": {
+    "ar": "فطر صغير",
+    "de": "Kleiner Pilz",
+    "en": "Little Mushroom",
+    "es": "Setita",
+    "fr": "Petit champignon",
+    "fr-CA": "Petit champignon",
+    "it": "Funghetto",
+    "ja": "小さなキノコ",
+    "ko": "소형 버섯",
+    "nl": "Kleine paddenstoel",
+    "pt-BR": "Cogumelo Pequeno",
+    "ru": "Маленький гриб",
+    "tr": "Küçük Mantar",
+    "zh-CN": "小型蘑菇",
+    "zh-TW": "小型蘑菇"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

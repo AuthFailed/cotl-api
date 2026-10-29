@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 50
+    }
+  ],
+  "description": {
+    "ar": "عليك ترقية مزارك لزيادة الحد الأقصى لسعته إلى 30x <sprite name=\"icon_spirits\"> من الولاء.",
+    "de": "Verbessere deinen Schrein, um seine Maximalkapazität auf 30 <sprite name=\"icon_spirits\"> Hingabe zu erhöhen",
+    "en": "Upgrade your shrine to increase its maximum capacity to 30x <sprite name=\"icon_spirits\"> Devotion.",
+    "es": "Mejora tu santuario para aumentar su capacidad a x30 de devoción <sprite name=\"icon_spirits\">.",
+    "fr": "Améliore votre Autel pour pouvoir conserver jusqu'à 30 de dévotion <sprite name=\"icon_spirits\">.",
+    "fr-CA": "Améliore votre Autel afin de pouvoir conserver jusqu'à 30x de dévotion <sprite name=\"icon_spirits\">.",
+    "it": "Migliora il Santuario, portandone la capacità massima di Devozione <sprite name=\"icon_spirits\"> a 30.",
+    "ja": "より発展した祭壇。祈念 <sprite name=\"icon_spirits\"> の最大貯蓄量が30に増加する",
+    "ko": "성지의 헌신 수용량을 30배<sprite name=\"icon_spirits\">로 증가시킵니다.",
+    "nl": "Verbeter je altaar en verhoog de capaciteit naar 30x <sprite name=\"icon_spirits\"> devotie.",
+    "pt-BR": "Aprimore seu santuário para aumentar sua capacidade máxima para 30x <sprite name=\"icon_spirits\"> Devoção",
+    "ru": "Улучшенный алтарь, накапливающий до 30 ед. преданности <sprite name=\"icon_spirits\">.",
+    "tr": "Mabet'i yükselterek kapasitesini 30 kat fazla <sprite name=\"icon_spirits\"> Sadakat birikecek şekilde artırır.",
+    "zh-CN": "升级版圣坛，保留的虔诚度上限增加至 30 点<sprite name=\"icon_spirits\">",
+    "zh-TW": "升級版聖壇，保留的虔誠值上限增加至 30 點 <sprite name=\"icon_spirits\">"
+  },
+  "icon": null,
+  "id": "SHRINE_II",
+  "name": {
+    "ar": "المزار II",
+    "de": "Schrein II",
+    "en": "Shrine II",
+    "es": "Santuario II",
+    "fr": "Autel II",
+    "fr-CA": "Autel II",
+    "it": "Santuario II",
+    "ja": "祭壇 II",
+    "ko": "성지 II",
+    "nl": "Altaar II",
+    "pt-BR": "Santuário II",
+    "ru": "Алтарь II",
+    "tr": "Mabet II",
+    "zh-CN": "圣坛 II",
+    "zh-TW": "聖壇 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "SHRINE"
+}

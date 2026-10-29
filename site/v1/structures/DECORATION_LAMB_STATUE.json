@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "تمثال الحَمَل العظيم",
+    "de": "Eine Statue des mächtigen Lamms.",
+    "en": "A statue of the mighty Lamb",
+    "es": "Una estatua del todopoderoso Cordero.",
+    "fr": "Une statue de l'honorable Agneau.",
+    "fr-CA": "Une statue de l'honorable Agneau.",
+    "it": "Una statua dell'Agnello onnipotente.",
+    "ja": "偉大なる子羊をかたどった石像",
+    "ko": "강력한 어린 양의 조각상입니다",
+    "nl": "Een standbeeld van het machtige Lam",
+    "pt-BR": "Uma estátua do poderoso Cordeiro",
+    "ru": "Изваяние великого ягнёнка.",
+    "tr": "Yüce Kuzu'nun bir heykeli.",
+    "zh-CN": "伟大圣羊的雕像",
+    "zh-TW": "偉大聖羊的雕像"
+  },
+  "icon": null,
+  "id": "DECORATION_LAMB_STATUE",
+  "name": {
+    "ar": "تمثال الحَمَل",
+    "de": "Lammstatue",
+    "en": "Lamb Statue",
+    "es": "Estatua del Cordero",
+    "fr": "Statue de l'Agneau",
+    "fr-CA": "Statue de l'Agneau",
+    "it": "Statua dell'Agnello",
+    "ja": "子羊の石像",
+    "ko": "어린 양의 조각상",
+    "nl": "Lamstandbeeld",
+    "pt-BR": "Estátua do Cordeiro",
+    "ru": "Статуя ягнёнка",
+    "tr": "Kuzu Heykeli",
+    "zh-CN": "圣羊雕像",
+    "zh-TW": "聖羊雕像"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

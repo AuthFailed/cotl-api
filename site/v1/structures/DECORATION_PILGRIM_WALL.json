@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "حائط مصنوع من خيزران متين.",
+    "de": "Eine Mauer aus stabilem Bambus.",
+    "en": "A wall made of sturdy bamboo.",
+    "es": "Un muro de bambú macizo.",
+    "fr": "Un mur fait de bambou solide.",
+    "fr-CA": "Un mur fait de bambou solide.",
+    "it": "Una parete di robusto bambù.",
+    "ja": "丈夫な竹から作られた壁",
+    "ko": "단단한 대나무로 만든 벽입니다.",
+    "nl": "Een muur van stevige bamboe.",
+    "pt-BR": "Uma parede feita de bambu resistente.",
+    "ru": "Сделан из крепких стеблей бамбука.",
+    "tr": "Dayanıklı bambudan yapılmış bir duvar.",
+    "zh-CN": "强韧竹子建成的墙。",
+    "zh-TW": "強韌竹子建成的牆。"
+  },
+  "icon": "icons/structures/DECORATION_PILGRIM_WALL.png",
+  "id": "DECORATION_PILGRIM_WALL",
+  "name": {
+    "ar": "حائط الخيزران",
+    "de": "Bambusmauer",
+    "en": "Bamboo Wall",
+    "es": "Muro de bambú",
+    "fr": "Mur en bambou",
+    "fr-CA": "Mur en bambou",
+    "it": "Muro di bambù",
+    "ja": "竹の壁",
+    "ko": "대나무 벽",
+    "nl": "Muur van bamboe",
+    "pt-BR": "Parede de Bambu",
+    "ru": "Бамбуковый палисадник",
+    "tr": "Bambu Duvar",
+    "zh-CN": "竹墙",
+    "zh-TW": "竹牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

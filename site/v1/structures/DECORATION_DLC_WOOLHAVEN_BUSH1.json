@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "بالكاد تظهر من الأصيص.",
+    "de": "Blickt verstohlen über den Rand des Topfes hinweg.",
+    "en": "Just peeking above the pot.",
+    "es": "Se asoma con disimulo por la maceta.",
+    "fr": "Dépasse à peine du pot.",
+    "fr-CA": "Dépasse à peine du pot.",
+    "it": "Si affaccia appena dal vaso.",
+    "ja": "鉢から少しだけ顔を出している",
+    "ko": "화분 밖을 빼꼼 훔쳐보고 있습니다.",
+    "nl": "Gluurt net boven de pot uit.",
+    "pt-BR": "Dando uma espiadinha sobre o vaso.",
+    "ru": "Едва выглядывающая из горшка зелень.",
+    "tr": "Saksıdan çıkmaya korkuyor.",
+    "zh-CN": "只会从盆栽向外偷看。",
+    "zh-TW": "只能從盆栽上方窺探。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_BUSH1.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_BUSH1",
+  "name": {
+    "ar": "الشجيرة الخجول",
+    "de": "Schüchterner Busch",
+    "en": "Shy Bush",
+    "es": "Arbusto timidillo",
+    "fr": "Buisson timide",
+    "fr-CA": "Buisson timide",
+    "it": "Timido cespuglietto",
+    "ja": "シャイな低木",
+    "ko": "수줍은 수풀",
+    "nl": "Verlegen struik",
+    "pt-BR": "Arbusto Recatado",
+    "ru": "Робкий куст",
+    "tr": "Utangaç Çalı",
+    "zh-CN": "害羞灌木",
+    "zh-TW": "害羞樹叢"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

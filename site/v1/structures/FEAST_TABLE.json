@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "لإقامة وليمة عظيمة لأتباعك.",
+    "de": "Organisiere ein großes Festmahl für deine Anhänger.",
+    "en": "Throw a grand feast for your Followers.",
+    "es": "Celebra un banquete para tus adeptos.",
+    "fr": "Organisez un grand banquet pour vos adeptes !",
+    "fr-CA": "Organisez un grand banquet pour vos adeptes!",
+    "it": "Organizza un bel banchetto per i membri del Culto.",
+    "ja": "信者にごちそうを振舞おう",
+    "ko": "추종자들을 위한 성대한 축연을 엽니다.",
+    "nl": "Organiseer een groots feestmaal voor je volgelingen.",
+    "pt-BR": "Faça um grande banquete para seus Seguidores",
+    "ru": "Стол, за которым можно устроить большой пир для последователей.",
+    "tr": "Takipçilerin için büyük bir şölen düzenle.",
+    "zh-CN": "为你的教徒举行盛宴",
+    "zh-TW": "為你的教徒舉行盛宴"
+  },
+  "icon": null,
+  "id": "FEAST_TABLE",
+  "name": {
+    "ar": "طاولة الولائم",
+    "de": "Festtafel",
+    "en": "Feasting Table",
+    "es": "Mesa de banquete",
+    "fr": "Table de banquet",
+    "fr-CA": "Table de banquet",
+    "it": "Tavola imbandita",
+    "ja": "宴用の食卓",
+    "ko": "축제 탁자",
+    "nl": "Banket",
+    "pt-BR": "Mesa de Banquetes",
+    "ru": "Пиршественный стол",
+    "tr": "Şölen Masası",
+    "zh-CN": "盛宴桌",
+    "zh-TW": "盛宴桌"
+  },
+  "size": {
+    "h": 5,
+    "w": 5
+  },
+  "upgradesFrom": null
+}

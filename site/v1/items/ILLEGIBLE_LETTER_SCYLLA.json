@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "عليك توصيل هذه إلى <color=#FFD201>كاريبديس</color> في <color=#FFD201>بؤرة التعفن</color>.",
+    "de": "Bring ihn zu <color=#FFD201>Charybdis</color> in <color=#FFD201>Die Fäulnis</color>.",
+    "en": "Deliver this to <color=#FFD201>Charybdis</color> in <color=#FFD201>The Rot</color>.",
+    "es": "Ve a <color=#FFD201>Tierra putrefacta</color> y dásela a <color=#FFD201>Caribdis</color>.",
+    "fr": "Livrez cette lettre à <color=#FFD201>Charybde</color> dans <color=#FFD201>la Putrescence</color>.",
+    "fr-CA": "Livrez cette lettre à <color=#FFD201>Charybde</color> dans <color=#FFD201>la Putrescence</color>.",
+    "it": "Consegnala a <color=#FFD201>Cariddi</color> nel <color=#FFD201>Marcioventre</color>.",
+    "ja": "<color=#FFD201>腐敗の地</color>にいる<color=#FFD201>カリュブディス</color>に渡そう",
+    "ko": "<color=#FFD201>부패산</color>의 <color=#FFD201>카리브디스</color>에게 가져가세요.",
+    "nl": "Bezorg dit aan <color=#FFD201>Charybdis</color> in <color=#FFD201>de Rotting</color>.",
+    "pt-BR": "Entregue para <color=#FFD201>Caríbdis</color> na <color=#FFD201>Putrefação</color>.",
+    "ru": "Послание, которое нужно доставить <color=#FFD201>Харибде</color> в <color=#FFD201>Гниль</color>.",
+    "tr": "Bunu <color=#FFD201>Piyeten</color>'de <color=#FFD201>Charybdis</color>'e götür.",
+    "zh-CN": "将这封信交给<color=#FFD201>腐烂之地</color>的<color=#FFD201>卡律布迪斯</color>。",
+    "zh-TW": "將信交給<color=#FFD201>腐朽之地</color>的<color=#FFD201>卡律布狄斯</color>。"
+  },
+  "icon": "icons/items/ILLEGIBLE_LETTER_SCYLLA.png",
+  "id": "ILLEGIBLE_LETTER_SCYLLA",
+  "name": {
+    "ar": "رسالة مبهمة",
+    "de": "Unleserlicher Brief",
+    "en": "Illegible Letter",
+    "es": "Carta ilegible",
+    "fr": "Lettre illisible",
+    "fr-CA": "Lettre illisible",
+    "it": "Lettera indecifrabile",
+    "ja": "判読不可能な手紙",
+    "ko": "읽을 수 없는 편지",
+    "nl": "Onleesbare brief",
+    "pt-BR": "Carta Ilegível",
+    "ru": "Неразборчивое письмо",
+    "tr": "Okunamayan Mektup",
+    "zh-CN": "字迹不清的信",
+    "zh-TW": "難以識別的信"
+  }
+}

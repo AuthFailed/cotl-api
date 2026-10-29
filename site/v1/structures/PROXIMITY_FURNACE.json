@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "لن يتراكم الجليد على المباني التي في نطاقها. ستعمل فقط عندما يكون <color=#FFD201>فرن فحم التعفن</color> مزودًا بالوقود.",
+    "de": "Gebäude in Reichweite werden nicht eingeschneit. Funktioniert nur, wenn der <color=#FFD201>Fäulnisbrand-Ofen</color> befeuert wird.",
+    "en": "Structures will not be snowed under within range. Will only work when the <color=#FFD201>Rotburn Furnace</color> is fuelled.",
+    "es": "Evita que las estructuras al alcance queden sepultadas bajo la nieve. Solo funciona si la <color=#FFD201>caldera de petrodumbre</color> tiene combustible.",
+    "fr": "Les structures à portée ne seront pas ensevelies sous la neige. Ne fonctionne que si le <color=#FFD201>fourneau à charbon putrescent</color> est alimenté.",
+    "fr-CA": "Les structures à portée ne seront pas ensevelies sous la neige. Ne fonctionne que si la <color=#FFD201>fournaise à charbon putrescent</color> est alimentée.",
+    "it": "Le strutture nel raggio d'azione non verranno coperte di neve. Funziona solo dopo aver alimentato la <color=#FFD201>fornace a marciolite</color>.",
+    "ja": "範囲内にある建築物が雪に埋もれなくなる。<color=#FFD201>腐敗石ストーブ</color>に燃料を入れないと動かない",
+    "ko": "범위 내 구조물이 눈에 덮이지 않습니다. <color=#FFD201>부패석탄 화로</color>에 연료가 있을 때만 작동합니다.",
+    "nl": "Gebouwen binnen bereik sneeuwen niet onder. Werkt alleen als de <color=#FFD201>rotsteenoven</color> brandstof heeft.",
+    "pt-BR": "Estruturas não serão cobertas por neve no seu alcance. Funcionará apenas quando a <color=#FFD201>Fornalha Putrefogo</color> estiver abastecida.",
+    "ru": "Печка, которая не позволяет снегу заносить постройки в радиусе действия. Работает, только когда растоплена <color=#FFD201>гнилогарная печь</color>.",
+    "tr": "Menzilindeki yapılar kara gömülemez. Yalnızca <color=#FFD201>Çürükateş Sobası</color>'nda yakacak varken çalışır.",
+    "zh-CN": "范围内的建筑物不会被雪覆盖。仅在<color=#FFD201>腐烧火炉</color>有燃料时有效。",
+    "zh-TW": "範圍內的建築物不會被雪覆蓋。<color=#FFD201>腐燃爐</color>內有燃料時才會運作。"
+  },
+  "icon": "icons/structures/PROXIMITY_FURNACE.png",
+  "id": "PROXIMITY_FURNACE",
+  "name": {
+    "ar": "مدفأة",
+    "de": "Heizer",
+    "en": "Heater",
+    "es": "Difusor",
+    "fr": "Radiateur",
+    "fr-CA": "Radiateur",
+    "it": "Stufa",
+    "ja": "暖房",
+    "ko": "온열기",
+    "nl": "Kachel",
+    "pt-BR": "Aquecedor",
+    "ru": "Обогреватель",
+    "tr": "Isıtıcı",
+    "zh-CN": "加热器",
+    "zh-TW": "暖爐"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

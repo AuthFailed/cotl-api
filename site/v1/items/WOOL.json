@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يُستخدم لتدفئة الأتباع عندما يكون الطقس باردًا.",
+    "de": "Gut dafür geeignet, Anhänger warm zu halten, wenn es kalt ist.",
+    "en": "Good for keeping Followers warm when it's cold.",
+    "es": "Proporciona calor a los adeptos cuando arrecia el frío.",
+    "fr": "Maintient les adeptes au chaud par grand froid.",
+    "fr-CA": "Maintient les adeptes au chaud par grand froid.",
+    "it": "Ideale per riscaldare i membri del Culto d'inverno.",
+    "ja": "信者を寒さから守る、温かい服を作るための素材",
+    "ko": "추울 때 추종자들의 체온을 유지하기에 유용합니다.",
+    "nl": "Handig om volgelingen warm te houden in de kou.",
+    "pt-BR": "Ótima para manter seguidores aquecidos durante o frio.",
+    "ru": "Материал, помогающий согревать последователей.",
+    "tr": "Soğuk havalarda Takipçileri sıcak tutmak için birebir.",
+    "zh-CN": "适合天冷时为教徒保暖。",
+    "zh-TW": "適合天冷時讓教徒保暖。"
+  },
+  "icon": "icons/items/WOOL.png",
+  "id": "WOOL",
+  "name": {
+    "ar": "صوف",
+    "de": "Wolle",
+    "en": "Wool",
+    "es": "Lana",
+    "fr": "Laine",
+    "fr-CA": "Laine",
+    "it": "Lana",
+    "ja": "ウール",
+    "ko": "모직",
+    "nl": "Wol",
+    "pt-BR": "Pelagem",
+    "ru": "Шерсть",
+    "tr": "Yün",
+    "zh-CN": "羊毛",
+    "zh-TW": "羊毛"
+  }
+}

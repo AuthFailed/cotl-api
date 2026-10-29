@@ -1,0 +1,25 @@
+{
+  "cost": [],
+  "description": {},
+  "icon": null,
+  "id": "VOMIT",
+  "name": {
+    "ar": "قيء",
+    "de": "Erbrochenes",
+    "en": "Vomit",
+    "es": "Vómito",
+    "fr": "Vomi",
+    "fr-CA": "Vomi",
+    "it": "Vomito",
+    "ja": "ゲロ",
+    "ko": "구토",
+    "nl": "Braaksel",
+    "pt-BR": "Vômito",
+    "ru": "Рвотная масса",
+    "tr": "Kusmuk",
+    "zh-CN": "呕吐物",
+    "zh-TW": "嘔吐物"
+  },
+  "size": null,
+  "upgradesFrom": null
+}

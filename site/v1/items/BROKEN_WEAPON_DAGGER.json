@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "This weapon is broken, and will need to be repaired."
+  },
+  "icon": "icons/items/BROKEN_WEAPON_DAGGER.png",
+  "id": "BROKEN_WEAPON_DAGGER",
+  "name": {
+    "en": "<color=#FFD201>Blunt</color> Dagger"
+  }
+}

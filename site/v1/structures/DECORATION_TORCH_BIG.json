@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "منارة مشتعلة.",
+    "de": "Ein loderndes Leuchtfeuer.",
+    "en": "A blazing beacon.",
+    "es": "Un faro ardiente.",
+    "fr": "Et la lumière fut.",
+    "fr-CA": "Et la lumière fut.",
+    "it": "Una guida ardente.",
+    "ja": "メラメラと燃え盛る光源",
+    "ko": "타오르는 신호등입니다.",
+    "nl": "Een laaiend baken.",
+    "pt-BR": "Um sinal flamejante",
+    "ru": "Источник яркого света.",
+    "tr": "Alev alev yanan bir ateş.",
+    "zh-CN": "炽热的烽火台",
+    "zh-TW": "熾熱的烽火臺"
+  },
+  "icon": "icons/structures/DECORATION_TORCH_BIG.png",
+  "id": "DECORATION_TORCH_BIG",
+  "name": {
+    "ar": "شعلة كبيرة",
+    "de": "Große Fackel",
+    "en": "Large Torch",
+    "es": "Antorcha grande",
+    "fr": "Brasero",
+    "fr-CA": "Brasero",
+    "it": "Torcia grande",
+    "ja": "篝火",
+    "ko": "대형 횃불",
+    "nl": "Grote fakkel",
+    "pt-BR": "Tocha Grande",
+    "ru": "Костровая чаша",
+    "tr": "Büyük Meşale",
+    "zh-CN": "大型火炬",
+    "zh-TW": "大型火炬"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

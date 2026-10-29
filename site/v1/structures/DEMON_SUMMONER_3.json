@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 6
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 15
+    }
+  ],
+  "description": {
+    "ar": "عليك ترقية حلقة استدعاء العفاريت لاستدعاء 3 عفاريت في الوقت نفسه.",
+    "de": "Verbesserter Dämonenbeschwörungskreis. Beschwöre 3 Dämonen gleichzeitig.",
+    "en": "Upgraded Demonic Summoning Circle. Summon 3 demons at a time.",
+    "es": "Círculo de invocación demoníaca mejorado. Invoca a 3 demonios a la vez.",
+    "fr": "Cercle d'invocation démoniaque amélioré. Permet d'invoquer trois démons en même temps.",
+    "fr-CA": "Cercle d'invocation démoniaque amélioré. Permet d'invoquer 3 démons en même temps.",
+    "it": "Migliora il Circolo di evocazione demoniaca, permettendo di evocare tre demoni alla volta.",
+    "ja": "強化された悪魔召喚陣。悪魔を同時に3体召喚できる",
+    "ko": "업그레이드된 악마 소환진입니다. 한 번에 악마 셋을 소환합니다.",
+    "nl": "Verbeterde demonische oproepkring. Roep 3 demonen tegelijk op.",
+    "pt-BR": "Círculo de Invocação Demoníaca aprimorado. Invoca 3 demônios por vez.",
+    "ru": "Улучшенный круг призыва демонов, который позволяет вселять демонов в 3 последователей одновременно.",
+    "tr": "İblis Çağırma Çemberi'nin gelişmiş hâli. Aynı anda 3 iblis çağrılabilir.",
+    "zh-CN": "升级版恶魔召唤阵，能一次召唤3只恶魔",
+    "zh-TW": "升級版惡魔召喚陣，能一次召喚 3 隻惡魔"
+  },
+  "icon": "icons/structures/DEMON_SUMMONER_3.png",
+  "id": "DEMON_SUMMONER_3",
+  "name": {
+    "ar": "حلقة استدعاء العفاريت III",
+    "de": "Dämonenbeschwörung III",
+    "en": "Demonic Summoning Circle III",
+    "es": "Círculo de invocación demoníaca III",
+    "fr": "Cercle d'invocation démoniaque III",
+    "fr-CA": "Cercle d'invocation démoniaque III",
+    "it": "Circolo di evocazione demoniaca III",
+    "ja": "悪魔召喚陣 III",
+    "ko": "악마 소환진 III",
+    "nl": "Demonische oproepkring III",
+    "pt-BR": "Círculo de Invocação Demoníaca III",
+    "ru": "Круг призыва демонов III",
+    "tr": "İblis Çağırma Çemberi III",
+    "zh-CN": "恶魔召唤阵 III",
+    "zh-TW": "惡魔召喚陣 III"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": "DEMON_SUMMONER_2"
+}

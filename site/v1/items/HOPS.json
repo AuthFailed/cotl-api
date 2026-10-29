@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يُستخدم في صنع المشروبات.",
+    "de": "Wird für Getränke verwendet.",
+    "en": "Used to make drinks.",
+    "es": "Se usa para elaborar bebidas.",
+    "fr": "Permet de préparer des boissons.",
+    "fr-CA": "Permet de préparer des boissons.",
+    "it": "Impiegato nella preparazione di bevande.",
+    "ja": "飲み物の作成に使う",
+    "ko": "음료를 만듭니다.",
+    "nl": "Hiermee worden dranken gebrouwen.",
+    "pt-BR": "Usada para criar bebidas.",
+    "ru": "Растение, использующееся для изготовления напитков.",
+    "tr": "İçecek yapmak için kullanılır.",
+    "zh-CN": "用于制作饮料。",
+    "zh-TW": "用於製作飲料。"
+  },
+  "icon": "icons/items/HOPS.png",
+  "id": "HOPS",
+  "name": {
+    "ar": "جنجل",
+    "de": "Hopfen",
+    "en": "Hops",
+    "es": "Lúpulo",
+    "fr": "Houblon",
+    "fr-CA": "Houblon",
+    "it": "Luppolo",
+    "ja": "ホップ",
+    "ko": "홉",
+    "nl": "Hop",
+    "pt-BR": "Lúpulo",
+    "ru": "Хмель",
+    "tr": "Şerbetçi Otu",
+    "zh-CN": "啤酒花",
+    "zh-TW": "啤酒花"
+  }
+}

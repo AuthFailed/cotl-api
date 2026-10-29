@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "بعد خوض حملة، يمكنك إيداع <color=#FFD201>البذور</color> هنا. سيوزعها الأتباع تلقائيًا على <color=#FFD201>مخازن البذور.</color>",
+    "de": "Nach einem Kreuzzug kannst du hier <color=#FFD201>Samen</color> deponieren. Anhänger werden diese dann automatisch auf <color=#FFD201>Samensilos</color> verteilen.",
+    "en": "After a Crusade, deposit <color=#FFD201>seeds</color> here. Followers will automatically distribute them to <color=#FFD201>Seed Silos.</color>",
+    "es": "Deposita <color=#FFD201>semillas</color> aquí tras una cruzada para que tus adeptos las lleven a los <color=#FFD201>silos de semillas</color>.",
+    "fr": "Une fois un donjon terminé, déposez des <color=#FFD201>graines</color> ici. Vos adeptes les répartiront automatiquement dans les <color=#FFD201>silos à graines</color>.",
+    "fr-CA": "Une fois une croisade terminée, déposez des <color=#FFD201>graines</color> ici. Vos adeptes les répartiront automatiquement dans les <color=#FFD201>silos à graines</color>.",
+    "it": "Deposita qui i <color=#FFD201>semi</color> dopo una crociata. I membri del Culto li distribuiranno automaticamente ai <color=#FFD201>Silo di semi</color>.",
+    "ja": "聖戦から戻った際に<color=#FFD201>種</color>をここに保管すると、信者が自動で<color=#FFD201>種サイロ</color>に種を運んでくれる",
+    "ko": "성전 후, <color=#FFD201>씨앗</color>이 이곳에 쌓입니다. 추종자들은 자동적으로 <color=#FFD201>씨앗 저장고</color>에 씨앗을 가져다 놓습니다.",
+    "nl": "Deponeer hier <color=#FFD201>zaden</color> na een kruistocht. Volgelingen verplaatsen die dan automatisch naar <color=#FFD201>zaadsilo's</color>.",
+    "pt-BR": "Após uma cruzada, deposite <color=#FFD201>sementes</color> aqui. Os seguidores as distribuirão automaticamente aos <color=#FFD201>Silos de Sementes.</color>",
+    "ru": "Хранилище, в которое можно положить <color=#FFD201>семена</color> после похода. Ваши последователи сами распределят их по <color=#FFD201>хранилищам семян</color>.",
+    "tr": "Bir Sefer'in ardından burada <color=#FFD201>tohum</color> depolayabilirsin. Takipçiler tohumu otomatik olarak <color=#FFD201>Tohum Ambarlarına</color> dağıtır.",
+    "zh-CN": "圣战之后，在此存放<color=#FFD201>种子</color>。教徒会自动将种子放入<color=#FFD201>种子储仓</color>。",
+    "zh-TW": "聖戰之後，在此存放<color=#FFD201>種子</color>。教徒會自動將種子放入<color=#FFD201>種子儲倉</color>。"
+  },
+  "icon": "icons/structures/SEED_BUCKET.png",
+  "id": "SEED_BUCKET",
+  "name": {
+    "ar": "مستودع البذور",
+    "de": "Samenlager",
+    "en": "Seed Storage",
+    "es": "Almacén de semillas",
+    "fr": "Réserve de graines",
+    "fr-CA": "Réserve de graines",
+    "it": "Contenitore per semi",
+    "ja": "種保管庫",
+    "ko": "씨앗 보관소",
+    "nl": "Zaadopslag",
+    "pt-BR": "Armazém de Sementes",
+    "ru": "Ёмкость для семян",
+    "tr": "Tohum Deposu",
+    "zh-CN": "种子存放区",
+    "zh-TW": "種子存放區"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "مبنى يتيح للأتباع تنظيف مخلفاتهم.",
+    "de": "Ein Gebäude, das Anhängern die Möglichkeit gibt, sich um ihren Dreck zu kümmern.",
+    "en": "A building that allows Followers to clean up their own mess.",
+    "es": "Un edificio que les permite a tus adeptos limpiar sus propios desastres.",
+    "fr": "Permet aux adeptes de nettoyer leurs propres déchets.",
+    "fr-CA": "Permet aux adeptes de nettoyer eux-mêmes leurs immondices.",
+    "it": "Permette ai membri del Culto di ripulire i propri disastri.",
+    "ja": "信者が汚れを自分でキレイにするための道具が入った施設",
+    "ko": "추종자들이 쓰레기를 치울 수 있게 해주는 건물입니다.",
+    "nl": "Met dit gebouw kunnen volgelingen hun eigen viezigheid opruimen.",
+    "pt-BR": "Uma construção que permite que os Seguidores limpem suas bagunças",
+    "ru": "Место, где хранятся хозяйственные инструменты, с помощью которых последователи могут убирать за собой.",
+    "tr": "Takipçilerin kendi pisliğini temizlemesini sağlayan bir yapı.",
+    "zh-CN": "让教徒自行清理脏乱的建筑",
+    "zh-TW": "讓教徒自行清理髒亂的建築"
+  },
+  "icon": "icons/structures/JANITOR_STATION.png",
+  "id": "JANITOR_STATION",
+  "name": {
+    "ar": "مقر النظافة",
+    "de": "Reinigungsposten",
+    "en": "Janitor Station",
+    "es": "Estación de limpieza",
+    "fr": "Poste de nettoyage",
+    "fr-CA": "Poste de nettoyage",
+    "it": "Casetta delle pulizie",
+    "ja": "清掃用具庫",
+    "ko": "관리소",
+    "nl": "Schoonmaakstation",
+    "pt-BR": "Estação de Limpeza",
+    "ru": "Чулан",
+    "tr": "Temizlikçi Kulübesi",
+    "zh-CN": "清洁员站",
+    "zh-TW": "清潔員站"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

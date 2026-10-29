@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "YEW_HOLY",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك إنشاء مضمار وإقامة سباق مع حيوانات المَربى في أنحاء طائفتك!",
+    "de": "Errichte eine Strecke und laufe um deinen Kult herum Rennen mit den Tieren aus der Ranch!",
+    "en": "Set up a track and race Ranch animals around your Cult!",
+    "es": "¡Crea tu propia pista y echa carreras de animales por la secta!",
+    "fr": "Installez une piste et faites la course dans le culte à dos d'animaux du ranch !",
+    "fr-CA": "Installez une piste dans votre camp et faites la course à dos d'animaux du ranch!",
+    "it": "Appronta un tracciato e gareggia con gli animali dell'Allevamento!",
+    "ja": "教団内にトラックを設定して、動物でレースしよう！",
+    "ko": "교단에 경주장을 설치하여 목장의 동물들을 경주 시켜 보세요!",
+    "nl": "Leg een parcours aan en race met boerderijdieren door je sekte!",
+    "pt-BR": "Monte uma pista e realize corridas cavalgando os animais do Rancho pelo Culto!",
+    "ru": "Постройка, позволяющая создать в поселении трассу, которую можно преодолеть на одном из животных из хлева.",
+    "tr": "Bir yarış hattı çiz ve Hayvan Çiftliği'ndeki hayvanları Tarikat'ında yarıştır!",
+    "zh-CN": "设置赛道，在教会举办牧场动物竞速大赛！",
+    "zh-TW": "建置賽道，在教會舉辦牧場動物競速大賽！"
+  },
+  "icon": "icons/structures/RACING_GATE.png",
+  "id": "RACING_GATE",
+  "name": {
+    "ar": "بوابة التسابق",
+    "de": "Renntor",
+    "en": "Racing Gate",
+    "es": "Arco de carreras",
+    "fr": "Portail de la course",
+    "fr-CA": "Portail de la course",
+    "it": "Arco di gara",
+    "ja": "レーシングゲート",
+    "ko": "경주 관문",
+    "nl": "Racepoortje",
+    "pt-BR": "Portão de Corridas",
+    "ru": "Ворота трассы",
+    "tr": "Yarış Noktası",
+    "zh-CN": "竞速大门",
+    "zh-TW": "競速大門"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

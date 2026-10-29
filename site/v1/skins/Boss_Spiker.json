@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Spiker",
+  "name": {
+    "en": "Boss Spiker"
+  },
+  "unlock": "Dungeon3"
+}

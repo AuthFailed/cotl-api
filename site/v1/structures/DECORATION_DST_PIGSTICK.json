@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MEAT",
+      "quantity": 1
+    },
+    {
+      "item": "LOG",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "إنه رأس خنزير. على عصا.",
+    "de": "Das ist der Kopf eines Schweins. Auf einem Stock.",
+    "en": "Its a pigs head. On a stick.",
+    "es": "La cabeza de un gorrino en una estaca.",
+    "fr": "Une tête de cochon. Sur une pique.",
+    "fr-CA": "Une tête de cochon. Empalée.",
+    "it": "È una testa di maiale. Su una picca.",
+    "ja": "木の棒に取り付けられたブタの頭",
+    "ko": "막대 위에 돼지 머리가 올려져 있습니다.",
+    "nl": "Het is een varkenshoofd. Op een stokje.",
+    "pt-BR": "Uma cabeça de porco em um espeto.",
+    "ru": "Свиная голова на колу.",
+    "tr": "Bir domuzun kafası. Çubuğa geçirilmiş.",
+    "zh-CN": "插在木棍上的猪头",
+    "zh-TW": "插在木棍上的豬頭"
+  },
+  "icon": "icons/structures/DECORATION_DST_PIGSTICK.png",
+  "id": "DECORATION_DST_PIGSTICK",
+  "name": {
+    "ar": "رأس خنزير",
+    "de": "Schweinekopf",
+    "en": "Pig Head",
+    "es": "Cabeza de cerdo",
+    "fr": "Tête de cochon",
+    "fr-CA": "Tête de cochon",
+    "it": "Testa di maiale",
+    "ja": "ブタの頭",
+    "ko": "돼지 머리",
+    "nl": "Varkenshoofd",
+    "pt-BR": "Cabeça de Porco",
+    "ru": "Голова свина",
+    "tr": "Domuz Kafası",
+    "zh-CN": "猪头",
+    "zh-TW": "豬人頭"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

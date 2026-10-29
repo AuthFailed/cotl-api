@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Egg_Hopper",
+  "name": {
+    "en": "Boss Egg Hopper"
+  },
+  "unlock": "Dungeon2"
+}

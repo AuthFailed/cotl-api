@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "ألواح خشبية ذات علامات غريبة...",
+    "de": "Holzbohlen mit seltsamen Markierungen …",
+    "en": "Wooden planks with strange markings...",
+    "es": "Tablas de madera con unas marcas un tanto extrañas...",
+    "fr": "Des planches de bois portant d'étranges marques...",
+    "fr-CA": "Des planches de bois portant d'étranges marques...",
+    "it": "Assi di legno con strani simboli...",
+    "ja": "木製の板には奇妙な模様が描かれている…",
+    "ko": "수상한 표식이 새겨진 나무 판자입니다...",
+    "nl": "Houten planken met vreemde markeringen...",
+    "pt-BR": "Tábuas de madeira com marcações estranhas...",
+    "ru": "Деревянные доски со странными отметинами.",
+    "tr": "Üstünde tuhaf semboller olan ahşap döşeme.",
+    "zh-CN": "带有诡异印记的铺地木板……",
+    "zh-TW": "帶有詭異印記的鋪地木板……"
+  },
+  "icon": "icons/structures/TILE_SPOOKYPLANKS.png",
+  "id": "TILE_SPOOKYPLANKS",
+  "name": {
+    "ar": "أرضية ذات علامات",
+    "de": "Markierter Boden",
+    "en": "Marked Flooring",
+    "es": "Suelo con marcas",
+    "fr": "Plancher maudit",
+    "fr-CA": "Plancher maudit",
+    "it": "Pavimentazione marchiata",
+    "ja": "模様付きタイル",
+    "ko": "표식이 새겨진 바닥",
+    "nl": "Vloer met markeringen",
+    "pt-BR": "Piso Marcado",
+    "ru": "Меченый настил",
+    "tr": "İşaretli Döşeme",
+    "zh-CN": "印记地板",
+    "zh-TW": "印記地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

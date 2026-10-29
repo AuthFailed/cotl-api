@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Mortar_Hopper",
+  "name": {
+    "en": "Boss Mortar Hopper"
+  },
+  "unlock": "Dungeon2"
+}

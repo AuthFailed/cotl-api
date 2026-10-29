@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 20
+    },
+    {
+      "item": "STONE",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "نصب يمكن للأتباع ترك <color=#FFD201>تقدمات</color> عنده تقديرًا لك.",
+    "de": "Eine Statue, bei der Anhänger zu deinen Ehren <color=#FFD201>Opfer</color> hinterlassen können.",
+    "en": "A statue where Followers can leave <color=#FFD201>Offerings</color> in your honour.",
+    "es": "Una estatua a la que tus adeptos pueden hacerle <color=#FFD201>ofrendas</color> en tu honor.",
+    "fr": "Permet aux adeptes de déposer des <color=#FFD201>offrandes</color> en votre honneur.",
+    "fr-CA": "Permet aux adeptes de déposer des <color=#FFD201>offrandes</color> en votre honneur.",
+    "it": "Una statua presso la quale i membri del Culto possono lasciare <color=#FFD201>offerte</color> in tuo onore.",
+    "ja": "あなたを称える<color=#FFD201>供物</color>を信者が捧げるための場所",
+    "ko": "추종자들이 <color=#FFD201>제물</color>을 바칠 수 있게 해주는 조각상입니다.",
+    "nl": "Een standbeeld waar volgelingen <color=#FFD201>offers</color> in jouw naam kunnen brengen.",
+    "pt-BR": "Uma estátua na qual Seguidores podem deixar <color=#FFD201>Oferendas</color> em sua homenagem.",
+    "ru": "Чаша, где последователи могут оставлять <color=#FFD201>подношения</color>.",
+    "tr": "Takipçilerin senin adına <color=#FFD201>Adak</color> bırakabileceği bir heykel.",
+    "zh-CN": "教徒能来这座雕像前为你留下<color=#FFD201>供品</color>",
+    "zh-TW": "教徒能來這座雕像前留下榮耀你的<color=#FFD201>供品</color>"
+  },
+  "icon": "icons/structures/OFFERING_STATUE.png",
+  "id": "OFFERING_STATUE",
+  "name": {
+    "ar": "نصب التقدمات",
+    "de": "Opferstatue",
+    "en": "Offering Statue",
+    "es": "Estatua de las ofrendas",
+    "fr": "Coupe à offrandes",
+    "fr-CA": "Coupe à offrandes",
+    "it": "Statua delle offerte",
+    "ja": "供物台",
+    "ko": "번제의 조각상",
+    "nl": "Offerstandbeeld",
+    "pt-BR": "Estátua de Oferendas",
+    "ru": "Чаша для подношений",
+    "tr": "Adak Heykeli",
+    "zh-CN": "供品雕像",
+    "zh-TW": "供品雕像"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

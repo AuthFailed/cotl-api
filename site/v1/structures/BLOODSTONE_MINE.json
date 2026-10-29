@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "سينتج تابع <sprite name=\"icon_stone\">",
+    "de": "Ein Anhänger erzeugt <sprite name=\"icon_stone\">",
+    "en": "A Follower will generate <sprite name=\"icon_stone\">",
+    "es": "Un adepto producirá <sprite name=\"icon_stone\">.",
+    "fr": "Permet à un adepte de miner de la <sprite name=\"icon_stone\">.",
+    "fr-CA": "Permet à un adepte de miner de la <sprite name=\"icon_stone\">.",
+    "it": "Un membro del Culto può generarvi <sprite name=\"icon_stone\">.",
+    "ja": "信者が <sprite name=\"icon_stone\"> を生成する場所",
+    "ko": "추종자가 <sprite name=\"icon_stone\">을 생성합니다.",
+    "nl": "Een volgeling genereert <sprite name=\"icon_stone\">",
+    "pt-BR": "Um seguidor gerará <sprite name=\"icon_stone\">",
+    "ru": "Место, где последователи могут добывать <sprite name=\"icon_stone\">.",
+    "tr": "Bir Takipçi'nin <sprite name=\"icon_stone\"> toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产 <sprite name=\"icon_stone\">",
+    "zh-TW": "一位教徒將生產 <sprite name=\"icon_stone\">"
+  },
+  "icon": "icons/structures/BLOODSTONE_MINE.png",
+  "id": "BLOODSTONE_MINE",
+  "name": {
+    "ar": "المحجر",
+    "de": "Steinmine",
+    "en": "Stone Mine",
+    "es": "Mina de piedra",
+    "fr": "Mine",
+    "fr-CA": "Mine",
+    "it": "Cava",
+    "ja": "石材坑道",
+    "ko": "돌 광산",
+    "nl": "Steengroeve",
+    "pt-BR": "Mina de Pedras",
+    "ru": "Каменоломня",
+    "tr": "Taş Madeni",
+    "zh-CN": "采石场",
+    "zh-TW": "採石場"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LIGHTNING_SHARD",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "شمعة فوق حامل طويل.",
+    "de": "Eine Kerze auf einem hohen Ständer.",
+    "en": "A candle upon a a tall stand.",
+    "es": "Una vela que descansa sobre un soporte bastante alto.",
+    "fr": "Une bougie sur un pied élevé.",
+    "fr-CA": "Une bougie sur un pied élevé.",
+    "it": "Una candela su un alto piedistallo.",
+    "ja": "ロウソクを置くためのスタンド。とても細長い",
+    "ko": "높은 받침 위에서 타오르는 촛불.",
+    "nl": "Een kaars op een hoge standaard.",
+    "pt-BR": "Uma vela sobre um suporte grande.",
+    "ru": "Свеча в высоком подсвечнике.",
+    "tr": "Yükseğe konulmuş bir mum.",
+    "zh-CN": "放置在高架上的蜡烛。",
+    "zh-TW": "高支架上的蠟燭。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_CANDLE.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_CANDLE",
+  "name": {
+    "ar": "الشمعة الطويلة",
+    "de": "Große Kerze",
+    "en": "Tall Candle",
+    "es": "Vela grande",
+    "fr": "Grande bougie",
+    "fr-CA": "Grande bougie",
+    "it": "Candeliere",
+    "ja": "細長いキャンドルスタンド",
+    "ko": "키 큰 촛대",
+    "nl": "Lange kaars",
+    "pt-BR": "Vela Grande",
+    "ru": "Длинная свеча",
+    "tr": "Uzun Mum",
+    "zh-CN": "高蜡烛",
+    "zh-TW": "高燭臺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

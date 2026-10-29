@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "FLOWER_WHITE",
+      "quantity": 1
+    },
+    {
+      "item": "FLOWER_PURPLE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "زهور أقحوان نضرة تزداد طولًا.",
+    "de": "Frische Gänseblümchen, die hoch wachsen.",
+    "en": "Fresh daisies, growing tall.",
+    "es": "Unas margaritas recién cortadas que no paran de crecer.",
+    "fr": "De grandes marguerites toutes fraîches.",
+    "fr-CA": "De grandes marguerites toutes fraîches.",
+    "it": "Margherite che crescono a vista d'occhio.",
+    "ja": "大きく育った、若々しいデイジー",
+    "ko": "들꽃들이 건강하고 훤칠하게 자라납니다.",
+    "nl": "Verse madeliefjes die flink gegroeid zijn.",
+    "pt-BR": "Margaridas novinhas em crescimento.",
+    "ru": "Прекрасные маргаритки, качающиеся на ветру.",
+    "tr": "Taze, uzun papatya.",
+    "zh-CN": "新鲜雏菊，长得很高。",
+    "zh-TW": "新鮮雛菊，又高又壯。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_YNGYA_TALLFLOWERS.png",
+  "id": "DECORATION_DLC_YNGYA_TALLFLOWERS",
+  "name": {
+    "ar": "أقحوان في أصيص",
+    "de": "Gänseblümchen im Topf",
+    "en": "Potted Daisies",
+    "es": "Tiesto con margaritas",
+    "fr": "Marguerites en pot",
+    "fr-CA": "Marguerites en pot",
+    "it": "Margherite in vaso",
+    "ja": "デイジーの花瓶",
+    "ko": "화분에 심은 들꽃",
+    "nl": "Madeliefjes in pot",
+    "pt-BR": "Margaridas Envasadas",
+    "ru": "Маргаритки в горшке",
+    "tr": "Saksılı Papatya",
+    "zh-CN": "雏菊盆栽",
+    "zh-TW": "盆栽雛菊"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

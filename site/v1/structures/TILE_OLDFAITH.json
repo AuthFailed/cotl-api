@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "الأرضية المثالية للخضوع.",
+    "de": "Die perfekten Fliesen zum Niederknien.",
+    "en": "The perfect tile upon which to bend the knee.",
+    "es": "La baldosa perfecta sobre la que hincar la rodilla.",
+    "fr": "Parfait pour que vos fidèles s'agenouillent devant vous.",
+    "fr-CA": "Parfait pour les génuflexions.",
+    "it": "La pavimentazione perfetta su cui inginocchiarsi.",
+    "ja": "思わずひざまずきたくなるタイル",
+    "ko": "무릎꿇고 기도하기에 완벽한 타일입니다.",
+    "nl": "De perfecte tegel om op door de knieën te gaan.",
+    "pt-BR": "O ladrilho perfeito para se ajoelhar.",
+    "ru": "Лучшая плитка для преклонения колен.",
+    "tr": "Üstünde diz çökmek için birebir bir döşeme.",
+    "zh-CN": "最适合屈膝奉拜的地板",
+    "zh-TW": "最適合屈膝奉拜的地板"
+  },
+  "icon": "icons/structures/TILE_OLDFAITH.png",
+  "id": "TILE_OLDFAITH",
+  "name": {
+    "ar": "أرضية العقيدة القديمة",
+    "de": "Bodenbelag des alten Glaubens",
+    "en": "Flooring of the Old Faith",
+    "es": "Suelo de la Antigua Fe",
+    "fr": "Sol de la Vieille croyance",
+    "fr-CA": "Sol de la Vieille croyance",
+    "it": "Pavimentazione dell'Antico Credo",
+    "ja": "旧き信仰のタイル",
+    "ko": "옛 신앙의 바닥",
+    "nl": "Vloer van het Oude Geloof",
+    "pt-BR": "Piso da Antiga Fé",
+    "ru": "Настил древней веры",
+    "tr": "Kadim İnanç'ın Döşemesi",
+    "zh-CN": "古老信仰之地板",
+    "zh-TW": "古老信仰之地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

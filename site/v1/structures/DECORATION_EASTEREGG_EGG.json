@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "YOLK",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "بيضة زخرفية سرية مميزة.",
+    "de": "Ein besonderes, geheimes, dekoratives Ei.",
+    "en": "A special, secret, decorative egg.",
+    "es": "Un huevo decorativo muy especial que guarda un secreto.",
+    "fr": "Un œuf décoratif très mystérieux.",
+    "fr-CA": "Un œuf décoratif très mystérieux.",
+    "it": "Uno speciale e segreto uovo decorativo.",
+    "ja": "スペシャルでシークレットな、飾る用のタマゴ",
+    "ko": "특별하고 비밀스러운 장식용 알.",
+    "nl": "Een bijzonder, geheim, decoratief ei.",
+    "pt-BR": "Um ovo decorativo, especial e secreto.",
+    "ru": "Особое секретное декоративное яйцо.",
+    "tr": "Özel, gizli ve süslü bir yumurta.",
+    "zh-CN": "特别而神秘的装饰蛋。",
+    "zh-TW": "特別又神祕的蛋，用於裝飾。"
+  },
+  "icon": "icons/structures/DECORATION_EASTEREGG_EGG.png",
+  "id": "DECORATION_EASTEREGG_EGG",
+  "name": {
+    "ar": "البيضة الكبيرة",
+    "de": "Großes Ei",
+    "en": "Large Egg",
+    "es": "Huevo colosal",
+    "fr": "Gros œuf",
+    "fr-CA": "Gros œuf",
+    "it": "Grosso uovo",
+    "ja": "巨大なタマゴ",
+    "ko": "큰 알",
+    "nl": "Groot ei",
+    "pt-BR": "Ovo Grande",
+    "ru": "Большое яйцо",
+    "tr": "Büyük Yumurta",
+    "zh-CN": "大型蛋",
+    "zh-TW": "大蛋"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

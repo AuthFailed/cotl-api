@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Webber",
+  "name": {
+    "en": "Webber"
+  },
+  "unlock": "SpecialEvents"
+}

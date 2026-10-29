@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "يبدو مضيئًا وحلوًا...",
+    "de": "Wirkt hell und süß …",
+    "en": "Looks bright and sweet...",
+    "es": "Emite un brillo muy dulzón.",
+    "fr": "Émet une douce lueur sucrée...",
+    "fr-CA": "Elle brille et semble sucrée...",
+    "it": "Dolce e colorata...",
+    "ja": "明るくて甘そう…",
+    "ko": "밝고 따뜻해 보입니다...",
+    "nl": "Ziet er licht en lekker uit...",
+    "pt-BR": "Parece brilhante e doce...",
+    "ru": "Воплощение яркости и красоты.",
+    "tr": "Hem tatlı hem de parlak duruyor.",
+    "zh-CN": "看起来明亮又温馨……",
+    "zh-TW": "看起來香甜明亮……"
+  },
+  "icon": "icons/structures/DECORATION_CHRISTMAS_CANDYCANE.png",
+  "id": "DECORATION_CHRISTMAS_CANDYCANE",
+  "name": {
+    "ar": "قنديل منتصف الشتاء",
+    "de": "Wintersonnenwende-Laterne",
+    "en": "Midwinter Lantern",
+    "es": "Farol invernal",
+    "fr": "Lanterne de la mi-hiver",
+    "fr-CA": "Lanterne de la mi-hiver",
+    "it": "Lanterna del solstizio d'inverno",
+    "ja": "冬至のランタン",
+    "ko": "한겨울철 랜턴",
+    "nl": "Midwinterlantaarn",
+    "pt-BR": "Lanterna do Festival de Inverno",
+    "ru": "Солнцестояльный фонарь",
+    "tr": "Kış Ortası Feneri",
+    "zh-CN": "冬至灯笼",
+    "zh-TW": "冬至燈籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

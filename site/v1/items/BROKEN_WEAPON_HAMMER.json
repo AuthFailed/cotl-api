@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "This weapon is broken, and will need to be repaired."
+  },
+  "icon": "icons/items/BROKEN_WEAPON_HAMMER.png",
+  "id": "BROKEN_WEAPON_HAMMER",
+  "name": {
+    "en": "<color=#FFD201>Rusted</color> Hammer"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "أرضية خشبية رائعة.",
+    "de": "Ein schöner Holzfußboden.",
+    "en": "A lovely wooden floor.",
+    "es": "Un precioso suelo de madera.",
+    "fr": "Permet de créer de charmants chemins en bois.",
+    "fr-CA": "Permet de créer de charmants planchers en bois.",
+    "it": "Un bel pavimento in legno.",
+    "ja": "かわいらしい木製の床板",
+    "ko": "사랑스러운 목제 바닥입니다.",
+    "nl": "Een prachtige houten vloer.",
+    "pt-BR": "Um chão de madeira adorável",
+    "ru": "Добротный настил.",
+    "tr": "Hoş görünümlü bir ahşap zemin.",
+    "zh-CN": "漂亮的木制地板",
+    "zh-TW": "漂亮的木製地板"
+  },
+  "icon": "icons/structures/PLANK_PATH.png",
+  "id": "PLANK_PATH",
+  "name": {
+    "ar": "ألواح خشبية",
+    "de": "Holzbohlen",
+    "en": "Wooden Planks",
+    "es": "Tablones de madera",
+    "fr": "Planches de bois",
+    "fr-CA": "Planches de bois",
+    "it": "Assi di legno",
+    "ja": "木板",
+    "ko": "목제 널빤지",
+    "nl": "Houten planken",
+    "pt-BR": "Tábuas de Madeira",
+    "ru": "Деревянные доски",
+    "tr": "Ahşap Döşeme",
+    "zh-CN": "木板",
+    "zh-TW": "木板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

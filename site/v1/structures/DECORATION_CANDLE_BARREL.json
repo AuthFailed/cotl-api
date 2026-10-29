@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "برميل فوقه شموع.",
+    "de": "Ein Fass mit darauf befindlichen Kerzen.",
+    "en": "A barrel with candles atop.",
+    "es": "Un barril con velas encima.",
+    "fr": "Un baril portant plusieurs bougies.",
+    "fr-CA": "Un baril portant plusieurs bougies.",
+    "it": "Un barile che sorregge delle candele.",
+    "ja": "上にロウソクが置かれたタル",
+    "ko": "통 위에 초가 얹어져있습니다.",
+    "nl": "Een vat met kaarsen erop.",
+    "pt-BR": "Um barril com velas em cima",
+    "ru": "Бочонок, на котором установлены свечи.",
+    "tr": "Üstünde mumlar duran bir fıçı.",
+    "zh-CN": "木桶上放了蜡烛",
+    "zh-TW": "木桶上放了蠟燭"
+  },
+  "icon": "icons/structures/DECORATION_CANDLE_BARREL.png",
+  "id": "DECORATION_CANDLE_BARREL",
+  "name": {
+    "ar": "برميل شموع",
+    "de": "Kerzenfass",
+    "en": "Candle Barrel",
+    "es": "Barril con velas",
+    "fr": "Baril de bougies",
+    "fr-CA": "Baril de bougies",
+    "it": "Barile portacandele",
+    "ja": "ロウソクのタル",
+    "ko": "초 통",
+    "nl": "Vat met kaarsen",
+    "pt-BR": "Barril de Velas",
+    "ru": "Бочка со свечами",
+    "tr": "Mumlu Fıçı",
+    "zh-CN": "蜡烛木桶",
+    "zh-TW": "蠟燭木桶"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

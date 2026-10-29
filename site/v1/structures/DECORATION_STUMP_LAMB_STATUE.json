@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "منحوتة خشبية للحَمَل.",
+    "de": "Das Lamm, aus Holz geschnitzt.",
+    "en": "The Lamb carved of wood.",
+    "es": "El Cordero tallado en tocones de árboles.",
+    "fr": "Une sculpture de l'Agneau en bois.",
+    "fr-CA": "Une sculpture de l'Agneau en bois.",
+    "it": "L'Agnello scolpito nel legno.",
+    "ja": "樹を彫って作られた子羊の像",
+    "ko": "나무에 어린 양이 새겨져있습니다.",
+    "nl": "Het Lam uitgekerfd in hout.",
+    "pt-BR": "O Cordeiro esculpido em madeira",
+    "ru": "Изображение ягнёнка, вырезанное из дерева.",
+    "tr": "Odundan oyulmuş Kuzu heykeli.",
+    "zh-CN": "木头刻成的圣羊像",
+    "zh-TW": "木頭刻成的聖羊像"
+  },
+  "icon": "icons/structures/DECORATION_STUMP_LAMB_STATUE.png",
+  "id": "DECORATION_STUMP_LAMB_STATUE",
+  "name": {
+    "ar": "تمثال للحَمَل من جذع شجرة",
+    "de": "Baumstumpf-Lammstatue",
+    "en": "Tree Stump Lamb Statue",
+    "es": "Estatua del Cordero de madera",
+    "fr": "Agneau en bois",
+    "fr-CA": "Agneau en bois",
+    "it": "Ceppo dell'Agnello",
+    "ja": "切り株の子羊像",
+    "ko": "어린 양의 나무 그루터기 조각상",
+    "nl": "Lamstandbeeld van een boomstronk",
+    "pt-BR": "Estátua do Cordeiro em Toco de Árvore",
+    "ru": "Деревянная статуя ягнёнка",
+    "tr": "Kütük Kuzu Heykeli",
+    "zh-CN": "树桩圣羊雕像",
+    "zh-TW": "樹樁聖羊雕像"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

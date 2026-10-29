@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "شظية من البرق الصاعق التُقطت من السماء.",
+    "de": "Ein knisternder Splitter eines Blitzes, der aus dem Himmel gefangen wurde.",
+    "en": "A crackling shard of lightning caught from the sky.",
+    "es": "Un fragmento centelleante de un relámpago que cayó de los cielos.",
+    "fr": "Un éclair foudroyant attrapé dans le ciel.",
+    "fr-CA": "Un éclair foudroyant attrapé dans le ciel.",
+    "it": "Un frammento crepitante di fulmine, strappato alle tempeste.",
+    "ja": "雷を閉じ込めた球体。パチパチと音を立てている",
+    "ko": "하늘에서 떨어진 벼락으로 지글거리는 조각입니다.",
+    "nl": "Een knetterende bliksemschicht, zo uit de lucht gevangen.",
+    "pt-BR": "O fragmento crepitante de um raio capturado dos céus.",
+    "ru": "Обломок молнии, упавший с неба.",
+    "tr": "Göğün armağanı enerji dolu bir yıldırım parçacığı.",
+    "zh-CN": "劈啪作响的闪电碎片，从空中捕获。",
+    "zh-TW": "劈啪作響的閃電碎片，從空中捕獲的。"
+  },
+  "icon": "icons/items/LIGHTNING_SHARD.png",
+  "id": "LIGHTNING_SHARD",
+  "name": {
+    "ar": "شظية صاعقة",
+    "de": "Aufgeladener Splitter",
+    "en": "Charged Shard",
+    "es": "Fragmento tormentoso",
+    "fr": "Cristal chargé",
+    "fr-CA": "Cristal chargé",
+    "it": "Elettroscheggia",
+    "ja": "帯電球",
+    "ko": "충전된 조각",
+    "nl": "Opgeladen kristal",
+    "pt-BR": "Fragmento Energizado",
+    "ru": "Заряженная сфера",
+    "tr": "Enerji Yüklü Parçacık",
+    "zh-CN": "蓄能碎片",
+    "zh-TW": "蓄能碎片"
+  }
+}

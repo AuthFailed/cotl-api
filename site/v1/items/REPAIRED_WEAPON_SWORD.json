@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
+  },
+  "icon": "icons/items/REPAIRED_WEAPON_SWORD.png",
+  "id": "REPAIRED_WEAPON_SWORD",
+  "name": {
+    "en": "Golden End"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "شجيرة جميلة في أصيص زينة.",
+    "de": "Ein hübscher Busch in einem dekorativen Topf.",
+    "en": "A pretty bush in a decorative pot.",
+    "es": "Un arbusto muy mono dentro de una maceta.",
+    "fr": "Un joli buisson dans un pot décoratif.",
+    "fr-CA": "Un beau buisson dans un pot décoratif.",
+    "it": "Un grazioso cespuglio in un vaso decorativo.",
+    "ja": "オシャレな鉢に植えられたかわいらしい低木",
+    "ko": "관상용 화분에 심은 예쁜 관목입니다.",
+    "nl": "Een mooie struik in een decoratieve pot.",
+    "pt-BR": "Um belo arbusto em um vaso decorativo",
+    "ru": "Красивое растение в горшке.",
+    "tr": "Dekoratif saksıda duran şirin bir çalı.",
+    "zh-CN": "种在装饰用花盆里的漂亮树丛",
+    "zh-TW": "種在裝飾用花盆裡的漂亮樹叢"
+  },
+  "icon": "icons/structures/DECORATION_TREE.png",
+  "id": "DECORATION_TREE",
+  "name": {
+    "ar": "شجيرة في أصيص",
+    "de": "Topfbusch",
+    "en": "Potted Bush",
+    "es": "Arbusto en maceta",
+    "fr": "Buisson en pot",
+    "fr-CA": "Buisson en pot",
+    "it": "Cespuglio in vaso",
+    "ja": "低木の鉢植え",
+    "ko": "화분에 심은 관목",
+    "nl": "Struik in pot",
+    "pt-BR": "Arbusto em Vaso",
+    "ru": "Растение в горшке",
+    "tr": "Saksılı Çalı",
+    "zh-CN": "盆栽树丛",
+    "zh-TW": "盆栽樹叢"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

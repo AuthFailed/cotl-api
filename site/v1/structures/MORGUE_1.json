@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 30
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "يمكن للأتباع جمع الجثث وتخزينها هنا في غيابك، لكن يجب إفراغها قبل أن تمتلئ وإلا فستسبب الأمراض.",
+    "de": "Anhänger können Leichen einsammeln und sie in deiner Abwesenheit hier lagern, aber sie muss geleert werden, bevor sie voll ist, sonst breiten sich Krankheiten aus.",
+    "en": "Followers can collect and store bodies while you are away here, but it must be emptied before it is full or it will cause illness.",
+    "es": "Tus adeptos podrán recoger y almacenar cuerpos cuando no estés, pero deberás vaciarla antes de que se llene o se propague alguna enfermedad.",
+    "fr": "Les adeptes peuvent entasser les corps ici pendant votre absence, mais elle doit être vidée avant d'être pleine, sans quoi vos adeptes tomberont malades.",
+    "fr-CA": "Les adeptes peuvent entasser les corps ici pendant votre absence, mais elle doit être vidée avant d'être pleine, sinon vos adeptes tomberont malades.",
+    "it": "I membri del Culto possono depositarvi i cadaveri in tua assenza, ma va svuotato prima che si riempia, o causerà malattie.",
+    "ja": "信者が死体を回収し、保管する場所。死体でいっぱいになると病気の原因となるため、そうなる前にプレイヤーが空にする必要がある",
+    "ko": "이곳에 없을 때 추종자들이 시체를 모아 저장하지만, 가득 차기 전에 영안실을 비우지 않으면 질병을 유발합니다.",
+    "nl": "Volgelingen verzamelen hier lichamen terwijl je weg bent. Het moet wel worden geleegd voor het vol is, anders verspreidt het ziektes.",
+    "pt-BR": "Seguidores podem coletar e armazenar corpos aqui na sua ausência, mas deverá ser esvaziado para não ficar cheio e causar doenças.",
+    "ru": "Сооружение, позволяющее хранить тела, пока вас нет. В случае заполнения распространяет зловоние, вызывающее болезни.",
+    "tr": "Takipçiler sen uzaktayken cesetleri toplayıp burada depolayabilir fakat dolmadan önce boşaltılmazsa hastalığa yol açar.",
+    "zh-CN": "教徒会在你离开时在此集中存放尸体，但堆满之前必须清空，否则会引发疾病",
+    "zh-TW": "教徒會在你離開時在此集中存放屍體，但堆滿之前必須清空，否則會引發疾病"
+  },
+  "icon": "icons/structures/MORGUE_1.png",
+  "id": "MORGUE_1",
+  "name": {
+    "ar": "المشرحة",
+    "de": "Leichenhalle",
+    "en": "Morgue",
+    "es": "Morgue",
+    "fr": "Morgue",
+    "fr-CA": "Morgue",
+    "it": "Obitorio",
+    "ja": "死体安置所",
+    "ko": "영안실",
+    "nl": "Mortuarium",
+    "pt-BR": "Necrotério",
+    "ru": "Морг",
+    "tr": "Morg",
+    "zh-CN": "停尸间",
+    "zh-TW": "停屍間"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

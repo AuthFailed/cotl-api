@@ -1,0 +1,25 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 4
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "en": "Summons Followers who have generated <color=#FFD201>Sin</color> for you to collect."
+  },
+  "icon": null,
+  "id": "SHRINE_PLEASURE",
+  "name": {
+    "en": "Sin Totem"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

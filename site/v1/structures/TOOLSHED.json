@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تعيين تابع نجّارًا ليصلح المباني المتضررة.",
+    "de": "Ernenne einen Anhänger zum Schreiner und lass ihn beschädigte Gebäude reparieren.",
+    "en": "Assign a Follower to be a Carpenter and repair damaged stuctures.",
+    "es": "Asigna a un adepto como carpintero para que repare las estructuras dañadas.",
+    "fr": "Assigne le rôle de bricolo à un adepte pour qu'il répare les structures cassées.",
+    "fr-CA": "Assigne le rôle de responsable des charpentes à un adepte pour qu'il répare les structures abîmées.",
+    "it": "Permette la nomina di rattoppatori che riparino le strutture danneggiate.",
+    "ja": "大工に任命した信者が、壊れた建築物を修復してくれる",
+    "ko": "추종자에게 목수 업무를 할당하면 망가진 건물을 고칠 것입니다.",
+    "nl": "Wijs een volgeling aan om timmerman te worden die kapotte gebouwen repareert.",
+    "pt-BR": "Indique um seguidor para se tornar Carpinteiro e reparar estruturas danificadas.",
+    "ru": "Помещение, позволяющее назначенному последователю чинить повреждённые постройки.",
+    "tr": "Bir Takipçi'yi Marangoz olarak atayarak hasarlı yapıları onarmasını sağlayabilirsin.",
+    "zh-CN": "指派教徒成为木匠，修复受损的建筑物。",
+    "zh-TW": "指派教徒成為木匠，修復受損的建築物。"
+  },
+  "icon": "icons/structures/TOOLSHED.png",
+  "id": "TOOLSHED",
+  "name": {
+    "ar": "ورشة النجارة",
+    "de": "Schreinerquartier",
+    "en": "Carpentry Station",
+    "es": "Carpintería",
+    "fr": "Poste de réparation",
+    "fr-CA": "Poste de réparation",
+    "it": "Casetta del rattoppo",
+    "ja": "大工小屋",
+    "ko": "목수 배치소",
+    "nl": "Timmermanswerkplaats",
+    "pt-BR": "Estação de Carpintaria",
+    "ru": "Столярная мастерская",
+    "tr": "Marangoz Kulübesi",
+    "zh-CN": "木匠站",
+    "zh-TW": "木匠站"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

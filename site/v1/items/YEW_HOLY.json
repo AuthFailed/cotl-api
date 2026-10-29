@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مادة متينة تصلح للبناء.",
+    "de": "Ein robustes Material zum Bauen.",
+    "en": "A sturdy material for building.",
+    "es": "Un material muy resistente que se usa para construir.",
+    "fr": "Un matériau solide destiné à la construction.",
+    "fr-CA": "Un matériau solide destiné à la construction.",
+    "it": "Un robusto materiale da costruzione.",
+    "ja": "建築に使える頑丈な素材",
+    "ko": "튼튼한 건설 자재.",
+    "nl": "Een stevig materiaal om mee te bouwen.",
+    "pt-BR": "Um material robusto para construção.",
+    "ru": "Прочная древесина для строительства.",
+    "tr": "Yapılarda kullanılan sağlam bir malzeme.",
+    "zh-CN": "坚硬材料，可用于建造。",
+    "zh-TW": "堅固的建造材料。"
+  },
+  "icon": "icons/items/YEW_HOLY.png",
+  "id": "YEW_HOLY",
+  "name": {
+    "ar": "سرو الشاة النقي",
+    "de": "Reines Eibenholz",
+    "en": "Pure Yewbark",
+    "es": "Corteza de tejo etérea",
+    "fr": "Écorce d'if bénie",
+    "fr-CA": "Écorce d'if bénie",
+    "it": "Legno di tasso puro",
+    "ja": "穢れなき樹皮",
+    "ko": "순수한 주목나무",
+    "nl": "Zuiver taxushout",
+    "pt-BR": "Teixo Puro",
+    "ru": "Чистая овцина",
+    "tr": "Saf Porsukkabuğu",
+    "zh-CN": "圣洁紫杉",
+    "zh-TW": "純淨紫杉"
+  }
+}

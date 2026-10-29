@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "إضافة صغيرة لأي وجبة.",
+    "de": "Eine kleine Beilage für jede Mahlzeit.",
+    "en": "A small addition to any meal.",
+    "es": "Una pequeña guarnición para todo tipo de platos.",
+    "fr": "Permet d'agrémenter n'importe quel plat.",
+    "fr-CA": "Permet d'agrémenter n'importe quel plat.",
+    "it": "Un bocconcino che completa un pasto.",
+    "ja": "料理の彩り程度には使える食料",
+    "ko": "어느 식사에건 추가할 수 있는 작은 부가물입니다.",
+    "nl": "Een kleine toevoeging aan elke maaltijd.",
+    "pt-BR": "Uma pequena adição a qualquer refeição.",
+    "ru": "Небольшая добавка к блюдам.",
+    "tr": "Her yemeğe yakışan ufak bir balık.",
+    "zh-CN": "能为任何餐点锦上添花。",
+    "zh-TW": "能為任何餐點錦上添花。"
+  },
+  "icon": "icons/items/FISH_SMALL.png",
+  "id": "FISH_SMALL",
+  "name": {
+    "ar": "سمكة منوة",
+    "de": "Elritze",
+    "en": "Minnow",
+    "es": "Pececillo",
+    "fr": "Vairon",
+    "fr-CA": "Méné",
+    "it": "Sanguinerola",
+    "ja": "ヒメハヤ",
+    "ko": "피라미",
+    "nl": "Voorn",
+    "pt-BR": "Peixinho",
+    "ru": "Пескарь",
+    "tr": "Küçük Balık",
+    "zh-CN": "鲦鱼",
+    "zh-TW": "鰷魚"
+  }
+}

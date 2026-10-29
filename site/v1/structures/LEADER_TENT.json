@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 40
+    }
+  ],
+  "description": {
+    "ar": "مكان للراحة يليق بقائد جليل وتاجه.",
+    "de": "Ein Ruheort, der eines glorreichen Anführers und seiner Krone würdig ist.",
+    "en": "A resting place worthy of a glorious Leader, and their Crown.",
+    "es": "Un lugar de descanso digno de un líder insigne y su corona.",
+    "fr": "Un lieu de repos digne du Guide et de sa couronne.",
+    "fr-CA": "Un lieu de repos digne du Guide et de sa couronne.",
+    "it": "Un luogo di riposo degno di un glorioso leader e della sua Corona.",
+    "ja": "偉大なる教祖と王冠にふさわしい寝床",
+    "ko": "영광스러운 교주이자, 왕관의 소유주에게 걸맞는 휴식처입니다.",
+    "nl": "Een rustplaats die een glorieuze leider en diens Kroon waardig is.",
+    "pt-BR": "Um lugar de descanso para Líderes ilustres e sua Coroa.",
+    "ru": "Места отдыха для божества и для короны.",
+    "tr": "Şanlı bir Önder'e ve Taç'ına yaraşır bir çadır.",
+    "zh-CN": "配得上尊荣教主与圣冠的休息处所",
+    "zh-TW": "配得上尊榮教主與聖冠的休息處所"
+  },
+  "icon": "icons/structures/LEADER_TENT.png",
+  "id": "LEADER_TENT",
+  "name": {
+    "ar": "خيمة القائد",
+    "de": "Anführerzelt",
+    "en": "Leader Tent",
+    "es": "Refugio del líder",
+    "fr": "Tente du Guide",
+    "fr-CA": "Tente du Guide",
+    "it": "Tenda del leader",
+    "ja": "教祖のテント",
+    "ko": "교주의 텐트",
+    "nl": "Leidertent",
+    "pt-BR": "Barraca de Líder",
+    "ru": "Палатка ягнёнка",
+    "tr": "Önder Çadırı",
+    "zh-CN": "教主帐篷",
+    "zh-TW": "教主帳篷"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

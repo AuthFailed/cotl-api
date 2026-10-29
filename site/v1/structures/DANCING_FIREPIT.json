@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 30
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "سيرقص <color=#FD1D03>أتباعك</color> هنا تحت ضوء القمر لزيادة <color=#FD1D03>إخلاصهم</color> لك.",
+    "de": "Deine <color=#FD1D03>Anhänger</color> werden hier im Mondlicht tanzen, was ihre <color=#FD1D03>Loyalität</color> dir gegenüber erhöht.",
+    "en": "Your <color=#FD1D03>Followers</color> will dance here beneath the moonlight to increase their <color=#FD1D03>Loyalty</color> to you.",
+    "es": "Tus <color=#FD1D03>adeptos</color> bailarán a la luz de la luna para aumentar su <color=#FD1D03>lealtad</color> hacia ti.",
+    "fr": "Permet à vos <color=#FD1D03>adeptes</color> de danser sous la lune en votre honneur. Augmente leur <color=#FD1D03>fidélité</color>.",
+    "fr-CA": "Permet à vos <color=#FD1D03>adeptes</color> de danser sous la lune en votre honneur. Accroît leur <color=#FD1D03>fidélité</color>.",
+    "it": "I <color=#FD1D03>membri del Culto</color> danzeranno al chiaro di luna per aumentare la loro <color=#FD1D03>Fedeltà</color> nei tuoi confronti.",
+    "ja": "月の光が降り注ぐ中、<color=#FD1D03>信者たち</color>が心を1つにして踊ることで教祖への<color=#FD1D03>忠誠心</color>が高まる",
+    "ko": "당신의 <color=#FD1D03>추종자</color>들이 달빛 아래 이곳에서 춤추며 당신에 대한 <color=#FD1D03>충성심</color>을 고취시킬 것입니다.",
+    "nl": "Je <color=#FD1D03>volgelingen</color> dansen hier onder het maanlicht voor meer <color=#FD1D03>loyaliteit</color> aan jou.",
+    "pt-BR": "Seus <color=#FD1D03>Seguidores</color> dançarão aqui sob o luar para aumentar a <color=#FD1D03>Lealdade</color> deles a você.",
+    "ru": "Место, где могут плясать по ночам ваши <color=#FD1D03>последователи</color>, повышая своё <color=#FD1D03>доверие</color> к вам.",
+    "tr": "<color=#FD1D03>Takipçilerin</color> ay ışığının altında dans ederek <color=#FD1D03>Bağlılık</color> seviyelerini artırmasını sağlar.",
+    "zh-CN": "<color=#FD1D03>教徒</color>会在月光之下来此跳舞，提升对你的<color=#FD1D03>忠诚度</color>",
+    "zh-TW": "<color=#FD1D03>教徒</color>會在月光之下來此跳舞，提升對你的<color=#FD1D03>忠誠度</color>"
+  },
+  "icon": null,
+  "id": "DANCING_FIREPIT",
+  "name": {
+    "ar": "موقد النار",
+    "de": "Feuergrube",
+    "en": "Fire Pit",
+    "es": "Fogata",
+    "fr": "Feu de joie",
+    "fr-CA": "Feu de joie",
+    "it": "Pira",
+    "ja": "大篝火",
+    "ko": "요리용 화덕",
+    "nl": "Vuurplaats",
+    "pt-BR": "Fogueira",
+    "ru": "Огненная яма",
+    "tr": "Ateş Çukuru",
+    "zh-CN": "火堆",
+    "zh-TW": "火堆"
+  },
+  "size": {
+    "h": 5,
+    "w": 5
+  },
+  "upgradesFrom": null
+}

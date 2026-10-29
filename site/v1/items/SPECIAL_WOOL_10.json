@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
+    "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
+    "en": "Return this to <color=#FFD201>Woolhaven</color>.",
+    "es": "Llévala a <color=#FFD201>Vellones Elíseos</color>.",
+    "fr": "Ramenez cet objet à <color=#FFD201>Havrelaine</color>.",
+    "fr-CA": "Ramenez cet objet à <color=#FFD201>Havrelaine</color>.",
+    "it": "Restituiscila all'<color=#FFD201>Aldilàna</color>.",
+    "ja": "<color=#FFD201>羊毛の聖域</color>まで持っていこう",
+    "ko": "<color=#FFD201>포근쉼터</color>로 가져가세요.",
+    "nl": "Breng dit terug naar <color=#FFD201>Wolhaven</color>.",
+    "pt-BR": "Devolva para <color=#FFD201>Santa Lã</color>.",
+    "ru": "Клок шерсти, который нужно принести в <color=#FFD201>Шерстополь</color>.",
+    "tr": "Bunu <color=#FFD201>Yüntepe</color>'ye geri götür.",
+    "zh-CN": "将这件东西带到<color=#FFD201>羊绒仙境</color>。",
+    "zh-TW": "將羊毛帶回<color=#FFD201>羊絨仙境</color>。"
+  },
+  "icon": "icons/items/SPECIAL_WOOL_10.png",
+  "id": "SPECIAL_WOOL_10",
+  "name": {
+    "ar": "صوف البريئة",
+    "de": "Wolle der Unschuldigen",
+    "en": "Wool of the Innocent",
+    "es": "Lana de la Inocente",
+    "fr": "Laine de l'innocente",
+    "fr-CA": "Laine de l'innocente",
+    "it": "Lana dell'innocente",
+    "ja": "純真無垢のウール",
+    "ko": "순수한 자의 모직",
+    "nl": "Wol van de onschuldige",
+    "pt-BR": "Pelagem da Inocência",
+    "ru": "Шерсть невинной",
+    "tr": "Masumun Yünü",
+    "zh-CN": "无辜者羊毛",
+    "zh-TW": "無辜者羊毛"
+  }
+}

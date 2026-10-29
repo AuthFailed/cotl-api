@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 15
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "سينتج تابع <sprite name=\"icon_wood\">",
+    "de": "Ein Anhänger erzeugt <sprite name=\"icon_wood\">",
+    "en": "A Follower will generate <sprite name=\"icon_wood\">",
+    "es": "Un adepto producirá <sprite name=\"icon_wood\">.",
+    "fr": "Permet à un adepte de couper du <sprite name=\"icon_wood\">.",
+    "fr-CA": "Permet à un adepte de couper du <sprite name=\"icon_wood\">.",
+    "it": "Un membro del Culto può generarvi <sprite name=\"icon_wood\">.",
+    "ja": "信者が <sprite name=\"icon_wood\"> を生成する場所",
+    "ko": "추종자가 <sprite name=\"icon_wood\">를 생성합니다.",
+    "nl": "Een volgeling genereert <sprite name=\"icon_wood\">",
+    "pt-BR": "Um seguidor gerará <sprite name=\"icon_wood\">",
+    "ru": "Место, где последователи могут добывать <sprite name=\"icon_wood\">.",
+    "tr": "Bir Takipçi'nin <sprite name=\"icon_wood\"> toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产 <sprite name=\"icon_wood\">",
+    "zh-TW": "一位教徒將生產 <sprite name=\"icon_wood\">"
+  },
+  "icon": "icons/structures/LUMBERJACK_STATION.png",
+  "id": "LUMBERJACK_STATION",
+  "name": {
+    "ar": "مخزن الأخشاب",
+    "de": "Holzplatz",
+    "en": "Lumberyard",
+    "es": "Aserradero",
+    "fr": "Poste de bûcheron",
+    "fr-CA": "Poste de bûcheron",
+    "it": "Segheria",
+    "ja": "木材伐採所",
+    "ko": "벌목소",
+    "nl": "Houthakkerij",
+    "pt-BR": "Depósito de Madeiras",
+    "ru": "Лесопилка",
+    "tr": "Odun Deposu",
+    "zh-CN": "伐木工站",
+    "zh-TW": "伐木工站"
+  },
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,39 @@
+{
+  "category": "COINS",
+  "description": {
+    "ar": "عملة تُستخدم في كل شيء.",
+    "de": "Eine Währung, die für alles Mögliche verwendet wird.",
+    "en": "A currency used for all manner of things.",
+    "es": "Una forma de pago para intercambiar todo tipo de cosas.",
+    "fr": "Une monnaie très utile.",
+    "fr-CA": "Une monnaie très utile.",
+    "it": "Una valuta impiegata per ogni genere di cose.",
+    "ja": "様々なことに利用できる通貨",
+    "ko": "온갖 유용한 일에 쓰이는 돈입니다.",
+    "nl": "Een betaalmiddel voor allerlei dingen.",
+    "pt-BR": "Tipo de dinheiro usado para uma variedade de coisas.",
+    "ru": "Денежный знак, который используется для самых разных целей.",
+    "tr": "Birçok şey için kullanılabilen bir para birimi.",
+    "zh-CN": "能用于各种事物上的货币。",
+    "zh-TW": "能用於各種事物上的貨幣。"
+  },
+  "icon": "icons/items/BLACK_GOLD.png",
+  "id": "BLACK_GOLD",
+  "name": {
+    "ar": "عملة",
+    "de": "Münze",
+    "en": "Coin",
+    "es": "Moneda",
+    "fr": "Pièce",
+    "fr-CA": "Pièce(s)",
+    "it": "Moneta",
+    "ja": "金貨",
+    "ko": "동전",
+    "nl": "Munt",
+    "pt-BR": "Moeda",
+    "ru": "Монета",
+    "tr": "Altın",
+    "zh-CN": "金币",
+    "zh-TW": "金幣"
+  }
+}

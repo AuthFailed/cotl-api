@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 100
+    }
+  ],
+  "description": {
+    "ar": "تصوير فاخر لحَمَل مصبوب من الذهب.",
+    "de": "Eine dekadente Darstellung des Lamms aus gegossenem Gold.",
+    "en": "A decadent depiction of the Lamb cast in gold.",
+    "es": "Una efigie decadente del Cordero fundida en oro.",
+    "fr": "Une représentation extravagante de l'Agneau coulé dans de l'or.",
+    "fr-CA": "Une représentation extravagante de l'Agneau coulé dans de l'or.",
+    "it": "Una rappresentazione decadente dell'Agnello in oro fuso.",
+    "ja": "黄金を使って作られた退廃的な子羊の像",
+    "ko": "어린 양의 모습을 퇴폐적인 황금으로 담은 조각상입니다.",
+    "nl": "Een decadent beeld van het Lam gegoten in goud.",
+    "pt-BR": "Um retrato decadente do Cordeiro fundido em ouro.",
+    "ru": "Роскошная скульптура ягнёнка, отлитая из золота.",
+    "tr": "Gösterişli bir altın Kuzu heykeli.",
+    "zh-CN": "以黄金铸成的颓废风格圣羊像。",
+    "zh-TW": "以黃金鑄成的頹廢風格聖羊像。"
+  },
+  "icon": "icons/structures/DECORATION_SINFUL_STATUE.png",
+  "id": "DECORATION_SINFUL_STATUE",
+  "name": {
+    "ar": "الحَمَل الذهبي",
+    "de": "Goldenes Lamm",
+    "en": "Lamb of Gold",
+    "es": "Cordero dorado",
+    "fr": "Agneau d'or",
+    "fr-CA": "Agneau d'or",
+    "it": "Agnello d'oro",
+    "ja": "黄金の子羊",
+    "ko": "어린 양의 금 조각상",
+    "nl": "Lam van goud",
+    "pt-BR": "Cordeiro de Ouro",
+    "ru": "Золотая статуя ягнёнка",
+    "tr": "Altın Kuzu",
+    "zh-CN": "金圣羊像",
+    "zh-TW": "金聖羊像"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

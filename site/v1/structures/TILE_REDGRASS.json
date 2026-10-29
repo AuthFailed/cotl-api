@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "للمهمين جدًا.",
+    "de": "Für die ganz Wichtigen.",
+    "en": "For the very important.",
+    "es": "Para la gente importante.",
+    "fr": "Réservé à l'élite.",
+    "fr-CA": "Réservé à l'élite.",
+    "it": "Per quelli che contano davvero.",
+    "ja": "セレブご用達",
+    "ko": "VIP를 위한 바닥입니다.",
+    "nl": "Voor belangrijke figuren.",
+    "pt-BR": "Para quem é importante",
+    "ru": "Дорожка для тех, чья важность неоспорима.",
+    "tr": "Kendini önemli hissedenler için.",
+    "zh-CN": "献给极为重要之人",
+    "zh-TW": "獻給極為重要之人"
+  },
+  "icon": "icons/structures/TILE_REDGRASS.png",
+  "id": "TILE_REDGRASS",
+  "name": {
+    "ar": "أرضية السجادة الحمراء",
+    "de": "Boden mit rotem Teppich",
+    "en": "Red Carpet Flooring",
+    "es": "Suelo de alfombra roja",
+    "fr": "Tapis rouge",
+    "fr-CA": "Sol recouvert de tapis rouge",
+    "it": "Pavimentazione in tappeto rosso",
+    "ja": "レッドカーペットタイル",
+    "ko": "붉은 카펫 바닥",
+    "nl": "Vloer van rood tapijt",
+    "pt-BR": "Piso de Carpete Vermelho",
+    "ru": "Ковровый настил",
+    "tr": "Kırmızı Halı Döşeme",
+    "zh-CN": "红毯地板",
+    "zh-TW": "紅毯地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

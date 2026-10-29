@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "اللحم المجمع من أحد أتباعك السابقين.",
+    "de": "Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
+    "en": "The harvested meat of one who once followed you.",
+    "es": "La carne de uno de tus adeptos.",
+    "fr": "La viande de ceux qui vous ont servi autrefois.",
+    "fr-CA": "La chair de ceux qui vous ont servi autrefois.",
+    "it": "Le carni recuperate da chi un tempo ti seguiva.",
+    "ja": "食事を作るための栄養満点の材料",
+    "ko": "한때 당신을 따랐던 자의 고기를 수확한 것입니다.",
+    "nl": "Het geoogste vlees van iemand die je volgde.",
+    "pt-BR": "A carne colhida de alguém que costumava te seguir.",
+    "ru": "Плоть того, кто чтил ваш культ при жизни.",
+    "tr": "Vaktinde senin yolundan giden birinin eti.",
+    "zh-CN": "从生前追随你的教徒身上获得的肉。",
+    "zh-TW": "從生前追隨你的教徒身上採集下的肉。"
+  },
+  "icon": "icons/items/FOLLOWER_MEAT.png",
+  "id": "FOLLOWER_MEAT",
+  "name": {
+    "ar": "لحم أتباع",
+    "de": "Anhängerfleisch",
+    "en": "Follower Meat",
+    "es": "Carne de adepto",
+    "fr": "Chair d'adepte",
+    "fr-CA": "Chair d'adepte",
+    "it": "Carni di seguace",
+    "ja": "信者肉",
+    "ko": "추종자 고기",
+    "nl": "Volgelingenvlees",
+    "pt-BR": "Carne de Seguidor",
+    "ru": "Мясо последователя",
+    "tr": "Takipçi Eti",
+    "zh-CN": "教徒之肉",
+    "zh-TW": "教徒之肉"
+  }
+}

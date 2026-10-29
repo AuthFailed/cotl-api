@@ -1,0 +1,25 @@
+{
+  "cost": [],
+  "description": {},
+  "icon": null,
+  "id": "POOP",
+  "name": {
+    "ar": "فضلات",
+    "de": "Kot",
+    "en": "Poop",
+    "es": "Caca",
+    "fr": "Caca",
+    "fr-CA": "Caca",
+    "it": "Feci",
+    "ja": "ウンチ",
+    "ko": "똥",
+    "nl": "Poep",
+    "pt-BR": "Cocô",
+    "ru": "Экскременты",
+    "tr": "Kaka",
+    "zh-CN": "便便",
+    "zh-TW": "便便"
+  },
+  "size": null,
+  "upgradesFrom": null
+}

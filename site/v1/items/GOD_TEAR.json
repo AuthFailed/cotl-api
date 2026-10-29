@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "دمعة متبلورة من أحد السادة الأوائل.",
+    "de": "Eine kristallisierte Träne eines der ersten Götter.",
+    "en": "A crystalised tear from one of the First Gods.",
+    "es": "Una lágrima cristalizada que pertenece a uno de los Dioses Primigenios.",
+    "fr": "Une larme cristallisée de l'un des Premiers dieux.",
+    "fr-CA": "Une larme cristallisée de l'un des Premiers dieux.",
+    "it": "La lacrima cristallizzata di uno dei Numi Ancestrali.",
+    "ja": "原初の神々が流した涙が結晶化したもの",
+    "ko": "첫 신이었던 자들의 결정화된 눈물입니다.",
+    "nl": "Een gekristalliseerde traan van een van de Eerste Goden.",
+    "pt-BR": "Uma lágrima cristalizada, derramada por um dos Primeiros Deuses.",
+    "ru": "Застывшая слеза одного из первых божеств.",
+    "tr": "İlk Tanrılardan birinin kristalleşmiş gözyaşı.",
+    "zh-CN": "某一位太古众神的眼泪结晶。",
+    "zh-TW": "某一位太古眾神的眼淚結晶。"
+  },
+  "icon": "icons/items/GOD_TEAR.png",
+  "id": "GOD_TEAR",
+  "name": {
+    "ar": "دمعة سيد",
+    "de": "Gottesträne",
+    "en": "God Tear",
+    "es": "Lágrima divina",
+    "fr": "Larme divine",
+    "fr-CA": "Larme divine",
+    "it": "Lacrima divina",
+    "ja": "神の涙",
+    "ko": "신의 눈물",
+    "nl": "Godentraan",
+    "pt-BR": "Lágrima de Deus",
+    "ru": "Слеза божества",
+    "tr": "Tanrı Gözyaşı",
+    "zh-CN": "神之泪",
+    "zh-TW": "神之淚"
+  }
+}

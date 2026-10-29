@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 20
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تخزين وجبات أكثر هنا لحمايتها من <color=#01D5A2>التعفن.</color>",
+    "de": "Lagere noch mehr Lebensmittel hier, um sie vor dem <color=#01D5A2>Vergammeln</color> zu schützen.",
+    "en": "Store more meals here to stop them from <color=#01D5A2>rotting.</color>",
+    "es": "Almacena más comida para que evitar que se <color=#01D5A2>ponga mala</color>.",
+    "fr": "Permet de conserver plus de plats et éviter qu'ils ne <color=#01D5A2>pourrissent</color>.",
+    "fr-CA": "Permet de conserver plus de plats et éviter qu'ils ne <color=#01D5A2>pourrissent</color>.",
+    "it": "Vi si possono conservare ancora più pasti per evitare che <color=#01D5A2>vadano a male</color>.",
+    "ja": "料理はここに保管しておくことで、<color=#01D5A2>腐敗</color>を防ぐことができる",
+    "ko": "더 많은 음식이 <color=#01D5A2>부패</color>하지 않게 보관합니다",
+    "nl": "Bewaar hier meer maaltijden zodat ze niet <color=#01D5A2>rotten</color>.",
+    "pt-BR": "Armazene mais refeições aqui para evitar que <color=#01D5A2>apodreçam</color>",
+    "ru": "Большое хранилище для приготовленной еды, в котором она не <color=#01D5A2>сгнивает</color>.",
+    "tr": "Yemeklerin <color=#01D5A2>bozulmasını</color> önlemek için burada daha fazla yemek depolayabilirsin.",
+    "zh-CN": "在此存放更多餐点，防止食物<color=#01D5A2>腐坏</color>",
+    "zh-TW": "在此存放更多餐點，防止食物<color=#01D5A2>腐壞</color>"
+  },
+  "icon": null,
+  "id": "FOOD_STORAGE_2",
+  "name": {
+    "ar": "مخزن الطعام II",
+    "de": "Lebensmittellager II",
+    "en": "Food Storage II",
+    "es": "Almacén de comida II",
+    "fr": "Réserve de nourriture II",
+    "fr-CA": "Réserve de nourriture II",
+    "it": "Contenitore per cibi II",
+    "ja": "食料保管庫 II",
+    "ko": "음식 보관소 II",
+    "nl": "Voedselopslag II",
+    "pt-BR": "Armazém de Alimentos II",
+    "ru": "Склад продовольствия II",
+    "tr": "Yiyecek Deposu II",
+    "zh-CN": "食物储藏架 II",
+    "zh-TW": "食物儲藏架 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "FOOD_STORAGE"
+}

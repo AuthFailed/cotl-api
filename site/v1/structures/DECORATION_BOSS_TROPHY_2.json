@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MUSHROOM_SMALL",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "جائزة لقتلك هيكت.",
+    "de": "Eine Trophäe für das Töten von Heket",
+    "en": "A trophy for killing Heket.",
+    "es": "Un trofeo por matar a Heket.",
+    "fr": "Un trophée pour avoir tué Heket",
+    "fr-CA": "Un trophée pour avoir tué Heket.",
+    "it": "Un trofeo per l'uccisione di Heket.",
+    "ja": "ヘケトを殺した証の記念碑",
+    "ko": "헤켓을 죽여서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het doden van Heket.",
+    "pt-BR": "Um troféu por matar Heket",
+    "ru": "Доказательство победы над Хекат.",
+    "tr": "Heket öldüğünde kazandığın miras.",
+    "zh-CN": "击杀赫凯特的纪念品",
+    "zh-TW": "擊殺赫凱特的紀念品"
+  },
+  "icon": "icons/structures/DECORATION_BOSS_TROPHY_2.png",
+  "id": "DECORATION_BOSS_TROPHY_2",
+  "name": {
+    "ar": "جائزة هيكت",
+    "de": "Heket-Trophäe",
+    "en": "Heket Trophy",
+    "es": "Trofeo de Heket",
+    "fr": "Trophée de Heket",
+    "fr-CA": "Trophée de Heket",
+    "it": "Trofeo di Heket",
+    "ja": "ヘケトの記念碑",
+    "ko": "헤켓 전리품",
+    "nl": "Heket-trofee",
+    "pt-BR": "Troféu de Heket",
+    "ru": "Трофей (Хекат)",
+    "tr": "Heket Mirası",
+    "zh-CN": "赫凯特纪念品",
+    "zh-TW": "赫凱特紀念品"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

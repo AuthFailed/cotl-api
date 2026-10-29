@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "يُخصص لتربية حيوانات في طائفتك والاحتفاظ بها. يُستخدم مع <color=#FFD201>سياج مَربى الحيوانات</color> الذي يتطلب <color=#FFD201>8</color> بلاطات فارغة.",
+    "de": "Züchte und halte Tiere in deinem Kult. Funktioniert zusammen mit dem <color=#FFD201>Ranchzaun</color>, der <color=#FFD201>8</color> leere Felder benötigt.",
+    "en": "Raise and keep animals in your Cult. Works together with the <color=#FFD201>Ranch Fence</color>, which requires <color=#FFD201>8</color> empty tiles.",
+    "es": "Cría y da cobijo a animales en tu secta. Si no quieres que se escapen, construye una <color=#FFD201>valla</color> (ocupa <color=#FFD201>8</color> baldosas vacías).",
+    "fr": "Gardez et élevez des animaux dans votre culte. Fonctionne avec la <color=#FFD201>clôture du ranch</color>, qui requiert <color=#FFD201>8</color> cases vides.",
+    "fr-CA": "Gardez et élevez des animaux au sein de votre secte. Fonctionne avec la <color=#FFD201>clôture du ranch</color>, qui requiert <color=#FFD201>8</color> cases vides.",
+    "it": "Vi si allevano gli animali del Culto. Funziona insieme alla <color=#FFD201>Recinzione</color>, che richiede <color=#FFD201>8</color> caselle vuote.",
+    "ja": "教団内で動物を育てるための場所。<color=#FFD201>畜舎用囲い</color>を一緒に設置できるが、その場合は何もないタイルが<color=#FFD201>8</color>個必要",
+    "ko": "교단에서 동물을 두고 기를 수 있습니다. <color=#FFD201>목장 울타리</color>와 함께 작동하며, 빈 타일 <color=#FFD201>8</color>개가 필요합니다.",
+    "nl": "Met dit gebouw kun je dieren in je sekte houden. Werkt samen met het <color=#FFD201>veehek</color>, dat <color=#FFD201>8</color> lege tegels vereist.",
+    "pt-BR": "Crie e mantenha animais em seu Culto. Funciona com a <color=#FFD201>Cerca de Rancho</color>, que requer <color=#FFD201>8</color> ladrilhos vazios.",
+    "ru": "Место для содержания животных. Для установки <color=#FFD201>ограды</color> требуется <color=#FFD201>8</color> пустых клеток.",
+    "tr": "Tarikat'ında hayvan yetiştirmeye ve bakmaya yarar. <color=#FFD201>8</color> boş kare gerektiren <color=#FFD201>Hayvan Çiftliği Çiti</color> ile birlikte çalışır.",
+    "zh-CN": "在教会中饲育动物。结合<color=#FFD201>牧场栅栏</color>使用，牧场栅栏需要占据 <color=#FFD201>8</color> 个空格子。",
+    "zh-TW": "在教會中飼育動物。可與<color=#FFD201>牧場柵欄</color>搭配使用，建造牧場柵欄需要 <color=#FFD201>8</color> 格空白方塊。"
+  },
+  "icon": "icons/structures/RANCH.png",
+  "id": "RANCH",
+  "name": {
+    "ar": "مَربى الحيوانات",
+    "de": "Ranch",
+    "en": "Ranch",
+    "es": "Rancho",
+    "fr": "Ranch",
+    "fr-CA": "Ranch",
+    "it": "Allevamento",
+    "ja": "畜舎",
+    "ko": "목장",
+    "nl": "Veeboerderij",
+    "pt-BR": "Rancho",
+    "ru": "Хлев",
+    "tr": "Hayvan Çiftliği",
+    "zh-CN": "牧场",
+    "zh-TW": "牧場"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

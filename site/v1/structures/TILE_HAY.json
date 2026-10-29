@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "قش يُوضع على الأرض.",
+    "de": "Heu, das auf dem Boden verteilt werden kann.",
+    "en": "Hay to lay upon the ground.",
+    "es": "Para poner sobre el suelo.",
+    "fr": "Plus confortable pour les pattes de vos adeptes.",
+    "fr-CA": "Plus confortable pour les pattes de vos adeptes.",
+    "it": "Fieno da posare a terra.",
+    "ja": "干し草を敷き詰めた地面",
+    "ko": "바닥재에 건초가 깔려있습니다.",
+    "nl": "Hooi om op te liggen.",
+    "pt-BR": "Feno para cobrir o chão",
+    "ru": "Высушенная трава, которой можно выстелить землю.",
+    "tr": "Zemine yerleştirebileceğin saman.",
+    "zh-CN": "铺在地上的干草",
+    "zh-TW": "鋪在地上的乾草"
+  },
+  "icon": "icons/structures/TILE_HAY.png",
+  "id": "TILE_HAY",
+  "name": {
+    "ar": "أرضية القش",
+    "de": "Heu-Bodenbelag",
+    "en": "Hay Flooring",
+    "es": "Suelo de heno",
+    "fr": "Sol couvert de foin",
+    "fr-CA": "Sol couvert de foin",
+    "it": "Pavimentazione in fieno",
+    "ja": "干し草タイル",
+    "ko": "건초 바닥",
+    "nl": "Hooivloer",
+    "pt-BR": "Piso de Feno",
+    "ru": "Сенной настил",
+    "tr": "Saman Döşeme",
+    "zh-CN": "干草地板",
+    "zh-TW": "乾草地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

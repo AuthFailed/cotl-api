@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "طعام فاخر للأتباع المتفانين.",
+    "de": "Eine Köstlichkeit für ergebene Anhänger.",
+    "en": "A delicacy for dedicated Followers.",
+    "es": "Un manjar para los adeptos más exquisitos.",
+    "fr": "Un mets de choix pour les adeptes les plus dévoués.",
+    "fr-CA": "Un mets de choix pour les adeptes les plus dévoués.",
+    "it": "Una prelibatezza per membri del Culto devoti.",
+    "ja": "忠誠心の高い信者にふさわしい美味",
+    "ko": "헌신하는 추종자를 위한 별미입니다.",
+    "nl": "Een delicatesse voor toegewijde volgelingen.",
+    "pt-BR": "Uma iguaria para Seguidores dedicados.",
+    "ru": "Деликатесная рыба, которую едят только самые верные последователи.",
+    "tr": "Kendini adamış Takipçilere layık, lezzetli bir balık.",
+    "zh-CN": "给虔诚教徒的珍馐。",
+    "zh-TW": "給虔誠教徒的珍饈。"
+  },
+  "icon": "icons/items/FISH_BIG.png",
+  "id": "FISH_BIG",
+  "name": {
+    "ar": "تونة",
+    "de": "Thunfisch",
+    "en": "Tuna",
+    "es": "Atún",
+    "fr": "Thon",
+    "fr-CA": "Thon",
+    "it": "Tonno",
+    "ja": "マグロ",
+    "ko": "참치",
+    "nl": "Tonijn",
+    "pt-BR": "Atum",
+    "ru": "Тунец",
+    "tr": "Ton Balığı",
+    "zh-CN": "鲔鱼",
+    "zh-TW": "鮪魚"
+  }
+}

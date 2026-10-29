@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
+    "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
+    "en": "Plant this in a <color=#FFD201>Farm Plot.</color>",
+    "es": "Plántala en una <color=#FFD201>parcela</color>.",
+    "fr": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "fr-CA": "À planter sur une <color=#FFD201>parcelle agricole</color>.",
+    "it": "Piantalo in un <color=#FFD201>Appezzamento</color>.",
+    "ja": "<color=#FFD201>農作地</color>に植えよう",
+    "ko": "<color=#FFD201>밭 경작지</color>에 심습니다.",
+    "nl": "Zaai deze op een <color=#FFD201>landbouwperceel</color>.",
+    "pt-BR": "Plante em um <color=#FFD201>Terreno Agrícola</color>.",
+    "ru": "Семечко, которое можно посадить на <color=#FFD201>участке земли</color>.",
+    "tr": "Bir <color=#FFD201>Tarla</color>'ya ek.",
+    "zh-CN": "可种在<color=#FFD201>农地</color>里。",
+    "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
+  },
+  "icon": "icons/items/SEED_CHILLI.png",
+  "id": "SEED_CHILLI",
+  "name": {
+    "ar": "بذرة فلفل حار",
+    "de": "Chilisamen",
+    "en": "Chilli Seed",
+    "es": "Semilla de chile",
+    "fr": "Graine de piment",
+    "fr-CA": "Graine de piment",
+    "it": "Seme di peperoncino",
+    "ja": "チリの種",
+    "ko": "고추 씨앗",
+    "nl": "Chilizaden",
+    "pt-BR": "Semente de Pimenta",
+    "ru": "Семя острого перца",
+    "tr": "Acı Biber Tohumu",
+    "zh-CN": "辣椒种子",
+    "zh-TW": "辣椒種子"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 5
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "يمكنك توفير مكان لأتباعك ليقضوا حاجتهم فيه.",
+    "de": "Gib deinen Anhängern einen Ort, an dem sie sich erleichtern können.",
+    "en": "Give your Followers somewhere to relieve themselves.",
+    "es": "Dales a tus adeptos un lugar en el que poder liberarse.",
+    "fr": "Permet aux adeptes de se soulager.",
+    "fr-CA": "Permet aux adeptes d'avoir un endroit où se soulager.",
+    "it": "Offri ai membri del Culto un luogo dove poter evacuare.",
+    "ja": "信者が用を足すための場所",
+    "ko": "추종자들에게 용변을 해결할 공간을 제공합니다.",
+    "nl": "Geef je volgelingen een plek om rustig hun behoefte te doen.",
+    "pt-BR": "Dê um lugar para seus Seguidores se aliviarem",
+    "ru": "Помещение, где ваши последователи могут облегчиться.",
+    "tr": "Takipçilerin içini dökebileceği bir yer.",
+    "zh-CN": "让你的教徒有地方能释放",
+    "zh-TW": "讓你的教徒有地方能解放"
+  },
+  "icon": "icons/structures/OUTHOUSE.png",
+  "id": "OUTHOUSE",
+  "name": {
+    "ar": "المرحاض",
+    "de": "Toilettenhäuschen",
+    "en": "Outhouse",
+    "es": "Letrina",
+    "fr": "Toilettes extérieures",
+    "fr-CA": "Toilettes extérieures",
+    "it": "Latrina",
+    "ja": "屋外便所",
+    "ko": "화장실",
+    "nl": "Plee",
+    "pt-BR": "Banheiro Externo",
+    "ru": "Туалет",
+    "tr": "Tuvalet",
+    "zh-CN": "户外厕所",
+    "zh-TW": "戶外廁所"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

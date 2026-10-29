@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG_REFINED",
+      "quantity": 15
+    },
+    {
+      "item": "HOPS",
+      "quantity": 1
+    },
+    {
+      "item": "GRAPES",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تحضير مشروبات لأتباعك لإنتاج <color=#FFD201>خطيئة</color> <sprite name=\"icon_SinDoctrine\">",
+    "de": "Braue Getränke für deine Anhänger, um <color=#FFD201>Sünde</color> <sprite name=\"icon_SinDoctrine\"> zu erzeugen.",
+    "en": "Brew drinks for your Followers to generate <color=#FFD201>Sin</color> <sprite name=\"icon_SinDoctrine\">",
+    "es": "Elabora bebidas para que tus adeptos generen <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "fr": "Préparez des boissons pour que vos adeptes génèrent du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "fr-CA": "Préparez des boissons pour que vos adeptes génèrent du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "it": "Prepara bevande per i membri del Culto, generando <color=#FFD201>Peccato</color> <sprite name=\"icon_SinDoctrine\">.",
+    "ja": "信者に<color=#FFD201>罪</color> <sprite name=\"icon_SinDoctrine\"> を生成させるための飲み物を醸造する",
+    "ko": "추종자들이 술을 마시고 <color=#FFD201>죄</color> <sprite name=\"icon_SinDoctrine\">를 만들어내게 합니다.",
+    "nl": "Brouw dranken voor je volgelingen om <color=#FFD201>zonde</color> <sprite name=\"icon_SinDoctrine\"> te genereren.",
+    "pt-BR": "Prepare bebidas para seus Seguidores, que gerarão <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "ru": "Заведение, в котором можно готовить напитки, увеличивающие <color=#FFD201>греховность</color> <sprite name=\"icon_SinDoctrine\">.",
+    "tr": "<color=#FFD201>Günah</color> <sprite name=\"icon_SinDoctrine\"> oluşturmak için Takipçilerine içecek hazırla.",
+    "zh-CN": "为教徒酿制饮料，产生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">",
+    "zh-TW": "為教徒釀製飲料，產生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">"
+  },
+  "icon": "icons/structures/PUB.png",
+  "id": "PUB",
+  "name": {
+    "ar": "المشرب",
+    "de": "Getränkehaus",
+    "en": "Drinkhouse",
+    "es": "Tasca",
+    "fr": "Buvette",
+    "fr-CA": "Buvette",
+    "it": "Bevanderia",
+    "ja": "ドリンクスタンド",
+    "ko": "음료소",
+    "nl": "Drankhuis",
+    "pt-BR": "Taverna",
+    "ru": "Питейное заведение",
+    "tr": "İçecek İstasyonu",
+    "zh-CN": "调饮室",
+    "zh-TW": "調飲所"
+  },
+  "size": {
+    "h": 4,
+    "w": 4
+  },
+  "upgradesFrom": null
+}

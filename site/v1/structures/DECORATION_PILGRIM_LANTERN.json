@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "قنديل رقيق ومنير.",
+    "de": "Eine Laterne, die zierlich und hell ist.",
+    "en": "A lantern, delicate and bright.",
+    "es": "Un farol delicado y radiante.",
+    "fr": "Une lanterne lumineuse et délicate.",
+    "fr-CA": "Une lanterne lumineuse et délicate.",
+    "it": "Una lanterna, delicata e luminosa.",
+    "ja": "上品で明るい灯篭",
+    "ko": "섬세하고 밝은 빛을 내뿜는 랜턴입니다.",
+    "nl": "Een lantaarn, delicaat en fel.",
+    "pt-BR": "Uma lanterna delicada e luminosa.",
+    "ru": "Фонарь, дарящий мягкий свет.",
+    "tr": "Narin ve parlak bir fener.",
+    "zh-CN": "一种灯笼，精致明亮。",
+    "zh-TW": "一種燈籠，精緻明亮。"
+  },
+  "icon": "icons/structures/DECORATION_PILGRIM_LANTERN.png",
+  "id": "DECORATION_PILGRIM_LANTERN",
+  "name": {
+    "ar": "قنديل معلق",
+    "de": "Hängelaterne",
+    "en": "Hanging Lantern",
+    "es": "Farol colgante",
+    "fr": "Lanterne suspendue",
+    "fr-CA": "Lanterne suspendue",
+    "it": "Lanterna pensile",
+    "ja": "釣り灯篭",
+    "ko": "매다는 랜턴",
+    "nl": "Hangende lantaarn",
+    "pt-BR": "Lanterna Pendurada",
+    "ru": "Подвесной фонарь",
+    "tr": "Asılı Fener",
+    "zh-CN": "吊挂灯笼",
+    "zh-TW": "吊掛燈籠"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

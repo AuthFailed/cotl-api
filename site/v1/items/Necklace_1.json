@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "سينتج التابع ولاء أسرع.",
+    "de": "Anhänger erzeugen schneller Hingabe.",
+    "en": "Follower will generate Devotion faster.",
+    "es": "El adepto generará devoción más rápido.",
+    "fr": "Permet à un adepte de générer de la dévotion plus rapidement.",
+    "fr-CA": "Permet à un adepte de générer de la dévotion plus rapidement.",
+    "it": "Il membro del Culto genererà Devozione più rapidamente.",
+    "ja": "信者の祈念生成速度が上昇する",
+    "ko": "추종자가 헌신을 더 빠르게 생성합니다",
+    "nl": "Volgeling genereert sneller devotie.",
+    "pt-BR": "O Seguidor gerará devoção mais rapidamente",
+    "ru": "Украшение, помогающее последователю выражать преданность быстрее.",
+    "tr": "Takipçi daha hızlı Sadakat oluşturur.",
+    "zh-CN": "增加教徒产生虔诚度的速度",
+    "zh-TW": "教徒產生虔誠值的速度增加"
+  },
+  "icon": "icons/items/Necklace_1.png",
+  "id": "Necklace_1",
+  "name": {
+    "ar": "قلادة الزهرة",
+    "de": "Blumenhalskette",
+    "en": "Flower Necklace",
+    "es": "Collar de flores",
+    "fr": "Collier de fleur",
+    "fr-CA": "Collier à fleur",
+    "it": "Collana fiorita",
+    "ja": "花のネックレス",
+    "ko": "꽃 목걸이",
+    "nl": "Bloemenketting",
+    "pt-BR": "Colar de Flores",
+    "ru": "Ожерелье с цветком",
+    "tr": "Çiçek Kolyesi",
+    "zh-CN": "花朵项链",
+    "zh-TW": "花朵項鍊"
+  }
+}

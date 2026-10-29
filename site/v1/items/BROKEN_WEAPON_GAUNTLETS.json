@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "This weapon is broken, and will need to be repaired."
+  },
+  "icon": "icons/items/BROKEN_WEAPON_GAUNTLETS.png",
+  "id": "BROKEN_WEAPON_GAUNTLETS",
+  "name": {
+    "en": "<color=#FFD201>Stiffened</color> Gauntlets"
+  }
+}

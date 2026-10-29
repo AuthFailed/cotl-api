@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "لمَن يُقرع؟",
+    "de": "Wem sie wohl schlägt?",
+    "en": "For whom does it toll?",
+    "es": "¿A quién le dedica su repique?",
+    "fr": "Pour qui sonne-t-elle le glas ?",
+    "fr-CA": "Pour qui sonne-t-elle le glas?",
+    "it": "Chi richiama il suo scampanellio?",
+    "ja": "誰がために鈴は鳴る",
+    "ko": "누구를 위하여 울리나?",
+    "nl": "Voor wie luidt ze?",
+    "pt-BR": "Por quem o sino dobra?",
+    "ru": "Вестник худшего.",
+    "tr": "Kulaklara dikkat.",
+    "zh-CN": "为谁而鸣？",
+    "zh-TW": "它為誰而響？"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_BELLS.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_BELLS",
+  "name": {
+    "ar": "جرس كبير",
+    "de": "Große Glocke",
+    "en": "Large Bell",
+    "es": "Campana colosal",
+    "fr": "Grande cloche",
+    "fr-CA": "Grande cloche",
+    "it": "Grossa campana",
+    "ja": "大きな鈴",
+    "ko": "큰 종",
+    "nl": "Grote bel",
+    "pt-BR": "Sino Grande",
+    "ru": "Большой колокольчик",
+    "tr": "Büyük Zil",
+    "zh-CN": "大钟",
+    "zh-TW": "大鈴鐺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

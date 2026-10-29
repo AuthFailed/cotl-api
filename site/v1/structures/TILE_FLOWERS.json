@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "عشب أخضر تنمو بينه زهور.",
+    "de": "Grünes Gras, auf dem Blumen wachsen.",
+    "en": "Green grass with flowers growing.",
+    "es": "Un manto de hierba con flores.",
+    "fr": "De jolies fleurs poussant sur de l'herbe bien verte.",
+    "fr-CA": "De jolies fleurs poussant sur une belle herbe verte.",
+    "it": "Erba verde e fiori in boccio.",
+    "ja": "ところどころに花が咲いている、青々とした芝",
+    "ko": "꽃이 자라는 푸른 풀밭입니다.",
+    "nl": "Groen gras met bloeiende bloemen.",
+    "pt-BR": "Grama verde com flores",
+    "ru": "Зелёная трава и распустившиеся цветы.",
+    "tr": "Arasında çiçeklerin büyüdüğü yeşil çimen.",
+    "zh-CN": "绿草与生意盎然的花朵",
+    "zh-TW": "綠草與生意盎然的花朵"
+  },
+  "icon": "icons/structures/TILE_FLOWERS.png",
+  "id": "TILE_FLOWERS",
+  "name": {
+    "ar": "أرضية الزهور",
+    "de": "Blumenboden",
+    "en": "Flower Flooring",
+    "es": "Suelo floral",
+    "fr": "Parterre fleuri",
+    "fr-CA": "Parterre fleuri",
+    "it": "Pavimentazione a fiori",
+    "ja": "花タイル",
+    "ko": "꽃 바닥",
+    "nl": "Bloemenvloer",
+    "pt-BR": "Piso de Flores",
+    "ru": "Цветочный настил",
+    "tr": "Çiçekli Döşeme",
+    "zh-CN": "花朵地板",
+    "zh-TW": "花朵地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

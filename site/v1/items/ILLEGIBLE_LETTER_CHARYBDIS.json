@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "عليك توصيل هذه إلى <color=#FFD201>سيلا</color> في <color=#FFD201>مسقط النعاج</color>.",
+    "de": "Bring ihn zu <color=#FFD201>Scylla</color> in <color=#FFD201>Auenfall</color>.",
+    "en": "Deliver this to <color=#FFD201>Scylla</color> in <color=#FFD201>Ewefall</color>.",
+    "es": "Ve a <color=#FFD201>Balalbor</color> y dásela a <color=#FFD201>Escila</color>.",
+    "fr": "Livrez cette lettre à <color=#FFD201>Scylla</color> à la <color=#FFD201>Chute de la Brebis</color>.",
+    "fr-CA": "Livrez cette lettre à <color=#FFD201>Scylla</color> à la <color=#FFD201>Chute de la Brebis</color>.",
+    "it": "Consegnala a <color=#FFD201>Scilla</color> a <color=#FFD201>Pecoruzzola</color>.",
+    "ja": "<color=#FFD201>雌羊の滝</color>にいる<color=#FFD201>スキュラ</color>に渡そう",
+    "ko": "<color=#FFD201>암양폭포</color>의 <color=#FFD201>스킬라</color>에게 가져가세요.",
+    "nl": "Bezorg dit aan <color=#FFD201>Scylla</color> in <color=#FFD201>Ooiendam</color>.",
+    "pt-BR": "Entregue para <color=#FFD201>Cila</color> na <color=#FFD201>Cordeirada</color>.",
+    "ru": "Послание, которое нужно доставить <color=#FFD201>Сцилле</color> на <color=#FFD201>Овечью гору</color>.",
+    "tr": "Bunu <color=#FFD201>Maryadibi</color>'nde <color=#FFD201>Scylla</color>'ya götür.",
+    "zh-CN": "将这封信交给<color=#FFD201>羊堕雪山</color>的<color=#FFD201>斯库拉</color>.",
+    "zh-TW": "將信交給<color=#FFD201>羊墮之淵</color>的<color=#FFD201>斯庫拉</color>。"
+  },
+  "icon": "icons/items/ILLEGIBLE_LETTER_CHARYBDIS.png",
+  "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+  "name": {
+    "ar": "رسالة مبهمة",
+    "de": "Unleserlicher Brief",
+    "en": "Illegible Letter",
+    "es": "Carta ilegible",
+    "fr": "Lettre illisible",
+    "fr-CA": "Lettre illisible",
+    "it": "Lettera indecifrabile",
+    "ja": "判読不可能な手紙",
+    "ko": "읽을 수 없는 편지",
+    "nl": "Onleesbare brief",
+    "pt-BR": "Carta Ilegível",
+    "ru": "Неразборчивое письмо",
+    "tr": "Okunamayan Mektup",
+    "zh-CN": "字迹不清的信",
+    "zh-TW": "難以識別的信"
+  }
+}

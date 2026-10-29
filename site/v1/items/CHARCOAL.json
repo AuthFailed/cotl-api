@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "Forged from fire, useless as a rock"
+  },
+  "icon": "icons/items/CHARCOAL.png",
+  "id": "CHARCOAL",
+  "name": {
+    "en": "Charcoal"
+  }
+}

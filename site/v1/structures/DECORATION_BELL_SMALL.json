@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "حامل بسيط لجرس صغير.",
+    "de": "Ein einfacher Ständer für eine kleine Glocke.",
+    "en": "A simple stand for a small bell.",
+    "es": "Un sencillo soporte para una campanita.",
+    "fr": "Un support basique pour une petite cloche.",
+    "fr-CA": "Un support basique pour une petite cloche.",
+    "it": "Un semplice supporto per una campanella.",
+    "ja": "小さなベルの付いたシンプルなスタンド",
+    "ko": "소형 종을 다는 단순한 지지대입니다.",
+    "nl": "Een eenvoudige standaard voor een kleine klok.",
+    "pt-BR": "Um simples suporte para um pequeno sino",
+    "ru": "Прутья, между которыми подвешен маленький колокол.",
+    "tr": "Küçük bir çan asılı, basit bir dayanak.",
+    "zh-CN": "小型金钟的简单立架",
+    "zh-TW": "小型金鐘的簡單立架"
+  },
+  "icon": "icons/structures/DECORATION_BELL_SMALL.png",
+  "id": "DECORATION_BELL_SMALL",
+  "name": {
+    "ar": "حامل جرس صغير",
+    "de": "Kleine Glockenstatue",
+    "en": "Small Bell Statue",
+    "es": "Estatua de campana pequeña",
+    "fr": "Petite cloche suspendue",
+    "fr-CA": "Petite cloche suspendue",
+    "it": "Supporto per campana",
+    "ja": "ベルスタンド（小）",
+    "ko": "소형 종 조각상",
+    "nl": "Standbeeld met kleine klok",
+    "pt-BR": "Estátua de Sino Pequeno",
+    "ru": "Стойка с колокольчиком",
+    "tr": "Küçük Çan Heykeli",
+    "zh-CN": "小型金钟立架",
+    "zh-TW": "小型金鐘立架"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

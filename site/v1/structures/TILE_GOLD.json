@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "أنت القائد، على أي حال...",
+    "de": "Immerhin bist du hier der Anführer …",
+    "en": "You are the Leader, after all...",
+    "es": "Que se note quién manda.",
+    "fr": "Pour une base qui en jette.",
+    "fr-CA": "Pour une base qui en met plein la vue.",
+    "it": "Sei tu che comandi, dopotutto...",
+    "ja": "教祖様がこういう趣味なら、どうぞご自由に…",
+    "ko": "당신은 교주니까요...",
+    "nl": "Jij bent tenslotte de leider...",
+    "pt-BR": "Você é o Líder, afinal...",
+    "ru": "Покрытие для тех, кто в своём поселении может делать что хочет.",
+    "tr": "Ne de olsa Önder sensin.",
+    "zh-CN": "毕竟，你是教主……",
+    "zh-TW": "畢竟，你是教主……"
+  },
+  "icon": "icons/structures/TILE_GOLD.png",
+  "id": "TILE_GOLD",
+  "name": {
+    "ar": "أرضية ذهبية",
+    "de": "Goldboden",
+    "en": "Gold Flooring",
+    "es": "Suelo de oro",
+    "fr": "Sol en or",
+    "fr-CA": "Sol en or",
+    "it": "Pavimentazione aurea",
+    "ja": "黄金タイル",
+    "ko": "황금 바닥",
+    "nl": "Gouden vloer",
+    "pt-BR": "Piso de Ouro",
+    "ru": "Золотой настил",
+    "tr": "Altın Döşeme",
+    "zh-CN": "黄金地板",
+    "zh-TW": "黃金地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

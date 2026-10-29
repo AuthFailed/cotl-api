@@ -1,0 +1,11 @@
+{
+  "category": "NONE",
+  "description": {
+    "en": "An axe of legendary bloodthirst."
+  },
+  "icon": "icons/items/BROKEN_WEAPON_AXE.png",
+  "id": "BROKEN_WEAPON_AXE",
+  "name": {
+    "en": "Lambs’ Slaughter"
+  }
+}

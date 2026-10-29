@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    },
+    {
+      "item": "FOLLOWER_MEAT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "لمَن يستحقون العقاب حقًا.",
+    "de": "Für jene, die wirklich Bestrafung verdienen.",
+    "en": "For those truly deserving of punishment.",
+    "es": "Para quienes merecen un castigo.",
+    "fr": "Pour ceux qui méritent vraiment d'être punis.",
+    "fr-CA": "Pour ceux qui méritent vraiment d'être punis.",
+    "it": "Per i più meritevoli di castigo.",
+    "ja": "この上ない罰を与えるための装飾品",
+    "ko": "진정으로 벌을 받아야 하는 자를 위한 것입니다.",
+    "nl": "Voor degenen die waarlijk straf verdienen.",
+    "pt-BR": "Para aqueles que realmente merecem punição.",
+    "ru": "Наказание для тех, кто не заслуживает прощения.",
+    "tr": "Cezayı gerçekten hak edenler için.",
+    "zh-CN": "给真正需要惩罚之人使用",
+    "zh-TW": "給真正需要懲罰之人使用"
+  },
+  "icon": "icons/structures/DECORATION_OLDFAITH_IRONMAIDEN.png",
+  "id": "DECORATION_OLDFAITH_IRONMAIDEN",
+  "name": {
+    "ar": "العذراء الحديدية من العقيدة القديمة",
+    "de": "Eiserne Jungfrau des alten Glaubens",
+    "en": "Iron Maiden of Old Faith",
+    "es": "Doncella de hierro de la Antigua Fe",
+    "fr": "Dame de fer de la Vieille croyance",
+    "fr-CA": "Dame de fer de la Vieille croyance",
+    "it": "Vergine di ferro dell'Antico Credo",
+    "ja": "旧き信仰のアイアンメイデン",
+    "ko": "옛 신앙의 아이언 메이든",
+    "nl": "IJzeren maagd van het Oude Geloof",
+    "pt-BR": "Dama de Ferro da Antiga Fé",
+    "ru": "Железная дева древней веры",
+    "tr": "Kadim İnancın Çivili Tabutu",
+    "zh-CN": "古老信仰之铁娘子",
+    "zh-TW": "古老信仰之鐵娘子"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

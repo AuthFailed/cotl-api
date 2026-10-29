@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "منقوشة عليها التوسلات المنسية.",
+    "de": "Wo die vergessenen Bitten eingeritzt sind.",
+    "en": "Upon which forgotten pleas are carved.",
+    "es": "Sobre el que se esculpen ruegos olvidados.",
+    "fr": "De vieilles supplications y ont été gravées.",
+    "fr-CA": "De vieilles supplications y ont été gravées.",
+    "it": "Su di esso sono incise le suppliche dimenticate.",
+    "ja": "忘れ去られた嘆願が刻まれている",
+    "ko": "잊힌 간청이 새겨져 있습니다.",
+    "nl": "Waar vergeten smeekbedes op zijn gekerfd.",
+    "pt-BR": "Nas quais foram esculpidos apelos esquecidos.",
+    "ru": "Сохранивший на себе слова позабытых мольб.",
+    "tr": "Üstünde unutulmuş sözler kazılı.",
+    "zh-CN": "刻下了被人遗忘的恳求",
+    "zh-TW": "刻寫下了被人遺忘的懇求"
+  },
+  "icon": "icons/structures/DECORATION_OLDFAITH_WALL.png",
+  "id": "DECORATION_OLDFAITH_WALL",
+  "name": {
+    "ar": "حوائط الأطلال",
+    "de": "Mauer des Ruins",
+    "en": "Walls of Ruin",
+    "es": "Muro de la ruina",
+    "fr": "Mur de la ruine",
+    "fr-CA": "Mur de la ruine",
+    "it": "Muro della rovina",
+    "ja": "廃墟のカベ",
+    "ko": "폐허의 벽",
+    "nl": "Muren van verwoesting",
+    "pt-BR": "Parede de Ruína",
+    "ru": "Разрушенный бастион",
+    "tr": "Harabe Duvarları",
+    "zh-CN": "废墟之墙",
+    "zh-TW": "廢墟之牆"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

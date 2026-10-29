@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "شمعة فوق حجر.",
+    "de": "Eine Kerze auf einem Stein.",
+    "en": "A candle atop a stone.",
+    "es": "Una vela encima de una piedra.",
+    "fr": "Une bougie posée sur une petite pierre.",
+    "fr-CA": "Une bougie posée sur une petite pierre.",
+    "it": "Un sasso che sorregge una candela.",
+    "ja": "ロウソクが上に設置された石の置き物",
+    "ko": "돌 위에 촛대가 있습니다.",
+    "nl": "Een kaars boven op een steen.",
+    "pt-BR": "Uma vela em cima de uma pedra",
+    "ru": "Свеча, поставленная на камень.",
+    "tr": "Taşın üstünde duran bir mum.",
+    "zh-CN": "石头上放了蜡烛",
+    "zh-TW": "岩石上放了蠟燭"
+  },
+  "icon": "icons/structures/DECORATION_STONE_CANDLE.png",
+  "id": "DECORATION_STONE_CANDLE",
+  "name": {
+    "ar": "شمعة الحجر",
+    "de": "Steinkerze",
+    "en": "Stone Candle",
+    "es": "Piedra con vela",
+    "fr": "Bougie sur pierre",
+    "fr-CA": "Bougie sur pierre",
+    "it": "Sasso portacandela",
+    "ja": "ストーンキャンドル",
+    "ko": "돌 촛대",
+    "nl": "Steen met kaars",
+    "pt-BR": "Castiçal de Pedra",
+    "ru": "Камень со свечой",
+    "tr": "Mumlu Taş",
+    "zh-CN": "岩石烛台",
+    "zh-TW": "岩石燭臺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

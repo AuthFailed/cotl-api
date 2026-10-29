@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 6
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "لدفن عديد من الأتباع الموتى وتجنب تعفن الجثث. يتسع لمزيد من الجثث.",
+    "de": "Bette mehrere tote Anhänger zur letzten Ruhe. Vermeidet verwesende Leichen. Kann mehr Tote aufnehmen.",
+    "en": "Lay multiple dead Followers to rest. Avoids rotting corpses. Holds more dead.",
+    "es": "Otorga reposo a varios adeptos muertos y evita que los cuerpos se descompongan. Proporciona más espacio.",
+    "fr": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient. Peut contenir plus de morts.",
+    "fr-CA": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient. Peut contenir plus de morts.",
+    "it": "Vi puoi seppellire ancor più membri del Culto defunti, evitandone la decomposizione.",
+    "ja": "信者の死体を複数埋葬するための施設。死体の腐敗を防ぐ。埋葬できる数が増える",
+    "ko": "여러 명의 죽은 추종자들을 안치합니다. 시체가 썩는 것을 방지합니다. 시체를 더 많이 안치할 수 있습니다.",
+    "nl": "Leg meerdere dode volgelingen te ruste. Zo voorkom je dat lijken gaan rotten. Biedt meer plaats.",
+    "pt-BR": "Posicione vários Seguidores mortos para que eles descansem. Retém mais mortos.",
+    "ru": "Усыпальница, в которой можно упокоить больше мёртвых последователей. Тела не разлагаются.",
+    "tr": "Birden fazla ölü Takipçi'yi gömebilirsin. Cesetlerin çürümesini önler. Daha fazla ölü alır.",
+    "zh-CN": "能埋葬多位死去的教徒，避免尸体腐烂。可容纳的遗体数增加",
+    "zh-TW": "能埋葬多位死去的教徒，避免屍體腐爛。可容納的遺體數增加"
+  },
+  "icon": "icons/structures/CRYPT_2.png",
+  "id": "CRYPT_2",
+  "name": {
+    "ar": "السرداب II",
+    "de": "Gruft II",
+    "en": "Crypt II",
+    "es": "Cripta II",
+    "fr": "Crypte II",
+    "fr-CA": "Crypte II",
+    "it": "Cripta II",
+    "ja": "地下墓地 II",
+    "ko": "지하묘실 II",
+    "nl": "Crypte II",
+    "pt-BR": "Cripta II",
+    "ru": "Склеп II",
+    "tr": "Mezar Odası II",
+    "zh-CN": "墓室 II",
+    "zh-TW": "墓室 II"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": "CRYPT_1"
+}

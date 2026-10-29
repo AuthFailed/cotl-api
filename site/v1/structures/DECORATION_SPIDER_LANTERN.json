@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "حامل قنديل مُغطى بشباك عنكبوت.",
+    "de": "Ein von Spinnweben verhüllter Laternenständer.",
+    "en": "A lantern stand covered in cobwebs.",
+    "es": "Un soporte para faroles cubierto de telaraña.",
+    "fr": "Une lanterne couverte de toiles d'araignée.",
+    "fr-CA": "Une lanterne couverte de toiles d'araignée.",
+    "it": "Un portalanterna ricoperto di ragnatele.",
+    "ja": "ランタンがつるされた支柱、クモの巣で覆われている",
+    "ko": "거미줄로 뒤덮인 랜턴 지지대입니다.",
+    "nl": "Een lantaarn bedenkt met spinnenwebben.",
+    "pt-BR": "Um suporte de lanterna coberto de teias de aranha",
+    "ru": "Фонарь, покрытый паутиной.",
+    "tr": "Örümcek ağlarıyla kaplı bir fener direği.",
+    "zh-CN": "覆满蜘蛛网的灯笼架",
+    "zh-TW": "覆滿蜘蛛網的燈籠架"
+  },
+  "icon": "icons/structures/DECORATION_SPIDER_LANTERN.png",
+  "id": "DECORATION_SPIDER_LANTERN",
+  "name": {
+    "ar": "قنديل العنكبوت",
+    "de": "Spinnenlaterne",
+    "en": "Spider Lantern",
+    "es": "Farol araña",
+    "fr": "Lanterne araignée",
+    "fr-CA": "Lanterne araignée",
+    "it": "Portalanterna aracnoideo",
+    "ja": "スパイダーランタン",
+    "ko": "거미 랜턴",
+    "nl": "Spinnenlantaarn",
+    "pt-BR": "Lanterna de Aranha",
+    "ru": "Паучий фонарь",
+    "tr": "Örümcek Feneri",
+    "zh-CN": "蜘蛛灯笼架",
+    "zh-TW": "蜘蛛燈籠架"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

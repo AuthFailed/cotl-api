@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "BONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "بقايا وحش مهيب من أرض نائية.",
+    "de": "Die Überbleibsel eines majestätischen Tiers aus einem fernen Land.",
+    "en": "The remains of a majestic beast from a faraway land.",
+    "es": "Los restos de una bestia majestuosa que moraba en una tierra lejana.",
+    "fr": "Les restes d'une bête majestueuse originaire d'une contrée lointaine.",
+    "fr-CA": "Les restes d'une bête majestueuse originaire d'une contrée lointaine.",
+    "it": "I resti di una bestia maestosa da una terra lontana.",
+    "ja": "どこか遠い地に生息している獣のホネ",
+    "ko": "머나먼 땅에서 온 장엄한 짐승의 유골.",
+    "nl": "De overblijfselen van een majestueus beest uit een land hier ver vandaan.",
+    "pt-BR": "Os restos de uma fera majestosa de uma terra distante.",
+    "ru": "Останки величественного животного из далёких земель.",
+    "tr": "Uzak diyarlardan gelen heybetli bir yaratığın kalıntıları.",
+    "zh-CN": "某种雄伟野兽的遗骸，来自某片遥远土地。",
+    "zh-TW": "某種雄偉野獸的遺骸，來自某片遙遠土地。"
+  },
+  "icon": "icons/structures/DECORATION_DST_BEEFALOSKELETON.png",
+  "id": "DECORATION_DST_BEEFALOSKELETON",
+  "name": {
+    "ar": "هيكل بيفالو العظمي",
+    "de": "Büffelskelett",
+    "en": "Beefalo Skeleton",
+    "es": "Esqueleto de beefalo",
+    "fr": "Squelette de bœufalo",
+    "fr-CA": "Squelette de bœufalo",
+    "it": "Scheletro di brontobufalo",
+    "ja": "ビーファローのホネ",
+    "ko": "비팔로 해골",
+    "nl": "Beefalo-skelet",
+    "pt-BR": "Esqueleto de Beefalo",
+    "ru": "Скелет бифало",
+    "tr": "Beefalo İskeleti",
+    "zh-CN": "野牛骨骸",
+    "zh-TW": "野牛骨骸"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

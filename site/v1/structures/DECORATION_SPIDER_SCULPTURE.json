@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "فنية ومفزعة.",
+    "de": "Künstlerisch und verstörend.",
+    "en": "Artistic and disturbing.",
+    "es": "Una obra de arte un tanto perturbadora.",
+    "fr": "Troublante mais artistique.",
+    "fr-CA": "Troublante, mais artistique.",
+    "it": "Artistica e inquietante.",
+    "ja": "芸術的であると同時に不穏な雰囲気のオブジェ",
+    "ko": "예술적이면서 동시에 불쾌합니다.",
+    "nl": "Artistiek en onrustbarend.",
+    "pt-BR": "Artística e perturbadora",
+    "ru": "Красивое и пугающее.",
+    "tr": "Sanatsal ve rahatsız edici.",
+    "zh-CN": "具有艺术感又令人不安",
+    "zh-TW": "具有藝術感又令人不安"
+  },
+  "icon": "icons/structures/DECORATION_SPIDER_SCULPTURE.png",
+  "id": "DECORATION_SPIDER_SCULPTURE",
+  "name": {
+    "ar": "منحوتة حرير العنكبوت",
+    "de": "Spinnwebenskulptur",
+    "en": "Spider Silk Sculpture",
+    "es": "Escultura de seda de araña",
+    "fr": "Sculpture de soie",
+    "fr-CA": "Sculpture de soie",
+    "it": "Scultura di seta di ragno",
+    "ja": "クモ糸のモニュメント",
+    "ko": "거미줄 조각상",
+    "nl": "Beeld van spinrag",
+    "pt-BR": "Escultura de Seda de Aranha",
+    "ru": "Украшение из паутины",
+    "tr": "Örümcek İpeği Heykeli",
+    "zh-CN": "蜘蛛丝雕塑品",
+    "zh-TW": "蜘蛛絲雕塑品"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

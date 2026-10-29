@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "من أجل الحظ والقوة والصحة.",
+    "de": "Für Glück, Stärke und Gesundheit.",
+    "en": "For luck, strength, and health.",
+    "es": "Para obtener suerte, fuerza y salud.",
+    "fr": "Pour la chance, la force et la santé.",
+    "fr-CA": "Pour la chance, la force et la santé.",
+    "it": "Per ottenere forza, salute e fortuna.",
+    "ja": "幸運、力、健康をもたらす",
+    "ko": "행운, 힘, 체력을 비는 곳입니다.",
+    "nl": "Voor geluk, kracht en gezondheid.",
+    "pt-BR": "Para dar sorte, força e saúde.",
+    "ru": "Символ преуспевания, силы и здоровья.",
+    "tr": "Şans, kuvvet ve sağlık için.",
+    "zh-CN": "带来好运、力量、健康。",
+    "zh-TW": "帶來好運、力量、健康。"
+  },
+  "icon": "icons/structures/DECORATION_CNY_DRAGON.png",
+  "id": "DECORATION_CNY_DRAGON",
+  "name": {
+    "ar": "تمثال الحظ",
+    "de": "Glücksstatue",
+    "en": "Fortuitous Statue",
+    "es": "Estatua fortuita",
+    "fr": "Statue de providence",
+    "fr-CA": "Statue de providence",
+    "it": "Statua dell'auspicio",
+    "ja": "幸運の石像",
+    "ko": "행운의 조각상",
+    "nl": "Fortuinlijk standbeeld",
+    "pt-BR": "Estátua Fortuita",
+    "ru": "Статуя удачи",
+    "tr": "Şans Heykeli",
+    "zh-CN": "吉祥雕像",
+    "zh-TW": "吉祥雕像"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "جائزة لقتلك شامورا.",
+    "de": "Eine Trophäe für das Töten von Shamura",
+    "en": "A trophy for killing Shamura.",
+    "es": "Un trofeo por matar a Shamura.",
+    "fr": "Un trophée pour avoir tué Shamura",
+    "fr-CA": "Un trophée pour avoir tué Shamura.",
+    "it": "Un trofeo per l'uccisione di Shamura.",
+    "ja": "シャムラを殺した証の記念碑",
+    "ko": "샤무라를 죽여서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het doden van Shamura.",
+    "pt-BR": "Um troféu por matar Shamura",
+    "ru": "Доказательство победы над Шамурой.",
+    "tr": "Shamura öldüğünde kazandığın miras.",
+    "zh-CN": "击杀沙穆拉的纪念品",
+    "zh-TW": "擊殺夏慕拉的紀念品"
+  },
+  "icon": "icons/structures/DECORATION_BOSS_TROPHY_4.png",
+  "id": "DECORATION_BOSS_TROPHY_4",
+  "name": {
+    "ar": "جائزة شامورا",
+    "de": "Shamura-Trophäe",
+    "en": "Shamura Trophy",
+    "es": "Trofeo de Shamura",
+    "fr": "Trophée de Shamura",
+    "fr-CA": "Trophée de Shamura",
+    "it": "Trofeo di Shamura",
+    "ja": "シャムラの記念碑",
+    "ko": "샤무라 전리품",
+    "nl": "Shamura-trofee",
+    "pt-BR": "Troféu de Shamura",
+    "ru": "Трофей (Шамура)",
+    "tr": "Shamura Mirası",
+    "zh-CN": "沙穆拉纪念品",
+    "zh-TW": "夏慕拉紀念品"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,39 @@
+{
+  "category": "POOP",
+  "description": {
+    "ar": "غني بالمغذيات ومفيد في المزارع.",
+    "de": "Reich an Nährstoffen, nützlich auf Ackerparzellen.",
+    "en": "Rich in nutrients, useful on Farm Plots.",
+    "es": "Rico en nutrientes, muy útil para las parcelas.",
+    "fr": "Riche en nutriments. À utiliser sur les parcelles agricoles.",
+    "fr-CA": "Riche en nutriments. À utiliser sur les parcelles agricoles.",
+    "it": "Ricco di sostanze nutritive, utile negli Appezzamenti.",
+    "ja": "ミネラルを多く含んでいる。農作地で使える",
+    "ko": "영양소가 풍부하며, 밭 경작지에 유용합니다.",
+    "nl": "Rijk aan voedingsstoffen, nuttig op landbouwpercelen.",
+    "pt-BR": "Rico em nutrientes, útil para Terrenos Agrícolas.",
+    "ru": "Вещество, повышающее плодородность участков земли.",
+    "tr": "Besleyici bir madde, Tarlalarda kullanılabilir.",
+    "zh-CN": "富含营养，可用于农地。",
+    "zh-TW": "富含營養，可用於農地。"
+  },
+  "icon": "icons/items/POOP.png",
+  "id": "POOP",
+  "name": {
+    "ar": "سماد",
+    "de": "Dünger",
+    "en": "Fertilizer",
+    "es": "Fertilizante",
+    "fr": "Fertilisant",
+    "fr-CA": "Fertilisant",
+    "it": "Concime",
+    "ja": "肥料",
+    "ko": "퇴비",
+    "nl": "Mest",
+    "pt-BR": "Fertilizante",
+    "ru": "Удобрение",
+    "tr": "Gübre",
+    "zh-CN": "肥料",
+    "zh-TW": "肥料"
+  }
+}

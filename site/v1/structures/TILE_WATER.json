@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "يمكنك إنشاء بركة جميلة تثير إعجاب أتباعك.",
+    "de": "Erschaffe einen tollen Teich, den deine Anhänger bewundern können.",
+    "en": "Create a beautiful pond for your Followers to admire.",
+    "es": "Crea un precioso estanque para que tus adeptos lo admiren.",
+    "fr": "Permet de créer de jolis étangs que vos adeptes pourront admirer.",
+    "fr-CA": "Permet de créer de jolis étangs que vos adeptes pourront admirer.",
+    "it": "Crea un bellissimo stagno da far ammirare ai membri del Culto.",
+    "ja": "信者の心を癒すような美しい池を作ろう",
+    "ko": "추종자들이 좋아하는 아름다운 연못을 만들어냅니다.",
+    "nl": "Maak een prachtige vijver voor je volgelingen.",
+    "pt-BR": "Crie um lindo lago para seus Seguidores admirarem",
+    "ru": "Часть красивого водоёма, которым могут любоваться ваши последователи.",
+    "tr": "Takipçilerinin hoşuna gidecek güzel bir gölet oluştur.",
+    "zh-CN": "建个美丽池塘供教徒欣赏",
+    "zh-TW": "建個美麗池塘供教徒欣賞"
+  },
+  "icon": "icons/structures/TILE_WATER.png",
+  "id": "TILE_WATER",
+  "name": {
+    "ar": "بركة زخرفية",
+    "de": "Teichkachel",
+    "en": "Pond Tile",
+    "es": "Baldosas de estanque",
+    "fr": "Plan d'eau",
+    "fr-CA": "Plan d'eau",
+    "it": "Pavimentazione a stagno",
+    "ja": "水辺タイル",
+    "ko": "연못 타일",
+    "nl": "Vijvervlak",
+    "pt-BR": "Pedaço de Lago",
+    "ru": "Участок пруда",
+    "tr": "Gölet Karesi",
+    "zh-CN": "池塘砖片",
+    "zh-TW": "池塘方塊"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

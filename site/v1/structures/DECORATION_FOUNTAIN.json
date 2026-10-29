@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "نافورة تنساب مياهها بهدوء.",
+    "de": "Ein sanft plätschernder Brunnen.",
+    "en": "A softly weeping fountain.",
+    "es": "Una fuente que llora delicadamente.",
+    "fr": "Le doux bruit de l'eau est apaisant.",
+    "fr-CA": "Le doux bruit de l'eau est apaisant.",
+    "it": "Una fontana dove l'acqua scorre lenta.",
+    "ja": "水が静かに流れ出る噴水",
+    "ko": "부드럽게 물을 뿜어대는 분수입니다.",
+    "nl": "Een zacht schreiende fontein.",
+    "pt-BR": "Chafariz que flui suavemente",
+    "ru": "Тихо журчащий фонтан.",
+    "tr": "Sessizce ağlayan bir çeşme.",
+    "zh-CN": "流水潺潺的喷水池",
+    "zh-TW": "流水輕柔的噴水池"
+  },
+  "icon": "icons/structures/DECORATION_FOUNTAIN.png",
+  "id": "DECORATION_FOUNTAIN",
+  "name": {
+    "ar": "نافورة التاج",
+    "de": "Kronenbrunnen",
+    "en": "Crown Fountain",
+    "es": "Fuente de la corona",
+    "fr": "Fontaine de la Couronne",
+    "fr-CA": "Fontaine de la Couronne",
+    "it": "Fontana della Corona",
+    "ja": "王冠の噴水",
+    "ko": "왕관 분수",
+    "nl": "Kroonfontein",
+    "pt-BR": "Chafariz da Coroa",
+    "ru": "Фонтан с короной",
+    "tr": "Taç Çeşmesi",
+    "zh-CN": "圣冠喷水池",
+    "zh-TW": "聖冠噴水池"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

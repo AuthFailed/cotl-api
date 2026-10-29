@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "يزيد مستوى عفريت التابع.",
+    "de": "Dämonenstufe des Anhängers erhöht sich.",
+    "en": "Follower has increased demon level.",
+    "es": "Aumenta el nivel demoniaco del adepto.",
+    "fr": "Augmente le niveau démoniaque de l'adepte.",
+    "fr-CA": "Augmente le niveau démoniaque de l'adepte.",
+    "it": "Il membro del Culto ha un livello demoniaco superiore.",
+    "ja": "信者の悪魔レベルが上昇する",
+    "ko": "추종자의 악마 레벨이 상승합니다.",
+    "nl": "Volgeling heeft een verhoogd demonenlevel.",
+    "pt-BR": "O seguidor aumentou o nível de demônio.",
+    "ru": "Украшение, повышающее уровень демона, который вселяется в последователя.",
+    "tr": "Takipçi'nin iblis seviyesi yükselir.",
+    "zh-CN": "教徒的恶魔等级增加。",
+    "zh-TW": "教徒的惡魔等級增加。"
+  },
+  "icon": "icons/items/Necklace_Demonic.png",
+  "id": "Necklace_Demonic",
+  "name": {
+    "ar": "قلادة عفريتية",
+    "de": "Dämonenhalskette",
+    "en": "Demonic Necklace",
+    "es": "Collar demoniaco",
+    "fr": "Collier démoniaque",
+    "fr-CA": "Collier démoniaque",
+    "it": "Collana demoniaca",
+    "ja": "悪魔のネックレス",
+    "ko": "악마의 목걸이",
+    "nl": "Demonische ketting",
+    "pt-BR": "Colar Demoníaco",
+    "ru": "Ожерелье демона",
+    "tr": "İblis Kolyesi",
+    "zh-CN": "恶魔项链",
+    "zh-TW": "惡魔項鍊"
+  }
+}

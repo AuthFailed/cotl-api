@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "منحوتة مهيبة مصنوعة من العظام.",
+    "de": "Eine eindrucksvolle Skulptur aus Knochen.",
+    "en": "An imposing sculpture built of bone.",
+    "es": "Una imponente escultura hecha de huesos.",
+    "fr": "Une imposante sculpture faite d'os.",
+    "fr-CA": "Une imposante sculpture faite d'os.",
+    "it": "Un'imponente scultura d'ossa.",
+    "ja": "骨を使って作られた見事なオブジェ",
+    "ko": "뼈로 만들어진 인상적인 조각품입니다.",
+    "nl": "Een imposant beeld gemaakt van botten.",
+    "pt-BR": "Uma imponente escultura feita de ossos",
+    "ru": "Внушительная конструкция, украшенная костями.",
+    "tr": "Kemikten yapılmış heybetli bir heykel.",
+    "zh-CN": "用骨头建造而成的宏伟雕塑品",
+    "zh-TW": "用骨頭建造而成的宏偉雕塑品"
+  },
+  "icon": "icons/structures/DECORATION_BONE_SCULPTURE.png",
+  "id": "DECORATION_BONE_SCULPTURE",
+  "name": {
+    "ar": "منحوتة عظمية",
+    "de": "Knochenskulptur",
+    "en": "Bone Sculpture",
+    "es": "Escultura de huesos",
+    "fr": "Sculpture d'os",
+    "fr-CA": "Sculpture d'os",
+    "it": "Scultura d'ossa",
+    "ja": "骨のモニュメント",
+    "ko": "뼈 조각품",
+    "nl": "Knokig beeld",
+    "pt-BR": "Escultura de Ossos",
+    "ru": "Костяное украшение",
+    "tr": "Kemik Heykel",
+    "zh-CN": "骨头雕塑品",
+    "zh-TW": "骨頭雕塑品"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

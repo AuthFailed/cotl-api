@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "زهرة رقيقة مفيدة لجمالها وفوائدها العلاجية.",
+    "de": "Eine zarte Blume, die sowohl große Schönheit als auch medizinische Vorteile zu bieten hat.",
+    "en": "A delicate flower useful for its beauty and medicinal benefits.",
+    "es": "Una delicada flor usada por su belleza y sus propiedades medicinales.",
+    "fr": "Une fleur délicate connue pour sa beauté et ses vertus médicinales.",
+    "fr-CA": "Une fleur délicate connue pour sa beauté et ses vertus médicinales.",
+    "it": "Un fiore delicato, noto per la sua bellezza e i suoi benefici medicinali.",
+    "ja": "とても上品で美しい花。装飾目的や医療用途で使われる",
+    "ko": "아름답기도 하고 의학적으로도 유용한 섬세한 꽃입니다.",
+    "nl": "Een delicate bloem die niet alleen mooi is maar ook medicinale eigenschappen heeft.",
+    "pt-BR": "Uma flor delicada, útil por sua beleza e benefícios medicinais.",
+    "ru": "Красивый цветок, известный своими целебными свойствами.",
+    "tr": "Güzel görünüşü ve tıbbi faydaları için kullanılan narin bir çiçek.",
+    "zh-CN": "娇贵的花，可用于观赏和入药。",
+    "zh-TW": "嬌貴的花，可用於觀賞和入藥。"
+  },
+  "icon": "icons/items/FLOWER_RED.png",
+  "id": "FLOWER_RED",
+  "name": {
+    "ar": "كاميليا",
+    "de": "Kamelie",
+    "en": "Camellia",
+    "es": "Camelia",
+    "fr": "Camélia",
+    "fr-CA": "Camélia",
+    "it": "Camelia",
+    "ja": "ツバキ",
+    "ko": "동백꽃",
+    "nl": "Camelia",
+    "pt-BR": "Camélia",
+    "ru": "Камелия",
+    "tr": "Kamelya",
+    "zh-CN": "山茶花",
+    "zh-TW": "山茶花"
+  }
+}

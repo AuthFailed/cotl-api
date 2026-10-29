@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "YEW_CURSED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "هل ربما كانت مورقة في الماضي؟",
+    "de": "Ist er wohl einst gewachsen?",
+    "en": "Did it perhaps once grow?",
+    "es": "¿Brotaría en el pasado?",
+    "fr": "Par le passé, peut-être en était-il recouvert.",
+    "fr-CA": "Par le passé, peut-être en était-il recouvert.",
+    "it": "Ha mai messo radici?",
+    "ja": "かつては葉っぱを付けていたのだろうか？",
+    "ko": "뭐 언제는 자랐나?",
+    "nl": "Heeft deze ooit gegroeid?",
+    "pt-BR": "Será que um dia ela já floresceu?",
+    "ru": "Возможно, когда-то оно зеленело.",
+    "tr": "Acaba bir zamanlar yaprağı var mıydı?",
+    "zh-CN": "也许也曾生长过？",
+    "zh-TW": "或許它曾生長過？"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_TREE.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_TREE",
+  "name": {
+    "ar": "الشجرة الجرداء",
+    "de": "Laubloser Baum",
+    "en": "Leafless Tree",
+    "es": "Árbol sin hojas",
+    "fr": "Arbre sans feuilles",
+    "fr-CA": "Arbre sans feuilles",
+    "it": "Albero spoglio",
+    "ja": "葉のない木",
+    "ko": "민둥나무",
+    "nl": "Bladloze boom",
+    "pt-BR": "Árvore Desfolhada",
+    "ru": "Сухое дерево",
+    "tr": "Yapraksız Ağaç",
+    "zh-CN": "无叶树",
+    "zh-TW": "無葉之木"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 6
+    },
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "شاعرية ومرعبة في الوقت نفسه.",
+    "de": "Romantisch und furchteinflößend zugleich.",
+    "en": "Romantic and horrifying, all in one.",
+    "es": "Romántica y terrorífica a partes iguales.",
+    "fr": "Aussi romantique qu'horrifique.",
+    "fr-CA": "Aussi romantique que terrifiante.",
+    "it": "Romantico, ma al contempo orripilante.",
+    "ja": "ロマンチックな雰囲気とゾワゾワするような怖さを兼ね備えている装飾",
+    "ko": "낭만과 소름을 한 번에.",
+    "nl": "Romantisch en afschrikwekkend tegelijk.",
+    "pt-BR": "Romântica e horrenda ao mesmo tempo.",
+    "ru": "Милое и в то же время жуткое украшение.",
+    "tr": "Hem romantik hem de korkunç.",
+    "zh-CN": "浪漫与恐怖的集合体。",
+    "zh-TW": "浪漫與驚嚇，合二為一。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_ROT_STONE2.png",
+  "id": "DECORATION_DLC_ROT_STONE2",
+  "name": {
+    "ar": "شمعة فحم التعفن",
+    "de": "Fäulnisbrand-Kerze",
+    "en": "Rotburn Candle",
+    "es": "Vela de petrodumbre",
+    "fr": "Bougie de charbon putrescent",
+    "fr-CA": "Bougie de charbon putrescent",
+    "it": "Candela di marciolite",
+    "ja": "腐敗石のロウソク立て",
+    "ko": "부패석탄 촛대",
+    "nl": "Rotsteenkaars",
+    "pt-BR": "Vela Putrefogo",
+    "ru": "Гнилогарные свечи",
+    "tr": "Çürükateş Mumu",
+    "zh-CN": "腐烧蜡烛",
+    "zh-TW": "腐燃燭臺"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

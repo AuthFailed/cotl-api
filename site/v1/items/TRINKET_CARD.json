@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": "icons/items/TRINKET_CARD.png",
+  "id": "TRINKET_CARD",
+  "name": {
+    "ar": "بطاقة تارو",
+    "de": "Tarotkarte",
+    "en": "Tarot Card",
+    "es": "Carta del tarot",
+    "fr": "Carte de tarot",
+    "fr-CA": "Carte de tarot",
+    "it": "Tarocco",
+    "ja": "タロットカード",
+    "ko": "타로 카드",
+    "nl": "Tarotkaart",
+    "pt-BR": "Carta de Tarô",
+    "ru": "Карта Таро",
+    "tr": "Tarot Kartı",
+    "zh-CN": "塔罗牌",
+    "zh-TW": "塔羅牌"
+  }
+}

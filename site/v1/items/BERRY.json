@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مكون لذيذ لطهي الوجبات.",
+    "de": "Eine leckere Zutat zum Kochen von Mahlzeiten.",
+    "en": "A tasty ingredient for cooking meals.",
+    "es": "Un sabroso ingrediente para preparar comidas.",
+    "fr": "Un ingrédient nutritif pour vos petits plats.",
+    "fr-CA": "Un ingrédient nutritif pour vos petits plats.",
+    "it": "Un ingrediente gustoso per cucinare i pasti.",
+    "ja": "料理を作るための材料",
+    "ko": "요리용으로 쓰이는 맛있는 재료입니다.",
+    "nl": "Een smakelijk ingrediënt voor het bereiden van maaltijden.",
+    "pt-BR": "Um ingrediente gostoso para refeições.",
+    "ru": "Вкусный и сочный плод.",
+    "tr": "Yemek hazırlamaya yarayan, lezzetli bir malzeme.",
+    "zh-CN": "烹煮餐点用的可口食材。",
+    "zh-TW": "烹煮餐點用的可口食材。"
+  },
+  "icon": "icons/items/BERRY.png",
+  "id": "BERRY",
+  "name": {
+    "ar": "توت",
+    "de": "Beere",
+    "en": "Berry",
+    "es": "Baya",
+    "fr": "Baie",
+    "fr-CA": "Petits fruits",
+    "it": "Bacca",
+    "ja": "ベリー",
+    "ko": "베리",
+    "nl": "Bes",
+    "pt-BR": "Fruta",
+    "ru": "Ягода",
+    "tr": "Orman Meyvesi",
+    "zh-CN": "莓果",
+    "zh-TW": "莓果"
+  }
+}

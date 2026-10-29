@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": false,
+  "icon": null,
+  "id": "Fly",
+  "name": {
+    "en": "Fly"
+  },
+  "unlock": "Dungeon6"
+}

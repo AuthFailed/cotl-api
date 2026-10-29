@@ -1,0 +1,44 @@
+{
+  "cost": [],
+  "description": {
+    "ar": "عليك اتباع الطريق.",
+    "de": "Folge der Straße.",
+    "en": "Follow the road.",
+    "es": "Sigue el camino.",
+    "fr": "Là où il y a une volonté, il y a un chemin en briques.",
+    "fr-CA": "Là où il y a une volonté, il y a un chemin en briques.",
+    "it": "Segui il sentiero.",
+    "ja": "石が無駄なく敷き詰められている",
+    "ko": "길을 따라 오세요.",
+    "nl": "Een zware weg te gaan.",
+    "pt-BR": "Siga o caminho",
+    "ru": "Дорога для идущих.",
+    "tr": "Yolu takip et.",
+    "zh-CN": "沿着路",
+    "zh-TW": "沿著路"
+  },
+  "icon": "icons/structures/TILE_BRICKS.png",
+  "id": "TILE_BRICKS",
+  "name": {
+    "ar": "أرضية مرصوفة بالطوب",
+    "de": "Ziegelboden",
+    "en": "Brick Flooring",
+    "es": "Suelo de ladrillos",
+    "fr": "Sol en briques",
+    "fr-CA": "Sol en briques",
+    "it": "Pavimentazione in mattoni",
+    "ja": "石畳タイル",
+    "ko": "벽돌 바닥",
+    "nl": "Bakstenen vloer",
+    "pt-BR": "Piso de Tijolos",
+    "ru": "Гранитный настил",
+    "tr": "Tuğla Döşeme",
+    "zh-CN": "砖块地板",
+    "zh-TW": "磚塊地板"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

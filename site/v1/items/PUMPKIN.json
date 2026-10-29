@@ -1,0 +1,39 @@
+{
+  "category": "NONE",
+  "description": {
+    "ar": "مكون شهي.",
+    "de": "Eine herzhafte Zutat.",
+    "en": "A hearty ingredient.",
+    "es": "Un ingrediente muy suculento.",
+    "fr": "Un ingrédient riche en vitamines.",
+    "fr-CA": "Un ingrédient riche en vitamines.",
+    "it": "Un ingrediente sostanzioso.",
+    "ja": "丸々と大きな食料",
+    "ko": "푸짐한 재료입니다.",
+    "nl": "Een hartig ingrediënt.",
+    "pt-BR": "Um ingrediente vigoroso.",
+    "ru": "Основа сытных блюд.",
+    "tr": "Doyurucu bir malzeme.",
+    "zh-CN": "一种大型食材。",
+    "zh-TW": "一種大型食材。"
+  },
+  "icon": "icons/items/PUMPKIN.png",
+  "id": "PUMPKIN",
+  "name": {
+    "ar": "يقطين",
+    "de": "Kürbis",
+    "en": "Pumpkin",
+    "es": "Calabaza",
+    "fr": "Citrouille",
+    "fr-CA": "Citrouille",
+    "it": "Zucca",
+    "ja": "カボチャ",
+    "ko": "호박",
+    "nl": "Pompoen",
+    "pt-BR": "Abóbora",
+    "ru": "Тыква",
+    "tr": "Bal Kabağı",
+    "zh-CN": "南瓜",
+    "zh-TW": "南瓜"
+  }
+}

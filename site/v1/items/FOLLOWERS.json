@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": "icons/items/FOLLOWERS.png",
+  "id": "FOLLOWERS",
+  "name": {
+    "ar": "الأتباع",
+    "de": "Anhänger",
+    "en": "Followers",
+    "es": "Adeptos",
+    "fr": "Adeptes",
+    "fr-CA": "Adeptes",
+    "it": "Membri",
+    "ja": "信者",
+    "ko": "추종자",
+    "nl": "Volgelingen",
+    "pt-BR": "Seguidores",
+    "ru": "Последователи",
+    "tr": "Takipçiler",
+    "zh-CN": "教徒",
+    "zh-TW": "教徒"
+  }
+}

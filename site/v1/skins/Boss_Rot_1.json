@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Rot_1",
+  "name": {
+    "en": "Boss Rot 1"
+  },
+  "unlock": "Dungeon6"
+}

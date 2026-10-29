@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "معروض ليثير الإعجاب أساسًا.",
+    "de": "Vor allem da, um bewundert zu werden.",
+    "en": "To mostly be admired.",
+    "es": "Para admirarlo con vehemencia.",
+    "fr": "Principalement conçue pour être admirée.",
+    "fr-CA": "Principalement conçue pour être admirée.",
+    "it": "Perché tutti possano ammirarla.",
+    "ja": "ほとんどの羊にとっては、敬いの対象だ",
+    "ko": "모두가 따르던 소리의 주인.",
+    "nl": "Iets om te bewonderen.",
+    "pt-BR": "Basicamente é para ser admirado.",
+    "ru": "По большей части декоративное украшение.",
+    "tr": "Bakıp bakıp gıpta etmek için.",
+    "zh-CN": "多半为了受人敬仰。",
+    "zh-TW": "大致上受人尊崇。"
+  },
+  "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2.png",
+  "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+  "name": {
+    "ar": "جرس القاعدة",
+    "de": "Glockensockel",
+    "en": "Bell Plinth",
+    "es": "Pedestal repiqueteante",
+    "fr": "Cloche sur socle",
+    "fr-CA": "Cloche sur socle",
+    "it": "Campana su piedistallo",
+    "ja": "鈴の台座",
+    "ko": "방울 조각상",
+    "nl": "Bel op een sokkel",
+    "pt-BR": "Pedestal de Sino",
+    "ru": "Колокольный постамент",
+    "tr": "Zilli Kaide",
+    "zh-CN": "承钟底座",
+    "zh-TW": "鈴鐺基座"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

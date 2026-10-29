@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "حجر أجوف تملؤه الشموع.",
+    "de": "Ein ausgehöhlter, mit Kerzen gefüllter Stein.",
+    "en": "A stone hollow filled with candles.",
+    "es": "Una piedra hueca llena de velas.",
+    "fr": "Un monument en pierre abritant une bougie.",
+    "fr-CA": "Un monument en pierre abritant une bougie.",
+    "it": "Una pietra cava che alloggia delle candele.",
+    "ja": "石でできた光源。彫られた穴の中にはロウソクが置かれている",
+    "ko": "초로 차있는 텅 빈 돌입니다.",
+    "nl": "Een holle steen gevuld met kaarsen.",
+    "pt-BR": "Uma pedra oca cheia de velas",
+    "ru": "Камень с углублением, в котором стоят свечи.",
+    "tr": "İçi mumlarla dolu, oyulmuş bir taş.",
+    "zh-CN": "中空摆满蜡烛的岩石",
+    "zh-TW": "中空擺滿蠟燭的岩石"
+  },
+  "icon": "icons/structures/DECORATION_STONE_CANDLE_LAMP.png",
+  "id": "DECORATION_STONE_CANDLE_LAMP",
+  "name": {
+    "ar": "مصباح حجري",
+    "de": "Steinkerzenlampe",
+    "en": "Stone Candle Lamp",
+    "es": "Lámpara de piedra con vela",
+    "fr": "Lampe de pierre",
+    "fr-CA": "Lampe de pierre",
+    "it": "Lume di pietra",
+    "ja": "ストーンキャンドル・ランプ",
+    "ko": "돌 촛불 전구",
+    "nl": "Steenlamp",
+    "pt-BR": "Lamparina de Pedra com Vela",
+    "ru": "Каменный светильник",
+    "tr": "Mumlu Taş Lamba",
+    "zh-CN": "岩石烛灯",
+    "zh-TW": "岩石燭燈"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,23 @@
+{
+  "category": "NONE",
+  "description": {},
+  "icon": null,
+  "id": "ICE_HEART",
+  "name": {
+    "ar": "القلب المتجمد",
+    "de": "Gefrorenes Herz",
+    "en": "Frozen Heart",
+    "es": "Corazón gélido",
+    "fr": "Cœur gelé",
+    "fr-CA": "Cœur gelé",
+    "it": "Cuore gelido",
+    "ja": "氷の心臓",
+    "ko": "얼어붙은 심장",
+    "nl": "Bevroren hart",
+    "pt-BR": "Coração Gelado",
+    "ru": "Ледяное сердце",
+    "tr": "Donmuş Kalp",
+    "zh-CN": "冰心",
+    "zh-TW": "冰心"
+  }
+}

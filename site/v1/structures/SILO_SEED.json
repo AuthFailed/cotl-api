@@ -1,0 +1,57 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 10
+    },
+    {
+      "item": "STONE",
+      "quantity": 10
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "يمكنك وضع البذور هنا ليزرعها أتباعك.",
+    "de": "Lagere hier Samen, die deine Anhänger aussähen können.",
+    "en": "Put seeds here for your Followers to sow.",
+    "es": "Mete semillas aquí para que las siembren tus adeptos.",
+    "fr": "Placez des graines ici pour que vos adeptes les sèment.",
+    "fr-CA": "Placez des graines ici pour que vos adeptes les sèment.",
+    "it": "Qui puoi depositare i semi da far seminare ai membri del Culto.",
+    "ja": "ここに保管した種は、信者が農作地に埋めてくれる",
+    "ko": "추종자들이 심을 씨앗을 저장합니다.",
+    "nl": "Bewaar hier zaden die je volgelingen kunnen zaaien.",
+    "pt-BR": "Coloque sementes aqui para que seus Seguidores as plantem",
+    "ru": "Место для хранения семян, которые сеют фермеры.",
+    "tr": "Takipçilerinin ekmesi için buraya tohum koy.",
+    "zh-CN": "将种子放在这里供教徒播种",
+    "zh-TW": "將種子放在這裡供教徒播種"
+  },
+  "icon": "icons/structures/SILO_SEED.png",
+  "id": "SILO_SEED",
+  "name": {
+    "ar": "مخزن البذور",
+    "de": "Samensilo",
+    "en": "Seed Silo",
+    "es": "Silo de semillas",
+    "fr": "Silo à graines",
+    "fr-CA": "Silo à graines",
+    "it": "Silo di semi",
+    "ja": "種サイロ",
+    "ko": "씨앗 저장고",
+    "nl": "Zaadsilo",
+    "pt-BR": "Silo de Sementes",
+    "ru": "Хранилище семян",
+    "tr": "Tohum Ambarı",
+    "zh-CN": "种子储仓",
+    "zh-TW": "種子儲倉"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

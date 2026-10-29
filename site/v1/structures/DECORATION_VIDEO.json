@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 10
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "لرؤية تطور طائفتك على مدار الأيام.",
+    "de": "Sieh dir die Entwicklung deines Kultes an.",
+    "en": "See the development of your Cult over the days.",
+    "es": "Mira cómo se ha desarrollado la secta con el paso de los días.",
+    "fr": "Permet de voir le développement de votre culte au fil des jours.",
+    "fr-CA": "Permet de voir le développement de votre secte au fil des jours.",
+    "it": "Osserva lo sviluppo del Culto col passare dei giorni.",
+    "ja": "教団が日に日に成長しゆく様子を見守る目",
+    "ko": "일 별로 교단의 발전도를 확인합니다.",
+    "nl": "Bekijk de ontwikkeling van je sekte na verloop van tijd.",
+    "pt-BR": "Veja o desenvolvimento do seu culto ao longo dos dias.",
+    "ru": "Глаз, следящий за развитием вашего культа.",
+    "tr": "Tarikat'ının zaman içindeki gelişimini gör.",
+    "zh-CN": "查看圣教这几天的发展情况。",
+    "zh-TW": "觀看教會連日以來的建設發展。"
+  },
+  "icon": "icons/structures/DECORATION_VIDEO.png",
+  "id": "DECORATION_VIDEO",
+  "name": {
+    "ar": "العين الشاهدة على كل شيء",
+    "de": "Das allsehende Auge des Zeugen",
+    "en": "Witness's All Seeing Eye",
+    "es": "El ojo testigo",
+    "fr": "Œil omniscient",
+    "fr-CA": "Œil omniscient",
+    "it": "L'occhio onniveggente del Testimone",
+    "ja": "全能の目",
+    "ko": "목격자의 만물을 보는 눈",
+    "nl": "Het alziende oog van de getuige",
+    "pt-BR": "Olho Que Tudo Vê da Testemunha",
+    "ru": "Всевидящее око свидетеля",
+    "tr": "Şahidin Gözü",
+    "zh-CN": "见证者的全知之眼",
+    "zh-TW": "見證者的全知全能之眼"
+  },
+  "size": {
+    "h": 2,
+    "w": 2
+  },
+  "upgradesFrom": null
+}

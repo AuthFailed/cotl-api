@@ -1,0 +1,53 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 10
+    },
+    {
+      "item": "LOG",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "راية عليها قوانين طائفتك.",
+    "de": "Eine Flagge mit den heiligen Schriften deines Kults.",
+    "en": "A flag bearing the scriptures of your Cult.",
+    "es": "Un bandera con las escrituras de tu secta.",
+    "fr": "L'étendard portant les textes sacrés de votre culte.",
+    "fr-CA": "Un drapeau portant les textes sacrés de votre secte.",
+    "it": "Una bandiera con le scritture del Culto.",
+    "ja": "教団の聖典が描かれた旗",
+    "ko": "당신의 성서가 그려진 깃발입니다.",
+    "nl": "Een vlag met de heilige schrift van je sekte.",
+    "pt-BR": "Uma bandeira que carrega as escrituras do seu Culto",
+    "ru": "Флаг с заповедями для ваших последователей.",
+    "tr": "Tarikat'ının kanunlarını taşıyan bir bayrak.",
+    "zh-CN": "印有本教经文的旗子",
+    "zh-TW": "印有本教經文的旗子"
+  },
+  "icon": "icons/structures/DECORATION_FLAG_SCRIPTURE.png",
+  "id": "DECORATION_FLAG_SCRIPTURE",
+  "name": {
+    "ar": "راية القوانين",
+    "de": "Die Flagge der Schrift",
+    "en": "Flag of Scripture",
+    "es": "Bandera de las escrituras",
+    "fr": "Étendard des Écritures",
+    "fr-CA": "Étendard des Écritures",
+    "it": "Bandiera delle scritture",
+    "ja": "聖典の旗",
+    "ko": "성서 깃발",
+    "nl": "Vlag van de heilige schrift",
+    "pt-BR": "Bandeira da Escritura",
+    "ru": "Флаг с заповедями",
+    "tr": "Kanun Bayrağı",
+    "zh-CN": "经文旗",
+    "zh-TW": "經文旗"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

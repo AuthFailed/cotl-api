@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "عمود عظمي ثابت لحمل رايتك.",
+    "de": "Eine starre Knochensäule zum Hissen deiner Flagge.",
+    "en": "A rigid bone pillar to raise your flag.",
+    "es": "Un pilar de huesos para alzar tu bandera.",
+    "fr": "Un solide pilier en os pour porter votre étendard.",
+    "fr-CA": "Un solide pilier en os pour porter votre étendard.",
+    "it": "Un palo di robusto osso per innalzare la tua bandiera.",
+    "ja": "骨でできた、旗をかかげる用の支柱",
+    "ko": "당신의 깃발을 올려놓은 단단한 뼈 지지대입니다.",
+    "nl": "Een knokige pilaar om je vlag aan te hijsen.",
+    "pt-BR": "Um rígido pilar de ossos que ergue a sua bandeira",
+    "ru": "Устойчивый костяной флагшток с вашим знаменем.",
+    "tr": "Bayrağının ucunda dalgalandığı kemikten bir direk.",
+    "zh-CN": "升旗用的坚硬骨头柱",
+    "zh-TW": "升旗用的堅硬骨頭柱"
+  },
+  "icon": "icons/structures/DECORATION_BONE_FLAG.png",
+  "id": "DECORATION_BONE_FLAG",
+  "name": {
+    "ar": "راية تاج عظمية",
+    "de": "Skelett-Kronenflagge",
+    "en": "Skeleton Crown Flag",
+    "es": "Bandera de corona esqueleto",
+    "fr": "Porte-étendard en os",
+    "fr-CA": "Porte-étendard en os",
+    "it": "Portabandiera d'ossa",
+    "ja": "王冠のホネ旗",
+    "ko": "해골 왕관 깃발",
+    "nl": "Vlag met een kroon op een skelet",
+    "pt-BR": "Bandeira da Coroa de Ossos",
+    "ru": "Флаг на костях",
+    "tr": "İskelet Taç Bayrağı",
+    "zh-CN": "骨头圣冠旗杆",
+    "zh-TW": "骨頭聖冠旗桿"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

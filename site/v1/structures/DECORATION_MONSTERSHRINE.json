@@ -1,0 +1,49 @@
+{
+  "cost": [
+    {
+      "item": "STONE_REFINED",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "عليك الالتماس أمام الوحش العظيم.",
+    "de": "Bete das mächtige Monster an.",
+    "en": "Pray to the mighty monster.",
+    "es": "Rézale al monstruo todopoderoso.",
+    "fr": "Priez le monstre sacré de cet autel.",
+    "fr-CA": "Priez le monstre sacré.",
+    "it": "Rivolgi le tue preghiere al potente mostro.",
+    "ja": "強きモンスターに祈りを捧げよ",
+    "ko": "강한 괴물을 위해 기도합니다.",
+    "nl": "Bid tot het almachtige monster.",
+    "pt-BR": "Reze para o monstro poderoso",
+    "ru": "Изваяние всесильного чудовища.",
+    "tr": "Kudretli canavarın önünde eğil.",
+    "zh-CN": "向强大的怪物祈祷",
+    "zh-TW": "向強大的怪物祈禱"
+  },
+  "icon": "icons/structures/DECORATION_MONSTERSHRINE.png",
+  "id": "DECORATION_MONSTERSHRINE",
+  "name": {
+    "ar": "مزار Massive Monster",
+    "de": "Massive-Monster-Schrein",
+    "en": "Massive Monster Shrine",
+    "es": "Santuario de Massive Monster",
+    "fr": "Autel Massive Monster",
+    "fr-CA": "Autel Massive Monster",
+    "it": "Santuario del Mostro massiccio",
+    "ja": "マッシブモンスターの祭壇",
+    "ko": "대형 괴물 성지",
+    "nl": "Massive Monster-altaar",
+    "pt-BR": "Santuário da Massive Monster",
+    "ru": "Алтарь в честь Massive Monster",
+    "tr": "Devasa Canavar Mabedi",
+    "zh-CN": "巨型怪物圣坛",
+    "zh-TW": "巨型怪物聖壇"
+  },
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}
