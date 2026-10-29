@@ -19,12 +19,13 @@ using Newtonsoft.Json;
 using src.Managers;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Dict = System.Collections.Generic.Dictionary<string, object>;
 
 [BepInPlugin("chrsnv.cotldata.dump", "COTL Data Dump", "0.1.0")]
 public class CotlDataDump : BaseUnityPlugin
 {
     ConfigEntry<int> slot;
-    ConfigEntry<bool> doItems, doStructures, doSkins, doRituals;
+    ConfigEntry<bool> doItems, doStructures, doSkins, doRituals, doMore;
     string outDir;
     bool started, finished;
     readonly List<object> errors = new List<object>();
@@ -49,6 +50,7 @@ public class CotlDataDump : BaseUnityPlugin
         doStructures = Config.Bind("Jobs", "Structures", true, "structures.json and structure icons.");
         doSkins = Config.Bind("Jobs", "Skins", true, "skins.json.");
         doRituals = Config.Bind("Jobs", "Rituals", true, "rituals.json and ritual icons.");
+        doMore = Config.Bind("Jobs", "More", true, "doctrines, sermons, tarot, relics, weapons, curses, traits, outfits, crown abilities, fleeces.");
         outDir = Path.Combine(Paths.PluginPath, "CotlDataDump");
         Directory.CreateDirectory(outDir);
         new Harmony("chrsnv.cotldata.dump").PatchAll(typeof(CotlDataDump));
@@ -78,7 +80,11 @@ public class CotlDataDump : BaseUnityPlugin
         if (doStructures.Value) Try("Structures", ReadStructures);
         if (doSkins.Value) Try("Skins", ReadSkins);
         if (doRituals.Value) Try("Rituals", ReadRituals);
-        Try("Translations", ReadTranslations);
+        if (doMore.Value)
+        {
+            Try("Doctrines", ReadDoctrines); Try("Tarot", ReadTarot); Try("Relics", ReadRelics); Try("Weapons", ReadWeapons);
+            Try("Traits", ReadTraits); Try("Outfits", ReadOutfits); Try("CrownAbilities", ReadCrownAbilities);
+        }
         int s = slot.Value;
         Logger.LogInfo($"phase 1 done; continuing save slot {s}");
         SaveAndLoad.SAVE_SLOT = s;
@@ -94,12 +100,21 @@ public class CotlDataDump : BaseUnityPlugin
         DataManager.Instance.DisableSaving = true;
         if (doItems.Value) Try("ItemIcons", ItemIcons);
         if (doRituals.Value) Try("RitualIcons", RitualIcons);
+        if (doMore.Value)
+        {
+            yield return DoctrineIcons();
+            Try("TraitIcons", TraitIcons); Try("CrownIcons", CrownIcons); Try("Fleeces", ReadFleeces);
+        }
+        // last: phase 2 adds terms too (fleece names)
+        Try("Translations", ReadTranslations);
         if (doStructures.Value) Try("StructureFootprints", StructureFootprints);
         finished = true;
         Write("items.json", items ?? new List<Dictionary<string, object>>());
         Write("structures.json", structures ?? new List<Dictionary<string, object>>());
         Write("skins.json", skins ?? new List<Dictionary<string, object>>());
         Write("rituals.json", rituals ?? new List<Dictionary<string, object>>());
+        foreach (var kind in new[] { "doctrines", "sermons", "tarot", "relics", "weapons", "curses", "traits", "outfits", "crownAbilities", "fleeces" })
+            Write($"{kind}.json", more.TryGetValue(kind, out var l) ? l : new List<Dict>());
         Write("i18n.json", i18n);
         Write("meta.json", new Dictionary<string, object> {
             ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
@@ -307,6 +322,263 @@ public class CotlDataDump : BaseUnityPlugin
     static uint SteamBuildId()
     {
         try { return SteamManager.Initialized ? (uint)Steamworks.SteamApps.GetAppBuildId() : 0; } catch { return 0; }
+    }
+
+    // ---------- more kinds (each list is what the game's own UI iterates) ----------
+
+    readonly Dictionary<string, List<Dict>> more = new Dictionary<string, List<Dict>>();
+    static readonly string[] SermonCategories = { "WorkAndWorship", "Possession", "Food", "Afterlife", "LawAndOrder", "Pleasure", "Winter" };
+
+    // Doctrines as the temple offers them: GetSermonReward(category, level 1-4, first or second choice), plus the nine
+    // Special ones Death Cat and the mystic shop give. Sermon categories are the seven with names.
+    void ReadDoctrines()
+    {
+        var rituals = new HashSet<UpgradeSystem.Type>(UpgradeSystem.AllRituals());
+        var list = new List<Dict>();
+        var seen = new HashSet<DoctrineUpgradeSystem.DoctrineType>();
+        void Add(DoctrineUpgradeSystem.DoctrineType t, string category, int level, string choice, string other)
+        {
+            if (!seen.Add(t)) return;
+            var kind = DoctrineUpgradeSystem.ShowDoctrineTutorialForType(t).ToString();
+            var r = DoctrineUpgradeSystem.RitualForDoctrineUpgrade(t);
+            // UnlockAbility(Winter_RanchMeat) unlocks Gorging, but RitualForDoctrineUpgrade leaves it out
+            if (t.ToString() == "Winter_RanchMeat") r = UpgradeSystem.Type.Ritual_RanchMeat;
+            list.Add(new Dict {
+                ["id"] = t.ToString(), ["nameTerm"] = Term($"DoctrineUpgradeSystem/{t}"), ["descTerm"] = Term($"DoctrineUpgradeSystem/{t}/Description"),
+                ["category"] = category, ["level"] = level, ["choice"] = choice, ["alternative"] = other,
+                ["kind"] = kind == "None" ? null : kind, ["ritual"] = rituals.Contains(r) ? r.ToString() : null,
+            });
+        }
+        var sermons = new List<Dict>();
+        foreach (var name in SermonCategories)
+        {
+            var cat = (SermonCategory)Enum.Parse(typeof(SermonCategory), name);
+            for (int level = 1; level <= 4; level++)
+            {
+                var a = DoctrineUpgradeSystem.GetSermonReward(cat, level, true);
+                var b = DoctrineUpgradeSystem.GetSermonReward(cat, level, false);
+                Add(a, name, level, "first", b.ToString());
+                Add(b, name, level, "second", a.ToString());
+            }
+            sermons.Add(new Dict { ["id"] = name, ["nameTerm"] = Term($"DoctrineUpgradeSystem/{name}"),
+                ["descTerm"] = Term($"DoctrineUpgradeSystem/{name}/Description"), ["glyph"] = DoctrineUpgradeSystem.GetSermonCategoryIcon(cat) });
+        }
+        for (int level = 1; level <= 9; level++)
+            Add(DoctrineUpgradeSystem.GetSermonReward(SermonCategory.Special, level, true), "Special", level, null, null);
+        more["doctrines"] = list.Where(d => d["nameTerm"] != null).ToList();
+        more["sermons"] = sermons;
+        Logger.LogInfo($"doctrines: {more["doctrines"].Count}, sermons: {sermons.Count}");
+    }
+
+    // DataManager.AllTrinkets is the deck the game draws from. Text per upgrade level is .../Description{n}; corrupted
+    // cards fill {0} and {1} with .../Positive and .../Negative (what LocalisedDescription does).
+    void ReadTarot()
+    {
+        var groups = new (string, IEnumerable<TarotCards.Card>)[] {
+            ("default", TarotCards.DefaultCards), ("coop", TarotCards.CoopCards), ("dlc", TarotCards.DLCWithBlueBack),
+            ("majorDlc", TarotCards.MajorDLCCards), ("corrupted", TarotCards.CorruptedCards), ("mystic", TarotCards.MysticCards),
+            ("rot", TarotCards.RotCards), ("winter", TarotCards.WitnerCards) };
+        more["tarot"] = DataManager.AllTrinkets.Distinct().Select(c =>
+        {
+            string id = c.ToString(), desc = $"TarotCards/{id}/Description";
+            int max = TarotCards.GetMaxTarotCardLevel(c);
+            return new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"TarotCards/{id}/Name"), ["descTerm"] = Term(desc),
+                ["descArgs"] = English($"TarotCards/{id}/Positive") == null ? null : new List<string> { Term($"TarotCards/{id}/Positive"), Term($"TarotCards/{id}/Negative") },
+                ["levels"] = Enumerable.Range(1, max).Select(n => new Dict { ["descTerm"] = Term(desc + n) ?? Term(desc) }).ToList(),
+                ["loreTerm"] = Term($"TarotCards/{id}/Lore"),
+                ["maxLevel"] = max, ["groups"] = groups.Where(g => g.Item2.Contains(c)).Select(g => g.Item1).ToList(),
+                ["dlc"] = TarotCards.GetTarotIsDLC(c), ["coop"] = TarotCards.GetTarotIsCoOp(c), ["weight"] = TarotCards.GetTarotCardWeight(c),
+            };
+        }).Where(d => d["nameTerm"] != null).ToList();
+        Logger.LogInfo($"tarot: {more["tarot"].Count}");
+    }
+
+    // EquipmentManager.RelicData (Resources "Data/Equipment Data/Relics"), as the relic menu lists them. Icons are the
+    // fields themselves: the Sprite getters read the save.
+    void ReadRelics()
+    {
+        more["relics"] = new List<Dict>();
+        foreach (var rd in EquipmentManager.RelicData.Where(r => r && r.RelicType != RelicType.None).GroupBy(r => r.RelicType).Select(g => g.First()))
+        {
+            string id = rd.RelicType.ToString();
+            if (English($"Relics/{id}") == null) continue;
+            bool corrupted = rd.RelicSubType.ToString() == "Corrupted" && English($"Relics/{id}/Positive") != null;
+            more["relics"].Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"Relics/{id}"), ["descTerm"] = Term($"Relics/{id}/Description"),
+                ["descArgs"] = corrupted ? new List<string> { Term($"Relics/{id}/Positive"), Term($"Relics/{id}/Negative") } : null,
+                ["loreTerm"] = Term($"Relics/{id}/Lore"),
+                ["subType"] = rd.RelicSubType.ToString(), ["interactionType"] = rd.InteractionType.ToString(), ["damageType"] = rd.DamageType.ToString(),
+                ["chargeDamage"] = rd.DamageRequiredToCharge, ["chargeCategory"] = RelicData.GetChargeCategory(rd).ToString(), ["weight"] = rd.Weight,
+                ["requiresCult"] = rd.RequiresCult, ["unlockedBy"] = rd.UpgradeType == UpgradeSystem.Type.Count ? null : rd.UpgradeType.ToString(),
+                ["dlc"] = RelicData.GetRelicDLC(rd.RelicType), ["coop"] = EquipmentManager.CoopRelics.Contains(rd.RelicType),
+                ["majorDlc"] = EquipmentManager.MajorDLCRelics.Contains(rd.RelicType),
+            });
+            if (rd.UISprite) SaveSprite(rd.UISprite, "relics", id);
+        }
+        Logger.LogInfo($"relics: {more["relics"].Count}");
+    }
+
+    // The Resources folders EquipmentManager loads; types without a name (shields, the jailers' chains) aren't the player's.
+    void ReadWeapons()
+    {
+        more["weapons"] = new List<Dict>();
+        more["curses"] = new List<Dict>();
+        foreach (var w in Resources.LoadAll<WeaponData>("Data/Equipment Data/Weapons").Where(w => w).GroupBy(w => w.EquipmentType).Select(g => g.First()))
+        {
+            string id = w.EquipmentType.ToString();
+            if (English($"UpgradeSystem/{id}/Name") == null) continue;
+            more["weapons"].Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"UpgradeSystem/{id}/Name"), ["descTerm"] = Term($"UpgradeSystem/{id}/Description"), ["loreTerm"] = Term($"UpgradeSystem/{id}/Lore"),
+                ["family"] = w.PrimaryEquipmentType.ToString(), ["legendary"] = EquipmentManager.LegendaryWeapons.Contains(w.EquipmentType),
+                ["speed"] = w.Speed, ["damage"] = (w.Combos ?? new List<PlayerWeapon.WeaponCombos>()).Select(c => c.Damage).ToList(),
+                ["heavyDamage"] = w.HeavyAttackCombo?.Damage,
+            });
+            if (w.UISprite) SaveSprite(w.UISprite, "weapons", id);
+        }
+        foreach (var c in Resources.LoadAll<CurseData>("Data/Equipment Data/Curses").Where(c => c).GroupBy(c => c.EquipmentType).Select(g => g.First()))
+        {
+            string id = c.EquipmentType.ToString();
+            if (English($"UpgradeSystem/{id}/Name") == null) continue;
+            more["curses"].Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"UpgradeSystem/{id}/Name"), ["descTerm"] = Term($"UpgradeSystem/{id}/Description"), ["loreTerm"] = Term($"UpgradeSystem/{id}/Lore"),
+                ["family"] = c.PrimaryEquipmentType.ToString(), ["damage"] = c.Damage, ["delay"] = c.Delay,
+                ["castingDuration"] = c.CastingDuration, ["chance"] = c.Chance, ["canAim"] = c.CanAim,
+            });
+            if (c.UISprite) SaveSprite(c.UISprite, "curses", id);
+        }
+        Logger.LogInfo($"weapons: {more["weapons"].Count}, curses: {more["curses"].Count}");
+    }
+
+    void ReadTraits()
+    {
+        var groups = new (string, List<FollowerTrait.TraitType>)[] {
+            ("starting", FollowerTrait.StartingTraits), ("rareStarting", FollowerTrait.RareStartingTraits), ("single", FollowerTrait.SingleTraits),
+            ("faithful", FollowerTrait.FaithfulTraits), ("good", FollowerTrait.GoodTraits), ("unique", FollowerTrait.UniqueTraits),
+            ("sin", FollowerTrait.SinTraits), ("majorDlc", FollowerTrait.MajorDLCTraits), ("winter", FollowerTrait.WinterSpecificTraits),
+            ("pureBlood", FollowerTrait.PureBloodTraits), ("excludedFromMating", FollowerTrait.ExcludedFromMating) };
+        more["traits"] = new List<Dict>();
+        foreach (var id in Enum.GetNames(typeof(FollowerTrait.TraitType)))
+        {
+            if (id == "None" || English($"Traits/{id}") == null) continue;
+            var t = (FollowerTrait.TraitType)Enum.Parse(typeof(FollowerTrait.TraitType), id);
+            string other = FollowerTrait.ExclusiveTraits.TryGetValue(t, out var x) ? x.ToString()
+                : FollowerTrait.ExclusiveTraits.Where(p => p.Value == t).Select(p => p.Key.ToString()).FirstOrDefault();
+            more["traits"].Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"Traits/{id}"), ["descTerm"] = Term($"Traits/{id}/Description"),
+                ["positive"] = FollowerTrait.IsPositiveTrait(t), ["groups"] = groups.Where(g => g.Item2.Contains(t)).Select(g => g.Item1).ToList(),
+                ["exclusiveWith"] = other,
+            });
+        }
+        Logger.LogInfo($"traits: {more["traits"].Count}");
+    }
+
+    // TailorManager.ClothingData (Resources), minus what the tailor menu hides; tabs as TailorMenuConfigure builds them.
+    void ReadOutfits()
+    {
+        more["outfits"] = new List<Dict>();
+        foreach (var cd in TailorManager.ClothingData.Where(c => c && !c.HideOnTailorMenu).GroupBy(c => c.ClothingType).Select(g => g.First()))
+        {
+            string id = cd.ClothingType.ToString(), protection = cd.ProtectionType.ToString();
+            if (English($"Clothing/{id}/Name") == null) continue;
+            var groups = new List<string>();
+            if (cd.IsHeretic) groups.Add("heretic"); if (cd.IsCultist) groups.Add("cultist");
+            if (cd.IsSinful) groups.Add("sinful"); if (cd.IsPilgrim) groups.Add("pilgrim"); if (cd.IsSecret) groups.Add("secret");
+            more["outfits"].Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"Clothing/{id}/Name"), ["descTerm"] = Term($"Clothing/{id}/Description"),
+                ["textTerms"] = new Dict { ["requirements"] = Term($"Clothing/{id}/Requirements"),
+                    ["protection"] = protection == "None" ? null : Term($"Clothing/FollowerProtectionType/{protection}") },
+                ["cost"] = (cd.Cost ?? new ClothingData.CostItem[0]).Select(c => new Dict { ["item"] = c.ItemType.ToString(), ["quantity"] = c.Cost }).ToList(),
+                ["effects"] = (cd.Effects ?? new CookingData.MealEffect[0]).Select(e => new Dict {
+                    ["type"] = e.MealEffectType.ToString(), ["chance"] = e.Chance,
+                    ["descTerm"] = Term($"CookingData/{e.MealEffectType}/Description") ?? $"CookingData/{e.MealEffectType}/Description" }).ToList(),
+                ["tab"] = cd.SpecialClothing ? "special" : cd.IsMajorDLC ? "majorDlc" : cd.IsDLC ? "dlc" : "default",
+                ["groups"] = groups, ["forSale"] = cd.ForSale,
+            });
+        }
+        Logger.LogInfo($"outfits: {more["outfits"].Count}");
+    }
+
+    // What UIPlayerUpgradesMenuController sells for monster hearts (_crownUpgrades, _crownDLCUpgrades); CrownAbilities.TYPE
+    // is older and unused.
+    static readonly UpgradeSystem.Type[] CrownUpgrades = { UpgradeSystem.Type.Ability_Resurrection, UpgradeSystem.Type.Ability_Eat,
+        UpgradeSystem.Type.Ability_TeleportHome, UpgradeSystem.Type.Ability_BlackHeart, UpgradeSystem.Type.Ability_WinterChoice };
+
+    void ReadCrownAbilities()
+    {
+        more["crownAbilities"] = CrownUpgrades.Select(t => new Dict {
+            ["id"] = t.ToString(), ["nameTerm"] = Term($"UpgradeSystem/{t}/Name"), ["descTerm"] = Term($"UpgradeSystem/{t}/Description"),
+            ["cost"] = UpgradeSystem.GetCost(t).Select(c => new Dict { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
+            ["dlc"] = t == UpgradeSystem.Type.Ability_WinterChoice,
+        }).Where(d => d["nameTerm"] != null).ToList();
+    }
+
+    // ---------- more kinds, phase 2 ----------
+
+    // DoctrineUpgradeSystem.GetIcon reads an Addressables atlas the base loads (Initialise from BaseLocationManager).
+    IEnumerator DoctrineIcons()
+    {
+        var atlas = Traverse.Create(typeof(DoctrineUpgradeSystem)).Field("doctrineIcons");
+        for (float t = 0; atlas.GetValue() == null && t < 20f; t += Time.unscaledDeltaTime) yield return null;
+        if (atlas.GetValue() == null) { Fail("DoctrineIcons", "the doctrine icon atlas never loaded"); yield break; }
+        Try("DoctrineIcons", () =>
+        {
+            foreach (var d in more.TryGetValue("doctrines", out var l) ? l : new List<Dict>())
+            {
+                var sprite = DoctrineUpgradeSystem.GetIcon((DoctrineUpgradeSystem.DoctrineType)Enum.Parse(typeof(DoctrineUpgradeSystem.DoctrineType), (string)d["id"]));
+                if (sprite) SaveSprite(sprite, "doctrines", (string)d["id"]);
+            }
+        });
+    }
+
+    void TraitIcons()
+    {
+        foreach (var d in more.TryGetValue("traits", out var l) ? l : new List<Dict>())
+            try
+            {
+                var sprite = FollowerTrait.GetIcon((FollowerTrait.TraitType)Enum.Parse(typeof(FollowerTrait.TraitType), (string)d["id"]));
+                if (sprite) SaveSprite(sprite, "traits", (string)d["id"]);
+            }
+            catch { }  // the atlas has no icon for some (internal) traits
+    }
+
+    void CrownIcons()
+    {
+        var maps = Resources.FindObjectsOfTypeAll<UpgradeTypeMapping>();
+        foreach (var t in CrownUpgrades)
+        {
+            var sprite = maps.Select(m => { try { return m.GetItem(t)?.Sprite; } catch { return null; } }).FirstOrDefault(s => s);
+            if (sprite) SaveSprite(sprite, "crownAbilities", t.ToString());
+        }
+    }
+
+    // The player-upgrades menu's own fleece buttons (FleeceItemBuyable): number, cost (a talisman, or sin when _sinCost
+    // is set), icon from its FleeceIconMapping. Names are TarotCards/Fleece{n}/Name (GetFleeceDisplayName uses the wrong term).
+    void ReadFleeces()
+    {
+        var packs = new (string, List<PlayerFleeceManager.FleeceType>)[] { ("sinful", PlayerFleeceManager.SinfulPackFleeces),
+            ("heretic", PlayerFleeceManager.HereticPackFleeces), ("pilgrim", PlayerFleeceManager.PilgrimPackFleeces),
+            ("woolhaven", PlayerFleeceManager.WoolhavenPackFleeces) };
+        var icons = Resources.FindObjectsOfTypeAll<FleeceIconMapping>();
+        var list = new List<Dict>();
+        foreach (var b in Resources.FindObjectsOfTypeAll<Lamb.UI.FleeceItemBuyable>().GroupBy(b => b.Fleece).Select(g => g.First()).OrderBy(b => b.Fleece))
+        {
+            int n = b.Fleece;
+            if (English($"TarotCards/Fleece{n}/Name") == null) continue;
+            var type = (PlayerFleeceManager.FleeceType)n;
+            string id = Enum.IsDefined(typeof(PlayerFleeceManager.FleeceType), n) ? type.ToString() : $"Fleece{n}";
+            int sin = Traverse.Create(b).Field("_sinCost").GetValue<int>();
+            list.Add(new Dict {
+                ["id"] = id, ["nameTerm"] = Term($"TarotCards/Fleece{n}/Name"), ["descTerm"] = Term($"TarotCards/Fleece{n}/Description"),
+                ["fleece"] = n, ["cost"] = new List<Dict> { new Dict { ["item"] = sin != -1 ? "PLEASURE_POINT" : "TALISMAN", ["quantity"] = sin != -1 ? sin : 1 } },
+                ["pack"] = packs.Where(p => p.Item2.Contains(type)).Select(p => p.Item1).FirstOrDefault(),
+            });
+            var sprite = icons.Select(m => { try { return m.GetImage(n); } catch { return null; } }).FirstOrDefault(s => s);
+            if (sprite) SaveSprite(sprite, "fleeces", id);
+        }
+        if (list.Count == 0) throw new Exception("no FleeceItemBuyable loaded");
+        more["fleeces"] = list;
+        Logger.LogInfo($"fleeces: {list.Count}");
     }
 
     void ReadTranslations()
