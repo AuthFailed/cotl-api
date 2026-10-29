@@ -1,0 +1,89 @@
+{
+  "alternative": null,
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 75
+    },
+    {
+      "item": "FOLLOWERS",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك التضحية بتابع لزيادة قوتك وفتح قدرات وأسلحة جديدة. سيكون الأتباع ذوو المستوى الأعلى أكثر قيمة عند التضحية.",
+    "de": "Opfere einen Anhänger, um stärker zu werden und neue Fähigkeiten und Waffen freizuschalten. Anhänger höherer Stufen sind bei Opferungen wertvoller.",
+    "en": "Sacrifice a Follower to grow your strength and unlock new abilities and weapons. Higher level Followers will be more valuable when sacrificed.",
+    "es": "Sacrifica a un adepto para aumentar tu fuerza y desbloquear nuevas habilidades y armas. Los adeptos de mayor nivel serán más valiosos al ser sacrificados.",
+    "fr": "Sacrifiez un adepte pour absorber sa puissance. Permet de débloquer de nouveaux pouvoirs et de nouvelles armes. Les adeptes de niveau supérieur ont plus de valeur lorsqu'ils sont sacrifiés.",
+    "fr-CA": "Sacrifiez un adepte pour absorber sa puissance. Permet de débloquer de nouveaux pouvoirs et de nouvelles armes. Les adeptes de niveau supérieur ont plus de valeur lorsqu'ils sont sacrifiés.",
+    "it": "Sacrifica un membro del Culto per rafforzarti e sbloccare nuove armi e abilità. Più alto è il livello del membro, più sarà prezioso.",
+    "ja": "信者を生贄に捧げることで力を得て、新しいアビリティや武器をアンロックする。レベルの高い信者を捧げると、報酬の価値が上昇する",
+    "ko": "추종자를 하나 번제해 힘을 획득하고 새로운 능력과 무기를 해금합니다. 더 높은 레벨의 추종자일수록 번제할 때 더욱 가치있습니다.",
+    "nl": "Offer een volgeling op om je kracht te verhogen en nieuwe vaardigheden en wapens te ontgrendelen. Volgelingen van een hoger level zijn meer waard wanneer ze worden opgeofferd.",
+    "pt-BR": "Sacrifique um Seguidor para aumentar sua força e desbloquear novas habilidades e armas. Seguidores com níveis mais altos serão mais valiosos quando sacrificados.",
+    "ru": "Вы приносите последователя в жертву, чтобы стать сильнее, а также открыть новые способности и оружие. Чем выше уровень последователя, тем ценнее жертва.",
+    "tr": "Gücünü artırmanın yanı sıra yeni yetenekler ve silahlar açmak için bir Takipçi'yi kurban edersin. Kazancın kurban ettiğin Takipçi seviyesine bağlı olarak artar.",
+    "zh-CN": "献祭一位教徒，壮大你的力量，解锁新的能力与武器。等级较高的教徒被献祭时，价值更高。",
+    "zh-TW": "獻祭一位教徒，壯大你的力量，解鎖新的能力與武器。等級較高的教徒被獻祭時，價值更高。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك التضحية بتابع لزيادة قوتك وفتح قدرات وأسلحة جديدة. سيكون الأتباع ذوو المستوى الأعلى أكثر قيمة عند التضحية.",
+    "de": "Opfere einen Anhänger, um stärker zu werden und neue Fähigkeiten und Waffen freizuschalten. Anhänger höherer Stufen sind bei Opferungen wertvoller.",
+    "en": "Sacrifice a Follower to grow your strength and unlock new abilities and weapons. Higher level Followers will be more valuable when sacrificed.",
+    "es": "Sacrifica a un adepto para aumentar tu fuerza y desbloquear nuevas habilidades y armas. Los adeptos de mayor nivel serán más valiosos al ser sacrificados.",
+    "fr": "Sacrifiez un adepte pour absorber sa puissance. Permet de débloquer de nouveaux pouvoirs et de nouvelles armes. Les adeptes de niveau supérieur ont plus de valeur lorsqu'ils sont sacrifiés.",
+    "fr-CA": "Sacrifiez un adepte pour absorber sa puissance. Permet de débloquer de nouveaux pouvoirs et de nouvelles armes. Les adeptes de niveau supérieur ont plus de valeur lorsqu'ils sont sacrifiés.",
+    "it": "Sacrifica un membro del Culto per rafforzarti e sbloccare nuove armi e abilità. Più alto è il livello del membro, più sarà prezioso.",
+    "ja": "信者を生贄に捧げることで力を得て、新しいアビリティや武器をアンロックする。レベルの高い信者を捧げると、報酬の価値が上昇する",
+    "ko": "추종자를 하나 번제해 힘을 획득하고 새로운 능력과 무기를 해금합니다. 더 높은 레벨의 추종자일수록 번제할 때 더욱 가치있습니다.",
+    "nl": "Offer een volgeling op om je kracht te verhogen en nieuwe vaardigheden en wapens te ontgrendelen. Volgelingen van een hoger level zijn meer waard wanneer ze worden opgeofferd.",
+    "pt-BR": "Sacrifique um Seguidor para aumentar sua força e desbloquear novas habilidades e armas. Seguidores com níveis mais altos serão mais valiosos quando sacrificados.",
+    "ru": "Вы приносите последователя в жертву, чтобы стать сильнее, а также открыть новые способности и оружие. Чем выше уровень последователя, тем ценнее жертва.",
+    "tr": "Gücünü artırmanın yanı sıra yeni yetenekler ve silahlar açmak için bir Takipçi'yi kurban edersin. Kazancın kurban ettiğin Takipçi seviyesine bağlı olarak artar.",
+    "zh-CN": "献祭一位教徒，壮大你的力量，解锁新的能力与武器。等级较高的教徒被献祭时，价值更高。",
+    "zh-TW": "獻祭一位教徒，壯大你的力量，解鎖新的能力與武器。等級較高的教徒被獻祭時，價值更高。"
+  },
+  "doctrine": "Special_Sacrifice",
+  "faith": -10.0,
+  "group": "secondary",
+  "icon": "icons/rituals/Ritual_Sacrifice.png",
+  "id": "Ritual_Sacrifice",
+  "name": {
+    "ar": "التضحية بجسد",
+    "de": "Opfer des Fleisches",
+    "en": "Sacrifice of the Flesh",
+    "es": "Sacrificio de carne",
+    "fr": "Rituel sacrificiel",
+    "fr-CA": "Rituel sacrificiel",
+    "it": "Sacrificio della carne",
+    "ja": "生贄の儀式",
+    "ko": "살점의 번제",
+    "nl": "Offer van het vlees",
+    "pt-BR": "Sacrifício da Carne",
+    "ru": "Кровавый дар",
+    "tr": "Kurban",
+    "zh-CN": "献祭肉身",
+    "zh-TW": "獻祭肉身"
+  },
+  "namePlain": {
+    "ar": "التضحية بجسد",
+    "de": "Opfer des Fleisches",
+    "en": "Sacrifice of the Flesh",
+    "es": "Sacrificio de carne",
+    "fr": "Rituel sacrificiel",
+    "fr-CA": "Rituel sacrificiel",
+    "it": "Sacrificio della carne",
+    "ja": "生贄の儀式",
+    "ko": "살점의 번제",
+    "nl": "Offer van het vlees",
+    "pt-BR": "Sacrifício da Carne",
+    "ru": "Кровавый дар",
+    "tr": "Kurban",
+    "zh-CN": "献祭肉身",
+    "zh-TW": "獻祭肉身"
+  },
+  "sin": 0,
+  "trait": "SacrificeEnthusiast",
+  "warmth": 0.0
+}

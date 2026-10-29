@@ -1,0 +1,57 @@
+{
+  "alternative": null,
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 10
+    },
+    {
+      "item": "BONE",
+      "quantity": 25
+    }
+  ],
+  "description": {},
+  "descriptionPlain": {},
+  "doctrine": "Special_Bonfire",
+  "faith": 30.0,
+  "group": "secondary",
+  "icon": "icons/rituals/Ritual_FirePit.png",
+  "id": "Ritual_FirePit",
+  "name": {
+    "ar": "طقس رقصة النار",
+    "de": "Feuergrube",
+    "en": "Bonfire Ritual",
+    "es": "Fogata",
+    "fr": "Feu de joie",
+    "fr-CA": "Feu de joie",
+    "it": "Rito della pira",
+    "ja": "大篝火",
+    "ko": "화톳불 의식",
+    "nl": "Vreugdevuurritueel",
+    "pt-BR": "Fogueira",
+    "ru": "Огненная яма",
+    "tr": "Şenlik Ayini",
+    "zh-CN": "火堆仪式",
+    "zh-TW": "火堆儀式"
+  },
+  "namePlain": {
+    "ar": "طقس رقصة النار",
+    "de": "Feuergrube",
+    "en": "Bonfire Ritual",
+    "es": "Fogata",
+    "fr": "Feu de joie",
+    "fr-CA": "Feu de joie",
+    "it": "Rito della pira",
+    "ja": "大篝火",
+    "ko": "화톳불 의식",
+    "nl": "Vreugdevuurritueel",
+    "pt-BR": "Fogueira",
+    "ru": "Огненная яма",
+    "tr": "Şenlik Ayini",
+    "zh-CN": "火堆仪式",
+    "zh-TW": "火堆儀式"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

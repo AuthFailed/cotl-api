@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ritual",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "cost",
+    "faith",
+    "warmth",
+    "sin",
+    "trait",
+    "group",
+    "alternative",
+    "doctrine"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/rituals/[A-Za-z0-9_-]+\\.png$"
+    },
+    "cost": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "quantity"
+        ],
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "faith": {
+      "type": "number",
+      "description": "faith change when performed (base value, before cult traits)"
+    },
+    "warmth": {
+      "type": "number",
+      "description": "warmth change when performed"
+    },
+    "sin": {
+      "type": "integer",
+      "description": "sin change when performed"
+    },
+    "trait": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "cult trait performing it can give"
+    },
+    "group": {
+      "enum": [
+        "secondary",
+        "pair",
+        "single",
+        "special"
+      ],
+      "description": "how the ritual menu lists it; pair rituals come from a doctrine choice"
+    },
+    "alternative": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "pair rituals: the other choice of the same doctrine (the Crystal Doctrine unlocks both)"
+    },
+    "doctrine": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "the doctrine that unlocks it"
+    }
+  }
+}

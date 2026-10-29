@@ -1,0 +1,89 @@
+{
+  "alternative": "Ritual_Ressurect",
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 75
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "يمكنك إقامة جنازة لتابع أدركه الموت حديثًا واكتساب +20 من العقيدة.",
+    "de": "Halte ein Begräbnis für einen kürzlich verstorbenen Anhänger ab und erhalte +20 Glauben.",
+    "en": "Conduct a funeral for a recently passed Follower and gain +20 faith.",
+    "es": "Celebra un funeral para un adepto que haya fallecido recientemente y gana 20 de fe.",
+    "fr": "Permet d'organiser les funérailles d'un adepte mort récemment et de gagner +20 de foi.",
+    "fr-CA": "Permet d'organiser les funérailles d'un adepte mort récemment et de gagner +20 de foi.",
+    "it": "Celebra il funerale di un membro del Culto recentemente scomparso. +20 Fede.",
+    "ja": "最近亡くなった信者を弔うための葬式を行い、信仰を20得る",
+    "ko": "최근 사망한 추종자의 장례식을 거행하고 +20 신앙을 획득합니다.",
+    "nl": "Houd een begrafenis voor een recent overleden volgeling en krijg +20 geloof.",
+    "pt-BR": "Conduza um funeral para um Seguidor recém-falecido e ganhe +20 de fé.",
+    "ru": "Вы получаете 20 ед. веры, совершив панихиду по своему недавно умершему последователю.",
+    "tr": "Yakın zamanda ölen bir Takipçi için bir cenaze düzenlersin ve İnanç 20 artar.",
+    "zh-CN": "为近日过世的一位教徒举行葬礼，信仰值 +20。",
+    "zh-TW": "為近日過世的一位教徒舉行葬禮，信仰值 +20。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك إقامة جنازة لتابع أدركه الموت حديثًا واكتساب +20 من العقيدة.",
+    "de": "Halte ein Begräbnis für einen kürzlich verstorbenen Anhänger ab und erhalte +20 Glauben.",
+    "en": "Conduct a funeral for a recently passed Follower and gain +20 faith.",
+    "es": "Celebra un funeral para un adepto que haya fallecido recientemente y gana 20 de fe.",
+    "fr": "Permet d'organiser les funérailles d'un adepte mort récemment et de gagner +20 de foi.",
+    "fr-CA": "Permet d'organiser les funérailles d'un adepte mort récemment et de gagner +20 de foi.",
+    "it": "Celebra il funerale di un membro del Culto recentemente scomparso. +20 Fede.",
+    "ja": "最近亡くなった信者を弔うための葬式を行い、信仰を20得る",
+    "ko": "최근 사망한 추종자의 장례식을 거행하고 +20 신앙을 획득합니다.",
+    "nl": "Houd een begrafenis voor een recent overleden volgeling en krijg +20 geloof.",
+    "pt-BR": "Conduza um funeral para um Seguidor recém-falecido e ganhe +20 de fé.",
+    "ru": "Вы получаете 20 ед. веры, совершив панихиду по своему недавно умершему последователю.",
+    "tr": "Yakın zamanda ölen bir Takipçi için bir cenaze düzenlersin ve İnanç 20 artar.",
+    "zh-CN": "为近日过世的一位教徒举行葬礼，信仰值 +20。",
+    "zh-TW": "為近日過世的一位教徒舉行葬禮，信仰值 +20。"
+  },
+  "doctrine": "DeathSacrifice_Funeral",
+  "faith": 20.0,
+  "group": "pair",
+  "icon": "icons/rituals/Ritual_Funeral.png",
+  "id": "Ritual_Funeral",
+  "name": {
+    "ar": "الجنازة",
+    "de": "Begräbnis",
+    "en": "Funeral",
+    "es": "Funeral",
+    "fr": "Rituel funéraire",
+    "fr-CA": "Rituel funéraire",
+    "it": "Rito delle esequie",
+    "ja": "葬式",
+    "ko": "장례식",
+    "nl": "Begrafenis",
+    "pt-BR": "Funeral",
+    "ru": "Панихида",
+    "tr": "Cenaze",
+    "zh-CN": "葬礼",
+    "zh-TW": "葬禮"
+  },
+  "namePlain": {
+    "ar": "الجنازة",
+    "de": "Begräbnis",
+    "en": "Funeral",
+    "es": "Funeral",
+    "fr": "Rituel funéraire",
+    "fr-CA": "Rituel funéraire",
+    "it": "Rito delle esequie",
+    "ja": "葬式",
+    "ko": "장례식",
+    "nl": "Begrafenis",
+    "pt-BR": "Funeral",
+    "ru": "Панихида",
+    "tr": "Cenaze",
+    "zh-CN": "葬礼",
+    "zh-TW": "葬禮"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

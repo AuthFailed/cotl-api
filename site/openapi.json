@@ -341,6 +341,131 @@
         "title": "Item",
         "type": "object"
       },
+      "Ritual": {
+        "properties": {
+          "alternative": {
+            "description": "pair rituals: the other choice of the same doctrine (the Crystal Doctrine unlocks both)",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "doctrine": {
+            "description": "the doctrine that unlocks it",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "faith": {
+            "description": "faith change when performed (base value, before cult traits)",
+            "type": "number"
+          },
+          "group": {
+            "description": "how the ritual menu lists it; pair rituals come from a doctrine choice",
+            "enum": [
+              "secondary",
+              "pair",
+              "single",
+              "special"
+            ]
+          },
+          "icon": {
+            "pattern": "^icons/rituals/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "sin": {
+            "description": "sin change when performed",
+            "type": "integer"
+          },
+          "trait": {
+            "description": "cult trait performing it can give",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "warmth": {
+            "description": "warmth change when performed",
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "cost",
+          "faith",
+          "warmth",
+          "sin",
+          "trait",
+          "group",
+          "alternative",
+          "doctrine"
+        ],
+        "title": "Ritual",
+        "type": "object"
+      },
       "Skin": {
         "properties": {
           "description": {
@@ -533,7 +658,7 @@
     }
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:51:32Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:59:39Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },
@@ -768,6 +893,68 @@
         "summary": "A item's icon",
         "tags": [
           "items"
+        ]
+      }
+    },
+    "/v1/icons/rituals/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Ritual_AlmsToPoor",
+                "Ritual_Ascend",
+                "Ritual_AssignFaithEnforcer",
+                "Ritual_AssignTaxCollector",
+                "Ritual_AtoneSin",
+                "Ritual_BecomeDisciple",
+                "Ritual_Brainwashing",
+                "Ritual_Cannibal",
+                "Ritual_ConvertToRot",
+                "Ritual_DonationRitual",
+                "Ritual_Enlightenment",
+                "Ritual_Fast",
+                "Ritual_FasterBuilding",
+                "Ritual_Feast",
+                "Ritual_Fightpit",
+                "Ritual_FirePit",
+                "Ritual_FishingRitual",
+                "Ritual_FollowerWedding",
+                "Ritual_Funeral",
+                "Ritual_Halloween",
+                "Ritual_HarvestRitual",
+                "Ritual_Holiday",
+                "Ritual_Nudism",
+                "Ritual_Purge",
+                "Ritual_RanchHarvest",
+                "Ritual_RanchMeat",
+                "Ritual_Ressurect",
+                "Ritual_Sacrifice",
+                "Ritual_Snowman",
+                "Ritual_Wedding",
+                "Ritual_WorkThroughNight"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A ritual's icon",
+        "tags": [
+          "rituals"
         ]
       }
     },
@@ -1385,6 +1572,98 @@
         "summary": "One item",
         "tags": [
           "items"
+        ]
+      }
+    },
+    "/v1/rituals.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Ritual"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every ritual",
+        "tags": [
+          "rituals"
+        ]
+      }
+    },
+    "/v1/rituals/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Ritual_AlmsToPoor",
+                "Ritual_Ascend",
+                "Ritual_AssignFaithEnforcer",
+                "Ritual_AssignTaxCollector",
+                "Ritual_AtoneSin",
+                "Ritual_BecomeDisciple",
+                "Ritual_Brainwashing",
+                "Ritual_Cannibal",
+                "Ritual_ConvertToRot",
+                "Ritual_DonationRitual",
+                "Ritual_Enlightenment",
+                "Ritual_Fast",
+                "Ritual_FasterBuilding",
+                "Ritual_Feast",
+                "Ritual_Fightpit",
+                "Ritual_FirePit",
+                "Ritual_FishingRitual",
+                "Ritual_FollowerWedding",
+                "Ritual_Funeral",
+                "Ritual_Halloween",
+                "Ritual_HarvestRitual",
+                "Ritual_Holiday",
+                "Ritual_Nudism",
+                "Ritual_Purge",
+                "Ritual_RanchHarvest",
+                "Ritual_RanchMeat",
+                "Ritual_Ressurect",
+                "Ritual_Sacrifice",
+                "Ritual_Snowman",
+                "Ritual_Wedding",
+                "Ritual_WorkThroughNight"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Ritual"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One ritual",
+        "tags": [
+          "rituals"
         ]
       }
     },
@@ -2036,6 +2315,10 @@
     {
       "description": "Follower forms: where they drop, whether hidden until unlocked",
       "name": "skins"
+    },
+    {
+      "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them",
+      "name": "rituals"
     }
   ]
 }

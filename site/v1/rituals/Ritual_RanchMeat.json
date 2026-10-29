@@ -1,0 +1,89 @@
+{
+  "alternative": "Ritual_RanchHarvest",
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 125
+    },
+    {
+      "item": "WOOL",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "يمكنك ذبح حيوانات المَربى للحصول على <color=#FFD201>2x</color> من اللحم لمدة يوم.",
+    "de": "Schlachte 1 Tag lang Ranch-Tiere für <color=#FFD201>2x</color> Fleisch.",
+    "en": "Butcher Ranch Animals for <color=#FFD201>2x</color> meat for 1 day.",
+    "es": "Sacrifica a un animal del rancho para conseguir <color=#FFD201>x2</color> de carne durante 1 día.",
+    "fr": "La viande obtenue en découpant des animaux du ranch est multipliée par <color=#FFD201>2</color> pendant 1 jour.",
+    "fr-CA": "La viande obtenue en abattant des animaux du ranch est multipliée par <color=#FFD201>2</color> pendant 1 jour.",
+    "it": "Gli animali da allevamento macellati forniscono il <color=#FFD201>doppio</color> della carne per un giorno.",
+    "ja": "1日間、動物を畜殺して得られる肉の量が<color=#FFD201>2倍</color>になる儀式を教会堂で行う",
+    "ko": "1일 동안 가축을 도살해 얻는 고기 수확량이 <color=#FFD201>2배</color>가 됩니다.",
+    "nl": "Slacht 1 dag lang boerderijdieren voor <color=#FFD201>2 keer</color> zoveel vlees.",
+    "pt-BR": "Obtenha <color=#FFD201>2x</color> mais carne ao carnear Animais de Rancho por 1 dia.",
+    "ru": "Животные дают <color=#FFD201>вдвое</color> больше мяса в течение суток.",
+    "tr": "1 günlüğüne Çiftlik Hayvanlarından <color=#FFD201>2 kat</color> et çıkar.",
+    "zh-CN": "屠宰牧场动物可获得 <color=#FFD201>2x</color> 肉食，持续 1 天。",
+    "zh-TW": "1 天內，宰殺動物獲得的肉量變成 <color=#FFD201>2 倍</color>。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك ذبح حيوانات المَربى للحصول على 2x من اللحم لمدة يوم.",
+    "de": "Schlachte 1 Tag lang Ranch-Tiere für 2x Fleisch.",
+    "en": "Butcher Ranch Animals for 2x meat for 1 day.",
+    "es": "Sacrifica a un animal del rancho para conseguir x2 de carne durante 1 día.",
+    "fr": "La viande obtenue en découpant des animaux du ranch est multipliée par 2 pendant 1 jour.",
+    "fr-CA": "La viande obtenue en abattant des animaux du ranch est multipliée par 2 pendant 1 jour.",
+    "it": "Gli animali da allevamento macellati forniscono il doppio della carne per un giorno.",
+    "ja": "1日間、動物を畜殺して得られる肉の量が2倍になる儀式を教会堂で行う",
+    "ko": "1일 동안 가축을 도살해 얻는 고기 수확량이 2배가 됩니다.",
+    "nl": "Slacht 1 dag lang boerderijdieren voor 2 keer zoveel vlees.",
+    "pt-BR": "Obtenha 2x mais carne ao carnear Animais de Rancho por 1 dia.",
+    "ru": "Животные дают вдвое больше мяса в течение суток.",
+    "tr": "1 günlüğüne Çiftlik Hayvanlarından 2 kat et çıkar.",
+    "zh-CN": "屠宰牧场动物可获得 2x 肉食，持续 1 天。",
+    "zh-TW": "1 天內，宰殺動物獲得的肉量變成 2 倍。"
+  },
+  "doctrine": "Winter_RanchMeat",
+  "faith": 0.0,
+  "group": "pair",
+  "icon": "icons/rituals/Ritual_RanchMeat.png",
+  "id": "Ritual_RanchMeat",
+  "name": {
+    "ar": "طقس الالتهام",
+    "de": "Ritual des Fressens",
+    "en": "Ritual of Gorging",
+    "es": "Ritual de la glotonería",
+    "fr": "Rituel du gavage",
+    "fr-CA": "Rituel du gavage",
+    "it": "Rito dell'abbuffata",
+    "ja": "飽食の儀式",
+    "ko": "탐식의 의식",
+    "nl": "Vraatritueel",
+    "pt-BR": "Ritual da Fartura",
+    "ru": "Ритуал насыщения",
+    "tr": "Tıkınma Ayini",
+    "zh-CN": "暴食仪式",
+    "zh-TW": "暴食儀式"
+  },
+  "namePlain": {
+    "ar": "طقس الالتهام",
+    "de": "Ritual des Fressens",
+    "en": "Ritual of Gorging",
+    "es": "Ritual de la glotonería",
+    "fr": "Rituel du gavage",
+    "fr-CA": "Rituel du gavage",
+    "it": "Rito dell'abbuffata",
+    "ja": "飽食の儀式",
+    "ko": "탐식의 의식",
+    "nl": "Vraatritueel",
+    "pt-BR": "Ritual da Fartura",
+    "ru": "Ритуал насыщения",
+    "tr": "Tıkınma Ayini",
+    "zh-CN": "暴食仪式",
+    "zh-TW": "暴食儀式"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

@@ -1,0 +1,89 @@
+{
+  "alternative": "Ritual_Wedding",
+  "cost": [
+    {
+      "item": "FOLLOWERS",
+      "quantity": 2
+    },
+    {
+      "item": "BONE",
+      "quantity": 75
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تكليف تابعَين بالقتال حتى الموت - ما لم تأخذك الرحمة بهما بالطبع...",
+    "de": "Befiehl 2 Anhängern, bis auf den Tod zu kämpfen – es sei denn, natürlich, du entscheidest dich, Gnade zu zeigen …",
+    "en": "Command 2 Followers to fight to the death - unless, of course, you decide to show mercy...",
+    "es": "Obliga a 2 adeptos a una lucha a muerte. A no ser, por supuesto, que decidas ofrecerles una muestra de piedad...",
+    "fr": "Permet d'ordonner à deux adeptes de se battre jusqu'à la mort... À moins, bien sûr, que vous décidiez de faire preuve de clémence...",
+    "fr-CA": "Permet d'ordonner à 2 adeptes de se battre à mort... À moins, bien sûr, que vous décidiez de faire preuve de clémence...",
+    "it": "Ordina a due membri del Culto di combattere all'ultimo sangue... Salvo che tu non voglia mostrare clemenza.",
+    "ja": "2人の信者を選び、どちらかが死ぬまで戦わせる――あなたが慈悲深ければ話は別だが…",
+    "ko": "추종자 2명에게 명령해 죽을 때까지 싸우게 합니다. 물론, 당신이 자비를 보이기 전까지 말입니다...",
+    "nl": "Beveel 2 volgelingen om te vechten tot de dood erop volgt, tenzij je natuurlijk besluit genade te tonen...",
+    "pt-BR": "Ordene que 2 Seguidores lutem até a morte. A não ser que você decida mostrar piedade, claro...",
+    "ru": "Вы можете приказать 2 своим последователям биться насмерть. При желании поединок можно прервать.",
+    "tr": "2 Takipçi'ye ölümüne dövüşmelerini emredersin, tabii içinden merhamet göstermek gelmiyorsa...",
+    "zh-CN": "命令 2 位教徒互斗到死——当然了，你也可以大发慈悲……",
+    "zh-TW": "命令 2 位教徒互鬥到死——當然了，你也可以大發慈悲……"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك تكليف تابعَين بالقتال حتى الموت - ما لم تأخذك الرحمة بهما بالطبع...",
+    "de": "Befiehl 2 Anhängern, bis auf den Tod zu kämpfen – es sei denn, natürlich, du entscheidest dich, Gnade zu zeigen …",
+    "en": "Command 2 Followers to fight to the death - unless, of course, you decide to show mercy...",
+    "es": "Obliga a 2 adeptos a una lucha a muerte. A no ser, por supuesto, que decidas ofrecerles una muestra de piedad...",
+    "fr": "Permet d'ordonner à deux adeptes de se battre jusqu'à la mort... À moins, bien sûr, que vous décidiez de faire preuve de clémence...",
+    "fr-CA": "Permet d'ordonner à 2 adeptes de se battre à mort... À moins, bien sûr, que vous décidiez de faire preuve de clémence...",
+    "it": "Ordina a due membri del Culto di combattere all'ultimo sangue... Salvo che tu non voglia mostrare clemenza.",
+    "ja": "2人の信者を選び、どちらかが死ぬまで戦わせる――あなたが慈悲深ければ話は別だが…",
+    "ko": "추종자 2명에게 명령해 죽을 때까지 싸우게 합니다. 물론, 당신이 자비를 보이기 전까지 말입니다...",
+    "nl": "Beveel 2 volgelingen om te vechten tot de dood erop volgt, tenzij je natuurlijk besluit genade te tonen...",
+    "pt-BR": "Ordene que 2 Seguidores lutem até a morte. A não ser que você decida mostrar piedade, claro...",
+    "ru": "Вы можете приказать 2 своим последователям биться насмерть. При желании поединок можно прервать.",
+    "tr": "2 Takipçi'ye ölümüne dövüşmelerini emredersin, tabii içinden merhamet göstermek gelmiyorsa...",
+    "zh-CN": "命令 2 位教徒互斗到死——当然了，你也可以大发慈悲……",
+    "zh-TW": "命令 2 位教徒互鬥到死——當然了，你也可以大發慈悲……"
+  },
+  "doctrine": "LawOrder_FightPitRitual",
+  "faith": 20.0,
+  "group": "pair",
+  "icon": "icons/rituals/Ritual_Fightpit.png",
+  "id": "Ritual_Fightpit",
+  "name": {
+    "ar": "طقس ساحة القتال",
+    "de": "Ritual der Kampfgrube",
+    "en": "Fight Pit Ritual",
+    "es": "Ritual del foso de peleas",
+    "fr": "Rituel de l'arène",
+    "fr-CA": "Rituel de l'arène",
+    "it": "Rito della fossa dei duelli",
+    "ja": "死闘の儀式",
+    "ko": "투기장의 의식",
+    "nl": "Vechtkuilritueel",
+    "pt-BR": "Ritual de Luta",
+    "ru": "Ритуальный поединок",
+    "tr": "Dövüş Çukuru Ayini",
+    "zh-CN": "决斗场仪式",
+    "zh-TW": "決鬥場儀式"
+  },
+  "namePlain": {
+    "ar": "طقس ساحة القتال",
+    "de": "Ritual der Kampfgrube",
+    "en": "Fight Pit Ritual",
+    "es": "Ritual del foso de peleas",
+    "fr": "Rituel de l'arène",
+    "fr-CA": "Rituel de l'arène",
+    "it": "Rito della fossa dei duelli",
+    "ja": "死闘の儀式",
+    "ko": "투기장의 의식",
+    "nl": "Vechtkuilritueel",
+    "pt-BR": "Ritual de Luta",
+    "ru": "Ритуальный поединок",
+    "tr": "Dövüş Çukuru Ayini",
+    "zh-CN": "决斗场仪式",
+    "zh-TW": "決鬥場儀式"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

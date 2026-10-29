@@ -1,0 +1,89 @@
+{
+  "alternative": "Ritual_Purge",
+  "cost": [
+    {
+      "item": "BONE",
+      "quantity": 100
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 15
+    }
+  ],
+  "description": {
+    "ar": "سيتنافس الأتباع في رقصة جنونية. عليك تحديد راقصك المفضل لتسلم <color=#FFD201>خطيئة</color> <sprite name=\"icon_SinDoctrine\">",
+    "de": "Anhänger treten in einem frivolen Nackttanz gegeneinander an. Suche deinen Lieblingstänzer aus, um <color=#FFD201>Sünde</color> <sprite name=\"icon_SinDoctrine\"> zu erhalten.",
+    "en": "Followers compete in a naughty naked dance. Select your favourite dancer to receive <color=#FFD201>Sin</color> <sprite name=\"icon_SinDoctrine\">",
+    "es": "Los adeptos celebran una competición de baile obscena sin ropa. Elige a tu bailarín favorito para recibir <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "fr": "Les adeptes s'affrontent dans une danse nue et provocatrice. Élisez votre danseur préféré et obtenez du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "fr-CA": "Les adeptes s'affrontent dans une danse nue et provocatrice. Élisez votre danseur préféré et obtenez du <color=#FFD201>péché</color> <sprite name=\"icon_SinDoctrine\">.",
+    "it": "I membri del Culto si sfidano in un ballo provocante e senza veli. Scegli il tuo preferito per generare <color=#FFD201>Peccato</color> <sprite name=\"icon_SinDoctrine\">.",
+    "ja": "信者たちが情欲的な裸のダンスをして1日を過ごす。先導者に選ばれた信者は<color=#FFD201>罪</color> <sprite name=\"icon_SinDoctrine\"> を受け取る",
+    "ko": "추종자들이 나체 춤을 추며 경쟁을 벌입니다. 가장 마음에 드는 춤꾼이 <color=#FFD201>죄</color> <sprite name=\"icon_SinDoctrine\">를 받습니다.",
+    "nl": "Volgelingen nemen het tegen elkaar op in een ondeugende naakte dans. Kies je favoriete danser om <color=#FFD201>zonde</color> <sprite name=\"icon_SinDoctrine\"> te ontvangen.",
+    "pt-BR": "Seguidores competem nus em uma dança sensual. Eleja quem dança melhor para receber <color=#FFD201>Pecado</color> <sprite name=\"icon_SinDoctrine\">",
+    "ru": "Нагие последователи состязаются в исполнении сладострастных танцев. Вы можете объявить кого-либо из них симпатягой дня, чтобы породить <color=#FFD201>грех</color> <sprite name=\"icon_SinDoctrine\">.",
+    "tr": "Takipçiler çıplak dans ederek yarışırlar. <color=#FFD201>Günah</color> <sprite name=\"icon_SinDoctrine\"> kazanması için en beğendiğin dansçıyı seç.",
+    "zh-CN": "教徒将举办挑逗的裸体舞蹈比赛。选出你最喜爱的舞者获得<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">",
+    "zh-TW": "教徒將舉辦挑逗的裸體舞蹈比賽。選出你最喜愛的舞者獲得<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">"
+  },
+  "descriptionPlain": {
+    "ar": "سيتنافس الأتباع في رقصة جنونية. عليك تحديد راقصك المفضل لتسلم خطيئة",
+    "de": "Anhänger treten in einem frivolen Nackttanz gegeneinander an. Suche deinen Lieblingstänzer aus, um Sünde zu erhalten.",
+    "en": "Followers compete in a naughty naked dance. Select your favourite dancer to receive Sin",
+    "es": "Los adeptos celebran una competición de baile obscena sin ropa. Elige a tu bailarín favorito para recibir Pecado",
+    "fr": "Les adeptes s'affrontent dans une danse nue et provocatrice. Élisez votre danseur préféré et obtenez du péché.",
+    "fr-CA": "Les adeptes s'affrontent dans une danse nue et provocatrice. Élisez votre danseur préféré et obtenez du péché.",
+    "it": "I membri del Culto si sfidano in un ballo provocante e senza veli. Scegli il tuo preferito per generare Peccato.",
+    "ja": "信者たちが情欲的な裸のダンスをして1日を過ごす。先導者に選ばれた信者は罪 を受け取る",
+    "ko": "추종자들이 나체 춤을 추며 경쟁을 벌입니다. 가장 마음에 드는 춤꾼이 죄 를 받습니다.",
+    "nl": "Volgelingen nemen het tegen elkaar op in een ondeugende naakte dans. Kies je favoriete danser om zonde te ontvangen.",
+    "pt-BR": "Seguidores competem nus em uma dança sensual. Eleja quem dança melhor para receber Pecado",
+    "ru": "Нагие последователи состязаются в исполнении сладострастных танцев. Вы можете объявить кого-либо из них симпатягой дня, чтобы породить грех.",
+    "tr": "Takipçiler çıplak dans ederek yarışırlar. Günah kazanması için en beğendiğin dansçıyı seç.",
+    "zh-CN": "教徒将举办挑逗的裸体舞蹈比赛。选出你最喜爱的舞者获得罪孽",
+    "zh-TW": "教徒將舉辦挑逗的裸體舞蹈比賽。選出你最喜愛的舞者獲得罪孽"
+  },
+  "doctrine": "Pleasure_Nudist",
+  "faith": 0.0,
+  "group": "pair",
+  "icon": "icons/rituals/Ritual_Nudism.png",
+  "id": "Ritual_Nudism",
+  "name": {
+    "ar": "مراسم التحرر",
+    "de": "Ritual der Lust",
+    "en": "Rite of Lust",
+    "es": "Rito de la lujuria",
+    "fr": "Rituel de luxure",
+    "fr-CA": "Rituel de luxure",
+    "it": "Rito della Lussuria",
+    "ja": "情欲の儀式",
+    "ko": "욕망의 의식",
+    "nl": "Lustritueel",
+    "pt-BR": "Ritual do Desejo",
+    "ru": "Похоть плоти",
+    "tr": "Şehvet Ayini",
+    "zh-CN": "色欲仪式",
+    "zh-TW": "色慾儀式"
+  },
+  "namePlain": {
+    "ar": "مراسم التحرر",
+    "de": "Ritual der Lust",
+    "en": "Rite of Lust",
+    "es": "Rito de la lujuria",
+    "fr": "Rituel de luxure",
+    "fr-CA": "Rituel de luxure",
+    "it": "Rito della Lussuria",
+    "ja": "情欲の儀式",
+    "ko": "욕망의 의식",
+    "nl": "Lustritueel",
+    "pt-BR": "Ritual do Desejo",
+    "ru": "Похоть плоти",
+    "tr": "Şehvet Ayini",
+    "zh-CN": "色欲仪式",
+    "zh-TW": "色慾儀式"
+  },
+  "sin": 55,
+  "trait": null,
+  "warmth": 0.0
+}

@@ -1,0 +1,89 @@
+{
+  "alternative": null,
+  "cost": [
+    {
+      "item": "MAGMA_STONE",
+      "quantity": 35
+    },
+    {
+      "item": "BONE",
+      "quantity": 75
+    }
+  ],
+  "description": {
+    "ar": "تدب الحياة في حملان الجليد مؤقتًا ما يتيح لهم العمل كأتباع.",
+    "de": "Erwecke Schneelämmer vorübergehend zum Leben, damit sie als Anhänger arbeiten können.",
+    "en": "Temporarily imbue Snowlambs with life, allowing them to work as Followers.",
+    "es": "Otorga vida a los corderos de nieve, lo que les permite trabajar como adeptos durante un tiempo.",
+    "fr": "Insuffle temporairement les agneaux de neige de vie, ce qui leur permet de travailler comme des adeptes.",
+    "fr-CA": "Insuffle temporairement les agneaux de neige de vie, ce qui leur permet de travailler comme des adeptes.",
+    "it": "Dona temporaneamente vita agli agnelli di neve, consentendo loro di lavorare come membri del Culto.",
+    "ja": "雪ヒツジに仮初めの命を宿す儀式を教会堂で行う。雪ヒツジは信者のように作業する",
+    "ko": "눈사람에게 일시적으로 생명을 불어넣어 추종자처럼 일할 수 있게 합니다.",
+    "nl": "Schenk tijdelijk leven aan sneeuwlammeren, zodat ze als volgelingen kunnen werken.",
+    "pt-BR": "Temporariamente dá vida aos Cordeiros de Neve, permitindo que trabalhem como seguidores.",
+    "ru": "Вы ненадолго вдыхаете жизнь в снегнят, чтобы поручить им работу.",
+    "tr": "Kardan Kuzulara geçici bir süreliğine hayat vererek Takipçi olarak çalışmasına olanak sağlar.",
+    "zh-CN": "为雪羊羔短暂注入生命，使其像教徒一样工作。",
+    "zh-TW": "為雪羊短暫注入生命，讓它們像教徒一樣工作。"
+  },
+  "descriptionPlain": {
+    "ar": "تدب الحياة في حملان الجليد مؤقتًا ما يتيح لهم العمل كأتباع.",
+    "de": "Erwecke Schneelämmer vorübergehend zum Leben, damit sie als Anhänger arbeiten können.",
+    "en": "Temporarily imbue Snowlambs with life, allowing them to work as Followers.",
+    "es": "Otorga vida a los corderos de nieve, lo que les permite trabajar como adeptos durante un tiempo.",
+    "fr": "Insuffle temporairement les agneaux de neige de vie, ce qui leur permet de travailler comme des adeptes.",
+    "fr-CA": "Insuffle temporairement les agneaux de neige de vie, ce qui leur permet de travailler comme des adeptes.",
+    "it": "Dona temporaneamente vita agli agnelli di neve, consentendo loro di lavorare come membri del Culto.",
+    "ja": "雪ヒツジに仮初めの命を宿す儀式を教会堂で行う。雪ヒツジは信者のように作業する",
+    "ko": "눈사람에게 일시적으로 생명을 불어넣어 추종자처럼 일할 수 있게 합니다.",
+    "nl": "Schenk tijdelijk leven aan sneeuwlammeren, zodat ze als volgelingen kunnen werken.",
+    "pt-BR": "Temporariamente dá vida aos Cordeiros de Neve, permitindo que trabalhem como seguidores.",
+    "ru": "Вы ненадолго вдыхаете жизнь в снегнят, чтобы поручить им работу.",
+    "tr": "Kardan Kuzulara geçici bir süreliğine hayat vererek Takipçi olarak çalışmasına olanak sağlar.",
+    "zh-CN": "为雪羊羔短暂注入生命，使其像教徒一样工作。",
+    "zh-TW": "為雪羊短暫注入生命，讓它們像教徒一樣工作。"
+  },
+  "doctrine": "Winter_Snowman_Ritual",
+  "faith": 0.0,
+  "group": "secondary",
+  "icon": "icons/rituals/Ritual_Snowman.png",
+  "id": "Ritual_Snowman",
+  "name": {
+    "ar": "بث الحياة في الجليد",
+    "de": "Leben im Eis",
+    "en": "Life to the Ice",
+    "es": "Aliento gélido de la vida",
+    "fr": "Rituel de la neige éveillée",
+    "fr-CA": "Rituel de la neige éveillée",
+    "it": "Nuova vita dal ghiaccio",
+    "ja": "生命宿しの儀式",
+    "ko": "눈 골렘 의식",
+    "nl": "Levend ijs",
+    "pt-BR": "Vida Gélida",
+    "ru": "Оживление льда",
+    "tr": "Buzdan Can",
+    "zh-CN": "以冰赋生",
+    "zh-TW": "賦冰新生"
+  },
+  "namePlain": {
+    "ar": "بث الحياة في الجليد",
+    "de": "Leben im Eis",
+    "en": "Life to the Ice",
+    "es": "Aliento gélido de la vida",
+    "fr": "Rituel de la neige éveillée",
+    "fr-CA": "Rituel de la neige éveillée",
+    "it": "Nuova vita dal ghiaccio",
+    "ja": "生命宿しの儀式",
+    "ko": "눈 골렘 의식",
+    "nl": "Levend ijs",
+    "pt-BR": "Vida Gélida",
+    "ru": "Оживление льда",
+    "tr": "Buzdan Can",
+    "zh-CN": "以冰赋生",
+    "zh-TW": "賦冰新生"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

@@ -1,0 +1,89 @@
+{
+  "alternative": null,
+  "cost": [
+    {
+      "item": "FOLLOWERS",
+      "quantity": 2
+    },
+    {
+      "item": "BONE",
+      "quantity": 100
+    }
+  ],
+  "description": {
+    "ar": "السماح لتابعين بأن يجمعهما زواج سعيد.",
+    "de": "Erlaube zwei Anhängern, sich in der Ehe zu vereinen.",
+    "en": "Allow two Followers to be joined together in wedded bliss.",
+    "es": "Dos adeptos unen sus almas en la dicha marital.",
+    "fr": "Permet à deux adeptes d'être unis par les liens du mariage.",
+    "fr-CA": "Permet à deux adeptes d'être unis par les liens du mariage.",
+    "it": "Permette a due membri del Culto di unirsi in matrimonio.",
+    "ja": "信者2人による結婚を認め、それを祝う儀式を行う",
+    "ko": "두 추종자가 결혼이라는 축복으로 하나 될 수 있게 됩니다.",
+    "nl": "Laat twee volgelingen met elkaar in het huwelijksbootje stappen.",
+    "pt-BR": "Permite que dois seguidores se unam em sagrado matrimônio.",
+    "ru": "Вы можете обвенчать двух последователей.",
+    "tr": "İki Takipçi'nin evliliğin huzuruna erişmesini sağlar.",
+    "zh-CN": "允许两名教徒在幸福的婚礼中结为连理。",
+    "zh-TW": "允許兩名教徒在幸福的婚禮中結為連理。"
+  },
+  "descriptionPlain": {
+    "ar": "السماح لتابعين بأن يجمعهما زواج سعيد.",
+    "de": "Erlaube zwei Anhängern, sich in der Ehe zu vereinen.",
+    "en": "Allow two Followers to be joined together in wedded bliss.",
+    "es": "Dos adeptos unen sus almas en la dicha marital.",
+    "fr": "Permet à deux adeptes d'être unis par les liens du mariage.",
+    "fr-CA": "Permet à deux adeptes d'être unis par les liens du mariage.",
+    "it": "Permette a due membri del Culto di unirsi in matrimonio.",
+    "ja": "信者2人による結婚を認め、それを祝う儀式を行う",
+    "ko": "두 추종자가 결혼이라는 축복으로 하나 될 수 있게 됩니다.",
+    "nl": "Laat twee volgelingen met elkaar in het huwelijksbootje stappen.",
+    "pt-BR": "Permite que dois seguidores se unam em sagrado matrimônio.",
+    "ru": "Вы можете обвенчать двух последователей.",
+    "tr": "İki Takipçi'nin evliliğin huzuruna erişmesini sağlar.",
+    "zh-CN": "允许两名教徒在幸福的婚礼中结为连理。",
+    "zh-TW": "允許兩名教徒在幸福的婚禮中結為連理。"
+  },
+  "doctrine": null,
+  "faith": 20.0,
+  "group": "secondary",
+  "icon": "icons/rituals/Ritual_FollowerWedding.png",
+  "id": "Ritual_FollowerWedding",
+  "name": {
+    "ar": "حفل زفاف تابعين",
+    "de": "Anhänger-Hochzeitszeremonie",
+    "en": "Follower Wedding Ceremony",
+    "es": "Ceremonia nupcial",
+    "fr": "Cérémonie nuptiale des adeptes",
+    "fr-CA": "Cérémonie nuptiale des adeptes",
+    "it": "Rito dello sposalizio",
+    "ja": "信者間結婚式",
+    "ko": "추종자 결혼식",
+    "nl": "Huwelijk tussen volgelingen",
+    "pt-BR": "Cerimônia de Casamento de Seguidores",
+    "ru": "Бракосочетание последователей",
+    "tr": "Takipçi Düğünü",
+    "zh-CN": "教徒结婚典礼",
+    "zh-TW": "教徒結婚典禮"
+  },
+  "namePlain": {
+    "ar": "حفل زفاف تابعين",
+    "de": "Anhänger-Hochzeitszeremonie",
+    "en": "Follower Wedding Ceremony",
+    "es": "Ceremonia nupcial",
+    "fr": "Cérémonie nuptiale des adeptes",
+    "fr-CA": "Cérémonie nuptiale des adeptes",
+    "it": "Rito dello sposalizio",
+    "ja": "信者間結婚式",
+    "ko": "추종자 결혼식",
+    "nl": "Huwelijk tussen volgelingen",
+    "pt-BR": "Cerimônia de Casamento de Seguidores",
+    "ru": "Бракосочетание последователей",
+    "tr": "Takipçi Düğünü",
+    "zh-CN": "教徒结婚典礼",
+    "zh-TW": "教徒結婚典禮"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}
