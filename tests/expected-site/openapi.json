@@ -1,0 +1,541 @@
+{
+  "components": {
+    "schemas": {
+      "Index": {
+        "properties": {
+          "capturedAt": {
+            "type": "string"
+          },
+          "counts": {
+            "additionalProperties": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "required": [
+              "items",
+              "structures",
+              "skins"
+            ],
+            "type": "object"
+          },
+          "gameVersion": {
+            "type": "string"
+          },
+          "languages": {
+            "contains": {
+              "const": "en"
+            },
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "gameVersion",
+          "capturedAt",
+          "languages",
+          "counts"
+        ],
+        "title": "Index",
+        "type": "object"
+      },
+      "Item": {
+        "properties": {
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "category"
+        ],
+        "title": "Item",
+        "type": "object"
+      },
+      "Skin": {
+        "properties": {
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "hidden": {
+            "type": "boolean"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "unlock": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "unlock",
+          "hidden"
+        ],
+        "title": "Skin",
+        "type": "object"
+      },
+      "Structure": {
+        "properties": {
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "size": {
+            "properties": {
+              "h": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "w": {
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "w",
+              "h"
+            ],
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "upgradesFrom": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "cost",
+          "upgradesFrom",
+          "size"
+        ],
+        "title": "Structure",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.4.6, captured 2026-10-29T12:00:00Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "title": "Cult of the Lamb data API",
+    "version": "1.4.6"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/v1/icons/items/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "LOG",
+                "STONE"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A item's icon",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/icons/structures/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "FARM_PLOT",
+                "SHRINE_II"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A structure's icon",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/index.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Index"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Game version, capture date, languages and counts",
+        "tags": [
+          "index"
+        ]
+      }
+    },
+    "/v1/items.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Item"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every item",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/items/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "BERRY",
+                "LOG",
+                "STONE"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Item"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One item",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/skins.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Skin"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every skin",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/skins/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Cat",
+                "Deer"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Skin"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One skin",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/structures.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Structure"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/structures/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "FARM_PLOT",
+                "SHRINE_II"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Structure"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "description": "What this data is",
+      "name": "index"
+    },
+    {
+      "description": "Resources, food, seeds, necklaces and everything else in the inventory",
+      "name": "items"
+    },
+    {
+      "description": "Buildings, decorations and tiles: cost, upgrade chain, footprint",
+      "name": "structures"
+    },
+    {
+      "description": "Follower forms: where they drop, whether hidden until unlocked",
+      "name": "skins"
+    }
+  ]
+}

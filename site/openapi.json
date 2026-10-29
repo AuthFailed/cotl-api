@@ -1,0 +1,1641 @@
+{
+  "components": {
+    "schemas": {
+      "Index": {
+        "properties": {
+          "capturedAt": {
+            "type": "string"
+          },
+          "counts": {
+            "additionalProperties": {
+              "minimum": 0,
+              "type": "integer"
+            },
+            "required": [
+              "items",
+              "structures",
+              "skins"
+            ],
+            "type": "object"
+          },
+          "gameVersion": {
+            "type": "string"
+          },
+          "languages": {
+            "contains": {
+              "const": "en"
+            },
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          }
+        },
+        "required": [
+          "gameVersion",
+          "capturedAt",
+          "languages",
+          "counts"
+        ],
+        "title": "Index",
+        "type": "object"
+      },
+      "Item": {
+        "properties": {
+          "category": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "category"
+        ],
+        "title": "Item",
+        "type": "object"
+      },
+      "Skin": {
+        "properties": {
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "hidden": {
+            "type": "boolean"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "unlock": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "unlock",
+          "hidden"
+        ],
+        "title": "Skin",
+        "type": "object"
+      },
+      "Structure": {
+        "properties": {
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "icon": {
+            "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "size": {
+            "properties": {
+              "h": {
+                "minimum": 1,
+                "type": "integer"
+              },
+              "w": {
+                "minimum": 1,
+                "type": "integer"
+              }
+            },
+            "required": [
+              "w",
+              "h"
+            ],
+            "type": [
+              "object",
+              "null"
+            ]
+          },
+          "upgradesFrom": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "icon",
+          "cost",
+          "upgradesFrom",
+          "size"
+        ],
+        "title": "Structure",
+        "type": "object"
+      }
+    }
+  },
+  "info": {
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T03:16:16Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "title": "Cult of the Lamb data API",
+    "version": "1.5.26.1058"
+  },
+  "openapi": "3.1.0",
+  "paths": {
+    "/v1/icons/items/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ANIMAL_COW",
+                "ANIMAL_CRAB",
+                "ANIMAL_GOAT",
+                "ANIMAL_LLAMA",
+                "ANIMAL_SNAIL",
+                "ANIMAL_SPIDER",
+                "ANIMAL_TURTLE",
+                "BEETROOT",
+                "BEHOLDER_EYE",
+                "BEHOLDER_EYE_ROT",
+                "BERRY",
+                "BLACK_GOLD",
+                "BLACK_HEART",
+                "BLUE_HEART",
+                "BONE",
+                "BOP",
+                "BROKEN_WEAPON_AXE",
+                "BROKEN_WEAPON_CHAIN",
+                "BROKEN_WEAPON_DAGGER",
+                "BROKEN_WEAPON_GAUNTLETS",
+                "BROKEN_WEAPON_HAMMER",
+                "BROKEN_WEAPON_SWORD",
+                "CAULIFLOWER",
+                "CHARCOAL",
+                "CHILLI",
+                "COTTON",
+                "CRYSTAL",
+                "CRYSTAL_DOCTRINE_STONE",
+                "DOCTRINE_STONE",
+                "ELECTRIFIED_MAGMA",
+                "FISH",
+                "FISHING_ROD",
+                "FISH_BIG",
+                "FISH_BLOWFISH",
+                "FISH_CRAB",
+                "FISH_LOBSTER",
+                "FISH_OCTOPUS",
+                "FISH_SMALL",
+                "FISH_SQUID",
+                "FISH_SWORDFISH",
+                "FLOWER_PURPLE",
+                "FLOWER_RED",
+                "FLOWER_WHITE",
+                "FOLLOWERS",
+                "FOLLOWER_MEAT",
+                "FOLLOWER_MEAT_ROTTEN",
+                "FORGE_FLAME",
+                "FOUND_ITEM_DECORATION",
+                "FOUND_ITEM_FOLLOWERSKIN",
+                "GIFT_MEDIUM",
+                "GIFT_SMALL",
+                "GOD_TEAR",
+                "GOD_TEAR_FRAGMENT",
+                "GOLD_NUGGET",
+                "GOLD_REFINED",
+                "GRAPES",
+                "GRASS",
+                "HALF_BLUE_HEART",
+                "HALF_HEART",
+                "HOPS",
+                "ILLEGIBLE_LETTER_CHARYBDIS",
+                "ILLEGIBLE_LETTER_SCYLLA",
+                "LEGENDARY_WEAPON_FRAGMENT",
+                "LIGHTNING_SHARD",
+                "LOG",
+                "LOG_REFINED",
+                "LORE_STONE",
+                "MAGMA_STONE",
+                "MEAT",
+                "MEAT_MORSEL",
+                "MILK",
+                "MONSTER_HEART",
+                "MUSHROOM_SMALL",
+                "Necklace_1",
+                "Necklace_2",
+                "Necklace_3",
+                "Necklace_4",
+                "Necklace_5",
+                "Necklace_Dark",
+                "Necklace_Deaths_Door",
+                "Necklace_Demonic",
+                "Necklace_Frozen",
+                "Necklace_Gold_Skull",
+                "Necklace_Light",
+                "Necklace_Loyalty",
+                "Necklace_Missionary",
+                "Necklace_Targeted",
+                "Necklace_Weird",
+                "Necklace_Winter",
+                "PLEASURE_POINT",
+                "POOP",
+                "POOP_DEVOTION",
+                "POOP_GLOW",
+                "POOP_GOLD",
+                "POOP_RAINBOW",
+                "POOP_ROTSTONE",
+                "PUMPKIN",
+                "RED_HEART",
+                "REPAIRED_WEAPON_CHAIN",
+                "REPAIRED_WEAPON_DAGGER",
+                "REPAIRED_WEAPON_GAUNTLETS",
+                "REPAIRED_WEAPON_HAMMER",
+                "REPAIRED_WEAPON_SWORD",
+                "SEED",
+                "SEED_BEETROOT",
+                "SEED_CAULIFLOWER",
+                "SEED_CHILLI",
+                "SEED_COTTON",
+                "SEED_FLOWER_RED",
+                "SEED_GRAPES",
+                "SEED_HOPS",
+                "SEED_MUSHROOM",
+                "SEED_PUMPKIN",
+                "SEED_SNOW_FRUIT",
+                "SEED_SOZO",
+                "SHELL",
+                "SILK_THREAD",
+                "SNOW_CHUNK",
+                "SNOW_FRUIT",
+                "SOOT",
+                "SOUL",
+                "SPECIAL_WOOL_10",
+                "SPECIAL_WOOL_11",
+                "SPECIAL_WOOL_6",
+                "SPECIAL_WOOL_7",
+                "SPECIAL_WOOL_8",
+                "SPECIAL_WOOL_9",
+                "SPECIAL_WOOL_BLACKSMITH",
+                "SPECIAL_WOOL_DECORATION",
+                "SPECIAL_WOOL_LAMBWAR",
+                "SPECIAL_WOOL_RANCHER",
+                "SPECIAL_WOOL_TAROT",
+                "SPIDER_WEB",
+                "STONE",
+                "STONE_REFINED",
+                "TALISMAN",
+                "TRINKET_CARD",
+                "WOOL",
+                "YEW_CURSED",
+                "YEW_HOLY",
+                "YNGYA_GHOST",
+                "YOLK"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A item's icon",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/icons/structures/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "BED",
+                "BED_2",
+                "BED_3",
+                "BLOODSTONE_MINE",
+                "BLOODSTONE_MINE_2",
+                "BODY_PIT",
+                "CHOPPING_SHRINE",
+                "COMPOST_BIN",
+                "COMPOST_BIN_DEAD_BODY",
+                "CONFESSION_BOOTH",
+                "COOKING_FIRE",
+                "CRYPT_1",
+                "CRYPT_2",
+                "CRYPT_3",
+                "DAYCARE",
+                "DECORATION_APPLE_BUSH",
+                "DECORATION_APPLE_LANTERN",
+                "DECORATION_APPLE_STATUE",
+                "DECORATION_APPLE_VASE",
+                "DECORATION_APPLE_WELL",
+                "DECORATION_BARROW",
+                "DECORATION_BELL_SMALL",
+                "DECORATION_BELL_STATUE",
+                "DECORATION_BONE_ARCH",
+                "DECORATION_BONE_BARREL",
+                "DECORATION_BONE_CANDLE",
+                "DECORATION_BONE_FLAG",
+                "DECORATION_BONE_LANTERN",
+                "DECORATION_BONE_PILLAR",
+                "DECORATION_BONE_SCULPTURE",
+                "DECORATION_BONE_SKULL_BIG",
+                "DECORATION_BONE_SKULL_PILE",
+                "DECORATION_BOSS_TROPHY_1",
+                "DECORATION_BOSS_TROPHY_2",
+                "DECORATION_BOSS_TROPHY_3",
+                "DECORATION_BOSS_TROPHY_4",
+                "DECORATION_BOSS_TROPHY_5",
+                "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+                "DECORATION_BOSS_TROPHY_DLC_WOLF",
+                "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+                "DECORATION_CANDLE_BARREL",
+                "DECORATION_CHRISTMAS_CANDLE",
+                "DECORATION_CHRISTMAS_CANDYCANE",
+                "DECORATION_CHRISTMAS_SNOWMAN",
+                "DECORATION_CHRISTMAS_TREE",
+                "DECORATION_CNY_DRAGON",
+                "DECORATION_CNY_LANTERN",
+                "DECORATION_CNY_TREE",
+                "DECORATION_CRYSTAL_LAMP",
+                "DECORATION_CRYSTAL_LIGHT",
+                "DECORATION_CRYSTAL_ROCK",
+                "DECORATION_CRYSTAL_STATUE",
+                "DECORATION_CRYSTAL_TREE",
+                "DECORATION_CRYSTAL_WINDOW",
+                "DECORATION_DLC_ROT_BOTTLE",
+                "DECORATION_DLC_ROT_BUCKET",
+                "DECORATION_DLC_ROT_CAGE1",
+                "DECORATION_DLC_ROT_CAGE2",
+                "DECORATION_DLC_ROT_CAULDRON",
+                "DECORATION_DLC_ROT_DIORAMA",
+                "DECORATION_DLC_ROT_FIREMACHINE",
+                "DECORATION_DLC_ROT_FLOOR",
+                "DECORATION_DLC_ROT_IRONMAIDEN",
+                "DECORATION_DLC_ROT_LUMP1",
+                "DECORATION_DLC_ROT_LUMP2",
+                "DECORATION_DLC_ROT_PILLAR1",
+                "DECORATION_DLC_ROT_PILLAR2",
+                "DECORATION_DLC_ROT_STONE1",
+                "DECORATION_DLC_ROT_STONE2",
+                "DECORATION_DLC_ROT_TENTACLE",
+                "DECORATION_DLC_ROT_WALL",
+                "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+                "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+                "DECORATION_DLC_STEAMPUNK_CLOCK",
+                "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+                "DECORATION_DLC_STEAMPUNK_PLANT",
+                "DECORATION_DLC_STEAMPUNK_WALL",
+                "DECORATION_DLC_WOLF_BULB",
+                "DECORATION_DLC_WOLF_CULTIST1",
+                "DECORATION_DLC_WOLF_CULTIST2",
+                "DECORATION_DLC_WOLF_DIORAMA",
+                "DECORATION_DLC_WOLF_FIREPIT",
+                "DECORATION_DLC_WOLF_LAMPPOST",
+                "DECORATION_DLC_WOLF_PILLAR1",
+                "DECORATION_DLC_WOLF_PILLAR2",
+                "DECORATION_DLC_WOLF_STATUE1",
+                "DECORATION_DLC_WOLF_STATUE2",
+                "DECORATION_DLC_WOLF_STATUE3",
+                "DECORATION_DLC_WOLF_STATUE4",
+                "DECORATION_DLC_WOLF_STATUE5",
+                "DECORATION_DLC_WOLF_TESLA",
+                "DECORATION_DLC_WOLF_TREE1",
+                "DECORATION_DLC_WOLF_WIRES",
+                "DECORATION_DLC_WOOLHAVEN_BARREL1",
+                "DECORATION_DLC_WOOLHAVEN_BARREL2",
+                "DECORATION_DLC_WOOLHAVEN_BELLS",
+                "DECORATION_DLC_WOOLHAVEN_BUSH1",
+                "DECORATION_DLC_WOOLHAVEN_BUSH2",
+                "DECORATION_DLC_WOOLHAVEN_CANDLE",
+                "DECORATION_DLC_WOOLHAVEN_FLOOR",
+                "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+                "DECORATION_DLC_WOOLHAVEN_JUG",
+                "DECORATION_DLC_WOOLHAVEN_RUG",
+                "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+                "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+                "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+                "DECORATION_DLC_WOOLHAVEN_TREE",
+                "DECORATION_DLC_WOOLHAVEN_WALL",
+                "DECORATION_DLC_YNGYA_CANDLE",
+                "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+                "DECORATION_DLC_YNGYA_STICKBUNDLE",
+                "DECORATION_DLC_YNGYA_TALLFLOWERS",
+                "DECORATION_DLC_YNGYA_TREEBUSH",
+                "DECORATION_DLC_YNGYA_TREEPOT",
+                "DECORATION_DST_ALCHEMY",
+                "DECORATION_DST_BEEFALOSKELETON",
+                "DECORATION_DST_DEERCLOPS",
+                "DECORATION_DST_GLOMMERSTATUE",
+                "DECORATION_DST_MARBLETREE",
+                "DECORATION_DST_PIGSTICK",
+                "DECORATION_DST_SCIENCEMACHINE",
+                "DECORATION_DST_TREE",
+                "DECORATION_DST_WALL",
+                "DECORATION_EASTEREGG_EGG",
+                "DECORATION_EASTEREGG_HAROSTATUE",
+                "DECORATION_EASTEREGG_TURUA",
+                "DECORATION_EASTEREGG_WARRACKA",
+                "DECORATION_FLAG_CROWN",
+                "DECORATION_FLAG_CRYSTAL",
+                "DECORATION_FLAG_MUSHROOM",
+                "DECORATION_FLAG_SCRIPTURE",
+                "DECORATION_FLOWERPOTWALL",
+                "DECORATION_FLOWERVASE",
+                "DECORATION_FLOWER_ARCH",
+                "DECORATION_FLOWER_BOTTLE",
+                "DECORATION_FLOWER_BOX_1",
+                "DECORATION_FLOWER_CART",
+                "DECORATION_FLOWER_CART_SMALL",
+                "DECORATION_FOUNTAIN",
+                "DECORATION_GNOME1",
+                "DECORATION_GNOME2",
+                "DECORATION_GNOME3",
+                "DECORATION_GOAT_LANTERN",
+                "DECORATION_GOAT_PLANT",
+                "DECORATION_GOAT_STATUE",
+                "DECORATION_HALLOWEEN_CANDLE",
+                "DECORATION_HALLOWEEN_PUMPKIN",
+                "DECORATION_HALLOWEEN_SKULL",
+                "DECORATION_HALLOWEEN_TREE",
+                "DECORATION_HAY_BALE",
+                "DECORATION_HAY_PILE",
+                "DECORATION_LAMB_FLAG_STATUE",
+                "DECORATION_LEAFYLAMPPOST",
+                "DECORATION_LEAFY_FLOWER_SCULPTURE",
+                "DECORATION_LEAFY_LANTERN",
+                "DECORATION_LEAFY_SCULPTURE",
+                "DECORATION_MONSTERSHRINE",
+                "DECORATION_MUSHROOM_1",
+                "DECORATION_MUSHROOM_2",
+                "DECORATION_MUSHROOM_CANDLE_1",
+                "DECORATION_MUSHROOM_CANDLE_2",
+                "DECORATION_MUSHROOM_CANDLE_LARGE",
+                "DECORATION_MUSHROOM_SCULPTURE",
+                "DECORATION_OLDFAITH_CRYSTAL",
+                "DECORATION_OLDFAITH_FLAG",
+                "DECORATION_OLDFAITH_FOUNTAIN",
+                "DECORATION_OLDFAITH_IRONMAIDEN",
+                "DECORATION_OLDFAITH_SHRINE",
+                "DECORATION_OLDFAITH_TORCH",
+                "DECORATION_OLDFAITH_WALL",
+                "DECORATION_PALWORLD_LAMB",
+                "DECORATION_PALWORLD_LANTERN",
+                "DECORATION_PALWORLD_PLANT",
+                "DECORATION_PALWORLD_STATUE",
+                "DECORATION_PALWORLD_TREE",
+                "DECORATION_PILGRIM_BONSAI",
+                "DECORATION_PILGRIM_LANTERN",
+                "DECORATION_PILGRIM_PAGODA",
+                "DECORATION_PILGRIM_VASE",
+                "DECORATION_PILGRIM_WALL",
+                "DECORATION_PLUSH",
+                "DECORATION_POND",
+                "DECORATION_POST_BOX",
+                "DECORATION_PUMPKIN_PILE",
+                "DECORATION_PUMPKIN_STOOL",
+                "DECORATION_SHRUB",
+                "DECORATION_SINFUL_CRUCIFIX",
+                "DECORATION_SINFUL_FLOWERS1",
+                "DECORATION_SINFUL_FLOWERS2",
+                "DECORATION_SINFUL_INCENSE",
+                "DECORATION_SINFUL_SKULL",
+                "DECORATION_SINFUL_STATUE",
+                "DECORATION_SMALL_STONE_CANDLE",
+                "DECORATION_SPIDER_LANTERN",
+                "DECORATION_SPIDER_PILLAR",
+                "DECORATION_SPIDER_SCULPTURE",
+                "DECORATION_SPIDER_TORCH",
+                "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+                "DECORATION_STONE",
+                "DECORATION_STONE_CANDLE",
+                "DECORATION_STONE_CANDLE_LAMP",
+                "DECORATION_STONE_FLAG",
+                "DECORATION_STONE_HENGE",
+                "DECORATION_STONE_MUSHROOM",
+                "DECORATION_STUMP_LAMB_STATUE",
+                "DECORATION_TORCH",
+                "DECORATION_TORCH_BIG",
+                "DECORATION_TREE",
+                "DECORATION_TWIG_LAMP",
+                "DECORATION_TWITCH_FLAG_CROWN",
+                "DECORATION_TWITCH_MUSHROOM_BAG",
+                "DECORATION_TWITCH_ROSE_BUSH",
+                "DECORATION_TWITCH_STONE_FLAG",
+                "DECORATION_TWITCH_STONE_STATUE",
+                "DECORATION_TWITCH_WOODEN_GUARDIAN",
+                "DECORATION_VIDEO",
+                "DECORATION_WALL_BONE",
+                "DECORATION_WALL_GRASS",
+                "DECORATION_WALL_SPIDER",
+                "DECORATION_WALL_STONE",
+                "DECORATION_WALL_TWIGS",
+                "DECORATION_WATERINGCAN",
+                "DECORATION_WEEPINGSHRINE",
+                "DECORATION_WREATH_STICK",
+                "DEMON_SUMMONER",
+                "DEMON_SUMMONER_2",
+                "DEMON_SUMMONER_3",
+                "DRUM_CIRCLE",
+                "FARM_CROP_GROWER",
+                "FARM_PLOT",
+                "FARM_PLOT_SIGN",
+                "FARM_STATION",
+                "FARM_STATION_II",
+                "FURNACE_1",
+                "FURNACE_2",
+                "FURNACE_3",
+                "GRAVE",
+                "HARVEST_TOTEM",
+                "HARVEST_TOTEM_2",
+                "HATCHERY",
+                "HATCHERY_2",
+                "HEALING_BAY",
+                "HEALING_BAY_2",
+                "JANITOR_STATION",
+                "JANITOR_STATION_2",
+                "KITCHEN",
+                "KNUCKLEBONES_ARENA",
+                "LEADER_TENT",
+                "LIGHTNING_ROD",
+                "LIGHTNING_ROD_2",
+                "LOGISTICS",
+                "LUMBERJACK_STATION",
+                "LUMBERJACK_STATION_2",
+                "MATING_TENT",
+                "MEDIC",
+                "MISSIONARY",
+                "MISSIONARY_II",
+                "MISSIONARY_III",
+                "MORGUE_1",
+                "MORGUE_2",
+                "OFFERING_STATUE",
+                "OUTHOUSE",
+                "OUTHOUSE_2",
+                "PLANK_PATH",
+                "POOP_BUCKET",
+                "PRISON",
+                "PROPAGANDA_SPEAKER",
+                "PROXIMITY_FURNACE",
+                "PUB",
+                "PUB_2",
+                "RACING_GATE",
+                "RANCH",
+                "RANCH_2",
+                "RANCH_CHOPPING_BLOCK",
+                "RANCH_FENCE",
+                "RANCH_HUTCH",
+                "RANCH_TROUGH",
+                "REFINERY",
+                "REFINERY_2",
+                "ROTSTONE_MINE",
+                "ROTSTONE_MINE_2",
+                "SACRIFICE_TABLE",
+                "SCARECROW",
+                "SCARECROW_2",
+                "SEED_BUCKET",
+                "SHARED_HOUSE",
+                "SHRINE",
+                "SHRINE_DISCIPLE_BOOST",
+                "SHRINE_DISCIPLE_COLLECTION",
+                "SHRINE_PASSIVE",
+                "SHRINE_PASSIVE_II",
+                "SHRINE_PASSIVE_III",
+                "SILO_FERTILISER",
+                "SILO_SEED",
+                "TAILOR",
+                "TEMPLE",
+                "TEMPLE_II",
+                "TEMPLE_III",
+                "TEMPLE_IV",
+                "TILE_BLOOD",
+                "TILE_BRICKS",
+                "TILE_FLOWERS",
+                "TILE_FLOWERSROCKY",
+                "TILE_GOLD",
+                "TILE_HAY",
+                "TILE_MOSAIC",
+                "TILE_OLDFAITH",
+                "TILE_PATH",
+                "TILE_PLANKS",
+                "TILE_REDGRASS",
+                "TILE_ROCKS",
+                "TILE_SPOOKYPLANKS",
+                "TILE_WATER",
+                "TOOLSHED",
+                "TRAIT_MANIPULATOR_1",
+                "TRAIT_MANIPULATOR_2",
+                "TRAIT_MANIPULATOR_3",
+                "VOLCANIC_SPA",
+                "WEATHER_VANE",
+                "WOLF_TRAP",
+                "WOOLY_SHACK"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A structure's icon",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/index.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Index"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Game version, capture date, languages and counts",
+        "tags": [
+          "index"
+        ]
+      }
+    },
+    "/v1/items.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Item"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every item",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/items/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ANIMAL_COW",
+                "ANIMAL_CRAB",
+                "ANIMAL_GOAT",
+                "ANIMAL_LLAMA",
+                "ANIMAL_SNAIL",
+                "ANIMAL_SPIDER",
+                "ANIMAL_TURTLE",
+                "BEETROOT",
+                "BEHOLDER_EYE",
+                "BEHOLDER_EYE_ROT",
+                "BERRY",
+                "BLACK_GOLD",
+                "BLACK_HEART",
+                "BLUE_HEART",
+                "BONE",
+                "BOP",
+                "BROKEN_WEAPON_AXE",
+                "BROKEN_WEAPON_CHAIN",
+                "BROKEN_WEAPON_DAGGER",
+                "BROKEN_WEAPON_GAUNTLETS",
+                "BROKEN_WEAPON_HAMMER",
+                "BROKEN_WEAPON_SWORD",
+                "CAULIFLOWER",
+                "CHARCOAL",
+                "CHILLI",
+                "COTTON",
+                "CRYSTAL",
+                "CRYSTAL_DOCTRINE_STONE",
+                "DOCTRINE_STONE",
+                "ELECTRIFIED_MAGMA",
+                "FIRE_HEART",
+                "FISH",
+                "FISHING_ROD",
+                "FISH_BIG",
+                "FISH_BLOWFISH",
+                "FISH_CRAB",
+                "FISH_LOBSTER",
+                "FISH_OCTOPUS",
+                "FISH_SMALL",
+                "FISH_SQUID",
+                "FISH_SWORDFISH",
+                "FLOWER_PURPLE",
+                "FLOWER_RED",
+                "FLOWER_WHITE",
+                "FOLLOWERS",
+                "FOLLOWER_MEAT",
+                "FOLLOWER_MEAT_ROTTEN",
+                "FORGE_FLAME",
+                "FOUND_ITEM_DECORATION",
+                "FOUND_ITEM_FOLLOWERSKIN",
+                "GIFT_MEDIUM",
+                "GIFT_SMALL",
+                "GOD_TEAR",
+                "GOD_TEAR_FRAGMENT",
+                "GOLD_NUGGET",
+                "GOLD_REFINED",
+                "GRAPES",
+                "GRASS",
+                "HALF_BLUE_HEART",
+                "HALF_HEART",
+                "HOPS",
+                "ICE_HEART",
+                "ILLEGIBLE_LETTER_CHARYBDIS",
+                "ILLEGIBLE_LETTER_SCYLLA",
+                "LEGENDARY_WEAPON_FRAGMENT",
+                "LIGHTNING_SHARD",
+                "LOG",
+                "LOG_REFINED",
+                "LORE_STONE",
+                "MAGMA_STONE",
+                "MEAT",
+                "MEAT_MORSEL",
+                "MILK",
+                "MONSTER_HEART",
+                "MUSHROOM_SMALL",
+                "Necklace_1",
+                "Necklace_2",
+                "Necklace_3",
+                "Necklace_4",
+                "Necklace_5",
+                "Necklace_Dark",
+                "Necklace_Deaths_Door",
+                "Necklace_Demonic",
+                "Necklace_Frozen",
+                "Necklace_Gold_Skull",
+                "Necklace_Light",
+                "Necklace_Loyalty",
+                "Necklace_Missionary",
+                "Necklace_Targeted",
+                "Necklace_Weird",
+                "Necklace_Winter",
+                "PLEASURE_POINT",
+                "POOP",
+                "POOP_DEVOTION",
+                "POOP_GLOW",
+                "POOP_GOLD",
+                "POOP_RAINBOW",
+                "POOP_ROTSTONE",
+                "PUMPKIN",
+                "RED_HEART",
+                "REPAIRED_WEAPON_CHAIN",
+                "REPAIRED_WEAPON_DAGGER",
+                "REPAIRED_WEAPON_GAUNTLETS",
+                "REPAIRED_WEAPON_HAMMER",
+                "REPAIRED_WEAPON_SWORD",
+                "SEED",
+                "SEED_BEETROOT",
+                "SEED_CAULIFLOWER",
+                "SEED_CHILLI",
+                "SEED_COTTON",
+                "SEED_FLOWER_RED",
+                "SEED_GRAPES",
+                "SEED_HOPS",
+                "SEED_MUSHROOM",
+                "SEED_PUMPKIN",
+                "SEED_SNOW_FRUIT",
+                "SEED_SOZO",
+                "SHELL",
+                "SILK_THREAD",
+                "SNOW_CHUNK",
+                "SNOW_FRUIT",
+                "SOOT",
+                "SOUL",
+                "SPECIAL_WOOL_10",
+                "SPECIAL_WOOL_11",
+                "SPECIAL_WOOL_6",
+                "SPECIAL_WOOL_7",
+                "SPECIAL_WOOL_8",
+                "SPECIAL_WOOL_9",
+                "SPECIAL_WOOL_BLACKSMITH",
+                "SPECIAL_WOOL_DECORATION",
+                "SPECIAL_WOOL_LAMBWAR",
+                "SPECIAL_WOOL_RANCHER",
+                "SPECIAL_WOOL_TAROT",
+                "SPIDER_WEB",
+                "STONE",
+                "STONE_REFINED",
+                "TALISMAN",
+                "TRINKET_CARD",
+                "WOOL",
+                "YEW_CURSED",
+                "YEW_HOLY",
+                "YNGYA_GHOST",
+                "YOLK"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Item"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One item",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/skins.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Skin"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every skin",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/skins/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Anglerfish",
+                "Anteater",
+                "Armadillo",
+                "Axolotl",
+                "Badger",
+                "Bat",
+                "BatDemon",
+                "Bear",
+                "Beaver",
+                "Bee",
+                "Beetle",
+                "Beluga",
+                "Bison",
+                "Boss_Beholder_1",
+                "Boss_Beholder_2",
+                "Boss_Beholder_3",
+                "Boss_Beholder_4",
+                "Boss_Beholder_5",
+                "Boss_Beholder_6",
+                "Boss_Burrow_Worm",
+                "Boss_Charger",
+                "Boss_Dog_1",
+                "Boss_Dog_2",
+                "Boss_Dog_3",
+                "Boss_Dog_4",
+                "Boss_Dog_5",
+                "Boss_Dog_6",
+                "Boss_Egg_Hopper",
+                "Boss_Flying_Burp_Frog",
+                "Boss_Mama_Maggot",
+                "Boss_Mama_Worm",
+                "Boss_Millipede_Poisoner",
+                "Boss_Mortar_Hopper",
+                "Boss_Rot_1",
+                "Boss_Rot_2",
+                "Boss_Rot_3",
+                "Boss_Rot_4",
+                "Boss_Scorpion",
+                "Boss_Scuttle_Turret",
+                "Boss_Spider_Jump",
+                "Boss_Spiker",
+                "Bug",
+                "BugFive",
+                "BugFour",
+                "BugThree",
+                "BugTwo",
+                "Butterfly",
+                "Camel",
+                "Capybara",
+                "Cat",
+                "Caterpillar",
+                "Chameleon",
+                "Chicken",
+                "ChosenChild",
+                "Cow",
+                "Crab",
+                "Crocodile",
+                "Crow",
+                "Cthulhu",
+                "Deer",
+                "DeerSkull",
+                "Deer_ritual",
+                "Dog",
+                "DogTeddy",
+                "Dragon",
+                "DragonFive",
+                "DragonFour",
+                "DragonThree",
+                "DragonTwo",
+                "Duck",
+                "Eagle",
+                "Elephant",
+                "Enchida",
+                "Fennec_Fox",
+                "Fish",
+                "Fly",
+                "Fox",
+                "Frog",
+                "Giraffe",
+                "Goldfish",
+                "Gorilla",
+                "Hammerhead",
+                "Hedgehog",
+                "Hippo",
+                "Horse",
+                "Hyena",
+                "Ibex",
+                "IceGore",
+                "Jackalope",
+                "Jellyfish",
+                "Kiwi",
+                "Koala",
+                "LadyBug",
+                "Lamb",
+                "Leech",
+                "Lemur",
+                "Leopard",
+                "Lion",
+                "Lizard",
+                "LizardTongue",
+                "Llama",
+                "Lobster",
+                "Maggot",
+                "Mammoth",
+                "MassiveMonster",
+                "Mole",
+                "Monkey",
+                "Moose",
+                "Mosquito",
+                "Moth",
+                "Mushroom",
+                "NakedMoleRat",
+                "Narwal",
+                "Nightwolf",
+                "Orangutan",
+                "Orca",
+                "Otter",
+                "Owl",
+                "PalworldFive",
+                "PalworldFour",
+                "PalworldOne",
+                "PalworldThree",
+                "PalworldTwo",
+                "Panda",
+                "Pangolin",
+                "Pelican",
+                "Penguin",
+                "Pig",
+                "PolarBear",
+                "Poop",
+                "Poppy",
+                "Possum",
+                "Pudding",
+                "Rabbit",
+                "Raccoon",
+                "Red_Panda",
+                "Reindeer",
+                "Rhino",
+                "Robin",
+                "SeaButterfly",
+                "Seahorse",
+                "Seal",
+                "Shrew",
+                "Shrimp",
+                "Skunk",
+                "Snail",
+                "Snake",
+                "SnowMonkey",
+                "Sphynx",
+                "Squirrel",
+                "StarBunny",
+                "Starfish",
+                "Tapir",
+                "Tiger",
+                "Trout",
+                "Turtle",
+                "TwitchCat",
+                "TwitchDog",
+                "TwitchDogAlt",
+                "TwitchMouse",
+                "TwitchPoggers",
+                "Unicorn",
+                "Volvy",
+                "Vulture",
+                "Webber",
+                "Wombat",
+                "Worm"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Skin"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One skin",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/structures.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Structure"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/structures/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "BED",
+                "BED_2",
+                "BED_3",
+                "BLOODSTONE_MINE",
+                "BLOODSTONE_MINE_2",
+                "BODY_PIT",
+                "CHOPPING_SHRINE",
+                "COMPOST_BIN",
+                "COMPOST_BIN_DEAD_BODY",
+                "CONFESSION_BOOTH",
+                "COOKING_FIRE",
+                "CRYPT_1",
+                "CRYPT_2",
+                "CRYPT_3",
+                "DANCING_FIREPIT",
+                "DAYCARE",
+                "DEAD_WORSHIPPER",
+                "DECORATION_APPLE_BUSH",
+                "DECORATION_APPLE_LANTERN",
+                "DECORATION_APPLE_STATUE",
+                "DECORATION_APPLE_VASE",
+                "DECORATION_APPLE_WELL",
+                "DECORATION_BARROW",
+                "DECORATION_BELL_SMALL",
+                "DECORATION_BELL_STATUE",
+                "DECORATION_BONE_ARCH",
+                "DECORATION_BONE_BARREL",
+                "DECORATION_BONE_CANDLE",
+                "DECORATION_BONE_FLAG",
+                "DECORATION_BONE_LANTERN",
+                "DECORATION_BONE_PILLAR",
+                "DECORATION_BONE_SCULPTURE",
+                "DECORATION_BONE_SKULL_BIG",
+                "DECORATION_BONE_SKULL_PILE",
+                "DECORATION_BOSS_TROPHY_1",
+                "DECORATION_BOSS_TROPHY_2",
+                "DECORATION_BOSS_TROPHY_3",
+                "DECORATION_BOSS_TROPHY_4",
+                "DECORATION_BOSS_TROPHY_5",
+                "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+                "DECORATION_BOSS_TROPHY_DLC_WOLF",
+                "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+                "DECORATION_CANDLE_BARREL",
+                "DECORATION_CHRISTMAS_CANDLE",
+                "DECORATION_CHRISTMAS_CANDYCANE",
+                "DECORATION_CHRISTMAS_SNOWMAN",
+                "DECORATION_CHRISTMAS_TREE",
+                "DECORATION_CNY_DRAGON",
+                "DECORATION_CNY_LANTERN",
+                "DECORATION_CNY_TREE",
+                "DECORATION_CRYSTAL_LAMP",
+                "DECORATION_CRYSTAL_LIGHT",
+                "DECORATION_CRYSTAL_ROCK",
+                "DECORATION_CRYSTAL_STATUE",
+                "DECORATION_CRYSTAL_TREE",
+                "DECORATION_CRYSTAL_WINDOW",
+                "DECORATION_DLC_ROT_BOTTLE",
+                "DECORATION_DLC_ROT_BUCKET",
+                "DECORATION_DLC_ROT_CAGE1",
+                "DECORATION_DLC_ROT_CAGE2",
+                "DECORATION_DLC_ROT_CAULDRON",
+                "DECORATION_DLC_ROT_DIORAMA",
+                "DECORATION_DLC_ROT_FIREMACHINE",
+                "DECORATION_DLC_ROT_FLOOR",
+                "DECORATION_DLC_ROT_IRONMAIDEN",
+                "DECORATION_DLC_ROT_LUMP1",
+                "DECORATION_DLC_ROT_LUMP2",
+                "DECORATION_DLC_ROT_PILLAR1",
+                "DECORATION_DLC_ROT_PILLAR2",
+                "DECORATION_DLC_ROT_STONE1",
+                "DECORATION_DLC_ROT_STONE2",
+                "DECORATION_DLC_ROT_TENTACLE",
+                "DECORATION_DLC_ROT_WALL",
+                "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+                "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+                "DECORATION_DLC_STEAMPUNK_CLOCK",
+                "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+                "DECORATION_DLC_STEAMPUNK_PLANT",
+                "DECORATION_DLC_STEAMPUNK_WALL",
+                "DECORATION_DLC_WOLF_BULB",
+                "DECORATION_DLC_WOLF_CULTIST1",
+                "DECORATION_DLC_WOLF_CULTIST2",
+                "DECORATION_DLC_WOLF_DIORAMA",
+                "DECORATION_DLC_WOLF_FIREPIT",
+                "DECORATION_DLC_WOLF_LAMPPOST",
+                "DECORATION_DLC_WOLF_PILLAR1",
+                "DECORATION_DLC_WOLF_PILLAR2",
+                "DECORATION_DLC_WOLF_STATUE1",
+                "DECORATION_DLC_WOLF_STATUE2",
+                "DECORATION_DLC_WOLF_STATUE3",
+                "DECORATION_DLC_WOLF_STATUE4",
+                "DECORATION_DLC_WOLF_STATUE5",
+                "DECORATION_DLC_WOLF_TESLA",
+                "DECORATION_DLC_WOLF_TREE1",
+                "DECORATION_DLC_WOLF_WIRES",
+                "DECORATION_DLC_WOOLHAVEN_BARREL1",
+                "DECORATION_DLC_WOOLHAVEN_BARREL2",
+                "DECORATION_DLC_WOOLHAVEN_BELLS",
+                "DECORATION_DLC_WOOLHAVEN_BUSH1",
+                "DECORATION_DLC_WOOLHAVEN_BUSH2",
+                "DECORATION_DLC_WOOLHAVEN_CANDLE",
+                "DECORATION_DLC_WOOLHAVEN_FLOOR",
+                "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+                "DECORATION_DLC_WOOLHAVEN_JUG",
+                "DECORATION_DLC_WOOLHAVEN_RUG",
+                "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+                "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+                "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+                "DECORATION_DLC_WOOLHAVEN_TREE",
+                "DECORATION_DLC_WOOLHAVEN_WALL",
+                "DECORATION_DLC_YNGYA_CANDLE",
+                "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+                "DECORATION_DLC_YNGYA_STICKBUNDLE",
+                "DECORATION_DLC_YNGYA_TALLFLOWERS",
+                "DECORATION_DLC_YNGYA_TREEBUSH",
+                "DECORATION_DLC_YNGYA_TREEPOT",
+                "DECORATION_DST_ALCHEMY",
+                "DECORATION_DST_BEEFALOSKELETON",
+                "DECORATION_DST_DEERCLOPS",
+                "DECORATION_DST_GLOMMERSTATUE",
+                "DECORATION_DST_MARBLETREE",
+                "DECORATION_DST_PIGSTICK",
+                "DECORATION_DST_SCIENCEMACHINE",
+                "DECORATION_DST_TREE",
+                "DECORATION_DST_WALL",
+                "DECORATION_EASTEREGG_EGG",
+                "DECORATION_EASTEREGG_HAROSTATUE",
+                "DECORATION_EASTEREGG_TURUA",
+                "DECORATION_EASTEREGG_WARRACKA",
+                "DECORATION_FLAG_CROWN",
+                "DECORATION_FLAG_CRYSTAL",
+                "DECORATION_FLAG_MUSHROOM",
+                "DECORATION_FLAG_SCRIPTURE",
+                "DECORATION_FLOWERPOTWALL",
+                "DECORATION_FLOWERVASE",
+                "DECORATION_FLOWER_ARCH",
+                "DECORATION_FLOWER_BOTTLE",
+                "DECORATION_FLOWER_BOX_1",
+                "DECORATION_FLOWER_CART",
+                "DECORATION_FLOWER_CART_SMALL",
+                "DECORATION_FOUNTAIN",
+                "DECORATION_GNOME1",
+                "DECORATION_GNOME2",
+                "DECORATION_GNOME3",
+                "DECORATION_GOAT_LANTERN",
+                "DECORATION_GOAT_PLANT",
+                "DECORATION_GOAT_STATUE",
+                "DECORATION_HALLOWEEN_CANDLE",
+                "DECORATION_HALLOWEEN_PUMPKIN",
+                "DECORATION_HALLOWEEN_SKULL",
+                "DECORATION_HALLOWEEN_TREE",
+                "DECORATION_HAY_BALE",
+                "DECORATION_HAY_PILE",
+                "DECORATION_LAMB_FLAG_STATUE",
+                "DECORATION_LAMB_STATUE",
+                "DECORATION_LEAFYLAMPPOST",
+                "DECORATION_LEAFY_FLOWER_SCULPTURE",
+                "DECORATION_LEAFY_LANTERN",
+                "DECORATION_LEAFY_SCULPTURE",
+                "DECORATION_MONSTERSHRINE",
+                "DECORATION_MUSHROOM_1",
+                "DECORATION_MUSHROOM_2",
+                "DECORATION_MUSHROOM_CANDLE_1",
+                "DECORATION_MUSHROOM_CANDLE_2",
+                "DECORATION_MUSHROOM_CANDLE_LARGE",
+                "DECORATION_MUSHROOM_SCULPTURE",
+                "DECORATION_OLDFAITH_CRYSTAL",
+                "DECORATION_OLDFAITH_FLAG",
+                "DECORATION_OLDFAITH_FOUNTAIN",
+                "DECORATION_OLDFAITH_IRONMAIDEN",
+                "DECORATION_OLDFAITH_SHRINE",
+                "DECORATION_OLDFAITH_TORCH",
+                "DECORATION_OLDFAITH_WALL",
+                "DECORATION_PALWORLD_LAMB",
+                "DECORATION_PALWORLD_LANTERN",
+                "DECORATION_PALWORLD_PLANT",
+                "DECORATION_PALWORLD_STATUE",
+                "DECORATION_PALWORLD_TREE",
+                "DECORATION_PILGRIM_BONSAI",
+                "DECORATION_PILGRIM_LANTERN",
+                "DECORATION_PILGRIM_PAGODA",
+                "DECORATION_PILGRIM_VASE",
+                "DECORATION_PILGRIM_WALL",
+                "DECORATION_PLUSH",
+                "DECORATION_POND",
+                "DECORATION_POST_BOX",
+                "DECORATION_PUMPKIN_PILE",
+                "DECORATION_PUMPKIN_STOOL",
+                "DECORATION_SHRUB",
+                "DECORATION_SINFUL_CRUCIFIX",
+                "DECORATION_SINFUL_FLOWERS1",
+                "DECORATION_SINFUL_FLOWERS2",
+                "DECORATION_SINFUL_INCENSE",
+                "DECORATION_SINFUL_SKULL",
+                "DECORATION_SINFUL_STATUE",
+                "DECORATION_SMALL_STONE_CANDLE",
+                "DECORATION_SPIDER_LANTERN",
+                "DECORATION_SPIDER_PILLAR",
+                "DECORATION_SPIDER_SCULPTURE",
+                "DECORATION_SPIDER_TORCH",
+                "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+                "DECORATION_STONE",
+                "DECORATION_STONE_CANDLE",
+                "DECORATION_STONE_CANDLE_LAMP",
+                "DECORATION_STONE_FLAG",
+                "DECORATION_STONE_HENGE",
+                "DECORATION_STONE_MUSHROOM",
+                "DECORATION_STUMP_LAMB_STATUE",
+                "DECORATION_TORCH",
+                "DECORATION_TORCH_BIG",
+                "DECORATION_TREE",
+                "DECORATION_TWIG_LAMP",
+                "DECORATION_TWITCH_FLAG_CROWN",
+                "DECORATION_TWITCH_MUSHROOM_BAG",
+                "DECORATION_TWITCH_ROSE_BUSH",
+                "DECORATION_TWITCH_STONE_FLAG",
+                "DECORATION_TWITCH_STONE_STATUE",
+                "DECORATION_TWITCH_WOODEN_GUARDIAN",
+                "DECORATION_VIDEO",
+                "DECORATION_WALL_BONE",
+                "DECORATION_WALL_GRASS",
+                "DECORATION_WALL_SPIDER",
+                "DECORATION_WALL_STONE",
+                "DECORATION_WALL_TWIGS",
+                "DECORATION_WATERINGCAN",
+                "DECORATION_WEEPINGSHRINE",
+                "DECORATION_WREATH_STICK",
+                "DEMON_SUMMONER",
+                "DEMON_SUMMONER_2",
+                "DEMON_SUMMONER_3",
+                "DRUM_CIRCLE",
+                "FARM_CROP_GROWER",
+                "FARM_PLOT",
+                "FARM_PLOT_SIGN",
+                "FARM_STATION",
+                "FARM_STATION_II",
+                "FEAST_TABLE",
+                "FOOD_STORAGE",
+                "FOOD_STORAGE_2",
+                "FORAGING_SHRINE",
+                "FURNACE_1",
+                "FURNACE_2",
+                "FURNACE_3",
+                "GRAVE",
+                "HARVEST_TOTEM",
+                "HARVEST_TOTEM_2",
+                "HATCHERY",
+                "HATCHERY_2",
+                "HEALING_BAY",
+                "HEALING_BAY_2",
+                "JANITOR_STATION",
+                "JANITOR_STATION_2",
+                "KITCHEN",
+                "KITCHEN_II",
+                "KNUCKLEBONES_ARENA",
+                "LEADER_TENT",
+                "LIGHTNING_ROD",
+                "LIGHTNING_ROD_2",
+                "LOGISTICS",
+                "LUMBERJACK_STATION",
+                "LUMBERJACK_STATION_2",
+                "MATING_TENT",
+                "MEDIC",
+                "MINING_SHRINE",
+                "MISSIONARY",
+                "MISSIONARY_II",
+                "MISSIONARY_III",
+                "MORGUE_1",
+                "MORGUE_2",
+                "OFFERING_STATUE",
+                "OUTHOUSE",
+                "OUTHOUSE_2",
+                "PLANK_PATH",
+                "POOP",
+                "POOP_BUCKET",
+                "PRISON",
+                "PROPAGANDA_SPEAKER",
+                "PROXIMITY_FURNACE",
+                "PUB",
+                "PUB_2",
+                "RACING_GATE",
+                "RANCH",
+                "RANCH_2",
+                "RANCH_CHOPPING_BLOCK",
+                "RANCH_FENCE",
+                "RANCH_HUTCH",
+                "RANCH_TROUGH",
+                "REFINERY",
+                "REFINERY_2",
+                "ROTSTONE_MINE",
+                "ROTSTONE_MINE_2",
+                "SACRIFICE_TABLE",
+                "SCARECROW",
+                "SCARECROW_2",
+                "SEED_BUCKET",
+                "SHARED_HOUSE",
+                "SHRINE",
+                "SHRINE_DISCIPLE_BOOST",
+                "SHRINE_DISCIPLE_COLLECTION",
+                "SHRINE_II",
+                "SHRINE_III",
+                "SHRINE_IV",
+                "SHRINE_PASSIVE",
+                "SHRINE_PASSIVE_II",
+                "SHRINE_PASSIVE_III",
+                "SHRINE_PLEASURE",
+                "SILO_FERTILISER",
+                "SILO_SEED",
+                "SURVEILLANCE",
+                "TAILOR",
+                "TEMPLE",
+                "TEMPLE_II",
+                "TEMPLE_III",
+                "TEMPLE_IV",
+                "TILE_BLOOD",
+                "TILE_BRICKS",
+                "TILE_FLOWERS",
+                "TILE_FLOWERSROCKY",
+                "TILE_GOLD",
+                "TILE_HAY",
+                "TILE_MOSAIC",
+                "TILE_OLDFAITH",
+                "TILE_PATH",
+                "TILE_PLANKS",
+                "TILE_REDGRASS",
+                "TILE_ROCKS",
+                "TILE_SPOOKYPLANKS",
+                "TILE_WATER",
+                "TOOLSHED",
+                "TRAIT_MANIPULATOR_1",
+                "TRAIT_MANIPULATOR_2",
+                "TRAIT_MANIPULATOR_3",
+                "VOLCANIC_SPA",
+                "VOMIT",
+                "WEATHER_VANE",
+                "WOLF_TRAP",
+                "WOOLY_SHACK"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Structure"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    }
+  },
+  "servers": [
+    {
+      "url": "/"
+    }
+  ],
+  "tags": [
+    {
+      "description": "What this data is",
+      "name": "index"
+    },
+    {
+      "description": "Resources, food, seeds, necklaces and everything else in the inventory",
+      "name": "items"
+    },
+    {
+      "description": "Buildings, decorations and tiles: cost, upgrade chain, footprint",
+      "name": "structures"
+    },
+    {
+      "description": "Follower forms: where they drop, whether hidden until unlocked",
+      "name": "skins"
+    }
+  ]
+}

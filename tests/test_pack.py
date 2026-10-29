@@ -62,6 +62,21 @@ class PackTest(unittest.TestCase):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
+    def test_openapi_describes_every_endpoint(self):
+        self.pack()
+        spec = json.loads((self.site / "openapi.json").read_text())
+        self.assertEqual(spec["openapi"], "3.1.0")
+        self.assertEqual(spec["info"]["version"], "1.4.6")
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin"})
+        for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
+                     "/v1/structures.json", "/v1/skins/{id}.json"):
+            self.assertIn(path, spec["paths"])
+        id_param = spec["paths"]["/v1/items/{id}.json"]["get"]["parameters"][0]
+        self.assertEqual(id_param["schema"]["enum"], ["BERRY", "LOG", "STONE"])
+        icon_param = spec["paths"]["/v1/icons/items/{id}.png"]["get"]["parameters"][0]
+        self.assertEqual(icon_param["schema"]["enum"], ["LOG", "STONE"])
+        self.assertNotIn("/v1/icons/skins/{id}.png", spec["paths"])  # no skin has an icon
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])

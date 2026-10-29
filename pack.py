@@ -25,9 +25,61 @@ def texts(i18n: dict, term) -> dict:
     return {lang: text for lang, text in i18n.get(term, {}).items() if text and LANGUAGE.match(lang)} if term else {}
 
 
+SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin"}
+
+
+def openapi(index: dict, ids: dict, icons: dict) -> dict:
+    """OpenAPI description of the site, for the docs page; ids/icons: per kind, the ids that have a file."""
+    schema_dir = Path(__file__).parent / "schema"
+    schemas = {}
+    for file, name in SCHEMAS.items():
+        s = json.loads((schema_dir / f"{file}.schema.json").read_text(encoding="utf-8"))
+        s.pop("$schema", None)
+        schemas[name] = s
+
+    def get(tag, summary, content, param=None):
+        op = {"tags": [tag], "summary": summary, "responses": {"200": {"description": "OK", "content": content},
+                                                "404": {"description": "No such id"}}}
+        if param:
+            op["parameters"] = [{"name": "id", "in": "path", "required": True, "schema": {"type": "string", "enum": param}}]
+        return {"get": op}
+
+    def ref(name, many=False):
+        s = {"$ref": f"#/components/schemas/{name}"}
+        return {"application/json": {"schema": {"type": "array", "items": s} if many else s}}
+
+    paths = {"/v1/index.json": get("index", "Game version, capture date, languages and counts", ref("Index"))}
+    for kind in KINDS:
+        name = SCHEMAS[kind[:-1]]
+        paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True))
+        paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {kind[:-1]}", ref(name), sorted(ids[kind]))
+        if icons[kind]:
+            paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {kind[:-1]}'s icon", {"image/png": {}}, sorted(icons[kind]))
+    return {
+        "openapi": "3.1.0",
+        "info": {
+            "title": "Cult of the Lamb data API",
+            "version": index["gameVersion"],
+            "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game "
+                           f"(version {index['gameVersion']}, captured {index['capturedAt']}). Static JSON: no keys, "
+                           "no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\n"
+                           "Unofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. "
+                           "Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+        },
+        "servers": [{"url": "/"}],
+        "tags": [{"name": "index", "description": "What this data is"},
+                 {"name": "items", "description": "Resources, food, seeds, necklaces and everything else in the inventory"},
+                 {"name": "structures", "description": "Buildings, decorations and tiles: cost, upgrade chain, footprint"},
+                 {"name": "skins", "description": "Follower forms: where they drop, whether hidden until unlocked"}],
+        "paths": paths,
+        "components": {"schemas": schemas},
+    }
+
+
 def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     tmp = site_dir / "v1.tmp"
     shutil.rmtree(tmp, ignore_errors=True)
+    ids, icons = {}, {}
     for kind in KINDS:
         entities = []
         for raw in sorted(dump[kind], key=lambda e: e["id"]):
@@ -40,9 +92,12 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
                 e["icon"] = f"icons/{kind}/{raw['id']}.png"
                 (tmp / "icons" / kind).mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(icon, tmp / e["icon"])
+                icons.setdefault(kind, []).append(e["id"])
             write_json(tmp / kind / f"{e['id']}.json", e)
             entities.append(e)
         write_json(tmp / f"{kind}.json", entities)
+        ids[kind] = [e["id"] for e in entities]
+        icons.setdefault(kind, [])
     index = {
         "gameVersion": dump["meta"]["gameVersion"],
         "capturedAt": dump["meta"]["capturedAt"],
@@ -54,6 +109,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     # Swap in whole so ids the game dropped don't linger as stale files.
     shutil.rmtree(site_dir / "v1", ignore_errors=True)
     tmp.rename(site_dir / "v1")
+    write_json(site_dir / "openapi.json", openapi(index, ids, icons))
     return index
 
 
