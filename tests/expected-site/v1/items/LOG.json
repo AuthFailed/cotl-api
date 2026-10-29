@@ -10,6 +10,7 @@
   },
   "icon": "icons/items/LOG.png",
   "id": "LOG",
+  "meal": null,
   "name": {
     "en": "Logs",
     "ru": "Брёвна"

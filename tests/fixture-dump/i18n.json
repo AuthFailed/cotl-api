@@ -38,5 +38,13 @@
   "Inventory/STONE/Description": {
     "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
     "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
+  },
+  "CookingData/MEAL_BERRIES/Name": {
+    "en": "Bowl of Berries",
+    "ru": "Миска ягод"
+  },
+  "CookingData/CausesIllPoopy/Description": {
+    "en": "<color=#FFD201>{0}%</color> chance of feeling ill",
+    "ru": "{0}% шанс заболеть"
   }
 }

@@ -65,7 +65,112 @@
       "items": {
         "type": "string"
       },
-      "description": "food, fish, big_fish, meat, heart, gift"
+      "description": "food, fish, big_fish, meat, heart, gift, meal, drink"
+    },
+    "meal": {
+      "description": "Meals and drinks only (null otherwise): how to make it and what it does",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "recipes",
+        "satiation",
+        "satiationPlayer",
+        "stars",
+        "tummyRating",
+        "faith",
+        "cookTime",
+        "dlc",
+        "effects"
+      ],
+      "properties": {
+        "recipes": {
+          "type": "array",
+          "description": "every ingredient combination the game accepts",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          }
+        },
+        "satiation": {
+          "type": "integer",
+          "description": "how much a follower's hunger it fills (the game's own units)"
+        },
+        "satiationPlayer": {
+          "type": "integer",
+          "description": "how much it heals the player when eaten"
+        },
+        "stars": {
+          "type": "integer",
+          "description": "quality stars the cooking menu shows"
+        },
+        "tummyRating": {
+          "type": "number"
+        },
+        "faith": {
+          "type": "integer",
+          "description": "faith gained when followers eat it"
+        },
+        "cookTime": {
+          "type": "number",
+          "description": "cooking time (the game's own units)"
+        },
+        "dlc": {
+          "type": "boolean"
+        },
+        "effects": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "type",
+              "chance",
+              "description",
+              "descriptionPlain"
+            ],
+            "properties": {
+              "type": {
+                "type": "string"
+              },
+              "chance": {
+                "type": "integer",
+                "description": "percent"
+              },
+              "description": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                },
+                "required": [
+                  "en"
+                ]
+              },
+              "descriptionPlain": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   }
 }

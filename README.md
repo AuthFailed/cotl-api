@@ -24,7 +24,11 @@ Every entity has `id`, `name` and `description` (maps from language code to text
 translation is left out, `en` is always there in `name`), `namePlain` and `descriptionPlain` (the same without
 the game's text markup), and `icon` (a path relative to `v1/`, or null).
 
-- **item**: `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`)
+- **item**: `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`,
+  `meal`, `drink`), `meal` (meals and drinks only, else null): `recipes` (every ingredient combination the game
+  accepts, as `[[{ "item", "quantity" }]]`), `satiation`, `satiationPlayer`, `stars` (the cooking menu's quality
+  stars), `tummyRating`, `faith`, `cookTime`, `dlc`, and `effects` (`type`, `chance` in percent, and its text as
+  `description` / `descriptionPlain`). Numbers are the game's own values and units.
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
   `upgradesFrom` (structure id or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
   place it from the build menu), `menu` (build menu tab and section, e.g. `Follower/Food`,

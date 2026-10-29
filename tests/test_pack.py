@@ -118,6 +118,17 @@ class PackTest(unittest.TestCase):
         self.pack()
         self.assertEqual(self.changes(), [])
 
+    def test_meal_effects_are_translated_with_their_chance(self):
+        self.pack()
+        meal = self.item("MEAL_BERRIES")["meal"]
+        self.assertEqual(meal["recipes"], [[{"item": "BERRY", "quantity": 6}]])
+        self.assertEqual(meal["effects"], [{
+            "type": "CausesIllPoopy", "chance": 5,
+            "description": {"en": "<color=#FFD201>5%</color> chance of feeling ill", "ru": "5% шанс заболеть"},
+            "descriptionPlain": {"en": "5% chance of feeling ill", "ru": "5% шанс заболеть"},
+        }])
+        self.assertIsNone(self.item("LOG")["meal"])
+
     def test_openapi_describes_every_endpoint(self):
         self.pack()
         spec = json.loads((self.site / "openapi.json").read_text())
@@ -128,7 +139,7 @@ class PackTest(unittest.TestCase):
                      "/v1/structures.json", "/v1/skins/{id}.json"):
             self.assertIn(path, spec["paths"])
         id_param = spec["paths"]["/v1/items/{id}.json"]["get"]["parameters"][0]
-        self.assertEqual(id_param["schema"]["enum"], ["BERRY", "LOG", "STONE"])
+        self.assertEqual(id_param["schema"]["enum"], ["BERRY", "LOG", "MEAL_BERRIES", "STONE"])
         icon_param = spec["paths"]["/v1/icons/items/{id}.png"]["get"]["parameters"][0]
         self.assertEqual(icon_param["schema"]["enum"], ["LOG", "STONE"])
         self.assertNotIn("/v1/icons/skins/{id}.png", spec["paths"])  # no skin has an icon
@@ -173,12 +184,12 @@ class RefuseTest(unittest.TestCase):
 
     def test_refuses_count_drop(self):
         self.previous(10)
-        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(5)])  # 8
+        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(4)])  # 8
         self.assertRefused()
 
     def test_allows_small_count_drop(self):
         self.previous(10)
-        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(6)])  # 9
+        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(5)])  # 9
         self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
 
     def test_refuses_duplicate_id(self):
@@ -211,6 +222,10 @@ class RefuseTest(unittest.TestCase):
 
     def test_refuses_empty_kind_on_first_publish(self):
         self.edit("skins", lambda skins: [])
+        self.assertRefused()
+
+    def test_refuses_effect_without_english_text(self):
+        self.edit("i18n", lambda t: {k: v for k, v in t.items() if k != "CookingData/CausesIllPoopy/Description"})
         self.assertRefused()
 
     def test_first_publish_has_no_count_check(self):

@@ -1,0 +1,49 @@
+{
+  "category": "NONE",
+  "description": {},
+  "descriptionPlain": {},
+  "icon": null,
+  "id": "MEAL_BERRIES",
+  "meal": {
+    "cookTime": 5.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 5,
+        "description": {
+          "en": "<color=#FFD201>5%</color> chance of feeling ill",
+          "ru": "5% шанс заболеть"
+        },
+        "descriptionPlain": {
+          "en": "5% chance of feeling ill",
+          "ru": "5% шанс заболеть"
+        },
+        "type": "CausesIllPoopy"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "BERRY",
+          "quantity": 6
+        }
+      ]
+    ],
+    "satiation": 30,
+    "satiationPlayer": 10,
+    "stars": 1,
+    "tummyRating": 0.5
+  },
+  "name": {
+    "en": "Bowl of Berries",
+    "ru": "Миска ягод"
+  },
+  "namePlain": {
+    "en": "Bowl of Berries",
+    "ru": "Миска ягод"
+  },
+  "tags": [
+    "meal"
+  ]
+}

@@ -4,7 +4,8 @@
     "nameTerm": "Inventory/LOG",
     "descTerm": "Inventory/LOG/Description",
     "category": "Resource",
-    "tags": []
+    "tags": [],
+    "meal": null
   },
   {
     "id": "BERRY",
@@ -13,13 +14,48 @@
     "category": "Food",
     "tags": [
       "food"
-    ]
+    ],
+    "meal": null
   },
   {
     "id": "STONE",
     "nameTerm": "Inventory/STONE",
     "descTerm": "Inventory/STONE/Description",
     "category": "Resource",
-    "tags": []
+    "tags": [],
+    "meal": null
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "nameTerm": "CookingData/MEAL_BERRIES/Name",
+    "descTerm": null,
+    "category": "NONE",
+    "tags": [
+      "meal"
+    ],
+    "meal": {
+      "recipes": [
+        [
+          {
+            "item": "BERRY",
+            "quantity": 6
+          }
+        ]
+      ],
+      "satiation": 30,
+      "satiationPlayer": 10,
+      "stars": 1,
+      "tummyRating": 0.5,
+      "faith": 0,
+      "cookTime": 5.0,
+      "dlc": false,
+      "effects": [
+        {
+          "type": "CausesIllPoopy",
+          "chance": 5,
+          "descTerm": "CookingData/CausesIllPoopy/Description"
+        }
+      ]
+    }
   }
 ]

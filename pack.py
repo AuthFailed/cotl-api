@@ -34,6 +34,13 @@ def plain(text: str) -> str:
     return re.sub(r"[ \t]+([.,!?;:])", r"\1", "\n".join(line.strip() for line in text.split("\n"))).strip()
 
 
+def effect(i18n: dict, raw: dict) -> dict:
+    """A meal effect with its text in every language; the game puts the chance where the text says {0}."""
+    description = {lang: t.replace("{0}", str(raw["chance"])) for lang, t in texts(i18n, raw["descTerm"]).items()}
+    return {"type": raw["type"], "chance": raw["chance"], "description": description,
+            "descriptionPlain": {lang: plain(t) for lang, t in description.items()}}
+
+
 def changed(old: dict, new: dict) -> bool:
     # Only fields both versions have: a field the API adds is not a change in the game.
     return any(old[k] != new[k] for k in old.keys() & new.keys())
@@ -107,6 +114,8 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
             e["description"] = texts(dump["i18n"], raw.get("descTerm"))
             e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}
             e["descriptionPlain"] = {lang: plain(t) for lang, t in e["description"].items()}
+            if e.get("meal"):
+                e["meal"] = dict(e["meal"], effects=[effect(dump["i18n"], x) for x in e["meal"]["effects"]])
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"
             e["icon"] = None
             if icon.exists():
@@ -164,6 +173,8 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
         found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.match(id)]
         found += [f"{kind}: {e['id']} has no English name" for e in dump[kind]
                   if not texts(dump["i18n"], e.get("nameTerm")).get("en")]
+        found += [f"{kind}: {e['id']} effect {x['type']} has no English text" for e in dump[kind]
+                  for x in (e.get("meal") or {}).get("effects", []) if not texts(dump["i18n"], x["descTerm"]).get("en")]
         # A game update can break one lookup and leave every icon or size empty while the rest looks fine.
         old = read_json(site_dir / "v1" / f"{kind}.json") or []
         for what, now, before in (

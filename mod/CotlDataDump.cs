@@ -141,17 +141,32 @@ public class CotlDataDump : BaseUnityPlugin
     string ItemTerm(string id, string inventory, string cooking) =>
         English($"Inventory/{id}") != null ? Term($"Inventory/{id}{inventory}") : Term($"CookingData/{id}{cooking}");
 
+    // A meal's or drink's recipes, numbers and effects, all as the cooking code defines them (none read the save).
+    Dictionary<string, object> Meal(InventoryItem.ITEM_TYPE t) => new Dictionary<string, object> {
+        ["recipes"] = (CookingData.GetRecipe(t) ?? new List<List<InventoryItem>>()).Select(r => r.Select(i => new Dictionary<string, object> {
+            ["item"] = ((InventoryItem.ITEM_TYPE)i.type).ToString(), ["quantity"] = i.quantity }).ToList()).ToList(),
+        ["satiation"] = CookingData.GetSatationAmount(t), ["satiationPlayer"] = CookingData.GetSatationAmountPlayer(t),
+        ["stars"] = CookingData.GetSatationLevel(t), ["tummyRating"] = CookingData.GetTummyRating(t),
+        ["faith"] = CookingData.GetFaithAmount(t), ["cookTime"] = CookingData.GetMealCookDuration(t), ["dlc"] = CookingData.IsRecipeDLC(t),
+        ["effects"] = (CookingData.GetMealEffects(t) ?? new CookingData.MealEffect[0]).Select(e => new Dictionary<string, object> {
+            ["type"] = e.MealEffectType.ToString(), ["chance"] = e.Chance,
+            ["descTerm"] = Term($"CookingData/{e.MealEffectType}/Description") ?? $"CookingData/{e.MealEffectType}/Description" }).ToList(),
+    };
+
     void ReadItems()
     {
+        var drinks = new HashSet<InventoryItem.ITEM_TYPE>(CookingData.GetAllDrinks());
         items = new List<Dictionary<string, object>>();
         foreach (var id in Enum.GetNames(typeof(InventoryItem.ITEM_TYPE)))
         {
             if (English($"Inventory/{id}") == null && English($"CookingData/{id}/Name") == null) { unnamed[id] = null; continue; }
             var t = (InventoryItem.ITEM_TYPE)Enum.Parse(typeof(InventoryItem.ITEM_TYPE), id);
+            bool cooked = English($"Inventory/{id}") == null;  // named under CookingData: a meal or a drink
             items.Add(new Dictionary<string, object> {
                 ["id"] = id, ["nameTerm"] = ItemTerm(id, "", "/Name"), ["descTerm"] = ItemTerm(id, "/Description", "/Description"),
                 ["category"] = InventoryItem.GetItemCategory(t).ToString(),
-                ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).ToList(),
+                ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).Concat(cooked ? new[] { drinks.Contains(t) ? "drink" : "meal" } : new string[0]).ToList(),
+                ["meal"] = cooked ? Meal(t) : null,
             });
         }
         // For the types left out, any term in the game that names them some other way, as evidence they're unnamed.
