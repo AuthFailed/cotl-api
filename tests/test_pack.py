@@ -58,7 +58,7 @@ class PackTest(unittest.TestCase):
 
     def test_schemas_published(self):
         self.pack()
-        for name in ("index", "item", "structure", "skin", "changes"):
+        for name in ("index", "item", "structure", "skin", "ritual", "changes"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
@@ -103,9 +103,9 @@ class PackTest(unittest.TestCase):
         self.pack()
         self.assertEqual(self.changes(), [{
             "gameVersion": "1.4.7", "capturedAt": "2026-11-01T00:00:00Z",
-            "added": {"items": ["COAL"], "structures": [], "skins": []},
-            "removed": {"items": ["LOG"], "structures": [], "skins": []},
-            "changed": {"items": ["STONE"], "structures": [], "skins": []},
+            "added": {"items": ["COAL"], "structures": [], "skins": [], "rituals": []},
+            "removed": {"items": ["LOG"], "structures": [], "skins": [], "rituals": []},
+            "changed": {"items": ["STONE"], "structures": [], "skins": [], "rituals": []},
         }])
         self.edit("meta", lambda m: m.update(capturedAt="2026-11-02T00:00:00Z"))
         self.pack()  # nothing changed: no new entry
@@ -144,14 +144,24 @@ class PackTest(unittest.TestCase):
         self.pack()  # LOG grows from SEED_TREE, which the game never names
         self.assertIsNone(self.item("LOG")["seed"])
 
+    def test_rituals_are_published(self):
+        index = self.pack()
+        self.assertEqual(index["counts"]["rituals"], 2)
+        feast = json.loads((self.site / "v1" / "rituals" / "Ritual_Feast.json").read_text())
+        self.assertEqual(feast["name"], {"en": "Feast", "ru": "Пир"})
+        self.assertEqual(feast["alternative"], "Ritual_Fast")
+        self.assertEqual(feast["icon"], "icons/rituals/Ritual_Feast.png")
+        self.assertTrue((self.site / "v1" / "icons" / "rituals" / "Ritual_Feast.png").exists())
+
     def test_openapi_describes_every_endpoint(self):
         self.pack()
         spec = json.loads((self.site / "openapi.json").read_text())
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
-        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Changes"})
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Changes"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
-                     "/v1/structures.json", "/v1/skins/{id}.json"):
+                     "/v1/structures.json", "/v1/skins/{id}.json", "/v1/rituals.json", "/v1/rituals/{id}.json",
+                     "/v1/icons/rituals/{id}.png"):
             self.assertIn(path, spec["paths"])
         id_param = spec["paths"]["/v1/items/{id}.json"]["get"]["parameters"][0]
         self.assertEqual(id_param["schema"]["enum"], ["BERRY", "LOG", "MEAL_BERRIES", "SEED", "STONE"])
@@ -182,7 +192,7 @@ class RefuseTest(unittest.TestCase):
 
     def previous(self, items):
         (self.site / "v1").mkdir()
-        (self.site / "v1" / "index.json").write_text(json.dumps({"counts": {"items": items, "structures": 2, "skins": 2}}))
+        (self.site / "v1" / "index.json").write_text(json.dumps({"counts": {"items": items, "structures": 2, "skins": 2, "rituals": 2}}))
 
     def assertRefused(self):
         before = tree(self.site)

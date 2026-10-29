@@ -13,7 +13,8 @@ Base URL: `https://api.cotl.info/v1/`
 | `items.json`, `items/{id}.json` | every item |
 | `structures.json`, `structures/{id}.json` | every structure |
 | `skins.json`, `skins/{id}.json` | every follower skin (form) |
-| `icons/items/{id}.png`, `icons/structures/{id}.png` | icons |
+| `rituals.json`, `rituals/{id}.json` | every ritual in the ritual menu |
+| `icons/items/{id}.png`, `icons/structures/{id}.png`, `icons/rituals/{id}.png` | icons |
 | `schema/{index,item,structure,skin}.schema.json` | JSON Schemas |
 
 `{id}` is the game's own name (`BERRY`, `FARM_PLOT`, …) and stays the same across game versions.
@@ -41,6 +42,11 @@ the game's text markup), and `icon` (a path relative to `v1/`, or null).
 - **skin**: `unlock` (where the game drops it: `Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`,
   `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game,
   and no icons yet.
+
+- **ritual**: `cost`, `faith`, `warmth`, `sin` (what performing it changes; faith is the base value, before
+  cult traits), `trait` (cult trait it can give, or null), `group` (`secondary`, `pair`, `single`, `special`, as
+  the ritual menu lists them), `alternative` (pair rituals: the other choice of the same doctrine; the Crystal
+  Doctrine unlocks both), `doctrine` (the doctrine that unlocks it, or null)
 
 Examples (only `en` and `ru` shown; the real files have every language):
 

@@ -1,0 +1,22 @@
+{
+  "alternative": "Ritual_Feast",
+  "cost": [],
+  "description": {},
+  "descriptionPlain": {},
+  "doctrine": "Food_FastRitual",
+  "faith": 10.0,
+  "group": "pair",
+  "icon": null,
+  "id": "Ritual_Fast",
+  "name": {
+    "en": "Fast",
+    "ru": "Пост"
+  },
+  "namePlain": {
+    "en": "Fast",
+    "ru": "Пост"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

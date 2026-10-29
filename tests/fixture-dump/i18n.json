@@ -50,5 +50,17 @@
   "Inventory/SEED": {
     "en": "Berry Seed",
     "ru": "Семя ягоды"
+  },
+  "UpgradeSystem/Ritual_Feast/Name": {
+    "en": "Feast",
+    "ru": "Пир"
+  },
+  "UpgradeSystem/Ritual_Feast/Description": {
+    "en": "Feed your <color=#FFD201>followers</color>.",
+    "ru": "Накормите последователей."
+  },
+  "UpgradeSystem/Ritual_Fast/Name": {
+    "en": "Fast",
+    "ru": "Пост"
   }
 }

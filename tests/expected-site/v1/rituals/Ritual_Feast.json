@@ -1,0 +1,33 @@
+{
+  "alternative": "Ritual_Fast",
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "en": "Feed your <color=#FFD201>followers</color>.",
+    "ru": "Накормите последователей."
+  },
+  "descriptionPlain": {
+    "en": "Feed your followers.",
+    "ru": "Накормите последователей."
+  },
+  "doctrine": "Food_FeastRitual",
+  "faith": 20.0,
+  "group": "pair",
+  "icon": "icons/rituals/Ritual_Feast.png",
+  "id": "Ritual_Feast",
+  "name": {
+    "en": "Feast",
+    "ru": "Пир"
+  },
+  "namePlain": {
+    "en": "Feast",
+    "ru": "Пир"
+  },
+  "sin": 0,
+  "trait": null,
+  "warmth": 0.0
+}

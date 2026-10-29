@@ -1,0 +1,33 @@
+[
+  {
+    "id": "Ritual_Feast",
+    "nameTerm": "UpgradeSystem/Ritual_Feast/Name",
+    "descTerm": "UpgradeSystem/Ritual_Feast/Description",
+    "cost": [
+      {
+        "item": "LOG",
+        "quantity": 5
+      }
+    ],
+    "faith": 20.0,
+    "warmth": 0.0,
+    "sin": 0,
+    "trait": null,
+    "group": "pair",
+    "alternative": "Ritual_Fast",
+    "doctrine": "Food_FeastRitual"
+  },
+  {
+    "id": "Ritual_Fast",
+    "nameTerm": "UpgradeSystem/Ritual_Fast/Name",
+    "descTerm": null,
+    "cost": [],
+    "faith": 10.0,
+    "warmth": 0.0,
+    "sin": 0,
+    "trait": null,
+    "group": "pair",
+    "alternative": "Ritual_Feast",
+    "doctrine": "Food_FastRitual"
+  }
+]

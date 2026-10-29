@@ -24,13 +24,13 @@ using UnityEngine.SceneManagement;
 public class CotlDataDump : BaseUnityPlugin
 {
     ConfigEntry<int> slot;
-    ConfigEntry<bool> doItems, doStructures, doSkins;
+    ConfigEntry<bool> doItems, doStructures, doSkins, doRituals;
     string outDir;
     bool started, finished;
     readonly List<object> errors = new List<object>();
     readonly HashSet<string> terms = new HashSet<string>();
     readonly Dictionary<string, Dictionary<string, string>> i18n = new Dictionary<string, Dictionary<string, string>>();
-    List<Dictionary<string, object>> items, structures, skins;
+    List<Dictionary<string, object>> items, structures, skins, rituals;
     readonly Dictionary<string, List<string>> unnamed = new Dictionary<string, List<string>>();
     string en = "en";
 
@@ -47,6 +47,7 @@ public class CotlDataDump : BaseUnityPlugin
         doItems = Config.Bind("Jobs", "Items", true, "items.json and item icons.");
         doStructures = Config.Bind("Jobs", "Structures", true, "structures.json and structure icons.");
         doSkins = Config.Bind("Jobs", "Skins", true, "skins.json.");
+        doRituals = Config.Bind("Jobs", "Rituals", true, "rituals.json and ritual icons.");
         outDir = Path.Combine(Paths.PluginPath, "CotlDataDump");
         Directory.CreateDirectory(outDir);
         new Harmony("chrsnv.cotldata.dump").PatchAll(typeof(CotlDataDump));
@@ -75,6 +76,7 @@ public class CotlDataDump : BaseUnityPlugin
         if (doItems.Value) Try("Items", ReadItems);
         if (doStructures.Value) Try("Structures", ReadStructures);
         if (doSkins.Value) Try("Skins", ReadSkins);
+        if (doRituals.Value) Try("Rituals", ReadRituals);
         Try("Translations", ReadTranslations);
         int s = slot.Value;
         Logger.LogInfo($"phase 1 done; continuing save slot {s}");
@@ -95,6 +97,7 @@ public class CotlDataDump : BaseUnityPlugin
         Write("items.json", items ?? new List<Dictionary<string, object>>());
         Write("structures.json", structures ?? new List<Dictionary<string, object>>());
         Write("skins.json", skins ?? new List<Dictionary<string, object>>());
+        Write("rituals.json", rituals ?? new List<Dictionary<string, object>>());
         Write("i18n.json", i18n);
         Write("meta.json", new Dictionary<string, object> {
             ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
@@ -250,6 +253,41 @@ public class CotlDataDump : BaseUnityPlugin
             });
         }
         Logger.LogInfo($"skins: {skins.Count}");
+    }
+
+    // The ritual menu's list (UpgradeSystem.AllRituals) and how each ritual is unlocked; nothing here reads the save,
+    // except the faith change, which only differs once the cult has the matching trait.
+    void ReadRituals()
+    {
+        var groups = new Dictionary<UpgradeSystem.Type, string>();
+        foreach (var r in UpgradeSystem.SecondaryRituals) groups[r] = "secondary";
+        foreach (var r in UpgradeSystem.SecondaryRitualPairs) groups[r] = "pair";
+        foreach (var r in UpgradeSystem.SingleRituals) groups[r] = "single";
+        foreach (var r in UpgradeSystem.SpecialRituals) groups[r] = "special";
+        var pairs = UpgradeSystem.SecondaryRitualPairs;  // (0, 1), (2, 3), ...: the two choices of one doctrine
+        var doctrines = new Dictionary<UpgradeSystem.Type, string>();
+        foreach (DoctrineUpgradeSystem.DoctrineType d in Enum.GetValues(typeof(DoctrineUpgradeSystem.DoctrineType)))
+            try { var r = DoctrineUpgradeSystem.RitualForDoctrineUpgrade(d); if (groups.ContainsKey(r) && !doctrines.ContainsKey(r)) doctrines[r] = d.ToString(); } catch { }
+        rituals = new List<Dictionary<string, object>>();
+        foreach (var r in UpgradeSystem.AllRituals())
+        {
+            int i = Array.IndexOf(pairs, r);
+            var trait = UpgradeSystem.GetRitualTrait(r);
+            rituals.Add(new Dictionary<string, object> {
+                ["id"] = r.ToString(),
+                // UpgradeSystem.GetLocalizedName names the fire pit after its building
+                ["nameTerm"] = Term(r == UpgradeSystem.Type.Ritual_FirePit ? "UpgradeSystem/Building_DancingFirepit/Name" : $"UpgradeSystem/{r}/Name"),
+                ["descTerm"] = Term($"UpgradeSystem/{r}/Description"),
+                ["cost"] = UpgradeSystem.GetCost(r).Select(c => new Dictionary<string, object> { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
+                ["faith"] = UpgradeSystem.GetRitualFaithChange(r), ["warmth"] = UpgradeSystem.GetRitualWarmthChange(r), ["sin"] = UpgradeSystem.GetRitualSinChange(r),
+                ["trait"] = trait == FollowerTrait.TraitType.None ? null : trait.ToString(),
+                ["group"] = groups[r],
+                ["alternative"] = i < 0 ? null : pairs[i ^ 1].ToString(),
+                ["doctrine"] = doctrines.TryGetValue(r, out var doc) ? doc : null,
+            });
+            try { var icon = UpgradeSystem.GetIcon(r); if (icon) SaveSprite(icon, "rituals", r.ToString()); } catch (Exception e) { Logger.LogWarning($"{r} icon: {e.Message}"); }
+        }
+        Logger.LogInfo($"rituals: {rituals.Count}");
     }
 
     void ReadTranslations()

@@ -47,7 +47,7 @@ pc "$SESSION systemd-run --user --collect --unit=cotl-api-awake systemd-inhibit 
     --why='Data capture over SSH' --mode=block sleep 1800"
 
 # The plugin acts only within 30 minutes of ArmedAt, so a cfg left behind by a failed cleanup does nothing later.
-pc "rm -rf $OUT; printf '[General]\nArmedAt = %s\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' \"\$(date +%s)\" > $CFG"
+pc "rm -rf $OUT; printf '[General]\nArmedAt = %s\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\nRituals = true\n' \"\$(date +%s)\" > $CFG"
 pc_stdin "cat > $PLUGIN" < mod/CotlDataDump.dll
 # As a user unit, so the launcher isn't killed with the SSH session before it reaches Steam (a nohup'd one sometimes was).
 launch() {

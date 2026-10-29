@@ -5,7 +5,7 @@ import shutil
 import sys
 from pathlib import Path
 
-KINDS = ("items", "structures", "skins")
+KINDS = ("items", "structures", "skins", "rituals")
 SAFE_ID = re.compile(r"^[A-Za-z0-9_-]+$")
 # The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
 LANGUAGE = re.compile(r"^[a-z]{2}(-[A-Za-z]{2})?$")
@@ -50,7 +50,7 @@ def tree(root: Path) -> dict:
     return {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()} if root.exists() else {}
 
 
-SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "changes": "Changes"}
+SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "changes": "Changes"}
 
 
 def openapi(index: dict, ids: dict, icons: dict) -> dict:
@@ -96,7 +96,8 @@ def openapi(index: dict, ids: dict, icons: dict) -> dict:
         "tags": [{"name": "index", "description": "What this data is"},
                  {"name": "items", "description": "Resources, food, seeds, necklaces and everything else in the inventory"},
                  {"name": "structures", "description": "Buildings, decorations and tiles: cost, upgrade chain, footprint"},
-                 {"name": "skins", "description": "Follower forms: where they drop, whether hidden until unlocked"}],
+                 {"name": "skins", "description": "Follower forms: where they drop, whether hidden until unlocked"},
+                 {"name": "rituals", "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them"}],
         "paths": paths,
         "components": {"schemas": schemas},
     }
