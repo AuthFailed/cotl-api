@@ -39,6 +39,15 @@ class CheckTest(unittest.TestCase):
         (self.v1 / "items.json").write_text(json.dumps(items))
         self.assertNotEqual(self.check().returncode, 0)
 
+    def test_undocumented_placeholder_fails(self):
+        items = json.loads((self.v1 / "items.json").read_text())
+        items[0]["name"]["en"] = "Bowl of {0}"
+        (self.v1 / "items.json").write_text(json.dumps(items))
+        (self.v1 / "items" / f"{items[0]['id']}.json").write_text(json.dumps(items[0]))
+        r = self.check()
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("{0}", r.stdout)
+
     def test_invalid_openapi_fails(self):
         spec = json.loads((self.site / "openapi.json").read_text())
         del spec["info"]

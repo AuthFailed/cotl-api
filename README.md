@@ -149,6 +149,14 @@ Text is the game's own and can hold its TextMeshPro markup, e.g. `<sprite name="
 inline icon; `namePlain`/`descriptionPlain` have it removed. An item's `category` is `NONE` when the game
 doesn't put it in one.
 
+## Text the game fills at run time
+
+Two published texts keep a `{0}` that the game fills from the player's save or by mistake; `placeholders.json`
+lists them, and the checks fail if a new one appears:
+
+- `traits/BishopOfCult` `name`: "Bishop of {0}", where `{0}` is the cult's name.
+- `traits/Mutated` `name`, Korean only: the game's Korean name is its description sentence ("dies in {0} days").
+
 ## What's left out
 
 Item types the game has no name for in any language are left out: internal values, placeholders and cut

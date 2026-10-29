@@ -1,0 +1,4 @@
+{
+  "traits/BishopOfCult/name": "{0} is the cult's name, which the game takes from the player's save (FollowerTrait.GetLocalizedTitle).",
+  "traits/Mutated/name": "Only in Korean: the game's Korean name is the sentence \"dies in {0} days\" (its description text), a slip in the game's own translation."
+}
