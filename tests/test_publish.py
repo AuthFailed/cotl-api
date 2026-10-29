@@ -17,12 +17,16 @@ FAKES = {
            'if [[ "$cmd" == "cat >"* ]]; then exec bash -c "$cmd"; fi\n'
            'cat > /dev/null; exec bash -c "$cmd" < /dev/null',
     "pgrep": 'exit "${FAKE_PGREP:-1}"',
-    "systemd-run": 'echo "systemd-run $*" >> "$FAKE_LOG"',
+    # systemd-run <--options> cmd...: log it, then run cmd here (with its --setenv values)
+    "systemd-run": 'echo "systemd-run $*" >> "$FAKE_LOG"\n'
+                   'while [[ "$1" == --* ]]; do [[ "$1" == --setenv=* ]] && export "${1#--setenv=}"; shift; done\n'
+                   'exec "$@"',
+    "systemd-inhibit": "exit 0",
     "systemctl": 'echo "systemctl $*" >> "$FAKE_LOG"',
     "date": 'if [ "$1" = +%s ]; then echo 1800000000; else /bin/date "$@"; fi',
     "pkill": "exit 0",
     "sleep": "exit 0",
-    "steam": 'cat "$FAKE_CFG" >> "$FAKE_LOG"; mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
+    "steam": 'if [ -n "${FAKE_STEAM_IGNORES:-}" ]; then exit 0; fi; cat "$FAKE_CFG" >> "$FAKE_LOG"; mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
              'if [ -n "${FAKE_TOUCH_SAVES:-}" ]; then echo new > "$FAKE_SAVES/slot_9.json"; fi',
     # rsync -a --partial -e ... host:<escaped path>/ dest/
     "rsync": 'src="${@: -2:1}"; eval "p=${src#*:}"; mkdir -p "${@: -1}"; cp -R "$p/." "${@: -1}"',
@@ -88,6 +92,15 @@ class PublishTest(unittest.TestCase):
     def test_cfg_is_armed_with_the_pc_time(self):
         self.run_publish()  # the fake steam copies the cfg it finds into the log
         self.assertIn("ArmedAt = 1800000000\n", self.log)
+
+    def test_game_is_launched_outside_the_ssh_session(self):
+        self.run_publish()
+        self.assertRegex(self.log, r"systemd-run --user --collect --unit=cotl-api-launch-\d+ .*steam -applaunch 1313140")
+
+    def test_launch_is_retried_when_the_game_never_starts(self):
+        r = self.run_publish(FAKE_STEAM_IGNORES="1")
+        self.assertEqual(sum(l.startswith("systemd-run") and "applaunch" in l for l in self.log.splitlines()), 2)
+        self.assertNotEqual(r.returncode, 0)
 
     def test_unreachable_pc_is_not_taken_as_game_stopped(self):
         r = self.run_publish(FAKE_SSH_DOWN="pgrep")

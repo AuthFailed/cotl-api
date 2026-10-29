@@ -49,11 +49,17 @@ pc "$SESSION systemd-run --user --collect --unit=cotl-api-awake systemd-inhibit 
 # The plugin acts only within 30 minutes of ArmedAt, so a cfg left behind by a failed cleanup does nothing later.
 pc "rm -rf $OUT; printf '[General]\nArmedAt = %s\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' \"\$(date +%s)\" > $CFG"
 pc_stdin "cat > $PLUGIN" < mod/CotlDataDump.dll
-pc 'DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus nohup steam -applaunch 1313140 >/tmp/cotl-launch.log 2>&1 &'
+# As a user unit, so the launcher isn't killed with the SSH session before it reaches Steam (a nohup'd one sometimes was).
+launch() {
+  pc "$SESSION systemd-run --user --collect --unit=cotl-api-launch-\$(date +%s) --setenv=DISPLAY=:0 \
+      steam -applaunch 1313140 >>/tmp/cotl-launch.log 2>&1"
+}
+launch
 echo "game launching; waiting for the dump (up to 10 minutes)"
 seen=0
-for _ in $(seq 60); do
+for i in $(seq 60); do
   sleep 10
+  if [ $i = 12 ] && [ $seen = 0 ]; then echo "no game after 2 minutes; asking Steam again"; launch; fi
   rc=0; pc "test -f $OUT/done" || rc=$?
   [ $rc = 0 ] && break
   rc=0; pc "$GAME_UP" || rc=$?
