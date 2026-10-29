@@ -483,6 +483,7 @@ public class CotlDataDump : BaseUnityPlugin
         foreach (var cd in TailorManager.ClothingData.Where(c => c && !c.HideOnTailorMenu).GroupBy(c => c.ClothingType).Select(g => g.First()))
         {
             string id = cd.ClothingType.ToString(), protection = cd.ProtectionType.ToString();
+            if (id == "None" || id == "Count") continue;
             if (English($"Clothing/{id}/Name") == null) continue;
             var groups = new List<string>();
             if (cd.IsHeretic) groups.Add("heretic"); if (cd.IsCultist) groups.Add("cultist");
@@ -568,9 +569,14 @@ public class CotlDataDump : BaseUnityPlugin
         var menu = Resources.FindObjectsOfTypeAll<Lamb.UI.UIManager>().Select(m => m.PlayerUpgradesMenuTemplate).FirstOrDefault(t => t);
         var buttons = menu ? Traverse.Create(menu).Field("_fleeceItems").GetValue<Lamb.UI.FleeceItemBuyable[]>() : null;
         if (buttons == null || buttons.Length == 0) throw new Exception("no player upgrades menu template with fleece buttons");
-        foreach (var b in buttons.Where(b => b).GroupBy(b => b.Fleece).Select(g => g.First()).OrderBy(b => b.Fleece))
+        // the menu numbers each button by its ForcedFleeceIndex, or else by its place in the array (UIPlayerUpgradesMenuController)
+        var seen = new HashSet<int>();
+        for (int i = 0; i < buttons.Length; i++)
         {
-            int n = b.Fleece;
+            var b = buttons[i];
+            if (!b) continue;
+            int n = b.ForcedFleeceIndex == -1 ? i : b.ForcedFleeceIndex;
+            if (!seen.Add(n)) continue;
             if (English($"TarotCards/Fleece{n}/Name") == null) continue;
             var type = (PlayerFleeceManager.FleeceType)n;
             string id = Enum.IsDefined(typeof(PlayerFleeceManager.FleeceType), n) ? type.ToString() : $"Fleece{n}";
