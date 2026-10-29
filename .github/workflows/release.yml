@@ -1,6 +1,7 @@
 name: Release
 
-# A release per game version: the data zipped, the TypeScript types, and the changelog entry as notes.
+# A release per game version: the data zipped, the TypeScript types, and the changelog entry as notes. Later data
+# commits for the same version (new fields, new kinds) refresh its files and notes.
 on:
   push:
     branches: [main]
@@ -27,8 +28,7 @@ jobs:
           v=$(python3 -c 'import json;print(json.load(open("site/v1/index.json"))["gameVersion"])')
           echo "game=$v" >> "$GITHUB_OUTPUT"
           if gh release view "data-$v" >/dev/null 2>&1; then echo "new=false" >> "$GITHUB_OUTPUT"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
-      - if: steps.version.outputs.new == 'true'
-        run: |
+      - run: |
           v=${{ steps.version.outputs.game }}
           ./types.sh site/v1
           (cd site && zip -qr "$RUNNER_TEMP/cotl-api-v1-$v.zip" v1)
@@ -45,11 +45,16 @@ jobs:
                   if ids:
                       print(f"**{what.capitalize()}** ({len(ids)}): {', '.join(ids)}\n")
           else:
-              print("First release of this game version's data.\n")
+              print("No changes recorded against an earlier game version (the changelog starts with the next update).\n")
           print("Browse it at https://api.cotl.info/ — this zip is the same `v1/` for offline use.")
           PY
-          gh release create "data-$v" "$RUNNER_TEMP/cotl-api-v1-$v.zip" site/v1/types.d.ts \
-            --title "Game version $v" --notes-file "$RUNNER_TEMP/notes.md" --target "$GITHUB_SHA"
+          if [ "${{ steps.version.outputs.new }}" = true ]; then
+            gh release create "data-$v" "$RUNNER_TEMP/cotl-api-v1-$v.zip" site/v1/types.d.ts \
+              --title "Game version $v" --notes-file "$RUNNER_TEMP/notes.md" --target "$GITHUB_SHA"
+          else
+            gh release upload "data-$v" "$RUNNER_TEMP/cotl-api-v1-$v.zip" site/v1/types.d.ts --clobber
+            gh release edit "data-$v" --notes-file "$RUNNER_TEMP/notes.md"
+          fi
       # npm, only once an NPM_TOKEN secret is set. npm needs semver: 1.5.26.1058 becomes 1.5.261058.
       - if: steps.version.outputs.new == 'true' && env.NODE_AUTH_TOKEN != ''
         run: |
