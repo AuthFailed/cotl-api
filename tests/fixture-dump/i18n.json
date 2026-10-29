@@ -27,12 +27,10 @@
     "en": "Gathers more devotion.",
     "ru": "Собирает больше веры."
   },
-  "FollowerSkins/Cat": {
-    "en": "Cat",
-    "ru": "Кот"
+  "Skins/Cat": {
+    "en": "Cat"
   },
-  "FollowerSkins/Deer": {
-    "en": "Deer",
-    "ru": "Олень"
+  "Skins/Deer": {
+    "en": "Deer"
   }
 }

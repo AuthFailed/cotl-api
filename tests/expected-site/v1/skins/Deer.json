@@ -1,10 +1,10 @@
 {
   "description": {},
-  "icon": "icons/skins/Deer.png",
+  "hidden": true,
+  "icon": null,
   "id": "Deer",
   "name": {
-    "en": "Deer",
-    "ru": "Олень"
+    "en": "Deer"
   },
-  "unlock": "Shop"
+  "unlock": "Dungeon1"
 }

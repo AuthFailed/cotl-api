@@ -6,12 +6,13 @@ dump that a BepInEx plugin takes from the running game in a few minutes.
 ## Goals
 
 - Public and documented: other people's tools, bots and sites can depend on it.
-- v1 covers **items**, **structures** and **skins**, with names in every game language and a small icon each.
+- v1 covers **items**, **structures** and **skins**, with names in every game language and a small icon
+  for items and structures.
 - One command on the Mac captures, packs and publishes a new version after a game update.
 - Saves are never at risk.
 
 Not in v1: recipes, tarot, rituals, doctrines, weapons, crops; building renders and backgrounds (they stay
-in the planner); query endpoints. The planner keeps its own data for now; switching it to this API is a later decision.
+in the planner); query endpoints; structure range indicators and skin portraits (later, additive). The planner keeps its own data for now; switching it to this API is a later decision.
 
 ## Repository
 
@@ -35,15 +36,22 @@ No machine names, addresses or key paths are committed: `publish.sh` reads them 
 A BepInEx 5 plugin built like the planner's `tools/capture/build.sh` (csc against the game's `Managed`
 assemblies, BepInEx.dll, 0Harmony.dll).
 
-- Starts its work on the main menu once localisation and Addressables are ready. It never continues or
-  loads a save, and patches out saving as a safeguard.
+- Works in two phases, with saving patched out throughout:
+  1. **Main menu**, before any save loads: costs (`StructuresData.GetCost` applies the loaded save's
+     `Economy_MineII` discount, so it must run while `DataManager` is still the fresh, empty one), item and
+     structure data, skins, translations.
+  2. **Base scene**: the mod continues save slot 0 as the planner's capture does, waits for the base, then
+     reads footprints and icons, which only exist there.
 - Each job runs inside a `Try` that records failures instead of stopping the run:
-  - **Items**: every `InventoryItem.ITEM_TYPE`: id, name and description terms, category, icon (via
-    `InventoryIconMapping.GetImage`, as the planner's `DumpItems` does).
-  - **Structures**: every `StructureBrain.TYPES`: id, name and description terms, cost
-    (`StructuresData.GetCost`), the type it upgrades from (`StructuresData.GetInfoByType`), footprint size,
-    range indicators, icon.
-  - **Skins**: every follower skin in the game's skin table: id, name term, unlock source, icon.
+  - **Items** (phase 1, icons phase 2): every name of `InventoryItem.ITEM_TYPE`: id, name term
+    `Inventory/{id}`, description term `Inventory/{id}/Description`, category
+    (`InventoryItem.GetItemCategory`), icon (via `InventoryIconMapping.GetImage`, as the planner's `DumpItems` does).
+  - **Structures** (phase 1, footprint and icon phase 2): every name of `StructureBrain.TYPES`: id, name
+    term `Structures/{id}`, description term `Structures/{id}/Description`, cost (`StructuresData.GetCost`),
+    the type it upgrades from (`StructuresData.GetInfoByType`), footprint (`PlacementObject.Bounds` of the
+    entry's placement prefab in the base scene's `TypeAndPlacementObjects`), icon (that entry's `IconImage`).
+  - **Skins** (phase 1): every entry of `WorshipperData.Instance.Characters` that is not `Invariant`: id,
+    English title (`Title`; the game has no translated skin names), unlock source (`DropLocation`), hidden flag.
   - **Translations**: the terms the jobs above reference, in every language.
 - Writes a raw dump to `BepInEx/plugins/CotlDataDump/`: `items.json`, `structures.json`, `skins.json`,
   `i18n.json`, `meta.json` (game version, plugin version, per-job errors), `icons/{kind}/{id}.png`, then a
@@ -51,18 +59,20 @@ assemblies, BepInEx.dll, 0Harmony.dll).
 - The dump is game-shaped (localisation terms, raw enum names). Reshaping the public format happens in the
   packer, so it never needs a new game run.
 
-### First task: feasibility spike
+### Feasibility findings (from the decompiled game code)
 
-Before building the jobs, confirm in the decompiled code (or a throwaway run) that from the main menu,
-without a save:
-
-1. the follower skin list and each skin's unlock source can be read;
-2. `StructuresData.GetCost` gives the base costs (the planner's job notes it lists costs "for this save");
-3. structure footprints and ranges can be read from prefabs or data defaults;
-4. `InventoryIconMapping` instances are loaded.
-
-Any item that needs a loaded save moves the mod to auto-continuing save slot 0 as the planner's capture
-does, with all saving blocked, and that is recorded in this spec before going on.
+1. **Skins**: `WorshipperData.Instance` loads `Resources/Prefabs/Worshipper Data`, no save needed. The unlock
+   source is `SkinAndData.DropLocation` (`Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`, `Major_DLC`).
+   Skins have no translated names and no icon sprite: the game draws them live with Spine
+   (`UINewItemOverlayController`). v1 skins get the English title and `icon: null`; a rendered portrait is
+   a later addition.
+2. **Costs**: `GetCost` multiplies by `UpgradeSystem.GetPriceModifier` when the save has `Economy_MineII`,
+   and always doubles `BLACK_GOLD`/`GOLD_REFINED` (that doubling is the base price). Read before any save loads.
+3. **Footprints** are not in `GetInfoByType` (only one type sets `Bounds`); they come from the placement
+   prefabs listed by `TypeAndPlacementObjects`, a base-scene object, which also holds each structure's icon.
+   **Ranges** are sized in code per building script (e.g. `Scarecrow.EFFECTIVE_DISTANCE`,
+   `Structures_Shrine_Passive.Range`), not readable generically: left out of v1, to be added later.
+4. **Item icons**: `InventoryIconMapping` is a ScriptableObject held by UI prefabs; read in phase 2.
 
 ## Public format: `site/v1/`
 
@@ -75,14 +85,15 @@ v1/icons/{items|structures|skins}/{id}.png
 v1/schema/*.schema.json
 ```
 
-`{id}` is the game's enum or skin name (e.g. `BERRY`, `FARM_PLOT`), stable across game versions.
+`{id}` is the game's enum name (e.g. `BERRY`, `FARM_PLOT`) or the skin's Spine name with any character
+outside `A-Za-z0-9_-` replaced by `_`, stable across game versions.
 
 Common fields: `id`, `name` and `description` as `{ "<lang>": "<text>" }` maps (missing languages left
 out), `icon` (path relative to `v1/`, or null).
 
 - item: `category`
-- structure: `cost: [{ item, quantity }]`, `upgradesFrom` (id or null), `size: { w, h }`, `ranges`
-- skin: `unlock` (the game's unlock source, as a string)
+- structure: `cost: [{ item, quantity }]`, `upgradesFrom` (id or null), `size: { w, h }` (or null)
+- skin: `unlock` (the game's `DropLocation` name), `hidden` (the game hides it until unlocked)
 
 Lists are sorted by id; JSON is written with sorted keys so an unchanged game gives an unchanged site.
 

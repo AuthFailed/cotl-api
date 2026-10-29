@@ -1,12 +1,14 @@
 [
   {
     "id": "Cat",
-    "nameTerm": "FollowerSkins/Cat",
-    "unlock": "Default"
+    "nameTerm": "Skins/Cat",
+    "unlock": "Other",
+    "hidden": false
   },
   {
     "id": "Deer",
-    "nameTerm": "FollowerSkins/Deer",
-    "unlock": "Shop"
+    "nameTerm": "Skins/Deer",
+    "unlock": "Dungeon1",
+    "hidden": true
   }
 ]

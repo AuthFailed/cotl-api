@@ -9,8 +9,7 @@
     "icon",
     "cost",
     "upgradesFrom",
-    "size",
-    "ranges"
+    "size"
   ],
   "properties": {
     "id": {
@@ -83,25 +82,6 @@
         "h": {
           "type": "integer",
           "minimum": 1
-        }
-      }
-    },
-    "ranges": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": [
-          "name",
-          "radius"
-        ],
-        "properties": {
-          "name": {
-            "type": "string"
-          },
-          "radius": {
-            "type": "number",
-            "minimum": 0
-          }
         }
       }
     }

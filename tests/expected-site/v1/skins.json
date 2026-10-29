@@ -1,22 +1,22 @@
 [
   {
     "description": {},
-    "icon": "icons/skins/Cat.png",
+    "hidden": false,
+    "icon": null,
     "id": "Cat",
     "name": {
-      "en": "Cat",
-      "ru": "Кот"
+      "en": "Cat"
     },
-    "unlock": "Default"
+    "unlock": "Other"
   },
   {
     "description": {},
-    "icon": "icons/skins/Deer.png",
+    "hidden": true,
+    "icon": null,
     "id": "Deer",
     "name": {
-      "en": "Deer",
-      "ru": "Олень"
+      "en": "Deer"
     },
-    "unlock": "Shop"
+    "unlock": "Dungeon1"
   }
 ]

@@ -111,7 +111,7 @@ class RefuseTest(unittest.TestCase):
     def test_refuses_unsafe_id(self):
         for bad in ("a/b", "a b", ".."):
             with self.subTest(bad=bad):
-                self.edit("skins", lambda skins: skins[:2] + [{"id": bad, "nameTerm": "FollowerSkins/Cat"}])
+                self.edit("skins", lambda skins: skins[:2] + [{"id": bad, "nameTerm": "Skins/Cat"}])
                 self.assertRefused()
 
     def test_first_publish_has_no_count_check(self):

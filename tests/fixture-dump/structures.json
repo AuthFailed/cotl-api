@@ -13,8 +13,7 @@
     "size": {
       "w": 1,
       "h": 1
-    },
-    "ranges": []
+    }
   },
   {
     "id": "SHRINE_II",
@@ -34,12 +33,6 @@
     "size": {
       "w": 3,
       "h": 3
-    },
-    "ranges": [
-      {
-        "name": "devotion",
-        "radius": 4
-      }
-    ]
+    }
   }
 ]

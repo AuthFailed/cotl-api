@@ -7,7 +7,8 @@
     "name",
     "description",
     "icon",
-    "unlock"
+    "unlock",
+    "hidden"
   ],
   "properties": {
     "id": {
@@ -43,6 +44,9 @@
         "string",
         "null"
       ]
+    },
+    "hidden": {
+      "type": "boolean"
     }
   }
 }

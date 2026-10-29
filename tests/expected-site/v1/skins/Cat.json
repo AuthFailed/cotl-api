@@ -1,10 +1,10 @@
 {
   "description": {},
-  "icon": "icons/skins/Cat.png",
+  "hidden": false,
+  "icon": null,
   "id": "Cat",
   "name": {
-    "en": "Cat",
-    "ru": "Кот"
+    "en": "Cat"
   },
-  "unlock": "Default"
+  "unlock": "Other"
 }

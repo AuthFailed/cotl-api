@@ -13,7 +13,6 @@
       "en": "Farm Plot",
       "ru": "Грядка"
     },
-    "ranges": [],
     "size": {
       "h": 1,
       "w": 1
@@ -41,12 +40,6 @@
       "en": "Shrine II",
       "ru": "Святилище II"
     },
-    "ranges": [
-      {
-        "name": "devotion",
-        "radius": 4
-      }
-    ],
     "size": {
       "h": 3,
       "w": 3
