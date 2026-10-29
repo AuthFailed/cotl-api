@@ -79,7 +79,9 @@ the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb`
 - **crownAbility**: `cost`, `dlc`; **fleece**: `fleece` (the game's number), `cost`, `pack`
 
 Skins, tarot cards and outfits have no sprites in the game; their icons are rendered from the game's own
-Spine models at capture time (follower forms with their default colours).
+Spine models at capture time (follower forms with their default colours). The five Palworld forms
+(`PalworldOne` … `PalworldFive`) have no portrait: their skins aren't in the follower skeleton or any other skeleton
+the game has loaded when the capture runs, so there's nothing to draw them from.
 
 Examples (only `en` and `ru` shown; the real files have every language):
 
