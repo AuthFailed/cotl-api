@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "جزء من دمعة السيد الشهيرة.",
     "de": "Ein Fragment der sagenumwobenen Gottesträne.",
@@ -71,5 +72,6 @@
     "zh-CN": "神之泪碎块",
     "zh-TW": "神之淚碎塊"
   },
+  "seed": null,
   "tags": []
 }

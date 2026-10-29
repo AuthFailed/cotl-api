@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "زهرة تنمو في الظل ولها استخدامات كثيرة.",
     "de": "Eine im Schatten wachsende Blume mit zahlreichen Verwendungsmöglichkeiten.",
@@ -71,5 +72,6 @@
     "zh-CN": "勿忘我",
     "zh-TW": "勿忘我"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": "icons/items/FOLLOWERS.png",
@@ -39,5 +40,6 @@
     "zh-CN": "教徒",
     "zh-TW": "教徒"
   },
+  "seed": null,
   "tags": []
 }

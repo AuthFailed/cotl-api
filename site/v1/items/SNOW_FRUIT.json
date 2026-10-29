@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "فاكهة برّاقة تنمو حتى في أشد حالات الطقس برودة.",
     "de": "Eine glitzernde Frucht, die sogar im kältesten Klima wächst.",
@@ -71,6 +72,7 @@
     "zh-CN": "雪果",
     "zh-TW": "雪果"
   },
+  "seed": "SEED_SNOW_FRUIT",
   "tags": [
     "food"
   ]

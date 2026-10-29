@@ -1,5 +1,15 @@
 {
   "category": "NONE",
+  "crop": {
+    "grows": "PUMPKIN",
+    "growthTime": 9.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
   "description": {
     "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -71,5 +81,6 @@
     "zh-CN": "南瓜种子",
     "zh-TW": "南瓜種子"
   },
+  "seed": null,
   "tags": []
 }

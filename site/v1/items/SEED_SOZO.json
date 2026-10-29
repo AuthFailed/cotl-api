@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -71,5 +72,6 @@
     "zh-CN": "索佐的种子",
     "zh-TW": "索佐的種子"
   },
+  "seed": null,
   "tags": []
 }

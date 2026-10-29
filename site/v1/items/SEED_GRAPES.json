@@ -1,5 +1,15 @@
 {
   "category": "NONE",
+  "crop": {
+    "grows": "GRAPES",
+    "growthTime": 12.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
   "description": {
     "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -71,5 +81,6 @@
     "zh-CN": "葡萄种子",
     "zh-TW": "葡萄種子"
   },
+  "seed": null,
   "tags": []
 }

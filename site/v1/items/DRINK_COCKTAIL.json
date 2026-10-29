@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مشروب رائع ومنعش بالفواكه.",
     "de": "Fruchtig, frisch und fabelhaft.",
@@ -135,6 +136,7 @@
     "zh-CN": "水果灵饮",
     "zh-TW": "水果靈飲"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

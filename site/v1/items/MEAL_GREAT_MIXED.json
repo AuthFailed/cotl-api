@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة فاخرة مصنوعة من أفضل المكونات المختلطة.",
     "de": "Eine gute Mahlzeit aus den besten gemischten Zutaten.",
@@ -173,6 +174,7 @@
     "zh-CN": "豪华什锦餐",
     "zh-TW": "豪華什錦餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

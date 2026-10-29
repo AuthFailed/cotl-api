@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "أفضل من لا شيء.",
     "de": "Besser als nichts.",
@@ -127,6 +128,7 @@
     "zh-CN": "青草稀粥",
     "zh-TW": "青草稀粥"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

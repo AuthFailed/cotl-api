@@ -1,5 +1,15 @@
 {
   "category": "NONE",
+  "crop": {
+    "grows": "MUSHROOM_SMALL",
+    "growthTime": 15.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
   "description": {
     "ar": "يمكن زرعه في <color=#FFD201>مزرعة.</color>",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -71,5 +81,6 @@
     "zh-CN": "噬心蘑菇孢子",
     "zh-TW": "噬心蘑菇孢子"
   },
+  "seed": null,
   "tags": []
 }

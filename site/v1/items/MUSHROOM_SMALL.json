@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "فطر مخادع ورائحته تشوش العقل.",
     "de": "Ein heimtückischer Pilz mit einem berauschendem Moschusduft.",
@@ -71,5 +72,6 @@
     "zh-CN": "噬心蘑菇",
     "zh-TW": "噬心蘑菇"
   },
+  "seed": "SEED_MUSHROOM",
   "tags": []
 }

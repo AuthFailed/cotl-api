@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": "icons/items/FOUND_ITEM_DECORATION.png",
@@ -39,5 +40,6 @@
     "zh-CN": "蓝图",
     "zh-TW": "藍圖"
   },
+  "seed": null,
   "tags": []
 }

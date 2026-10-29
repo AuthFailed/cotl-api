@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مذاقها أفضل مما تبدو عليه.",
     "de": "Schmeckt besser, als er aussieht.",
@@ -127,6 +128,7 @@
     "zh-CN": "辛辣炖鱼",
     "zh-TW": "辛辣燉魚"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

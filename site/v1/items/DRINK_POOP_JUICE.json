@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قطع صعبة المضغ خُلطت ليُعد منها عصير.",
     "de": "Klumpen von zäher Konsistenz, die zu einem Saft verarbeitet wurden.",
@@ -169,6 +170,7 @@
     "zh-CN": "便便汁",
     "zh-TW": "便便汁"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

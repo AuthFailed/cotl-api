@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "خيوط رقيقة لكنها قوية أُخذت من شباك عناكب وتُستخدم في صنع الزينات.",
     "de": "Zart aber kräftig; wird aus Spinnennetzen gewonnen und für Gebäudedekorationen verwendet.",
@@ -71,5 +72,6 @@
     "zh-CN": "蜘蛛丝",
     "zh-TW": "蜘蛛絲"
   },
+  "seed": null,
   "tags": []
 }

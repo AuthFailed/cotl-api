@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "المحاصيل التي تُزرع باستخدامه ستنتج <color=#FFD201>ولاء</color> عند اكتمال نموها.",
     "de": "Damit gedüngte Feldfrüchte erzeugen <color=#FFD201>Hingabe</color>, wenn sie voll ausgewachsen sind.",
@@ -71,5 +72,6 @@
     "zh-CN": "虔诚肥料",
     "zh-TW": "虔誠肥料"
   },
+  "seed": null,
   "tags": []
 }

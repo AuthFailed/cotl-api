@@ -1,5 +1,15 @@
 {
   "category": "GRASS",
+  "crop": {
+    "grows": "GRASS",
+    "growthTime": 9.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
   "description": {
     "ar": "مادة بسيطة تُستخدم كوقود.",
     "de": "Ein einfaches Material, das als Brennstoff verwendet wird.",
@@ -71,5 +81,6 @@
     "zh-CN": "青草",
     "zh-TW": "青草"
   },
+  "seed": "GRASS",
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "التابع لن يعارض أبدًا.",
     "de": "Der Anhänger wird nie abtrünnig.",
@@ -71,6 +72,7 @@
     "zh-CN": "忠诚项链",
     "zh-TW": "忠誠項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
     "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -71,5 +72,6 @@
     "zh-CN": "战士羊毛",
     "zh-TW": "戰士羊毛"
   },
+  "seed": null,
   "tags": []
 }

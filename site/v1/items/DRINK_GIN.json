@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "لنسيان الأحزان.",
     "de": "Um den Kummer zu ertränken.",
@@ -173,6 +174,7 @@
     "zh-CN": "杜松子饮",
     "zh-TW": "杜松子飲"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

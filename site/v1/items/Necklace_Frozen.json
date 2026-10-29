@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "لن يتجمد التابع.",
     "de": "Der Anhänger wird nicht frieren.",
@@ -71,6 +72,7 @@
     "zh-CN": "温暖项链",
     "zh-TW": "暖暖項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

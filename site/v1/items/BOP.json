@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "عليك جلب <color=#FFD201>بوب</color> إلى <color=#FFD201>بيريث</color> على الجبل.",
     "de": "Bring <color=#FFD201>Bop</color> zu <color=#FFD201>Berith</color> auf den Berg.",
@@ -71,5 +72,6 @@
     "zh-CN": "巴普",
     "zh-TW": "巴普"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "تجربة طهوية خلابة!",
     "de": "Eine göttliche kulinarische Erfahrung!",
@@ -135,6 +136,7 @@
     "zh-CN": "丰盛蔬食盛宴",
     "zh-TW": "豐盛蔬食盛宴"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

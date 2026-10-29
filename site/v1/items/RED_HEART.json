@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": "icons/items/RED_HEART.png",
@@ -39,6 +40,7 @@
     "zh-CN": "红心",
     "zh-TW": "紅心"
   },
+  "seed": null,
   "tags": [
     "heart"
   ]

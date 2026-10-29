@@ -1,5 +1,15 @@
 {
   "category": "NONE",
+  "crop": {
+    "grows": "SNOW_FRUIT",
+    "growthTime": 9.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "winter",
+    "stages": 4
+  },
   "description": {
     "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color> ستنمو في <color=#70F7FF>الشتاء</color> فقط.",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein. Wächst nur im <color=#70F7FF>Winter</color>.",
@@ -71,5 +81,6 @@
     "zh-CN": "雪果种子",
     "zh-TW": "雪果種子"
   },
+  "seed": null,
   "tags": []
 }

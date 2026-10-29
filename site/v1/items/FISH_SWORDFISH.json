@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "صيد استثنائي حقًا.",
     "de": "Ein wirklich bemerkenswerter Fang.",
@@ -71,6 +72,7 @@
     "zh-CN": "剑鱼",
     "zh-TW": "劍魚"
   },
+  "seed": null,
   "tags": [
     "food",
     "fish",

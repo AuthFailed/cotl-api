@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "تجسيد لفساد رعاياك. الأمر يعود إليك في التجاوز عنها والعفو عنهم.",
     "de": "Die Manifestation der Unreinheit deiner Herde. Losgesprochen, bußfertig und zu deiner Verfügung.",
@@ -71,5 +72,6 @@
     "zh-CN": "罪孽",
     "zh-TW": "罪孽"
   },
+  "seed": null,
   "tags": []
 }

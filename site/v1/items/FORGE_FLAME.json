@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "The gentle, hopeful light of dawn."
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Sacred Flame"
   },
+  "seed": null,
   "tags": []
 }

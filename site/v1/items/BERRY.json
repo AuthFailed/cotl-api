@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مكون لذيذ لطهي الوجبات.",
     "de": "Eine leckere Zutat zum Kochen von Mahlzeiten.",
@@ -71,6 +72,7 @@
     "zh-CN": "莓果",
     "zh-TW": "莓果"
   },
+  "seed": "SEED",
   "tags": [
     "food"
   ]

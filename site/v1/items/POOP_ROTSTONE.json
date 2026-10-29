@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "المحاصيل التي تُزرع باستخدامه ستستمر في النمو خلال الشتاء.",
     "de": "Damit gedüngte Feldfrüchte wachsen im Winter weiter.",
@@ -71,5 +72,6 @@
     "zh-CN": "腐烧肥料",
     "zh-TW": "腐燃肥料"
   },
+  "seed": null,
   "tags": []
 }

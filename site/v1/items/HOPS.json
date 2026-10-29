@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يُستخدم في صنع المشروبات.",
     "de": "Wird für Getränke verwendet.",
@@ -71,5 +72,6 @@
     "zh-CN": "啤酒花",
     "zh-TW": "啤酒花"
   },
+  "seed": "SEED_HOPS",
   "tags": []
 }

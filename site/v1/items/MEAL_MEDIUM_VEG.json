@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "طبق نباتي لذيذ.",
     "de": "Schmackhaftes Gericht für Vegetarier.",
@@ -165,6 +166,7 @@
     "zh-CN": "愉快白花椰菜巧达浓汤",
     "zh-TW": "愉快白花椰菜巧達濃湯"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

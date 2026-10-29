@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "طبق مصنوع من لحم أحد أعضاء الطائفة الزملاء.",
     "de": "Ein Gericht aus dem Fleisch deiner Kultmitglieder.",
@@ -207,6 +208,7 @@
     "zh-CN": "教徒绞肉",
     "zh-TW": "教徒絞肉"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

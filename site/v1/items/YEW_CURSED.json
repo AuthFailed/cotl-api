@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "خشب خشن ملبد بعقد.",
     "de": "Raues Holz, verdreht und knotig.",
@@ -71,5 +72,6 @@
     "zh-CN": "受诅咒的紫杉",
     "zh-TW": "受到詛咒的紫杉"
   },
+  "seed": null,
   "tags": []
 }

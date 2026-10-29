@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "Forged from fire, useless as a rock"
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Charcoal"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "المحاصيل التي تُزرع باستخدامه تنتج ذهبًا عند حصادها.",
     "de": "Damit gedüngte Feldfrüchte ergeben bei der Ernte Gold.",
@@ -71,5 +72,6 @@
     "zh-CN": "黄金肥料",
     "zh-TW": "黃金肥料"
   },
+  "seed": null,
   "tags": []
 }

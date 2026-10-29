@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قطعة من الذهب يمكن تحويلها إلى عملة.",
     "de": "Ein Klumpen Gold, der zu Münzen verarbeitet werden kann.",
@@ -71,5 +72,6 @@
     "zh-CN": "金块",
     "zh-TW": "金塊"
   },
+  "seed": null,
   "tags": []
 }

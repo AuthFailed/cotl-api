@@ -1,6 +1,7 @@
 [
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -72,10 +73,12 @@
       "zh-CN": "怪牛",
       "zh-TW": "怪牛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -147,10 +150,12 @@
       "zh-CN": "怪螃蟹",
       "zh-TW": "怪螃蟹"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -222,10 +227,12 @@
       "zh-CN": "怪牦牛",
       "zh-TW": "怪氂牛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -297,10 +304,12 @@
       "zh-CN": "怪羊驼",
       "zh-TW": "怪羊駝"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -372,10 +381,12 @@
       "zh-CN": "怪蜗牛",
       "zh-TW": "怪蝸牛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -447,10 +458,12 @@
       "zh-CN": "怪蜘蛛",
       "zh-TW": "怪蜘蛛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
       "de": "Eine freakige Kreatur für deine Ranch.",
@@ -522,10 +535,12 @@
       "zh-CN": "怪乌龟",
       "zh-TW": "怪烏龜"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مكون منعش فاتح للشهية وصالح للطهي.",
       "de": "Appetitanregende und belebende Zutat für das Kochen.",
@@ -597,12 +612,14 @@
       "zh-CN": "甜菜根",
       "zh-TW": "甜菜根"
     },
+    "seed": "SEED_BEETROOT",
     "tags": [
       "food"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يمكنك أخذها إلى <color=yellow>بليمبو</color> للحصول على مكافأة.",
       "de": "Bringst du es zu <color=yellow>Plimbo</color>, erhältst du eine Belohnung.",
@@ -674,10 +691,12 @@
       "zh-CN": "见证者之眼",
       "zh-TW": "見證者之眼"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يمكنك أخذها إلى <color=yellow>بليمبو</color> للحصول على مكافأة.",
       "de": "Bringst du es zu <color=yellow>Plimbo</color>, erhältst du eine Belohnung.",
@@ -749,10 +768,12 @@
       "zh-CN": "腐烂见证者之眼",
       "zh-TW": "腐爛的見證者之眼"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مكون لذيذ لطهي الوجبات.",
       "de": "Eine leckere Zutat zum Kochen von Mahlzeiten.",
@@ -824,12 +845,14 @@
       "zh-CN": "莓果",
       "zh-TW": "莓果"
     },
+    "seed": "SEED",
     "tags": [
       "food"
     ]
   },
   {
     "category": "COINS",
+    "crop": null,
     "description": {
       "ar": "عملة تُستخدم في كل شيء.",
       "de": "Eine Währung, die für alles Mögliche verwendet wird.",
@@ -901,10 +924,12 @@
       "zh-CN": "金币",
       "zh-TW": "金幣"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/BLACK_HEART.png",
@@ -944,12 +969,14 @@
       "zh-CN": "病缠黑心",
       "zh-TW": "病纏黑心"
     },
+    "seed": null,
     "tags": [
       "heart"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/BLUE_HEART.png",
@@ -989,12 +1016,14 @@
       "zh-CN": "蓝心",
       "zh-TW": "藍心"
     },
+    "seed": null,
     "tags": [
       "heart"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تقدمة مفيدة في الطقوس الخفية.",
       "de": "Ein nützliches Opfer für geheime Rituale.",
@@ -1066,10 +1095,12 @@
       "zh-CN": "骨头",
       "zh-TW": "骨頭"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك جلب <color=#FFD201>بوب</color> إلى <color=#FFD201>بيريث</color> على الجبل.",
       "de": "Bring <color=#FFD201>Bop</color> zu <color=#FFD201>Berith</color> auf den Berg.",
@@ -1141,10 +1172,12 @@
       "zh-CN": "巴普",
       "zh-TW": "巴普"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "An axe of legendary bloodthirst."
     },
@@ -1160,10 +1193,12 @@
     "namePlain": {
       "en": "Lambs’ Slaughter"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon is broken, and will need to be repaired."
     },
@@ -1179,10 +1214,12 @@
     "namePlain": {
       "en": "Shattered Flail"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon is broken, and will need to be repaired."
     },
@@ -1198,10 +1235,12 @@
     "namePlain": {
       "en": "Blunt Dagger"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon is broken, and will need to be repaired."
     },
@@ -1217,10 +1256,12 @@
     "namePlain": {
       "en": "Stiffened Gauntlets"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon is broken, and will need to be repaired."
     },
@@ -1236,10 +1277,12 @@
     "namePlain": {
       "en": "Rusted Hammer"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon is broken, and will need to be repaired."
     },
@@ -1255,10 +1298,12 @@
     "namePlain": {
       "en": "Snapped Sword"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مكون لذيذ صحي صالح للطهي.",
       "de": "Leckere und gesunde Zutat zum Kochen.",
@@ -1330,12 +1375,14 @@
       "zh-CN": "花菜",
       "zh-TW": "白花椰菜"
     },
+    "seed": "SEED_CAULIFLOWER",
     "tags": [
       "food"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "Forged from fire, useless as a rock"
     },
@@ -1351,10 +1398,12 @@
     "namePlain": {
       "en": "Charcoal"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تكفي حرارته لتدفئتك مهما كانت شدة البرد.",
       "de": "Würzig genug, um dich aufzuwärmen, egal wie kalt es ist.",
@@ -1426,12 +1475,14 @@
       "zh-CN": "辣椒",
       "zh-TW": "辣椒"
     },
+    "seed": "SEED_CHILLI",
     "tags": [
       "food"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قماش ناعم يُستخدم في صناعة الملابس.",
       "de": "Ein weicher Stoff für die Herstellung von Kleidung.",
@@ -1503,10 +1554,12 @@
       "zh-CN": "棉花",
       "zh-TW": "棉花"
     },
+    "seed": "SEED_COTTON",
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة تُستخدم لصنع زينات جميلة.",
       "de": "Ein Material, das zum Bau von schönen Dekorationen verwendet wird.",
@@ -1578,10 +1631,12 @@
       "zh-CN": "水晶碎片",
       "zh-TW": "水晶碎片"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "حجر يُستخدم لفتح تعاليم لم تُستخدم.",
       "de": "Stein für das Freischalten von nicht verwendeten Doktrinen.",
@@ -1653,10 +1708,12 @@
       "zh-CN": "忘却戒律石",
       "zh-TW": "忘卻戒律石"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يمكن استخدام أحجار الوصايا لإعلان <color=#FFD201>تعاليم</cult> جديدة من منصة مجمعك.",
       "de": "Gebotssteine, die am Altar deines Tempels verwendet werden können, um neue <color=#FFD201>Doktrinen</cult> zu verkünden.",
@@ -1728,10 +1785,12 @@
       "zh-CN": "戒律石碎块",
       "zh-TW": "戒律石碎塊"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مثالي بعد يوم شاق.",
       "de": "Perfekt nach einem langen Tag.",
@@ -1859,12 +1918,14 @@
       "zh-CN": "嘉佳酿",
       "zh-TW": "嘉佳釀"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يحرق الحلق.",
       "de": "Brennt auf dem Weg nach unten.",
@@ -2034,12 +2095,14 @@
       "zh-CN": "辛辣酿",
       "zh-TW": "大辛釀"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مشروب رائع ومنعش بالفواكه.",
       "de": "Fruchtig, frisch und fabelhaft.",
@@ -2175,12 +2238,14 @@
       "zh-CN": "水果灵饮",
       "zh-TW": "水果靈飲"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مشروب مبهج قشدي القوام.",
       "de": "Ein cremiges Getränk für festliche Tage.",
@@ -2388,12 +2453,14 @@
       "zh-CN": "蛋奶酒",
       "zh-TW": "蛋奶酒"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "لنسيان الأحزان.",
       "de": "Um den Kummer zu ertränken.",
@@ -2567,12 +2634,14 @@
       "zh-CN": "杜松子饮",
       "zh-TW": "杜松子飲"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مشروب منعش مذاقه عشبي.",
       "de": "Ein rasenmäßiges Tonic.",
@@ -2742,12 +2811,14 @@
       "zh-CN": "有机奶昔",
       "zh-TW": "有機奶昔"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مشروب فوّار وصاعق.",
       "de": "Sprudelnd und elektrisch.",
@@ -2917,12 +2988,14 @@
       "zh-CN": "电光饮",
       "zh-TW": "電光水"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "شراب مُعد من حليب مخفوق.",
       "de": "Das kommt dabei heraus, wenn man Milch schüttelt.",
@@ -3134,12 +3207,14 @@
       "zh-CN": "奶昔",
       "zh-TW": "奶昔"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قطع فطر مخفوقة مع حليب.",
       "de": "Pilzstückchen in einem Shake.",
@@ -3305,12 +3380,14 @@
       "zh-CN": "菇菇昔",
       "zh-TW": "菇菇昔"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قطع صعبة المضغ خُلطت ليُعد منها عصير.",
       "de": "Klumpen von zäher Konsistenz, die zu einem Saft verarbeitet wurden.",
@@ -3480,12 +3557,14 @@
       "zh-CN": "便便汁",
       "zh-TW": "便便汁"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "لا للندم.",
       "de": "Bereue nichts.",
@@ -3651,12 +3730,14 @@
       "zh-CN": "罪孽酒",
       "zh-TW": "罪孽酒"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مثالي للاحتفاء بقائد عظيم.",
       "de": "Perfekt für einen Toast auf einen großen Anführer.",
@@ -3822,12 +3903,14 @@
       "zh-CN": "葡萄琼浆",
       "zh-TW": "葡萄瓊漿"
     },
+    "seed": null,
     "tags": [
       "drink"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "جمع بين التحلل والتجدد.",
       "de": "Verfall und Erneuerung in einem.",
@@ -3899,10 +3982,12 @@
       "zh-CN": "蓄能腐烧",
       "zh-TW": "蓄能腐燃"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": null,
@@ -3942,10 +4027,12 @@
       "zh-CN": "熔心",
       "zh-TW": "熔心"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طبق رئيسي مشبع.",
       "de": "Ein befriedigendes Hauptgericht.",
@@ -4017,6 +4104,7 @@
       "zh-CN": "鲑鱼",
       "zh-TW": "鮭魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish"
@@ -4024,6 +4112,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك توصيل هذه إلى <color=#FFD201>سيلا</color> في <color=#FFD201>مسقط النعاج</color>.",
       "de": "Bring sie zu <color=#FFD201>Scylla</color> in <color=#FFD201>Auenfall</color>.",
@@ -4095,10 +4184,12 @@
       "zh-CN": "鱼竿",
       "zh-TW": "釣竿"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طعام فاخر للأتباع المتفانين.",
       "de": "Eine Köstlichkeit für ergebene Anhänger.",
@@ -4170,6 +4261,7 @@
       "zh-CN": "鲔鱼",
       "zh-TW": "鮪魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish",
@@ -4178,6 +4270,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "رقيقة وخطيرة.",
       "de": "Sowohl köstlich als auch gefährlich.",
@@ -4249,6 +4342,7 @@
       "zh-CN": "鲀",
       "zh-TW": "魨"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish"
@@ -4256,6 +4350,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كماشة صغيرة.",
       "de": "Ein kleiner Zwicker.",
@@ -4327,6 +4422,7 @@
       "zh-CN": "螃蟹",
       "zh-TW": "螃蟹"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish"
@@ -4334,6 +4430,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كماشة كبيرة.",
       "de": "Ein großer Zwicker.",
@@ -4405,6 +4502,7 @@
       "zh-CN": "龙虾",
       "zh-TW": "龍蝦"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish",
@@ -4413,6 +4511,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "لديه ثماني أرجل تتلوى.",
       "de": "Er hat acht sich windende Tentakel.",
@@ -4484,6 +4583,7 @@
       "zh-CN": "章鱼",
       "zh-TW": "章魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish",
@@ -4492,6 +4592,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "إضافة صغيرة لأي وجبة.",
       "de": "Eine kleine Beilage für jede Mahlzeit.",
@@ -4563,6 +4664,7 @@
       "zh-CN": "鲦鱼",
       "zh-TW": "鰷魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish"
@@ -4570,6 +4672,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "لديه ثمانية أطراف رفيعة تتلوى.",
       "de": "Er hat acht sich windende Tentakel.",
@@ -4641,6 +4744,7 @@
       "zh-CN": "鱿鱼",
       "zh-TW": "魷魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish"
@@ -4648,6 +4752,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "صيد استثنائي حقًا.",
       "de": "Ein wirklich bemerkenswerter Fang.",
@@ -4719,6 +4824,7 @@
       "zh-CN": "剑鱼",
       "zh-TW": "劍魚"
     },
+    "seed": null,
     "tags": [
       "food",
       "fish",
@@ -4727,6 +4833,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "زهرة تنمو في الظل ولها استخدامات كثيرة.",
       "de": "Eine im Schatten wachsende Blume mit zahlreichen Verwendungsmöglichkeiten.",
@@ -4798,10 +4905,12 @@
       "zh-CN": "勿忘我",
       "zh-TW": "勿忘我"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "زهرة رقيقة مفيدة لجمالها وفوائدها العلاجية.",
       "de": "Eine zarte Blume, die sowohl große Schönheit als auch medizinische Vorteile zu bieten hat.",
@@ -4873,10 +4982,12 @@
       "zh-CN": "山茶花",
       "zh-TW": "山茶花"
     },
+    "seed": "SEED_FLOWER_RED",
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "زهرة نقية متعددة الاستخدامات.",
       "de": "Eine reine Blume mit zahlreichen Verwendungsmöglichkeiten.",
@@ -4948,10 +5059,12 @@
       "zh-CN": "雪花莲",
       "zh-TW": "雪落"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/FOLLOWERS.png",
@@ -4991,10 +5104,12 @@
       "zh-CN": "教徒",
       "zh-TW": "教徒"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "اللحم المجمع من أحد أتباعك السابقين.",
       "de": "Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
@@ -5066,12 +5181,14 @@
       "zh-CN": "教徒之肉",
       "zh-TW": "教徒之肉"
     },
+    "seed": null,
     "tags": [
       "meat"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "اللحم الفاسد لأحد أتباعك السابقين.",
       "de": "Vergammeltes Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
@@ -5143,10 +5260,12 @@
       "zh-CN": "教徒腐肉",
       "zh-TW": "教徒腐肉"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "The gentle, hopeful light of dawn."
     },
@@ -5162,10 +5281,12 @@
     "namePlain": {
       "en": "Sacred Flame"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/FOUND_ITEM_DECORATION.png",
@@ -5205,10 +5326,12 @@
       "zh-CN": "蓝图",
       "zh-TW": "藍圖"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/FOUND_ITEM_FOLLOWERSKIN.png",
@@ -5248,10 +5371,12 @@
       "zh-CN": "教徒皮肤",
       "zh-TW": "教徒外觀"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "هدية لزيادة إخلاص تابع.",
       "de": "Ein Geschenk, um die Loyalität deiner Anhänger zu steigern.",
@@ -5323,12 +5448,14 @@
       "zh-CN": "大型礼物",
       "zh-TW": "大型禮物"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "هدية صغيرة لزيادة إخلاص تابع.",
       "de": "Ein kleines Geschenk, um die Loyalität deiner Anhänger zu steigern.",
@@ -5400,12 +5527,14 @@
       "zh-CN": "小型礼物",
       "zh-TW": "小型禮物"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "دمعة متبلورة من أحد السادة الأوائل.",
       "de": "Eine kristallisierte Träne eines der ersten Götter.",
@@ -5477,10 +5606,12 @@
       "zh-CN": "神之泪",
       "zh-TW": "神之淚"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "جزء من دمعة السيد الشهيرة.",
       "de": "Ein Fragment der sagenumwobenen Gottesträne.",
@@ -5552,10 +5683,12 @@
       "zh-CN": "神之泪碎块",
       "zh-TW": "神之淚碎塊"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قطعة من الذهب يمكن تحويلها إلى عملة.",
       "de": "Ein Klumpen Gold, der zu Münzen verarbeitet werden kann.",
@@ -5627,10 +5760,12 @@
       "zh-CN": "金块",
       "zh-TW": "金塊"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة ثمينة تُستخدم لبناء مباني سامية.",
       "de": "Ein teures Material, das für den Bau heiliger Bauten verwendet wird.",
@@ -5702,10 +5837,12 @@
       "zh-CN": "金条",
       "zh-TW": "金條"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يُستخدم في صنع المشروبات.",
       "de": "Wird für Getränke verwendet.",
@@ -5777,10 +5914,21 @@
       "zh-CN": "葡萄",
       "zh-TW": "葡萄"
     },
+    "seed": "SEED_GRAPES",
     "tags": []
   },
   {
     "category": "GRASS",
+    "crop": {
+      "grows": "GRASS",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "مادة بسيطة تُستخدم كوقود.",
       "de": "Ein einfaches Material, das als Brennstoff verwendet wird.",
@@ -5852,10 +6000,12 @@
       "zh-CN": "青草",
       "zh-TW": "青草"
     },
+    "seed": "GRASS",
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/HALF_BLUE_HEART.png",
@@ -5895,12 +6045,14 @@
       "zh-CN": "半颗蓝心",
       "zh-TW": "半顆藍心"
     },
+    "seed": null,
     "tags": [
       "heart"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/HALF_HEART.png",
@@ -5940,12 +6092,14 @@
       "zh-CN": "半颗红心",
       "zh-TW": "半顆紅心"
     },
+    "seed": null,
     "tags": [
       "heart"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يُستخدم في صنع المشروبات.",
       "de": "Wird für Getränke verwendet.",
@@ -6017,10 +6171,12 @@
       "zh-CN": "啤酒花",
       "zh-TW": "啤酒花"
     },
+    "seed": "SEED_HOPS",
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": null,
@@ -6060,10 +6216,12 @@
       "zh-CN": "冰心",
       "zh-TW": "冰心"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك توصيل هذه إلى <color=#FFD201>سيلا</color> في <color=#FFD201>مسقط النعاج</color>.",
       "de": "Bring ihn zu <color=#FFD201>Scylla</color> in <color=#FFD201>Auenfall</color>.",
@@ -6135,10 +6293,12 @@
       "zh-CN": "字迹不清的信",
       "zh-TW": "難以識別的信"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك توصيل هذه إلى <color=#FFD201>كاريبديس</color> في <color=#FFD201>بؤرة التعفن</color>.",
       "de": "Bring ihn zu <color=#FFD201>Charybdis</color> in <color=#FFD201>Die Fäulnis</color>.",
@@ -6210,10 +6370,12 @@
       "zh-CN": "字迹不清的信",
       "zh-TW": "難以識別的信"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك جلبه إلى <color=#FFD201>رامي</color> في ملاذ الحملان لإصلاحه.",
       "de": "Bringe es zur Reparatur zu <color=#FFD201>Rami</color> in Wollhafen.",
@@ -6285,10 +6447,12 @@
       "zh-CN": "传奇武器碎片",
       "zh-TW": "傳奇武器碎片"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "شظية من البرق الصاعق التُقطت من السماء.",
       "de": "Ein knisternder Splitter eines Blitzes, der aus dem Himmel gefangen wurde.",
@@ -6360,10 +6524,12 @@
       "zh-CN": "蓄能碎片",
       "zh-TW": "蓄能碎片"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "LOGS",
+    "crop": null,
     "description": {
       "ar": "مادة بسيطة تُستخدم لبناء المباني.",
       "de": "Ein einfaches Material, das zum Bauen verwendet wird.",
@@ -6435,10 +6601,12 @@
       "zh-CN": "木材",
       "zh-TW": "木材"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة تُستخدم لبناء المباني المتينة.",
       "de": "Ein Material, das zum Bau stabiler Strukturen verwendet wird.",
@@ -6510,10 +6678,12 @@
       "zh-CN": "木板",
       "zh-TW": "木板"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "كتابات تعود إلى فترة زمنية غابرة.",
       "de": "Schriften aus einer längst vergangenen Zeit.",
@@ -6585,10 +6755,12 @@
       "zh-CN": "古老石板",
       "zh-TW": "古老石板"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عفن متحجر من باطن الأرض.",
       "de": "Verkalkte Fäulnis aus dem Bauch der Erde.",
@@ -6660,10 +6832,12 @@
       "zh-CN": "腐烧",
       "zh-TW": "腐燃"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة صحية من الخضراوات.",
       "de": "Eine gesunde Mahlzeit aus Gemüse.",
@@ -6791,12 +6965,14 @@
       "zh-CN": "低劣南瓜汤",
       "zh-TW": "低劣南瓜湯"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مذاقها أفضل مما تبدو عليه.",
       "de": "Schmeckt besser, als er aussieht.",
@@ -6924,12 +7100,14 @@
       "zh-CN": "辛辣炖鱼",
       "zh-TW": "辛辣燉魚"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مصنوع من الفتات.",
       "de": "Aus Resten zubereitet.",
@@ -7057,12 +7235,14 @@
       "zh-CN": "粘稠肉肉稀粥",
       "zh-TW": "黏稠肉肉稀粥"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "ليست رائعة.",
       "de": "Nicht so toll.",
@@ -7198,12 +7378,14 @@
       "zh-CN": "粗劣什锦餐",
       "zh-TW": "粗劣什錦餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة بسيطة مصنوعة من التوت.",
       "de": "Einfache Mahlzeit aus Beeren.",
@@ -7331,12 +7513,14 @@
       "zh-CN": "基本莓果碗",
       "zh-TW": "基本莓果碗"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "بطعم الرماد.",
       "de": "Von Flammen verzehrt.",
@@ -7418,12 +7602,14 @@
       "zh-CN": "烧糊餐点",
       "zh-TW": "燒焦餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مزيج قبيح حقًا.",
       "de": "Eine wahrhaft abscheuliche Zubereitung.",
@@ -7597,12 +7783,14 @@
       "zh-CN": "夺命餐",
       "zh-TW": "奪命餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة من بيض طازج ولذيذ.",
       "de": "Eine Mahlzeit, die aus einem köstlichen frischen Ei zubereitet wurde.",
@@ -7730,12 +7918,14 @@
       "zh-CN": "蛋蛋餐",
       "zh-TW": "蛋蛋餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طبق مصنوع من لحم أحد أعضاء الطائفة الزملاء.",
       "de": "Ein Gericht aus dem Fleisch deiner Kultmitglieder.",
@@ -7943,12 +8133,14 @@
       "zh-CN": "教徒绞肉",
       "zh-TW": "教徒絞肉"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طبق مشبع مصنوع بعناية.",
       "de": "Ein geschmackvolles Gericht, liebevoll zubereitet.",
@@ -8114,12 +8306,14 @@
       "zh-CN": "可口鱼餐",
       "zh-TW": "可口魚餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "أفضل من لا شيء.",
       "de": "Besser als nichts.",
@@ -8247,12 +8441,14 @@
       "zh-CN": "青草稀粥",
       "zh-TW": "青草稀粥"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تجربة طهوية خلابة!",
       "de": "Eine göttliche kulinarische Erfahrung!",
@@ -8388,12 +8584,14 @@
       "zh-CN": "丰盛蔬食盛宴",
       "zh-TW": "豐盛蔬食盛宴"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مكونات غنية مجهزة بإتقان.",
       "de": "Reich an Zutaten und perfekt zubereitet.",
@@ -8571,12 +8769,14 @@
       "zh-CN": "美味鱼盛宴",
       "zh-TW": "美味魚盛宴"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قطع كبيرة من اللحم اللين.",
       "de": "Große, saftige Fleischstücke.",
@@ -8712,12 +8912,14 @@
       "zh-CN": "美味肉肉盛宴",
       "zh-TW": "美味肉肉盛宴"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة فاخرة مصنوعة من أفضل المكونات المختلطة.",
       "de": "Eine gute Mahlzeit aus den besten gemischten Zutaten.",
@@ -8891,12 +9093,14 @@
       "zh-CN": "豪华什锦餐",
       "zh-TW": "豪華什錦餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة مشبعة لآكلي اللحوم.",
       "de": "Eine sättigende Speise für Fleischfresser.",
@@ -9062,12 +9266,14 @@
       "zh-CN": "丰盛肉汤",
       "zh-TW": "豐盛肉湯"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مذاقها أفضل مما تبدو عليه.",
       "de": "Schmeckt besser, als sie aussieht.",
@@ -9203,12 +9409,14 @@
       "zh-CN": "朴实什锦餐",
       "zh-TW": "樸實什錦餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طبق نباتي لذيذ.",
       "de": "Schmackhaftes Gericht für Vegetarier.",
@@ -9374,12 +9582,14 @@
       "zh-CN": "愉快白花椰菜巧达浓汤",
       "zh-TW": "愉快白花椰菜巧達濃湯"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "متكتل وحامض.",
       "de": "Klumpig und sauer.",
@@ -9507,12 +9717,14 @@
       "zh-CN": "变质奶豆腐",
       "zh-TW": "變質奶酪"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مناسب للمشاركة.",
       "de": "Perfekt zum Teilen.",
@@ -9644,12 +9856,14 @@
       "zh-CN": "芝士奶酪锅",
       "zh-TW": "起司火鍋"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "وجبة مناسبة للرعاة.",
       "de": "Eine Mahlzeit für Hirten.",
@@ -9746,12 +9960,14 @@
       "zh-CN": "牧者奶派",
       "zh-TW": "牧者的派"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "de": "Gedünstete Pilze, die hoffentlich ungiftig sind.",
       "en": "Sauteed mushrooms, hopefully not poisonous.",
@@ -9829,12 +10045,14 @@
       "zh-CN": "蘑菇餐",
       "zh-TW": "蘑菇餐"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "\"وجبة\" مصنوعة من المخلفات...",
       "de": "Eine „Mahlzeit“ aus Exkrementen …",
@@ -9962,12 +10180,14 @@
       "zh-CN": "便便碗",
       "zh-TW": "便便碗"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "حلوى لذيذة قشدية القوام.",
       "de": "Eine süße, cremige Leckerei.",
@@ -10095,12 +10315,14 @@
       "zh-CN": "雪果圣代",
       "zh-TW": "雪果聖代"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "حذارِ، إنه حار جدًا!",
       "de": "Vorsicht, er ist scharf!",
@@ -10228,12 +10450,14 @@
       "zh-CN": "辣椒泥",
       "zh-TW": "辣椒泥"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "طعام مغذٍ يهواه النهمون.",
       "de": "Ein nahrhaftes Lebensmittel zum Reinbeißen.",
@@ -10305,6 +10529,7 @@
       "zh-CN": "肉",
       "zh-TW": "肉"
     },
+    "seed": null,
     "tags": [
       "food",
       "meat"
@@ -10312,6 +10537,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قطعة صغيرة من اللحم.",
       "de": "Ein mickriges Stück Fleisch.",
@@ -10383,6 +10609,7 @@
       "zh-CN": "丁点儿肉",
       "zh-TW": "帶骨肉"
     },
+    "seed": null,
     "tags": [
       "food",
       "meat"
@@ -10390,6 +10617,7 @@
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مغذٍ ولا يزال فاترًا.",
       "de": "Nahrhaft und noch ein bisschen warm.",
@@ -10461,10 +10689,12 @@
       "zh-CN": "牛奶",
       "zh-TW": "牛奶"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "قلوب قاسية تفتح <color=#FFD201>قدرات تاج</color> جديدة من منصة مجمعك.",
       "de": "Unheilige Herzen, die neue <color=#FFD201>Kronenfähigkeiten</color> am Altar deines Tempels freischalten können.",
@@ -10536,10 +10766,12 @@
       "zh-CN": "异教徒之心",
       "zh-TW": "異教徒之心"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "فطر مخادع ورائحته تشوش العقل.",
       "de": "Ein heimtückischer Pilz mit einem berauschendem Moschusduft.",
@@ -10611,10 +10843,12 @@
       "zh-CN": "噬心蘑菇",
       "zh-TW": "噬心蘑菇"
     },
+    "seed": "SEED_MUSHROOM",
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سينتج التابع ولاء أسرع.",
       "de": "Anhänger erzeugen schneller Hingabe.",
@@ -10686,12 +10920,14 @@
       "zh-CN": "花朵项链",
       "zh-TW": "花朵項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "ستزيد سرعة حركة التابع.",
       "de": "Das Bewegungstempo deiner Anhänger erhöht sich.",
@@ -10763,12 +10999,14 @@
       "zh-CN": "羽毛项链",
       "zh-TW": "羽毛項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سيعيش التابع عمرًا أطول من الطبيعي، ضعف المتوقع غالبًا.",
       "de": "Der Anhänger lebt unnatürlich lange; doppelt so lange wie gewöhnlich.",
@@ -10840,12 +11078,14 @@
       "zh-CN": "头骨项链",
       "zh-TW": "頭骨項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سيجمع تابع موارد إضافية.",
       "de": "Der Anhänger erhält Bonusressourcen.",
@@ -10917,12 +11157,14 @@
       "zh-CN": "自然项链",
       "zh-TW": "自然項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "التابع لن ينام.",
       "de": "Der Anhänger schläft nie.",
@@ -10994,12 +11236,14 @@
       "zh-CN": "月之项链",
       "zh-TW": "月之項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تأثيرها غير معروف... لكن غالبًا ما تُجنى المعرفة بتقديم تضحيات.",
       "de": "Kein bekannter Effekt … allerdings wird Wissen oft durch Opfer erlangt.",
@@ -11071,12 +11315,14 @@
       "zh-CN": "黑暗项链",
       "zh-TW": "黑暗項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سينجو التابع من ميتة طبيعية. ستُدمر القلادة بعد ذلك.",
       "de": "Der Anhänger wird einen natürlichen Tod überleben. Die Halskette ist danach zerstört.",
@@ -11148,12 +11394,14 @@
       "zh-CN": "重生项链",
       "zh-TW": "重生項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يزيد مستوى عفريت التابع.",
       "de": "Dämonenstufe des Anhängers erhöht sich.",
@@ -11225,12 +11473,14 @@
       "zh-CN": "恶魔项链",
       "zh-TW": "惡魔項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "لن يتجمد التابع.",
       "de": "Der Anhänger wird nicht frieren.",
@@ -11302,12 +11552,14 @@
       "zh-CN": "温暖项链",
       "zh-TW": "暖暖項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يكتسب التابع سمة الخلود.",
       "de": "Der Anhänger erhält die Eigenschaft: Unsterblich.",
@@ -11379,12 +11631,14 @@
       "zh-CN": "金头骨项链",
       "zh-TW": "金頭骨項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تأثيرها غير معروف... لكن غالبًا ما تُجنى المعرفة بتقديم تضحيات.",
       "de": "Kein bekannter Effekt … allerdings wird Wissen oft durch Opfer erlangt.",
@@ -11456,12 +11710,14 @@
       "zh-CN": "光明项链",
       "zh-TW": "光明項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "التابع لن يعارض أبدًا.",
       "de": "Der Anhänger wird nie abtrünnig.",
@@ -11533,12 +11789,14 @@
       "zh-CN": "忠诚项链",
       "zh-TW": "忠誠項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تزيد فرص التابع في القيام ببعثة ناجحة.",
       "de": "Anhänger-Chance auf eine erfolgreiche Mission erhöht sich.",
@@ -11610,12 +11868,14 @@
       "zh-CN": "传教项链",
       "zh-TW": "傳教項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سيكون التابع أول ضحية لمستوى العقيدة المنخفض أو المرض أو الجوع.",
       "de": "Der Anhänger wird das erste Opfer von geringem Glauben, Krankheit oder Hunger sein.",
@@ -11687,12 +11947,14 @@
       "zh-CN": "不幸项链",
       "zh-TW": "不幸項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يا لها من قلادة غريبة...",
       "de": "Was für eine seltsame Halskette …",
@@ -11764,12 +12026,14 @@
       "zh-CN": "奇葩项链",
       "zh-TW": "奇葩項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "سيعمل التابع على نحو أسرع بنسبة 50% خلال الشتاء.",
       "de": "Der Anhänger arbeitet im Winter 50 % schneller.",
@@ -11841,12 +12105,14 @@
       "zh-CN": "寒冬项链",
       "zh-TW": "寒冬項鍊"
     },
+    "seed": null,
     "tags": [
       "gift"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "تجسيد لفساد رعاياك. الأمر يعود إليك في التجاوز عنها والعفو عنهم.",
       "de": "Die Manifestation der Unreinheit deiner Herde. Losgesprochen, bußfertig und zu deiner Verfügung.",
@@ -11918,10 +12184,12 @@
       "zh-CN": "罪孽",
       "zh-TW": "罪孽"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "غني بالمغذيات ومفيد في المزارع.",
       "de": "Reich an Nährstoffen, nützlich auf Ackerparzellen.",
@@ -11993,10 +12261,12 @@
       "zh-CN": "肥料",
       "zh-TW": "肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "المحاصيل التي تُزرع باستخدامه ستنتج <color=#FFD201>ولاء</color> عند اكتمال نموها.",
       "de": "Damit gedüngte Feldfrüchte erzeugen <color=#FFD201>Hingabe</color>, wenn sie voll ausgewachsen sind.",
@@ -12068,10 +12338,12 @@
       "zh-CN": "虔诚肥料",
       "zh-TW": "虔誠肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "المحاصيل التي تُزرع باستخدامه تجذب يراعات ليلًا.",
       "de": "Damit gedüngte Feldfrüchte ziehen nachts Glühwürmchen an.",
@@ -12143,10 +12415,12 @@
       "zh-CN": "发光肥料",
       "zh-TW": "發光肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "المحاصيل التي تُزرع باستخدامه تنتج ذهبًا عند حصادها.",
       "de": "Damit gedüngte Feldfrüchte ergeben bei der Ernte Gold.",
@@ -12218,10 +12492,12 @@
       "zh-CN": "黄金肥料",
       "zh-TW": "黃金肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "المحاصيل التي تُزرع باستخدامه تنمو على الفور.",
       "de": "Damit gedüngte Feldfrüchte wachsen sofort.",
@@ -12293,10 +12569,12 @@
       "zh-CN": "彩虹肥料",
       "zh-TW": "彩虹肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "POOP",
+    "crop": null,
     "description": {
       "ar": "المحاصيل التي تُزرع باستخدامه ستستمر في النمو خلال الشتاء.",
       "de": "Damit gedüngte Feldfrüchte wachsen im Winter weiter.",
@@ -12368,10 +12646,12 @@
       "zh-CN": "腐烧肥料",
       "zh-TW": "腐燃肥料"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مكون شهي.",
       "de": "Eine herzhafte Zutat.",
@@ -12443,12 +12723,14 @@
       "zh-CN": "南瓜",
       "zh-TW": "南瓜"
     },
+    "seed": "SEED_PUMPKIN",
     "tags": [
       "food"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/RED_HEART.png",
@@ -12488,12 +12770,14 @@
       "zh-CN": "红心",
       "zh-TW": "紅心"
     },
+    "seed": null,
     "tags": [
       "heart"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
     },
@@ -12509,10 +12793,12 @@
     "namePlain": {
       "en": "Yngya's Torment"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
     },
@@ -12528,10 +12814,12 @@
     "namePlain": {
       "en": "Ruin of Nirah"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
     },
@@ -12547,10 +12835,12 @@
     "namePlain": {
       "en": "Claws of the Wolf"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
     },
@@ -12566,10 +12856,12 @@
     "namePlain": {
       "en": "Scourge of Svargod"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
     },
@@ -12585,10 +12877,21 @@
     "namePlain": {
       "en": "Golden End"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "BERRY",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -12660,10 +12963,21 @@
       "zh-CN": "莓果树丛种子",
       "zh-TW": "莓果樹叢種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "BEETROOT",
+      "growthTime": 12.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -12735,10 +13049,21 @@
       "zh-CN": "甜菜根种子",
       "zh-TW": "甜菜根種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "CAULIFLOWER",
+      "growthTime": 18.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -12810,10 +13135,21 @@
       "zh-CN": "花菜种子",
       "zh-TW": "白花椰菜種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "CHILLI",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -12885,10 +13221,21 @@
       "zh-CN": "辣椒种子",
       "zh-TW": "辣椒種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "COTTON",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -12960,10 +13307,21 @@
       "zh-CN": "棉花种子",
       "zh-TW": "棉花種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "FLOWER_RED",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13035,10 +13393,21 @@
       "zh-CN": "山茶花种子",
       "zh-TW": "山茶花種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "GRAPES",
+      "growthTime": 12.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13110,10 +13479,21 @@
       "zh-CN": "葡萄种子",
       "zh-TW": "葡萄種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "HOPS",
+      "growthTime": 18.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13185,10 +13565,21 @@
       "zh-CN": "啤酒花种子",
       "zh-TW": "啤酒花種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "MUSHROOM_SMALL",
+      "growthTime": 15.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعه في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13260,10 +13651,21 @@
       "zh-CN": "噬心蘑菇孢子",
       "zh-TW": "噬心蘑菇孢子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "PUMPKIN",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13335,10 +13737,21 @@
       "zh-CN": "南瓜种子",
       "zh-TW": "南瓜種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": {
+      "grows": "SNOW_FRUIT",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "winter",
+      "stages": 4
+    },
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color> ستنمو في <color=#70F7FF>الشتاء</color> فقط.",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein. Wächst nur im <color=#70F7FF>Winter</color>.",
@@ -13410,10 +13823,12 @@
       "zh-CN": "雪果种子",
       "zh-TW": "雪果種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
       "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -13485,10 +13900,12 @@
       "zh-CN": "索佐的种子",
       "zh-TW": "索佐的種子"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يبدو أنها كانت جزءًا من مزار من نوع ما...",
       "de": "Sieht aus, als gehörte es einst zu einer Art Schrein ...",
@@ -13560,10 +13977,12 @@
       "zh-CN": "壳",
       "zh-TW": "殼"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "خيط ناعم يُستخدم في صناعة الملابس.",
       "de": "Ein edles Garn für die Herstellung von Kleidung.",
@@ -13635,10 +14054,12 @@
       "zh-CN": "丝线",
       "zh-TW": "絲線"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "en": "A round ball of snow"
     },
@@ -13654,10 +14075,12 @@
     "namePlain": {
       "en": "Snow Chunk"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "فاكهة برّاقة تنمو حتى في أشد حالات الطقس برودة.",
       "de": "Eine glitzernde Frucht, die sogar im kältesten Klima wächst.",
@@ -13729,12 +14152,14 @@
       "zh-CN": "雪果",
       "zh-TW": "雪果"
     },
+    "seed": "SEED_SNOW_FRUIT",
     "tags": [
       "food"
     ]
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "نتاج حرق فحم التعفن.",
       "de": "Das Nebenprodukt der Verbrennung von Fäulnisbrand.",
@@ -13806,10 +14231,12 @@
       "zh-CN": "腐灰",
       "zh-TW": "腐灰"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "SOULS",
+    "crop": null,
     "description": {
       "ar": "رأس مال قادة الطوائف.",
       "de": "Die Währung der Kultführer.",
@@ -13881,10 +14308,12 @@
       "zh-CN": "虔诚",
       "zh-TW": "虔誠"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -13956,10 +14385,12 @@
       "zh-CN": "无辜者羊毛",
       "zh-TW": "無辜者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14031,10 +14462,12 @@
       "zh-CN": "骑士羊毛",
       "zh-TW": "騎士羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14106,10 +14539,12 @@
       "zh-CN": "坚毅者羊毛",
       "zh-TW": "堅毅者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14181,10 +14616,12 @@
       "zh-CN": "战士羊毛",
       "zh-TW": "戰士羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14256,10 +14693,12 @@
       "zh-CN": "预言者羊毛",
       "zh-TW": "卜卦者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14331,10 +14770,12 @@
       "zh-CN": "伪装者羊毛",
       "zh-TW": "妄想者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14406,10 +14847,12 @@
       "zh-CN": "烧焦者羊毛",
       "zh-TW": "焦黑者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14481,10 +14924,12 @@
       "zh-CN": "精明者羊毛",
       "zh-TW": "精明者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14556,10 +15001,12 @@
       "zh-CN": "学者羊毛",
       "zh-TW": "學者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14631,10 +15078,12 @@
       "zh-CN": "牧工羊毛",
       "zh-TW": "牧工羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "عليك إعادة هذا إلى <color=#FFD201>ملاذ الحملان</color>.",
       "de": "Bringe sie nach <color=#FFD201>Wollhafen</color> zurück.",
@@ -14706,10 +15155,12 @@
       "zh-CN": "占星师羊毛",
       "zh-TW": "占星者羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "خيوط رقيقة لكنها قوية أُخذت من شباك عناكب وتُستخدم في صنع الزينات.",
       "de": "Zart aber kräftig; wird aus Spinnennetzen gewonnen und für Gebäudedekorationen verwendet.",
@@ -14781,10 +15232,12 @@
       "zh-CN": "蜘蛛丝",
       "zh-TW": "蜘蛛絲"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة بناء مفيدة.",
       "de": "Ein nützliches Baumaterial.",
@@ -14856,10 +15309,12 @@
       "zh-CN": "石材",
       "zh-TW": "石材"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة تُستخدم لبناء المباني المتينة.",
       "de": "Ein Material, das zum Bau stabiler Strukturen verwendet wird.",
@@ -14931,10 +15386,12 @@
       "zh-CN": "石砖",
       "zh-TW": "石磚"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "آثار غامضة تفتح <color=#FFD201>أردية</color> جديدة من منصة مجمعك.",
       "de": "Mystische Relikte, die neue <color=#FFD201>Vliese</color> am Altar deines Tempels freischalten können.",
@@ -15006,10 +15463,12 @@
       "zh-CN": "神圣护身符",
       "zh-TW": "神聖護身符"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": "icons/items/TRINKET_CARD.png",
@@ -15049,10 +15508,12 @@
       "zh-CN": "塔罗牌",
       "zh-TW": "塔羅牌"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "يُستخدم لتدفئة الأتباع عندما يكون الطقس باردًا.",
       "de": "Gut dafür geeignet, Anhänger warm zu halten, wenn es kalt ist.",
@@ -15124,10 +15585,12 @@
       "zh-CN": "羊毛",
       "zh-TW": "羊毛"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "خشب خشن ملبد بعقد.",
       "de": "Raues Holz, verdreht und knotig.",
@@ -15199,10 +15662,12 @@
       "zh-CN": "受诅咒的紫杉",
       "zh-TW": "受到詛咒的紫杉"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "مادة متينة تصلح للبناء.",
       "de": "Ein robustes Material zum Bauen.",
@@ -15274,10 +15739,12 @@
       "zh-CN": "圣洁紫杉",
       "zh-TW": "純淨紫杉"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "أرواح الحملان المقتولة.",
       "de": "Die Geister von geschlachteten Lämmern.",
@@ -15349,10 +15816,12 @@
       "zh-CN": "失落之灵",
       "zh-TW": "失落靈魂"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {
       "ar": "ليس تابعًا ميتًا...",
       "de": "Kein toter Anhänger ...",
@@ -15424,6 +15893,7 @@
       "zh-CN": "蛋黄",
       "zh-TW": "蛋黃"
     },
+    "seed": null,
     "tags": []
   }
 ]

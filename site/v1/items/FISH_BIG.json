@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "طعام فاخر للأتباع المتفانين.",
     "de": "Eine Köstlichkeit für ergebene Anhänger.",
@@ -71,6 +72,7 @@
     "zh-CN": "鲔鱼",
     "zh-TW": "鮪魚"
   },
+  "seed": null,
   "tags": [
     "food",
     "fish",

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": "icons/items/FOUND_ITEM_FOLLOWERSKIN.png",
@@ -39,5 +40,6 @@
     "zh-CN": "教徒皮肤",
     "zh-TW": "教徒外觀"
   },
+  "seed": null,
   "tags": []
 }

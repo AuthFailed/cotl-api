@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
     "de": "Eine freakige Kreatur für deine Ranch.",
@@ -71,5 +72,6 @@
     "zh-CN": "怪蜗牛",
     "zh-TW": "怪蝸牛"
   },
+  "seed": null,
   "tags": []
 }

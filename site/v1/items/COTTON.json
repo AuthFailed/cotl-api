@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قماش ناعم يُستخدم في صناعة الملابس.",
     "de": "Ein weicher Stoff für die Herstellung von Kleidung.",
@@ -71,5 +72,6 @@
     "zh-CN": "棉花",
     "zh-TW": "棉花"
   },
+  "seed": "SEED_COTTON",
   "tags": []
 }

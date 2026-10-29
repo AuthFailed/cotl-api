@@ -1,5 +1,6 @@
 {
   "category": "SOULS",
+  "crop": null,
   "description": {
     "ar": "رأس مال قادة الطوائف.",
     "de": "Die Währung der Kultführer.",
@@ -71,5 +72,6 @@
     "zh-CN": "虔诚",
     "zh-TW": "虔誠"
   },
+  "seed": null,
   "tags": []
 }

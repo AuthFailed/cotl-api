@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "سيعمل التابع على نحو أسرع بنسبة 50% خلال الشتاء.",
     "de": "Der Anhänger arbeitet im Winter 50 % schneller.",
@@ -71,6 +72,7 @@
     "zh-CN": "寒冬项链",
     "zh-TW": "寒冬項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

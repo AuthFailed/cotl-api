@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة صحية من الخضراوات.",
     "de": "Eine gesunde Mahlzeit aus Gemüse.",
@@ -127,6 +128,7 @@
     "zh-CN": "低劣南瓜汤",
     "zh-TW": "低劣南瓜湯"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

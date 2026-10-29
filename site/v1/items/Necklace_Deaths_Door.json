@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "سينجو التابع من ميتة طبيعية. ستُدمر القلادة بعد ذلك.",
     "de": "Der Anhänger wird einen natürlichen Tod überleben. Die Halskette ist danach zerstört.",
@@ -71,6 +72,7 @@
     "zh-CN": "重生项链",
     "zh-TW": "重生項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

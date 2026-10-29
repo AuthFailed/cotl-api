@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "متكتل وحامض.",
     "de": "Klumpig und sauer.",
@@ -127,6 +128,7 @@
     "zh-CN": "变质奶豆腐",
     "zh-TW": "變質奶酪"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "عليك توصيل هذه إلى <color=#FFD201>سيلا</color> في <color=#FFD201>مسقط النعاج</color>.",
     "de": "Bring sie zu <color=#FFD201>Scylla</color> in <color=#FFD201>Auenfall</color>.",
@@ -71,5 +72,6 @@
     "zh-CN": "鱼竿",
     "zh-TW": "釣竿"
   },
+  "seed": null,
   "tags": []
 }

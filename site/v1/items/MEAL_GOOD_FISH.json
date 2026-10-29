@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "طبق مشبع مصنوع بعناية.",
     "de": "Ein geschmackvolles Gericht, liebevoll zubereitet.",
@@ -165,6 +166,7 @@
     "zh-CN": "可口鱼餐",
     "zh-TW": "可口魚餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

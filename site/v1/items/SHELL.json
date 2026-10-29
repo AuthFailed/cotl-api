@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يبدو أنها كانت جزءًا من مزار من نوع ما...",
     "de": "Sieht aus, als gehörte es einst zu einer Art Schrein ...",
@@ -71,5 +72,6 @@
     "zh-CN": "壳",
     "zh-TW": "殼"
   },
+  "seed": null,
   "tags": []
 }

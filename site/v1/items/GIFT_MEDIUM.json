@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "هدية لزيادة إخلاص تابع.",
     "de": "Ein Geschenk, um die Loyalität deiner Anhänger zu steigern.",
@@ -71,6 +72,7 @@
     "zh-CN": "大型礼物",
     "zh-TW": "大型禮物"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

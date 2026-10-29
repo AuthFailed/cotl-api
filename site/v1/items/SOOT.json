@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "نتاج حرق فحم التعفن.",
     "de": "Das Nebenprodukt der Verbrennung von Fäulnisbrand.",
@@ -71,5 +72,6 @@
     "zh-CN": "腐灰",
     "zh-TW": "腐灰"
   },
+  "seed": null,
   "tags": []
 }

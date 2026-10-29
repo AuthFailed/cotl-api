@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مشروب مبهج قشدي القوام.",
     "de": "Ein cremiges Getränk für festliche Tage.",
@@ -207,6 +208,7 @@
     "zh-CN": "蛋奶酒",
     "zh-TW": "蛋奶酒"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

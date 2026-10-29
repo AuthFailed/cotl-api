@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مناسب للمشاركة.",
     "de": "Perfekt zum Teilen.",
@@ -131,6 +132,7 @@
     "zh-CN": "芝士奶酪锅",
     "zh-TW": "起司火鍋"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

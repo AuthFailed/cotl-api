@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مزيج قبيح حقًا.",
     "de": "Eine wahrhaft abscheuliche Zubereitung.",
@@ -173,6 +174,7 @@
     "zh-CN": "夺命餐",
     "zh-TW": "奪命餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

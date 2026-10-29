@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة مناسبة للرعاة.",
     "de": "Eine Mahlzeit für Hirten.",
@@ -96,6 +97,7 @@
     "zh-CN": "牧者奶派",
     "zh-TW": "牧者的派"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

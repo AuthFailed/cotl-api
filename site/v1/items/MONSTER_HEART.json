@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قلوب قاسية تفتح <color=#FFD201>قدرات تاج</color> جديدة من منصة مجمعك.",
     "de": "Unheilige Herzen, die neue <color=#FFD201>Kronenfähigkeiten</color> am Altar deines Tempels freischalten können.",
@@ -71,5 +72,6 @@
     "zh-CN": "异教徒之心",
     "zh-TW": "異教徒之心"
   },
+  "seed": null,
   "tags": []
 }

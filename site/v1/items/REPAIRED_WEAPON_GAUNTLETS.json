@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Claws of the Wolf"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يحرق الحلق.",
     "de": "Brennt auf dem Weg nach unten.",
@@ -169,6 +170,7 @@
     "zh-CN": "辛辣酿",
     "zh-TW": "大辛釀"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

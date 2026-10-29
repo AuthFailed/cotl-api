@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مكونات غنية مجهزة بإتقان.",
     "de": "Reich an Zutaten und perfekt zubereitet.",
@@ -177,6 +178,7 @@
     "zh-CN": "美味鱼盛宴",
     "zh-TW": "美味魚盛宴"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

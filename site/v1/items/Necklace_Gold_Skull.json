@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يكتسب التابع سمة الخلود.",
     "de": "Der Anhänger erhält die Eigenschaft: Unsterblich.",
@@ -71,6 +72,7 @@
     "zh-CN": "金头骨项链",
     "zh-TW": "金頭骨項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

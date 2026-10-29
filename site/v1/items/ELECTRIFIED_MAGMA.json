@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "جمع بين التحلل والتجدد.",
     "de": "Verfall und Erneuerung in einem.",
@@ -71,5 +72,6 @@
     "zh-CN": "蓄能腐烧",
     "zh-TW": "蓄能腐燃"
   },
+  "seed": null,
   "tags": []
 }

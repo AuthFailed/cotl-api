@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": null,
@@ -39,5 +40,6 @@
     "zh-CN": "冰心",
     "zh-TW": "冰心"
   },
+  "seed": null,
   "tags": []
 }

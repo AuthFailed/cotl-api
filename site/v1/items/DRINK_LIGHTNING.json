@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مشروب فوّار وصاعق.",
     "de": "Sprudelnd und elektrisch.",
@@ -169,6 +170,7 @@
     "zh-CN": "电光饮",
     "zh-TW": "電光水"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

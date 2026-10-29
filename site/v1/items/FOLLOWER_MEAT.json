@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "اللحم المجمع من أحد أتباعك السابقين.",
     "de": "Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
@@ -71,6 +72,7 @@
     "zh-CN": "教徒之肉",
     "zh-TW": "教徒之肉"
   },
+  "seed": null,
   "tags": [
     "meat"
   ]

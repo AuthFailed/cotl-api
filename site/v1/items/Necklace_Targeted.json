@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "سيكون التابع أول ضحية لمستوى العقيدة المنخفض أو المرض أو الجوع.",
     "de": "Der Anhänger wird das erste Opfer von geringem Glauben, Krankheit oder Hunger sein.",
@@ -71,6 +72,7 @@
     "zh-CN": "不幸项链",
     "zh-TW": "不幸項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

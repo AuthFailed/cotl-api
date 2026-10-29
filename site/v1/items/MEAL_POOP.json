@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "\"وجبة\" مصنوعة من المخلفات...",
     "de": "Eine „Mahlzeit“ aus Exkrementen …",
@@ -127,6 +128,7 @@
     "zh-CN": "便便碗",
     "zh-TW": "便便碗"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

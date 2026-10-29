@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "آثار غامضة تفتح <color=#FFD201>أردية</color> جديدة من منصة مجمعك.",
     "de": "Mystische Relikte, die neue <color=#FFD201>Vliese</color> am Altar deines Tempels freischalten können.",
@@ -71,5 +72,6 @@
     "zh-CN": "神圣护身符",
     "zh-TW": "神聖護身符"
   },
+  "seed": null,
   "tags": []
 }

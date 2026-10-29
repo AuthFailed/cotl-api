@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "حجر يُستخدم لفتح تعاليم لم تُستخدم.",
     "de": "Stein für das Freischalten von nicht verwendeten Doktrinen.",
@@ -71,5 +72,6 @@
     "zh-CN": "忘却戒律石",
     "zh-TW": "忘卻戒律石"
   },
+  "seed": null,
   "tags": []
 }

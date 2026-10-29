@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "لا للندم.",
     "de": "Bereue nichts.",
@@ -165,6 +166,7 @@
     "zh-CN": "罪孽酒",
     "zh-TW": "罪孽酒"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

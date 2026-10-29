@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": null,
@@ -39,5 +40,6 @@
     "zh-CN": "熔心",
     "zh-TW": "熔心"
   },
+  "seed": null,
   "tags": []
 }

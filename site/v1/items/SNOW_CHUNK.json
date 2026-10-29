@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "A round ball of snow"
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Snow Chunk"
   },
+  "seed": null,
   "tags": []
 }

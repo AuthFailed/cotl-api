@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "اللحم الفاسد لأحد أتباعك السابقين.",
     "de": "Vergammeltes Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
@@ -71,5 +72,6 @@
     "zh-CN": "教徒腐肉",
     "zh-TW": "教徒腐肉"
   },
+  "seed": null,
   "tags": []
 }

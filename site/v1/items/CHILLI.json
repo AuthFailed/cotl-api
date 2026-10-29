@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "تكفي حرارته لتدفئتك مهما كانت شدة البرد.",
     "de": "Würzig genug, um dich aufzuwärmen, egal wie kalt es ist.",
@@ -71,6 +72,7 @@
     "zh-CN": "辣椒",
     "zh-TW": "辣椒"
   },
+  "seed": "SEED_CHILLI",
   "tags": [
     "food"
   ]

@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "غني بالمغذيات ومفيد في المزارع.",
     "de": "Reich an Nährstoffen, nützlich auf Ackerparzellen.",
@@ -71,5 +72,6 @@
     "zh-CN": "肥料",
     "zh-TW": "肥料"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "de": "Gedünstete Pilze, die hoffentlich ungiftig sind.",
     "en": "Sauteed mushrooms, hopefully not poisonous.",
@@ -77,6 +78,7 @@
     "zh-CN": "蘑菇餐",
     "zh-TW": "蘑菇餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

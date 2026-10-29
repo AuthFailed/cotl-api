@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة مشبعة لآكلي اللحوم.",
     "de": "Eine sättigende Speise für Fleischfresser.",
@@ -165,6 +166,7 @@
     "zh-CN": "丰盛肉汤",
     "zh-TW": "豐盛肉湯"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

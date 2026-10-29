@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "بطعم الرماد.",
     "de": "Von Flammen verzehrt.",
@@ -81,6 +82,7 @@
     "zh-CN": "烧糊餐点",
     "zh-TW": "燒焦餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

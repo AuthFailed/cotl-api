@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يمكن استخدام أحجار الوصايا لإعلان <color=#FFD201>تعاليم</cult> جديدة من منصة مجمعك.",
     "de": "Gebotssteine, die am Altar deines Tempels verwendet werden können, um neue <color=#FFD201>Doktrinen</cult> zu verkünden.",
@@ -71,5 +72,6 @@
     "zh-CN": "戒律石碎块",
     "zh-TW": "戒律石碎塊"
   },
+  "seed": null,
   "tags": []
 }

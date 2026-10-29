@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "An axe of legendary bloodthirst."
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Lambs’ Slaughter"
   },
+  "seed": null,
   "tags": []
 }

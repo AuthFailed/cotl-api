@@ -1,5 +1,15 @@
 {
   "category": "NONE",
+  "crop": {
+    "grows": "CAULIFLOWER",
+    "growthTime": 18.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
   "description": {
     "ar": "يمكن زرعها في <color=#FFD201>مزرعة.</color>",
     "de": "Pflanze ihn auf einer <color=#FFD201>Ackerparzelle</color> ein.",
@@ -71,5 +81,6 @@
     "zh-CN": "花菜种子",
     "zh-TW": "白花椰菜種子"
   },
+  "seed": null,
   "tags": []
 }

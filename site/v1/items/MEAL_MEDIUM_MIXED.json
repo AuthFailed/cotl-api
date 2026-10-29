@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مذاقها أفضل مما تبدو عليه.",
     "de": "Schmeckt besser, als sie aussieht.",
@@ -135,6 +136,7 @@
     "zh-CN": "朴实什锦餐",
     "zh-TW": "樸實什錦餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

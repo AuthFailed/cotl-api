@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قطع كبيرة من اللحم اللين.",
     "de": "Große, saftige Fleischstücke.",
@@ -135,6 +136,7 @@
     "zh-CN": "美味肉肉盛宴",
     "zh-TW": "美味肉肉盛宴"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

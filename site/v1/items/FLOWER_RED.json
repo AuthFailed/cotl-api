@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "زهرة رقيقة مفيدة لجمالها وفوائدها العلاجية.",
     "de": "Eine zarte Blume, die sowohl große Schönheit als auch medizinische Vorteile zu bieten hat.",
@@ -71,5 +72,6 @@
     "zh-CN": "山茶花",
     "zh-TW": "山茶花"
   },
+  "seed": "SEED_FLOWER_RED",
   "tags": []
 }

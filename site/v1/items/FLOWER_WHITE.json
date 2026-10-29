@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "زهرة نقية متعددة الاستخدامات.",
     "de": "Eine reine Blume mit zahlreichen Verwendungsmöglichkeiten.",
@@ -71,5 +72,6 @@
     "zh-CN": "雪花莲",
     "zh-TW": "雪落"
   },
+  "seed": null,
   "tags": []
 }

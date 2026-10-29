@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مادة ثمينة تُستخدم لبناء مباني سامية.",
     "de": "Ein teures Material, das für den Bau heiliger Bauten verwendet wird.",
@@ -71,5 +72,6 @@
     "zh-CN": "金条",
     "zh-TW": "金條"
   },
+  "seed": null,
   "tags": []
 }

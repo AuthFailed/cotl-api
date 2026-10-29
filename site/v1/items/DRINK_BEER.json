@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مثالي بعد يوم شاق.",
     "de": "Perfekt nach einem langen Tag.",
@@ -127,6 +128,7 @@
     "zh-CN": "嘉佳酿",
     "zh-TW": "嘉佳釀"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

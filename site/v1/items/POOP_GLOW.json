@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "المحاصيل التي تُزرع باستخدامه تجذب يراعات ليلًا.",
     "de": "Damit gedüngte Feldfrüchte ziehen nachts Glühwürmchen an.",
@@ -71,5 +72,6 @@
     "zh-CN": "发光肥料",
     "zh-TW": "發光肥料"
   },
+  "seed": null,
   "tags": []
 }

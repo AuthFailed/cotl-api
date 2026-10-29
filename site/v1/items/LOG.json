@@ -1,5 +1,6 @@
 {
   "category": "LOGS",
+  "crop": null,
   "description": {
     "ar": "مادة بسيطة تُستخدم لبناء المباني.",
     "de": "Ein einfaches Material, das zum Bauen verwendet wird.",
@@ -71,5 +72,6 @@
     "zh-CN": "木材",
     "zh-TW": "木材"
   },
+  "seed": null,
   "tags": []
 }

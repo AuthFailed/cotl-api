@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مصنوع من الفتات.",
     "de": "Aus Resten zubereitet.",
@@ -127,6 +128,7 @@
     "zh-CN": "粘稠肉肉稀粥",
     "zh-TW": "黏稠肉肉稀粥"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

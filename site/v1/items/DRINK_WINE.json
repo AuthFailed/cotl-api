@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مثالي للاحتفاء بقائد عظيم.",
     "de": "Perfekt für einen Toast auf einen großen Anführer.",
@@ -165,6 +166,7 @@
     "zh-CN": "葡萄琼浆",
     "zh-TW": "葡萄瓊漿"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

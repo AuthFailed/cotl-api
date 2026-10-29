@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": "icons/items/BLACK_HEART.png",
@@ -39,6 +40,7 @@
     "zh-CN": "病缠黑心",
     "zh-TW": "病纏黑心"
   },
+  "seed": null,
   "tags": [
     "heart"
   ]

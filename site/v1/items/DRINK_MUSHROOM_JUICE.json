@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "قطع فطر مخفوقة مع حليب.",
     "de": "Pilzstückchen in einem Shake.",
@@ -165,6 +166,7 @@
     "zh-CN": "菇菇昔",
     "zh-TW": "菇菇昔"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

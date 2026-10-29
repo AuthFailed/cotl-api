@@ -1,5 +1,6 @@
 {
   "category": "POOP",
+  "crop": null,
   "description": {
     "ar": "المحاصيل التي تُزرع باستخدامه تنمو على الفور.",
     "de": "Damit gedüngte Feldfrüchte wachsen sofort.",
@@ -71,5 +72,6 @@
     "zh-CN": "彩虹肥料",
     "zh-TW": "彩虹肥料"
   },
+  "seed": null,
   "tags": []
 }

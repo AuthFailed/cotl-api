@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "طبق رئيسي مشبع.",
     "de": "Ein befriedigendes Hauptgericht.",
@@ -71,6 +72,7 @@
     "zh-CN": "鲑鱼",
     "zh-TW": "鮭魚"
   },
+  "seed": null,
   "tags": [
     "food",
     "fish"

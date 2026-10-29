@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مغذٍ ولا يزال فاترًا.",
     "de": "Nahrhaft und noch ein bisschen warm.",
@@ -71,5 +72,6 @@
     "zh-CN": "牛奶",
     "zh-TW": "牛奶"
   },
+  "seed": null,
   "tags": []
 }

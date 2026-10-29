@@ -113,6 +113,60 @@
               "null"
             ]
           },
+          "crop": {
+            "description": "farm seeds only (null otherwise): what it grows into and how",
+            "properties": {
+              "grows": {
+                "description": "the crop item",
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "growthTime": {
+                "description": "watered day phases to grow (a day has 5; a nearby Harvest Totem adds half a phase each)",
+                "type": "number"
+              },
+              "harvests": {
+                "description": "how many times one seed can be harvested (random in this range)",
+                "properties": {
+                  "max": {
+                    "type": "integer"
+                  },
+                  "min": {
+                    "type": "integer"
+                  }
+                },
+                "required": [
+                  "min",
+                  "max"
+                ],
+                "type": "object"
+              },
+              "season": {
+                "description": "the only season it grows in, unless a Farm Crop Grower or rotstone fertiliser is used",
+                "enum": [
+                  "spring",
+                  "winter"
+                ]
+              },
+              "stages": {
+                "description": "visible growth stages",
+                "type": "integer"
+              }
+            },
+            "required": [
+              "grows",
+              "growthTime",
+              "stages",
+              "harvests",
+              "season"
+            ],
+            "type": [
+              "object",
+              "null"
+            ]
+          },
           "description": {
             "additionalProperties": {
               "minLength": 1,
@@ -259,6 +313,13 @@
             },
             "description": "name without the game's text markup",
             "type": "object"
+          },
+          "seed": {
+            "description": "crops only: the seed item that grows it (null if none, or the game doesn't name that seed)",
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "tags": {
             "description": "food, fish, big_fish, meat, heart, gift, meal, drink",
@@ -472,7 +533,7 @@
     }
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:45:14Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:51:32Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },

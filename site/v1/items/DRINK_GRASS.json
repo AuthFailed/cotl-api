@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مشروب منعش مذاقه عشبي.",
     "de": "Ein rasenmäßiges Tonic.",
@@ -169,6 +170,7 @@
     "zh-CN": "有机奶昔",
     "zh-TW": "有機奶昔"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

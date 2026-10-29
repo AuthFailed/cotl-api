@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "تأثيرها غير معروف... لكن غالبًا ما تُجنى المعرفة بتقديم تضحيات.",
     "de": "Kein bekannter Effekt … allerdings wird Wissen oft durch Opfer erlangt.",
@@ -71,6 +72,7 @@
     "zh-CN": "黑暗项链",
     "zh-TW": "黑暗項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

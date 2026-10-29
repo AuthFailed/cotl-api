@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "كتابات تعود إلى فترة زمنية غابرة.",
     "de": "Schriften aus einer längst vergangenen Zeit.",
@@ -71,5 +72,6 @@
     "zh-CN": "古老石板",
     "zh-TW": "古老石板"
   },
+  "seed": null,
   "tags": []
 }

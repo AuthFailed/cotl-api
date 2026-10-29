@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "شراب مُعد من حليب مخفوق.",
     "de": "Das kommt dabei heraus, wenn man Milch schüttelt.",
@@ -211,6 +212,7 @@
     "zh-CN": "奶昔",
     "zh-TW": "奶昔"
   },
+  "seed": null,
   "tags": [
     "drink"
   ]

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "حلوى لذيذة قشدية القوام.",
     "de": "Eine süße, cremige Leckerei.",
@@ -127,6 +128,7 @@
     "zh-CN": "雪果圣代",
     "zh-TW": "雪果聖代"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

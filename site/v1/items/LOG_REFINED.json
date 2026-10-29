@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "مادة تُستخدم لبناء المباني المتينة.",
     "de": "Ein Material, das zum Bau stabiler Strukturen verwendet wird.",
@@ -71,5 +72,6 @@
     "zh-CN": "木板",
     "zh-TW": "木板"
   },
+  "seed": null,
   "tags": []
 }

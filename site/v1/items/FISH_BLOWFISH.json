@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "رقيقة وخطيرة.",
     "de": "Sowohl köstlich als auch gefährlich.",
@@ -71,6 +72,7 @@
     "zh-CN": "鲀",
     "zh-TW": "魨"
   },
+  "seed": null,
   "tags": [
     "food",
     "fish"

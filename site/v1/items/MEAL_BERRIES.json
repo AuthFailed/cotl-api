@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة بسيطة مصنوعة من التوت.",
     "de": "Einfache Mahlzeit aus Beeren.",
@@ -127,6 +128,7 @@
     "zh-CN": "基本莓果碗",
     "zh-TW": "基本莓果碗"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

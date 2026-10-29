@@ -1,5 +1,6 @@
 {
   "category": "COINS",
+  "crop": null,
   "description": {
     "ar": "عملة تُستخدم في كل شيء.",
     "de": "Eine Währung, die für alles Mögliche verwendet wird.",
@@ -71,5 +72,6 @@
     "zh-CN": "金币",
     "zh-TW": "金幣"
   },
+  "seed": null,
   "tags": []
 }

@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "سيجمع تابع موارد إضافية.",
     "de": "Der Anhänger erhält Bonusressourcen.",
@@ -71,6 +72,7 @@
     "zh-CN": "自然项链",
     "zh-TW": "自然項鍊"
   },
+  "seed": null,
   "tags": [
     "gift"
   ]

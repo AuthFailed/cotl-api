@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "عليك جلبه إلى <color=#FFD201>رامي</color> في ملاذ الحملان لإصلاحه.",
     "de": "Bringe es zur Reparatur zu <color=#FFD201>Rami</color> in Wollhafen.",
@@ -71,5 +72,6 @@
     "zh-CN": "传奇武器碎片",
     "zh-TW": "傳奇武器碎片"
   },
+  "seed": null,
   "tags": []
 }

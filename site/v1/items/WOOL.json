@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "يُستخدم لتدفئة الأتباع عندما يكون الطقس باردًا.",
     "de": "Gut dafür geeignet, Anhänger warm zu halten, wenn es kalt ist.",
@@ -71,5 +72,6 @@
     "zh-CN": "羊毛",
     "zh-TW": "羊毛"
   },
+  "seed": null,
   "tags": []
 }

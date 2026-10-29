@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "ar": "وجبة من بيض طازج ولذيذ.",
     "de": "Eine Mahlzeit, die aus einem köstlichen frischen Ei zubereitet wurde.",
@@ -127,6 +128,7 @@
     "zh-CN": "蛋蛋餐",
     "zh-TW": "蛋蛋餐"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

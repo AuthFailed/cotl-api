@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {
     "en": "This weapon is broken, and will need to be repaired."
   },
@@ -15,5 +16,6 @@
   "namePlain": {
     "en": "Snapped Sword"
   },
+  "seed": null,
   "tags": []
 }
