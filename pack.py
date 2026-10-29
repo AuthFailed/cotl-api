@@ -57,17 +57,27 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     return index
 
 
-def problems(dump: dict, previous_index) -> list:
+def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
     found = [f"job {e['job']} failed: {e['message']}" for e in dump["meta"].get("errors", [])]
+    previous = read_json(site_dir / "v1" / "index.json")
     for kind in KINDS:
         ids = [e["id"] for e in dump[kind]]
+        if not ids:
+            found.append(f"{kind}: none in the dump")
         found += [f"{kind}: duplicate id {id}" for id in sorted({i for i in ids if ids.count(i) > 1})]
         found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.match(id)]
         found += [f"{kind}: {e['id']} has no English name" for e in dump[kind]
                   if not texts(dump["i18n"], e.get("nameTerm")).get("en")]
-        before = (previous_index or {}).get("counts", {}).get(kind, 0)
-        if len(ids) < before * 0.9:
-            found.append(f"{kind}: {len(ids)} now, {before} before (more than 10% fewer)")
+        # A game update can break one lookup and leave every icon or size empty while the rest looks fine.
+        old = read_json(site_dir / "v1" / f"{kind}.json") or []
+        for what, now, before in (
+                ("entries", len(ids), (previous or {}).get("counts", {}).get(kind, 0)),
+                ("icons", sum((dump_dir / "icons" / kind / f"{i}.png").exists() for i in ids), sum(bool(e.get("icon")) for e in old)),
+                ("sizes", sum(bool(e.get("size")) for e in dump[kind]), sum(bool(e.get("size")) for e in old))):
+            if now < before * 0.9:
+                found.append(f"{kind}: {now} {what} now, {before} before (more than 10% fewer)")
+    languages = {lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.match(lang)}
+    found += [f"language {lang} is gone" for lang in sorted(set((previous or {}).get("languages", [])) - languages)]
     return found
 
 
@@ -78,7 +88,7 @@ def read_json(path: Path):
 def main(argv: list) -> int:
     dump_dir, site_dir = Path(argv[1]), Path(argv[2])
     dump = load_dump(dump_dir)
-    found = problems(dump, read_json(site_dir / "v1" / "index.json"))
+    found = problems(dump, dump_dir, site_dir)
     if found:
         print("Not packing:", *found, sep="\n  ")
         return 1

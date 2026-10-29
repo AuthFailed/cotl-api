@@ -80,7 +80,8 @@ class RefuseTest(unittest.TestCase):
     def edit(self, name, change):
         path = self.dump / f"{name}.json"
         data = json.loads(path.read_text())
-        path.write_text(json.dumps(change(data) or data))
+        result = change(data)
+        path.write_text(json.dumps(data if result is None else result))
 
     def previous(self, items):
         (self.site / "v1").mkdir()
@@ -118,6 +119,28 @@ class RefuseTest(unittest.TestCase):
             with self.subTest(bad=bad):
                 self.edit("skins", lambda skins: skins[:2] + [{"id": bad, "nameTerm": "Skins/Cat"}])
                 self.assertRefused()
+
+    def packed_before(self):
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
+
+    def test_refuses_lost_icons(self):
+        self.packed_before()
+        shutil.rmtree(self.dump / "icons" / "items")
+        self.assertRefused()
+
+    def test_refuses_lost_sizes(self):
+        self.packed_before()
+        self.edit("structures", lambda st: [dict(s, size=None) for s in st])
+        self.assertRefused()
+
+    def test_refuses_lost_language(self):
+        self.packed_before()
+        self.edit("i18n", lambda t: {k: {l: x for l, x in v.items() if l != "ru"} for k, v in t.items()})
+        self.assertRefused()
+
+    def test_refuses_empty_kind_on_first_publish(self):
+        self.edit("skins", lambda skins: [])
+        self.assertRefused()
 
     def test_first_publish_has_no_count_check(self):
         self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
