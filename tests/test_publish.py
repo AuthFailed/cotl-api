@@ -29,7 +29,7 @@ FAKES = {
     "steam": 'if [ -n "${FAKE_STEAM_IGNORES:-}" ]; then exit 0; fi; cat "$FAKE_CFG" >> "$FAKE_LOG"; mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
              'if [ -n "${FAKE_TOUCH_SAVES:-}" ]; then echo new > "$FAKE_SAVES/slot_9.json"; fi',
     # rsync -a --partial -e ... host:<escaped path>/ dest/
-    "rsync": 'src="${@: -2:1}"; eval "p=${src#*:}"; mkdir -p "${@: -1}"; cp -R "$p/." "${@: -1}"',
+    "rsync": 'echo "rsync must not be used" >&2; exit 99',
 }
 
 
@@ -59,14 +59,19 @@ class PublishTest(unittest.TestCase):
         for name, body in FAKES.items():
             (bin / name).write_text("#!/usr/bin/env bash\n" + body + "\n")
             (bin / name).chmod(0o755)
-        subprocess.run(["git", "init", "-q"], cwd=self.repo, check=True)
+        remote = self.tmp / "remote.git"
+        subprocess.run(["git", "init", "-q", "--bare", str(remote)], check=True)
+        for cmd in (["init", "-q", "-b", "main"], ["config", "user.email", "t@example.com"], ["config", "user.name", "T"],
+                    ["remote", "add", "origin", str(remote)], ["add", "publish.sh"], ["commit", "-qm", "start"],
+                    ["push", "-q", "-u", "origin", "main"]):
+            subprocess.run(["git", *cmd], cwd=self.repo, check=True, capture_output=True)
         self.env = {**os.environ, "PATH": f"{bin}:{os.environ['PATH']}", "HOME": str(self.tmp / "home"),
                     "FAKE_LOG": str(self.tmp / "ssh.log"), "FAKE_DUMP": str(ROOT / "tests" / "fixture-dump"),
                     "FAKE_OUT": str(self.game / "BepInEx/plugins/CotlDataDump"), "FAKE_SAVES": str(self.saves),
                     "FAKE_CFG": str(self.game / "BepInEx/config/chrsnv.cotldata.dump.cfg")}
 
-    def run_publish(self, **env):
-        r = subprocess.run(["bash", "publish.sh"], cwd=self.repo, input="n\n", capture_output=True, text=True,
+    def run_publish(self, answer="n", **env):
+        r = subprocess.run(["bash", "publish.sh"], cwd=self.repo, input=answer + "\n", capture_output=True, text=True,
                            env={**self.env, **env}, timeout=60)
         self.log = (self.tmp / "ssh.log").read_text() if (self.tmp / "ssh.log").exists() else ""
         return r
@@ -101,6 +106,47 @@ class PublishTest(unittest.TestCase):
         r = self.run_publish(FAKE_STEAM_IGNORES="1")
         self.assertEqual(sum(l.startswith("systemd-run") and "applaunch" in l for l in self.log.splitlines()), 2)
         self.assertNotEqual(r.returncode, 0)
+
+    def git(self, *args):
+        return subprocess.run(["git", *args], cwd=self.repo, capture_output=True, text=True).stdout
+
+    def test_commits_only_the_site_and_pushes_main(self):
+        (self.repo / "notes.txt").write_text("not data")
+        self.git("add", "notes.txt")
+        r = self.run_publish(answer="y")
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        files = self.git("show", "--name-only", "--format=", "HEAD").split()
+        self.assertTrue(files and all(f.startswith("site/") for f in files), files)
+        self.assertEqual(self.git("rev-parse", "HEAD"), self.git("rev-parse", "origin/main"))
+
+    def test_refuses_to_publish_from_another_branch(self):
+        self.git("checkout", "-q", "-b", "experiment")
+        before = self.git("rev-parse", "HEAD")
+        r = self.run_publish(answer="y")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertEqual(self.git("rev-parse", "HEAD"), before)
+
+    def test_second_run_is_locked_out(self):
+        (self.tmp / "lock").mkdir()  # another run holds the PC
+        r = self.run_publish(COTL_LOCK=str(self.tmp / "lock"))
+        self.assertNotEqual(r.returncode, 0)
+        self.assertFalse(self.installed())
+        self.assertTrue((self.tmp / "lock").exists())  # not ours to remove
+
+    def test_lock_is_released(self):
+        self.run_publish(COTL_LOCK=str(self.tmp / "lock"))
+        self.assertFalse((self.tmp / "lock").exists())
+
+    def test_only_its_own_newest_backups_are_kept(self):
+        home = self.tmp / "home"
+        for n in range(7):
+            (home / f"cotl-api-saves-backup-2026010{n}-000000").mkdir()
+        (home / "cotl-saves-backup-20250101-000000").mkdir()  # the planner's, never touched
+        self.run_publish()  # no checksum list yet: backs up, then rotates
+        mine = sorted(p.name for p in home.glob("cotl-api-saves-backup-*"))
+        self.assertEqual(len(mine), 5)
+        self.assertNotIn("cotl-api-saves-backup-20260100-000000", mine)
+        self.assertTrue((home / "cotl-saves-backup-20250101-000000").exists())
 
     def test_unreachable_pc_is_not_taken_as_game_stopped(self):
         r = self.run_publish(FAKE_SSH_DOWN="pgrep")

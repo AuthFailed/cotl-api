@@ -7,12 +7,13 @@ cd "$(dirname "$0")"
 source .env
 : "${COTL_SSH:?}" "${COTL_KEY:?}" "${COTL_GAME_DIR:?}" "${COTL_SAVES_DIR:?}"
 [ -f mod/CotlDataDump.dll ] || { echo "build the mod first: mod/build.sh <Managed dir> <BepInEx core dir>"; exit 1; }
+[ "$(git rev-parse --abbrev-ref HEAD)" = main ] || { echo "Publish from main (the site deploys from it)."; exit 1; }
 
 # -n: ssh would otherwise read (and use up) this script's stdin, answers to the prompt included.
 pc() { ssh -n -i "$COTL_KEY" -o ConnectTimeout=15 "$COTL_SSH" "$@"; }
 pc_stdin() { ssh -i "$COTL_KEY" -o ConnectTimeout=15 "$COTL_SSH" "$@"; }
 q() { printf '%q' "$1"; }
-GAME=$(q "$COTL_GAME_DIR") SAVES=$(q "$COTL_SAVES_DIR") SUMS=$(q "${COTL_SUMS:-/tmp/cotl-saves-before2.sha256}")
+GAME=$(q "$COTL_GAME_DIR") SAVES=$(q "$COTL_SAVES_DIR") SUMS=$(q "${COTL_SUMS:-/tmp/cotl-saves-before2.sha256}") LOCK=$(q "${COTL_LOCK:-/tmp/cotl-api.lock}")
 PLUGIN="$GAME/BepInEx/plugins/CotlDataDump.dll" CFG="$GAME/BepInEx/config/chrsnv.cotldata.dump.cfg" OUT="$GAME/BepInEx/plugins/CotlDataDump"
 DUMP=dump  # kept after the run (gitignored) to re-pack or inspect
 GAME_UP='pgrep -f "[C]ult Of The Lamb.exe" >/dev/null'
@@ -22,22 +23,28 @@ SESSION='XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/
 rc=0; pc "$GAME_UP" || rc=$?
 [ $rc = 1 ] || { [ $rc = 0 ] && echo "The game is running on the PC; not touching it." || echo "Can't reach the PC (ssh exit $rc)."; exit 1; }
 
+# One capture at a time: mkdir is atomic, and a held lock is never ours to remove.
+pc "mkdir $LOCK" || { echo "Another capture holds the PC ($LOCK there); not starting."; exit 1; }
+trap 'pc "rmdir $LOCK"' EXIT
+
 # Saves: compare the whole listing (new files too) with the last one; if it differs, back up, then re-list.
+# Keeps this script's newest 5 backups (names sort by time); other backups are left alone.
 pc "cd $SAVES && { sha256sum * | cmp -s - $SUMS || {
-      b=~/cotl-saves-backup-\$(date +%Y%m%d-%H%M%S); cp -a . \"\$b\" && sha256sum * > $SUMS && echo \"saves backed up to \$b\"; }; }" \
+      b=~/cotl-api-saves-backup-\$(date +%Y%m%d-%H%M%S); cp -a . \"\$b\" && sha256sum * > $SUMS && echo \"saves backed up to \$b\" &&
+      ls -d ~/cotl-api-saves-backup-* | sort -r | tail -n +6 | while read -r old; do rm -rf \"\$old\"; done; }; }" \
   || { echo "Couldn't check or back up the saves; not starting."; exit 1; }
 
 cleanup() {
   trap '' INT
   echo "cleaning up on the PC"
   local tries=0
-  until pc "pkill -f '[C]ult Of The Lamb.exe'; rm -rf $PLUGIN $CFG $OUT; $SESSION systemctl --user stop cotl-api-awake 2>/dev/null; true"; do
+  until pc "pkill -f '[C]ult Of The Lamb.exe'; rm -rf $PLUGIN $CFG $OUT; $SESSION systemctl --user stop cotl-api-awake 2>/dev/null; rmdir $LOCK; true"; do
     tries=$((tries + 1))
     [ $tries -lt 10 ] || { echo "WARNING: cleanup failed; remove the plugin, cfg and output by hand"; break; }
     sleep 30
   done
   if pc "cd $SAVES && sha256sum * | cmp -s - $SUMS"; then echo "saves unchanged"; return 0; fi
-  echo "WARNING: SAVES CHANGED (or couldn't be checked). Backups are in ~/cotl-saves-backup-* on the PC."
+  echo "WARNING: SAVES CHANGED (or couldn't be checked). Backups are in ~/cotl-api-saves-backup-* on the PC."
   return 1
 }
 trap cleanup EXIT
@@ -70,8 +77,9 @@ for i in $(seq 60); do
 done
 pc "test -f $OUT/done" || { echo "timed out after 10 minutes"; exit 1; }
 
-rm -rf "$DUMP"
-rsync -a --partial -e "ssh -i $COTL_KEY" "$COTL_SSH:$OUT/" "$DUMP/"
+# tar over ssh: no remote-path quoting to get wrong (rsync 3.2.4+ reads it differently), and the dump is small.
+rm -rf "$DUMP" && mkdir "$DUMP"
+pc "tar -C $OUT -cf - ." | tar -C "$DUMP" -xf -
 # Clean the PC and check the saves now, before anything is packed or published.
 trap - EXIT
 cleanup || exit 1
@@ -81,6 +89,6 @@ git status --short site | tail -20
 read -r -p "Commit and push this data? [y/N] " ok
 if [ "$ok" = y ]; then
   git add site
-  git commit -m "Data from game version $(python3 -c 'import json;print(json.load(open("site/v1/index.json"))["gameVersion"])')"
-  git push
+  git commit -m "Data from game version $(python3 -c 'import json;print(json.load(open("site/v1/index.json"))["gameVersion"])')" -- site
+  git push origin main
 fi
