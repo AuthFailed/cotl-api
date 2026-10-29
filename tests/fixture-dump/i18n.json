@@ -46,5 +46,9 @@
   "CookingData/CausesIllPoopy/Description": {
     "en": "<color=#FFD201>{0}%</color> chance of feeling ill",
     "ru": "{0}% шанс заболеть"
+  },
+  "Inventory/SEED": {
+    "en": "Berry Seed",
+    "ru": "Семя ягоды"
   }
 }

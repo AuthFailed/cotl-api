@@ -1,0 +1,28 @@
+{
+  "category": "SEEDS",
+  "crop": {
+    "grows": "BERRY",
+    "growthTime": 9.0,
+    "harvests": {
+      "max": 5,
+      "min": 2
+    },
+    "season": "spring",
+    "stages": 4
+  },
+  "description": {},
+  "descriptionPlain": {},
+  "icon": null,
+  "id": "SEED",
+  "meal": null,
+  "name": {
+    "en": "Berry Seed",
+    "ru": "Семя ягоды"
+  },
+  "namePlain": {
+    "en": "Berry Seed",
+    "ru": "Семя ягоды"
+  },
+  "seed": null,
+  "tags": []
+}

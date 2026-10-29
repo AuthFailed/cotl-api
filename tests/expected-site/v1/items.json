@@ -1,6 +1,7 @@
 [
   {
     "category": "Food",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": null,
@@ -12,12 +13,14 @@
     "namePlain": {
       "en": "Berries"
     },
+    "seed": "SEED",
     "tags": [
       "food"
     ]
   },
   {
     "category": "Resource",
+    "crop": null,
     "description": {
       "en": "Wood for building.",
       "ru": "Дерево для стройки."
@@ -37,10 +40,12 @@
       "en": "Logs",
       "ru": "Брёвна"
     },
+    "seed": null,
     "tags": []
   },
   {
     "category": "NONE",
+    "crop": null,
     "description": {},
     "descriptionPlain": {},
     "icon": null,
@@ -84,12 +89,42 @@
       "en": "Bowl of Berries",
       "ru": "Миска ягод"
     },
+    "seed": null,
     "tags": [
       "meal"
     ]
   },
   {
+    "category": "SEEDS",
+    "crop": {
+      "grows": "BERRY",
+      "growthTime": 9.0,
+      "harvests": {
+        "max": 5,
+        "min": 2
+      },
+      "season": "spring",
+      "stages": 4
+    },
+    "description": {},
+    "descriptionPlain": {},
+    "icon": null,
+    "id": "SEED",
+    "meal": null,
+    "name": {
+      "en": "Berry Seed",
+      "ru": "Семя ягоды"
+    },
+    "namePlain": {
+      "en": "Berry Seed",
+      "ru": "Семя ягоды"
+    },
+    "seed": null,
+    "tags": []
+  },
+  {
     "category": "Resource",
+    "crop": null,
     "description": {
       "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
       "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
@@ -109,6 +144,7 @@
       "en": "Stone",
       "ru": "Камень"
     },
+    "seed": null,
     "tags": []
   }
 ]

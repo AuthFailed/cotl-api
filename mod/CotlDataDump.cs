@@ -153,9 +153,26 @@ public class CotlDataDump : BaseUnityPlugin
             ["descTerm"] = Term($"CookingData/{e.MealEffectType}/Description") ?? $"CookingData/{e.MealEffectType}/Description" }).ToList(),
     };
 
+    // How a farm seed grows, from CropController; Structures_FarmerPlot.GrowsDuringWinter: only snow fruit grows in winter,
+    // and only then.
+    static Dictionary<string, object> Crop(InventoryItem.ITEM_TYPE seed, string grows)
+    {
+        var harvests = CropController.GetHarvestsPerSeedRange(seed);
+        return new Dictionary<string, object> {
+            ["grows"] = grows, ["growthTime"] = CropController.CropGrowthTimes(seed), ["stages"] = CropController.CropStatesForSeedType(seed),
+            ["harvests"] = new Dictionary<string, int> { ["min"] = harvests.x, ["max"] = harvests.y },
+            ["season"] = seed == InventoryItem.ITEM_TYPE.SEED_SNOW_FRUIT ? "winter" : "spring",
+        };
+    }
+
     void ReadItems()
     {
         var drinks = new HashSet<InventoryItem.ITEM_TYPE>(CookingData.GetAllDrinks());
+        var farmSeeds = new HashSet<InventoryItem.ITEM_TYPE>(InventoryItem.AllSeeds);
+        var grows = new Dictionary<InventoryItem.ITEM_TYPE, InventoryItem.ITEM_TYPE>();  // seed -> crop, the reverse of GetSeedType
+        foreach (InventoryItem.ITEM_TYPE crop in Enum.GetValues(typeof(InventoryItem.ITEM_TYPE)))
+            if (InventoryItem.GetSeedType(crop) != InventoryItem.ITEM_TYPE.NONE && !grows.ContainsKey(InventoryItem.GetSeedType(crop)))
+                grows[InventoryItem.GetSeedType(crop)] = crop;
         items = new List<Dictionary<string, object>>();
         foreach (var id in Enum.GetNames(typeof(InventoryItem.ITEM_TYPE)))
         {
@@ -167,6 +184,8 @@ public class CotlDataDump : BaseUnityPlugin
                 ["category"] = InventoryItem.GetItemCategory(t).ToString(),
                 ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).Concat(cooked ? new[] { drinks.Contains(t) ? "drink" : "meal" } : new string[0]).ToList(),
                 ["meal"] = cooked ? Meal(t) : null,
+                ["seed"] = InventoryItem.GetSeedType(t) == InventoryItem.ITEM_TYPE.NONE ? null : InventoryItem.GetSeedType(t).ToString(),
+                ["crop"] = farmSeeds.Contains(t) ? Crop(t, grows.TryGetValue(t, out var c) ? c.ToString() : null) : null,
             });
         }
         // For the types left out, any term in the game that names them some other way, as evidence they're unnamed.

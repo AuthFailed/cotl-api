@@ -171,6 +171,67 @@
           }
         }
       }
+    },
+    "seed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "crops only: the seed item that grows it (null if none, or the game doesn't name that seed)"
+    },
+    "crop": {
+      "description": "farm seeds only (null otherwise): what it grows into and how",
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "grows",
+        "growthTime",
+        "stages",
+        "harvests",
+        "season"
+      ],
+      "properties": {
+        "grows": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "the crop item"
+        },
+        "growthTime": {
+          "type": "number",
+          "description": "watered day phases to grow (a day has 5; a nearby Harvest Totem adds half a phase each)"
+        },
+        "stages": {
+          "type": "integer",
+          "description": "visible growth stages"
+        },
+        "harvests": {
+          "type": "object",
+          "required": [
+            "min",
+            "max"
+          ],
+          "description": "how many times one seed can be harvested (random in this range)",
+          "properties": {
+            "min": {
+              "type": "integer"
+            },
+            "max": {
+              "type": "integer"
+            }
+          }
+        },
+        "season": {
+          "enum": [
+            "spring",
+            "winter"
+          ],
+          "description": "the only season it grows in, unless a Farm Crop Grower or rotstone fertiliser is used"
+        }
+      }
     }
   }
 }

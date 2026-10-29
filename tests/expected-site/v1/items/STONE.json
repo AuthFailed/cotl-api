@@ -1,5 +1,6 @@
 {
   "category": "Resource",
+  "crop": null,
   "description": {
     "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
     "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
@@ -19,5 +20,6 @@
     "en": "Stone",
     "ru": "Камень"
   },
+  "seed": null,
   "tags": []
 }

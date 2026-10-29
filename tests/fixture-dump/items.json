@@ -5,7 +5,9 @@
     "descTerm": "Inventory/LOG/Description",
     "category": "Resource",
     "tags": [],
-    "meal": null
+    "meal": null,
+    "crop": null,
+    "seed": "SEED_TREE"
   },
   {
     "id": "BERRY",
@@ -15,7 +17,9 @@
     "tags": [
       "food"
     ],
-    "meal": null
+    "meal": null,
+    "crop": null,
+    "seed": "SEED"
   },
   {
     "id": "STONE",
@@ -23,7 +27,9 @@
     "descTerm": "Inventory/STONE/Description",
     "category": "Resource",
     "tags": [],
-    "meal": null
+    "meal": null,
+    "crop": null,
+    "seed": null
   },
   {
     "id": "MEAL_BERRIES",
@@ -56,6 +62,27 @@
           "descTerm": "CookingData/CausesIllPoopy/Description"
         }
       ]
+    },
+    "crop": null,
+    "seed": null
+  },
+  {
+    "id": "SEED",
+    "nameTerm": "Inventory/SEED",
+    "descTerm": null,
+    "category": "SEEDS",
+    "tags": [],
+    "meal": null,
+    "seed": null,
+    "crop": {
+      "grows": "BERRY",
+      "growthTime": 9.0,
+      "stages": 4,
+      "harvests": {
+        "min": 2,
+        "max": 5
+      },
+      "season": "spring"
     }
   }
 ]

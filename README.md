@@ -29,6 +29,10 @@ the game's text markup), and `icon` (a path relative to `v1/`, or null).
   accepts, as `[[{ "item", "quantity" }]]`), `satiation`, `satiationPlayer`, `stars` (the cooking menu's quality
   stars), `tummyRating`, `faith`, `cookTime`, `dlc`, and `effects` (`type`, `chance` in percent, and its text as
   `description` / `descriptionPlain`). Numbers are the game's own values and units.
+  `seed` (crops: the seed that grows it, or null), `crop` (farm seeds only, else null): `grows` (the crop),
+  `growthTime` (watered day phases; a day has 5, a nearby Harvest Totem speeds it up by half), `stages`,
+  `harvests` (`{ "min", "max" }` times one seed can be harvested), `season` (`spring` or `winter`: the only
+  season it grows in without a Farm Crop Grower or rotstone fertiliser).
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
   `upgradesFrom` (structure id or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
   place it from the build menu), `menu` (build menu tab and section, e.g. `Follower/Food`,

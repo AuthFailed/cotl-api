@@ -1,5 +1,6 @@
 {
   "category": "NONE",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": null,
@@ -43,6 +44,7 @@
     "en": "Bowl of Berries",
     "ru": "Миска ягод"
   },
+  "seed": null,
   "tags": [
     "meal"
   ]

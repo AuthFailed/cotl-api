@@ -80,7 +80,7 @@ class PublishTest(unittest.TestCase):
         self.assertTrue((self.repo / "site" / "v1" / "index.json").exists())
         self.assertFalse((self.game / "BepInEx/plugins/CotlDataDump.dll").exists())
         self.assertFalse((self.game / "BepInEx/config/chrsnv.cotldata.dump.cfg").exists())
-        self.assertLess(r.stdout.index("saves unchanged"), r.stdout.index("items: 4"))
+        self.assertLess(r.stdout.index("saves unchanged"), r.stdout.index("items: 5"))
 
     def test_pc_kept_awake_from_launch_to_cleanup(self):
         self.run_publish()

@@ -1,5 +1,6 @@
 {
   "category": "Resource",
+  "crop": null,
   "description": {
     "en": "Wood for building.",
     "ru": "Дерево для стройки."
@@ -19,5 +20,6 @@
     "en": "Logs",
     "ru": "Брёвна"
   },
+  "seed": null,
   "tags": []
 }

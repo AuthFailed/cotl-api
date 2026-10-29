@@ -106,6 +106,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     tmp = site_dir / "v1.tmp"
     shutil.rmtree(tmp, ignore_errors=True)
     ids, icons = {}, {}
+    item_ids = {e["id"] for e in dump["items"]}
     for kind in KINDS:
         entities = []
         for raw in sorted(dump[kind], key=lambda e: e["id"]):
@@ -114,6 +115,11 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
             e["description"] = texts(dump["i18n"], raw.get("descTerm"))
             e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}
             e["descriptionPlain"] = {lang: plain(t) for lang, t in e["description"].items()}
+            # A seed or crop the game never names isn't published; don't point at it.
+            if e.get("seed") and e["seed"] not in item_ids:
+                e["seed"] = None
+            if e.get("crop") and e["crop"]["grows"] not in item_ids:
+                e["crop"] = dict(e["crop"], grows=None)
             if e.get("meal"):
                 e["meal"] = dict(e["meal"], effects=[effect(dump["i18n"], x) for x in e["meal"]["effects"]])
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"

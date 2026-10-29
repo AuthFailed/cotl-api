@@ -1,5 +1,6 @@
 {
   "category": "Food",
+  "crop": null,
   "description": {},
   "descriptionPlain": {},
   "icon": null,
@@ -11,6 +12,7 @@
   "namePlain": {
     "en": "Berries"
   },
+  "seed": "SEED",
   "tags": [
     "food"
   ]
