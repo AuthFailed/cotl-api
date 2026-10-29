@@ -141,6 +141,10 @@ next to it. Each data update is one commit, so the history is the changelog per 
 
 ## Refreshing the data
 
+A daily workflow (`watch.py`) opens an issue when Steam's public build of the game is newer than the one the
+data was captured from.
+
+
 On a machine with the game and BepInEx 5 (reached over SSH):
 
 1. `mod/build.sh "<game>/Cult Of The Lamb_Data/Managed" "<game>/BepInEx/core"` (needs the .NET SDK)
