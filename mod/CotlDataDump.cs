@@ -92,6 +92,7 @@ public class CotlDataDump : BaseUnityPlugin
         yield return new WaitForSecondsRealtime(5f);
         DataManager.Instance.DisableSaving = true;
         if (doItems.Value) Try("ItemIcons", ItemIcons);
+        if (doRituals.Value) Try("RitualIcons", RitualIcons);
         if (doStructures.Value) Try("StructureFootprints", StructureFootprints);
         finished = true;
         Write("items.json", items ?? new List<Dictionary<string, object>>());
@@ -268,6 +269,8 @@ public class CotlDataDump : BaseUnityPlugin
         var doctrines = new Dictionary<UpgradeSystem.Type, string>();
         foreach (DoctrineUpgradeSystem.DoctrineType d in Enum.GetValues(typeof(DoctrineUpgradeSystem.DoctrineType)))
             try { var r = DoctrineUpgradeSystem.RitualForDoctrineUpgrade(d); if (groups.ContainsKey(r) && !doctrines.ContainsKey(r)) doctrines[r] = d.ToString(); } catch { }
+        // UnlockAbility(Winter_RanchMeat) unlocks it, but RitualForDoctrineUpgrade leaves it out
+        if (!doctrines.ContainsKey(UpgradeSystem.Type.Ritual_RanchMeat)) doctrines[UpgradeSystem.Type.Ritual_RanchMeat] = "Winter_RanchMeat";
         rituals = new List<Dictionary<string, object>>();
         foreach (var r in UpgradeSystem.AllRituals())
         {
@@ -285,7 +288,6 @@ public class CotlDataDump : BaseUnityPlugin
                 ["alternative"] = i < 0 ? null : pairs[i ^ 1].ToString(),
                 ["doctrine"] = doctrines.TryGetValue(r, out var doc) ? doc : null,
             });
-            try { var icon = UpgradeSystem.GetIcon(r); if (icon) SaveSprite(icon, "rituals", r.ToString()); } catch (Exception e) { Logger.LogWarning($"{r} icon: {e.Message}"); }
         }
         Logger.LogInfo($"rituals: {rituals.Count}");
     }
@@ -318,6 +320,21 @@ public class CotlDataDump : BaseUnityPlugin
             if (sprite) { SaveSprite(sprite, "items", (string)item["id"]); n++; }
         }
         Logger.LogInfo($"item icons: {n}");
+    }
+
+    // The ritual menu's icons (RitualItem uses RitualIconMapping; UpgradeSystem.GetIcon's atlas isn't in the build).
+    void RitualIcons()
+    {
+        var maps = Resources.FindObjectsOfTypeAll<RitualIconMapping>();
+        if (maps.Length == 0) throw new Exception("no RitualIconMapping loaded");
+        int n = 0;
+        foreach (var r in rituals ?? new List<Dictionary<string, object>>())
+        {
+            var t = (UpgradeSystem.Type)Enum.Parse(typeof(UpgradeSystem.Type), (string)r["id"]);
+            var sprite = maps.Select(m => { try { return m.GetImage(t); } catch { return null; } }).FirstOrDefault(sp => sp);
+            if (sprite) { SaveSprite(sprite, "rituals", (string)r["id"]); n++; }
+        }
+        Logger.LogInfo($"ritual icons: {n}");
     }
 
     void StructureFootprints()
