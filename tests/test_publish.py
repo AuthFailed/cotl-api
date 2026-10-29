@@ -17,9 +17,12 @@ FAKES = {
            'if [[ "$cmd" == "cat >"* ]]; then exec bash -c "$cmd"; fi\n'
            'cat > /dev/null; exec bash -c "$cmd" < /dev/null',
     "pgrep": 'exit "${FAKE_PGREP:-1}"',
+    "systemd-run": 'echo "systemd-run $*" >> "$FAKE_LOG"',
+    "systemctl": 'echo "systemctl $*" >> "$FAKE_LOG"',
+    "date": 'if [ "$1" = +%s ]; then echo 1800000000; else /bin/date "$@"; fi',
     "pkill": "exit 0",
     "sleep": "exit 0",
-    "steam": 'mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
+    "steam": 'cat "$FAKE_CFG" >> "$FAKE_LOG"; mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
              'if [ -n "${FAKE_TOUCH_SAVES:-}" ]; then echo new > "$FAKE_SAVES/slot_9.json"; fi',
     # rsync -a --partial -e ... host:<escaped path>/ dest/
     "rsync": 'src="${@: -2:1}"; eval "p=${src#*:}"; mkdir -p "${@: -1}"; cp -R "$p/." "${@: -1}"',
@@ -55,7 +58,8 @@ class PublishTest(unittest.TestCase):
         subprocess.run(["git", "init", "-q"], cwd=self.repo, check=True)
         self.env = {**os.environ, "PATH": f"{bin}:{os.environ['PATH']}", "HOME": str(self.tmp / "home"),
                     "FAKE_LOG": str(self.tmp / "ssh.log"), "FAKE_DUMP": str(ROOT / "tests" / "fixture-dump"),
-                    "FAKE_OUT": str(self.game / "BepInEx/plugins/CotlDataDump"), "FAKE_SAVES": str(self.saves)}
+                    "FAKE_OUT": str(self.game / "BepInEx/plugins/CotlDataDump"), "FAKE_SAVES": str(self.saves),
+                    "FAKE_CFG": str(self.game / "BepInEx/config/chrsnv.cotldata.dump.cfg")}
 
     def run_publish(self, **env):
         r = subprocess.run(["bash", "publish.sh"], cwd=self.repo, input="n\n", capture_output=True, text=True,
@@ -73,6 +77,17 @@ class PublishTest(unittest.TestCase):
         self.assertFalse((self.game / "BepInEx/plugins/CotlDataDump.dll").exists())
         self.assertFalse((self.game / "BepInEx/config/chrsnv.cotldata.dump.cfg").exists())
         self.assertLess(r.stdout.index("saves unchanged"), r.stdout.index("items: 3"))
+
+    def test_pc_kept_awake_from_launch_to_cleanup(self):
+        self.run_publish()
+        awake, launch, stop = (self.log.index(x) for x in ("systemd-inhibit", "steam -applaunch", "systemctl --user stop"))
+        self.assertLess(awake, launch)
+        self.assertLess(launch, stop)
+        self.assertIn("--what=sleep:idle", self.log)
+
+    def test_cfg_is_armed_with_the_pc_time(self):
+        self.run_publish()  # the fake steam copies the cfg it finds into the log
+        self.assertIn("ArmedAt = 1800000000\n", self.log)
 
     def test_unreachable_pc_is_not_taken_as_game_stopped(self):
         r = self.run_publish(FAKE_SSH_DOWN="pgrep")

@@ -15,6 +15,7 @@ GAME=$(q "$COTL_GAME_DIR") SAVES=$(q "$COTL_SAVES_DIR") SUMS=$(q "${COTL_SUMS:-/
 PLUGIN="$GAME/BepInEx/plugins/CotlDataDump.dll" CFG="$GAME/BepInEx/config/chrsnv.cotldata.dump.cfg" OUT="$GAME/BepInEx/plugins/CotlDataDump"
 DUMP=dump  # kept after the run (gitignored) to re-pack or inspect
 GAME_UP='pgrep -f "[C]ult Of The Lamb.exe" >/dev/null'
+SESSION='XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus'
 
 # pgrep exits 1 when nothing matches; ssh exits 255 when the PC can't be reached, which says nothing.
 rc=0; pc "$GAME_UP" || rc=$?
@@ -29,7 +30,7 @@ cleanup() {
   trap '' INT
   echo "cleaning up on the PC"
   local tries=0
-  until pc "pkill -f '[C]ult Of The Lamb.exe'; rm -rf $PLUGIN $CFG $OUT"; do
+  until pc "pkill -f '[C]ult Of The Lamb.exe'; rm -rf $PLUGIN $CFG $OUT; $SESSION systemctl --user stop cotl-api-awake 2>/dev/null; true"; do
     tries=$((tries + 1))
     [ $tries -lt 10 ] || { echo "WARNING: cleanup failed; remove the plugin, cfg and output by hand"; break; }
     sleep 30
@@ -40,7 +41,13 @@ cleanup() {
 }
 trap cleanup EXIT
 
-pc "rm -rf $OUT; printf '[General]\nArmed = true\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' > $CFG"
+# Steam's Game Mode suspends the PC after an hour without controller input, and it may be close to that already.
+# A user unit counts as the local session (a plain systemd-inhibit over SSH is refused); it ends on its own in 30 min.
+pc "$SESSION systemd-run --user --collect --unit=cotl-api-awake systemd-inhibit --what=sleep:idle --who=cotl-api \
+    --why='Data capture over SSH' --mode=block sleep 1800"
+
+# The plugin acts only within 30 minutes of ArmedAt, so a cfg left behind by a failed cleanup does nothing later.
+pc "rm -rf $OUT; printf '[General]\nArmedAt = %s\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' \"\$(date +%s)\" > $CFG"
 pc_stdin "cat > $PLUGIN" < mod/CotlDataDump.dll
 pc 'DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus nohup steam -applaunch 1313140 >/tmp/cotl-launch.log 2>&1 &'
 echo "game launching; waiting for the dump (up to 10 minutes)"

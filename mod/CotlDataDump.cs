@@ -31,14 +31,17 @@ public class CotlDataDump : BaseUnityPlugin
     readonly HashSet<string> terms = new HashSet<string>();
     readonly Dictionary<string, Dictionary<string, string>> i18n = new Dictionary<string, Dictionary<string, string>>();
     List<Dictionary<string, object>> items, structures, skins;
+    readonly Dictionary<string, List<string>> unnamed = new Dictionary<string, List<string>>();
     string en = "en";
 
     void Awake()
     {
-        // One-shot: publish.sh arms it; a DLL left behind by a failed cleanup must not take over normal play.
-        var armed = Config.Bind("General", "Armed", false, "publish.sh sets this; the plugin clears it as it starts and does nothing unless it was set.");
-        if (!armed.Value) { Logger.LogInfo("not armed; doing nothing"); return; }
-        armed.Value = false;
+        // One-shot and short-lived: publish.sh arms it with the time; a cfg left behind by a failed cleanup must not
+        // take over normal play later.
+        var armedAt = Config.Bind("General", "ArmedAt", 0L, "Unix time publish.sh armed this plugin; it acts only within 30 minutes of it, once.");
+        long age = DateTimeOffset.UtcNow.ToUnixTimeSeconds() - armedAt.Value;
+        if (armedAt.Value == 0 || age < 0 || age > 30 * 60) { Logger.LogInfo("not armed; doing nothing"); return; }
+        armedAt.Value = 0;
         Config.Save();
         slot = Config.Bind("General", "Slot", 0, "Save slot to continue for phase 2 (footprints and icons). Never written to.");
         doItems = Config.Bind("Jobs", "Items", true, "items.json and item icons.");
@@ -95,7 +98,8 @@ public class CotlDataDump : BaseUnityPlugin
         Write("i18n.json", i18n);
         Write("meta.json", new Dictionary<string, object> {
             ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
-            ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"), ["errors"] = errors });
+            ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"), ["errors"] = errors,
+            ["unnamedItems"] = unnamed });
         File.WriteAllText(Path.Combine(outDir, "done"), "");
         Logger.LogInfo("dump done");
         yield return new WaitForSecondsRealtime(1f);
@@ -133,14 +137,28 @@ public class CotlDataDump : BaseUnityPlugin
         ["meat"] = InventoryItem.IsMeat, ["heart"] = InventoryItem.IsHeart, ["gift"] = InventoryItem.IsGiftOrNecklace,
     };
 
+    // Most items are named under Inventory/{id}; meals and drinks under CookingData/{id}/Name (CookingData.GetLocalizedName).
+    string ItemTerm(string id, string inventory, string cooking) =>
+        English($"Inventory/{id}") != null ? Term($"Inventory/{id}{inventory}") : Term($"CookingData/{id}{cooking}");
+
     void ReadItems()
     {
-        items = Named<InventoryItem.ITEM_TYPE>("Inventory").Select(t => new Dictionary<string, object> {
-            ["id"] = t.ToString(), ["nameTerm"] = Term($"Inventory/{t}"), ["descTerm"] = Term($"Inventory/{t}/Description"),
-            ["category"] = InventoryItem.GetItemCategory(t).ToString(),
-            ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).ToList(),
-        }).ToList();
-        Logger.LogInfo($"items: {items.Count}");
+        items = new List<Dictionary<string, object>>();
+        foreach (var id in Enum.GetNames(typeof(InventoryItem.ITEM_TYPE)))
+        {
+            if (English($"Inventory/{id}") == null && English($"CookingData/{id}/Name") == null) { unnamed[id] = null; continue; }
+            var t = (InventoryItem.ITEM_TYPE)Enum.Parse(typeof(InventoryItem.ITEM_TYPE), id);
+            items.Add(new Dictionary<string, object> {
+                ["id"] = id, ["nameTerm"] = ItemTerm(id, "", "/Name"), ["descTerm"] = ItemTerm(id, "/Description", "/Description"),
+                ["category"] = InventoryItem.GetItemCategory(t).ToString(),
+                ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).ToList(),
+            });
+        }
+        // For the types left out, any term in the game that names them some other way, as evidence they're unnamed.
+        foreach (var id in unnamed.Keys.ToList())
+            unnamed[id] = LocalizationManager.Sources.SelectMany(src => src.mTerms).Select(d => d.Term)
+                .Where(term => term.EndsWith("/" + id) || term.Contains("/" + id + "/")).Distinct().ToList();
+        Logger.LogInfo($"items: {items.Count}, left out: {unnamed.Count}");
     }
 
     // The build menu's tabs and sections, as its own category classes list them (StructuresData.AllStructures misses some).
