@@ -22,11 +22,15 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements-ci.txt
-      - run: shellcheck publish.sh check.sh mod/build.sh
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1  # v7.1.0
+        with:
+          node-version: "24"
+      - run: shellcheck publish.sh check.sh mod/build.sh types.sh
       - run: python3 -m unittest discover tests
       - run: ./check.sh tests/expected-site
       - run: ./check.sh site
         if: hashFiles('site/v1/index.json') != ''
+      - run: ./types.sh "$RUNNER_TEMP"
 
   deploy:
     needs: test
@@ -40,6 +44,10 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1  # v7.1.0
+        with:
+          node-version: "24"
+      - run: ./types.sh site/v1
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9  # v5.0.0
         with:
           path: site

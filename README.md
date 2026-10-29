@@ -20,6 +20,12 @@ Base URL: `https://api.cotl.info/v1/`
 
 `{id}` is the game's own name (`BERRY`, `FARM_PLOT`, …) and stays the same across game versions.
 
+## TypeScript
+
+`https://api.cotl.info/v1/types.d.ts` has types for every response, generated from the JSON Schemas
+(`Item`, `Structure`, `Skin`, `Ritual`, `Index`, `Changes`, `Slim`). Each game version also gets a
+[release](https://github.com/AuthFailed/cotl-api/releases) with the whole `v1/` zipped and the types attached.
+
 ## Fields
 
 Every entity has `id`, `name` and `description` (maps from language code to text; a language without a

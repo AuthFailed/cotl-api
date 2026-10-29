@@ -1,0 +1,11 @@
+{
+  "name": "cotl-api-types",
+  "version": "0.0.0",
+  "description": "TypeScript types for the Cult of the Lamb data API at https://api.cotl.info/v1/",
+  "types": "types.d.ts",
+  "files": ["types.d.ts"],
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/AuthFailed/cotl-api.git" },
+  "homepage": "https://api.cotl.info/",
+  "keywords": ["cult-of-the-lamb", "game-data", "types"]
+}

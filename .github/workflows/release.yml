@@ -1,0 +1,58 @@
+name: Release
+
+# A release per game version: the data zipped, the TypeScript types, and the changelog entry as notes.
+on:
+  push:
+    branches: [main]
+    paths: [site/v1/index.json]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    env:
+      GH_TOKEN: ${{ github.token }}
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1  # v7.1.0
+        with:
+          node-version: "24"
+          registry-url: https://registry.npmjs.org
+      - id: version
+        run: |
+          v=$(python3 -c 'import json;print(json.load(open("site/v1/index.json"))["gameVersion"])')
+          echo "game=$v" >> "$GITHUB_OUTPUT"
+          if gh release view "data-$v" >/dev/null 2>&1; then echo "new=false" >> "$GITHUB_OUTPUT"; else echo "new=true" >> "$GITHUB_OUTPUT"; fi
+      - if: steps.version.outputs.new == 'true'
+        run: |
+          v=${{ steps.version.outputs.game }}
+          ./types.sh site/v1
+          (cd site && zip -qr "$RUNNER_TEMP/cotl-api-v1-$v.zip" v1)
+          python3 - "$v" > "$RUNNER_TEMP/notes.md" <<'PY'
+          import json, sys
+          v = sys.argv[1]
+          index = json.load(open("site/v1/index.json"))
+          changes = [c for c in json.load(open("site/v1/changes.json")) if c["gameVersion"] == v]
+          print(f"Data from Cult of the Lamb {v}, captured {index['capturedAt']}.\n")
+          print(", ".join(f"{n} {k}" for k, n in index["counts"].items()) + f"; {len(index['languages'])} languages.\n")
+          if changes:
+              for what in ("added", "removed", "changed"):
+                  ids = [f"`{i}`" for kind in changes[0][what].values() for i in kind]
+                  if ids:
+                      print(f"**{what.capitalize()}** ({len(ids)}): {', '.join(ids)}\n")
+          else:
+              print("First release of this game version's data.\n")
+          print("Browse it at https://api.cotl.info/ — this zip is the same `v1/` for offline use.")
+          PY
+          gh release create "data-$v" "$RUNNER_TEMP/cotl-api-v1-$v.zip" site/v1/types.d.ts \
+            --title "Game version $v" --notes-file "$RUNNER_TEMP/notes.md" --target "$GITHUB_SHA"
+      # npm, only once an NPM_TOKEN secret is set. npm needs semver: 1.5.26.1058 becomes 1.5.261058.
+      - if: steps.version.outputs.new == 'true' && env.NODE_AUTH_TOKEN != ''
+        run: |
+          IFS=. read -r a b c d <<< "${{ steps.version.outputs.game }}"
+          cp site/v1/types.d.ts types/
+          cd types && npm version --no-git-tag-version "$a.$b.$((c * 10000 + ${d:-0}))" && npm publish --access public
