@@ -1,10 +1,10 @@
 # cotl-api
 
 Static JSON data for *Cult of the Lamb*: items, structures and follower skins, with names in every language
-the game ships and an icon for each item and structure. Taken straight from the game by a BepInEx plugin
+the game ships and icons for items and structures. Taken straight from the game by a BepInEx plugin
 and served from GitHub Pages. No keys, no rate limits; any site can fetch it (CORS is open).
 
-Base URL: `https://<owner>.github.io/cotl-api/v1/`
+Base URL: `https://authfailed.github.io/cotl-api/v1/`
 
 | Path | What |
 |---|---|
