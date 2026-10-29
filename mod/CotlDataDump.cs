@@ -612,14 +612,27 @@ public class CotlDataDump : BaseUnityPlugin
         int n = 0;
         // Follower forms: the follower skeleton with the form's skin and its first colour set (as the new-form card shows it).
         var follower = WorshipperData.Instance.SkeletonData ? WorshipperData.Instance.SkeletonData.skeletonDataAsset : null;
+        Spine.Unity.SkeletonDataAsset[] loaded = null;
         foreach (var kv in skinSources)
-            if (follower)
-                yield return Portrait(cam, follower, "skins", kv.Key, s =>
+        {
+            if (!follower) break;
+            // A few forms (the Palworld ones) may not be in the follower skeleton: use any loaded skeleton that has the skin.
+            var asset = follower;
+            string skin = kv.Value.Skin[0].Skin;
+            if (follower.GetSkeletonData(true).FindSkin(skin) == null)
+            {
+                loaded = loaded ?? Resources.FindObjectsOfTypeAll<Spine.Unity.SkeletonDataAsset>();
+                asset = loaded.FirstOrDefault(x => { try { return x.GetSkeletonData(true)?.FindSkin(skin) != null; } catch { return false; } });
+                Logger.LogInfo($"skin {skin} isn't in the follower skeleton; {(asset ? "found in " + asset.name : "no loaded skeleton has it")}");
+                if (!asset) continue;
+            }
+            yield return Portrait(cam, asset, "skins", kv.Key, s =>
                 {
                     s.SetSkin(kv.Value.Skin[0].Skin);
                     if (kv.Value.SlotAndColours.Count > 0)
                         foreach (var sc in kv.Value.SlotAndColours[0].SlotAndColours) s.FindSlot(sc.Slot)?.SetColor(sc.color);
                 }, "idle", () => n++);
+        }
         // Tarot cards: the card skeleton TarotCardAnimator shows, in its menu pose.
         var tarot = Resources.FindObjectsOfTypeAll<Lamb.UI.TarotCardAnimator>().Select(a => a.Spine ? a.Spine.skeletonDataAsset : null).FirstOrDefault(a => a);
         foreach (var d in more.TryGetValue("tarot", out var cards) ? cards : new List<Dict>())
