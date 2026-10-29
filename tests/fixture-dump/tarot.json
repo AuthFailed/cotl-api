@@ -1,0 +1,38 @@
+[
+  {
+    "id": "Hearts1",
+    "nameTerm": "TarotCards/Hearts1/Name",
+    "descTerm": "TarotCards/Hearts1/Description",
+    "loreTerm": "TarotCards/Hearts1/Lore",
+    "levels": [
+      {
+        "descTerm": "TarotCards/Hearts1/Description1"
+      }
+    ],
+    "maxLevel": 1,
+    "groups": [
+      "default"
+    ],
+    "dlc": false,
+    "coop": false,
+    "weight": 100
+  },
+  {
+    "id": "CorruptedHeal",
+    "nameTerm": "TarotCards/CorruptedHeal/Name",
+    "descTerm": "TarotCards/CorruptedHeal/Description",
+    "descArgs": [
+      "TarotCards/CorruptedHeal/Positive",
+      "TarotCards/CorruptedHeal/Negative"
+    ],
+    "loreTerm": null,
+    "levels": [],
+    "maxLevel": 0,
+    "groups": [
+      "corrupted"
+    ],
+    "dlc": false,
+    "coop": false,
+    "weight": 100
+  }
+]

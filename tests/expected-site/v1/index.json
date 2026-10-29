@@ -1,10 +1,13 @@
 {
   "capturedAt": "2026-10-29T12:00:00Z",
   "counts": {
+    "doctrines": 2,
     "items": 5,
     "rituals": 2,
+    "sermons": 1,
     "skins": 2,
-    "structures": 2
+    "structures": 2,
+    "tarot": 2
   },
   "gameVersion": "1.4.6",
   "languages": [

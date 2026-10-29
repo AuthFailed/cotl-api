@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Sustenance_Fast",
+    "name": "Пост",
+    "thumb": null
+  },
+  {
+    "id": "Sustenance_Feast",
+    "name": "Пир",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  }
+]

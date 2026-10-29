@@ -58,7 +58,7 @@ class PackTest(unittest.TestCase):
 
     def test_schemas_published(self):
         self.pack()
-        for name in ("index", "item", "structure", "skin", "ritual", "changes", "slim"):
+        for name in ("index", "item", "structure", "skin", "ritual", "doctrine", "sermon", "tarot", "changes", "slim"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
@@ -103,9 +103,9 @@ class PackTest(unittest.TestCase):
         self.pack()
         self.assertEqual(self.changes(), [{
             "gameVersion": "1.4.7", "capturedAt": "2026-11-01T00:00:00Z",
-            "added": {"items": ["COAL"], "structures": [], "skins": [], "rituals": []},
-            "removed": {"items": ["LOG"], "structures": [], "skins": [], "rituals": []},
-            "changed": {"items": ["STONE"], "structures": [], "skins": [], "rituals": []},
+            "added": {"items": ["COAL"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
+            "removed": {"items": ["LOG"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
+            "changed": {"items": ["STONE"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
         }])
         self.edit("meta", lambda m: m.update(capturedAt="2026-11-02T00:00:00Z"))
         self.pack()  # nothing changed: no new entry
@@ -173,7 +173,7 @@ class PackTest(unittest.TestCase):
         spec = json.loads((self.site / "openapi.json").read_text())
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
-        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Changes", "Slim"})
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Doctrine", "Sermon", "Tarot", "Changes", "Slim"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
                      "/v1/structures.json", "/v1/skins/{id}.json", "/v1/rituals.json", "/v1/rituals/{id}.json",
                      "/v1/icons/rituals/{id}.png"):
@@ -223,6 +223,27 @@ class PackTest(unittest.TestCase):
         self.assertEqual(farm["range"], {"shape": "square", "size": 5, "centerOffset": 0.0})
         self.assertIsNone(json.loads((self.site / "v1" / "structures" / "SHRINE_II.json").read_text())["range"])
 
+    def entity(self, kind, id):
+        return json.loads((self.site / "v1" / kind / f"{id}.json").read_text())
+
+    def test_doctrines_and_sermons(self):
+        self.pack()
+        feast = self.entity("doctrines", "Sustenance_Feast")
+        self.assertEqual((feast["category"], feast["level"], feast["alternative"], feast["ritual"]), ("Food", 2, "Sustenance_Fast", "Ritual_Feast"))
+        self.assertEqual(feast["icon"], "icons/doctrines/Sustenance_Feast.png")
+        self.assertEqual(self.entity("sermons", "Food")["name"], {"en": "Sustenance", "ru": "Пища"})
+
+    def test_tarot_levels_lore_and_filled_placeholders(self):
+        self.pack()
+        hearts = self.entity("tarot", "Hearts1")
+        self.assertEqual(hearts["levels"], [{"description": {"en": "Gain two red hearts.", "ru": "Два сердца."},
+                                             "descriptionPlain": {"en": "Gain two red hearts.", "ru": "Два сердца."}}])
+        self.assertEqual(hearts["lore"], {"en": "Life.", "ru": "Жизнь."})
+        corrupted = self.entity("tarot", "CorruptedHeal")
+        self.assertEqual(corrupted["description"], {"en": "<color=green>heal</color> but lose gold", "ru": "лечение, но потеря золота"})
+        self.assertEqual(corrupted["descriptionPlain"]["en"], "heal but lose gold")
+        self.assertEqual(corrupted["lore"], {})
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])
@@ -246,7 +267,7 @@ class RefuseTest(unittest.TestCase):
 
     def previous(self, items):
         (self.site / "v1").mkdir()
-        (self.site / "v1" / "index.json").write_text(json.dumps({"counts": {"items": items, "structures": 2, "skins": 2, "rituals": 2}}))
+        (self.site / "v1" / "index.json").write_text(json.dumps({"counts": {"items": items, "structures": 2, "skins": 2, "rituals": 2, "doctrines": 2, "sermons": 1, "tarot": 2}}))
 
     def assertRefused(self):
         before = tree(self.site)

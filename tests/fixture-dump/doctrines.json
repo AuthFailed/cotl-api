@@ -1,0 +1,24 @@
+[
+  {
+    "id": "Sustenance_Feast",
+    "nameTerm": "DoctrineUpgradeSystem/Sustenance_Feast",
+    "descTerm": "DoctrineUpgradeSystem/Sustenance_Feast/Description",
+    "category": "Food",
+    "level": 2,
+    "choice": "first",
+    "alternative": "Sustenance_Fast",
+    "kind": "Ritual",
+    "ritual": "Ritual_Feast"
+  },
+  {
+    "id": "Sustenance_Fast",
+    "nameTerm": "DoctrineUpgradeSystem/Sustenance_Fast",
+    "descTerm": null,
+    "category": "Food",
+    "level": 2,
+    "choice": "second",
+    "alternative": "Sustenance_Feast",
+    "kind": "Ritual",
+    "ritual": "Ritual_Fast"
+  }
+]

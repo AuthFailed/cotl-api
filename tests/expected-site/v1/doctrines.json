@@ -1,0 +1,50 @@
+[
+  {
+    "alternative": "Sustenance_Feast",
+    "category": "Food",
+    "choice": "second",
+    "description": {},
+    "descriptionPlain": {},
+    "icon": null,
+    "id": "Sustenance_Fast",
+    "kind": "Ritual",
+    "level": 2,
+    "name": {
+      "en": "Fast",
+      "ru": "Пост"
+    },
+    "namePlain": {
+      "en": "Fast",
+      "ru": "Пост"
+    },
+    "ritual": "Ritual_Fast",
+    "thumb": null
+  },
+  {
+    "alternative": "Sustenance_Fast",
+    "category": "Food",
+    "choice": "first",
+    "description": {
+      "en": "Unlocks the Feast.",
+      "ru": "Открывает пир."
+    },
+    "descriptionPlain": {
+      "en": "Unlocks the Feast.",
+      "ru": "Открывает пир."
+    },
+    "icon": "icons/doctrines/Sustenance_Feast.png",
+    "id": "Sustenance_Feast",
+    "kind": "Ritual",
+    "level": 2,
+    "name": {
+      "en": "Feast",
+      "ru": "Пир"
+    },
+    "namePlain": {
+      "en": "Feast",
+      "ru": "Пир"
+    },
+    "ritual": "Ritual_Feast",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  }
+]

@@ -7,7 +7,9 @@ from pathlib import Path
 
 from PIL import Image
 
-KINDS = ("items", "structures", "skins", "rituals")
+KINDS = ("items", "structures", "skins", "rituals", "doctrines", "sermons", "tarot")
+SINGULAR = {"items": "item", "structures": "structure", "skins": "skin", "rituals": "ritual", "doctrines": "doctrine",
+            "sermons": "sermon", "tarot": "tarot"}
 SAFE_ID = re.compile(r"[A-Za-z0-9_-]+")
 # The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
 LANGUAGE = re.compile(r"[a-z]{2,3}(-[A-Za-z0-9]{2,8})*")
@@ -18,6 +20,9 @@ PUBLIC = {
     "structures": ("cost", "upgradesFrom", "size", "menu", "buildable", "category"),
     "skins": ("unlock", "hidden"),
     "rituals": ("cost", "faith", "warmth", "sin", "trait", "group", "alternative", "doctrine"),
+    "doctrines": ("category", "level", "choice", "alternative", "kind", "ritual"),
+    "sermons": ("glyph",),
+    "tarot": ("maxLevel", "groups", "dlc", "coop", "weight"),
 }
 
 
@@ -29,6 +34,17 @@ def load_dump(dump_dir: Path) -> dict:
 def write_json(path: Path, obj) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(obj, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+
+
+def filled(i18n: dict, term, args) -> dict:
+    """A text whose {0}, {1}, ... the game fills with other texts (each in the same language, else English)."""
+    out = {}
+    for lang, text in texts(i18n, term).items():
+        for n, arg in enumerate(args or []):
+            words = texts(i18n, arg)
+            text = text.replace("{%d}" % n, words.get(lang) or words.get("en", ""))
+        out[lang] = text
+    return out
 
 
 def texts(i18n: dict, term) -> dict:
@@ -78,7 +94,8 @@ def tree(root: Path) -> dict:
     return {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()} if root.exists() else {}
 
 
-SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "changes": "Changes", "slim": "Slim"}
+SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "doctrine": "Doctrine",
+           "sermon": "Sermon", "tarot": "Tarot", "changes": "Changes", "slim": "Slim"}
 
 
 def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) -> dict:
@@ -105,15 +122,16 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
     paths = {"/v1/index.json": get("index", "Game version, capture date, languages and counts", ref("Index", example=index))}
     paths["/v1/changes.json"] = get("index", "What each game version added, removed or changed, newest first", ref("Changes", example=changes[:1]))
     for kind in KINDS:
-        name = SCHEMAS[kind[:-1]]
-        paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True, example=examples[kind][:2]))
-        paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {kind[:-1]}", ref(name, example=(examples[kind] or [None])[0]), sorted(ids[kind]))
+        one = SINGULAR[kind]
+        name = SCHEMAS[one]
+        paths[f"/v1/{kind}.json"] = get(kind, f"Every {one}", ref(name, many=True, example=examples[kind][:2]))
+        paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {one}", ref(name, example=(examples[kind] or [None])[0]), sorted(ids[kind]))
         paths[f"/v1/{{lang}}/{kind}.json"] = {"get": {
-            "tags": [kind], "summary": f"Every {kind[:-1]}: id, name in one language, thumbnail",
+            "tags": [kind], "summary": f"Every {one}: id, name in one language, thumbnail",
             "parameters": [{"name": "lang", "in": "path", "required": True, "schema": {"type": "string", "enum": index["languages"]}}],
             "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Slim"}}}}}}}
         if icons[kind]:
-            paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {kind[:-1]}'s icon", {"image/png": {}}, sorted(icons[kind]))
+            paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {one}'s icon", {"image/png": {}}, sorted(icons[kind]))
     return {
         "openapi": "3.1.0",
         "info": {
@@ -133,7 +151,10 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
                  {"name": "items", "description": "Resources, food, seeds, necklaces and everything else in the inventory"},
                  {"name": "structures", "description": "Buildings, decorations and tiles: cost, upgrade chain, footprint"},
                  {"name": "skins", "description": "Follower forms: where they drop, whether hidden until unlocked"},
-                 {"name": "rituals", "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them"}],
+                 {"name": "rituals", "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them"},
+                 {"name": "doctrines", "description": "Doctrines: sermon category, level, the two choices, the ritual they unlock"},
+                 {"name": "sermons", "description": "Sermon categories that doctrines belong to"},
+                 {"name": "tarot", "description": "Tarot cards: text per upgrade level, lore, card groups"}],
         "paths": paths,
         "components": {"schemas": schemas},
     }
@@ -169,7 +190,12 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
         for raw in sorted(dump[kind], key=lambda e: e["id"]):
             e = {"id": raw["id"], **{k: raw[k] for k in PUBLIC[kind] if k in raw}}
             e["name"] = texts(dump["i18n"], raw.get("nameTerm"))
-            e["description"] = texts(dump["i18n"], raw.get("descTerm"))
+            e["description"] = filled(dump["i18n"], raw.get("descTerm"), raw.get("descArgs"))
+            if "levels" in raw:  # tarot: the text of each upgrade level above the first
+                e["levels"] = [{"description": t, "descriptionPlain": {lang: plain(x) for lang, x in t.items()}}
+                               for t in (filled(dump["i18n"], lv["descTerm"], raw.get("descArgs")) for lv in raw["levels"])]
+            if "loreTerm" in raw:
+                e["lore"] = texts(dump["i18n"], raw["loreTerm"])
             e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}
             e["descriptionPlain"] = {lang: plain(t) for lang, t in e["description"].items()}
             # A seed or crop the game never names isn't published; don't point at it.
@@ -253,6 +279,8 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
         found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.fullmatch(id)]
         found += [f"{kind}: {e['id']} has no English name" for e in dump[kind]
                   if not texts(dump["i18n"], e.get("nameTerm")).get("en")]
+        found += [f"{kind}: {e['id']} level {n + 1} has no English text" for e in dump[kind]
+                  for n, lv in enumerate(e.get("levels", [])) if not texts(dump["i18n"], lv["descTerm"]).get("en")]
         found += [f"{kind}: {e['id']} effect {x['type']} has no English text" for e in dump[kind]
                   for x in (e.get("meal") or {}).get("effects", []) if not texts(dump["i18n"], x["descTerm"]).get("en")]
         # A game update can break one lookup and leave every icon or size empty while the rest looks fine.

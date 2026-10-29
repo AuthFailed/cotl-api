@@ -62,5 +62,53 @@
   "UpgradeSystem/Ritual_Fast/Name": {
     "en": "Fast",
     "ru": "Пост"
+  },
+  "DoctrineUpgradeSystem/Sustenance_Feast": {
+    "en": "Feast",
+    "ru": "Пир"
+  },
+  "DoctrineUpgradeSystem/Sustenance_Feast/Description": {
+    "en": "Unlocks the Feast.",
+    "ru": "Открывает пир."
+  },
+  "DoctrineUpgradeSystem/Sustenance_Fast": {
+    "en": "Fast",
+    "ru": "Пост"
+  },
+  "DoctrineUpgradeSystem/Food": {
+    "en": "Sustenance",
+    "ru": "Пища"
+  },
+  "TarotCards/Hearts1/Name": {
+    "en": "The Hearts",
+    "ru": "Сердца"
+  },
+  "TarotCards/Hearts1/Description": {
+    "en": "Gain a red heart.",
+    "ru": "Красное сердце."
+  },
+  "TarotCards/Hearts1/Description1": {
+    "en": "Gain two red hearts.",
+    "ru": "Два сердца."
+  },
+  "TarotCards/Hearts1/Lore": {
+    "en": "Life.",
+    "ru": "Жизнь."
+  },
+  "TarotCards/CorruptedHeal/Name": {
+    "en": "Corrupted Heal",
+    "ru": "Порченое лечение"
+  },
+  "TarotCards/CorruptedHeal/Description": {
+    "en": "{0} but {1}",
+    "ru": "{0}, но {1}"
+  },
+  "TarotCards/CorruptedHeal/Positive": {
+    "en": "<color=green>heal</color>",
+    "ru": "лечение"
+  },
+  "TarotCards/CorruptedHeal/Negative": {
+    "en": "lose gold",
+    "ru": "потеря золота"
   }
 }

@@ -66,6 +66,113 @@
         "title": "Changes",
         "type": "array"
       },
+      "Doctrine": {
+        "properties": {
+          "alternative": {
+            "description": "the other doctrine offered at the same level",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "category": {
+            "description": "sermon category id (see sermons), or Special for the ones Death Cat and the mystic shop give",
+            "type": "string"
+          },
+          "choice": {
+            "description": "which of the level's two choices it is (null for Special)",
+            "enum": [
+              "first",
+              "second",
+              null
+            ]
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "icon": {
+            "pattern": "^icons/doctrines/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "kind": {
+            "description": "Trait, FollowerAction or Ritual, as the game's doctrine tutorial classifies it (null where it doesn't)",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "level": {
+            "description": "sermon level 1-4 within the category; for Special, the order the game lists them",
+            "type": "integer"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "ritual": {
+            "description": "the ritual it unlocks, if any",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "thumb": {
+            "pattern": "^icons/doctrines/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "category",
+          "level",
+          "choice",
+          "alternative",
+          "kind",
+          "ritual"
+        ],
+        "title": "Doctrine",
+        "type": "object"
+      },
       "Index": {
         "properties": {
           "capturedAt": {
@@ -521,6 +628,75 @@
         "title": "Ritual",
         "type": "object"
       },
+      "Sermon": {
+        "properties": {
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "glyph": {
+            "description": "the category's icon as the game writes it in text: a Font Awesome character or a TextMeshPro <sprite> tag",
+            "type": "string"
+          },
+          "icon": {
+            "pattern": "^icons/sermons/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "thumb": {
+            "pattern": "^icons/sermons/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "glyph"
+        ],
+        "title": "Sermon",
+        "type": "object"
+      },
       "Skin": {
         "properties": {
           "description": {
@@ -792,6 +968,138 @@
         ],
         "title": "Structure",
         "type": "object"
+      },
+      "Tarot": {
+        "properties": {
+          "coop": {
+            "type": "boolean"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "dlc": {
+            "type": "boolean"
+          },
+          "groups": {
+            "description": "the game's card lists it is in: default (starter deck), coop, dlc, majorDlc (Woolhaven), corrupted, mystic, rot, winter (drawn only in winter)",
+            "items": {
+              "enum": [
+                "default",
+                "coop",
+                "dlc",
+                "majorDlc",
+                "corrupted",
+                "mystic",
+                "rot",
+                "winter"
+              ]
+            },
+            "type": "array"
+          },
+          "icon": {
+            "pattern": "^icons/tarot/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "levels": {
+            "description": "text of each upgrade level above the first (the game shows them as Name+ and Name++)",
+            "items": {
+              "properties": {
+                "description": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                },
+                "descriptionPlain": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                }
+              },
+              "required": [
+                "description",
+                "descriptionPlain"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "lore": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "maxLevel": {
+            "description": "highest upgrade level (0-2)",
+            "type": "integer"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "thumb": {
+            "pattern": "^icons/tarot/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "weight": {
+            "description": "draw weight the game defines; current versions draw uniformly and don't use it",
+            "type": "integer"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "levels",
+          "lore",
+          "maxLevel",
+          "groups",
+          "dlc",
+          "coop",
+          "weight"
+        ],
+        "title": "Tarot",
+        "type": "object"
       }
     }
   },
@@ -827,6 +1135,172 @@
         "summary": "What each game version added, removed or changed, newest first",
         "tags": [
           "index"
+        ]
+      }
+    },
+    "/v1/doctrines.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "alternative": "Sustenance_Feast",
+                    "category": "Food",
+                    "choice": "second",
+                    "description": {},
+                    "descriptionPlain": {},
+                    "icon": null,
+                    "id": "Sustenance_Fast",
+                    "kind": "Ritual",
+                    "level": 2,
+                    "name": {
+                      "en": "Fast",
+                      "ru": "Пост"
+                    },
+                    "namePlain": {
+                      "en": "Fast",
+                      "ru": "Пост"
+                    },
+                    "ritual": "Ritual_Fast",
+                    "thumb": null
+                  },
+                  {
+                    "alternative": "Sustenance_Fast",
+                    "category": "Food",
+                    "choice": "first",
+                    "description": {
+                      "en": "Unlocks the Feast.",
+                      "ru": "Открывает пир."
+                    },
+                    "descriptionPlain": {
+                      "en": "Unlocks the Feast.",
+                      "ru": "Открывает пир."
+                    },
+                    "icon": "icons/doctrines/Sustenance_Feast.png",
+                    "id": "Sustenance_Feast",
+                    "kind": "Ritual",
+                    "level": 2,
+                    "name": {
+                      "en": "Feast",
+                      "ru": "Пир"
+                    },
+                    "namePlain": {
+                      "en": "Feast",
+                      "ru": "Пир"
+                    },
+                    "ritual": "Ritual_Feast",
+                    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Doctrine"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every doctrine",
+        "tags": [
+          "doctrines"
+        ]
+      }
+    },
+    "/v1/doctrines/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Sustenance_Fast",
+                "Sustenance_Feast"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "alternative": "Sustenance_Feast",
+                  "category": "Food",
+                  "choice": "second",
+                  "description": {},
+                  "descriptionPlain": {},
+                  "icon": null,
+                  "id": "Sustenance_Fast",
+                  "kind": "Ritual",
+                  "level": 2,
+                  "name": {
+                    "en": "Fast",
+                    "ru": "Пост"
+                  },
+                  "namePlain": {
+                    "en": "Fast",
+                    "ru": "Пост"
+                  },
+                  "ritual": "Ritual_Fast",
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Doctrine"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One doctrine",
+        "tags": [
+          "doctrines"
+        ]
+      }
+    },
+    "/v1/icons/doctrines/{id}.png": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Sustenance_Feast"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "image/png": {}
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "A doctrine's icon",
+        "tags": [
+          "doctrines"
         ]
       }
     },
@@ -937,10 +1411,13 @@
                 "example": {
                   "capturedAt": "2026-10-29T12:00:00Z",
                   "counts": {
+                    "doctrines": 2,
                     "items": 5,
                     "rituals": 2,
+                    "sermons": 1,
                     "skins": 2,
-                    "structures": 2
+                    "structures": 2,
+                    "tarot": 2
                   },
                   "gameVersion": "1.4.6",
                   "languages": [
@@ -1269,6 +1746,102 @@
         ]
       }
     },
+    "/v1/sermons.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "glyph": "",
+                    "icon": null,
+                    "id": "Food",
+                    "name": {
+                      "en": "Sustenance",
+                      "ru": "Пища"
+                    },
+                    "namePlain": {
+                      "en": "Sustenance",
+                      "ru": "Пища"
+                    },
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Sermon"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every sermon",
+        "tags": [
+          "sermons"
+        ]
+      }
+    },
+    "/v1/sermons/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Food"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "description": {},
+                  "descriptionPlain": {},
+                  "glyph": "",
+                  "icon": null,
+                  "id": "Food",
+                  "name": {
+                    "en": "Sustenance",
+                    "ru": "Пища"
+                  },
+                  "namePlain": {
+                    "en": "Sustenance",
+                    "ru": "Пища"
+                  },
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Sermon"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One sermon",
+        "tags": [
+          "sermons"
+        ]
+      }
+    },
     "/v1/skins.json": {
       "get": {
         "responses": {
@@ -1547,6 +2120,209 @@
         ]
       }
     },
+    "/v1/tarot.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "coop": false,
+                    "description": {
+                      "en": "<color=green>heal</color> but lose gold",
+                      "ru": "лечение, но потеря золота"
+                    },
+                    "descriptionPlain": {
+                      "en": "heal but lose gold",
+                      "ru": "лечение, но потеря золота"
+                    },
+                    "dlc": false,
+                    "groups": [
+                      "corrupted"
+                    ],
+                    "icon": null,
+                    "id": "CorruptedHeal",
+                    "levels": [],
+                    "lore": {},
+                    "maxLevel": 0,
+                    "name": {
+                      "en": "Corrupted Heal",
+                      "ru": "Порченое лечение"
+                    },
+                    "namePlain": {
+                      "en": "Corrupted Heal",
+                      "ru": "Порченое лечение"
+                    },
+                    "thumb": null,
+                    "weight": 100
+                  },
+                  {
+                    "coop": false,
+                    "description": {
+                      "en": "Gain a red heart.",
+                      "ru": "Красное сердце."
+                    },
+                    "descriptionPlain": {
+                      "en": "Gain a red heart.",
+                      "ru": "Красное сердце."
+                    },
+                    "dlc": false,
+                    "groups": [
+                      "default"
+                    ],
+                    "icon": null,
+                    "id": "Hearts1",
+                    "levels": [
+                      {
+                        "description": {
+                          "en": "Gain two red hearts.",
+                          "ru": "Два сердца."
+                        },
+                        "descriptionPlain": {
+                          "en": "Gain two red hearts.",
+                          "ru": "Два сердца."
+                        }
+                      }
+                    ],
+                    "lore": {
+                      "en": "Life.",
+                      "ru": "Жизнь."
+                    },
+                    "maxLevel": 1,
+                    "name": {
+                      "en": "The Hearts",
+                      "ru": "Сердца"
+                    },
+                    "namePlain": {
+                      "en": "The Hearts",
+                      "ru": "Сердца"
+                    },
+                    "thumb": null,
+                    "weight": 100
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Tarot"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every tarot",
+        "tags": [
+          "tarot"
+        ]
+      }
+    },
+    "/v1/tarot/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "CorruptedHeal",
+                "Hearts1"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "coop": false,
+                  "description": {
+                    "en": "<color=green>heal</color> but lose gold",
+                    "ru": "лечение, но потеря золота"
+                  },
+                  "descriptionPlain": {
+                    "en": "heal but lose gold",
+                    "ru": "лечение, но потеря золота"
+                  },
+                  "dlc": false,
+                  "groups": [
+                    "corrupted"
+                  ],
+                  "icon": null,
+                  "id": "CorruptedHeal",
+                  "levels": [],
+                  "lore": {},
+                  "maxLevel": 0,
+                  "name": {
+                    "en": "Corrupted Heal",
+                    "ru": "Порченое лечение"
+                  },
+                  "namePlain": {
+                    "en": "Corrupted Heal",
+                    "ru": "Порченое лечение"
+                  },
+                  "thumb": null,
+                  "weight": 100
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Tarot"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One tarot",
+        "tags": [
+          "tarot"
+        ]
+      }
+    },
+    "/v1/{lang}/doctrines.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every doctrine: id, name in one language, thumbnail",
+        "tags": [
+          "doctrines"
+        ]
+      }
+    },
     "/v1/{lang}/items.json": {
       "get": {
         "parameters": [
@@ -1612,6 +2388,40 @@
         "summary": "Every ritual: id, name in one language, thumbnail",
         "tags": [
           "rituals"
+        ]
+      }
+    },
+    "/v1/{lang}/sermons.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every sermon: id, name in one language, thumbnail",
+        "tags": [
+          "sermons"
         ]
       }
     },
@@ -1682,6 +2492,40 @@
           "structures"
         ]
       }
+    },
+    "/v1/{lang}/tarot.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every tarot: id, name in one language, thumbnail",
+        "tags": [
+          "tarot"
+        ]
+      }
     }
   },
   "servers": [
@@ -1709,6 +2553,18 @@
     {
       "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them",
       "name": "rituals"
+    },
+    {
+      "description": "Doctrines: sermon category, level, the two choices, the ritual they unlock",
+      "name": "doctrines"
+    },
+    {
+      "description": "Sermon categories that doctrines belong to",
+      "name": "sermons"
+    },
+    {
+      "description": "Tarot cards: text per upgrade level, lore, card groups",
+      "name": "tarot"
     }
   ]
 }

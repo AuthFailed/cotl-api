@@ -1,0 +1,30 @@
+{
+  "coop": false,
+  "description": {
+    "en": "<color=green>heal</color> but lose gold",
+    "ru": "лечение, но потеря золота"
+  },
+  "descriptionPlain": {
+    "en": "heal but lose gold",
+    "ru": "лечение, но потеря золота"
+  },
+  "dlc": false,
+  "groups": [
+    "corrupted"
+  ],
+  "icon": null,
+  "id": "CorruptedHeal",
+  "levels": [],
+  "lore": {},
+  "maxLevel": 0,
+  "name": {
+    "en": "Corrupted Heal",
+    "ru": "Порченое лечение"
+  },
+  "namePlain": {
+    "en": "Corrupted Heal",
+    "ru": "Порченое лечение"
+  },
+  "thumb": null,
+  "weight": 100
+}

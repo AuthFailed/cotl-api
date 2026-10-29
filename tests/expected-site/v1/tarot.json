@@ -1,0 +1,76 @@
+[
+  {
+    "coop": false,
+    "description": {
+      "en": "<color=green>heal</color> but lose gold",
+      "ru": "лечение, но потеря золота"
+    },
+    "descriptionPlain": {
+      "en": "heal but lose gold",
+      "ru": "лечение, но потеря золота"
+    },
+    "dlc": false,
+    "groups": [
+      "corrupted"
+    ],
+    "icon": null,
+    "id": "CorruptedHeal",
+    "levels": [],
+    "lore": {},
+    "maxLevel": 0,
+    "name": {
+      "en": "Corrupted Heal",
+      "ru": "Порченое лечение"
+    },
+    "namePlain": {
+      "en": "Corrupted Heal",
+      "ru": "Порченое лечение"
+    },
+    "thumb": null,
+    "weight": 100
+  },
+  {
+    "coop": false,
+    "description": {
+      "en": "Gain a red heart.",
+      "ru": "Красное сердце."
+    },
+    "descriptionPlain": {
+      "en": "Gain a red heart.",
+      "ru": "Красное сердце."
+    },
+    "dlc": false,
+    "groups": [
+      "default"
+    ],
+    "icon": null,
+    "id": "Hearts1",
+    "levels": [
+      {
+        "description": {
+          "en": "Gain two red hearts.",
+          "ru": "Два сердца."
+        },
+        "descriptionPlain": {
+          "en": "Gain two red hearts.",
+          "ru": "Два сердца."
+        }
+      }
+    ],
+    "lore": {
+      "en": "Life.",
+      "ru": "Жизнь."
+    },
+    "maxLevel": 1,
+    "name": {
+      "en": "The Hearts",
+      "ru": "Сердца"
+    },
+    "namePlain": {
+      "en": "The Hearts",
+      "ru": "Сердца"
+    },
+    "thumb": null,
+    "weight": 100
+  }
+]

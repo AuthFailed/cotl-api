@@ -8,6 +8,9 @@ check-jsonschema --schemafile "$S/item.schema.json" "$V1"/items/*.json
 check-jsonschema --schemafile "$S/structure.schema.json" "$V1"/structures/*.json
 check-jsonschema --schemafile "$S/skin.schema.json" "$V1"/skins/*.json
 check-jsonschema --schemafile "$S/ritual.schema.json" "$V1"/rituals/*.json
+check-jsonschema --schemafile "$S/doctrine.schema.json" "$V1"/doctrines/*.json
+check-jsonschema --schemafile "$S/sermon.schema.json" "$V1"/sermons/*.json
+check-jsonschema --schemafile "$S/tarot.schema.json" "$V1"/tarot/*.json
 check-jsonschema --schemafile "$S/changes.schema.json" "$V1/changes.json"
 for lang in $(python3 -I -c "import json,sys;print(*json.load(open(sys.argv[1]))['languages'])" "$V1/index.json"); do
   check-jsonschema --schemafile "$S/slim.schema.json" "$V1/$lang"/*.json

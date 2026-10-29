@@ -1,0 +1,21 @@
+{
+  "alternative": "Sustenance_Feast",
+  "category": "Food",
+  "choice": "second",
+  "description": {},
+  "descriptionPlain": {},
+  "icon": null,
+  "id": "Sustenance_Fast",
+  "kind": "Ritual",
+  "level": 2,
+  "name": {
+    "en": "Fast",
+    "ru": "Пост"
+  },
+  "namePlain": {
+    "en": "Fast",
+    "ru": "Пост"
+  },
+  "ritual": "Ritual_Fast",
+  "thumb": null
+}

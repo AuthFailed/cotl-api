@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Tarot",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "levels",
+    "lore",
+    "maxLevel",
+    "groups",
+    "dlc",
+    "coop",
+    "weight"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/tarot/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/tarot/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "levels": {
+      "type": "array",
+      "description": "text of each upgrade level above the first (the game shows them as Name+ and Name++)",
+      "items": {
+        "type": "object",
+        "required": [
+          "description",
+          "descriptionPlain"
+        ],
+        "properties": {
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "descriptionPlain": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "lore": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "maxLevel": {
+      "type": "integer",
+      "description": "highest upgrade level (0-2)"
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "default",
+          "coop",
+          "dlc",
+          "majorDlc",
+          "corrupted",
+          "mystic",
+          "rot",
+          "winter"
+        ]
+      },
+      "description": "the game's card lists it is in: default (starter deck), coop, dlc, majorDlc (Woolhaven), corrupted, mystic, rot, winter (drawn only in winter)"
+    },
+    "dlc": {
+      "type": "boolean"
+    },
+    "coop": {
+      "type": "boolean"
+    },
+    "weight": {
+      "type": "integer",
+      "description": "draw weight the game defines; current versions draw uniformly and don't use it"
+    }
+  }
+}

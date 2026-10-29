@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Sustenance_Fast",
+    "name": "Fast",
+    "thumb": null
+  },
+  {
+    "id": "Sustenance_Feast",
+    "name": "Feast",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Doctrine",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "category",
+    "level",
+    "choice",
+    "alternative",
+    "kind",
+    "ritual"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/doctrines/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/doctrines/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "category": {
+      "type": "string",
+      "description": "sermon category id (see sermons), or Special for the ones Death Cat and the mystic shop give"
+    },
+    "level": {
+      "type": "integer",
+      "description": "sermon level 1-4 within the category; for Special, the order the game lists them"
+    },
+    "choice": {
+      "enum": [
+        "first",
+        "second",
+        null
+      ],
+      "description": "which of the level's two choices it is (null for Special)"
+    },
+    "alternative": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "the other doctrine offered at the same level"
+    },
+    "kind": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Trait, FollowerAction or Ritual, as the game's doctrine tutorial classifies it (null where it doesn't)"
+    },
+    "ritual": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "the ritual it unlocks, if any"
+    }
+  }
+}
