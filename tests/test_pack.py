@@ -57,5 +57,61 @@ class PackTest(unittest.TestCase):
         self.assertEqual(self.item("LOG")["icon"], "icons/items/LOG.png")
 
 
+class RefuseTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(shutil.rmtree, self.tmp)
+        self.dump = self.tmp / "dump"
+        shutil.copytree(FIXTURE, self.dump)
+        self.site = self.tmp / "site"
+        self.site.mkdir()
+
+    def edit(self, name, change):
+        path = self.dump / f"{name}.json"
+        data = json.loads(path.read_text())
+        path.write_text(json.dumps(change(data) or data))
+
+    def previous(self, items):
+        (self.site / "v1").mkdir()
+        (self.site / "v1" / "index.json").write_text(json.dumps({"counts": {"items": items, "structures": 2, "skins": 2}}))
+
+    def assertRefused(self):
+        before = tree(self.site)
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 1)
+        self.assertEqual(tree(self.site), before)
+
+    def test_refuses_job_error(self):
+        self.edit("meta", lambda m: m["errors"].append({"job": "Skins", "message": "boom"}))
+        self.assertRefused()
+
+    def test_refuses_missing_english(self):
+        self.edit("i18n", lambda t: {k: v for k, v in t.items() if k != "Inventory/STONE"})
+        self.assertRefused()
+
+    def test_refuses_count_drop(self):
+        self.previous(10)
+        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(5)])  # 8
+        self.assertRefused()
+
+    def test_allows_small_count_drop(self):
+        self.previous(10)
+        self.edit("items", lambda items: items + [{"id": f"X{n}", "nameTerm": "Inventory/LOG"} for n in range(6)])  # 9
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
+
+    def test_refuses_duplicate_id(self):
+        self.edit("items", lambda items: items + [dict(items[0])])
+        self.assertRefused()
+
+    def test_refuses_unsafe_id(self):
+        for bad in ("a/b", "a b", ".."):
+            with self.subTest(bad=bad):
+                self.edit("skins", lambda skins: skins[:2] + [{"id": bad, "nameTerm": "FollowerSkins/Cat"}])
+                self.assertRefused()
+
+    def test_first_publish_has_no_count_check(self):
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
+        self.assertTrue((self.site / "v1" / "index.json").exists())
+
+
 if __name__ == "__main__":
     unittest.main()

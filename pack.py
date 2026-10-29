@@ -1,10 +1,12 @@
 """Turn a raw CotlDataDump folder into the public v1 API: python3 pack.py <dump dir> <site dir>"""
 import json
+import re
 import shutil
 import sys
 from pathlib import Path
 
 KINDS = ("items", "structures", "skins")
+SAFE_ID = re.compile(r"^[A-Za-z0-9_-]+$")
 
 
 def load_dump(dump_dir: Path) -> dict:
@@ -52,9 +54,36 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     return index
 
 
+def problems(dump: dict, previous_index) -> list:
+    found = [f"job {e['job']} failed: {e['message']}" for e in dump["meta"].get("errors", [])]
+    for kind in KINDS:
+        ids = [e["id"] for e in dump[kind]]
+        found += [f"{kind}: duplicate id {id}" for id in sorted({i for i in ids if ids.count(i) > 1})]
+        found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.match(id)]
+        found += [f"{kind}: {e['id']} has no English name" for e in dump[kind]
+                  if not texts(dump["i18n"], e.get("nameTerm")).get("en")]
+        before = (previous_index or {}).get("counts", {}).get(kind, 0)
+        if len(ids) < before * 0.9:
+            found.append(f"{kind}: {len(ids)} now, {before} before (more than 10% fewer)")
+    return found
+
+
+def read_json(path: Path):
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+
+
 def main(argv: list) -> int:
     dump_dir, site_dir = Path(argv[1]), Path(argv[2])
-    build_site(load_dump(dump_dir), dump_dir, site_dir)
+    dump = load_dump(dump_dir)
+    found = problems(dump, read_json(site_dir / "v1" / "index.json"))
+    if found:
+        print("Not packing:", *found, sep="\n  ")
+        return 1
+    before = {kind: {e["id"] for e in read_json(site_dir / "v1" / f"{kind}.json") or []} for kind in KINDS}
+    build_site(dump, dump_dir, site_dir)
+    for kind in KINDS:
+        now = {e["id"] for e in dump[kind]}
+        print(f"{kind}: {len(now)}, added {sorted(now - before[kind]) or 'none'}, removed {sorted(before[kind] - now) or 'none'}")
     return 0
 
 
