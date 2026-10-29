@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Scorpion.png",
   "id": "Boss_Scorpion",
   "name": {
     "en": "Boss Scorpion"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Scorpion"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Scorpion.png",
   "unlock": "Dungeon4"
 }

@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 6
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 7
+    }
+  ],
+  "description": {
+    "ar": "ثوب متواضع بلون أرجواني جميل.",
+    "de": "Ein bescheidenes Kleid in reizendem Violett.",
+    "en": "Modest dress in a lovely purple.",
+    "es": "Un atuendo modesto de un precioso color púrpura.",
+    "fr": "Une charmante tenue violette.",
+    "fr-CA": "Une tenue simple d'une jolie teinte mauve.",
+    "it": "Una semplice veste di un bel colore viola.",
+    "ja": "かわいらしい紫色の、質素な服",
+    "ko": "수수하지만 사랑스러운 보라색 옷입니다.",
+    "nl": "Bescheiden jurk in prachtig paars.",
+    "pt-BR": "Um vestido modesto com uma cor roxa adorável.",
+    "ru": "Незатейливое платье приятного фиолетового цвета.",
+    "tr": "Hoş bir mor renkte, sade bir giysi.",
+    "zh-CN": "讨喜紫色的端庄服装。",
+    "zh-TW": "討喜紫色的端莊服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب متواضع بلون أرجواني جميل.",
+    "de": "Ein bescheidenes Kleid in reizendem Violett.",
+    "en": "Modest dress in a lovely purple.",
+    "es": "Un atuendo modesto de un precioso color púrpura.",
+    "fr": "Une charmante tenue violette.",
+    "fr-CA": "Une tenue simple d'une jolie teinte mauve.",
+    "it": "Una semplice veste di un bel colore viola.",
+    "ja": "かわいらしい紫色の、質素な服",
+    "ko": "수수하지만 사랑스러운 보라색 옷입니다.",
+    "nl": "Bescheiden jurk in prachtig paars.",
+    "pt-BR": "Um vestido modesto com uma cor roxa adorável.",
+    "ru": "Незатейливое платье приятного фиолетового цвета.",
+    "tr": "Hoş bir mor renkte, sade bir giysi.",
+    "zh-CN": "讨喜紫色的端庄服装。",
+    "zh-TW": "討喜紫色的端莊服裝。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_5.png",
+  "id": "Normal_5",
+  "name": {
+    "ar": "ثوب طويل متواضع",
+    "de": "Bescheidene Roben",
+    "en": "Modest Robes",
+    "es": "Túnica modesta",
+    "fr": "Tenue modeste",
+    "fr-CA": "Tenue modeste",
+    "it": "Veste semplice",
+    "ja": "質素なローブ",
+    "ko": "수수한 예복",
+    "nl": "Bescheiden gewaad",
+    "pt-BR": "Trajes Modestos",
+    "ru": "Скромное одеяние",
+    "tr": "Sade Cübbe",
+    "zh-CN": "端庄教服",
+    "zh-TW": "端莊教服"
+  },
+  "namePlain": {
+    "ar": "ثوب طويل متواضع",
+    "de": "Bescheidene Roben",
+    "en": "Modest Robes",
+    "es": "Túnica modesta",
+    "fr": "Tenue modeste",
+    "fr-CA": "Tenue modeste",
+    "it": "Veste semplice",
+    "ja": "質素なローブ",
+    "ko": "수수한 예복",
+    "nl": "Bescheiden gewaad",
+    "pt-BR": "Trajes Modestos",
+    "ru": "Скромное одеяние",
+    "tr": "Sade Cübbe",
+    "zh-CN": "端庄教服",
+    "zh-TW": "端莊教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_5.png"
+}

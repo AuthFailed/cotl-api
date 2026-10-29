@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/BugFour.png",
   "id": "BugFour",
   "name": {
     "en": "BugFour"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "BugFour"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/BugFour.png",
   "unlock": "Dungeon6"
 }

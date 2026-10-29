@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Narwal.png",
   "id": "Narwal",
   "name": {
     "en": "Narwal"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Narwal"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Narwal.png",
   "unlock": "DLC"
 }

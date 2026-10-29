@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Afterlife",
+    "name": "Au-delà",
+    "thumb": null
+  },
+  {
+    "id": "Food",
+    "name": "Pitance",
+    "thumb": null
+  },
+  {
+    "id": "LawAndOrder",
+    "name": "Maintien de l'ordre",
+    "thumb": null
+  },
+  {
+    "id": "Pleasure",
+    "name": "Péché",
+    "thumb": null
+  },
+  {
+    "id": "Possession",
+    "name": "Richesses",
+    "thumb": null
+  },
+  {
+    "id": "Winter",
+    "name": "Hiver",
+    "thumb": null
+  },
+  {
+    "id": "WorkAndWorship",
+    "name": "Travail et prière",
+    "thumb": null
+  }
+]

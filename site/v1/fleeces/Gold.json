@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يزيد الضرر المُلحق بعد كل عملية قتل، لكن يُعاد التعيين عند تلقي ضربة. يُضاعف الضرر الوارد.",
+    "de": "Der verursachte Schaden erhöht sich mit jedem Kill, wird aber zurückgesetzt, wenn du getroffen wirst. Du erleidest doppelten Schaden.",
+    "en": "Damage dealt increases after each kill, but resets when hit. Take double damage.",
+    "es": "El daño que infliges va aumentando con cada muerte, pero se restablece cuando encajas un golpe y recibes el doble de daño.",
+    "fr": "Vous infligez plus de dégâts pour chaque ennemi tué. Effet réinitialisé lorsqu'un ennemi vous attaque. Vous subissez 2x plus de dégâts.",
+    "fr-CA": "Vous infligez plus de dégâts pour chaque ennemi tué. Effet réinitialisé lorsqu'un ennemi vous attaque. Vous subissez 2x plus de dégâts.",
+    "it": "I danni inflitti aumentano dopo ogni uccisione, ma si azzerano quando subisci un colpo. Ricevi il doppio dei danni.",
+    "ja": "敵を倒すたびに与えるダメージが上昇するが、攻撃を受けるとそれをリセットする。受けるダメージが2倍になる。",
+    "ko": "적을 죽일 때마다 가하는 피해량이 증가하지만, 피격당할 시 초기화됩니다. 두 배의 피해를 입습니다.",
+    "nl": "Na elke gedode vijand breng je meer schade toe. Dit effect wordt gereset nadat je zelf wordt geraakt. Je krijgt twee keer zoveel schade.",
+    "pt-BR": "O dano causado aumenta após cada abate, mas é zerado ao sofrer dano. Recebe o dobro de dano.",
+    "ru": "Наносимый урон увеличивается после каждого убийства, но возвращается к исходному значению при получении урона. Получаемый урон удваивается.",
+    "tr": "Verilen hasar öldürdüğün düşman başına artar ancak bir saldırıdan isabet aldığında sıfırlanır. İki kat fazla hasar alırsın.",
+    "zh-CN": "每次击杀敌人后增加对敌方造成的伤害值，受到攻击时重置。受到的伤害加倍。",
+    "zh-TW": "每次擊殺敵人後增加對敵方造成的傷害值，受到攻擊時重置。受到的傷害加倍。"
+  },
+  "descriptionPlain": {
+    "ar": "يزيد الضرر المُلحق بعد كل عملية قتل، لكن يُعاد التعيين عند تلقي ضربة. يُضاعف الضرر الوارد.",
+    "de": "Der verursachte Schaden erhöht sich mit jedem Kill, wird aber zurückgesetzt, wenn du getroffen wirst. Du erleidest doppelten Schaden.",
+    "en": "Damage dealt increases after each kill, but resets when hit. Take double damage.",
+    "es": "El daño que infliges va aumentando con cada muerte, pero se restablece cuando encajas un golpe y recibes el doble de daño.",
+    "fr": "Vous infligez plus de dégâts pour chaque ennemi tué. Effet réinitialisé lorsqu'un ennemi vous attaque. Vous subissez 2x plus de dégâts.",
+    "fr-CA": "Vous infligez plus de dégâts pour chaque ennemi tué. Effet réinitialisé lorsqu'un ennemi vous attaque. Vous subissez 2x plus de dégâts.",
+    "it": "I danni inflitti aumentano dopo ogni uccisione, ma si azzerano quando subisci un colpo. Ricevi il doppio dei danni.",
+    "ja": "敵を倒すたびに与えるダメージが上昇するが、攻撃を受けるとそれをリセットする。受けるダメージが2倍になる。",
+    "ko": "적을 죽일 때마다 가하는 피해량이 증가하지만, 피격당할 시 초기화됩니다. 두 배의 피해를 입습니다.",
+    "nl": "Na elke gedode vijand breng je meer schade toe. Dit effect wordt gereset nadat je zelf wordt geraakt. Je krijgt twee keer zoveel schade.",
+    "pt-BR": "O dano causado aumenta após cada abate, mas é zerado ao sofrer dano. Recebe o dobro de dano.",
+    "ru": "Наносимый урон увеличивается после каждого убийства, но возвращается к исходному значению при получении урона. Получаемый урон удваивается.",
+    "tr": "Verilen hasar öldürdüğün düşman başına artar ancak bir saldırıdan isabet aldığında sıfırlanır. İki kat fazla hasar alırsın.",
+    "zh-CN": "每次击杀敌人后增加对敌方造成的伤害值，受到攻击时重置。受到的伤害加倍。",
+    "zh-TW": "每次擊殺敵人後增加對敵方造成的傷害值，受到攻擊時重置。受到的傷害加倍。"
+  },
+  "fleece": 1,
+  "icon": "icons/fleeces/Gold.png",
+  "id": "Gold",
+  "name": {
+    "ar": "الرداء الذهبي",
+    "de": "Goldenes Vlies",
+    "en": "Golden Fleece",
+    "es": "Vellocino de oro",
+    "fr": "Pelisse dorée",
+    "fr-CA": "Toison dorée",
+    "it": "Vello aureo",
+    "ja": "黄金の羊毛",
+    "ko": "황금 양털",
+    "nl": "Gulden vlies",
+    "pt-BR": "Lã Dourada",
+    "ru": "Золотое руно",
+    "tr": "Altın Post",
+    "zh-CN": "金毛纺",
+    "zh-TW": "金毛紡"
+  },
+  "namePlain": {
+    "ar": "الرداء الذهبي",
+    "de": "Goldenes Vlies",
+    "en": "Golden Fleece",
+    "es": "Vellocino de oro",
+    "fr": "Pelisse dorée",
+    "fr-CA": "Toison dorée",
+    "it": "Vello aureo",
+    "ja": "黄金の羊毛",
+    "ko": "황금 양털",
+    "nl": "Gulden vlies",
+    "pt-BR": "Lã Dourada",
+    "ru": "Золотое руно",
+    "tr": "Altın Post",
+    "zh-CN": "金毛纺",
+    "zh-TW": "金毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Gold.png"
+}

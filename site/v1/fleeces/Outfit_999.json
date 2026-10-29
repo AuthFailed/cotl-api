@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "زيّ رهيب يرتديه فقط أكثر المنشقين خطورة. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Ein schändliches Gewand, das nur von den unheiligsten Ketzern getragen wird. Gewährt keine Boni.",
+    "en": "An ignoble garb, worn by only the most unholy of heretics. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Un ropaje innoble reservado para los herejes más impíos. No otorga nada especial.",
+    "fr": "Un habit ignoble, porté par les hérétiques les plus impies. Ne donne aucun bonus.",
+    "fr-CA": "Un habit ignoble, porté par les hérétiques les plus impies. <color=\"grey\"> <br> Ne donne aucun bonus.",
+    "it": "Un indumento ignobile, indossato solo dai più empi tra gli eretici.<color=\"grey\"><br>Non fornisce bonus.",
+    "ja": "この上なく不浄な異端者のみが身に着ける卑しい外装。追加効果なし。",
+    "ko": "추레한 옷으로, 이단자 중 가장 불경한 자가 입습니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Een verachtelijk gewaad, alleen gedragen door de meest goddeloze ketters. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Uma vestimenta ignóbil, usada somente pelo herege mais profano de todos. Não concede nenhum bônus.",
+    "ru": "Позорное одеяние самых мерзких еретиков. Не даёт преимуществ.",
+    "tr": "Yalnızca en günahkâr sapkınların giydiği, habis bir post. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "低劣的服装，只有最不洁净的异教徒才会穿。没有特殊效果。",
+    "zh-TW": "低劣的服裝，只有最不潔淨的異教徒才會穿。沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ رهيب يرتديه فقط أكثر المنشقين خطورة.\nلا يمنح مزايا.",
+    "de": "Ein schändliches Gewand, das nur von den unheiligsten Ketzern getragen wird. Gewährt keine Boni.",
+    "en": "An ignoble garb, worn by only the most unholy of heretics.\nProvides no bonuses.",
+    "es": "Un ropaje innoble reservado para los herejes más impíos. No otorga nada especial.",
+    "fr": "Un habit ignoble, porté par les hérétiques les plus impies. Ne donne aucun bonus.",
+    "fr-CA": "Un habit ignoble, porté par les hérétiques les plus impies.\nNe donne aucun bonus.",
+    "it": "Un indumento ignobile, indossato solo dai più empi tra gli eretici.\nNon fornisce bonus.",
+    "ja": "この上なく不浄な異端者のみが身に着ける卑しい外装。追加効果なし。",
+    "ko": "추레한 옷으로, 이단자 중 가장 불경한 자가 입습니다.\n특별한 효과는 없습니다.",
+    "nl": "Een verachtelijk gewaad, alleen gedragen door de meest goddeloze ketters.\nGeeft geen bonussen.",
+    "pt-BR": "Uma vestimenta ignóbil, usada somente pelo herege mais profano de todos. Não concede nenhum bônus.",
+    "ru": "Позорное одеяние самых мерзких еретиков. Не даёт преимуществ.",
+    "tr": "Yalnızca en günahkâr sapkınların giydiği, habis bir post.\nİlave özellik sağlamaz.",
+    "zh-CN": "低劣的服装，只有最不洁净的异教徒才会穿。没有特殊效果。",
+    "zh-TW": "低劣的服裝，只有最不潔淨的異教徒才會穿。沒有特殊效果。"
+  },
+  "fleece": 999,
+  "icon": "icons/fleeces/Outfit_999.png",
+  "id": "Outfit_999",
+  "name": {
+    "ar": "رداء المنشقين",
+    "de": "Vlies der Ketzer",
+    "en": "Fleece of the Heretics",
+    "es": "Vellocino del hereje",
+    "fr": "Pelisse des hérétiques",
+    "fr-CA": "Toison des hérétiques",
+    "it": "Vello degli eretici",
+    "ja": "異端者の羊毛",
+    "ko": "이단자의 양털",
+    "nl": "Vacht van de ketters",
+    "pt-BR": "Lã dos Hereges",
+    "ru": "Руно еретика",
+    "tr": "Sapkın Postu",
+    "zh-CN": "异教徒毛纺",
+    "zh-TW": "異教徒毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المنشقين",
+    "de": "Vlies der Ketzer",
+    "en": "Fleece of the Heretics",
+    "es": "Vellocino del hereje",
+    "fr": "Pelisse des hérétiques",
+    "fr-CA": "Toison des hérétiques",
+    "it": "Vello degli eretici",
+    "ja": "異端者の羊毛",
+    "ko": "이단자의 양털",
+    "nl": "Vacht van de ketters",
+    "pt-BR": "Lã dos Hereges",
+    "ru": "Руно еретика",
+    "tr": "Sapkın Postu",
+    "zh-CN": "异教徒毛纺",
+    "zh-TW": "異教徒毛紡"
+  },
+  "pack": "heretic",
+  "thumb": "icons/fleeces/64/Outfit_999.png"
+}

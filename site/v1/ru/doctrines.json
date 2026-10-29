@@ -1,0 +1,327 @@
+[
+  {
+    "id": "DeathSacrifice_BuildingGoodGraves",
+    "name": "Скорбь об умерших",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingGoodGraves.png"
+  },
+  {
+    "id": "DeathSacrifice_BuildingReturnToEarth",
+    "name": "Возвращение в землю",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingReturnToEarth.png"
+  },
+  {
+    "id": "DeathSacrifice_Funeral",
+    "name": "Панихида",
+    "thumb": "icons/doctrines/64/DeathSacrifice_Funeral.png"
+  },
+  {
+    "id": "DeathSacrifice_RessurectionRitual",
+    "name": "Оживление",
+    "thumb": "icons/doctrines/64/DeathSacrifice_RessurectionRitual.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitDesensitisedToDeath",
+    "name": "<sprite name=\"icon_Trait_DesensitisedToDeath\">Вера в загробную жизнь",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitDesensitisedToDeath.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitOldDieYoung",
+    "name": "<sprite name=\"icon_Trait_OldDieYoung\">Ненависть к старикам",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitOldDieYoung.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitRespectElders",
+    "name": "<sprite name=\"icon_Trait_RespectElders\">Уважение к старикам",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitRespectElders.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitSacrificeEnthusiast",
+    "name": "<sprite name=\"icon_Trait_SacrificeEnthusiast\">Вера в жертвы",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitSacrificeEnthusiast.png"
+  },
+  {
+    "id": "LawOrder_AscendFollower",
+    "name": "Вознесение",
+    "thumb": "icons/doctrines/64/LawOrder_AscendFollower.png"
+  },
+  {
+    "id": "LawOrder_AssignFaithEnforcerRitual",
+    "name": "Исправление нравов",
+    "thumb": "icons/doctrines/64/LawOrder_AssignFaithEnforcerRitual.png"
+  },
+  {
+    "id": "LawOrder_AssignTaxCollectorRitual",
+    "name": "Сбор налогов",
+    "thumb": "icons/doctrines/64/LawOrder_AssignTaxCollectorRitual.png"
+  },
+  {
+    "id": "LawOrder_FightPitRitual",
+    "name": "Ритуальный поединок",
+    "thumb": "icons/doctrines/64/LawOrder_FightPitRitual.png"
+  },
+  {
+    "id": "LawOrder_JudgementRitual",
+    "name": "Бракосочетание",
+    "thumb": "icons/doctrines/64/LawOrder_JudgementRitual.png"
+  },
+  {
+    "id": "LawOrder_MurderFollower",
+    "name": "Убийство",
+    "thumb": "icons/doctrines/64/LawOrder_MurderFollower.png"
+  },
+  {
+    "id": "LawOrder_TraitDisciplinarian",
+    "name": "Вера в первородный грех",
+    "thumb": "icons/doctrines/64/LawOrder_TraitDisciplinarian.png"
+  },
+  {
+    "id": "LawOrder_TraitLibertarian",
+    "name": "Вера в прощение",
+    "thumb": "icons/doctrines/64/LawOrder_TraitLibertarian.png"
+  },
+  {
+    "id": "Pleasure_Allegiance",
+    "name": "Слепое поклонение",
+    "thumb": "icons/doctrines/64/Pleasure_Allegiance.png"
+  },
+  {
+    "id": "Pleasure_AtoneSin",
+    "name": "Гордыня грешников",
+    "thumb": "icons/doctrines/64/Pleasure_AtoneSin.png"
+  },
+  {
+    "id": "Pleasure_Cannibal",
+    "name": "Чревоугодие каннибалов",
+    "thumb": "icons/doctrines/64/Pleasure_Cannibal.png"
+  },
+  {
+    "id": "Pleasure_Doctrinal_Extremist",
+    "name": "Фанатичное покаяние",
+    "thumb": "icons/doctrines/64/Pleasure_Doctrinal_Extremist.png"
+  },
+  {
+    "id": "Pleasure_Fertility",
+    "name": "Рождение во грехе",
+    "thumb": "icons/doctrines/64/Pleasure_Fertility.png"
+  },
+  {
+    "id": "Pleasure_Nudist",
+    "name": "Похоть плоти",
+    "thumb": "icons/doctrines/64/Pleasure_Nudist.png"
+  },
+  {
+    "id": "Pleasure_Purge",
+    "name": "Гнев толпы",
+    "thumb": "icons/doctrines/64/Pleasure_Purge.png"
+  },
+  {
+    "id": "Pleasure_Violent_Extremist",
+    "name": "Фанатичное истребление",
+    "thumb": "icons/doctrines/64/Pleasure_Violent_Extremist.png"
+  },
+  {
+    "id": "Possessions_AlmsToPoorRitual",
+    "name": "Раздача милостыни",
+    "thumb": "icons/doctrines/64/Possessions_AlmsToPoorRitual.png"
+  },
+  {
+    "id": "Possessions_Bribe",
+    "name": "Подкуп",
+    "thumb": "icons/doctrines/64/Possessions_Bribe.png"
+  },
+  {
+    "id": "Possessions_DonationRitual",
+    "name": "Обогащение",
+    "thumb": "icons/doctrines/64/Possessions_DonationRitual.png"
+  },
+  {
+    "id": "Possessions_ExtortTithes",
+    "name": "Сбор податей",
+    "thumb": "icons/doctrines/64/Possessions_ExtortTithes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromHomes",
+    "name": "Восхищение архитектурой",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromHomes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromRituals",
+    "name": "Набожность",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromRituals.png"
+  },
+  {
+    "id": "Possessions_TraitFalseIdols",
+    "name": "Ложные идолы",
+    "thumb": "icons/doctrines/64/Possessions_TraitFalseIdols.png"
+  },
+  {
+    "id": "Possessions_TraitMaterialistic",
+    "name": "Материализм",
+    "thumb": "icons/doctrines/64/Possessions_TraitMaterialistic.png"
+  },
+  {
+    "id": "Special_Bonfire",
+    "name": "Огненная яма",
+    "thumb": "icons/doctrines/64/Special_Bonfire.png"
+  },
+  {
+    "id": "Special_Brainwashed",
+    "name": "Промывание мозгов",
+    "thumb": "icons/doctrines/64/Special_Brainwashed.png"
+  },
+  {
+    "id": "Special_EmbraceRot",
+    "name": "Единство с гнилью",
+    "thumb": "icons/doctrines/64/Special_EmbraceRot.png"
+  },
+  {
+    "id": "Special_HealingTouch",
+    "name": "Отогревание",
+    "thumb": "icons/doctrines/64/Special_HealingTouch.png"
+  },
+  {
+    "id": "Special_ReadMind",
+    "name": "Чтение мыслей",
+    "thumb": "icons/doctrines/64/Special_ReadMind.png"
+  },
+  {
+    "id": "Special_RejectRot",
+    "name": "Борьба с гнилью",
+    "thumb": "icons/doctrines/64/Special_RejectRot.png"
+  },
+  {
+    "id": "Special_Sacrifice",
+    "name": "Кровавый дар",
+    "thumb": "icons/doctrines/64/Special_Sacrifice.png"
+  },
+  {
+    "id": "Sustenance_Fast",
+    "name": "Пост",
+    "thumb": "icons/doctrines/64/Sustenance_Fast.png"
+  },
+  {
+    "id": "Sustenance_Feast",
+    "name": "Пир",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  },
+  {
+    "id": "Sustenance_TraitCannibal",
+    "name": "Каннибализм",
+    "thumb": "icons/doctrines/64/Sustenance_TraitCannibal.png"
+  },
+  {
+    "id": "Sustenance_TraitFishingRitual",
+    "name": "Благословение океана",
+    "thumb": "icons/doctrines/64/Sustenance_TraitFishingRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitGrassEater",
+    "name": "Вегетарианство",
+    "thumb": "icons/doctrines/64/Sustenance_TraitGrassEater.png"
+  },
+  {
+    "id": "Sustenance_TraitHarvestRitual",
+    "name": "Мольба об урожае",
+    "thumb": "icons/doctrines/64/Sustenance_TraitHarvestRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomBanned",
+    "name": "Трезвость разума",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomBanned.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomEncouraged",
+    "name": "Влечение к веществам",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomEncouraged.png"
+  },
+  {
+    "id": "Winter_ColdEnthusiast_Trait",
+    "name": "Закалённость",
+    "thumb": "icons/doctrines/64/Winter_ColdEnthusiast_Trait.png"
+  },
+  {
+    "id": "Winter_ConvertToRot",
+    "name": "Гниение",
+    "thumb": "icons/doctrines/64/Winter_ConvertToRot.png"
+  },
+  {
+    "id": "Winter_Follower_Wedding_Ritual",
+    "name": "Бракосочетание последователей",
+    "thumb": "icons/doctrines/64/Winter_Follower_Wedding_Ritual.png"
+  },
+  {
+    "id": "Winter_FurnaceAnimal",
+    "name": "Кремация животных",
+    "thumb": "icons/doctrines/64/Winter_FurnaceAnimal.png"
+  },
+  {
+    "id": "Winter_FurnaceFollower",
+    "name": "Кремация последователей",
+    "thumb": "icons/doctrines/64/Winter_FurnaceFollower.png"
+  },
+  {
+    "id": "Winter_RanchHarvest",
+    "name": "Ритуал стрижки",
+    "thumb": "icons/doctrines/64/Winter_RanchHarvest.png"
+  },
+  {
+    "id": "Winter_RanchMeat",
+    "name": "Ритуал насыщения",
+    "thumb": "icons/doctrines/64/Winter_RanchMeat.png"
+  },
+  {
+    "id": "Winter_RemoveRot",
+    "name": "Излечение гнили",
+    "thumb": "icons/doctrines/64/Winter_RemoveRot.png"
+  },
+  {
+    "id": "Winter_Snowman_Ritual",
+    "name": "Оживление льда",
+    "thumb": "icons/doctrines/64/Winter_Snowman_Ritual.png"
+  },
+  {
+    "id": "Winter_WorkThroughBlizzard_Trait",
+    "name": "Ненависть к снегу",
+    "thumb": "icons/doctrines/64/Winter_WorkThroughBlizzard_Trait.png"
+  },
+  {
+    "id": "WorkWorship_Enlightenment",
+    "name": "Просветление",
+    "thumb": "icons/doctrines/64/WorkWorship_Enlightenment.png"
+  },
+  {
+    "id": "WorkWorship_FaithfulTrait",
+    "name": "Твёрдая вера",
+    "thumb": "icons/doctrines/64/WorkWorship_FaithfulTrait.png"
+  },
+  {
+    "id": "WorkWorship_FasterBuilding",
+    "name": "Радость созидания",
+    "thumb": "icons/doctrines/64/WorkWorship_FasterBuilding.png"
+  },
+  {
+    "id": "WorkWorship_GoodWorkerTrait",
+    "name": "Трудолюбие",
+    "thumb": "icons/doctrines/64/WorkWorship_GoodWorkerTrait.png"
+  },
+  {
+    "id": "WorkWorship_HolidayRitual",
+    "name": "Праздничный день",
+    "thumb": "icons/doctrines/64/WorkWorship_HolidayRitual.png"
+  },
+  {
+    "id": "WorkWorship_Inspire",
+    "name": "Воодушевление",
+    "thumb": "icons/doctrines/64/WorkWorship_Inspire.png"
+  },
+  {
+    "id": "WorkWorship_Intimidate",
+    "name": "Запугивание",
+    "thumb": "icons/doctrines/64/WorkWorship_Intimidate.png"
+  },
+  {
+    "id": "WorkWorship_WorkThroughNightRitual",
+    "name": "Радость служения",
+    "thumb": "icons/doctrines/64/WorkWorship_WorkThroughNightRitual.png"
+  }
+]

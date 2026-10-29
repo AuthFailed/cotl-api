@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Barrier",
+    "name": "Sanctuary Raised",
+    "thumb": "icons/curses/64/Barrier.png"
+  },
+  {
+    "id": "Barrier_Absorb",
+    "name": "Hungering Gate",
+    "thumb": "icons/curses/64/Barrier_Absorb.png"
+  },
+  {
+    "id": "Barrier_Deflection",
+    "name": "Divine Barricade",
+    "thumb": "icons/curses/64/Barrier_Deflection.png"
+  },
+  {
+    "id": "Barrier_Wide",
+    "name": "Sanctuary Grown",
+    "thumb": "icons/curses/64/Barrier_Wide.png"
+  },
+  {
+    "id": "EnemyBlast",
+    "name": "İlahi İnfilak",
+    "thumb": "icons/curses/64/EnemyBlast.png"
+  },
+  {
+    "id": "EnemyBlast_DeflectsProjectiles",
+    "name": "İlahi Muhafız",
+    "thumb": "icons/curses/64/EnemyBlast_DeflectsProjectiles.png"
+  },
+  {
+    "id": "EnemyBlast_Flame",
+    "name": "İlahi Ateş",
+    "thumb": "icons/curses/64/EnemyBlast_Flame.png"
+  },
+  {
+    "id": "EnemyBlast_Ice",
+    "name": "İlahi Ayaz",
+    "thumb": "icons/curses/64/EnemyBlast_Ice.png"
+  },
+  {
+    "id": "EnemyBlast_Poison",
+    "name": "İlahi Mahvoluş",
+    "thumb": "icons/curses/64/EnemyBlast_Poison.png"
+  },
+  {
+    "id": "Fireball",
+    "name": "Ateş Topu",
+    "thumb": "icons/curses/64/Fireball.png"
+  },
+  {
+    "id": "Fireball_Charm",
+    "name": "Tacın Darbesi",
+    "thumb": "icons/curses/64/Fireball_Charm.png"
+  },
+  {
+    "id": "Fireball_Swarm",
+    "name": "Kaderin Tazıları",
+    "thumb": "icons/curses/64/Fireball_Swarm.png"
+  },
+  {
+    "id": "Fireball_Triple",
+    "name": "Arındıran Ateş",
+    "thumb": "icons/curses/64/Fireball_Triple.png"
+  },
+  {
+    "id": "MegaSlash",
+    "name": "Keskin Ölüm",
+    "thumb": "icons/curses/64/MegaSlash.png"
+  },
+  {
+    "id": "MegaSlash_Charm",
+    "name": "Tacın Yemini",
+    "thumb": "icons/curses/64/MegaSlash_Charm.png"
+  },
+  {
+    "id": "MegaSlash_Flame",
+    "name": "Ölümün Alevi",
+    "thumb": "icons/curses/64/MegaSlash_Flame.png"
+  },
+  {
+    "id": "MegaSlash_Ice",
+    "name": "Ölümün Feryadı",
+    "thumb": "icons/curses/64/MegaSlash_Ice.png"
+  },
+  {
+    "id": "MegaSlash_Necromancy",
+    "name": "Ölüm Tayfları",
+    "thumb": "icons/curses/64/MegaSlash_Necromancy.png"
+  },
+  {
+    "id": "ProjectileAOE",
+    "name": "Kan Tohumu",
+    "thumb": "icons/curses/64/ProjectileAOE.png"
+  },
+  {
+    "id": "ProjectileAOE_Charm",
+    "name": "Tacın Çağrısı",
+    "thumb": "icons/curses/64/ProjectileAOE_Charm.png"
+  },
+  {
+    "id": "ProjectileAOE_ExplosiveImpact",
+    "name": "Sıçrayan Yozlaşma",
+    "thumb": "icons/curses/64/ProjectileAOE_ExplosiveImpact.png"
+  },
+  {
+    "id": "ProjectileAOE_GoopTrail",
+    "name": "Adalet Yolu",
+    "thumb": "icons/curses/64/ProjectileAOE_GoopTrail.png"
+  },
+  {
+    "id": "Teleport",
+    "name": "Tanrıların Yürüyüşü",
+    "thumb": "icons/curses/64/Teleport.png"
+  },
+  {
+    "id": "Teleport_Goop",
+    "name": "Yasak Kan",
+    "thumb": "icons/curses/64/Teleport_Goop.png"
+  },
+  {
+    "id": "Teleport_Invincible",
+    "name": "Kucaklama",
+    "thumb": "icons/curses/64/Teleport_Invincible.png"
+  },
+  {
+    "id": "Teleport_Projectile",
+    "name": "Shards of Solitude",
+    "thumb": "icons/curses/64/Teleport_Projectile.png"
+  },
+  {
+    "id": "Tentacles",
+    "name": "Turua'nın Dokunuşu",
+    "thumb": "icons/curses/64/Tentacles.png"
+  },
+  {
+    "id": "Tentacles_Circular",
+    "name": "Girdap",
+    "thumb": "icons/curses/64/Tentacles_Circular.png"
+  },
+  {
+    "id": "Tentacles_Flame",
+    "name": "Yig'in Dokunuşu",
+    "thumb": "icons/curses/64/Tentacles_Flame.png"
+  },
+  {
+    "id": "Tentacles_Ice",
+    "name": "Ithaqua'nın Dokunuşu",
+    "thumb": "icons/curses/64/Tentacles_Ice.png"
+  },
+  {
+    "id": "Tentacles_Necromancy",
+    "name": "Hortlağın Dokunuşu",
+    "thumb": "icons/curses/64/Tentacles_Necromancy.png"
+  }
+]

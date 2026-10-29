@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Barrier",
+    "name": "Sanctuary Raised",
+    "thumb": "icons/curses/64/Barrier.png"
+  },
+  {
+    "id": "Barrier_Absorb",
+    "name": "Hungering Gate",
+    "thumb": "icons/curses/64/Barrier_Absorb.png"
+  },
+  {
+    "id": "Barrier_Deflection",
+    "name": "Divine Barricade",
+    "thumb": "icons/curses/64/Barrier_Deflection.png"
+  },
+  {
+    "id": "Barrier_Wide",
+    "name": "Sanctuary Grown",
+    "thumb": "icons/curses/64/Barrier_Wide.png"
+  },
+  {
+    "id": "EnemyBlast",
+    "name": "神聖なる波動",
+    "thumb": "icons/curses/64/EnemyBlast.png"
+  },
+  {
+    "id": "EnemyBlast_DeflectsProjectiles",
+    "name": "神聖なる守護者",
+    "thumb": "icons/curses/64/EnemyBlast_DeflectsProjectiles.png"
+  },
+  {
+    "id": "EnemyBlast_Flame",
+    "name": "神聖なる火葬",
+    "thumb": "icons/curses/64/EnemyBlast_Flame.png"
+  },
+  {
+    "id": "EnemyBlast_Ice",
+    "name": "神聖なる猛吹雪",
+    "thumb": "icons/curses/64/EnemyBlast_Ice.png"
+  },
+  {
+    "id": "EnemyBlast_Poison",
+    "name": "神聖なる毒風",
+    "thumb": "icons/curses/64/EnemyBlast_Poison.png"
+  },
+  {
+    "id": "Fireball",
+    "name": "炎の魔弾",
+    "thumb": "icons/curses/64/Fireball.png"
+  },
+  {
+    "id": "Fireball_Charm",
+    "name": "王冠による一撃",
+    "thumb": "icons/curses/64/Fireball_Charm.png"
+  },
+  {
+    "id": "Fireball_Swarm",
+    "name": "運命の猟犬",
+    "thumb": "icons/curses/64/Fireball_Swarm.png"
+  },
+  {
+    "id": "Fireball_Triple",
+    "name": "浄化の炎",
+    "thumb": "icons/curses/64/Fireball_Triple.png"
+  },
+  {
+    "id": "MegaSlash",
+    "name": "死神の一閃",
+    "thumb": "icons/curses/64/MegaSlash.png"
+  },
+  {
+    "id": "MegaSlash_Charm",
+    "name": "王冠の誓約",
+    "thumb": "icons/curses/64/MegaSlash_Charm.png"
+  },
+  {
+    "id": "MegaSlash_Flame",
+    "name": "死神の爆炎",
+    "thumb": "icons/curses/64/MegaSlash_Flame.png"
+  },
+  {
+    "id": "MegaSlash_Ice",
+    "name": "死神の吹雪",
+    "thumb": "icons/curses/64/MegaSlash_Ice.png"
+  },
+  {
+    "id": "MegaSlash_Necromancy",
+    "name": "死神の従者",
+    "thumb": "icons/curses/64/MegaSlash_Necromancy.png"
+  },
+  {
+    "id": "ProjectileAOE",
+    "name": "イコルの海",
+    "thumb": "icons/curses/64/ProjectileAOE.png"
+  },
+  {
+    "id": "ProjectileAOE_Charm",
+    "name": "王冠の呼び声",
+    "thumb": "icons/curses/64/ProjectileAOE_Charm.png"
+  },
+  {
+    "id": "ProjectileAOE_ExplosiveImpact",
+    "name": "不浄なる核",
+    "thumb": "icons/curses/64/ProjectileAOE_ExplosiveImpact.png"
+  },
+  {
+    "id": "ProjectileAOE_GoopTrail",
+    "name": "正義なる道",
+    "thumb": "icons/curses/64/ProjectileAOE_GoopTrail.png"
+  },
+  {
+    "id": "Teleport",
+    "name": "神の闊歩",
+    "thumb": "icons/curses/64/Teleport.png"
+  },
+  {
+    "id": "Teleport_Goop",
+    "name": "見捨てられたイコル",
+    "thumb": "icons/curses/64/Teleport_Goop.png"
+  },
+  {
+    "id": "Teleport_Invincible",
+    "name": "守護の被覆",
+    "thumb": "icons/curses/64/Teleport_Invincible.png"
+  },
+  {
+    "id": "Teleport_Projectile",
+    "name": "Shards of Solitude",
+    "thumb": "icons/curses/64/Teleport_Projectile.png"
+  },
+  {
+    "id": "Tentacles",
+    "name": "トゥルアの御手",
+    "thumb": "icons/curses/64/Tentacles.png"
+  },
+  {
+    "id": "Tentacles_Circular",
+    "name": "大渦潮",
+    "thumb": "icons/curses/64/Tentacles_Circular.png"
+  },
+  {
+    "id": "Tentacles_Flame",
+    "name": "イグの御手",
+    "thumb": "icons/curses/64/Tentacles_Flame.png"
+  },
+  {
+    "id": "Tentacles_Ice",
+    "name": "イタクァの御手",
+    "thumb": "icons/curses/64/Tentacles_Ice.png"
+  },
+  {
+    "id": "Tentacles_Necromancy",
+    "name": "怨霊の御手",
+    "thumb": "icons/curses/64/Tentacles_Necromancy.png"
+  }
+]

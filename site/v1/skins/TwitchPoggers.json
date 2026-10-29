@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/TwitchPoggers.png",
   "id": "TwitchPoggers",
   "name": {
     "en": "TwitchPoggers"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "TwitchPoggers"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/TwitchPoggers.png",
   "unlock": "DLC"
 }

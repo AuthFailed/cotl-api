@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Squirrel.png",
   "id": "Squirrel",
   "name": {
     "en": "Squirrel"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Squirrel"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Squirrel.png",
   "unlock": "Dungeon1"
 }

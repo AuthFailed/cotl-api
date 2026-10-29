@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Axolotl.png",
   "id": "Axolotl",
   "name": {
     "en": "Axolotl"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Axolotl"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Axolotl.png",
   "unlock": "Other"
 }

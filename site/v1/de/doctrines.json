@@ -1,0 +1,327 @@
+[
+  {
+    "id": "DeathSacrifice_BuildingGoodGraves",
+    "name": "Die Gefallenen betrauern",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingGoodGraves.png"
+  },
+  {
+    "id": "DeathSacrifice_BuildingReturnToEarth",
+    "name": "Zur Erde zurückkehren",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingReturnToEarth.png"
+  },
+  {
+    "id": "DeathSacrifice_Funeral",
+    "name": "Begräbnis",
+    "thumb": "icons/doctrines/64/DeathSacrifice_Funeral.png"
+  },
+  {
+    "id": "DeathSacrifice_RessurectionRitual",
+    "name": "Ritual der Wiedererweckung",
+    "thumb": "icons/doctrines/64/DeathSacrifice_RessurectionRitual.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitDesensitisedToDeath",
+    "name": "<sprite name=\"icon_Trait_DesensitisedToDeath\">Eigenschaft: Glaube ans Jenseits",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitDesensitisedToDeath.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitOldDieYoung",
+    "name": "<sprite name=\"icon_Trait_OldDieYoung\">Eigenschaft: Die Guten sterben jung",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitOldDieYoung.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitRespectElders",
+    "name": "<sprite name=\"icon_Trait_RespectElders\">Eigenschaft: Respektiere deine Ältesten",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitRespectElders.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitSacrificeEnthusiast",
+    "name": "<sprite name=\"icon_Trait_SacrificeEnthusiast\"> Eigenschaft: Glaube ans Opfer",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitSacrificeEnthusiast.png"
+  },
+  {
+    "id": "LawOrder_AscendFollower",
+    "name": "Ritual des Anhängeraufstiegs",
+    "thumb": "icons/doctrines/64/LawOrder_AscendFollower.png"
+  },
+  {
+    "id": "LawOrder_AssignFaithEnforcerRitual",
+    "name": "Glaubensvollstrecker",
+    "thumb": "icons/doctrines/64/LawOrder_AssignFaithEnforcerRitual.png"
+  },
+  {
+    "id": "LawOrder_AssignTaxCollectorRitual",
+    "name": "Steuereintreiber",
+    "thumb": "icons/doctrines/64/LawOrder_AssignTaxCollectorRitual.png"
+  },
+  {
+    "id": "LawOrder_FightPitRitual",
+    "name": "Rituelle Kampfgrube",
+    "thumb": "icons/doctrines/64/LawOrder_FightPitRitual.png"
+  },
+  {
+    "id": "LawOrder_JudgementRitual",
+    "name": "Hochzeit",
+    "thumb": "icons/doctrines/64/LawOrder_JudgementRitual.png"
+  },
+  {
+    "id": "LawOrder_MurderFollower",
+    "name": "Anhänger ermorden",
+    "thumb": "icons/doctrines/64/LawOrder_MurderFollower.png"
+  },
+  {
+    "id": "LawOrder_TraitDisciplinarian",
+    "name": "Eigenschaft: Glaube an die Ursünde",
+    "thumb": "icons/doctrines/64/LawOrder_TraitDisciplinarian.png"
+  },
+  {
+    "id": "LawOrder_TraitLibertarian",
+    "name": "Eigenschaft: Absolution",
+    "thumb": "icons/doctrines/64/LawOrder_TraitLibertarian.png"
+  },
+  {
+    "id": "Pleasure_Allegiance",
+    "name": "Blinde Treue",
+    "thumb": "icons/doctrines/64/Pleasure_Allegiance.png"
+  },
+  {
+    "id": "Pleasure_AtoneSin",
+    "name": "Sünderstolz",
+    "thumb": "icons/doctrines/64/Pleasure_AtoneSin.png"
+  },
+  {
+    "id": "Pleasure_Cannibal",
+    "name": "Völlerei der Kannibalen",
+    "thumb": "icons/doctrines/64/Pleasure_Cannibal.png"
+  },
+  {
+    "id": "Pleasure_Doctrinal_Extremist",
+    "name": "Doktrinärer Extremist",
+    "thumb": "icons/doctrines/64/Pleasure_Doctrinal_Extremist.png"
+  },
+  {
+    "id": "Pleasure_Fertility",
+    "name": "In Sünde geboren",
+    "thumb": "icons/doctrines/64/Pleasure_Fertility.png"
+  },
+  {
+    "id": "Pleasure_Nudist",
+    "name": "Ritual der Lust",
+    "thumb": "icons/doctrines/64/Pleasure_Nudist.png"
+  },
+  {
+    "id": "Pleasure_Purge",
+    "name": "Ritual des Zorns",
+    "thumb": "icons/doctrines/64/Pleasure_Purge.png"
+  },
+  {
+    "id": "Pleasure_Violent_Extremist",
+    "name": "Gewalttätiger Extremist",
+    "thumb": "icons/doctrines/64/Pleasure_Violent_Extremist.png"
+  },
+  {
+    "id": "Possessions_AlmsToPoorRitual",
+    "name": "Almosen für die Armen",
+    "thumb": "icons/doctrines/64/Possessions_AlmsToPoorRitual.png"
+  },
+  {
+    "id": "Possessions_Bribe",
+    "name": "Anhänger bestechen",
+    "thumb": "icons/doctrines/64/Possessions_Bribe.png"
+  },
+  {
+    "id": "Possessions_DonationRitual",
+    "name": "Ritual der Bereicherung",
+    "thumb": "icons/doctrines/64/Possessions_DonationRitual.png"
+  },
+  {
+    "id": "Possessions_ExtortTithes",
+    "name": "Den Zehnten abnötigen",
+    "thumb": "icons/doctrines/64/Possessions_ExtortTithes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromHomes",
+    "name": "Eigenschaft: Sakrale Architektur",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromHomes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromRituals",
+    "name": "Eigenschaft: Verehrer",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromRituals.png"
+  },
+  {
+    "id": "Possessions_TraitFalseIdols",
+    "name": "Eigenschaft: Falsche Idole",
+    "thumb": "icons/doctrines/64/Possessions_TraitFalseIdols.png"
+  },
+  {
+    "id": "Possessions_TraitMaterialistic",
+    "name": "Eigenschaft: Materialist",
+    "thumb": "icons/doctrines/64/Possessions_TraitMaterialistic.png"
+  },
+  {
+    "id": "Special_Bonfire",
+    "name": "Feuergrube",
+    "thumb": "icons/doctrines/64/Special_Bonfire.png"
+  },
+  {
+    "id": "Special_Brainwashed",
+    "name": "Ritual der Gehirnwäsche",
+    "thumb": "icons/doctrines/64/Special_Brainwashed.png"
+  },
+  {
+    "id": "Special_EmbraceRot",
+    "name": "Akzeptiere die Fäulnis",
+    "thumb": "icons/doctrines/64/Special_EmbraceRot.png"
+  },
+  {
+    "id": "Special_HealingTouch",
+    "name": "Wärmende Berührung",
+    "thumb": "icons/doctrines/64/Special_HealingTouch.png"
+  },
+  {
+    "id": "Special_ReadMind",
+    "name": "Gedanken lesen",
+    "thumb": "icons/doctrines/64/Special_ReadMind.png"
+  },
+  {
+    "id": "Special_RejectRot",
+    "name": "Beseitige die Fäulnis",
+    "thumb": "icons/doctrines/64/Special_RejectRot.png"
+  },
+  {
+    "id": "Special_Sacrifice",
+    "name": "Opfer des Fleisches",
+    "thumb": "icons/doctrines/64/Special_Sacrifice.png"
+  },
+  {
+    "id": "Sustenance_Fast",
+    "name": "Ritualfasten",
+    "thumb": "icons/doctrines/64/Sustenance_Fast.png"
+  },
+  {
+    "id": "Sustenance_Feast",
+    "name": "Festritual",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  },
+  {
+    "id": "Sustenance_TraitCannibal",
+    "name": "Eigenschaft: Kannibale",
+    "thumb": "icons/doctrines/64/Sustenance_TraitCannibal.png"
+  },
+  {
+    "id": "Sustenance_TraitFishingRitual",
+    "name": "Ritual der Meeresfülle",
+    "thumb": "icons/doctrines/64/Sustenance_TraitFishingRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitGrassEater",
+    "name": "Eigenschaft: Grasfresser",
+    "thumb": "icons/doctrines/64/Sustenance_TraitGrassEater.png"
+  },
+  {
+    "id": "Sustenance_TraitHarvestRitual",
+    "name": "Ritual der Ernte",
+    "thumb": "icons/doctrines/64/Sustenance_TraitHarvestRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomBanned",
+    "name": "Eigenschaft: Prohibitionist",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomBanned.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomEncouraged",
+    "name": "Eigenschaft: Substanzen erlaubt",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomEncouraged.png"
+  },
+  {
+    "id": "Winter_ColdEnthusiast_Trait",
+    "name": "Eigenschaft: Dickhäuter",
+    "thumb": "icons/doctrines/64/Winter_ColdEnthusiast_Trait.png"
+  },
+  {
+    "id": "Winter_ConvertToRot",
+    "name": "Ritual des Verfalls",
+    "thumb": "icons/doctrines/64/Winter_ConvertToRot.png"
+  },
+  {
+    "id": "Winter_Follower_Wedding_Ritual",
+    "name": "Anhänger-Hochzeitszeremonie",
+    "thumb": "icons/doctrines/64/Winter_Follower_Wedding_Ritual.png"
+  },
+  {
+    "id": "Winter_FurnaceAnimal",
+    "name": "Einäscherung von Tieren",
+    "thumb": "icons/doctrines/64/Winter_FurnaceAnimal.png"
+  },
+  {
+    "id": "Winter_FurnaceFollower",
+    "name": "Einäscherung von Anhängern",
+    "thumb": "icons/doctrines/64/Winter_FurnaceFollower.png"
+  },
+  {
+    "id": "Winter_RanchHarvest",
+    "name": "Ritual des Scherens",
+    "thumb": "icons/doctrines/64/Winter_RanchHarvest.png"
+  },
+  {
+    "id": "Winter_RanchMeat",
+    "name": "Ritual des Fressens",
+    "thumb": "icons/doctrines/64/Winter_RanchMeat.png"
+  },
+  {
+    "id": "Winter_RemoveRot",
+    "name": "Heile den Verfall",
+    "thumb": "icons/doctrines/64/Winter_RemoveRot.png"
+  },
+  {
+    "id": "Winter_Snowman_Ritual",
+    "name": "Leben im Eis",
+    "thumb": "icons/doctrines/64/Winter_Snowman_Ritual.png"
+  },
+  {
+    "id": "Winter_WorkThroughBlizzard_Trait",
+    "name": "Eigenschaft: Schneepflug",
+    "thumb": "icons/doctrines/64/Winter_WorkThroughBlizzard_Trait.png"
+  },
+  {
+    "id": "WorkWorship_Enlightenment",
+    "name": "Ritual der Erleuchtung",
+    "thumb": "icons/doctrines/64/WorkWorship_Enlightenment.png"
+  },
+  {
+    "id": "WorkWorship_FaithfulTrait",
+    "name": "Eigenschaft: Gläubig",
+    "thumb": "icons/doctrines/64/WorkWorship_FaithfulTrait.png"
+  },
+  {
+    "id": "WorkWorship_FasterBuilding",
+    "name": "Die Herrlichkeit des Bauens",
+    "thumb": "icons/doctrines/64/WorkWorship_FasterBuilding.png"
+  },
+  {
+    "id": "WorkWorship_GoodWorkerTrait",
+    "name": "Eigenschaft: Fleißig",
+    "thumb": "icons/doctrines/64/WorkWorship_GoodWorkerTrait.png"
+  },
+  {
+    "id": "WorkWorship_HolidayRitual",
+    "name": "Ritual des Heiligen Tages",
+    "thumb": "icons/doctrines/64/WorkWorship_HolidayRitual.png"
+  },
+  {
+    "id": "WorkWorship_Inspire",
+    "name": "Inspirieren",
+    "thumb": "icons/doctrines/64/WorkWorship_Inspire.png"
+  },
+  {
+    "id": "WorkWorship_Intimidate",
+    "name": "Einschüchtern",
+    "thumb": "icons/doctrines/64/WorkWorship_Intimidate.png"
+  },
+  {
+    "id": "WorkWorship_WorkThroughNightRitual",
+    "name": "Ritual der Herrlichkeit der Mühsal",
+    "thumb": "icons/doctrines/64/WorkWorship_WorkThroughNightRitual.png"
+  }
+]

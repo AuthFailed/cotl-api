@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/PolarBear.png",
   "id": "PolarBear",
   "name": {
     "en": "Polar Bear"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Polar Bear"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/PolarBear.png",
   "unlock": "Dungeon5"
 }

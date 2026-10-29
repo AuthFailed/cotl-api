@@ -1,0 +1,612 @@
+[
+  {
+    "id": "Aestivation",
+    "name": "Estivazione",
+    "thumb": "icons/traits/64/Aestivation.png"
+  },
+  {
+    "id": "AgainstSacrifice",
+    "name": "Contro il sacrificio",
+    "thumb": "icons/traits/64/AgainstSacrifice.png"
+  },
+  {
+    "id": "Allegiance",
+    "name": "Fedeltà cieca",
+    "thumb": "icons/traits/64/Allegiance.png"
+  },
+  {
+    "id": "AnimalLover",
+    "name": "Affinità bestiale",
+    "thumb": "icons/traits/64/AnimalLover.png"
+  },
+  {
+    "id": "Argumentative",
+    "name": "Irascibilità",
+    "thumb": "icons/traits/64/Argumentative.png"
+  },
+  {
+    "id": "Asceticism",
+    "name": "Ascetismo",
+    "thumb": "icons/traits/64/Asceticism.png"
+  },
+  {
+    "id": "Bastard",
+    "name": "Boria",
+    "thumb": "icons/traits/64/Bastard.png"
+  },
+  {
+    "id": "BishopOfCult",
+    "name": "Custode di: <color=#FFD201>{0}</color>",
+    "thumb": "icons/traits/64/BishopOfCult.png"
+  },
+  {
+    "id": "Blind",
+    "name": "Cecità",
+    "thumb": "icons/traits/64/Blind.png"
+  },
+  {
+    "id": "BornToTheRot",
+    "name": "Venerato marciume",
+    "thumb": "icons/traits/64/BornToTheRot.png"
+  },
+  {
+    "id": "Cannibal",
+    "name": "Cannibalismo",
+    "thumb": "icons/traits/64/Cannibal.png"
+  },
+  {
+    "id": "Celibate",
+    "name": "Castità",
+    "thumb": "icons/traits/64/Celibate.png"
+  },
+  {
+    "id": "Chionophile",
+    "name": "Criofilia",
+    "thumb": null
+  },
+  {
+    "id": "ChosenOne",
+    "name": "Discendenza eletta",
+    "thumb": "icons/traits/64/ChosenOne.png"
+  },
+  {
+    "id": "ColdBlooded",
+    "name": "Sangue freddo",
+    "thumb": "icons/traits/64/ColdBlooded.png"
+  },
+  {
+    "id": "ColdEnthusiast",
+    "name": "Pelle spessa",
+    "thumb": "icons/traits/64/ColdEnthusiast.png"
+  },
+  {
+    "id": "ConstructionEnthusiast",
+    "name": "Architettura sacra",
+    "thumb": "icons/traits/64/ConstructionEnthusiast.png"
+  },
+  {
+    "id": "Coprophiliac",
+    "name": "Coprofilia",
+    "thumb": "icons/traits/64/Coprophiliac.png"
+  },
+  {
+    "id": "CriminalHardened",
+    "name": "Criminalità incallita",
+    "thumb": "icons/traits/64/CriminalHardened.png"
+  },
+  {
+    "id": "CriminalReformed",
+    "name": "Criminalità riformata",
+    "thumb": "icons/traits/64/CriminalReformed.png"
+  },
+  {
+    "id": "CriminalScarred",
+    "name": "Criminalità timorata",
+    "thumb": "icons/traits/64/CriminalScarred.png"
+  },
+  {
+    "id": "Cynical",
+    "name": "Cinismo",
+    "thumb": "icons/traits/64/Cynical.png"
+  },
+  {
+    "id": "DeepSleeper",
+    "name": "Sonno pesante",
+    "thumb": "icons/traits/64/DeepSleeper.png"
+  },
+  {
+    "id": "DesensitisedToDeath",
+    "name": "Fede nell'aldilà",
+    "thumb": "icons/traits/64/DesensitisedToDeath.png"
+  },
+  {
+    "id": "Disciple",
+    "name": "Discepolato",
+    "thumb": "icons/traits/64/Disciple.png"
+  },
+  {
+    "id": "Disciplinarian",
+    "name": "Fede nel peccato originale",
+    "thumb": "icons/traits/64/Disciplinarian.png"
+  },
+  {
+    "id": "DoctrinalExtremist",
+    "name": "Estremismo dottrinale",
+    "thumb": "icons/traits/64/DoctrinalExtremist.png"
+  },
+  {
+    "id": "DontStarve",
+    "name": "Controllo della fame",
+    "thumb": "icons/traits/64/DontStarve.png"
+  },
+  {
+    "id": "Drowsy",
+    "name": "Sonnolenza",
+    "thumb": "icons/traits/64/Drowsy.png"
+  },
+  {
+    "id": "EmbraceRot",
+    "name": "Marciume adorato",
+    "thumb": "icons/traits/64/EmbraceRot.png"
+  },
+  {
+    "id": "ExCultLeader",
+    "name": "Retrocessione",
+    "thumb": null
+  },
+  {
+    "id": "ExistentialDread",
+    "name": "Catatonia",
+    "thumb": "icons/traits/64/ExistentialDread.png"
+  },
+  {
+    "id": "Faithful",
+    "name": "Convinzione",
+    "thumb": "icons/traits/64/Faithful.png"
+  },
+  {
+    "id": "Faithless",
+    "name": "Scetticismo",
+    "thumb": "icons/traits/64/Faithless.png"
+  },
+  {
+    "id": "FalseIdols",
+    "name": "Falsi idoli",
+    "thumb": "icons/traits/64/FalseIdols.png"
+  },
+  {
+    "id": "Fashionable",
+    "name": "Appariscenza",
+    "thumb": "icons/traits/64/Fashionable.png"
+  },
+  {
+    "id": "FearOfDeath",
+    "name": "Terrore della morte",
+    "thumb": "icons/traits/64/FearOfDeath.png"
+  },
+  {
+    "id": "FearOfSickPeople",
+    "name": "Ipocondria",
+    "thumb": "icons/traits/64/FearOfSickPeople.png"
+  },
+  {
+    "id": "Fertility",
+    "name": "Natali peccaminosi",
+    "thumb": "icons/traits/64/Fertility.png"
+  },
+  {
+    "id": "FluteLover",
+    "name": "Flautista",
+    "thumb": "icons/traits/64/FluteLover.png"
+  },
+  {
+    "id": "FreezeImmune",
+    "name": "Lanoso",
+    "thumb": "icons/traits/64/FreezeImmune.png"
+  },
+  {
+    "id": "Frigidophile",
+    "name": "Criofilia",
+    "thumb": "icons/traits/64/Frigidophile.png"
+  },
+  {
+    "id": "FurnaceAnimal",
+    "name": "Cremazione degli animali",
+    "thumb": "icons/traits/64/FurnaceAnimal.png"
+  },
+  {
+    "id": "FurnaceFollower",
+    "name": "Cremazione dei membri del Culto",
+    "thumb": "icons/traits/64/FurnaceFollower.png"
+  },
+  {
+    "id": "Germophobe",
+    "name": "Germofobia",
+    "thumb": "icons/traits/64/Germophobe.png"
+  },
+  {
+    "id": "GrassEater",
+    "name": "Mangiaerba",
+    "thumb": "icons/traits/64/GrassEater.png"
+  },
+  {
+    "id": "GrievingWidow",
+    "name": "Vedovanza triste",
+    "thumb": "icons/traits/64/GrievingWidow.png"
+  },
+  {
+    "id": "Gullible",
+    "name": "Inavvedutezza",
+    "thumb": "icons/traits/64/Gullible.png"
+  },
+  {
+    "id": "HappilyWidowed",
+    "name": "Vedovanza allegra",
+    "thumb": "icons/traits/64/HappilyWidowed.png"
+  },
+  {
+    "id": "HateElderly",
+    "name": "I buoni muoiono giovani",
+    "thumb": "icons/traits/64/HateElderly.png"
+  },
+  {
+    "id": "HatesSnowmen",
+    "name": "Odia gli agnelli di neve",
+    "thumb": "icons/traits/64/HatesSnowmen.png"
+  },
+  {
+    "id": "Heavyweight",
+    "name": "Alta tolleranza",
+    "thumb": "icons/traits/64/Heavyweight.png"
+  },
+  {
+    "id": "Hedonism",
+    "name": "Edonismo",
+    "thumb": "icons/traits/64/Hedonism.png"
+  },
+  {
+    "id": "Hibernation",
+    "name": "Letargo",
+    "thumb": "icons/traits/64/Hibernation.png"
+  },
+  {
+    "id": "IceSculpture",
+    "name": "Scultura",
+    "thumb": "icons/traits/64/IceSculpture.png"
+  },
+  {
+    "id": "Immortal",
+    "name": "Immortalità",
+    "thumb": "icons/traits/64/Immortal.png"
+  },
+  {
+    "id": "Industrious",
+    "name": "Diligenza",
+    "thumb": "icons/traits/64/Industrious.png"
+  },
+  {
+    "id": "InfusibleSnowman",
+    "name": "Permafrost",
+    "thumb": "icons/traits/64/InfusibleSnowman.png"
+  },
+  {
+    "id": "Insomniac",
+    "name": "Nottambulismo",
+    "thumb": "icons/traits/64/Insomniac.png"
+  },
+  {
+    "id": "IronStomach",
+    "name": "Robusta costituzione",
+    "thumb": "icons/traits/64/IronStomach.png"
+  },
+  {
+    "id": "JiltedLover",
+    "name": "Separazione",
+    "thumb": "icons/traits/64/JiltedLover.png"
+  },
+  {
+    "id": "Lazy",
+    "name": "Indolenza",
+    "thumb": "icons/traits/64/Lazy.png"
+  },
+  {
+    "id": "Libertarian",
+    "name": "Assoluzione",
+    "thumb": "icons/traits/64/Libertarian.png"
+  },
+  {
+    "id": "LightningEnthusiast",
+    "name": "Conduttività",
+    "thumb": "icons/traits/64/LightningEnthusiast.png"
+  },
+  {
+    "id": "Lightweight",
+    "name": "Bassa tolleranza",
+    "thumb": "icons/traits/64/Lightweight.png"
+  },
+  {
+    "id": "LockedLoyal",
+    "name": "Prigionia modello",
+    "thumb": "icons/traits/64/LockedLoyal.png"
+  },
+  {
+    "id": "LoveElderly",
+    "name": "Rispetto degli anziani",
+    "thumb": "icons/traits/64/LoveElderly.png"
+  },
+  {
+    "id": "LoveOfSickPeople",
+    "name": "Malattia come punizione divina",
+    "thumb": "icons/traits/64/LoveOfSickPeople.png"
+  },
+  {
+    "id": "Lustful",
+    "name": "Lascivia",
+    "thumb": "icons/traits/64/Lustful.png"
+  },
+  {
+    "id": "MarriedHappily",
+    "name": "Sposalizio felice",
+    "thumb": "icons/traits/64/MarriedHappily.png"
+  },
+  {
+    "id": "MarriedJealous",
+    "name": "Gelosia",
+    "thumb": "icons/traits/64/MarriedJealous.png"
+  },
+  {
+    "id": "MarriedMurderouslyJealous",
+    "name": "Gelosia omicida",
+    "thumb": "icons/traits/64/MarriedMurderouslyJealous.png"
+  },
+  {
+    "id": "MarriedUnhappily",
+    "name": "Sposalizio infelice",
+    "thumb": "icons/traits/64/MarriedUnhappily.png"
+  },
+  {
+    "id": "Masochistic",
+    "name": "Masochismo",
+    "thumb": "icons/traits/64/Masochistic.png"
+  },
+  {
+    "id": "MasterfulSnowman",
+    "name": "Agnello di neve perfetto",
+    "thumb": "icons/traits/64/MasterfulSnowman.png"
+  },
+  {
+    "id": "Materialistic",
+    "name": "Praticità",
+    "thumb": "icons/traits/64/Materialistic.png"
+  },
+  {
+    "id": "MissionaryExcited",
+    "name": "Libidine da missione",
+    "thumb": "icons/traits/64/MissionaryExcited.png"
+  },
+  {
+    "id": "MissionaryInspired",
+    "name": "Grazia da missione",
+    "thumb": "icons/traits/64/MissionaryInspired.png"
+  },
+  {
+    "id": "MissionaryTerrified",
+    "name": "Terrore da missione",
+    "thumb": "icons/traits/64/MissionaryTerrified.png"
+  },
+  {
+    "id": "MushroomBanned",
+    "name": "Proibizionismo",
+    "thumb": "icons/traits/64/MushroomBanned.png"
+  },
+  {
+    "id": "MushroomEncouraged",
+    "name": "Sostanze incentivate",
+    "thumb": "icons/traits/64/MushroomEncouraged.png"
+  },
+  {
+    "id": "MusicLover",
+    "name": "Amante della musica",
+    "thumb": "icons/traits/64/MusicLover.png"
+  },
+  {
+    "id": "Mutated",
+    "name": "Marcescente",
+    "thumb": "icons/traits/64/Mutated.png"
+  },
+  {
+    "id": "MutatedImmune",
+    "name": "Immutazione",
+    "thumb": "icons/traits/64/MutatedImmune.png"
+  },
+  {
+    "id": "MutatedVisual",
+    "name": "Marcescenza accennata",
+    "thumb": "icons/traits/64/MutatedVisual.png"
+  },
+  {
+    "id": "NaturallyObedient",
+    "name": "Ubbidienza innata",
+    "thumb": "icons/traits/64/NaturallyObedient.png"
+  },
+  {
+    "id": "NaturallySkeptical",
+    "name": "Diffidenza innata",
+    "thumb": "icons/traits/64/NaturallySkeptical.png"
+  },
+  {
+    "id": "Nudist",
+    "name": "Nudismo",
+    "thumb": "icons/traits/64/Nudist.png"
+  },
+  {
+    "id": "OverworkedParent",
+    "name": "Genitorialità sopraffatta",
+    "thumb": "icons/traits/64/OverworkedParent.png"
+  },
+  {
+    "id": "Pacifist",
+    "name": "Pacifismo",
+    "thumb": "icons/traits/64/Pacifist.png"
+  },
+  {
+    "id": "Pettable",
+    "name": "Carezze",
+    "thumb": "icons/traits/64/Pettable.png"
+  },
+  {
+    "id": "Poet",
+    "name": "Poesia",
+    "thumb": "icons/traits/64/Poet.png"
+  },
+  {
+    "id": "Polyamory",
+    "name": "Poliamore",
+    "thumb": "icons/traits/64/Polyamory.png"
+  },
+  {
+    "id": "ProudParent",
+    "name": "Genitorialità fiera",
+    "thumb": "icons/traits/64/ProudParent.png"
+  },
+  {
+    "id": "PureBlood",
+    "name": "Pedigree",
+    "thumb": "icons/traits/64/PureBlood.png"
+  },
+  {
+    "id": "PureBlood_1",
+    "name": "Pedigree I",
+    "thumb": "icons/traits/64/PureBlood_1.png"
+  },
+  {
+    "id": "PureBlood_2",
+    "name": "Pedigree II",
+    "thumb": "icons/traits/64/PureBlood_2.png"
+  },
+  {
+    "id": "PureBlood_3",
+    "name": "Pedigree III",
+    "thumb": "icons/traits/64/PureBlood_3.png"
+  },
+  {
+    "id": "RejectRot",
+    "name": "Marciume epurato",
+    "thumb": "icons/traits/64/RejectRot.png"
+  },
+  {
+    "id": "RemoveRot",
+    "name": "Cura la decomposizione.",
+    "thumb": "icons/traits/64/RemoveRot.png"
+  },
+  {
+    "id": "RotstonePooper",
+    "name": "Feci marciolitiche",
+    "thumb": "icons/traits/64/RotstonePooper.png"
+  },
+  {
+    "id": "RoyalPooper",
+    "name": "Feci auree",
+    "thumb": "icons/traits/64/RoyalPooper.png"
+  },
+  {
+    "id": "SacrificeEnthusiast",
+    "name": "Fede nel sacrificio",
+    "thumb": "icons/traits/64/SacrificeEnthusiast.png"
+  },
+  {
+    "id": "Scared",
+    "name": "Vigliaccheria",
+    "thumb": "icons/traits/64/Scared.png"
+  },
+  {
+    "id": "SeenGod",
+    "name": "Cuore puro",
+    "thumb": "icons/traits/64/SeenGod.png"
+  },
+  {
+    "id": "SermonEnthusiast",
+    "name": "Sacralità",
+    "thumb": "icons/traits/64/SermonEnthusiast.png"
+  },
+  {
+    "id": "ShoddySnowman",
+    "name": "Agnello di neve dozzinale",
+    "thumb": "icons/traits/64/ShoddySnowman.png"
+  },
+  {
+    "id": "Sickly",
+    "name": "Cagionevolezza",
+    "thumb": "icons/traits/64/Sickly.png"
+  },
+  {
+    "id": "Snorer",
+    "name": "Russamento",
+    "thumb": "icons/traits/64/Snorer.png"
+  },
+  {
+    "id": "Spy",
+    "name": "Spionaggio",
+    "thumb": "icons/traits/64/Spy.png"
+  },
+  {
+    "id": "Terrified",
+    "name": "Strizza",
+    "thumb": "icons/traits/64/Terrified.png"
+  },
+  {
+    "id": "Unlawful",
+    "name": "Delinquenza",
+    "thumb": "icons/traits/64/Unlawful.png"
+  },
+  {
+    "id": "Unrepentant",
+    "name": "Impenitenza",
+    "thumb": "icons/traits/64/Unrepentant.png"
+  },
+  {
+    "id": "ViolentExtremist",
+    "name": "Estremismo violento",
+    "thumb": "icons/traits/64/ViolentExtremist.png"
+  },
+  {
+    "id": "Virtuous",
+    "name": "Virtuosità",
+    "thumb": "icons/traits/64/Virtuous.png"
+  },
+  {
+    "id": "WarmBlooded",
+    "name": "Sangue caldo",
+    "thumb": "icons/traits/64/WarmBlooded.png"
+  },
+  {
+    "id": "WinterBody",
+    "name": "Vigore invernale",
+    "thumb": "icons/traits/64/WinterBody.png"
+  },
+  {
+    "id": "WinterExcited",
+    "name": "Venerazione invernale",
+    "thumb": "icons/traits/64/WinterExcited.png"
+  },
+  {
+    "id": "WolfHater",
+    "name": "Guardia",
+    "thumb": "icons/traits/64/WolfHater.png"
+  },
+  {
+    "id": "WorkThroughBlizzard",
+    "name": "Spartineve",
+    "thumb": "icons/traits/64/WorkThroughBlizzard.png"
+  },
+  {
+    "id": "Zealous",
+    "name": "Zelo",
+    "thumb": "icons/traits/64/Zealous.png"
+  },
+  {
+    "id": "Zombie",
+    "name": "Putrescenza",
+    "thumb": "icons/traits/64/Zombie.png"
+  }
+]

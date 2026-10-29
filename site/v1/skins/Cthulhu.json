@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Cthulhu.png",
   "id": "Cthulhu",
   "name": {
     "en": "Cthulhu"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Cthulhu"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Cthulhu.png",
   "unlock": "DLC"
 }

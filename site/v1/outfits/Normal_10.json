@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "BLACK_GOLD",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "مناسب لممارسة الأعمال.",
+    "de": "Perfekt für geschäftliche Angelegenheiten.",
+    "en": "Perfect for doing business in.",
+    "es": "Perfecta para hacer negocios.",
+    "fr": "Pour des affaires florissantes.",
+    "fr-CA": "Pour des affaires florissantes.",
+    "it": "L'ideale per fare affari.",
+    "ja": "商売をするのに最適な服",
+    "ko": "사업 하는 사람들에게 완벽한 옷입니다.",
+    "nl": "Perfect om zaken in te doen.",
+    "pt-BR": "Perfeita para fazer negócios.",
+    "ru": "Помогает выглядеть представительно.",
+    "tr": "Pazarlık yapmayı sevenlere.",
+    "zh-CN": "最适合穿着做生意。",
+    "zh-TW": "最適合穿著做生意。"
+  },
+  "descriptionPlain": {
+    "ar": "مناسب لممارسة الأعمال.",
+    "de": "Perfekt für geschäftliche Angelegenheiten.",
+    "en": "Perfect for doing business in.",
+    "es": "Perfecta para hacer negocios.",
+    "fr": "Pour des affaires florissantes.",
+    "fr-CA": "Pour des affaires florissantes.",
+    "it": "L'ideale per fare affari.",
+    "ja": "商売をするのに最適な服",
+    "ko": "사업 하는 사람들에게 완벽한 옷입니다.",
+    "nl": "Perfect om zaken in te doen.",
+    "pt-BR": "Perfeita para fazer negócios.",
+    "ru": "Помогает выглядеть представительно.",
+    "tr": "Pazarlık yapmayı sevenlere.",
+    "zh-CN": "最适合穿着做生意。",
+    "zh-TW": "最適合穿著做生意。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_10.png",
+  "id": "Normal_10",
+  "name": {
+    "ar": "قميص التاجر",
+    "de": "Kaufmannshemd",
+    "en": "Merchant Shirt",
+    "es": "Camisa de comerciante",
+    "fr": "Haut de négoce",
+    "fr-CA": "Chemise de marchand",
+    "it": "Maglia da mercante",
+    "ja": "商人のシャツ",
+    "ko": "상인 셔츠",
+    "nl": "Koopmanoverhemd",
+    "pt-BR": "Camisa de Comerciante",
+    "ru": "Рыночная рубаха",
+    "tr": "Tüccar Gömleği",
+    "zh-CN": "商人上衣",
+    "zh-TW": "商人上衣"
+  },
+  "namePlain": {
+    "ar": "قميص التاجر",
+    "de": "Kaufmannshemd",
+    "en": "Merchant Shirt",
+    "es": "Camisa de comerciante",
+    "fr": "Haut de négoce",
+    "fr-CA": "Chemise de marchand",
+    "it": "Maglia da mercante",
+    "ja": "商人のシャツ",
+    "ko": "상인 셔츠",
+    "nl": "Koopmanoverhemd",
+    "pt-BR": "Camisa de Comerciante",
+    "ru": "Рыночная рубаха",
+    "tr": "Tüccar Gömleği",
+    "zh-CN": "商人上衣",
+    "zh-TW": "商人上衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_10.png"
+}

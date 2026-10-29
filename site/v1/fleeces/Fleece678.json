@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكن استدعاء أشباح حملان في الحملة لتشتيت الأعداء.",
+    "de": "Beschwöre Lammgeister auf einem Kreuzzug, die Gegner ablenken.",
+    "en": "Summon lamb ghosts on crusade that distracts enemies.",
+    "es": "Durante la cruzada, invoca a unos corderos fantasmales que distraen a los enemigos.",
+    "fr": "Invoquez des fantômes d'agneaux en exploration pour distraire les ennemis.",
+    "fr-CA": "Invoquez des fantômes d'agneaux en exploration pour distraire les ennemis.",
+    "it": "Evoca spettri di agnelli durante la crociata che distraggono i nemici.",
+    "ja": "聖戦中、敵の注意を引く羊の亡霊を召喚する。",
+    "ko": "성전에서 적들의 관심을 끄는 양 유령들을 소환합니다.",
+    "nl": "Roep lamspoken op tijdens kruistochten die vijanden afleiden.",
+    "pt-BR": "Convoque cordeiros fantasmas em cruzadas para distrair inimigos.",
+    "ru": "Вы призываете призраков ягнят, которые отвлекают врагов в течение похода.",
+    "tr": "Seferdeyken düşmanların dikkatini dağıtan hayalet kuzular çağır.",
+    "zh-CN": "进行圣战时召唤羔羊幽灵干扰敌人。",
+    "zh-TW": "召喚羔羊幽魂進行聖戰，騷擾敵人。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكن استدعاء أشباح حملان في الحملة لتشتيت الأعداء.",
+    "de": "Beschwöre Lammgeister auf einem Kreuzzug, die Gegner ablenken.",
+    "en": "Summon lamb ghosts on crusade that distracts enemies.",
+    "es": "Durante la cruzada, invoca a unos corderos fantasmales que distraen a los enemigos.",
+    "fr": "Invoquez des fantômes d'agneaux en exploration pour distraire les ennemis.",
+    "fr-CA": "Invoquez des fantômes d'agneaux en exploration pour distraire les ennemis.",
+    "it": "Evoca spettri di agnelli durante la crociata che distraggono i nemici.",
+    "ja": "聖戦中、敵の注意を引く羊の亡霊を召喚する。",
+    "ko": "성전에서 적들의 관심을 끄는 양 유령들을 소환합니다.",
+    "nl": "Roep lamspoken op tijdens kruistochten die vijanden afleiden.",
+    "pt-BR": "Convoque cordeiros fantasmas em cruzadas para distrair inimigos.",
+    "ru": "Вы призываете призраков ягнят, которые отвлекают врагов в течение похода.",
+    "tr": "Seferdeyken düşmanların dikkatini dağıtan hayalet kuzular çağır.",
+    "zh-CN": "进行圣战时召唤羔羊幽灵干扰敌人。",
+    "zh-TW": "召喚羔羊幽魂進行聖戰，騷擾敵人。"
+  },
+  "fleece": 678,
+  "icon": "icons/fleeces/Fleece678.png",
+  "id": "Fleece678",
+  "name": {
+    "ar": "رداء إينغيا",
+    "de": "Yngyas Vlies",
+    "en": "Yngya's Fleece",
+    "es": "Vellocino de Yngya",
+    "fr": "Pelisse d'Yngya",
+    "fr-CA": "Toison d'Yngya",
+    "it": "Vello di Yngya",
+    "ja": "イングャの羊毛",
+    "ko": "잉갸의 양털",
+    "nl": "Yngya's vacht",
+    "pt-BR": "Lã de Yngya",
+    "ru": "Руно Ингьи",
+    "tr": "Yngya'nın Postu",
+    "zh-CN": "殷亚的毛纺",
+    "zh-TW": "殷亞的毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء إينغيا",
+    "de": "Yngyas Vlies",
+    "en": "Yngya's Fleece",
+    "es": "Vellocino de Yngya",
+    "fr": "Pelisse d'Yngya",
+    "fr-CA": "Toison d'Yngya",
+    "it": "Vello di Yngya",
+    "ja": "イングャの羊毛",
+    "ko": "잉갸의 양털",
+    "nl": "Yngya's vacht",
+    "pt-BR": "Lã de Yngya",
+    "ru": "Руно Ингьи",
+    "tr": "Yngya'nın Postu",
+    "zh-CN": "殷亚的毛纺",
+    "zh-TW": "殷亞的毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece678.png"
+}

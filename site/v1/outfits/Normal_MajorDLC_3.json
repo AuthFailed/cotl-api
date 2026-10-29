@@ -1,0 +1,87 @@
+{
+  "cost": [
+    {
+      "item": "WOOL",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "مناسب للأشداء والجريئين.",
+    "de": "Für die Wilden und Lebhaften.",
+    "en": "For the fierce and feisty.",
+    "es": "Para los más feroces y alocados.",
+    "fr": "Pour celles et ceux qui n'ont pas froid aux yeux.",
+    "fr-CA": "Pour celles et ceux qui n'ont pas froid aux yeux.",
+    "it": "Per gli animi più feroci e ribelli.",
+    "ja": "気性が激しい者向け",
+    "ko": "거친 야성미가 넘칩니다.",
+    "nl": "Voor een kattige uitstraling.",
+    "pt-BR": "Para os ferozes e destemidos.",
+    "ru": "Одежда для дерзких и деятельных.",
+    "tr": "Gösterişi sevenler için.",
+    "zh-CN": "彰显凶猛与热情。",
+    "zh-TW": "適合凶暴之人。"
+  },
+  "descriptionPlain": {
+    "ar": "مناسب للأشداء والجريئين.",
+    "de": "Für die Wilden und Lebhaften.",
+    "en": "For the fierce and feisty.",
+    "es": "Para los más feroces y alocados.",
+    "fr": "Pour celles et ceux qui n'ont pas froid aux yeux.",
+    "fr-CA": "Pour celles et ceux qui n'ont pas froid aux yeux.",
+    "it": "Per gli animi più feroci e ribelli.",
+    "ja": "気性が激しい者向け",
+    "ko": "거친 야성미가 넘칩니다.",
+    "nl": "Voor een kattige uitstraling.",
+    "pt-BR": "Para os ferozes e destemidos.",
+    "ru": "Одежда для дерзких и деятельных.",
+    "tr": "Gösterişi sevenler için.",
+    "zh-CN": "彰显凶猛与热情。",
+    "zh-TW": "適合凶暴之人。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Normal_MajorDLC_3.png",
+  "id": "Normal_MajorDLC_3",
+  "name": {
+    "ar": "ثوب بنقش النمر",
+    "de": "Leopardenmuster-Kleid",
+    "en": "Leopard Print Dress",
+    "es": "Vestido de leopardo",
+    "fr": "Robe léopard",
+    "fr-CA": "Robe léopard",
+    "it": "Abito leopardato",
+    "ja": "ヒョウ柄ドレス",
+    "ko": "표범무늬 드레스",
+    "nl": "Panterprintjurk",
+    "pt-BR": "Estampas de Leopardo",
+    "ru": "Платье с леопардовым узором",
+    "tr": "Leopar Desenli Elbise",
+    "zh-CN": "豹纹连衣裙",
+    "zh-TW": "豹紋禮服"
+  },
+  "namePlain": {
+    "ar": "ثوب بنقش النمر",
+    "de": "Leopardenmuster-Kleid",
+    "en": "Leopard Print Dress",
+    "es": "Vestido de leopardo",
+    "fr": "Robe léopard",
+    "fr-CA": "Robe léopard",
+    "it": "Abito leopardato",
+    "ja": "ヒョウ柄ドレス",
+    "ko": "표범무늬 드레스",
+    "nl": "Panterprintjurk",
+    "pt-BR": "Estampas de Leopardo",
+    "ru": "Платье с леопардовым узором",
+    "tr": "Leopar Desenli Elbise",
+    "zh-CN": "豹纹连衣裙",
+    "zh-TW": "豹紋禮服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Normal_MajorDLC_3.png"
+}

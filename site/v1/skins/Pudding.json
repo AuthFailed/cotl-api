@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Pudding.png",
   "id": "Pudding",
   "name": {
     "en": "Pudding"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Pudding"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Pudding.png",
   "unlock": "Dungeon5"
 }

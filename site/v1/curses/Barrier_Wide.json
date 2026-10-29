@@ -1,0 +1,26 @@
+{
+  "canAim": true,
+  "castingDuration": 0.5,
+  "chance": 1.0,
+  "damage": 1.0,
+  "delay": 0.5,
+  "description": {
+    "en": "Create an extra wide barrier."
+  },
+  "descriptionPlain": {
+    "en": "Create an extra wide barrier."
+  },
+  "family": "Barrier",
+  "icon": "icons/curses/Barrier_Wide.png",
+  "id": "Barrier_Wide",
+  "lore": {
+    "en": "Let the arms of safety reach wide."
+  },
+  "name": {
+    "en": "Sanctuary Grown"
+  },
+  "namePlain": {
+    "en": "Sanctuary Grown"
+  },
+  "thumb": "icons/curses/64/Barrier_Wide.png"
+}

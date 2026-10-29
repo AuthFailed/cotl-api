@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/StarBunny.png",
   "id": "StarBunny",
   "name": {
     "en": "StarBunny"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "StarBunny"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/StarBunny.png",
   "unlock": "SpecialEvents"
 }

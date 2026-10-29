@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Giraffe.png",
   "id": "Giraffe",
   "name": {
     "en": "Giraffe"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Giraffe"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Giraffe.png",
   "unlock": "Dungeon2"
 }

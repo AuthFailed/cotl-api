@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "يحافظ على دفء الرحالة في الرحلات الطويلة جدًا.",
+    "de": "Hat einen Pilger auf einer sehr langen Reise warmgehalten.",
+    "en": "Kept a pilgrim warm on a long, long journey.",
+    "es": "Guareció del frío a una peregrina durante una larga travesía.",
+    "fr": "A gardé une pèlerine au chaud lors d'un long, très long voyage.",
+    "fr-CA": "A gardé une pèlerine au chaud lors d'un très, très long voyage.",
+    "it": "Ha tenuto al caldo una pellegrina durante il suo lungo viaggio.",
+    "ja": "長い長い旅路の中で、とある巡礼者を寒さから守り続けた服",
+    "ko": "순례자를 오랜 여정 동안 따뜻하게 감싸줍니다.",
+    "nl": "Hield een pelgrim warm tijdens een lange, lange reis.",
+    "pt-BR": "Aquece o peregrino em sua longa jornada.",
+    "ru": "Накидка, согревавшая паломницу во время долгих странствий.",
+    "tr": "Bir seyyahı uzun, çok uzun yolculuklarda sıcak tutabilir.",
+    "zh-CN": "在漫长的旅途中为朝圣者保暖。",
+    "zh-TW": "在朝聖者漫長的旅途中保暖。"
+  },
+  "descriptionPlain": {
+    "ar": "يحافظ على دفء الرحالة في الرحلات الطويلة جدًا.",
+    "de": "Hat einen Pilger auf einer sehr langen Reise warmgehalten.",
+    "en": "Kept a pilgrim warm on a long, long journey.",
+    "es": "Guareció del frío a una peregrina durante una larga travesía.",
+    "fr": "A gardé une pèlerine au chaud lors d'un long, très long voyage.",
+    "fr-CA": "A gardé une pèlerine au chaud lors d'un très, très long voyage.",
+    "it": "Ha tenuto al caldo una pellegrina durante il suo lungo viaggio.",
+    "ja": "長い長い旅路の中で、とある巡礼者を寒さから守り続けた服",
+    "ko": "순례자를 오랜 여정 동안 따뜻하게 감싸줍니다.",
+    "nl": "Hield een pelgrim warm tijdens een lange, lange reis.",
+    "pt-BR": "Aquece o peregrino em sua longa jornada.",
+    "ru": "Накидка, согревавшая паломницу во время долгих странствий.",
+    "tr": "Bir seyyahı uzun, çok uzun yolculuklarda sıcak tutabilir.",
+    "zh-CN": "在漫长的旅途中为朝圣者保暖。",
+    "zh-TW": "在朝聖者漫長的旅途中保暖。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "pilgrim"
+  ],
+  "icon": "icons/outfits/Pilgrim_DLC.png",
+  "id": "Pilgrim_DLC",
+  "name": {
+    "ar": "معطف جالالا",
+    "de": "Jalalas Mantel",
+    "en": "Jalala's Coat",
+    "es": "Abrigo de Jalala",
+    "fr": "Manteau de Jalala",
+    "fr-CA": "Manteau de Jalala",
+    "it": "Cappotto di Jalala",
+    "ja": "ヤララのコート",
+    "ko": "잘랄라의 외투",
+    "nl": "Jalala's jas",
+    "pt-BR": "Casaco de Jalala",
+    "ru": "Плащ Джалалы",
+    "tr": "Jalala'nın Paltosu",
+    "zh-CN": "贾拉拉的外衣",
+    "zh-TW": "賈拉拉的外衣"
+  },
+  "namePlain": {
+    "ar": "معطف جالالا",
+    "de": "Jalalas Mantel",
+    "en": "Jalala's Coat",
+    "es": "Abrigo de Jalala",
+    "fr": "Manteau de Jalala",
+    "fr-CA": "Manteau de Jalala",
+    "it": "Cappotto di Jalala",
+    "ja": "ヤララのコート",
+    "ko": "잘랄라의 외투",
+    "nl": "Jalala's jas",
+    "pt-BR": "Casaco de Jalala",
+    "ru": "Плащ Джалалы",
+    "tr": "Jalala'nın Paltosu",
+    "zh-CN": "贾拉拉的外衣",
+    "zh-TW": "賈拉拉的外衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Pilgrim_DLC.png"
+}

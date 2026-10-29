@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Snail.png",
   "id": "Snail",
   "name": {
     "en": "Snail"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Snail"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Snail.png",
   "unlock": "Other"
 }

@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "صنعته النيران وعاد من الرماد. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Im Feuer geschmiedet und in der Asche wiedergeboren. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "In fire forged and ash reborn. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Forjado en el fuego y renacido de las cenizas. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Forgée dans le feu, puis de nouveau par les cendres. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Forgée dans le feu, puis de nouveau par les cendres. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Forgiato nel fuoco e rinato dalla cenere. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "炎によって鍛えられ、灰から再び生まれた。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "불의 잿더미 속에서는 강인하게 단련된 자가 새로 태어나니. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Gesmeed in vuur en herboren in as. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "No fogo forjado, nas cinzas renascido. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние той, что прошла огонь и возродилась из пепла.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Ateşten işlenen, külden doğan... <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "经烈火淬炼，于灰烬中重生。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "在烈火中鍛造，在灰燼中重生。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "صنعته النيران وعاد من الرماد.\nلا يمنح مزايا.",
+    "de": "Im Feuer geschmiedet und in der Asche wiedergeboren.\nGewährt keine Boni.",
+    "en": "In fire forged and ash reborn.\nProvides no bonuses.",
+    "es": "Forjado en el fuego y renacido de las cenizas.\nNo otorga nada especial.",
+    "fr": "Forgée dans le feu, puis de nouveau par les cendres.\nN'octroie aucun bonus.",
+    "fr-CA": "Forgée dans le feu, puis de nouveau par les cendres.\nN'octroie aucun bonus.",
+    "it": "Forgiato nel fuoco e rinato dalla cenere.\nNon fornisce bonus.",
+    "ja": "炎によって鍛えられ、灰から再び生まれた。\nボーナスなし。",
+    "ko": "불의 잿더미 속에서는 강인하게 단련된 자가 새로 태어나니.\n특별한 효과는 없습니다.",
+    "nl": "Gesmeed in vuur en herboren in as.\nGeeft geen bonussen.",
+    "pt-BR": "No fogo forjado, nas cinzas renascido.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние той, что прошла огонь и возродилась из пепла.\nНе даёт преимуществ.",
+    "tr": "Ateşten işlenen, külden doğan...\nİlave özellik sağlamaz.",
+    "zh-CN": "经烈火淬炼，于灰烬中重生。\n没有特殊效果。",
+    "zh-TW": "在烈火中鍛造，在灰燼中重生。\n沒有特殊效果。"
+  },
+  "fleece": 672,
+  "icon": "icons/fleeces/Fleece672.png",
+  "id": "Fleece672",
+  "name": {
+    "ar": "رداء المسفوعة",
+    "de": "Vlies der Versengten",
+    "en": "Fleece of the Charred",
+    "es": "Vellocino de la Calcinada",
+    "fr": "Pelisse de la brûlée",
+    "fr-CA": "Toison de la brûlée",
+    "it": "Vello dell'arsa",
+    "ja": "黒焦げの羊毛",
+    "ko": "그슬린 자의 양털",
+    "nl": "Vacht van de verschroeide",
+    "pt-BR": "Lã da Incineração",
+    "ru": "Руно опаления",
+    "tr": "Yanığın Postu",
+    "zh-CN": "烧焦者毛纺",
+    "zh-TW": "焦黑毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المسفوعة",
+    "de": "Vlies der Versengten",
+    "en": "Fleece of the Charred",
+    "es": "Vellocino de la Calcinada",
+    "fr": "Pelisse de la brûlée",
+    "fr-CA": "Toison de la brûlée",
+    "it": "Vello dell'arsa",
+    "ja": "黒焦げの羊毛",
+    "ko": "그슬린 자의 양털",
+    "nl": "Vacht van de verschroeide",
+    "pt-BR": "Lã da Incineração",
+    "ru": "Руно опаления",
+    "tr": "Yanığın Postu",
+    "zh-CN": "烧焦者毛纺",
+    "zh-TW": "焦黑毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece672.png"
+}

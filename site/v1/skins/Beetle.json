@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Beetle.png",
   "id": "Beetle",
   "name": {
     "en": "Beetle"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Beetle"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Beetle.png",
   "unlock": "Dungeon4"
 }

@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يعبر عن روح مرتديه الإيجابية. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Vermittelt das strahlende Wesen des Trägers. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Conveys the bright nature of the wearer. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Refleja la naturaleza brillante de quien lo lleva. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Reflète la personnalité rayonnante de son propriétaire. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Reflète l'esprit vif de son propriétaire. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Trasmette la brillante natura del suo portatore. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "明るい性格を表すような、そんな派手な服装。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "주인의 명민한 면모를 드러냅니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Straalt het heldere karakter van de drager uit. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Exprime a natureza brilhante do usuário. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние, отражающее жизнерадостный характер своего владельца.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Giyenin parlak dehâsını yansıtır. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "与穿戴者的聪慧相得益彰。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "傳遞穿戴者的聰慧本質。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "يعبر عن روح مرتديه الإيجابية.\nلا يمنح مزايا.",
+    "de": "Vermittelt das strahlende Wesen des Trägers.\nGewährt keine Boni.",
+    "en": "Conveys the bright nature of the wearer.\nProvides no bonuses.",
+    "es": "Refleja la naturaleza brillante de quien lo lleva.\nNo otorga nada especial.",
+    "fr": "Reflète la personnalité rayonnante de son propriétaire.\nN'octroie aucun bonus.",
+    "fr-CA": "Reflète l'esprit vif de son propriétaire.\nN'octroie aucun bonus.",
+    "it": "Trasmette la brillante natura del suo portatore.\nNon fornisce bonus.",
+    "ja": "明るい性格を表すような、そんな派手な服装。\nボーナスなし。",
+    "ko": "주인의 명민한 면모를 드러냅니다.\n특별한 효과는 없습니다.",
+    "nl": "Straalt het heldere karakter van de drager uit.\nGeeft geen bonussen.",
+    "pt-BR": "Exprime a natureza brilhante do usuário.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние, отражающее жизнерадостный характер своего владельца.\nНе даёт преимуществ.",
+    "tr": "Giyenin parlak dehâsını yansıtır.\nİlave özellik sağlamaz.",
+    "zh-CN": "与穿戴者的聪慧相得益彰。\n没有特殊效果。",
+    "zh-TW": "傳遞穿戴者的聰慧本質。\n沒有特殊效果。"
+  },
+  "fleece": 673,
+  "icon": "icons/fleeces/Fleece673.png",
+  "id": "Fleece673",
+  "name": {
+    "ar": "رداء الماكر",
+    "de": "Vlies des Klugen",
+    "en": "Fleece of the Shrewd",
+    "es": "Vellocino del Astuto",
+    "fr": "Pelisse du rusé",
+    "fr-CA": "Toison du rusé",
+    "it": "Vello dell'accorto",
+    "ja": "観察者の羊毛",
+    "ko": "명민한 자의 양털",
+    "nl": "Vacht van de gehaaide",
+    "pt-BR": "Lã da Perspicácia",
+    "ru": "Руно хитрости",
+    "tr": "Kurnazın Postu",
+    "zh-CN": "精明者毛纺",
+    "zh-TW": "精明者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الماكر",
+    "de": "Vlies des Klugen",
+    "en": "Fleece of the Shrewd",
+    "es": "Vellocino del Astuto",
+    "fr": "Pelisse du rusé",
+    "fr-CA": "Toison du rusé",
+    "it": "Vello dell'accorto",
+    "ja": "観察者の羊毛",
+    "ko": "명민한 자의 양털",
+    "nl": "Vacht van de gehaaide",
+    "pt-BR": "Lã da Perspicácia",
+    "ru": "Руно хитрости",
+    "tr": "Kurnazın Postu",
+    "zh-CN": "精明者毛纺",
+    "zh-TW": "精明者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece673.png"
+}

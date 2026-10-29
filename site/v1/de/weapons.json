@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Axe",
+    "name": "Beil des Abtrünnigen",
+    "thumb": "icons/weapons/64/Axe.png"
+  },
+  {
+    "id": "Axe_Critical",
+    "name": "Gnadenlose Axt",
+    "thumb": "icons/weapons/64/Axe_Critical.png"
+  },
+  {
+    "id": "Axe_Fervour",
+    "name": "Eiferaxt",
+    "thumb": "icons/weapons/64/Axe_Fervour.png"
+  },
+  {
+    "id": "Axe_Godly",
+    "name": "Göttliche Axt",
+    "thumb": "icons/weapons/64/Axe_Godly.png"
+  },
+  {
+    "id": "Axe_Healing",
+    "name": "Vampiraxt",
+    "thumb": "icons/weapons/64/Axe_Healing.png"
+  },
+  {
+    "id": "Axe_Legendary",
+    "name": "Gemetzel der Lämmer",
+    "thumb": "icons/weapons/64/Axe_Legendary.png"
+  },
+  {
+    "id": "Axe_Nercomancy",
+    "name": "Nekromantenaxt",
+    "thumb": "icons/weapons/64/Axe_Nercomancy.png"
+  },
+  {
+    "id": "Axe_Poison",
+    "name": "Tückische Axt",
+    "thumb": "icons/weapons/64/Axe_Poison.png"
+  },
+  {
+    "id": "Blunderbuss",
+    "name": "Chaoskanone",
+    "thumb": "icons/weapons/64/Blunderbuss.png"
+  },
+  {
+    "id": "Blunderbuss_Critical",
+    "name": "Gnadenlose Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Critical.png"
+  },
+  {
+    "id": "Blunderbuss_Fervour",
+    "name": "Eifer-Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Fervour.png"
+  },
+  {
+    "id": "Blunderbuss_Godly",
+    "name": "Göttliche Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Godly.png"
+  },
+  {
+    "id": "Blunderbuss_Healing",
+    "name": "Vampir-Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Healing.png"
+  },
+  {
+    "id": "Blunderbuss_Legendary",
+    "name": "Schicksal von Plimbo dem Ersten",
+    "thumb": "icons/weapons/64/Blunderbuss_Legendary.png"
+  },
+  {
+    "id": "Blunderbuss_Nercomancy",
+    "name": "Nekromanten-Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Nercomancy.png"
+  },
+  {
+    "id": "Blunderbuss_Poison",
+    "name": "Tückische Donnerbüchse",
+    "thumb": "icons/weapons/64/Blunderbuss_Poison.png"
+  },
+  {
+    "id": "Chain",
+    "name": "Knüppel des Kämpfers",
+    "thumb": "icons/weapons/64/Chain.png"
+  },
+  {
+    "id": "Chain_Critical",
+    "name": "Gnadenloser Morgenstern",
+    "thumb": "icons/weapons/64/Chain_Critical.png"
+  },
+  {
+    "id": "Chain_Fervour",
+    "name": "Eifermorgenstern",
+    "thumb": "icons/weapons/64/Chain_Fervour.png"
+  },
+  {
+    "id": "Chain_Godly",
+    "name": "Göttlicher Morgenstern",
+    "thumb": "icons/weapons/64/Chain_Godly.png"
+  },
+  {
+    "id": "Chain_Healing",
+    "name": "Vampirmorgenstern",
+    "thumb": "icons/weapons/64/Chain_Healing.png"
+  },
+  {
+    "id": "Chain_Legendary",
+    "name": "Yngyas Qualen",
+    "thumb": "icons/weapons/64/Chain_Legendary.png"
+  },
+  {
+    "id": "Chain_Nercomancy",
+    "name": "Nekromantenmorgenstern",
+    "thumb": "icons/weapons/64/Chain_Nercomancy.png"
+  },
+  {
+    "id": "Chain_Poison",
+    "name": "Tückischer Morgenstern",
+    "thumb": "icons/weapons/64/Chain_Poison.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "Klinge des Verräters",
+    "thumb": "icons/weapons/64/Dagger.png"
+  },
+  {
+    "id": "Dagger_Critical",
+    "name": "Gnadenloser Dolch",
+    "thumb": "icons/weapons/64/Dagger_Critical.png"
+  },
+  {
+    "id": "Dagger_Fervour",
+    "name": "Eiferdolch",
+    "thumb": "icons/weapons/64/Dagger_Fervour.png"
+  },
+  {
+    "id": "Dagger_Godly",
+    "name": "Göttlicher Dolch",
+    "thumb": "icons/weapons/64/Dagger_Godly.png"
+  },
+  {
+    "id": "Dagger_Healing",
+    "name": "Vampirdolch",
+    "thumb": "icons/weapons/64/Dagger_Healing.png"
+  },
+  {
+    "id": "Dagger_Legendary",
+    "name": "Nirahs Untergang",
+    "thumb": "icons/weapons/64/Dagger_Legendary.png"
+  },
+  {
+    "id": "Dagger_Nercomancy",
+    "name": "Nekromantendolch",
+    "thumb": "icons/weapons/64/Dagger_Nercomancy.png"
+  },
+  {
+    "id": "Dagger_Poison",
+    "name": "Tückischer Dolch",
+    "thumb": "icons/weapons/64/Dagger_Poison.png"
+  },
+  {
+    "id": "Gauntlet",
+    "name": "Panzerhandschuhe des Sturms",
+    "thumb": "icons/weapons/64/Gauntlet.png"
+  },
+  {
+    "id": "Gauntlet_Critical",
+    "name": "Gnadenloser Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Critical.png"
+  },
+  {
+    "id": "Gauntlet_Fervour",
+    "name": "Eifer-Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Fervour.png"
+  },
+  {
+    "id": "Gauntlet_Godly",
+    "name": "Göttlicher Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Godly.png"
+  },
+  {
+    "id": "Gauntlet_Healing",
+    "name": "Vampir-Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Healing.png"
+  },
+  {
+    "id": "Gauntlet_Legendary",
+    "name": "Beschmutzer des Göttlichen",
+    "thumb": "icons/weapons/64/Gauntlet_Legendary.png"
+  },
+  {
+    "id": "Gauntlet_Nercomancy",
+    "name": "Nekromanten-Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Nercomancy.png"
+  },
+  {
+    "id": "Gauntlet_Poison",
+    "name": "Tückischer Panzerhandschuh",
+    "thumb": "icons/weapons/64/Gauntlet_Poison.png"
+  },
+  {
+    "id": "Hammer",
+    "name": "Hammer des Kriegstreibers",
+    "thumb": "icons/weapons/64/Hammer.png"
+  },
+  {
+    "id": "Hammer_Critical",
+    "name": "Gnadenloser Hammer",
+    "thumb": "icons/weapons/64/Hammer_Critical.png"
+  },
+  {
+    "id": "Hammer_Fervour",
+    "name": "Eiferhammer",
+    "thumb": "icons/weapons/64/Hammer_Fervour.png"
+  },
+  {
+    "id": "Hammer_Godly",
+    "name": "Göttlicher Hammer",
+    "thumb": "icons/weapons/64/Hammer_Godly.png"
+  },
+  {
+    "id": "Hammer_Healing",
+    "name": "Vampirhammer",
+    "thumb": "icons/weapons/64/Hammer_Healing.png"
+  },
+  {
+    "id": "Hammer_Legendary",
+    "name": "Geißel von Svarog",
+    "thumb": "icons/weapons/64/Hammer_Legendary.png"
+  },
+  {
+    "id": "Hammer_Nercomancy",
+    "name": "Nekromantenhammer",
+    "thumb": "icons/weapons/64/Hammer_Nercomancy.png"
+  },
+  {
+    "id": "Hammer_Poison",
+    "name": "Tückischer Hammer",
+    "thumb": "icons/weapons/64/Hammer_Poison.png"
+  },
+  {
+    "id": "Shield",
+    "name": "Wache der Überzeugung",
+    "thumb": "icons/weapons/64/Shield.png"
+  },
+  {
+    "id": "Shield_Critical",
+    "name": "Gnadenloser Schild",
+    "thumb": "icons/weapons/64/Shield_Critical.png"
+  },
+  {
+    "id": "Shield_Fervour",
+    "name": "Eiferschild",
+    "thumb": "icons/weapons/64/Shield_Fervour.png"
+  },
+  {
+    "id": "Shield_Godly",
+    "name": "Göttlicher Schild",
+    "thumb": "icons/weapons/64/Shield_Godly.png"
+  },
+  {
+    "id": "Shield_Healing",
+    "name": "Vampirschild",
+    "thumb": "icons/weapons/64/Shield_Healing.png"
+  },
+  {
+    "id": "Shield_Nercomancy",
+    "name": "Nekromantenschild",
+    "thumb": "icons/weapons/64/Shield_Nercomancy.png"
+  },
+  {
+    "id": "Shield_Poison",
+    "name": "Tückischer Schild",
+    "thumb": "icons/weapons/64/Shield_Poison.png"
+  },
+  {
+    "id": "Sword",
+    "name": "Klinge des Kreuzfahrers",
+    "thumb": "icons/weapons/64/Sword.png"
+  },
+  {
+    "id": "Sword_Critical",
+    "name": "Gnadenloses Schwert",
+    "thumb": "icons/weapons/64/Sword_Critical.png"
+  },
+  {
+    "id": "Sword_Fervour",
+    "name": "Eiferschwert",
+    "thumb": "icons/weapons/64/Sword_Fervour.png"
+  },
+  {
+    "id": "Sword_Godly",
+    "name": "Göttliches Schwert",
+    "thumb": "icons/weapons/64/Sword_Godly.png"
+  },
+  {
+    "id": "Sword_Healing",
+    "name": "Vampirschwert",
+    "thumb": "icons/weapons/64/Sword_Healing.png"
+  },
+  {
+    "id": "Sword_Legendary",
+    "name": "Goldenes Ende",
+    "thumb": "icons/weapons/64/Sword_Legendary.png"
+  },
+  {
+    "id": "Sword_Nercomancy",
+    "name": "Nekromantenschwert",
+    "thumb": "icons/weapons/64/Sword_Nercomancy.png"
+  },
+  {
+    "id": "Sword_Poison",
+    "name": "Tückisches Schwert",
+    "thumb": "icons/weapons/64/Sword_Poison.png"
+  },
+  {
+    "id": "Sword_Ratau",
+    "name": "Rattaus Stab",
+    "thumb": "icons/weapons/64/Sword_Ratau.png"
+  }
+]

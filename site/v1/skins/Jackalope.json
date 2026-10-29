@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Jackalope.png",
   "id": "Jackalope",
   "name": {
     "en": "Jackalope"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Jackalope"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Jackalope.png",
   "unlock": "Dungeon5"
 }

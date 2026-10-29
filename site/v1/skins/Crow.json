@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Crow.png",
   "id": "Crow",
   "name": {
     "en": "Crow"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Crow"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Crow.png",
   "unlock": "SpecialEvents"
 }

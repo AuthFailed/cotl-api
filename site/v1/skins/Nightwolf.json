@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Nightwolf.png",
   "id": "Nightwolf",
   "name": {
     "en": "Night Wolf"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Night Wolf"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Nightwolf.png",
   "unlock": "Other"
 }

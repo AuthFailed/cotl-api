@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Ibex.png",
   "id": "Ibex",
   "name": {
     "en": "Ibex"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Ibex"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Ibex.png",
   "unlock": "Dungeon5"
 }

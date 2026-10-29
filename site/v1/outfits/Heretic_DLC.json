@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "BONE",
+      "quantity": 50
+    }
+  ],
+  "description": {
+    "ar": "ثوب طويل بسيط لم يعد رائجًا.",
+    "de": "Schlichte Roben, die allmählich aus der Mode kommen.",
+    "en": "Simple robes, going out of style.",
+    "es": "Una sencilla túnica que ha pasado de moda.",
+    "fr": "Une robe simple, un peu démodée.",
+    "fr-CA": "Une robe simple, un peu démodée.",
+    "it": "Una veste semplice, dall'aura misteriosa.",
+    "ja": "流行遅れの簡素なローブ",
+    "ko": "단순한 예복으로, 유행에 뒤떨어집니다.",
+    "nl": "Eenvoudig gewaad dat uit de mode is.",
+    "pt-BR": "Trajes simples estão saindo da moda.",
+    "ru": "Уже не модное одеяние служителя древней веры.",
+    "tr": "Sade bir cübbe, modası geçiyor.",
+    "zh-CN": "简单的教服，退流行了。",
+    "zh-TW": "簡單的教服，退流行了。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب طويل بسيط لم يعد رائجًا.",
+    "de": "Schlichte Roben, die allmählich aus der Mode kommen.",
+    "en": "Simple robes, going out of style.",
+    "es": "Una sencilla túnica que ha pasado de moda.",
+    "fr": "Une robe simple, un peu démodée.",
+    "fr-CA": "Une robe simple, un peu démodée.",
+    "it": "Una veste semplice, dall'aura misteriosa.",
+    "ja": "流行遅れの簡素なローブ",
+    "ko": "단순한 예복으로, 유행에 뒤떨어집니다.",
+    "nl": "Eenvoudig gewaad dat uit de mode is.",
+    "pt-BR": "Trajes simples estão saindo da moda.",
+    "ru": "Уже не модное одеяние служителя древней веры.",
+    "tr": "Sade bir cübbe, modası geçiyor.",
+    "zh-CN": "简单的教服，退流行了。",
+    "zh-TW": "簡單的教服，退流行了。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "heretic"
+  ],
+  "icon": "icons/outfits/Heretic_DLC.png",
+  "id": "Heretic_DLC",
+  "name": {
+    "ar": "تابع العقيدة القديمة",
+    "de": "Akolyth des alten Glaubens",
+    "en": "Acolyte of the Old Faith",
+    "es": "Acólito de la Antigua Fe",
+    "fr": "Acolyte de la Vieille croyance",
+    "fr-CA": "Acolyte de la Vieille croyance",
+    "it": "Seguace dell'Antico Credo",
+    "ja": "旧き信仰の侍者",
+    "ko": "옛 신앙의 복사",
+    "nl": "Acoliet van het Oude Geloof",
+    "pt-BR": "Acólito da Antiga Fé",
+    "ru": "Древняя мантия",
+    "tr": "Kadim İnanç'ın Destekçisi",
+    "zh-CN": "古老信仰的侍祭",
+    "zh-TW": "古老信仰的侍祭"
+  },
+  "namePlain": {
+    "ar": "تابع العقيدة القديمة",
+    "de": "Akolyth des alten Glaubens",
+    "en": "Acolyte of the Old Faith",
+    "es": "Acólito de la Antigua Fe",
+    "fr": "Acolyte de la Vieille croyance",
+    "fr-CA": "Acolyte de la Vieille croyance",
+    "it": "Seguace dell'Antico Credo",
+    "ja": "旧き信仰の侍者",
+    "ko": "옛 신앙의 복사",
+    "nl": "Acoliet van het Oude Geloof",
+    "pt-BR": "Acólito da Antiga Fé",
+    "ru": "Древняя мантия",
+    "tr": "Kadim İnanç'ın Destekçisi",
+    "zh-CN": "古老信仰的侍祭",
+    "zh-TW": "古老信仰的侍祭"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Heretic_DLC.png"
+}

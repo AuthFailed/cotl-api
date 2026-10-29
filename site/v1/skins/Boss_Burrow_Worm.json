@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Burrow_Worm.png",
   "id": "Boss_Burrow_Worm",
   "name": {
     "en": "Boss Burrow Worm"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Burrow Worm"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Burrow_Worm.png",
   "unlock": "Dungeon1"
 }

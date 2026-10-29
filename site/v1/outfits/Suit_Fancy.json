@@ -1,0 +1,95 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 1
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "حُلّة أنيقة تمنح مظهرًا مميزًا.",
+    "de": "Ein eleganter Anzug für eine ganz besondere Person.",
+    "en": "A smart suit for that special someone.",
+    "es": "Un traje elegante para tu media naranja.",
+    "fr": "Un costume élégant pour une occasion spéciale.",
+    "fr-CA": "Un costume élégant pour une occasion spéciale.",
+    "it": "Un completo elegante per l'anima gemella.",
+    "ja": "特別な人のための、クールなスーツ",
+    "ko": "특별한 누군가를 위한 멋진 의복입니다.",
+    "nl": "Een mooi pak voor die ene speciale persoon.",
+    "pt-BR": "Um terno elegante para alguém especial.",
+    "ru": "Элегантная одежда, напоминающая о церемонии.",
+    "tr": "Hayatına anlam katan kişiye özel, şık bir kıyafet.",
+    "zh-CN": "给特别对象的整齐礼服。",
+    "zh-TW": "給特別對象的整齊禮服。"
+  },
+  "descriptionPlain": {
+    "ar": "حُلّة أنيقة تمنح مظهرًا مميزًا.",
+    "de": "Ein eleganter Anzug für eine ganz besondere Person.",
+    "en": "A smart suit for that special someone.",
+    "es": "Un traje elegante para tu media naranja.",
+    "fr": "Un costume élégant pour une occasion spéciale.",
+    "fr-CA": "Un costume élégant pour une occasion spéciale.",
+    "it": "Un completo elegante per l'anima gemella.",
+    "ja": "特別な人のための、クールなスーツ",
+    "ko": "특별한 누군가를 위한 멋진 의복입니다.",
+    "nl": "Een mooi pak voor die ene speciale persoon.",
+    "pt-BR": "Um terno elegante para alguém especial.",
+    "ru": "Элегантная одежда, напоминающая о церемонии.",
+    "tr": "Hayatına anlam katan kişiye özel, şık bir kıyafet.",
+    "zh-CN": "给特别对象的整齐礼服。",
+    "zh-TW": "給特別對象的整齊禮服。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Suit_Fancy.png",
+  "id": "Suit_Fancy",
+  "name": {
+    "ar": "حُلّة الزفاف",
+    "de": "Hochzeitsanzug",
+    "en": "Wedding Suit",
+    "es": "Traje de boda",
+    "fr": "Costume de mariage",
+    "fr-CA": "Costume de mariage",
+    "it": "Completo nuziale",
+    "ja": "ウェディングスーツ",
+    "ko": "웨딩 슈트",
+    "nl": "Trouwpak",
+    "pt-BR": "Terno de Casamento",
+    "ru": "Свадебный костюм",
+    "tr": "Damatlık",
+    "zh-CN": "婚礼西装",
+    "zh-TW": "婚禮西裝"
+  },
+  "namePlain": {
+    "ar": "حُلّة الزفاف",
+    "de": "Hochzeitsanzug",
+    "en": "Wedding Suit",
+    "es": "Traje de boda",
+    "fr": "Costume de mariage",
+    "fr-CA": "Costume de mariage",
+    "it": "Completo nuziale",
+    "ja": "ウェディングスーツ",
+    "ko": "웨딩 슈트",
+    "nl": "Trouwpak",
+    "pt-BR": "Terno de Casamento",
+    "ru": "Свадебный костюм",
+    "tr": "Damatlık",
+    "zh-CN": "婚礼西装",
+    "zh-TW": "婚禮西裝"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Suit_Fancy.png"
+}

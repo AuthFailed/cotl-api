@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Cultist_DLC",
+    "name": "Frühlingstunika",
+    "thumb": "icons/outfits/64/Cultist_DLC.png"
+  },
+  {
+    "id": "Cultist_DLC2",
+    "name": "Blütenkleid",
+    "thumb": "icons/outfits/64/Cultist_DLC2.png"
+  },
+  {
+    "id": "DLC_1",
+    "name": "Kluft der Kawaii",
+    "thumb": "icons/outfits/64/DLC_1.png"
+  },
+  {
+    "id": "DLC_2",
+    "name": "Freibauern-Mantel",
+    "thumb": "icons/outfits/64/DLC_2.png"
+  },
+  {
+    "id": "DLC_3",
+    "name": "Gotisches Kleid",
+    "thumb": "icons/outfits/64/DLC_3.png"
+  },
+  {
+    "id": "DLC_4",
+    "name": "Mystische Roben",
+    "thumb": "icons/outfits/64/DLC_4.png"
+  },
+  {
+    "id": "DLC_5",
+    "name": "Offiziersanzug",
+    "thumb": "icons/outfits/64/DLC_5.png"
+  },
+  {
+    "id": "DLC_6",
+    "name": "Olympionik",
+    "thumb": "icons/outfits/64/DLC_6.png"
+  },
+  {
+    "id": "Heretic_DLC",
+    "name": "Akolyth des alten Glaubens",
+    "thumb": "icons/outfits/64/Heretic_DLC.png"
+  },
+  {
+    "id": "Heretic_DLC2",
+    "name": "Vollstrecker des alten Glaubens",
+    "thumb": "icons/outfits/64/Heretic_DLC2.png"
+  },
+  {
+    "id": "Naked",
+    "name": "Nackt",
+    "thumb": "icons/outfits/64/Naked.png"
+  },
+  {
+    "id": "Normal_1",
+    "name": "Bauernbluse",
+    "thumb": "icons/outfits/64/Normal_1.png"
+  },
+  {
+    "id": "Normal_10",
+    "name": "Kaufmannshemd",
+    "thumb": "icons/outfits/64/Normal_10.png"
+  },
+  {
+    "id": "Normal_11",
+    "name": "Abendkleid",
+    "thumb": "icons/outfits/64/Normal_11.png"
+  },
+  {
+    "id": "Normal_12",
+    "name": "Vornehme Jacke",
+    "thumb": "icons/outfits/64/Normal_12.png"
+  },
+  {
+    "id": "Normal_2",
+    "name": "Arbeitertunika",
+    "thumb": "icons/outfits/64/Normal_2.png"
+  },
+  {
+    "id": "Normal_3",
+    "name": "Zerlumpte Roben",
+    "thumb": "icons/outfits/64/Normal_3.png"
+  },
+  {
+    "id": "Normal_4",
+    "name": "Gelehrtenhemd",
+    "thumb": "icons/outfits/64/Normal_4.png"
+  },
+  {
+    "id": "Normal_5",
+    "name": "Bescheidene Roben",
+    "thumb": "icons/outfits/64/Normal_5.png"
+  },
+  {
+    "id": "Normal_6",
+    "name": "Zweckmäßiges Kleid",
+    "thumb": "icons/outfits/64/Normal_6.png"
+  },
+  {
+    "id": "Normal_7",
+    "name": "Bastrock",
+    "thumb": "icons/outfits/64/Normal_7.png"
+  },
+  {
+    "id": "Normal_8",
+    "name": "Nachthemd",
+    "thumb": "icons/outfits/64/Normal_8.png"
+  },
+  {
+    "id": "Normal_9",
+    "name": "Picknick-Kleidung",
+    "thumb": "icons/outfits/64/Normal_9.png"
+  },
+  {
+    "id": "Normal_MajorDLC_1",
+    "name": "Sträflingsuniform",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_1.png"
+  },
+  {
+    "id": "Normal_MajorDLC_2",
+    "name": "Badeanzug",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_2.png"
+  },
+  {
+    "id": "Normal_MajorDLC_3",
+    "name": "Leopardenmuster-Kleid",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_3.png"
+  },
+  {
+    "id": "Normal_MajorDLC_4",
+    "name": "Bandagen",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_4.png"
+  },
+  {
+    "id": "Normal_MajorDLC_5",
+    "name": "Mehrschichtige Jacke",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_5.png"
+  },
+  {
+    "id": "Normal_MajorDLC_6",
+    "name": "Kot-Kostüm",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_6.png"
+  },
+  {
+    "id": "Pilgrim_DLC",
+    "name": "Jalalas Mantel",
+    "thumb": "icons/outfits/64/Pilgrim_DLC.png"
+  },
+  {
+    "id": "Pilgrim_DLC2",
+    "name": "Rinors Robe",
+    "thumb": "icons/outfits/64/Pilgrim_DLC2.png"
+  },
+  {
+    "id": "Robes_Fancy",
+    "name": "Hochzeitskleid",
+    "thumb": "icons/outfits/64/Robes_Fancy.png"
+  },
+  {
+    "id": "Special_1",
+    "name": "Chefkoch-Jacke",
+    "thumb": "icons/outfits/64/Special_1.png"
+  },
+  {
+    "id": "Special_2",
+    "name": "Ritterrüstung",
+    "thumb": "icons/outfits/64/Special_2.png"
+  },
+  {
+    "id": "Special_3",
+    "name": "Zeremonienroben",
+    "thumb": "icons/outfits/64/Special_3.png"
+  },
+  {
+    "id": "Special_4",
+    "name": "Dienstmädchenkleid",
+    "thumb": "icons/outfits/64/Special_4.png"
+  },
+  {
+    "id": "Special_5",
+    "name": "Schicke Roben",
+    "thumb": "icons/outfits/64/Special_5.png"
+  },
+  {
+    "id": "Special_6",
+    "name": "Getränkemischer-Weste",
+    "thumb": "icons/outfits/64/Special_6.png"
+  },
+  {
+    "id": "Special_7",
+    "name": "Narrenkostüm",
+    "thumb": "icons/outfits/64/Special_7.png"
+  },
+  {
+    "id": "Suit_Fancy",
+    "name": "Hochzeitsanzug",
+    "thumb": "icons/outfits/64/Suit_Fancy.png"
+  },
+  {
+    "id": "Warrior",
+    "name": "Kriegerkürass",
+    "thumb": "icons/outfits/64/Warrior.png"
+  },
+  {
+    "id": "Winter_1",
+    "name": "Flauschiger Pullover",
+    "thumb": "icons/outfits/64/Winter_1.png"
+  },
+  {
+    "id": "Winter_2",
+    "name": "Akolythenpulli",
+    "thumb": "icons/outfits/64/Winter_2.png"
+  },
+  {
+    "id": "Winter_3",
+    "name": "Kuscheliger Schal",
+    "thumb": "icons/outfits/64/Winter_3.png"
+  },
+  {
+    "id": "Winter_4",
+    "name": "Gefütterte Tunika",
+    "thumb": "icons/outfits/64/Winter_4.png"
+  },
+  {
+    "id": "Winter_5",
+    "name": "Grober Mantel",
+    "thumb": "icons/outfits/64/Winter_5.png"
+  },
+  {
+    "id": "Winter_6",
+    "name": "Wolle-gefütterte Roben",
+    "thumb": "icons/outfits/64/Winter_6.png"
+  }
+]

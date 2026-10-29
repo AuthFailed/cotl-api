@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 30
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "ثوب أخضر منسوج من الأزهار.",
+    "de": "Ein opulentes Kleid, das aus Blumen gewoben ist.",
+    "en": "A lush dress, woven of flowers.",
+    "es": "Un bonito vestido tejido con flores.",
+    "fr": "Une robe somptueuse, tissée de fleurs.",
+    "fr-CA": "Une robe somptueuse, tissée de fleurs.",
+    "it": "Un abito lussureggiante, intrecciato di fiori.",
+    "ja": "花が織り込まれた緑豊かな礼装",
+    "ko": "꽃이 무성하게 달려있는 드레스입니다.",
+    "nl": "Een weelderige jurk, geweven van bloemen.",
+    "pt-BR": "Um vestido exuberante feito com flores.",
+    "ru": "Прекрасное одеяние, сплетённое из цветов.",
+    "tr": "Çiçeklerle bezeli, doğayla bütün bir cübbe.",
+    "zh-CN": "用花卉编成的繁茂裙子。",
+    "zh-TW": "用花卉編成的繁茂裙子。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب أخضر منسوج من الأزهار.",
+    "de": "Ein opulentes Kleid, das aus Blumen gewoben ist.",
+    "en": "A lush dress, woven of flowers.",
+    "es": "Un bonito vestido tejido con flores.",
+    "fr": "Une robe somptueuse, tissée de fleurs.",
+    "fr-CA": "Une robe somptueuse, tissée de fleurs.",
+    "it": "Un abito lussureggiante, intrecciato di fiori.",
+    "ja": "花が織り込まれた緑豊かな礼装",
+    "ko": "꽃이 무성하게 달려있는 드레스입니다.",
+    "nl": "Een weelderige jurk, geweven van bloemen.",
+    "pt-BR": "Um vestido exuberante feito com flores.",
+    "ru": "Прекрасное одеяние, сплетённое из цветов.",
+    "tr": "Çiçeklerle bezeli, doğayla bütün bir cübbe.",
+    "zh-CN": "用花卉编成的繁茂裙子。",
+    "zh-TW": "用花卉編成的繁茂裙子。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "cultist"
+  ],
+  "icon": "icons/outfits/Cultist_DLC2.png",
+  "id": "Cultist_DLC2",
+  "name": {
+    "ar": "فستان زهري",
+    "de": "Blütenkleid",
+    "en": "Flowering Frock",
+    "es": "Vestido de flores",
+    "fr": "Robe fleurie",
+    "fr-CA": "Robe fleurie",
+    "it": "Tonaca floreale",
+    "ja": "花の修道服",
+    "ko": "꽃 달린 드레스",
+    "nl": "Bloemetjesjurk",
+    "pt-BR": "Bata Florida",
+    "ru": "Цветочное платье",
+    "tr": "Çiçekli Cübbe",
+    "zh-CN": "花卉连衣裙",
+    "zh-TW": "花卉連衣裙"
+  },
+  "namePlain": {
+    "ar": "فستان زهري",
+    "de": "Blütenkleid",
+    "en": "Flowering Frock",
+    "es": "Vestido de flores",
+    "fr": "Robe fleurie",
+    "fr-CA": "Robe fleurie",
+    "it": "Tonaca floreale",
+    "ja": "花の修道服",
+    "ko": "꽃 달린 드레스",
+    "nl": "Bloemetjesjurk",
+    "pt-BR": "Bata Florida",
+    "ru": "Цветочное платье",
+    "tr": "Çiçekli Cübbe",
+    "zh-CN": "花卉连衣裙",
+    "zh-TW": "花卉連衣裙"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Cultist_DLC2.png"
+}

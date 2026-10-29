@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/LadyBug.png",
   "id": "LadyBug",
   "name": {
     "en": "LadyBug"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "LadyBug"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/LadyBug.png",
   "unlock": "DLC"
 }

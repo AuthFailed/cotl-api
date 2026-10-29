@@ -1,0 +1,26 @@
+{
+  "canAim": true,
+  "castingDuration": 0.5,
+  "chance": 1.0,
+  "damage": 1.0,
+  "delay": 0.5,
+  "description": {
+    "en": "Create a barrier that will take X hits before being destroyed."
+  },
+  "descriptionPlain": {
+    "en": "Create a barrier that will take X hits before being destroyed."
+  },
+  "family": "Barrier",
+  "icon": "icons/curses/Barrier.png",
+  "id": "Barrier",
+  "lore": {
+    "en": "May the Great Ones grant you sanctuary."
+  },
+  "name": {
+    "en": "Sanctuary Raised"
+  },
+  "namePlain": {
+    "en": "Sanctuary Raised"
+  },
+  "thumb": "icons/curses/64/Barrier.png"
+}

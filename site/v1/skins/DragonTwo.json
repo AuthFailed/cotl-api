@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/DragonTwo.png",
   "id": "DragonTwo",
   "name": {
     "en": "DragonTwo"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "DragonTwo"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/DragonTwo.png",
   "unlock": "Dungeon6"
 }

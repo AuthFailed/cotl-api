@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Gorilla.png",
   "id": "Gorilla",
   "name": {
     "en": "Gorilla"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Gorilla"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Gorilla.png",
   "unlock": "DLC"
 }

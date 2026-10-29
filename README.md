@@ -14,6 +14,13 @@ Base URL: `https://api.cotl.info/v1/`
 | `structures.json`, `structures/{id}.json` | every structure |
 | `skins.json`, `skins/{id}.json` | every follower skin (form) |
 | `rituals.json`, `rituals/{id}.json` | every ritual in the ritual menu |
+| `doctrines.json`, `doctrines/{id}.json` | every doctrine the temple and Death Cat offer |
+| `sermons.json`, `sermons/{id}.json` | the sermon categories doctrines belong to |
+| `tarot.json`, `tarot/{id}.json` | every tarot card in the deck |
+| `relics.json`, `weapons.json`, `curses.json` (and `{kind}/{id}.json`) | relics, weapons, curses |
+| `traits.json`, `traits/{id}.json` | follower and cult traits |
+| `outfits.json`, `outfits/{id}.json` | follower outfits from the tailor |
+| `crownAbilities.json`, `fleeces.json` (and `{kind}/{id}.json`) | what the crown menu sells, fleeces |
 | `icons/{kind}/{id}.png`, `icons/{kind}/64/{id}.png` | icons, and the same fitted into 64×64 |
 | `{lang}/{kind}.json` | per language and kind, just `id`, `name` (English if untranslated) and `thumb` |
 | `schema/{index,item,structure,skin}.schema.json` | JSON Schemas |
@@ -48,13 +55,31 @@ the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb`
   `Faith/Sin`, `Aesthetic/Path`, or null), `buildable` (in the build menu), `category` (the game's structure
   category, `FOOD`, `FAITH`, …, for buildable ones, else null)
 - **skin**: `unlock` (where the game drops it: `Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`,
-  `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game,
-  and no icons yet.
+  `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game.
 
 - **ritual**: `cost`, `faith`, `warmth`, `sin` (what performing it changes; faith is the base value, before
   cult traits), `trait` (cult trait it can give, or null), `group` (`secondary`, `pair`, `single`, `special`, as
   the ritual menu lists them), `alternative` (pair rituals: the other choice of the same doctrine; the Crystal
   Doctrine unlocks both), `doctrine` (the doctrine that unlocks it, or null)
+
+- **doctrine**: `category` (a sermon id, or `Special`), `level`, `choice` (`first`/`second`, null for Special),
+  `alternative` (the other choice at that level), `kind` (`Trait`, `FollowerAction`, `Ritual` or null), `ritual`
+- **sermon**: `glyph` (the icon as the game writes it in text: a Font Awesome character or a `<sprite>` tag)
+- **tarot**: `levels` (text of each upgrade level above the first), `lore`, `maxLevel`, `groups` (`default`,
+  `coop`, `dlc`, `majorDlc`, `corrupted`, `mystic`, `rot`, `winter`), `dlc`, `coop`, `weight` (defined but unused
+  by the game, which draws uniformly). The icon is the card as the tarot menu draws it.
+- **relic**: `lore`, `subType`, `interactionType`, `damageType`, `chargeDamage`, `chargeCategory`, `weight`,
+  `requiresCult`, `unlockedBy`, `dlc`, `coop`, `majorDlc`
+- **weapon**: `lore`, `family`, `legendary`, `speed`, `damage` (each hit of the light combo), `heavyDamage`
+- **curse**: `lore`, `family`, `damage`, `delay`, `castingDuration`, `chance`, `canAim`
+- **trait**: `positive`, `groups` (the game's trait lists: `starting`, `rareStarting`, `single`, `faithful`, …),
+  `exclusiveWith`
+- **outfit**: `cost`, `requirements`, `protection`, `effects` (as a meal's), `tab` (the tailor menu tab), `groups`,
+  `forSale`. The icon is the outfit as the tailor draws it.
+- **crownAbility**: `cost`, `dlc`; **fleece**: `fleece` (the game's number), `cost`, `pack`
+
+Skins, tarot cards and outfits have no sprites in the game; their icons are rendered from the game's own
+Spine models at capture time (follower forms with their default colours).
 
 Examples (only `en` and `ru` shown; the real files have every language):
 

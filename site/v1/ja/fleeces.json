@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Blue",
+    "name": "脆弱なる要塞の羊毛",
+    "thumb": "icons/fleeces/64/Blue.png"
+  },
+  {
+    "id": "CurseInsteadOfWeapon",
+    "name": "呪われた聖騎士の羊毛",
+    "thumb": "icons/fleeces/64/CurseInsteadOfWeapon.png"
+  },
+  {
+    "id": "Default",
+    "name": "子羊の羊毛",
+    "thumb": "icons/fleeces/64/Default.png"
+  },
+  {
+    "id": "Fleece666",
+    "name": "固い決意の羊毛",
+    "thumb": "icons/fleeces/64/Fleece666.png"
+  },
+  {
+    "id": "Fleece667",
+    "name": "純真無垢の羊毛",
+    "thumb": "icons/fleeces/64/Fleece667.png"
+  },
+  {
+    "id": "Fleece668",
+    "name": "星見の羊毛",
+    "thumb": "icons/fleeces/64/Fleece668.png"
+  },
+  {
+    "id": "Fleece669",
+    "name": "騎士の羊毛",
+    "thumb": "icons/fleeces/64/Fleece669.png"
+  },
+  {
+    "id": "Fleece670",
+    "name": "牧場主の羊毛",
+    "thumb": "icons/fleeces/64/Fleece670.png"
+  },
+  {
+    "id": "Fleece671",
+    "name": "予言者の羊毛",
+    "thumb": "icons/fleeces/64/Fleece671.png"
+  },
+  {
+    "id": "Fleece672",
+    "name": "黒焦げの羊毛",
+    "thumb": "icons/fleeces/64/Fleece672.png"
+  },
+  {
+    "id": "Fleece673",
+    "name": "観察者の羊毛",
+    "thumb": "icons/fleeces/64/Fleece673.png"
+  },
+  {
+    "id": "Fleece674",
+    "name": "学者の羊毛",
+    "thumb": "icons/fleeces/64/Fleece674.png"
+  },
+  {
+    "id": "Fleece675",
+    "name": "詐称者の羊毛",
+    "thumb": "icons/fleeces/64/Fleece675.png"
+  },
+  {
+    "id": "Fleece676",
+    "name": "カウボーイ",
+    "thumb": "icons/fleeces/64/Fleece676.png"
+  },
+  {
+    "id": "Fleece678",
+    "name": "イングャの羊毛",
+    "thumb": "icons/fleeces/64/Fleece678.png"
+  },
+  {
+    "id": "Fleece679",
+    "name": "若者の羊毛",
+    "thumb": "icons/fleeces/64/Fleece679.png"
+  },
+  {
+    "id": "Fleece681",
+    "name": "勇士の羊毛",
+    "thumb": "icons/fleeces/64/Fleece681.png"
+  },
+  {
+    "id": "Goat",
+    "name": "ゴート",
+    "thumb": "icons/fleeces/64/Goat.png"
+  },
+  {
+    "id": "GodOfDeath",
+    "name": "死の神の羊毛",
+    "thumb": "icons/fleeces/64/GodOfDeath.png"
+  },
+  {
+    "id": "Gold",
+    "name": "黄金の羊毛",
+    "thumb": "icons/fleeces/64/Gold.png"
+  },
+  {
+    "id": "Green",
+    "name": "諸刃の羊毛",
+    "thumb": "icons/fleeces/64/Green.png"
+  },
+  {
+    "id": "HollowHeal",
+    "name": "篤き信仰の羊毛",
+    "thumb": "icons/fleeces/64/HollowHeal.png"
+  },
+  {
+    "id": "NoRolling",
+    "name": "足枷の羊毛",
+    "thumb": "icons/fleeces/64/NoRolling.png"
+  },
+  {
+    "id": "OneHitKills",
+    "name": "狂戦士の羊毛",
+    "thumb": "icons/fleeces/64/OneHitKills.png"
+  },
+  {
+    "id": "Outfit_1001",
+    "name": "有り体の羊毛",
+    "thumb": "icons/fleeces/64/Outfit_1001.png"
+  },
+  {
+    "id": "Outfit_1002",
+    "name": "上質な絹の羊毛",
+    "thumb": "icons/fleeces/64/Outfit_1002.png"
+  },
+  {
+    "id": "Outfit_999",
+    "name": "異端者の羊毛",
+    "thumb": "icons/fleeces/64/Outfit_999.png"
+  },
+  {
+    "id": "Purple",
+    "name": "病みし心臓の羊毛",
+    "thumb": "icons/fleeces/64/Purple.png"
+  },
+  {
+    "id": "RatauCloak",
+    "name": "ネズムのマント",
+    "thumb": "icons/fleeces/64/RatauCloak.png"
+  },
+  {
+    "id": "RatauCloakBloody",
+    "name": "ネズムのマント",
+    "thumb": "icons/fleeces/64/RatauCloakBloody.png"
+  },
+  {
+    "id": "White",
+    "name": "運命の羊毛",
+    "thumb": "icons/fleeces/64/White.png"
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ستُستبدل القلوب كلها بمقدار 1.5x من القلوب الزرقاء.",
+    "de": "Alle Herzen werden durch 1,5 x der Menge an blauen Herzen ersetzt.",
+    "en": "All hearts will be replaced by 1.5x the amount of Blue Hearts.",
+    "es": "Todos los corazones se reemplazan por x1,5 de la cantidad de corazones azules.",
+    "fr": "Tous les cœurs sont remplacés par 1,5x la quantité de cœurs bleus.",
+    "fr-CA": "Tous les cœurs sont remplacés par 1,5x la quantité de cœurs bleus.",
+    "it": "I cuori vengono sostituiti da cuori blu, ma ne possiedi il 50% in più.",
+    "ja": "ハートをすべて失う代わりに、その1.5倍の数量のブルーハートを獲得する。",
+    "ko": "모든 심장이 1.5배의 파란색 심장으로 변경됩니다.",
+    "nl": "Alle harten worden vervangen door 1,5x zoveel blauwe harten.",
+    "pt-BR": "Todos os corações serão substituídos por 1,5x a quantidade de corações azuis.",
+    "ru": "Вы получаете 1,5 голубых сердца вместе каждого красного сердца.",
+    "tr": "Tüm kalpler 1,5 katı fazla değerde Mavi Kalp ile değiştirilir.",
+    "zh-CN": "将所有心替换为 1.5 倍的蓝心。",
+    "zh-TW": "將所有心替換為 1.5 倍的藍心。"
+  },
+  "descriptionPlain": {
+    "ar": "ستُستبدل القلوب كلها بمقدار 1.5x من القلوب الزرقاء.",
+    "de": "Alle Herzen werden durch 1,5 x der Menge an blauen Herzen ersetzt.",
+    "en": "All hearts will be replaced by 1.5x the amount of Blue Hearts.",
+    "es": "Todos los corazones se reemplazan por x1,5 de la cantidad de corazones azules.",
+    "fr": "Tous les cœurs sont remplacés par 1,5x la quantité de cœurs bleus.",
+    "fr-CA": "Tous les cœurs sont remplacés par 1,5x la quantité de cœurs bleus.",
+    "it": "I cuori vengono sostituiti da cuori blu, ma ne possiedi il 50% in più.",
+    "ja": "ハートをすべて失う代わりに、その1.5倍の数量のブルーハートを獲得する。",
+    "ko": "모든 심장이 1.5배의 파란색 심장으로 변경됩니다.",
+    "nl": "Alle harten worden vervangen door 1,5x zoveel blauwe harten.",
+    "pt-BR": "Todos os corações serão substituídos por 1,5x a quantidade de corações azuis.",
+    "ru": "Вы получаете 1,5 голубых сердца вместе каждого красного сердца.",
+    "tr": "Tüm kalpler 1,5 katı fazla değerde Mavi Kalp ile değiştirilir.",
+    "zh-CN": "将所有心替换为 1.5 倍的蓝心。",
+    "zh-TW": "將所有心替換為 1.5 倍的藍心。"
+  },
+  "fleece": 5,
+  "icon": "icons/fleeces/Blue.png",
+  "id": "Blue",
+  "name": {
+    "ar": "رداء القلوب الزرقاء",
+    "de": "Vlies der zerbrechlichen Tapferkeit",
+    "en": "Fleece of Fragile Fortitude",
+    "es": "Vellocino frágil fortaleza",
+    "fr": "Pelisse de l'âme",
+    "fr-CA": "Toison de l'âme",
+    "it": "Vello della fragile tempra",
+    "ja": "脆弱なる要塞の羊毛",
+    "ko": "연약한 의지의 양털",
+    "nl": "Vacht van fragiele vastberadenheid",
+    "pt-BR": "Lã de Fortitude Frágil",
+    "ru": "Руно хрупкой защиты",
+    "tr": "Kırılgan Metanet Postu",
+    "zh-CN": "脆弱坚毅毛纺",
+    "zh-TW": "脆弱堅毅毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء القلوب الزرقاء",
+    "de": "Vlies der zerbrechlichen Tapferkeit",
+    "en": "Fleece of Fragile Fortitude",
+    "es": "Vellocino frágil fortaleza",
+    "fr": "Pelisse de l'âme",
+    "fr-CA": "Toison de l'âme",
+    "it": "Vello della fragile tempra",
+    "ja": "脆弱なる要塞の羊毛",
+    "ko": "연약한 의지의 양털",
+    "nl": "Vacht van fragiele vastberadenheid",
+    "pt-BR": "Lã de Fortitude Frágil",
+    "ru": "Руно хрупкой защиты",
+    "tr": "Kırılgan Metanet Postu",
+    "zh-CN": "脆弱坚毅毛纺",
+    "zh-TW": "脆弱堅毅毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Blue.png"
+}

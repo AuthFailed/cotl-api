@@ -1,0 +1,362 @@
+[
+  {
+    "id": "CashForHearts_Corrupted",
+    "name": "Beutel des Kephomiten",
+    "thumb": "icons/relics/64/CashForHearts_Corrupted.png"
+  },
+  {
+    "id": "DamageEye_Coop",
+    "name": "Schielauge der Krähe",
+    "thumb": "icons/relics/64/DamageEye_Coop.png"
+  },
+  {
+    "id": "DamageOnTouch_Familiar",
+    "name": "Leshys Auge",
+    "thumb": "icons/relics/64/DamageOnTouch_Familiar.png"
+  },
+  {
+    "id": "DealDamagePerFollower",
+    "name": "Perlen des Einsiedlers",
+    "thumb": "icons/relics/64/DealDamagePerFollower.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Blessed",
+    "name": "<color=#03EAFD>Gesegnete</color> Perlen des Einsiedlers",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Blessed.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Dammed",
+    "name": "<color=#FD1D03>Verdammte</color> Perlen des Einsiedlers",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Dammed.png"
+  },
+  {
+    "id": "DeathForLife_Corrupted",
+    "name": "Schuppen des Einsiedlers",
+    "thumb": "icons/relics/64/DeathForLife_Corrupted.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge",
+    "name": "Claunecks Haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Blessed",
+    "name": "Claunecks <color=#03EAFD>gesegnetes</color> Haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Dammed",
+    "name": "Claunecks <color=#FD1D03>verdammtes</color> Haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Dammed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff",
+    "name": "Claunecks Spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Blessed",
+    "name": "Claunecks <color=#03EAFD>gesegneter</color> Spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Dammed",
+    "name": "Claunecks <color=#FD1D03>verdammter</color> Spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Dammed.png"
+  },
+  {
+    "id": "DiseasedHeart_Corrupted",
+    "name": "Puppe der kleinen Yaca",
+    "thumb": "icons/relics/64/DiseasedHeart_Corrupted.png"
+  },
+  {
+    "id": "DiseasedPoison_Corrupted",
+    "name": "Krug der Witwe",
+    "thumb": "icons/relics/64/DiseasedPoison_Corrupted.png"
+  },
+  {
+    "id": "EnemyFiftyFifty_Corrupted",
+    "name": "Laplaces Münze",
+    "thumb": "icons/relics/64/EnemyFiftyFifty_Corrupted.png"
+  },
+  {
+    "id": "Enlarge",
+    "name": "Galvars Talisman",
+    "thumb": "icons/relics/64/Enlarge.png"
+  },
+  {
+    "id": "Explosive_Coop",
+    "name": "Asche des Launischen Lun",
+    "thumb": "icons/relics/64/Explosive_Coop.png"
+  },
+  {
+    "id": "FervourForResources_Corrupted",
+    "name": "Knochen des Vogeljägers",
+    "thumb": "icons/relics/64/FervourForResources_Corrupted.png"
+  },
+  {
+    "id": "FieryBlood",
+    "name": "Idol der Geopferten",
+    "thumb": "icons/relics/64/FieryBlood.png"
+  },
+  {
+    "id": "FieryBurrow",
+    "name": "Erster Kopf des Din",
+    "thumb": "icons/relics/64/FieryBurrow.png"
+  },
+  {
+    "id": "FiftyFiftyGamble",
+    "name": "Laplaces Würfel",
+    "thumb": "icons/relics/64/FiftyFiftyGamble.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Blessed",
+    "name": "Laplaces <color=#03EAFD>gesegnete</color> Würfel",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Blessed.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Dammed",
+    "name": "Laplaces <color=#FD1D03>verdammte</color> Würfel",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Dammed.png"
+  },
+  {
+    "id": "FillUpFervour",
+    "name": "Schnabel des Vogeljägers",
+    "thumb": "icons/relics/64/FillUpFervour.png"
+  },
+  {
+    "id": "FireballsRain",
+    "name": "Vulkanias Bernstein",
+    "thumb": "icons/relics/64/FireballsRain.png"
+  },
+  {
+    "id": "FreezeAll",
+    "name": "Zeh des Eisblutes",
+    "thumb": "icons/relics/64/FreezeAll.png"
+  },
+  {
+    "id": "FreezeOnTouch_Familiar",
+    "name": "Auge des Eisblutes",
+    "thumb": "icons/relics/64/FreezeOnTouch_Familiar.png"
+  },
+  {
+    "id": "FreezeTime",
+    "name": "Siegel des Bischofs",
+    "thumb": "icons/relics/64/FreezeTime.png"
+  },
+  {
+    "id": "FriendlyHealing_Coop",
+    "name": "Die verschränkten Hände",
+    "thumb": "icons/relics/64/FriendlyHealing_Coop.png"
+  },
+  {
+    "id": "FrozenGhosts",
+    "name": "Pelz der verlorenen Sippe",
+    "thumb": "icons/relics/64/FrozenGhosts.png"
+  },
+  {
+    "id": "Frozen_Corrupted",
+    "name": "Knöchel des Tachach",
+    "thumb": "icons/relics/64/Frozen_Corrupted.png"
+  },
+  {
+    "id": "GungeonBlank",
+    "name": "Shamuras Schädel",
+    "thumb": "icons/relics/64/GungeonBlank.png"
+  },
+  {
+    "id": "HealPerFollower",
+    "name": "Balsam des Einsiedlers",
+    "thumb": "icons/relics/64/HealPerFollower.png"
+  },
+  {
+    "id": "HealPerFollower_Blessed",
+    "name": "<color=#03EAFD>Gesegneter</color> Balsam des Einsiedlers",
+    "thumb": "icons/relics/64/HealPerFollower_Blessed.png"
+  },
+  {
+    "id": "HealPerFollower_Dammed",
+    "name": "<color=#FD1D03>Verdammter</color> Balsam des Einsiedlers",
+    "thumb": "icons/relics/64/HealPerFollower_Dammed.png"
+  },
+  {
+    "id": "HeartConversion_Blessed",
+    "name": "<color=#03EAFD>Gesegnete</color> Tränen des rachsüchtigen Vaters",
+    "thumb": "icons/relics/64/HeartConversion_Blessed.png"
+  },
+  {
+    "id": "HeartConversion_Dammed",
+    "name": "<color=#FD1D03>Verdammte</color> Tränen der barmherzigen Mutter",
+    "thumb": "icons/relics/64/HeartConversion_Dammed.png"
+  },
+  {
+    "id": "IceSpikes",
+    "name": "Schnauze des Trappers",
+    "thumb": "icons/relics/64/IceSpikes.png"
+  },
+  {
+    "id": "IceyBlood",
+    "name": "Schleier des Unbewegten",
+    "thumb": "icons/relics/64/IceyBlood.png"
+  },
+  {
+    "id": "IceyBurrow",
+    "name": "Zweiter Kopf des Din",
+    "thumb": "icons/relics/64/IceyBurrow.png"
+  },
+  {
+    "id": "IceyCoat",
+    "name": "Hülle der Tundrane",
+    "thumb": "icons/relics/64/IceyCoat.png"
+  },
+  {
+    "id": "IgniteAll",
+    "name": "Stachel des Aschenvolks",
+    "thumb": "icons/relics/64/IgniteAll.png"
+  },
+  {
+    "id": "IgniteOnTouch_Familiar",
+    "name": "Auge des Aschenvolks",
+    "thumb": "icons/relics/64/IgniteOnTouch_Familiar.png"
+  },
+  {
+    "id": "IncreaseDamageForDuration",
+    "name": "Hekets Kehle",
+    "thumb": "icons/relics/64/IncreaseDamageForDuration.png"
+  },
+  {
+    "id": "KillNonBossEnemies",
+    "name": "Narinders Klaue",
+    "thumb": "icons/relics/64/KillNonBossEnemies.png"
+  },
+  {
+    "id": "LightningStrike",
+    "name": "Alas Zähne",
+    "thumb": "icons/relics/64/LightningStrike.png"
+  },
+  {
+    "id": "LightningStrike_Blessed",
+    "name": "Alas <color=#03EAFD>gesegnete</color> Zähne",
+    "thumb": "icons/relics/64/LightningStrike_Blessed.png"
+  },
+  {
+    "id": "LightningStrike_Dammed",
+    "name": "Alas <color=#FD1D03>verdammte</color> Zähne",
+    "thumb": "icons/relics/64/LightningStrike_Dammed.png"
+  },
+  {
+    "id": "LoadoutSwap_Coop",
+    "name": "Kudaais verlorener Zahn",
+    "thumb": "icons/relics/64/LoadoutSwap_Coop.png"
+  },
+  {
+    "id": "PoisonAll",
+    "name": "Schwanz des Slythors",
+    "thumb": "icons/relics/64/PoisonAll.png"
+  },
+  {
+    "id": "PoisonOnTouch_Familiar",
+    "name": "Auge des Slythors",
+    "thumb": "icons/relics/64/PoisonOnTouch_Familiar.png"
+  },
+  {
+    "id": "ProjectileRing",
+    "name": "Claunecks Schuh",
+    "thumb": "icons/relics/64/ProjectileRing.png"
+  },
+  {
+    "id": "RandomEnemyIntoCritter",
+    "name": "Das Transmogrikon",
+    "thumb": "icons/relics/64/RandomEnemyIntoCritter.png"
+  },
+  {
+    "id": "Realm_Corrupted",
+    "name": "Hauer des Verhungerten",
+    "thumb": "icons/relics/64/Realm_Corrupted.png"
+  },
+  {
+    "id": "RerollCurse",
+    "name": "Kudaais Zehennagel",
+    "thumb": "icons/relics/64/RerollCurse.png"
+  },
+  {
+    "id": "RerollWeapon",
+    "name": "Kudaais Fingernagel",
+    "thumb": "icons/relics/64/RerollWeapon.png"
+  },
+  {
+    "id": "Sacrifice_Coop",
+    "name": "Gabelbein des Marbais",
+    "thumb": "icons/relics/64/Sacrifice_Coop.png"
+  },
+  {
+    "id": "ShootCurses_Familiar",
+    "name": "Auge des Eiferers",
+    "thumb": "icons/relics/64/ShootCurses_Familiar.png"
+  },
+  {
+    "id": "Shrink",
+    "name": "Shunrues Talisman",
+    "thumb": "icons/relics/64/Shrink.png"
+  },
+  {
+    "id": "SpawnBlackGoop",
+    "name": "Bombe des Großmagikers",
+    "thumb": "icons/relics/64/SpawnBlackGoop.png"
+  },
+  {
+    "id": "SpawnBombs",
+    "name": "Stihis Zunge",
+    "thumb": "icons/relics/64/SpawnBombs.png"
+  },
+  {
+    "id": "SpawnCombatFollower",
+    "name": "Kallamars Ohr",
+    "thumb": "icons/relics/64/SpawnCombatFollower.png"
+  },
+  {
+    "id": "SpawnCombatFollowerFromBodies",
+    "name": "Warrackas rechte Faust",
+    "thumb": "icons/relics/64/SpawnCombatFollowerFromBodies.png"
+  },
+  {
+    "id": "SpawnDemon",
+    "name": "Finger des Exorzisten",
+    "thumb": "icons/relics/64/SpawnDemon.png"
+  },
+  {
+    "id": "SpawnDemon_Blessed",
+    "name": "Finger des <color=#03EAFD>gesegneten</color> Exorzisten",
+    "thumb": "icons/relics/64/SpawnDemon_Blessed.png"
+  },
+  {
+    "id": "SpawnDemon_Dammed",
+    "name": "Finger des <color=#FD1D03>verdammten</color> Exorzisten",
+    "thumb": "icons/relics/64/SpawnDemon_Dammed.png"
+  },
+  {
+    "id": "SpawnTentacle",
+    "name": "Turuas Tentakel",
+    "thumb": "icons/relics/64/SpawnTentacle.png"
+  },
+  {
+    "id": "UnlimitedFervour",
+    "name": "Nektar der Kronen",
+    "thumb": "icons/relics/64/UnlimitedFervour.png"
+  },
+  {
+    "id": "UseRandomRelic",
+    "name": "Aethriles Puderdose",
+    "thumb": "icons/relics/64/UseRandomRelic.png"
+  },
+  {
+    "id": "UseRandomRelic_Blessed",
+    "name": "Aethriles <color=#03EAFD>gesegnete</color> Puderdose",
+    "thumb": "icons/relics/64/UseRandomRelic_Blessed.png"
+  },
+  {
+    "id": "UseRandomRelic_Dammed",
+    "name": "Aethriles <color=#FD1D03>verdammte</color> Puderdose",
+    "thumb": "icons/relics/64/UseRandomRelic_Dammed.png"
+  }
+]

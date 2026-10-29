@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 6
+    },
+    {
+      "item": "COTTON",
+      "quantity": 6
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "مناسب للتنظيف.",
+    "de": "Perfekt zum Saubermachen.",
+    "en": "Perfect for cleaning in.",
+    "es": "Ideal para los días de limpieza.",
+    "fr": "Parfaitement adaptée aux tâches ménagères.",
+    "fr-CA": "Parfaitement adaptée aux tâches ménagères.",
+    "it": "Perfetto per le pulizie.",
+    "ja": "これを着て掃除をしよう！",
+    "ko": "입으면 청소를 하고싶어집니다.",
+    "nl": "Perfect om in schoon te maken.",
+    "pt-BR": "Perfeito para fazer limpezas.",
+    "ru": "Одеяние горничной.",
+    "tr": "Temizlik yapmak için ideal.",
+    "zh-CN": "最适合打扫时穿着。",
+    "zh-TW": "最適合打掃時穿著。"
+  },
+  "descriptionPlain": {
+    "ar": "مناسب للتنظيف.",
+    "de": "Perfekt zum Saubermachen.",
+    "en": "Perfect for cleaning in.",
+    "es": "Ideal para los días de limpieza.",
+    "fr": "Parfaitement adaptée aux tâches ménagères.",
+    "fr-CA": "Parfaitement adaptée aux tâches ménagères.",
+    "it": "Perfetto per le pulizie.",
+    "ja": "これを着て掃除をしよう！",
+    "ko": "입으면 청소를 하고싶어집니다.",
+    "nl": "Perfect om in schoon te maken.",
+    "pt-BR": "Perfeito para fazer limpezas.",
+    "ru": "Одеяние горничной.",
+    "tr": "Temizlik yapmak için ideal.",
+    "zh-CN": "最适合打扫时穿着。",
+    "zh-TW": "最適合打掃時穿著。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_4.png",
+  "id": "Special_4",
+  "name": {
+    "ar": "ثوب الخادمة",
+    "de": "Dienstmädchenkleid",
+    "en": "Maid Dress",
+    "es": "Traje de criada",
+    "fr": "Robe de domestique",
+    "fr-CA": "Robe de domestique",
+    "it": "Vestito da domestica",
+    "ja": "メイドのドレス",
+    "ko": "시녀 드레스",
+    "nl": "Jurk voor dienstmeisje",
+    "pt-BR": "Vestido de Empregada",
+    "ru": "Фривольное платье",
+    "tr": "Hizmetçi Giysisi",
+    "zh-CN": "女仆服装",
+    "zh-TW": "女僕服裝"
+  },
+  "namePlain": {
+    "ar": "ثوب الخادمة",
+    "de": "Dienstmädchenkleid",
+    "en": "Maid Dress",
+    "es": "Traje de criada",
+    "fr": "Robe de domestique",
+    "fr-CA": "Robe de domestique",
+    "it": "Vestito da domestica",
+    "ja": "メイドのドレス",
+    "ko": "시녀 드레스",
+    "nl": "Jurk voor dienstmeisje",
+    "pt-BR": "Vestido de Empregada",
+    "ru": "Фривольное платье",
+    "tr": "Hizmetçi Giysisi",
+    "zh-CN": "女仆服装",
+    "zh-TW": "女僕服裝"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_4.png"
+}

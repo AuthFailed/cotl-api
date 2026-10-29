@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/IceGore.png",
   "id": "IceGore",
   "name": {
     "en": "IceGore"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "IceGore"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/IceGore.png",
   "unlock": "Major_DLC"
 }

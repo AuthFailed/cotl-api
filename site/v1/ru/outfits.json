@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Cultist_DLC",
+    "name": "Весенняя туника",
+    "thumb": "icons/outfits/64/Cultist_DLC.png"
+  },
+  {
+    "id": "Cultist_DLC2",
+    "name": "Цветочное платье",
+    "thumb": "icons/outfits/64/Cultist_DLC2.png"
+  },
+  {
+    "id": "DLC_1",
+    "name": "Кавайное одеяние",
+    "thumb": "icons/outfits/64/DLC_1.png"
+  },
+  {
+    "id": "DLC_2",
+    "name": "Фермерский плащ",
+    "thumb": "icons/outfits/64/DLC_2.png"
+  },
+  {
+    "id": "DLC_3",
+    "name": "Готическое платье",
+    "thumb": "icons/outfits/64/DLC_3.png"
+  },
+  {
+    "id": "DLC_4",
+    "name": "Загадочное одеяние",
+    "thumb": "icons/outfits/64/DLC_4.png"
+  },
+  {
+    "id": "DLC_5",
+    "name": "Офицерская броня",
+    "thumb": "icons/outfits/64/DLC_5.png"
+  },
+  {
+    "id": "DLC_6",
+    "name": "Олимпийское облачение",
+    "thumb": "icons/outfits/64/DLC_6.png"
+  },
+  {
+    "id": "Heretic_DLC",
+    "name": "Древняя мантия",
+    "thumb": "icons/outfits/64/Heretic_DLC.png"
+  },
+  {
+    "id": "Heretic_DLC2",
+    "name": "Древний балахон",
+    "thumb": "icons/outfits/64/Heretic_DLC2.png"
+  },
+  {
+    "id": "Naked",
+    "name": "Отсутствие одежды",
+    "thumb": "icons/outfits/64/Naked.png"
+  },
+  {
+    "id": "Normal_1",
+    "name": "Крестьянская одежда",
+    "thumb": "icons/outfits/64/Normal_1.png"
+  },
+  {
+    "id": "Normal_10",
+    "name": "Рыночная рубаха",
+    "thumb": "icons/outfits/64/Normal_10.png"
+  },
+  {
+    "id": "Normal_11",
+    "name": "Вечернее платье",
+    "thumb": "icons/outfits/64/Normal_11.png"
+  },
+  {
+    "id": "Normal_12",
+    "name": "Модная куртка",
+    "thumb": "icons/outfits/64/Normal_12.png"
+  },
+  {
+    "id": "Normal_2",
+    "name": "Рабочая туника",
+    "thumb": "icons/outfits/64/Normal_2.png"
+  },
+  {
+    "id": "Normal_3",
+    "name": "Рваное одеяние",
+    "thumb": "icons/outfits/64/Normal_3.png"
+  },
+  {
+    "id": "Normal_4",
+    "name": "Академическая рубаха",
+    "thumb": "icons/outfits/64/Normal_4.png"
+  },
+  {
+    "id": "Normal_5",
+    "name": "Скромное одеяние",
+    "thumb": "icons/outfits/64/Normal_5.png"
+  },
+  {
+    "id": "Normal_6",
+    "name": "Практичное платье",
+    "thumb": "icons/outfits/64/Normal_6.png"
+  },
+  {
+    "id": "Normal_7",
+    "name": "Травяная юбка",
+    "thumb": "icons/outfits/64/Normal_7.png"
+  },
+  {
+    "id": "Normal_8",
+    "name": "Полуночная рубашка",
+    "thumb": "icons/outfits/64/Normal_8.png"
+  },
+  {
+    "id": "Normal_9",
+    "name": "Выходное одеяние",
+    "thumb": "icons/outfits/64/Normal_9.png"
+  },
+  {
+    "id": "Normal_MajorDLC_1",
+    "name": "Тюремная роба",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_1.png"
+  },
+  {
+    "id": "Normal_MajorDLC_2",
+    "name": "Купальник",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_2.png"
+  },
+  {
+    "id": "Normal_MajorDLC_3",
+    "name": "Платье с леопардовым узором",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_3.png"
+  },
+  {
+    "id": "Normal_MajorDLC_4",
+    "name": "Бинты",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_4.png"
+  },
+  {
+    "id": "Normal_MajorDLC_5",
+    "name": "Многослойная куртка",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_5.png"
+  },
+  {
+    "id": "Normal_MajorDLC_6",
+    "name": "Костюм экскрементов",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_6.png"
+  },
+  {
+    "id": "Pilgrim_DLC",
+    "name": "Плащ Джалалы",
+    "thumb": "icons/outfits/64/Pilgrim_DLC.png"
+  },
+  {
+    "id": "Pilgrim_DLC2",
+    "name": "Туника Ринор",
+    "thumb": "icons/outfits/64/Pilgrim_DLC2.png"
+  },
+  {
+    "id": "Robes_Fancy",
+    "name": "Свадебное платье",
+    "thumb": "icons/outfits/64/Robes_Fancy.png"
+  },
+  {
+    "id": "Special_1",
+    "name": "Поварской китель",
+    "thumb": "icons/outfits/64/Special_1.png"
+  },
+  {
+    "id": "Special_2",
+    "name": "Рыцарский доспех",
+    "thumb": "icons/outfits/64/Special_2.png"
+  },
+  {
+    "id": "Special_3",
+    "name": "Церемониальный костюм",
+    "thumb": "icons/outfits/64/Special_3.png"
+  },
+  {
+    "id": "Special_4",
+    "name": "Фривольное платье",
+    "thumb": "icons/outfits/64/Special_4.png"
+  },
+  {
+    "id": "Special_5",
+    "name": "Изысканное одеяние",
+    "thumb": "icons/outfits/64/Special_5.png"
+  },
+  {
+    "id": "Special_6",
+    "name": "Официантский жилет",
+    "thumb": "icons/outfits/64/Special_6.png"
+  },
+  {
+    "id": "Special_7",
+    "name": "Шутовской костюм",
+    "thumb": "icons/outfits/64/Special_7.png"
+  },
+  {
+    "id": "Suit_Fancy",
+    "name": "Свадебный костюм",
+    "thumb": "icons/outfits/64/Suit_Fancy.png"
+  },
+  {
+    "id": "Warrior",
+    "name": "Воинская кираса",
+    "thumb": "icons/outfits/64/Warrior.png"
+  },
+  {
+    "id": "Winter_1",
+    "name": "Пушистая кофта",
+    "thumb": "icons/outfits/64/Winter_1.png"
+  },
+  {
+    "id": "Winter_2",
+    "name": "Свитер верующего",
+    "thumb": "icons/outfits/64/Winter_2.png"
+  },
+  {
+    "id": "Winter_3",
+    "name": "Мягкая шаль",
+    "thumb": "icons/outfits/64/Winter_3.png"
+  },
+  {
+    "id": "Winter_4",
+    "name": "Утеплённая туника",
+    "thumb": "icons/outfits/64/Winter_4.png"
+  },
+  {
+    "id": "Winter_5",
+    "name": "Грубый плащ",
+    "thumb": "icons/outfits/64/Winter_5.png"
+  },
+  {
+    "id": "Winter_6",
+    "name": "Шерстяное одеяние",
+    "thumb": "icons/outfits/64/Winter_6.png"
+  }
+]

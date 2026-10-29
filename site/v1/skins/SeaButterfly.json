@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/SeaButterfly.png",
   "id": "SeaButterfly",
   "name": {
     "en": "SeaButterfly"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "SeaButterfly"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/SeaButterfly.png",
   "unlock": "DLC"
 }

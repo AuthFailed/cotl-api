@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Blue",
+    "name": "Vacht van fragiele vastberadenheid",
+    "thumb": "icons/fleeces/64/Blue.png"
+  },
+  {
+    "id": "CurseInsteadOfWeapon",
+    "name": "Vacht van een vervloekte kruistocht",
+    "thumb": "icons/fleeces/64/CurseInsteadOfWeapon.png"
+  },
+  {
+    "id": "Default",
+    "name": "Vacht van het Lam",
+    "thumb": "icons/fleeces/64/Default.png"
+  },
+  {
+    "id": "Fleece666",
+    "name": "Vacht van de standvastige",
+    "thumb": "icons/fleeces/64/Fleece666.png"
+  },
+  {
+    "id": "Fleece667",
+    "name": "Vacht van de onschuldige",
+    "thumb": "icons/fleeces/64/Fleece667.png"
+  },
+  {
+    "id": "Fleece668",
+    "name": "Vacht van de sterrenkijker",
+    "thumb": "icons/fleeces/64/Fleece668.png"
+  },
+  {
+    "id": "Fleece669",
+    "name": "Vacht van de ridder",
+    "thumb": "icons/fleeces/64/Fleece669.png"
+  },
+  {
+    "id": "Fleece670",
+    "name": "Vacht van de veehouder",
+    "thumb": "icons/fleeces/64/Fleece670.png"
+  },
+  {
+    "id": "Fleece671",
+    "name": "Vacht van de voorbode",
+    "thumb": "icons/fleeces/64/Fleece671.png"
+  },
+  {
+    "id": "Fleece672",
+    "name": "Vacht van de verschroeide",
+    "thumb": "icons/fleeces/64/Fleece672.png"
+  },
+  {
+    "id": "Fleece673",
+    "name": "Vacht van de gehaaide",
+    "thumb": "icons/fleeces/64/Fleece673.png"
+  },
+  {
+    "id": "Fleece674",
+    "name": "Vacht van de geleerde",
+    "thumb": "icons/fleeces/64/Fleece674.png"
+  },
+  {
+    "id": "Fleece675",
+    "name": "Vacht van de bedrieger",
+    "thumb": "icons/fleeces/64/Fleece675.png"
+  },
+  {
+    "id": "Fleece676",
+    "name": "Cowboy",
+    "thumb": "icons/fleeces/64/Fleece676.png"
+  },
+  {
+    "id": "Fleece678",
+    "name": "Yngya's vacht",
+    "thumb": "icons/fleeces/64/Fleece678.png"
+  },
+  {
+    "id": "Fleece679",
+    "name": "Vacht van de jeugd",
+    "thumb": "icons/fleeces/64/Fleece679.png"
+  },
+  {
+    "id": "Fleece681",
+    "name": "Vacht van de krijger",
+    "thumb": "icons/fleeces/64/Fleece681.png"
+  },
+  {
+    "id": "Goat",
+    "name": "De Geit",
+    "thumb": "icons/fleeces/64/Goat.png"
+  },
+  {
+    "id": "GodOfDeath",
+    "name": "Vacht van de god der doden",
+    "thumb": "icons/fleeces/64/GodOfDeath.png"
+  },
+  {
+    "id": "Gold",
+    "name": "Gulden vlies",
+    "thumb": "icons/fleeces/64/Gold.png"
+  },
+  {
+    "id": "Green",
+    "name": "Vacht van het glazen kanon",
+    "thumb": "icons/fleeces/64/Green.png"
+  },
+  {
+    "id": "HollowHeal",
+    "name": "Vacht van furieus voordeel",
+    "thumb": "icons/fleeces/64/HollowHeal.png"
+  },
+  {
+    "id": "NoRolling",
+    "name": "Vacht van hinkelhakken",
+    "thumb": "icons/fleeces/64/NoRolling.png"
+  },
+  {
+    "id": "OneHitKills",
+    "name": "Vacht van de berserker",
+    "thumb": "icons/fleeces/64/OneHitKills.png"
+  },
+  {
+    "id": "Outfit_1001",
+    "name": "Vacht van het natuurlijke",
+    "thumb": "icons/fleeces/64/Outfit_1001.png"
+  },
+  {
+    "id": "Outfit_1002",
+    "name": "Vacht van zijde",
+    "thumb": "icons/fleeces/64/Outfit_1002.png"
+  },
+  {
+    "id": "Outfit_999",
+    "name": "Vacht van de ketters",
+    "thumb": "icons/fleeces/64/Outfit_999.png"
+  },
+  {
+    "id": "Purple",
+    "name": "Vacht van het ziekelijk hart",
+    "thumb": "icons/fleeces/64/Purple.png"
+  },
+  {
+    "id": "RatauCloak",
+    "name": "Rataus mantel",
+    "thumb": "icons/fleeces/64/RatauCloak.png"
+  },
+  {
+    "id": "RatauCloakBloody",
+    "name": "Rataus mantel",
+    "thumb": "icons/fleeces/64/RatauCloakBloody.png"
+  },
+  {
+    "id": "White",
+    "name": "Vacht van het lot",
+    "thumb": "icons/fleeces/64/White.png"
+  }
+]

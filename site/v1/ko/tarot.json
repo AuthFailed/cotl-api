@@ -1,0 +1,427 @@
+[
+  {
+    "id": "AdventureMapFreedom",
+    "name": "뻗어나가는 나무",
+    "thumb": "icons/tarot/64/AdventureMapFreedom.png"
+  },
+  {
+    "id": "AmmoEfficient",
+    "name": "신성한 저주",
+    "thumb": "icons/tarot/64/AmmoEfficient.png"
+  },
+  {
+    "id": "Arrows",
+    "name": "열정의 주인",
+    "thumb": "icons/tarot/64/Arrows.png"
+  },
+  {
+    "id": "AttackRate",
+    "name": "신성한 힘",
+    "thumb": "icons/tarot/64/AttackRate.png"
+  },
+  {
+    "id": "BlackSoulAutoRecharge",
+    "name": "내면의 힘",
+    "thumb": "icons/tarot/64/BlackSoulAutoRecharge.png"
+  },
+  {
+    "id": "BlackSoulOnDamage",
+    "name": "외면의 힘",
+    "thumb": "icons/tarot/64/BlackSoulOnDamage.png"
+  },
+  {
+    "id": "BombOnDamaged",
+    "name": "응징",
+    "thumb": "icons/tarot/64/BombOnDamaged.png"
+  },
+  {
+    "id": "BombOnRoll",
+    "name": "폭탄",
+    "thumb": "icons/tarot/64/BombOnRoll.png"
+  },
+  {
+    "id": "BossHeal",
+    "name": "축복받은 강탈자",
+    "thumb": "icons/tarot/64/BossHeal.png"
+  },
+  {
+    "id": "CoopBetterApart",
+    "name": "경쟁자",
+    "thumb": "icons/tarot/64/CoopBetterApart.png"
+  },
+  {
+    "id": "CoopBetterTogether",
+    "name": "동지",
+    "thumb": "icons/tarot/64/CoopBetterTogether.png"
+  },
+  {
+    "id": "CoopBonded",
+    "name": "전투의 유대",
+    "thumb": "icons/tarot/64/CoopBonded.png"
+  },
+  {
+    "id": "CoopExplosive",
+    "name": "부싯돌과 강철",
+    "thumb": "icons/tarot/64/CoopExplosive.png"
+  },
+  {
+    "id": "CoopGoodTiming",
+    "name": "동시 발동",
+    "thumb": "icons/tarot/64/CoopGoodTiming.png"
+  },
+  {
+    "id": "CorruptedBlackHeartForRelic",
+    "name": "혐오받는 자",
+    "thumb": "icons/tarot/64/CorruptedBlackHeartForRelic.png"
+  },
+  {
+    "id": "CorruptedBombsAndHealth",
+    "name": "심판",
+    "thumb": "icons/tarot/64/CorruptedBombsAndHealth.png"
+  },
+  {
+    "id": "CorruptedFullCorruption",
+    "name": "변절한 승리",
+    "thumb": "icons/tarot/64/CorruptedFullCorruption.png"
+  },
+  {
+    "id": "CorruptedGoopyTrail",
+    "name": "이코르의 자취",
+    "thumb": "icons/tarot/64/CorruptedGoopyTrail.png"
+  },
+  {
+    "id": "CorruptedHealForRelic",
+    "name": "축적가",
+    "thumb": "icons/tarot/64/CorruptedHealForRelic.png"
+  },
+  {
+    "id": "CorruptedHeavy",
+    "name": "필멸자의 맹세",
+    "thumb": "icons/tarot/64/CorruptedHeavy.png"
+  },
+  {
+    "id": "CorruptedPoisonCoins",
+    "name": "독을 먼저 맛보는 자",
+    "thumb": "icons/tarot/64/CorruptedPoisonCoins.png"
+  },
+  {
+    "id": "CorruptedRelicCharge",
+    "name": "더럽혀진 성유",
+    "thumb": "icons/tarot/64/CorruptedRelicCharge.png"
+  },
+  {
+    "id": "CorruptedTradeOff",
+    "name": "황폐화된 핵",
+    "thumb": "icons/tarot/64/CorruptedTradeOff.png"
+  },
+  {
+    "id": "DamageOnRoll",
+    "name": "불타오르는 궤적",
+    "thumb": "icons/tarot/64/DamageOnRoll.png"
+  },
+  {
+    "id": "DeathsDoor",
+    "name": "죽음의 문",
+    "thumb": "icons/tarot/64/DeathsDoor.png"
+  },
+  {
+    "id": "DecreaseRelicCharge",
+    "name": "성유",
+    "thumb": "icons/tarot/64/DecreaseRelicCharge.png"
+  },
+  {
+    "id": "DiseasedHeart",
+    "name": "병든 심장",
+    "thumb": "icons/tarot/64/DiseasedHeart.png"
+  },
+  {
+    "id": "EasyMoney",
+    "name": "털 깎는 칼",
+    "thumb": "icons/tarot/64/EasyMoney.png"
+  },
+  {
+    "id": "EmptyFervourCritical",
+    "name": "불신자",
+    "thumb": "icons/tarot/64/EmptyFervourCritical.png"
+  },
+  {
+    "id": "ExtraMove",
+    "name": "호의로운 바람",
+    "thumb": "icons/tarot/64/ExtraMove.png"
+  },
+  {
+    "id": "EyeOfWeakness",
+    "name": "진실의 시야",
+    "thumb": "icons/tarot/64/EyeOfWeakness.png"
+  },
+  {
+    "id": "FlameHeart",
+    "name": "녹아내린 심장",
+    "thumb": "icons/tarot/64/FlameHeart.png"
+  },
+  {
+    "id": "FrostHeart",
+    "name": "얼어붙은 심장",
+    "thumb": "icons/tarot/64/FrostHeart.png"
+  },
+  {
+    "id": "FrostedEnemies",
+    "name": "겨울맞이",
+    "thumb": "icons/tarot/64/FrostedEnemies.png"
+  },
+  {
+    "id": "GiftFromBelow",
+    "name": "저승에서의 선물",
+    "thumb": "icons/tarot/64/GiftFromBelow.png"
+  },
+  {
+    "id": "GoopOnDamaged",
+    "name": "이코르 획득",
+    "thumb": "icons/tarot/64/GoopOnDamaged.png"
+  },
+  {
+    "id": "GoopOnRoll",
+    "name": "이코르 잔류",
+    "thumb": "icons/tarot/64/GoopOnRoll.png"
+  },
+  {
+    "id": "HandsOfRage",
+    "name": "분노의 손길",
+    "thumb": "icons/tarot/64/HandsOfRage.png"
+  },
+  {
+    "id": "HealChance",
+    "name": "영혼 갈취자",
+    "thumb": "icons/tarot/64/HealChance.png"
+  },
+  {
+    "id": "HealTwiceAmount",
+    "name": "행운의 축복",
+    "thumb": "icons/tarot/64/HealTwiceAmount.png"
+  },
+  {
+    "id": "HeartTarotDrawn",
+    "name": "동지의 밤",
+    "thumb": "icons/tarot/64/HeartTarotDrawn.png"
+  },
+  {
+    "id": "Hearts1",
+    "name": "심장 I",
+    "thumb": "icons/tarot/64/Hearts1.png"
+  },
+  {
+    "id": "Hearts2",
+    "name": "심장 II",
+    "thumb": "icons/tarot/64/Hearts2.png"
+  },
+  {
+    "id": "Hearts3",
+    "name": "심장 III",
+    "thumb": "icons/tarot/64/Hearts3.png"
+  },
+  {
+    "id": "HighRoller",
+    "name": "살얼음 조각",
+    "thumb": "icons/tarot/64/HighRoller.png"
+  },
+  {
+    "id": "HitKillEnemy",
+    "name": "낙오",
+    "thumb": "icons/tarot/64/HitKillEnemy.png"
+  },
+  {
+    "id": "ImmuneToTraps",
+    "name": "무형의 존재",
+    "thumb": "icons/tarot/64/ImmuneToTraps.png"
+  },
+  {
+    "id": "IncreaseBlackSoulsDrop",
+    "name": "열정 수확",
+    "thumb": "icons/tarot/64/IncreaseBlackSoulsDrop.png"
+  },
+  {
+    "id": "IncreasedDamage",
+    "name": "기예의 달인",
+    "thumb": "icons/tarot/64/IncreasedDamage.png"
+  },
+  {
+    "id": "InvincibilityPerRoom",
+    "name": "무적의 순간",
+    "thumb": "icons/tarot/64/InvincibilityPerRoom.png"
+  },
+  {
+    "id": "Joker",
+    "name": "조커",
+    "thumb": "icons/tarot/64/Joker.png"
+  },
+  {
+    "id": "KillEnemiesOnResurrect",
+    "name": "하늘에서와 같이 땅에서도",
+    "thumb": "icons/tarot/64/KillEnemiesOnResurrect.png"
+  },
+  {
+    "id": "LastChance",
+    "name": "물어뜯는 동상",
+    "thumb": "icons/tarot/64/LastChance.png"
+  },
+  {
+    "id": "Lovers1",
+    "name": "연인 I",
+    "thumb": "icons/tarot/64/Lovers1.png"
+  },
+  {
+    "id": "Lovers2",
+    "name": "연인 II",
+    "thumb": "icons/tarot/64/Lovers2.png"
+  },
+  {
+    "id": "Moon",
+    "name": "우는 달",
+    "thumb": "icons/tarot/64/Moon.png"
+  },
+  {
+    "id": "MoreRelics",
+    "name": "수집가",
+    "thumb": "icons/tarot/64/MoreRelics.png"
+  },
+  {
+    "id": "MovementSpeed",
+    "name": "길",
+    "thumb": "icons/tarot/64/MovementSpeed.png"
+  },
+  {
+    "id": "MutatedDropRotburn",
+    "name": "잊힌 뼈",
+    "thumb": "icons/tarot/64/MutatedDropRotburn.png"
+  },
+  {
+    "id": "MutatedFreezeOnHit",
+    "name": "드러낸 이빨",
+    "thumb": "icons/tarot/64/MutatedFreezeOnHit.png"
+  },
+  {
+    "id": "MutatedInvincibility",
+    "name": "굽히지 않는 영혼",
+    "thumb": "icons/tarot/64/MutatedInvincibility.png"
+  },
+  {
+    "id": "MutatedNegateHit",
+    "name": "거짓된 눈",
+    "thumb": "icons/tarot/64/MutatedNegateHit.png"
+  },
+  {
+    "id": "MutatedResurrectFullHealth",
+    "name": "도둑맞은 담즙",
+    "thumb": "icons/tarot/64/MutatedResurrectFullHealth.png"
+  },
+  {
+    "id": "MutatedSpawnRotDemons",
+    "name": "삿된 꿈",
+    "thumb": "icons/tarot/64/MutatedSpawnRotDemons.png"
+  },
+  {
+    "id": "NaturesGift",
+    "name": "자연의 풍요",
+    "thumb": "icons/tarot/64/NaturesGift.png"
+  },
+  {
+    "id": "NegateDamageChance",
+    "name": "신념의 방패",
+    "thumb": "icons/tarot/64/NegateDamageChance.png"
+  },
+  {
+    "id": "NeptunesCurse",
+    "name": "해왕성의 저주",
+    "thumb": "icons/tarot/64/NeptunesCurse.png"
+  },
+  {
+    "id": "NoCorruption",
+    "name": "순수의 기사단",
+    "thumb": "icons/tarot/64/NoCorruption.png"
+  },
+  {
+    "id": "PoisonImmune",
+    "name": "면독법",
+    "thumb": "icons/tarot/64/PoisonImmune.png"
+  },
+  {
+    "id": "Potion",
+    "name": "암브로시아",
+    "thumb": "icons/tarot/64/Potion.png"
+  },
+  {
+    "id": "RabbitFoot",
+    "name": "토끼 발",
+    "thumb": "icons/tarot/64/RabbitFoot.png"
+  },
+  {
+    "id": "Recycle",
+    "name": "영혼의 구원자",
+    "thumb": "icons/tarot/64/Recycle.png"
+  },
+  {
+    "id": "RoomEnterCritter",
+    "name": "연금술사",
+    "thumb": "icons/tarot/64/RoomEnterCritter.png"
+  },
+  {
+    "id": "ShuffleNode",
+    "name": "미궁",
+    "thumb": "icons/tarot/64/ShuffleNode.png"
+  },
+  {
+    "id": "Sin",
+    "name": "유혹의 운명",
+    "thumb": "icons/tarot/64/Sin.png"
+  },
+  {
+    "id": "Skull",
+    "name": "불타는 망자",
+    "thumb": "icons/tarot/64/Skull.png"
+  },
+  {
+    "id": "Spider",
+    "name": "거미",
+    "thumb": "icons/tarot/64/Spider.png"
+  },
+  {
+    "id": "StrikeBack",
+    "name": "맹목적 분노",
+    "thumb": "icons/tarot/64/StrikeBack.png"
+  },
+  {
+    "id": "SummonGhost",
+    "name": "전조",
+    "thumb": "icons/tarot/64/SummonGhost.png"
+  },
+  {
+    "id": "Sun",
+    "name": "만물을 보는 태양",
+    "thumb": "icons/tarot/64/Sun.png"
+  },
+  {
+    "id": "SurpriseAttack",
+    "name": "정복자",
+    "thumb": "icons/tarot/64/SurpriseAttack.png"
+  },
+  {
+    "id": "Telescope",
+    "name": "망원경",
+    "thumb": "icons/tarot/64/Telescope.png"
+  },
+  {
+    "id": "TentacleOnDamaged",
+    "name": "투루아의 동족",
+    "thumb": "icons/tarot/64/TentacleOnDamaged.png"
+  },
+  {
+    "id": "TheDeal",
+    "name": "거래",
+    "thumb": "icons/tarot/64/TheDeal.png"
+  },
+  {
+    "id": "WalkThroughBlocks",
+    "name": "망령의 유지",
+    "thumb": "icons/tarot/64/WalkThroughBlocks.png"
+  }
+]

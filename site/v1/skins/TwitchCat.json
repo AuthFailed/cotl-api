@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/TwitchCat.png",
   "id": "TwitchCat",
   "name": {
     "en": "TwitchCat"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "TwitchCat"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/TwitchCat.png",
   "unlock": "DLC"
 }

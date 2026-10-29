@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Barrier",
+    "name": "Sanctuary Raised",
+    "thumb": "icons/curses/64/Barrier.png"
+  },
+  {
+    "id": "Barrier_Absorb",
+    "name": "Hungering Gate",
+    "thumb": "icons/curses/64/Barrier_Absorb.png"
+  },
+  {
+    "id": "Barrier_Deflection",
+    "name": "Divine Barricade",
+    "thumb": "icons/curses/64/Barrier_Deflection.png"
+  },
+  {
+    "id": "Barrier_Wide",
+    "name": "Sanctuary Grown",
+    "thumb": "icons/curses/64/Barrier_Wide.png"
+  },
+  {
+    "id": "EnemyBlast",
+    "name": "신성한 일격",
+    "thumb": "icons/curses/64/EnemyBlast.png"
+  },
+  {
+    "id": "EnemyBlast_DeflectsProjectiles",
+    "name": "신성한 수호자",
+    "thumb": "icons/curses/64/EnemyBlast_DeflectsProjectiles.png"
+  },
+  {
+    "id": "EnemyBlast_Flame",
+    "name": "신성한 장작",
+    "thumb": "icons/curses/64/EnemyBlast_Flame.png"
+  },
+  {
+    "id": "EnemyBlast_Ice",
+    "name": "신성한 눈보라",
+    "thumb": "icons/curses/64/EnemyBlast_Ice.png"
+  },
+  {
+    "id": "EnemyBlast_Poison",
+    "name": "신성한 역병",
+    "thumb": "icons/curses/64/EnemyBlast_Poison.png"
+  },
+  {
+    "id": "Fireball",
+    "name": "불타는 사격",
+    "thumb": "icons/curses/64/Fireball.png"
+  },
+  {
+    "id": "Fireball_Charm",
+    "name": "왕관의 일격",
+    "thumb": "icons/curses/64/Fireball_Charm.png"
+  },
+  {
+    "id": "Fireball_Swarm",
+    "name": "운명의 사냥개",
+    "thumb": "icons/curses/64/Fireball_Swarm.png"
+  },
+  {
+    "id": "Fireball_Triple",
+    "name": "정화의 불길",
+    "thumb": "icons/curses/64/Fireball_Triple.png"
+  },
+  {
+    "id": "MegaSlash",
+    "name": "죽음의 수확",
+    "thumb": "icons/curses/64/MegaSlash.png"
+  },
+  {
+    "id": "MegaSlash_Charm",
+    "name": "왕관의 맹세",
+    "thumb": "icons/curses/64/MegaSlash_Charm.png"
+  },
+  {
+    "id": "MegaSlash_Flame",
+    "name": "죽음의 불길",
+    "thumb": "icons/curses/64/MegaSlash_Flame.png"
+  },
+  {
+    "id": "MegaSlash_Ice",
+    "name": "죽음의 돌풍",
+    "thumb": "icons/curses/64/MegaSlash_Ice.png"
+  },
+  {
+    "id": "MegaSlash_Necromancy",
+    "name": "죽음의 수행인",
+    "thumb": "icons/curses/64/MegaSlash_Necromancy.png"
+  },
+  {
+    "id": "ProjectileAOE",
+    "name": "이코르 투척",
+    "thumb": "icons/curses/64/ProjectileAOE.png"
+  },
+  {
+    "id": "ProjectileAOE_Charm",
+    "name": "왕관의 부름",
+    "thumb": "icons/curses/64/ProjectileAOE_Charm.png"
+  },
+  {
+    "id": "ProjectileAOE_ExplosiveImpact",
+    "name": "타락의 끝",
+    "thumb": "icons/curses/64/ProjectileAOE_ExplosiveImpact.png"
+  },
+  {
+    "id": "ProjectileAOE_GoopTrail",
+    "name": "의인의 길",
+    "thumb": "icons/curses/64/ProjectileAOE_GoopTrail.png"
+  },
+  {
+    "id": "Teleport",
+    "name": "신성한 걸음",
+    "thumb": "icons/curses/64/Teleport.png"
+  },
+  {
+    "id": "Teleport_Goop",
+    "name": "버림받은 이코르",
+    "thumb": "icons/curses/64/Teleport_Goop.png"
+  },
+  {
+    "id": "Teleport_Invincible",
+    "name": "포용",
+    "thumb": "icons/curses/64/Teleport_Invincible.png"
+  },
+  {
+    "id": "Teleport_Projectile",
+    "name": "Shards of Solitude",
+    "thumb": "icons/curses/64/Teleport_Projectile.png"
+  },
+  {
+    "id": "Tentacles",
+    "name": "투루아의 손길",
+    "thumb": "icons/curses/64/Tentacles.png"
+  },
+  {
+    "id": "Tentacles_Circular",
+    "name": "대소용돌이",
+    "thumb": "icons/curses/64/Tentacles_Circular.png"
+  },
+  {
+    "id": "Tentacles_Flame",
+    "name": "이그의 손길",
+    "thumb": "icons/curses/64/Tentacles_Flame.png"
+  },
+  {
+    "id": "Tentacles_Ice",
+    "name": "이타콰의 손길",
+    "thumb": "icons/curses/64/Tentacles_Ice.png"
+  },
+  {
+    "id": "Tentacles_Necromancy",
+    "name": "망령의 손길",
+    "thumb": "icons/curses/64/Tentacles_Necromancy.png"
+  }
+]

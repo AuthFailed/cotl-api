@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Mama_Worm.png",
   "id": "Boss_Mama_Worm",
   "name": {
     "en": "Boss Mama Worm"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Mama Worm"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Mama_Worm.png",
   "unlock": "Dungeon1"
 }

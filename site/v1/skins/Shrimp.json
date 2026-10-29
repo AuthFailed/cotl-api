@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Shrimp.png",
   "id": "Shrimp",
   "name": {
     "en": "Shrimp"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Shrimp"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Shrimp.png",
   "unlock": "Other"
 }

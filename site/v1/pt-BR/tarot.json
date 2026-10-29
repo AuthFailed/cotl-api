@@ -1,0 +1,427 @@
+[
+  {
+    "id": "AdventureMapFreedom",
+    "name": "A Árvore de Atalhos",
+    "thumb": "icons/tarot/64/AdventureMapFreedom.png"
+  },
+  {
+    "id": "AmmoEfficient",
+    "name": "Maldição Divina",
+    "thumb": "icons/tarot/64/AmmoEfficient.png"
+  },
+  {
+    "id": "Arrows",
+    "name": "Anfitrião do Fervor",
+    "thumb": "icons/tarot/64/Arrows.png"
+  },
+  {
+    "id": "AttackRate",
+    "name": "Força Divina",
+    "thumb": "icons/tarot/64/AttackRate.png"
+  },
+  {
+    "id": "BlackSoulAutoRecharge",
+    "name": "Força Interior",
+    "thumb": "icons/tarot/64/BlackSoulAutoRecharge.png"
+  },
+  {
+    "id": "BlackSoulOnDamage",
+    "name": "Força Exterior",
+    "thumb": "icons/tarot/64/BlackSoulOnDamage.png"
+  },
+  {
+    "id": "BombOnDamaged",
+    "name": "Retaliação",
+    "thumb": "icons/tarot/64/BombOnDamaged.png"
+  },
+  {
+    "id": "BombOnRoll",
+    "name": "A Bomba",
+    "thumb": "icons/tarot/64/BombOnRoll.png"
+  },
+  {
+    "id": "BossHeal",
+    "name": "Usurpador Abençoado",
+    "thumb": "icons/tarot/64/BossHeal.png"
+  },
+  {
+    "id": "CoopBetterApart",
+    "name": "Os Rivais",
+    "thumb": "icons/tarot/64/CoopBetterApart.png"
+  },
+  {
+    "id": "CoopBetterTogether",
+    "name": "Os Camaradas",
+    "thumb": "icons/tarot/64/CoopBetterTogether.png"
+  },
+  {
+    "id": "CoopBonded",
+    "name": "Laços de Batalha",
+    "thumb": "icons/tarot/64/CoopBonded.png"
+  },
+  {
+    "id": "CoopExplosive",
+    "name": "Pedra e Aço",
+    "thumb": "icons/tarot/64/CoopExplosive.png"
+  },
+  {
+    "id": "CoopGoodTiming",
+    "name": "A Sincronia",
+    "thumb": "icons/tarot/64/CoopGoodTiming.png"
+  },
+  {
+    "id": "CorruptedBlackHeartForRelic",
+    "name": "O Odiado",
+    "thumb": "icons/tarot/64/CorruptedBlackHeartForRelic.png"
+  },
+  {
+    "id": "CorruptedBombsAndHealth",
+    "name": "Acerto de Contas",
+    "thumb": "icons/tarot/64/CorruptedBombsAndHealth.png"
+  },
+  {
+    "id": "CorruptedFullCorruption",
+    "name": "Traidor Vitorioso",
+    "thumb": "icons/tarot/64/CorruptedFullCorruption.png"
+  },
+  {
+    "id": "CorruptedGoopyTrail",
+    "name": "Icor Drenado",
+    "thumb": "icons/tarot/64/CorruptedGoopyTrail.png"
+  },
+  {
+    "id": "CorruptedHealForRelic",
+    "name": "O Acumulador",
+    "thumb": "icons/tarot/64/CorruptedHealForRelic.png"
+  },
+  {
+    "id": "CorruptedHeavy",
+    "name": "Juramento Mortal",
+    "thumb": "icons/tarot/64/CorruptedHeavy.png"
+  },
+  {
+    "id": "CorruptedPoisonCoins",
+    "name": "Degustador de Veneno",
+    "thumb": "icons/tarot/64/CorruptedPoisonCoins.png"
+  },
+  {
+    "id": "CorruptedRelicCharge",
+    "name": "Óleo Maculado",
+    "thumb": "icons/tarot/64/CorruptedRelicCharge.png"
+  },
+  {
+    "id": "CorruptedTradeOff",
+    "name": "Núcleo Corrompido",
+    "thumb": "icons/tarot/64/CorruptedTradeOff.png"
+  },
+  {
+    "id": "DamageOnRoll",
+    "name": "Rastro Flamejante",
+    "thumb": "icons/tarot/64/DamageOnRoll.png"
+  },
+  {
+    "id": "DeathsDoor",
+    "name": "A Porta da Morte",
+    "thumb": "icons/tarot/64/DeathsDoor.png"
+  },
+  {
+    "id": "DecreaseRelicCharge",
+    "name": "Óleo Consagrado da Renovação",
+    "thumb": "icons/tarot/64/DecreaseRelicCharge.png"
+  },
+  {
+    "id": "DiseasedHeart",
+    "name": "Coração Doente",
+    "thumb": "icons/tarot/64/DiseasedHeart.png"
+  },
+  {
+    "id": "EasyMoney",
+    "name": "Lâmina de Tosquiar",
+    "thumb": "icons/tarot/64/EasyMoney.png"
+  },
+  {
+    "id": "EmptyFervourCritical",
+    "name": "O Infiel",
+    "thumb": "icons/tarot/64/EmptyFervourCritical.png"
+  },
+  {
+    "id": "ExtraMove",
+    "name": "Vento Oportuno",
+    "thumb": "icons/tarot/64/ExtraMove.png"
+  },
+  {
+    "id": "EyeOfWeakness",
+    "name": "Visão Verdadeira",
+    "thumb": "icons/tarot/64/EyeOfWeakness.png"
+  },
+  {
+    "id": "FlameHeart",
+    "name": "Coração Queimado",
+    "thumb": "icons/tarot/64/FlameHeart.png"
+  },
+  {
+    "id": "FrostHeart",
+    "name": "Coração Gelado",
+    "thumb": "icons/tarot/64/FrostHeart.png"
+  },
+  {
+    "id": "FrostedEnemies",
+    "name": "Recepção Invernal",
+    "thumb": "icons/tarot/64/FrostedEnemies.png"
+  },
+  {
+    "id": "GiftFromBelow",
+    "name": "Presente Lá Debaixo",
+    "thumb": "icons/tarot/64/GiftFromBelow.png"
+  },
+  {
+    "id": "GoopOnDamaged",
+    "name": "Icor Recebido",
+    "thumb": "icons/tarot/64/GoopOnDamaged.png"
+  },
+  {
+    "id": "GoopOnRoll",
+    "name": "Icor Prolongado",
+    "thumb": "icons/tarot/64/GoopOnRoll.png"
+  },
+  {
+    "id": "HandsOfRage",
+    "name": "Mãos Furiosas",
+    "thumb": "icons/tarot/64/HandsOfRage.png"
+  },
+  {
+    "id": "HealChance",
+    "name": "Ladrão de Almas",
+    "thumb": "icons/tarot/64/HealChance.png"
+  },
+  {
+    "id": "HealTwiceAmount",
+    "name": "Benção da Sorte",
+    "thumb": "icons/tarot/64/HealTwiceAmount.png"
+  },
+  {
+    "id": "HeartTarotDrawn",
+    "name": "Noite do Solstício",
+    "thumb": "icons/tarot/64/HeartTarotDrawn.png"
+  },
+  {
+    "id": "Hearts1",
+    "name": "Os Corações I",
+    "thumb": "icons/tarot/64/Hearts1.png"
+  },
+  {
+    "id": "Hearts2",
+    "name": "Os Corações II",
+    "thumb": "icons/tarot/64/Hearts2.png"
+  },
+  {
+    "id": "Hearts3",
+    "name": "Os Corações III",
+    "thumb": "icons/tarot/64/Hearts3.png"
+  },
+  {
+    "id": "HighRoller",
+    "name": "Fragmento da Geada",
+    "thumb": "icons/tarot/64/HighRoller.png"
+  },
+  {
+    "id": "HitKillEnemy",
+    "name": "O Desgarrado",
+    "thumb": "icons/tarot/64/HitKillEnemy.png"
+  },
+  {
+    "id": "ImmuneToTraps",
+    "name": "Intangível",
+    "thumb": "icons/tarot/64/ImmuneToTraps.png"
+  },
+  {
+    "id": "IncreaseBlackSoulsDrop",
+    "name": "Colheita do Fervor",
+    "thumb": "icons/tarot/64/IncreaseBlackSoulsDrop.png"
+  },
+  {
+    "id": "IncreasedDamage",
+    "name": "Mestre da Arte",
+    "thumb": "icons/tarot/64/IncreasedDamage.png"
+  },
+  {
+    "id": "InvincibilityPerRoom",
+    "name": "Momento Celestial",
+    "thumb": "icons/tarot/64/InvincibilityPerRoom.png"
+  },
+  {
+    "id": "Joker",
+    "name": "O Coringa",
+    "thumb": "icons/tarot/64/Joker.png"
+  },
+  {
+    "id": "KillEnemiesOnResurrect",
+    "name": "Na Terra Como no Céu",
+    "thumb": "icons/tarot/64/KillEnemiesOnResurrect.png"
+  },
+  {
+    "id": "LastChance",
+    "name": "Dor do Frio",
+    "thumb": "icons/tarot/64/LastChance.png"
+  },
+  {
+    "id": "Lovers1",
+    "name": "Os Amantes I",
+    "thumb": "icons/tarot/64/Lovers1.png"
+  },
+  {
+    "id": "Lovers2",
+    "name": "Os Amantes II",
+    "thumb": "icons/tarot/64/Lovers2.png"
+  },
+  {
+    "id": "Moon",
+    "name": "Lua Chorosa",
+    "thumb": "icons/tarot/64/Moon.png"
+  },
+  {
+    "id": "MoreRelics",
+    "name": "O Colecionador",
+    "thumb": "icons/tarot/64/MoreRelics.png"
+  },
+  {
+    "id": "MovementSpeed",
+    "name": "O Caminho",
+    "thumb": "icons/tarot/64/MovementSpeed.png"
+  },
+  {
+    "id": "MutatedDropRotburn",
+    "name": "Ossos Perdidos",
+    "thumb": "icons/tarot/64/MutatedDropRotburn.png"
+  },
+  {
+    "id": "MutatedFreezeOnHit",
+    "name": "Dentes Expostos",
+    "thumb": "icons/tarot/64/MutatedFreezeOnHit.png"
+  },
+  {
+    "id": "MutatedInvincibility",
+    "name": "Espírito Inflexível",
+    "thumb": "icons/tarot/64/MutatedInvincibility.png"
+  },
+  {
+    "id": "MutatedNegateHit",
+    "name": "Olhos Falsos",
+    "thumb": "icons/tarot/64/MutatedNegateHit.png"
+  },
+  {
+    "id": "MutatedResurrectFullHealth",
+    "name": "Bile Roubada",
+    "thumb": "icons/tarot/64/MutatedResurrectFullHealth.png"
+  },
+  {
+    "id": "MutatedSpawnRotDemons",
+    "name": "Sonhos Erráticos",
+    "thumb": "icons/tarot/64/MutatedSpawnRotDemons.png"
+  },
+  {
+    "id": "NaturesGift",
+    "name": "Dádiva da Natureza",
+    "thumb": "icons/tarot/64/NaturesGift.png"
+  },
+  {
+    "id": "NegateDamageChance",
+    "name": "Escudo de Fé",
+    "thumb": "icons/tarot/64/NegateDamageChance.png"
+  },
+  {
+    "id": "NeptunesCurse",
+    "name": "A Maldição de Netuno",
+    "thumb": "icons/tarot/64/NeptunesCurse.png"
+  },
+  {
+    "id": "NoCorruption",
+    "name": "Ordem da Pureza",
+    "thumb": "icons/tarot/64/NoCorruption.png"
+  },
+  {
+    "id": "PoisonImmune",
+    "name": "Mitridatismo",
+    "thumb": "icons/tarot/64/PoisonImmune.png"
+  },
+  {
+    "id": "Potion",
+    "name": "Ambrósia",
+    "thumb": "icons/tarot/64/Potion.png"
+  },
+  {
+    "id": "RabbitFoot",
+    "name": "Pé de Coelho",
+    "thumb": "icons/tarot/64/RabbitFoot.png"
+  },
+  {
+    "id": "Recycle",
+    "name": "Reaproveitamento Espiritual",
+    "thumb": "icons/tarot/64/Recycle.png"
+  },
+  {
+    "id": "RoomEnterCritter",
+    "name": "O Alquimista",
+    "thumb": "icons/tarot/64/RoomEnterCritter.png"
+  },
+  {
+    "id": "ShuffleNode",
+    "name": "O Labirinto",
+    "thumb": "icons/tarot/64/ShuffleNode.png"
+  },
+  {
+    "id": "Sin",
+    "name": "Destino da Tentação",
+    "thumb": "icons/tarot/64/Sin.png"
+  },
+  {
+    "id": "Skull",
+    "name": "Os Mortos em Chamas",
+    "thumb": "icons/tarot/64/Skull.png"
+  },
+  {
+    "id": "Spider",
+    "name": "O Aracnídeo",
+    "thumb": "icons/tarot/64/Spider.png"
+  },
+  {
+    "id": "StrikeBack",
+    "name": "Fúria Cega",
+    "thumb": "icons/tarot/64/StrikeBack.png"
+  },
+  {
+    "id": "SummonGhost",
+    "name": "O Guia",
+    "thumb": "icons/tarot/64/SummonGhost.png"
+  },
+  {
+    "id": "Sun",
+    "name": "Sol Que Tudo Vê",
+    "thumb": "icons/tarot/64/Sun.png"
+  },
+  {
+    "id": "SurpriseAttack",
+    "name": "O Conquistador",
+    "thumb": "icons/tarot/64/SurpriseAttack.png"
+  },
+  {
+    "id": "Telescope",
+    "name": "Telescópio",
+    "thumb": "icons/tarot/64/Telescope.png"
+  },
+  {
+    "id": "TentacleOnDamaged",
+    "name": "Família de Turua",
+    "thumb": "icons/tarot/64/TentacleOnDamaged.png"
+  },
+  {
+    "id": "TheDeal",
+    "name": "O Acordo",
+    "thumb": "icons/tarot/64/TheDeal.png"
+  },
+  {
+    "id": "WalkThroughBlocks",
+    "name": "Vontade do Espectro",
+    "thumb": "icons/tarot/64/WalkThroughBlocks.png"
+  }
+]

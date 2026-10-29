@@ -1,0 +1,427 @@
+[
+  {
+    "id": "AdventureMapFreedom",
+    "name": "Раскидистое дерево",
+    "thumb": "icons/tarot/64/AdventureMapFreedom.png"
+  },
+  {
+    "id": "AmmoEfficient",
+    "name": "Божественное проклятие",
+    "thumb": "icons/tarot/64/AmmoEfficient.png"
+  },
+  {
+    "id": "Arrows",
+    "name": "Запас усердия",
+    "thumb": "icons/tarot/64/Arrows.png"
+  },
+  {
+    "id": "AttackRate",
+    "name": "Божественная сила",
+    "thumb": "icons/tarot/64/AttackRate.png"
+  },
+  {
+    "id": "BlackSoulAutoRecharge",
+    "name": "Внутренняя сила",
+    "thumb": "icons/tarot/64/BlackSoulAutoRecharge.png"
+  },
+  {
+    "id": "BlackSoulOnDamage",
+    "name": "Внешняя сила",
+    "thumb": "icons/tarot/64/BlackSoulOnDamage.png"
+  },
+  {
+    "id": "BombOnDamaged",
+    "name": "Возмездие",
+    "thumb": "icons/tarot/64/BombOnDamaged.png"
+  },
+  {
+    "id": "BombOnRoll",
+    "name": "Бомба",
+    "thumb": "icons/tarot/64/BombOnRoll.png"
+  },
+  {
+    "id": "BossHeal",
+    "name": "Благословение узурпатора",
+    "thumb": "icons/tarot/64/BossHeal.png"
+  },
+  {
+    "id": "CoopBetterApart",
+    "name": "Соперники",
+    "thumb": "icons/tarot/64/CoopBetterApart.png"
+  },
+  {
+    "id": "CoopBetterTogether",
+    "name": "Товарищи",
+    "thumb": "icons/tarot/64/CoopBetterTogether.png"
+  },
+  {
+    "id": "CoopBonded",
+    "name": "Узы битвы",
+    "thumb": "icons/tarot/64/CoopBonded.png"
+  },
+  {
+    "id": "CoopExplosive",
+    "name": "Огниво",
+    "thumb": "icons/tarot/64/CoopExplosive.png"
+  },
+  {
+    "id": "CoopGoodTiming",
+    "name": "Согласованность",
+    "thumb": "icons/tarot/64/CoopGoodTiming.png"
+  },
+  {
+    "id": "CorruptedBlackHeartForRelic",
+    "name": "Отвращение",
+    "thumb": "icons/tarot/64/CorruptedBlackHeartForRelic.png"
+  },
+  {
+    "id": "CorruptedBombsAndHealth",
+    "name": "Расплата",
+    "thumb": "icons/tarot/64/CorruptedBombsAndHealth.png"
+  },
+  {
+    "id": "CorruptedFullCorruption",
+    "name": "Триумф изменника",
+    "thumb": "icons/tarot/64/CorruptedFullCorruption.png"
+  },
+  {
+    "id": "CorruptedGoopyTrail",
+    "name": "Исторжение ихора",
+    "thumb": "icons/tarot/64/CorruptedGoopyTrail.png"
+  },
+  {
+    "id": "CorruptedHealForRelic",
+    "name": "Стяжание",
+    "thumb": "icons/tarot/64/CorruptedHealForRelic.png"
+  },
+  {
+    "id": "CorruptedHeavy",
+    "name": "Клятва смертности",
+    "thumb": "icons/tarot/64/CorruptedHeavy.png"
+  },
+  {
+    "id": "CorruptedPoisonCoins",
+    "name": "Вкушение яда",
+    "thumb": "icons/tarot/64/CorruptedPoisonCoins.png"
+  },
+  {
+    "id": "CorruptedRelicCharge",
+    "name": "Оскверняющее масло",
+    "thumb": "icons/tarot/64/CorruptedRelicCharge.png"
+  },
+  {
+    "id": "CorruptedTradeOff",
+    "name": "Поражённая сердцевина",
+    "thumb": "icons/tarot/64/CorruptedTradeOff.png"
+  },
+  {
+    "id": "DamageOnRoll",
+    "name": "Горящая тропа",
+    "thumb": "icons/tarot/64/DamageOnRoll.png"
+  },
+  {
+    "id": "DeathsDoor",
+    "name": "Врата смерти",
+    "thumb": "icons/tarot/64/DeathsDoor.png"
+  },
+  {
+    "id": "DecreaseRelicCharge",
+    "name": "Масло обновления",
+    "thumb": "icons/tarot/64/DecreaseRelicCharge.png"
+  },
+  {
+    "id": "DiseasedHeart",
+    "name": "Больное сердце",
+    "thumb": "icons/tarot/64/DiseasedHeart.png"
+  },
+  {
+    "id": "EasyMoney",
+    "name": "Ножницы стригаля",
+    "thumb": "icons/tarot/64/EasyMoney.png"
+  },
+  {
+    "id": "EmptyFervourCritical",
+    "name": "Безверие",
+    "thumb": "icons/tarot/64/EmptyFervourCritical.png"
+  },
+  {
+    "id": "ExtraMove",
+    "name": "Попутный ветер",
+    "thumb": "icons/tarot/64/ExtraMove.png"
+  },
+  {
+    "id": "EyeOfWeakness",
+    "name": "Истинное зрение",
+    "thumb": "icons/tarot/64/EyeOfWeakness.png"
+  },
+  {
+    "id": "FlameHeart",
+    "name": "Раскалённое сердце",
+    "thumb": "icons/tarot/64/FlameHeart.png"
+  },
+  {
+    "id": "FrostHeart",
+    "name": "Ледяное сердце",
+    "thumb": "icons/tarot/64/FrostHeart.png"
+  },
+  {
+    "id": "FrostedEnemies",
+    "name": "Наступление зимы",
+    "thumb": "icons/tarot/64/FrostedEnemies.png"
+  },
+  {
+    "id": "GiftFromBelow",
+    "name": "Дар из-под земли",
+    "thumb": "icons/tarot/64/GiftFromBelow.png"
+  },
+  {
+    "id": "GoopOnDamaged",
+    "name": "Полученный ихор",
+    "thumb": "icons/tarot/64/GoopOnDamaged.png"
+  },
+  {
+    "id": "GoopOnRoll",
+    "name": "Остаточный ихор",
+    "thumb": "icons/tarot/64/GoopOnRoll.png"
+  },
+  {
+    "id": "HandsOfRage",
+    "name": "Длань ярости",
+    "thumb": "icons/tarot/64/HandsOfRage.png"
+  },
+  {
+    "id": "HealChance",
+    "name": "Похищение душ",
+    "thumb": "icons/tarot/64/HealChance.png"
+  },
+  {
+    "id": "HealTwiceAmount",
+    "name": "Благословение судьбы",
+    "thumb": "icons/tarot/64/HealTwiceAmount.png"
+  },
+  {
+    "id": "HeartTarotDrawn",
+    "name": "Ночь солнцестояния",
+    "thumb": "icons/tarot/64/HeartTarotDrawn.png"
+  },
+  {
+    "id": "Hearts1",
+    "name": "Сердце I",
+    "thumb": "icons/tarot/64/Hearts1.png"
+  },
+  {
+    "id": "Hearts2",
+    "name": "Сердце II",
+    "thumb": "icons/tarot/64/Hearts2.png"
+  },
+  {
+    "id": "Hearts3",
+    "name": "Сердце III",
+    "thumb": "icons/tarot/64/Hearts3.png"
+  },
+  {
+    "id": "HighRoller",
+    "name": "Ледяные иглы",
+    "thumb": "icons/tarot/64/HighRoller.png"
+  },
+  {
+    "id": "HitKillEnemy",
+    "name": "Отбившиеся",
+    "thumb": "icons/tarot/64/HitKillEnemy.png"
+  },
+  {
+    "id": "ImmuneToTraps",
+    "name": "Неуловимость",
+    "thumb": "icons/tarot/64/ImmuneToTraps.png"
+  },
+  {
+    "id": "IncreaseBlackSoulsDrop",
+    "name": "Жатва усердия",
+    "thumb": "icons/tarot/64/IncreaseBlackSoulsDrop.png"
+  },
+  {
+    "id": "IncreasedDamage",
+    "name": "Мастерское фехтование",
+    "thumb": "icons/tarot/64/IncreasedDamage.png"
+  },
+  {
+    "id": "InvincibilityPerRoom",
+    "name": "Миг божественности",
+    "thumb": "icons/tarot/64/InvincibilityPerRoom.png"
+  },
+  {
+    "id": "Joker",
+    "name": "Шут",
+    "thumb": "icons/tarot/64/Joker.png"
+  },
+  {
+    "id": "KillEnemiesOnResurrect",
+    "name": "Каждому по вере его",
+    "thumb": "icons/tarot/64/KillEnemiesOnResurrect.png"
+  },
+  {
+    "id": "LastChance",
+    "name": "Обморожение",
+    "thumb": "icons/tarot/64/LastChance.png"
+  },
+  {
+    "id": "Lovers1",
+    "name": "Влюблённые I",
+    "thumb": "icons/tarot/64/Lovers1.png"
+  },
+  {
+    "id": "Lovers2",
+    "name": "Влюблённые II",
+    "thumb": "icons/tarot/64/Lovers2.png"
+  },
+  {
+    "id": "Moon",
+    "name": "Скорбная луна",
+    "thumb": "icons/tarot/64/Moon.png"
+  },
+  {
+    "id": "MoreRelics",
+    "name": "Коллекция",
+    "thumb": "icons/tarot/64/MoreRelics.png"
+  },
+  {
+    "id": "MovementSpeed",
+    "name": "Путь",
+    "thumb": "icons/tarot/64/MovementSpeed.png"
+  },
+  {
+    "id": "MutatedDropRotburn",
+    "name": "Древние кости",
+    "thumb": "icons/tarot/64/MutatedDropRotburn.png"
+  },
+  {
+    "id": "MutatedFreezeOnHit",
+    "name": "Оскал",
+    "thumb": "icons/tarot/64/MutatedFreezeOnHit.png"
+  },
+  {
+    "id": "MutatedInvincibility",
+    "name": "Непокорный дух",
+    "thumb": "icons/tarot/64/MutatedInvincibility.png"
+  },
+  {
+    "id": "MutatedNegateHit",
+    "name": "Ложные глаза",
+    "thumb": "icons/tarot/64/MutatedNegateHit.png"
+  },
+  {
+    "id": "MutatedResurrectFullHealth",
+    "name": "Похищенная желчь",
+    "thumb": "icons/tarot/64/MutatedResurrectFullHealth.png"
+  },
+  {
+    "id": "MutatedSpawnRotDemons",
+    "name": "Опасные мечты",
+    "thumb": "icons/tarot/64/MutatedSpawnRotDemons.png"
+  },
+  {
+    "id": "NaturesGift",
+    "name": "Дары природы",
+    "thumb": "icons/tarot/64/NaturesGift.png"
+  },
+  {
+    "id": "NegateDamageChance",
+    "name": "Щит веры",
+    "thumb": "icons/tarot/64/NegateDamageChance.png"
+  },
+  {
+    "id": "NeptunesCurse",
+    "name": "Проклятие Нептуна",
+    "thumb": "icons/tarot/64/NeptunesCurse.png"
+  },
+  {
+    "id": "NoCorruption",
+    "name": "Заклинание чистоты",
+    "thumb": "icons/tarot/64/NoCorruption.png"
+  },
+  {
+    "id": "PoisonImmune",
+    "name": "Митридатизм",
+    "thumb": "icons/tarot/64/PoisonImmune.png"
+  },
+  {
+    "id": "Potion",
+    "name": "Амброзия",
+    "thumb": "icons/tarot/64/Potion.png"
+  },
+  {
+    "id": "RabbitFoot",
+    "name": "Заячья лапка",
+    "thumb": "icons/tarot/64/RabbitFoot.png"
+  },
+  {
+    "id": "Recycle",
+    "name": "Извлечение духа",
+    "thumb": "icons/tarot/64/Recycle.png"
+  },
+  {
+    "id": "RoomEnterCritter",
+    "name": "Алхимия",
+    "thumb": "icons/tarot/64/RoomEnterCritter.png"
+  },
+  {
+    "id": "ShuffleNode",
+    "name": "Лабиринт",
+    "thumb": "icons/tarot/64/ShuffleNode.png"
+  },
+  {
+    "id": "Sin",
+    "name": "Судьба искушения",
+    "thumb": "icons/tarot/64/Sin.png"
+  },
+  {
+    "id": "Skull",
+    "name": "Горящие мертвецы",
+    "thumb": "icons/tarot/64/Skull.png"
+  },
+  {
+    "id": "Spider",
+    "name": "Паук",
+    "thumb": "icons/tarot/64/Spider.png"
+  },
+  {
+    "id": "StrikeBack",
+    "name": "Слепая ярость",
+    "thumb": "icons/tarot/64/StrikeBack.png"
+  },
+  {
+    "id": "SummonGhost",
+    "name": "Вожак",
+    "thumb": "icons/tarot/64/SummonGhost.png"
+  },
+  {
+    "id": "Sun",
+    "name": "Всевидящее солнце",
+    "thumb": "icons/tarot/64/Sun.png"
+  },
+  {
+    "id": "SurpriseAttack",
+    "name": "Усмирение",
+    "thumb": "icons/tarot/64/SurpriseAttack.png"
+  },
+  {
+    "id": "Telescope",
+    "name": "Телескоп",
+    "thumb": "icons/tarot/64/Telescope.png"
+  },
+  {
+    "id": "TentacleOnDamaged",
+    "name": "Помощь Туруа",
+    "thumb": "icons/tarot/64/TentacleOnDamaged.png"
+  },
+  {
+    "id": "TheDeal",
+    "name": "Договор",
+    "thumb": "icons/tarot/64/TheDeal.png"
+  },
+  {
+    "id": "WalkThroughBlocks",
+    "name": "Касание призрака",
+    "thumb": "icons/tarot/64/WalkThroughBlocks.png"
+  }
+]

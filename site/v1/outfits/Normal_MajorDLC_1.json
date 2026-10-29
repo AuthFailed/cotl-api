@@ -1,0 +1,87 @@
+{
+  "cost": [
+    {
+      "item": "WOOL",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "زي الإصلاح.",
+    "de": "Eine läuternde Uniform.",
+    "en": "A uniform, reformed.",
+    "es": "Ha aprendido la lección..., ¿no?",
+    "fr": "Un uniforme, repenti.",
+    "fr-CA": "Un uniforme, repenti.",
+    "it": "Un'uniforme, riformata.",
+    "ja": "改心させるための制服",
+    "ko": "교화의 옷입니다.",
+    "nl": "Een uniform om gevangenen opnieuw in te vormen.",
+    "pt-BR": "Um uniforme para pensar no que fez.",
+    "ru": "Форма для перевоспитания.",
+    "tr": "Islah edilenlerin kıyafeti.",
+    "zh-CN": "改过自新的制服。",
+    "zh-TW": "悔改之人的制服。"
+  },
+  "descriptionPlain": {
+    "ar": "زي الإصلاح.",
+    "de": "Eine läuternde Uniform.",
+    "en": "A uniform, reformed.",
+    "es": "Ha aprendido la lección..., ¿no?",
+    "fr": "Un uniforme, repenti.",
+    "fr-CA": "Un uniforme, repenti.",
+    "it": "Un'uniforme, riformata.",
+    "ja": "改心させるための制服",
+    "ko": "교화의 옷입니다.",
+    "nl": "Een uniform om gevangenen opnieuw in te vormen.",
+    "pt-BR": "Um uniforme para pensar no que fez.",
+    "ru": "Форма для перевоспитания.",
+    "tr": "Islah edilenlerin kıyafeti.",
+    "zh-CN": "改过自新的制服。",
+    "zh-TW": "悔改之人的制服。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Normal_MajorDLC_1.png",
+  "id": "Normal_MajorDLC_1",
+  "name": {
+    "ar": "زي السجناء",
+    "de": "Sträflingsuniform",
+    "en": "Convict Uniform",
+    "es": "Uniforme de presidiario",
+    "fr": "Uniforme de prison",
+    "fr-CA": "Uniforme de prison",
+    "it": "Uniforme da prigione",
+    "ja": "受刑者の制服",
+    "ko": "죄수복",
+    "nl": "Gevangenisuniform",
+    "pt-BR": "Uniforme de Prisão",
+    "ru": "Тюремная роба",
+    "tr": "Mahkûm Kıyafeti",
+    "zh-CN": "囚犯制服",
+    "zh-TW": "囚服"
+  },
+  "namePlain": {
+    "ar": "زي السجناء",
+    "de": "Sträflingsuniform",
+    "en": "Convict Uniform",
+    "es": "Uniforme de presidiario",
+    "fr": "Uniforme de prison",
+    "fr-CA": "Uniforme de prison",
+    "it": "Uniforme da prigione",
+    "ja": "受刑者の制服",
+    "ko": "죄수복",
+    "nl": "Gevangenisuniform",
+    "pt-BR": "Uniforme de Prisão",
+    "ru": "Тюремная роба",
+    "tr": "Mahkûm Kıyafeti",
+    "zh-CN": "囚犯制服",
+    "zh-TW": "囚服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Normal_MajorDLC_1.png"
+}

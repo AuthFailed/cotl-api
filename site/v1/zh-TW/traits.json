@@ -1,0 +1,612 @@
+[
+  {
+    "id": "Aestivation",
+    "name": "夏眠",
+    "thumb": "icons/traits/64/Aestivation.png"
+  },
+  {
+    "id": "AgainstSacrifice",
+    "name": "反對獻祭",
+    "thumb": "icons/traits/64/AgainstSacrifice.png"
+  },
+  {
+    "id": "Allegiance",
+    "name": "盲目忠誠",
+    "thumb": "icons/traits/64/Allegiance.png"
+  },
+  {
+    "id": "AnimalLover",
+    "name": "動物愛好者",
+    "thumb": "icons/traits/64/AnimalLover.png"
+  },
+  {
+    "id": "Argumentative",
+    "name": "易怒",
+    "thumb": "icons/traits/64/Argumentative.png"
+  },
+  {
+    "id": "Asceticism",
+    "name": "恪守規律",
+    "thumb": "icons/traits/64/Asceticism.png"
+  },
+  {
+    "id": "Bastard",
+    "name": "麻煩人物",
+    "thumb": "icons/traits/64/Bastard.png"
+  },
+  {
+    "id": "BishopOfCult",
+    "name": "<color=#FFD201>{0}</color>之主教",
+    "thumb": "icons/traits/64/BishopOfCult.png"
+  },
+  {
+    "id": "Blind",
+    "name": "盲目",
+    "thumb": "icons/traits/64/Blind.png"
+  },
+  {
+    "id": "BornToTheRot",
+    "name": "腐爛奉拜者",
+    "thumb": "icons/traits/64/BornToTheRot.png"
+  },
+  {
+    "id": "Cannibal",
+    "name": "同類相食",
+    "thumb": "icons/traits/64/Cannibal.png"
+  },
+  {
+    "id": "Celibate",
+    "name": "反慾",
+    "thumb": "icons/traits/64/Celibate.png"
+  },
+  {
+    "id": "Chionophile",
+    "name": "嗜雪",
+    "thumb": null
+  },
+  {
+    "id": "ChosenOne",
+    "name": "獲選之子",
+    "thumb": "icons/traits/64/ChosenOne.png"
+  },
+  {
+    "id": "ColdBlooded",
+    "name": "冷血",
+    "thumb": "icons/traits/64/ColdBlooded.png"
+  },
+  {
+    "id": "ColdEnthusiast",
+    "name": "厚皮膚",
+    "thumb": "icons/traits/64/ColdEnthusiast.png"
+  },
+  {
+    "id": "ConstructionEnthusiast",
+    "name": "聖禮建築",
+    "thumb": "icons/traits/64/ConstructionEnthusiast.png"
+  },
+  {
+    "id": "Coprophiliac",
+    "name": "戀髒亂癖",
+    "thumb": "icons/traits/64/Coprophiliac.png"
+  },
+  {
+    "id": "CriminalHardened",
+    "name": "不知悔改的罪犯",
+    "thumb": "icons/traits/64/CriminalHardened.png"
+  },
+  {
+    "id": "CriminalReformed",
+    "name": "改過自新的罪犯",
+    "thumb": "icons/traits/64/CriminalReformed.png"
+  },
+  {
+    "id": "CriminalScarred",
+    "name": "受了創傷的罪犯",
+    "thumb": "icons/traits/64/CriminalScarred.png"
+  },
+  {
+    "id": "Cynical",
+    "name": "憤世",
+    "thumb": "icons/traits/64/Cynical.png"
+  },
+  {
+    "id": "DeepSleeper",
+    "name": "深度睡眠者",
+    "thumb": "icons/traits/64/DeepSleeper.png"
+  },
+  {
+    "id": "DesensitisedToDeath",
+    "name": "死後世界信念",
+    "thumb": "icons/traits/64/DesensitisedToDeath.png"
+  },
+  {
+    "id": "Disciple",
+    "name": "門徒",
+    "thumb": "icons/traits/64/Disciple.png"
+  },
+  {
+    "id": "Disciplinarian",
+    "name": "原罪信念",
+    "thumb": "icons/traits/64/Disciplinarian.png"
+  },
+  {
+    "id": "DoctrinalExtremist",
+    "name": "教義極端分子",
+    "thumb": "icons/traits/64/DoctrinalExtremist.png"
+  },
+  {
+    "id": "DontStarve",
+    "name": "不會挨餓",
+    "thumb": "icons/traits/64/DontStarve.png"
+  },
+  {
+    "id": "Drowsy",
+    "name": "昏昏欲睡",
+    "thumb": "icons/traits/64/Drowsy.png"
+  },
+  {
+    "id": "EmbraceRot",
+    "name": "擁抱腐爛",
+    "thumb": "icons/traits/64/EmbraceRot.png"
+  },
+  {
+    "id": "ExCultLeader",
+    "name": "前邪教教主",
+    "thumb": null
+  },
+  {
+    "id": "ExistentialDread",
+    "name": "緊張抑鬱",
+    "thumb": "icons/traits/64/ExistentialDread.png"
+  },
+  {
+    "id": "Faithful",
+    "name": "深信",
+    "thumb": "icons/traits/64/Faithful.png"
+  },
+  {
+    "id": "Faithless",
+    "name": "不信",
+    "thumb": "icons/traits/64/Faithless.png"
+  },
+  {
+    "id": "FalseIdols",
+    "name": "虛假偶像",
+    "thumb": "icons/traits/64/FalseIdols.png"
+  },
+  {
+    "id": "Fashionable",
+    "name": "嚮往時尚",
+    "thumb": "icons/traits/64/Fashionable.png"
+  },
+  {
+    "id": "FearOfDeath",
+    "name": "懼怕死亡",
+    "thumb": "icons/traits/64/FearOfDeath.png"
+  },
+  {
+    "id": "FearOfSickPeople",
+    "name": "畏懼疾病",
+    "thumb": "icons/traits/64/FearOfSickPeople.png"
+  },
+  {
+    "id": "Fertility",
+    "name": "生來有罪",
+    "thumb": "icons/traits/64/Fertility.png"
+  },
+  {
+    "id": "FluteLover",
+    "name": "長笛手",
+    "thumb": "icons/traits/64/FluteLover.png"
+  },
+  {
+    "id": "FreezeImmune",
+    "name": "毛茸茸",
+    "thumb": "icons/traits/64/FreezeImmune.png"
+  },
+  {
+    "id": "Frigidophile",
+    "name": "嗜雪",
+    "thumb": "icons/traits/64/Frigidophile.png"
+  },
+  {
+    "id": "FurnaceAnimal",
+    "name": "焚燒動物",
+    "thumb": "icons/traits/64/FurnaceAnimal.png"
+  },
+  {
+    "id": "FurnaceFollower",
+    "name": "焚燒教徒",
+    "thumb": "icons/traits/64/FurnaceFollower.png"
+  },
+  {
+    "id": "Germophobe",
+    "name": "懼怕細菌",
+    "thumb": "icons/traits/64/Germophobe.png"
+  },
+  {
+    "id": "GrassEater",
+    "name": "草食者",
+    "thumb": "icons/traits/64/GrassEater.png"
+  },
+  {
+    "id": "GrievingWidow",
+    "name": "悲傷喪偶",
+    "thumb": "icons/traits/64/GrievingWidow.png"
+  },
+  {
+    "id": "Gullible",
+    "name": "輕信",
+    "thumb": "icons/traits/64/Gullible.png"
+  },
+  {
+    "id": "HappilyWidowed",
+    "name": "快樂喪偶",
+    "thumb": "icons/traits/64/HappilyWidowed.png"
+  },
+  {
+    "id": "HateElderly",
+    "name": "好人不長命",
+    "thumb": "icons/traits/64/HateElderly.png"
+  },
+  {
+    "id": "HatesSnowmen",
+    "name": "痛恨雪羊",
+    "thumb": "icons/traits/64/HatesSnowmen.png"
+  },
+  {
+    "id": "Heavyweight",
+    "name": "重量級",
+    "thumb": "icons/traits/64/Heavyweight.png"
+  },
+  {
+    "id": "Hedonism",
+    "name": "唯樂是從",
+    "thumb": "icons/traits/64/Hedonism.png"
+  },
+  {
+    "id": "Hibernation",
+    "name": "冬眠",
+    "thumb": "icons/traits/64/Hibernation.png"
+  },
+  {
+    "id": "IceSculpture",
+    "name": "雕刻師",
+    "thumb": "icons/traits/64/IceSculpture.png"
+  },
+  {
+    "id": "Immortal",
+    "name": "不老",
+    "thumb": "icons/traits/64/Immortal.png"
+  },
+  {
+    "id": "Industrious",
+    "name": "勤奮",
+    "thumb": "icons/traits/64/Industrious.png"
+  },
+  {
+    "id": "InfusibleSnowman",
+    "name": "永凍",
+    "thumb": "icons/traits/64/InfusibleSnowman.png"
+  },
+  {
+    "id": "Insomniac",
+    "name": "晝伏夜出",
+    "thumb": "icons/traits/64/Insomniac.png"
+  },
+  {
+    "id": "IronStomach",
+    "name": "強健體魄",
+    "thumb": "icons/traits/64/IronStomach.png"
+  },
+  {
+    "id": "JiltedLover",
+    "name": "怨偶",
+    "thumb": "icons/traits/64/JiltedLover.png"
+  },
+  {
+    "id": "Lazy",
+    "name": "怠惰",
+    "thumb": "icons/traits/64/Lazy.png"
+  },
+  {
+    "id": "Libertarian",
+    "name": "赦罪",
+    "thumb": "icons/traits/64/Libertarian.png"
+  },
+  {
+    "id": "LightningEnthusiast",
+    "name": "導電",
+    "thumb": "icons/traits/64/LightningEnthusiast.png"
+  },
+  {
+    "id": "Lightweight",
+    "name": "輕量級",
+    "thumb": "icons/traits/64/Lightweight.png"
+  },
+  {
+    "id": "LockedLoyal",
+    "name": "模範囚犯",
+    "thumb": "icons/traits/64/LockedLoyal.png"
+  },
+  {
+    "id": "LoveElderly",
+    "name": "敬老尊賢",
+    "thumb": "icons/traits/64/LoveElderly.png"
+  },
+  {
+    "id": "LoveOfSickPeople",
+    "name": "相信疾病是神聖懲罰",
+    "thumb": "icons/traits/64/LoveOfSickPeople.png"
+  },
+  {
+    "id": "Lustful",
+    "name": "色慾",
+    "thumb": "icons/traits/64/Lustful.png"
+  },
+  {
+    "id": "MarriedHappily",
+    "name": "婚姻幸福",
+    "thumb": "icons/traits/64/MarriedHappily.png"
+  },
+  {
+    "id": "MarriedJealous",
+    "name": "善妒配偶",
+    "thumb": "icons/traits/64/MarriedJealous.png"
+  },
+  {
+    "id": "MarriedMurderouslyJealous",
+    "name": "極端善妒配偶",
+    "thumb": "icons/traits/64/MarriedMurderouslyJealous.png"
+  },
+  {
+    "id": "MarriedUnhappily",
+    "name": "婚姻不幸福",
+    "thumb": "icons/traits/64/MarriedUnhappily.png"
+  },
+  {
+    "id": "Masochistic",
+    "name": "受虐狂",
+    "thumb": "icons/traits/64/Masochistic.png"
+  },
+  {
+    "id": "MasterfulSnowman",
+    "name": "完美雪羊",
+    "thumb": "icons/traits/64/MasterfulSnowman.png"
+  },
+  {
+    "id": "Materialistic",
+    "name": "唯物論",
+    "thumb": "icons/traits/64/Materialistic.png"
+  },
+  {
+    "id": "MissionaryExcited",
+    "name": "傳教後覺得興奮",
+    "thumb": "icons/traits/64/MissionaryExcited.png"
+  },
+  {
+    "id": "MissionaryInspired",
+    "name": "傳教後受到鼓舞",
+    "thumb": "icons/traits/64/MissionaryInspired.png"
+  },
+  {
+    "id": "MissionaryTerrified",
+    "name": "傳教後覺得不安",
+    "thumb": "icons/traits/64/MissionaryTerrified.png"
+  },
+  {
+    "id": "MushroomBanned",
+    "name": "禁菇",
+    "thumb": "icons/traits/64/MushroomBanned.png"
+  },
+  {
+    "id": "MushroomEncouraged",
+    "name": "鼓勵使用物質",
+    "thumb": "icons/traits/64/MushroomEncouraged.png"
+  },
+  {
+    "id": "MusicLover",
+    "name": "音樂愛好者",
+    "thumb": "icons/traits/64/MusicLover.png"
+  },
+  {
+    "id": "Mutated",
+    "name": "腐爛",
+    "thumb": "icons/traits/64/Mutated.png"
+  },
+  {
+    "id": "MutatedImmune",
+    "name": "不變",
+    "thumb": "icons/traits/64/MutatedImmune.png"
+  },
+  {
+    "id": "MutatedVisual",
+    "name": "輕微腐爛",
+    "thumb": "icons/traits/64/MutatedVisual.png"
+  },
+  {
+    "id": "NaturallyObedient",
+    "name": "天性服從",
+    "thumb": "icons/traits/64/NaturallyObedient.png"
+  },
+  {
+    "id": "NaturallySkeptical",
+    "name": "天性多疑",
+    "thumb": "icons/traits/64/NaturallySkeptical.png"
+  },
+  {
+    "id": "Nudist",
+    "name": "天然主義者",
+    "thumb": "icons/traits/64/Nudist.png"
+  },
+  {
+    "id": "OverworkedParent",
+    "name": "育兒負擔沉重",
+    "thumb": "icons/traits/64/OverworkedParent.png"
+  },
+  {
+    "id": "Pacifist",
+    "name": "和平主義者",
+    "thumb": "icons/traits/64/Pacifist.png"
+  },
+  {
+    "id": "Pettable",
+    "name": "寵物",
+    "thumb": "icons/traits/64/Pettable.png"
+  },
+  {
+    "id": "Poet",
+    "name": "詩人",
+    "thumb": "icons/traits/64/Poet.png"
+  },
+  {
+    "id": "Polyamory",
+    "name": "多邊戀",
+    "thumb": "icons/traits/64/Polyamory.png"
+  },
+  {
+    "id": "ProudParent",
+    "name": "以孩子為榮",
+    "thumb": "icons/traits/64/ProudParent.png"
+  },
+  {
+    "id": "PureBlood",
+    "name": "血統",
+    "thumb": "icons/traits/64/PureBlood.png"
+  },
+  {
+    "id": "PureBlood_1",
+    "name": "血統 I",
+    "thumb": "icons/traits/64/PureBlood_1.png"
+  },
+  {
+    "id": "PureBlood_2",
+    "name": "血統 II",
+    "thumb": "icons/traits/64/PureBlood_2.png"
+  },
+  {
+    "id": "PureBlood_3",
+    "name": "血統 III",
+    "thumb": "icons/traits/64/PureBlood_3.png"
+  },
+  {
+    "id": "RejectRot",
+    "name": "淨化腐爛",
+    "thumb": "icons/traits/64/RejectRot.png"
+  },
+  {
+    "id": "RemoveRot",
+    "name": "治療腐爛",
+    "thumb": "icons/traits/64/RemoveRot.png"
+  },
+  {
+    "id": "RotstonePooper",
+    "name": "腐燃便便家",
+    "thumb": "icons/traits/64/RotstonePooper.png"
+  },
+  {
+    "id": "RoyalPooper",
+    "name": "便便專家",
+    "thumb": "icons/traits/64/RoyalPooper.png"
+  },
+  {
+    "id": "SacrificeEnthusiast",
+    "name": "獻祭信念",
+    "thumb": "icons/traits/64/SacrificeEnthusiast.png"
+  },
+  {
+    "id": "Scared",
+    "name": "懦弱",
+    "thumb": "icons/traits/64/Scared.png"
+  },
+  {
+    "id": "SeenGod",
+    "name": "純潔之心",
+    "thumb": "icons/traits/64/SeenGod.png"
+  },
+  {
+    "id": "SermonEnthusiast",
+    "name": "虔誠教徒",
+    "thumb": "icons/traits/64/SermonEnthusiast.png"
+  },
+  {
+    "id": "ShoddySnowman",
+    "name": "劣質雪羊",
+    "thumb": "icons/traits/64/ShoddySnowman.png"
+  },
+  {
+    "id": "Sickly",
+    "name": "多病",
+    "thumb": "icons/traits/64/Sickly.png"
+  },
+  {
+    "id": "Snorer",
+    "name": "打鼾",
+    "thumb": "icons/traits/64/Snorer.png"
+  },
+  {
+    "id": "Spy",
+    "name": "間諜",
+    "thumb": "icons/traits/64/Spy.png"
+  },
+  {
+    "id": "Terrified",
+    "name": "驚恐",
+    "thumb": "icons/traits/64/Terrified.png"
+  },
+  {
+    "id": "Unlawful",
+    "name": "不法之徒",
+    "thumb": "icons/traits/64/Unlawful.png"
+  },
+  {
+    "id": "Unrepentant",
+    "name": "不知悔悟",
+    "thumb": "icons/traits/64/Unrepentant.png"
+  },
+  {
+    "id": "ViolentExtremist",
+    "name": "暴力極端分子",
+    "thumb": "icons/traits/64/ViolentExtremist.png"
+  },
+  {
+    "id": "Virtuous",
+    "name": "品德高尚",
+    "thumb": "icons/traits/64/Virtuous.png"
+  },
+  {
+    "id": "WarmBlooded",
+    "name": "暖血",
+    "thumb": "icons/traits/64/WarmBlooded.png"
+  },
+  {
+    "id": "WinterBody",
+    "name": "喜寒",
+    "thumb": "icons/traits/64/WinterBody.png"
+  },
+  {
+    "id": "WinterExcited",
+    "name": "冬日崇拜者",
+    "thumb": "icons/traits/64/WinterExcited.png"
+  },
+  {
+    "id": "WolfHater",
+    "name": "守衛",
+    "thumb": "icons/traits/64/WolfHater.png"
+  },
+  {
+    "id": "WorkThroughBlizzard",
+    "name": "雪耕者",
+    "thumb": "icons/traits/64/WorkThroughBlizzard.png"
+  },
+  {
+    "id": "Zealous",
+    "name": "狂熱",
+    "thumb": "icons/traits/64/Zealous.png"
+  },
+  {
+    "id": "Zombie",
+    "name": "受到詛咒",
+    "thumb": "icons/traits/64/Zombie.png"
+  }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "id": "DeathSacrifice_BuildingGoodGraves",
+    "name": "죽은 자들을 추도해야 한다",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingGoodGraves.png"
+  },
+  {
+    "id": "DeathSacrifice_BuildingReturnToEarth",
+    "name": "대지로 돌려보내야 한다",
+    "thumb": "icons/doctrines/64/DeathSacrifice_BuildingReturnToEarth.png"
+  },
+  {
+    "id": "DeathSacrifice_Funeral",
+    "name": "장례식",
+    "thumb": "icons/doctrines/64/DeathSacrifice_Funeral.png"
+  },
+  {
+    "id": "DeathSacrifice_RessurectionRitual",
+    "name": "부활식",
+    "thumb": "icons/doctrines/64/DeathSacrifice_RessurectionRitual.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitDesensitisedToDeath",
+    "name": "<sprite name=\"icon_Trait_DesensitisedToDeath\">내세 신앙 특성",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitDesensitisedToDeath.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitOldDieYoung",
+    "name": "<sprite name=\"icon_Trait_OldDieYoung\">선한 자는 단명한다 특성",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitOldDieYoung.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitRespectElders",
+    "name": "<sprite name=\"icon_Trait_RespectElders\">노인 공경 특성",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitRespectElders.png"
+  },
+  {
+    "id": "DeathSacrifice_TraitSacrificeEnthusiast",
+    "name": "<sprite name=\"icon_Trait_SacrificeEnthusiast\">번제 신앙 특성",
+    "thumb": "icons/doctrines/64/DeathSacrifice_TraitSacrificeEnthusiast.png"
+  },
+  {
+    "id": "LawOrder_AscendFollower",
+    "name": "추종자 승진 의식",
+    "thumb": "icons/doctrines/64/LawOrder_AscendFollower.png"
+  },
+  {
+    "id": "LawOrder_AssignFaithEnforcerRitual",
+    "name": "충절 집행자",
+    "thumb": "icons/doctrines/64/LawOrder_AssignFaithEnforcerRitual.png"
+  },
+  {
+    "id": "LawOrder_AssignTaxCollectorRitual",
+    "name": "수금 집행인",
+    "thumb": "icons/doctrines/64/LawOrder_AssignTaxCollectorRitual.png"
+  },
+  {
+    "id": "LawOrder_FightPitRitual",
+    "name": "의례적 투기장",
+    "thumb": "icons/doctrines/64/LawOrder_FightPitRitual.png"
+  },
+  {
+    "id": "LawOrder_JudgementRitual",
+    "name": "결혼",
+    "thumb": "icons/doctrines/64/LawOrder_JudgementRitual.png"
+  },
+  {
+    "id": "LawOrder_MurderFollower",
+    "name": "추종자 살해",
+    "thumb": "icons/doctrines/64/LawOrder_MurderFollower.png"
+  },
+  {
+    "id": "LawOrder_TraitDisciplinarian",
+    "name": "원죄 신앙 특성",
+    "thumb": "icons/doctrines/64/LawOrder_TraitDisciplinarian.png"
+  },
+  {
+    "id": "LawOrder_TraitLibertarian",
+    "name": "면죄 신앙 특성",
+    "thumb": "icons/doctrines/64/LawOrder_TraitLibertarian.png"
+  },
+  {
+    "id": "Pleasure_Allegiance",
+    "name": "맹목적 충성",
+    "thumb": "icons/doctrines/64/Pleasure_Allegiance.png"
+  },
+  {
+    "id": "Pleasure_AtoneSin",
+    "name": "원죄자의 긍지",
+    "thumb": "icons/doctrines/64/Pleasure_AtoneSin.png"
+  },
+  {
+    "id": "Pleasure_Cannibal",
+    "name": "과다 식인의 의식",
+    "thumb": "icons/doctrines/64/Pleasure_Cannibal.png"
+  },
+  {
+    "id": "Pleasure_Doctrinal_Extremist",
+    "name": "교리적 극단주의자",
+    "thumb": "icons/doctrines/64/Pleasure_Doctrinal_Extremist.png"
+  },
+  {
+    "id": "Pleasure_Fertility",
+    "name": "원죄",
+    "thumb": "icons/doctrines/64/Pleasure_Fertility.png"
+  },
+  {
+    "id": "Pleasure_Nudist",
+    "name": "욕망의 의식",
+    "thumb": "icons/doctrines/64/Pleasure_Nudist.png"
+  },
+  {
+    "id": "Pleasure_Purge",
+    "name": "분노의 의식",
+    "thumb": "icons/doctrines/64/Pleasure_Purge.png"
+  },
+  {
+    "id": "Pleasure_Violent_Extremist",
+    "name": "폭력 극단주의자",
+    "thumb": "icons/doctrines/64/Pleasure_Violent_Extremist.png"
+  },
+  {
+    "id": "Possessions_AlmsToPoorRitual",
+    "name": "구빈금 의식",
+    "thumb": "icons/doctrines/64/Possessions_AlmsToPoorRitual.png"
+  },
+  {
+    "id": "Possessions_Bribe",
+    "name": "추종자 매수",
+    "thumb": "icons/doctrines/64/Possessions_Bribe.png"
+  },
+  {
+    "id": "Possessions_DonationRitual",
+    "name": "풍요의 의식",
+    "thumb": "icons/doctrines/64/Possessions_DonationRitual.png"
+  },
+  {
+    "id": "Possessions_ExtortTithes",
+    "name": "십일조 갈취",
+    "thumb": "icons/doctrines/64/Possessions_ExtortTithes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromHomes",
+    "name": "성스러운 건축학 특성",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromHomes.png"
+  },
+  {
+    "id": "Possessions_MoreFaithFromRituals",
+    "name": "열정적 신자 특성",
+    "thumb": "icons/doctrines/64/Possessions_MoreFaithFromRituals.png"
+  },
+  {
+    "id": "Possessions_TraitFalseIdols",
+    "name": "거짓된 우상 신앙 특성",
+    "thumb": "icons/doctrines/64/Possessions_TraitFalseIdols.png"
+  },
+  {
+    "id": "Possessions_TraitMaterialistic",
+    "name": "유물론 신앙 특성",
+    "thumb": "icons/doctrines/64/Possessions_TraitMaterialistic.png"
+  },
+  {
+    "id": "Special_Bonfire",
+    "name": "화톳불 의식",
+    "thumb": "icons/doctrines/64/Special_Bonfire.png"
+  },
+  {
+    "id": "Special_Brainwashed",
+    "name": "세뇌의 의식",
+    "thumb": "icons/doctrines/64/Special_Brainwashed.png"
+  },
+  {
+    "id": "Special_EmbraceRot",
+    "name": "부패 포용",
+    "thumb": "icons/doctrines/64/Special_EmbraceRot.png"
+  },
+  {
+    "id": "Special_HealingTouch",
+    "name": "온기의 손길",
+    "thumb": "icons/doctrines/64/Special_HealingTouch.png"
+  },
+  {
+    "id": "Special_ReadMind",
+    "name": "마음 읽기",
+    "thumb": "icons/doctrines/64/Special_ReadMind.png"
+  },
+  {
+    "id": "Special_RejectRot",
+    "name": "부패 정화",
+    "thumb": "icons/doctrines/64/Special_RejectRot.png"
+  },
+  {
+    "id": "Special_Sacrifice",
+    "name": "살점의 번제",
+    "thumb": "icons/doctrines/64/Special_Sacrifice.png"
+  },
+  {
+    "id": "Sustenance_Fast",
+    "name": "단식의 의식",
+    "thumb": "icons/doctrines/64/Sustenance_Fast.png"
+  },
+  {
+    "id": "Sustenance_Feast",
+    "name": "축제의 의식",
+    "thumb": "icons/doctrines/64/Sustenance_Feast.png"
+  },
+  {
+    "id": "Sustenance_TraitCannibal",
+    "name": "식인 특성",
+    "thumb": "icons/doctrines/64/Sustenance_TraitCannibal.png"
+  },
+  {
+    "id": "Sustenance_TraitFishingRitual",
+    "name": "바다의 너그러움 의식",
+    "thumb": "icons/doctrines/64/Sustenance_TraitFishingRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitGrassEater",
+    "name": "채식 특성",
+    "thumb": "icons/doctrines/64/Sustenance_TraitGrassEater.png"
+  },
+  {
+    "id": "Sustenance_TraitHarvestRitual",
+    "name": "수확의 의식",
+    "thumb": "icons/doctrines/64/Sustenance_TraitHarvestRitual.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomBanned",
+    "name": "금욕 신앙 특성",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomBanned.png"
+  },
+  {
+    "id": "Sustenance_TraitMushroomEncouraged",
+    "name": "약물 장려 특성",
+    "thumb": "icons/doctrines/64/Sustenance_TraitMushroomEncouraged.png"
+  },
+  {
+    "id": "Winter_ColdEnthusiast_Trait",
+    "name": "두꺼운 가죽 특성",
+    "thumb": "icons/doctrines/64/Winter_ColdEnthusiast_Trait.png"
+  },
+  {
+    "id": "Winter_ConvertToRot",
+    "name": "부패의 의식",
+    "thumb": "icons/doctrines/64/Winter_ConvertToRot.png"
+  },
+  {
+    "id": "Winter_Follower_Wedding_Ritual",
+    "name": "추종자 결혼식",
+    "thumb": "icons/doctrines/64/Winter_Follower_Wedding_Ritual.png"
+  },
+  {
+    "id": "Winter_FurnaceAnimal",
+    "name": "동물 화장",
+    "thumb": "icons/doctrines/64/Winter_FurnaceAnimal.png"
+  },
+  {
+    "id": "Winter_FurnaceFollower",
+    "name": "추종자 화장",
+    "thumb": "icons/doctrines/64/Winter_FurnaceFollower.png"
+  },
+  {
+    "id": "Winter_RanchHarvest",
+    "name": "양모의 의식",
+    "thumb": "icons/doctrines/64/Winter_RanchHarvest.png"
+  },
+  {
+    "id": "Winter_RanchMeat",
+    "name": "탐식의 의식",
+    "thumb": "icons/doctrines/64/Winter_RanchMeat.png"
+  },
+  {
+    "id": "Winter_RemoveRot",
+    "name": "퇴락을 치유합니다",
+    "thumb": "icons/doctrines/64/Winter_RemoveRot.png"
+  },
+  {
+    "id": "Winter_Snowman_Ritual",
+    "name": "눈 골렘 의식",
+    "thumb": "icons/doctrines/64/Winter_Snowman_Ritual.png"
+  },
+  {
+    "id": "Winter_WorkThroughBlizzard_Trait",
+    "name": "살아있는 넉가래 특성",
+    "thumb": "icons/doctrines/64/Winter_WorkThroughBlizzard_Trait.png"
+  },
+  {
+    "id": "WorkWorship_Enlightenment",
+    "name": "계몽의 의식",
+    "thumb": "icons/doctrines/64/WorkWorship_Enlightenment.png"
+  },
+  {
+    "id": "WorkWorship_FaithfulTrait",
+    "name": "신실함 특성",
+    "thumb": "icons/doctrines/64/WorkWorship_FaithfulTrait.png"
+  },
+  {
+    "id": "WorkWorship_FasterBuilding",
+    "name": "건축 찬양",
+    "thumb": "icons/doctrines/64/WorkWorship_FasterBuilding.png"
+  },
+  {
+    "id": "WorkWorship_GoodWorkerTrait",
+    "name": "부지런함 특성",
+    "thumb": "icons/doctrines/64/WorkWorship_GoodWorkerTrait.png"
+  },
+  {
+    "id": "WorkWorship_HolidayRitual",
+    "name": "성일의 의식",
+    "thumb": "icons/doctrines/64/WorkWorship_HolidayRitual.png"
+  },
+  {
+    "id": "WorkWorship_Inspire",
+    "name": "격려하기",
+    "thumb": "icons/doctrines/64/WorkWorship_Inspire.png"
+  },
+  {
+    "id": "WorkWorship_Intimidate",
+    "name": "위협",
+    "thumb": "icons/doctrines/64/WorkWorship_Intimidate.png"
+  },
+  {
+    "id": "WorkWorship_WorkThroughNightRitual",
+    "name": "노역을 통한 영광 의식",
+    "thumb": "icons/doctrines/64/WorkWorship_WorkThroughNightRitual.png"
+  }
+]

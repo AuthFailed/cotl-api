@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Skunk.png",
   "id": "Skunk",
   "name": {
     "en": "Skunk"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Skunk"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Skunk.png",
   "unlock": "DLC"
 }

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Bee.png",
   "id": "Bee",
   "name": {
     "en": "Bee"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Bee"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Bee.png",
   "unlock": "DLC"
 }

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Moose.png",
   "id": "Moose",
   "name": {
     "en": "Moose"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Moose"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Moose.png",
   "unlock": "DLC"
 }

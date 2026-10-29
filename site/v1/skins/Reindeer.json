@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Reindeer.png",
   "id": "Reindeer",
   "name": {
     "en": "Reindeer"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Reindeer"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Reindeer.png",
   "unlock": "Dungeon5"
 }

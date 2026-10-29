@@ -1,0 +1,612 @@
+[
+  {
+    "id": "Aestivation",
+    "name": "Zomerslaap",
+    "thumb": "icons/traits/64/Aestivation.png"
+  },
+  {
+    "id": "AgainstSacrifice",
+    "name": "Tegen offers",
+    "thumb": "icons/traits/64/AgainstSacrifice.png"
+  },
+  {
+    "id": "Allegiance",
+    "name": "Blind vertrouwen",
+    "thumb": "icons/traits/64/Allegiance.png"
+  },
+  {
+    "id": "AnimalLover",
+    "name": "Dierenliefhebber",
+    "thumb": "icons/traits/64/AnimalLover.png"
+  },
+  {
+    "id": "Argumentative",
+    "name": "Kort lontje",
+    "thumb": "icons/traits/64/Argumentative.png"
+  },
+  {
+    "id": "Asceticism",
+    "name": "Ascetisch",
+    "thumb": "icons/traits/64/Asceticism.png"
+  },
+  {
+    "id": "Bastard",
+    "name": "Hufter",
+    "thumb": "icons/traits/64/Bastard.png"
+  },
+  {
+    "id": "BishopOfCult",
+    "name": "Bisschop van <color=#FFD201>{0}</color>",
+    "thumb": "icons/traits/64/BishopOfCult.png"
+  },
+  {
+    "id": "Blind",
+    "name": "Blind",
+    "thumb": "icons/traits/64/Blind.png"
+  },
+  {
+    "id": "BornToTheRot",
+    "name": "Aanbidder van de rotting",
+    "thumb": "icons/traits/64/BornToTheRot.png"
+  },
+  {
+    "id": "Cannibal",
+    "name": "Kannibaal",
+    "thumb": "icons/traits/64/Cannibal.png"
+  },
+  {
+    "id": "Celibate",
+    "name": "Celibatair",
+    "thumb": "icons/traits/64/Celibate.png"
+  },
+  {
+    "id": "Chionophile",
+    "name": "Winterhard",
+    "thumb": null
+  },
+  {
+    "id": "ChosenOne",
+    "name": "Uitverkoren kind",
+    "thumb": "icons/traits/64/ChosenOne.png"
+  },
+  {
+    "id": "ColdBlooded",
+    "name": "Koudbloedig",
+    "thumb": "icons/traits/64/ColdBlooded.png"
+  },
+  {
+    "id": "ColdEnthusiast",
+    "name": "Dikke huid",
+    "thumb": "icons/traits/64/ColdEnthusiast.png"
+  },
+  {
+    "id": "ConstructionEnthusiast",
+    "name": "Sacrale architectuur",
+    "thumb": "icons/traits/64/ConstructionEnthusiast.png"
+  },
+  {
+    "id": "Coprophiliac",
+    "name": "Coprofilie",
+    "thumb": "icons/traits/64/Coprophiliac.png"
+  },
+  {
+    "id": "CriminalHardened",
+    "name": "Geharde crimineel",
+    "thumb": "icons/traits/64/CriminalHardened.png"
+  },
+  {
+    "id": "CriminalReformed",
+    "name": "Hervormde crimineel",
+    "thumb": "icons/traits/64/CriminalReformed.png"
+  },
+  {
+    "id": "CriminalScarred",
+    "name": "Getraumatiseerde crimineel",
+    "thumb": "icons/traits/64/CriminalScarred.png"
+  },
+  {
+    "id": "Cynical",
+    "name": "Cynisch",
+    "thumb": "icons/traits/64/Cynical.png"
+  },
+  {
+    "id": "DeepSleeper",
+    "name": "Diepe slaper",
+    "thumb": "icons/traits/64/DeepSleeper.png"
+  },
+  {
+    "id": "DesensitisedToDeath",
+    "name": "Geloof in hiernamaals",
+    "thumb": "icons/traits/64/DesensitisedToDeath.png"
+  },
+  {
+    "id": "Disciple",
+    "name": "Discipel",
+    "thumb": "icons/traits/64/Disciple.png"
+  },
+  {
+    "id": "Disciplinarian",
+    "name": "Geloof in erfzonde",
+    "thumb": "icons/traits/64/Disciplinarian.png"
+  },
+  {
+    "id": "DoctrinalExtremist",
+    "name": "Doctrine-extremist",
+    "thumb": "icons/traits/64/DoctrinalExtremist.png"
+  },
+  {
+    "id": "DontStarve",
+    "name": "Niet verhongeren",
+    "thumb": "icons/traits/64/DontStarve.png"
+  },
+  {
+    "id": "Drowsy",
+    "name": "Slaperig",
+    "thumb": "icons/traits/64/Drowsy.png"
+  },
+  {
+    "id": "EmbraceRot",
+    "name": "Omarm de rotting",
+    "thumb": "icons/traits/64/EmbraceRot.png"
+  },
+  {
+    "id": "ExCultLeader",
+    "name": "Voormalige sekteleider",
+    "thumb": null
+  },
+  {
+    "id": "ExistentialDread",
+    "name": "Catatonisch",
+    "thumb": "icons/traits/64/ExistentialDread.png"
+  },
+  {
+    "id": "Faithful",
+    "name": "Gelovig",
+    "thumb": "icons/traits/64/Faithful.png"
+  },
+  {
+    "id": "Faithless",
+    "name": "Ongelovig",
+    "thumb": "icons/traits/64/Faithless.png"
+  },
+  {
+    "id": "FalseIdols",
+    "name": "Valse afgoden",
+    "thumb": "icons/traits/64/FalseIdols.png"
+  },
+  {
+    "id": "Fashionable",
+    "name": "Modebewust",
+    "thumb": "icons/traits/64/Fashionable.png"
+  },
+  {
+    "id": "FearOfDeath",
+    "name": "Doodsbang voor de dood",
+    "thumb": "icons/traits/64/FearOfDeath.png"
+  },
+  {
+    "id": "FearOfSickPeople",
+    "name": "Angst voor zieken",
+    "thumb": "icons/traits/64/FearOfSickPeople.png"
+  },
+  {
+    "id": "Fertility",
+    "name": "Geboren in zonde",
+    "thumb": "icons/traits/64/Fertility.png"
+  },
+  {
+    "id": "FluteLover",
+    "name": "Fluitist",
+    "thumb": "icons/traits/64/FluteLover.png"
+  },
+  {
+    "id": "FreezeImmune",
+    "name": "Wollig",
+    "thumb": "icons/traits/64/FreezeImmune.png"
+  },
+  {
+    "id": "Frigidophile",
+    "name": "Winterhard",
+    "thumb": "icons/traits/64/Frigidophile.png"
+  },
+  {
+    "id": "FurnaceAnimal",
+    "name": "Crematie van dieren",
+    "thumb": "icons/traits/64/FurnaceAnimal.png"
+  },
+  {
+    "id": "FurnaceFollower",
+    "name": "Crematie van volgelingen",
+    "thumb": "icons/traits/64/FurnaceFollower.png"
+  },
+  {
+    "id": "Germophobe",
+    "name": "Smetvrees",
+    "thumb": "icons/traits/64/Germophobe.png"
+  },
+  {
+    "id": "GrassEater",
+    "name": "Graseter",
+    "thumb": "icons/traits/64/GrassEater.png"
+  },
+  {
+    "id": "GrievingWidow",
+    "name": "Rouwende langstlevende",
+    "thumb": "icons/traits/64/GrievingWidow.png"
+  },
+  {
+    "id": "Gullible",
+    "name": "Goedgelovig",
+    "thumb": "icons/traits/64/Gullible.png"
+  },
+  {
+    "id": "HappilyWidowed",
+    "name": "Gelukkige langstlevende",
+    "thumb": "icons/traits/64/HappilyWidowed.png"
+  },
+  {
+    "id": "HateElderly",
+    "name": "Beter opbranden dan uitdoven",
+    "thumb": "icons/traits/64/HateElderly.png"
+  },
+  {
+    "id": "HatesSnowmen",
+    "name": "Haat sneeuwlammeren",
+    "thumb": "icons/traits/64/HatesSnowmen.png"
+  },
+  {
+    "id": "Heavyweight",
+    "name": "Zwaargewicht",
+    "thumb": "icons/traits/64/Heavyweight.png"
+  },
+  {
+    "id": "Hedonism",
+    "name": "Hedonist",
+    "thumb": "icons/traits/64/Hedonism.png"
+  },
+  {
+    "id": "Hibernation",
+    "name": "Winterslaap",
+    "thumb": "icons/traits/64/Hibernation.png"
+  },
+  {
+    "id": "IceSculpture",
+    "name": "Beeldhouwer",
+    "thumb": "icons/traits/64/IceSculpture.png"
+  },
+  {
+    "id": "Immortal",
+    "name": "Onsterfelijk",
+    "thumb": "icons/traits/64/Immortal.png"
+  },
+  {
+    "id": "Industrious",
+    "name": "IJverig",
+    "thumb": "icons/traits/64/Industrious.png"
+  },
+  {
+    "id": "InfusibleSnowman",
+    "name": "Permafrost",
+    "thumb": "icons/traits/64/InfusibleSnowman.png"
+  },
+  {
+    "id": "Insomniac",
+    "name": "Nachtbraker",
+    "thumb": "icons/traits/64/Insomniac.png"
+  },
+  {
+    "id": "IronStomach",
+    "name": "Sterke constitutie",
+    "thumb": "icons/traits/64/IronStomach.png"
+  },
+  {
+    "id": "JiltedLover",
+    "name": "Gekwetste geliefde",
+    "thumb": "icons/traits/64/JiltedLover.png"
+  },
+  {
+    "id": "Lazy",
+    "name": "Luiheid",
+    "thumb": "icons/traits/64/Lazy.png"
+  },
+  {
+    "id": "Libertarian",
+    "name": "Absolutie",
+    "thumb": "icons/traits/64/Libertarian.png"
+  },
+  {
+    "id": "LightningEnthusiast",
+    "name": "Geleidend",
+    "thumb": "icons/traits/64/LightningEnthusiast.png"
+  },
+  {
+    "id": "Lightweight",
+    "name": "Lichtgewicht",
+    "thumb": "icons/traits/64/Lightweight.png"
+  },
+  {
+    "id": "LockedLoyal",
+    "name": "Modelgevangene",
+    "thumb": "icons/traits/64/LockedLoyal.png"
+  },
+  {
+    "id": "LoveElderly",
+    "name": "Respecteer bejaarden",
+    "thumb": "icons/traits/64/LoveElderly.png"
+  },
+  {
+    "id": "LoveOfSickPeople",
+    "name": "Gelooft dat ziekte een goddelijke straf is",
+    "thumb": "icons/traits/64/LoveOfSickPeople.png"
+  },
+  {
+    "id": "Lustful",
+    "name": "Hitsig",
+    "thumb": "icons/traits/64/Lustful.png"
+  },
+  {
+    "id": "MarriedHappily",
+    "name": "Gelukkig getrouwd",
+    "thumb": "icons/traits/64/MarriedHappily.png"
+  },
+  {
+    "id": "MarriedJealous",
+    "name": "Jaloerse eega",
+    "thumb": "icons/traits/64/MarriedJealous.png"
+  },
+  {
+    "id": "MarriedMurderouslyJealous",
+    "name": "Dodelijk jaloerse eega",
+    "thumb": "icons/traits/64/MarriedMurderouslyJealous.png"
+  },
+  {
+    "id": "MarriedUnhappily",
+    "name": "Ongelukkig getrouwd",
+    "thumb": "icons/traits/64/MarriedUnhappily.png"
+  },
+  {
+    "id": "Masochistic",
+    "name": "Masochistisch",
+    "thumb": "icons/traits/64/Masochistic.png"
+  },
+  {
+    "id": "MasterfulSnowman",
+    "name": "Perfect sneeuwlam",
+    "thumb": "icons/traits/64/MasterfulSnowman.png"
+  },
+  {
+    "id": "Materialistic",
+    "name": "Materialistisch",
+    "thumb": "icons/traits/64/Materialistic.png"
+  },
+  {
+    "id": "MissionaryExcited",
+    "name": "Opgewonden door zendingsreis",
+    "thumb": "icons/traits/64/MissionaryExcited.png"
+  },
+  {
+    "id": "MissionaryInspired",
+    "name": "Geïnspireerd door zendingsreis",
+    "thumb": "icons/traits/64/MissionaryInspired.png"
+  },
+  {
+    "id": "MissionaryTerrified",
+    "name": "Verontrust door zendingsreis",
+    "thumb": "icons/traits/64/MissionaryTerrified.png"
+  },
+  {
+    "id": "MushroomBanned",
+    "name": "Geheelonthouder",
+    "thumb": "icons/traits/64/MushroomBanned.png"
+  },
+  {
+    "id": "MushroomEncouraged",
+    "name": "Middelengebruik aangemoedigd",
+    "thumb": "icons/traits/64/MushroomEncouraged.png"
+  },
+  {
+    "id": "MusicLover",
+    "name": "Muziekliefhebber",
+    "thumb": "icons/traits/64/MusicLover.png"
+  },
+  {
+    "id": "Mutated",
+    "name": "Verrot",
+    "thumb": "icons/traits/64/Mutated.png"
+  },
+  {
+    "id": "MutatedImmune",
+    "name": "Onveranderlijk",
+    "thumb": "icons/traits/64/MutatedImmune.png"
+  },
+  {
+    "id": "MutatedVisual",
+    "name": "Beetje verrot",
+    "thumb": "icons/traits/64/MutatedVisual.png"
+  },
+  {
+    "id": "NaturallyObedient",
+    "name": "Van nature onderdanig",
+    "thumb": "icons/traits/64/NaturallyObedient.png"
+  },
+  {
+    "id": "NaturallySkeptical",
+    "name": "Van nature sceptisch",
+    "thumb": "icons/traits/64/NaturallySkeptical.png"
+  },
+  {
+    "id": "Nudist",
+    "name": "Nudist",
+    "thumb": "icons/traits/64/Nudist.png"
+  },
+  {
+    "id": "OverworkedParent",
+    "name": "Overweldigde ouder",
+    "thumb": "icons/traits/64/OverworkedParent.png"
+  },
+  {
+    "id": "Pacifist",
+    "name": "Pacifist",
+    "thumb": "icons/traits/64/Pacifist.png"
+  },
+  {
+    "id": "Pettable",
+    "name": "Aaibaar",
+    "thumb": "icons/traits/64/Pettable.png"
+  },
+  {
+    "id": "Poet",
+    "name": "Dichter",
+    "thumb": "icons/traits/64/Poet.png"
+  },
+  {
+    "id": "Polyamory",
+    "name": "Polyamoreus",
+    "thumb": "icons/traits/64/Polyamory.png"
+  },
+  {
+    "id": "ProudParent",
+    "name": "Trotse ouder",
+    "thumb": "icons/traits/64/ProudParent.png"
+  },
+  {
+    "id": "PureBlood",
+    "name": "Stamboom",
+    "thumb": "icons/traits/64/PureBlood.png"
+  },
+  {
+    "id": "PureBlood_1",
+    "name": "Stamboom I",
+    "thumb": "icons/traits/64/PureBlood_1.png"
+  },
+  {
+    "id": "PureBlood_2",
+    "name": "Stamboom II",
+    "thumb": "icons/traits/64/PureBlood_2.png"
+  },
+  {
+    "id": "PureBlood_3",
+    "name": "Stamboom III",
+    "thumb": "icons/traits/64/PureBlood_3.png"
+  },
+  {
+    "id": "RejectRot",
+    "name": "Zuiver de rotting",
+    "thumb": "icons/traits/64/RejectRot.png"
+  },
+  {
+    "id": "RemoveRot",
+    "name": "Genees het verderf",
+    "thumb": "icons/traits/64/RemoveRot.png"
+  },
+  {
+    "id": "RotstonePooper",
+    "name": "Rotsteenpoeper",
+    "thumb": "icons/traits/64/RotstonePooper.png"
+  },
+  {
+    "id": "RoyalPooper",
+    "name": "Koninklijke poeper",
+    "thumb": "icons/traits/64/RoyalPooper.png"
+  },
+  {
+    "id": "SacrificeEnthusiast",
+    "name": "Geloof in opoffering",
+    "thumb": "icons/traits/64/SacrificeEnthusiast.png"
+  },
+  {
+    "id": "Scared",
+    "name": "Angsthaas",
+    "thumb": "icons/traits/64/Scared.png"
+  },
+  {
+    "id": "SeenGod",
+    "name": "Puur hart",
+    "thumb": "icons/traits/64/SeenGod.png"
+  },
+  {
+    "id": "SermonEnthusiast",
+    "name": "Trouwe luisteraar",
+    "thumb": "icons/traits/64/SermonEnthusiast.png"
+  },
+  {
+    "id": "ShoddySnowman",
+    "name": "Gammel sneeuwlam",
+    "thumb": "icons/traits/64/ShoddySnowman.png"
+  },
+  {
+    "id": "Sickly",
+    "name": "Ziekelijk",
+    "thumb": "icons/traits/64/Sickly.png"
+  },
+  {
+    "id": "Snorer",
+    "name": "Snurker",
+    "thumb": "icons/traits/64/Snorer.png"
+  },
+  {
+    "id": "Spy",
+    "name": "Spion",
+    "thumb": "icons/traits/64/Spy.png"
+  },
+  {
+    "id": "Terrified",
+    "name": "Doodsbang",
+    "thumb": "icons/traits/64/Terrified.png"
+  },
+  {
+    "id": "Unlawful",
+    "name": "Wetteloos",
+    "thumb": "icons/traits/64/Unlawful.png"
+  },
+  {
+    "id": "Unrepentant",
+    "name": "Onberouwvol",
+    "thumb": "icons/traits/64/Unrepentant.png"
+  },
+  {
+    "id": "ViolentExtremist",
+    "name": "Gewelddadige extremist",
+    "thumb": "icons/traits/64/ViolentExtremist.png"
+  },
+  {
+    "id": "Virtuous",
+    "name": "Deugdzaam",
+    "thumb": "icons/traits/64/Virtuous.png"
+  },
+  {
+    "id": "WarmBlooded",
+    "name": "Warmbloedig",
+    "thumb": "icons/traits/64/WarmBlooded.png"
+  },
+  {
+    "id": "WinterBody",
+    "name": "Verfrist door kou",
+    "thumb": "icons/traits/64/WinterBody.png"
+  },
+  {
+    "id": "WinterExcited",
+    "name": "Winterliefhebber",
+    "thumb": "icons/traits/64/WinterExcited.png"
+  },
+  {
+    "id": "WolfHater",
+    "name": "Bewaker",
+    "thumb": "icons/traits/64/WolfHater.png"
+  },
+  {
+    "id": "WorkThroughBlizzard",
+    "name": "Sneeuwploeger",
+    "thumb": "icons/traits/64/WorkThroughBlizzard.png"
+  },
+  {
+    "id": "Zealous",
+    "name": "Onverstoorbaar",
+    "thumb": "icons/traits/64/Zealous.png"
+  },
+  {
+    "id": "Zombie",
+    "name": "Vervloekt",
+    "thumb": "icons/traits/64/Zombie.png"
+  }
+]

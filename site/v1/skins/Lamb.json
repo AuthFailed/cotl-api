@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Lamb.png",
   "id": "Lamb",
   "name": {
     "en": "Lamb"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Lamb"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Lamb.png",
   "unlock": "Other"
 }

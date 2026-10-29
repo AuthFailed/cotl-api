@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ذو قلنسوة حمراء صغيرة. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Eine kleine rote Kapuze. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "A little red hood. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Una capa roja con capucha. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Un chaperon rouge. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Un chaperon rouge. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Un piccolo cappuccio rosso. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "小さな赤ずきん。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "작은 빨간 두건입니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Een kleine rode kap. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Um pequeno capuz vermelho. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Красная накидка.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Kırmızı başlıklı koyun. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "红色小兜帽。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "小紅帽。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "ذو قلنسوة حمراء صغيرة.\nلا يمنح مزايا.",
+    "de": "Eine kleine rote Kapuze.\nGewährt keine Boni.",
+    "en": "A little red hood.\nProvides no bonuses.",
+    "es": "Una capa roja con capucha.\nNo otorga nada especial.",
+    "fr": "Un chaperon rouge.\nN'octroie aucun bonus.",
+    "fr-CA": "Un chaperon rouge.\nN'octroie aucun bonus.",
+    "it": "Un piccolo cappuccio rosso.\nNon fornisce bonus.",
+    "ja": "小さな赤ずきん。\nボーナスなし。",
+    "ko": "작은 빨간 두건입니다.\n특별한 효과는 없습니다.",
+    "nl": "Een kleine rode kap.\nGeeft geen bonussen.",
+    "pt-BR": "Um pequeno capuz vermelho.\nNão fornece nenhum bônus.",
+    "ru": "Красная накидка.\nНе даёт преимуществ.",
+    "tr": "Kırmızı başlıklı koyun.\nİlave özellik sağlamaz.",
+    "zh-CN": "红色小兜帽。\n没有特殊效果。",
+    "zh-TW": "小紅帽。\n沒有特殊效果。"
+  },
+  "fleece": 667,
+  "icon": "icons/fleeces/Fleece667.png",
+  "id": "Fleece667",
+  "name": {
+    "ar": "رداء البريئة",
+    "de": "Vlies der Unschuldigen",
+    "en": "Fleece of the Innocent",
+    "es": "Vellocino de la Inocente",
+    "fr": "Pelisse de l'innocente",
+    "fr-CA": "Toison de l'innocente",
+    "it": "Vello dell'innocente",
+    "ja": "純真無垢の羊毛",
+    "ko": "순수한 자의 양털",
+    "nl": "Vacht van de onschuldige",
+    "pt-BR": "Lã da Inocência",
+    "ru": "Руно невинности",
+    "tr": "Masumun Postu",
+    "zh-CN": "无辜者毛纺",
+    "zh-TW": "無辜者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء البريئة",
+    "de": "Vlies der Unschuldigen",
+    "en": "Fleece of the Innocent",
+    "es": "Vellocino de la Inocente",
+    "fr": "Pelisse de l'innocente",
+    "fr-CA": "Toison de l'innocente",
+    "it": "Vello dell'innocente",
+    "ja": "純真無垢の羊毛",
+    "ko": "순수한 자의 양털",
+    "nl": "Vacht van de onschuldige",
+    "pt-BR": "Lã da Inocência",
+    "ru": "Руно невинности",
+    "tr": "Masumun Postu",
+    "zh-CN": "无辜者毛纺",
+    "zh-TW": "無辜者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece667.png"
+}

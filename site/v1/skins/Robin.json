@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Robin.png",
   "id": "Robin",
   "name": {
     "en": "Apple_2"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Apple_2"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Robin.png",
   "unlock": "Other"
 }

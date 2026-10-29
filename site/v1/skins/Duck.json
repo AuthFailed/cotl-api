@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Duck.png",
   "id": "Duck",
   "name": {
     "en": "Duck"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Duck"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Duck.png",
   "unlock": "Dungeon3"
 }

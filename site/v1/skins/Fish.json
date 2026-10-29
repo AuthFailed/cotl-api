@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Fish.png",
   "id": "Fish",
   "name": {
     "en": "Fish"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Fish"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Fish.png",
   "unlock": "Other"
 }

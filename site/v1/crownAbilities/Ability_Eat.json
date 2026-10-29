@@ -1,0 +1,80 @@
+{
+  "cost": [
+    {
+      "item": "MONSTER_HEART",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "عليك تناول <sprite name=\"icon_Meal\"> مرة واحدة في كل حملة لتتلقى قلبًا يختلف وفقًا لما سيؤكل.",
+    "de": "Iss einmal pro Kreuzzug eine <sprite name=\"icon_Meal\">, um ein Herz zu erhalten. Welches, hängt davon ab, was du isst.",
+    "en": "Once per Crusade, eat a <sprite name=\"icon_Meal\"> to receive a heart that will vary depending on what is eaten.",
+    "es": "Una vez por cruzada, come un plato de <sprite name=\"icon_Meal\"> para recibir un corazón, que variará según lo que comas.",
+    "fr": "Une fois par croisade, mangez un <sprite name=\"icon_Meal\"> pour recevoir un cœur (différent selon ce que vous avez consommé).",
+    "fr-CA": "Une fois par croisade, mangez un <sprite name=\"icon_Meal\"> pour recevoir un cœur (différent selon ce que vous avez consommé).",
+    "it": "Una volta per crociata, consuma un <sprite name=\"icon_Meal\"> per ricevere un cuore che varia a seconda di ciò che mangi.",
+    "ja": "聖戦につき1度だけ、 <sprite name=\"icon_Meal\"> を食べることでハートを1つ得られる。食事によってハートの種類が変わる。",
+    "ko": "성전마다 한 번, 먹은 <sprite name=\"icon_Meal\">의 종류에 따라 효과가 달라지는 심장을 하나 얻습니다.",
+    "nl": "Eet één keer per kruistocht een <sprite name=\"icon_Meal\"> en ontvang een hart op basis van wat je hebt gegeten.",
+    "pt-BR": "Uma vez por Cruzada, faça uma <sprite name=\"icon_Meal\"> para receber um coração que estará de acordo com o que for ingerido.",
+    "ru": "Вы можете съесть <sprite name=\"icon_Meal\"> один раз за поход и получить сердце, вид которого будет зависеть от блюда.",
+    "tr": "Sefer başına bir kez olmak üzere bir <sprite name=\"icon_Meal\"> yersin ve yediğin yemeğe bağlı olarak bir kalp kazanırsın.",
+    "zh-CN": "每场圣战一次，吃一份 <sprite name=\"icon_Meal\"> 获得一颗心，种类依照食物类型而定。",
+    "zh-TW": "每場聖戰一次，吃一份 <sprite name=\"icon_Meal\"> 獲得一顆心，種類依照食物類型而定。"
+  },
+  "descriptionPlain": {
+    "ar": "عليك تناول مرة واحدة في كل حملة لتتلقى قلبًا يختلف وفقًا لما سيؤكل.",
+    "de": "Iss einmal pro Kreuzzug eine, um ein Herz zu erhalten. Welches, hängt davon ab, was du isst.",
+    "en": "Once per Crusade, eat a to receive a heart that will vary depending on what is eaten.",
+    "es": "Una vez por cruzada, come un plato de para recibir un corazón, que variará según lo que comas.",
+    "fr": "Une fois par croisade, mangez un pour recevoir un cœur (différent selon ce que vous avez consommé).",
+    "fr-CA": "Une fois par croisade, mangez un pour recevoir un cœur (différent selon ce que vous avez consommé).",
+    "it": "Una volta per crociata, consuma un per ricevere un cuore che varia a seconda di ciò che mangi.",
+    "ja": "聖戦につき1度だけ、 を食べることでハートを1つ得られる。食事によってハートの種類が変わる。",
+    "ko": "성전마다 한 번, 먹은 의 종류에 따라 효과가 달라지는 심장을 하나 얻습니다.",
+    "nl": "Eet één keer per kruistocht een en ontvang een hart op basis van wat je hebt gegeten.",
+    "pt-BR": "Uma vez por Cruzada, faça uma para receber um coração que estará de acordo com o que for ingerido.",
+    "ru": "Вы можете съесть один раз за поход и получить сердце, вид которого будет зависеть от блюда.",
+    "tr": "Sefer başına bir kez olmak üzere bir yersin ve yediğin yemeğe bağlı olarak bir kalp kazanırsın.",
+    "zh-CN": "每场圣战一次，吃一份 获得一颗心，种类依照食物类型而定。",
+    "zh-TW": "每場聖戰一次，吃一份 獲得一顆心，種類依照食物類型而定。"
+  },
+  "dlc": false,
+  "icon": "icons/crownAbilities/Ability_Eat.png",
+  "id": "Ability_Eat",
+  "name": {
+    "ar": "الجوع",
+    "de": "Der Hunger",
+    "en": "The Hunger",
+    "es": "El Hambre",
+    "fr": "Satiété",
+    "fr-CA": "Satiété",
+    "it": "Fame",
+    "ja": "飢餓",
+    "ko": "굶주림",
+    "nl": "De honger",
+    "pt-BR": "A Fome",
+    "ru": "Голод",
+    "tr": "Açlık",
+    "zh-CN": "饥饿",
+    "zh-TW": "飢餓"
+  },
+  "namePlain": {
+    "ar": "الجوع",
+    "de": "Der Hunger",
+    "en": "The Hunger",
+    "es": "El Hambre",
+    "fr": "Satiété",
+    "fr-CA": "Satiété",
+    "it": "Fame",
+    "ja": "飢餓",
+    "ko": "굶주림",
+    "nl": "De honger",
+    "pt-BR": "A Fome",
+    "ru": "Голод",
+    "tr": "Açlık",
+    "zh-CN": "饥饿",
+    "zh-TW": "飢餓"
+  },
+  "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+}

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Penguin.png",
   "id": "Penguin",
   "name": {
     "en": "Penguin"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Penguin"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Penguin.png",
   "unlock": "DLC"
 }

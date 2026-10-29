@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Blue",
+    "name": "رداء القلوب الزرقاء",
+    "thumb": "icons/fleeces/64/Blue.png"
+  },
+  {
+    "id": "CurseInsteadOfWeapon",
+    "name": "رداء الحملة الملعونة",
+    "thumb": "icons/fleeces/64/CurseInsteadOfWeapon.png"
+  },
+  {
+    "id": "Default",
+    "name": "رداء الحَمَل",
+    "thumb": "icons/fleeces/64/Default.png"
+  },
+  {
+    "id": "Fleece666",
+    "name": "رداء الصامد",
+    "thumb": "icons/fleeces/64/Fleece666.png"
+  },
+  {
+    "id": "Fleece667",
+    "name": "رداء البريئة",
+    "thumb": "icons/fleeces/64/Fleece667.png"
+  },
+  {
+    "id": "Fleece668",
+    "name": "رداء العرافة",
+    "thumb": "icons/fleeces/64/Fleece668.png"
+  },
+  {
+    "id": "Fleece669",
+    "name": "رداء الفارس",
+    "thumb": "icons/fleeces/64/Fleece669.png"
+  },
+  {
+    "id": "Fleece670",
+    "name": "رداء مربي الحيوانات",
+    "thumb": "icons/fleeces/64/Fleece670.png"
+  },
+  {
+    "id": "Fleece671",
+    "name": "رداء المنذر",
+    "thumb": "icons/fleeces/64/Fleece671.png"
+  },
+  {
+    "id": "Fleece672",
+    "name": "رداء المسفوعة",
+    "thumb": "icons/fleeces/64/Fleece672.png"
+  },
+  {
+    "id": "Fleece673",
+    "name": "رداء الماكر",
+    "thumb": "icons/fleeces/64/Fleece673.png"
+  },
+  {
+    "id": "Fleece674",
+    "name": "رداء العالمة",
+    "thumb": "icons/fleeces/64/Fleece674.png"
+  },
+  {
+    "id": "Fleece675",
+    "name": "رداء المتظاهر",
+    "thumb": "icons/fleeces/64/Fleece675.png"
+  },
+  {
+    "id": "Fleece676",
+    "name": "راعي البقر",
+    "thumb": "icons/fleeces/64/Fleece676.png"
+  },
+  {
+    "id": "Fleece678",
+    "name": "رداء إينغيا",
+    "thumb": "icons/fleeces/64/Fleece678.png"
+  },
+  {
+    "id": "Fleece679",
+    "name": "رداء الشباب",
+    "thumb": "icons/fleeces/64/Fleece679.png"
+  },
+  {
+    "id": "Fleece681",
+    "name": "رداء المحارب",
+    "thumb": "icons/fleeces/64/Fleece681.png"
+  },
+  {
+    "id": "Goat",
+    "name": "الماعز",
+    "thumb": "icons/fleeces/64/Goat.png"
+  },
+  {
+    "id": "GodOfDeath",
+    "name": "رداء سيد الموت",
+    "thumb": "icons/fleeces/64/GodOfDeath.png"
+  },
+  {
+    "id": "Gold",
+    "name": "الرداء الذهبي",
+    "thumb": "icons/fleeces/64/Gold.png"
+  },
+  {
+    "id": "Green",
+    "name": "رداء المدفع الزجاجي",
+    "thumb": "icons/fleeces/64/Green.png"
+  },
+  {
+    "id": "HollowHeal",
+    "name": "رداء امتياز الحماس",
+    "thumb": "icons/fleeces/64/HollowHeal.png"
+  },
+  {
+    "id": "NoRolling",
+    "name": "رداء الأرجل الثقيلة",
+    "thumb": "icons/fleeces/64/NoRolling.png"
+  },
+  {
+    "id": "OneHitKills",
+    "name": "رداء الشرس",
+    "thumb": "icons/fleeces/64/OneHitKills.png"
+  },
+  {
+    "id": "Outfit_1001",
+    "name": "رداء الطبيعة",
+    "thumb": "icons/fleeces/64/Outfit_1001.png"
+  },
+  {
+    "id": "Outfit_1002",
+    "name": "رداء بلمسة حريرية",
+    "thumb": "icons/fleeces/64/Outfit_1002.png"
+  },
+  {
+    "id": "Outfit_999",
+    "name": "رداء المنشقين",
+    "thumb": "icons/fleeces/64/Outfit_999.png"
+  },
+  {
+    "id": "Purple",
+    "name": "رداء القلب الفاسد",
+    "thumb": "icons/fleeces/64/Purple.png"
+  },
+  {
+    "id": "RatauCloak",
+    "name": "عباءة راتاو",
+    "thumb": "icons/fleeces/64/RatauCloak.png"
+  },
+  {
+    "id": "RatauCloakBloody",
+    "name": "عباءة راتاو",
+    "thumb": "icons/fleeces/64/RatauCloakBloody.png"
+  },
+  {
+    "id": "White",
+    "name": "رداء الأقدار",
+    "thumb": "icons/fleeces/64/White.png"
+  }
+]

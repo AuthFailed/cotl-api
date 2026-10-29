@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Unicorn.png",
   "id": "Unicorn",
   "name": {
     "en": "Unicorn"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Unicorn"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Unicorn.png",
   "unlock": "Other"
 }

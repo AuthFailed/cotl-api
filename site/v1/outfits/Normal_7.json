@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 2
+    },
+    {
+      "item": "GRASS",
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "ar": "مثالية للأتباع رافضي القيود.",
+    "de": "Ideal für Anhänger, die Bewegungsfreiheit schätzen.",
+    "en": "Ideal for Followers who don't like to be restricted.",
+    "es": "Ideal para los adeptos a los que les gusta ir por libre.",
+    "fr": "Parfait pour les adeptes qui veulent être libres de leurs mouvements.",
+    "fr-CA": "Parfait pour les adeptes qui veulent être libres de leurs mouvements.",
+    "it": "Ideale per i membri che non amano porsi dei vincoli.",
+    "ja": "窮屈さを嫌う信者にピッタリ",
+    "ko": "규제를 싫어하는 추종자들에게 이상적인 옷입니다.",
+    "nl": "Ideaal voor volgelingen die niet graag beperkt worden.",
+    "pt-BR": "Ideal para Seguidores que não gostam de uma vida restrita.",
+    "ru": "Для тех, кто не любит стеснения.",
+    "tr": "Özgürlüğüne düşkün Takipçiler için ideal.",
+    "zh-CN": "适合不喜欢受拘束的教徒。",
+    "zh-TW": "適合不喜歡受拘束的教徒。"
+  },
+  "descriptionPlain": {
+    "ar": "مثالية للأتباع رافضي القيود.",
+    "de": "Ideal für Anhänger, die Bewegungsfreiheit schätzen.",
+    "en": "Ideal for Followers who don't like to be restricted.",
+    "es": "Ideal para los adeptos a los que les gusta ir por libre.",
+    "fr": "Parfait pour les adeptes qui veulent être libres de leurs mouvements.",
+    "fr-CA": "Parfait pour les adeptes qui veulent être libres de leurs mouvements.",
+    "it": "Ideale per i membri che non amano porsi dei vincoli.",
+    "ja": "窮屈さを嫌う信者にピッタリ",
+    "ko": "규제를 싫어하는 추종자들에게 이상적인 옷입니다.",
+    "nl": "Ideaal voor volgelingen die niet graag beperkt worden.",
+    "pt-BR": "Ideal para Seguidores que não gostam de uma vida restrita.",
+    "ru": "Для тех, кто не любит стеснения.",
+    "tr": "Özgürlüğüne düşkün Takipçiler için ideal.",
+    "zh-CN": "适合不喜欢受拘束的教徒。",
+    "zh-TW": "適合不喜歡受拘束的教徒。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_7.png",
+  "id": "Normal_7",
+  "name": {
+    "ar": "تنورة عشبية",
+    "de": "Bastrock",
+    "en": "Grass Skirt",
+    "es": "Falda de hojas",
+    "fr": "Pagne",
+    "fr-CA": "Pagne",
+    "it": "Gonnellino erbaceo",
+    "ja": "葉っぱのスカート",
+    "ko": "풀잎 치마",
+    "nl": "Grasrok",
+    "pt-BR": "Saia de Mato",
+    "ru": "Травяная юбка",
+    "tr": "Çim Etek",
+    "zh-CN": "青草裙子",
+    "zh-TW": "青草裙子"
+  },
+  "namePlain": {
+    "ar": "تنورة عشبية",
+    "de": "Bastrock",
+    "en": "Grass Skirt",
+    "es": "Falda de hojas",
+    "fr": "Pagne",
+    "fr-CA": "Pagne",
+    "it": "Gonnellino erbaceo",
+    "ja": "葉っぱのスカート",
+    "ko": "풀잎 치마",
+    "nl": "Grasrok",
+    "pt-BR": "Saia de Mato",
+    "ru": "Травяная юбка",
+    "tr": "Çim Etek",
+    "zh-CN": "青草裙子",
+    "zh-TW": "青草裙子"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_7.png"
+}

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Maggot.png",
   "id": "Maggot",
   "name": {
     "en": "Maggot"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Maggot"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Maggot.png",
   "unlock": "Dungeon6"
 }

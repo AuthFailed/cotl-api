@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Sphynx.png",
   "id": "Sphynx",
   "name": {
     "en": "Sphynx"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Sphynx"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Sphynx.png",
   "unlock": "DLC"
 }

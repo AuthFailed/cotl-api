@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Jellyfish.png",
   "id": "Jellyfish",
   "name": {
     "en": "JellyFish"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "JellyFish"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Jellyfish.png",
   "unlock": "DLC"
 }

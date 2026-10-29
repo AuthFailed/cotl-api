@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ثقيل ومهترئ. شهد معارك كثيرة.<color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Schwer und abgetragen. Es war schon in vielen Schlachten.<color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Heavy and well worn. It has seen many battles.<color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Pesado y desgastado. Ha visto muchas batallas.<color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Lourde et patinée. A vécu de nombreux combats. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Lourde et usée. A vécu de nombreux combats. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Pesante e logoro dall'uso. Ha visto numerose battaglie.<color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "ずしりと重く、使い込まれている装束。幾多の戦いを見届けてきたのだろう。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "무거운 데다 닳고 닳았습니다. 지금껏 많은 전투를 거쳤습니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Zwaar en versleten. Heeft veel gevechten meegemaakt.<color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Pesada e muito usada. Passou por diversas batalhas.<color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Тяжёлое потёртое одеяние, повидавшее немало битв.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Ağır, pek yıpranmış. Çok savaşta giyilmiş belli ki. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "很沉，且磨损严重，历经多次战役。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "厚重且布滿使用痕跡，見證過無數戰鬥。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "ثقيل ومهترئ. شهد معارك كثيرة.\nلا يمنح مزايا.",
+    "de": "Schwer und abgetragen. Es war schon in vielen Schlachten.\nGewährt keine Boni.",
+    "en": "Heavy and well worn. It has seen many battles.\nProvides no bonuses.",
+    "es": "Pesado y desgastado. Ha visto muchas batallas.\nNo otorga nada especial.",
+    "fr": "Lourde et patinée. A vécu de nombreux combats.\nN'octroie aucun bonus.",
+    "fr-CA": "Lourde et usée. A vécu de nombreux combats.\nN'octroie aucun bonus.",
+    "it": "Pesante e logoro dall'uso. Ha visto numerose battaglie.\nNon fornisce bonus.",
+    "ja": "ずしりと重く、使い込まれている装束。幾多の戦いを見届けてきたのだろう。\nボーナスなし。",
+    "ko": "무거운 데다 닳고 닳았습니다. 지금껏 많은 전투를 거쳤습니다.\n특별한 효과는 없습니다.",
+    "nl": "Zwaar en versleten. Heeft veel gevechten meegemaakt.\nGeeft geen bonussen.",
+    "pt-BR": "Pesada e muito usada. Passou por diversas batalhas.\nNão fornece nenhum bônus.",
+    "ru": "Тяжёлое потёртое одеяние, повидавшее немало битв.\nНе даёт преимуществ.",
+    "tr": "Ağır, pek yıpranmış. Çok savaşta giyilmiş belli ki.\nİlave özellik sağlamaz.",
+    "zh-CN": "很沉，且磨损严重，历经多次战役。\n没有特殊效果。",
+    "zh-TW": "厚重且布滿使用痕跡，見證過無數戰鬥。\n沒有特殊效果。"
+  },
+  "fleece": 681,
+  "icon": "icons/fleeces/Fleece681.png",
+  "id": "Fleece681",
+  "name": {
+    "ar": "رداء المحارب",
+    "de": "Vlies des Kriegers",
+    "en": "Fleece of the Warrior",
+    "es": "Vellocino del Guerrero",
+    "fr": "Pelisse du guerrier",
+    "fr-CA": "Toison du guerrier",
+    "it": "Vello del guerriero",
+    "ja": "勇士の羊毛",
+    "ko": "전사의 양털",
+    "nl": "Vacht van de krijger",
+    "pt-BR": "Lã do Guerreiro",
+    "ru": "Руно воина",
+    "tr": "Savaşçının Postu",
+    "zh-CN": "战士毛纺",
+    "zh-TW": "戰士毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المحارب",
+    "de": "Vlies des Kriegers",
+    "en": "Fleece of the Warrior",
+    "es": "Vellocino del Guerrero",
+    "fr": "Pelisse du guerrier",
+    "fr-CA": "Toison du guerrier",
+    "it": "Vello del guerriero",
+    "ja": "勇士の羊毛",
+    "ko": "전사의 양털",
+    "nl": "Vacht van de krijger",
+    "pt-BR": "Lã do Guerreiro",
+    "ru": "Руно воина",
+    "tr": "Savaşçının Postu",
+    "zh-CN": "战士毛纺",
+    "zh-TW": "戰士毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece681.png"
+}

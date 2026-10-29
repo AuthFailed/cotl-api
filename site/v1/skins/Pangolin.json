@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Pangolin.png",
   "id": "Pangolin",
   "name": {
     "en": "Pangolin"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Pangolin"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Pangolin.png",
   "unlock": "Other"
 }

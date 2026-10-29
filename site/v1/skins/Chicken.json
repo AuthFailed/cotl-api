@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Chicken.png",
   "id": "Chicken",
   "name": {
     "en": "Chicken"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Chicken"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Chicken.png",
   "unlock": "Dungeon1"
 }

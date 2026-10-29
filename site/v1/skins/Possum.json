@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Possum.png",
   "id": "Possum",
   "name": {
     "en": "Possum"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Possum"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Possum.png",
   "unlock": "DLC"
 }

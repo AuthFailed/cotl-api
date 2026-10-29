@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Fennec_Fox.png",
   "id": "Fennec_Fox",
   "name": {
     "en": "Fennec Fox"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Fennec Fox"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Fennec_Fox.png",
   "unlock": "Dungeon2"
 }

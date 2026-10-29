@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك الحصول على قلب فاسد في كل مرة تُسحب بطاقة تارو، لكن سيصبح مسمومًا بعد تلقي الضرر. <br><br> قلب فاسد واحد في كل مرة بحد أقصى.",
+    "de": "Du erhältst bei jeder Ziehung einer Tarotkarte ein krankes Herz, wirst aber durch erlittenen Schaden vergiftet. <br><br> Maximal ein krankes Herz gleichzeitig.",
+    "en": "Gain a Diseased Heart every time a Tarot Card is drawn, but become poisoned after taking damage. <br><br> Maximum of one Diseased Heart at a time.",
+    "es": "Ganas un corazón enfermo cada vez que se levanta una carta del tarot, pero te envenenas al recibir daño. <br><br> Solo un corazón enfermo a la vez.",
+    "fr": "Octroie un cœur corrompu à chaque carte de tarot tirée, mais vous empoisonne si vous subissez des dégâts. <br><br> Un seul cœur corrompu à la fois au maximum.",
+    "fr-CA": "Octroie un cœur corrompu à chaque carte de tarot tirée, mais vous empoisonne si vous subissez des dégâts. <br><br> Maximum d'un seul cœur corrompu à la fois.",
+    "it": "Ottieni un cuore afflitto ogni volta che peschi un tarocco, ma subisci veleno quando ricevi un colpo.<br><br>Puoi avere al massimo un cuore afflitto per volta.",
+    "ja": "タロットカードを引くたびに病みし心臓を1つ獲得するが、ダメージを受けると毒状態になる。<br><br>病みし心臓は複数所持できない。",
+    "ko": "타로 카드를 뽑을 때, 최대 병든 심장을 한 개까지 얻지만 피해를 입을 시 독에 걸립니다.",
+    "nl": "Elke keer dat je een tarotkaart trekt, krijg je een ziekelijk hart, maar je wordt vergiftigd als je schade oploopt. <br><br> Maximaal één ziekelijk hart tegelijk.",
+    "pt-BR": "Ganhe um Coração Doente toda vez que uma Carta de Tarô for sacada, mas sofra envenenamento depois de receber dano. <br><br> Máximo de um Coração Doente por vez.",
+    "ru": "Вы получаете по больному сердцу за каждую вытащенную карту Таро, но вражеские удары вас отравляют.<br><br>За раз можно получить не более одного больного сердца.",
+    "tr": "Her Tarot Kartı çektiğinde bir Çürümüş Kalp kazanırsın fakat hasar aldığında zehirlenirsin. <br><br> Aynı anda yalnızca bir Çürümüş Kalp'in olabilir.",
+    "zh-CN": "每抽一张塔罗牌就获得一颗病缠黑心，但受伤之后会中毒。<br><br>病缠黑心的上限为一颗。",
+    "zh-TW": "每抽一張塔羅牌就獲得一顆病纏黑心，但受傷之後會中毒。<br><br>病纏黑心的上限為一顆。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك الحصول على قلب فاسد في كل مرة تُسحب بطاقة تارو، لكن سيصبح مسمومًا بعد تلقي الضرر.\n\nقلب فاسد واحد في كل مرة بحد أقصى.",
+    "de": "Du erhältst bei jeder Ziehung einer Tarotkarte ein krankes Herz, wirst aber durch erlittenen Schaden vergiftet.\n\nMaximal ein krankes Herz gleichzeitig.",
+    "en": "Gain a Diseased Heart every time a Tarot Card is drawn, but become poisoned after taking damage.\n\nMaximum of one Diseased Heart at a time.",
+    "es": "Ganas un corazón enfermo cada vez que se levanta una carta del tarot, pero te envenenas al recibir daño.\n\nSolo un corazón enfermo a la vez.",
+    "fr": "Octroie un cœur corrompu à chaque carte de tarot tirée, mais vous empoisonne si vous subissez des dégâts.\n\nUn seul cœur corrompu à la fois au maximum.",
+    "fr-CA": "Octroie un cœur corrompu à chaque carte de tarot tirée, mais vous empoisonne si vous subissez des dégâts.\n\nMaximum d'un seul cœur corrompu à la fois.",
+    "it": "Ottieni un cuore afflitto ogni volta che peschi un tarocco, ma subisci veleno quando ricevi un colpo.\n\nPuoi avere al massimo un cuore afflitto per volta.",
+    "ja": "タロットカードを引くたびに病みし心臓を1つ獲得するが、ダメージを受けると毒状態になる。\n\n病みし心臓は複数所持できない。",
+    "ko": "타로 카드를 뽑을 때, 최대 병든 심장을 한 개까지 얻지만 피해를 입을 시 독에 걸립니다.",
+    "nl": "Elke keer dat je een tarotkaart trekt, krijg je een ziekelijk hart, maar je wordt vergiftigd als je schade oploopt.\n\nMaximaal één ziekelijk hart tegelijk.",
+    "pt-BR": "Ganhe um Coração Doente toda vez que uma Carta de Tarô for sacada, mas sofra envenenamento depois de receber dano.\n\nMáximo de um Coração Doente por vez.",
+    "ru": "Вы получаете по больному сердцу за каждую вытащенную карту Таро, но вражеские удары вас отравляют.\n\nЗа раз можно получить не более одного больного сердца.",
+    "tr": "Her Tarot Kartı çektiğinde bir Çürümüş Kalp kazanırsın fakat hasar aldığında zehirlenirsin.\n\nAynı anda yalnızca bir Çürümüş Kalp'in olabilir.",
+    "zh-CN": "每抽一张塔罗牌就获得一颗病缠黑心，但受伤之后会中毒。\n\n病缠黑心的上限为一颗。",
+    "zh-TW": "每抽一張塔羅牌就獲得一顆病纏黑心，但受傷之後會中毒。\n\n病纏黑心的上限為一顆。"
+  },
+  "fleece": 3,
+  "icon": "icons/fleeces/Purple.png",
+  "id": "Purple",
+  "name": {
+    "ar": "رداء القلب الفاسد",
+    "de": "Vlies des kranken Herzens",
+    "en": "Fleece of the Diseased Heart",
+    "es": "Vellocino corazón enfermo",
+    "fr": "Pelisse corrompue",
+    "fr-CA": "Toison corrompue",
+    "it": "Vello del cuore afflitto",
+    "ja": "病みし心臓の羊毛",
+    "ko": "심장이 병든 자의 양털",
+    "nl": "Vacht van het ziekelijk hart",
+    "pt-BR": "Lã do Coração Doente",
+    "ru": "Руно больного сердца",
+    "tr": "Çürümüş Kalp Postu",
+    "zh-CN": "病缠黑心毛纺",
+    "zh-TW": "病纏黑心毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء القلب الفاسد",
+    "de": "Vlies des kranken Herzens",
+    "en": "Fleece of the Diseased Heart",
+    "es": "Vellocino corazón enfermo",
+    "fr": "Pelisse corrompue",
+    "fr-CA": "Toison corrompue",
+    "it": "Vello del cuore afflitto",
+    "ja": "病みし心臓の羊毛",
+    "ko": "심장이 병든 자의 양털",
+    "nl": "Vacht van het ziekelijk hart",
+    "pt-BR": "Lã do Coração Doente",
+    "ru": "Руно больного сердца",
+    "tr": "Çürümüş Kalp Postu",
+    "zh-CN": "病缠黑心毛纺",
+    "zh-TW": "病纏黑心毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Purple.png"
+}

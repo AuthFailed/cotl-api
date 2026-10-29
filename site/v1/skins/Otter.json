@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Otter.png",
   "id": "Otter",
   "name": {
     "en": "Otter"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Otter"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Otter.png",
   "unlock": "Dungeon3"
 }

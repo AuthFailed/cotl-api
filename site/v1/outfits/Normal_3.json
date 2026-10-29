@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 3
+    },
+    {
+      "item": "FOLLOWER_MEAT",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "خطأ في اختيار التصميم أو جودة الصنع.",
+    "de": "Ist der Look so gewollt oder ist das Ganze einfach nur schlecht gemacht?",
+    "en": "Either a design choice, or poorly made.",
+    "es": "De diseño simple o... de mala calidad.",
+    "fr": "Un tissu de mauvaise qualité ou un choix de design un peu osé.",
+    "fr-CA": "Un tissu de mauvaise qualité ou un choix de design un peu osé.",
+    "it": "Pessimo design, o pessimo gusto?",
+    "ja": "これはそういうデザインなのか、それとも単にボロボロなのか",
+    "ko": "일부러 이렇게 디자인 했거나, 아니면 정말 못 만든 것입니다.",
+    "nl": "Een ontwerpkeuze... of gewoon slecht gemaakt.",
+    "pt-BR": "Talvez seja o estilo, talvez seja só malfeito.",
+    "ru": "Дизайнерская задумка или ошибка портного?",
+    "tr": "Ya tasarımı böyle ya da kumaşı kalitesiz.",
+    "zh-CN": "不是精心设计，就是制作质量差。",
+    "zh-TW": "不是精心設計，就是製作品質差。"
+  },
+  "descriptionPlain": {
+    "ar": "خطأ في اختيار التصميم أو جودة الصنع.",
+    "de": "Ist der Look so gewollt oder ist das Ganze einfach nur schlecht gemacht?",
+    "en": "Either a design choice, or poorly made.",
+    "es": "De diseño simple o... de mala calidad.",
+    "fr": "Un tissu de mauvaise qualité ou un choix de design un peu osé.",
+    "fr-CA": "Un tissu de mauvaise qualité ou un choix de design un peu osé.",
+    "it": "Pessimo design, o pessimo gusto?",
+    "ja": "これはそういうデザインなのか、それとも単にボロボロなのか",
+    "ko": "일부러 이렇게 디자인 했거나, 아니면 정말 못 만든 것입니다.",
+    "nl": "Een ontwerpkeuze... of gewoon slecht gemaakt.",
+    "pt-BR": "Talvez seja o estilo, talvez seja só malfeito.",
+    "ru": "Дизайнерская задумка или ошибка портного?",
+    "tr": "Ya tasarımı böyle ya da kumaşı kalitesiz.",
+    "zh-CN": "不是精心设计，就是制作质量差。",
+    "zh-TW": "不是精心設計，就是製作品質差。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_3.png",
+  "id": "Normal_3",
+  "name": {
+    "ar": "ثوب طويل ممزق",
+    "de": "Zerlumpte Roben",
+    "en": "Ragged Robes",
+    "es": "Túnica harapienta",
+    "fr": "Robe déchirée",
+    "fr-CA": "Robe déchirée",
+    "it": "Veste cenciosa",
+    "ja": "ボロボロのローブ",
+    "ko": "누더기가 된 예복",
+    "nl": "Gerafeld gewaad",
+    "pt-BR": "Trajes Esfarrapados",
+    "ru": "Рваное одеяние",
+    "tr": "Yıpranmış Cübbe",
+    "zh-CN": "破烂教服",
+    "zh-TW": "破爛教服"
+  },
+  "namePlain": {
+    "ar": "ثوب طويل ممزق",
+    "de": "Zerlumpte Roben",
+    "en": "Ragged Robes",
+    "es": "Túnica harapienta",
+    "fr": "Robe déchirée",
+    "fr-CA": "Robe déchirée",
+    "it": "Veste cenciosa",
+    "ja": "ボロボロのローブ",
+    "ko": "누더기가 된 예복",
+    "nl": "Gerafeld gewaad",
+    "pt-BR": "Trajes Esfarrapados",
+    "ru": "Рваное одеяние",
+    "tr": "Yıpranmış Cübbe",
+    "zh-CN": "破烂教服",
+    "zh-TW": "破爛教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_3.png"
+}

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Snake.png",
   "id": "Snake",
   "name": {
     "en": "Snake"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Snake"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Snake.png",
   "unlock": "Other"
 }

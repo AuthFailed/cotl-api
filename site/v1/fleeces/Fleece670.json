@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "صُنع لحماية مَن يتجولون بعيدًا. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Zum Schutz derjenigen, die weit umherziehen. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Made to protect those who roam far. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Destinado a proteger a quienes se alejan del hogar. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Conçue pour protéger les grands voyageurs. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Conçue pour protéger les grands voyageurs. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Protegge chi girovaga a lungo. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "遠くまで放浪する者を守るために作られた衣服。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "멀리 방랑하는 자를 지켜줍니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Gemaakt om hen te beschermen die ver reizen. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Feita para proteger aqueles que viajam para longe. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние для того, кто странствует по дальним краям.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Irağa gidenleri korur. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "专为呵护漫步者设计的。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "為保護遠行之人而生。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "صُنع لحماية مَن يتجولون بعيدًا.\nلا يمنح مزايا.",
+    "de": "Zum Schutz derjenigen, die weit umherziehen.\nGewährt keine Boni.",
+    "en": "Made to protect those who roam far.\nProvides no bonuses.",
+    "es": "Destinado a proteger a quienes se alejan del hogar.\nNo otorga nada especial.",
+    "fr": "Conçue pour protéger les grands voyageurs.\nN'octroie aucun bonus.",
+    "fr-CA": "Conçue pour protéger les grands voyageurs.\nN'octroie aucun bonus.",
+    "it": "Protegge chi girovaga a lungo.\nNon fornisce bonus.",
+    "ja": "遠くまで放浪する者を守るために作られた衣服。\nボーナスなし。",
+    "ko": "멀리 방랑하는 자를 지켜줍니다.\n특별한 효과는 없습니다.",
+    "nl": "Gemaakt om hen te beschermen die ver reizen.\nGeeft geen bonussen.",
+    "pt-BR": "Feita para proteger aqueles que viajam para longe.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние для того, кто странствует по дальним краям.\nНе даёт преимуществ.",
+    "tr": "Irağa gidenleri korur.\nİlave özellik sağlamaz.",
+    "zh-CN": "专为呵护漫步者设计的。\n没有特殊效果。",
+    "zh-TW": "為保護遠行之人而生。\n沒有特殊效果。"
+  },
+  "fleece": 670,
+  "icon": "icons/fleeces/Fleece670.png",
+  "id": "Fleece670",
+  "name": {
+    "ar": "رداء مربي الحيوانات",
+    "de": "Vlies des Ranchers",
+    "en": "Fleece of the Rancher",
+    "es": "Vellocino del Ganadero",
+    "fr": "Pelisse de l'éleveur",
+    "fr-CA": "Toison de l'éleveur",
+    "it": "Vello dell'allevabestie",
+    "ja": "牧場主の羊毛",
+    "ko": "목동의 양털",
+    "nl": "Vacht van de veehouder",
+    "pt-BR": "Lã do Rancheiro",
+    "ru": "Руно пастуха",
+    "tr": "Hayvan Bakıcısının Postu",
+    "zh-CN": "牧工毛纺",
+    "zh-TW": "牧工毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء مربي الحيوانات",
+    "de": "Vlies des Ranchers",
+    "en": "Fleece of the Rancher",
+    "es": "Vellocino del Ganadero",
+    "fr": "Pelisse de l'éleveur",
+    "fr-CA": "Toison de l'éleveur",
+    "it": "Vello dell'allevabestie",
+    "ja": "牧場主の羊毛",
+    "ko": "목동의 양털",
+    "nl": "Vacht van de veehouder",
+    "pt-BR": "Lã do Rancheiro",
+    "ru": "Руно пастуха",
+    "tr": "Hayvan Bakıcısının Postu",
+    "zh-CN": "牧工毛纺",
+    "zh-TW": "牧工毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece670.png"
+}

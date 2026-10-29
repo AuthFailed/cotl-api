@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "مثالي للأتباع محبي اللعب والمرح.",
+    "de": "Für Anhänger, die gerne herumtollen.",
+    "en": "For Followers who like to frolic.",
+    "es": "Para los adeptos a los que les gusta divertirse.",
+    "fr": "Pour les adeptes qui aiment batifoler dans l'herbe.",
+    "fr-CA": "Pour les adeptes qui aiment batifoler dans l'herbe.",
+    "it": "Per i membri che amano spassarsela.",
+    "ja": "遊んだり騒いだりするのが好きな信者向けの服",
+    "ko": "뛰어 놀기를 좋아하는 추종자들을 위한 옷입니다.",
+    "nl": "Voor volgelingen die graag een beetje stoeien.",
+    "pt-BR": "Ideal para Seguidores que gostam de diversão.",
+    "ru": "Для весёлых и легкомысленных.",
+    "tr": "Etrafa neşe saçan Takipçiler için.",
+    "zh-CN": "适合喜欢嬉戏的教徒。",
+    "zh-TW": "適合喜歡嬉戲的教徒。"
+  },
+  "descriptionPlain": {
+    "ar": "مثالي للأتباع محبي اللعب والمرح.",
+    "de": "Für Anhänger, die gerne herumtollen.",
+    "en": "For Followers who like to frolic.",
+    "es": "Para los adeptos a los que les gusta divertirse.",
+    "fr": "Pour les adeptes qui aiment batifoler dans l'herbe.",
+    "fr-CA": "Pour les adeptes qui aiment batifoler dans l'herbe.",
+    "it": "Per i membri che amano spassarsela.",
+    "ja": "遊んだり騒いだりするのが好きな信者向けの服",
+    "ko": "뛰어 놀기를 좋아하는 추종자들을 위한 옷입니다.",
+    "nl": "Voor volgelingen die graag een beetje stoeien.",
+    "pt-BR": "Ideal para Seguidores que gostam de diversão.",
+    "ru": "Для весёлых и легкомысленных.",
+    "tr": "Etrafa neşe saçan Takipçiler için.",
+    "zh-CN": "适合喜欢嬉戏的教徒。",
+    "zh-TW": "適合喜歡嬉戲的教徒。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_9.png",
+  "id": "Normal_9",
+  "name": {
+    "ar": "ملبس التنزه",
+    "de": "Picknick-Kleidung",
+    "en": "Picnic Attire",
+    "es": "Ropa de pícnic",
+    "fr": "Tenue de pique-nique",
+    "fr-CA": "Tenue de pique-nique",
+    "it": "Abbigliamento da picnic",
+    "ja": "お出かけ用の一式",
+    "ko": "소풍 복장",
+    "nl": "Picknickkleding",
+    "pt-BR": "Roupa de Piquenique",
+    "ru": "Выходное одеяние",
+    "tr": "Piknik Kıyafeti",
+    "zh-CN": "野餐衣着",
+    "zh-TW": "野餐衣著"
+  },
+  "namePlain": {
+    "ar": "ملبس التنزه",
+    "de": "Picknick-Kleidung",
+    "en": "Picnic Attire",
+    "es": "Ropa de pícnic",
+    "fr": "Tenue de pique-nique",
+    "fr-CA": "Tenue de pique-nique",
+    "it": "Abbigliamento da picnic",
+    "ja": "お出かけ用の一式",
+    "ko": "소풍 복장",
+    "nl": "Picknickkleding",
+    "pt-BR": "Roupa de Piquenique",
+    "ru": "Выходное одеяние",
+    "tr": "Piknik Kıyafeti",
+    "zh-CN": "野餐衣着",
+    "zh-TW": "野餐衣著"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_9.png"
+}

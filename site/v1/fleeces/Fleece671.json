@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "كان ملكًا لفرد يخاف المستقبل. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Gehörte einst einem, der sich vor der Zukunft fürchtete. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Once belonged to one who feared the future. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "En su día perteneció a alguien que temía el futuro. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Appartenait autrefois à celui qui craignait le futur. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Appartenait autrefois à celui qui craignait le futur. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Un tempo appartenuto a uno timoroso del futuro. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "来たる未来を恐れた者がかつて身につけていた。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "미래를 두려워하던 자의 것이었습니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Behoorde ooit toe aan iemand die de toekomst vreesde. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Outrora pertenceu a alguém que temia o futuro. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние, принадлежавшее тому, кого страшило будущее.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Bir zamanlar gelecekten korkan birine aitti. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "其前任主人对未来感到恐惧。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "曾屬於某位害怕未來之人。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "كان ملكًا لفرد يخاف المستقبل.\nلا يمنح مزايا.",
+    "de": "Gehörte einst einem, der sich vor der Zukunft fürchtete.\nGewährt keine Boni.",
+    "en": "Once belonged to one who feared the future.\nProvides no bonuses.",
+    "es": "En su día perteneció a alguien que temía el futuro.\nNo otorga nada especial.",
+    "fr": "Appartenait autrefois à celui qui craignait le futur.\nN'octroie aucun bonus.",
+    "fr-CA": "Appartenait autrefois à celui qui craignait le futur.\nN'octroie aucun bonus.",
+    "it": "Un tempo appartenuto a uno timoroso del futuro.\nNon fornisce bonus.",
+    "ja": "来たる未来を恐れた者がかつて身につけていた。\nボーナスなし。",
+    "ko": "미래를 두려워하던 자의 것이었습니다.\n특별한 효과는 없습니다.",
+    "nl": "Behoorde ooit toe aan iemand die de toekomst vreesde.\nGeeft geen bonussen.",
+    "pt-BR": "Outrora pertenceu a alguém que temia o futuro.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние, принадлежавшее тому, кого страшило будущее.\nНе даёт преимуществ.",
+    "tr": "Bir zamanlar gelecekten korkan birine aitti.\nİlave özellik sağlamaz.",
+    "zh-CN": "其前任主人对未来感到恐惧。\n没有特殊效果。",
+    "zh-TW": "曾屬於某位害怕未來之人。\n沒有特殊效果。"
+  },
+  "fleece": 671,
+  "icon": "icons/fleeces/Fleece671.png",
+  "id": "Fleece671",
+  "name": {
+    "ar": "رداء المنذر",
+    "de": "Vlies des Vorboten",
+    "en": "Fleece of the Harbinger",
+    "es": "Vellocino del Heraldo",
+    "fr": "Pelisse du messager",
+    "fr-CA": "Toison du messager",
+    "it": "Vello dell'araldo",
+    "ja": "予言者の羊毛",
+    "ko": "전령의 양털",
+    "nl": "Vacht van de voorbode",
+    "pt-BR": "Lã do Precursor",
+    "ru": "Руно предвестия",
+    "tr": "Müjdecinin Postu",
+    "zh-CN": "预言者毛纺",
+    "zh-TW": "卜卦者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المنذر",
+    "de": "Vlies des Vorboten",
+    "en": "Fleece of the Harbinger",
+    "es": "Vellocino del Heraldo",
+    "fr": "Pelisse du messager",
+    "fr-CA": "Toison du messager",
+    "it": "Vello dell'araldo",
+    "ja": "予言者の羊毛",
+    "ko": "전령의 양털",
+    "nl": "Vacht van de voorbode",
+    "pt-BR": "Lã do Precursor",
+    "ru": "Руно предвестия",
+    "tr": "Müjdecinin Postu",
+    "zh-CN": "预言者毛纺",
+    "zh-TW": "卜卦者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece671.png"
+}

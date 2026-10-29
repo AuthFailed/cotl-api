@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك اللعب بنظير الحَمَل الشرير. <color=\"grey\"><br> لا تمنح مزايا.",
+    "de": "Spiele das böse Gegenstück des Lamms. <color=\"grey\"><br> Gewährt keine Boni.",
+    "en": "Play as the Lamb's wicked counterpart. <color=\"grey\"><br> Provides no bonuses.",
+    "es": "Ponte en la piel del antagonista cruel del Cordero. <color=\"grey\"><br> No otorga nada especial.",
+    "fr": "Incarnez le double maléfique de l'Agneau. <color=\"grey\"><br> N'octroie aucun bonus.",
+    "fr-CA": "Incarnez le double maléfique de l'Agneau. <color=\"grey\"><br> N'octroie aucun bonus.",
+    "it": "Gioca nei panni della controparte malvagia dell'Agnello.<color=\"grey\"><br>Non fornisce bonus.",
+    "ja": "子羊が持つ闇の側面。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "양의 뒤틀린 자아로 플레이합니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Speel als de verdorven tegenhanger van het Lam. <color=\"grey\"><br> Geeft geen bonussen.",
+    "pt-BR": "Jogue como o equivalente maligno do Cordeiro. <color=\"grey\"><br> Não fornece nenhum bônus.",
+    "ru": "Одеяние коварного спутника ягнёнка.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Kuzu'nun şeytani ekürisi olarak oyna. <color=\"grey\"><br> İlave özellik sağlamaz.",
+    "zh-CN": "扮演圣羊的邪恶搭档。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "扮演聖羊的邪惡搭檔。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك اللعب بنظير الحَمَل الشرير.\nلا تمنح مزايا.",
+    "de": "Spiele das böse Gegenstück des Lamms.\nGewährt keine Boni.",
+    "en": "Play as the Lamb's wicked counterpart.\nProvides no bonuses.",
+    "es": "Ponte en la piel del antagonista cruel del Cordero.\nNo otorga nada especial.",
+    "fr": "Incarnez le double maléfique de l'Agneau.\nN'octroie aucun bonus.",
+    "fr-CA": "Incarnez le double maléfique de l'Agneau.\nN'octroie aucun bonus.",
+    "it": "Gioca nei panni della controparte malvagia dell'Agnello.\nNon fornisce bonus.",
+    "ja": "子羊が持つ闇の側面。\nボーナスなし。",
+    "ko": "양의 뒤틀린 자아로 플레이합니다.\n특별한 효과는 없습니다.",
+    "nl": "Speel als de verdorven tegenhanger van het Lam.\nGeeft geen bonussen.",
+    "pt-BR": "Jogue como o equivalente maligno do Cordeiro.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние коварного спутника ягнёнка.\nНе даёт преимуществ.",
+    "tr": "Kuzu'nun şeytani ekürisi olarak oyna.\nİlave özellik sağlamaz.",
+    "zh-CN": "扮演圣羊的邪恶搭档。\n没有特殊效果。",
+    "zh-TW": "扮演聖羊的邪惡搭檔。\n沒有特殊效果。"
+  },
+  "fleece": 1003,
+  "icon": "icons/fleeces/Goat.png",
+  "id": "Goat",
+  "name": {
+    "ar": "الماعز",
+    "de": "Die Ziege",
+    "en": "The Goat",
+    "es": "La Cabra",
+    "fr": "La Chèvre",
+    "fr-CA": "La Chèvre",
+    "it": "Il Capro",
+    "ja": "ゴート",
+    "ko": "염소",
+    "nl": "De Geit",
+    "pt-BR": "O Bode",
+    "ru": "Коза",
+    "tr": "Keçi",
+    "zh-CN": "山羊",
+    "zh-TW": "山羊"
+  },
+  "namePlain": {
+    "ar": "الماعز",
+    "de": "Die Ziege",
+    "en": "The Goat",
+    "es": "La Cabra",
+    "fr": "La Chèvre",
+    "fr-CA": "La Chèvre",
+    "it": "Il Capro",
+    "ja": "ゴート",
+    "ko": "염소",
+    "nl": "De Geit",
+    "pt-BR": "O Bode",
+    "ru": "Коза",
+    "tr": "Keçi",
+    "zh-CN": "山羊",
+    "zh-TW": "山羊"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Goat.png"
+}

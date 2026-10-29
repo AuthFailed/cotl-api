@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Barrier",
+    "name": "Sanctuary Raised",
+    "thumb": "icons/curses/64/Barrier.png"
+  },
+  {
+    "id": "Barrier_Absorb",
+    "name": "Hungering Gate",
+    "thumb": "icons/curses/64/Barrier_Absorb.png"
+  },
+  {
+    "id": "Barrier_Deflection",
+    "name": "Divine Barricade",
+    "thumb": "icons/curses/64/Barrier_Deflection.png"
+  },
+  {
+    "id": "Barrier_Wide",
+    "name": "Sanctuary Grown",
+    "thumb": "icons/curses/64/Barrier_Wide.png"
+  },
+  {
+    "id": "EnemyBlast",
+    "name": "Esplosione divina",
+    "thumb": "icons/curses/64/EnemyBlast.png"
+  },
+  {
+    "id": "EnemyBlast_DeflectsProjectiles",
+    "name": "Protezione divina",
+    "thumb": "icons/curses/64/EnemyBlast_DeflectsProjectiles.png"
+  },
+  {
+    "id": "EnemyBlast_Flame",
+    "name": "Rogo divino",
+    "thumb": "icons/curses/64/EnemyBlast_Flame.png"
+  },
+  {
+    "id": "EnemyBlast_Ice",
+    "name": "Bufera divina",
+    "thumb": "icons/curses/64/EnemyBlast_Ice.png"
+  },
+  {
+    "id": "EnemyBlast_Poison",
+    "name": "Flagello divino",
+    "thumb": "icons/curses/64/EnemyBlast_Poison.png"
+  },
+  {
+    "id": "Fireball",
+    "name": "Colpo infuocato",
+    "thumb": "icons/curses/64/Fireball.png"
+  },
+  {
+    "id": "Fireball_Charm",
+    "name": "Colpo della Corona",
+    "thumb": "icons/curses/64/Fireball_Charm.png"
+  },
+  {
+    "id": "Fireball_Swarm",
+    "name": "Segugi del fato",
+    "thumb": "icons/curses/64/Fireball_Swarm.png"
+  },
+  {
+    "id": "Fireball_Triple",
+    "name": "Fuoco purificatore",
+    "thumb": "icons/curses/64/Fireball_Triple.png"
+  },
+  {
+    "id": "MegaSlash",
+    "name": "Spazzata mortale",
+    "thumb": "icons/curses/64/MegaSlash.png"
+  },
+  {
+    "id": "MegaSlash_Charm",
+    "name": "Giuramento della Corona",
+    "thumb": "icons/curses/64/MegaSlash_Charm.png"
+  },
+  {
+    "id": "MegaSlash_Flame",
+    "name": "Fiamma mietitrice",
+    "thumb": "icons/curses/64/MegaSlash_Flame.png"
+  },
+  {
+    "id": "MegaSlash_Ice",
+    "name": "Burrasca mortale",
+    "thumb": "icons/curses/64/MegaSlash_Ice.png"
+  },
+  {
+    "id": "MegaSlash_Necromancy",
+    "name": "Guardiano della Morte",
+    "thumb": "icons/curses/64/MegaSlash_Necromancy.png"
+  },
+  {
+    "id": "ProjectileAOE",
+    "name": "Icore scagliato",
+    "thumb": "icons/curses/64/ProjectileAOE.png"
+  },
+  {
+    "id": "ProjectileAOE_Charm",
+    "name": "Richiamo della Corona",
+    "thumb": "icons/curses/64/ProjectileAOE_Charm.png"
+  },
+  {
+    "id": "ProjectileAOE_ExplosiveImpact",
+    "name": "Aculeo corruttivo",
+    "thumb": "icons/curses/64/ProjectileAOE_ExplosiveImpact.png"
+  },
+  {
+    "id": "ProjectileAOE_GoopTrail",
+    "name": "Retta via",
+    "thumb": "icons/curses/64/ProjectileAOE_GoopTrail.png"
+  },
+  {
+    "id": "Teleport",
+    "name": "Falcata divina",
+    "thumb": "icons/curses/64/Teleport.png"
+  },
+  {
+    "id": "Teleport_Goop",
+    "name": "Icore dimenticato",
+    "thumb": "icons/curses/64/Teleport_Goop.png"
+  },
+  {
+    "id": "Teleport_Invincible",
+    "name": "L'abbraccio",
+    "thumb": "icons/curses/64/Teleport_Invincible.png"
+  },
+  {
+    "id": "Teleport_Projectile",
+    "name": "Shards of Solitude",
+    "thumb": "icons/curses/64/Teleport_Projectile.png"
+  },
+  {
+    "id": "Tentacles",
+    "name": "Tocco di Turua",
+    "thumb": "icons/curses/64/Tentacles.png"
+  },
+  {
+    "id": "Tentacles_Circular",
+    "name": "Gorgo",
+    "thumb": "icons/curses/64/Tentacles_Circular.png"
+  },
+  {
+    "id": "Tentacles_Flame",
+    "name": "Tocco di Yig",
+    "thumb": "icons/curses/64/Tentacles_Flame.png"
+  },
+  {
+    "id": "Tentacles_Ice",
+    "name": "Tocco di Ithaqua",
+    "thumb": "icons/curses/64/Tentacles_Ice.png"
+  },
+  {
+    "id": "Tentacles_Necromancy",
+    "name": "Tocco del redivivo",
+    "thumb": "icons/curses/64/Tentacles_Necromancy.png"
+  }
+]

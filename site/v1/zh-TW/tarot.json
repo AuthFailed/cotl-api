@@ -1,0 +1,427 @@
+[
+  {
+    "id": "AdventureMapFreedom",
+    "name": "延伸之樹",
+    "thumb": "icons/tarot/64/AdventureMapFreedom.png"
+  },
+  {
+    "id": "AmmoEfficient",
+    "name": "神聖咒術",
+    "thumb": "icons/tarot/64/AmmoEfficient.png"
+  },
+  {
+    "id": "Arrows",
+    "name": "熱誠寄宿",
+    "thumb": "icons/tarot/64/Arrows.png"
+  },
+  {
+    "id": "AttackRate",
+    "name": "神聖力量",
+    "thumb": "icons/tarot/64/AttackRate.png"
+  },
+  {
+    "id": "BlackSoulAutoRecharge",
+    "name": "內在之力",
+    "thumb": "icons/tarot/64/BlackSoulAutoRecharge.png"
+  },
+  {
+    "id": "BlackSoulOnDamage",
+    "name": "外在之力",
+    "thumb": "icons/tarot/64/BlackSoulOnDamage.png"
+  },
+  {
+    "id": "BombOnDamaged",
+    "name": "報復",
+    "thumb": "icons/tarot/64/BombOnDamaged.png"
+  },
+  {
+    "id": "BombOnRoll",
+    "name": "炸彈",
+    "thumb": "icons/tarot/64/BombOnRoll.png"
+  },
+  {
+    "id": "BossHeal",
+    "name": "受祝福的篡位者",
+    "thumb": "icons/tarot/64/BossHeal.png"
+  },
+  {
+    "id": "CoopBetterApart",
+    "name": "敵手",
+    "thumb": "icons/tarot/64/CoopBetterApart.png"
+  },
+  {
+    "id": "CoopBetterTogether",
+    "name": "戰友",
+    "thumb": "icons/tarot/64/CoopBetterTogether.png"
+  },
+  {
+    "id": "CoopBonded",
+    "name": "戰鬥羈絆",
+    "thumb": "icons/tarot/64/CoopBonded.png"
+  },
+  {
+    "id": "CoopExplosive",
+    "name": "打火石",
+    "thumb": "icons/tarot/64/CoopExplosive.png"
+  },
+  {
+    "id": "CoopGoodTiming",
+    "name": "步調相同",
+    "thumb": "icons/tarot/64/CoopGoodTiming.png"
+  },
+  {
+    "id": "CorruptedBlackHeartForRelic",
+    "name": "受憎惡者",
+    "thumb": "icons/tarot/64/CorruptedBlackHeartForRelic.png"
+  },
+  {
+    "id": "CorruptedBombsAndHealth",
+    "name": "算計",
+    "thumb": "icons/tarot/64/CorruptedBombsAndHealth.png"
+  },
+  {
+    "id": "CorruptedFullCorruption",
+    "name": "反叛者獲勝",
+    "thumb": "icons/tarot/64/CorruptedFullCorruption.png"
+  },
+  {
+    "id": "CorruptedGoopyTrail",
+    "name": "神血四溢",
+    "thumb": "icons/tarot/64/CorruptedGoopyTrail.png"
+  },
+  {
+    "id": "CorruptedHealForRelic",
+    "name": "囤積成性",
+    "thumb": "icons/tarot/64/CorruptedHealForRelic.png"
+  },
+  {
+    "id": "CorruptedHeavy",
+    "name": "肉身誓言",
+    "thumb": "icons/tarot/64/CorruptedHeavy.png"
+  },
+  {
+    "id": "CorruptedPoisonCoins",
+    "name": "試毒者",
+    "thumb": "icons/tarot/64/CorruptedPoisonCoins.png"
+  },
+  {
+    "id": "CorruptedRelicCharge",
+    "name": "汙油",
+    "thumb": "icons/tarot/64/CorruptedRelicCharge.png"
+  },
+  {
+    "id": "CorruptedTradeOff",
+    "name": "病入核心",
+    "thumb": "icons/tarot/64/CorruptedTradeOff.png"
+  },
+  {
+    "id": "DamageOnRoll",
+    "name": "開拓道路",
+    "thumb": "icons/tarot/64/DamageOnRoll.png"
+  },
+  {
+    "id": "DeathsDoor",
+    "name": "死神之門",
+    "thumb": "icons/tarot/64/DeathsDoor.png"
+  },
+  {
+    "id": "DecreaseRelicCharge",
+    "name": "聖化恢復油",
+    "thumb": "icons/tarot/64/DecreaseRelicCharge.png"
+  },
+  {
+    "id": "DiseasedHeart",
+    "name": "病纏黑心",
+    "thumb": "icons/tarot/64/DiseasedHeart.png"
+  },
+  {
+    "id": "EasyMoney",
+    "name": "剪毛刀",
+    "thumb": "icons/tarot/64/EasyMoney.png"
+  },
+  {
+    "id": "EmptyFervourCritical",
+    "name": "無神論者",
+    "thumb": "icons/tarot/64/EmptyFervourCritical.png"
+  },
+  {
+    "id": "ExtraMove",
+    "name": "一帆風順",
+    "thumb": "icons/tarot/64/ExtraMove.png"
+  },
+  {
+    "id": "EyeOfWeakness",
+    "name": "真知灼見",
+    "thumb": "icons/tarot/64/EyeOfWeakness.png"
+  },
+  {
+    "id": "FlameHeart",
+    "name": "熔心",
+    "thumb": "icons/tarot/64/FlameHeart.png"
+  },
+  {
+    "id": "FrostHeart",
+    "name": "冰心",
+    "thumb": "icons/tarot/64/FrostHeart.png"
+  },
+  {
+    "id": "FrostedEnemies",
+    "name": "盛寒難卻",
+    "thumb": "icons/tarot/64/FrostedEnemies.png"
+  },
+  {
+    "id": "GiftFromBelow",
+    "name": "下界之禮",
+    "thumb": "icons/tarot/64/GiftFromBelow.png"
+  },
+  {
+    "id": "GoopOnDamaged",
+    "name": "報以神血",
+    "thumb": "icons/tarot/64/GoopOnDamaged.png"
+  },
+  {
+    "id": "GoopOnRoll",
+    "name": "神血徘徊",
+    "thumb": "icons/tarot/64/GoopOnRoll.png"
+  },
+  {
+    "id": "HandsOfRage",
+    "name": "狂怒之手",
+    "thumb": "icons/tarot/64/HandsOfRage.png"
+  },
+  {
+    "id": "HealChance",
+    "name": "奪魂手",
+    "thumb": "icons/tarot/64/HealChance.png"
+  },
+  {
+    "id": "HealTwiceAmount",
+    "name": "幸運女神之祝福",
+    "thumb": "icons/tarot/64/HealTwiceAmount.png"
+  },
+  {
+    "id": "HeartTarotDrawn",
+    "name": "至日之夜",
+    "thumb": "icons/tarot/64/HeartTarotDrawn.png"
+  },
+  {
+    "id": "Hearts1",
+    "name": "紅心 I",
+    "thumb": "icons/tarot/64/Hearts1.png"
+  },
+  {
+    "id": "Hearts2",
+    "name": "紅心 II",
+    "thumb": "icons/tarot/64/Hearts2.png"
+  },
+  {
+    "id": "Hearts3",
+    "name": "紅心 III",
+    "thumb": "icons/tarot/64/Hearts3.png"
+  },
+  {
+    "id": "HighRoller",
+    "name": "凍雨碎片",
+    "thumb": "icons/tarot/64/HighRoller.png"
+  },
+  {
+    "id": "HitKillEnemy",
+    "name": "流浪者",
+    "thumb": "icons/tarot/64/HitKillEnemy.png"
+  },
+  {
+    "id": "ImmuneToTraps",
+    "name": "虛幻無形",
+    "thumb": "icons/tarot/64/ImmuneToTraps.png"
+  },
+  {
+    "id": "IncreaseBlackSoulsDrop",
+    "name": "熱誠大豐收",
+    "thumb": "icons/tarot/64/IncreaseBlackSoulsDrop.png"
+  },
+  {
+    "id": "IncreasedDamage",
+    "name": "武藝宗師",
+    "thumb": "icons/tarot/64/IncreasedDamage.png"
+  },
+  {
+    "id": "InvincibilityPerRoom",
+    "name": "片刻神蹟",
+    "thumb": "icons/tarot/64/InvincibilityPerRoom.png"
+  },
+  {
+    "id": "Joker",
+    "name": "愚者",
+    "thumb": "icons/tarot/64/Joker.png"
+  },
+  {
+    "id": "KillEnemiesOnResurrect",
+    "name": "如其在上，如其在下",
+    "thumb": "icons/tarot/64/KillEnemiesOnResurrect.png"
+  },
+  {
+    "id": "LastChance",
+    "name": "凍瘡",
+    "thumb": "icons/tarot/64/LastChance.png"
+  },
+  {
+    "id": "Lovers1",
+    "name": "愛侶 I",
+    "thumb": "icons/tarot/64/Lovers1.png"
+  },
+  {
+    "id": "Lovers2",
+    "name": "愛侶 II",
+    "thumb": "icons/tarot/64/Lovers2.png"
+  },
+  {
+    "id": "Moon",
+    "name": "哭泣之月",
+    "thumb": "icons/tarot/64/Moon.png"
+  },
+  {
+    "id": "MoreRelics",
+    "name": "收藏家",
+    "thumb": "icons/tarot/64/MoreRelics.png"
+  },
+  {
+    "id": "MovementSpeed",
+    "name": "道路",
+    "thumb": "icons/tarot/64/MovementSpeed.png"
+  },
+  {
+    "id": "MutatedDropRotburn",
+    "name": "佚散之骨",
+    "thumb": "icons/tarot/64/MutatedDropRotburn.png"
+  },
+  {
+    "id": "MutatedFreezeOnHit",
+    "name": "外露之齒",
+    "thumb": "icons/tarot/64/MutatedFreezeOnHit.png"
+  },
+  {
+    "id": "MutatedInvincibility",
+    "name": "不屈靈魂",
+    "thumb": "icons/tarot/64/MutatedInvincibility.png"
+  },
+  {
+    "id": "MutatedNegateHit",
+    "name": "虛假之眼",
+    "thumb": "icons/tarot/64/MutatedNegateHit.png"
+  },
+  {
+    "id": "MutatedResurrectFullHealth",
+    "name": "失竊膽汁",
+    "thumb": "icons/tarot/64/MutatedResurrectFullHealth.png"
+  },
+  {
+    "id": "MutatedSpawnRotDemons",
+    "name": "無常之夢",
+    "thumb": "icons/tarot/64/MutatedSpawnRotDemons.png"
+  },
+  {
+    "id": "NaturesGift",
+    "name": "自然的恩惠",
+    "thumb": "icons/tarot/64/NaturesGift.png"
+  },
+  {
+    "id": "NegateDamageChance",
+    "name": "信仰之盾",
+    "thumb": "icons/tarot/64/NegateDamageChance.png"
+  },
+  {
+    "id": "NeptunesCurse",
+    "name": "海神咒術",
+    "thumb": "icons/tarot/64/NeptunesCurse.png"
+  },
+  {
+    "id": "NoCorruption",
+    "name": "純潔之令",
+    "thumb": "icons/tarot/64/NoCorruption.png"
+  },
+  {
+    "id": "PoisonImmune",
+    "name": "抗毒",
+    "thumb": "icons/tarot/64/PoisonImmune.png"
+  },
+  {
+    "id": "Potion",
+    "name": "神饌",
+    "thumb": "icons/tarot/64/Potion.png"
+  },
+  {
+    "id": "RabbitFoot",
+    "name": "兔腳",
+    "thumb": "icons/tarot/64/RabbitFoot.png"
+  },
+  {
+    "id": "Recycle",
+    "name": "靈魂挽救者",
+    "thumb": "icons/tarot/64/Recycle.png"
+  },
+  {
+    "id": "RoomEnterCritter",
+    "name": "鍊金術士",
+    "thumb": "icons/tarot/64/RoomEnterCritter.png"
+  },
+  {
+    "id": "ShuffleNode",
+    "name": "迷宮",
+    "thumb": "icons/tarot/64/ShuffleNode.png"
+  },
+  {
+    "id": "Sin",
+    "name": "誘惑的命運",
+    "thumb": "icons/tarot/64/Sin.png"
+  },
+  {
+    "id": "Skull",
+    "name": "燃燒的死者",
+    "thumb": "icons/tarot/64/Skull.png"
+  },
+  {
+    "id": "Spider",
+    "name": "蛛形",
+    "thumb": "icons/tarot/64/Spider.png"
+  },
+  {
+    "id": "StrikeBack",
+    "name": "盲目盛怒",
+    "thumb": "icons/tarot/64/StrikeBack.png"
+  },
+  {
+    "id": "SummonGhost",
+    "name": "領頭羊",
+    "thumb": "icons/tarot/64/SummonGhost.png"
+  },
+  {
+    "id": "Sun",
+    "name": "全見之日",
+    "thumb": "icons/tarot/64/Sun.png"
+  },
+  {
+    "id": "SurpriseAttack",
+    "name": "征服者",
+    "thumb": "icons/tarot/64/SurpriseAttack.png"
+  },
+  {
+    "id": "Telescope",
+    "name": "望遠鏡",
+    "thumb": "icons/tarot/64/Telescope.png"
+  },
+  {
+    "id": "TentacleOnDamaged",
+    "name": "圖盧阿之族",
+    "thumb": "icons/tarot/64/TentacleOnDamaged.png"
+  },
+  {
+    "id": "TheDeal",
+    "name": "交易",
+    "thumb": "icons/tarot/64/TheDeal.png"
+  },
+  {
+    "id": "WalkThroughBlocks",
+    "name": "鬼魂的意志",
+    "thumb": "icons/tarot/64/WalkThroughBlocks.png"
+  }
+]

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Dog_4.png",
   "id": "Boss_Dog_4",
   "name": {
     "en": "Boss Dog 4"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Dog 4"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Dog_4.png",
   "unlock": "Dungeon5"
 }

@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "GOLD_NUGGET",
+      "quantity": 12
+    }
+  ],
+  "description": {
+    "ar": "للكادحين في العمل.",
+    "de": "Für die hart Arbeitenden.",
+    "en": "For the hardworking.",
+    "es": "Para quienes dan el callo.",
+    "fr": "Réservée aux travailleurs les plus courageux.",
+    "fr-CA": "Réservée aux travailleurs les plus acharnés.",
+    "it": "Per chi lavora sodo.",
+    "ja": "働き者のための服",
+    "ko": "열심히 일하기 위해 입습니다.",
+    "nl": "Voor de harde werkers.",
+    "pt-BR": "Para quem trabalha duro.",
+    "ru": "Для тех, кто пашет от рассвета до заката.",
+    "tr": "Çalışkan Takipçiler için.",
+    "zh-CN": "适合勤奋工作者。",
+    "zh-TW": "適合勤奮工作者。"
+  },
+  "descriptionPlain": {
+    "ar": "للكادحين في العمل.",
+    "de": "Für die hart Arbeitenden.",
+    "en": "For the hardworking.",
+    "es": "Para quienes dan el callo.",
+    "fr": "Réservée aux travailleurs les plus courageux.",
+    "fr-CA": "Réservée aux travailleurs les plus acharnés.",
+    "it": "Per chi lavora sodo.",
+    "ja": "働き者のための服",
+    "ko": "열심히 일하기 위해 입습니다.",
+    "nl": "Voor de harde werkers.",
+    "pt-BR": "Para quem trabalha duro.",
+    "ru": "Для тех, кто пашет от рассвета до заката.",
+    "tr": "Çalışkan Takipçiler için.",
+    "zh-CN": "适合勤奋工作者。",
+    "zh-TW": "適合勤奮工作者。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_1.png",
+  "id": "Normal_1",
+  "name": {
+    "ar": "قميص فضفاض قروي",
+    "de": "Bauernbluse",
+    "en": "Peasant Blouse",
+    "es": "Blusa de campesino",
+    "fr": "Blouse de paysan",
+    "fr-CA": "Blouse de paysan",
+    "it": "Camicia contadina",
+    "ja": "小作人の作業着",
+    "ko": "소작농 블라우스",
+    "nl": "Boerenblouse",
+    "pt-BR": "Blusa do Campo",
+    "ru": "Крестьянская одежда",
+    "tr": "Köylü Yeleği",
+    "zh-CN": "农民工作服",
+    "zh-TW": "農民工作服"
+  },
+  "namePlain": {
+    "ar": "قميص فضفاض قروي",
+    "de": "Bauernbluse",
+    "en": "Peasant Blouse",
+    "es": "Blusa de campesino",
+    "fr": "Blouse de paysan",
+    "fr-CA": "Blouse de paysan",
+    "it": "Camicia contadina",
+    "ja": "小作人の作業着",
+    "ko": "소작농 블라우스",
+    "nl": "Boerenblouse",
+    "pt-BR": "Blusa do Campo",
+    "ru": "Крестьянская одежда",
+    "tr": "Köylü Yeleği",
+    "zh-CN": "农民工作服",
+    "zh-TW": "農民工作服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_1.png"
+}

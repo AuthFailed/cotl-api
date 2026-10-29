@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "LOG",
+      "quantity": 7
+    }
+  ],
+  "description": {
+    "ar": "مظهره جميل ويحاكي طبيعة الغابات.",
+    "de": "Gleichzeitig gepflegt und rustikal.",
+    "en": "Well-presented and woodsy.",
+    "es": "Distinguido y rústico.",
+    "fr": "Pour avoir fière allure.",
+    "fr-CA": "Pour un look distingué et rustique.",
+    "it": "Ben confezionato e dal sentore boschivo.",
+    "ja": "森を思わせる緑色の立派な服",
+    "ko": "깔끔하고 나무 향이 납니다.",
+    "nl": "Mooi afkledend en bosachtig.",
+    "pt-BR": "Bem apresentável e amadeirado.",
+    "ru": "Достойная одежда для тех, кто близок к природе.",
+    "tr": "Kırsal bölgelerde tercih edilen, şık bir kıyafet.",
+    "zh-CN": "仪容端庄，林地风。",
+    "zh-TW": "儀容端莊，林地風。"
+  },
+  "descriptionPlain": {
+    "ar": "مظهره جميل ويحاكي طبيعة الغابات.",
+    "de": "Gleichzeitig gepflegt und rustikal.",
+    "en": "Well-presented and woodsy.",
+    "es": "Distinguido y rústico.",
+    "fr": "Pour avoir fière allure.",
+    "fr-CA": "Pour un look distingué et rustique.",
+    "it": "Ben confezionato e dal sentore boschivo.",
+    "ja": "森を思わせる緑色の立派な服",
+    "ko": "깔끔하고 나무 향이 납니다.",
+    "nl": "Mooi afkledend en bosachtig.",
+    "pt-BR": "Bem apresentável e amadeirado.",
+    "ru": "Достойная одежда для тех, кто близок к природе.",
+    "tr": "Kırsal bölgelerde tercih edilen, şık bir kıyafet.",
+    "zh-CN": "仪容端庄，林地风。",
+    "zh-TW": "儀容端莊，林地風。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_2.png",
+  "id": "DLC_2",
+  "name": {
+    "ar": "معطف الخادم",
+    "de": "Freibauern-Mantel",
+    "en": "Yeoman Coat",
+    "es": "Uniforme de guardia real",
+    "fr": "Manteau de yeoman",
+    "fr-CA": "Manteau de yeoman",
+    "it": "Cappotto da yeoman",
+    "ja": "召使いの上着",
+    "ko": "자작농 코트",
+    "nl": "Landheerjas",
+    "pt-BR": "Casaco de Serviçal",
+    "ru": "Фермерский плащ",
+    "tr": "Ağa Paltosu",
+    "zh-CN": "侍从大衣",
+    "zh-TW": "侍從大衣"
+  },
+  "namePlain": {
+    "ar": "معطف الخادم",
+    "de": "Freibauern-Mantel",
+    "en": "Yeoman Coat",
+    "es": "Uniforme de guardia real",
+    "fr": "Manteau de yeoman",
+    "fr-CA": "Manteau de yeoman",
+    "it": "Cappotto da yeoman",
+    "ja": "召使いの上着",
+    "ko": "자작농 코트",
+    "nl": "Landheerjas",
+    "pt-BR": "Casaco de Serviçal",
+    "ru": "Фермерский плащ",
+    "tr": "Ağa Paltosu",
+    "zh-CN": "侍从大衣",
+    "zh-TW": "侍從大衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_2.png"
+}

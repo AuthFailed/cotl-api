@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Blue",
+    "name": "脆弱堅毅毛紡",
+    "thumb": "icons/fleeces/64/Blue.png"
+  },
+  {
+    "id": "CurseInsteadOfWeapon",
+    "name": "咒術聖戰毛紡",
+    "thumb": "icons/fleeces/64/CurseInsteadOfWeapon.png"
+  },
+  {
+    "id": "Default",
+    "name": "聖羊毛紡",
+    "thumb": "icons/fleeces/64/Default.png"
+  },
+  {
+    "id": "Fleece666",
+    "name": "堅毅者毛紡",
+    "thumb": "icons/fleeces/64/Fleece666.png"
+  },
+  {
+    "id": "Fleece667",
+    "name": "無辜者毛紡",
+    "thumb": "icons/fleeces/64/Fleece667.png"
+  },
+  {
+    "id": "Fleece668",
+    "name": "占星者毛紡",
+    "thumb": "icons/fleeces/64/Fleece668.png"
+  },
+  {
+    "id": "Fleece669",
+    "name": "騎士毛紡",
+    "thumb": "icons/fleeces/64/Fleece669.png"
+  },
+  {
+    "id": "Fleece670",
+    "name": "牧工毛紡",
+    "thumb": "icons/fleeces/64/Fleece670.png"
+  },
+  {
+    "id": "Fleece671",
+    "name": "卜卦者毛紡",
+    "thumb": "icons/fleeces/64/Fleece671.png"
+  },
+  {
+    "id": "Fleece672",
+    "name": "焦黑毛紡",
+    "thumb": "icons/fleeces/64/Fleece672.png"
+  },
+  {
+    "id": "Fleece673",
+    "name": "精明者毛紡",
+    "thumb": "icons/fleeces/64/Fleece673.png"
+  },
+  {
+    "id": "Fleece674",
+    "name": "學者毛紡",
+    "thumb": "icons/fleeces/64/Fleece674.png"
+  },
+  {
+    "id": "Fleece675",
+    "name": "妄想者毛紡",
+    "thumb": "icons/fleeces/64/Fleece675.png"
+  },
+  {
+    "id": "Fleece676",
+    "name": "牛仔",
+    "thumb": "icons/fleeces/64/Fleece676.png"
+  },
+  {
+    "id": "Fleece678",
+    "name": "殷亞的毛紡",
+    "thumb": "icons/fleeces/64/Fleece678.png"
+  },
+  {
+    "id": "Fleece679",
+    "name": "青春毛紡",
+    "thumb": "icons/fleeces/64/Fleece679.png"
+  },
+  {
+    "id": "Fleece681",
+    "name": "戰士毛紡",
+    "thumb": "icons/fleeces/64/Fleece681.png"
+  },
+  {
+    "id": "Goat",
+    "name": "山羊",
+    "thumb": "icons/fleeces/64/Goat.png"
+  },
+  {
+    "id": "GodOfDeath",
+    "name": "死亡之神毛紡",
+    "thumb": "icons/fleeces/64/GodOfDeath.png"
+  },
+  {
+    "id": "Gold",
+    "name": "金毛紡",
+    "thumb": "icons/fleeces/64/Gold.png"
+  },
+  {
+    "id": "Green",
+    "name": "捨近求遠毛紡",
+    "thumb": "icons/fleeces/64/Green.png"
+  },
+  {
+    "id": "HollowHeal",
+    "name": "熱誠之恩毛紡",
+    "thumb": "icons/fleeces/64/HollowHeal.png"
+  },
+  {
+    "id": "NoRolling",
+    "name": "跛行之踵毛紡",
+    "thumb": "icons/fleeces/64/NoRolling.png"
+  },
+  {
+    "id": "OneHitKills",
+    "name": "狂戰士毛紡",
+    "thumb": "icons/fleeces/64/OneHitKills.png"
+  },
+  {
+    "id": "Outfit_1001",
+    "name": "自然毛紡",
+    "thumb": "icons/fleeces/64/Outfit_1001.png"
+  },
+  {
+    "id": "Outfit_1002",
+    "name": "絲質觸感毛紡",
+    "thumb": "icons/fleeces/64/Outfit_1002.png"
+  },
+  {
+    "id": "Outfit_999",
+    "name": "異教徒毛紡",
+    "thumb": "icons/fleeces/64/Outfit_999.png"
+  },
+  {
+    "id": "Purple",
+    "name": "病纏黑心毛紡",
+    "thumb": "icons/fleeces/64/Purple.png"
+  },
+  {
+    "id": "RatauCloak",
+    "name": "拉陶鼠的斗篷",
+    "thumb": "icons/fleeces/64/RatauCloak.png"
+  },
+  {
+    "id": "RatauCloakBloody",
+    "name": "拉陶鼠的斗篷",
+    "thumb": "icons/fleeces/64/RatauCloakBloody.png"
+  },
+  {
+    "id": "White",
+    "name": "命運毛紡",
+    "thumb": "icons/fleeces/64/White.png"
+  }
+]

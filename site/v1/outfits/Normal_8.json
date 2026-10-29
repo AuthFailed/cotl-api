@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "ar": "طاقم لمتقلبي المزاج ومثالي للاختباء.",
+    "de": "Ein launisches Ensemble, perfekt fürs Lauern.",
+    "en": "A moody ensemble, perfect for lurking.",
+    "es": "Un conjunto taciturno, ideal para acechar.",
+    "fr": "Permet de rôder discrètement une fois la nuit tombée.",
+    "fr-CA": "Permet de rôder discrètement une fois la nuit tombée.",
+    "it": "Un indumento scuro, perfetto per passare inosservati.",
+    "ja": "暗い雰囲気の服、待ち伏せにもってこい",
+    "ko": "분위기 있는 한 벌짜리 옷으로, 침대에 박혀있기에 최적입니다.",
+    "nl": "Een stemmig kledingstuk, perfect om in te loeren.",
+    "pt-BR": "Um conjunto taciturno, perfeito para espreitar.",
+    "ru": "Тёмное одеяние для тёмных дел.",
+    "tr": "Kasvetli bir kıyafet, gizlice dolaşmak için ideal.",
+    "zh-CN": "深色套装，最适合潜伏。",
+    "zh-TW": "深色套裝，最適合潛伏。"
+  },
+  "descriptionPlain": {
+    "ar": "طاقم لمتقلبي المزاج ومثالي للاختباء.",
+    "de": "Ein launisches Ensemble, perfekt fürs Lauern.",
+    "en": "A moody ensemble, perfect for lurking.",
+    "es": "Un conjunto taciturno, ideal para acechar.",
+    "fr": "Permet de rôder discrètement une fois la nuit tombée.",
+    "fr-CA": "Permet de rôder discrètement une fois la nuit tombée.",
+    "it": "Un indumento scuro, perfetto per passare inosservati.",
+    "ja": "暗い雰囲気の服、待ち伏せにもってこい",
+    "ko": "분위기 있는 한 벌짜리 옷으로, 침대에 박혀있기에 최적입니다.",
+    "nl": "Een stemmig kledingstuk, perfect om in te loeren.",
+    "pt-BR": "Um conjunto taciturno, perfeito para espreitar.",
+    "ru": "Тёмное одеяние для тёмных дел.",
+    "tr": "Kasvetli bir kıyafet, gizlice dolaşmak için ideal.",
+    "zh-CN": "深色套装，最适合潜伏。",
+    "zh-TW": "深色套裝，最適合潛伏。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_8.png",
+  "id": "Normal_8",
+  "name": {
+    "ar": "قميص ليلي",
+    "de": "Nachthemd",
+    "en": "Night Shirt",
+    "es": "Camisa de noche",
+    "fr": "Haut occulte",
+    "fr-CA": "Haut occulte",
+    "it": "Maglia delle tenebre",
+    "ja": "夜闇のシャツ",
+    "ko": "잠옷 셔츠",
+    "nl": "Nachthemd",
+    "pt-BR": "Camisa da Noite",
+    "ru": "Полуночная рубашка",
+    "tr": "Gece Gömleği",
+    "zh-CN": "夜晚裙子",
+    "zh-TW": "夜晚裙子"
+  },
+  "namePlain": {
+    "ar": "قميص ليلي",
+    "de": "Nachthemd",
+    "en": "Night Shirt",
+    "es": "Camisa de noche",
+    "fr": "Haut occulte",
+    "fr-CA": "Haut occulte",
+    "it": "Maglia delle tenebre",
+    "ja": "夜闇のシャツ",
+    "ko": "잠옷 셔츠",
+    "nl": "Nachthemd",
+    "pt-BR": "Camisa da Noite",
+    "ru": "Полуночная рубашка",
+    "tr": "Gece Gömleği",
+    "zh-CN": "夜晚裙子",
+    "zh-TW": "夜晚裙子"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_8.png"
+}

@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "BONE",
+      "quantity": 75
+    }
+  ],
+  "description": {
+    "ar": "لباس لفارضي القواعد.",
+    "de": "Ein Gewand für Vollstrecker.",
+    "en": "Garb for an Enforcer to wear.",
+    "es": "Un atavío digno de un custodio.",
+    "fr": "Uniforme des sbires de la Vieille croyance.",
+    "fr-CA": "Uniforme des sbires de la Vieille croyance.",
+    "it": "L'indumento perfetto per un Braccio.",
+    "ja": "刑を執行する者が身に着ける服装",
+    "ko": "집행자들이 입는 예복입니다.",
+    "nl": "Kleding die een hulpje kan dragen.",
+    "pt-BR": "Vestimenta para Executores.",
+    "ru": "Одеяние проповедников древней веры.",
+    "tr": "Bir fedaiye yaraşır bir cübbe.",
+    "zh-CN": "教规执行者穿的服装。",
+    "zh-TW": "教規執行者穿的服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "لباس لفارضي القواعد.",
+    "de": "Ein Gewand für Vollstrecker.",
+    "en": "Garb for an Enforcer to wear.",
+    "es": "Un atavío digno de un custodio.",
+    "fr": "Uniforme des sbires de la Vieille croyance.",
+    "fr-CA": "Uniforme des sbires de la Vieille croyance.",
+    "it": "L'indumento perfetto per un Braccio.",
+    "ja": "刑を執行する者が身に着ける服装",
+    "ko": "집행자들이 입는 예복입니다.",
+    "nl": "Kleding die een hulpje kan dragen.",
+    "pt-BR": "Vestimenta para Executores.",
+    "ru": "Одеяние проповедников древней веры.",
+    "tr": "Bir fedaiye yaraşır bir cübbe.",
+    "zh-CN": "教规执行者穿的服装。",
+    "zh-TW": "教規執行者穿的服裝。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "heretic"
+  ],
+  "icon": "icons/outfits/Heretic_DLC2.png",
+  "id": "Heretic_DLC2",
+  "name": {
+    "ar": "مؤيد العقيدة القديمة",
+    "de": "Vollstrecker des alten Glaubens",
+    "en": "Enforcer of the Old Faith",
+    "es": "Custodio de la Antigua Fe",
+    "fr": "Sbire de la Vieille croyance",
+    "fr-CA": "Sbire de la Vieille croyance",
+    "it": "Braccio dell'Antico Credo",
+    "ja": "旧き信仰の執行者",
+    "ko": "옛 신앙의 집행자",
+    "nl": "Hulpje van het Oude Geloof",
+    "pt-BR": "Executor da Antiga Fé",
+    "ru": "Древний балахон",
+    "tr": "Kadim İnanç'ın Fedaisi",
+    "zh-CN": "古老信仰的教规执行者",
+    "zh-TW": "古老信仰的教規執行者"
+  },
+  "namePlain": {
+    "ar": "مؤيد العقيدة القديمة",
+    "de": "Vollstrecker des alten Glaubens",
+    "en": "Enforcer of the Old Faith",
+    "es": "Custodio de la Antigua Fe",
+    "fr": "Sbire de la Vieille croyance",
+    "fr-CA": "Sbire de la Vieille croyance",
+    "it": "Braccio dell'Antico Credo",
+    "ja": "旧き信仰の執行者",
+    "ko": "옛 신앙의 집행자",
+    "nl": "Hulpje van het Oude Geloof",
+    "pt-BR": "Executor da Antiga Fé",
+    "ru": "Древний балахон",
+    "tr": "Kadim İnanç'ın Fedaisi",
+    "zh-CN": "古老信仰的教规执行者",
+    "zh-TW": "古老信仰的教規執行者"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Heretic_DLC2.png"
+}

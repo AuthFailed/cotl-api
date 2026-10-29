@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "زيّ فارس من مملكة سفلية",
+    "de": "Das Gewand eines Ritters aus einem Königreich in weiter Tiefe.",
+    "en": "Garb of a knight from a kingdom far below",
+    "es": "El atavío de un caballero procedente de un reino que yace en las profundidades.",
+    "fr": "Tenue d'un chevalier venu d'un monde souterrain.",
+    "fr-CA": "Tenue d'un chevalier venu d'un monde souterrain.",
+    "it": "Veste di un cavaliere di un regno sotterraneo.",
+    "ja": "地の奥底にある王国の、とある騎士が身につけていた装束。",
+    "ko": "머나먼 아래 왕국에서 온 기사의 의복입니다.",
+    "nl": "Gewaad van een ridder uit een koninkrijk ver onder de grond",
+    "pt-BR": "Traje usado por um cavaleiro de um reino muito profundo.",
+    "ru": "Одеяние рыцаря из подземного королевства.",
+    "tr": "Derinliklerdeki bir krallığın şövalyesinin kıyafeti.",
+    "zh-CN": "来自遥远下界的骑士装",
+    "zh-TW": "來自地下王國的騎士服裝"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ فارس من مملكة سفلية",
+    "de": "Das Gewand eines Ritters aus einem Königreich in weiter Tiefe.",
+    "en": "Garb of a knight from a kingdom far below",
+    "es": "El atavío de un caballero procedente de un reino que yace en las profundidades.",
+    "fr": "Tenue d'un chevalier venu d'un monde souterrain.",
+    "fr-CA": "Tenue d'un chevalier venu d'un monde souterrain.",
+    "it": "Veste di un cavaliere di un regno sotterraneo.",
+    "ja": "地の奥底にある王国の、とある騎士が身につけていた装束。",
+    "ko": "머나먼 아래 왕국에서 온 기사의 의복입니다.",
+    "nl": "Gewaad van een ridder uit een koninkrijk ver onder de grond",
+    "pt-BR": "Traje usado por um cavaleiro de um reino muito profundo.",
+    "ru": "Одеяние рыцаря из подземного королевства.",
+    "tr": "Derinliklerdeki bir krallığın şövalyesinin kıyafeti.",
+    "zh-CN": "来自遥远下界的骑士装",
+    "zh-TW": "來自地下王國的騎士服裝"
+  },
+  "fleece": 669,
+  "icon": "icons/fleeces/Fleece669.png",
+  "id": "Fleece669",
+  "name": {
+    "ar": "رداء الفارس",
+    "de": "Vlies des Ritters",
+    "en": "Fleece of the Knight",
+    "es": "Vellocino del Caballero",
+    "fr": "Pelisse du chevalier",
+    "fr-CA": "Toison du chevalier",
+    "it": "Vello del Cavaliere",
+    "ja": "騎士の羊毛",
+    "ko": "기사의 양털",
+    "nl": "Vacht van de ridder",
+    "pt-BR": "Lã do Cavaleiro",
+    "ru": "Руно рыцарства",
+    "tr": "Şövalyenin Postu",
+    "zh-CN": "骑士毛纺",
+    "zh-TW": "騎士毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الفارس",
+    "de": "Vlies des Ritters",
+    "en": "Fleece of the Knight",
+    "es": "Vellocino del Caballero",
+    "fr": "Pelisse du chevalier",
+    "fr-CA": "Toison du chevalier",
+    "it": "Vello del Cavaliere",
+    "ja": "騎士の羊毛",
+    "ko": "기사의 양털",
+    "nl": "Vacht van de ridder",
+    "pt-BR": "Lã do Cavaleiro",
+    "ru": "Руно рыцарства",
+    "tr": "Şövalyenin Postu",
+    "zh-CN": "骑士毛纺",
+    "zh-TW": "騎士毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece669.png"
+}

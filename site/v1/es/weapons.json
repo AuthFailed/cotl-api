@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Axe",
+    "name": "Cuchillo de apóstata",
+    "thumb": "icons/weapons/64/Axe.png"
+  },
+  {
+    "id": "Axe_Critical",
+    "name": "Hacha despiadada",
+    "thumb": "icons/weapons/64/Axe_Critical.png"
+  },
+  {
+    "id": "Axe_Fervour",
+    "name": "Hacha ferviente",
+    "thumb": "icons/weapons/64/Axe_Fervour.png"
+  },
+  {
+    "id": "Axe_Godly",
+    "name": "Hacha divina",
+    "thumb": "icons/weapons/64/Axe_Godly.png"
+  },
+  {
+    "id": "Axe_Healing",
+    "name": "Hacha vampírica",
+    "thumb": "icons/weapons/64/Axe_Healing.png"
+  },
+  {
+    "id": "Axe_Legendary",
+    "name": "Némesis del cordero",
+    "thumb": "icons/weapons/64/Axe_Legendary.png"
+  },
+  {
+    "id": "Axe_Nercomancy",
+    "name": "Hacha necromántica",
+    "thumb": "icons/weapons/64/Axe_Nercomancy.png"
+  },
+  {
+    "id": "Axe_Poison",
+    "name": "Hacha de la perdición",
+    "thumb": "icons/weapons/64/Axe_Poison.png"
+  },
+  {
+    "id": "Blunderbuss",
+    "name": "Cañón del caos",
+    "thumb": "icons/weapons/64/Blunderbuss.png"
+  },
+  {
+    "id": "Blunderbuss_Critical",
+    "name": "Trabuco despiadado",
+    "thumb": "icons/weapons/64/Blunderbuss_Critical.png"
+  },
+  {
+    "id": "Blunderbuss_Fervour",
+    "name": "Trabuco ferviente",
+    "thumb": "icons/weapons/64/Blunderbuss_Fervour.png"
+  },
+  {
+    "id": "Blunderbuss_Godly",
+    "name": "Trabuco divino",
+    "thumb": "icons/weapons/64/Blunderbuss_Godly.png"
+  },
+  {
+    "id": "Blunderbuss_Healing",
+    "name": "Trabuco vampírico",
+    "thumb": "icons/weapons/64/Blunderbuss_Healing.png"
+  },
+  {
+    "id": "Blunderbuss_Legendary",
+    "name": "Hado de Plimbo el Primigenio",
+    "thumb": "icons/weapons/64/Blunderbuss_Legendary.png"
+  },
+  {
+    "id": "Blunderbuss_Nercomancy",
+    "name": "Trabuco necromántico",
+    "thumb": "icons/weapons/64/Blunderbuss_Nercomancy.png"
+  },
+  {
+    "id": "Blunderbuss_Poison",
+    "name": "Trabuco de la perdición",
+    "thumb": "icons/weapons/64/Blunderbuss_Poison.png"
+  },
+  {
+    "id": "Chain",
+    "name": "Mangual de guerra",
+    "thumb": "icons/weapons/64/Chain.png"
+  },
+  {
+    "id": "Chain_Critical",
+    "name": "Mangual despiadado",
+    "thumb": "icons/weapons/64/Chain_Critical.png"
+  },
+  {
+    "id": "Chain_Fervour",
+    "name": "Mangual ferviente",
+    "thumb": "icons/weapons/64/Chain_Fervour.png"
+  },
+  {
+    "id": "Chain_Godly",
+    "name": "Mangual divino",
+    "thumb": "icons/weapons/64/Chain_Godly.png"
+  },
+  {
+    "id": "Chain_Healing",
+    "name": "Mangual vampírico",
+    "thumb": "icons/weapons/64/Chain_Healing.png"
+  },
+  {
+    "id": "Chain_Legendary",
+    "name": "Tormento de Yngya",
+    "thumb": "icons/weapons/64/Chain_Legendary.png"
+  },
+  {
+    "id": "Chain_Nercomancy",
+    "name": "Mangual necromántico",
+    "thumb": "icons/weapons/64/Chain_Nercomancy.png"
+  },
+  {
+    "id": "Chain_Poison",
+    "name": "Mangual de la perdición",
+    "thumb": "icons/weapons/64/Chain_Poison.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "Puñal del traidor",
+    "thumb": "icons/weapons/64/Dagger.png"
+  },
+  {
+    "id": "Dagger_Critical",
+    "name": "Daga despiadada",
+    "thumb": "icons/weapons/64/Dagger_Critical.png"
+  },
+  {
+    "id": "Dagger_Fervour",
+    "name": "Daga ferviente",
+    "thumb": "icons/weapons/64/Dagger_Fervour.png"
+  },
+  {
+    "id": "Dagger_Godly",
+    "name": "Daga divina",
+    "thumb": "icons/weapons/64/Dagger_Godly.png"
+  },
+  {
+    "id": "Dagger_Healing",
+    "name": "Daga vampírica",
+    "thumb": "icons/weapons/64/Dagger_Healing.png"
+  },
+  {
+    "id": "Dagger_Legendary",
+    "name": "Ruina de Nirah",
+    "thumb": "icons/weapons/64/Dagger_Legendary.png"
+  },
+  {
+    "id": "Dagger_Nercomancy",
+    "name": "Daga necromántica",
+    "thumb": "icons/weapons/64/Dagger_Nercomancy.png"
+  },
+  {
+    "id": "Dagger_Poison",
+    "name": "Daga de la perdición",
+    "thumb": "icons/weapons/64/Dagger_Poison.png"
+  },
+  {
+    "id": "Gauntlet",
+    "name": "Guanteletes de la tempestad",
+    "thumb": "icons/weapons/64/Gauntlet.png"
+  },
+  {
+    "id": "Gauntlet_Critical",
+    "name": "Guantelete despiadado",
+    "thumb": "icons/weapons/64/Gauntlet_Critical.png"
+  },
+  {
+    "id": "Gauntlet_Fervour",
+    "name": "Guantelete ferviente",
+    "thumb": "icons/weapons/64/Gauntlet_Fervour.png"
+  },
+  {
+    "id": "Gauntlet_Godly",
+    "name": "Guantelete divino",
+    "thumb": "icons/weapons/64/Gauntlet_Godly.png"
+  },
+  {
+    "id": "Gauntlet_Healing",
+    "name": "Guantelete vampírico",
+    "thumb": "icons/weapons/64/Gauntlet_Healing.png"
+  },
+  {
+    "id": "Gauntlet_Legendary",
+    "name": "Profanador de la divinidad",
+    "thumb": "icons/weapons/64/Gauntlet_Legendary.png"
+  },
+  {
+    "id": "Gauntlet_Nercomancy",
+    "name": "Guantelete necromántico",
+    "thumb": "icons/weapons/64/Gauntlet_Nercomancy.png"
+  },
+  {
+    "id": "Gauntlet_Poison",
+    "name": "Guantelete de la perdición",
+    "thumb": "icons/weapons/64/Gauntlet_Poison.png"
+  },
+  {
+    "id": "Hammer",
+    "name": "Martillo de guerra",
+    "thumb": "icons/weapons/64/Hammer.png"
+  },
+  {
+    "id": "Hammer_Critical",
+    "name": "Martillo despiadado",
+    "thumb": "icons/weapons/64/Hammer_Critical.png"
+  },
+  {
+    "id": "Hammer_Fervour",
+    "name": "Martillo ferviente",
+    "thumb": "icons/weapons/64/Hammer_Fervour.png"
+  },
+  {
+    "id": "Hammer_Godly",
+    "name": "Martillo divino",
+    "thumb": "icons/weapons/64/Hammer_Godly.png"
+  },
+  {
+    "id": "Hammer_Healing",
+    "name": "Martillo vampírico",
+    "thumb": "icons/weapons/64/Hammer_Healing.png"
+  },
+  {
+    "id": "Hammer_Legendary",
+    "name": "Azote de Svarog",
+    "thumb": "icons/weapons/64/Hammer_Legendary.png"
+  },
+  {
+    "id": "Hammer_Nercomancy",
+    "name": "Martillo necromántico",
+    "thumb": "icons/weapons/64/Hammer_Nercomancy.png"
+  },
+  {
+    "id": "Hammer_Poison",
+    "name": "Martillo de la perdición",
+    "thumb": "icons/weapons/64/Hammer_Poison.png"
+  },
+  {
+    "id": "Shield",
+    "name": "Guardián de creencias",
+    "thumb": "icons/weapons/64/Shield.png"
+  },
+  {
+    "id": "Shield_Critical",
+    "name": "Escudo despiadado",
+    "thumb": "icons/weapons/64/Shield_Critical.png"
+  },
+  {
+    "id": "Shield_Fervour",
+    "name": "Escudo ferviente",
+    "thumb": "icons/weapons/64/Shield_Fervour.png"
+  },
+  {
+    "id": "Shield_Godly",
+    "name": "Escudo divino",
+    "thumb": "icons/weapons/64/Shield_Godly.png"
+  },
+  {
+    "id": "Shield_Healing",
+    "name": "Escudo vampírico",
+    "thumb": "icons/weapons/64/Shield_Healing.png"
+  },
+  {
+    "id": "Shield_Nercomancy",
+    "name": "Escudo necromántico",
+    "thumb": "icons/weapons/64/Shield_Nercomancy.png"
+  },
+  {
+    "id": "Shield_Poison",
+    "name": "Escudo de la perdición",
+    "thumb": "icons/weapons/64/Shield_Poison.png"
+  },
+  {
+    "id": "Sword",
+    "name": "Espada de misionero",
+    "thumb": "icons/weapons/64/Sword.png"
+  },
+  {
+    "id": "Sword_Critical",
+    "name": "Espada despiadada",
+    "thumb": "icons/weapons/64/Sword_Critical.png"
+  },
+  {
+    "id": "Sword_Fervour",
+    "name": "Espada ferviente",
+    "thumb": "icons/weapons/64/Sword_Fervour.png"
+  },
+  {
+    "id": "Sword_Godly",
+    "name": "Espada divina",
+    "thumb": "icons/weapons/64/Sword_Godly.png"
+  },
+  {
+    "id": "Sword_Healing",
+    "name": "Espada vampírica",
+    "thumb": "icons/weapons/64/Sword_Healing.png"
+  },
+  {
+    "id": "Sword_Legendary",
+    "name": "Ocaso dorado",
+    "thumb": "icons/weapons/64/Sword_Legendary.png"
+  },
+  {
+    "id": "Sword_Nercomancy",
+    "name": "Espada necromántica",
+    "thumb": "icons/weapons/64/Sword_Nercomancy.png"
+  },
+  {
+    "id": "Sword_Poison",
+    "name": "Espada de la perdición",
+    "thumb": "icons/weapons/64/Sword_Poison.png"
+  },
+  {
+    "id": "Sword_Ratau",
+    "name": "Báculo de Ratau",
+    "thumb": "icons/weapons/64/Sword_Ratau.png"
+  }
+]

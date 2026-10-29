@@ -1,0 +1,80 @@
+{
+  "cost": [
+    {
+      "item": "MONSTER_HEART",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "عند مقتلك في حملة للمرة الأولى، عليك التضحية بتابع للعودة إلى الحياة.",
+    "de": "Stirbst du zum ersten Mal auf einem Kreuzzug, kannst du wiedererweckt werden, indem du einen Anhänger opferst.",
+    "en": "When killed on a Crusade run for the first time, sacrifice a Follower to be resurrected.",
+    "es": "La primera vez que mueras en una cruzada, sacrifica a un adepto para resucitar.",
+    "fr": "Permet de ressusciter en sacrifiant un adepte lorsque vous mourrez dans un donjon pour la première fois.",
+    "fr-CA": "Lorsque vous mourrez au cours d'une croisade pour la première fois, vous permet de ressusciter en sacrifiant un adepte.",
+    "it": "Quando muori per la prima volta durante una crociata, sacrifica un membro del Culto per risorgere.",
+    "ja": "聖戦中に死んだ時に1回だけ、信者を生贄にすることで復活できる。",
+    "ko": "처음 성전에서 사망할 경우, 추종자 한 명을 번제해 부활합니다.",
+    "nl": "Offer een volgeling op om te herrijzen de eerste keer dat je tijdens een kruistocht wordt gedood.",
+    "pt-BR": "Ao morrer em uma Cruzada pela primeira vez, sacrifique um Seguidor para ser ressuscitado.",
+    "ru": "Погибнув в походе, вы можете один раз пожертвовать своим последователем, чтобы возродиться.",
+    "tr": "Bir Sefer'de ilk kez öldüğünde bir Takipçi'yi kurban ederek dirilebilirsin.",
+    "zh-CN": "进行圣战期间第一次被杀时，献祭一位教徒即可复活。",
+    "zh-TW": "進行聖戰期間第一次被殺時，獻祭一位教徒即可復活。"
+  },
+  "descriptionPlain": {
+    "ar": "عند مقتلك في حملة للمرة الأولى، عليك التضحية بتابع للعودة إلى الحياة.",
+    "de": "Stirbst du zum ersten Mal auf einem Kreuzzug, kannst du wiedererweckt werden, indem du einen Anhänger opferst.",
+    "en": "When killed on a Crusade run for the first time, sacrifice a Follower to be resurrected.",
+    "es": "La primera vez que mueras en una cruzada, sacrifica a un adepto para resucitar.",
+    "fr": "Permet de ressusciter en sacrifiant un adepte lorsque vous mourrez dans un donjon pour la première fois.",
+    "fr-CA": "Lorsque vous mourrez au cours d'une croisade pour la première fois, vous permet de ressusciter en sacrifiant un adepte.",
+    "it": "Quando muori per la prima volta durante una crociata, sacrifica un membro del Culto per risorgere.",
+    "ja": "聖戦中に死んだ時に1回だけ、信者を生贄にすることで復活できる。",
+    "ko": "처음 성전에서 사망할 경우, 추종자 한 명을 번제해 부활합니다.",
+    "nl": "Offer een volgeling op om te herrijzen de eerste keer dat je tijdens een kruistocht wordt gedood.",
+    "pt-BR": "Ao morrer em uma Cruzada pela primeira vez, sacrifique um Seguidor para ser ressuscitado.",
+    "ru": "Погибнув в походе, вы можете один раз пожертвовать своим последователем, чтобы возродиться.",
+    "tr": "Bir Sefer'de ilk kez öldüğünde bir Takipçi'yi kurban ederek dirilebilirsin.",
+    "zh-CN": "进行圣战期间第一次被杀时，献祭一位教徒即可复活。",
+    "zh-TW": "進行聖戰期間第一次被殺時，獻祭一位教徒即可復活。"
+  },
+  "dlc": false,
+  "icon": "icons/crownAbilities/Ability_Resurrection.png",
+  "id": "Ability_Resurrection",
+  "name": {
+    "ar": "العودة إلى الحياة",
+    "de": "Wiedererweckung",
+    "en": "Resurrection",
+    "es": "Resurrección",
+    "fr": "Résurrection",
+    "fr-CA": "Résurrection",
+    "it": "Resurrezione",
+    "ja": "復活の儀",
+    "ko": "부활",
+    "nl": "Wederopstanding",
+    "pt-BR": "Ressurreição",
+    "ru": "Оживление",
+    "tr": "Diriliş",
+    "zh-CN": "复活",
+    "zh-TW": "復活"
+  },
+  "namePlain": {
+    "ar": "العودة إلى الحياة",
+    "de": "Wiedererweckung",
+    "en": "Resurrection",
+    "es": "Resurrección",
+    "fr": "Résurrection",
+    "fr-CA": "Résurrection",
+    "it": "Resurrezione",
+    "ja": "復活の儀",
+    "ko": "부활",
+    "nl": "Wederopstanding",
+    "pt-BR": "Ressurreição",
+    "ru": "Оживление",
+    "tr": "Diriliş",
+    "zh-CN": "复活",
+    "zh-TW": "復活"
+  },
+  "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+}

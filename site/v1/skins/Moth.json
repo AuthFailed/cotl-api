@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Moth.png",
   "id": "Moth",
   "name": {
     "en": "Moth"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Moth"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Moth.png",
   "unlock": "Dungeon6"
 }

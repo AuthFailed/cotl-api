@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Lemur.png",
   "id": "Lemur",
   "name": {
     "en": "Lemur"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Lemur"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Lemur.png",
   "unlock": "Other"
 }

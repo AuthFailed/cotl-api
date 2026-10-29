@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 6
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 8
+    }
+  ],
+  "description": {
+    "ar": "سترة أنيقة لزيادة الفخامة.",
+    "de": "Eine edle Jacke, die ein niveauvolles Aussehen verleiht.",
+    "en": "A handsome jacket, for looking high class.",
+    "es": "Una bonita chaqueta con aires de grandeza.",
+    "fr": "Une veste ravissante qui donne un air chic.",
+    "fr-CA": "Une magnifique veste qui donne un air chic.",
+    "it": "Una giacca raffinata, per un look d'alta classe.",
+    "ja": "上流階級が身に着けるような、ハンサムなジャケット",
+    "ko": "멋진 재킷으로, 고위층처럼 보입니다.",
+    "nl": "Een mooie jas om er statig uit te zien.",
+    "pt-BR": "Uma bela jaqueta para quem deseja um visual de classe alta.",
+    "ru": "Позволяет чувствовать себя по-дворянски.",
+    "tr": "Üst sınıftan biri gibi görünmeyi sevenler için karizmatik bir ceket.",
+    "zh-CN": "帅气的外套，给人高贵的感觉。",
+    "zh-TW": "帥氣的外套，給人高貴的感覺。"
+  },
+  "descriptionPlain": {
+    "ar": "سترة أنيقة لزيادة الفخامة.",
+    "de": "Eine edle Jacke, die ein niveauvolles Aussehen verleiht.",
+    "en": "A handsome jacket, for looking high class.",
+    "es": "Una bonita chaqueta con aires de grandeza.",
+    "fr": "Une veste ravissante qui donne un air chic.",
+    "fr-CA": "Une magnifique veste qui donne un air chic.",
+    "it": "Una giacca raffinata, per un look d'alta classe.",
+    "ja": "上流階級が身に着けるような、ハンサムなジャケット",
+    "ko": "멋진 재킷으로, 고위층처럼 보입니다.",
+    "nl": "Een mooie jas om er statig uit te zien.",
+    "pt-BR": "Uma bela jaqueta para quem deseja um visual de classe alta.",
+    "ru": "Позволяет чувствовать себя по-дворянски.",
+    "tr": "Üst sınıftan biri gibi görünmeyi sevenler için karizmatik bir ceket.",
+    "zh-CN": "帅气的外套，给人高贵的感觉。",
+    "zh-TW": "帥氣的外套，給人高貴的感覺。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_12.png",
+  "id": "Normal_12",
+  "name": {
+    "ar": "سترة راقية",
+    "de": "Vornehme Jacke",
+    "en": "Genteel Jacket",
+    "es": "Chaqueta refinada",
+    "fr": "Veste distinguée",
+    "fr-CA": "Veste raffinée",
+    "it": "Giacca signorile",
+    "ja": "貴族のジャケット",
+    "ko": "고상한 재킷",
+    "nl": "Galant vest",
+    "pt-BR": "Jaqueta Polida",
+    "ru": "Модная куртка",
+    "tr": "Janti Ceket",
+    "zh-CN": "上流外套",
+    "zh-TW": "上流外套"
+  },
+  "namePlain": {
+    "ar": "سترة راقية",
+    "de": "Vornehme Jacke",
+    "en": "Genteel Jacket",
+    "es": "Chaqueta refinada",
+    "fr": "Veste distinguée",
+    "fr-CA": "Veste raffinée",
+    "it": "Giacca signorile",
+    "ja": "貴族のジャケット",
+    "ko": "고상한 재킷",
+    "nl": "Galant vest",
+    "pt-BR": "Jaqueta Polida",
+    "ru": "Модная куртка",
+    "tr": "Janti Ceket",
+    "zh-CN": "上流外套",
+    "zh-TW": "上流外套"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_12.png"
+}

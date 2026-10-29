@@ -1,0 +1,87 @@
+{
+  "cost": [
+    {
+      "item": "WOOL",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "الطبقات أساس الأناقة.",
+    "de": "Vielschichtigkeit ist alles.",
+    "en": "It's all about the layers.",
+    "es": "La clave está en las capas.",
+    "fr": "Plus de tissu, plus de style.",
+    "fr-CA": "Plus de tissu, plus de style.",
+    "it": "Il punto forte sono gli strati.",
+    "ja": "この重ねた布こそがポイント",
+    "ko": "레이어가 포인트입니다.",
+    "nl": "Zelfs de laagjes hebben laagjes.",
+    "pt-BR": "Tem muitas camadas aqui.",
+    "ru": "Слои решают всё.",
+    "tr": "Soğan gibi.",
+    "zh-CN": "追求层次感。",
+    "zh-TW": "重點在於分層。"
+  },
+  "descriptionPlain": {
+    "ar": "الطبقات أساس الأناقة.",
+    "de": "Vielschichtigkeit ist alles.",
+    "en": "It's all about the layers.",
+    "es": "La clave está en las capas.",
+    "fr": "Plus de tissu, plus de style.",
+    "fr-CA": "Plus de tissu, plus de style.",
+    "it": "Il punto forte sono gli strati.",
+    "ja": "この重ねた布こそがポイント",
+    "ko": "레이어가 포인트입니다.",
+    "nl": "Zelfs de laagjes hebben laagjes.",
+    "pt-BR": "Tem muitas camadas aqui.",
+    "ru": "Слои решают всё.",
+    "tr": "Soğan gibi.",
+    "zh-CN": "追求层次感。",
+    "zh-TW": "重點在於分層。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Normal_MajorDLC_5.png",
+  "id": "Normal_MajorDLC_5",
+  "name": {
+    "ar": "سترة متعددة الطبقات",
+    "de": "Mehrschichtige Jacke",
+    "en": "Layered Jacket",
+    "es": "Cazadora abrigada",
+    "fr": "Veste multicouche",
+    "fr-CA": "Veste multicouche",
+    "it": "Giacca a strati",
+    "ja": "レイヤードジャケット",
+    "ko": "레이어드 자켓",
+    "nl": "Gelaagde jas",
+    "pt-BR": "Jaqueta Sobreposta",
+    "ru": "Многослойная куртка",
+    "tr": "Katmanlı Ceket",
+    "zh-CN": "多层外套",
+    "zh-TW": "分層外套"
+  },
+  "namePlain": {
+    "ar": "سترة متعددة الطبقات",
+    "de": "Mehrschichtige Jacke",
+    "en": "Layered Jacket",
+    "es": "Cazadora abrigada",
+    "fr": "Veste multicouche",
+    "fr-CA": "Veste multicouche",
+    "it": "Giacca a strati",
+    "ja": "レイヤードジャケット",
+    "ko": "레이어드 자켓",
+    "nl": "Gelaagde jas",
+    "pt-BR": "Jaqueta Sobreposta",
+    "ru": "Многослойная куртка",
+    "tr": "Katmanlı Ceket",
+    "zh-CN": "多层外套",
+    "zh-TW": "分層外套"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Normal_MajorDLC_5.png"
+}

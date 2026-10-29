@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يسحب 4 بطاقات تارو في بداية الحملة، لكن لا يمكن سحب أي منها بعد ذلك.",
+    "de": "Ziehe 4 Tarotkarten zu Beginn jedes Durchlaufs, aber keine kann im Nachhinein gezogen werden.",
+    "en": "Draw 4 Tarot Cards at the start of a run, but none can be drawn after.",
+    "es": "Levantas 4 cartas del tarot al comienzo de una partida, pero ya no podrás levantar más.",
+    "fr": "Tire quatre cartes de tarot au début du donjon, mais aucune carte ne pourra plus être tirée ensuite.",
+    "fr-CA": "Tire 4 cartes de tarot au début d'une croisade, mais aucune carte ne pourra plus être tirée ensuite.",
+    "it": "Peschi 4 tarocchi all'inizio di una crociata, ma non ne otterrai oltre.",
+    "ja": "ダンジョン開始時にタロットカードを4枚引く。その後タロットカードを引けなくなる。",
+    "ko": "게임 시작 시 타로 카드 4장을 뽑지만, 이후로 타로 카드를 뽑을 수 없습니다.",
+    "nl": "Trek 4 tarotkaarten aan het begin van een run, maar daarna kun je er geen meer trekken.",
+    "pt-BR": "Saca 4 cartas de tarô no início de uma partida, mas nenhuma pode ser sacada depois.",
+    "ru": "Вы получаете 4 карты Таро перед началом похода, но не можете брать их позже.",
+    "tr": "Bir denemenin başında 4 Tarot Kartı çekersin fakat deneme sırasında hiç kart çekemezsin.",
+    "zh-CN": "每轮开始时抽 4 张塔罗牌，之后无法再抽塔罗牌。",
+    "zh-TW": "每輪開始時抽 4 張塔羅牌，之後無法再抽塔羅牌。"
+  },
+  "descriptionPlain": {
+    "ar": "يسحب 4 بطاقات تارو في بداية الحملة، لكن لا يمكن سحب أي منها بعد ذلك.",
+    "de": "Ziehe 4 Tarotkarten zu Beginn jedes Durchlaufs, aber keine kann im Nachhinein gezogen werden.",
+    "en": "Draw 4 Tarot Cards at the start of a run, but none can be drawn after.",
+    "es": "Levantas 4 cartas del tarot al comienzo de una partida, pero ya no podrás levantar más.",
+    "fr": "Tire quatre cartes de tarot au début du donjon, mais aucune carte ne pourra plus être tirée ensuite.",
+    "fr-CA": "Tire 4 cartes de tarot au début d'une croisade, mais aucune carte ne pourra plus être tirée ensuite.",
+    "it": "Peschi 4 tarocchi all'inizio di una crociata, ma non ne otterrai oltre.",
+    "ja": "ダンジョン開始時にタロットカードを4枚引く。その後タロットカードを引けなくなる。",
+    "ko": "게임 시작 시 타로 카드 4장을 뽑지만, 이후로 타로 카드를 뽑을 수 없습니다.",
+    "nl": "Trek 4 tarotkaarten aan het begin van een run, maar daarna kun je er geen meer trekken.",
+    "pt-BR": "Saca 4 cartas de tarô no início de uma partida, mas nenhuma pode ser sacada depois.",
+    "ru": "Вы получаете 4 карты Таро перед началом похода, но не можете брать их позже.",
+    "tr": "Bir denemenin başında 4 Tarot Kartı çekersin fakat deneme sırasında hiç kart çekemezsin.",
+    "zh-CN": "每轮开始时抽 4 张塔罗牌，之后无法再抽塔罗牌。",
+    "zh-TW": "每輪開始時抽 4 張塔羅牌，之後無法再抽塔羅牌。"
+  },
+  "fleece": 4,
+  "icon": "icons/fleeces/White.png",
+  "id": "White",
+  "name": {
+    "ar": "رداء الأقدار",
+    "de": "Vlies der Schicksale",
+    "en": "Fleece of the Fates",
+    "es": "Vellocino del destino",
+    "fr": "Pelisse du destin",
+    "fr-CA": "Toison du destin",
+    "it": "Vello del destino",
+    "ja": "運命の羊毛",
+    "ko": "운명의 양털",
+    "nl": "Vacht van het lot",
+    "pt-BR": "Lã dos Destinos",
+    "ru": "Руно судьбы",
+    "tr": "Yazgı Postu",
+    "zh-CN": "命运毛纺",
+    "zh-TW": "命運毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الأقدار",
+    "de": "Vlies der Schicksale",
+    "en": "Fleece of the Fates",
+    "es": "Vellocino del destino",
+    "fr": "Pelisse du destin",
+    "fr-CA": "Toison du destin",
+    "it": "Vello del destino",
+    "ja": "運命の羊毛",
+    "ko": "운명의 양털",
+    "nl": "Vacht van het lot",
+    "pt-BR": "Lã dos Destinos",
+    "ru": "Руно судьбы",
+    "tr": "Yazgı Postu",
+    "zh-CN": "命运毛纺",
+    "zh-TW": "命運毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/White.png"
+}

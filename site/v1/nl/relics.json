@@ -1,0 +1,362 @@
+[
+  {
+    "id": "CashForHearts_Corrupted",
+    "name": "Buidel van de Kefomiet",
+    "thumb": "icons/relics/64/CashForHearts_Corrupted.png"
+  },
+  {
+    "id": "DamageEye_Coop",
+    "name": "Scheel oog van de kraai",
+    "thumb": "icons/relics/64/DamageEye_Coop.png"
+  },
+  {
+    "id": "DamageOnTouch_Familiar",
+    "name": "Oog van Leshy",
+    "thumb": "icons/relics/64/DamageOnTouch_Familiar.png"
+  },
+  {
+    "id": "DealDamagePerFollower",
+    "name": "Kralen van de Anchoriet",
+    "thumb": "icons/relics/64/DealDamagePerFollower.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> kralen van de Anchoriet",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Blessed.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> kralen van de Anchoriet",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Dammed.png"
+  },
+  {
+    "id": "DeathForLife_Corrupted",
+    "name": "Weegschaal van de Anchoriet",
+    "thumb": "icons/relics/64/DeathForLife_Corrupted.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge",
+    "name": "Claunecks haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Blessed",
+    "name": "<color=#03EAFD>Gezegend</color> Claunecks haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Dammed",
+    "name": "<color=#FD1D03>Verdoemd</color> Claunecks haar",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Dammed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff",
+    "name": "Claunecks spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> Claunecks spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> Claunecks spiegel",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Dammed.png"
+  },
+  {
+    "id": "DiseasedHeart_Corrupted",
+    "name": "Kleine Yaca's pop",
+    "thumb": "icons/relics/64/DiseasedHeart_Corrupted.png"
+  },
+  {
+    "id": "DiseasedPoison_Corrupted",
+    "name": "Lampetkan van de weduwe",
+    "thumb": "icons/relics/64/DiseasedPoison_Corrupted.png"
+  },
+  {
+    "id": "EnemyFiftyFifty_Corrupted",
+    "name": "Palhasso's munt",
+    "thumb": "icons/relics/64/EnemyFiftyFifty_Corrupted.png"
+  },
+  {
+    "id": "Enlarge",
+    "name": "Amulet van Galvar",
+    "thumb": "icons/relics/64/Enlarge.png"
+  },
+  {
+    "id": "Explosive_Coop",
+    "name": "As van de kwikachtige Kram",
+    "thumb": "icons/relics/64/Explosive_Coop.png"
+  },
+  {
+    "id": "FervourForResources_Corrupted",
+    "name": "Botten van de vogelaar",
+    "thumb": "icons/relics/64/FervourForResources_Corrupted.png"
+  },
+  {
+    "id": "FieryBlood",
+    "name": "Afgod van de brandoffers",
+    "thumb": "icons/relics/64/FieryBlood.png"
+  },
+  {
+    "id": "FieryBurrow",
+    "name": "Eerste kop van Din",
+    "thumb": "icons/relics/64/FieryBurrow.png"
+  },
+  {
+    "id": "FiftyFiftyGamble",
+    "name": "Palhasso's dobbelstenen",
+    "thumb": "icons/relics/64/FiftyFiftyGamble.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> dobbelstenen van Palhasso",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Blessed.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> dobbelstenen van Palhasso",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Dammed.png"
+  },
+  {
+    "id": "FillUpFervour",
+    "name": "Snavel van de vogelaar",
+    "thumb": "icons/relics/64/FillUpFervour.png"
+  },
+  {
+    "id": "FireballsRain",
+    "name": "Brandende amber",
+    "thumb": "icons/relics/64/FireballsRain.png"
+  },
+  {
+    "id": "FreezeAll",
+    "name": "Teen van de IJsgoor",
+    "thumb": "icons/relics/64/FreezeAll.png"
+  },
+  {
+    "id": "FreezeOnTouch_Familiar",
+    "name": "Oog van de IJsgoor",
+    "thumb": "icons/relics/64/FreezeOnTouch_Familiar.png"
+  },
+  {
+    "id": "FreezeTime",
+    "name": "Zegel van de bisschoppen",
+    "thumb": "icons/relics/64/FreezeTime.png"
+  },
+  {
+    "id": "FriendlyHealing_Coop",
+    "name": "De vastgeklemde handen",
+    "thumb": "icons/relics/64/FriendlyHealing_Coop.png"
+  },
+  {
+    "id": "FrozenGhosts",
+    "name": "Pels van de verloren bloedverwanten",
+    "thumb": "icons/relics/64/FrozenGhosts.png"
+  },
+  {
+    "id": "Frozen_Corrupted",
+    "name": "Knokkel van de Tagach",
+    "thumb": "icons/relics/64/Frozen_Corrupted.png"
+  },
+  {
+    "id": "GungeonBlank",
+    "name": "Schedel van Shamura",
+    "thumb": "icons/relics/64/GungeonBlank.png"
+  },
+  {
+    "id": "HealPerFollower",
+    "name": "Balsem van de Anchoriet",
+    "thumb": "icons/relics/64/HealPerFollower.png"
+  },
+  {
+    "id": "HealPerFollower_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> balsem van de Anchoriet",
+    "thumb": "icons/relics/64/HealPerFollower_Blessed.png"
+  },
+  {
+    "id": "HealPerFollower_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> balsem van de Anchoriet",
+    "thumb": "icons/relics/64/HealPerFollower_Dammed.png"
+  },
+  {
+    "id": "HeartConversion_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> tranen van de wraakzuchtige vader",
+    "thumb": "icons/relics/64/HeartConversion_Blessed.png"
+  },
+  {
+    "id": "HeartConversion_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> tranen van de barmhartige moeder",
+    "thumb": "icons/relics/64/HeartConversion_Dammed.png"
+  },
+  {
+    "id": "IceSpikes",
+    "name": "Snuit van de pelsjager",
+    "thumb": "icons/relics/64/IceSpikes.png"
+  },
+  {
+    "id": "IceyBlood",
+    "name": "Sluier van de onbeweeglijken",
+    "thumb": "icons/relics/64/IceyBlood.png"
+  },
+  {
+    "id": "IceyBurrow",
+    "name": "Tweede kop van Din",
+    "thumb": "icons/relics/64/IceyBurrow.png"
+  },
+  {
+    "id": "IceyCoat",
+    "name": "Pantser van de vorstvlam",
+    "thumb": "icons/relics/64/IceyCoat.png"
+  },
+  {
+    "id": "IgniteAll",
+    "name": "Stekel van het Sintelvolk",
+    "thumb": "icons/relics/64/IgniteAll.png"
+  },
+  {
+    "id": "IgniteOnTouch_Familiar",
+    "name": "Oog van het Sintelvolk",
+    "thumb": "icons/relics/64/IgniteOnTouch_Familiar.png"
+  },
+  {
+    "id": "IncreaseDamageForDuration",
+    "name": "Hekets keel",
+    "thumb": "icons/relics/64/IncreaseDamageForDuration.png"
+  },
+  {
+    "id": "KillNonBossEnemies",
+    "name": "Narinders klauw",
+    "thumb": "icons/relics/64/KillNonBossEnemies.png"
+  },
+  {
+    "id": "LightningStrike",
+    "name": "Ala's tanden",
+    "thumb": "icons/relics/64/LightningStrike.png"
+  },
+  {
+    "id": "LightningStrike_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> Ala's tanden",
+    "thumb": "icons/relics/64/LightningStrike_Blessed.png"
+  },
+  {
+    "id": "LightningStrike_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color></i> Ala's tanden",
+    "thumb": "icons/relics/64/LightningStrike_Dammed.png"
+  },
+  {
+    "id": "LoadoutSwap_Coop",
+    "name": "Kudaais verloren tand",
+    "thumb": "icons/relics/64/LoadoutSwap_Coop.png"
+  },
+  {
+    "id": "PoisonAll",
+    "name": "Staart van de Slidder",
+    "thumb": "icons/relics/64/PoisonAll.png"
+  },
+  {
+    "id": "PoisonOnTouch_Familiar",
+    "name": "Oog van de Slidder",
+    "thumb": "icons/relics/64/PoisonOnTouch_Familiar.png"
+  },
+  {
+    "id": "ProjectileRing",
+    "name": "Claunecks schoen",
+    "thumb": "icons/relics/64/ProjectileRing.png"
+  },
+  {
+    "id": "RandomEnemyIntoCritter",
+    "name": "De Transmogricon",
+    "thumb": "icons/relics/64/RandomEnemyIntoCritter.png"
+  },
+  {
+    "id": "Realm_Corrupted",
+    "name": "Hoektand van de uitgehongerde",
+    "thumb": "icons/relics/64/Realm_Corrupted.png"
+  },
+  {
+    "id": "RerollCurse",
+    "name": "Kudaais teennagel",
+    "thumb": "icons/relics/64/RerollCurse.png"
+  },
+  {
+    "id": "RerollWeapon",
+    "name": "Kudaais vingernagel",
+    "thumb": "icons/relics/64/RerollWeapon.png"
+  },
+  {
+    "id": "Sacrifice_Coop",
+    "name": "Wensbeen van de Marbais",
+    "thumb": "icons/relics/64/Sacrifice_Coop.png"
+  },
+  {
+    "id": "ShootCurses_Familiar",
+    "name": "Oog van de Vurige",
+    "thumb": "icons/relics/64/ShootCurses_Familiar.png"
+  },
+  {
+    "id": "Shrink",
+    "name": "Amulet van Shunrue",
+    "thumb": "icons/relics/64/Shrink.png"
+  },
+  {
+    "id": "SpawnBlackGoop",
+    "name": "Bom van de Grootmagus",
+    "thumb": "icons/relics/64/SpawnBlackGoop.png"
+  },
+  {
+    "id": "SpawnBombs",
+    "name": "Stihi's tong",
+    "thumb": "icons/relics/64/SpawnBombs.png"
+  },
+  {
+    "id": "SpawnCombatFollower",
+    "name": "Kallamars oor",
+    "thumb": "icons/relics/64/SpawnCombatFollower.png"
+  },
+  {
+    "id": "SpawnCombatFollowerFromBodies",
+    "name": "Warracka's rechtervuist",
+    "thumb": "icons/relics/64/SpawnCombatFollowerFromBodies.png"
+  },
+  {
+    "id": "SpawnDemon",
+    "name": "Vinger van de exorcist",
+    "thumb": "icons/relics/64/SpawnDemon.png"
+  },
+  {
+    "id": "SpawnDemon_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> vinger van de exorcist",
+    "thumb": "icons/relics/64/SpawnDemon_Blessed.png"
+  },
+  {
+    "id": "SpawnDemon_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> vinger van de exorcist",
+    "thumb": "icons/relics/64/SpawnDemon_Dammed.png"
+  },
+  {
+    "id": "SpawnTentacle",
+    "name": "Turua's tentakel",
+    "thumb": "icons/relics/64/SpawnTentacle.png"
+  },
+  {
+    "id": "UnlimitedFervour",
+    "name": "Nectar van de kronen",
+    "thumb": "icons/relics/64/UnlimitedFervour.png"
+  },
+  {
+    "id": "UseRandomRelic",
+    "name": "Poederdoos van Aethrile",
+    "thumb": "icons/relics/64/UseRandomRelic.png"
+  },
+  {
+    "id": "UseRandomRelic_Blessed",
+    "name": "<color=#03EAFD>Gezegende</color> poederdoos van Aethrile",
+    "thumb": "icons/relics/64/UseRandomRelic_Blessed.png"
+  },
+  {
+    "id": "UseRandomRelic_Dammed",
+    "name": "<color=#FD1D03>Verdoemde</color> poederdoos van Aethrile",
+    "thumb": "icons/relics/64/UseRandomRelic_Dammed.png"
+  }
+]

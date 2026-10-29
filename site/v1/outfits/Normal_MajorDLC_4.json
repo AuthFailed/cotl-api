@@ -1,0 +1,87 @@
+{
+  "cost": [
+    {
+      "item": "WOOL",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "مناسبة لتماسك أجسام الأتباع جيدًا.",
+    "de": "Gut geeignet, um Anhänger zusammenzuhalten.",
+    "en": "Good for holding Followers together.",
+    "es": "La mar de útiles para que los adeptos no se desmoronen.",
+    "fr": "Maintiendra vos adeptes en un seul morceau.",
+    "fr-CA": "Maintiendra vos adeptes en un seul morceau.",
+    "it": "Ottime per tenere insieme i membri del Culto.",
+    "ja": "信者たちをまとめておくのにピッタリ",
+    "ko": "추종자들을 한데 묶는데 좋습니다.",
+    "nl": "Handig om volgelingen bij elkaar te houden.",
+    "pt-BR": "Bom para manter Seguidores com tudo no lugar.",
+    "ru": "Помогают последователям не потерять себя.",
+    "tr": "Takipçileri bir arada tutmak için ideal.",
+    "zh-CN": "将教徒裹紧。",
+    "zh-TW": "適合用來把教徒綁在一起。"
+  },
+  "descriptionPlain": {
+    "ar": "مناسبة لتماسك أجسام الأتباع جيدًا.",
+    "de": "Gut geeignet, um Anhänger zusammenzuhalten.",
+    "en": "Good for holding Followers together.",
+    "es": "La mar de útiles para que los adeptos no se desmoronen.",
+    "fr": "Maintiendra vos adeptes en un seul morceau.",
+    "fr-CA": "Maintiendra vos adeptes en un seul morceau.",
+    "it": "Ottime per tenere insieme i membri del Culto.",
+    "ja": "信者たちをまとめておくのにピッタリ",
+    "ko": "추종자들을 한데 묶는데 좋습니다.",
+    "nl": "Handig om volgelingen bij elkaar te houden.",
+    "pt-BR": "Bom para manter Seguidores com tudo no lugar.",
+    "ru": "Помогают последователям не потерять себя.",
+    "tr": "Takipçileri bir arada tutmak için ideal.",
+    "zh-CN": "将教徒裹紧。",
+    "zh-TW": "適合用來把教徒綁在一起。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Normal_MajorDLC_4.png",
+  "id": "Normal_MajorDLC_4",
+  "name": {
+    "ar": "لفافات",
+    "de": "Bandagen",
+    "en": "Bandages",
+    "es": "Vendas",
+    "fr": "Bandages",
+    "fr-CA": "Bandages",
+    "it": "Bende",
+    "ja": "包帯",
+    "ko": "붕대",
+    "nl": "Verband",
+    "pt-BR": "Curativos",
+    "ru": "Бинты",
+    "tr": "Sargılar",
+    "zh-CN": "绷带",
+    "zh-TW": "繃帶"
+  },
+  "namePlain": {
+    "ar": "لفافات",
+    "de": "Bandagen",
+    "en": "Bandages",
+    "es": "Vendas",
+    "fr": "Bandages",
+    "fr-CA": "Bandages",
+    "it": "Bende",
+    "ja": "包帯",
+    "ko": "붕대",
+    "nl": "Verband",
+    "pt-BR": "Curativos",
+    "ru": "Бинты",
+    "tr": "Sargılar",
+    "zh-CN": "绷带",
+    "zh-TW": "繃帶"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Normal_MajorDLC_4.png"
+}

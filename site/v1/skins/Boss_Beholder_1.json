@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Beholder_1.png",
   "id": "Boss_Beholder_1",
   "name": {
     "en": "Boss Beholder 1"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Beholder 1"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Beholder_1.png",
   "unlock": "Dungeon1"
 }

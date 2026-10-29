@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "زيّ أنيق يليق بقائد طائفة. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Ein edles Gewand, passend für den Anführer eines Kults. Bietet keine Boni.",
+    "en": "A noble garb, fit for the leader of a Cult. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Un ropaje noble, adecuado para el líder de una secta. No proporciona nada especial.",
+    "fr": "Un vêtement noble, digne de vous. N'offre aucun bonus.",
+    "fr-CA": "Un vêtement noble, digne de vous. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Un indumento nobile, degno del leader di un culto. <color=\"grey\"> <br>Non fornisce bonus.",
+    "ja": "教団の教祖にふさわしい、高貴な服装。ボーナスなし。",
+    "ko": "귀한 옷으로, 교주에게 걸맞습니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Een nobel gewaad dat past bij de leider van een sekte. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Uma vestimenta nobre, adequada para o líder de um Culto. Não fornece nenhum bônus.",
+    "ru": "Одеяние для того, кто ведёт за собой. Не даёт преимуществ.",
+    "tr": "Tarikat'ın önderine yaraşır asil bir giysi. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "高贵的服装，适合一教之主穿着。没有特殊效果。",
+    "zh-TW": "高貴的服裝，適合一教之主穿著。沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ أنيق يليق بقائد طائفة.\nلا يمنح مزايا.",
+    "de": "Ein edles Gewand, passend für den Anführer eines Kults. Bietet keine Boni.",
+    "en": "A noble garb, fit for the leader of a Cult.\nProvides no bonuses.",
+    "es": "Un ropaje noble, adecuado para el líder de una secta. No proporciona nada especial.",
+    "fr": "Un vêtement noble, digne de vous. N'offre aucun bonus.",
+    "fr-CA": "Un vêtement noble, digne de vous.\nN'octroie aucun bonus.",
+    "it": "Un indumento nobile, degno del leader di un culto.\nNon fornisce bonus.",
+    "ja": "教団の教祖にふさわしい、高貴な服装。ボーナスなし。",
+    "ko": "귀한 옷으로, 교주에게 걸맞습니다.\n특별한 효과는 없습니다.",
+    "nl": "Een nobel gewaad dat past bij de leider van een sekte.\nGeeft geen bonussen.",
+    "pt-BR": "Uma vestimenta nobre, adequada para o líder de um Culto. Não fornece nenhum bônus.",
+    "ru": "Одеяние для того, кто ведёт за собой. Не даёт преимуществ.",
+    "tr": "Tarikat'ın önderine yaraşır asil bir giysi.\nİlave özellik sağlamaz.",
+    "zh-CN": "高贵的服装，适合一教之主穿着。没有特殊效果。",
+    "zh-TW": "高貴的服裝，適合一教之主穿著。沒有特殊效果。"
+  },
+  "fleece": 0,
+  "icon": "icons/fleeces/Default.png",
+  "id": "Default",
+  "name": {
+    "ar": "رداء الحَمَل",
+    "de": "Vlies des Lamms",
+    "en": "Fleece of the Lamb",
+    "es": "Vellocino del Cordero",
+    "fr": "Pelisse de l'Agneau",
+    "fr-CA": "Toison de l'Agneau",
+    "it": "Vello dell'Agnello",
+    "ja": "子羊の羊毛",
+    "ko": "어린 양의 양털",
+    "nl": "Vacht van het Lam",
+    "pt-BR": "A Lã do Cordeiro",
+    "ru": "Руно ягнёнка",
+    "tr": "Kuzu'nun Postu",
+    "zh-CN": "圣羊毛纺",
+    "zh-TW": "聖羊毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الحَمَل",
+    "de": "Vlies des Lamms",
+    "en": "Fleece of the Lamb",
+    "es": "Vellocino del Cordero",
+    "fr": "Pelisse de l'Agneau",
+    "fr-CA": "Toison de l'Agneau",
+    "it": "Vello dell'Agnello",
+    "ja": "子羊の羊毛",
+    "ko": "어린 양의 양털",
+    "nl": "Vacht van het Lam",
+    "pt-BR": "A Lã do Cordeiro",
+    "ru": "Руно ягнёнка",
+    "tr": "Kuzu'nun Postu",
+    "zh-CN": "圣羊毛纺",
+    "zh-TW": "聖羊毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Default.png"
+}

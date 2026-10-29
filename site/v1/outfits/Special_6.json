@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    },
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "صُنع لمن يخدمون زبائنهم.",
+    "de": "Dient dazu, darin zu dienen.",
+    "en": "Made for serving in.",
+    "es": "Pensada para servir.",
+    "fr": "Conçue pour les serviteurs les plus fidèles.",
+    "fr-CA": "Conçue pour les serviteurs les plus fidèles.",
+    "it": "L'ideale per servire da bere.",
+    "ja": "主の世話をするためにデザインされた服",
+    "ko": "섬기는 자를 위한 옷입니다.",
+    "nl": "Gemaakt om in te bedienen.",
+    "pt-BR": "Feito para servir.",
+    "ru": "Одеяние для прислуживания.",
+    "tr": "Servise hazır.",
+    "zh-CN": "为了服务时穿着而制作。",
+    "zh-TW": "為了服務時穿著而製作。"
+  },
+  "descriptionPlain": {
+    "ar": "صُنع لمن يخدمون زبائنهم.",
+    "de": "Dient dazu, darin zu dienen.",
+    "en": "Made for serving in.",
+    "es": "Pensada para servir.",
+    "fr": "Conçue pour les serviteurs les plus fidèles.",
+    "fr-CA": "Conçue pour les serviteurs les plus fidèles.",
+    "it": "L'ideale per servire da bere.",
+    "ja": "主の世話をするためにデザインされた服",
+    "ko": "섬기는 자를 위한 옷입니다.",
+    "nl": "Gemaakt om in te bedienen.",
+    "pt-BR": "Feito para servir.",
+    "ru": "Одеяние для прислуживания.",
+    "tr": "Servise hazır.",
+    "zh-CN": "为了服务时穿着而制作。",
+    "zh-TW": "為了服務時穿著而製作。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_6.png",
+  "id": "Special_6",
+  "name": {
+    "ar": "صدار الساقي",
+    "de": "Getränkemischer-Weste",
+    "en": "Drinktender Vest",
+    "es": "Atuendo de tasquero",
+    "fr": "Veste de boireman",
+    "fr-CA": "Veste de boireman",
+    "it": "Gilet da bevanderista",
+    "ja": "ドリンク給仕係のベスト",
+    "ko": "음료 제조사 조끼",
+    "nl": "Drankschenkervest",
+    "pt-BR": "Colete de Taverneiro",
+    "ru": "Официантский жилет",
+    "tr": "Garson Giysisi",
+    "zh-CN": "调饮师背心",
+    "zh-TW": "調飲師背心"
+  },
+  "namePlain": {
+    "ar": "صدار الساقي",
+    "de": "Getränkemischer-Weste",
+    "en": "Drinktender Vest",
+    "es": "Atuendo de tasquero",
+    "fr": "Veste de boireman",
+    "fr-CA": "Veste de boireman",
+    "it": "Gilet da bevanderista",
+    "ja": "ドリンク給仕係のベスト",
+    "ko": "음료 제조사 조끼",
+    "nl": "Drankschenkervest",
+    "pt-BR": "Colete de Taverneiro",
+    "ru": "Официантский жилет",
+    "tr": "Garson Giysisi",
+    "zh-CN": "调饮师背心",
+    "zh-TW": "調飲師背心"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_6.png"
+}

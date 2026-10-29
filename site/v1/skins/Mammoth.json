@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Mammoth.png",
   "id": "Mammoth",
   "name": {
     "en": "Mammoth"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Mammoth"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Mammoth.png",
   "unlock": "Dungeon5"
 }

@@ -1,0 +1,37 @@
+[
+  {
+    "id": "Afterlife",
+    "name": "Загробная жизнь",
+    "thumb": null
+  },
+  {
+    "id": "Food",
+    "name": "Пропитание",
+    "thumb": null
+  },
+  {
+    "id": "LawAndOrder",
+    "name": "Закон и порядок",
+    "thumb": null
+  },
+  {
+    "id": "Pleasure",
+    "name": "Грех",
+    "thumb": null
+  },
+  {
+    "id": "Possession",
+    "name": "Имущество",
+    "thumb": null
+  },
+  {
+    "id": "Winter",
+    "name": "Зима",
+    "thumb": null
+  },
+  {
+    "id": "WorkAndWorship",
+    "name": "Труд и поклонение",
+    "thumb": null
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يتلألأ في ظلام الليل. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Funkelt durch die Dunkelheit der Nacht. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Sparkles through the darkness of night. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Un millón de destellos cubren el cielo nocturno. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Scintille la nuit. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Scintille la nuit. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Brilla nel buio della notte. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "夜の暗闇を照らし出すような輝きを放っている。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "밤의 어둠 속에서도 반짝입니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Glinstert in de duisternis van de nacht. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Cintilações na escuridão da noite. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние, сверкающее в ночи.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Gece karanlığında yol gösterir. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "在漆黑之夜闪烁。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "在暗夜中閃閃發亮。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "يتلألأ في ظلام الليل.\nلا يمنح مزايا.",
+    "de": "Funkelt durch die Dunkelheit der Nacht.\nGewährt keine Boni.",
+    "en": "Sparkles through the darkness of night.\nProvides no bonuses.",
+    "es": "Un millón de destellos cubren el cielo nocturno.\nNo otorga nada especial.",
+    "fr": "Scintille la nuit.\nN'octroie aucun bonus.",
+    "fr-CA": "Scintille la nuit.\nN'octroie aucun bonus.",
+    "it": "Brilla nel buio della notte.\nNon fornisce bonus.",
+    "ja": "夜の暗闇を照らし出すような輝きを放っている。\nボーナスなし。",
+    "ko": "밤의 어둠 속에서도 반짝입니다.\n특별한 효과는 없습니다.",
+    "nl": "Glinstert in de duisternis van de nacht.\nGeeft geen bonussen.",
+    "pt-BR": "Cintilações na escuridão da noite.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние, сверкающее в ночи.\nНе даёт преимуществ.",
+    "tr": "Gece karanlığında yol gösterir.\nİlave özellik sağlamaz.",
+    "zh-CN": "在漆黑之夜闪烁。\n没有特殊效果。",
+    "zh-TW": "在暗夜中閃閃發亮。\n沒有特殊效果。"
+  },
+  "fleece": 668,
+  "icon": "icons/fleeces/Fleece668.png",
+  "id": "Fleece668",
+  "name": {
+    "ar": "رداء العرافة",
+    "de": "Vlies der Sternguckerin",
+    "en": "Fleece of the Stargazer",
+    "es": "Vellocino de la Astrónoma",
+    "fr": "Pelisse de l'astronome",
+    "fr-CA": "Toison de l'astronome",
+    "it": "Vello dell'astronoma",
+    "ja": "星見の羊毛",
+    "ko": "별을 보는 자의 양털",
+    "nl": "Vacht van de sterrenkijker",
+    "pt-BR": "Lã da Admiração Estelar",
+    "ru": "Руно звёзд",
+    "tr": "Yıldızlara Bakanın Postu",
+    "zh-CN": "占星师毛纺",
+    "zh-TW": "占星者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء العرافة",
+    "de": "Vlies der Sternguckerin",
+    "en": "Fleece of the Stargazer",
+    "es": "Vellocino de la Astrónoma",
+    "fr": "Pelisse de l'astronome",
+    "fr-CA": "Toison de l'astronome",
+    "it": "Vello dell'astronoma",
+    "ja": "星見の羊毛",
+    "ko": "별을 보는 자의 양털",
+    "nl": "Vacht van de sterrenkijker",
+    "pt-BR": "Lã da Admiração Estelar",
+    "ru": "Руно звёзд",
+    "tr": "Yıldızlara Bakanın Postu",
+    "zh-CN": "占星师毛纺",
+    "zh-TW": "占星者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece668.png"
+}

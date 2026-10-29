@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Hedgehog.png",
   "id": "Hedgehog",
   "name": {
     "en": "Hedgehog"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Hedgehog"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Hedgehog.png",
   "unlock": "Dungeon1"
 }

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Lizard.png",
   "id": "Lizard",
   "name": {
     "en": "Lizard"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Lizard"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Lizard.png",
   "unlock": "Dungeon6"
 }

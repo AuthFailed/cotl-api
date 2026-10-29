@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Barrier",
+    "name": "Sanctuary Raised",
+    "thumb": "icons/curses/64/Barrier.png"
+  },
+  {
+    "id": "Barrier_Absorb",
+    "name": "Hungering Gate",
+    "thumb": "icons/curses/64/Barrier_Absorb.png"
+  },
+  {
+    "id": "Barrier_Deflection",
+    "name": "Divine Barricade",
+    "thumb": "icons/curses/64/Barrier_Deflection.png"
+  },
+  {
+    "id": "Barrier_Wide",
+    "name": "Sanctuary Grown",
+    "thumb": "icons/curses/64/Barrier_Wide.png"
+  },
+  {
+    "id": "EnemyBlast",
+    "name": "Goddelijke klap",
+    "thumb": "icons/curses/64/EnemyBlast.png"
+  },
+  {
+    "id": "EnemyBlast_DeflectsProjectiles",
+    "name": "Goddelijke bewaker",
+    "thumb": "icons/curses/64/EnemyBlast_DeflectsProjectiles.png"
+  },
+  {
+    "id": "EnemyBlast_Flame",
+    "name": "Heilige brandstapel",
+    "thumb": "icons/curses/64/EnemyBlast_Flame.png"
+  },
+  {
+    "id": "EnemyBlast_Ice",
+    "name": "Goddelijke sneeuwstorm",
+    "thumb": "icons/curses/64/EnemyBlast_Ice.png"
+  },
+  {
+    "id": "EnemyBlast_Poison",
+    "name": "Goddelijk verderf",
+    "thumb": "icons/curses/64/EnemyBlast_Poison.png"
+  },
+  {
+    "id": "Fireball",
+    "name": "Vlammend schot",
+    "thumb": "icons/curses/64/Fireball.png"
+  },
+  {
+    "id": "Fireball_Charm",
+    "name": "Klap van de kroon",
+    "thumb": "icons/curses/64/Fireball_Charm.png"
+  },
+  {
+    "id": "Fireball_Swarm",
+    "name": "Helhonden van het lot",
+    "thumb": "icons/curses/64/Fireball_Swarm.png"
+  },
+  {
+    "id": "Fireball_Triple",
+    "name": "Louterend vuur",
+    "thumb": "icons/curses/64/Fireball_Triple.png"
+  },
+  {
+    "id": "MegaSlash",
+    "name": "Dodelijke dreun",
+    "thumb": "icons/curses/64/MegaSlash.png"
+  },
+  {
+    "id": "MegaSlash_Charm",
+    "name": "Bezwering van de kroon",
+    "thumb": "icons/curses/64/MegaSlash_Charm.png"
+  },
+  {
+    "id": "MegaSlash_Flame",
+    "name": "Doodsvlammen",
+    "thumb": "icons/curses/64/MegaSlash_Flame.png"
+  },
+  {
+    "id": "MegaSlash_Ice",
+    "name": "Dodelijke rukwind",
+    "thumb": "icons/curses/64/MegaSlash_Ice.png"
+  },
+  {
+    "id": "MegaSlash_Necromancy",
+    "name": "Dodelijke hulpjes",
+    "thumb": "icons/curses/64/MegaSlash_Necromancy.png"
+  },
+  {
+    "id": "ProjectileAOE",
+    "name": "Ichor-worp",
+    "thumb": "icons/curses/64/ProjectileAOE.png"
+  },
+  {
+    "id": "ProjectileAOE_Charm",
+    "name": "Roep van de kroon",
+    "thumb": "icons/curses/64/ProjectileAOE_Charm.png"
+  },
+  {
+    "id": "ProjectileAOE_ExplosiveImpact",
+    "name": "Punt van corruptie",
+    "thumb": "icons/curses/64/ProjectileAOE_ExplosiveImpact.png"
+  },
+  {
+    "id": "ProjectileAOE_GoopTrail",
+    "name": "Pad van de rechtvaardigen",
+    "thumb": "icons/curses/64/ProjectileAOE_GoopTrail.png"
+  },
+  {
+    "id": "Teleport",
+    "name": "Goddelijke schrede",
+    "thumb": "icons/curses/64/Teleport.png"
+  },
+  {
+    "id": "Teleport_Goop",
+    "name": "Achtergelaten ichor",
+    "thumb": "icons/curses/64/Teleport_Goop.png"
+  },
+  {
+    "id": "Teleport_Invincible",
+    "name": "De plooiing",
+    "thumb": "icons/curses/64/Teleport_Invincible.png"
+  },
+  {
+    "id": "Teleport_Projectile",
+    "name": "Shards of Solitude",
+    "thumb": "icons/curses/64/Teleport_Projectile.png"
+  },
+  {
+    "id": "Tentacles",
+    "name": "Aanraking van Turua",
+    "thumb": "icons/curses/64/Tentacles.png"
+  },
+  {
+    "id": "Tentacles_Circular",
+    "name": "Maalstroom",
+    "thumb": "icons/curses/64/Tentacles_Circular.png"
+  },
+  {
+    "id": "Tentacles_Flame",
+    "name": "Aanraking van Yig",
+    "thumb": "icons/curses/64/Tentacles_Flame.png"
+  },
+  {
+    "id": "Tentacles_Ice",
+    "name": "Aanraking van Ithaqua",
+    "thumb": "icons/curses/64/Tentacles_Ice.png"
+  },
+  {
+    "id": "Tentacles_Necromancy",
+    "name": "Aanraking van de uit de dood teruggekeerde",
+    "thumb": "icons/curses/64/Tentacles_Necromancy.png"
+  }
+]

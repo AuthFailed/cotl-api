@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Vulture.png",
   "id": "Vulture",
   "name": {
     "en": "Vulture"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Vulture"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Vulture.png",
   "unlock": "Dungeon6"
 }

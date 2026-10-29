@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 8
+    }
+  ],
+  "description": {
+    "ar": "زيّ مثالي مثير للإعجاب.",
+    "de": "Ein ideales Outfit, um sehnsuchtsvoll dreinzublicken.",
+    "en": "An ideal outfit for gazing longingly in.",
+    "es": "Un atuendo ideal para mirar al horizonte con nostalgia.",
+    "fr": "Une tenue idéale pour contempler l'horizon, l'air savant.",
+    "fr-CA": "Une tenue idéale pour contempler l'horizon, l'air savant.",
+    "it": "L'indumento ideale per chi osserva con passione.",
+    "ja": "昔を懐かしむ人にピッタリ",
+    "ko": "동경받는 시선을 받기에 이상적인 옷입니다.",
+    "nl": "Een ideale outfit om verlangend in te staren.",
+    "pt-BR": "É o traje ideal para fazer longas reflexões.",
+    "ru": "Одежда, которая оправдывает долгий взгляд в никуда.",
+    "tr": "Her şeyi merak edenler için ideal bir kıyafet.",
+    "zh-CN": "适合殷切凝视时穿的理想服装。",
+    "zh-TW": "適合殷切凝視時穿的理想服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ مثالي مثير للإعجاب.",
+    "de": "Ein ideales Outfit, um sehnsuchtsvoll dreinzublicken.",
+    "en": "An ideal outfit for gazing longingly in.",
+    "es": "Un atuendo ideal para mirar al horizonte con nostalgia.",
+    "fr": "Une tenue idéale pour contempler l'horizon, l'air savant.",
+    "fr-CA": "Une tenue idéale pour contempler l'horizon, l'air savant.",
+    "it": "L'indumento ideale per chi osserva con passione.",
+    "ja": "昔を懐かしむ人にピッタリ",
+    "ko": "동경받는 시선을 받기에 이상적인 옷입니다.",
+    "nl": "Een ideale outfit om verlangend in te staren.",
+    "pt-BR": "É o traje ideal para fazer longas reflexões.",
+    "ru": "Одежда, которая оправдывает долгий взгляд в никуда.",
+    "tr": "Her şeyi merak edenler için ideal bir kıyafet.",
+    "zh-CN": "适合殷切凝视时穿的理想服装。",
+    "zh-TW": "適合殷切凝視時穿的理想服裝。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_4.png",
+  "id": "Normal_4",
+  "name": {
+    "ar": "قميص العالِم",
+    "de": "Gelehrtenhemd",
+    "en": "Scholar Shirt",
+    "es": "Camisa de erudito",
+    "fr": "Haut de dandy",
+    "fr-CA": "Chemise d'érudit",
+    "it": "Maglia accademica",
+    "ja": "学生のシャツ",
+    "ko": "학자 셔츠",
+    "nl": "Overhemd voor geleerden",
+    "pt-BR": "Camisa Acadêmica",
+    "ru": "Академическая рубаха",
+    "tr": "Âlim Gömleği",
+    "zh-CN": "学者上衣",
+    "zh-TW": "學者上衣"
+  },
+  "namePlain": {
+    "ar": "قميص العالِم",
+    "de": "Gelehrtenhemd",
+    "en": "Scholar Shirt",
+    "es": "Camisa de erudito",
+    "fr": "Haut de dandy",
+    "fr-CA": "Chemise d'érudit",
+    "it": "Maglia accademica",
+    "ja": "学生のシャツ",
+    "ko": "학자 셔츠",
+    "nl": "Overhemd voor geleerden",
+    "pt-BR": "Camisa Acadêmica",
+    "ru": "Академическая рубаха",
+    "tr": "Âlim Gömleği",
+    "zh-CN": "学者上衣",
+    "zh-TW": "學者上衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_4.png"
+}

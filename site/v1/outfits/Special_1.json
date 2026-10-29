@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    },
+    {
+      "item": "YOLK",
+      "quantity": 1
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "لعشاق الطهي.",
+    "de": "Für die kulinarisch Interessierten.",
+    "en": "For the culinary inclined.",
+    "es": "Para los reyes de la cocina.",
+    "fr": "Pour les adeptes au palais fin.",
+    "fr-CA": "Pour les adeptes au palais fin.",
+    "it": "Per gli amanti della cucina.",
+    "ja": "料理を愛する人のために",
+    "ko": "요리계에 종사하는 자를 위한 옷입니다.",
+    "nl": "Voor de culinaire fijnproevers.",
+    "pt-BR": "Para quem gosta de culinária.",
+    "ru": "Для тех, кто любит готовить.",
+    "tr": "Eli mutfağa yatkın olanlara.",
+    "zh-CN": "适合有意下厨者。",
+    "zh-TW": "適合有意下廚者。"
+  },
+  "descriptionPlain": {
+    "ar": "لعشاق الطهي.",
+    "de": "Für die kulinarisch Interessierten.",
+    "en": "For the culinary inclined.",
+    "es": "Para los reyes de la cocina.",
+    "fr": "Pour les adeptes au palais fin.",
+    "fr-CA": "Pour les adeptes au palais fin.",
+    "it": "Per gli amanti della cucina.",
+    "ja": "料理を愛する人のために",
+    "ko": "요리계에 종사하는 자를 위한 옷입니다.",
+    "nl": "Voor de culinaire fijnproevers.",
+    "pt-BR": "Para quem gosta de culinária.",
+    "ru": "Для тех, кто любит готовить.",
+    "tr": "Eli mutfağa yatkın olanlara.",
+    "zh-CN": "适合有意下厨者。",
+    "zh-TW": "適合有意下廚者。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_1.png",
+  "id": "Special_1",
+  "name": {
+    "ar": "سترة الطهي",
+    "de": "Chefkoch-Jacke",
+    "en": "Chef's Jacket",
+    "es": "Chaqueta de cocinero",
+    "fr": "Veste de cuistot",
+    "fr-CA": "Veste de cuisinier",
+    "it": "Giacca da chef",
+    "ja": "シェフの上着",
+    "ko": "요리사용 재킷",
+    "nl": "Koksjas",
+    "pt-BR": "Jaqueta de Chef",
+    "ru": "Поварской китель",
+    "tr": "Şef Ceketi",
+    "zh-CN": "主厨外套",
+    "zh-TW": "主廚外套"
+  },
+  "namePlain": {
+    "ar": "سترة الطهي",
+    "de": "Chefkoch-Jacke",
+    "en": "Chef's Jacket",
+    "es": "Chaqueta de cocinero",
+    "fr": "Veste de cuistot",
+    "fr-CA": "Veste de cuisinier",
+    "it": "Giacca da chef",
+    "ja": "シェフの上着",
+    "ko": "요리사용 재킷",
+    "nl": "Koksjas",
+    "pt-BR": "Jaqueta de Chef",
+    "ru": "Поварской китель",
+    "tr": "Şef Ceketi",
+    "zh-CN": "主厨外套",
+    "zh-TW": "主廚外套"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_1.png"
+}

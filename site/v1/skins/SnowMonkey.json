@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/SnowMonkey.png",
   "id": "SnowMonkey",
   "name": {
     "en": "SnowMonkey"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "SnowMonkey"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/SnowMonkey.png",
   "unlock": "Dungeon5"
 }

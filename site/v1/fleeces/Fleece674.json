@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "تقديرًا لمَن يسجلون التاريخ. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Eine Hommage an diejenigen, die Geschichte aufzeichnen. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "An homage to those who record history. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Un homenaje a los cronistas de la historia. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Un hommage à tous les historiens. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Un hommage à tous les gardiens de la mémoire. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Un omaggio a chi preserva la storia. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "歴史を記録し、後世に残した者への敬意の象徴。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "역사를 기록하는 자들에게 바치는 헌정입니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Een ode aan hen die de geschiedenis vastleggen. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Uma homenagem para aqueles que registram a história. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Дань уважения летописцам.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Tarih yazanlara bir ağıt... <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "致敬历史的记录者。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "象徵對記錄歷史之人的崇敬。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "تقديرًا لمَن يسجلون التاريخ.\nلا يمنح مزايا.",
+    "de": "Eine Hommage an diejenigen, die Geschichte aufzeichnen.\nGewährt keine Boni.",
+    "en": "An homage to those who record history.\nProvides no bonuses.",
+    "es": "Un homenaje a los cronistas de la historia.\nNo otorga nada especial.",
+    "fr": "Un hommage à tous les historiens.\nN'octroie aucun bonus.",
+    "fr-CA": "Un hommage à tous les gardiens de la mémoire.\nN'octroie aucun bonus.",
+    "it": "Un omaggio a chi preserva la storia.\nNon fornisce bonus.",
+    "ja": "歴史を記録し、後世に残した者への敬意の象徴。\nボーナスなし。",
+    "ko": "역사를 기록하는 자들에게 바치는 헌정입니다.\n특별한 효과는 없습니다.",
+    "nl": "Een ode aan hen die de geschiedenis vastleggen.\nGeeft geen bonussen.",
+    "pt-BR": "Uma homenagem para aqueles que registram a história.\nNão fornece nenhum bônus.",
+    "ru": "Дань уважения летописцам.\nНе даёт преимуществ.",
+    "tr": "Tarih yazanlara bir ağıt...\nİlave özellik sağlamaz.",
+    "zh-CN": "致敬历史的记录者。\n没有特殊效果。",
+    "zh-TW": "象徵對記錄歷史之人的崇敬。\n沒有特殊效果。"
+  },
+  "fleece": 674,
+  "icon": "icons/fleeces/Fleece674.png",
+  "id": "Fleece674",
+  "name": {
+    "ar": "رداء العالمة",
+    "de": "Vlies der Gelehrten",
+    "en": "Fleece of the Scholar",
+    "es": "Vellocino de la Escriba",
+    "fr": "Pelisse de l'érudite",
+    "fr-CA": "Toison de l'érudite",
+    "it": "Vello dell'erudita",
+    "ja": "学者の羊毛",
+    "ko": "학자의 양털",
+    "nl": "Vacht van de geleerde",
+    "pt-BR": "Lã da Erudição",
+    "ru": "Руно учёности",
+    "tr": "Âlimin Postu",
+    "zh-CN": "学者毛纺",
+    "zh-TW": "學者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء العالمة",
+    "de": "Vlies der Gelehrten",
+    "en": "Fleece of the Scholar",
+    "es": "Vellocino de la Escriba",
+    "fr": "Pelisse de l'érudite",
+    "fr-CA": "Toison de l'érudite",
+    "it": "Vello dell'erudita",
+    "ja": "学者の羊毛",
+    "ko": "학자의 양털",
+    "nl": "Vacht van de geleerde",
+    "pt-BR": "Lã da Erudição",
+    "ru": "Руно учёности",
+    "tr": "Âlimin Postu",
+    "zh-CN": "学者毛纺",
+    "zh-TW": "學者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece674.png"
+}

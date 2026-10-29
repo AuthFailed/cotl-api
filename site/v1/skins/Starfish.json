@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Starfish.png",
   "id": "Starfish",
   "name": {
     "en": "Starfish"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Starfish"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Starfish.png",
   "unlock": "Other"
 }

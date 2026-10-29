@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Lobster.png",
   "id": "Lobster",
   "name": {
     "en": "Apple_5"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Apple_5"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Lobster.png",
   "unlock": "Other"
 }

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Chameleon.png",
   "id": "Chameleon",
   "name": {
     "en": "Chameleon"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Chameleon"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Chameleon.png",
   "unlock": "Major_DLC"
 }

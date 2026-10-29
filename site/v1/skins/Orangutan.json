@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Orangutan.png",
   "id": "Orangutan",
   "name": {
     "en": "Apple_1"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Apple_1"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Orangutan.png",
   "unlock": "Other"
 }

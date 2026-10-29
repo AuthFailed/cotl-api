@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Worm.png",
   "id": "Worm",
   "name": {
     "en": "Worm"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Worm"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Worm.png",
   "unlock": "Other"
 }

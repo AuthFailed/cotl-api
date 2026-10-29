@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/MassiveMonster.png",
   "id": "MassiveMonster",
   "name": {
     "en": "Massive Monster"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Massive Monster"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/MassiveMonster.png",
   "unlock": "Other"
 }

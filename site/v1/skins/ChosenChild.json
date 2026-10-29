@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/ChosenChild.png",
   "id": "ChosenChild",
   "name": {
     "en": "ChosenChild"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "ChosenChild"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/ChosenChild.png",
   "unlock": "Major_DLC"
 }

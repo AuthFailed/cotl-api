@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/DragonFive.png",
   "id": "DragonFive",
   "name": {
     "en": "DragonFive"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "DragonFive"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/DragonFive.png",
   "unlock": "Dungeon6"
 }

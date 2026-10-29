@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Fly.png",
   "id": "Fly",
   "name": {
     "en": "Fly"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Fly"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Fly.png",
   "unlock": "Dungeon6"
 }

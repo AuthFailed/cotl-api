@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "تلحق اللعنات ضعف الضرر وتكلف نصف الحماس، لكن يقل ضرر سلاح الاشتباك والصحة إلى النصف.",
+    "de": "Flüche verursachen doppelten Schaden und kosten nur die Hälfte an Eifer, aber Nahkampfwaffenschaden und Lebensenergie werden halbiert.",
+    "en": "Curses deal double damage and cost half the Fervour, but melee weapon damage and health are halved.",
+    "es": "Las maldiciones infligen el doble de daño y cuestan la mitad de fervor, pero el daño de ataques cuerpo a cuerpo con armas y la salud se reducen a la mitad.",
+    "fr": "Les maléfices infligent 2x plus de dégâts pour 2x moins de ferveur, mais les dégâts de vos armes et votre vie sont divisés par 2.",
+    "fr-CA": "Les maléfices infligent 2x plus de dégâts pour 2x moins de ferveur, mais les dégâts de vos armes et votre vie sont divisés par 2.",
+    "it": "Le maledizioni infliggono danni doppi e consumano metà Fervore, ma i danni delle armi da mischia e la salute sono dimezzati.",
+    "ja": "呪いで与えるダメージが2倍になり、信力の消費量が半分になる。近接武器の与えるダメージと体力が半分になる。",
+    "ko": "저주가 두 배의 피해를 입히고 열정을 절반만 소모하지만, 근접 무기 피해량과 체력이 절반으로 줄어듭니다.",
+    "nl": "Vloeken veroorzaken twee keer zoveel schade en kosten de helft aan furie, maar schade die je toebrengt met mêlee-aanvallen en je gezondheid zijn gehalveerd.",
+    "pt-BR": "Maldições causam o dobro de dano e custam metade do Fervor, mas os danos das armas de ataque corpo a corpo e a saúde diminuem pela metade.",
+    "ru": "Проклятия наносят удвоенный урон и расходуют вдвое меньше усердия, но запас здоровья и урон оружия уменьшаются вдвое.",
+    "tr": "Lanetler iki kat fazla hasar verir ve iki kat az Şevk tüketir fakat yakın dövüş silahı hasarın ve canın yarı yarıya azalır.",
+    "zh-CN": "咒术造成的伤害值加倍，消耗的热诚减半，但是近战武器的伤害值和生命值减半。",
+    "zh-TW": "咒術造成的傷害值加倍，消耗的熱誠減半，但是近戰武器的傷害值和生命值減半。"
+  },
+  "descriptionPlain": {
+    "ar": "تلحق اللعنات ضعف الضرر وتكلف نصف الحماس، لكن يقل ضرر سلاح الاشتباك والصحة إلى النصف.",
+    "de": "Flüche verursachen doppelten Schaden und kosten nur die Hälfte an Eifer, aber Nahkampfwaffenschaden und Lebensenergie werden halbiert.",
+    "en": "Curses deal double damage and cost half the Fervour, but melee weapon damage and health are halved.",
+    "es": "Las maldiciones infligen el doble de daño y cuestan la mitad de fervor, pero el daño de ataques cuerpo a cuerpo con armas y la salud se reducen a la mitad.",
+    "fr": "Les maléfices infligent 2x plus de dégâts pour 2x moins de ferveur, mais les dégâts de vos armes et votre vie sont divisés par 2.",
+    "fr-CA": "Les maléfices infligent 2x plus de dégâts pour 2x moins de ferveur, mais les dégâts de vos armes et votre vie sont divisés par 2.",
+    "it": "Le maledizioni infliggono danni doppi e consumano metà Fervore, ma i danni delle armi da mischia e la salute sono dimezzati.",
+    "ja": "呪いで与えるダメージが2倍になり、信力の消費量が半分になる。近接武器の与えるダメージと体力が半分になる。",
+    "ko": "저주가 두 배의 피해를 입히고 열정을 절반만 소모하지만, 근접 무기 피해량과 체력이 절반으로 줄어듭니다.",
+    "nl": "Vloeken veroorzaken twee keer zoveel schade en kosten de helft aan furie, maar schade die je toebrengt met mêlee-aanvallen en je gezondheid zijn gehalveerd.",
+    "pt-BR": "Maldições causam o dobro de dano e custam metade do Fervor, mas os danos das armas de ataque corpo a corpo e a saúde diminuem pela metade.",
+    "ru": "Проклятия наносят удвоенный урон и расходуют вдвое меньше усердия, но запас здоровья и урон оружия уменьшаются вдвое.",
+    "tr": "Lanetler iki kat fazla hasar verir ve iki kat az Şevk tüketir fakat yakın dövüş silahı hasarın ve canın yarı yarıya azalır.",
+    "zh-CN": "咒术造成的伤害值加倍，消耗的热诚减半，但是近战武器的伤害值和生命值减半。",
+    "zh-TW": "咒術造成的傷害值加倍，消耗的熱誠減半，但是近戰武器的傷害值和生命值減半。"
+  },
+  "fleece": 2,
+  "icon": "icons/fleeces/Green.png",
+  "id": "Green",
+  "name": {
+    "ar": "رداء المدفع الزجاجي",
+    "de": "Vlies der Glaskanone",
+    "en": "Fleece of the Glass Cannon",
+    "es": "Vellocino cañón de cristal",
+    "fr": "Pelisse magique",
+    "fr-CA": "Toison magique",
+    "it": "Vello del cannone di vetro",
+    "ja": "諸刃の羊毛",
+    "ko": "유리대포 양털",
+    "nl": "Vacht van het glazen kanon",
+    "pt-BR": "Lã do Canhão de Vidro",
+    "ru": "Руно хрупкой силы",
+    "tr": "Tehlike Tutkunu Postu",
+    "zh-CN": "舍近求远毛纺",
+    "zh-TW": "捨近求遠毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المدفع الزجاجي",
+    "de": "Vlies der Glaskanone",
+    "en": "Fleece of the Glass Cannon",
+    "es": "Vellocino cañón de cristal",
+    "fr": "Pelisse magique",
+    "fr-CA": "Toison magique",
+    "it": "Vello del cannone di vetro",
+    "ja": "諸刃の羊毛",
+    "ko": "유리대포 양털",
+    "nl": "Vacht van het glazen kanon",
+    "pt-BR": "Lã do Canhão de Vidro",
+    "ru": "Руно хрупкой силы",
+    "tr": "Tehlike Tutkunu Postu",
+    "zh-CN": "舍近求远毛纺",
+    "zh-TW": "捨近求遠毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Green.png"
+}

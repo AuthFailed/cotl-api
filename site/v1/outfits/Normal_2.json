@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "ثوب نصفي مسامي يناسب من يتعرقون في أثناء العمل.",
+    "de": "Eine atmungsaktive Tunika für schweißtreibende Tätigkeiten.",
+    "en": "A breathable tunic for working up a sweat.",
+    "es": "Un vellocino transpirable para quien se deja la piel trabajando.",
+    "fr": "Une tenue aérée pour travailler la terre.",
+    "fr-CA": "Une tenue aérée pour travailler la terre.",
+    "it": "Una casacca traspirante, adatta al duro lavoro.",
+    "ja": "汗水たらして働く労働者向けの、通気性に優れたチュニック",
+    "ko": "땀 속에서 일할 수 있게 통기성 좋은 튜닉입니다.",
+    "nl": "Een ademende tuniek om je mee in het zweet te werken.",
+    "pt-BR": "Uma lã arejada para trabalhar até suar.",
+    "ru": "Лёгкая одежда для тяжёлой работы.",
+    "tr": "Alın teri dökenlerin giydiği, havadar bir kıyafet.",
+    "zh-CN": "适合工作出汗穿着的透气外衣。",
+    "zh-TW": "適合工作出汗穿著的透氣外衣。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب نصفي مسامي يناسب من يتعرقون في أثناء العمل.",
+    "de": "Eine atmungsaktive Tunika für schweißtreibende Tätigkeiten.",
+    "en": "A breathable tunic for working up a sweat.",
+    "es": "Un vellocino transpirable para quien se deja la piel trabajando.",
+    "fr": "Une tenue aérée pour travailler la terre.",
+    "fr-CA": "Une tenue aérée pour travailler la terre.",
+    "it": "Una casacca traspirante, adatta al duro lavoro.",
+    "ja": "汗水たらして働く労働者向けの、通気性に優れたチュニック",
+    "ko": "땀 속에서 일할 수 있게 통기성 좋은 튜닉입니다.",
+    "nl": "Een ademende tuniek om je mee in het zweet te werken.",
+    "pt-BR": "Uma lã arejada para trabalhar até suar.",
+    "ru": "Лёгкая одежда для тяжёлой работы.",
+    "tr": "Alın teri dökenlerin giydiği, havadar bir kıyafet.",
+    "zh-CN": "适合工作出汗穿着的透气外衣。",
+    "zh-TW": "適合工作出汗穿著的透氣外衣。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_2.png",
+  "id": "Normal_2",
+  "name": {
+    "ar": "ثوب نصفي للعمل",
+    "de": "Arbeitertunika",
+    "en": "Labourer Tunic",
+    "es": "Vellocino de faena",
+    "fr": "Tunique d'ouvrier",
+    "fr-CA": "Tunique d'ouvrier",
+    "it": "Casacca da manovale",
+    "ja": "労働者のチュニック",
+    "ko": "노동자의 튜닉",
+    "nl": "Arbeiderstuniek",
+    "pt-BR": "Lã do Trabalho",
+    "ru": "Рабочая туника",
+    "tr": "Emekçi Kıyafeti",
+    "zh-CN": "劳工外衣",
+    "zh-TW": "勞工外衣"
+  },
+  "namePlain": {
+    "ar": "ثوب نصفي للعمل",
+    "de": "Arbeitertunika",
+    "en": "Labourer Tunic",
+    "es": "Vellocino de faena",
+    "fr": "Tunique d'ouvrier",
+    "fr-CA": "Tunique d'ouvrier",
+    "it": "Casacca da manovale",
+    "ja": "労働者のチュニック",
+    "ko": "노동자의 튜닉",
+    "nl": "Arbeiderstuniek",
+    "pt-BR": "Lã do Trabalho",
+    "ru": "Рабочая туника",
+    "tr": "Emekçi Kıyafeti",
+    "zh-CN": "劳工外衣",
+    "zh-TW": "勞工外衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_2.png"
+}

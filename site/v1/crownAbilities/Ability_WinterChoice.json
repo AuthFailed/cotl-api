@@ -1,0 +1,80 @@
+{
+  "cost": [
+    {
+      "item": "MONSTER_HEART",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "تشغيل أو إيقاف الشتاء من مزار إينغيا في ملاذ الحملان.",
+    "de": "Aktiviere oder deaktiviere den Winter an Yngyas Schrein in Wollhafen.",
+    "en": "Enable or disable winter from Yngya's shrine in Woolhaven.",
+    "es": "Activa o desactiva el invierno desde el santuario de Yngya en Vellones Elíseos.",
+    "fr": "Activez ou désactivez l'arrivée de l'hiver depuis l'Autel d'Yngya à Havrelaine.",
+    "fr-CA": "Activez ou désactivez l'arrivée de l'hiver depuis l'Autel d'Yngya à Havrelaine.",
+    "it": "Attiva o disattiva l'inverno dall'altare di Yngya nell'Aldilàna.",
+    "ja": "羊毛の聖域内にあるイングャの祭壇で、冬を有効化あるいは無効化できる。",
+    "ko": "포근쉼터 잉갸의 성지에서 겨울을 활성화 또는 비활성화합니다.",
+    "nl": "Schakel winter in of uit bij Yngya's altaar in Wolhaven.",
+    "pt-BR": "Ative ou desative o inverno a partir do santuário de Yngya em Santa Lã.",
+    "ru": "Вы можете призвать или прогнать зиму у алтаря Ингьи в Шерстополе.",
+    "tr": "Yüntepe'de Yngya'nın mabedini kullanarak kışı başlat veya bitir.",
+    "zh-CN": "启用或停用位于羊绒仙境的殷亚的圣坛。",
+    "zh-TW": "可在羊絨仙境的殷亞聖壇啟用或停用冬天。"
+  },
+  "descriptionPlain": {
+    "ar": "تشغيل أو إيقاف الشتاء من مزار إينغيا في ملاذ الحملان.",
+    "de": "Aktiviere oder deaktiviere den Winter an Yngyas Schrein in Wollhafen.",
+    "en": "Enable or disable winter from Yngya's shrine in Woolhaven.",
+    "es": "Activa o desactiva el invierno desde el santuario de Yngya en Vellones Elíseos.",
+    "fr": "Activez ou désactivez l'arrivée de l'hiver depuis l'Autel d'Yngya à Havrelaine.",
+    "fr-CA": "Activez ou désactivez l'arrivée de l'hiver depuis l'Autel d'Yngya à Havrelaine.",
+    "it": "Attiva o disattiva l'inverno dall'altare di Yngya nell'Aldilàna.",
+    "ja": "羊毛の聖域内にあるイングャの祭壇で、冬を有効化あるいは無効化できる。",
+    "ko": "포근쉼터 잉갸의 성지에서 겨울을 활성화 또는 비활성화합니다.",
+    "nl": "Schakel winter in of uit bij Yngya's altaar in Wolhaven.",
+    "pt-BR": "Ative ou desative o inverno a partir do santuário de Yngya em Santa Lã.",
+    "ru": "Вы можете призвать или прогнать зиму у алтаря Ингьи в Шерстополе.",
+    "tr": "Yüntepe'de Yngya'nın mabedini kullanarak kışı başlat veya bitir.",
+    "zh-CN": "启用或停用位于羊绒仙境的殷亚的圣坛。",
+    "zh-TW": "可在羊絨仙境的殷亞聖壇啟用或停用冬天。"
+  },
+  "dlc": true,
+  "icon": "icons/crownAbilities/Ability_WinterChoice.png",
+  "id": "Ability_WinterChoice",
+  "name": {
+    "ar": "لمسة الشتاء",
+    "de": "Berührung des Winters",
+    "en": "Winter's Touch",
+    "es": "Bendición gélida",
+    "fr": "Toucher hivernal",
+    "fr-CA": "Toucher hivernal",
+    "it": "Tocco dell'inverno",
+    "ja": "冬の指先",
+    "ko": "겨울의 손길",
+    "nl": "Winterberoering",
+    "pt-BR": "Toque Invernal",
+    "ru": "Дыхание зимы",
+    "tr": "Kış Dokunuşu",
+    "zh-CN": "冬日之触",
+    "zh-TW": "冬日之觸"
+  },
+  "namePlain": {
+    "ar": "لمسة الشتاء",
+    "de": "Berührung des Winters",
+    "en": "Winter's Touch",
+    "es": "Bendición gélida",
+    "fr": "Toucher hivernal",
+    "fr-CA": "Toucher hivernal",
+    "it": "Tocco dell'inverno",
+    "ja": "冬の指先",
+    "ko": "겨울의 손길",
+    "nl": "Winterberoering",
+    "pt-BR": "Toque Invernal",
+    "ru": "Дыхание зимы",
+    "tr": "Kış Dokunuşu",
+    "zh-CN": "冬日之触",
+    "zh-TW": "冬日之觸"
+  },
+  "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+}

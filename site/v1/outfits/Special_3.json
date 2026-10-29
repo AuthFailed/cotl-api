@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 10
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ثوب مزخرف للمناسبات الهامة.",
+    "de": "Prunkvolle Tracht für wichtige Anlässe.",
+    "en": "Ornamental dress for important occasions.",
+    "es": "Un vestido ornamental para ocasiones especiales.",
+    "fr": "Robe d'apparat pour les grandes occasions.",
+    "fr-CA": "Robe d'apparat pour les grandes occasions.",
+    "it": "Abito ornamentale per le occasioni importanti.",
+    "ja": "大切な儀式に着るための、飾り立てられた礼装",
+    "ko": "장식된 예복으로 중요할 때 입습니다.",
+    "nl": "Sierlijke jurk voor belangrijke gelegenheden.",
+    "pt-BR": "Vestido enfeitado para ocasiões importantes.",
+    "ru": "Мантия для особых ритуалов.",
+    "tr": "Önemli etkinlikler için simgesel bir kıyafet.",
+    "zh-CN": "重要场合穿着的展示服装。",
+    "zh-TW": "重要場合穿著的展示服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب مزخرف للمناسبات الهامة.",
+    "de": "Prunkvolle Tracht für wichtige Anlässe.",
+    "en": "Ornamental dress for important occasions.",
+    "es": "Un vestido ornamental para ocasiones especiales.",
+    "fr": "Robe d'apparat pour les grandes occasions.",
+    "fr-CA": "Robe d'apparat pour les grandes occasions.",
+    "it": "Abito ornamentale per le occasioni importanti.",
+    "ja": "大切な儀式に着るための、飾り立てられた礼装",
+    "ko": "장식된 예복으로 중요할 때 입습니다.",
+    "nl": "Sierlijke jurk voor belangrijke gelegenheden.",
+    "pt-BR": "Vestido enfeitado para ocasiões importantes.",
+    "ru": "Мантия для особых ритуалов.",
+    "tr": "Önemli etkinlikler için simgesel bir kıyafet.",
+    "zh-CN": "重要场合穿着的展示服装。",
+    "zh-TW": "重要場合穿著的展示服裝。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_3.png",
+  "id": "Special_3",
+  "name": {
+    "ar": "ثوب المراسم الطويل",
+    "de": "Zeremonienroben",
+    "en": "Ceremonial Robes",
+    "es": "Túnica ceremonial",
+    "fr": "Robe de cérémonie",
+    "fr-CA": "Robe de cérémonie",
+    "it": "Veste cerimoniale",
+    "ja": "儀式用のローブ",
+    "ko": "의식용 예복",
+    "nl": "Ceremonieel gewaad",
+    "pt-BR": "Trajes Cerimoniais",
+    "ru": "Церемониальный костюм",
+    "tr": "Tören Cübbesi",
+    "zh-CN": "仪式教服",
+    "zh-TW": "儀式教服"
+  },
+  "namePlain": {
+    "ar": "ثوب المراسم الطويل",
+    "de": "Zeremonienroben",
+    "en": "Ceremonial Robes",
+    "es": "Túnica ceremonial",
+    "fr": "Robe de cérémonie",
+    "fr-CA": "Robe de cérémonie",
+    "it": "Veste cerimoniale",
+    "ja": "儀式用のローブ",
+    "ko": "의식용 예복",
+    "nl": "Ceremonieel gewaad",
+    "pt-BR": "Trajes Cerimoniais",
+    "ru": "Церемониальный костюм",
+    "tr": "Tören Cübbesi",
+    "zh-CN": "仪式教服",
+    "zh-TW": "儀式教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_3.png"
+}

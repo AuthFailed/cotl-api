@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Poppy.png",
   "id": "Poppy",
   "name": {
     "en": "Poppy"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Poppy"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Poppy.png",
   "unlock": "Dungeon1"
 }

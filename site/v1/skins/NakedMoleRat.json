@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/NakedMoleRat.png",
   "id": "NakedMoleRat",
   "name": {
     "en": "MoleRat"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "MoleRat"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/NakedMoleRat.png",
   "unlock": "Dungeon6"
 }

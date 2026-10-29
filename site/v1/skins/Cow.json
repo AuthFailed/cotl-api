@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Cow.png",
   "id": "Cow",
   "name": {
     "en": "Cow"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Cow"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Cow.png",
   "unlock": "Dungeon1"
 }

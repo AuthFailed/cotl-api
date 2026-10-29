@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Crocodile.png",
   "id": "Crocodile",
   "name": {
     "en": "Crocodile"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Crocodile"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Crocodile.png",
   "unlock": "Dungeon3"
 }

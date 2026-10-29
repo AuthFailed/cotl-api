@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "ar": "زيّ أنيق للأتباع فارضي القواعد.",
+    "de": "Ein stilvolles Outfit für jene, die sich an Regeln halten.",
+    "en": "A sharp outfit for rule followers.",
+    "es": "Un conjunto elegante para quienes acatan las normas.",
+    "fr": "Pour ceux qui aiment faire régner la loi.",
+    "fr-CA": "Pour ceux qui aiment faire régner la loi.",
+    "it": "Un completo elegante per chi segue le regole.",
+    "ja": "規則を重視する信者のためのスマートな服装",
+    "ko": "지도하는 추종자를 위한 멋진 옷입니다.",
+    "nl": "Een scherpe outfit voor regelvolgers.",
+    "pt-BR": "Um traje estiloso para reger os seguidores.",
+    "ru": "Костюм, вызывающий уважение в последователях.",
+    "tr": "Kuralları takip etmeyi sevenler için şık bir kıyafet.",
+    "zh-CN": "遵守教规者穿着的利落服装。",
+    "zh-TW": "遵守教規者穿著的俐落服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ أنيق للأتباع فارضي القواعد.",
+    "de": "Ein stilvolles Outfit für jene, die sich an Regeln halten.",
+    "en": "A sharp outfit for rule followers.",
+    "es": "Un conjunto elegante para quienes acatan las normas.",
+    "fr": "Pour ceux qui aiment faire régner la loi.",
+    "fr-CA": "Pour ceux qui aiment faire régner la loi.",
+    "it": "Un completo elegante per chi segue le regole.",
+    "ja": "規則を重視する信者のためのスマートな服装",
+    "ko": "지도하는 추종자를 위한 멋진 옷입니다.",
+    "nl": "Een scherpe outfit voor regelvolgers.",
+    "pt-BR": "Um traje estiloso para reger os seguidores.",
+    "ru": "Костюм, вызывающий уважение в последователях.",
+    "tr": "Kuralları takip etmeyi sevenler için şık bir kıyafet.",
+    "zh-CN": "遵守教规者穿着的利落服装。",
+    "zh-TW": "遵守教規者穿著的俐落服裝。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_5.png",
+  "id": "DLC_5",
+  "name": {
+    "ar": "حُلة الضابط",
+    "de": "Offiziersanzug",
+    "en": "Officer Suit",
+    "es": "Traje de oficial",
+    "fr": "Costume d'officier",
+    "fr-CA": "Costume d'officier",
+    "it": "Tenuta da ufficiale",
+    "ja": "士官の制服",
+    "ko": "장교복",
+    "nl": "Officierspak",
+    "pt-BR": "Terno de Oficial",
+    "ru": "Офицерская броня",
+    "tr": "Subay Kıyafeti",
+    "zh-CN": "军官制服",
+    "zh-TW": "軍官制服"
+  },
+  "namePlain": {
+    "ar": "حُلة الضابط",
+    "de": "Offiziersanzug",
+    "en": "Officer Suit",
+    "es": "Traje de oficial",
+    "fr": "Costume d'officier",
+    "fr-CA": "Costume d'officier",
+    "it": "Tenuta da ufficiale",
+    "ja": "士官の制服",
+    "ko": "장교복",
+    "nl": "Officierspak",
+    "pt-BR": "Terno de Oficial",
+    "ru": "Офицерская броня",
+    "tr": "Subay Kıyafeti",
+    "zh-CN": "军官制服",
+    "zh-TW": "軍官制服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_5.png"
+}

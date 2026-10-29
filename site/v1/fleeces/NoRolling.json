@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك علاج قلب بعد إكمال كل موقع، مع سرعة حركة زائدة وصحة جديدة عند البدء. لا يمكنك التدحرج.",
+    "de": "Nach jedem Raum wird ein Herz geheilt; dein Bewegungstempo und deine Anfangsgesundheit steigen. Du kannst nicht rollen.",
+    "en": "Heal a heart after completing each room, increased movement speed and starting health. You cannot roll.",
+    "es": "Te curas un corazón tras cada sala y aumenta tu velocidad de movimiento y salud inicial. No puedes rodar.",
+    "fr": "Soigne un cœur à chaque zone terminée et augmente la vitesse de déplacement et la santé. Vous ne pouvez plus esquiver.",
+    "fr-CA": "Soigne un cœur à chaque zone terminée et augmente la vitesse de déplacement et la santé. Vous ne pouvez plus esquiver.",
+    "it": "Ti curi di un cuore al completamento di ogni stanza e hai velocità di movimento e salute iniziale aumentate, ma non puoi eseguire capriole.",
+    "ja": "部屋を踏破するたびにハートを1つ回復するほか、移動速度が上昇し、初期体力が増加する。回避ができなくなる。",
+    "ko": "방을 완료할 때마다 심장을 하나 회복하며, 이동 속도 및 시작 체력이 늘어납니다. 구르기를 할 수 없습니다.",
+    "nl": "Krijg een hart terug nadat je elke ruimte hebt voltooid. Je bewegingssnelheid en gezondheid aan het begin zijn verhoogd. Je kunt niet rollen.",
+    "pt-BR": "Cure um coração depois de completar cada sala, a velocidade de movimento e a saúde inicial serão aumentadas. Você não poderá rolar.",
+    "ru": "Вы не можете кувыркаться, но начинаете поход с большим количеством сердец, восстанавливаете по сердцу после прохождения каждого поля боя и передвигаетесь быстрее.",
+    "tr": "Her oda tamamladığında bir kalp yenilersin, hareket hızın ve başlangıç kalplerin artar. Yuvarlanamazsın.",
+    "zh-CN": "完成每个房间之后治疗一颗红心，增加移动速度与起始生命值。无法翻滚。",
+    "zh-TW": "完成每個房間之後治療一顆紅心，增加移動速度與起始生命值。無法翻滾。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك علاج قلب بعد إكمال كل موقع، مع سرعة حركة زائدة وصحة جديدة عند البدء. لا يمكنك التدحرج.",
+    "de": "Nach jedem Raum wird ein Herz geheilt; dein Bewegungstempo und deine Anfangsgesundheit steigen. Du kannst nicht rollen.",
+    "en": "Heal a heart after completing each room, increased movement speed and starting health. You cannot roll.",
+    "es": "Te curas un corazón tras cada sala y aumenta tu velocidad de movimiento y salud inicial. No puedes rodar.",
+    "fr": "Soigne un cœur à chaque zone terminée et augmente la vitesse de déplacement et la santé. Vous ne pouvez plus esquiver.",
+    "fr-CA": "Soigne un cœur à chaque zone terminée et augmente la vitesse de déplacement et la santé. Vous ne pouvez plus esquiver.",
+    "it": "Ti curi di un cuore al completamento di ogni stanza e hai velocità di movimento e salute iniziale aumentate, ma non puoi eseguire capriole.",
+    "ja": "部屋を踏破するたびにハートを1つ回復するほか、移動速度が上昇し、初期体力が増加する。回避ができなくなる。",
+    "ko": "방을 완료할 때마다 심장을 하나 회복하며, 이동 속도 및 시작 체력이 늘어납니다. 구르기를 할 수 없습니다.",
+    "nl": "Krijg een hart terug nadat je elke ruimte hebt voltooid. Je bewegingssnelheid en gezondheid aan het begin zijn verhoogd. Je kunt niet rollen.",
+    "pt-BR": "Cure um coração depois de completar cada sala, a velocidade de movimento e a saúde inicial serão aumentadas. Você não poderá rolar.",
+    "ru": "Вы не можете кувыркаться, но начинаете поход с большим количеством сердец, восстанавливаете по сердцу после прохождения каждого поля боя и передвигаетесь быстрее.",
+    "tr": "Her oda tamamladığında bir kalp yenilersin, hareket hızın ve başlangıç kalplerin artar. Yuvarlanamazsın.",
+    "zh-CN": "完成每个房间之后治疗一颗红心，增加移动速度与起始生命值。无法翻滚。",
+    "zh-TW": "完成每個房間之後治療一顆紅心，增加移動速度與起始生命值。無法翻滾。"
+  },
+  "fleece": 9,
+  "icon": "icons/fleeces/NoRolling.png",
+  "id": "NoRolling",
+  "name": {
+    "ar": "رداء الأرجل الثقيلة",
+    "de": "Vlies der Fußfessel",
+    "en": "Fleece of the Hobbled Heels",
+    "es": "Vellocino del talón cojo",
+    "fr": "Pelisse du boiteux",
+    "fr-CA": "Toison de l'éclopé",
+    "it": "Vello del piede torto",
+    "ja": "足枷の羊毛",
+    "ko": "절뚝거리는 발걸음의 양털",
+    "nl": "Vacht van hinkelhakken",
+    "pt-BR": "Lã do Pé Torto",
+    "ru": "Руно укрощённого сердца",
+    "tr": "Yıkılmaz Savaşçı Postu",
+    "zh-CN": "跛行之踵毛纺",
+    "zh-TW": "跛行之踵毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الأرجل الثقيلة",
+    "de": "Vlies der Fußfessel",
+    "en": "Fleece of the Hobbled Heels",
+    "es": "Vellocino del talón cojo",
+    "fr": "Pelisse du boiteux",
+    "fr-CA": "Toison de l'éclopé",
+    "it": "Vello del piede torto",
+    "ja": "足枷の羊毛",
+    "ko": "절뚝거리는 발걸음의 양털",
+    "nl": "Vacht van hinkelhakken",
+    "pt-BR": "Lã do Pé Torto",
+    "ru": "Руно укрощённого сердца",
+    "tr": "Yıkılmaz Savaşçı Postu",
+    "zh-CN": "跛行之踵毛纺",
+    "zh-TW": "跛行之踵毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/NoRolling.png"
+}

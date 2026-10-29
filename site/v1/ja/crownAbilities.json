@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Ability_BlackHeart",
+    "name": "内なる闇",
+    "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+  },
+  {
+    "id": "Ability_Eat",
+    "name": "飢餓",
+    "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+  },
+  {
+    "id": "Ability_Resurrection",
+    "name": "復活の儀",
+    "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+  },
+  {
+    "id": "Ability_TeleportHome",
+    "name": "偏在の権能",
+    "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+  },
+  {
+    "id": "Ability_WinterChoice",
+    "name": "冬の指先",
+    "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+  }
+]

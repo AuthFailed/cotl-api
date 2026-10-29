@@ -3,7 +3,7 @@
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Anglerfish.png",
     "id": "Anglerfish",
     "name": {
       "en": "Anglerfish"
@@ -11,14 +11,14 @@
     "namePlain": {
       "en": "Anglerfish"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Anglerfish.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Anteater.png",
     "id": "Anteater",
     "name": {
       "en": "Anteater"
@@ -26,14 +26,14 @@
     "namePlain": {
       "en": "Anteater"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Anteater.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Armadillo.png",
     "id": "Armadillo",
     "name": {
       "en": "Armadillo"
@@ -41,14 +41,14 @@
     "namePlain": {
       "en": "Armadillo"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Armadillo.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Axolotl.png",
     "id": "Axolotl",
     "name": {
       "en": "Axolotl"
@@ -56,14 +56,14 @@
     "namePlain": {
       "en": "Axolotl"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Axolotl.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Badger.png",
     "id": "Badger",
     "name": {
       "en": "Badger"
@@ -71,14 +71,14 @@
     "namePlain": {
       "en": "Badger"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Badger.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Bat.png",
     "id": "Bat",
     "name": {
       "en": "Bat"
@@ -86,14 +86,14 @@
     "namePlain": {
       "en": "Bat"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Bat.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/BatDemon.png",
     "id": "BatDemon",
     "name": {
       "en": "BatDemon"
@@ -101,14 +101,14 @@
     "namePlain": {
       "en": "BatDemon"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/BatDemon.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Bear.png",
     "id": "Bear",
     "name": {
       "en": "Bear"
@@ -116,14 +116,14 @@
     "namePlain": {
       "en": "Bear"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Bear.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Beaver.png",
     "id": "Beaver",
     "name": {
       "en": "Apple_4"
@@ -131,14 +131,14 @@
     "namePlain": {
       "en": "Apple_4"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Beaver.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Bee.png",
     "id": "Bee",
     "name": {
       "en": "Bee"
@@ -146,14 +146,14 @@
     "namePlain": {
       "en": "Bee"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Bee.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Beetle.png",
     "id": "Beetle",
     "name": {
       "en": "Beetle"
@@ -161,14 +161,14 @@
     "namePlain": {
       "en": "Beetle"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Beetle.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Beluga.png",
     "id": "Beluga",
     "name": {
       "en": "Beluga"
@@ -176,14 +176,14 @@
     "namePlain": {
       "en": "Beluga"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Beluga.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Bison.png",
     "id": "Bison",
     "name": {
       "en": "Bison"
@@ -191,14 +191,14 @@
     "namePlain": {
       "en": "Bison"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Bison.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_1.png",
     "id": "Boss_Beholder_1",
     "name": {
       "en": "Boss Beholder 1"
@@ -206,14 +206,14 @@
     "namePlain": {
       "en": "Boss Beholder 1"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_1.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_2.png",
     "id": "Boss_Beholder_2",
     "name": {
       "en": "Boss Beholder 2"
@@ -221,14 +221,14 @@
     "namePlain": {
       "en": "Boss Beholder 2"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_2.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_3.png",
     "id": "Boss_Beholder_3",
     "name": {
       "en": "Boss Beholder 3"
@@ -236,14 +236,14 @@
     "namePlain": {
       "en": "Boss Beholder 3"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_3.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_4.png",
     "id": "Boss_Beholder_4",
     "name": {
       "en": "Boss Beholder 4"
@@ -251,14 +251,14 @@
     "namePlain": {
       "en": "Boss Beholder 4"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_4.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_5.png",
     "id": "Boss_Beholder_5",
     "name": {
       "en": "Beholder 5"
@@ -266,14 +266,14 @@
     "namePlain": {
       "en": "Beholder 5"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_5.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Beholder_6.png",
     "id": "Boss_Beholder_6",
     "name": {
       "en": "Beholder 6"
@@ -281,14 +281,14 @@
     "namePlain": {
       "en": "Beholder 6"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Beholder_6.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Burrow_Worm.png",
     "id": "Boss_Burrow_Worm",
     "name": {
       "en": "Boss Burrow Worm"
@@ -296,14 +296,14 @@
     "namePlain": {
       "en": "Boss Burrow Worm"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Burrow_Worm.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Charger.png",
     "id": "Boss_Charger",
     "name": {
       "en": "Boss Charger"
@@ -311,14 +311,14 @@
     "namePlain": {
       "en": "Boss Charger"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Charger.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_1.png",
     "id": "Boss_Dog_1",
     "name": {
       "en": "Boss Dog 1"
@@ -326,14 +326,14 @@
     "namePlain": {
       "en": "Boss Dog 1"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_1.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_2.png",
     "id": "Boss_Dog_2",
     "name": {
       "en": "Boss Dog 2"
@@ -341,14 +341,14 @@
     "namePlain": {
       "en": "Boss Dog 2"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_2.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_3.png",
     "id": "Boss_Dog_3",
     "name": {
       "en": "Boss Dog 3"
@@ -356,14 +356,14 @@
     "namePlain": {
       "en": "Boss Dog 3"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_3.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_4.png",
     "id": "Boss_Dog_4",
     "name": {
       "en": "Boss Dog 4"
@@ -371,14 +371,14 @@
     "namePlain": {
       "en": "Boss Dog 4"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_4.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_5.png",
     "id": "Boss_Dog_5",
     "name": {
       "en": "Boss Dog 5"
@@ -386,14 +386,14 @@
     "namePlain": {
       "en": "Boss Dog 5"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_5.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Dog_6.png",
     "id": "Boss_Dog_6",
     "name": {
       "en": "Boss Dog 6"
@@ -401,14 +401,14 @@
     "namePlain": {
       "en": "Boss Dog 6"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Dog_6.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Egg_Hopper.png",
     "id": "Boss_Egg_Hopper",
     "name": {
       "en": "Boss Egg Hopper"
@@ -416,14 +416,14 @@
     "namePlain": {
       "en": "Boss Egg Hopper"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Egg_Hopper.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Flying_Burp_Frog.png",
     "id": "Boss_Flying_Burp_Frog",
     "name": {
       "en": "Boss Flying Burp Frog"
@@ -431,14 +431,14 @@
     "namePlain": {
       "en": "Boss Flying Burp Frog"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Flying_Burp_Frog.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Mama_Maggot.png",
     "id": "Boss_Mama_Maggot",
     "name": {
       "en": "Boss Mama Maggot"
@@ -446,14 +446,14 @@
     "namePlain": {
       "en": "Boss Mama Maggot"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Mama_Maggot.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Mama_Worm.png",
     "id": "Boss_Mama_Worm",
     "name": {
       "en": "Boss Mama Worm"
@@ -461,14 +461,14 @@
     "namePlain": {
       "en": "Boss Mama Worm"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Mama_Worm.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Millipede_Poisoner.png",
     "id": "Boss_Millipede_Poisoner",
     "name": {
       "en": "Boss Millipede Poisoner"
@@ -476,14 +476,14 @@
     "namePlain": {
       "en": "Boss Millipede Poisoner"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Millipede_Poisoner.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Mortar_Hopper.png",
     "id": "Boss_Mortar_Hopper",
     "name": {
       "en": "Boss Mortar Hopper"
@@ -491,14 +491,14 @@
     "namePlain": {
       "en": "Boss Mortar Hopper"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Mortar_Hopper.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Rot_1.png",
     "id": "Boss_Rot_1",
     "name": {
       "en": "Boss Rot 1"
@@ -506,14 +506,14 @@
     "namePlain": {
       "en": "Boss Rot 1"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Rot_1.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Rot_2.png",
     "id": "Boss_Rot_2",
     "name": {
       "en": "Boss Rot 2"
@@ -521,14 +521,14 @@
     "namePlain": {
       "en": "Boss Rot 2"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Rot_2.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Rot_3.png",
     "id": "Boss_Rot_3",
     "name": {
       "en": "Boss Rot 3"
@@ -536,14 +536,14 @@
     "namePlain": {
       "en": "Boss Rot 3"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Rot_3.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Rot_4.png",
     "id": "Boss_Rot_4",
     "name": {
       "en": "Boss Rot 4"
@@ -551,14 +551,14 @@
     "namePlain": {
       "en": "Boss Rot 4"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Rot_4.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Scorpion.png",
     "id": "Boss_Scorpion",
     "name": {
       "en": "Boss Scorpion"
@@ -566,14 +566,14 @@
     "namePlain": {
       "en": "Boss Scorpion"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Scorpion.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Scuttle_Turret.png",
     "id": "Boss_Scuttle_Turret",
     "name": {
       "en": "Boss Scuttle Turret"
@@ -581,14 +581,14 @@
     "namePlain": {
       "en": "Boss Scuttle Turret"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Scuttle_Turret.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Spider_Jump.png",
     "id": "Boss_Spider_Jump",
     "name": {
       "en": "Boss Spider Jump"
@@ -596,14 +596,14 @@
     "namePlain": {
       "en": "Boss Spider Jump"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Spider_Jump.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Boss_Spiker.png",
     "id": "Boss_Spiker",
     "name": {
       "en": "Boss Spiker"
@@ -611,14 +611,14 @@
     "namePlain": {
       "en": "Boss Spiker"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Boss_Spiker.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Bug.png",
     "id": "Bug",
     "name": {
       "en": "Bug"
@@ -626,14 +626,14 @@
     "namePlain": {
       "en": "Bug"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Bug.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/BugFive.png",
     "id": "BugFive",
     "name": {
       "en": "BugFive"
@@ -641,14 +641,14 @@
     "namePlain": {
       "en": "BugFive"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/BugFive.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/BugFour.png",
     "id": "BugFour",
     "name": {
       "en": "BugFour"
@@ -656,14 +656,14 @@
     "namePlain": {
       "en": "BugFour"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/BugFour.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/BugThree.png",
     "id": "BugThree",
     "name": {
       "en": "BugThree"
@@ -671,14 +671,14 @@
     "namePlain": {
       "en": "BugThree"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/BugThree.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/BugTwo.png",
     "id": "BugTwo",
     "name": {
       "en": "BugTwo"
@@ -686,14 +686,14 @@
     "namePlain": {
       "en": "BugTwo"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/BugTwo.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Butterfly.png",
     "id": "Butterfly",
     "name": {
       "en": "Butterfly"
@@ -701,14 +701,14 @@
     "namePlain": {
       "en": "Butterfly"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Butterfly.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Camel.png",
     "id": "Camel",
     "name": {
       "en": "Camel"
@@ -716,14 +716,14 @@
     "namePlain": {
       "en": "Camel"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Camel.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Capybara.png",
     "id": "Capybara",
     "name": {
       "en": "Capybara"
@@ -731,14 +731,14 @@
     "namePlain": {
       "en": "Capybara"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Capybara.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Cat.png",
     "id": "Cat",
     "name": {
       "en": "Cat"
@@ -746,14 +746,14 @@
     "namePlain": {
       "en": "Cat"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Cat.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Caterpillar.png",
     "id": "Caterpillar",
     "name": {
       "en": "Caterpillar"
@@ -761,14 +761,14 @@
     "namePlain": {
       "en": "Caterpillar"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Caterpillar.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Chameleon.png",
     "id": "Chameleon",
     "name": {
       "en": "Chameleon"
@@ -776,14 +776,14 @@
     "namePlain": {
       "en": "Chameleon"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Chameleon.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Chicken.png",
     "id": "Chicken",
     "name": {
       "en": "Chicken"
@@ -791,14 +791,14 @@
     "namePlain": {
       "en": "Chicken"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Chicken.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/ChosenChild.png",
     "id": "ChosenChild",
     "name": {
       "en": "ChosenChild"
@@ -806,14 +806,14 @@
     "namePlain": {
       "en": "ChosenChild"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/ChosenChild.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Cow.png",
     "id": "Cow",
     "name": {
       "en": "Cow"
@@ -821,14 +821,14 @@
     "namePlain": {
       "en": "Cow"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Cow.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Crab.png",
     "id": "Crab",
     "name": {
       "en": "Crab"
@@ -836,14 +836,14 @@
     "namePlain": {
       "en": "Crab"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Crab.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Crocodile.png",
     "id": "Crocodile",
     "name": {
       "en": "Crocodile"
@@ -851,14 +851,14 @@
     "namePlain": {
       "en": "Crocodile"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Crocodile.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Crow.png",
     "id": "Crow",
     "name": {
       "en": "Crow"
@@ -866,14 +866,14 @@
     "namePlain": {
       "en": "Crow"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Crow.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Cthulhu.png",
     "id": "Cthulhu",
     "name": {
       "en": "Cthulhu"
@@ -881,14 +881,14 @@
     "namePlain": {
       "en": "Cthulhu"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Cthulhu.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Deer.png",
     "id": "Deer",
     "name": {
       "en": "Deer"
@@ -896,14 +896,14 @@
     "namePlain": {
       "en": "Deer"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Deer.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/DeerSkull.png",
     "id": "DeerSkull",
     "name": {
       "en": "DeerSkull"
@@ -911,14 +911,14 @@
     "namePlain": {
       "en": "DeerSkull"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DeerSkull.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Deer_ritual.png",
     "id": "Deer_ritual",
     "name": {
       "en": "DeerRitual"
@@ -926,14 +926,14 @@
     "namePlain": {
       "en": "DeerRitual"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Deer_ritual.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Dog.png",
     "id": "Dog",
     "name": {
       "en": "Dog"
@@ -941,14 +941,14 @@
     "namePlain": {
       "en": "Dog"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Dog.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/DogTeddy.png",
     "id": "DogTeddy",
     "name": {
       "en": "DogTeddy"
@@ -956,14 +956,14 @@
     "namePlain": {
       "en": "DogTeddy"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DogTeddy.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Dragon.png",
     "id": "Dragon",
     "name": {
       "en": "Dragon"
@@ -971,14 +971,14 @@
     "namePlain": {
       "en": "Dragon"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Dragon.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/DragonFive.png",
     "id": "DragonFive",
     "name": {
       "en": "DragonFive"
@@ -986,14 +986,14 @@
     "namePlain": {
       "en": "DragonFive"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DragonFive.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/DragonFour.png",
     "id": "DragonFour",
     "name": {
       "en": "DragonFour"
@@ -1001,14 +1001,14 @@
     "namePlain": {
       "en": "DragonFour"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DragonFour.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/DragonThree.png",
     "id": "DragonThree",
     "name": {
       "en": "DragonThree"
@@ -1016,14 +1016,14 @@
     "namePlain": {
       "en": "DragonThree"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DragonThree.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/DragonTwo.png",
     "id": "DragonTwo",
     "name": {
       "en": "DragonTwo"
@@ -1031,14 +1031,14 @@
     "namePlain": {
       "en": "DragonTwo"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/DragonTwo.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Duck.png",
     "id": "Duck",
     "name": {
       "en": "Duck"
@@ -1046,14 +1046,14 @@
     "namePlain": {
       "en": "Duck"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Duck.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Eagle.png",
     "id": "Eagle",
     "name": {
       "en": "Eagle"
@@ -1061,14 +1061,14 @@
     "namePlain": {
       "en": "Eagle"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Eagle.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Elephant.png",
     "id": "Elephant",
     "name": {
       "en": "Elephant"
@@ -1076,14 +1076,14 @@
     "namePlain": {
       "en": "Elephant"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Elephant.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Enchida.png",
     "id": "Enchida",
     "name": {
       "en": "Enchida"
@@ -1091,14 +1091,14 @@
     "namePlain": {
       "en": "Enchida"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Enchida.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Fennec_Fox.png",
     "id": "Fennec_Fox",
     "name": {
       "en": "Fennec Fox"
@@ -1106,14 +1106,14 @@
     "namePlain": {
       "en": "Fennec Fox"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Fennec_Fox.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Fish.png",
     "id": "Fish",
     "name": {
       "en": "Fish"
@@ -1121,14 +1121,14 @@
     "namePlain": {
       "en": "Fish"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Fish.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Fly.png",
     "id": "Fly",
     "name": {
       "en": "Fly"
@@ -1136,14 +1136,14 @@
     "namePlain": {
       "en": "Fly"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Fly.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Fox.png",
     "id": "Fox",
     "name": {
       "en": "Fox"
@@ -1151,14 +1151,14 @@
     "namePlain": {
       "en": "Fox"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Fox.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Frog.png",
     "id": "Frog",
     "name": {
       "en": "Frog"
@@ -1166,14 +1166,14 @@
     "namePlain": {
       "en": "Frog"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Frog.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Giraffe.png",
     "id": "Giraffe",
     "name": {
       "en": "Giraffe"
@@ -1181,14 +1181,14 @@
     "namePlain": {
       "en": "Giraffe"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Giraffe.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Goldfish.png",
     "id": "Goldfish",
     "name": {
       "en": "Goldfish"
@@ -1196,14 +1196,14 @@
     "namePlain": {
       "en": "Goldfish"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Goldfish.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Gorilla.png",
     "id": "Gorilla",
     "name": {
       "en": "Gorilla"
@@ -1211,14 +1211,14 @@
     "namePlain": {
       "en": "Gorilla"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Gorilla.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Hammerhead.png",
     "id": "Hammerhead",
     "name": {
       "en": "Hammerhead"
@@ -1226,14 +1226,14 @@
     "namePlain": {
       "en": "Hammerhead"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Hammerhead.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Hedgehog.png",
     "id": "Hedgehog",
     "name": {
       "en": "Hedgehog"
@@ -1241,14 +1241,14 @@
     "namePlain": {
       "en": "Hedgehog"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Hedgehog.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Hippo.png",
     "id": "Hippo",
     "name": {
       "en": "Hippo"
@@ -1256,14 +1256,14 @@
     "namePlain": {
       "en": "Hippo"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Hippo.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Horse.png",
     "id": "Horse",
     "name": {
       "en": "Horse"
@@ -1271,14 +1271,14 @@
     "namePlain": {
       "en": "Horse"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Horse.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Hyena.png",
     "id": "Hyena",
     "name": {
       "en": "Hyena"
@@ -1286,14 +1286,14 @@
     "namePlain": {
       "en": "Hyena"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Hyena.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Ibex.png",
     "id": "Ibex",
     "name": {
       "en": "Ibex"
@@ -1301,14 +1301,14 @@
     "namePlain": {
       "en": "Ibex"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Ibex.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/IceGore.png",
     "id": "IceGore",
     "name": {
       "en": "IceGore"
@@ -1316,14 +1316,14 @@
     "namePlain": {
       "en": "IceGore"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/IceGore.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Jackalope.png",
     "id": "Jackalope",
     "name": {
       "en": "Jackalope"
@@ -1331,14 +1331,14 @@
     "namePlain": {
       "en": "Jackalope"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Jackalope.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Jellyfish.png",
     "id": "Jellyfish",
     "name": {
       "en": "JellyFish"
@@ -1346,14 +1346,14 @@
     "namePlain": {
       "en": "JellyFish"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Jellyfish.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Kiwi.png",
     "id": "Kiwi",
     "name": {
       "en": "Kiwi"
@@ -1361,14 +1361,14 @@
     "namePlain": {
       "en": "Kiwi"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Kiwi.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Koala.png",
     "id": "Koala",
     "name": {
       "en": "Koala"
@@ -1376,14 +1376,14 @@
     "namePlain": {
       "en": "Koala"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Koala.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/LadyBug.png",
     "id": "LadyBug",
     "name": {
       "en": "LadyBug"
@@ -1391,14 +1391,14 @@
     "namePlain": {
       "en": "LadyBug"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/LadyBug.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Lamb.png",
     "id": "Lamb",
     "name": {
       "en": "Lamb"
@@ -1406,14 +1406,14 @@
     "namePlain": {
       "en": "Lamb"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Lamb.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Leech.png",
     "id": "Leech",
     "name": {
       "en": "Leech"
@@ -1421,14 +1421,14 @@
     "namePlain": {
       "en": "Leech"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Leech.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Lemur.png",
     "id": "Lemur",
     "name": {
       "en": "Lemur"
@@ -1436,14 +1436,14 @@
     "namePlain": {
       "en": "Lemur"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Lemur.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Leopard.png",
     "id": "Leopard",
     "name": {
       "en": "Leopard"
@@ -1451,14 +1451,14 @@
     "namePlain": {
       "en": "Leopard"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Leopard.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Lion.png",
     "id": "Lion",
     "name": {
       "en": "Lion"
@@ -1466,14 +1466,14 @@
     "namePlain": {
       "en": "Lion"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Lion.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Lizard.png",
     "id": "Lizard",
     "name": {
       "en": "Lizard"
@@ -1481,14 +1481,14 @@
     "namePlain": {
       "en": "Lizard"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Lizard.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/LizardTongue.png",
     "id": "LizardTongue",
     "name": {
       "en": "LizardTongue"
@@ -1496,14 +1496,14 @@
     "namePlain": {
       "en": "LizardTongue"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/LizardTongue.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Llama.png",
     "id": "Llama",
     "name": {
       "en": "Llama"
@@ -1511,14 +1511,14 @@
     "namePlain": {
       "en": "Llama"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Llama.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Lobster.png",
     "id": "Lobster",
     "name": {
       "en": "Apple_5"
@@ -1526,14 +1526,14 @@
     "namePlain": {
       "en": "Apple_5"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Lobster.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Maggot.png",
     "id": "Maggot",
     "name": {
       "en": "Maggot"
@@ -1541,14 +1541,14 @@
     "namePlain": {
       "en": "Maggot"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Maggot.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Mammoth.png",
     "id": "Mammoth",
     "name": {
       "en": "Mammoth"
@@ -1556,14 +1556,14 @@
     "namePlain": {
       "en": "Mammoth"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Mammoth.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/MassiveMonster.png",
     "id": "MassiveMonster",
     "name": {
       "en": "Massive Monster"
@@ -1571,14 +1571,14 @@
     "namePlain": {
       "en": "Massive Monster"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/MassiveMonster.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Mole.png",
     "id": "Mole",
     "name": {
       "en": "Mole"
@@ -1586,14 +1586,14 @@
     "namePlain": {
       "en": "Mole"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Mole.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Monkey.png",
     "id": "Monkey",
     "name": {
       "en": "Monkey"
@@ -1601,14 +1601,14 @@
     "namePlain": {
       "en": "Monkey"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Monkey.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Moose.png",
     "id": "Moose",
     "name": {
       "en": "Moose"
@@ -1616,14 +1616,14 @@
     "namePlain": {
       "en": "Moose"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Moose.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Mosquito.png",
     "id": "Mosquito",
     "name": {
       "en": "Mosquito"
@@ -1631,14 +1631,14 @@
     "namePlain": {
       "en": "Mosquito"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Mosquito.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Moth.png",
     "id": "Moth",
     "name": {
       "en": "Moth"
@@ -1646,14 +1646,14 @@
     "namePlain": {
       "en": "Moth"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Moth.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Mushroom.png",
     "id": "Mushroom",
     "name": {
       "en": "Mushroom"
@@ -1661,14 +1661,14 @@
     "namePlain": {
       "en": "Mushroom"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Mushroom.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/NakedMoleRat.png",
     "id": "NakedMoleRat",
     "name": {
       "en": "MoleRat"
@@ -1676,14 +1676,14 @@
     "namePlain": {
       "en": "MoleRat"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/NakedMoleRat.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Narwal.png",
     "id": "Narwal",
     "name": {
       "en": "Narwal"
@@ -1691,14 +1691,14 @@
     "namePlain": {
       "en": "Narwal"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Narwal.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Nightwolf.png",
     "id": "Nightwolf",
     "name": {
       "en": "Night Wolf"
@@ -1706,14 +1706,14 @@
     "namePlain": {
       "en": "Night Wolf"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Nightwolf.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Orangutan.png",
     "id": "Orangutan",
     "name": {
       "en": "Apple_1"
@@ -1721,14 +1721,14 @@
     "namePlain": {
       "en": "Apple_1"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Orangutan.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Orca.png",
     "id": "Orca",
     "name": {
       "en": "Orca"
@@ -1736,14 +1736,14 @@
     "namePlain": {
       "en": "Orca"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Orca.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Otter.png",
     "id": "Otter",
     "name": {
       "en": "Otter"
@@ -1751,14 +1751,14 @@
     "namePlain": {
       "en": "Otter"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Otter.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Owl.png",
     "id": "Owl",
     "name": {
       "en": "Owl"
@@ -1766,7 +1766,7 @@
     "namePlain": {
       "en": "Owl"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Owl.png",
     "unlock": "Other"
   },
   {
@@ -1848,7 +1848,7 @@
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Panda.png",
     "id": "Panda",
     "name": {
       "en": "Panda"
@@ -1856,14 +1856,14 @@
     "namePlain": {
       "en": "Panda"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Panda.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Pangolin.png",
     "id": "Pangolin",
     "name": {
       "en": "Pangolin"
@@ -1871,14 +1871,14 @@
     "namePlain": {
       "en": "Pangolin"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Pangolin.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Pelican.png",
     "id": "Pelican",
     "name": {
       "en": "Pelican"
@@ -1886,14 +1886,14 @@
     "namePlain": {
       "en": "Pelican"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Pelican.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Penguin.png",
     "id": "Penguin",
     "name": {
       "en": "Penguin"
@@ -1901,14 +1901,14 @@
     "namePlain": {
       "en": "Penguin"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Penguin.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Pig.png",
     "id": "Pig",
     "name": {
       "en": "Pig"
@@ -1916,14 +1916,14 @@
     "namePlain": {
       "en": "Pig"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Pig.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/PolarBear.png",
     "id": "PolarBear",
     "name": {
       "en": "Polar Bear"
@@ -1931,14 +1931,14 @@
     "namePlain": {
       "en": "Polar Bear"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/PolarBear.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Poop.png",
     "id": "Poop",
     "name": {
       "en": "Poop"
@@ -1946,14 +1946,14 @@
     "namePlain": {
       "en": "Poop"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Poop.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Poppy.png",
     "id": "Poppy",
     "name": {
       "en": "Poppy"
@@ -1961,14 +1961,14 @@
     "namePlain": {
       "en": "Poppy"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Poppy.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Possum.png",
     "id": "Possum",
     "name": {
       "en": "Possum"
@@ -1976,14 +1976,14 @@
     "namePlain": {
       "en": "Possum"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Possum.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Pudding.png",
     "id": "Pudding",
     "name": {
       "en": "Pudding"
@@ -1991,14 +1991,14 @@
     "namePlain": {
       "en": "Pudding"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Pudding.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Rabbit.png",
     "id": "Rabbit",
     "name": {
       "en": "Rabbit"
@@ -2006,14 +2006,14 @@
     "namePlain": {
       "en": "Rabbit"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Rabbit.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Raccoon.png",
     "id": "Raccoon",
     "name": {
       "en": "Racoon"
@@ -2021,14 +2021,14 @@
     "namePlain": {
       "en": "Racoon"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Raccoon.png",
     "unlock": "Dungeon4"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Red_Panda.png",
     "id": "Red_Panda",
     "name": {
       "en": "Red Panda"
@@ -2036,14 +2036,14 @@
     "namePlain": {
       "en": "Red Panda"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Red_Panda.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Reindeer.png",
     "id": "Reindeer",
     "name": {
       "en": "Reindeer"
@@ -2051,14 +2051,14 @@
     "namePlain": {
       "en": "Reindeer"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Reindeer.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Rhino.png",
     "id": "Rhino",
     "name": {
       "en": "Rhino"
@@ -2066,14 +2066,14 @@
     "namePlain": {
       "en": "Rhino"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Rhino.png",
     "unlock": "Dungeon2"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Robin.png",
     "id": "Robin",
     "name": {
       "en": "Apple_2"
@@ -2081,14 +2081,14 @@
     "namePlain": {
       "en": "Apple_2"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Robin.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/SeaButterfly.png",
     "id": "SeaButterfly",
     "name": {
       "en": "SeaButterfly"
@@ -2096,14 +2096,14 @@
     "namePlain": {
       "en": "SeaButterfly"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/SeaButterfly.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Seahorse.png",
     "id": "Seahorse",
     "name": {
       "en": "Seahorse"
@@ -2111,14 +2111,14 @@
     "namePlain": {
       "en": "Seahorse"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Seahorse.png",
     "unlock": "Dungeon3"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Seal.png",
     "id": "Seal",
     "name": {
       "en": "Seal"
@@ -2126,14 +2126,14 @@
     "namePlain": {
       "en": "Seal"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Seal.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Shrew.png",
     "id": "Shrew",
     "name": {
       "en": "Shrew"
@@ -2141,14 +2141,14 @@
     "namePlain": {
       "en": "Shrew"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Shrew.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Shrimp.png",
     "id": "Shrimp",
     "name": {
       "en": "Shrimp"
@@ -2156,14 +2156,14 @@
     "namePlain": {
       "en": "Shrimp"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Shrimp.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Skunk.png",
     "id": "Skunk",
     "name": {
       "en": "Skunk"
@@ -2171,14 +2171,14 @@
     "namePlain": {
       "en": "Skunk"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Skunk.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Snail.png",
     "id": "Snail",
     "name": {
       "en": "Snail"
@@ -2186,14 +2186,14 @@
     "namePlain": {
       "en": "Snail"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Snail.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Snake.png",
     "id": "Snake",
     "name": {
       "en": "Snake"
@@ -2201,14 +2201,14 @@
     "namePlain": {
       "en": "Snake"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Snake.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/SnowMonkey.png",
     "id": "SnowMonkey",
     "name": {
       "en": "SnowMonkey"
@@ -2216,14 +2216,14 @@
     "namePlain": {
       "en": "SnowMonkey"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/SnowMonkey.png",
     "unlock": "Dungeon5"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Sphynx.png",
     "id": "Sphynx",
     "name": {
       "en": "Sphynx"
@@ -2231,14 +2231,14 @@
     "namePlain": {
       "en": "Sphynx"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Sphynx.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Squirrel.png",
     "id": "Squirrel",
     "name": {
       "en": "Squirrel"
@@ -2246,14 +2246,14 @@
     "namePlain": {
       "en": "Squirrel"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Squirrel.png",
     "unlock": "Dungeon1"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/StarBunny.png",
     "id": "StarBunny",
     "name": {
       "en": "StarBunny"
@@ -2261,14 +2261,14 @@
     "namePlain": {
       "en": "StarBunny"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/StarBunny.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Starfish.png",
     "id": "Starfish",
     "name": {
       "en": "Starfish"
@@ -2276,14 +2276,14 @@
     "namePlain": {
       "en": "Starfish"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Starfish.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Tapir.png",
     "id": "Tapir",
     "name": {
       "en": "Tapir"
@@ -2291,14 +2291,14 @@
     "namePlain": {
       "en": "Tapir"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Tapir.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Tiger.png",
     "id": "Tiger",
     "name": {
       "en": "Tiger"
@@ -2306,14 +2306,14 @@
     "namePlain": {
       "en": "Tiger"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Tiger.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Trout.png",
     "id": "Trout",
     "name": {
       "en": "Apple_3"
@@ -2321,14 +2321,14 @@
     "namePlain": {
       "en": "Apple_3"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Trout.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Turtle.png",
     "id": "Turtle",
     "name": {
       "en": "Turtle"
@@ -2336,14 +2336,14 @@
     "namePlain": {
       "en": "Turtle"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Turtle.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/TwitchCat.png",
     "id": "TwitchCat",
     "name": {
       "en": "TwitchCat"
@@ -2351,14 +2351,14 @@
     "namePlain": {
       "en": "TwitchCat"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/TwitchCat.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/TwitchDog.png",
     "id": "TwitchDog",
     "name": {
       "en": "TwitchDog"
@@ -2366,14 +2366,14 @@
     "namePlain": {
       "en": "TwitchDog"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/TwitchDog.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/TwitchDogAlt.png",
     "id": "TwitchDogAlt",
     "name": {
       "en": "TwitchDogAlt"
@@ -2381,14 +2381,14 @@
     "namePlain": {
       "en": "TwitchDogAlt"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/TwitchDogAlt.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/TwitchMouse.png",
     "id": "TwitchMouse",
     "name": {
       "en": "TwitchMouse"
@@ -2396,14 +2396,14 @@
     "namePlain": {
       "en": "TwitchMouse"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/TwitchMouse.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/TwitchPoggers.png",
     "id": "TwitchPoggers",
     "name": {
       "en": "TwitchPoggers"
@@ -2411,14 +2411,14 @@
     "namePlain": {
       "en": "TwitchPoggers"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/TwitchPoggers.png",
     "unlock": "DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Unicorn.png",
     "id": "Unicorn",
     "name": {
       "en": "Unicorn"
@@ -2426,14 +2426,14 @@
     "namePlain": {
       "en": "Unicorn"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Unicorn.png",
     "unlock": "Other"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Volvy.png",
     "id": "Volvy",
     "name": {
       "en": "Volvy"
@@ -2441,14 +2441,14 @@
     "namePlain": {
       "en": "Volvy"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Volvy.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Vulture.png",
     "id": "Vulture",
     "name": {
       "en": "Vulture"
@@ -2456,14 +2456,14 @@
     "namePlain": {
       "en": "Vulture"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Vulture.png",
     "unlock": "Dungeon6"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": true,
-    "icon": null,
+    "icon": "icons/skins/Webber.png",
     "id": "Webber",
     "name": {
       "en": "Webber"
@@ -2471,14 +2471,14 @@
     "namePlain": {
       "en": "Webber"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Webber.png",
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Wombat.png",
     "id": "Wombat",
     "name": {
       "en": "Wombat"
@@ -2486,14 +2486,14 @@
     "namePlain": {
       "en": "Wombat"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Wombat.png",
     "unlock": "Major_DLC"
   },
   {
     "description": {},
     "descriptionPlain": {},
     "hidden": false,
-    "icon": null,
+    "icon": "icons/skins/Worm.png",
     "id": "Worm",
     "name": {
       "en": "Worm"
@@ -2501,7 +2501,7 @@
     "namePlain": {
       "en": "Worm"
     },
-    "thumb": null,
+    "thumb": "icons/skins/64/Worm.png",
     "unlock": "Other"
   }
 ]

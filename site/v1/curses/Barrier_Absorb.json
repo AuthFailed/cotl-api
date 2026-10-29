@@ -1,0 +1,26 @@
+{
+  "canAim": true,
+  "castingDuration": 0.5,
+  "chance": 1.0,
+  "damage": 1.0,
+  "delay": 0.5,
+  "description": {
+    "en": "Create a barrier that draws projectiles toward it and abosrbs them."
+  },
+  "descriptionPlain": {
+    "en": "Create a barrier that draws projectiles toward it and abosrbs them."
+  },
+  "family": "Barrier",
+  "icon": "icons/curses/Barrier_Absorb.png",
+  "id": "Barrier_Absorb",
+  "lore": {
+    "en": "Draw them closer to their demise."
+  },
+  "name": {
+    "en": "Hungering Gate"
+  },
+  "namePlain": {
+    "en": "Hungering Gate"
+  },
+  "thumb": "icons/curses/64/Barrier_Absorb.png"
+}

@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Ability_BlackHeart",
+    "name": "Escuridão Interior",
+    "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+  },
+  {
+    "id": "Ability_Eat",
+    "name": "A Fome",
+    "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+  },
+  {
+    "id": "Ability_Resurrection",
+    "name": "Ressurreição",
+    "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+  },
+  {
+    "id": "Ability_TeleportHome",
+    "name": "Onipresença",
+    "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+  },
+  {
+    "id": "Ability_WinterChoice",
+    "name": "Toque Invernal",
+    "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+  }
+]

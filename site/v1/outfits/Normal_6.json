@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "SPIDER_WEB",
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "ar": "زيّ مناسب للمهام اليومية.",
+    "de": "Ein zweckmäßiges Outfit für Alltagsaufgaben.",
+    "en": "A sensible outfit for everyday tasks.",
+    "es": "Un atuendo sencillo para las tareas del día a día.",
+    "fr": "Une tenue de tous les jours.",
+    "fr-CA": "Une tenue de tous les jours.",
+    "it": "Un indumento equilibrato, adatto alle attività di tutti i giorni.",
+    "ja": "日々の作業がしやすいようにデザインされた服",
+    "ko": "일상의 업무를 위한 실용적인 옷입니다.",
+    "nl": "Een verstandige outfit voor alledaagse taken.",
+    "pt-BR": "Um traje prático para as tarefas diárias.",
+    "ru": "Удобная одежда на каждый день.",
+    "tr": "Günlük işler için rahat bir giysi.",
+    "zh-CN": "适合日常工作的实用服装。",
+    "zh-TW": "適合日常工作的實用服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "زيّ مناسب للمهام اليومية.",
+    "de": "Ein zweckmäßiges Outfit für Alltagsaufgaben.",
+    "en": "A sensible outfit for everyday tasks.",
+    "es": "Un atuendo sencillo para las tareas del día a día.",
+    "fr": "Une tenue de tous les jours.",
+    "fr-CA": "Une tenue de tous les jours.",
+    "it": "Un indumento equilibrato, adatto alle attività di tutti i giorni.",
+    "ja": "日々の作業がしやすいようにデザインされた服",
+    "ko": "일상의 업무를 위한 실용적인 옷입니다.",
+    "nl": "Een verstandige outfit voor alledaagse taken.",
+    "pt-BR": "Um traje prático para as tarefas diárias.",
+    "ru": "Удобная одежда на каждый день.",
+    "tr": "Günlük işler için rahat bir giysi.",
+    "zh-CN": "适合日常工作的实用服装。",
+    "zh-TW": "適合日常工作的實用服裝。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_6.png",
+  "id": "Normal_6",
+  "name": {
+    "ar": "ثوب مناسب",
+    "de": "Zweckmäßiges Kleid",
+    "en": "Sensible Dress",
+    "es": "Vestido sencillo",
+    "fr": "Tenue classique",
+    "fr-CA": "Tenue classique",
+    "it": "Veste posata",
+    "ja": "実用的な礼装",
+    "ko": "실용적인 드레스",
+    "nl": "Verstandige jurk",
+    "pt-BR": "Vestido Prático",
+    "ru": "Практичное платье",
+    "tr": "Rahat Giysi",
+    "zh-CN": "实用服装",
+    "zh-TW": "實用服裝"
+  },
+  "namePlain": {
+    "ar": "ثوب مناسب",
+    "de": "Zweckmäßiges Kleid",
+    "en": "Sensible Dress",
+    "es": "Vestido sencillo",
+    "fr": "Tenue classique",
+    "fr-CA": "Tenue classique",
+    "it": "Veste posata",
+    "ja": "実用的な礼装",
+    "ko": "실용적인 드레스",
+    "nl": "Verstandige jurk",
+    "pt-BR": "Vestido Prático",
+    "ru": "Практичное платье",
+    "tr": "Rahat Giysi",
+    "zh-CN": "实用服装",
+    "zh-TW": "實用服裝"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_6.png"
+}

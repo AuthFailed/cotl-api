@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمنح الحَمَل الشعور بالحرية! <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Lass das Lamm frei und nackt sein! Gewährt keine Boni.",
+    "en": "Let the Lamb be free and naked! <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "¡Libera al Cordero y que se pasee en cueros! No otorga nada especial.",
+    "fr": "L'Agneau dans sa tenue la plus pure ! N'octroie aucun bonus.",
+    "fr-CA": "L'Agneau dans sa tenue la plus pure! <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Che l'Agnello sia libero e nudo!<color=\"grey\"><br>Non fornisce bonus.",
+    "ja": "子羊を開放し、ありのままの姿に！ ボーナスなし。",
+    "ko": "어린 양을 자유롭고 벌거벗게 합니다! <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Laat het Lam vrij en naakt zijn! <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Que o Cordeiro viva livre e nu! Não fornece nenhum bônus.",
+    "ru": "Отсутствие всякого одеяния. Не даёт преимуществ.",
+    "tr": "Kuzu hiç olmadığı kadar özgür hissedecek! <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "让圣羊自由赤裸吧！没有特殊效果。",
+    "zh-TW": "讓聖羊自由赤裸吧！沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "يمنح الحَمَل الشعور بالحرية!\nلا يمنح مزايا.",
+    "de": "Lass das Lamm frei und nackt sein! Gewährt keine Boni.",
+    "en": "Let the Lamb be free and naked!\nProvides no bonuses.",
+    "es": "¡Libera al Cordero y que se pasee en cueros! No otorga nada especial.",
+    "fr": "L'Agneau dans sa tenue la plus pure! N'octroie aucun bonus.",
+    "fr-CA": "L'Agneau dans sa tenue la plus pure!\nN'octroie aucun bonus.",
+    "it": "Che l'Agnello sia libero e nudo!\nNon fornisce bonus.",
+    "ja": "子羊を開放し、ありのままの姿に！ ボーナスなし。",
+    "ko": "어린 양을 자유롭고 벌거벗게 합니다!\n특별한 효과는 없습니다.",
+    "nl": "Laat het Lam vrij en naakt zijn!\nGeeft geen bonussen.",
+    "pt-BR": "Que o Cordeiro viva livre e nu! Não fornece nenhum bônus.",
+    "ru": "Отсутствие всякого одеяния. Не даёт преимуществ.",
+    "tr": "Kuzu hiç olmadığı kadar özgür hissedecek!\nİlave özellik sağlamaz.",
+    "zh-CN": "让圣羊自由赤裸吧！没有特殊效果。",
+    "zh-TW": "讓聖羊自由赤裸吧！沒有特殊效果。"
+  },
+  "fleece": 1001,
+  "icon": "icons/fleeces/Outfit_1001.png",
+  "id": "Outfit_1001",
+  "name": {
+    "ar": "رداء الطبيعة",
+    "de": "Vlies des Natürlichen",
+    "en": "Fleece of the Natural",
+    "es": "Vellocino natural",
+    "fr": "Pelisse naturelle",
+    "fr-CA": "Toison naturelle",
+    "it": "Vello naturale",
+    "ja": "有り体の羊毛",
+    "ko": "자연스러움의 양털",
+    "nl": "Vacht van het natuurlijke",
+    "pt-BR": "Lã da Natureza",
+    "ru": "Руно естественности",
+    "tr": "Doğal Post",
+    "zh-CN": "自然毛纺",
+    "zh-TW": "自然毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الطبيعة",
+    "de": "Vlies des Natürlichen",
+    "en": "Fleece of the Natural",
+    "es": "Vellocino natural",
+    "fr": "Pelisse naturelle",
+    "fr-CA": "Toison naturelle",
+    "it": "Vello naturale",
+    "ja": "有り体の羊毛",
+    "ko": "자연스러움의 양털",
+    "nl": "Vacht van het natuurlijke",
+    "pt-BR": "Lã da Natureza",
+    "ru": "Руно естественности",
+    "tr": "Doğal Post",
+    "zh-CN": "自然毛纺",
+    "zh-TW": "自然毛紡"
+  },
+  "pack": "sinful",
+  "thumb": "icons/fleeces/64/Outfit_1001.png"
+}

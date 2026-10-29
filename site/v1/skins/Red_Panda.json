@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Red_Panda.png",
   "id": "Red_Panda",
   "name": {
     "en": "Red Panda"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Red Panda"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Red_Panda.png",
   "unlock": "Other"
 }

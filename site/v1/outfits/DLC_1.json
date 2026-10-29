@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 1
+    },
+    {
+      "item": "COTTON",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "لألطف الأتباع فقط.",
+    "de": "Nur für die allersüßesten Anhänger.",
+    "en": "For the cutest Followers only.",
+    "es": "Para el adepto más mono.",
+    "fr": "Pour les adeptes les plus mignons.",
+    "fr-CA": "Pour les adeptes les plus adorables.",
+    "it": "Solo per i membri del Culto più carini.",
+    "ja": "世界一カワイイ信者のための服",
+    "ko": "가장 귀여운 추종자 전용.",
+    "nl": "Alleen voor de schattigste volgelingen.",
+    "pt-BR": "Apenas para os Seguidores mais fofos.",
+    "ru": "Для самых няшных последователей.",
+    "tr": "En tatlı Takipçilerin tercihi.",
+    "zh-CN": "只适合最可爱的教徒。",
+    "zh-TW": "只適合最可愛的教徒。"
+  },
+  "descriptionPlain": {
+    "ar": "لألطف الأتباع فقط.",
+    "de": "Nur für die allersüßesten Anhänger.",
+    "en": "For the cutest Followers only.",
+    "es": "Para el adepto más mono.",
+    "fr": "Pour les adeptes les plus mignons.",
+    "fr-CA": "Pour les adeptes les plus adorables.",
+    "it": "Solo per i membri del Culto più carini.",
+    "ja": "世界一カワイイ信者のための服",
+    "ko": "가장 귀여운 추종자 전용.",
+    "nl": "Alleen voor de schattigste volgelingen.",
+    "pt-BR": "Apenas para os Seguidores mais fofos.",
+    "ru": "Для самых няшных последователей.",
+    "tr": "En tatlı Takipçilerin tercihi.",
+    "zh-CN": "只适合最可爱的教徒。",
+    "zh-TW": "只適合最可愛的教徒。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_1.png",
+  "id": "DLC_1",
+  "name": {
+    "ar": "زيّ اللطفاء",
+    "de": "Kluft der Kawaii",
+    "en": "Garb of the Kawaii",
+    "es": "Uniforme cuquísimo",
+    "fr": "Uniforme kawaii",
+    "fr-CA": "Uniforme kawaii",
+    "it": "Vestiti da kawaii",
+    "ja": "カワイイ学生服",
+    "ko": "귀여움의 의복",
+    "nl": "Kleding van de kawaii",
+    "pt-BR": "Vestimenta Kawaii",
+    "ru": "Кавайное одеяние",
+    "tr": "Kawaii Kıyafet",
+    "zh-CN": "卡哇咿服",
+    "zh-TW": "卡哇咿服"
+  },
+  "namePlain": {
+    "ar": "زيّ اللطفاء",
+    "de": "Kluft der Kawaii",
+    "en": "Garb of the Kawaii",
+    "es": "Uniforme cuquísimo",
+    "fr": "Uniforme kawaii",
+    "fr-CA": "Uniforme kawaii",
+    "it": "Vestiti da kawaii",
+    "ja": "カワイイ学生服",
+    "ko": "귀여움의 의복",
+    "nl": "Kleding van de kawaii",
+    "pt-BR": "Vestimenta Kawaii",
+    "ru": "Кавайное одеяние",
+    "tr": "Kawaii Kıyafet",
+    "zh-CN": "卡哇咿服",
+    "zh-TW": "卡哇咿服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_1.png"
+}

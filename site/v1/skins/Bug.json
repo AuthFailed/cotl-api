@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Bug.png",
   "id": "Bug",
   "name": {
     "en": "Bug"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Bug"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Bug.png",
   "unlock": "Dungeon6"
 }

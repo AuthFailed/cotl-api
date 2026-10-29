@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Mama_Maggot.png",
   "id": "Boss_Mama_Maggot",
   "name": {
     "en": "Boss Mama Maggot"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Mama Maggot"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Mama_Maggot.png",
   "unlock": "Dungeon1"
 }

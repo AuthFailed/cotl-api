@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Panda.png",
   "id": "Panda",
   "name": {
     "en": "Panda"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Panda"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Panda.png",
   "unlock": "DLC"
 }

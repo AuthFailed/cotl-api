@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Cultist_DLC",
+    "name": "Spring Tunic",
+    "thumb": "icons/outfits/64/Cultist_DLC.png"
+  },
+  {
+    "id": "Cultist_DLC2",
+    "name": "Flowering Frock",
+    "thumb": "icons/outfits/64/Cultist_DLC2.png"
+  },
+  {
+    "id": "DLC_1",
+    "name": "Garb of the Kawaii",
+    "thumb": "icons/outfits/64/DLC_1.png"
+  },
+  {
+    "id": "DLC_2",
+    "name": "Yeoman Coat",
+    "thumb": "icons/outfits/64/DLC_2.png"
+  },
+  {
+    "id": "DLC_3",
+    "name": "Gothic Dress",
+    "thumb": "icons/outfits/64/DLC_3.png"
+  },
+  {
+    "id": "DLC_4",
+    "name": "Mystic Robes",
+    "thumb": "icons/outfits/64/DLC_4.png"
+  },
+  {
+    "id": "DLC_5",
+    "name": "Officer Suit",
+    "thumb": "icons/outfits/64/DLC_5.png"
+  },
+  {
+    "id": "DLC_6",
+    "name": "Olympian",
+    "thumb": "icons/outfits/64/DLC_6.png"
+  },
+  {
+    "id": "Heretic_DLC",
+    "name": "Acolyte of the Old Faith",
+    "thumb": "icons/outfits/64/Heretic_DLC.png"
+  },
+  {
+    "id": "Heretic_DLC2",
+    "name": "Enforcer of the Old Faith",
+    "thumb": "icons/outfits/64/Heretic_DLC2.png"
+  },
+  {
+    "id": "Naked",
+    "name": "Naked",
+    "thumb": "icons/outfits/64/Naked.png"
+  },
+  {
+    "id": "Normal_1",
+    "name": "Peasant Blouse",
+    "thumb": "icons/outfits/64/Normal_1.png"
+  },
+  {
+    "id": "Normal_10",
+    "name": "Merchant Shirt",
+    "thumb": "icons/outfits/64/Normal_10.png"
+  },
+  {
+    "id": "Normal_11",
+    "name": "Evening Frock",
+    "thumb": "icons/outfits/64/Normal_11.png"
+  },
+  {
+    "id": "Normal_12",
+    "name": "Genteel Jacket",
+    "thumb": "icons/outfits/64/Normal_12.png"
+  },
+  {
+    "id": "Normal_2",
+    "name": "Labourer Tunic",
+    "thumb": "icons/outfits/64/Normal_2.png"
+  },
+  {
+    "id": "Normal_3",
+    "name": "Ragged Robes",
+    "thumb": "icons/outfits/64/Normal_3.png"
+  },
+  {
+    "id": "Normal_4",
+    "name": "Scholar Shirt",
+    "thumb": "icons/outfits/64/Normal_4.png"
+  },
+  {
+    "id": "Normal_5",
+    "name": "Modest Robes",
+    "thumb": "icons/outfits/64/Normal_5.png"
+  },
+  {
+    "id": "Normal_6",
+    "name": "Sensible Dress",
+    "thumb": "icons/outfits/64/Normal_6.png"
+  },
+  {
+    "id": "Normal_7",
+    "name": "Grass Skirt",
+    "thumb": "icons/outfits/64/Normal_7.png"
+  },
+  {
+    "id": "Normal_8",
+    "name": "Night Shirt",
+    "thumb": "icons/outfits/64/Normal_8.png"
+  },
+  {
+    "id": "Normal_9",
+    "name": "Picnic Attire",
+    "thumb": "icons/outfits/64/Normal_9.png"
+  },
+  {
+    "id": "Normal_MajorDLC_1",
+    "name": "Convict Uniform",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_1.png"
+  },
+  {
+    "id": "Normal_MajorDLC_2",
+    "name": "Bathing Suit",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_2.png"
+  },
+  {
+    "id": "Normal_MajorDLC_3",
+    "name": "Leopard Print Dress",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_3.png"
+  },
+  {
+    "id": "Normal_MajorDLC_4",
+    "name": "Bandages",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_4.png"
+  },
+  {
+    "id": "Normal_MajorDLC_5",
+    "name": "Layered Jacket",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_5.png"
+  },
+  {
+    "id": "Normal_MajorDLC_6",
+    "name": "Poop Costume",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_6.png"
+  },
+  {
+    "id": "Pilgrim_DLC",
+    "name": "Jalala's Coat",
+    "thumb": "icons/outfits/64/Pilgrim_DLC.png"
+  },
+  {
+    "id": "Pilgrim_DLC2",
+    "name": "Rinor's Robes",
+    "thumb": "icons/outfits/64/Pilgrim_DLC2.png"
+  },
+  {
+    "id": "Robes_Fancy",
+    "name": "Wedding Dress",
+    "thumb": "icons/outfits/64/Robes_Fancy.png"
+  },
+  {
+    "id": "Special_1",
+    "name": "Chef's Jacket",
+    "thumb": "icons/outfits/64/Special_1.png"
+  },
+  {
+    "id": "Special_2",
+    "name": "Knight Armour",
+    "thumb": "icons/outfits/64/Special_2.png"
+  },
+  {
+    "id": "Special_3",
+    "name": "Ceremonial Robes",
+    "thumb": "icons/outfits/64/Special_3.png"
+  },
+  {
+    "id": "Special_4",
+    "name": "Maid Dress",
+    "thumb": "icons/outfits/64/Special_4.png"
+  },
+  {
+    "id": "Special_5",
+    "name": "Fancy Robes",
+    "thumb": "icons/outfits/64/Special_5.png"
+  },
+  {
+    "id": "Special_6",
+    "name": "Drinktender Vest",
+    "thumb": "icons/outfits/64/Special_6.png"
+  },
+  {
+    "id": "Special_7",
+    "name": "Jester Costume",
+    "thumb": "icons/outfits/64/Special_7.png"
+  },
+  {
+    "id": "Suit_Fancy",
+    "name": "Wedding Suit",
+    "thumb": "icons/outfits/64/Suit_Fancy.png"
+  },
+  {
+    "id": "Warrior",
+    "name": "Warrior's Cuirass",
+    "thumb": "icons/outfits/64/Warrior.png"
+  },
+  {
+    "id": "Winter_1",
+    "name": "Fluffy Jumper",
+    "thumb": "icons/outfits/64/Winter_1.png"
+  },
+  {
+    "id": "Winter_2",
+    "name": "Acolyte Sweater",
+    "thumb": "icons/outfits/64/Winter_2.png"
+  },
+  {
+    "id": "Winter_3",
+    "name": "Cosy Shawl",
+    "thumb": "icons/outfits/64/Winter_3.png"
+  },
+  {
+    "id": "Winter_4",
+    "name": "Padded Tunic",
+    "thumb": "icons/outfits/64/Winter_4.png"
+  },
+  {
+    "id": "Winter_5",
+    "name": "Rugged Coat",
+    "thumb": "icons/outfits/64/Winter_5.png"
+  },
+  {
+    "id": "Winter_6",
+    "name": "Wool Lined Robes",
+    "thumb": "icons/outfits/64/Winter_6.png"
+  }
+]

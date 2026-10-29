@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 8
+    },
+    {
+      "item": "COTTON",
+      "quantity": 4
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "كل طائفة بحاجة إلى مهرج.",
+    "de": "Jeder Kult braucht einen Clown.",
+    "en": "Every Cult needs a clown.",
+    "es": "Qué sería una secta sin su payaso.",
+    "fr": "Tout culte qui se respecte a besoin de son propre bouffon.",
+    "fr-CA": "Toute secte qui se respecte a besoin de son propre bouffon.",
+    "it": "Ogni culto ha bisogno di un clown.",
+    "ja": "どんな教団にも道化は必要だ",
+    "ko": "모든 교단엔 광대가 있어야 합니다.",
+    "nl": "Elke sekte heeft een clown nodig.",
+    "pt-BR": "Todo Culto precisa de um palhaço.",
+    "ru": "Каждому поселению нужен арлекин.",
+    "tr": "Her Tarikat'a bir palyaço lazım.",
+    "zh-CN": "每个教会都需要小丑。",
+    "zh-TW": "每個教會都需要小丑。"
+  },
+  "descriptionPlain": {
+    "ar": "كل طائفة بحاجة إلى مهرج.",
+    "de": "Jeder Kult braucht einen Clown.",
+    "en": "Every Cult needs a clown.",
+    "es": "Qué sería una secta sin su payaso.",
+    "fr": "Tout culte qui se respecte a besoin de son propre bouffon.",
+    "fr-CA": "Toute secte qui se respecte a besoin de son propre bouffon.",
+    "it": "Ogni culto ha bisogno di un clown.",
+    "ja": "どんな教団にも道化は必要だ",
+    "ko": "모든 교단엔 광대가 있어야 합니다.",
+    "nl": "Elke sekte heeft een clown nodig.",
+    "pt-BR": "Todo Culto precisa de um palhaço.",
+    "ru": "Каждому поселению нужен арлекин.",
+    "tr": "Her Tarikat'a bir palyaço lazım.",
+    "zh-CN": "每个教会都需要小丑。",
+    "zh-TW": "每個教會都需要小丑。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_7.png",
+  "id": "Special_7",
+  "name": {
+    "ar": "زيّ المهرج",
+    "de": "Narrenkostüm",
+    "en": "Jester Costume",
+    "es": "Disfraz de bufón",
+    "fr": "Costume de bouffon",
+    "fr-CA": "Costume de bouffon",
+    "it": "Costume da giullare",
+    "ja": "ピエロのコスチューム",
+    "ko": "광대 복장",
+    "nl": "Narrenkostuum",
+    "pt-BR": "Fantasia de Bobo da Corte",
+    "ru": "Шутовской костюм",
+    "tr": "Soytarı Kostümü",
+    "zh-CN": "丑角戏服",
+    "zh-TW": "丑角戲服"
+  },
+  "namePlain": {
+    "ar": "زيّ المهرج",
+    "de": "Narrenkostüm",
+    "en": "Jester Costume",
+    "es": "Disfraz de bufón",
+    "fr": "Costume de bouffon",
+    "fr-CA": "Costume de bouffon",
+    "it": "Costume da giullare",
+    "ja": "ピエロのコスチューム",
+    "ko": "광대 복장",
+    "nl": "Narrenkostuum",
+    "pt-BR": "Fantasia de Bobo da Corte",
+    "ru": "Шутовской костюм",
+    "tr": "Soytarı Kostümü",
+    "zh-CN": "丑角戏服",
+    "zh-TW": "丑角戲服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_7.png"
+}

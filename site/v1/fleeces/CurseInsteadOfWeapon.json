@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "لا يمكن استخدام إلا اللعنات. يمكنك تسلم أربع بطاقات تارو متعلقة باللعنات.",
+    "de": "Es dürfen nur Flüche verwendet werden. Erhalte vier Fluch-Tarotkarten.",
+    "en": "Only Curses may be used. Receive four Curse related Tarot Cards.",
+    "es": "Solo puedes usar maldiciones. Recibe cuatro cartas del tarot relacionadas con maldiciones.",
+    "fr": "Seuls les maléfices peuvent être utilisés. Vous recevez quatre cartes de tarot de maléfices.",
+    "fr-CA": "Seuls les maléfices peuvent être utilisés. Vous recevez quatre cartes de tarot de maléfices.",
+    "it": "Puoi usare solo le maledizioni. Ricevi quattro tarocchi legati a esse.",
+    "ja": "呪いのみ使用可能。呪いに関連するタロットカードを4枚獲得する。",
+    "ko": "저주만 사용 가능합니다. 저주 관련 타로 카드 4장을 받습니다.",
+    "nl": "Je kunt alleen vloeken gebruiken. Ontvang vier tarotkaarten met vloeken.",
+    "pt-BR": "Apenas Maldições podem ser usadas. Receba quatro Cartas de Tarô de Maldição.",
+    "ru": "Вы можете пользоваться только проклятиями, но в начале похода получаете 4 карты Таро, влияющие на них.",
+    "tr": "Yalnızca Lanetler kullanılabilir. Lanetlerle ilgili dört Tarot Kartı çekersin.",
+    "zh-CN": "只能使用咒术。获得四张与咒术相关的塔罗牌。",
+    "zh-TW": "只能使用咒術。獲得四張與咒術相關的塔羅牌。"
+  },
+  "descriptionPlain": {
+    "ar": "لا يمكن استخدام إلا اللعنات. يمكنك تسلم أربع بطاقات تارو متعلقة باللعنات.",
+    "de": "Es dürfen nur Flüche verwendet werden. Erhalte vier Fluch-Tarotkarten.",
+    "en": "Only Curses may be used. Receive four Curse related Tarot Cards.",
+    "es": "Solo puedes usar maldiciones. Recibe cuatro cartas del tarot relacionadas con maldiciones.",
+    "fr": "Seuls les maléfices peuvent être utilisés. Vous recevez quatre cartes de tarot de maléfices.",
+    "fr-CA": "Seuls les maléfices peuvent être utilisés. Vous recevez quatre cartes de tarot de maléfices.",
+    "it": "Puoi usare solo le maledizioni. Ricevi quattro tarocchi legati a esse.",
+    "ja": "呪いのみ使用可能。呪いに関連するタロットカードを4枚獲得する。",
+    "ko": "저주만 사용 가능합니다. 저주 관련 타로 카드 4장을 받습니다.",
+    "nl": "Je kunt alleen vloeken gebruiken. Ontvang vier tarotkaarten met vloeken.",
+    "pt-BR": "Apenas Maldições podem ser usadas. Receba quatro Cartas de Tarô de Maldição.",
+    "ru": "Вы можете пользоваться только проклятиями, но в начале похода получаете 4 карты Таро, влияющие на них.",
+    "tr": "Yalnızca Lanetler kullanılabilir. Lanetlerle ilgili dört Tarot Kartı çekersin.",
+    "zh-CN": "只能使用咒术。获得四张与咒术相关的塔罗牌。",
+    "zh-TW": "只能使用咒術。獲得四張與咒術相關的塔羅牌。"
+  },
+  "fleece": 6,
+  "icon": "icons/fleeces/CurseInsteadOfWeapon.png",
+  "id": "CurseInsteadOfWeapon",
+  "name": {
+    "ar": "رداء الحملة الملعونة",
+    "de": "Vlies des verfl. Kreuzzugs",
+    "en": "Fleece of a Cursed Crusade",
+    "es": "Vellocino de cruzada maldita",
+    "fr": "Pelisse de croisade maudite",
+    "fr-CA": "Toison de croisade maudite",
+    "it": "Vello della crociata maledetta",
+    "ja": "呪われた聖騎士の羊毛",
+    "ko": "저주받은 성전의 양털",
+    "nl": "Vacht van een vervloekte kruistocht",
+    "pt-BR": "Lã da Cruzada Amaldiçoada",
+    "ru": "Руно проклятого похода",
+    "tr": "Lanetli Sefer Postu",
+    "zh-CN": "咒术圣战毛纺",
+    "zh-TW": "咒術聖戰毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الحملة الملعونة",
+    "de": "Vlies des verfl. Kreuzzugs",
+    "en": "Fleece of a Cursed Crusade",
+    "es": "Vellocino de cruzada maldita",
+    "fr": "Pelisse de croisade maudite",
+    "fr-CA": "Toison de croisade maudite",
+    "it": "Vello della crociata maledetta",
+    "ja": "呪われた聖騎士の羊毛",
+    "ko": "저주받은 성전의 양털",
+    "nl": "Vacht van een vervloekte kruistocht",
+    "pt-BR": "Lã da Cruzada Amaldiçoada",
+    "ru": "Руно проклятого похода",
+    "tr": "Lanetli Sefer Postu",
+    "zh-CN": "咒术圣战毛纺",
+    "zh-TW": "咒術聖戰毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/CurseInsteadOfWeapon.png"
+}

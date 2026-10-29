@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Pelican.png",
   "id": "Pelican",
   "name": {
     "en": "Pelican"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Pelican"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Pelican.png",
   "unlock": "DLC"
 }

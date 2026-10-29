@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "CRYSTAL",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "لمَن يحب أن يبدو غامضًا.",
+    "de": "Für jene, die geheimnisvoll aussehen wollen.",
+    "en": "For those who want to look mysterious.",
+    "es": "Para quienes anhelan irradiar misterio.",
+    "fr": "Donne un air mystérieux à son porteur.",
+    "fr-CA": "Donne un air mystérieux à son porteur.",
+    "it": "Per chi ambisce a un look misterioso.",
+    "ja": "神秘的な雰囲気を演出したい人に",
+    "ko": "신비로워 보이고 싶은 사람을 위한 옷.",
+    "nl": "Voor wie er mysterieus uit wil zien.",
+    "pt-BR": "Para quem deseja um visual misterioso.",
+    "ru": "Для тех, кто хочет выглядеть таинственно.",
+    "tr": "Gizemli görünmek isteyenler için.",
+    "zh-CN": "适合想要外表神秘的人。",
+    "zh-TW": "適合想要外表神祕的人。"
+  },
+  "descriptionPlain": {
+    "ar": "لمَن يحب أن يبدو غامضًا.",
+    "de": "Für jene, die geheimnisvoll aussehen wollen.",
+    "en": "For those who want to look mysterious.",
+    "es": "Para quienes anhelan irradiar misterio.",
+    "fr": "Donne un air mystérieux à son porteur.",
+    "fr-CA": "Donne un air mystérieux à son porteur.",
+    "it": "Per chi ambisce a un look misterioso.",
+    "ja": "神秘的な雰囲気を演出したい人に",
+    "ko": "신비로워 보이고 싶은 사람을 위한 옷.",
+    "nl": "Voor wie er mysterieus uit wil zien.",
+    "pt-BR": "Para quem deseja um visual misterioso.",
+    "ru": "Для тех, кто хочет выглядеть таинственно.",
+    "tr": "Gizemli görünmek isteyenler için.",
+    "zh-CN": "适合想要外表神秘的人。",
+    "zh-TW": "適合想要外表神祕的人。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_4.png",
+  "id": "DLC_4",
+  "name": {
+    "ar": "ثوب طويل غامض",
+    "de": "Mystische Roben",
+    "en": "Mystic Robes",
+    "es": "Túnica mística",
+    "fr": "Tenue mystique",
+    "fr-CA": "Tenue mystique",
+    "it": "Veste mistica",
+    "ja": "秘教のローブ",
+    "ko": "신비로운 예복",
+    "nl": "Mystieke mantel",
+    "pt-BR": "Trajes Místicos",
+    "ru": "Загадочное одеяние",
+    "tr": "Gizemli Cübbe",
+    "zh-CN": "玄秘教服",
+    "zh-TW": "玄祕教服"
+  },
+  "namePlain": {
+    "ar": "ثوب طويل غامض",
+    "de": "Mystische Roben",
+    "en": "Mystic Robes",
+    "es": "Túnica mística",
+    "fr": "Tenue mystique",
+    "fr-CA": "Tenue mystique",
+    "it": "Veste mistica",
+    "ja": "秘教のローブ",
+    "ko": "신비로운 예복",
+    "nl": "Mystieke mantel",
+    "pt-BR": "Trajes Místicos",
+    "ru": "Загадочное одеяние",
+    "tr": "Gizemli Cübbe",
+    "zh-CN": "玄秘教服",
+    "zh-TW": "玄祕教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_4.png"
+}

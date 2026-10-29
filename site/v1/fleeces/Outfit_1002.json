@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ثوب طويل أنيق ناعم الملمس. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Eine elegante Robe, die sich sehr weich anfühlt. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "An elegant robe, soft to the touch. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Una túnica elegante y suave al tacto. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Une tenue élégante, agréable au toucher. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Une tenue élégante, agréable au toucher. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Una veste elegante, soffice al tatto.<color=\"grey\"><br>Non fornisce bonus.",
+    "ja": "すごく柔らかい、上品なローブ。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "부드러운 촉감의 우아한 로브입니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Een elegant gewaad voor een zijdezacht gevoel. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Um traje elegante, suave ao toque. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Изящное одеяние, мягкое на ощупь.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Şık ve epey yumuşak bir cübbe. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "优雅的教服，触感柔软。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "優雅的教服，觸感柔軟。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب طويل أنيق ناعم الملمس.\nلا يمنح مزايا.",
+    "de": "Eine elegante Robe, die sich sehr weich anfühlt.\nGewährt keine Boni.",
+    "en": "An elegant robe, soft to the touch.\nProvides no bonuses.",
+    "es": "Una túnica elegante y suave al tacto.\nNo otorga nada especial.",
+    "fr": "Une tenue élégante, agréable au toucher.\nN'octroie aucun bonus.",
+    "fr-CA": "Une tenue élégante, agréable au toucher.\nN'octroie aucun bonus.",
+    "it": "Una veste elegante, soffice al tatto.\nNon fornisce bonus.",
+    "ja": "すごく柔らかい、上品なローブ。\nボーナスなし。",
+    "ko": "부드러운 촉감의 우아한 로브입니다.\n특별한 효과는 없습니다.",
+    "nl": "Een elegant gewaad voor een zijdezacht gevoel.\nGeeft geen bonussen.",
+    "pt-BR": "Um traje elegante, suave ao toque.\nNão fornece nenhum bônus.",
+    "ru": "Изящное одеяние, мягкое на ощупь.\nНе даёт преимуществ.",
+    "tr": "Şık ve epey yumuşak bir cübbe.\nİlave özellik sağlamaz.",
+    "zh-CN": "优雅的教服，触感柔软。\n没有特殊效果。",
+    "zh-TW": "優雅的教服，觸感柔軟。\n沒有特殊效果。"
+  },
+  "fleece": 1002,
+  "icon": "icons/fleeces/Outfit_1002.png",
+  "id": "Outfit_1002",
+  "name": {
+    "ar": "رداء بلمسة حريرية",
+    "de": "Vlies der sanften Seide",
+    "en": "Fleece of the Silken Touch",
+    "es": "Vellocino del tacto sedoso",
+    "fr": "Pelisse du toucher soyeux",
+    "fr-CA": "Toison du toucher soyeux",
+    "it": "Vello setoso",
+    "ja": "上質な絹の羊毛",
+    "ko": "비단결 같은 손길의 양털",
+    "nl": "Vacht van zijde",
+    "pt-BR": "Lã do Toque Sedoso",
+    "ru": "Руно шёлковой глади",
+    "tr": "İpeksi Dokunuş Postu",
+    "zh-CN": "丝质触感毛纺",
+    "zh-TW": "絲質觸感毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء بلمسة حريرية",
+    "de": "Vlies der sanften Seide",
+    "en": "Fleece of the Silken Touch",
+    "es": "Vellocino del tacto sedoso",
+    "fr": "Pelisse du toucher soyeux",
+    "fr-CA": "Toison du toucher soyeux",
+    "it": "Vello setoso",
+    "ja": "上質な絹の羊毛",
+    "ko": "비단결 같은 손길의 양털",
+    "nl": "Vacht van zijde",
+    "pt-BR": "Lã do Toque Sedoso",
+    "ru": "Руно шёлковой глади",
+    "tr": "İpeksi Dokunuş Postu",
+    "zh-CN": "丝质触感毛纺",
+    "zh-TW": "絲質觸感毛紡"
+  },
+  "pack": "pilgrim",
+  "thumb": "icons/fleeces/64/Outfit_1002.png"
+}

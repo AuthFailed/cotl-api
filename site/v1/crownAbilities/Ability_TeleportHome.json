@@ -1,0 +1,80 @@
+{
+  "cost": [
+    {
+      "item": "MONSTER_HEART",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "عليك التركيز في أثناء الحملة للعودة فورًا إلى القاعدة.",
+    "de": "Fokussiere deinen Geist, während du auf einem Kreuzzug bist, um sofort zum Basislager zurückzukehren.",
+    "en": "Focus whilst on a Crusade run to instantly return to the base.",
+    "es": "Concéntrate mientras estás en una cruzada para volver al campamento instantáneamente.",
+    "fr": "Concentrez-vous dans un donjon pour retourner instantanément à votre base.",
+    "fr-CA": "Durant une croisade, concentrez-vous pour retourner immédiatement à votre camp.",
+    "it": "Durante una crociata, puoi concentrarti per tornare immediatamente alla base.",
+    "ja": "聖戦中に意識を集中すると教団へと一瞬で戻れる。",
+    "ko": "성전에서 집중하여 즉시 기지로 돌아옵니다.",
+    "nl": "Focus tijdens een kruistocht om direct terug te keren naar de basis.",
+    "pt-BR": "Concentre-se quando estiver em uma Cruzada para voltar à base instantaneamente.",
+    "ru": "Сосредоточившись в походе, вы можете мгновенно вернуться в поселение.",
+    "tr": "Bir Sefer'deyken anında üsse dönmek için odaklan.",
+    "zh-CN": "进行圣战期间集中精神，即可立即回到根据地。",
+    "zh-TW": "進行聖戰期間集中精神，即可立即回到根據地。"
+  },
+  "descriptionPlain": {
+    "ar": "عليك التركيز في أثناء الحملة للعودة فورًا إلى القاعدة.",
+    "de": "Fokussiere deinen Geist, während du auf einem Kreuzzug bist, um sofort zum Basislager zurückzukehren.",
+    "en": "Focus whilst on a Crusade run to instantly return to the base.",
+    "es": "Concéntrate mientras estás en una cruzada para volver al campamento instantáneamente.",
+    "fr": "Concentrez-vous dans un donjon pour retourner instantanément à votre base.",
+    "fr-CA": "Durant une croisade, concentrez-vous pour retourner immédiatement à votre camp.",
+    "it": "Durante una crociata, puoi concentrarti per tornare immediatamente alla base.",
+    "ja": "聖戦中に意識を集中すると教団へと一瞬で戻れる。",
+    "ko": "성전에서 집중하여 즉시 기지로 돌아옵니다.",
+    "nl": "Focus tijdens een kruistocht om direct terug te keren naar de basis.",
+    "pt-BR": "Concentre-se quando estiver em uma Cruzada para voltar à base instantaneamente.",
+    "ru": "Сосредоточившись в походе, вы можете мгновенно вернуться в поселение.",
+    "tr": "Bir Sefer'deyken anında üsse dönmek için odaklan.",
+    "zh-CN": "进行圣战期间集中精神，即可立即回到根据地。",
+    "zh-TW": "進行聖戰期間集中精神，即可立即回到根據地。"
+  },
+  "dlc": false,
+  "icon": "icons/crownAbilities/Ability_TeleportHome.png",
+  "id": "Ability_TeleportHome",
+  "name": {
+    "ar": "الوجود المطلق",
+    "de": "Allgegenwärtigkeit",
+    "en": "Omnipresence",
+    "es": "Omnipresencia",
+    "fr": "Omniprésence",
+    "fr-CA": "Omniprésence",
+    "it": "Ubiquità",
+    "ja": "偏在の権能",
+    "ko": "편재",
+    "nl": "Alomtegenwoordigheid",
+    "pt-BR": "Onipresença",
+    "ru": "Вездесущность",
+    "tr": "Mekânlar arası",
+    "zh-CN": "无所不在",
+    "zh-TW": "無所不在"
+  },
+  "namePlain": {
+    "ar": "الوجود المطلق",
+    "de": "Allgegenwärtigkeit",
+    "en": "Omnipresence",
+    "es": "Omnipresencia",
+    "fr": "Omniprésence",
+    "fr-CA": "Omniprésence",
+    "it": "Ubiquità",
+    "ja": "偏在の権能",
+    "ko": "편재",
+    "nl": "Alomtegenwoordigheid",
+    "pt-BR": "Onipresença",
+    "ru": "Вездесущность",
+    "tr": "Mekânlar arası",
+    "zh-CN": "无所不在",
+    "zh-TW": "無所不在"
+  },
+  "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+}

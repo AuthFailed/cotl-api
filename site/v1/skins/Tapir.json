@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Tapir.png",
   "id": "Tapir",
   "name": {
     "en": "Tapir"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Tapir"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Tapir.png",
   "unlock": "DLC"
 }

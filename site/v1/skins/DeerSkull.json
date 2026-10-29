@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/DeerSkull.png",
   "id": "DeerSkull",
   "name": {
     "en": "DeerSkull"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "DeerSkull"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/DeerSkull.png",
   "unlock": "SpecialEvents"
 }

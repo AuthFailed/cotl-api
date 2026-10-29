@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Owl.png",
   "id": "Owl",
   "name": {
     "en": "Owl"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Owl"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Owl.png",
   "unlock": "Other"
 }

@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Bison.png",
   "id": "Bison",
   "name": {
     "en": "Bison"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Bison"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Bison.png",
   "unlock": "Dungeon2"
 }

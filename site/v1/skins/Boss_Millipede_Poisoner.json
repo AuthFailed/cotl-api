@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Millipede_Poisoner.png",
   "id": "Boss_Millipede_Poisoner",
   "name": {
     "en": "Boss Millipede Poisoner"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Millipede Poisoner"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Millipede_Poisoner.png",
   "unlock": "Dungeon4"
 }

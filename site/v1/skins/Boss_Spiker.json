@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Spiker.png",
   "id": "Boss_Spiker",
   "name": {
     "en": "Boss Spiker"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Spiker"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Spiker.png",
   "unlock": "Dungeon3"
 }

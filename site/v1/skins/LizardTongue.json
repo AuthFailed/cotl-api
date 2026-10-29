@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/LizardTongue.png",
   "id": "LizardTongue",
   "name": {
     "en": "LizardTongue"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "LizardTongue"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/LizardTongue.png",
   "unlock": "DLC"
 }

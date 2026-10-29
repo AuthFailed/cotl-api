@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Trout.png",
   "id": "Trout",
   "name": {
     "en": "Apple_3"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Apple_3"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Trout.png",
   "unlock": "Other"
 }

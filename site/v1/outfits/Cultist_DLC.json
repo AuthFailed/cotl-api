@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "GRASS",
+      "quantity": 20
+    },
+    {
+      "item": "FLOWER_RED",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "ثوب نصفي جميل للاحتفال بالربيع.",
+    "de": "Eine bezaubernde Tunika zur Feier des Frühlings.",
+    "en": "A lovely tunic to celebrate spring.",
+    "es": "Un vellocino monísimo con el que festejar la primavera.",
+    "fr": "Une jolie tunique pour célébrer l'arrivée du printemps.",
+    "fr-CA": "Une jolie tunique pour célébrer l'arrivée du printemps.",
+    "it": "Una splendida giubba per celebrare la primavera.",
+    "ja": "春の到来をお祝いするための、かわいらしいチュニック",
+    "ko": "봄을 축하하는 사랑스러운 튜닉입니다.",
+    "nl": "Een fijne tuniek om de lente te vieren.",
+    "pt-BR": "Uma lã adorável para celebrar a primavera.",
+    "ru": "Мягкая рубаха на весну.",
+    "tr": "Baharın gelişini kutlamaya uygun, sevimli bir giysi.",
+    "zh-CN": "赞颂春季的可爱外衣。",
+    "zh-TW": "讚頌春季的可愛外衣。"
+  },
+  "descriptionPlain": {
+    "ar": "ثوب نصفي جميل للاحتفال بالربيع.",
+    "de": "Eine bezaubernde Tunika zur Feier des Frühlings.",
+    "en": "A lovely tunic to celebrate spring.",
+    "es": "Un vellocino monísimo con el que festejar la primavera.",
+    "fr": "Une jolie tunique pour célébrer l'arrivée du printemps.",
+    "fr-CA": "Une jolie tunique pour célébrer l'arrivée du printemps.",
+    "it": "Una splendida giubba per celebrare la primavera.",
+    "ja": "春の到来をお祝いするための、かわいらしいチュニック",
+    "ko": "봄을 축하하는 사랑스러운 튜닉입니다.",
+    "nl": "Een fijne tuniek om de lente te vieren.",
+    "pt-BR": "Uma lã adorável para celebrar a primavera.",
+    "ru": "Мягкая рубаха на весну.",
+    "tr": "Baharın gelişini kutlamaya uygun, sevimli bir giysi.",
+    "zh-CN": "赞颂春季的可爱外衣。",
+    "zh-TW": "讚頌春季的可愛外衣。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "cultist"
+  ],
+  "icon": "icons/outfits/Cultist_DLC.png",
+  "id": "Cultist_DLC",
+  "name": {
+    "ar": "ثوب نصفي ربيعي",
+    "de": "Frühlingstunika",
+    "en": "Spring Tunic",
+    "es": "Vellocino primaveral",
+    "fr": "Tunique printanière",
+    "fr-CA": "Tunique printanière",
+    "it": "Giubba primaverile",
+    "ja": "春のチュニック",
+    "ko": "봄 튜닉",
+    "nl": "Voorjaarstuniek",
+    "pt-BR": "Lã da Primavera",
+    "ru": "Весенняя туника",
+    "tr": "Bahar Giysisi",
+    "zh-CN": "春季外衣",
+    "zh-TW": "春季外衣"
+  },
+  "namePlain": {
+    "ar": "ثوب نصفي ربيعي",
+    "de": "Frühlingstunika",
+    "en": "Spring Tunic",
+    "es": "Vellocino primaveral",
+    "fr": "Tunique printanière",
+    "fr-CA": "Tunique printanière",
+    "it": "Giubba primaverile",
+    "ja": "春のチュニック",
+    "ko": "봄 튜닉",
+    "nl": "Voorjaarstuniek",
+    "pt-BR": "Lã da Primavera",
+    "ru": "Весенняя туника",
+    "tr": "Bahar Giysisi",
+    "zh-CN": "春季外衣",
+    "zh-TW": "春季外衣"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Cultist_DLC.png"
+}

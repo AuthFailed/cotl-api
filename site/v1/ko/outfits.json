@@ -1,0 +1,237 @@
+[
+  {
+    "id": "Cultist_DLC",
+    "name": "봄 튜닉",
+    "thumb": "icons/outfits/64/Cultist_DLC.png"
+  },
+  {
+    "id": "Cultist_DLC2",
+    "name": "꽃 달린 드레스",
+    "thumb": "icons/outfits/64/Cultist_DLC2.png"
+  },
+  {
+    "id": "DLC_1",
+    "name": "귀여움의 의복",
+    "thumb": "icons/outfits/64/DLC_1.png"
+  },
+  {
+    "id": "DLC_2",
+    "name": "자작농 코트",
+    "thumb": "icons/outfits/64/DLC_2.png"
+  },
+  {
+    "id": "DLC_3",
+    "name": "고딕 드레스",
+    "thumb": "icons/outfits/64/DLC_3.png"
+  },
+  {
+    "id": "DLC_4",
+    "name": "신비로운 예복",
+    "thumb": "icons/outfits/64/DLC_4.png"
+  },
+  {
+    "id": "DLC_5",
+    "name": "장교복",
+    "thumb": "icons/outfits/64/DLC_5.png"
+  },
+  {
+    "id": "DLC_6",
+    "name": "올림피아인",
+    "thumb": "icons/outfits/64/DLC_6.png"
+  },
+  {
+    "id": "Heretic_DLC",
+    "name": "옛 신앙의 복사",
+    "thumb": "icons/outfits/64/Heretic_DLC.png"
+  },
+  {
+    "id": "Heretic_DLC2",
+    "name": "옛 신앙의 집행자",
+    "thumb": "icons/outfits/64/Heretic_DLC2.png"
+  },
+  {
+    "id": "Naked",
+    "name": "나체",
+    "thumb": "icons/outfits/64/Naked.png"
+  },
+  {
+    "id": "Normal_1",
+    "name": "소작농 블라우스",
+    "thumb": "icons/outfits/64/Normal_1.png"
+  },
+  {
+    "id": "Normal_10",
+    "name": "상인 셔츠",
+    "thumb": "icons/outfits/64/Normal_10.png"
+  },
+  {
+    "id": "Normal_11",
+    "name": "저녁용 드레스",
+    "thumb": "icons/outfits/64/Normal_11.png"
+  },
+  {
+    "id": "Normal_12",
+    "name": "고상한 재킷",
+    "thumb": "icons/outfits/64/Normal_12.png"
+  },
+  {
+    "id": "Normal_2",
+    "name": "노동자의 튜닉",
+    "thumb": "icons/outfits/64/Normal_2.png"
+  },
+  {
+    "id": "Normal_3",
+    "name": "누더기가 된 예복",
+    "thumb": "icons/outfits/64/Normal_3.png"
+  },
+  {
+    "id": "Normal_4",
+    "name": "학자 셔츠",
+    "thumb": "icons/outfits/64/Normal_4.png"
+  },
+  {
+    "id": "Normal_5",
+    "name": "수수한 예복",
+    "thumb": "icons/outfits/64/Normal_5.png"
+  },
+  {
+    "id": "Normal_6",
+    "name": "실용적인 드레스",
+    "thumb": "icons/outfits/64/Normal_6.png"
+  },
+  {
+    "id": "Normal_7",
+    "name": "풀잎 치마",
+    "thumb": "icons/outfits/64/Normal_7.png"
+  },
+  {
+    "id": "Normal_8",
+    "name": "잠옷 셔츠",
+    "thumb": "icons/outfits/64/Normal_8.png"
+  },
+  {
+    "id": "Normal_9",
+    "name": "소풍 복장",
+    "thumb": "icons/outfits/64/Normal_9.png"
+  },
+  {
+    "id": "Normal_MajorDLC_1",
+    "name": "죄수복",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_1.png"
+  },
+  {
+    "id": "Normal_MajorDLC_2",
+    "name": "목욕복",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_2.png"
+  },
+  {
+    "id": "Normal_MajorDLC_3",
+    "name": "표범무늬 드레스",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_3.png"
+  },
+  {
+    "id": "Normal_MajorDLC_4",
+    "name": "붕대",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_4.png"
+  },
+  {
+    "id": "Normal_MajorDLC_5",
+    "name": "레이어드 자켓",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_5.png"
+  },
+  {
+    "id": "Normal_MajorDLC_6",
+    "name": "똥 복장",
+    "thumb": "icons/outfits/64/Normal_MajorDLC_6.png"
+  },
+  {
+    "id": "Pilgrim_DLC",
+    "name": "잘랄라의 외투",
+    "thumb": "icons/outfits/64/Pilgrim_DLC.png"
+  },
+  {
+    "id": "Pilgrim_DLC2",
+    "name": "리노르의 예복",
+    "thumb": "icons/outfits/64/Pilgrim_DLC2.png"
+  },
+  {
+    "id": "Robes_Fancy",
+    "name": "웨딩 드레스",
+    "thumb": "icons/outfits/64/Robes_Fancy.png"
+  },
+  {
+    "id": "Special_1",
+    "name": "요리사용 재킷",
+    "thumb": "icons/outfits/64/Special_1.png"
+  },
+  {
+    "id": "Special_2",
+    "name": "기사 갑옷",
+    "thumb": "icons/outfits/64/Special_2.png"
+  },
+  {
+    "id": "Special_3",
+    "name": "의식용 예복",
+    "thumb": "icons/outfits/64/Special_3.png"
+  },
+  {
+    "id": "Special_4",
+    "name": "시녀 드레스",
+    "thumb": "icons/outfits/64/Special_4.png"
+  },
+  {
+    "id": "Special_5",
+    "name": "멋진 예복",
+    "thumb": "icons/outfits/64/Special_5.png"
+  },
+  {
+    "id": "Special_6",
+    "name": "음료 제조사 조끼",
+    "thumb": "icons/outfits/64/Special_6.png"
+  },
+  {
+    "id": "Special_7",
+    "name": "광대 복장",
+    "thumb": "icons/outfits/64/Special_7.png"
+  },
+  {
+    "id": "Suit_Fancy",
+    "name": "웨딩 슈트",
+    "thumb": "icons/outfits/64/Suit_Fancy.png"
+  },
+  {
+    "id": "Warrior",
+    "name": "전사의 흉갑",
+    "thumb": "icons/outfits/64/Warrior.png"
+  },
+  {
+    "id": "Winter_1",
+    "name": "푹신한 잠바",
+    "thumb": "icons/outfits/64/Winter_1.png"
+  },
+  {
+    "id": "Winter_2",
+    "name": "복사 스웨터",
+    "thumb": "icons/outfits/64/Winter_2.png"
+  },
+  {
+    "id": "Winter_3",
+    "name": "포근한 숄",
+    "thumb": "icons/outfits/64/Winter_3.png"
+  },
+  {
+    "id": "Winter_4",
+    "name": "덧댄 튜닉",
+    "thumb": "icons/outfits/64/Winter_4.png"
+  },
+  {
+    "id": "Winter_5",
+    "name": "너덜너덜한 코트",
+    "thumb": "icons/outfits/64/Winter_5.png"
+  },
+  {
+    "id": "Winter_6",
+    "name": "모직 안감 로브",
+    "thumb": "icons/outfits/64/Winter_6.png"
+  }
+]

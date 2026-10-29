@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Raccoon.png",
   "id": "Raccoon",
   "name": {
     "en": "Racoon"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Racoon"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Raccoon.png",
   "unlock": "Dungeon4"
 }

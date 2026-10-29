@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    }
+  ],
+  "description": {
+    "ar": "صُنع على عجل ويتسم بمتانة مدهشة.",
+    "de": "Schnell zusammengeflickt und erstaunlich stabil.",
+    "en": "Quickly thrown together and surprisingly sturdy.",
+    "es": "Confeccionada a toda prisa, pero aun así robusta.",
+    "fr": "Simple, mais étonnamment robuste.",
+    "fr-CA": "Simple, mais étonnamment robuste.",
+    "it": "Confezionata alla bell'e meglio, è sorprendentemente resistente.",
+    "ja": "急ごしらえにしては、驚くほど丈夫だ",
+    "ko": "빠르게 만들 수 있으며 놀랍도록 튼튼합니다.",
+    "nl": "Snel in elkaar gezet en verrassend stevig.",
+    "pt-BR": "Fácil de vestir e muito resistente.",
+    "ru": "Наскоро сшитая, но удивительно прочная одежда.",
+    "tr": "Aceleyle dikilmiş olsa da şaşırtıcı derecede sağlam.",
+    "zh-CN": "临时拼凑而成，意外强韧。",
+    "zh-TW": "臨時拼湊而成，意外強韌。"
+  },
+  "descriptionPlain": {
+    "ar": "صُنع على عجل ويتسم بمتانة مدهشة.",
+    "de": "Schnell zusammengeflickt und erstaunlich stabil.",
+    "en": "Quickly thrown together and surprisingly sturdy.",
+    "es": "Confeccionada a toda prisa, pero aun así robusta.",
+    "fr": "Simple, mais étonnamment robuste.",
+    "fr-CA": "Simple, mais étonnamment robuste.",
+    "it": "Confezionata alla bell'e meglio, è sorprendentemente resistente.",
+    "ja": "急ごしらえにしては、驚くほど丈夫だ",
+    "ko": "빠르게 만들 수 있으며 놀랍도록 튼튼합니다.",
+    "nl": "Snel in elkaar gezet en verrassend stevig.",
+    "pt-BR": "Fácil de vestir e muito resistente.",
+    "ru": "Наскоро сшитая, но удивительно прочная одежда.",
+    "tr": "Aceleyle dikilmiş olsa da şaşırtıcı derecede sağlam.",
+    "zh-CN": "临时拼凑而成，意外强韧。",
+    "zh-TW": "臨時拼湊而成，意外強韌。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "pilgrim"
+  ],
+  "icon": "icons/outfits/Pilgrim_DLC2.png",
+  "id": "Pilgrim_DLC2",
+  "name": {
+    "ar": "ثوب رينور الطويل",
+    "de": "Rinors Robe",
+    "en": "Rinor's Robes",
+    "es": "Túnica de Rinor",
+    "fr": "Robe de Rinor",
+    "fr-CA": "Robe de Rinor",
+    "it": "Veste di Rinor",
+    "ja": "リノールのローブ",
+    "ko": "리노르의 예복",
+    "nl": "Rinors gewaad",
+    "pt-BR": "Trajes de Rinor",
+    "ru": "Туника Ринор",
+    "tr": "Rinor'un Cübbesi",
+    "zh-CN": "雷诺的教服",
+    "zh-TW": "雷諾的教服"
+  },
+  "namePlain": {
+    "ar": "ثوب رينور الطويل",
+    "de": "Rinors Robe",
+    "en": "Rinor's Robes",
+    "es": "Túnica de Rinor",
+    "fr": "Robe de Rinor",
+    "fr-CA": "Robe de Rinor",
+    "it": "Veste di Rinor",
+    "ja": "リノールのローブ",
+    "ko": "리노르의 예복",
+    "nl": "Rinors gewaad",
+    "pt-BR": "Trajes de Rinor",
+    "ru": "Туника Ринор",
+    "tr": "Rinor'un Cübbesi",
+    "zh-CN": "雷诺的教服",
+    "zh-TW": "雷諾的教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/Pilgrim_DLC2.png"
+}

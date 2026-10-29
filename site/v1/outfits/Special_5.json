@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 4
+    },
+    {
+      "item": "BONE",
+      "quantity": 75
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يستحق أفخر الأتباع أفخر الثياب.",
+    "de": "Die schicksten Anhänger verdienen die schicksten Roben.",
+    "en": "The fanciest Followers deserve the fanciest robes.",
+    "es": "Para el más distinguido de los adeptos.",
+    "fr": "Les adeptes les plus chics ne méritent que le meilleur.",
+    "fr-CA": "Les adeptes les plus chics ne méritent que le meilleur.",
+    "it": "I membri più prestigiosi meritano le vesti più eleganti.",
+    "ja": "派手な信者には、派手なローブを着せてあげよう",
+    "ko": "가장 멋진 추종자에겐 가장 멋진 예복이 있어야 하는 법.",
+    "nl": "De mooiste volgelingen verdienen de mooiste gewaden.",
+    "pt-BR": "Os Seguidores mais chiques merecem os trajes mais chiques.",
+    "ru": "Самые величественные последователи заслуживают лучшего.",
+    "tr": "En süslü Takipçiler, en süslü cübbeleri hak eder.",
+    "zh-CN": "最花俏的教徒就要穿最花俏的教服。",
+    "zh-TW": "最花俏的教徒就要穿最花俏的教服。"
+  },
+  "descriptionPlain": {
+    "ar": "يستحق أفخر الأتباع أفخر الثياب.",
+    "de": "Die schicksten Anhänger verdienen die schicksten Roben.",
+    "en": "The fanciest Followers deserve the fanciest robes.",
+    "es": "Para el más distinguido de los adeptos.",
+    "fr": "Les adeptes les plus chics ne méritent que le meilleur.",
+    "fr-CA": "Les adeptes les plus chics ne méritent que le meilleur.",
+    "it": "I membri più prestigiosi meritano le vesti più eleganti.",
+    "ja": "派手な信者には、派手なローブを着せてあげよう",
+    "ko": "가장 멋진 추종자에겐 가장 멋진 예복이 있어야 하는 법.",
+    "nl": "De mooiste volgelingen verdienen de mooiste gewaden.",
+    "pt-BR": "Os Seguidores mais chiques merecem os trajes mais chiques.",
+    "ru": "Самые величественные последователи заслуживают лучшего.",
+    "tr": "En süslü Takipçiler, en süslü cübbeleri hak eder.",
+    "zh-CN": "最花俏的教徒就要穿最花俏的教服。",
+    "zh-TW": "最花俏的教徒就要穿最花俏的教服。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_5.png",
+  "id": "Special_5",
+  "name": {
+    "ar": "ثوب طويل فاخر",
+    "de": "Schicke Roben",
+    "en": "Fancy Robes",
+    "es": "Túnica elegante",
+    "fr": "Robe chic",
+    "fr-CA": "Robe chic",
+    "it": "Veste elegante",
+    "ja": "派手なローブ",
+    "ko": "멋진 예복",
+    "nl": "Chique gewaad",
+    "pt-BR": "Trajes Chiques",
+    "ru": "Изысканное одеяние",
+    "tr": "Süslü Cübbe",
+    "zh-CN": "花俏教服",
+    "zh-TW": "花俏教服"
+  },
+  "namePlain": {
+    "ar": "ثوب طويل فاخر",
+    "de": "Schicke Roben",
+    "en": "Fancy Robes",
+    "es": "Túnica elegante",
+    "fr": "Robe chic",
+    "fr-CA": "Robe chic",
+    "it": "Veste elegante",
+    "ja": "派手なローブ",
+    "ko": "멋진 예복",
+    "nl": "Chique gewaad",
+    "pt-BR": "Trajes Chiques",
+    "ru": "Изысканное одеяние",
+    "tr": "Süslü Cübbe",
+    "zh-CN": "花俏教服",
+    "zh-TW": "花俏教服"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_5.png"
+}

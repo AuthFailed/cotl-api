@@ -1,0 +1,87 @@
+{
+  "cost": [
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "مناسب لمفتولي العضلات الأحرار مثل الأبطال القدماء.",
+    "de": "Muskulös und frei, wie die Champions früherer Tage.",
+    "en": "Muscular and free, like the champions of old.",
+    "es": "Con musculitos, como los campeones de antaño.",
+    "fr": "Une liberté sans faille, aux muscles saillants comme d'antan.",
+    "fr-CA": "Une liberté sans faille, aux muscles saillants comme d'antan.",
+    "it": "Disinibiti e muscolosi, come i campioni di un tempo.",
+    "ja": "開放感とたくましさ満点の、まるで古の英雄のような見た目",
+    "ko": "고대 투사처럼 근육질에다가 자유롭습니다.",
+    "nl": "Gespierd en vrij, zoals de kampioenen van vroeger.",
+    "pt-BR": "Forte e livre, como os campeões do passado.",
+    "ru": "Мускулы, выставленные на всеобщее обозрение, как у древних героев.",
+    "tr": "Aynı eski zamanların şampiyonları gibi kaslı ve özgür.",
+    "zh-CN": "像远古斗士一样展现肌肉与自由。",
+    "zh-TW": "像遠古鬥士一樣展現肌肉與自由。"
+  },
+  "descriptionPlain": {
+    "ar": "مناسب لمفتولي العضلات الأحرار مثل الأبطال القدماء.",
+    "de": "Muskulös und frei, wie die Champions früherer Tage.",
+    "en": "Muscular and free, like the champions of old.",
+    "es": "Con musculitos, como los campeones de antaño.",
+    "fr": "Une liberté sans faille, aux muscles saillants comme d'antan.",
+    "fr-CA": "Une liberté sans faille, aux muscles saillants comme d'antan.",
+    "it": "Disinibiti e muscolosi, come i campioni di un tempo.",
+    "ja": "開放感とたくましさ満点の、まるで古の英雄のような見た目",
+    "ko": "고대 투사처럼 근육질에다가 자유롭습니다.",
+    "nl": "Gespierd en vrij, zoals de kampioenen van vroeger.",
+    "pt-BR": "Forte e livre, como os campeões do passado.",
+    "ru": "Мускулы, выставленные на всеобщее обозрение, как у древних героев.",
+    "tr": "Aynı eski zamanların şampiyonları gibi kaslı ve özgür.",
+    "zh-CN": "像远古斗士一样展现肌肉与自由。",
+    "zh-TW": "像遠古鬥士一樣展現肌肉與自由。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_6.png",
+  "id": "DLC_6",
+  "name": {
+    "ar": "الأولمبي",
+    "de": "Olympionik",
+    "en": "Olympian",
+    "es": "Olímpico",
+    "fr": "Olympique",
+    "fr-CA": "Olympique",
+    "it": "Aitante",
+    "ja": "オリンピアン",
+    "ko": "올림피아인",
+    "nl": "Olympiër",
+    "pt-BR": "Olimpiano",
+    "ru": "Олимпийское облачение",
+    "tr": "Olimpiyat Şampiyonu",
+    "zh-CN": "奥林匹亚",
+    "zh-TW": "奧林匹亞"
+  },
+  "namePlain": {
+    "ar": "الأولمبي",
+    "de": "Olympionik",
+    "en": "Olympian",
+    "es": "Olímpico",
+    "fr": "Olympique",
+    "fr-CA": "Olympique",
+    "it": "Aitante",
+    "ja": "オリンピアン",
+    "ko": "올림피아인",
+    "nl": "Olympiër",
+    "pt-BR": "Olimpiano",
+    "ru": "Олимпийское облачение",
+    "tr": "Olimpiyat Şampiyonu",
+    "zh-CN": "奥林匹亚",
+    "zh-TW": "奧林匹亞"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_6.png"
+}

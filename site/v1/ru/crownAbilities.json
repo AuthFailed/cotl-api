@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Ability_BlackHeart",
+    "name": "Внутренняя тьма",
+    "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+  },
+  {
+    "id": "Ability_Eat",
+    "name": "Голод",
+    "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+  },
+  {
+    "id": "Ability_Resurrection",
+    "name": "Оживление",
+    "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+  },
+  {
+    "id": "Ability_TeleportHome",
+    "name": "Вездесущность",
+    "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+  },
+  {
+    "id": "Ability_WinterChoice",
+    "name": "Дыхание зимы",
+    "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+  }
+]

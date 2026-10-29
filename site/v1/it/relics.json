@@ -1,0 +1,362 @@
+[
+  {
+    "id": "CashForHearts_Corrupted",
+    "name": "Sacca di Kephomite",
+    "thumb": "icons/relics/64/CashForHearts_Corrupted.png"
+  },
+  {
+    "id": "DamageEye_Coop",
+    "name": "Occhio mistico del corvo",
+    "thumb": "icons/relics/64/DamageEye_Coop.png"
+  },
+  {
+    "id": "DamageOnTouch_Familiar",
+    "name": "Occhio di Leshy",
+    "thumb": "icons/relics/64/DamageOnTouch_Familiar.png"
+  },
+  {
+    "id": "DealDamagePerFollower",
+    "name": "Rosario dell'anacoreta",
+    "thumb": "icons/relics/64/DealDamagePerFollower.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Blessed",
+    "name": "Rosario dell'anacoreta <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Blessed.png"
+  },
+  {
+    "id": "DealDamagePerFollower_Dammed",
+    "name": "Rosario dell'anacoreta <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/DealDamagePerFollower_Dammed.png"
+  },
+  {
+    "id": "DeathForLife_Corrupted",
+    "name": "Bilancia dell'anacoreta",
+    "thumb": "icons/relics/64/DeathForLife_Corrupted.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge",
+    "name": "Capelli di Clauneck",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Blessed",
+    "name": "Capelli di Clauneck <color=#03EAFD>benedetti</color>",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotDealDamge_Dammed",
+    "name": "Capelli di Clauneck <color=#FD1D03>dannati</color>",
+    "thumb": "icons/relics/64/DestroyTarotDealDamge_Dammed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff",
+    "name": "Specchio di Clauneck",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Blessed",
+    "name": "Specchio di Clauneck <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Blessed.png"
+  },
+  {
+    "id": "DestroyTarotGainBuff_Dammed",
+    "name": "Specchio di Clauneck <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/DestroyTarotGainBuff_Dammed.png"
+  },
+  {
+    "id": "DiseasedHeart_Corrupted",
+    "name": "Bambola di Yaca",
+    "thumb": "icons/relics/64/DiseasedHeart_Corrupted.png"
+  },
+  {
+    "id": "DiseasedPoison_Corrupted",
+    "name": "Brocca della vedova",
+    "thumb": "icons/relics/64/DiseasedPoison_Corrupted.png"
+  },
+  {
+    "id": "EnemyFiftyFifty_Corrupted",
+    "name": "Moneta di Laplace",
+    "thumb": "icons/relics/64/EnemyFiftyFifty_Corrupted.png"
+  },
+  {
+    "id": "Enlarge",
+    "name": "Portafortuna di Galvar",
+    "thumb": "icons/relics/64/Enlarge.png"
+  },
+  {
+    "id": "Explosive_Coop",
+    "name": "Ceneri mercuriali",
+    "thumb": "icons/relics/64/Explosive_Coop.png"
+  },
+  {
+    "id": "FervourForResources_Corrupted",
+    "name": "Ossa di Fowler",
+    "thumb": "icons/relics/64/FervourForResources_Corrupted.png"
+  },
+  {
+    "id": "FieryBlood",
+    "name": "Idolo dell'immolato",
+    "thumb": "icons/relics/64/FieryBlood.png"
+  },
+  {
+    "id": "FieryBurrow",
+    "name": "Prima testa di Din",
+    "thumb": "icons/relics/64/FieryBurrow.png"
+  },
+  {
+    "id": "FiftyFiftyGamble",
+    "name": "Dado di Laplace",
+    "thumb": "icons/relics/64/FiftyFiftyGamble.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Blessed",
+    "name": "Dado di Laplace <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Blessed.png"
+  },
+  {
+    "id": "FiftyFiftyGamble_Dammed",
+    "name": "Dado di Laplace <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/FiftyFiftyGamble_Dammed.png"
+  },
+  {
+    "id": "FillUpFervour",
+    "name": "Becco di Fowler",
+    "thumb": "icons/relics/64/FillUpFervour.png"
+  },
+  {
+    "id": "FireballsRain",
+    "name": "Ambra di Bracius",
+    "thumb": "icons/relics/64/FireballsRain.png"
+  },
+  {
+    "id": "FreezeAll",
+    "name": "Piede del Gelofuria",
+    "thumb": "icons/relics/64/FreezeAll.png"
+  },
+  {
+    "id": "FreezeOnTouch_Familiar",
+    "name": "Occhio del Gelofuria",
+    "thumb": "icons/relics/64/FreezeOnTouch_Familiar.png"
+  },
+  {
+    "id": "FreezeTime",
+    "name": "Sigillo dei Custodi",
+    "thumb": "icons/relics/64/FreezeTime.png"
+  },
+  {
+    "id": "FriendlyHealing_Coop",
+    "name": "Mani giunte",
+    "thumb": "icons/relics/64/FriendlyHealing_Coop.png"
+  },
+  {
+    "id": "FrozenGhosts",
+    "name": "Pelliccia della stirpe perduta",
+    "thumb": "icons/relics/64/FrozenGhosts.png"
+  },
+  {
+    "id": "Frozen_Corrupted",
+    "name": "Nocca del Tachach",
+    "thumb": "icons/relics/64/Frozen_Corrupted.png"
+  },
+  {
+    "id": "GungeonBlank",
+    "name": "Teschio di Shamura",
+    "thumb": "icons/relics/64/GungeonBlank.png"
+  },
+  {
+    "id": "HealPerFollower",
+    "name": "Balsamo dell'anacoreta",
+    "thumb": "icons/relics/64/HealPerFollower.png"
+  },
+  {
+    "id": "HealPerFollower_Blessed",
+    "name": "Balsamo dell'anacoreta <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/HealPerFollower_Blessed.png"
+  },
+  {
+    "id": "HealPerFollower_Dammed",
+    "name": "Balsamo dell'anacoreta <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/HealPerFollower_Dammed.png"
+  },
+  {
+    "id": "HeartConversion_Blessed",
+    "name": "Lacrime del padre vendicativo",
+    "thumb": "icons/relics/64/HeartConversion_Blessed.png"
+  },
+  {
+    "id": "HeartConversion_Dammed",
+    "name": "Lacrime della madre misericordiosa",
+    "thumb": "icons/relics/64/HeartConversion_Dammed.png"
+  },
+  {
+    "id": "IceSpikes",
+    "name": "Muso del Trappolatore",
+    "thumb": "icons/relics/64/IceSpikes.png"
+  },
+  {
+    "id": "IceyBlood",
+    "name": "Velo dell'insensibile",
+    "thumb": "icons/relics/64/IceyBlood.png"
+  },
+  {
+    "id": "IceyBurrow",
+    "name": "Seconda testa di Din",
+    "thumb": "icons/relics/64/IceyBurrow.png"
+  },
+  {
+    "id": "IceyCoat",
+    "name": "Guscio di Tundrane",
+    "thumb": "icons/relics/64/IceyCoat.png"
+  },
+  {
+    "id": "IgniteAll",
+    "name": "Aculeo del Cineride",
+    "thumb": "icons/relics/64/IgniteAll.png"
+  },
+  {
+    "id": "IgniteOnTouch_Familiar",
+    "name": "Occhi del Cineride",
+    "thumb": "icons/relics/64/IgniteOnTouch_Familiar.png"
+  },
+  {
+    "id": "IncreaseDamageForDuration",
+    "name": "Gola di Heket",
+    "thumb": "icons/relics/64/IncreaseDamageForDuration.png"
+  },
+  {
+    "id": "KillNonBossEnemies",
+    "name": "Artiglio di Narinder",
+    "thumb": "icons/relics/64/KillNonBossEnemies.png"
+  },
+  {
+    "id": "LightningStrike",
+    "name": "Zanna di Ala",
+    "thumb": "icons/relics/64/LightningStrike.png"
+  },
+  {
+    "id": "LightningStrike_Blessed",
+    "name": "Zanna di Ala <color=#03EAFD>benedetta</color>",
+    "thumb": "icons/relics/64/LightningStrike_Blessed.png"
+  },
+  {
+    "id": "LightningStrike_Dammed",
+    "name": "Zanna di Ala <color=#FD1D03>dannata</color>",
+    "thumb": "icons/relics/64/LightningStrike_Dammed.png"
+  },
+  {
+    "id": "LoadoutSwap_Coop",
+    "name": "Dente perduto di Kudaai",
+    "thumb": "icons/relics/64/LoadoutSwap_Coop.png"
+  },
+  {
+    "id": "PoisonAll",
+    "name": "Coda del Serpigramo",
+    "thumb": "icons/relics/64/PoisonAll.png"
+  },
+  {
+    "id": "PoisonOnTouch_Familiar",
+    "name": "Occhio del Serpigramo",
+    "thumb": "icons/relics/64/PoisonOnTouch_Familiar.png"
+  },
+  {
+    "id": "ProjectileRing",
+    "name": "Calzatura di Clauneck",
+    "thumb": "icons/relics/64/ProjectileRing.png"
+  },
+  {
+    "id": "RandomEnemyIntoCritter",
+    "name": "Il trasfiguratore",
+    "thumb": "icons/relics/64/RandomEnemyIntoCritter.png"
+  },
+  {
+    "id": "Realm_Corrupted",
+    "name": "Zanna dell'affamato",
+    "thumb": "icons/relics/64/Realm_Corrupted.png"
+  },
+  {
+    "id": "RerollCurse",
+    "name": "Unghia del piede di Kudaai",
+    "thumb": "icons/relics/64/RerollCurse.png"
+  },
+  {
+    "id": "RerollWeapon",
+    "name": "Unghia di Kudaai",
+    "thumb": "icons/relics/64/RerollWeapon.png"
+  },
+  {
+    "id": "Sacrifice_Coop",
+    "name": "Forcella di Marbais",
+    "thumb": "icons/relics/64/Sacrifice_Coop.png"
+  },
+  {
+    "id": "ShootCurses_Familiar",
+    "name": "Occhio del fervente",
+    "thumb": "icons/relics/64/ShootCurses_Familiar.png"
+  },
+  {
+    "id": "Shrink",
+    "name": "Portafortuna di Shunrue",
+    "thumb": "icons/relics/64/Shrink.png"
+  },
+  {
+    "id": "SpawnBlackGoop",
+    "name": "Bomba dello stregone",
+    "thumb": "icons/relics/64/SpawnBlackGoop.png"
+  },
+  {
+    "id": "SpawnBombs",
+    "name": "Lingua di Stihi",
+    "thumb": "icons/relics/64/SpawnBombs.png"
+  },
+  {
+    "id": "SpawnCombatFollower",
+    "name": "Orecchio di Kallamar",
+    "thumb": "icons/relics/64/SpawnCombatFollower.png"
+  },
+  {
+    "id": "SpawnCombatFollowerFromBodies",
+    "name": "Pugno destro di Warracka",
+    "thumb": "icons/relics/64/SpawnCombatFollowerFromBodies.png"
+  },
+  {
+    "id": "SpawnDemon",
+    "name": "Dito dell'esorcista",
+    "thumb": "icons/relics/64/SpawnDemon.png"
+  },
+  {
+    "id": "SpawnDemon_Blessed",
+    "name": "Dito dell'esorcista <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/SpawnDemon_Blessed.png"
+  },
+  {
+    "id": "SpawnDemon_Dammed",
+    "name": "Dito dell'esorcista <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/SpawnDemon_Dammed.png"
+  },
+  {
+    "id": "SpawnTentacle",
+    "name": "Tentacolo di Turua",
+    "thumb": "icons/relics/64/SpawnTentacle.png"
+  },
+  {
+    "id": "UnlimitedFervour",
+    "name": "Nettare delle Corone",
+    "thumb": "icons/relics/64/UnlimitedFervour.png"
+  },
+  {
+    "id": "UseRandomRelic",
+    "name": "Portacipria di Aethrile",
+    "thumb": "icons/relics/64/UseRandomRelic.png"
+  },
+  {
+    "id": "UseRandomRelic_Blessed",
+    "name": "Portacipria di Aethrile <color=#03EAFD>benedetto</color>",
+    "thumb": "icons/relics/64/UseRandomRelic_Blessed.png"
+  },
+  {
+    "id": "UseRandomRelic_Dammed",
+    "name": "Portacipria di Aethrile <color=#FD1D03>dannato</color>",
+    "thumb": "icons/relics/64/UseRandomRelic_Dammed.png"
+  }
+]

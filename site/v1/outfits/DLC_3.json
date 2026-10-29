@@ -1,0 +1,91 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 9
+    },
+    {
+      "item": "FOLLOWER_MEAT",
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "ar": "الأرواح الكئيبة تلزمها ملابس قاتمة.",
+    "de": "Dunkle Seelen benötigen dunkle Gewänder.",
+    "en": "Dark souls require dark clothes.",
+    "es": "Un alma oscura requiere una ropa a la par.",
+    "fr": "Des vêtements sombres pour une âme sombre.",
+    "fr-CA": "Des vêtements sombres pour une âme sombre.",
+    "it": "Un'anima oscura ha bisogno di indumenti appropriati.",
+    "ja": "邪悪でダークな魂には、邪悪でダークな服装を",
+    "ko": "어두운 영혼에겐 어두운 옷이 필요합니다.",
+    "nl": "Donkere kleding voor donkere zielen.",
+    "pt-BR": "Almas sombrias precisam de roupas sombrias.",
+    "ru": "Мрачные мысли, мрачное одеяние.",
+    "tr": "Karanlık ruhlar, karanlık kıyafetleri sever.",
+    "zh-CN": "黑暗灵魂就需要黑暗服装。",
+    "zh-TW": "黑暗靈魂就需要黑暗服裝。"
+  },
+  "descriptionPlain": {
+    "ar": "الأرواح الكئيبة تلزمها ملابس قاتمة.",
+    "de": "Dunkle Seelen benötigen dunkle Gewänder.",
+    "en": "Dark souls require dark clothes.",
+    "es": "Un alma oscura requiere una ropa a la par.",
+    "fr": "Des vêtements sombres pour une âme sombre.",
+    "fr-CA": "Des vêtements sombres pour une âme sombre.",
+    "it": "Un'anima oscura ha bisogno di indumenti appropriati.",
+    "ja": "邪悪でダークな魂には、邪悪でダークな服装を",
+    "ko": "어두운 영혼에겐 어두운 옷이 필요합니다.",
+    "nl": "Donkere kleding voor donkere zielen.",
+    "pt-BR": "Almas sombrias precisam de roupas sombrias.",
+    "ru": "Мрачные мысли, мрачное одеяние.",
+    "tr": "Karanlık ruhlar, karanlık kıyafetleri sever.",
+    "zh-CN": "黑暗灵魂就需要黑暗服装。",
+    "zh-TW": "黑暗靈魂就需要黑暗服裝。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "sinful"
+  ],
+  "icon": "icons/outfits/DLC_3.png",
+  "id": "DLC_3",
+  "name": {
+    "ar": "ثوب قوطي",
+    "de": "Gotisches Kleid",
+    "en": "Gothic Dress",
+    "es": "Vestido gótico",
+    "fr": "Robe gothique",
+    "fr-CA": "Robe gothique",
+    "it": "Abito gotico",
+    "ja": "ゴシックな礼装",
+    "ko": "고딕 드레스",
+    "nl": "Gothic-jurk",
+    "pt-BR": "Vestido Gótico",
+    "ru": "Готическое платье",
+    "tr": "Gotik Elbise",
+    "zh-CN": "哥特服装",
+    "zh-TW": "歌德服裝"
+  },
+  "namePlain": {
+    "ar": "ثوب قوطي",
+    "de": "Gotisches Kleid",
+    "en": "Gothic Dress",
+    "es": "Vestido gótico",
+    "fr": "Robe gothique",
+    "fr-CA": "Robe gothique",
+    "it": "Abito gotico",
+    "ja": "ゴシックな礼装",
+    "ko": "고딕 드레스",
+    "nl": "Gothic-jurk",
+    "pt-BR": "Vestido Gótico",
+    "ru": "Готическое платье",
+    "tr": "Gotik Elbise",
+    "zh-CN": "哥特服装",
+    "zh-TW": "歌德服裝"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "dlc",
+  "thumb": "icons/outfits/64/DLC_3.png"
+}

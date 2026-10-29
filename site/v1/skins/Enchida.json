@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Enchida.png",
   "id": "Enchida",
   "name": {
     "en": "Enchida"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Enchida"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Enchida.png",
   "unlock": "DLC"
 }

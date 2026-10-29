@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Pig.png",
   "id": "Pig",
   "name": {
     "en": "Pig"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Pig"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Pig.png",
   "unlock": "Other"
 }

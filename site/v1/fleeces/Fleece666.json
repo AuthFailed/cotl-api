@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "كان يرتديه أحد على استعداد للتضحية بكل شيء. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Getragen von einem, der bereit war, alles zu geben. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Worn by one who was willing to give all. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Piel inseparable de aquel que estaba dispuesto a darlo todo. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Portée par celui qui était prêt à tout donner. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Portée par celui qui était prêt à tout donner. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Indossato da colui che era disposto a dare tutto. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "すべてを捧げんとする強い意志を持つ者が身につけていた服装。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "모든 걸 바칠 각오가 된 자가 걸칩니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Gedragen door iemand die bereid was om alles te geven. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Usado por quem estava disposto a ceder tudo. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Одеяние того, кто готов был пожертвовать всем.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Varını yoğunu feda etmeye hazır olanların postu. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "穿戴者愿意倾尽所有。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "願意奉獻所有之人的服飾。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "كان يرتديه أحد على استعداد للتضحية بكل شيء.\nلا يمنح مزايا.",
+    "de": "Getragen von einem, der bereit war, alles zu geben.\nGewährt keine Boni.",
+    "en": "Worn by one who was willing to give all.\nProvides no bonuses.",
+    "es": "Piel inseparable de aquel que estaba dispuesto a darlo todo.\nNo otorga nada especial.",
+    "fr": "Portée par celui qui était prêt à tout donner.\nN'octroie aucun bonus.",
+    "fr-CA": "Portée par celui qui était prêt à tout donner.\nN'octroie aucun bonus.",
+    "it": "Indossato da colui che era disposto a dare tutto.\nNon fornisce bonus.",
+    "ja": "すべてを捧げんとする強い意志を持つ者が身につけていた服装。\nボーナスなし。",
+    "ko": "모든 걸 바칠 각오가 된 자가 걸칩니다.\n특별한 효과는 없습니다.",
+    "nl": "Gedragen door iemand die bereid was om alles te geven.\nGeeft geen bonussen.",
+    "pt-BR": "Usado por quem estava disposto a ceder tudo.\nNão fornece nenhum bônus.",
+    "ru": "Одеяние того, кто готов был пожертвовать всем.\nНе даёт преимуществ.",
+    "tr": "Varını yoğunu feda etmeye hazır olanların postu.\nİlave özellik sağlamaz.",
+    "zh-CN": "穿戴者愿意倾尽所有。\n没有特殊效果。",
+    "zh-TW": "願意奉獻所有之人的服飾。\n沒有特殊效果。"
+  },
+  "fleece": 666,
+  "icon": "icons/fleeces/Fleece666.png",
+  "id": "Fleece666",
+  "name": {
+    "ar": "رداء الصامد",
+    "de": "Vlies des Entschlossenen",
+    "en": "Fleece of the Resolute",
+    "es": "Vellocino del Intrépido",
+    "fr": "Pelisse du déterminé",
+    "fr-CA": "Toison du déterminé",
+    "it": "Vello del risoluto",
+    "ja": "固い決意の羊毛",
+    "ko": "결연한 자의 양털",
+    "nl": "Vacht van de standvastige",
+    "pt-BR": "Lã da Determinação",
+    "ru": "Руно решимости",
+    "tr": "Azimlinin Postu",
+    "zh-CN": "坚毅者毛纺",
+    "zh-TW": "堅毅者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الصامد",
+    "de": "Vlies des Entschlossenen",
+    "en": "Fleece of the Resolute",
+    "es": "Vellocino del Intrépido",
+    "fr": "Pelisse du déterminé",
+    "fr-CA": "Toison du déterminé",
+    "it": "Vello del risoluto",
+    "ja": "固い決意の羊毛",
+    "ko": "결연한 자의 양털",
+    "nl": "Vacht van de standvastige",
+    "pt-BR": "Lã da Determinação",
+    "ru": "Руно решимости",
+    "tr": "Azimlinin Postu",
+    "zh-CN": "坚毅者毛纺",
+    "zh-TW": "堅毅者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece666.png"
+}

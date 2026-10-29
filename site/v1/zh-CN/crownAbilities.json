@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Ability_BlackHeart",
+    "name": "暗潮汹涌",
+    "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+  },
+  {
+    "id": "Ability_Eat",
+    "name": "饥饿",
+    "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+  },
+  {
+    "id": "Ability_Resurrection",
+    "name": "复活",
+    "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+  },
+  {
+    "id": "Ability_TeleportHome",
+    "name": "无所不在",
+    "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+  },
+  {
+    "id": "Ability_WinterChoice",
+    "name": "冬日之触",
+    "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+  }
+]

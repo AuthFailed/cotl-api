@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Armadillo.png",
   "id": "Armadillo",
   "name": {
     "en": "Armadillo"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Armadillo"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Armadillo.png",
   "unlock": "Dungeon5"
 }

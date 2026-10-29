@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Ability_BlackHeart",
+    "name": "Darkness Within",
+    "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+  },
+  {
+    "id": "Ability_Eat",
+    "name": "The Hunger",
+    "thumb": "icons/crownAbilities/64/Ability_Eat.png"
+  },
+  {
+    "id": "Ability_Resurrection",
+    "name": "Resurrection",
+    "thumb": "icons/crownAbilities/64/Ability_Resurrection.png"
+  },
+  {
+    "id": "Ability_TeleportHome",
+    "name": "Omnipresence",
+    "thumb": "icons/crownAbilities/64/Ability_TeleportHome.png"
+  },
+  {
+    "id": "Ability_WinterChoice",
+    "name": "Winter's Touch",
+    "thumb": "icons/crownAbilities/64/Ability_WinterChoice.png"
+  }
+]

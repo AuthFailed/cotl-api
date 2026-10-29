@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Butterfly.png",
   "id": "Butterfly",
   "name": {
     "en": "Butterfly"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Butterfly"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Butterfly.png",
   "unlock": "Other"
 }

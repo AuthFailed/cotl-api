@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Axe",
+    "name": "İsyankâr Baltası",
+    "thumb": "icons/weapons/64/Axe.png"
+  },
+  {
+    "id": "Axe_Critical",
+    "name": "Amansız Balta",
+    "thumb": "icons/weapons/64/Axe_Critical.png"
+  },
+  {
+    "id": "Axe_Fervour",
+    "name": "Hırs Baltası",
+    "thumb": "icons/weapons/64/Axe_Fervour.png"
+  },
+  {
+    "id": "Axe_Godly",
+    "name": "Tanrıların Baltası",
+    "thumb": "icons/weapons/64/Axe_Godly.png"
+  },
+  {
+    "id": "Axe_Healing",
+    "name": "Cani Balta",
+    "thumb": "icons/weapons/64/Axe_Healing.png"
+  },
+  {
+    "id": "Axe_Legendary",
+    "name": "Kuzu Katli",
+    "thumb": "icons/weapons/64/Axe_Legendary.png"
+  },
+  {
+    "id": "Axe_Nercomancy",
+    "name": "Ruh Baltası",
+    "thumb": "icons/weapons/64/Axe_Nercomancy.png"
+  },
+  {
+    "id": "Axe_Poison",
+    "name": "Zehirli Balta",
+    "thumb": "icons/weapons/64/Axe_Poison.png"
+  },
+  {
+    "id": "Blunderbuss",
+    "name": "Kaos Topu",
+    "thumb": "icons/weapons/64/Blunderbuss.png"
+  },
+  {
+    "id": "Blunderbuss_Critical",
+    "name": "Amansız Alaybozan",
+    "thumb": "icons/weapons/64/Blunderbuss_Critical.png"
+  },
+  {
+    "id": "Blunderbuss_Fervour",
+    "name": "Hırs Alaybozanı",
+    "thumb": "icons/weapons/64/Blunderbuss_Fervour.png"
+  },
+  {
+    "id": "Blunderbuss_Godly",
+    "name": "Tanrıların Alaybozanı",
+    "thumb": "icons/weapons/64/Blunderbuss_Godly.png"
+  },
+  {
+    "id": "Blunderbuss_Healing",
+    "name": "Cani Alaybozan",
+    "thumb": "icons/weapons/64/Blunderbuss_Healing.png"
+  },
+  {
+    "id": "Blunderbuss_Legendary",
+    "name": "İlk Plimbo'nun Kaderi",
+    "thumb": "icons/weapons/64/Blunderbuss_Legendary.png"
+  },
+  {
+    "id": "Blunderbuss_Nercomancy",
+    "name": "Ruh Alaybozanı",
+    "thumb": "icons/weapons/64/Blunderbuss_Nercomancy.png"
+  },
+  {
+    "id": "Blunderbuss_Poison",
+    "name": "Zehirli Alaybozan",
+    "thumb": "icons/weapons/64/Blunderbuss_Poison.png"
+  },
+  {
+    "id": "Chain",
+    "name": "Savaşçının Gürzü",
+    "thumb": "icons/weapons/64/Chain.png"
+  },
+  {
+    "id": "Chain_Critical",
+    "name": "Amansız Gürz",
+    "thumb": "icons/weapons/64/Chain_Critical.png"
+  },
+  {
+    "id": "Chain_Fervour",
+    "name": "Hırs Gürzü",
+    "thumb": "icons/weapons/64/Chain_Fervour.png"
+  },
+  {
+    "id": "Chain_Godly",
+    "name": "Tanrıların Gürzü",
+    "thumb": "icons/weapons/64/Chain_Godly.png"
+  },
+  {
+    "id": "Chain_Healing",
+    "name": "Cani Gürz",
+    "thumb": "icons/weapons/64/Chain_Healing.png"
+  },
+  {
+    "id": "Chain_Legendary",
+    "name": "Yngya'nın Öcü",
+    "thumb": "icons/weapons/64/Chain_Legendary.png"
+  },
+  {
+    "id": "Chain_Nercomancy",
+    "name": "Ruh Gürzü",
+    "thumb": "icons/weapons/64/Chain_Nercomancy.png"
+  },
+  {
+    "id": "Chain_Poison",
+    "name": "Zehirli Gürz",
+    "thumb": "icons/weapons/64/Chain_Poison.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "Hainin Hançeri",
+    "thumb": "icons/weapons/64/Dagger.png"
+  },
+  {
+    "id": "Dagger_Critical",
+    "name": "Amansız Hançer",
+    "thumb": "icons/weapons/64/Dagger_Critical.png"
+  },
+  {
+    "id": "Dagger_Fervour",
+    "name": "Hırs Hançeri",
+    "thumb": "icons/weapons/64/Dagger_Fervour.png"
+  },
+  {
+    "id": "Dagger_Godly",
+    "name": "Tanrıların Hançeri",
+    "thumb": "icons/weapons/64/Dagger_Godly.png"
+  },
+  {
+    "id": "Dagger_Healing",
+    "name": "Cani Hançer",
+    "thumb": "icons/weapons/64/Dagger_Healing.png"
+  },
+  {
+    "id": "Dagger_Legendary",
+    "name": "Nirah'ın Yıkıcısı",
+    "thumb": "icons/weapons/64/Dagger_Legendary.png"
+  },
+  {
+    "id": "Dagger_Nercomancy",
+    "name": "Ruh Hançeri",
+    "thumb": "icons/weapons/64/Dagger_Nercomancy.png"
+  },
+  {
+    "id": "Dagger_Poison",
+    "name": "Zehirli Hançer",
+    "thumb": "icons/weapons/64/Dagger_Poison.png"
+  },
+  {
+    "id": "Gauntlet",
+    "name": "Hiddet Eldiveni",
+    "thumb": "icons/weapons/64/Gauntlet.png"
+  },
+  {
+    "id": "Gauntlet_Critical",
+    "name": "Amansız Eldiven",
+    "thumb": "icons/weapons/64/Gauntlet_Critical.png"
+  },
+  {
+    "id": "Gauntlet_Fervour",
+    "name": "Hırs Eldiveni",
+    "thumb": "icons/weapons/64/Gauntlet_Fervour.png"
+  },
+  {
+    "id": "Gauntlet_Godly",
+    "name": "Tanrıların Eldiveni",
+    "thumb": "icons/weapons/64/Gauntlet_Godly.png"
+  },
+  {
+    "id": "Gauntlet_Healing",
+    "name": "Cani Eldiven",
+    "thumb": "icons/weapons/64/Gauntlet_Healing.png"
+  },
+  {
+    "id": "Gauntlet_Legendary",
+    "name": "Kutsalların Kovucusu",
+    "thumb": "icons/weapons/64/Gauntlet_Legendary.png"
+  },
+  {
+    "id": "Gauntlet_Nercomancy",
+    "name": "Ruh Eldiveni",
+    "thumb": "icons/weapons/64/Gauntlet_Nercomancy.png"
+  },
+  {
+    "id": "Gauntlet_Poison",
+    "name": "Zehirli Eldiven",
+    "thumb": "icons/weapons/64/Gauntlet_Poison.png"
+  },
+  {
+    "id": "Hammer",
+    "name": "Savaş Ustasının Çekici",
+    "thumb": "icons/weapons/64/Hammer.png"
+  },
+  {
+    "id": "Hammer_Critical",
+    "name": "Amansız Çekiç",
+    "thumb": "icons/weapons/64/Hammer_Critical.png"
+  },
+  {
+    "id": "Hammer_Fervour",
+    "name": "Hırs Çekici",
+    "thumb": "icons/weapons/64/Hammer_Fervour.png"
+  },
+  {
+    "id": "Hammer_Godly",
+    "name": "Tanrıların Çekici",
+    "thumb": "icons/weapons/64/Hammer_Godly.png"
+  },
+  {
+    "id": "Hammer_Healing",
+    "name": "Cani Çekiç",
+    "thumb": "icons/weapons/64/Hammer_Healing.png"
+  },
+  {
+    "id": "Hammer_Legendary",
+    "name": "Svarog Kahrı",
+    "thumb": "icons/weapons/64/Hammer_Legendary.png"
+  },
+  {
+    "id": "Hammer_Nercomancy",
+    "name": "Ruh Çekici",
+    "thumb": "icons/weapons/64/Hammer_Nercomancy.png"
+  },
+  {
+    "id": "Hammer_Poison",
+    "name": "Zehirli Çekiç",
+    "thumb": "icons/weapons/64/Hammer_Poison.png"
+  },
+  {
+    "id": "Shield",
+    "name": "Hüküm Kalkanı",
+    "thumb": "icons/weapons/64/Shield.png"
+  },
+  {
+    "id": "Shield_Critical",
+    "name": "Amansız Kalkan",
+    "thumb": "icons/weapons/64/Shield_Critical.png"
+  },
+  {
+    "id": "Shield_Fervour",
+    "name": "Hırs Kalkanı",
+    "thumb": "icons/weapons/64/Shield_Fervour.png"
+  },
+  {
+    "id": "Shield_Godly",
+    "name": "Tanrıların Kalkanı",
+    "thumb": "icons/weapons/64/Shield_Godly.png"
+  },
+  {
+    "id": "Shield_Healing",
+    "name": "Cani Kalkan",
+    "thumb": "icons/weapons/64/Shield_Healing.png"
+  },
+  {
+    "id": "Shield_Nercomancy",
+    "name": "Ruh Kalkanı",
+    "thumb": "icons/weapons/64/Shield_Nercomancy.png"
+  },
+  {
+    "id": "Shield_Poison",
+    "name": "Zehirli Kalkan",
+    "thumb": "icons/weapons/64/Shield_Poison.png"
+  },
+  {
+    "id": "Sword",
+    "name": "Seferber Kılıcı",
+    "thumb": "icons/weapons/64/Sword.png"
+  },
+  {
+    "id": "Sword_Critical",
+    "name": "Amansız Kılıç",
+    "thumb": "icons/weapons/64/Sword_Critical.png"
+  },
+  {
+    "id": "Sword_Fervour",
+    "name": "Hırs Kılıcı",
+    "thumb": "icons/weapons/64/Sword_Fervour.png"
+  },
+  {
+    "id": "Sword_Godly",
+    "name": "Tanrıların Kılıcı",
+    "thumb": "icons/weapons/64/Sword_Godly.png"
+  },
+  {
+    "id": "Sword_Healing",
+    "name": "Cani Kılıç",
+    "thumb": "icons/weapons/64/Sword_Healing.png"
+  },
+  {
+    "id": "Sword_Legendary",
+    "name": "Altın Son",
+    "thumb": "icons/weapons/64/Sword_Legendary.png"
+  },
+  {
+    "id": "Sword_Nercomancy",
+    "name": "Ruh Kılıcı",
+    "thumb": "icons/weapons/64/Sword_Nercomancy.png"
+  },
+  {
+    "id": "Sword_Poison",
+    "name": "Zehirli Kılıç",
+    "thumb": "icons/weapons/64/Sword_Poison.png"
+  },
+  {
+    "id": "Sword_Ratau",
+    "name": "Ratau'nun Asası",
+    "thumb": "icons/weapons/64/Sword_Ratau.png"
+  }
+]

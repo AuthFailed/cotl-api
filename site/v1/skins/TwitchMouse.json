@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/TwitchMouse.png",
   "id": "TwitchMouse",
   "name": {
     "en": "TwitchMouse"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "TwitchMouse"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/TwitchMouse.png",
   "unlock": "DLC"
 }

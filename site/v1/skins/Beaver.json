@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Beaver.png",
   "id": "Beaver",
   "name": {
     "en": "Apple_4"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Apple_4"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Beaver.png",
   "unlock": "Other"
 }

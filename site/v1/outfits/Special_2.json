@@ -1,0 +1,93 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 6
+    },
+    {
+      "item": "GOLD_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "درع فاخرة للأتباع الشجعان.",
+    "de": "Eine edle Rüstung für tapfere Anhänger.",
+    "en": "Noble armour for brave Followers.",
+    "es": "Una noble armadura para los adeptos más valerosos.",
+    "fr": "Une armure noble pour les adeptes les plus braves.",
+    "fr-CA": "Une armure noble pour les adeptes les plus braves.",
+    "it": "Una nobile armatura per membri coraggiosi.",
+    "ja": "勇敢な信者が身に着ける立派な鎧",
+    "ko": "용감한 추종자를 위한 고귀한 갑옷입니다.",
+    "nl": "Nobel pantser voor dappere volgelingen.",
+    "pt-BR": "Armadura nobre para Seguidores valentes.",
+    "ru": "Надёжная защита для храбрых последователей.",
+    "tr": "Cesur Takipçiler için asil bir zırh.",
+    "zh-CN": "勇敢教徒穿的高贵盔甲。",
+    "zh-TW": "勇敢教徒穿的高貴盔甲。"
+  },
+  "descriptionPlain": {
+    "ar": "درع فاخرة للأتباع الشجعان.",
+    "de": "Eine edle Rüstung für tapfere Anhänger.",
+    "en": "Noble armour for brave Followers.",
+    "es": "Una noble armadura para los adeptos más valerosos.",
+    "fr": "Une armure noble pour les adeptes les plus braves.",
+    "fr-CA": "Une armure noble pour les adeptes les plus braves.",
+    "it": "Una nobile armatura per membri coraggiosi.",
+    "ja": "勇敢な信者が身に着ける立派な鎧",
+    "ko": "용감한 추종자를 위한 고귀한 갑옷입니다.",
+    "nl": "Nobel pantser voor dappere volgelingen.",
+    "pt-BR": "Armadura nobre para Seguidores valentes.",
+    "ru": "Надёжная защита для храбрых последователей.",
+    "tr": "Cesur Takipçiler için asil bir zırh.",
+    "zh-CN": "勇敢教徒穿的高贵盔甲。",
+    "zh-TW": "勇敢教徒穿的高貴盔甲。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [],
+  "icon": "icons/outfits/Special_2.png",
+  "id": "Special_2",
+  "name": {
+    "ar": "درع الفارس",
+    "de": "Ritterrüstung",
+    "en": "Knight Armour",
+    "es": "Armadura de caballero",
+    "fr": "Armure de chevalier",
+    "fr-CA": "Armure de chevalier",
+    "it": "Armatura da cavaliere",
+    "ja": "騎士の鎧",
+    "ko": "기사 갑옷",
+    "nl": "Ridderharnas",
+    "pt-BR": "Armadura de Cavalaria",
+    "ru": "Рыцарский доспех",
+    "tr": "Şövalye Zırhı",
+    "zh-CN": "骑士盔甲",
+    "zh-TW": "騎士盔甲"
+  },
+  "namePlain": {
+    "ar": "درع الفارس",
+    "de": "Ritterrüstung",
+    "en": "Knight Armour",
+    "es": "Armadura de caballero",
+    "fr": "Armure de chevalier",
+    "fr-CA": "Armure de chevalier",
+    "it": "Armatura da cavaliere",
+    "ja": "騎士の鎧",
+    "ko": "기사 갑옷",
+    "nl": "Ridderharnas",
+    "pt-BR": "Armadura de Cavalaria",
+    "ru": "Рыцарский доспех",
+    "tr": "Şövalye Zırhı",
+    "zh-CN": "骑士盔甲",
+    "zh-TW": "騎士盔甲"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Special_2.png"
+}

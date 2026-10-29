@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Hyena.png",
   "id": "Hyena",
   "name": {
     "en": "Hyena"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Hyena"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Hyena.png",
   "unlock": "Dungeon6"
 }

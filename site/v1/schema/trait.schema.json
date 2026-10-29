@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trait",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "positive",
+    "groups",
+    "exclusiveWith"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/traits/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/traits/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "positive": {
+      "type": "boolean",
+      "description": "the game counts it as a good trait"
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "the game's trait lists it is in: starting, rareStarting, single, faithful, good, unique, sin, majorDlc, winter, pureBlood, excludedFromMating"
+    },
+    "exclusiveWith": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "the trait it can't be held with"
+    }
+  }
+}

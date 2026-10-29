@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Axe",
+    "name": "叛教者的屠斧",
+    "thumb": "icons/weapons/64/Axe.png"
+  },
+  {
+    "id": "Axe_Critical",
+    "name": "残酷之斧",
+    "thumb": "icons/weapons/64/Axe_Critical.png"
+  },
+  {
+    "id": "Axe_Fervour",
+    "name": "狂热之斧",
+    "thumb": "icons/weapons/64/Axe_Fervour.png"
+  },
+  {
+    "id": "Axe_Godly",
+    "name": "神力之斧",
+    "thumb": "icons/weapons/64/Axe_Godly.png"
+  },
+  {
+    "id": "Axe_Healing",
+    "name": "吸血之斧",
+    "thumb": "icons/weapons/64/Axe_Healing.png"
+  },
+  {
+    "id": "Axe_Legendary",
+    "name": "圣羊屠宰",
+    "thumb": "icons/weapons/64/Axe_Legendary.png"
+  },
+  {
+    "id": "Axe_Nercomancy",
+    "name": "死灵之斧",
+    "thumb": "icons/weapons/64/Axe_Nercomancy.png"
+  },
+  {
+    "id": "Axe_Poison",
+    "name": "恶毒之斧",
+    "thumb": "icons/weapons/64/Axe_Poison.png"
+  },
+  {
+    "id": "Blunderbuss",
+    "name": "破坏重炮",
+    "thumb": "icons/weapons/64/Blunderbuss.png"
+  },
+  {
+    "id": "Blunderbuss_Critical",
+    "name": "无情之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Critical.png"
+  },
+  {
+    "id": "Blunderbuss_Fervour",
+    "name": "狂热之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Fervour.png"
+  },
+  {
+    "id": "Blunderbuss_Godly",
+    "name": "神力之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Godly.png"
+  },
+  {
+    "id": "Blunderbuss_Healing",
+    "name": "吸血之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Healing.png"
+  },
+  {
+    "id": "Blunderbuss_Legendary",
+    "name": "普霖波一世之命运",
+    "thumb": "icons/weapons/64/Blunderbuss_Legendary.png"
+  },
+  {
+    "id": "Blunderbuss_Nercomancy",
+    "name": "唤灵之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Nercomancy.png"
+  },
+  {
+    "id": "Blunderbuss_Poison",
+    "name": "恶毒之枪",
+    "thumb": "icons/weapons/64/Blunderbuss_Poison.png"
+  },
+  {
+    "id": "Chain",
+    "name": "战斗者的链球",
+    "thumb": "icons/weapons/64/Chain.png"
+  },
+  {
+    "id": "Chain_Critical",
+    "name": "无情连枷",
+    "thumb": "icons/weapons/64/Chain_Critical.png"
+  },
+  {
+    "id": "Chain_Fervour",
+    "name": "狂热连枷",
+    "thumb": "icons/weapons/64/Chain_Fervour.png"
+  },
+  {
+    "id": "Chain_Godly",
+    "name": "神力连枷",
+    "thumb": "icons/weapons/64/Chain_Godly.png"
+  },
+  {
+    "id": "Chain_Healing",
+    "name": "吸血连枷",
+    "thumb": "icons/weapons/64/Chain_Healing.png"
+  },
+  {
+    "id": "Chain_Legendary",
+    "name": "殷亚的折磨",
+    "thumb": "icons/weapons/64/Chain_Legendary.png"
+  },
+  {
+    "id": "Chain_Nercomancy",
+    "name": "唤灵连枷",
+    "thumb": "icons/weapons/64/Chain_Nercomancy.png"
+  },
+  {
+    "id": "Chain_Poison",
+    "name": "恶毒连枷",
+    "thumb": "icons/weapons/64/Chain_Poison.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "叛徒剃刀",
+    "thumb": "icons/weapons/64/Dagger.png"
+  },
+  {
+    "id": "Dagger_Critical",
+    "name": "残酷短剑",
+    "thumb": "icons/weapons/64/Dagger_Critical.png"
+  },
+  {
+    "id": "Dagger_Fervour",
+    "name": "狂热短剑",
+    "thumb": "icons/weapons/64/Dagger_Fervour.png"
+  },
+  {
+    "id": "Dagger_Godly",
+    "name": "神力短剑",
+    "thumb": "icons/weapons/64/Dagger_Godly.png"
+  },
+  {
+    "id": "Dagger_Healing",
+    "name": "吸血短剑",
+    "thumb": "icons/weapons/64/Dagger_Healing.png"
+  },
+  {
+    "id": "Dagger_Legendary",
+    "name": "尼拉废墟",
+    "thumb": "icons/weapons/64/Dagger_Legendary.png"
+  },
+  {
+    "id": "Dagger_Nercomancy",
+    "name": "死灵短剑",
+    "thumb": "icons/weapons/64/Dagger_Nercomancy.png"
+  },
+  {
+    "id": "Dagger_Poison",
+    "name": "恶毒短剑",
+    "thumb": "icons/weapons/64/Dagger_Poison.png"
+  },
+  {
+    "id": "Gauntlet",
+    "name": "风暴拳套",
+    "thumb": "icons/weapons/64/Gauntlet.png"
+  },
+  {
+    "id": "Gauntlet_Critical",
+    "name": "无情拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Critical.png"
+  },
+  {
+    "id": "Gauntlet_Fervour",
+    "name": "狂热拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Fervour.png"
+  },
+  {
+    "id": "Gauntlet_Godly",
+    "name": "神力拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Godly.png"
+  },
+  {
+    "id": "Gauntlet_Healing",
+    "name": "吸血拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Healing.png"
+  },
+  {
+    "id": "Gauntlet_Legendary",
+    "name": "渎圣者",
+    "thumb": "icons/weapons/64/Gauntlet_Legendary.png"
+  },
+  {
+    "id": "Gauntlet_Nercomancy",
+    "name": "死灵拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Nercomancy.png"
+  },
+  {
+    "id": "Gauntlet_Poison",
+    "name": "恶毒拳套",
+    "thumb": "icons/weapons/64/Gauntlet_Poison.png"
+  },
+  {
+    "id": "Hammer",
+    "name": "起乱者之槌",
+    "thumb": "icons/weapons/64/Hammer.png"
+  },
+  {
+    "id": "Hammer_Critical",
+    "name": "无情之槌",
+    "thumb": "icons/weapons/64/Hammer_Critical.png"
+  },
+  {
+    "id": "Hammer_Fervour",
+    "name": "狂热之槌",
+    "thumb": "icons/weapons/64/Hammer_Fervour.png"
+  },
+  {
+    "id": "Hammer_Godly",
+    "name": "神力之槌",
+    "thumb": "icons/weapons/64/Hammer_Godly.png"
+  },
+  {
+    "id": "Hammer_Healing",
+    "name": "吸血之槌",
+    "thumb": "icons/weapons/64/Hammer_Healing.png"
+  },
+  {
+    "id": "Hammer_Legendary",
+    "name": "斯瓦罗格之祸",
+    "thumb": "icons/weapons/64/Hammer_Legendary.png"
+  },
+  {
+    "id": "Hammer_Nercomancy",
+    "name": "死灵之槌",
+    "thumb": "icons/weapons/64/Hammer_Nercomancy.png"
+  },
+  {
+    "id": "Hammer_Poison",
+    "name": "恶毒之槌",
+    "thumb": "icons/weapons/64/Hammer_Poison.png"
+  },
+  {
+    "id": "Shield",
+    "name": "信念守卫",
+    "thumb": "icons/weapons/64/Shield.png"
+  },
+  {
+    "id": "Shield_Critical",
+    "name": "无情之盾",
+    "thumb": "icons/weapons/64/Shield_Critical.png"
+  },
+  {
+    "id": "Shield_Fervour",
+    "name": "狂热之盾",
+    "thumb": "icons/weapons/64/Shield_Fervour.png"
+  },
+  {
+    "id": "Shield_Godly",
+    "name": "神力之盾",
+    "thumb": "icons/weapons/64/Shield_Godly.png"
+  },
+  {
+    "id": "Shield_Healing",
+    "name": "吸血之盾",
+    "thumb": "icons/weapons/64/Shield_Healing.png"
+  },
+  {
+    "id": "Shield_Nercomancy",
+    "name": "唤灵之盾",
+    "thumb": "icons/weapons/64/Shield_Nercomancy.png"
+  },
+  {
+    "id": "Shield_Poison",
+    "name": "恶毒之盾",
+    "thumb": "icons/weapons/64/Shield_Poison.png"
+  },
+  {
+    "id": "Sword",
+    "name": "圣战士之刃",
+    "thumb": "icons/weapons/64/Sword.png"
+  },
+  {
+    "id": "Sword_Critical",
+    "name": "残酷之剑",
+    "thumb": "icons/weapons/64/Sword_Critical.png"
+  },
+  {
+    "id": "Sword_Fervour",
+    "name": "狂热之剑",
+    "thumb": "icons/weapons/64/Sword_Fervour.png"
+  },
+  {
+    "id": "Sword_Godly",
+    "name": "神力之剑",
+    "thumb": "icons/weapons/64/Sword_Godly.png"
+  },
+  {
+    "id": "Sword_Healing",
+    "name": "吸血之剑",
+    "thumb": "icons/weapons/64/Sword_Healing.png"
+  },
+  {
+    "id": "Sword_Legendary",
+    "name": "金色终结",
+    "thumb": "icons/weapons/64/Sword_Legendary.png"
+  },
+  {
+    "id": "Sword_Nercomancy",
+    "name": "死灵之剑",
+    "thumb": "icons/weapons/64/Sword_Nercomancy.png"
+  },
+  {
+    "id": "Sword_Poison",
+    "name": "恶毒之剑",
+    "thumb": "icons/weapons/64/Sword_Poison.png"
+  },
+  {
+    "id": "Sword_Ratau",
+    "name": "拉陶之杖",
+    "thumb": "icons/weapons/64/Sword_Ratau.png"
+  }
+]

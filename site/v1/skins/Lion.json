@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Lion.png",
   "id": "Lion",
   "name": {
     "en": "Lion"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Lion"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Lion.png",
   "unlock": "DLC"
 }

@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "عند العودة إلى الحياة، يمكنك الحصول على قلبين فاسدين.",
+    "de": "Erhalte bei der Wiedererweckung 2 kranke Herzen.",
+    "en": "When Resurrecting gain 2 Diseased Hearts.",
+    "es": "Ganas 2 corazones enfermos al resucitar.",
+    "fr": "Donne 2 cœurs corrompus lorsque vous ressuscitez.",
+    "fr-CA": "Donne 2 cœurs corrompus lorsque vous ressuscitez.",
+    "it": "Quando risorgi, ottieni 2 cuori afflitti.",
+    "ja": "復活時に病みし心臓を2個得る。",
+    "ko": "부활할 때 병든 심장을 2개 얻습니다.",
+    "nl": "Krijg 2 ziekelijke harten bij wederopstanding.",
+    "pt-BR": "Ganha 2 Corações Doentes ao Ressuscitar.",
+    "ru": "Вы получаете два больных сердца после оживления.",
+    "tr": "Dirildiğinde 2 Çürümüş Kalp kazanırsın.",
+    "zh-CN": "复活时获得 2 颗病缠黑心。",
+    "zh-TW": "復活時獲得 2 顆病纏黑心。"
+  },
+  "descriptionPlain": {
+    "ar": "عند العودة إلى الحياة، يمكنك الحصول على قلبين فاسدين.",
+    "de": "Erhalte bei der Wiedererweckung 2 kranke Herzen.",
+    "en": "When Resurrecting gain 2 Diseased Hearts.",
+    "es": "Ganas 2 corazones enfermos al resucitar.",
+    "fr": "Donne 2 cœurs corrompus lorsque vous ressuscitez.",
+    "fr-CA": "Donne 2 cœurs corrompus lorsque vous ressuscitez.",
+    "it": "Quando risorgi, ottieni 2 cuori afflitti.",
+    "ja": "復活時に病みし心臓を2個得る。",
+    "ko": "부활할 때 병든 심장을 2개 얻습니다.",
+    "nl": "Krijg 2 ziekelijke harten bij wederopstanding.",
+    "pt-BR": "Ganha 2 Corações Doentes ao Ressuscitar.",
+    "ru": "Вы получаете два больных сердца после оживления.",
+    "tr": "Dirildiğinde 2 Çürümüş Kalp kazanırsın.",
+    "zh-CN": "复活时获得 2 颗病缠黑心。",
+    "zh-TW": "復活時獲得 2 顆病纏黑心。"
+  },
+  "fleece": 1000,
+  "icon": "icons/fleeces/GodOfDeath.png",
+  "id": "GodOfDeath",
+  "name": {
+    "ar": "رداء سيد الموت",
+    "de": "Gott des Todes-Vlieses",
+    "en": "God of Death Fleece",
+    "es": "Vellocino dios de la muerte",
+    "fr": "Pelisse du Dieu de la mort",
+    "fr-CA": "Toison du Dieu de la mort",
+    "it": "Vello del Dio della Morte",
+    "ja": "死の神の羊毛",
+    "ko": "죽음의 신 양털",
+    "nl": "Vacht van de god der doden",
+    "pt-BR": "Lã do Deus da Morte",
+    "ru": "Руно владыки смерти",
+    "tr": "Ölüm Tanrısı Postu",
+    "zh-CN": "死亡之神毛纺",
+    "zh-TW": "死亡之神毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء سيد الموت",
+    "de": "Gott des Todes-Vlieses",
+    "en": "God of Death Fleece",
+    "es": "Vellocino dios de la muerte",
+    "fr": "Pelisse du Dieu de la mort",
+    "fr-CA": "Toison du Dieu de la mort",
+    "it": "Vello del Dio della Morte",
+    "ja": "死の神の羊毛",
+    "ko": "죽음의 신 양털",
+    "nl": "Vacht van de god der doden",
+    "pt-BR": "Lã do Deus da Morte",
+    "ru": "Руно владыки смерти",
+    "tr": "Ölüm Tanrısı Postu",
+    "zh-CN": "死亡之神毛纺",
+    "zh-TW": "死亡之神毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/GodOfDeath.png"
+}

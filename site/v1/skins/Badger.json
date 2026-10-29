@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Badger.png",
   "id": "Badger",
   "name": {
     "en": "Badger"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Badger"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Badger.png",
   "unlock": "Dungeon4"
 }

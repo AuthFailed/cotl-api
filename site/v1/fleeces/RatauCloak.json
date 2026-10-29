@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "خشنة وذات رائحة مميزة. يمكن الاختباء في الزنازين باستخدام الحماس.",
+    "de": "Kratzig, mit einem strengen Geruch. Verwende Eifer und grabe dich in Dungeons ein.",
+    "en": "Scratchy, with a distinct smell. Burrow in dungeons using Fervour.",
+    "es": "Áspera y con un olor muy particular. Gasta todo tu fervor y ocúltate bajo tierra.",
+    "fr": "Gratte la peau et est imprégnée d'une odeur caractéristique. Creusez sous la terre en donjon en dépensant de la ferveur.",
+    "fr-CA": "Rêche et imprégnée d'une odeur caractéristique. Creusez sous la terre en donjon en dépensant de la ferveur.",
+    "it": "Ruvido e dall'odore pungente. Affonda nel terreno dei dungeon consumando Fervore.",
+    "ja": "独特な匂いのする、チクチクするマント。聖戦中、信力を消費することで地中に潜れる。",
+    "ko": "까칠까칠하고 심한 냄새가 납니다. 던전에서 열정을 사용해 지하로 파고들 수 있습니다.",
+    "nl": "Jeukt en heeft een eigenaardige geur. Graaf in dungeons door middel van furie.",
+    "pt-BR": "Áspera, com um cheiro distinto. Enterra-se nas masmorras usando Fervor.",
+    "ru": "Знакомо пахнущая колючая накидка. Позволяет зарыться в землю на поле боя, израсходовав усердие.",
+    "tr": "Tırmalanmış, garip de bir kokusu var. Şevk kullanarak zindanlarda çukur kaz.",
+    "zh-CN": "触感粗糙，带有独特气味。使用热诚，可在地牢中挖洞。",
+    "zh-TW": "穿起來不舒服，而且有異味。可消耗熱誠在地牢挖洞。"
+  },
+  "descriptionPlain": {
+    "ar": "خشنة وذات رائحة مميزة. يمكن الاختباء في الزنازين باستخدام الحماس.",
+    "de": "Kratzig, mit einem strengen Geruch. Verwende Eifer und grabe dich in Dungeons ein.",
+    "en": "Scratchy, with a distinct smell. Burrow in dungeons using Fervour.",
+    "es": "Áspera y con un olor muy particular. Gasta todo tu fervor y ocúltate bajo tierra.",
+    "fr": "Gratte la peau et est imprégnée d'une odeur caractéristique. Creusez sous la terre en donjon en dépensant de la ferveur.",
+    "fr-CA": "Rêche et imprégnée d'une odeur caractéristique. Creusez sous la terre en donjon en dépensant de la ferveur.",
+    "it": "Ruvido e dall'odore pungente. Affonda nel terreno dei dungeon consumando Fervore.",
+    "ja": "独特な匂いのする、チクチクするマント。聖戦中、信力を消費することで地中に潜れる。",
+    "ko": "까칠까칠하고 심한 냄새가 납니다. 던전에서 열정을 사용해 지하로 파고들 수 있습니다.",
+    "nl": "Jeukt en heeft een eigenaardige geur. Graaf in dungeons door middel van furie.",
+    "pt-BR": "Áspera, com um cheiro distinto. Enterra-se nas masmorras usando Fervor.",
+    "ru": "Знакомо пахнущая колючая накидка. Позволяет зарыться в землю на поле боя, израсходовав усердие.",
+    "tr": "Tırmalanmış, garip de bir kokusu var. Şevk kullanarak zindanlarda çukur kaz.",
+    "zh-CN": "触感粗糙，带有独特气味。使用热诚，可在地牢中挖洞。",
+    "zh-TW": "穿起來不舒服，而且有異味。可消耗熱誠在地牢挖洞。"
+  },
+  "fleece": 11,
+  "icon": "icons/fleeces/RatauCloak.png",
+  "id": "RatauCloak",
+  "name": {
+    "ar": "عباءة راتاو",
+    "de": "Rattaus Umhang",
+    "en": "Ratau’s Cloak",
+    "es": "Capa de Ratau",
+    "fr": "Cape de Ratau",
+    "fr-CA": "Cape de Ratau",
+    "it": "Cappa di Rattau",
+    "ja": "ネズムのマント",
+    "ko": "라타우의 망토",
+    "nl": "Rataus mantel",
+    "pt-BR": "Capa do Ratau",
+    "ru": "Плащ Крысау",
+    "tr": "Ratau'nun Örtüsü",
+    "zh-CN": "拉陶的披风",
+    "zh-TW": "拉陶鼠的斗篷"
+  },
+  "namePlain": {
+    "ar": "عباءة راتاو",
+    "de": "Rattaus Umhang",
+    "en": "Ratau’s Cloak",
+    "es": "Capa de Ratau",
+    "fr": "Cape de Ratau",
+    "fr-CA": "Cape de Ratau",
+    "it": "Cappa di Rattau",
+    "ja": "ネズムのマント",
+    "ko": "라타우의 망토",
+    "nl": "Rataus mantel",
+    "pt-BR": "Capa do Ratau",
+    "ru": "Плащ Крысау",
+    "tr": "Ratau'nun Örtüsü",
+    "zh-CN": "拉陶的披风",
+    "zh-TW": "拉陶鼠的斗篷"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/RatauCloak.png"
+}

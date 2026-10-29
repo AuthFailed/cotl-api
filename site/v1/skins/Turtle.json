@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Turtle.png",
   "id": "Turtle",
   "name": {
     "en": "Turtle"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Turtle"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Turtle.png",
   "unlock": "DLC"
 }

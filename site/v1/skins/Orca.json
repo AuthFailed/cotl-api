@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Orca.png",
   "id": "Orca",
   "name": {
     "en": "Orca"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Orca"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Orca.png",
   "unlock": "Major_DLC"
 }

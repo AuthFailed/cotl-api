@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ناعم ومقرف إلى حد ما. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Flauschig und irgendwie eklig. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Fluffy and kind of gross. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Muy mullidito, pero da asquete. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Pelucheuse et un brin répugnante. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Pelucheuse et un peu répugnante. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Lanuginoso e piuttosto disgustoso. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "ふわふわしているが、なんだか気持ち悪い。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "푹신하고 조금 역겹습니다. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Donzig en een beetje vunzig. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Fofo e meio repugnante. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Пушистое одеяние, которым многие бы побрезговали.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Pofuduk ama bir o kadar da iğrenç. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "毛茸茸的，还有点恶心。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "毛茸茸的，有點噁心。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "ناعم ومقرف إلى حد ما.\nلا يمنح مزايا.",
+    "de": "Flauschig und irgendwie eklig.\nGewährt keine Boni.",
+    "en": "Fluffy and kind of gross.\nProvides no bonuses.",
+    "es": "Muy mullidito, pero da asquete.\nNo otorga nada especial.",
+    "fr": "Pelucheuse et un brin répugnante.\nN'octroie aucun bonus.",
+    "fr-CA": "Pelucheuse et un peu répugnante.\nN'octroie aucun bonus.",
+    "it": "Lanuginoso e piuttosto disgustoso.\nNon fornisce bonus.",
+    "ja": "ふわふわしているが、なんだか気持ち悪い。\nボーナスなし。",
+    "ko": "푹신하고 조금 역겹습니다.\n특별한 효과는 없습니다.",
+    "nl": "Donzig en een beetje vunzig.\nGeeft geen bonussen.",
+    "pt-BR": "Fofo e meio repugnante.\nNão fornece nenhum bônus.",
+    "ru": "Пушистое одеяние, которым многие бы побрезговали.\nНе даёт преимуществ.",
+    "tr": "Pofuduk ama bir o kadar da iğrenç.\nİlave özellik sağlamaz.",
+    "zh-CN": "毛茸茸的，还有点恶心。\n没有特殊效果。",
+    "zh-TW": "毛茸茸的，有點噁心。\n沒有特殊效果。"
+  },
+  "fleece": 675,
+  "icon": "icons/fleeces/Fleece675.png",
+  "id": "Fleece675",
+  "name": {
+    "ar": "رداء المتظاهر",
+    "de": "Vlies der Heuchlerin",
+    "en": "Fleece of the Pretender",
+    "es": "Vellocino de la Impostora",
+    "fr": "Pelisse de l'imposteur",
+    "fr-CA": "Toison de l'imposteur",
+    "it": "Vello della mistificatrice",
+    "ja": "詐称者の羊毛",
+    "ko": "주장자의 양털",
+    "nl": "Vacht van de bedrieger",
+    "pt-BR": "Lã da Farsa",
+    "ru": "Руно притворства",
+    "tr": "Taklitçinin Postu",
+    "zh-CN": "伪装者毛纺",
+    "zh-TW": "妄想者毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء المتظاهر",
+    "de": "Vlies der Heuchlerin",
+    "en": "Fleece of the Pretender",
+    "es": "Vellocino de la Impostora",
+    "fr": "Pelisse de l'imposteur",
+    "fr-CA": "Toison de l'imposteur",
+    "it": "Vello della mistificatrice",
+    "ja": "詐称者の羊毛",
+    "ko": "주장자의 양털",
+    "nl": "Vacht van de bedrieger",
+    "pt-BR": "Lã da Farsa",
+    "ru": "Руно притворства",
+    "tr": "Taklitçinin Postu",
+    "zh-CN": "伪装者毛纺",
+    "zh-TW": "妄想者毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece675.png"
+}

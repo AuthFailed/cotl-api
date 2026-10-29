@@ -1,0 +1,95 @@
+{
+  "cost": [
+    {
+      "item": "SILK_THREAD",
+      "quantity": 6
+    },
+    {
+      "item": "LOG_REFINED",
+      "quantity": 2
+    },
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "عليك إظهار مدى قوتك للعالم.",
+    "de": "Zeige der Welt, wie tough du bist.",
+    "en": "Show the world how tough you are.",
+    "es": "Que el mundo sepa que eres inquebrantable.",
+    "fr": "Montrez au monde toute l'étendue de votre puissance.",
+    "fr-CA": "Montrez au monde toute l'étendue de votre puissance.",
+    "it": "Mostra al mondo la tua levatura.",
+    "ja": "頑丈さを世界に見せつけよう",
+    "ko": "세상에 당신이 얼마나 강인한지 보여줍니다.",
+    "nl": "Laat zien aan de wereld hoe stoer je bent.",
+    "pt-BR": "Mostre ao mundo como você é forte.",
+    "ru": "Покажите всем свою силу.",
+    "tr": "Dünyaya ne kadar dişli olduğunu göster.",
+    "zh-CN": "向全世界展示自己多么强悍。",
+    "zh-TW": "向全世界展示自己多麼強悍。"
+  },
+  "descriptionPlain": {
+    "ar": "عليك إظهار مدى قوتك للعالم.",
+    "de": "Zeige der Welt, wie tough du bist.",
+    "en": "Show the world how tough you are.",
+    "es": "Que el mundo sepa que eres inquebrantable.",
+    "fr": "Montrez au monde toute l'étendue de votre puissance.",
+    "fr-CA": "Montrez au monde toute l'étendue de votre puissance.",
+    "it": "Mostra al mondo la tua levatura.",
+    "ja": "頑丈さを世界に見せつけよう",
+    "ko": "세상에 당신이 얼마나 강인한지 보여줍니다.",
+    "nl": "Laat zien aan de wereld hoe stoer je bent.",
+    "pt-BR": "Mostre ao mundo como você é forte.",
+    "ru": "Покажите всем свою силу.",
+    "tr": "Dünyaya ne kadar dişli olduğunu göster.",
+    "zh-CN": "向全世界展示自己多么强悍。",
+    "zh-TW": "向全世界展示自己多麼強悍。"
+  },
+  "effects": [],
+  "forSale": false,
+  "groups": [
+    "secret"
+  ],
+  "icon": "icons/outfits/Warrior.png",
+  "id": "Warrior",
+  "name": {
+    "ar": "درع صدر للمحاربين",
+    "de": "Kriegerkürass",
+    "en": "Warrior's Cuirass",
+    "es": "Coraza de guerrero",
+    "fr": "Cuirasse de soldat",
+    "fr-CA": "Cuirasse de soldat",
+    "it": "Corazza da battaglia",
+    "ja": "戦士の胸当て",
+    "ko": "전사의 흉갑",
+    "nl": "Krijgersharnas",
+    "pt-BR": "Couraça de Guerra",
+    "ru": "Воинская кираса",
+    "tr": "Savaşçının Zırhı",
+    "zh-CN": "战士胸甲",
+    "zh-TW": "戰士胸甲"
+  },
+  "namePlain": {
+    "ar": "درع صدر للمحاربين",
+    "de": "Kriegerkürass",
+    "en": "Warrior's Cuirass",
+    "es": "Coraza de guerrero",
+    "fr": "Cuirasse de soldat",
+    "fr-CA": "Cuirasse de soldat",
+    "it": "Corazza da battaglia",
+    "ja": "戦士の胸当て",
+    "ko": "전사의 흉갑",
+    "nl": "Krijgersharnas",
+    "pt-BR": "Couraça de Guerra",
+    "ru": "Воинская кираса",
+    "tr": "Savaşçının Zırhı",
+    "zh-CN": "战士胸甲",
+    "zh-TW": "戰士胸甲"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "special",
+  "thumb": "icons/outfits/64/Warrior.png"
+}

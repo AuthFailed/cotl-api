@@ -1,0 +1,89 @@
+{
+  "cost": [
+    {
+      "item": "COTTON",
+      "quantity": 6
+    },
+    {
+      "item": "BONE",
+      "quantity": 35
+    }
+  ],
+  "description": {
+    "ar": "فستان أنيق للأمسيات.",
+    "de": "Ein Kleid für den Abend.",
+    "en": "A frock for the evening.",
+    "es": "Un vestido ideal para la noche.",
+    "fr": "Idéale pour les soirées au clair de lune.",
+    "fr-CA": "Idéale pour les soirées au clair de lune.",
+    "it": "Un indumento per la serata.",
+    "ja": "夜に着るための修道服",
+    "ko": "저녁에 입는 드레스입니다.",
+    "nl": "Een jurk voor de avond.",
+    "pt-BR": "Uma bata para usar à noitinha.",
+    "ru": "Одежда на особый случай.",
+    "tr": "Akşamları sıcak tutan bir cübbe.",
+    "zh-CN": "适合夜间穿着的连衣裙。",
+    "zh-TW": "適合夜間穿著的連衣裙。"
+  },
+  "descriptionPlain": {
+    "ar": "فستان أنيق للأمسيات.",
+    "de": "Ein Kleid für den Abend.",
+    "en": "A frock for the evening.",
+    "es": "Un vestido ideal para la noche.",
+    "fr": "Idéale pour les soirées au clair de lune.",
+    "fr-CA": "Idéale pour les soirées au clair de lune.",
+    "it": "Un indumento per la serata.",
+    "ja": "夜に着るための修道服",
+    "ko": "저녁에 입는 드레스입니다.",
+    "nl": "Een jurk voor de avond.",
+    "pt-BR": "Uma bata para usar à noitinha.",
+    "ru": "Одежда на особый случай.",
+    "tr": "Akşamları sıcak tutan bir cübbe.",
+    "zh-CN": "适合夜间穿着的连衣裙。",
+    "zh-TW": "適合夜間穿著的連衣裙。"
+  },
+  "effects": [],
+  "forSale": true,
+  "groups": [],
+  "icon": "icons/outfits/Normal_11.png",
+  "id": "Normal_11",
+  "name": {
+    "ar": "فستان مسائي",
+    "de": "Abendkleid",
+    "en": "Evening Frock",
+    "es": "Vestido de noche",
+    "fr": "Robe du soir",
+    "fr-CA": "Robe du soir",
+    "it": "Tonaca da sera",
+    "ja": "夜の修道服",
+    "ko": "저녁용 드레스",
+    "nl": "Avondjurk",
+    "pt-BR": "Bata da Noitinha",
+    "ru": "Вечернее платье",
+    "tr": "Akşam Cübbesi",
+    "zh-CN": "夜晚连衣裙",
+    "zh-TW": "夜晚連衣裙"
+  },
+  "namePlain": {
+    "ar": "فستان مسائي",
+    "de": "Abendkleid",
+    "en": "Evening Frock",
+    "es": "Vestido de noche",
+    "fr": "Robe du soir",
+    "fr-CA": "Robe du soir",
+    "it": "Tonaca da sera",
+    "ja": "夜の修道服",
+    "ko": "저녁용 드레스",
+    "nl": "Avondjurk",
+    "pt-BR": "Bata da Noitinha",
+    "ru": "Вечернее платье",
+    "tr": "Akşam Cübbesi",
+    "zh-CN": "夜晚连衣裙",
+    "zh-TW": "夜晚連衣裙"
+  },
+  "protection": {},
+  "requirements": {},
+  "tab": "default",
+  "thumb": "icons/outfits/64/Normal_11.png"
+}

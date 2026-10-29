@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "ضربة واحدة. لا يمكن العودة إلى الحياة. يلحق 10x من ضرر السلاح.",
+    "de": "Ein Treffer. Keine Wiedererweckungen. Teile den zehnfachen Schaden aus.",
+    "en": "One hit. No resurrections. Deal 10x weapon damage.",
+    "es": "Un golpe. Sin resurrecciones. Las armas infligen x10 de daño.",
+    "fr": "Un coup. Pas de résurrection. Dégâts des armes multipliés par 10.",
+    "fr-CA": "Un coup. Pas de résurrection. Dégâts des armes multipliés par 10.",
+    "it": "Puoi ricevere un colpo solo, senza poter risorgere, ma l'arma infligge dieci volte il danno base.",
+    "ja": "ハートは1つのみ、復活はできない。与えるダメージが10倍になる。",
+    "ko": "1대 맞을 시 사망. 부활 없음. 무기 피해를 10배로 가합니다.",
+    "nl": "Eén treffer. Geen wederopstandingen. Breng 10x wapenschade toe.",
+    "pt-BR": "Um acerto. Sem ressurreições. Causa 10x de dano.",
+    "ru": "Вы остаётесь с одним сердцем и не можете возвращаться к жизни, но наносите в 10 раз больше урона оружием.",
+    "tr": "Tek vurulma şansı. Dirilme yok. 10 kat fazla silah hasarı verirsin.",
+    "zh-CN": "一击必杀。无法复活。武器伤害为10倍。",
+    "zh-TW": "一擊死亡，無法復活。武器傷害為 10 倍。"
+  },
+  "descriptionPlain": {
+    "ar": "ضربة واحدة. لا يمكن العودة إلى الحياة. يلحق 10x من ضرر السلاح.",
+    "de": "Ein Treffer. Keine Wiedererweckungen. Teile den zehnfachen Schaden aus.",
+    "en": "One hit. No resurrections. Deal 10x weapon damage.",
+    "es": "Un golpe. Sin resurrecciones. Las armas infligen x10 de daño.",
+    "fr": "Un coup. Pas de résurrection. Dégâts des armes multipliés par 10.",
+    "fr-CA": "Un coup. Pas de résurrection. Dégâts des armes multipliés par 10.",
+    "it": "Puoi ricevere un colpo solo, senza poter risorgere, ma l'arma infligge dieci volte il danno base.",
+    "ja": "ハートは1つのみ、復活はできない。与えるダメージが10倍になる。",
+    "ko": "1대 맞을 시 사망. 부활 없음. 무기 피해를 10배로 가합니다.",
+    "nl": "Eén treffer. Geen wederopstandingen. Breng 10x wapenschade toe.",
+    "pt-BR": "Um acerto. Sem ressurreições. Causa 10x de dano.",
+    "ru": "Вы остаётесь с одним сердцем и не можете возвращаться к жизни, но наносите в 10 раз больше урона оружием.",
+    "tr": "Tek vurulma şansı. Dirilme yok. 10 kat fazla silah hasarı verirsin.",
+    "zh-CN": "一击必杀。无法复活。武器伤害为10倍。",
+    "zh-TW": "一擊死亡，無法復活。武器傷害為 10 倍。"
+  },
+  "fleece": 7,
+  "icon": "icons/fleeces/OneHitKills.png",
+  "id": "OneHitKills",
+  "name": {
+    "ar": "رداء الشرس",
+    "de": "Vlies des Berserkers",
+    "en": "Fleece of the Berserker",
+    "es": "Vellocino del berserker",
+    "fr": "Pelisse du berserker",
+    "fr-CA": "Toison du berserker",
+    "it": "Vello del guerriero furioso",
+    "ja": "狂戦士の羊毛",
+    "ko": "광전사의 양털",
+    "nl": "Vacht van de berserker",
+    "pt-BR": "Lã do Guerreiro Furioso",
+    "ru": "Руно берсерка",
+    "tr": "Barbar Postu",
+    "zh-CN": "狂战士毛纺",
+    "zh-TW": "狂戰士毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الشرس",
+    "de": "Vlies des Berserkers",
+    "en": "Fleece of the Berserker",
+    "es": "Vellocino del berserker",
+    "fr": "Pelisse du berserker",
+    "fr-CA": "Toison du berserker",
+    "it": "Vello del guerriero furioso",
+    "ja": "狂戦士の羊毛",
+    "ko": "광전사의 양털",
+    "nl": "Vacht van de berserker",
+    "pt-BR": "Lã do Guerreiro Furioso",
+    "ru": "Руно берсерка",
+    "tr": "Barbar Postu",
+    "zh-CN": "狂战士毛纺",
+    "zh-TW": "狂戰士毛紡"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/OneHitKills.png"
+}

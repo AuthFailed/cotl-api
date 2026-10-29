@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Bat.png",
   "id": "Bat",
   "name": {
     "en": "Bat"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Bat"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Bat.png",
   "unlock": "Dungeon4"
 }

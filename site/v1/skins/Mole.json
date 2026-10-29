@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Mole.png",
   "id": "Mole",
   "name": {
     "en": "Mole"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Mole"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Mole.png",
   "unlock": "Major_DLC"
 }

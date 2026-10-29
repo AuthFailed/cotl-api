@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/TwitchDog.png",
   "id": "TwitchDog",
   "name": {
     "en": "TwitchDog"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "TwitchDog"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/TwitchDog.png",
   "unlock": "DLC"
 }

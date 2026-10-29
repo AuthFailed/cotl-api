@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يُلبس الشباب ثوب البهجة. <color=\"grey\"> <br> لا يمنح مزايا.",
+    "de": "Kleide die Jungen in Freude. <color=\"grey\"> <br> Gewährt keine Boni.",
+    "en": "Clothe the young in joy. <color=\"grey\"> <br> Provides no bonuses.",
+    "es": "Viste a los jóvenes de júbilo. <color=\"grey\"> <br> No otorga nada especial.",
+    "fr": "Vêt les jeunes d'allégresse. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "fr-CA": "Pare les jeunes d'allégresse. <color=\"grey\"> <br> N'octroie aucun bonus.",
+    "it": "Avvolgi di gioia la giovinezza. <color=\"grey\"> <br> Non fornisce bonus.",
+    "ja": "若者を喜びで包みこむ服装。<color=\"grey\"> <br> ボーナスなし。",
+    "ko": "어린 자에게 즐거움을 입히세요. <color=\"grey\"> <br> 특별한 효과는 없습니다.",
+    "nl": "Kleed de jongeren in vreugde. <color=\"grey\"> <br> Geeft geen bonussen.",
+    "pt-BR": "Vista os jovens no júbilo. <color=\"grey\"> <br> Não fornece nenhum bônus.",
+    "ru": "Облачение счастливых юнцов.<color=\"grey\"><br>Не даёт преимуществ.",
+    "tr": "Gençlerin neşesine paha biçilmez. <color=\"grey\"> <br> İlave özellik sağlamaz.",
+    "zh-CN": "让青年愉快穿衣。<color=\"grey\"><br>没有特殊效果。",
+    "zh-TW": "為年輕人披上快樂。<color=\"grey\"><br>沒有特殊效果。"
+  },
+  "descriptionPlain": {
+    "ar": "يُلبس الشباب ثوب البهجة.\nلا يمنح مزايا.",
+    "de": "Kleide die Jungen in Freude.\nGewährt keine Boni.",
+    "en": "Clothe the young in joy.\nProvides no bonuses.",
+    "es": "Viste a los jóvenes de júbilo.\nNo otorga nada especial.",
+    "fr": "Vêt les jeunes d'allégresse.\nN'octroie aucun bonus.",
+    "fr-CA": "Pare les jeunes d'allégresse.\nN'octroie aucun bonus.",
+    "it": "Avvolgi di gioia la giovinezza.\nNon fornisce bonus.",
+    "ja": "若者を喜びで包みこむ服装。\nボーナスなし。",
+    "ko": "어린 자에게 즐거움을 입히세요.\n특별한 효과는 없습니다.",
+    "nl": "Kleed de jongeren in vreugde.\nGeeft geen bonussen.",
+    "pt-BR": "Vista os jovens no júbilo.\nNão fornece nenhum bônus.",
+    "ru": "Облачение счастливых юнцов.\nНе даёт преимуществ.",
+    "tr": "Gençlerin neşesine paha biçilmez.\nİlave özellik sağlamaz.",
+    "zh-CN": "让青年愉快穿衣。\n没有特殊效果。",
+    "zh-TW": "為年輕人披上快樂。\n沒有特殊效果。"
+  },
+  "fleece": 679,
+  "icon": "icons/fleeces/Fleece679.png",
+  "id": "Fleece679",
+  "name": {
+    "ar": "رداء الشباب",
+    "de": "Vlies der Jugend",
+    "en": "Fleece of Youth",
+    "es": "Vellocino de la juventud",
+    "fr": "Pelisse de jeunesse",
+    "fr-CA": "Toison de jeunesse",
+    "it": "Vello della giovinezza",
+    "ja": "若者の羊毛",
+    "ko": "어린 자의 양털",
+    "nl": "Vacht van de jeugd",
+    "pt-BR": "Lã da Juventude",
+    "ru": "Руно молодости",
+    "tr": "Gençlik Postu",
+    "zh-CN": "青年毛纺",
+    "zh-TW": "青春毛紡"
+  },
+  "namePlain": {
+    "ar": "رداء الشباب",
+    "de": "Vlies der Jugend",
+    "en": "Fleece of Youth",
+    "es": "Vellocino de la juventud",
+    "fr": "Pelisse de jeunesse",
+    "fr-CA": "Toison de jeunesse",
+    "it": "Vello della giovinezza",
+    "ja": "若者の羊毛",
+    "ko": "어린 자의 양털",
+    "nl": "Vacht van de jeugd",
+    "pt-BR": "Lã da Juventude",
+    "ru": "Руно молодости",
+    "tr": "Gençlik Postu",
+    "zh-CN": "青年毛纺",
+    "zh-TW": "青春毛紡"
+  },
+  "pack": "woolhaven",
+  "thumb": "icons/fleeces/64/Fleece679.png"
+}

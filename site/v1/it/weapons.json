@@ -1,0 +1,322 @@
+[
+  {
+    "id": "Axe",
+    "name": "Mannaia dell'apostata",
+    "thumb": "icons/weapons/64/Axe.png"
+  },
+  {
+    "id": "Axe_Critical",
+    "name": "Ascia implacabile",
+    "thumb": "icons/weapons/64/Axe_Critical.png"
+  },
+  {
+    "id": "Axe_Fervour",
+    "name": "Ascia fervente",
+    "thumb": "icons/weapons/64/Axe_Fervour.png"
+  },
+  {
+    "id": "Axe_Godly",
+    "name": "Ascia divina",
+    "thumb": "icons/weapons/64/Axe_Godly.png"
+  },
+  {
+    "id": "Axe_Healing",
+    "name": "Ascia vampiresca",
+    "thumb": "icons/weapons/64/Axe_Healing.png"
+  },
+  {
+    "id": "Axe_Legendary",
+    "name": "Macellatrice di agnelli",
+    "thumb": "icons/weapons/64/Axe_Legendary.png"
+  },
+  {
+    "id": "Axe_Nercomancy",
+    "name": "Ascia negromantica",
+    "thumb": "icons/weapons/64/Axe_Nercomancy.png"
+  },
+  {
+    "id": "Axe_Poison",
+    "name": "Ascia velenosa",
+    "thumb": "icons/weapons/64/Axe_Poison.png"
+  },
+  {
+    "id": "Blunderbuss",
+    "name": "Cannone del caos",
+    "thumb": "icons/weapons/64/Blunderbuss.png"
+  },
+  {
+    "id": "Blunderbuss_Critical",
+    "name": "Schioppo implacabile",
+    "thumb": "icons/weapons/64/Blunderbuss_Critical.png"
+  },
+  {
+    "id": "Blunderbuss_Fervour",
+    "name": "Schioppo fervente",
+    "thumb": "icons/weapons/64/Blunderbuss_Fervour.png"
+  },
+  {
+    "id": "Blunderbuss_Godly",
+    "name": "Schioppo divino",
+    "thumb": "icons/weapons/64/Blunderbuss_Godly.png"
+  },
+  {
+    "id": "Blunderbuss_Healing",
+    "name": "Schioppo vampiresco",
+    "thumb": "icons/weapons/64/Blunderbuss_Healing.png"
+  },
+  {
+    "id": "Blunderbuss_Legendary",
+    "name": "Sorte di Plimbo il Vecchio",
+    "thumb": "icons/weapons/64/Blunderbuss_Legendary.png"
+  },
+  {
+    "id": "Blunderbuss_Nercomancy",
+    "name": "Schioppo negromantico",
+    "thumb": "icons/weapons/64/Blunderbuss_Nercomancy.png"
+  },
+  {
+    "id": "Blunderbuss_Poison",
+    "name": "Schioppo velenoso",
+    "thumb": "icons/weapons/64/Blunderbuss_Poison.png"
+  },
+  {
+    "id": "Chain",
+    "name": "Picchiatore da battaglia",
+    "thumb": "icons/weapons/64/Chain.png"
+  },
+  {
+    "id": "Chain_Critical",
+    "name": "Mazzafrusto implacabile",
+    "thumb": "icons/weapons/64/Chain_Critical.png"
+  },
+  {
+    "id": "Chain_Fervour",
+    "name": "Mazzafrusto fervente",
+    "thumb": "icons/weapons/64/Chain_Fervour.png"
+  },
+  {
+    "id": "Chain_Godly",
+    "name": "Mazzafrusto divino",
+    "thumb": "icons/weapons/64/Chain_Godly.png"
+  },
+  {
+    "id": "Chain_Healing",
+    "name": "Mazzafrusto vampiresco",
+    "thumb": "icons/weapons/64/Chain_Healing.png"
+  },
+  {
+    "id": "Chain_Legendary",
+    "name": "Tormento di Yngya",
+    "thumb": "icons/weapons/64/Chain_Legendary.png"
+  },
+  {
+    "id": "Chain_Nercomancy",
+    "name": "Mazzafrusto negromantico",
+    "thumb": "icons/weapons/64/Chain_Nercomancy.png"
+  },
+  {
+    "id": "Chain_Poison",
+    "name": "Mazzafrusto velenoso",
+    "thumb": "icons/weapons/64/Chain_Poison.png"
+  },
+  {
+    "id": "Dagger",
+    "name": "Rasoio del traditore",
+    "thumb": "icons/weapons/64/Dagger.png"
+  },
+  {
+    "id": "Dagger_Critical",
+    "name": "Pugnale implacabile",
+    "thumb": "icons/weapons/64/Dagger_Critical.png"
+  },
+  {
+    "id": "Dagger_Fervour",
+    "name": "Pugnale fervente",
+    "thumb": "icons/weapons/64/Dagger_Fervour.png"
+  },
+  {
+    "id": "Dagger_Godly",
+    "name": "Pugnale divino",
+    "thumb": "icons/weapons/64/Dagger_Godly.png"
+  },
+  {
+    "id": "Dagger_Healing",
+    "name": "Pugnale vampiresco",
+    "thumb": "icons/weapons/64/Dagger_Healing.png"
+  },
+  {
+    "id": "Dagger_Legendary",
+    "name": "Rovina di Nirah",
+    "thumb": "icons/weapons/64/Dagger_Legendary.png"
+  },
+  {
+    "id": "Dagger_Nercomancy",
+    "name": "Pugnale negromantico",
+    "thumb": "icons/weapons/64/Dagger_Nercomancy.png"
+  },
+  {
+    "id": "Dagger_Poison",
+    "name": "Pugnale velenoso",
+    "thumb": "icons/weapons/64/Dagger_Poison.png"
+  },
+  {
+    "id": "Gauntlet",
+    "name": "Guanti della tempesta",
+    "thumb": "icons/weapons/64/Gauntlet.png"
+  },
+  {
+    "id": "Gauntlet_Critical",
+    "name": "Guanti implacabili",
+    "thumb": "icons/weapons/64/Gauntlet_Critical.png"
+  },
+  {
+    "id": "Gauntlet_Fervour",
+    "name": "Guanti ferventi",
+    "thumb": "icons/weapons/64/Gauntlet_Fervour.png"
+  },
+  {
+    "id": "Gauntlet_Godly",
+    "name": "Guanti divini",
+    "thumb": "icons/weapons/64/Gauntlet_Godly.png"
+  },
+  {
+    "id": "Gauntlet_Healing",
+    "name": "Guanti vampireschi",
+    "thumb": "icons/weapons/64/Gauntlet_Healing.png"
+  },
+  {
+    "id": "Gauntlet_Legendary",
+    "name": "Profanazione del divino",
+    "thumb": "icons/weapons/64/Gauntlet_Legendary.png"
+  },
+  {
+    "id": "Gauntlet_Nercomancy",
+    "name": "Guanti negromantici",
+    "thumb": "icons/weapons/64/Gauntlet_Nercomancy.png"
+  },
+  {
+    "id": "Gauntlet_Poison",
+    "name": "Guanti velenosi",
+    "thumb": "icons/weapons/64/Gauntlet_Poison.png"
+  },
+  {
+    "id": "Hammer",
+    "name": "Martello del guerrafondaio",
+    "thumb": "icons/weapons/64/Hammer.png"
+  },
+  {
+    "id": "Hammer_Critical",
+    "name": "Martello implacabile",
+    "thumb": "icons/weapons/64/Hammer_Critical.png"
+  },
+  {
+    "id": "Hammer_Fervour",
+    "name": "Martello fervente",
+    "thumb": "icons/weapons/64/Hammer_Fervour.png"
+  },
+  {
+    "id": "Hammer_Godly",
+    "name": "Martello divino",
+    "thumb": "icons/weapons/64/Hammer_Godly.png"
+  },
+  {
+    "id": "Hammer_Healing",
+    "name": "Martello vampiresco",
+    "thumb": "icons/weapons/64/Hammer_Healing.png"
+  },
+  {
+    "id": "Hammer_Legendary",
+    "name": "Flagello di Svarog",
+    "thumb": "icons/weapons/64/Hammer_Legendary.png"
+  },
+  {
+    "id": "Hammer_Nercomancy",
+    "name": "Martello negromantico",
+    "thumb": "icons/weapons/64/Hammer_Nercomancy.png"
+  },
+  {
+    "id": "Hammer_Poison",
+    "name": "Martello velenoso",
+    "thumb": "icons/weapons/64/Hammer_Poison.png"
+  },
+  {
+    "id": "Shield",
+    "name": "Custode della convinzione",
+    "thumb": "icons/weapons/64/Shield.png"
+  },
+  {
+    "id": "Shield_Critical",
+    "name": "Scudo implacabile",
+    "thumb": "icons/weapons/64/Shield_Critical.png"
+  },
+  {
+    "id": "Shield_Fervour",
+    "name": "Scudo fervente",
+    "thumb": "icons/weapons/64/Shield_Fervour.png"
+  },
+  {
+    "id": "Shield_Godly",
+    "name": "Scudo divino",
+    "thumb": "icons/weapons/64/Shield_Godly.png"
+  },
+  {
+    "id": "Shield_Healing",
+    "name": "Scudo vampiresco",
+    "thumb": "icons/weapons/64/Shield_Healing.png"
+  },
+  {
+    "id": "Shield_Nercomancy",
+    "name": "Scudo negromantico",
+    "thumb": "icons/weapons/64/Shield_Nercomancy.png"
+  },
+  {
+    "id": "Shield_Poison",
+    "name": "Scudo velenoso",
+    "thumb": "icons/weapons/64/Shield_Poison.png"
+  },
+  {
+    "id": "Sword",
+    "name": "Spada del crociato",
+    "thumb": "icons/weapons/64/Sword.png"
+  },
+  {
+    "id": "Sword_Critical",
+    "name": "Spada implacabile",
+    "thumb": "icons/weapons/64/Sword_Critical.png"
+  },
+  {
+    "id": "Sword_Fervour",
+    "name": "Spada fervente",
+    "thumb": "icons/weapons/64/Sword_Fervour.png"
+  },
+  {
+    "id": "Sword_Godly",
+    "name": "Spada divina",
+    "thumb": "icons/weapons/64/Sword_Godly.png"
+  },
+  {
+    "id": "Sword_Healing",
+    "name": "Spada vampiresca",
+    "thumb": "icons/weapons/64/Sword_Healing.png"
+  },
+  {
+    "id": "Sword_Legendary",
+    "name": "Fine aurea",
+    "thumb": "icons/weapons/64/Sword_Legendary.png"
+  },
+  {
+    "id": "Sword_Nercomancy",
+    "name": "Spada negromantica",
+    "thumb": "icons/weapons/64/Sword_Nercomancy.png"
+  },
+  {
+    "id": "Sword_Poison",
+    "name": "Spada velenosa",
+    "thumb": "icons/weapons/64/Sword_Poison.png"
+  },
+  {
+    "id": "Sword_Ratau",
+    "name": "Bastone di Rattau",
+    "thumb": "icons/weapons/64/Sword_Ratau.png"
+  }
+]

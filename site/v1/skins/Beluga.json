@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Beluga.png",
   "id": "Beluga",
   "name": {
     "en": "Beluga"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Beluga"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Beluga.png",
   "unlock": "Dungeon5"
 }

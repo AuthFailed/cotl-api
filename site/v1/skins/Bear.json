@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Bear.png",
   "id": "Bear",
   "name": {
     "en": "Bear"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Bear"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Bear.png",
   "unlock": "Dungeon4"
 }

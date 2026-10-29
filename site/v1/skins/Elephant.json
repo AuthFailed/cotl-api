@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Elephant.png",
   "id": "Elephant",
   "name": {
     "en": "Elephant"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Elephant"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Elephant.png",
   "unlock": "Dungeon3"
 }

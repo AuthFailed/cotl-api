@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": false,
-  "icon": null,
+  "icon": "icons/skins/Tiger.png",
   "id": "Tiger",
   "name": {
     "en": "Tiger"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Tiger"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Tiger.png",
   "unlock": "DLC"
 }

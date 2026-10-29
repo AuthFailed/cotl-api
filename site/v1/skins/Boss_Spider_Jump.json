@@ -2,7 +2,7 @@
   "description": {},
   "descriptionPlain": {},
   "hidden": true,
-  "icon": null,
+  "icon": "icons/skins/Boss_Spider_Jump.png",
   "id": "Boss_Spider_Jump",
   "name": {
     "en": "Boss Spider Jump"
@@ -10,6 +10,6 @@
   "namePlain": {
     "en": "Boss Spider Jump"
   },
-  "thumb": null,
+  "thumb": "icons/skins/64/Boss_Spider_Jump.png",
   "unlock": "Dungeon4"
 }

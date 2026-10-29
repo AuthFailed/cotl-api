@@ -1,0 +1,80 @@
+{
+  "cost": [
+    {
+      "item": "MONSTER_HEART",
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "ar": "يمكنك تسلم قلب فاسد في بداية كل حملة.",
+    "de": "Erhalte zu Beginn eines jeden Kreuzzug-Durchlaufs ein krankes Herz.",
+    "en": "Receive a Diseased Heart at the beginning of each Crusade run.",
+    "es": "Recibe un corazón enfermo al comienzo de cada cruzada.",
+    "fr": "Vous octroie un cœur corrompu lorsque vous entrez dans un donjon.",
+    "fr-CA": "Vous octroie un cœur corrompu au début de chaque croisade.",
+    "it": "Ricevi un cuore afflitto all'inizio di ogni crociata.",
+    "ja": "聖戦開始時、病みし心臓を1つ得る。",
+    "ko": "매 성전이 시작될 때마다 병든 심장을 하나 얻습니다.",
+    "nl": "Krijg aan het begin van elke kruistocht een ziekelijk hart.",
+    "pt-BR": "Receba um Coração Doente no início das Cruzadas.",
+    "ru": "Вы получаете больное сердце в начале каждого похода.",
+    "tr": "Her Sefer'e bir Çürümüş Kalp'le başlarsın.",
+    "zh-CN": "在每一场圣战的开始获得一颗病缠黑心。",
+    "zh-TW": "在每一場聖戰的開始獲得一顆病纏黑心。"
+  },
+  "descriptionPlain": {
+    "ar": "يمكنك تسلم قلب فاسد في بداية كل حملة.",
+    "de": "Erhalte zu Beginn eines jeden Kreuzzug-Durchlaufs ein krankes Herz.",
+    "en": "Receive a Diseased Heart at the beginning of each Crusade run.",
+    "es": "Recibe un corazón enfermo al comienzo de cada cruzada.",
+    "fr": "Vous octroie un cœur corrompu lorsque vous entrez dans un donjon.",
+    "fr-CA": "Vous octroie un cœur corrompu au début de chaque croisade.",
+    "it": "Ricevi un cuore afflitto all'inizio di ogni crociata.",
+    "ja": "聖戦開始時、病みし心臓を1つ得る。",
+    "ko": "매 성전이 시작될 때마다 병든 심장을 하나 얻습니다.",
+    "nl": "Krijg aan het begin van elke kruistocht een ziekelijk hart.",
+    "pt-BR": "Receba um Coração Doente no início das Cruzadas.",
+    "ru": "Вы получаете больное сердце в начале каждого похода.",
+    "tr": "Her Sefer'e bir Çürümüş Kalp'le başlarsın.",
+    "zh-CN": "在每一场圣战的开始获得一颗病缠黑心。",
+    "zh-TW": "在每一場聖戰的開始獲得一顆病纏黑心。"
+  },
+  "dlc": false,
+  "icon": "icons/crownAbilities/Ability_BlackHeart.png",
+  "id": "Ability_BlackHeart",
+  "name": {
+    "ar": "الظلام الداخلي",
+    "de": "Innere Finsternis",
+    "en": "Darkness Within",
+    "es": "La oscuridad interior",
+    "fr": "Noirceur intérieure",
+    "fr-CA": "Noirceur intérieure",
+    "it": "Oscurità interiore",
+    "ja": "内なる闇",
+    "ko": "내면의 어둠",
+    "nl": "Duisternis van binnen",
+    "pt-BR": "Escuridão Interior",
+    "ru": "Внутренняя тьма",
+    "tr": "İçindeki Karanlık",
+    "zh-CN": "暗潮汹涌",
+    "zh-TW": "內在黑暗"
+  },
+  "namePlain": {
+    "ar": "الظلام الداخلي",
+    "de": "Innere Finsternis",
+    "en": "Darkness Within",
+    "es": "La oscuridad interior",
+    "fr": "Noirceur intérieure",
+    "fr-CA": "Noirceur intérieure",
+    "it": "Oscurità interiore",
+    "ja": "内なる闇",
+    "ko": "내면의 어둠",
+    "nl": "Duisternis van binnen",
+    "pt-BR": "Escuridão Interior",
+    "ru": "Внутренняя тьма",
+    "tr": "İçindeki Karanlık",
+    "zh-CN": "暗潮汹涌",
+    "zh-TW": "內在黑暗"
+  },
+  "thumb": "icons/crownAbilities/64/Ability_BlackHeart.png"
+}

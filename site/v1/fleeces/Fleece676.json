@@ -1,0 +1,81 @@
+{
+  "cost": [
+    {
+      "item": "PLEASURE_POINT",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "ar": "ييهو! يمكنك البدء دائمًا مع <color=#FFD201>بندقية قصيرة</color>.",
+    "de": "Yee-ha! Lege immer mit einer <color=#FFD201>Donnerbüchse</color> los.",
+    "en": "Yee-haw! Always start with a <color=#FFD201>Blunderbuss</color>.",
+    "es": "¡Yiiija! Comienzas la cruzada con un <color=#FFD201>trabuco</color>.",
+    "fr": "Yee-haw ! Commencez toujours avec un <color=#FFD201>tromblon</color>.",
+    "fr-CA": "Yee-haw! Commencez toujours avec un <color=#FFD201>tromblon</color>.",
+    "it": "Iiih-ha! Inizia sempre impugnando uno <color=#FFD201>schioppo</color>.",
+    "ja": "ヒーハー！ <color=#FFD201>銃</color>を持った状態で聖戦を始める。",
+    "ko": "이-하! 언제나 <color=#FFD201>나팔총</color>을 갖고 시작합니다.",
+    "nl": "Jiehaa! Begin altijd met een <color=#FFD201>donderbus</color>.",
+    "pt-BR": "Irra! Sempre começa com um <color=#FFD201>Bacamarte</color>.",
+    "ru": "Одеяние лихого погонщика. Позволяет начать поход с <color=#FFD201>мушкетоном</color>.",
+    "tr": "Silahına davran! Her zaman bir <color=#FFD201>Alaybozan</color> ile başlarsın.",
+    "zh-CN": "咿哈！每次开始圣战时持有一把<color=#FFD201>枪</color>。",
+    "zh-TW": "咿哈！每次開始聖戰時持有一把<color=#FFD201>槍</color>。"
+  },
+  "descriptionPlain": {
+    "ar": "ييهو! يمكنك البدء دائمًا مع بندقية قصيرة.",
+    "de": "Yee-ha! Lege immer mit einer Donnerbüchse los.",
+    "en": "Yee-haw! Always start with a Blunderbuss.",
+    "es": "¡Yiiija! Comienzas la cruzada con un trabuco.",
+    "fr": "Yee-haw! Commencez toujours avec un tromblon.",
+    "fr-CA": "Yee-haw! Commencez toujours avec un tromblon.",
+    "it": "Iiih-ha! Inizia sempre impugnando uno schioppo.",
+    "ja": "ヒーハー！ 銃を持った状態で聖戦を始める。",
+    "ko": "이-하! 언제나 나팔총을 갖고 시작합니다.",
+    "nl": "Jiehaa! Begin altijd met een donderbus.",
+    "pt-BR": "Irra! Sempre começa com um Bacamarte.",
+    "ru": "Одеяние лихого погонщика. Позволяет начать поход с мушкетоном.",
+    "tr": "Silahına davran! Her zaman bir Alaybozan ile başlarsın.",
+    "zh-CN": "咿哈！每次开始圣战时持有一把枪。",
+    "zh-TW": "咿哈！每次開始聖戰時持有一把槍。"
+  },
+  "fleece": 676,
+  "icon": "icons/fleeces/Fleece676.png",
+  "id": "Fleece676",
+  "name": {
+    "ar": "راعي البقر",
+    "de": "Cowboy",
+    "en": "Cowboy",
+    "es": "Vaquero",
+    "fr": "Cowboy",
+    "fr-CA": "Cowboy",
+    "it": "Cowboy",
+    "ja": "カウボーイ",
+    "ko": "카우보이",
+    "nl": "Cowboy",
+    "pt-BR": "Vaqueiro",
+    "ru": "Ковбойский костюм",
+    "tr": "Kovboy",
+    "zh-CN": "牛仔",
+    "zh-TW": "牛仔"
+  },
+  "namePlain": {
+    "ar": "راعي البقر",
+    "de": "Cowboy",
+    "en": "Cowboy",
+    "es": "Vaquero",
+    "fr": "Cowboy",
+    "fr-CA": "Cowboy",
+    "it": "Cowboy",
+    "ja": "カウボーイ",
+    "ko": "카우보이",
+    "nl": "Cowboy",
+    "pt-BR": "Vaqueiro",
+    "ru": "Ковбойский костюм",
+    "tr": "Kovboy",
+    "zh-CN": "牛仔",
+    "zh-TW": "牛仔"
+  },
+  "pack": null,
+  "thumb": "icons/fleeces/64/Fleece676.png"
+}
