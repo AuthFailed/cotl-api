@@ -35,6 +35,11 @@ public class CotlDataDump : BaseUnityPlugin
 
     void Awake()
     {
+        // One-shot: publish.sh arms it; a DLL left behind by a failed cleanup must not take over normal play.
+        var armed = Config.Bind("General", "Armed", false, "publish.sh sets this; the plugin clears it as it starts and does nothing unless it was set.");
+        if (!armed.Value) { Logger.LogInfo("not armed; doing nothing"); return; }
+        armed.Value = false;
+        Config.Save();
         slot = Config.Bind("General", "Slot", 0, "Save slot to continue for phase 2 (footprints and icons). Never written to.");
         doItems = Config.Bind("Jobs", "Items", true, "items.json and item icons.");
         doStructures = Config.Bind("Jobs", "Structures", true, "structures.json and structure icons.");
