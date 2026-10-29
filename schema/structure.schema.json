@@ -1,0 +1,109 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Structure",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "icon",
+    "cost",
+    "upgradesFrom",
+    "size",
+    "ranges"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$"
+    },
+    "cost": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "quantity"
+        ],
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "upgradesFrom": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "size": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "w",
+        "h"
+      ],
+      "properties": {
+        "w": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "h": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "ranges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "radius"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "radius": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    }
+  }
+}

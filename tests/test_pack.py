@@ -51,6 +51,12 @@ class PackTest(unittest.TestCase):
         self.pack()
         self.assertEqual(self.item("BERRY")["name"], {"en": "Berries"})
 
+    def test_schemas_published(self):
+        self.pack()
+        for name in ("index", "item", "structure", "skin"):
+            self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
+                             (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])

@@ -48,6 +48,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }
     write_json(tmp / "index.json", index)
+    shutil.copytree(Path(__file__).parent / "schema", tmp / "schema")
     # Swap in whole so ids the game dropped don't linger as stale files.
     shutil.rmtree(site_dir / "v1", ignore_errors=True)
     tmp.rename(site_dir / "v1")

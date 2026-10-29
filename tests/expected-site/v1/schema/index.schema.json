@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Index",
+  "type": "object",
+  "required": [
+    "gameVersion",
+    "capturedAt",
+    "languages",
+    "counts"
+  ],
+  "properties": {
+    "gameVersion": {
+      "type": "string"
+    },
+    "capturedAt": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "contains": {
+        "const": "en"
+      }
+    },
+    "counts": {
+      "type": "object",
+      "required": [
+        "items",
+        "structures",
+        "skins"
+      ],
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    }
+  }
+}
