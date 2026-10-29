@@ -1,7 +1,9 @@
 {
   "Inventory/LOG": {
     "en": "Logs",
-    "ru": "Брёвна"
+    "ru": "Брёвна",
+    "Chara Count": "5",
+    "Comments": "wood"
   },
   "Inventory/LOG/Description": {
     "en": "Wood for building.",

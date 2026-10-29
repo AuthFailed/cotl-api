@@ -100,14 +100,25 @@ public class CotlDataDump : BaseUnityPlugin
 
     // ---------- phase 1 ----------
 
+    // The term's English text from the sources themselves (GetTranslation returns text for missing terms too).
+    static string English(string term)
+    {
+        foreach (var source in LocalizationManager.Sources)
+        {
+            var data = source.GetTermData(term);
+            int i = source.mLanguages.FindIndex(l => l.Name == "English");
+            if (data != null && i >= 0 && i < data.Languages.Length && !string.IsNullOrEmpty(data.Languages[i])) return data.Languages[i];
+        }
+        return null;
+    }
+
     // Enum.GetNames: GetValues gives one name for aliased values. Types without an English name are internal.
     static IEnumerable<T> Named<T>(string prefix) =>
-        Enum.GetNames(typeof(T)).Where(n => !string.IsNullOrEmpty(LocalizationManager.GetTranslation($"{prefix}/{n}", overrideLanguage: "English")))
-            .Select(n => (T)Enum.Parse(typeof(T), n));
+        Enum.GetNames(typeof(T)).Where(n => English($"{prefix}/{n}") != null).Select(n => (T)Enum.Parse(typeof(T), n));
 
     string Term(string term)
     {
-        if (string.IsNullOrEmpty(LocalizationManager.GetTranslation(term, overrideLanguage: "English"))) return null;
+        if (English(term) == null) return null;
         terms.Add(term);
         return term;
     }
@@ -143,6 +154,8 @@ public class CotlDataDump : BaseUnityPlugin
         foreach (var c in WorshipperData.Instance.Characters.Where(c => !c.Invariant && c.Skin.Count > 0))
         {
             string id = new string(c.Skin[0].Skin.Select(ch => char.IsLetterOrDigit(ch) && ch < 128 || ch == '_' || ch == '-' ? ch : '_').ToArray());
+            // Some forms are listed twice (e.g. for two drop locations); the first entry is the one the game finds.
+            if (i18n.ContainsKey($"Skins/{id}")) { Logger.LogWarning($"skin {id} listed again as {c.Title}, skipped"); continue; }
             // The game has no translated skin names, only this title.
             i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = c.Title };
             skins.Add(new Dictionary<string, object> {
@@ -159,8 +172,9 @@ public class CotlDataDump : BaseUnityPlugin
             {
                 var data = source.GetTermData(term);
                 if (data == null || i18n.ContainsKey(term)) continue;
-                i18n[term] = source.mLanguages.Select((l, i) => (code: string.IsNullOrEmpty(l.Code) ? l.Name : l.Code, text: i < data.Languages.Length ? data.Languages[i] : null))
-                    .Where(p => !string.IsNullOrEmpty(p.text)).ToDictionary(p => p.code, p => p.text);
+                // Columns without a code ("Chara Count", "Comments", ...) aren't languages.
+                i18n[term] = source.mLanguages.Select((l, i) => (code: l.Code, text: i < data.Languages.Length ? data.Languages[i] : null))
+                    .Where(p => !string.IsNullOrEmpty(p.code) && !string.IsNullOrEmpty(p.text)).ToDictionary(p => p.code, p => p.text);
             }
         Logger.LogInfo($"i18n: {i18n.Count} terms");
     }

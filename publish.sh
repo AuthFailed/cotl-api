@@ -12,7 +12,7 @@ q() { printf '%q' "$1"; }
 GAME=$(q "$COTL_GAME_DIR") SAVES=$(q "$COTL_SAVES_DIR")
 PLUGIN="$GAME/BepInEx/plugins/CotlDataDump.dll" CFG="$GAME/BepInEx/config/chrsnv.cotldata.dump.cfg" OUT="$GAME/BepInEx/plugins/CotlDataDump"
 SUMS=/tmp/cotl-saves-before2.sha256
-DUMP=$(mktemp -d)
+DUMP=dump  # kept after the run (gitignored) to re-pack or inspect
 
 if pc 'pgrep -f "[C]ult Of The Lamb.exe" >/dev/null'; then echo "The game is running on the PC; not touching it."; exit 1; fi
 
@@ -26,7 +26,6 @@ cleanup() {
   pc "pkill -f '[C]ult Of The Lamb.exe'; rm -rf $PLUGIN $CFG $OUT" || echo "WARNING: cleanup failed; remove the plugin, cfg and output by hand"
   if pc "cd $SAVES && sha256sum -c --quiet $SUMS"; then echo "saves unchanged"
   else echo "WARNING: SAVES CHANGED. Backups are in ~/cotl-saves-backup-* on the PC."; fi
-  rm -rf "$DUMP"
 }
 trap cleanup EXIT
 
@@ -43,6 +42,7 @@ for _ in $(seq 60); do
 done
 pc "test -f $OUT/done" || { echo "timed out after 10 minutes"; exit 1; }
 
+rm -rf "$DUMP"
 rsync -a --partial -e "ssh -i $COTL_KEY" "$COTL_SSH:$OUT/" "$DUMP/"
 python3 pack.py "$DUMP" site
 git status --short site | tail -20

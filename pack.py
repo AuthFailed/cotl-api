@@ -7,6 +7,8 @@ from pathlib import Path
 
 KINDS = ("items", "structures", "skins")
 SAFE_ID = re.compile(r"^[A-Za-z0-9_-]+$")
+# The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
+LANGUAGE = re.compile(r"^[a-z]{2}(-[A-Za-z]{2})?$")
 
 
 def load_dump(dump_dir: Path) -> dict:
@@ -20,7 +22,7 @@ def write_json(path: Path, obj) -> None:
 
 
 def texts(i18n: dict, term) -> dict:
-    return {lang: text for lang, text in i18n.get(term, {}).items() if text} if term else {}
+    return {lang: text for lang, text in i18n.get(term, {}).items() if text and LANGUAGE.match(lang)} if term else {}
 
 
 def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
@@ -44,7 +46,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     index = {
         "gameVersion": dump["meta"]["gameVersion"],
         "capturedAt": dump["meta"]["capturedAt"],
-        "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text}),
+        "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.match(lang)}),
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }
     write_json(tmp / "index.json", index)

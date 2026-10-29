@@ -47,6 +47,11 @@ class PackTest(unittest.TestCase):
         self.assertFalse((self.site / "v1" / "items" / "LOG.json").exists())
         self.assertFalse((self.site / "v1" / "icons" / "items" / "LOG.png").exists())
 
+    def test_non_language_columns_dropped(self):
+        index = self.pack()
+        self.assertEqual(index["languages"], ["en", "ru"])
+        self.assertEqual(set(self.item("LOG")["name"]), {"en", "ru"})
+
     def test_empty_translation_dropped(self):
         self.pack()
         self.assertEqual(self.item("BERRY")["name"], {"en": "Berries"})
