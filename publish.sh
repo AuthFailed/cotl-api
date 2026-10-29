@@ -3,6 +3,7 @@
 # Needs mod/CotlDataDump.dll (mod/build.sh) and a .env with COTL_SSH, COTL_KEY, COTL_GAME_DIR, COTL_SAVES_DIR.
 set -euo pipefail
 cd "$(dirname "$0")"
+# shellcheck source=/dev/null  # local, not in the repo
 source .env
 : "${COTL_SSH:?}" "${COTL_KEY:?}" "${COTL_GAME_DIR:?}" "${COTL_SAVES_DIR:?}"
 [ -f mod/CotlDataDump.dll ] || { echo "build the mod first: mod/build.sh <Managed dir> <BepInEx core dir>"; exit 1; }
@@ -59,7 +60,7 @@ echo "game launching; waiting for the dump (up to 10 minutes)"
 seen=0
 for i in $(seq 60); do
   sleep 10
-  if [ $i = 12 ] && [ $seen = 0 ]; then echo "no game after 2 minutes; asking Steam again"; launch; fi
+  if [ "$i" = 12 ] && [ $seen = 0 ]; then echo "no game after 2 minutes; asking Steam again"; launch; fi
   rc=0; pc "test -f $OUT/done" || rc=$?
   [ $rc = 0 ] && break
   rc=0; pc "$GAME_UP" || rc=$?
