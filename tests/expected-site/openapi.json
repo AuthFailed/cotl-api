@@ -94,6 +94,13 @@
               "type": "string"
             },
             "type": "array"
+          },
+          "steamBuildId": {
+            "description": "the game's Steam build the data was captured from (null if unknown)",
+            "type": [
+              "integer",
+              "null"
+            ]
           }
         },
         "required": [
@@ -911,7 +918,8 @@
                   "languages": [
                     "en",
                     "ru"
-                  ]
+                  ],
+                  "steamBuildId": null
                 },
                 "schema": {
                   "$ref": "#/components/schemas/Index"

@@ -210,6 +210,11 @@ class PackTest(unittest.TestCase):
         self.assertEqual(ru["BERRY"]["name"], "Berries")  # no Russian name: English
         self.assertTrue((self.site / "v1" / "en" / "rituals.json").exists())
 
+    def test_index_has_the_steam_build(self):
+        self.assertIsNone(self.pack()["steamBuildId"])  # the fixture's meta has none
+        self.edit("meta", lambda m: m.update(steamBuildId=21234567))
+        self.assertEqual(self.pack()["steamBuildId"], 21234567)
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])

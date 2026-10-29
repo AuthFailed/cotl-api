@@ -35,6 +35,13 @@
         "type": "integer",
         "minimum": 0
       }
+    },
+    "steamBuildId": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "the game's Steam build the data was captured from (null if unknown)"
     }
   }
 }

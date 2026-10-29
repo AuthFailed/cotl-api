@@ -196,6 +196,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     index = {
         "gameVersion": dump["meta"]["gameVersion"],
         "capturedAt": dump["meta"]["capturedAt"],
+        "steamBuildId": dump["meta"].get("steamBuildId") or None,
         "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}),
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }

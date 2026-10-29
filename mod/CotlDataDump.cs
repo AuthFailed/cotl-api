@@ -32,6 +32,7 @@ public class CotlDataDump : BaseUnityPlugin
     readonly Dictionary<string, Dictionary<string, string>> i18n = new Dictionary<string, Dictionary<string, string>>();
     List<Dictionary<string, object>> items, structures, skins, rituals;
     readonly Dictionary<string, List<string>> unnamed = new Dictionary<string, List<string>>();
+    readonly Dictionary<string, string> skinNames = new Dictionary<string, string>();
     string en = "en";
 
     void Awake()
@@ -102,7 +103,8 @@ public class CotlDataDump : BaseUnityPlugin
         Write("i18n.json", i18n);
         Write("meta.json", new Dictionary<string, object> {
             ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
-            ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"), ["errors"] = errors,
+            ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ", System.Globalization.CultureInfo.InvariantCulture),
+            ["steamBuildId"] = SteamBuildId(), ["errors"] = errors,
             ["unnamedItems"] = unnamed });
         File.WriteAllText(Path.Combine(outDir, "done"), "");
         Logger.LogInfo("dump done");
@@ -125,9 +127,10 @@ public class CotlDataDump : BaseUnityPlugin
         return null;
     }
 
-    // Enum.GetNames: GetValues gives one name for aliased values. Types without an English name are internal.
-    static IEnumerable<T> Named<T>(string prefix) =>
-        Enum.GetNames(typeof(T)).Where(n => English($"{prefix}/{n}") != null).Select(n => (T)Enum.Parse(typeof(T), n));
+    // Enum.GetNames, and the name carried through: an alias would otherwise come back under its value's first name.
+    // Types without an English name are internal.
+    static IEnumerable<(string name, T value)> Named<T>(string prefix) =>
+        Enum.GetNames(typeof(T)).Where(n => English($"{prefix}/{n}") != null).Select(n => (n, (T)Enum.Parse(typeof(T), n)));
 
     string Term(string term)
     {
@@ -221,12 +224,13 @@ public class CotlDataDump : BaseUnityPlugin
     void ReadStructures()
     {
         var menu = BuildMenu();
-        structures = Named<StructureBrain.TYPES>("Structures").Select(t =>
+        structures = Named<StructureBrain.TYPES>("Structures").Select(named =>
         {
+            var (id, t) = named;
             StructuresData info = null;
             try { info = StructuresData.GetInfoByType(t, 0); } catch { }
             return new Dictionary<string, object> {
-                ["id"] = t.ToString(), ["nameTerm"] = Term($"Structures/{t}"), ["descTerm"] = Term($"Structures/{t}/Description"),
+                ["id"] = id, ["nameTerm"] = Term($"Structures/{id}"), ["descTerm"] = Term($"Structures/{id}/Description"),
                 ["cost"] = StructuresData.GetCost(t).Select(c => new Dictionary<string, object> { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
                 ["upgradesFrom"] = info != null && info.IsUpgrade ? info.UpgradeFromType.ToString() : null,
                 ["size"] = null,
@@ -246,7 +250,14 @@ public class CotlDataDump : BaseUnityPlugin
         {
             string id = new string(c.Skin[0].Skin.Select(ch => char.IsLetterOrDigit(ch) && ch < 128 || ch == '_' || ch == '-' ? ch : '_').ToArray());
             // Some forms are listed twice (e.g. for two drop locations); the first entry is the one the game finds.
-            if (i18n.ContainsKey($"Skins/{id}")) { Logger.LogWarning($"skin {id} listed again as {c.Title}, skipped"); continue; }
+            if (skinNames.TryGetValue(id, out var first))
+            {
+                // the same form listed twice is skipped; two forms whose names clean up to one id would lose one
+                if (first == c.Skin[0].Skin) { Logger.LogWarning($"skin {id} listed again as {c.Title}, skipped"); continue; }
+                Fail("Skins", $"\"{first}\" and \"{c.Skin[0].Skin}\" both become id {id}");
+                continue;
+            }
+            skinNames[id] = c.Skin[0].Skin;
             // The game has no translated skin names, only this title.
             i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = c.Title };
             skins.Add(new Dictionary<string, object> {
@@ -292,13 +303,26 @@ public class CotlDataDump : BaseUnityPlugin
         Logger.LogInfo($"rituals: {rituals.Count}");
     }
 
+    // The build of the game being captured, so a watcher can tell when the API falls behind (0 if Steam isn't up).
+    static uint SteamBuildId()
+    {
+        try { return SteamManager.Initialized ? (uint)Steamworks.SteamApps.GetAppBuildId() : 0; } catch { return 0; }
+    }
+
     void ReadTranslations()
     {
+        // From the source that holds the English text English() found: another may have the term with an empty column.
+        bool HasEnglish(LanguageSourceData source, TermData data)
+        {
+            int i = source.mLanguages.FindIndex(l => l.Name == "English");
+            return i >= 0 && i < data.Languages.Length && !string.IsNullOrEmpty(data.Languages[i]);
+        }
+        foreach (var pass in new[] { true, false })
         foreach (var source in LocalizationManager.Sources)
             foreach (var term in terms)
             {
                 var data = source.GetTermData(term);
-                if (data == null || i18n.ContainsKey(term)) continue;
+                if (data == null || i18n.ContainsKey(term) || (pass && !HasEnglish(source, data))) continue;
                 // Columns without a code ("Chara Count", "Comments", ...) aren't languages.
                 i18n[term] = source.mLanguages.Select((l, i) => (code: l.Code, text: i < data.Languages.Length ? data.Languages[i] : null))
                     .Where(p => !string.IsNullOrEmpty(p.code) && !string.IsNullOrEmpty(p.text)).ToDictionary(p => p.code, p => p.text);
