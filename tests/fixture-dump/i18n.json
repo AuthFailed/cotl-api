@@ -1,0 +1,38 @@
+{
+  "Inventory/LOG": {
+    "en": "Logs",
+    "ru": "Брёвна"
+  },
+  "Inventory/LOG/Description": {
+    "en": "Wood for building.",
+    "ru": "Дерево для стройки."
+  },
+  "Inventory/BERRY": {
+    "en": "Berries",
+    "ru": ""
+  },
+  "Inventory/STONE": {
+    "en": "Stone",
+    "ru": "Камень"
+  },
+  "Structures/FARM_PLOT": {
+    "en": "Farm Plot",
+    "ru": "Грядка"
+  },
+  "Structures/SHRINE_II": {
+    "en": "Shrine II",
+    "ru": "Святилище II"
+  },
+  "Structures/SHRINE_II/Description": {
+    "en": "Gathers more devotion.",
+    "ru": "Собирает больше веры."
+  },
+  "FollowerSkins/Cat": {
+    "en": "Cat",
+    "ru": "Кот"
+  },
+  "FollowerSkins/Deer": {
+    "en": "Deer",
+    "ru": "Олень"
+  }
+}

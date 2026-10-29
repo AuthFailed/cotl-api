@@ -1,0 +1,45 @@
+[
+  {
+    "id": "FARM_PLOT",
+    "nameTerm": "Structures/FARM_PLOT",
+    "descTerm": null,
+    "cost": [
+      {
+        "item": "LOG",
+        "quantity": 2
+      }
+    ],
+    "upgradesFrom": null,
+    "size": {
+      "w": 1,
+      "h": 1
+    },
+    "ranges": []
+  },
+  {
+    "id": "SHRINE_II",
+    "nameTerm": "Structures/SHRINE_II",
+    "descTerm": "Structures/SHRINE_II/Description",
+    "cost": [
+      {
+        "item": "STONE",
+        "quantity": 15
+      },
+      {
+        "item": "LOG",
+        "quantity": 10
+      }
+    ],
+    "upgradesFrom": "SHRINE",
+    "size": {
+      "w": 3,
+      "h": 3
+    },
+    "ranges": [
+      {
+        "name": "devotion",
+        "radius": 4
+      }
+    ]
+  }
+]

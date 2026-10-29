@@ -1,0 +1,21 @@
+{
+  "cost": [
+    {
+      "item": "LOG",
+      "quantity": 2
+    }
+  ],
+  "description": {},
+  "icon": "icons/structures/FARM_PLOT.png",
+  "id": "FARM_PLOT",
+  "name": {
+    "en": "Farm Plot",
+    "ru": "Грядка"
+  },
+  "ranges": [],
+  "size": {
+    "h": 1,
+    "w": 1
+  },
+  "upgradesFrom": null
+}

@@ -1,0 +1,33 @@
+{
+  "cost": [
+    {
+      "item": "STONE",
+      "quantity": 15
+    },
+    {
+      "item": "LOG",
+      "quantity": 10
+    }
+  ],
+  "description": {
+    "en": "Gathers more devotion.",
+    "ru": "Собирает больше веры."
+  },
+  "icon": "icons/structures/SHRINE_II.png",
+  "id": "SHRINE_II",
+  "name": {
+    "en": "Shrine II",
+    "ru": "Святилище II"
+  },
+  "ranges": [
+    {
+      "name": "devotion",
+      "radius": 4
+    }
+  ],
+  "size": {
+    "h": 3,
+    "w": 3
+  },
+  "upgradesFrom": "SHRINE"
+}

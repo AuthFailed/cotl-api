@@ -1,0 +1,10 @@
+{
+  "description": {},
+  "icon": "icons/skins/Deer.png",
+  "id": "Deer",
+  "name": {
+    "en": "Deer",
+    "ru": "Олень"
+  },
+  "unlock": "Shop"
+}

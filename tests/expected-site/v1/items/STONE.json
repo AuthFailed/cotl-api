@@ -1,0 +1,10 @@
+{
+  "category": "Resource",
+  "description": {},
+  "icon": "icons/items/STONE.png",
+  "id": "STONE",
+  "name": {
+    "en": "Stone",
+    "ru": "Камень"
+  }
+}

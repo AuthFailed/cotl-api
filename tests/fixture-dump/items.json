@@ -1,0 +1,20 @@
+[
+  {
+    "id": "LOG",
+    "nameTerm": "Inventory/LOG",
+    "descTerm": "Inventory/LOG/Description",
+    "category": "Resource"
+  },
+  {
+    "id": "BERRY",
+    "nameTerm": "Inventory/BERRY",
+    "descTerm": null,
+    "category": "Food"
+  },
+  {
+    "id": "STONE",
+    "nameTerm": "Inventory/STONE",
+    "descTerm": null,
+    "category": "Resource"
+  }
+]

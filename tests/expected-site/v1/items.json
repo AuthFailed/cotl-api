@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Food",
+    "description": {},
+    "icon": null,
+    "id": "BERRY",
+    "name": {
+      "en": "Berries"
+    }
+  },
+  {
+    "category": "Resource",
+    "description": {
+      "en": "Wood for building.",
+      "ru": "Дерево для стройки."
+    },
+    "icon": "icons/items/LOG.png",
+    "id": "LOG",
+    "name": {
+      "en": "Logs",
+      "ru": "Брёвна"
+    }
+  },
+  {
+    "category": "Resource",
+    "description": {},
+    "icon": "icons/items/STONE.png",
+    "id": "STONE",
+    "name": {
+      "en": "Stone",
+      "ru": "Камень"
+    }
+  }
+]
