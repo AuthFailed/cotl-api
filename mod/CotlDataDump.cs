@@ -103,7 +103,7 @@ public class CotlDataDump : BaseUnityPlugin
         if (doMore.Value)
         {
             yield return DoctrineIcons();
-            Try("TraitIcons", TraitIcons); Try("CrownIcons", CrownIcons); Try("Fleeces", ReadFleeces);
+            Try("TraitIcons", TraitIcons); Try("CrownIcons", CrownIcons); Try("Fleeces", ReadFleeces); Try("LaterIcons", LaterIcons);
         }
         // last: phase 2 adds terms too (fleece names)
         Try("Translations", ReadTranslations);
@@ -414,7 +414,7 @@ public class CotlDataDump : BaseUnityPlugin
                 ["dlc"] = RelicData.GetRelicDLC(rd.RelicType), ["coop"] = EquipmentManager.CoopRelics.Contains(rd.RelicType),
                 ["majorDlc"] = EquipmentManager.MajorDLCRelics.Contains(rd.RelicType),
             });
-            if (rd.UISprite) SaveSprite(rd.UISprite, "relics", id);
+            IconNowOrLater(rd.UISprite, "relics", id);
         }
         Logger.LogInfo($"relics: {more["relics"].Count}");
     }
@@ -434,7 +434,7 @@ public class CotlDataDump : BaseUnityPlugin
                 ["speed"] = w.Speed, ["damage"] = (w.Combos ?? new List<PlayerWeapon.WeaponCombos>()).Select(c => c.Damage).ToList(),
                 ["heavyDamage"] = w.HeavyAttackCombo?.Damage,
             });
-            if (w.UISprite) SaveSprite(w.UISprite, "weapons", id);
+            IconNowOrLater(w.UISprite, "weapons", id);
         }
         foreach (var c in Resources.LoadAll<CurseData>("Data/Equipment Data/Curses").Where(c => c).GroupBy(c => c.EquipmentType).Select(g => g.First()))
         {
@@ -445,7 +445,7 @@ public class CotlDataDump : BaseUnityPlugin
                 ["family"] = c.PrimaryEquipmentType.ToString(), ["damage"] = c.Damage, ["delay"] = c.Delay,
                 ["castingDuration"] = c.CastingDuration, ["chance"] = c.Chance, ["canAim"] = c.CanAim,
             });
-            if (c.UISprite) SaveSprite(c.UISprite, "curses", id);
+            IconNowOrLater(c.UISprite, "curses", id);
         }
         Logger.LogInfo($"weapons: {more["weapons"].Count}, curses: {more["curses"].Count}");
     }
@@ -561,7 +561,11 @@ public class CotlDataDump : BaseUnityPlugin
             ("woolhaven", PlayerFleeceManager.WoolhavenPackFleeces) };
         var icons = Resources.FindObjectsOfTypeAll<FleeceIconMapping>();
         var list = new List<Dict>();
-        foreach (var b in Resources.FindObjectsOfTypeAll<Lamb.UI.FleeceItemBuyable>().GroupBy(b => b.Fleece).Select(g => g.First()).OrderBy(b => b.Fleece))
+        // the upgrade menu template's serialized buttons (UIManager loads it with the base assets)
+        var menu = Resources.FindObjectsOfTypeAll<Lamb.UI.UIManager>().Select(m => m.PlayerUpgradesMenuTemplate).FirstOrDefault(t => t);
+        var buttons = menu ? Traverse.Create(menu).Field("_fleeceItems").GetValue<Lamb.UI.FleeceItemBuyable[]>() : null;
+        if (buttons == null || buttons.Length == 0) throw new Exception("no player upgrades menu template with fleece buttons");
+        foreach (var b in buttons.Where(b => b).GroupBy(b => b.Fleece).Select(g => g.First()).OrderBy(b => b.Fleece))
         {
             int n = b.Fleece;
             if (English($"TarotCards/Fleece{n}/Name") == null) continue;
@@ -655,8 +659,24 @@ public class CotlDataDump : BaseUnityPlugin
     }
 
     // A sprite's own pixels as a PNG (its texture needn't be readable).
-    void SaveSprite(Sprite sp, string kind, string id)
+    // Icons whose sprite had no texture yet (an atlas not loaded before the base): tried again in phase 2.
+    readonly List<(Sprite, string, string)> laterIcons = new List<(Sprite, string, string)>();
+
+    void IconNowOrLater(Sprite sp, string kind, string id)
     {
+        if (sp && !SaveSprite(sp, kind, id)) laterIcons.Add((sp, kind, id));
+    }
+
+    void LaterIcons()
+    {
+        int saved = laterIcons.Count(x => SaveSprite(x.Item1, x.Item2, x.Item3));
+        if (saved < laterIcons.Count) Logger.LogWarning($"{laterIcons.Count - saved} icons still had no texture in the base");
+    }
+
+    // false (nothing written) when the sprite has no texture yet
+    bool SaveSprite(Sprite sp, string kind, string id)
+    {
+        if (!sp || !sp.texture) return false;
         string dir = Path.Combine(outDir, "icons", kind);
         Directory.CreateDirectory(dir);
         var rt = RenderTexture.GetTemporary(sp.texture.width, sp.texture.height, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
@@ -671,6 +691,7 @@ public class CotlDataDump : BaseUnityPlugin
         RenderTexture.ReleaseTemporary(rt);
         File.WriteAllBytes(Path.Combine(dir, id + ".png"), tex.EncodeToPNG());
         Destroy(tex);
+        return true;
     }
 
     // ---------- helpers ----------
