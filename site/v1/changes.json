@@ -1,1 +1,59 @@
-[]
+[
+  {
+    "added": {
+      "items": [
+        "DRINK_BEER",
+        "DRINK_CHILLI",
+        "DRINK_COCKTAIL",
+        "DRINK_EGGNOG",
+        "DRINK_GIN",
+        "DRINK_GRASS",
+        "DRINK_LIGHTNING",
+        "DRINK_MILKSHAKE",
+        "DRINK_MUSHROOM_JUICE",
+        "DRINK_POOP_JUICE",
+        "DRINK_SIN",
+        "DRINK_WINE",
+        "MEAL",
+        "MEAL_BAD_FISH",
+        "MEAL_BAD_MEAT",
+        "MEAL_BAD_MIXED",
+        "MEAL_BERRIES",
+        "MEAL_BURNED",
+        "MEAL_DEADLY",
+        "MEAL_EGG",
+        "MEAL_FOLLOWER_MEAT",
+        "MEAL_GOOD_FISH",
+        "MEAL_GRASS",
+        "MEAL_GREAT",
+        "MEAL_GREAT_FISH",
+        "MEAL_GREAT_MEAT",
+        "MEAL_GREAT_MIXED",
+        "MEAL_MEAT",
+        "MEAL_MEDIUM_MIXED",
+        "MEAL_MEDIUM_VEG",
+        "MEAL_MILK_BAD",
+        "MEAL_MILK_GOOD",
+        "MEAL_MILK_GREAT",
+        "MEAL_MUSHROOMS",
+        "MEAL_POOP",
+        "MEAL_SNOW_FRUIT",
+        "MEAL_SPICY"
+      ],
+      "skins": [],
+      "structures": []
+    },
+    "capturedAt": "2026-10-29T04:39:19Z",
+    "changed": {
+      "items": [],
+      "skins": [],
+      "structures": []
+    },
+    "gameVersion": "1.5.26.1058",
+    "removed": {
+      "items": [],
+      "skins": [],
+      "structures": []
+    }
+  }
+]

@@ -102,6 +102,16 @@ Text is the game's own and can hold its TextMeshPro markup, e.g. `<sprite name="
 inline icon; `namePlain`/`descriptionPlain` have it removed. An item's `category` is `NONE` when the game
 doesn't put it in one.
 
+## What's left out
+
+Item types the game has no name for in any language are left out: internal values, placeholders and cut
+content. Each capture checks every localisation term in the game for them (the result is in the dump's
+`meta.json`). Currently:
+
+`ANIMALS`, `BLACK_SOUL`, `BLOOD_STONE`, `BLUE_PRINT`, `BROKEN_WEAPON_BLUNDERBUSS`, `CRYSTAL_DOCTRINE_FRAGMENT`, `CURSE_CARD`, `DISCIPLE_POINTS`, `DLC_NECKLACE`, `EGG_FOLLOWER`, `FISH_CATFISH`, `FISH_COD`, `FISH_PIKE`, `FLOCKADE_PIECE`, `FLOWERS`, `FOUND_ITEM_CURSE`, `FOUND_ITEM_DECORATION_ALT`, `FOUND_ITEM_OUTFIT`, `FOUND_ITEM_WEAPON`, `GENERIC`, `GRASS2`, `GRASS3`, `GRASS4`, `GRASS5`, `INGREDIENTS`, `KEY`, `KEY_PIECE`, `MAP`, `MEALS`, `MEAL_ROTTEN`, `MEAT_ROTTEN`, `MUSHROOM_BIG`, `NONE`, `Necklace_Bell`, `PERMANENT_HALF_HEART`, `RATAU_STAFF`, `RELIC`, `REPAIRED_WEAPON_BLUNDERBUSS`, `ROCK2`, `ROCK3`, `ROPE`, `SEEDS`, `SEED_FLOWER_PURPLE`, `SEED_FLOWER_WHITE`, `SEED_SWORD`, `SEED_TREE`, `SOUL_FRAGMENT`, `STAINED_GLASS`, `THORNS`, `TIME_TOKEN`, `TRINKET_CARD_UNLOCKED`, `UNUSED`, `VINES`, `WEAPON_CARD`, `WEBBER_SKULL`, `WHEAT`.
+
+Structures without a name are left out the same way.
+
 ## Compatibility
 
 Within `v1/`, fields are only ever added, never renamed or removed. A breaking change would ship as `v2/`
