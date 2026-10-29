@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Ability_Eat",
+    "nameTerm": "UpgradeSystem/Ability_Eat/Name",
+    "descTerm": null,
+    "cost": [
+      {
+        "item": "MONSTER_HEART",
+        "quantity": 1
+      }
+    ],
+    "dlc": false
+  }
+]

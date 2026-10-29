@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Relic",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "lore",
+    "subType",
+    "interactionType",
+    "damageType",
+    "chargeDamage",
+    "chargeCategory",
+    "weight",
+    "requiresCult",
+    "unlockedBy",
+    "dlc",
+    "coop",
+    "majorDlc"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/relics/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/relics/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "lore": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "subType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "None, Blessed, Damned, Corrupted, Coop ..."
+    },
+    "interactionType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Instant, Fragile (single use) ..."
+    },
+    "damageType": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "damage that charges it"
+    },
+    "chargeDamage": {
+      "type": "number",
+      "description": "damage needed to charge it"
+    },
+    "chargeCategory": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Fast, Average or Slow, as the game labels it"
+    },
+    "weight": {
+      "type": "number",
+      "description": "draw weight"
+    },
+    "requiresCult": {
+      "type": "boolean",
+      "description": "only appears once you have a cult"
+    },
+    "unlockedBy": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "UpgradeSystem upgrade that unlocks it"
+    },
+    "dlc": {
+      "type": "boolean",
+      "description": ""
+    },
+    "coop": {
+      "type": "boolean",
+      "description": ""
+    },
+    "majorDlc": {
+      "type": "boolean",
+      "description": ""
+    }
+  }
+}

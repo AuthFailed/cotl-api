@@ -66,6 +66,199 @@
         "title": "Changes",
         "type": "array"
       },
+      "CrownAbility": {
+        "properties": {
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "dlc": {
+            "description": "",
+            "type": "boolean"
+          },
+          "icon": {
+            "pattern": "^icons/crownAbilities/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "thumb": {
+            "pattern": "^icons/crownAbilities/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "cost",
+          "dlc"
+        ],
+        "title": "CrownAbility",
+        "type": "object"
+      },
+      "Curse": {
+        "properties": {
+          "canAim": {
+            "description": "",
+            "type": "boolean"
+          },
+          "castingDuration": {
+            "description": "",
+            "type": "number"
+          },
+          "chance": {
+            "description": "",
+            "type": "number"
+          },
+          "damage": {
+            "description": "",
+            "type": "number"
+          },
+          "delay": {
+            "description": "",
+            "type": "number"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "family": {
+            "description": "Tentacles, EnemyBlast, ProjectileAOE, Fireball, MegaSlash, Teleport, Barrier",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "icon": {
+            "pattern": "^icons/curses/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "lore": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "thumb": {
+            "pattern": "^icons/curses/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "lore",
+          "family",
+          "damage",
+          "delay",
+          "castingDuration",
+          "chance",
+          "canAim"
+        ],
+        "title": "Curse",
+        "type": "object"
+      },
       "Doctrine": {
         "properties": {
           "alternative": {
@@ -171,6 +364,103 @@
           "ritual"
         ],
         "title": "Doctrine",
+        "type": "object"
+      },
+      "Fleece": {
+        "properties": {
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "fleece": {
+            "description": "the game's fleece number",
+            "type": "integer"
+          },
+          "icon": {
+            "pattern": "^icons/fleeces/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "pack": {
+            "description": "DLC pack it comes with, or null",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "thumb": {
+            "pattern": "^icons/fleeces/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "fleece",
+          "cost",
+          "pack"
+        ],
+        "title": "Fleece",
         "type": "object"
       },
       "Index": {
@@ -492,6 +782,302 @@
           "thumb"
         ],
         "title": "Item",
+        "type": "object"
+      },
+      "Outfit": {
+        "properties": {
+          "cost": {
+            "items": {
+              "properties": {
+                "item": {
+                  "type": "string"
+                },
+                "quantity": {
+                  "minimum": 0,
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "item",
+                "quantity"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "effects": {
+            "items": {
+              "properties": {
+                "chance": {
+                  "description": "percent",
+                  "type": "integer"
+                },
+                "description": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "required": [
+                    "en"
+                  ],
+                  "type": "object"
+                },
+                "descriptionPlain": {
+                  "additionalProperties": {
+                    "type": "string"
+                  },
+                  "type": "object"
+                },
+                "type": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "type",
+                "chance",
+                "description",
+                "descriptionPlain"
+              ],
+              "type": "object"
+            },
+            "type": "array"
+          },
+          "forSale": {
+            "description": "",
+            "type": "boolean"
+          },
+          "groups": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "icon": {
+            "pattern": "^icons/outfits/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "protection": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "requirements": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "tab": {
+            "description": "default, special, dlc or majorDlc: the tailor menu tab",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "thumb": {
+            "pattern": "^icons/outfits/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "cost",
+          "requirements",
+          "protection",
+          "effects",
+          "tab",
+          "groups",
+          "forSale"
+        ],
+        "title": "Outfit",
+        "type": "object"
+      },
+      "Relic": {
+        "properties": {
+          "chargeCategory": {
+            "description": "Fast, Average or Slow, as the game labels it",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "chargeDamage": {
+            "description": "damage needed to charge it",
+            "type": "number"
+          },
+          "coop": {
+            "description": "",
+            "type": "boolean"
+          },
+          "damageType": {
+            "description": "damage that charges it",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "dlc": {
+            "description": "",
+            "type": "boolean"
+          },
+          "icon": {
+            "pattern": "^icons/relics/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "interactionType": {
+            "description": "Instant, Fragile (single use) ...",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "lore": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "majorDlc": {
+            "description": "",
+            "type": "boolean"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "requiresCult": {
+            "description": "only appears once you have a cult",
+            "type": "boolean"
+          },
+          "subType": {
+            "description": "None, Blessed, Damned, Corrupted, Coop ...",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "thumb": {
+            "pattern": "^icons/relics/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "unlockedBy": {
+            "description": "UpgradeSystem upgrade that unlocks it",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "weight": {
+            "description": "draw weight",
+            "type": "number"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "lore",
+          "subType",
+          "interactionType",
+          "damageType",
+          "chargeDamage",
+          "chargeCategory",
+          "weight",
+          "requiresCult",
+          "unlockedBy",
+          "dlc",
+          "coop",
+          "majorDlc"
+        ],
+        "title": "Relic",
         "type": "object"
       },
       "Ritual": {
@@ -1100,6 +1686,196 @@
         ],
         "title": "Tarot",
         "type": "object"
+      },
+      "Trait": {
+        "properties": {
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "exclusiveWith": {
+            "description": "the trait it can't be held with",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "groups": {
+            "description": "the game's trait lists it is in: starting, rareStarting, single, faithful, good, unique, sin, majorDlc, winter, pureBlood, excludedFromMating",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "icon": {
+            "pattern": "^icons/traits/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "positive": {
+            "description": "the game counts it as a good trait",
+            "type": "boolean"
+          },
+          "thumb": {
+            "pattern": "^icons/traits/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "positive",
+          "groups",
+          "exclusiveWith"
+        ],
+        "title": "Trait",
+        "type": "object"
+      },
+      "Weapon": {
+        "properties": {
+          "damage": {
+            "description": "damage of each hit of the light combo",
+            "items": {
+              "type": "number"
+            },
+            "type": "array"
+          },
+          "description": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
+          "family": {
+            "description": "Sword, Axe, Hammer, Dagger, Gauntlet, Blunderbuss, Chain",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "heavyDamage": {
+            "description": "heavy attack damage",
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "icon": {
+            "pattern": "^icons/weapons/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "id": {
+            "pattern": "^[A-Za-z0-9_-]+$",
+            "type": "string"
+          },
+          "legendary": {
+            "description": "",
+            "type": "boolean"
+          },
+          "lore": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object"
+          },
+          "name": {
+            "additionalProperties": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "speed": {
+            "description": "attack speed",
+            "type": "number"
+          },
+          "thumb": {
+            "pattern": "^icons/weapons/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "description",
+          "namePlain",
+          "descriptionPlain",
+          "icon",
+          "thumb",
+          "lore",
+          "family",
+          "legendary",
+          "speed",
+          "damage",
+          "heavyDamage"
+        ],
+        "title": "Weapon",
+        "type": "object"
       }
     }
   },
@@ -1135,6 +1911,222 @@
         "summary": "What each game version added, removed or changed, newest first",
         "tags": [
           "index"
+        ]
+      }
+    },
+    "/v1/crownAbilities.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "cost": [
+                      {
+                        "item": "MONSTER_HEART",
+                        "quantity": 1
+                      }
+                    ],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "dlc": false,
+                    "icon": null,
+                    "id": "Ability_Eat",
+                    "name": {
+                      "en": "Eat",
+                      "ru": "Поедание"
+                    },
+                    "namePlain": {
+                      "en": "Eat",
+                      "ru": "Поедание"
+                    },
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/CrownAbility"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every crownAbility",
+        "tags": [
+          "crownAbilities"
+        ]
+      }
+    },
+    "/v1/crownAbilities/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Ability_Eat"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "cost": [
+                    {
+                      "item": "MONSTER_HEART",
+                      "quantity": 1
+                    }
+                  ],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "dlc": false,
+                  "icon": null,
+                  "id": "Ability_Eat",
+                  "name": {
+                    "en": "Eat",
+                    "ru": "Поедание"
+                  },
+                  "namePlain": {
+                    "en": "Eat",
+                    "ru": "Поедание"
+                  },
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/CrownAbility"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One crownAbility",
+        "tags": [
+          "crownAbilities"
+        ]
+      }
+    },
+    "/v1/curses.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "canAim": true,
+                    "castingDuration": 0.5,
+                    "chance": 1.0,
+                    "damage": 2.0,
+                    "delay": 0.0,
+                    "description": {},
+                    "descriptionPlain": {},
+                    "family": "Fireball",
+                    "icon": null,
+                    "id": "Fireball",
+                    "lore": {},
+                    "name": {
+                      "en": "Fireball",
+                      "ru": "Огненный шар"
+                    },
+                    "namePlain": {
+                      "en": "Fireball",
+                      "ru": "Огненный шар"
+                    },
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Curse"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every curse",
+        "tags": [
+          "curses"
+        ]
+      }
+    },
+    "/v1/curses/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Fireball"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "canAim": true,
+                  "castingDuration": 0.5,
+                  "chance": 1.0,
+                  "damage": 2.0,
+                  "delay": 0.0,
+                  "description": {},
+                  "descriptionPlain": {},
+                  "family": "Fireball",
+                  "icon": null,
+                  "id": "Fireball",
+                  "lore": {},
+                  "name": {
+                    "en": "Fireball",
+                    "ru": "Огненный шар"
+                  },
+                  "namePlain": {
+                    "en": "Fireball",
+                    "ru": "Огненный шар"
+                  },
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Curse"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One curse",
+        "tags": [
+          "curses"
         ]
       }
     },
@@ -1269,6 +2261,116 @@
         "summary": "One doctrine",
         "tags": [
           "doctrines"
+        ]
+      }
+    },
+    "/v1/fleeces.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "cost": [
+                      {
+                        "item": "TALISMAN",
+                        "quantity": 1
+                      }
+                    ],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "fleece": 1,
+                    "icon": null,
+                    "id": "Fleece1",
+                    "name": {
+                      "en": "Golden Fleece",
+                      "ru": "Золотое руно"
+                    },
+                    "namePlain": {
+                      "en": "Golden Fleece",
+                      "ru": "Золотое руно"
+                    },
+                    "pack": null,
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Fleece"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every fleece",
+        "tags": [
+          "fleeces"
+        ]
+      }
+    },
+    "/v1/fleeces/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Fleece1"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "cost": [
+                    {
+                      "item": "TALISMAN",
+                      "quantity": 1
+                    }
+                  ],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "fleece": 1,
+                  "icon": null,
+                  "id": "Fleece1",
+                  "name": {
+                    "en": "Golden Fleece",
+                    "ru": "Золотое руно"
+                  },
+                  "namePlain": {
+                    "en": "Golden Fleece",
+                    "ru": "Золотое руно"
+                  },
+                  "pack": null,
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Fleece"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One fleece",
+        "tags": [
+          "fleeces"
         ]
       }
     },
@@ -1411,13 +2513,20 @@
                 "example": {
                   "capturedAt": "2026-10-29T12:00:00Z",
                   "counts": {
+                    "crownAbilities": 1,
+                    "curses": 1,
                     "doctrines": 2,
+                    "fleeces": 1,
                     "items": 5,
+                    "outfits": 1,
+                    "relics": 1,
                     "rituals": 2,
                     "sermons": 1,
                     "skins": 2,
                     "structures": 2,
-                    "tarot": 2
+                    "tarot": 2,
+                    "traits": 1,
+                    "weapons": 1
                   },
                   "gameVersion": "1.4.6",
                   "languages": [
@@ -1598,6 +2707,286 @@
         "summary": "One item",
         "tags": [
           "items"
+        ]
+      }
+    },
+    "/v1/outfits.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "cost": [
+                      {
+                        "item": "WOOL",
+                        "quantity": 2
+                      }
+                    ],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "effects": [
+                      {
+                        "chance": 10,
+                        "description": {
+                          "en": "10% chance of the Follower pooping instantly.",
+                          "ru": "С вероятностью 10%."
+                        },
+                        "descriptionPlain": {
+                          "en": "10% chance of the Follower pooping instantly.",
+                          "ru": "С вероятностью 10%."
+                        },
+                        "type": "InstantlyPoop"
+                      }
+                    ],
+                    "forSale": true,
+                    "groups": [],
+                    "icon": null,
+                    "id": "Robe",
+                    "name": {
+                      "en": "Robe",
+                      "ru": "Мантия"
+                    },
+                    "namePlain": {
+                      "en": "Robe",
+                      "ru": "Мантия"
+                    },
+                    "protection": {},
+                    "requirements": {
+                      "en": "Build a tailor.",
+                      "ru": "Постройте портного."
+                    },
+                    "tab": "default",
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Outfit"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every outfit",
+        "tags": [
+          "outfits"
+        ]
+      }
+    },
+    "/v1/outfits/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Robe"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "cost": [
+                    {
+                      "item": "WOOL",
+                      "quantity": 2
+                    }
+                  ],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "effects": [
+                    {
+                      "chance": 10,
+                      "description": {
+                        "en": "10% chance of the Follower pooping instantly.",
+                        "ru": "С вероятностью 10%."
+                      },
+                      "descriptionPlain": {
+                        "en": "10% chance of the Follower pooping instantly.",
+                        "ru": "С вероятностью 10%."
+                      },
+                      "type": "InstantlyPoop"
+                    }
+                  ],
+                  "forSale": true,
+                  "groups": [],
+                  "icon": null,
+                  "id": "Robe",
+                  "name": {
+                    "en": "Robe",
+                    "ru": "Мантия"
+                  },
+                  "namePlain": {
+                    "en": "Robe",
+                    "ru": "Мантия"
+                  },
+                  "protection": {},
+                  "requirements": {
+                    "en": "Build a tailor.",
+                    "ru": "Постройте портного."
+                  },
+                  "tab": "default",
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Outfit"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One outfit",
+        "tags": [
+          "outfits"
+        ]
+      }
+    },
+    "/v1/relics.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "chargeCategory": "Fast",
+                    "chargeDamage": 30.0,
+                    "coop": false,
+                    "damageType": "Unholy",
+                    "description": {
+                      "en": "Strike.",
+                      "ru": "Удар."
+                    },
+                    "descriptionPlain": {
+                      "en": "Strike.",
+                      "ru": "Удар."
+                    },
+                    "dlc": false,
+                    "icon": null,
+                    "id": "LightningStrike",
+                    "interactionType": "Instant",
+                    "lore": {},
+                    "majorDlc": false,
+                    "name": {
+                      "en": "Lightning",
+                      "ru": "Молния"
+                    },
+                    "namePlain": {
+                      "en": "Lightning",
+                      "ru": "Молния"
+                    },
+                    "requiresCult": false,
+                    "subType": "None",
+                    "thumb": null,
+                    "unlockedBy": null,
+                    "weight": 1.0
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Relic"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every relic",
+        "tags": [
+          "relics"
+        ]
+      }
+    },
+    "/v1/relics/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "LightningStrike"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "chargeCategory": "Fast",
+                  "chargeDamage": 30.0,
+                  "coop": false,
+                  "damageType": "Unholy",
+                  "description": {
+                    "en": "Strike.",
+                    "ru": "Удар."
+                  },
+                  "descriptionPlain": {
+                    "en": "Strike.",
+                    "ru": "Удар."
+                  },
+                  "dlc": false,
+                  "icon": null,
+                  "id": "LightningStrike",
+                  "interactionType": "Instant",
+                  "lore": {},
+                  "majorDlc": false,
+                  "name": {
+                    "en": "Lightning",
+                    "ru": "Молния"
+                  },
+                  "namePlain": {
+                    "en": "Lightning",
+                    "ru": "Молния"
+                  },
+                  "requiresCult": false,
+                  "subType": "None",
+                  "thumb": null,
+                  "unlockedBy": null,
+                  "weight": 1.0
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Relic"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One relic",
+        "tags": [
+          "relics"
         ]
       }
     },
@@ -2289,6 +3678,294 @@
         ]
       }
     },
+    "/v1/traits.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "exclusiveWith": "Faithless",
+                    "groups": [
+                      "starting",
+                      "faithful"
+                    ],
+                    "icon": null,
+                    "id": "Faithful",
+                    "name": {
+                      "en": "Faithful",
+                      "ru": "Верный"
+                    },
+                    "namePlain": {
+                      "en": "Faithful",
+                      "ru": "Верный"
+                    },
+                    "positive": true,
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Trait"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every trait",
+        "tags": [
+          "traits"
+        ]
+      }
+    },
+    "/v1/traits/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Faithful"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "description": {},
+                  "descriptionPlain": {},
+                  "exclusiveWith": "Faithless",
+                  "groups": [
+                    "starting",
+                    "faithful"
+                  ],
+                  "icon": null,
+                  "id": "Faithful",
+                  "name": {
+                    "en": "Faithful",
+                    "ru": "Верный"
+                  },
+                  "namePlain": {
+                    "en": "Faithful",
+                    "ru": "Верный"
+                  },
+                  "positive": true,
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Trait"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One trait",
+        "tags": [
+          "traits"
+        ]
+      }
+    },
+    "/v1/weapons.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": [
+                  {
+                    "damage": [
+                      1.0,
+                      1.0,
+                      1.5
+                    ],
+                    "description": {},
+                    "descriptionPlain": {},
+                    "family": "Sword",
+                    "heavyDamage": 2.0,
+                    "icon": null,
+                    "id": "Sword",
+                    "legendary": false,
+                    "lore": {},
+                    "name": {
+                      "en": "Sword",
+                      "ru": "Меч"
+                    },
+                    "namePlain": {
+                      "en": "Sword",
+                      "ru": "Меч"
+                    },
+                    "speed": 1.0,
+                    "thumb": null
+                  }
+                ],
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/Weapon"
+                  },
+                  "type": "array"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Every weapon",
+        "tags": [
+          "weapons"
+        ]
+      }
+    },
+    "/v1/weapons/{id}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "required": true,
+            "schema": {
+              "enum": [
+                "Sword"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": {
+                  "damage": [
+                    1.0,
+                    1.0,
+                    1.5
+                  ],
+                  "description": {},
+                  "descriptionPlain": {},
+                  "family": "Sword",
+                  "heavyDamage": 2.0,
+                  "icon": null,
+                  "id": "Sword",
+                  "legendary": false,
+                  "lore": {},
+                  "name": {
+                    "en": "Sword",
+                    "ru": "Меч"
+                  },
+                  "namePlain": {
+                    "en": "Sword",
+                    "ru": "Меч"
+                  },
+                  "speed": 1.0,
+                  "thumb": null
+                },
+                "schema": {
+                  "$ref": "#/components/schemas/Weapon"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "One weapon",
+        "tags": [
+          "weapons"
+        ]
+      }
+    },
+    "/v1/{lang}/crownAbilities.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every crownAbility: id, name in one language, thumbnail",
+        "tags": [
+          "crownAbilities"
+        ]
+      }
+    },
+    "/v1/{lang}/curses.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every curse: id, name in one language, thumbnail",
+        "tags": [
+          "curses"
+        ]
+      }
+    },
     "/v1/{lang}/doctrines.json": {
       "get": {
         "parameters": [
@@ -2323,6 +4000,40 @@
         ]
       }
     },
+    "/v1/{lang}/fleeces.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every fleece: id, name in one language, thumbnail",
+        "tags": [
+          "fleeces"
+        ]
+      }
+    },
     "/v1/{lang}/items.json": {
       "get": {
         "parameters": [
@@ -2354,6 +4065,74 @@
         "summary": "Every item: id, name in one language, thumbnail",
         "tags": [
           "items"
+        ]
+      }
+    },
+    "/v1/{lang}/outfits.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every outfit: id, name in one language, thumbnail",
+        "tags": [
+          "outfits"
+        ]
+      }
+    },
+    "/v1/{lang}/relics.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every relic: id, name in one language, thumbnail",
+        "tags": [
+          "relics"
         ]
       }
     },
@@ -2526,6 +4305,74 @@
           "tarot"
         ]
       }
+    },
+    "/v1/{lang}/traits.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every trait: id, name in one language, thumbnail",
+        "tags": [
+          "traits"
+        ]
+      }
+    },
+    "/v1/{lang}/weapons.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every weapon: id, name in one language, thumbnail",
+        "tags": [
+          "weapons"
+        ]
+      }
     }
   },
   "servers": [
@@ -2565,6 +4412,34 @@
     {
       "description": "Tarot cards: text per upgrade level, lore, card groups",
       "name": "tarot"
+    },
+    {
+      "description": "Relics: charge, damage type, which upgrade unlocks them",
+      "name": "relics"
+    },
+    {
+      "description": "Weapons: family, speed, combo damage",
+      "name": "weapons"
+    },
+    {
+      "description": "Curses: family, damage, casting",
+      "name": "curses"
+    },
+    {
+      "description": "Follower and cult traits",
+      "name": "traits"
+    },
+    {
+      "description": "Follower outfits from the tailor: cost, effects, protection",
+      "name": "outfits"
+    },
+    {
+      "description": "Abilities the crown menu sells for monster hearts",
+      "name": "crownAbilities"
+    },
+    {
+      "description": "Fleeces: cost and pack",
+      "name": "fleeces"
     }
   ]
 }

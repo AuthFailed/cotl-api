@@ -7,9 +7,11 @@ from pathlib import Path
 
 from PIL import Image
 
-KINDS = ("items", "structures", "skins", "rituals", "doctrines", "sermons", "tarot")
+KINDS = ("items", "structures", "skins", "rituals", "doctrines", "sermons", "tarot", "relics", "weapons", "curses", "traits",
+         "outfits", "crownAbilities", "fleeces")
 SINGULAR = {"items": "item", "structures": "structure", "skins": "skin", "rituals": "ritual", "doctrines": "doctrine",
-            "sermons": "sermon", "tarot": "tarot"}
+            "sermons": "sermon", "tarot": "tarot", "relics": "relic", "weapons": "weapon", "curses": "curse",
+            "traits": "trait", "outfits": "outfit", "crownAbilities": "crownAbility", "fleeces": "fleece"}
 SAFE_ID = re.compile(r"[A-Za-z0-9_-]+")
 # The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
 LANGUAGE = re.compile(r"[a-z]{2,3}(-[A-Za-z0-9]{2,8})*")
@@ -23,6 +25,14 @@ PUBLIC = {
     "doctrines": ("category", "level", "choice", "alternative", "kind", "ritual"),
     "sermons": ("glyph",),
     "tarot": ("maxLevel", "groups", "dlc", "coop", "weight"),
+    "relics": ("subType", "interactionType", "damageType", "chargeDamage", "chargeCategory", "weight", "requiresCult", "unlockedBy",
+               "dlc", "coop", "majorDlc"),
+    "weapons": ("family", "legendary", "speed", "damage", "heavyDamage"),
+    "curses": ("family", "damage", "delay", "castingDuration", "chance", "canAim"),
+    "traits": ("positive", "groups", "exclusiveWith"),
+    "outfits": ("cost", "tab", "groups", "forSale"),
+    "crownAbilities": ("cost", "dlc"),
+    "fleeces": ("fleece", "cost", "pack"),
 }
 
 
@@ -95,7 +105,8 @@ def tree(root: Path) -> dict:
 
 
 SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "doctrine": "Doctrine",
-           "sermon": "Sermon", "tarot": "Tarot", "changes": "Changes", "slim": "Slim"}
+           "sermon": "Sermon", "tarot": "Tarot", "relic": "Relic", "weapon": "Weapon", "curse": "Curse", "trait": "Trait",
+           "outfit": "Outfit", "crownAbility": "CrownAbility", "fleece": "Fleece", "changes": "Changes", "slim": "Slim"}
 
 
 def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) -> dict:
@@ -154,7 +165,14 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
                  {"name": "rituals", "description": "Rituals: cost, effect on faith, warmth and sin, the doctrine that unlocks them"},
                  {"name": "doctrines", "description": "Doctrines: sermon category, level, the two choices, the ritual they unlock"},
                  {"name": "sermons", "description": "Sermon categories that doctrines belong to"},
-                 {"name": "tarot", "description": "Tarot cards: text per upgrade level, lore, card groups"}],
+                 {"name": "tarot", "description": "Tarot cards: text per upgrade level, lore, card groups"},
+                 {"name": "relics", "description": "Relics: charge, damage type, which upgrade unlocks them"},
+                 {"name": "weapons", "description": "Weapons: family, speed, combo damage"},
+                 {"name": "curses", "description": "Curses: family, damage, casting"},
+                 {"name": "traits", "description": "Follower and cult traits"},
+                 {"name": "outfits", "description": "Follower outfits from the tailor: cost, effects, protection"},
+                 {"name": "crownAbilities", "description": "Abilities the crown menu sells for monster hearts"},
+                 {"name": "fleeces", "description": "Fleeces: cost and pack"}],
         "paths": paths,
         "components": {"schemas": schemas},
     }
@@ -194,6 +212,10 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
             if "levels" in raw:  # tarot: the text of each upgrade level above the first
                 e["levels"] = [{"description": t, "descriptionPlain": {lang: plain(x) for lang, x in t.items()}}
                                for t in (filled(dump["i18n"], lv["descTerm"], raw.get("descArgs")) for lv in raw["levels"])]
+            for key, term in (raw.get("textTerms") or {}).items():  # extra texts, e.g. an outfit's requirements
+                e[key] = texts(dump["i18n"], term)
+            if "effects" in raw:  # outfits: the same shape as a meal's effects
+                e["effects"] = [effect(dump["i18n"], x) for x in raw["effects"]]
             if "loreTerm" in raw:
                 e["lore"] = texts(dump["i18n"], raw["loreTerm"])
             e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}

@@ -1,0 +1,21 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "exclusiveWith": "Faithless",
+  "groups": [
+    "starting",
+    "faithful"
+  ],
+  "icon": null,
+  "id": "Faithful",
+  "name": {
+    "en": "Faithful",
+    "ru": "Верный"
+  },
+  "namePlain": {
+    "en": "Faithful",
+    "ru": "Верный"
+  },
+  "positive": true,
+  "thumb": null
+}

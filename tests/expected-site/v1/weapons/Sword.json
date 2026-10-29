@@ -1,0 +1,25 @@
+{
+  "damage": [
+    1.0,
+    1.0,
+    1.5
+  ],
+  "description": {},
+  "descriptionPlain": {},
+  "family": "Sword",
+  "heavyDamage": 2.0,
+  "icon": null,
+  "id": "Sword",
+  "legendary": false,
+  "lore": {},
+  "name": {
+    "en": "Sword",
+    "ru": "Меч"
+  },
+  "namePlain": {
+    "en": "Sword",
+    "ru": "Меч"
+  },
+  "speed": 1.0,
+  "thumb": null
+}

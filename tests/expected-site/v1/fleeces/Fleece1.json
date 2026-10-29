@@ -1,0 +1,23 @@
+{
+  "cost": [
+    {
+      "item": "TALISMAN",
+      "quantity": 1
+    }
+  ],
+  "description": {},
+  "descriptionPlain": {},
+  "fleece": 1,
+  "icon": null,
+  "id": "Fleece1",
+  "name": {
+    "en": "Golden Fleece",
+    "ru": "Золотое руно"
+  },
+  "namePlain": {
+    "en": "Golden Fleece",
+    "ru": "Золотое руно"
+  },
+  "pack": null,
+  "thumb": null
+}

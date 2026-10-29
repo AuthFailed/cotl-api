@@ -1,0 +1,19 @@
+[
+  {
+    "id": "LightningStrike",
+    "nameTerm": "Relics/LightningStrike",
+    "descTerm": "Relics/LightningStrike/Description",
+    "loreTerm": null,
+    "subType": "None",
+    "interactionType": "Instant",
+    "damageType": "Unholy",
+    "chargeDamage": 30.0,
+    "chargeCategory": "Fast",
+    "weight": 1.0,
+    "requiresCult": false,
+    "unlockedBy": null,
+    "dlc": false,
+    "coop": false,
+    "majorDlc": false
+  }
+]

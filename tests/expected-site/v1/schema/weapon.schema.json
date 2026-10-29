@@ -1,0 +1,106 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Weapon",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "lore",
+    "family",
+    "legendary",
+    "speed",
+    "damage",
+    "heavyDamage"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/weapons/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/weapons/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "lore": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "family": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "Sword, Axe, Hammer, Dagger, Gauntlet, Blunderbuss, Chain"
+    },
+    "legendary": {
+      "type": "boolean",
+      "description": ""
+    },
+    "speed": {
+      "type": "number",
+      "description": "attack speed"
+    },
+    "damage": {
+      "type": "array",
+      "items": {
+        "type": "number"
+      },
+      "description": "damage of each hit of the light combo"
+    },
+    "heavyDamage": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "description": "heavy attack damage"
+    }
+  }
+}

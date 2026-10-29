@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Fireball",
+    "nameTerm": "UpgradeSystem/Fireball/Name",
+    "descTerm": null,
+    "loreTerm": null,
+    "family": "Fireball",
+    "damage": 2.0,
+    "delay": 0.0,
+    "castingDuration": 0.5,
+    "chance": 1.0,
+    "canAim": true
+  }
+]

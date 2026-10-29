@@ -1,0 +1,17 @@
+[
+  {
+    "id": "Sword",
+    "nameTerm": "UpgradeSystem/Sword/Name",
+    "descTerm": null,
+    "loreTerm": null,
+    "family": "Sword",
+    "legendary": false,
+    "speed": 1.0,
+    "damage": [
+      1.0,
+      1.0,
+      1.5
+    ],
+    "heavyDamage": 2.0
+  }
+]

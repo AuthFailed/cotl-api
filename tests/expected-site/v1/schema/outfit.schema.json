@@ -1,0 +1,156 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Outfit",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "description",
+    "namePlain",
+    "descriptionPlain",
+    "icon",
+    "thumb",
+    "cost",
+    "requirements",
+    "protection",
+    "effects",
+    "tab",
+    "groups",
+    "forSale"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_-]+$"
+    },
+    "name": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "required": [
+        "en"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "icon": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/outfits/[A-Za-z0-9_-]+\\.png$"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/outfits/64/[A-Za-z0-9_-]+\\.png$"
+    },
+    "cost": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "item",
+          "quantity"
+        ],
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "quantity": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "protection": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type",
+          "chance",
+          "description",
+          "descriptionPlain"
+        ],
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "chance": {
+            "type": "integer",
+            "description": "percent"
+          },
+          "description": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            },
+            "required": [
+              "en"
+            ]
+          },
+          "descriptionPlain": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "tab": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "default, special, dlc or majorDlc: the tailor menu tab"
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "forSale": {
+      "type": "boolean",
+      "description": ""
+    }
+  }
+}

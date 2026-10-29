@@ -110,5 +110,45 @@
   "TarotCards/CorruptedHeal/Negative": {
     "en": "lose gold",
     "ru": "потеря золота"
+  },
+  "Relics/LightningStrike": {
+    "en": "Lightning",
+    "ru": "Молния"
+  },
+  "Relics/LightningStrike/Description": {
+    "en": "Strike.",
+    "ru": "Удар."
+  },
+  "UpgradeSystem/Sword/Name": {
+    "en": "Sword",
+    "ru": "Меч"
+  },
+  "UpgradeSystem/Fireball/Name": {
+    "en": "Fireball",
+    "ru": "Огненный шар"
+  },
+  "Traits/Faithful": {
+    "en": "Faithful",
+    "ru": "Верный"
+  },
+  "Clothing/Robe/Name": {
+    "en": "Robe",
+    "ru": "Мантия"
+  },
+  "Clothing/Robe/Requirements": {
+    "en": "Build a tailor.",
+    "ru": "Постройте портного."
+  },
+  "CookingData/InstantlyPoop/Description": {
+    "en": "{0}% chance of the Follower pooping instantly.",
+    "ru": "С вероятностью {0}%."
+  },
+  "UpgradeSystem/Ability_Eat/Name": {
+    "en": "Eat",
+    "ru": "Поедание"
+  },
+  "TarotCards/Fleece1/Name": {
+    "en": "Golden Fleece",
+    "ru": "Золотое руно"
   }
 }

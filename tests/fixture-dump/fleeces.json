@@ -1,0 +1,15 @@
+[
+  {
+    "id": "Fleece1",
+    "nameTerm": "TarotCards/Fleece1/Name",
+    "descTerm": null,
+    "fleece": 1,
+    "cost": [
+      {
+        "item": "TALISMAN",
+        "quantity": 1
+      }
+    ],
+    "pack": null
+  }
+]

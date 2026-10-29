@@ -1,0 +1,33 @@
+{
+  "chargeCategory": "Fast",
+  "chargeDamage": 30.0,
+  "coop": false,
+  "damageType": "Unholy",
+  "description": {
+    "en": "Strike.",
+    "ru": "Удар."
+  },
+  "descriptionPlain": {
+    "en": "Strike.",
+    "ru": "Удар."
+  },
+  "dlc": false,
+  "icon": null,
+  "id": "LightningStrike",
+  "interactionType": "Instant",
+  "lore": {},
+  "majorDlc": false,
+  "name": {
+    "en": "Lightning",
+    "ru": "Молния"
+  },
+  "namePlain": {
+    "en": "Lightning",
+    "ru": "Молния"
+  },
+  "requiresCult": false,
+  "subType": "None",
+  "thumb": null,
+  "unlockedBy": null,
+  "weight": 1.0
+}

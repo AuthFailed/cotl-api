@@ -1,0 +1,27 @@
+[
+  {
+    "id": "Robe",
+    "nameTerm": "Clothing/Robe/Name",
+    "descTerm": null,
+    "textTerms": {
+      "requirements": "Clothing/Robe/Requirements",
+      "protection": null
+    },
+    "cost": [
+      {
+        "item": "WOOL",
+        "quantity": 2
+      }
+    ],
+    "effects": [
+      {
+        "type": "InstantlyPoop",
+        "chance": 10,
+        "descTerm": "CookingData/InstantlyPoop/Description"
+      }
+    ],
+    "tab": "default",
+    "groups": [],
+    "forSale": true
+  }
+]

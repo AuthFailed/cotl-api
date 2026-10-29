@@ -1,0 +1,24 @@
+[
+  {
+    "cost": [
+      {
+        "item": "MONSTER_HEART",
+        "quantity": 1
+      }
+    ],
+    "description": {},
+    "descriptionPlain": {},
+    "dlc": false,
+    "icon": null,
+    "id": "Ability_Eat",
+    "name": {
+      "en": "Eat",
+      "ru": "Поедание"
+    },
+    "namePlain": {
+      "en": "Eat",
+      "ru": "Поедание"
+    },
+    "thumb": null
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "canAim": true,
+    "castingDuration": 0.5,
+    "chance": 1.0,
+    "damage": 2.0,
+    "delay": 0.0,
+    "description": {},
+    "descriptionPlain": {},
+    "family": "Fireball",
+    "icon": null,
+    "id": "Fireball",
+    "lore": {},
+    "name": {
+      "en": "Fireball",
+      "ru": "Огненный шар"
+    },
+    "namePlain": {
+      "en": "Fireball",
+      "ru": "Огненный шар"
+    },
+    "thumb": null
+  }
+]

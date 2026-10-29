@@ -1,0 +1,13 @@
+[
+  {
+    "id": "Faithful",
+    "nameTerm": "Traits/Faithful",
+    "descTerm": null,
+    "positive": true,
+    "groups": [
+      "starting",
+      "faithful"
+    ],
+    "exclusiveWith": "Faithless"
+  }
+]

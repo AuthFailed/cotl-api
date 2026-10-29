@@ -1,13 +1,20 @@
 {
   "capturedAt": "2026-10-29T12:00:00Z",
   "counts": {
+    "crownAbilities": 1,
+    "curses": 1,
     "doctrines": 2,
+    "fleeces": 1,
     "items": 5,
+    "outfits": 1,
+    "relics": 1,
     "rituals": 2,
     "sermons": 1,
     "skins": 2,
     "structures": 2,
-    "tarot": 2
+    "tarot": 2,
+    "traits": 1,
+    "weapons": 1
   },
   "gameVersion": "1.4.6",
   "languages": [

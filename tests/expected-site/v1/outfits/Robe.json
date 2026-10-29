@@ -1,0 +1,43 @@
+{
+  "cost": [
+    {
+      "item": "WOOL",
+      "quantity": 2
+    }
+  ],
+  "description": {},
+  "descriptionPlain": {},
+  "effects": [
+    {
+      "chance": 10,
+      "description": {
+        "en": "10% chance of the Follower pooping instantly.",
+        "ru": "С вероятностью 10%."
+      },
+      "descriptionPlain": {
+        "en": "10% chance of the Follower pooping instantly.",
+        "ru": "С вероятностью 10%."
+      },
+      "type": "InstantlyPoop"
+    }
+  ],
+  "forSale": true,
+  "groups": [],
+  "icon": null,
+  "id": "Robe",
+  "name": {
+    "en": "Robe",
+    "ru": "Мантия"
+  },
+  "namePlain": {
+    "en": "Robe",
+    "ru": "Мантия"
+  },
+  "protection": {},
+  "requirements": {
+    "en": "Build a tailor.",
+    "ru": "Постройте портного."
+  },
+  "tab": "default",
+  "thumb": null
+}

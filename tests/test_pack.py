@@ -58,7 +58,8 @@ class PackTest(unittest.TestCase):
 
     def test_schemas_published(self):
         self.pack()
-        for name in ("index", "item", "structure", "skin", "ritual", "doctrine", "sermon", "tarot", "changes", "slim"):
+        for name in ("index", "item", "structure", "skin", "ritual", "doctrine", "sermon", "tarot", "relic", "weapon", "curse", "trait",
+                     "outfit", "crownAbility", "fleece", "changes", "slim"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
@@ -103,9 +104,9 @@ class PackTest(unittest.TestCase):
         self.pack()
         self.assertEqual(self.changes(), [{
             "gameVersion": "1.4.7", "capturedAt": "2026-11-01T00:00:00Z",
-            "added": {"items": ["COAL"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
-            "removed": {"items": ["LOG"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
-            "changed": {"items": ["STONE"], "structures": [], "skins": [], "rituals": [], "doctrines": [], "sermons": [], "tarot": []},
+            "added": {k: ["COAL"] if k == "items" else [] for k in pack.KINDS},
+            "removed": {k: ["LOG"] if k == "items" else [] for k in pack.KINDS},
+            "changed": {k: ["STONE"] if k == "items" else [] for k in pack.KINDS},
         }])
         self.edit("meta", lambda m: m.update(capturedAt="2026-11-02T00:00:00Z"))
         self.pack()  # nothing changed: no new entry
@@ -173,7 +174,8 @@ class PackTest(unittest.TestCase):
         spec = json.loads((self.site / "openapi.json").read_text())
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
-        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Doctrine", "Sermon", "Tarot", "Changes", "Slim"})
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Doctrine", "Sermon", "Tarot", "Relic", "Weapon", "Curse", "Trait",
+                                                              "Outfit", "CrownAbility", "Fleece", "Changes", "Slim"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
                      "/v1/structures.json", "/v1/skins/{id}.json", "/v1/rituals.json", "/v1/rituals/{id}.json",
                      "/v1/icons/rituals/{id}.png"):
@@ -243,6 +245,18 @@ class PackTest(unittest.TestCase):
         self.assertEqual(corrupted["description"], {"en": "<color=green>heal</color> but lose gold", "ru": "лечение, но потеря золота"})
         self.assertEqual(corrupted["descriptionPlain"]["en"], "heal but lose gold")
         self.assertEqual(corrupted["lore"], {})
+
+    def test_outfit_texts_and_effects(self):
+        self.pack()
+        robe = self.entity("outfits", "Robe")
+        self.assertEqual(robe["requirements"], {"en": "Build a tailor.", "ru": "Постройте портного."})
+        self.assertEqual(robe["effects"][0]["descriptionPlain"]["en"], "10% chance of the Follower pooping instantly.")
+        self.assertEqual(robe["cost"], [{"item": "WOOL", "quantity": 2}])
+
+    def test_every_kind_is_published(self):
+        index = self.pack()
+        for kind in ("relics", "weapons", "curses", "traits", "outfits", "crownAbilities", "fleeces"):
+            self.assertEqual(index["counts"][kind], 1, kind)
 
     def test_missing_icon_is_null(self):
         self.pack()

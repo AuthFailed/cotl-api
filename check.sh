@@ -4,13 +4,10 @@ set -euo pipefail
 V1=$1/v1
 S=$(dirname "$0")/schema
 check-jsonschema --schemafile "$S/index.schema.json" "$V1/index.json"
-check-jsonschema --schemafile "$S/item.schema.json" "$V1"/items/*.json
-check-jsonschema --schemafile "$S/structure.schema.json" "$V1"/structures/*.json
-check-jsonschema --schemafile "$S/skin.schema.json" "$V1"/skins/*.json
-check-jsonschema --schemafile "$S/ritual.schema.json" "$V1"/rituals/*.json
-check-jsonschema --schemafile "$S/doctrine.schema.json" "$V1"/doctrines/*.json
-check-jsonschema --schemafile "$S/sermon.schema.json" "$V1"/sermons/*.json
-check-jsonschema --schemafile "$S/tarot.schema.json" "$V1"/tarot/*.json
+# each kind against its schema (schema/<singular>.schema.json, as pack.SINGULAR names them)
+while read -r kind one; do
+  check-jsonschema --schemafile "$S/$one.schema.json" "$V1/$kind"/*.json
+done < <(python3 -c "import sys; sys.path.insert(0, sys.argv[1]); import pack; [print(k, v) for k, v in pack.SINGULAR.items()]" "$(dirname "$0")")
 check-jsonschema --schemafile "$S/changes.schema.json" "$V1/changes.json"
 for lang in $(python3 -I -c "import json,sys;print(*json.load(open(sys.argv[1]))['languages'])" "$V1/index.json"); do
   check-jsonschema --schemafile "$S/slim.schema.json" "$V1/$lang"/*.json
