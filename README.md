@@ -42,7 +42,8 @@ the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb`
   `harvests` (`{ "min", "max" }` times one seed can be harvested), `season` (`spring` or `winter`: the only
   season it grows in without a Farm Crop Grower or rotstone fertiliser).
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
-  `upgradesFrom` (structure id or null), `upgradesTo` (the reverse, a list), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
+  `upgradesFrom` (structure id or null), `upgradesTo` (the reverse, a list), `range` (the square area it works in: `size` in
+  cells and `centerOffset` from its anchor cell along the grid diagonal; from `ranges.json`, or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
   place it from the build menu), `menu` (build menu tab and section, e.g. `Follower/Food`,
   `Faith/Sin`, `Aesthetic/Path`, or null), `buildable` (in the build menu), `category` (the game's structure
   category, `FOOD`, `FAITH`, …, for buildable ones, else null)

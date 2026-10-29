@@ -83,6 +83,7 @@
       "zh-CN": "睡袋",
       "zh-TW": "睡袋"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -181,6 +182,7 @@
       "zh-CN": "休息处",
       "zh-TW": "休息處"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -279,6 +281,7 @@
       "zh-CN": "豪华休息处",
       "zh-TW": "豪華休息處"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -371,6 +374,7 @@
       "zh-CN": "采石场",
       "zh-TW": "採石場"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -469,6 +473,7 @@
       "zh-CN": "采石场 II",
       "zh-TW": "採石場 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -561,6 +566,7 @@
       "zh-CN": "尸坑",
       "zh-TW": "屍坑"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -655,6 +661,7 @@
       "zh-CN": "伐木圣坛",
       "zh-TW": "伐木聖壇"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -751,6 +758,7 @@
       "zh-CN": "堆肥箱",
       "zh-TW": "堆肥箱"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -843,6 +851,7 @@
       "zh-CN": "自然葬点",
       "zh-TW": "自然葬點"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -939,6 +948,7 @@
       "zh-CN": "告解室",
       "zh-TW": "告解室"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -1031,6 +1041,7 @@
       "zh-CN": "炊火",
       "zh-TW": "炊火"
     },
+    "range": null,
     "size": {
       "h": 4,
       "w": 4
@@ -1123,6 +1134,7 @@
       "zh-CN": "墓室",
       "zh-TW": "墓室"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -1217,6 +1229,7 @@
       "zh-CN": "墓室 II",
       "zh-TW": "墓室 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -1311,6 +1324,7 @@
       "zh-CN": "墓室 III",
       "zh-TW": "墓室 III"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -1403,6 +1417,7 @@
       "zh-CN": "火堆",
       "zh-TW": "火堆"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -1499,6 +1514,7 @@
       "zh-CN": "托儿所",
       "zh-TW": "托兒所"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -1550,6 +1566,7 @@
       "zh-CN": "教徒遗体",
       "zh-TW": "教徒遺體"
     },
+    "range": null,
     "size": null,
     "thumb": null,
     "upgradesFrom": null,
@@ -1635,6 +1652,7 @@
       "zh-CN": "整洁树篱",
       "zh-TW": "整潔樹籬"
     },
+    "range": null,
     "size": null,
     "thumb": "icons/structures/64/DECORATION_APPLE_BUSH.png",
     "upgradesFrom": null,
@@ -1720,6 +1738,7 @@
       "zh-CN": "木制灯柱",
       "zh-TW": "木製燈柱"
     },
+    "range": null,
     "size": null,
     "thumb": "icons/structures/64/DECORATION_APPLE_LANTERN.png",
     "upgradesFrom": null,
@@ -1805,6 +1824,7 @@
       "zh-CN": "神秘果实雕像",
       "zh-TW": "神祕果實雕像"
     },
+    "range": null,
     "size": null,
     "thumb": "icons/structures/64/DECORATION_APPLE_STATUE.png",
     "upgradesFrom": null,
@@ -1890,6 +1910,7 @@
       "zh-CN": "迷人摆饰",
       "zh-TW": "迷人擺飾"
     },
+    "range": null,
     "size": null,
     "thumb": "icons/structures/64/DECORATION_APPLE_VASE.png",
     "upgradesFrom": null,
@@ -1975,6 +1996,7 @@
       "zh-CN": "蔓生之井",
       "zh-TW": "蔓生之井"
     },
+    "range": null,
     "size": null,
     "thumb": "icons/structures/64/DECORATION_APPLE_WELL.png",
     "upgradesFrom": null,
@@ -2064,6 +2086,7 @@
       "zh-CN": "花朵独轮车",
       "zh-TW": "花朵獨輪車"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2152,6 +2175,7 @@
       "zh-CN": "小型金钟立架",
       "zh-TW": "小型金鐘立架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2244,6 +2268,7 @@
       "zh-CN": "金钟立架",
       "zh-TW": "金鐘立架"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -2332,6 +2357,7 @@
       "zh-CN": "骨头拱门",
       "zh-TW": "骨頭拱門"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -2424,6 +2450,7 @@
       "zh-CN": "骨头木桶",
       "zh-TW": "骨頭木桶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2512,6 +2539,7 @@
       "zh-CN": "头骨烛台",
       "zh-TW": "頭骨燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2600,6 +2628,7 @@
       "zh-CN": "骨头圣冠旗杆",
       "zh-TW": "骨頭聖冠旗桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2688,6 +2717,7 @@
       "zh-CN": "骨头架灯笼",
       "zh-TW": "骨頭燈籠架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2776,6 +2806,7 @@
       "zh-CN": "头骨柱",
       "zh-TW": "頭骨疊"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -2864,6 +2895,7 @@
       "zh-CN": "骨头雕塑品",
       "zh-TW": "骨頭雕塑品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -2952,6 +2984,7 @@
       "zh-CN": "巨大头骨",
       "zh-TW": "巨大頭骨"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -3040,6 +3073,7 @@
       "zh-CN": "头骨堆",
       "zh-TW": "頭骨堆"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -3136,6 +3170,7 @@
       "zh-CN": "莱蟋纪念品",
       "zh-TW": "萊蟋紀念品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3228,6 +3263,7 @@
       "zh-CN": "赫凯特纪念品",
       "zh-TW": "赫凱特紀念品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3320,6 +3356,7 @@
       "zh-CN": "凯拉鰢纪念品",
       "zh-TW": "凱拉鰢紀念品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3412,6 +3449,7 @@
       "zh-CN": "沙穆拉纪念品",
       "zh-TW": "夏慕拉紀念品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3504,6 +3542,7 @@
       "zh-CN": "待终冠主纪念品",
       "zh-TW": "待終冠主紀念品"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -3596,6 +3635,7 @@
       "zh-CN": "行刑者纪念品",
       "zh-TW": "處刑者紀念品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -3688,6 +3728,7 @@
       "zh-CN": "马可西亚斯纪念品",
       "zh-TW": "馬可西亞斯紀念品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -3780,6 +3821,7 @@
       "zh-CN": "殷亚纪念品",
       "zh-TW": "殷亞紀念品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3868,6 +3910,7 @@
       "zh-CN": "蜡烛木桶",
       "zh-TW": "蠟燭木桶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -3956,6 +3999,7 @@
       "zh-CN": "冬至蜡烛",
       "zh-TW": "冬至蠟燭"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4044,6 +4088,7 @@
       "zh-CN": "冬至灯笼",
       "zh-TW": "冬至燈籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -4132,6 +4177,7 @@
       "zh-CN": "冬至圣羊",
       "zh-TW": "冬至聖羊"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4220,6 +4266,7 @@
       "zh-CN": "冬至树",
       "zh-TW": "冬至樹木"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4308,6 +4355,7 @@
       "zh-CN": "吉祥雕像",
       "zh-TW": "吉祥雕像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4396,6 +4444,7 @@
       "zh-CN": "吉祥灯笼",
       "zh-TW": "吉祥燈籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -4484,6 +4533,7 @@
       "zh-CN": "吉祥树",
       "zh-TW": "吉祥樹"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4572,6 +4622,7 @@
       "zh-CN": "水晶灯笼",
       "zh-TW": "水晶燈籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -4660,6 +4711,7 @@
       "zh-CN": "水晶灯",
       "zh-TW": "水晶燈"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -4748,6 +4800,7 @@
       "zh-CN": "水晶岩石",
       "zh-TW": "水晶岩石"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -4840,6 +4893,7 @@
       "zh-CN": "水晶雕塑品",
       "zh-TW": "水晶雕像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -4932,6 +4986,7 @@
       "zh-CN": "水晶树",
       "zh-TW": "水晶樹"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -5020,6 +5075,7 @@
       "zh-CN": "水晶窗",
       "zh-TW": "水晶窗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5108,6 +5164,7 @@
       "zh-CN": "瓶装腐烂",
       "zh-TW": "瓶裝腐朽物"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -5196,6 +5253,7 @@
       "zh-CN": "内脏桶",
       "zh-TW": "桶裝內臟"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -5288,6 +5346,7 @@
       "zh-CN": "高型笼子",
       "zh-TW": "高鐵籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5380,6 +5439,7 @@
       "zh-CN": "小型笼子",
       "zh-TW": "小鐵籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5472,6 +5532,7 @@
       "zh-CN": "烈焰锅",
       "zh-TW": "烈焰大釜"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5564,6 +5625,7 @@
       "zh-CN": "腐烂喷泉",
       "zh-TW": "腐朽物噴泉"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -5652,6 +5714,7 @@
       "zh-CN": "奇怪机器",
       "zh-TW": "詭異機器"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -5735,6 +5798,7 @@
       "zh-CN": "腐烂地板",
       "zh-TW": "腐朽地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5827,6 +5891,7 @@
       "zh-CN": "羊角之铁娘子",
       "zh-TW": "公羊角之鐵娘子"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -5915,6 +5980,7 @@
       "zh-CN": "哀嚎灌木",
       "zh-TW": "哀號樹叢"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6003,6 +6069,7 @@
       "zh-CN": "眼球盆栽",
       "zh-TW": "盆栽眼球"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6091,6 +6158,7 @@
       "zh-CN": "呻吟柱子",
       "zh-TW": "呻吟之柱"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6179,6 +6247,7 @@
       "zh-CN": "瞪眼柱",
       "zh-TW": "呆視木樁"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6271,6 +6340,7 @@
       "zh-CN": "腐烧祭坛",
       "zh-TW": "腐燃祭壇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6363,6 +6433,7 @@
       "zh-CN": "腐烧蜡烛",
       "zh-TW": "腐燃燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6451,6 +6522,7 @@
       "zh-CN": "蔓延触手",
       "zh-TW": "蔓延觸手"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6539,6 +6611,7 @@
       "zh-CN": "腐烧墙",
       "zh-TW": "腐燃牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6627,6 +6700,7 @@
       "zh-CN": "高型烟囱",
       "zh-TW": "高煙囪"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6715,6 +6789,7 @@
       "zh-CN": "小型烟囱",
       "zh-TW": "小煙囪"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6803,6 +6878,7 @@
       "zh-CN": "紫衫钟",
       "zh-TW": "紫杉時鐘"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6891,6 +6967,7 @@
       "zh-CN": "紫衫灯柱",
       "zh-TW": "紫杉燈桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -6983,6 +7060,7 @@
       "zh-CN": "紫衫绿植",
       "zh-TW": "紫杉植物"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7071,6 +7149,7 @@
       "zh-CN": "紫衫墙",
       "zh-TW": "紫杉牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7159,6 +7238,7 @@
       "zh-CN": "电光灯泡",
       "zh-TW": "電光燈泡"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7251,6 +7331,7 @@
       "zh-CN": "被刺穿的教徒 I",
       "zh-TW": "被刺穿的邪教徒 I"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7343,6 +7424,7 @@
       "zh-CN": "被刺穿的教徒 II",
       "zh-TW": "被刺穿的邪教徒 II"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7435,6 +7517,7 @@
       "zh-CN": "山之绚烂",
       "zh-TW": "灰泥高山"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -7523,6 +7606,7 @@
       "zh-CN": "火坑",
       "zh-TW": "火盆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7611,6 +7695,7 @@
       "zh-CN": "蓄能灯",
       "zh-TW": "蓄能路燈"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7703,6 +7788,7 @@
       "zh-CN": "火花柱子",
       "zh-TW": "電光柱子"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7795,6 +7881,7 @@
       "zh-CN": "静态柱",
       "zh-TW": "靜電燈柱"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7887,6 +7974,7 @@
       "zh-CN": "不信祭坛",
       "zh-TW": "無神祭壇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -7979,6 +8067,7 @@
       "zh-CN": "狼雕像",
       "zh-TW": "狼族雕像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8071,6 +8160,7 @@
       "zh-CN": "炼金术士的器具 I",
       "zh-TW": "鍊金術士的器具 I"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8163,6 +8253,7 @@
       "zh-CN": "炼金术士的器具 II",
       "zh-TW": "鍊金術士的器具 II"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8255,6 +8346,7 @@
       "zh-CN": "炼金术士的器具 III",
       "zh-TW": "鍊金術士的器具 III"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8343,6 +8435,7 @@
       "zh-CN": "能量线圈",
       "zh-TW": "能量線圈"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8431,6 +8524,7 @@
       "zh-CN": "高山树",
       "zh-TW": "高山樹木"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8519,6 +8613,7 @@
       "zh-CN": "线束",
       "zh-TW": "交纏電纜"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8607,6 +8702,7 @@
       "zh-CN": "剑桶",
       "zh-TW": "劍桶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8695,6 +8791,7 @@
       "zh-CN": "长矛桶",
       "zh-TW": "長矛桶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8783,6 +8880,7 @@
       "zh-CN": "大钟",
       "zh-TW": "大鈴鐺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8871,6 +8969,7 @@
       "zh-CN": "害羞灌木",
       "zh-TW": "害羞樹叢"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -8959,6 +9058,7 @@
       "zh-CN": "弯曲灌木",
       "zh-TW": "歪斜樹叢"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -9047,6 +9147,7 @@
       "zh-CN": "高蜡烛",
       "zh-TW": "高燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9130,6 +9231,7 @@
       "zh-CN": "羊绒仙境地板",
       "zh-TW": "羊絨仙境地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9218,6 +9320,7 @@
       "zh-CN": "钟型喷泉",
       "zh-TW": "鈴鐺噴泉"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -9306,6 +9409,7 @@
       "zh-CN": "新月花瓶",
       "zh-TW": "新月花瓶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9394,6 +9498,7 @@
       "zh-CN": "太阳地毯",
       "zh-TW": "太陽地毯"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -9482,6 +9587,7 @@
       "zh-CN": "殷亚神像",
       "zh-TW": "殷亞神像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9570,6 +9676,7 @@
       "zh-CN": "承钟底座",
       "zh-TW": "鈴鐺基座"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9658,6 +9765,7 @@
       "zh-CN": "羊绒仙境灯柱",
       "zh-TW": "羊絨仙境燈桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9746,6 +9854,7 @@
       "zh-CN": "无叶树",
       "zh-TW": "無葉之木"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9834,6 +9943,7 @@
       "zh-CN": "羊绒仙境墙",
       "zh-TW": "羊絨仙境牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -9926,6 +10036,7 @@
       "zh-CN": "夏日蜡烛",
       "zh-TW": "夏日燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10018,6 +10129,7 @@
       "zh-CN": "第一朵繁花桶",
       "zh-TW": "初綻花桶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10110,6 +10222,7 @@
       "zh-CN": "嫩枝束",
       "zh-TW": "幼枝捆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10202,6 +10315,7 @@
       "zh-CN": "雏菊盆栽",
       "zh-TW": "盆栽雛菊"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10294,6 +10408,7 @@
       "zh-CN": "殷亚树篱",
       "zh-TW": "殷亞樹籬"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10386,6 +10501,7 @@
       "zh-CN": "夏日树苗",
       "zh-TW": "夏日樹苗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10474,6 +10590,7 @@
       "zh-CN": "炼金引擎",
       "zh-TW": "煉金引擎"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10566,6 +10683,7 @@
       "zh-CN": "野牛骨骸",
       "zh-TW": "野牛骨骸"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -10654,6 +10772,7 @@
       "zh-CN": "独眼巨鹿",
       "zh-TW": "獨眼巨鹿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10742,6 +10861,7 @@
       "zh-CN": "格罗姆雕像",
       "zh-TW": "格羅姆雕像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10830,6 +10950,7 @@
       "zh-CN": "大理石树",
       "zh-TW": "大理石樹"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -10922,6 +11043,7 @@
       "zh-CN": "猪头",
       "zh-TW": "豬人頭"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11010,6 +11132,7 @@
       "zh-CN": "科学仪器",
       "zh-TW": "科學儀器"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11098,6 +11221,7 @@
       "zh-CN": "树人守卫盆栽",
       "zh-TW": "樹人守衛盆栽"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -11186,6 +11310,7 @@
       "zh-CN": "干草墙",
       "zh-TW": "乾草牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11274,6 +11399,7 @@
       "zh-CN": "大型蛋",
       "zh-TW": "大蛋"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11362,6 +11488,7 @@
       "zh-CN": "猫头鹰雕像",
       "zh-TW": "貓頭鷹肖像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -11450,6 +11577,7 @@
       "zh-CN": "图卢阿标本",
       "zh-TW": "圖盧阿標本"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11538,6 +11666,7 @@
       "zh-CN": "沃拉卡种子",
       "zh-TW": "沃拉卡之種"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11630,6 +11759,7 @@
       "zh-CN": "圣冠旗",
       "zh-TW": "聖冠旗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11718,6 +11848,7 @@
       "zh-CN": "水晶旗杆",
       "zh-TW": "水晶旗桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11810,6 +11941,7 @@
       "zh-CN": "蘑菇旗杆",
       "zh-TW": "蘑菇旗桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11902,6 +12034,7 @@
       "zh-CN": "经文旗",
       "zh-TW": "經文旗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -11994,6 +12127,7 @@
       "zh-CN": "墙脚花盆",
       "zh-TW": "牆腳花盆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12082,6 +12216,7 @@
       "zh-CN": "花瓶",
       "zh-TW": "花瓶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12170,6 +12305,7 @@
       "zh-CN": "花朵拱门",
       "zh-TW": "花朵拱門"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -12258,6 +12394,7 @@
       "zh-CN": "瓶中花",
       "zh-TW": "瓶中花"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12350,6 +12487,7 @@
       "zh-CN": "山茶花坛",
       "zh-TW": "山茶花壇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12442,6 +12580,7 @@
       "zh-CN": "花朵拉车",
       "zh-TW": "花朵拉車"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12534,6 +12673,7 @@
       "zh-CN": "小型花朵拉车",
       "zh-TW": "小型花朵拉車"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12622,6 +12762,7 @@
       "zh-CN": "圣冠喷水池",
       "zh-TW": "聖冠噴水池"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -12710,6 +12851,7 @@
       "zh-CN": "匹",
       "zh-TW": "匹"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12798,6 +12940,7 @@
       "zh-CN": "欧",
       "zh-TW": "歐"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12886,6 +13029,7 @@
       "zh-CN": "驹",
       "zh-TW": "駒"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -12974,6 +13118,7 @@
       "zh-CN": "山羊灯笼",
       "zh-TW": "山羊燈籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13062,6 +13207,7 @@
       "zh-CN": "山羊花瓶",
       "zh-TW": "山羊花瓶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13150,6 +13296,7 @@
       "zh-CN": "山羊雕像",
       "zh-TW": "山羊雕像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13242,6 +13389,7 @@
       "zh-CN": "血月蜡烛",
       "zh-TW": "血月蠟燭"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13334,6 +13482,7 @@
       "zh-CN": "血月南瓜",
       "zh-TW": "血月南瓜"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13426,6 +13575,7 @@
       "zh-CN": "血月头骨",
       "zh-TW": "血月頭骨"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13514,6 +13664,7 @@
       "zh-CN": "血月之树",
       "zh-TW": "血月之樹"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -13602,6 +13753,7 @@
       "zh-CN": "干草捆",
       "zh-TW": "乾草捆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13690,6 +13842,7 @@
       "zh-CN": "干草堆",
       "zh-TW": "乾草堆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -13778,6 +13931,7 @@
       "zh-CN": "圣羊旗雕像",
       "zh-TW": "聖羊旗雕像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -13861,6 +14015,7 @@
       "zh-CN": "圣羊雕像",
       "zh-TW": "聖羊雕像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -13953,6 +14108,7 @@
       "zh-CN": "叶子灯柱",
       "zh-TW": "葉子燈柱"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14041,6 +14197,7 @@
       "zh-CN": "叶子花朵雕塑品",
       "zh-TW": "葉子花朵雕塑品"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -14129,6 +14286,7 @@
       "zh-CN": "叶子灯笼架",
       "zh-TW": "葉子燈籠架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14217,6 +14375,7 @@
       "zh-CN": "叶子雕塑品",
       "zh-TW": "葉子雕塑品"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14305,6 +14464,7 @@
       "zh-CN": "巨型怪物圣坛",
       "zh-TW": "巨型怪物聖壇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14393,6 +14553,7 @@
       "zh-CN": "小型蘑菇",
       "zh-TW": "小型蘑菇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14481,6 +14642,7 @@
       "zh-CN": "蘑菇群",
       "zh-TW": "蘑菇群"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14569,6 +14731,7 @@
       "zh-CN": "小型蘑菇烛台",
       "zh-TW": "小型蘑菇燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14657,6 +14820,7 @@
       "zh-CN": "大型蘑菇烛台",
       "zh-TW": "大型蘑菇燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -14745,6 +14909,7 @@
       "zh-CN": "蘑菇烛台圣坛",
       "zh-TW": "蘑菇燭台聖壇"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -14837,6 +15002,7 @@
       "zh-CN": "蘑菇雕塑品",
       "zh-TW": "蘑菇雕塑品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -14929,6 +15095,7 @@
       "zh-CN": "血腥宝石",
       "zh-TW": "血腥寶石"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -15021,6 +15188,7 @@
       "zh-CN": "古老信仰之旗",
       "zh-TW": "古老信仰之旗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15117,6 +15285,7 @@
       "zh-CN": "荒废之泉",
       "zh-TW": "荒廢之泉"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -15209,6 +15378,7 @@
       "zh-CN": "古老信仰之铁娘子",
       "zh-TW": "古老信仰之鐵娘子"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -15301,6 +15471,7 @@
       "zh-CN": "古老信仰之圣坛",
       "zh-TW": "古老信仰之聖壇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15393,6 +15564,7 @@
       "zh-CN": "永恒烈焰",
       "zh-TW": "永恆烈焰"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15481,6 +15653,7 @@
       "zh-CN": "废墟之墙",
       "zh-TW": "廢墟之牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15513,6 +15686,7 @@
     "namePlain": {
       "en": "Lamball Statue"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -15545,6 +15719,7 @@
     "namePlain": {
       "en": "Palsphere Lantern"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15577,6 +15752,7 @@
     "namePlain": {
       "en": "Houseless Plant"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15609,6 +15785,7 @@
     "namePlain": {
       "en": "Great Eagle Statue"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15641,6 +15818,7 @@
     "namePlain": {
       "en": "Skilled Bonsai Tree"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15729,6 +15907,7 @@
       "zh-CN": "盆栽",
       "zh-TW": "盆栽"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15817,6 +15996,7 @@
       "zh-CN": "吊挂灯笼",
       "zh-TW": "吊掛燈籠"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15905,6 +16085,7 @@
       "zh-CN": "小型宝塔",
       "zh-TW": "小型寶塔"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -15997,6 +16178,7 @@
       "zh-CN": "牡丹花瓶",
       "zh-TW": "牡丹花瓶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16085,6 +16267,7 @@
       "zh-CN": "竹墙",
       "zh-TW": "竹牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16173,6 +16356,7 @@
       "zh-CN": "圣羊毛绒雕像",
       "zh-TW": "絨毛聖羊像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -16261,6 +16445,7 @@
       "zh-CN": "池塘",
       "zh-TW": "池塘"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -16349,6 +16534,7 @@
       "zh-CN": "祈祷箱",
       "zh-TW": "祈禱箱"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16437,6 +16623,7 @@
       "zh-CN": "南瓜堆",
       "zh-TW": "南瓜堆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16529,6 +16716,7 @@
       "zh-CN": "刻好的南瓜",
       "zh-TW": "刻好的南瓜"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16612,6 +16800,7 @@
       "zh-CN": "简朴矮树",
       "zh-TW": "簡樸矮樹"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16704,6 +16893,7 @@
       "zh-CN": "玫瑰十字架",
       "zh-TW": "玫瑰十字架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16792,6 +16982,7 @@
       "zh-CN": "诱惑花朵",
       "zh-TW": "誘惑花朵"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16880,6 +17071,7 @@
       "zh-CN": "浮华花瓶",
       "zh-TW": "浮華花瓶"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -16972,6 +17164,7 @@
       "zh-CN": "罪孽气息焚香",
       "zh-TW": "罪孽氣息焚香"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17060,6 +17253,7 @@
       "zh-CN": "不纯头骨",
       "zh-TW": "不純頭骨"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17148,6 +17342,7 @@
       "zh-CN": "金圣羊像",
       "zh-TW": "金聖羊像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -17236,6 +17431,7 @@
       "zh-CN": "小型岩石烛台",
       "zh-TW": "小型岩石燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17324,6 +17520,7 @@
       "zh-CN": "蜘蛛灯笼架",
       "zh-TW": "蜘蛛燈籠架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17412,6 +17609,7 @@
       "zh-CN": "蜘蛛柱子",
       "zh-TW": "蜘蛛柱子"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -17500,6 +17698,7 @@
       "zh-CN": "蜘蛛丝雕塑品",
       "zh-TW": "蜘蛛絲雕塑品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -17588,6 +17787,7 @@
       "zh-CN": "蜘蛛火炬",
       "zh-TW": "蜘蛛火炬"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17676,6 +17876,7 @@
       "zh-CN": "蛛网圣冠雕塑品",
       "zh-TW": "蛛網聖冠雕塑品"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -17764,6 +17965,7 @@
       "zh-CN": "古老石头",
       "zh-TW": "古老石頭"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17852,6 +18054,7 @@
       "zh-CN": "岩石烛台",
       "zh-TW": "岩石燭臺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -17940,6 +18143,7 @@
       "zh-CN": "岩石烛灯",
       "zh-TW": "岩石燭燈"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -18028,6 +18232,7 @@
       "zh-CN": "岩石旗杆",
       "zh-TW": "岩石旗桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18116,6 +18321,7 @@
       "zh-CN": "巨石群",
       "zh-TW": "巨石群"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -18204,6 +18410,7 @@
       "zh-CN": "岩石蘑菇",
       "zh-TW": "岩石蘑菇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18292,6 +18499,7 @@
       "zh-CN": "树桩圣羊雕像",
       "zh-TW": "樹樁聖羊雕像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18380,6 +18588,7 @@
       "zh-CN": "火炬",
       "zh-TW": "火炬"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18472,6 +18681,7 @@
       "zh-CN": "大型火炬",
       "zh-TW": "大型火炬"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18560,6 +18770,7 @@
       "zh-CN": "盆栽树丛",
       "zh-TW": "盆栽樹叢"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18648,6 +18859,7 @@
       "zh-CN": "木造灯笼架",
       "zh-TW": "木造燈籠架"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18736,6 +18948,7 @@
       "zh-CN": "圣冠旗",
       "zh-TW": "聖冠旗"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18824,6 +19037,7 @@
       "zh-CN": "一袋蘑菇",
       "zh-TW": "一袋蘑菇"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -18912,6 +19126,7 @@
       "zh-CN": "盆栽树丛",
       "zh-TW": "盆栽樹叢"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19000,6 +19215,7 @@
       "zh-CN": "岩石旗杆",
       "zh-TW": "岩石旗桿"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19088,6 +19304,7 @@
       "zh-CN": "石雕像",
       "zh-TW": "石雕像"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19176,6 +19393,7 @@
       "zh-CN": "木头守护者",
       "zh-TW": "木頭守護者"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19268,6 +19486,7 @@
       "zh-CN": "见证者的全知之眼",
       "zh-TW": "見證者的全知全能之眼"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -19356,6 +19575,7 @@
       "zh-CN": "骨头墙",
       "zh-TW": "骨頭牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19444,6 +19664,7 @@
       "zh-CN": "青草墙",
       "zh-TW": "青草牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19532,6 +19753,7 @@
       "zh-CN": "蜘蛛丝墙",
       "zh-TW": "蜘蛛絲牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19620,6 +19842,7 @@
       "zh-CN": "岩石墙",
       "zh-TW": "岩石牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19708,6 +19931,7 @@
       "zh-CN": "树枝墙",
       "zh-TW": "樹枝牆"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19800,6 +20024,7 @@
       "zh-CN": "浇水壶",
       "zh-TW": "澆水壺"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -19892,6 +20117,7 @@
       "zh-CN": "哭泣圣坛",
       "zh-TW": "哭泣聖壇"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -19980,6 +20206,7 @@
       "zh-CN": "花圈",
       "zh-TW": "花圈"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -20076,6 +20303,7 @@
       "zh-CN": "恶魔召唤阵",
       "zh-TW": "惡魔召喚陣"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -20174,6 +20402,7 @@
       "zh-CN": "恶魔召唤阵 II",
       "zh-TW": "惡魔召喚陣 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -20272,6 +20501,7 @@
       "zh-CN": "恶魔召唤阵 III",
       "zh-TW": "惡魔召喚陣 III"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -20364,6 +20594,7 @@
       "zh-CN": "击鼓圈圈",
       "zh-TW": "擊鼓圈圈"
     },
+    "range": null,
     "size": {
       "h": 4,
       "w": 4
@@ -20456,6 +20687,7 @@
       "zh-CN": "解冻收获图腾柱",
       "zh-TW": "解凍收穫圖騰柱"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -20548,6 +20780,7 @@
       "zh-CN": "农地",
       "zh-TW": "農地"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -20635,6 +20868,11 @@
       "tr": "Tarla Tabelası",
       "zh-CN": "农地告示牌",
       "zh-TW": "農地告示牌"
+    },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 5
     },
     "size": {
       "h": 1,
@@ -20727,6 +20965,11 @@
       "tr": "Çiftçi Kulübesi",
       "zh-CN": "农夫站",
       "zh-TW": "農夫站"
+    },
+    "range": {
+      "centerOffset": 0.49,
+      "shape": "square",
+      "size": 6
     },
     "size": {
       "h": 2,
@@ -20822,6 +21065,11 @@
       "zh-CN": "农夫站 II",
       "zh-TW": "農夫站 II"
     },
+    "range": {
+      "centerOffset": 0.49,
+      "shape": "square",
+      "size": 6
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -20905,6 +21153,7 @@
       "zh-CN": "盛宴桌",
       "zh-TW": "盛宴桌"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -21001,6 +21250,11 @@
       "zh-CN": "食物储藏架",
       "zh-TW": "食物儲藏架"
     },
+    "range": {
+      "centerOffset": 0.49,
+      "shape": "square",
+      "size": 7
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -21094,6 +21348,11 @@
       "tr": "Yiyecek Deposu II",
       "zh-CN": "食物储藏架 II",
       "zh-TW": "食物儲藏架 II"
+    },
+    "range": {
+      "centerOffset": 0.49,
+      "shape": "square",
+      "size": 12
     },
     "size": {
       "h": 2,
@@ -21191,6 +21450,7 @@
       "zh-CN": "觅食圣坛",
       "zh-TW": "覓食聖壇"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -21278,6 +21538,11 @@
       "tr": "Çürükateş Sobası",
       "zh-CN": "腐烧火炉",
       "zh-TW": "腐燃爐"
+    },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 3
     },
     "size": {
       "h": 2,
@@ -21373,6 +21638,11 @@
       "zh-CN": "腐烧火炉 II",
       "zh-TW": "腐燃爐 II"
     },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 6
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -21467,6 +21737,11 @@
       "zh-CN": "腐烧火炉 III",
       "zh-TW": "腐燃爐 III"
     },
+    "range": {
+      "centerOffset": 1.31,
+      "shape": "square",
+      "size": 10
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -21559,6 +21834,7 @@
       "zh-CN": "坟墓",
       "zh-TW": "墳墓"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -21654,6 +21930,11 @@
       "tr": "Hasat Totemi",
       "zh-CN": "收获图腾",
       "zh-TW": "收穫圖騰柱"
+    },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 7
     },
     "size": {
       "h": 1,
@@ -21753,6 +22034,11 @@
       "zh-CN": "虔诚收获图腾",
       "zh-TW": "虔誠收穫圖騰柱"
     },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 7
+    },
     "size": {
       "h": 1,
       "w": 1
@@ -21849,6 +22135,7 @@
       "zh-CN": "孵化所",
       "zh-TW": "孵化所"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -21947,6 +22234,7 @@
       "zh-CN": "孵化所 II",
       "zh-TW": "孵化所 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -22043,6 +22331,7 @@
       "zh-CN": "治疗间",
       "zh-TW": "治療間"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -22141,6 +22430,7 @@
       "zh-CN": "改良版治疗间",
       "zh-TW": "改良版治療間"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -22233,6 +22523,7 @@
       "zh-CN": "清洁员站",
       "zh-TW": "清潔員站"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -22327,6 +22618,7 @@
       "zh-CN": "清洁员站 II",
       "zh-TW": "清潔員站 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -22423,6 +22715,7 @@
       "zh-CN": "厨房",
       "zh-TW": "廚房"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -22519,6 +22812,7 @@
       "zh-CN": "厨房 II",
       "zh-TW": "廚房 II"
     },
+    "range": null,
     "size": null,
     "thumb": null,
     "upgradesFrom": null,
@@ -22612,6 +22906,7 @@
       "zh-CN": "距骨骰竞技场",
       "zh-TW": "距骨骰競技場"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -22704,6 +22999,7 @@
       "zh-CN": "教主帐篷",
       "zh-TW": "教主帳篷"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -22795,6 +23091,11 @@
       "tr": "Paratoner",
       "zh-CN": "闪电神杖",
       "zh-TW": "閃電神杖"
+    },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 10
     },
     "size": {
       "h": 1,
@@ -22890,6 +23191,11 @@
       "zh-CN": "闪电神杖 II",
       "zh-TW": "閃電神杖 II"
     },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 15
+    },
     "size": {
       "h": 1,
       "w": 1
@@ -22982,6 +23288,7 @@
       "zh-CN": "派工帐篷",
       "zh-TW": "派工帳篷"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23074,6 +23381,7 @@
       "zh-CN": "伐木工站",
       "zh-TW": "伐木工站"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23172,6 +23480,7 @@
       "zh-CN": "伐木工站 II",
       "zh-TW": "伐木工站 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23264,6 +23573,7 @@
       "zh-CN": "交配帐篷",
       "zh-TW": "交配帳篷"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -23356,6 +23666,7 @@
       "zh-CN": "医护站",
       "zh-TW": "醫護站"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -23448,6 +23759,7 @@
       "zh-CN": "采石圣坛",
       "zh-TW": "採石聖壇"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23544,6 +23856,7 @@
       "zh-CN": "传教团",
       "zh-TW": "傳教團"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23642,6 +23955,7 @@
       "zh-CN": "传教团 II",
       "zh-TW": "傳教團 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23740,6 +24054,7 @@
       "zh-CN": "传教团 III",
       "zh-TW": "傳教團 III"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23832,6 +24147,7 @@
       "zh-CN": "停尸间",
       "zh-TW": "停屍間"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -23926,6 +24242,7 @@
       "zh-CN": "停尸间 II",
       "zh-TW": "停屍間 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -24022,6 +24339,7 @@
       "zh-CN": "供品雕像",
       "zh-TW": "供品雕像"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -24114,6 +24432,7 @@
       "zh-CN": "户外厕所",
       "zh-TW": "戶外廁所"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -24212,6 +24531,7 @@
       "zh-CN": "户外厕所 II",
       "zh-TW": "戶外廁所 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -24295,6 +24615,7 @@
       "zh-CN": "木板",
       "zh-TW": "木板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -24346,6 +24667,7 @@
       "zh-CN": "便便",
       "zh-TW": "便便"
     },
+    "range": null,
     "size": null,
     "thumb": null,
     "upgradesFrom": null,
@@ -24435,6 +24757,7 @@
       "zh-CN": "肥料存放区",
       "zh-TW": "肥料存放區"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -24527,6 +24850,7 @@
       "zh-CN": "监狱",
       "zh-TW": "牢獄"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -24623,6 +24947,11 @@
       "zh-CN": "教会传声筒",
       "zh-TW": "教會傳聲筒"
     },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 8
+    },
     "size": {
       "h": 1,
       "w": 1
@@ -24710,6 +25039,11 @@
       "tr": "Isıtıcı",
       "zh-CN": "加热器",
       "zh-TW": "暖爐"
+    },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 15
     },
     "size": {
       "h": 1,
@@ -24807,6 +25141,7 @@
       "zh-CN": "调饮室",
       "zh-TW": "調飲所"
     },
+    "range": null,
     "size": {
       "h": 4,
       "w": 4
@@ -24905,6 +25240,7 @@
       "zh-CN": "调饮室 II",
       "zh-TW": "調飲所 II"
     },
+    "range": null,
     "size": {
       "h": 4,
       "w": 4
@@ -24993,6 +25329,7 @@
       "zh-CN": "竞速大门",
       "zh-TW": "競速大門"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -25081,6 +25418,7 @@
       "zh-CN": "牧场",
       "zh-TW": "牧場"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -25171,6 +25509,7 @@
       "zh-CN": "牧场 II",
       "zh-TW": "牧場 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -25263,6 +25602,7 @@
       "zh-CN": "屠夫砧板",
       "zh-TW": "宰殺台"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -25351,6 +25691,7 @@
       "zh-CN": "牧场栅栏",
       "zh-TW": "牧場柵欄"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -25443,6 +25784,7 @@
       "zh-CN": "小窝",
       "zh-TW": "小窩"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -25535,6 +25877,7 @@
       "zh-CN": "饲料槽",
       "zh-TW": "飼料槽"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -25631,6 +25974,7 @@
       "zh-CN": "圣化台",
       "zh-TW": "聖化台"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -25729,6 +26073,7 @@
       "zh-CN": "圣化台 II",
       "zh-TW": "聖化台 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -25821,6 +26166,7 @@
       "zh-CN": "腐烧场",
       "zh-TW": "腐燃礦場"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -25915,6 +26261,7 @@
       "zh-CN": "腐烧场 II",
       "zh-TW": "腐燃礦場 II"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -25998,6 +26345,7 @@
       "zh-CN": "供品桌",
       "zh-TW": "供品桌"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26089,6 +26437,11 @@
       "tr": "Korkuluk",
       "zh-CN": "稻草人",
       "zh-TW": "稻草羊"
+    },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 9
     },
     "size": {
       "h": 1,
@@ -26188,6 +26541,11 @@
       "zh-CN": "陷阱稻草人",
       "zh-TW": "陷阱稻草羊"
     },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 11
+    },
     "size": {
       "h": 1,
       "w": 1
@@ -26280,6 +26638,7 @@
       "zh-CN": "种子存放区",
       "zh-TW": "種子存放區"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26376,6 +26735,7 @@
       "zh-CN": "同住休息处",
       "zh-TW": "同住休息處"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26464,6 +26824,7 @@
       "zh-CN": "圣坛",
       "zh-TW": "聖壇"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26558,6 +26919,7 @@
       "zh-CN": "门徒助力圣坛",
       "zh-TW": "門徒助力聖壇"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26649,6 +27011,11 @@
       "tr": "Sadık Mürit Mabedi",
       "zh-CN": "门徒集中圣坛",
       "zh-TW": "門徒集中聖壇"
+    },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 11
     },
     "size": {
       "h": 2,
@@ -26746,6 +27113,7 @@
       "zh-CN": "圣坛 II",
       "zh-TW": "聖壇 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26844,6 +27212,7 @@
       "zh-CN": "圣坛 III",
       "zh-TW": "聖壇 III"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -26942,6 +27311,7 @@
       "zh-CN": "圣坛 IV",
       "zh-TW": "聖壇 IV"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -27033,6 +27403,11 @@
       "tr": "Dua Heykeli",
       "zh-CN": "圣像",
       "zh-TW": "聖像"
+    },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 4
     },
     "size": {
       "h": 2,
@@ -27128,6 +27503,11 @@
       "zh-CN": "圣像 II",
       "zh-TW": "聖像 II"
     },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 6
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -27222,6 +27602,11 @@
       "zh-CN": "圣像 III",
       "zh-TW": "聖像 III"
     },
+    "range": {
+      "centerOffset": 0.6,
+      "shape": "square",
+      "size": 8
+    },
     "size": {
       "h": 2,
       "w": 2
@@ -27258,6 +27643,7 @@
     "namePlain": {
       "en": "Sin Totem"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -27350,6 +27736,7 @@
       "zh-CN": "肥料储仓",
       "zh-TW": "肥料儲倉"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -27446,6 +27833,7 @@
       "zh-CN": "种子储仓",
       "zh-TW": "種子儲倉"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -27542,6 +27930,7 @@
       "zh-CN": "监视塔",
       "zh-TW": "監視塔"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -27634,6 +28023,7 @@
       "zh-CN": "裁缝间",
       "zh-TW": "裁縫間"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -27726,6 +28116,7 @@
       "zh-CN": "圣殿",
       "zh-TW": "聖殿"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -27824,6 +28215,7 @@
       "zh-CN": "圣教 II",
       "zh-TW": "聖教 II"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -27922,6 +28314,7 @@
       "zh-CN": "圣教 III",
       "zh-TW": "聖教 III"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -28020,6 +28413,7 @@
       "zh-CN": "圣教 IV",
       "zh-TW": "聖教 IV"
     },
+    "range": null,
     "size": {
       "h": 5,
       "w": 5
@@ -28103,6 +28497,7 @@
       "zh-CN": "岩浆地板",
       "zh-TW": "岩漿地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28186,6 +28581,7 @@
       "zh-CN": "砖块地板",
       "zh-TW": "磚塊地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28269,6 +28665,7 @@
       "zh-CN": "花朵地板",
       "zh-TW": "花朵地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28352,6 +28749,7 @@
       "zh-CN": "森林地板",
       "zh-TW": "森林地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28435,6 +28833,7 @@
       "zh-CN": "黄金地板",
       "zh-TW": "黃金地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28518,6 +28917,7 @@
       "zh-CN": "干草地板",
       "zh-TW": "乾草地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28601,6 +29001,7 @@
       "zh-CN": "马赛克地板",
       "zh-TW": "馬賽克地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28684,6 +29085,7 @@
       "zh-CN": "古老信仰之地板",
       "zh-TW": "古老信仰之地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28767,6 +29169,7 @@
       "zh-CN": "泥土地板",
       "zh-TW": "泥土地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28850,6 +29253,7 @@
       "zh-CN": "木板地板",
       "zh-TW": "木板地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -28933,6 +29337,7 @@
       "zh-CN": "红毯地板",
       "zh-TW": "紅毯地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -29016,6 +29421,7 @@
       "zh-CN": "圆石地板",
       "zh-TW": "圓石地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -29099,6 +29505,7 @@
       "zh-CN": "印记地板",
       "zh-TW": "印記地板"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -29182,6 +29589,7 @@
       "zh-CN": "池塘砖片",
       "zh-TW": "池塘方塊"
     },
+    "range": null,
     "size": {
       "h": 1,
       "w": 1
@@ -29270,6 +29678,7 @@
       "zh-CN": "木匠站",
       "zh-TW": "木匠站"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -29362,6 +29771,7 @@
       "zh-CN": "驱魔祭坛",
       "zh-TW": "驅魔祭壇"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -29456,6 +29866,7 @@
       "zh-CN": "驱魔祭坛 II",
       "zh-TW": "驅魔祭壇 II"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -29550,6 +29961,7 @@
       "zh-CN": "驱魔祭坛 III",
       "zh-TW": "驅魔祭壇 III"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -29642,6 +30054,7 @@
       "zh-CN": "洗礼浴",
       "zh-TW": "聖洗池"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3
@@ -29693,6 +30106,7 @@
       "zh-CN": "呕吐物",
       "zh-TW": "嘔吐物"
     },
+    "range": null,
     "size": null,
     "thumb": null,
     "upgradesFrom": null,
@@ -29782,6 +30196,7 @@
       "zh-CN": "天象仪",
       "zh-TW": "天象儀"
     },
+    "range": null,
     "size": {
       "h": 2,
       "w": 2
@@ -29874,6 +30289,11 @@
       "zh-CN": "捕狼陷阱",
       "zh-TW": "捕狼陷阱"
     },
+    "range": {
+      "centerOffset": 0.0,
+      "shape": "square",
+      "size": 7
+    },
     "size": {
       "h": 1,
       "w": 1
@@ -29914,6 +30334,7 @@
     "namePlain": {
       "en": "Wooly Shack"
     },
+    "range": null,
     "size": {
       "h": 3,
       "w": 3

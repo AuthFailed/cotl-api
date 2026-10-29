@@ -13,7 +13,8 @@
     "namePlain",
     "descriptionPlain",
     "upgradesTo",
-    "thumb"
+    "thumb",
+    "range"
   ],
   "properties": {
     "id": {
@@ -135,6 +136,33 @@
       ],
       "pattern": "^icons/structures/64/[A-Za-z0-9_-]+\\.png$",
       "description": "the icon fitted into 64x64 (null if no icon)"
+    },
+    "range": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "required": [
+        "shape",
+        "size",
+        "centerOffset"
+      ],
+      "description": "the area the building works in (null if none)",
+      "properties": {
+        "shape": {
+          "enum": [
+            "square"
+          ]
+        },
+        "size": {
+          "type": "number",
+          "description": "side, in grid cells"
+        },
+        "centerOffset": {
+          "type": "number",
+          "description": "how far the square's centre is from the building's anchor cell, in cells along the grid's diagonal"
+        }
+      }
     }
   }
 }

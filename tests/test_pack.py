@@ -215,6 +215,14 @@ class PackTest(unittest.TestCase):
         self.edit("meta", lambda m: m.update(steamBuildId=21234567))
         self.assertEqual(self.pack()["steamBuildId"], 21234567)
 
+    def test_structures_get_their_range(self):
+        pack.RANGES["FARM_PLOT"] = {"shape": "square", "size": 5, "centerOffset": 0.0}
+        self.addCleanup(pack.RANGES.pop, "FARM_PLOT")
+        self.pack()
+        farm = json.loads((self.site / "v1" / "structures" / "FARM_PLOT.json").read_text())
+        self.assertEqual(farm["range"], {"shape": "square", "size": 5, "centerOffset": 0.0})
+        self.assertIsNone(json.loads((self.site / "v1" / "structures" / "SHRINE_II.json").read_text())["range"])
+
     def test_missing_icon_is_null(self):
         self.pack()
         self.assertIsNone(self.item("BERRY")["icon"])

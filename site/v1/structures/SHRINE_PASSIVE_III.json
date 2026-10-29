@@ -82,6 +82,11 @@
     "zh-CN": "圣像 III",
     "zh-TW": "聖像 III"
   },
+  "range": {
+    "centerOffset": 0.6,
+    "shape": "square",
+    "size": 8
+  },
   "size": {
     "h": 2,
     "w": 2

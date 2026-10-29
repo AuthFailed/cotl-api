@@ -39,7 +39,7 @@ class PublishTest(unittest.TestCase):
         self.addCleanup(lambda: (os.chmod(self.tmp / "home", 0o755), shutil.rmtree(self.tmp)))
         self.repo = self.tmp / "repo"
         self.repo.mkdir()
-        for f in ("publish.sh", "pack.py"):
+        for f in ("publish.sh", "pack.py", "ranges.json"):
             shutil.copy(ROOT / f, self.repo / f)
         shutil.copytree(ROOT / "schema", self.repo / "schema")
         (self.repo / "mod").mkdir()

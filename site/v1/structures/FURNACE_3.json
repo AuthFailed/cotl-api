@@ -82,6 +82,11 @@
     "zh-CN": "腐烧火炉 III",
     "zh-TW": "腐燃爐 III"
   },
+  "range": {
+    "centerOffset": 1.31,
+    "shape": "square",
+    "size": 10
+  },
   "size": {
     "h": 2,
     "w": 2

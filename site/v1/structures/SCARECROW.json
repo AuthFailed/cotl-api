@@ -82,6 +82,11 @@
     "zh-CN": "稻草人",
     "zh-TW": "稻草羊"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 9
+  },
   "size": {
     "h": 1,
     "w": 1

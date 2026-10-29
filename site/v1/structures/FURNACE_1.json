@@ -78,6 +78,11 @@
     "zh-CN": "腐烧火炉",
     "zh-TW": "腐燃爐"
   },
+  "range": {
+    "centerOffset": 0.6,
+    "shape": "square",
+    "size": 3
+  },
   "size": {
     "h": 2,
     "w": 2

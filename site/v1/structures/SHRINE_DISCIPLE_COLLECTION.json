@@ -82,6 +82,11 @@
     "zh-CN": "门徒集中圣坛",
     "zh-TW": "門徒集中聖壇"
   },
+  "range": {
+    "centerOffset": 0.6,
+    "shape": "square",
+    "size": 11
+  },
   "size": {
     "h": 2,
     "w": 2

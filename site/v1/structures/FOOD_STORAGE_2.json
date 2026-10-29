@@ -82,6 +82,11 @@
     "zh-CN": "食物储藏架 II",
     "zh-TW": "食物儲藏架 II"
   },
+  "range": {
+    "centerOffset": 0.49,
+    "shape": "square",
+    "size": 12
+  },
   "size": {
     "h": 2,
     "w": 2

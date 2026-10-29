@@ -78,6 +78,7 @@
     "zh-CN": "木制灯柱",
     "zh-TW": "木製燈柱"
   },
+  "range": null,
   "size": null,
   "thumb": "icons/structures/64/DECORATION_APPLE_LANTERN.png",
   "upgradesFrom": null,

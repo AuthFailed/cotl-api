@@ -78,6 +78,11 @@
     "zh-CN": "农地告示牌",
     "zh-TW": "農地告示牌"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 5
+  },
   "size": {
     "h": 1,
     "w": 1

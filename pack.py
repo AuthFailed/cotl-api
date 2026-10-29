@@ -52,6 +52,10 @@ def effect(i18n: dict, raw: dict) -> dict:
 
 
 THUMB = 64
+# Range indicators can't be read generically: each building's script sizes its own (Scarecrow.EFFECTIVE_DISTANCE,
+# Structures_Shrine_Passive.Range, Interaction_WolfTrap, Interaction_DLCFurnace.GetCurrentRange), so they're kept here,
+# as the planner measured them from the prefabs and those scripts. Update by hand when the game changes them.
+RANGES = json.loads((Path(__file__).parent / "ranges.json").read_text(encoding="utf-8"))
 
 
 def thumbnail(src: Path, dst: Path) -> None:
@@ -177,6 +181,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
                 e["usedIn"] = used_in[e["id"]]
             if kind == "structures":
                 e["upgradesTo"] = upgrades_to.get(e["id"], [])
+                e["range"] = RANGES.get(e["id"])
             if e.get("meal"):
                 e["meal"] = dict(e["meal"], effects=[effect(dump["i18n"], x) for x in e["meal"]["effects"]])
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"

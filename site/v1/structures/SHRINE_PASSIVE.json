@@ -82,6 +82,11 @@
     "zh-CN": "圣像",
     "zh-TW": "聖像"
   },
+  "range": {
+    "centerOffset": 0.6,
+    "shape": "square",
+    "size": 4
+  },
   "size": {
     "h": 2,
     "w": 2

@@ -82,6 +82,11 @@
     "zh-CN": "闪电神杖 II",
     "zh-TW": "閃電神杖 II"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 15
+  },
   "size": {
     "h": 1,
     "w": 1

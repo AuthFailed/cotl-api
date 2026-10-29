@@ -86,6 +86,11 @@
     "zh-CN": "虔诚收获图腾",
     "zh-TW": "虔誠收穫圖騰柱"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 7
+  },
   "size": {
     "h": 1,
     "w": 1

@@ -1,0 +1,107 @@
+{
+  "FARM_PLOT_SIGN": {
+    "shape": "square",
+    "size": 5,
+    "centerOffset": 0.0
+  },
+  "FARM_STATION": {
+    "shape": "square",
+    "size": 6,
+    "centerOffset": 0.49
+  },
+  "FARM_STATION_II": {
+    "shape": "square",
+    "size": 6,
+    "centerOffset": 0.49
+  },
+  "FOOD_STORAGE": {
+    "shape": "square",
+    "size": 7,
+    "centerOffset": 0.49
+  },
+  "FOOD_STORAGE_2": {
+    "shape": "square",
+    "size": 12,
+    "centerOffset": 0.49
+  },
+  "FURNACE_1": {
+    "shape": "square",
+    "size": 3,
+    "centerOffset": 0.6
+  },
+  "FURNACE_2": {
+    "shape": "square",
+    "size": 6,
+    "centerOffset": 0.6
+  },
+  "FURNACE_3": {
+    "shape": "square",
+    "size": 10,
+    "centerOffset": 1.31
+  },
+  "HARVEST_TOTEM": {
+    "shape": "square",
+    "size": 7,
+    "centerOffset": 0.0
+  },
+  "HARVEST_TOTEM_2": {
+    "shape": "square",
+    "size": 7,
+    "centerOffset": 0.0
+  },
+  "LIGHTNING_ROD": {
+    "shape": "square",
+    "size": 10,
+    "centerOffset": 0.0
+  },
+  "LIGHTNING_ROD_2": {
+    "shape": "square",
+    "size": 15,
+    "centerOffset": 0.0
+  },
+  "PROPAGANDA_SPEAKER": {
+    "shape": "square",
+    "size": 8,
+    "centerOffset": 0.0
+  },
+  "PROXIMITY_FURNACE": {
+    "shape": "square",
+    "size": 15,
+    "centerOffset": 0.6
+  },
+  "SCARECROW": {
+    "shape": "square",
+    "size": 9,
+    "centerOffset": 0.0
+  },
+  "SCARECROW_2": {
+    "shape": "square",
+    "size": 11,
+    "centerOffset": 0.0
+  },
+  "SHRINE_DISCIPLE_COLLECTION": {
+    "shape": "square",
+    "size": 11,
+    "centerOffset": 0.6
+  },
+  "SHRINE_PASSIVE": {
+    "shape": "square",
+    "size": 4,
+    "centerOffset": 0.6
+  },
+  "SHRINE_PASSIVE_II": {
+    "shape": "square",
+    "size": 6,
+    "centerOffset": 0.6
+  },
+  "SHRINE_PASSIVE_III": {
+    "shape": "square",
+    "size": 8,
+    "centerOffset": 0.6
+  },
+  "WOLF_TRAP": {
+    "shape": "square",
+    "size": 7,
+    "centerOffset": 0.0
+  }
+}

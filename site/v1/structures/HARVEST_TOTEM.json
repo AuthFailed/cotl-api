@@ -86,6 +86,11 @@
     "zh-CN": "收获图腾",
     "zh-TW": "收穫圖騰柱"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 7
+  },
   "size": {
     "h": 1,
     "w": 1

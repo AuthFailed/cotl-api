@@ -82,6 +82,11 @@
     "zh-CN": "捕狼陷阱",
     "zh-TW": "捕狼陷阱"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 7
+  },
   "size": {
     "h": 1,
     "w": 1

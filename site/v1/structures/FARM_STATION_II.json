@@ -82,6 +82,11 @@
     "zh-CN": "农夫站 II",
     "zh-TW": "農夫站 II"
   },
+  "range": {
+    "centerOffset": 0.49,
+    "shape": "square",
+    "size": 6
+  },
   "size": {
     "h": 2,
     "w": 2

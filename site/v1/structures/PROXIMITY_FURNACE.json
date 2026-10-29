@@ -78,6 +78,11 @@
     "zh-CN": "加热器",
     "zh-TW": "暖爐"
   },
+  "range": {
+    "centerOffset": 0.6,
+    "shape": "square",
+    "size": 15
+  },
   "size": {
     "h": 1,
     "w": 1

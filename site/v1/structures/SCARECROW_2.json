@@ -86,6 +86,11 @@
     "zh-CN": "陷阱稻草人",
     "zh-TW": "陷阱稻草羊"
   },
+  "range": {
+    "centerOffset": 0.0,
+    "shape": "square",
+    "size": 11
+  },
   "size": {
     "h": 1,
     "w": 1
