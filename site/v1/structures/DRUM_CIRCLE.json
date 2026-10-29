@@ -86,6 +86,7 @@
     "h": 4,
     "w": 4
   },
+  "thumb": "icons/structures/64/DRUM_CIRCLE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

@@ -74,6 +74,7 @@
   },
   "seed": null,
   "tags": [],
+  "thumb": "icons/items/64/BONE.png",
   "usedIn": {
     "items": [
       "MEAL_FOLLOWER_MEAT"

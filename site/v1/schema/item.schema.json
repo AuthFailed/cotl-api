@@ -10,7 +10,8 @@
     "category",
     "namePlain",
     "descriptionPlain",
-    "usedIn"
+    "usedIn",
+    "thumb"
   ],
   "properties": {
     "id": {
@@ -262,6 +263,14 @@
           }
         }
       }
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/items/64/[A-Za-z0-9_-]+\\.png$",
+      "description": "the icon fitted into 64x64 (null if no icon)"
     }
   }
 }

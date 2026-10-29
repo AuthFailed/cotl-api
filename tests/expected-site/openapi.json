@@ -328,6 +328,14 @@
             },
             "type": "array"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/items/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "usedIn": {
             "description": "where the item is used: structure costs, meal and drink recipes, ritual costs",
             "properties": {
@@ -366,7 +374,8 @@
           "category",
           "namePlain",
           "descriptionPlain",
-          "usedIn"
+          "usedIn",
+          "thumb"
         ],
         "title": "Item",
         "type": "object"
@@ -465,6 +474,14 @@
             "description": "sin change when performed",
             "type": "integer"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/rituals/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "trait": {
             "description": "cult trait performing it can give",
             "type": [
@@ -491,7 +508,8 @@
           "trait",
           "group",
           "alternative",
-          "doctrine"
+          "doctrine",
+          "thumb"
         ],
         "title": "Ritual",
         "type": "object"
@@ -543,6 +561,14 @@
             "description": "name without the game's text markup",
             "type": "object"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/skins/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "unlock": {
             "type": [
               "string",
@@ -558,10 +584,40 @@
           "unlock",
           "hidden",
           "namePlain",
-          "descriptionPlain"
+          "descriptionPlain",
+          "thumb"
         ],
         "title": "Skin",
         "type": "object"
+      },
+      "Slim": {
+        "description": "v1/{lang}/{kind}.json: every entity of a kind with its name in one language (English if untranslated)",
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "thumb": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "thumb"
+          ],
+          "type": "object"
+        },
+        "title": "Slim",
+        "type": "array"
       },
       "Structure": {
         "properties": {
@@ -664,6 +720,14 @@
               "null"
             ]
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/structures/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "upgradesFrom": {
             "type": [
               "string",
@@ -688,7 +752,8 @@
           "size",
           "namePlain",
           "descriptionPlain",
-          "upgradesTo"
+          "upgradesTo",
+          "thumb"
         ],
         "title": "Structure",
         "type": "object"
@@ -890,6 +955,7 @@
                     "tags": [
                       "food"
                     ],
+                    "thumb": null,
                     "usedIn": {
                       "items": [
                         "MEAL_BERRIES"
@@ -922,6 +988,7 @@
                     },
                     "seed": null,
                     "tags": [],
+                    "thumb": "icons/items/64/LOG.png",
                     "usedIn": {
                       "items": [],
                       "rituals": [
@@ -995,6 +1062,7 @@
                   "tags": [
                     "food"
                   ],
+                  "thumb": null,
                   "usedIn": {
                     "items": [
                       "MEAL_BERRIES"
@@ -1046,6 +1114,7 @@
                       "ru": "Пост"
                     },
                     "sin": 0,
+                    "thumb": null,
                     "trait": null,
                     "warmth": 0.0
                   },
@@ -1079,6 +1148,7 @@
                       "ru": "Пир"
                     },
                     "sin": 0,
+                    "thumb": "icons/rituals/64/Ritual_Feast.png",
                     "trait": null,
                     "warmth": 0.0
                   }
@@ -1142,6 +1212,7 @@
                     "ru": "Пост"
                   },
                   "sin": 0,
+                  "thumb": null,
                   "trait": null,
                   "warmth": 0.0
                 },
@@ -1181,6 +1252,7 @@
                     "namePlain": {
                       "en": "Cat"
                     },
+                    "thumb": null,
                     "unlock": "Other"
                   },
                   {
@@ -1195,6 +1267,7 @@
                     "namePlain": {
                       "en": "Deer"
                     },
+                    "thumb": null,
                     "unlock": "Dungeon1"
                   }
                 ],
@@ -1250,6 +1323,7 @@
                   "namePlain": {
                     "en": "Cat"
                   },
+                  "thumb": null,
                   "unlock": "Other"
                 },
                 "schema": {
@@ -1302,6 +1376,7 @@
                       "h": 1,
                       "w": 1
                     },
+                    "thumb": "icons/structures/64/FARM_PLOT.png",
                     "upgradesFrom": null,
                     "upgradesTo": []
                   },
@@ -1341,6 +1416,7 @@
                       "h": 3,
                       "w": 3
                     },
+                    "thumb": "icons/structures/64/SHRINE_II.png",
                     "upgradesFrom": "SHRINE",
                     "upgradesTo": []
                   }
@@ -1411,6 +1487,7 @@
                     "h": 1,
                     "w": 1
                   },
+                  "thumb": "icons/structures/64/FARM_PLOT.png",
                   "upgradesFrom": null,
                   "upgradesTo": []
                 },
@@ -1426,6 +1503,142 @@
           }
         },
         "summary": "One structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/{lang}/items.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every item: id, name in one language, thumbnail",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/{lang}/rituals.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every ritual: id, name in one language, thumbnail",
+        "tags": [
+          "rituals"
+        ]
+      }
+    },
+    "/v1/{lang}/skins.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every skin: id, name in one language, thumbnail",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/{lang}/structures.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "en",
+                "ru"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every structure: id, name in one language, thumbnail",
         "tags": [
           "structures"
         ]

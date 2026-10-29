@@ -78,6 +78,7 @@
     "fish",
     "big_fish"
   ],
+  "thumb": "icons/items/64/FISH_BIG.png",
   "usedIn": {
     "items": [
       "MEAL_GREAT_MIXED"

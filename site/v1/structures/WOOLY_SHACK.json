@@ -34,6 +34,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/WOOLY_SHACK.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

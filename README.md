@@ -14,7 +14,8 @@ Base URL: `https://api.cotl.info/v1/`
 | `structures.json`, `structures/{id}.json` | every structure |
 | `skins.json`, `skins/{id}.json` | every follower skin (form) |
 | `rituals.json`, `rituals/{id}.json` | every ritual in the ritual menu |
-| `icons/items/{id}.png`, `icons/structures/{id}.png`, `icons/rituals/{id}.png` | icons |
+| `icons/{kind}/{id}.png`, `icons/{kind}/64/{id}.png` | icons, and the same fitted into 64×64 |
+| `{lang}/{kind}.json` | per language and kind, just `id`, `name` (English if untranslated) and `thumb` |
 | `schema/{index,item,structure,skin}.schema.json` | JSON Schemas |
 
 `{id}` is the game's own name (`BERRY`, `FARM_PLOT`, …) and stays the same across game versions.
@@ -23,7 +24,7 @@ Base URL: `https://api.cotl.info/v1/`
 
 Every entity has `id`, `name` and `description` (maps from language code to text; a language without a
 translation is left out, `en` is always there in `name`), `namePlain` and `descriptionPlain` (the same without
-the game's text markup), and `icon` (a path relative to `v1/`, or null).
+the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb` (the icon at 64 px, or null).
 
 - **item**: `usedIn` (`{ "structures", "items", "rituals" }`: what costs it, or uses it in a recipe), `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`,
   `meal`, `drink`), `meal` (meals and drinks only, else null): `recipes` (every ingredient combination the game
@@ -141,7 +142,7 @@ On a machine with the game and BepInEx 5 (reached over SSH):
    plugin, runs the game (a few minutes: main menu, then save slot 0 with saving blocked), pulls the dump,
    removes the plugin, re-checks the saves, packs `site/`, and asks before committing and pushing.
 
-`python3 -m unittest discover tests` tests the packer; `./check.sh site` validates against the schemas.
+The packer needs Python 3 with Pillow. `python3 -m unittest discover tests` tests it; `./check.sh site` validates against the schemas.
 
 ## Credits
 

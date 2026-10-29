@@ -90,6 +90,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/BLOODSTONE_MINE_2.png",
   "upgradesFrom": "BLOODSTONE_MINE",
   "upgradesTo": []
 }

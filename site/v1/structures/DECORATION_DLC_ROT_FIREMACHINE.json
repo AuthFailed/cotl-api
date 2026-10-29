@@ -82,6 +82,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/DECORATION_DLC_ROT_FIREMACHINE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

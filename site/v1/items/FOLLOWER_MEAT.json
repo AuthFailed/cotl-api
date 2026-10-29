@@ -76,6 +76,7 @@
   "tags": [
     "meat"
   ],
+  "thumb": "icons/items/64/FOLLOWER_MEAT.png",
   "usedIn": {
     "items": [
       "MEAL_DEADLY",

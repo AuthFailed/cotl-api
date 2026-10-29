@@ -26,6 +26,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_PALWORLD_STATUE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

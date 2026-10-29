@@ -1,0 +1,12 @@
+[
+  {
+    "id": "FARM_PLOT",
+    "name": "Грядка",
+    "thumb": "icons/structures/64/FARM_PLOT.png"
+  },
+  {
+    "id": "SHRINE_II",
+    "name": "Святилище II",
+    "thumb": "icons/structures/64/SHRINE_II.png"
+  }
+]

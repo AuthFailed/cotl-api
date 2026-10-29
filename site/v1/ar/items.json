@@ -1,0 +1,907 @@
+[
+  {
+    "id": "ANIMAL_COW",
+    "name": "حيوان البقرة",
+    "thumb": "icons/items/64/ANIMAL_COW.png"
+  },
+  {
+    "id": "ANIMAL_CRAB",
+    "name": "حيوان السلطعون",
+    "thumb": "icons/items/64/ANIMAL_CRAB.png"
+  },
+  {
+    "id": "ANIMAL_GOAT",
+    "name": "حيوان القطاس",
+    "thumb": "icons/items/64/ANIMAL_GOAT.png"
+  },
+  {
+    "id": "ANIMAL_LLAMA",
+    "name": "حيوان اللاما",
+    "thumb": "icons/items/64/ANIMAL_LLAMA.png"
+  },
+  {
+    "id": "ANIMAL_SNAIL",
+    "name": "حيوان الحلزون",
+    "thumb": "icons/items/64/ANIMAL_SNAIL.png"
+  },
+  {
+    "id": "ANIMAL_SPIDER",
+    "name": "حيوان العنكبوت",
+    "thumb": "icons/items/64/ANIMAL_SPIDER.png"
+  },
+  {
+    "id": "ANIMAL_TURTLE",
+    "name": "حيوان السلحفاة",
+    "thumb": "icons/items/64/ANIMAL_TURTLE.png"
+  },
+  {
+    "id": "BEETROOT",
+    "name": "بنجر",
+    "thumb": "icons/items/64/BEETROOT.png"
+  },
+  {
+    "id": "BEHOLDER_EYE",
+    "name": "عين الشاهد",
+    "thumb": "icons/items/64/BEHOLDER_EYE.png"
+  },
+  {
+    "id": "BEHOLDER_EYE_ROT",
+    "name": "عين الشاهد الفاسدة",
+    "thumb": "icons/items/64/BEHOLDER_EYE_ROT.png"
+  },
+  {
+    "id": "BERRY",
+    "name": "توت",
+    "thumb": "icons/items/64/BERRY.png"
+  },
+  {
+    "id": "BLACK_GOLD",
+    "name": "عملة",
+    "thumb": "icons/items/64/BLACK_GOLD.png"
+  },
+  {
+    "id": "BLACK_HEART",
+    "name": "قلب فاسد",
+    "thumb": "icons/items/64/BLACK_HEART.png"
+  },
+  {
+    "id": "BLUE_HEART",
+    "name": "قلب أزرق",
+    "thumb": "icons/items/64/BLUE_HEART.png"
+  },
+  {
+    "id": "BONE",
+    "name": "عظام",
+    "thumb": "icons/items/64/BONE.png"
+  },
+  {
+    "id": "BOP",
+    "name": "بوب",
+    "thumb": "icons/items/64/BOP.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_AXE",
+    "name": "Lambs’ Slaughter",
+    "thumb": "icons/items/64/BROKEN_WEAPON_AXE.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_CHAIN",
+    "name": "<color=#FFD201>Shattered</color> Flail",
+    "thumb": "icons/items/64/BROKEN_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_DAGGER",
+    "name": "<color=#FFD201>Blunt</color> Dagger",
+    "thumb": "icons/items/64/BROKEN_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_GAUNTLETS",
+    "name": "<color=#FFD201>Stiffened</color> Gauntlets",
+    "thumb": "icons/items/64/BROKEN_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_HAMMER",
+    "name": "<color=#FFD201>Rusted</color> Hammer",
+    "thumb": "icons/items/64/BROKEN_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_SWORD",
+    "name": "<color=#FFD201>Snapped</color> Sword",
+    "thumb": "icons/items/64/BROKEN_WEAPON_SWORD.png"
+  },
+  {
+    "id": "CAULIFLOWER",
+    "name": "قرنبيط",
+    "thumb": "icons/items/64/CAULIFLOWER.png"
+  },
+  {
+    "id": "CHARCOAL",
+    "name": "Charcoal",
+    "thumb": "icons/items/64/CHARCOAL.png"
+  },
+  {
+    "id": "CHILLI",
+    "name": "فلفل حار",
+    "thumb": "icons/items/64/CHILLI.png"
+  },
+  {
+    "id": "COTTON",
+    "name": "قطن",
+    "thumb": "icons/items/64/COTTON.png"
+  },
+  {
+    "id": "CRYSTAL",
+    "name": "شظايا بلورية",
+    "thumb": "icons/items/64/CRYSTAL.png"
+  },
+  {
+    "id": "CRYSTAL_DOCTRINE_STONE",
+    "name": "حجر وصايا منسية",
+    "thumb": "icons/items/64/CRYSTAL_DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DOCTRINE_STONE",
+    "name": "جزء من حجر وصايا",
+    "thumb": "icons/items/64/DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DRINK_BEER",
+    "name": "شراب شعير",
+    "thumb": "icons/items/64/DRINK_BEER.png"
+  },
+  {
+    "id": "DRINK_CHILLI",
+    "name": "مشروب حار",
+    "thumb": "icons/items/64/DRINK_CHILLI.png"
+  },
+  {
+    "id": "DRINK_COCKTAIL",
+    "name": "إكسير الفواكه",
+    "thumb": "icons/items/64/DRINK_COCKTAIL.png"
+  },
+  {
+    "id": "DRINK_EGGNOG",
+    "name": "شراب البيض",
+    "thumb": "icons/items/64/DRINK_EGGNOG.png"
+  },
+  {
+    "id": "DRINK_GIN",
+    "name": "شراب العرعر",
+    "thumb": "icons/items/64/DRINK_GIN.png"
+  },
+  {
+    "id": "DRINK_GRASS",
+    "name": "عصير كثيف عضوي",
+    "thumb": "icons/items/64/DRINK_GRASS.png"
+  },
+  {
+    "id": "DRINK_LIGHTNING",
+    "name": "عصير الصواعق",
+    "thumb": "icons/items/64/DRINK_LIGHTNING.png"
+  },
+  {
+    "id": "DRINK_MILKSHAKE",
+    "name": "حليب مخفوق",
+    "thumb": "icons/items/64/DRINK_MILKSHAKE.png"
+  },
+  {
+    "id": "DRINK_MUSHROOM_JUICE",
+    "name": "حليب مخفوق بالفطر",
+    "thumb": "icons/items/64/DRINK_MUSHROOM_JUICE.png"
+  },
+  {
+    "id": "DRINK_POOP_JUICE",
+    "name": "عصير الفضلات",
+    "thumb": "icons/items/64/DRINK_POOP_JUICE.png"
+  },
+  {
+    "id": "DRINK_SIN",
+    "name": "مشروب الخطيئة",
+    "thumb": "icons/items/64/DRINK_SIN.png"
+  },
+  {
+    "id": "DRINK_WINE",
+    "name": "شراب العنب",
+    "thumb": "icons/items/64/DRINK_WINE.png"
+  },
+  {
+    "id": "ELECTRIFIED_MAGMA",
+    "name": "فحم تعفن صاعق",
+    "thumb": "icons/items/64/ELECTRIFIED_MAGMA.png"
+  },
+  {
+    "id": "FIRE_HEART",
+    "name": "القلب المشتعل",
+    "thumb": null
+  },
+  {
+    "id": "FISH",
+    "name": "سلمون",
+    "thumb": "icons/items/64/FISH.png"
+  },
+  {
+    "id": "FISHING_ROD",
+    "name": "صنارة صيد",
+    "thumb": "icons/items/64/FISHING_ROD.png"
+  },
+  {
+    "id": "FISH_BIG",
+    "name": "تونة",
+    "thumb": "icons/items/64/FISH_BIG.png"
+  },
+  {
+    "id": "FISH_BLOWFISH",
+    "name": "سمكة منتفخة",
+    "thumb": "icons/items/64/FISH_BLOWFISH.png"
+  },
+  {
+    "id": "FISH_CRAB",
+    "name": "سلطعون",
+    "thumb": "icons/items/64/FISH_CRAB.png"
+  },
+  {
+    "id": "FISH_LOBSTER",
+    "name": "جرادة بحر",
+    "thumb": "icons/items/64/FISH_LOBSTER.png"
+  },
+  {
+    "id": "FISH_OCTOPUS",
+    "name": "أخطبوط",
+    "thumb": "icons/items/64/FISH_OCTOPUS.png"
+  },
+  {
+    "id": "FISH_SMALL",
+    "name": "سمكة منوة",
+    "thumb": "icons/items/64/FISH_SMALL.png"
+  },
+  {
+    "id": "FISH_SQUID",
+    "name": "حبّار",
+    "thumb": "icons/items/64/FISH_SQUID.png"
+  },
+  {
+    "id": "FISH_SWORDFISH",
+    "name": "سمكة أبو سيف",
+    "thumb": "icons/items/64/FISH_SWORDFISH.png"
+  },
+  {
+    "id": "FLOWER_PURPLE",
+    "name": "اذكرني",
+    "thumb": "icons/items/64/FLOWER_PURPLE.png"
+  },
+  {
+    "id": "FLOWER_RED",
+    "name": "كاميليا",
+    "thumb": "icons/items/64/FLOWER_RED.png"
+  },
+  {
+    "id": "FLOWER_WHITE",
+    "name": "ندفة",
+    "thumb": "icons/items/64/FLOWER_WHITE.png"
+  },
+  {
+    "id": "FOLLOWERS",
+    "name": "الأتباع",
+    "thumb": "icons/items/64/FOLLOWERS.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT",
+    "name": "لحم أتباع",
+    "thumb": "icons/items/64/FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT_ROTTEN",
+    "name": "لحم أتباع فاسد",
+    "thumb": "icons/items/64/FOLLOWER_MEAT_ROTTEN.png"
+  },
+  {
+    "id": "FORGE_FLAME",
+    "name": "Sacred Flame",
+    "thumb": "icons/items/64/FORGE_FLAME.png"
+  },
+  {
+    "id": "FOUND_ITEM_DECORATION",
+    "name": "مخطط",
+    "thumb": "icons/items/64/FOUND_ITEM_DECORATION.png"
+  },
+  {
+    "id": "FOUND_ITEM_FOLLOWERSKIN",
+    "name": "شكل تابع",
+    "thumb": "icons/items/64/FOUND_ITEM_FOLLOWERSKIN.png"
+  },
+  {
+    "id": "GIFT_MEDIUM",
+    "name": "هدية كبيرة",
+    "thumb": "icons/items/64/GIFT_MEDIUM.png"
+  },
+  {
+    "id": "GIFT_SMALL",
+    "name": "هدية صغيرة",
+    "thumb": "icons/items/64/GIFT_SMALL.png"
+  },
+  {
+    "id": "GOD_TEAR",
+    "name": "دمعة سيد",
+    "thumb": "icons/items/64/GOD_TEAR.png"
+  },
+  {
+    "id": "GOD_TEAR_FRAGMENT",
+    "name": "جزء من دمعة سيد",
+    "thumb": "icons/items/64/GOD_TEAR_FRAGMENT.png"
+  },
+  {
+    "id": "GOLD_NUGGET",
+    "name": "قطعة ذهب",
+    "thumb": "icons/items/64/GOLD_NUGGET.png"
+  },
+  {
+    "id": "GOLD_REFINED",
+    "name": "سبائك ذهب",
+    "thumb": "icons/items/64/GOLD_REFINED.png"
+  },
+  {
+    "id": "GRAPES",
+    "name": "عنب",
+    "thumb": "icons/items/64/GRAPES.png"
+  },
+  {
+    "id": "GRASS",
+    "name": "عشب",
+    "thumb": "icons/items/64/GRASS.png"
+  },
+  {
+    "id": "HALF_BLUE_HEART",
+    "name": "نصف قلب أزرق",
+    "thumb": "icons/items/64/HALF_BLUE_HEART.png"
+  },
+  {
+    "id": "HALF_HEART",
+    "name": "نصف قلب أحمر",
+    "thumb": "icons/items/64/HALF_HEART.png"
+  },
+  {
+    "id": "HOPS",
+    "name": "جنجل",
+    "thumb": "icons/items/64/HOPS.png"
+  },
+  {
+    "id": "ICE_HEART",
+    "name": "القلب المتجمد",
+    "thumb": null
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+    "name": "رسالة مبهمة",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_CHARYBDIS.png"
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_SCYLLA",
+    "name": "رسالة مبهمة",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_SCYLLA.png"
+  },
+  {
+    "id": "LEGENDARY_WEAPON_FRAGMENT",
+    "name": "جزء من سلاح أسطوري",
+    "thumb": "icons/items/64/LEGENDARY_WEAPON_FRAGMENT.png"
+  },
+  {
+    "id": "LIGHTNING_SHARD",
+    "name": "شظية صاعقة",
+    "thumb": "icons/items/64/LIGHTNING_SHARD.png"
+  },
+  {
+    "id": "LOG",
+    "name": "خشب",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "LOG_REFINED",
+    "name": "ألواح خشبية",
+    "thumb": "icons/items/64/LOG_REFINED.png"
+  },
+  {
+    "id": "LORE_STONE",
+    "name": "اللوح القديم",
+    "thumb": "icons/items/64/LORE_STONE.png"
+  },
+  {
+    "id": "MAGMA_STONE",
+    "name": "فحم التعفن",
+    "thumb": "icons/items/64/MAGMA_STONE.png"
+  },
+  {
+    "id": "MEAL",
+    "name": "حساء اليقطين البسيط",
+    "thumb": "icons/items/64/MEAL.png"
+  },
+  {
+    "id": "MEAL_BAD_FISH",
+    "name": "يخنة السمك اللاذعة",
+    "thumb": "icons/items/64/MEAL_BAD_FISH.png"
+  },
+  {
+    "id": "MEAL_BAD_MEAT",
+    "name": "حساء لحم قاسي الألياف",
+    "thumb": "icons/items/64/MEAL_BAD_MEAT.png"
+  },
+  {
+    "id": "MEAL_BAD_MIXED",
+    "name": "وجبة مختلطة بسيطة",
+    "thumb": "icons/items/64/MEAL_BAD_MIXED.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "وعاء توت بسيط",
+    "thumb": "icons/items/64/MEAL_BERRIES.png"
+  },
+  {
+    "id": "MEAL_BURNED",
+    "name": "وجبة محروقة",
+    "thumb": null
+  },
+  {
+    "id": "MEAL_DEADLY",
+    "name": "طبق مميت",
+    "thumb": "icons/items/64/MEAL_DEADLY.png"
+  },
+  {
+    "id": "MEAL_EGG",
+    "name": "وجبة من البيض",
+    "thumb": "icons/items/64/MEAL_EGG.png"
+  },
+  {
+    "id": "MEAL_FOLLOWER_MEAT",
+    "name": "لحم تابع مفروم",
+    "thumb": "icons/items/64/MEAL_FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "MEAL_GOOD_FISH",
+    "name": "وجبة أسماك لذيذة",
+    "thumb": "icons/items/64/MEAL_GOOD_FISH.png"
+  },
+  {
+    "id": "MEAL_GRASS",
+    "name": "عصيدة عشبية",
+    "thumb": "icons/items/64/MEAL_GRASS.png"
+  },
+  {
+    "id": "MEAL_GREAT",
+    "name": "وجبة نباتية رائعة عامرة",
+    "thumb": "icons/items/64/MEAL_GREAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_FISH",
+    "name": "وجبة أسماك شهية عامرة",
+    "thumb": "icons/items/64/MEAL_GREAT_FISH.png"
+  },
+  {
+    "id": "MEAL_GREAT_MEAT",
+    "name": "وجبة لحم شهية عامرة",
+    "thumb": "icons/items/64/MEAL_GREAT_MEAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_MIXED",
+    "name": "وجبة مختلطة فخمة",
+    "thumb": "icons/items/64/MEAL_GREAT_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEAT",
+    "name": "مرق اللحم الدسم",
+    "thumb": "icons/items/64/MEAL_MEAT.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_MIXED",
+    "name": "وجبة مختلطة متواضعة",
+    "thumb": "icons/items/64/MEAL_MEDIUM_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_VEG",
+    "name": "حساء القرنبيط الكثيف المبهج",
+    "thumb": "icons/items/64/MEAL_MEDIUM_VEG.png"
+  },
+  {
+    "id": "MEAL_MILK_BAD",
+    "name": "حليب متخثر فاسد",
+    "thumb": "icons/items/64/MEAL_MILK_BAD.png"
+  },
+  {
+    "id": "MEAL_MILK_GOOD",
+    "name": "جبن مذاب",
+    "thumb": "icons/items/64/MEAL_MILK_GOOD.png"
+  },
+  {
+    "id": "MEAL_MILK_GREAT",
+    "name": "فطيرة الراعي",
+    "thumb": "icons/items/64/MEAL_MILK_GREAT.png"
+  },
+  {
+    "id": "MEAL_MUSHROOMS",
+    "name": "Mushroom Meal",
+    "thumb": "icons/items/64/MEAL_MUSHROOMS.png"
+  },
+  {
+    "id": "MEAL_POOP",
+    "name": "وعاء من الفضلات",
+    "thumb": "icons/items/64/MEAL_POOP.png"
+  },
+  {
+    "id": "MEAL_SNOW_FRUIT",
+    "name": "حلوى فاكهة الجليد المثلجة",
+    "thumb": "icons/items/64/MEAL_SNOW_FRUIT.png"
+  },
+  {
+    "id": "MEAL_SPICY",
+    "name": "هريس الفلفل الحار",
+    "thumb": "icons/items/64/MEAL_SPICY.png"
+  },
+  {
+    "id": "MEAT",
+    "name": "لحم",
+    "thumb": "icons/items/64/MEAT.png"
+  },
+  {
+    "id": "MEAT_MORSEL",
+    "name": "قطعة",
+    "thumb": "icons/items/64/MEAT_MORSEL.png"
+  },
+  {
+    "id": "MILK",
+    "name": "حليب",
+    "thumb": "icons/items/64/MILK.png"
+  },
+  {
+    "id": "MONSTER_HEART",
+    "name": "قلب منشق",
+    "thumb": "icons/items/64/MONSTER_HEART.png"
+  },
+  {
+    "id": "MUSHROOM_SMALL",
+    "name": "فطر التطويع",
+    "thumb": "icons/items/64/MUSHROOM_SMALL.png"
+  },
+  {
+    "id": "Necklace_1",
+    "name": "قلادة الزهرة",
+    "thumb": "icons/items/64/Necklace_1.png"
+  },
+  {
+    "id": "Necklace_2",
+    "name": "قلادة الريش",
+    "thumb": "icons/items/64/Necklace_2.png"
+  },
+  {
+    "id": "Necklace_3",
+    "name": "قلادة الجمجمة",
+    "thumb": "icons/items/64/Necklace_3.png"
+  },
+  {
+    "id": "Necklace_4",
+    "name": "قلادة الطبيعة",
+    "thumb": "icons/items/64/Necklace_4.png"
+  },
+  {
+    "id": "Necklace_5",
+    "name": "قلادة القمر",
+    "thumb": "icons/items/64/Necklace_5.png"
+  },
+  {
+    "id": "Necklace_Dark",
+    "name": "قلادة الظلام",
+    "thumb": "icons/items/64/Necklace_Dark.png"
+  },
+  {
+    "id": "Necklace_Deaths_Door",
+    "name": "قلادة النمو من جديد",
+    "thumb": "icons/items/64/Necklace_Deaths_Door.png"
+  },
+  {
+    "id": "Necklace_Demonic",
+    "name": "قلادة عفريتية",
+    "thumb": "icons/items/64/Necklace_Demonic.png"
+  },
+  {
+    "id": "Necklace_Frozen",
+    "name": "قلادة التدفئة",
+    "thumb": "icons/items/64/Necklace_Frozen.png"
+  },
+  {
+    "id": "Necklace_Gold_Skull",
+    "name": "قلادة الجمجمة الذهبية",
+    "thumb": "icons/items/64/Necklace_Gold_Skull.png"
+  },
+  {
+    "id": "Necklace_Light",
+    "name": "قلادة النور",
+    "thumb": "icons/items/64/Necklace_Light.png"
+  },
+  {
+    "id": "Necklace_Loyalty",
+    "name": "قلادة الإخلاص",
+    "thumb": "icons/items/64/Necklace_Loyalty.png"
+  },
+  {
+    "id": "Necklace_Missionary",
+    "name": "قلادة البعثات",
+    "thumb": "icons/items/64/Necklace_Missionary.png"
+  },
+  {
+    "id": "Necklace_Targeted",
+    "name": "قلادة الحظ السيئ",
+    "thumb": "icons/items/64/Necklace_Targeted.png"
+  },
+  {
+    "id": "Necklace_Weird",
+    "name": "قلادة غير طبيعية",
+    "thumb": "icons/items/64/Necklace_Weird.png"
+  },
+  {
+    "id": "Necklace_Winter",
+    "name": "قلادة الشتاء",
+    "thumb": "icons/items/64/Necklace_Winter.png"
+  },
+  {
+    "id": "PLEASURE_POINT",
+    "name": "الخطيئة",
+    "thumb": "icons/items/64/PLEASURE_POINT.png"
+  },
+  {
+    "id": "POOP",
+    "name": "سماد",
+    "thumb": "icons/items/64/POOP.png"
+  },
+  {
+    "id": "POOP_DEVOTION",
+    "name": "سماد الولاء",
+    "thumb": "icons/items/64/POOP_DEVOTION.png"
+  },
+  {
+    "id": "POOP_GLOW",
+    "name": "سماد لامع",
+    "thumb": "icons/items/64/POOP_GLOW.png"
+  },
+  {
+    "id": "POOP_GOLD",
+    "name": "سماد ذهبي",
+    "thumb": "icons/items/64/POOP_GOLD.png"
+  },
+  {
+    "id": "POOP_RAINBOW",
+    "name": "سماد ملون",
+    "thumb": "icons/items/64/POOP_RAINBOW.png"
+  },
+  {
+    "id": "POOP_ROTSTONE",
+    "name": "سماد حجر التعفن",
+    "thumb": "icons/items/64/POOP_ROTSTONE.png"
+  },
+  {
+    "id": "PUMPKIN",
+    "name": "يقطين",
+    "thumb": "icons/items/64/PUMPKIN.png"
+  },
+  {
+    "id": "RED_HEART",
+    "name": "قلب أحمر",
+    "thumb": "icons/items/64/RED_HEART.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_CHAIN",
+    "name": "Yngya's Torment",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_DAGGER",
+    "name": "Ruin of Nirah",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_GAUNTLETS",
+    "name": "Claws of the Wolf",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_HAMMER",
+    "name": "Scourge of Svargod",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_SWORD",
+    "name": "Golden End",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_SWORD.png"
+  },
+  {
+    "id": "SEED",
+    "name": "بذرة شجيرة توت",
+    "thumb": "icons/items/64/SEED.png"
+  },
+  {
+    "id": "SEED_BEETROOT",
+    "name": "بذور بنجر",
+    "thumb": "icons/items/64/SEED_BEETROOT.png"
+  },
+  {
+    "id": "SEED_CAULIFLOWER",
+    "name": "بذرة قرنبيط",
+    "thumb": "icons/items/64/SEED_CAULIFLOWER.png"
+  },
+  {
+    "id": "SEED_CHILLI",
+    "name": "بذرة فلفل حار",
+    "thumb": "icons/items/64/SEED_CHILLI.png"
+  },
+  {
+    "id": "SEED_COTTON",
+    "name": "بذرة قطن",
+    "thumb": "icons/items/64/SEED_COTTON.png"
+  },
+  {
+    "id": "SEED_FLOWER_RED",
+    "name": "بذرة الكاميليا",
+    "thumb": "icons/items/64/SEED_FLOWER_RED.png"
+  },
+  {
+    "id": "SEED_GRAPES",
+    "name": "بذور عنب",
+    "thumb": "icons/items/64/SEED_GRAPES.png"
+  },
+  {
+    "id": "SEED_HOPS",
+    "name": "بذور جنجل",
+    "thumb": "icons/items/64/SEED_HOPS.png"
+  },
+  {
+    "id": "SEED_MUSHROOM",
+    "name": "بوغ فطر تطويع",
+    "thumb": "icons/items/64/SEED_MUSHROOM.png"
+  },
+  {
+    "id": "SEED_PUMPKIN",
+    "name": "بذرة يقطين",
+    "thumb": "icons/items/64/SEED_PUMPKIN.png"
+  },
+  {
+    "id": "SEED_SNOW_FRUIT",
+    "name": "بذرة فاكهة الجليد",
+    "thumb": "icons/items/64/SEED_SNOW_FRUIT.png"
+  },
+  {
+    "id": "SEED_SOZO",
+    "name": "بذرة سوزو",
+    "thumb": "icons/items/64/SEED_SOZO.png"
+  },
+  {
+    "id": "SHELL",
+    "name": "صدفة",
+    "thumb": "icons/items/64/SHELL.png"
+  },
+  {
+    "id": "SILK_THREAD",
+    "name": "خيط حريري",
+    "thumb": "icons/items/64/SILK_THREAD.png"
+  },
+  {
+    "id": "SNOW_CHUNK",
+    "name": "Snow Chunk",
+    "thumb": "icons/items/64/SNOW_CHUNK.png"
+  },
+  {
+    "id": "SNOW_FRUIT",
+    "name": "فاكهة الجليد",
+    "thumb": "icons/items/64/SNOW_FRUIT.png"
+  },
+  {
+    "id": "SOOT",
+    "name": "سناج التعفن",
+    "thumb": "icons/items/64/SOOT.png"
+  },
+  {
+    "id": "SOUL",
+    "name": "الولاء",
+    "thumb": "icons/items/64/SOUL.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_10",
+    "name": "صوف البريئة",
+    "thumb": "icons/items/64/SPECIAL_WOOL_10.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_11",
+    "name": "صوف الفارس",
+    "thumb": "icons/items/64/SPECIAL_WOOL_11.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_6",
+    "name": "صوف الصامد",
+    "thumb": "icons/items/64/SPECIAL_WOOL_6.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_7",
+    "name": "صوف المحارب",
+    "thumb": "icons/items/64/SPECIAL_WOOL_7.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_8",
+    "name": "صوف المنذر",
+    "thumb": "icons/items/64/SPECIAL_WOOL_8.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_9",
+    "name": "صوف المتظاهر",
+    "thumb": "icons/items/64/SPECIAL_WOOL_9.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_BLACKSMITH",
+    "name": "صوف المسفوعة",
+    "thumb": "icons/items/64/SPECIAL_WOOL_BLACKSMITH.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_DECORATION",
+    "name": "صوف الماكر",
+    "thumb": "icons/items/64/SPECIAL_WOOL_DECORATION.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_LAMBWAR",
+    "name": "صوف العالمة",
+    "thumb": "icons/items/64/SPECIAL_WOOL_LAMBWAR.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_RANCHER",
+    "name": "صوف مُربّي الحيوانات",
+    "thumb": "icons/items/64/SPECIAL_WOOL_RANCHER.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_TAROT",
+    "name": "صوف العرافة",
+    "thumb": "icons/items/64/SPECIAL_WOOL_TAROT.png"
+  },
+  {
+    "id": "SPIDER_WEB",
+    "name": "حرير العنكبوت",
+    "thumb": "icons/items/64/SPIDER_WEB.png"
+  },
+  {
+    "id": "STONE",
+    "name": "حجر",
+    "thumb": "icons/items/64/STONE.png"
+  },
+  {
+    "id": "STONE_REFINED",
+    "name": "كتل حجرية",
+    "thumb": "icons/items/64/STONE_REFINED.png"
+  },
+  {
+    "id": "TALISMAN",
+    "name": "تميمة عظيمة",
+    "thumb": "icons/items/64/TALISMAN.png"
+  },
+  {
+    "id": "TRINKET_CARD",
+    "name": "بطاقة تارو",
+    "thumb": "icons/items/64/TRINKET_CARD.png"
+  },
+  {
+    "id": "WOOL",
+    "name": "صوف",
+    "thumb": "icons/items/64/WOOL.png"
+  },
+  {
+    "id": "YEW_CURSED",
+    "name": "سرو الشاة الملعون",
+    "thumb": "icons/items/64/YEW_CURSED.png"
+  },
+  {
+    "id": "YEW_HOLY",
+    "name": "سرو الشاة النقي",
+    "thumb": "icons/items/64/YEW_HOLY.png"
+  },
+  {
+    "id": "YNGYA_GHOST",
+    "name": "الأرواح الضالة",
+    "thumb": "icons/items/64/YNGYA_GHOST.png"
+  },
+  {
+    "id": "YOLK",
+    "name": "بيضة",
+    "thumb": "icons/items/64/YOLK.png"
+  }
+]

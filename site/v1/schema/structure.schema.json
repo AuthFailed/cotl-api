@@ -12,7 +12,8 @@
     "size",
     "namePlain",
     "descriptionPlain",
-    "upgradesTo"
+    "upgradesTo",
+    "thumb"
   ],
   "properties": {
     "id": {
@@ -126,6 +127,14 @@
         "type": "string"
       },
       "description": "structures that upgrade from this one (the reverse of upgradesFrom)"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/structures/64/[A-Za-z0-9_-]+\\.png$",
+      "description": "the icon fitted into 64x64 (null if no icon)"
     }
   }
 }

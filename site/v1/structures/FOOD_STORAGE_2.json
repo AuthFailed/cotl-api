@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": null,
   "upgradesFrom": "FOOD_STORAGE",
   "upgradesTo": []
 }

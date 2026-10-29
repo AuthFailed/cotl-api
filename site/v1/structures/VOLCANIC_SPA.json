@@ -86,6 +86,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/VOLCANIC_SPA.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

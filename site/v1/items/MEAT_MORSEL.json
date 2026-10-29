@@ -77,6 +77,7 @@
     "food",
     "meat"
   ],
+  "thumb": "icons/items/64/MEAT_MORSEL.png",
   "usedIn": {
     "items": [
       "MEAL_BAD_MEAT",

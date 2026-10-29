@@ -77,6 +77,7 @@
     "food",
     "fish"
   ],
+  "thumb": "icons/items/64/FISH.png",
   "usedIn": {
     "items": [
       "MEAL_GOOD_FISH",

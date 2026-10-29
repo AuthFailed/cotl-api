@@ -1,0 +1,907 @@
+[
+  {
+    "id": "ANIMAL_COW",
+    "name": "怪牛",
+    "thumb": "icons/items/64/ANIMAL_COW.png"
+  },
+  {
+    "id": "ANIMAL_CRAB",
+    "name": "怪螃蟹",
+    "thumb": "icons/items/64/ANIMAL_CRAB.png"
+  },
+  {
+    "id": "ANIMAL_GOAT",
+    "name": "怪氂牛",
+    "thumb": "icons/items/64/ANIMAL_GOAT.png"
+  },
+  {
+    "id": "ANIMAL_LLAMA",
+    "name": "怪羊駝",
+    "thumb": "icons/items/64/ANIMAL_LLAMA.png"
+  },
+  {
+    "id": "ANIMAL_SNAIL",
+    "name": "怪蝸牛",
+    "thumb": "icons/items/64/ANIMAL_SNAIL.png"
+  },
+  {
+    "id": "ANIMAL_SPIDER",
+    "name": "怪蜘蛛",
+    "thumb": "icons/items/64/ANIMAL_SPIDER.png"
+  },
+  {
+    "id": "ANIMAL_TURTLE",
+    "name": "怪烏龜",
+    "thumb": "icons/items/64/ANIMAL_TURTLE.png"
+  },
+  {
+    "id": "BEETROOT",
+    "name": "甜菜根",
+    "thumb": "icons/items/64/BEETROOT.png"
+  },
+  {
+    "id": "BEHOLDER_EYE",
+    "name": "見證者之眼",
+    "thumb": "icons/items/64/BEHOLDER_EYE.png"
+  },
+  {
+    "id": "BEHOLDER_EYE_ROT",
+    "name": "腐爛的見證者之眼",
+    "thumb": "icons/items/64/BEHOLDER_EYE_ROT.png"
+  },
+  {
+    "id": "BERRY",
+    "name": "莓果",
+    "thumb": "icons/items/64/BERRY.png"
+  },
+  {
+    "id": "BLACK_GOLD",
+    "name": "金幣",
+    "thumb": "icons/items/64/BLACK_GOLD.png"
+  },
+  {
+    "id": "BLACK_HEART",
+    "name": "病纏黑心",
+    "thumb": "icons/items/64/BLACK_HEART.png"
+  },
+  {
+    "id": "BLUE_HEART",
+    "name": "藍心",
+    "thumb": "icons/items/64/BLUE_HEART.png"
+  },
+  {
+    "id": "BONE",
+    "name": "骨頭",
+    "thumb": "icons/items/64/BONE.png"
+  },
+  {
+    "id": "BOP",
+    "name": "巴普",
+    "thumb": "icons/items/64/BOP.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_AXE",
+    "name": "Lambs’ Slaughter",
+    "thumb": "icons/items/64/BROKEN_WEAPON_AXE.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_CHAIN",
+    "name": "<color=#FFD201>Shattered</color> Flail",
+    "thumb": "icons/items/64/BROKEN_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_DAGGER",
+    "name": "<color=#FFD201>Blunt</color> Dagger",
+    "thumb": "icons/items/64/BROKEN_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_GAUNTLETS",
+    "name": "<color=#FFD201>Stiffened</color> Gauntlets",
+    "thumb": "icons/items/64/BROKEN_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_HAMMER",
+    "name": "<color=#FFD201>Rusted</color> Hammer",
+    "thumb": "icons/items/64/BROKEN_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_SWORD",
+    "name": "<color=#FFD201>Snapped</color> Sword",
+    "thumb": "icons/items/64/BROKEN_WEAPON_SWORD.png"
+  },
+  {
+    "id": "CAULIFLOWER",
+    "name": "白花椰菜",
+    "thumb": "icons/items/64/CAULIFLOWER.png"
+  },
+  {
+    "id": "CHARCOAL",
+    "name": "Charcoal",
+    "thumb": "icons/items/64/CHARCOAL.png"
+  },
+  {
+    "id": "CHILLI",
+    "name": "辣椒",
+    "thumb": "icons/items/64/CHILLI.png"
+  },
+  {
+    "id": "COTTON",
+    "name": "棉花",
+    "thumb": "icons/items/64/COTTON.png"
+  },
+  {
+    "id": "CRYSTAL",
+    "name": "水晶碎片",
+    "thumb": "icons/items/64/CRYSTAL.png"
+  },
+  {
+    "id": "CRYSTAL_DOCTRINE_STONE",
+    "name": "忘卻戒律石",
+    "thumb": "icons/items/64/CRYSTAL_DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DOCTRINE_STONE",
+    "name": "戒律石碎塊",
+    "thumb": "icons/items/64/DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DRINK_BEER",
+    "name": "嘉佳釀",
+    "thumb": "icons/items/64/DRINK_BEER.png"
+  },
+  {
+    "id": "DRINK_CHILLI",
+    "name": "大辛釀",
+    "thumb": "icons/items/64/DRINK_CHILLI.png"
+  },
+  {
+    "id": "DRINK_COCKTAIL",
+    "name": "水果靈飲",
+    "thumb": "icons/items/64/DRINK_COCKTAIL.png"
+  },
+  {
+    "id": "DRINK_EGGNOG",
+    "name": "蛋奶酒",
+    "thumb": "icons/items/64/DRINK_EGGNOG.png"
+  },
+  {
+    "id": "DRINK_GIN",
+    "name": "杜松子飲",
+    "thumb": "icons/items/64/DRINK_GIN.png"
+  },
+  {
+    "id": "DRINK_GRASS",
+    "name": "有機奶昔",
+    "thumb": "icons/items/64/DRINK_GRASS.png"
+  },
+  {
+    "id": "DRINK_LIGHTNING",
+    "name": "電光水",
+    "thumb": "icons/items/64/DRINK_LIGHTNING.png"
+  },
+  {
+    "id": "DRINK_MILKSHAKE",
+    "name": "奶昔",
+    "thumb": "icons/items/64/DRINK_MILKSHAKE.png"
+  },
+  {
+    "id": "DRINK_MUSHROOM_JUICE",
+    "name": "菇菇昔",
+    "thumb": "icons/items/64/DRINK_MUSHROOM_JUICE.png"
+  },
+  {
+    "id": "DRINK_POOP_JUICE",
+    "name": "便便汁",
+    "thumb": "icons/items/64/DRINK_POOP_JUICE.png"
+  },
+  {
+    "id": "DRINK_SIN",
+    "name": "罪孽酒",
+    "thumb": "icons/items/64/DRINK_SIN.png"
+  },
+  {
+    "id": "DRINK_WINE",
+    "name": "葡萄瓊漿",
+    "thumb": "icons/items/64/DRINK_WINE.png"
+  },
+  {
+    "id": "ELECTRIFIED_MAGMA",
+    "name": "蓄能腐燃",
+    "thumb": "icons/items/64/ELECTRIFIED_MAGMA.png"
+  },
+  {
+    "id": "FIRE_HEART",
+    "name": "熔心",
+    "thumb": null
+  },
+  {
+    "id": "FISH",
+    "name": "鮭魚",
+    "thumb": "icons/items/64/FISH.png"
+  },
+  {
+    "id": "FISHING_ROD",
+    "name": "釣竿",
+    "thumb": "icons/items/64/FISHING_ROD.png"
+  },
+  {
+    "id": "FISH_BIG",
+    "name": "鮪魚",
+    "thumb": "icons/items/64/FISH_BIG.png"
+  },
+  {
+    "id": "FISH_BLOWFISH",
+    "name": "魨",
+    "thumb": "icons/items/64/FISH_BLOWFISH.png"
+  },
+  {
+    "id": "FISH_CRAB",
+    "name": "螃蟹",
+    "thumb": "icons/items/64/FISH_CRAB.png"
+  },
+  {
+    "id": "FISH_LOBSTER",
+    "name": "龍蝦",
+    "thumb": "icons/items/64/FISH_LOBSTER.png"
+  },
+  {
+    "id": "FISH_OCTOPUS",
+    "name": "章魚",
+    "thumb": "icons/items/64/FISH_OCTOPUS.png"
+  },
+  {
+    "id": "FISH_SMALL",
+    "name": "鰷魚",
+    "thumb": "icons/items/64/FISH_SMALL.png"
+  },
+  {
+    "id": "FISH_SQUID",
+    "name": "魷魚",
+    "thumb": "icons/items/64/FISH_SQUID.png"
+  },
+  {
+    "id": "FISH_SWORDFISH",
+    "name": "劍魚",
+    "thumb": "icons/items/64/FISH_SWORDFISH.png"
+  },
+  {
+    "id": "FLOWER_PURPLE",
+    "name": "勿忘我",
+    "thumb": "icons/items/64/FLOWER_PURPLE.png"
+  },
+  {
+    "id": "FLOWER_RED",
+    "name": "山茶花",
+    "thumb": "icons/items/64/FLOWER_RED.png"
+  },
+  {
+    "id": "FLOWER_WHITE",
+    "name": "雪落",
+    "thumb": "icons/items/64/FLOWER_WHITE.png"
+  },
+  {
+    "id": "FOLLOWERS",
+    "name": "教徒",
+    "thumb": "icons/items/64/FOLLOWERS.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT",
+    "name": "教徒之肉",
+    "thumb": "icons/items/64/FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT_ROTTEN",
+    "name": "教徒腐肉",
+    "thumb": "icons/items/64/FOLLOWER_MEAT_ROTTEN.png"
+  },
+  {
+    "id": "FORGE_FLAME",
+    "name": "Sacred Flame",
+    "thumb": "icons/items/64/FORGE_FLAME.png"
+  },
+  {
+    "id": "FOUND_ITEM_DECORATION",
+    "name": "藍圖",
+    "thumb": "icons/items/64/FOUND_ITEM_DECORATION.png"
+  },
+  {
+    "id": "FOUND_ITEM_FOLLOWERSKIN",
+    "name": "教徒外觀",
+    "thumb": "icons/items/64/FOUND_ITEM_FOLLOWERSKIN.png"
+  },
+  {
+    "id": "GIFT_MEDIUM",
+    "name": "大型禮物",
+    "thumb": "icons/items/64/GIFT_MEDIUM.png"
+  },
+  {
+    "id": "GIFT_SMALL",
+    "name": "小型禮物",
+    "thumb": "icons/items/64/GIFT_SMALL.png"
+  },
+  {
+    "id": "GOD_TEAR",
+    "name": "神之淚",
+    "thumb": "icons/items/64/GOD_TEAR.png"
+  },
+  {
+    "id": "GOD_TEAR_FRAGMENT",
+    "name": "神之淚碎塊",
+    "thumb": "icons/items/64/GOD_TEAR_FRAGMENT.png"
+  },
+  {
+    "id": "GOLD_NUGGET",
+    "name": "金塊",
+    "thumb": "icons/items/64/GOLD_NUGGET.png"
+  },
+  {
+    "id": "GOLD_REFINED",
+    "name": "金條",
+    "thumb": "icons/items/64/GOLD_REFINED.png"
+  },
+  {
+    "id": "GRAPES",
+    "name": "葡萄",
+    "thumb": "icons/items/64/GRAPES.png"
+  },
+  {
+    "id": "GRASS",
+    "name": "青草",
+    "thumb": "icons/items/64/GRASS.png"
+  },
+  {
+    "id": "HALF_BLUE_HEART",
+    "name": "半顆藍心",
+    "thumb": "icons/items/64/HALF_BLUE_HEART.png"
+  },
+  {
+    "id": "HALF_HEART",
+    "name": "半顆紅心",
+    "thumb": "icons/items/64/HALF_HEART.png"
+  },
+  {
+    "id": "HOPS",
+    "name": "啤酒花",
+    "thumb": "icons/items/64/HOPS.png"
+  },
+  {
+    "id": "ICE_HEART",
+    "name": "冰心",
+    "thumb": null
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+    "name": "難以識別的信",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_CHARYBDIS.png"
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_SCYLLA",
+    "name": "難以識別的信",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_SCYLLA.png"
+  },
+  {
+    "id": "LEGENDARY_WEAPON_FRAGMENT",
+    "name": "傳奇武器碎片",
+    "thumb": "icons/items/64/LEGENDARY_WEAPON_FRAGMENT.png"
+  },
+  {
+    "id": "LIGHTNING_SHARD",
+    "name": "蓄能碎片",
+    "thumb": "icons/items/64/LIGHTNING_SHARD.png"
+  },
+  {
+    "id": "LOG",
+    "name": "木材",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "LOG_REFINED",
+    "name": "木板",
+    "thumb": "icons/items/64/LOG_REFINED.png"
+  },
+  {
+    "id": "LORE_STONE",
+    "name": "古老石板",
+    "thumb": "icons/items/64/LORE_STONE.png"
+  },
+  {
+    "id": "MAGMA_STONE",
+    "name": "腐燃",
+    "thumb": "icons/items/64/MAGMA_STONE.png"
+  },
+  {
+    "id": "MEAL",
+    "name": "低劣南瓜湯",
+    "thumb": "icons/items/64/MEAL.png"
+  },
+  {
+    "id": "MEAL_BAD_FISH",
+    "name": "辛辣燉魚",
+    "thumb": "icons/items/64/MEAL_BAD_FISH.png"
+  },
+  {
+    "id": "MEAL_BAD_MEAT",
+    "name": "黏稠肉肉稀粥",
+    "thumb": "icons/items/64/MEAL_BAD_MEAT.png"
+  },
+  {
+    "id": "MEAL_BAD_MIXED",
+    "name": "粗劣什錦餐",
+    "thumb": "icons/items/64/MEAL_BAD_MIXED.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "基本莓果碗",
+    "thumb": "icons/items/64/MEAL_BERRIES.png"
+  },
+  {
+    "id": "MEAL_BURNED",
+    "name": "燒焦餐",
+    "thumb": null
+  },
+  {
+    "id": "MEAL_DEADLY",
+    "name": "奪命餐",
+    "thumb": "icons/items/64/MEAL_DEADLY.png"
+  },
+  {
+    "id": "MEAL_EGG",
+    "name": "蛋蛋餐",
+    "thumb": "icons/items/64/MEAL_EGG.png"
+  },
+  {
+    "id": "MEAL_FOLLOWER_MEAT",
+    "name": "教徒絞肉",
+    "thumb": "icons/items/64/MEAL_FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "MEAL_GOOD_FISH",
+    "name": "可口魚餐",
+    "thumb": "icons/items/64/MEAL_GOOD_FISH.png"
+  },
+  {
+    "id": "MEAL_GRASS",
+    "name": "青草稀粥",
+    "thumb": "icons/items/64/MEAL_GRASS.png"
+  },
+  {
+    "id": "MEAL_GREAT",
+    "name": "豐盛蔬食盛宴",
+    "thumb": "icons/items/64/MEAL_GREAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_FISH",
+    "name": "美味魚盛宴",
+    "thumb": "icons/items/64/MEAL_GREAT_FISH.png"
+  },
+  {
+    "id": "MEAL_GREAT_MEAT",
+    "name": "美味肉肉盛宴",
+    "thumb": "icons/items/64/MEAL_GREAT_MEAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_MIXED",
+    "name": "豪華什錦餐",
+    "thumb": "icons/items/64/MEAL_GREAT_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEAT",
+    "name": "豐盛肉湯",
+    "thumb": "icons/items/64/MEAL_MEAT.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_MIXED",
+    "name": "樸實什錦餐",
+    "thumb": "icons/items/64/MEAL_MEDIUM_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_VEG",
+    "name": "愉快白花椰菜巧達濃湯",
+    "thumb": "icons/items/64/MEAL_MEDIUM_VEG.png"
+  },
+  {
+    "id": "MEAL_MILK_BAD",
+    "name": "變質奶酪",
+    "thumb": "icons/items/64/MEAL_MILK_BAD.png"
+  },
+  {
+    "id": "MEAL_MILK_GOOD",
+    "name": "起司火鍋",
+    "thumb": "icons/items/64/MEAL_MILK_GOOD.png"
+  },
+  {
+    "id": "MEAL_MILK_GREAT",
+    "name": "牧者的派",
+    "thumb": "icons/items/64/MEAL_MILK_GREAT.png"
+  },
+  {
+    "id": "MEAL_MUSHROOMS",
+    "name": "蘑菇餐",
+    "thumb": "icons/items/64/MEAL_MUSHROOMS.png"
+  },
+  {
+    "id": "MEAL_POOP",
+    "name": "便便碗",
+    "thumb": "icons/items/64/MEAL_POOP.png"
+  },
+  {
+    "id": "MEAL_SNOW_FRUIT",
+    "name": "雪果聖代",
+    "thumb": "icons/items/64/MEAL_SNOW_FRUIT.png"
+  },
+  {
+    "id": "MEAL_SPICY",
+    "name": "辣椒泥",
+    "thumb": "icons/items/64/MEAL_SPICY.png"
+  },
+  {
+    "id": "MEAT",
+    "name": "肉",
+    "thumb": "icons/items/64/MEAT.png"
+  },
+  {
+    "id": "MEAT_MORSEL",
+    "name": "帶骨肉",
+    "thumb": "icons/items/64/MEAT_MORSEL.png"
+  },
+  {
+    "id": "MILK",
+    "name": "牛奶",
+    "thumb": "icons/items/64/MILK.png"
+  },
+  {
+    "id": "MONSTER_HEART",
+    "name": "異教徒之心",
+    "thumb": "icons/items/64/MONSTER_HEART.png"
+  },
+  {
+    "id": "MUSHROOM_SMALL",
+    "name": "噬心蘑菇",
+    "thumb": "icons/items/64/MUSHROOM_SMALL.png"
+  },
+  {
+    "id": "Necklace_1",
+    "name": "花朵項鍊",
+    "thumb": "icons/items/64/Necklace_1.png"
+  },
+  {
+    "id": "Necklace_2",
+    "name": "羽毛項鍊",
+    "thumb": "icons/items/64/Necklace_2.png"
+  },
+  {
+    "id": "Necklace_3",
+    "name": "頭骨項鍊",
+    "thumb": "icons/items/64/Necklace_3.png"
+  },
+  {
+    "id": "Necklace_4",
+    "name": "自然項鍊",
+    "thumb": "icons/items/64/Necklace_4.png"
+  },
+  {
+    "id": "Necklace_5",
+    "name": "月之項鍊",
+    "thumb": "icons/items/64/Necklace_5.png"
+  },
+  {
+    "id": "Necklace_Dark",
+    "name": "黑暗項鍊",
+    "thumb": "icons/items/64/Necklace_Dark.png"
+  },
+  {
+    "id": "Necklace_Deaths_Door",
+    "name": "重生項鍊",
+    "thumb": "icons/items/64/Necklace_Deaths_Door.png"
+  },
+  {
+    "id": "Necklace_Demonic",
+    "name": "惡魔項鍊",
+    "thumb": "icons/items/64/Necklace_Demonic.png"
+  },
+  {
+    "id": "Necklace_Frozen",
+    "name": "暖暖項鍊",
+    "thumb": "icons/items/64/Necklace_Frozen.png"
+  },
+  {
+    "id": "Necklace_Gold_Skull",
+    "name": "金頭骨項鍊",
+    "thumb": "icons/items/64/Necklace_Gold_Skull.png"
+  },
+  {
+    "id": "Necklace_Light",
+    "name": "光明項鍊",
+    "thumb": "icons/items/64/Necklace_Light.png"
+  },
+  {
+    "id": "Necklace_Loyalty",
+    "name": "忠誠項鍊",
+    "thumb": "icons/items/64/Necklace_Loyalty.png"
+  },
+  {
+    "id": "Necklace_Missionary",
+    "name": "傳教項鍊",
+    "thumb": "icons/items/64/Necklace_Missionary.png"
+  },
+  {
+    "id": "Necklace_Targeted",
+    "name": "不幸項鍊",
+    "thumb": "icons/items/64/Necklace_Targeted.png"
+  },
+  {
+    "id": "Necklace_Weird",
+    "name": "奇葩項鍊",
+    "thumb": "icons/items/64/Necklace_Weird.png"
+  },
+  {
+    "id": "Necklace_Winter",
+    "name": "寒冬項鍊",
+    "thumb": "icons/items/64/Necklace_Winter.png"
+  },
+  {
+    "id": "PLEASURE_POINT",
+    "name": "罪孽",
+    "thumb": "icons/items/64/PLEASURE_POINT.png"
+  },
+  {
+    "id": "POOP",
+    "name": "肥料",
+    "thumb": "icons/items/64/POOP.png"
+  },
+  {
+    "id": "POOP_DEVOTION",
+    "name": "虔誠肥料",
+    "thumb": "icons/items/64/POOP_DEVOTION.png"
+  },
+  {
+    "id": "POOP_GLOW",
+    "name": "發光肥料",
+    "thumb": "icons/items/64/POOP_GLOW.png"
+  },
+  {
+    "id": "POOP_GOLD",
+    "name": "黃金肥料",
+    "thumb": "icons/items/64/POOP_GOLD.png"
+  },
+  {
+    "id": "POOP_RAINBOW",
+    "name": "彩虹肥料",
+    "thumb": "icons/items/64/POOP_RAINBOW.png"
+  },
+  {
+    "id": "POOP_ROTSTONE",
+    "name": "腐燃肥料",
+    "thumb": "icons/items/64/POOP_ROTSTONE.png"
+  },
+  {
+    "id": "PUMPKIN",
+    "name": "南瓜",
+    "thumb": "icons/items/64/PUMPKIN.png"
+  },
+  {
+    "id": "RED_HEART",
+    "name": "紅心",
+    "thumb": "icons/items/64/RED_HEART.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_CHAIN",
+    "name": "Yngya's Torment",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_DAGGER",
+    "name": "Ruin of Nirah",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_GAUNTLETS",
+    "name": "Claws of the Wolf",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_HAMMER",
+    "name": "Scourge of Svargod",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_SWORD",
+    "name": "Golden End",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_SWORD.png"
+  },
+  {
+    "id": "SEED",
+    "name": "莓果樹叢種子",
+    "thumb": "icons/items/64/SEED.png"
+  },
+  {
+    "id": "SEED_BEETROOT",
+    "name": "甜菜根種子",
+    "thumb": "icons/items/64/SEED_BEETROOT.png"
+  },
+  {
+    "id": "SEED_CAULIFLOWER",
+    "name": "白花椰菜種子",
+    "thumb": "icons/items/64/SEED_CAULIFLOWER.png"
+  },
+  {
+    "id": "SEED_CHILLI",
+    "name": "辣椒種子",
+    "thumb": "icons/items/64/SEED_CHILLI.png"
+  },
+  {
+    "id": "SEED_COTTON",
+    "name": "棉花種子",
+    "thumb": "icons/items/64/SEED_COTTON.png"
+  },
+  {
+    "id": "SEED_FLOWER_RED",
+    "name": "山茶花種子",
+    "thumb": "icons/items/64/SEED_FLOWER_RED.png"
+  },
+  {
+    "id": "SEED_GRAPES",
+    "name": "葡萄種子",
+    "thumb": "icons/items/64/SEED_GRAPES.png"
+  },
+  {
+    "id": "SEED_HOPS",
+    "name": "啤酒花種子",
+    "thumb": "icons/items/64/SEED_HOPS.png"
+  },
+  {
+    "id": "SEED_MUSHROOM",
+    "name": "噬心蘑菇孢子",
+    "thumb": "icons/items/64/SEED_MUSHROOM.png"
+  },
+  {
+    "id": "SEED_PUMPKIN",
+    "name": "南瓜種子",
+    "thumb": "icons/items/64/SEED_PUMPKIN.png"
+  },
+  {
+    "id": "SEED_SNOW_FRUIT",
+    "name": "雪果種子",
+    "thumb": "icons/items/64/SEED_SNOW_FRUIT.png"
+  },
+  {
+    "id": "SEED_SOZO",
+    "name": "索佐的種子",
+    "thumb": "icons/items/64/SEED_SOZO.png"
+  },
+  {
+    "id": "SHELL",
+    "name": "殼",
+    "thumb": "icons/items/64/SHELL.png"
+  },
+  {
+    "id": "SILK_THREAD",
+    "name": "絲線",
+    "thumb": "icons/items/64/SILK_THREAD.png"
+  },
+  {
+    "id": "SNOW_CHUNK",
+    "name": "Snow Chunk",
+    "thumb": "icons/items/64/SNOW_CHUNK.png"
+  },
+  {
+    "id": "SNOW_FRUIT",
+    "name": "雪果",
+    "thumb": "icons/items/64/SNOW_FRUIT.png"
+  },
+  {
+    "id": "SOOT",
+    "name": "腐灰",
+    "thumb": "icons/items/64/SOOT.png"
+  },
+  {
+    "id": "SOUL",
+    "name": "虔誠",
+    "thumb": "icons/items/64/SOUL.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_10",
+    "name": "無辜者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_10.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_11",
+    "name": "騎士羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_11.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_6",
+    "name": "堅毅者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_6.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_7",
+    "name": "戰士羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_7.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_8",
+    "name": "卜卦者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_8.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_9",
+    "name": "妄想者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_9.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_BLACKSMITH",
+    "name": "焦黑者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_BLACKSMITH.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_DECORATION",
+    "name": "精明者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_DECORATION.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_LAMBWAR",
+    "name": "學者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_LAMBWAR.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_RANCHER",
+    "name": "牧工羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_RANCHER.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_TAROT",
+    "name": "占星者羊毛",
+    "thumb": "icons/items/64/SPECIAL_WOOL_TAROT.png"
+  },
+  {
+    "id": "SPIDER_WEB",
+    "name": "蜘蛛絲",
+    "thumb": "icons/items/64/SPIDER_WEB.png"
+  },
+  {
+    "id": "STONE",
+    "name": "石材",
+    "thumb": "icons/items/64/STONE.png"
+  },
+  {
+    "id": "STONE_REFINED",
+    "name": "石磚",
+    "thumb": "icons/items/64/STONE_REFINED.png"
+  },
+  {
+    "id": "TALISMAN",
+    "name": "神聖護身符",
+    "thumb": "icons/items/64/TALISMAN.png"
+  },
+  {
+    "id": "TRINKET_CARD",
+    "name": "塔羅牌",
+    "thumb": "icons/items/64/TRINKET_CARD.png"
+  },
+  {
+    "id": "WOOL",
+    "name": "羊毛",
+    "thumb": "icons/items/64/WOOL.png"
+  },
+  {
+    "id": "YEW_CURSED",
+    "name": "受到詛咒的紫杉",
+    "thumb": "icons/items/64/YEW_CURSED.png"
+  },
+  {
+    "id": "YEW_HOLY",
+    "name": "純淨紫杉",
+    "thumb": "icons/items/64/YEW_HOLY.png"
+  },
+  {
+    "id": "YNGYA_GHOST",
+    "name": "失落靈魂",
+    "thumb": "icons/items/64/YNGYA_GHOST.png"
+  },
+  {
+    "id": "YOLK",
+    "name": "蛋黃",
+    "thumb": "icons/items/64/YOLK.png"
+  }
+]

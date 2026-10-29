@@ -90,6 +90,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/DEMON_SUMMONER.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "DEMON_SUMMONER_2"

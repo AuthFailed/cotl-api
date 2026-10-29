@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Ritual_AlmsToPoor",
+    "name": "Aalmoezen voor de armen",
+    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png"
+  },
+  {
+    "id": "Ritual_Ascend",
+    "name": "Verheffingsritueel",
+    "thumb": "icons/rituals/64/Ritual_Ascend.png"
+  },
+  {
+    "id": "Ritual_AssignFaithEnforcer",
+    "name": "Loyaliteitshulpje",
+    "thumb": "icons/rituals/64/Ritual_AssignFaithEnforcer.png"
+  },
+  {
+    "id": "Ritual_AssignTaxCollector",
+    "name": "Afdrachthulpje",
+    "thumb": "icons/rituals/64/Ritual_AssignTaxCollector.png"
+  },
+  {
+    "id": "Ritual_AtoneSin",
+    "name": "Zondaars trots",
+    "thumb": "icons/rituals/64/Ritual_AtoneSin.png"
+  },
+  {
+    "id": "Ritual_BecomeDisciple",
+    "name": "Ritueel van het discipelschap",
+    "thumb": "icons/rituals/64/Ritual_BecomeDisciple.png"
+  },
+  {
+    "id": "Ritual_Brainwashing",
+    "name": "Hersenspoelritueel",
+    "thumb": "icons/rituals/64/Ritual_Brainwashing.png"
+  },
+  {
+    "id": "Ritual_Cannibal",
+    "name": "Gulzigheid van kannibalen",
+    "thumb": "icons/rituals/64/Ritual_Cannibal.png"
+  },
+  {
+    "id": "Ritual_ConvertToRot",
+    "name": "Verrottingsritueel",
+    "thumb": "icons/rituals/64/Ritual_ConvertToRot.png"
+  },
+  {
+    "id": "Ritual_DonationRitual",
+    "name": "Verrijkingsritueel",
+    "thumb": "icons/rituals/64/Ritual_DonationRitual.png"
+  },
+  {
+    "id": "Ritual_Enlightenment",
+    "name": "Verlichtingsritueel",
+    "thumb": "icons/rituals/64/Ritual_Enlightenment.png"
+  },
+  {
+    "id": "Ritual_Fast",
+    "name": "Vastenritueel",
+    "thumb": "icons/rituals/64/Ritual_Fast.png"
+  },
+  {
+    "id": "Ritual_FasterBuilding",
+    "name": "De glorie van het bouwen",
+    "thumb": "icons/rituals/64/Ritual_FasterBuilding.png"
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Feestmaalritueel",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  },
+  {
+    "id": "Ritual_Fightpit",
+    "name": "Vechtkuilritueel",
+    "thumb": "icons/rituals/64/Ritual_Fightpit.png"
+  },
+  {
+    "id": "Ritual_FirePit",
+    "name": "Vreugdevuurritueel",
+    "thumb": "icons/rituals/64/Ritual_FirePit.png"
+  },
+  {
+    "id": "Ritual_FishingRitual",
+    "name": "Zeebanketritueel",
+    "thumb": "icons/rituals/64/Ritual_FishingRitual.png"
+  },
+  {
+    "id": "Ritual_FollowerWedding",
+    "name": "Huwelijk tussen volgelingen",
+    "thumb": "icons/rituals/64/Ritual_FollowerWedding.png"
+  },
+  {
+    "id": "Ritual_Funeral",
+    "name": "Begrafenis",
+    "thumb": "icons/rituals/64/Ritual_Funeral.png"
+  },
+  {
+    "id": "Ritual_Halloween",
+    "name": "Bloedmaanritueel",
+    "thumb": "icons/rituals/64/Ritual_Halloween.png"
+  },
+  {
+    "id": "Ritual_HarvestRitual",
+    "name": "Oogstritueel",
+    "thumb": "icons/rituals/64/Ritual_HarvestRitual.png"
+  },
+  {
+    "id": "Ritual_Holiday",
+    "name": "Heilige feestdag-ritueel",
+    "thumb": "icons/rituals/64/Ritual_Holiday.png"
+  },
+  {
+    "id": "Ritual_Nudism",
+    "name": "Lustritueel",
+    "thumb": "icons/rituals/64/Ritual_Nudism.png"
+  },
+  {
+    "id": "Ritual_Purge",
+    "name": "Wraakritueel",
+    "thumb": "icons/rituals/64/Ritual_Purge.png"
+  },
+  {
+    "id": "Ritual_RanchHarvest",
+    "name": "Scheerritueel",
+    "thumb": "icons/rituals/64/Ritual_RanchHarvest.png"
+  },
+  {
+    "id": "Ritual_RanchMeat",
+    "name": "Vraatritueel",
+    "thumb": "icons/rituals/64/Ritual_RanchMeat.png"
+  },
+  {
+    "id": "Ritual_Ressurect",
+    "name": "Wederopstandingritueel",
+    "thumb": "icons/rituals/64/Ritual_Ressurect.png"
+  },
+  {
+    "id": "Ritual_Sacrifice",
+    "name": "Offer van het vlees",
+    "thumb": "icons/rituals/64/Ritual_Sacrifice.png"
+  },
+  {
+    "id": "Ritual_Snowman",
+    "name": "Levend ijs",
+    "thumb": "icons/rituals/64/Ritual_Snowman.png"
+  },
+  {
+    "id": "Ritual_Wedding",
+    "name": "Huwelijk",
+    "thumb": "icons/rituals/64/Ritual_Wedding.png"
+  },
+  {
+    "id": "Ritual_WorkThroughNight",
+    "name": "Glorie door gezwoeg",
+    "thumb": "icons/rituals/64/Ritual_WorkThroughNight.png"
+  }
+]

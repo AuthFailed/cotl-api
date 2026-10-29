@@ -74,6 +74,7 @@
   },
   "seed": "SEED_FLOWER_RED",
   "tags": [],
+  "thumb": "icons/items/64/FLOWER_RED.png",
   "usedIn": {
     "items": [
       "DRINK_COCKTAIL"

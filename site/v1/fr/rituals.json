@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Ritual_AlmsToPoor",
+    "name": "Rituel de l'aumône",
+    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png"
+  },
+  {
+    "id": "Ritual_Ascend",
+    "name": "Rituel de l'ascension",
+    "thumb": "icons/rituals/64/Ritual_Ascend.png"
+  },
+  {
+    "id": "Ritual_AssignFaithEnforcer",
+    "name": "Garde de la foi",
+    "thumb": "icons/rituals/64/Ritual_AssignFaithEnforcer.png"
+  },
+  {
+    "id": "Ritual_AssignTaxCollector",
+    "name": "Garde des dons",
+    "thumb": "icons/rituals/64/Ritual_AssignTaxCollector.png"
+  },
+  {
+    "id": "Ritual_AtoneSin",
+    "name": "Fierté du pécheur",
+    "thumb": "icons/rituals/64/Ritual_AtoneSin.png"
+  },
+  {
+    "id": "Ritual_BecomeDisciple",
+    "name": "Rituel du discipulat",
+    "thumb": "icons/rituals/64/Ritual_BecomeDisciple.png"
+  },
+  {
+    "id": "Ritual_Brainwashing",
+    "name": "Rituel de lavage de cerveau",
+    "thumb": "icons/rituals/64/Ritual_Brainwashing.png"
+  },
+  {
+    "id": "Ritual_Cannibal",
+    "name": "Gourmandise cannibale",
+    "thumb": "icons/rituals/64/Ritual_Cannibal.png"
+  },
+  {
+    "id": "Ritual_ConvertToRot",
+    "name": "Rituel putrescent",
+    "thumb": "icons/rituals/64/Ritual_ConvertToRot.png"
+  },
+  {
+    "id": "Ritual_DonationRitual",
+    "name": "Rituel de l'avarice",
+    "thumb": "icons/rituals/64/Ritual_DonationRitual.png"
+  },
+  {
+    "id": "Ritual_Enlightenment",
+    "name": "Rituel de l'éveil",
+    "thumb": "icons/rituals/64/Ritual_Enlightenment.png"
+  },
+  {
+    "id": "Ritual_Fast",
+    "name": "Rituel du jeûne",
+    "thumb": "icons/rituals/64/Ritual_Fast.png"
+  },
+  {
+    "id": "Ritual_FasterBuilding",
+    "name": "Rituel de l'édification",
+    "thumb": "icons/rituals/64/Ritual_FasterBuilding.png"
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Rituel du banquet",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  },
+  {
+    "id": "Ritual_Fightpit",
+    "name": "Rituel de l'arène",
+    "thumb": "icons/rituals/64/Ritual_Fightpit.png"
+  },
+  {
+    "id": "Ritual_FirePit",
+    "name": "Feu de joie",
+    "thumb": "icons/rituals/64/Ritual_FirePit.png"
+  },
+  {
+    "id": "Ritual_FishingRitual",
+    "name": "Rituel de l'océan",
+    "thumb": "icons/rituals/64/Ritual_FishingRitual.png"
+  },
+  {
+    "id": "Ritual_FollowerWedding",
+    "name": "Cérémonie nuptiale des adeptes",
+    "thumb": "icons/rituals/64/Ritual_FollowerWedding.png"
+  },
+  {
+    "id": "Ritual_Funeral",
+    "name": "Rituel funéraire",
+    "thumb": "icons/rituals/64/Ritual_Funeral.png"
+  },
+  {
+    "id": "Ritual_Halloween",
+    "name": "Rituel de la lune de sang",
+    "thumb": "icons/rituals/64/Ritual_Halloween.png"
+  },
+  {
+    "id": "Ritual_HarvestRitual",
+    "name": "Rituel de la récolte",
+    "thumb": "icons/rituals/64/Ritual_HarvestRitual.png"
+  },
+  {
+    "id": "Ritual_Holiday",
+    "name": "Rituel de la fête sainte",
+    "thumb": "icons/rituals/64/Ritual_Holiday.png"
+  },
+  {
+    "id": "Ritual_Nudism",
+    "name": "Rituel de luxure",
+    "thumb": "icons/rituals/64/Ritual_Nudism.png"
+  },
+  {
+    "id": "Ritual_Purge",
+    "name": "Rituel de la colère",
+    "thumb": "icons/rituals/64/Ritual_Purge.png"
+  },
+  {
+    "id": "Ritual_RanchHarvest",
+    "name": "Rituel de la tonte",
+    "thumb": "icons/rituals/64/Ritual_RanchHarvest.png"
+  },
+  {
+    "id": "Ritual_RanchMeat",
+    "name": "Rituel du gavage",
+    "thumb": "icons/rituals/64/Ritual_RanchMeat.png"
+  },
+  {
+    "id": "Ritual_Ressurect",
+    "name": "Rituel de résurrection",
+    "thumb": "icons/rituals/64/Ritual_Ressurect.png"
+  },
+  {
+    "id": "Ritual_Sacrifice",
+    "name": "Rituel sacrificiel",
+    "thumb": "icons/rituals/64/Ritual_Sacrifice.png"
+  },
+  {
+    "id": "Ritual_Snowman",
+    "name": "Rituel de la neige éveillée",
+    "thumb": "icons/rituals/64/Ritual_Snowman.png"
+  },
+  {
+    "id": "Ritual_Wedding",
+    "name": "Rituel nuptial",
+    "thumb": "icons/rituals/64/Ritual_Wedding.png"
+  },
+  {
+    "id": "Ritual_WorkThroughNight",
+    "name": "Rituel de l'effort",
+    "thumb": "icons/rituals/64/Ritual_WorkThroughNight.png"
+  }
+]

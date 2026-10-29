@@ -82,6 +82,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_GNOME3.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

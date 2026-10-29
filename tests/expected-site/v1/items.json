@@ -17,6 +17,7 @@
     "tags": [
       "food"
     ],
+    "thumb": null,
     "usedIn": {
       "items": [
         "MEAL_BERRIES"
@@ -49,6 +50,7 @@
     },
     "seed": null,
     "tags": [],
+    "thumb": "icons/items/64/LOG.png",
     "usedIn": {
       "items": [],
       "rituals": [
@@ -110,6 +112,7 @@
     "tags": [
       "meal"
     ],
+    "thumb": null,
     "usedIn": {
       "items": [],
       "rituals": [],
@@ -143,6 +146,7 @@
     },
     "seed": null,
     "tags": [],
+    "thumb": null,
     "usedIn": {
       "items": [],
       "rituals": [],
@@ -173,6 +177,7 @@
     },
     "seed": null,
     "tags": [],
+    "thumb": "icons/items/64/STONE.png",
     "usedIn": {
       "items": [],
       "rituals": [],

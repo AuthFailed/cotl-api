@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "BED",
+    "name": "Slaapzak",
+    "thumb": "icons/structures/64/BED.png"
+  },
+  {
+    "id": "BED_2",
+    "name": "Tipi",
+    "thumb": "icons/structures/64/BED_2.png"
+  },
+  {
+    "id": "BED_3",
+    "name": "Blokhut",
+    "thumb": "icons/structures/64/BED_3.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE",
+    "name": "Steengroeve",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE_2",
+    "name": "Steengroeve II",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE_2.png"
+  },
+  {
+    "id": "BODY_PIT",
+    "name": "Gat in de grond",
+    "thumb": "icons/structures/64/BODY_PIT.png"
+  },
+  {
+    "id": "CHOPPING_SHRINE",
+    "name": "Hakaltaar",
+    "thumb": "icons/structures/64/CHOPPING_SHRINE.png"
+  },
+  {
+    "id": "COMPOST_BIN",
+    "name": "Compostbak",
+    "thumb": "icons/structures/64/COMPOST_BIN.png"
+  },
+  {
+    "id": "COMPOST_BIN_DEAD_BODY",
+    "name": "Natuurbegrafenis",
+    "thumb": "icons/structures/64/COMPOST_BIN_DEAD_BODY.png"
+  },
+  {
+    "id": "CONFESSION_BOOTH",
+    "name": "Biechtstoel",
+    "thumb": "icons/structures/64/CONFESSION_BOOTH.png"
+  },
+  {
+    "id": "COOKING_FIRE",
+    "name": "Kookvuur",
+    "thumb": "icons/structures/64/COOKING_FIRE.png"
+  },
+  {
+    "id": "CRYPT_1",
+    "name": "Crypte",
+    "thumb": "icons/structures/64/CRYPT_1.png"
+  },
+  {
+    "id": "CRYPT_2",
+    "name": "Crypte II",
+    "thumb": "icons/structures/64/CRYPT_2.png"
+  },
+  {
+    "id": "CRYPT_3",
+    "name": "Crypte III",
+    "thumb": "icons/structures/64/CRYPT_3.png"
+  },
+  {
+    "id": "DANCING_FIREPIT",
+    "name": "Vuurplaats",
+    "thumb": null
+  },
+  {
+    "id": "DAYCARE",
+    "name": "Kinderkamer",
+    "thumb": "icons/structures/64/DAYCARE.png"
+  },
+  {
+    "id": "DEAD_WORSHIPPER",
+    "name": "Dode volgeling",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_APPLE_BUSH",
+    "name": "Vormgesnoeide struik",
+    "thumb": "icons/structures/64/DECORATION_APPLE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_APPLE_LANTERN",
+    "name": "Uitgesneden lantaarnpaal",
+    "thumb": "icons/structures/64/DECORATION_APPLE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_APPLE_STATUE",
+    "name": "Mysterieus fruitstandbeeld",
+    "thumb": "icons/structures/64/DECORATION_APPLE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_VASE",
+    "name": "Beeldige schikking",
+    "thumb": "icons/structures/64/DECORATION_APPLE_VASE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_WELL",
+    "name": "Overwoekerde put",
+    "thumb": "icons/structures/64/DECORATION_APPLE_WELL.png"
+  },
+  {
+    "id": "DECORATION_BARROW",
+    "name": "Bloemenkruiwagen",
+    "thumb": "icons/structures/64/DECORATION_BARROW.png"
+  },
+  {
+    "id": "DECORATION_BELL_SMALL",
+    "name": "Standbeeld met kleine klok",
+    "thumb": "icons/structures/64/DECORATION_BELL_SMALL.png"
+  },
+  {
+    "id": "DECORATION_BELL_STATUE",
+    "name": "Standbeeld met gouden klok",
+    "thumb": "icons/structures/64/DECORATION_BELL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_BONE_ARCH",
+    "name": "Boog van beenderen",
+    "thumb": "icons/structures/64/DECORATION_BONE_ARCH.png"
+  },
+  {
+    "id": "DECORATION_BONE_BARREL",
+    "name": "Vat van beenderen",
+    "thumb": "icons/structures/64/DECORATION_BONE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_BONE_CANDLE",
+    "name": "Schedel met kaars",
+    "thumb": "icons/structures/64/DECORATION_BONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_BONE_FLAG",
+    "name": "Vlag met een kroon op een skelet",
+    "thumb": "icons/structures/64/DECORATION_BONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_BONE_LANTERN",
+    "name": "Knokkellantaarn",
+    "thumb": "icons/structures/64/DECORATION_BONE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_BONE_PILLAR",
+    "name": "Schedelstapel",
+    "thumb": "icons/structures/64/DECORATION_BONE_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_BONE_SCULPTURE",
+    "name": "Knokig beeld",
+    "thumb": "icons/structures/64/DECORATION_BONE_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_BIG",
+    "name": "Enorme schedel",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_BIG.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_PILE",
+    "name": "Stapel schedels",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_PILE.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_1",
+    "name": "Leshy-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_1.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_2",
+    "name": "Heket-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_2.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_3",
+    "name": "Kallamar-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_3.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_4",
+    "name": "Shamura-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_4.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_5",
+    "name": "Degene Die Wacht-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_5.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+    "name": "Beultrofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_EXECUTIONER.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_WOLF",
+    "name": "Marchosias-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_WOLF.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+    "name": "Yngya-trofee",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_YNGYA.png"
+  },
+  {
+    "id": "DECORATION_CANDLE_BARREL",
+    "name": "Vat met kaarsen",
+    "thumb": "icons/structures/64/DECORATION_CANDLE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDLE",
+    "name": "Midwinterkaars",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDYCANE",
+    "name": "Midwinterlantaarn",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDYCANE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_SNOWMAN",
+    "name": "Midwinterlam",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_SNOWMAN.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_TREE",
+    "name": "Midwinterboom",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_TREE.png"
+  },
+  {
+    "id": "DECORATION_CNY_DRAGON",
+    "name": "Fortuinlijk standbeeld",
+    "thumb": "icons/structures/64/DECORATION_CNY_DRAGON.png"
+  },
+  {
+    "id": "DECORATION_CNY_LANTERN",
+    "name": "Fortuinlijke lantaarn",
+    "thumb": "icons/structures/64/DECORATION_CNY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_CNY_TREE",
+    "name": "Fortuinlijke boom",
+    "thumb": "icons/structures/64/DECORATION_CNY_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LAMP",
+    "name": "Kristallamp",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LAMP.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LIGHT",
+    "name": "Kristallantaarn",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LIGHT.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_ROCK",
+    "name": "Kristalsteen",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_ROCK.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_STATUE",
+    "name": "Kristalstandbeeld",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_TREE",
+    "name": "Kristalboom",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_WINDOW",
+    "name": "Kristalraam",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_WINDOW.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BOTTLE",
+    "name": "Gebottelde rotting",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BUCKET",
+    "name": "Emmer ingewanden",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE1",
+    "name": "Hoge kooi",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE2",
+    "name": "Kleine kooi",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAULDRON",
+    "name": "Vlammende ketel",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAULDRON.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_DIORAMA",
+    "name": "Rotfontein",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FIREMACHINE",
+    "name": "Vreemde machine",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FIREMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FLOOR",
+    "name": "Verrotte vloer",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_IRONMAIDEN",
+    "name": "IJzeren maagd van Ramhoorn",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP1",
+    "name": "Huilende struik",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP2",
+    "name": "Oog in een pot",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR1",
+    "name": "Kreunende pilaar",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR2",
+    "name": "Gapende paal",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE1",
+    "name": "Rotsteenaltaar",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE2",
+    "name": "Rotsteenkaars",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_TENTACLE",
+    "name": "Reikende tentakel",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_TENTACLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_WALL",
+    "name": "Rotsteenmuur",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+    "name": "Hoge schoorsteen",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_1.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+    "name": "Kleine schoorsteen",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_2.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CLOCK",
+    "name": "Taxushouten klok",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CLOCK.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+    "name": "Taxushouten lantaarnpaal",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_PLANT",
+    "name": "Taxushouten plant",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_PLANT.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_WALL",
+    "name": "Taxushouten muur",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_BULB",
+    "name": "Schokpeertje",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_BULB.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST1",
+    "name": "Gespietst sektelid I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST2",
+    "name": "Gespietst sektelid II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_DIORAMA",
+    "name": "Maquette van de berg",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_FIREPIT",
+    "name": "Vuurkuil",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_FIREPIT.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_LAMPPOST",
+    "name": "Opgeladen lamp",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR1",
+    "name": "Vonkende pilaar",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR2",
+    "name": "Statische paal",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE1",
+    "name": "Altaar der ongelovigen",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE2",
+    "name": "Wolvenstandbeeld",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE3",
+    "name": "Alchemistenapparaat I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE3.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE4",
+    "name": "Alchemistenapparaat II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE4.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE5",
+    "name": "Alchemistenapparaat III",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE5.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TESLA",
+    "name": "Elektrische spoel",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TESLA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TREE1",
+    "name": "Alpenboom",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TREE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_WIRES",
+    "name": "Kluwen kabels",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_WIRES.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL1",
+    "name": "Vat met zwaarden",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL2",
+    "name": "Vat met speren",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BELLS",
+    "name": "Grote bel",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BELLS.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH1",
+    "name": "Verlegen struik",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH2",
+    "name": "Scheve struik",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_CANDLE",
+    "name": "Lange kaars",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FLOOR",
+    "name": "Wolhavenvloer",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+    "name": "Belvormige fontein",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_JUG",
+    "name": "Maanvaas",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_JUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_RUG",
+    "name": "Zonnetapijt",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_RUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+    "name": "Yngya-idool",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+    "name": "Bel op een sokkel",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+    "name": "Wolhavenlantaarnpaal",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_STREETLAMP.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_TREE",
+    "name": "Bladloze boom",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_WALL",
+    "name": "Wolhavenmuur",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_CANDLE",
+    "name": "Zomerkaars",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+    "name": "Emmer van de eerste bloei",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_FLOWERBUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_STICKBUNDLE",
+    "name": "Bundel jonge takken",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_STICKBUNDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TALLFLOWERS",
+    "name": "Madeliefjes in pot",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TALLFLOWERS.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEBUSH",
+    "name": "Heg van Yngya",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEBUSH.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEPOT",
+    "name": "Zomerboompje",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEPOT.png"
+  },
+  {
+    "id": "DECORATION_DST_ALCHEMY",
+    "name": "Alchemiemotor",
+    "thumb": "icons/structures/64/DECORATION_DST_ALCHEMY.png"
+  },
+  {
+    "id": "DECORATION_DST_BEEFALOSKELETON",
+    "name": "Beefalo-skelet",
+    "thumb": "icons/structures/64/DECORATION_DST_BEEFALOSKELETON.png"
+  },
+  {
+    "id": "DECORATION_DST_DEERCLOPS",
+    "name": "Deerclops-beeld",
+    "thumb": "icons/structures/64/DECORATION_DST_DEERCLOPS.png"
+  },
+  {
+    "id": "DECORATION_DST_GLOMMERSTATUE",
+    "name": "Glommer-standbeeld",
+    "thumb": "icons/structures/64/DECORATION_DST_GLOMMERSTATUE.png"
+  },
+  {
+    "id": "DECORATION_DST_MARBLETREE",
+    "name": "Marmeren boom",
+    "thumb": "icons/structures/64/DECORATION_DST_MARBLETREE.png"
+  },
+  {
+    "id": "DECORATION_DST_PIGSTICK",
+    "name": "Varkenshoofd",
+    "thumb": "icons/structures/64/DECORATION_DST_PIGSTICK.png"
+  },
+  {
+    "id": "DECORATION_DST_SCIENCEMACHINE",
+    "name": "Wetenschapsmachine",
+    "thumb": "icons/structures/64/DECORATION_DST_SCIENCEMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DST_TREE",
+    "name": "Boombewaker in pot",
+    "thumb": "icons/structures/64/DECORATION_DST_TREE.png"
+  },
+  {
+    "id": "DECORATION_DST_WALL",
+    "name": "Muur van hooi",
+    "thumb": "icons/structures/64/DECORATION_DST_WALL.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_EGG",
+    "name": "Groot ei",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_EGG.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_HAROSTATUE",
+    "name": "Uilenbeeld",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_HAROSTATUE.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_TURUA",
+    "name": "Specimen van Turua",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_TURUA.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_WARRACKA",
+    "name": "Warracka's zaad",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_WARRACKA.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CROWN",
+    "name": "Vlag van de Kroon",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CRYSTAL",
+    "name": "Kristalvlag",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_FLAG_MUSHROOM",
+    "name": "Paddenstoelenvlag",
+    "thumb": "icons/structures/64/DECORATION_FLAG_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_FLAG_SCRIPTURE",
+    "name": "Vlag van de heilige schrift",
+    "thumb": "icons/structures/64/DECORATION_FLAG_SCRIPTURE.png"
+  },
+  {
+    "id": "DECORATION_FLOWERPOTWALL",
+    "name": "Muurbloempot",
+    "thumb": "icons/structures/64/DECORATION_FLOWERPOTWALL.png"
+  },
+  {
+    "id": "DECORATION_FLOWERVASE",
+    "name": "Bloemenvaas",
+    "thumb": "icons/structures/64/DECORATION_FLOWERVASE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_ARCH",
+    "name": "Bloemenboog",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_ARCH.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOTTLE",
+    "name": "Bloemenfles",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOX_1",
+    "name": "Cameliabed",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOX_1.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART",
+    "name": "Bloemenkar",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART_SMALL",
+    "name": "Kleine bloemenkar",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART_SMALL.png"
+  },
+  {
+    "id": "DECORATION_FOUNTAIN",
+    "name": "Kroonfontein",
+    "thumb": "icons/structures/64/DECORATION_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_GNOME1",
+    "name": "Pee",
+    "thumb": "icons/structures/64/DECORATION_GNOME1.png"
+  },
+  {
+    "id": "DECORATION_GNOME2",
+    "name": "Oh",
+    "thumb": "icons/structures/64/DECORATION_GNOME2.png"
+  },
+  {
+    "id": "DECORATION_GNOME3",
+    "name": "Gee",
+    "thumb": "icons/structures/64/DECORATION_GNOME3.png"
+  },
+  {
+    "id": "DECORATION_GOAT_LANTERN",
+    "name": "De Geitlantaarn",
+    "thumb": "icons/structures/64/DECORATION_GOAT_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_GOAT_PLANT",
+    "name": "De Geitvaas",
+    "thumb": "icons/structures/64/DECORATION_GOAT_PLANT.png"
+  },
+  {
+    "id": "DECORATION_GOAT_STATUE",
+    "name": "Het Geitstandbeeld",
+    "thumb": "icons/structures/64/DECORATION_GOAT_STATUE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_CANDLE",
+    "name": "Bloedmaankaars",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_PUMPKIN",
+    "name": "Bloedmaanpompoen",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_PUMPKIN.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_SKULL",
+    "name": "Bloedmaanschedel",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_SKULL.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_TREE",
+    "name": "Bloedmaanboom",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_HAY_BALE",
+    "name": "Hooibaal",
+    "thumb": "icons/structures/64/DECORATION_HAY_BALE.png"
+  },
+  {
+    "id": "DECORATION_HAY_PILE",
+    "name": "Hooistapel",
+    "thumb": "icons/structures/64/DECORATION_HAY_PILE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_FLAG_STATUE",
+    "name": "Standbeeld met de vlag van het Lam",
+    "thumb": "icons/structures/64/DECORATION_LAMB_FLAG_STATUE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_STATUE",
+    "name": "Lamstandbeeld",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_LEAFYLAMPPOST",
+    "name": "Lantaarnpaal met bladeren",
+    "thumb": "icons/structures/64/DECORATION_LEAFYLAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_FLOWER_SCULPTURE",
+    "name": "Beeld van bloemen en bladeren",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_FLOWER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_LANTERN",
+    "name": "Lantaarn met bladeren",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_SCULPTURE",
+    "name": "Beeld van bladeren",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_MONSTERSHRINE",
+    "name": "Massive Monster-altaar",
+    "thumb": "icons/structures/64/DECORATION_MONSTERSHRINE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_1",
+    "name": "Kleine paddenstoel",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_2",
+    "name": "Trosje paddenstoelen",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_1",
+    "name": "Kleine paddenstoelenkandelaar",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_2",
+    "name": "Grote paddenstoelenkandelaar",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_LARGE",
+    "name": "Paddenstoelenaltaar met kaarsen",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_LARGE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_SCULPTURE",
+    "name": "Paddenstoelenbeeld",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_CRYSTAL",
+    "name": "Bloederige steen",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FLAG",
+    "name": "Vlag van het Oude Geloof",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FLAG.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FOUNTAIN",
+    "name": "Bron van verlatenheid",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_IRONMAIDEN",
+    "name": "IJzeren maagd van het Oude Geloof",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_SHRINE",
+    "name": "Altaar van het Oude Geloof",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_SHRINE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_TORCH",
+    "name": "De eeuwig brandende vlam",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_TORCH.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_WALL",
+    "name": "Muren van verwoesting",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_WALL.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LAMB",
+    "name": "Lamball Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LAMB.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LANTERN",
+    "name": "Palsphere Lantern",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_PLANT",
+    "name": "Houseless Plant",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_PLANT.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_STATUE",
+    "name": "Great Eagle Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_STATUE.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_TREE",
+    "name": "Skilled Bonsai Tree",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_TREE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_BONSAI",
+    "name": "Bonsaiboom",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_BONSAI.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_LANTERN",
+    "name": "Hangende lantaarn",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_PAGODA",
+    "name": "Kleine pagode",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_PAGODA.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_VASE",
+    "name": "Vaas met pioenrozen",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_VASE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_WALL",
+    "name": "Muur van bamboe",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_WALL.png"
+  },
+  {
+    "id": "DECORATION_PLUSH",
+    "name": "Pluche lam",
+    "thumb": "icons/structures/64/DECORATION_PLUSH.png"
+  },
+  {
+    "id": "DECORATION_POND",
+    "name": "Vijver",
+    "thumb": "icons/structures/64/DECORATION_POND.png"
+  },
+  {
+    "id": "DECORATION_POST_BOX",
+    "name": "Gebedsdoosje",
+    "thumb": "icons/structures/64/DECORATION_POST_BOX.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_PILE",
+    "name": "Pompoenenstapel",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_PILE.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_STOOL",
+    "name": "Uitgesneden pompoen",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_STOOL.png"
+  },
+  {
+    "id": "DECORATION_SHRUB",
+    "name": "Simpele struik",
+    "thumb": "icons/structures/64/DECORATION_SHRUB.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_CRUCIFIX",
+    "name": "Kruis bedekt met rozen",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_CRUCIFIX.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS1",
+    "name": "Bloemen der verleiding",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS1.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS2",
+    "name": "Vaas der ijdelheid",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS2.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_INCENSE",
+    "name": "Zondig wierook",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_INCENSE.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_SKULL",
+    "name": "Schedel der onzuiverheid",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_SKULL.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_STATUE",
+    "name": "Lam van goud",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_SMALL_STONE_CANDLE",
+    "name": "Kaars op een kleine steen",
+    "thumb": "icons/structures/64/DECORATION_SMALL_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_LANTERN",
+    "name": "Spinnenlantaarn",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_PILLAR",
+    "name": "Spinnenpilaar",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_SCULPTURE",
+    "name": "Beeld van spinrag",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_TORCH",
+    "name": "Spinnenfakkel",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_TORCH.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+    "name": "Beeld van een kroon met spinnenwebben",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_WEB_CROWN_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_STONE",
+    "name": "Eeuwenoude stenen",
+    "thumb": "icons/structures/64/DECORATION_STONE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE",
+    "name": "Steen met kaars",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE_LAMP",
+    "name": "Steenlamp",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE_LAMP.png"
+  },
+  {
+    "id": "DECORATION_STONE_FLAG",
+    "name": "Steen met vlag",
+    "thumb": "icons/structures/64/DECORATION_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_STONE_HENGE",
+    "name": "Stonehenge",
+    "thumb": "icons/structures/64/DECORATION_STONE_HENGE.png"
+  },
+  {
+    "id": "DECORATION_STONE_MUSHROOM",
+    "name": "Stenen paddenstoel",
+    "thumb": "icons/structures/64/DECORATION_STONE_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_STUMP_LAMB_STATUE",
+    "name": "Lamstandbeeld van een boomstronk",
+    "thumb": "icons/structures/64/DECORATION_STUMP_LAMB_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TORCH",
+    "name": "Fakkel",
+    "thumb": "icons/structures/64/DECORATION_TORCH.png"
+  },
+  {
+    "id": "DECORATION_TORCH_BIG",
+    "name": "Grote fakkel",
+    "thumb": "icons/structures/64/DECORATION_TORCH_BIG.png"
+  },
+  {
+    "id": "DECORATION_TREE",
+    "name": "Struik in pot",
+    "thumb": "icons/structures/64/DECORATION_TREE.png"
+  },
+  {
+    "id": "DECORATION_TWIG_LAMP",
+    "name": "Houten lantaarns",
+    "thumb": "icons/structures/64/DECORATION_TWIG_LAMP.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_FLAG_CROWN",
+    "name": "Vlag van de Kroon",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_MUSHROOM_BAG",
+    "name": "Tas vol paddenstoelen",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_MUSHROOM_BAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_ROSE_BUSH",
+    "name": "Struik in pot",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_ROSE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_FLAG",
+    "name": "Steen met vlag",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_STATUE",
+    "name": "Stenen standbeeld",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_WOODEN_GUARDIAN",
+    "name": "Houten bewaker",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_WOODEN_GUARDIAN.png"
+  },
+  {
+    "id": "DECORATION_VIDEO",
+    "name": "Het alziende oog van de getuige",
+    "thumb": "icons/structures/64/DECORATION_VIDEO.png"
+  },
+  {
+    "id": "DECORATION_WALL_BONE",
+    "name": "Muur van beenderen",
+    "thumb": "icons/structures/64/DECORATION_WALL_BONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_GRASS",
+    "name": "Muur van gras",
+    "thumb": "icons/structures/64/DECORATION_WALL_GRASS.png"
+  },
+  {
+    "id": "DECORATION_WALL_SPIDER",
+    "name": "Spinragmuur",
+    "thumb": "icons/structures/64/DECORATION_WALL_SPIDER.png"
+  },
+  {
+    "id": "DECORATION_WALL_STONE",
+    "name": "Muur van steen",
+    "thumb": "icons/structures/64/DECORATION_WALL_STONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_TWIGS",
+    "name": "Muur van takken",
+    "thumb": "icons/structures/64/DECORATION_WALL_TWIGS.png"
+  },
+  {
+    "id": "DECORATION_WATERINGCAN",
+    "name": "Gieter",
+    "thumb": "icons/structures/64/DECORATION_WATERINGCAN.png"
+  },
+  {
+    "id": "DECORATION_WEEPINGSHRINE",
+    "name": "Schreiend altaar",
+    "thumb": "icons/structures/64/DECORATION_WEEPINGSHRINE.png"
+  },
+  {
+    "id": "DECORATION_WREATH_STICK",
+    "name": "Krans",
+    "thumb": "icons/structures/64/DECORATION_WREATH_STICK.png"
+  },
+  {
+    "id": "DEMON_SUMMONER",
+    "name": "Demonische oproepkring",
+    "thumb": "icons/structures/64/DEMON_SUMMONER.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_2",
+    "name": "Demonische oproepkring II",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_2.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_3",
+    "name": "Demonische oproepkring III",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_3.png"
+  },
+  {
+    "id": "DRUM_CIRCLE",
+    "name": "Trommelkring",
+    "thumb": "icons/structures/64/DRUM_CIRCLE.png"
+  },
+  {
+    "id": "FARM_CROP_GROWER",
+    "name": "Ontdooiende-oogsttotem",
+    "thumb": "icons/structures/64/FARM_CROP_GROWER.png"
+  },
+  {
+    "id": "FARM_PLOT",
+    "name": "Landbouwperceel",
+    "thumb": "icons/structures/64/FARM_PLOT.png"
+  },
+  {
+    "id": "FARM_PLOT_SIGN",
+    "name": "Bord landbouwperceel",
+    "thumb": "icons/structures/64/FARM_PLOT_SIGN.png"
+  },
+  {
+    "id": "FARM_STATION",
+    "name": "Landbouwstation",
+    "thumb": "icons/structures/64/FARM_STATION.png"
+  },
+  {
+    "id": "FARM_STATION_II",
+    "name": "Landbouwstation II",
+    "thumb": "icons/structures/64/FARM_STATION_II.png"
+  },
+  {
+    "id": "FEAST_TABLE",
+    "name": "Banket",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE",
+    "name": "Voedselopslag",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE_2",
+    "name": "Voedselopslag II",
+    "thumb": null
+  },
+  {
+    "id": "FORAGING_SHRINE",
+    "name": "Verzamelaltaar",
+    "thumb": null
+  },
+  {
+    "id": "FURNACE_1",
+    "name": "Rotsteenoven",
+    "thumb": "icons/structures/64/FURNACE_1.png"
+  },
+  {
+    "id": "FURNACE_2",
+    "name": "Rotsteenoven II",
+    "thumb": "icons/structures/64/FURNACE_2.png"
+  },
+  {
+    "id": "FURNACE_3",
+    "name": "Rotsteenoven III",
+    "thumb": "icons/structures/64/FURNACE_3.png"
+  },
+  {
+    "id": "GRAVE",
+    "name": "Graf",
+    "thumb": "icons/structures/64/GRAVE.png"
+  },
+  {
+    "id": "HARVEST_TOTEM",
+    "name": "Oogsttotem",
+    "thumb": "icons/structures/64/HARVEST_TOTEM.png"
+  },
+  {
+    "id": "HARVEST_TOTEM_2",
+    "name": "Devotie-oogsttotem",
+    "thumb": "icons/structures/64/HARVEST_TOTEM_2.png"
+  },
+  {
+    "id": "HATCHERY",
+    "name": "Broedplaats",
+    "thumb": "icons/structures/64/HATCHERY.png"
+  },
+  {
+    "id": "HATCHERY_2",
+    "name": "Broedplaats II",
+    "thumb": "icons/structures/64/HATCHERY_2.png"
+  },
+  {
+    "id": "HEALING_BAY",
+    "name": "Verpleegpost",
+    "thumb": "icons/structures/64/HEALING_BAY.png"
+  },
+  {
+    "id": "HEALING_BAY_2",
+    "name": "Verbeterde verpleegpost",
+    "thumb": "icons/structures/64/HEALING_BAY_2.png"
+  },
+  {
+    "id": "JANITOR_STATION",
+    "name": "Schoonmaakstation",
+    "thumb": "icons/structures/64/JANITOR_STATION.png"
+  },
+  {
+    "id": "JANITOR_STATION_2",
+    "name": "Schoonmaakstation II",
+    "thumb": "icons/structures/64/JANITOR_STATION_2.png"
+  },
+  {
+    "id": "KITCHEN",
+    "name": "Keuken",
+    "thumb": "icons/structures/64/KITCHEN.png"
+  },
+  {
+    "id": "KITCHEN_II",
+    "name": "Keuken",
+    "thumb": null
+  },
+  {
+    "id": "KNUCKLEBONES_ARENA",
+    "name": "Bikkelspelarena",
+    "thumb": "icons/structures/64/KNUCKLEBONES_ARENA.png"
+  },
+  {
+    "id": "LEADER_TENT",
+    "name": "Leidertent",
+    "thumb": "icons/structures/64/LEADER_TENT.png"
+  },
+  {
+    "id": "LIGHTNING_ROD",
+    "name": "Bliksemafleider",
+    "thumb": "icons/structures/64/LIGHTNING_ROD.png"
+  },
+  {
+    "id": "LIGHTNING_ROD_2",
+    "name": "Bliksemafleider II",
+    "thumb": "icons/structures/64/LIGHTNING_ROD_2.png"
+  },
+  {
+    "id": "LOGISTICS",
+    "name": "Werktent",
+    "thumb": "icons/structures/64/LOGISTICS.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION",
+    "name": "Houthakkerij",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION_2",
+    "name": "Houthakkerij II",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION_2.png"
+  },
+  {
+    "id": "MATING_TENT",
+    "name": "Paringstent",
+    "thumb": "icons/structures/64/MATING_TENT.png"
+  },
+  {
+    "id": "MEDIC",
+    "name": "Verplegerstent",
+    "thumb": "icons/structures/64/MEDIC.png"
+  },
+  {
+    "id": "MINING_SHRINE",
+    "name": "Groeve-altaar",
+    "thumb": null
+  },
+  {
+    "id": "MISSIONARY",
+    "name": "Zendingshuis",
+    "thumb": "icons/structures/64/MISSIONARY.png"
+  },
+  {
+    "id": "MISSIONARY_II",
+    "name": "Zendingshuis II",
+    "thumb": "icons/structures/64/MISSIONARY_II.png"
+  },
+  {
+    "id": "MISSIONARY_III",
+    "name": "Zendingshuis III",
+    "thumb": "icons/structures/64/MISSIONARY_III.png"
+  },
+  {
+    "id": "MORGUE_1",
+    "name": "Mortuarium",
+    "thumb": "icons/structures/64/MORGUE_1.png"
+  },
+  {
+    "id": "MORGUE_2",
+    "name": "Mortuarium II",
+    "thumb": "icons/structures/64/MORGUE_2.png"
+  },
+  {
+    "id": "OFFERING_STATUE",
+    "name": "Offerstandbeeld",
+    "thumb": "icons/structures/64/OFFERING_STATUE.png"
+  },
+  {
+    "id": "OUTHOUSE",
+    "name": "Plee",
+    "thumb": "icons/structures/64/OUTHOUSE.png"
+  },
+  {
+    "id": "OUTHOUSE_2",
+    "name": "Plee II",
+    "thumb": "icons/structures/64/OUTHOUSE_2.png"
+  },
+  {
+    "id": "PLANK_PATH",
+    "name": "Houten planken",
+    "thumb": "icons/structures/64/PLANK_PATH.png"
+  },
+  {
+    "id": "POOP",
+    "name": "Poep",
+    "thumb": null
+  },
+  {
+    "id": "POOP_BUCKET",
+    "name": "Mestopslag",
+    "thumb": "icons/structures/64/POOP_BUCKET.png"
+  },
+  {
+    "id": "PRISON",
+    "name": "Gevang",
+    "thumb": "icons/structures/64/PRISON.png"
+  },
+  {
+    "id": "PROPAGANDA_SPEAKER",
+    "name": "Propagandaspeakers",
+    "thumb": "icons/structures/64/PROPAGANDA_SPEAKER.png"
+  },
+  {
+    "id": "PROXIMITY_FURNACE",
+    "name": "Kachel",
+    "thumb": "icons/structures/64/PROXIMITY_FURNACE.png"
+  },
+  {
+    "id": "PUB",
+    "name": "Drankhuis",
+    "thumb": "icons/structures/64/PUB.png"
+  },
+  {
+    "id": "PUB_2",
+    "name": "Drankhuis II",
+    "thumb": "icons/structures/64/PUB_2.png"
+  },
+  {
+    "id": "RACING_GATE",
+    "name": "Racepoortje",
+    "thumb": "icons/structures/64/RACING_GATE.png"
+  },
+  {
+    "id": "RANCH",
+    "name": "Veeboerderij",
+    "thumb": "icons/structures/64/RANCH.png"
+  },
+  {
+    "id": "RANCH_2",
+    "name": "Veeboerderij II",
+    "thumb": "icons/structures/64/RANCH_2.png"
+  },
+  {
+    "id": "RANCH_CHOPPING_BLOCK",
+    "name": "Hakblok",
+    "thumb": "icons/structures/64/RANCH_CHOPPING_BLOCK.png"
+  },
+  {
+    "id": "RANCH_FENCE",
+    "name": "Veehek",
+    "thumb": "icons/structures/64/RANCH_FENCE.png"
+  },
+  {
+    "id": "RANCH_HUTCH",
+    "name": "Nachthok",
+    "thumb": "icons/structures/64/RANCH_HUTCH.png"
+  },
+  {
+    "id": "RANCH_TROUGH",
+    "name": "Trog",
+    "thumb": "icons/structures/64/RANCH_TROUGH.png"
+  },
+  {
+    "id": "REFINERY",
+    "name": "Raffinaderij",
+    "thumb": "icons/structures/64/REFINERY.png"
+  },
+  {
+    "id": "REFINERY_2",
+    "name": "Raffinaderij II",
+    "thumb": "icons/structures/64/REFINERY_2.png"
+  },
+  {
+    "id": "ROTSTONE_MINE",
+    "name": "Rotsteengroeve",
+    "thumb": "icons/structures/64/ROTSTONE_MINE.png"
+  },
+  {
+    "id": "ROTSTONE_MINE_2",
+    "name": "Rotsteengroeve II",
+    "thumb": "icons/structures/64/ROTSTONE_MINE_2.png"
+  },
+  {
+    "id": "SACRIFICE_TABLE",
+    "name": "Offertafel",
+    "thumb": "icons/structures/64/SACRIFICE_TABLE.png"
+  },
+  {
+    "id": "SCARECROW",
+    "name": "Vogelverschrikker",
+    "thumb": "icons/structures/64/SCARECROW.png"
+  },
+  {
+    "id": "SCARECROW_2",
+    "name": "Vogelverschrikkerval",
+    "thumb": "icons/structures/64/SCARECROW_2.png"
+  },
+  {
+    "id": "SEED_BUCKET",
+    "name": "Zaadopslag",
+    "thumb": "icons/structures/64/SEED_BUCKET.png"
+  },
+  {
+    "id": "SHARED_HOUSE",
+    "name": "Gedeelde blokhut",
+    "thumb": "icons/structures/64/SHARED_HOUSE.png"
+  },
+  {
+    "id": "SHRINE",
+    "name": "Altaar",
+    "thumb": "icons/structures/64/SHRINE.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_BOOST",
+    "name": "Krachtig altaar der discipelen",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_BOOST.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_COLLECTION",
+    "name": "Verzamelaltaar der discipelen",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_COLLECTION.png"
+  },
+  {
+    "id": "SHRINE_II",
+    "name": "Altaar II",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_III",
+    "name": "Altaar III",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_IV",
+    "name": "Altaar IV",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_PASSIVE",
+    "name": "Tabernakel",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_II",
+    "name": "Tabernakel II",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_II.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_III",
+    "name": "Tabernakel III",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_III.png"
+  },
+  {
+    "id": "SHRINE_PLEASURE",
+    "name": "Sin Totem",
+    "thumb": null
+  },
+  {
+    "id": "SILO_FERTILISER",
+    "name": "Mestsilo",
+    "thumb": "icons/structures/64/SILO_FERTILISER.png"
+  },
+  {
+    "id": "SILO_SEED",
+    "name": "Zaadsilo",
+    "thumb": "icons/structures/64/SILO_SEED.png"
+  },
+  {
+    "id": "SURVEILLANCE",
+    "name": "Bewakingstoren",
+    "thumb": null
+  },
+  {
+    "id": "TAILOR",
+    "name": "Kleermaker",
+    "thumb": "icons/structures/64/TAILOR.png"
+  },
+  {
+    "id": "TEMPLE",
+    "name": "Tempel",
+    "thumb": "icons/structures/64/TEMPLE.png"
+  },
+  {
+    "id": "TEMPLE_II",
+    "name": "Sekte II",
+    "thumb": "icons/structures/64/TEMPLE_II.png"
+  },
+  {
+    "id": "TEMPLE_III",
+    "name": "Sekte III",
+    "thumb": "icons/structures/64/TEMPLE_III.png"
+  },
+  {
+    "id": "TEMPLE_IV",
+    "name": "Sekte IV",
+    "thumb": "icons/structures/64/TEMPLE_IV.png"
+  },
+  {
+    "id": "TILE_BLOOD",
+    "name": "Lavavloer",
+    "thumb": "icons/structures/64/TILE_BLOOD.png"
+  },
+  {
+    "id": "TILE_BRICKS",
+    "name": "Bakstenen vloer",
+    "thumb": "icons/structures/64/TILE_BRICKS.png"
+  },
+  {
+    "id": "TILE_FLOWERS",
+    "name": "Bloemenvloer",
+    "thumb": "icons/structures/64/TILE_FLOWERS.png"
+  },
+  {
+    "id": "TILE_FLOWERSROCKY",
+    "name": "Bosvloer",
+    "thumb": "icons/structures/64/TILE_FLOWERSROCKY.png"
+  },
+  {
+    "id": "TILE_GOLD",
+    "name": "Gouden vloer",
+    "thumb": "icons/structures/64/TILE_GOLD.png"
+  },
+  {
+    "id": "TILE_HAY",
+    "name": "Hooivloer",
+    "thumb": "icons/structures/64/TILE_HAY.png"
+  },
+  {
+    "id": "TILE_MOSAIC",
+    "name": "Mozaïekvloer",
+    "thumb": "icons/structures/64/TILE_MOSAIC.png"
+  },
+  {
+    "id": "TILE_OLDFAITH",
+    "name": "Vloer van het Oude Geloof",
+    "thumb": "icons/structures/64/TILE_OLDFAITH.png"
+  },
+  {
+    "id": "TILE_PATH",
+    "name": "Aardevloer",
+    "thumb": "icons/structures/64/TILE_PATH.png"
+  },
+  {
+    "id": "TILE_PLANKS",
+    "name": "Planken vloer",
+    "thumb": "icons/structures/64/TILE_PLANKS.png"
+  },
+  {
+    "id": "TILE_REDGRASS",
+    "name": "Vloer van rood tapijt",
+    "thumb": "icons/structures/64/TILE_REDGRASS.png"
+  },
+  {
+    "id": "TILE_ROCKS",
+    "name": "Geplaveide vloer",
+    "thumb": "icons/structures/64/TILE_ROCKS.png"
+  },
+  {
+    "id": "TILE_SPOOKYPLANKS",
+    "name": "Vloer met markeringen",
+    "thumb": "icons/structures/64/TILE_SPOOKYPLANKS.png"
+  },
+  {
+    "id": "TILE_WATER",
+    "name": "Vijvervlak",
+    "thumb": "icons/structures/64/TILE_WATER.png"
+  },
+  {
+    "id": "TOOLSHED",
+    "name": "Timmermanswerkplaats",
+    "thumb": "icons/structures/64/TOOLSHED.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_1",
+    "name": "Uitdrijvingsaltaar",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_1.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_2",
+    "name": "Uitdrijvingsaltaar II",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_2.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_3",
+    "name": "Uitdrijvingsaltaar III",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_3.png"
+  },
+  {
+    "id": "VOLCANIC_SPA",
+    "name": "Doopbad",
+    "thumb": "icons/structures/64/VOLCANIC_SPA.png"
+  },
+  {
+    "id": "VOMIT",
+    "name": "Braaksel",
+    "thumb": null
+  },
+  {
+    "id": "WEATHER_VANE",
+    "name": "Weervaan",
+    "thumb": "icons/structures/64/WEATHER_VANE.png"
+  },
+  {
+    "id": "WOLF_TRAP",
+    "name": "Wolvenval",
+    "thumb": "icons/structures/64/WOLF_TRAP.png"
+  },
+  {
+    "id": "WOOLY_SHACK",
+    "name": "Wooly Shack",
+    "thumb": "icons/structures/64/WOOLY_SHACK.png"
+  }
+]

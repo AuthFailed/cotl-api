@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Ritual_Fast",
+    "name": "Fast",
+    "thumb": null
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Feast",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  }
+]

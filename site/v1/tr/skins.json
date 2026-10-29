@@ -1,0 +1,837 @@
+[
+  {
+    "id": "Anglerfish",
+    "name": "Anglerfish",
+    "thumb": null
+  },
+  {
+    "id": "Anteater",
+    "name": "Anteater",
+    "thumb": null
+  },
+  {
+    "id": "Armadillo",
+    "name": "Armadillo",
+    "thumb": null
+  },
+  {
+    "id": "Axolotl",
+    "name": "Axolotl",
+    "thumb": null
+  },
+  {
+    "id": "Badger",
+    "name": "Badger",
+    "thumb": null
+  },
+  {
+    "id": "Bat",
+    "name": "Bat",
+    "thumb": null
+  },
+  {
+    "id": "BatDemon",
+    "name": "BatDemon",
+    "thumb": null
+  },
+  {
+    "id": "Bear",
+    "name": "Bear",
+    "thumb": null
+  },
+  {
+    "id": "Beaver",
+    "name": "Apple_4",
+    "thumb": null
+  },
+  {
+    "id": "Bee",
+    "name": "Bee",
+    "thumb": null
+  },
+  {
+    "id": "Beetle",
+    "name": "Beetle",
+    "thumb": null
+  },
+  {
+    "id": "Beluga",
+    "name": "Beluga",
+    "thumb": null
+  },
+  {
+    "id": "Bison",
+    "name": "Bison",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_1",
+    "name": "Boss Beholder 1",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_2",
+    "name": "Boss Beholder 2",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_3",
+    "name": "Boss Beholder 3",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_4",
+    "name": "Boss Beholder 4",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_5",
+    "name": "Beholder 5",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Beholder_6",
+    "name": "Beholder 6",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Burrow_Worm",
+    "name": "Boss Burrow Worm",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Charger",
+    "name": "Boss Charger",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_1",
+    "name": "Boss Dog 1",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_2",
+    "name": "Boss Dog 2",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_3",
+    "name": "Boss Dog 3",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_4",
+    "name": "Boss Dog 4",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_5",
+    "name": "Boss Dog 5",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Dog_6",
+    "name": "Boss Dog 6",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Egg_Hopper",
+    "name": "Boss Egg Hopper",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Flying_Burp_Frog",
+    "name": "Boss Flying Burp Frog",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Mama_Maggot",
+    "name": "Boss Mama Maggot",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Mama_Worm",
+    "name": "Boss Mama Worm",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Millipede_Poisoner",
+    "name": "Boss Millipede Poisoner",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Mortar_Hopper",
+    "name": "Boss Mortar Hopper",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Rot_1",
+    "name": "Boss Rot 1",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Rot_2",
+    "name": "Boss Rot 2",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Rot_3",
+    "name": "Boss Rot 3",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Rot_4",
+    "name": "Boss Rot 4",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Scorpion",
+    "name": "Boss Scorpion",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Scuttle_Turret",
+    "name": "Boss Scuttle Turret",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Spider_Jump",
+    "name": "Boss Spider Jump",
+    "thumb": null
+  },
+  {
+    "id": "Boss_Spiker",
+    "name": "Boss Spiker",
+    "thumb": null
+  },
+  {
+    "id": "Bug",
+    "name": "Bug",
+    "thumb": null
+  },
+  {
+    "id": "BugFive",
+    "name": "BugFive",
+    "thumb": null
+  },
+  {
+    "id": "BugFour",
+    "name": "BugFour",
+    "thumb": null
+  },
+  {
+    "id": "BugThree",
+    "name": "BugThree",
+    "thumb": null
+  },
+  {
+    "id": "BugTwo",
+    "name": "BugTwo",
+    "thumb": null
+  },
+  {
+    "id": "Butterfly",
+    "name": "Butterfly",
+    "thumb": null
+  },
+  {
+    "id": "Camel",
+    "name": "Camel",
+    "thumb": null
+  },
+  {
+    "id": "Capybara",
+    "name": "Capybara",
+    "thumb": null
+  },
+  {
+    "id": "Cat",
+    "name": "Cat",
+    "thumb": null
+  },
+  {
+    "id": "Caterpillar",
+    "name": "Caterpillar",
+    "thumb": null
+  },
+  {
+    "id": "Chameleon",
+    "name": "Chameleon",
+    "thumb": null
+  },
+  {
+    "id": "Chicken",
+    "name": "Chicken",
+    "thumb": null
+  },
+  {
+    "id": "ChosenChild",
+    "name": "ChosenChild",
+    "thumb": null
+  },
+  {
+    "id": "Cow",
+    "name": "Cow",
+    "thumb": null
+  },
+  {
+    "id": "Crab",
+    "name": "Crab",
+    "thumb": null
+  },
+  {
+    "id": "Crocodile",
+    "name": "Crocodile",
+    "thumb": null
+  },
+  {
+    "id": "Crow",
+    "name": "Crow",
+    "thumb": null
+  },
+  {
+    "id": "Cthulhu",
+    "name": "Cthulhu",
+    "thumb": null
+  },
+  {
+    "id": "Deer",
+    "name": "Deer",
+    "thumb": null
+  },
+  {
+    "id": "DeerSkull",
+    "name": "DeerSkull",
+    "thumb": null
+  },
+  {
+    "id": "Deer_ritual",
+    "name": "DeerRitual",
+    "thumb": null
+  },
+  {
+    "id": "Dog",
+    "name": "Dog",
+    "thumb": null
+  },
+  {
+    "id": "DogTeddy",
+    "name": "DogTeddy",
+    "thumb": null
+  },
+  {
+    "id": "Dragon",
+    "name": "Dragon",
+    "thumb": null
+  },
+  {
+    "id": "DragonFive",
+    "name": "DragonFive",
+    "thumb": null
+  },
+  {
+    "id": "DragonFour",
+    "name": "DragonFour",
+    "thumb": null
+  },
+  {
+    "id": "DragonThree",
+    "name": "DragonThree",
+    "thumb": null
+  },
+  {
+    "id": "DragonTwo",
+    "name": "DragonTwo",
+    "thumb": null
+  },
+  {
+    "id": "Duck",
+    "name": "Duck",
+    "thumb": null
+  },
+  {
+    "id": "Eagle",
+    "name": "Eagle",
+    "thumb": null
+  },
+  {
+    "id": "Elephant",
+    "name": "Elephant",
+    "thumb": null
+  },
+  {
+    "id": "Enchida",
+    "name": "Enchida",
+    "thumb": null
+  },
+  {
+    "id": "Fennec_Fox",
+    "name": "Fennec Fox",
+    "thumb": null
+  },
+  {
+    "id": "Fish",
+    "name": "Fish",
+    "thumb": null
+  },
+  {
+    "id": "Fly",
+    "name": "Fly",
+    "thumb": null
+  },
+  {
+    "id": "Fox",
+    "name": "Fox",
+    "thumb": null
+  },
+  {
+    "id": "Frog",
+    "name": "Frog",
+    "thumb": null
+  },
+  {
+    "id": "Giraffe",
+    "name": "Giraffe",
+    "thumb": null
+  },
+  {
+    "id": "Goldfish",
+    "name": "Goldfish",
+    "thumb": null
+  },
+  {
+    "id": "Gorilla",
+    "name": "Gorilla",
+    "thumb": null
+  },
+  {
+    "id": "Hammerhead",
+    "name": "Hammerhead",
+    "thumb": null
+  },
+  {
+    "id": "Hedgehog",
+    "name": "Hedgehog",
+    "thumb": null
+  },
+  {
+    "id": "Hippo",
+    "name": "Hippo",
+    "thumb": null
+  },
+  {
+    "id": "Horse",
+    "name": "Horse",
+    "thumb": null
+  },
+  {
+    "id": "Hyena",
+    "name": "Hyena",
+    "thumb": null
+  },
+  {
+    "id": "Ibex",
+    "name": "Ibex",
+    "thumb": null
+  },
+  {
+    "id": "IceGore",
+    "name": "IceGore",
+    "thumb": null
+  },
+  {
+    "id": "Jackalope",
+    "name": "Jackalope",
+    "thumb": null
+  },
+  {
+    "id": "Jellyfish",
+    "name": "JellyFish",
+    "thumb": null
+  },
+  {
+    "id": "Kiwi",
+    "name": "Kiwi",
+    "thumb": null
+  },
+  {
+    "id": "Koala",
+    "name": "Koala",
+    "thumb": null
+  },
+  {
+    "id": "LadyBug",
+    "name": "LadyBug",
+    "thumb": null
+  },
+  {
+    "id": "Lamb",
+    "name": "Lamb",
+    "thumb": null
+  },
+  {
+    "id": "Leech",
+    "name": "Leech",
+    "thumb": null
+  },
+  {
+    "id": "Lemur",
+    "name": "Lemur",
+    "thumb": null
+  },
+  {
+    "id": "Leopard",
+    "name": "Leopard",
+    "thumb": null
+  },
+  {
+    "id": "Lion",
+    "name": "Lion",
+    "thumb": null
+  },
+  {
+    "id": "Lizard",
+    "name": "Lizard",
+    "thumb": null
+  },
+  {
+    "id": "LizardTongue",
+    "name": "LizardTongue",
+    "thumb": null
+  },
+  {
+    "id": "Llama",
+    "name": "Llama",
+    "thumb": null
+  },
+  {
+    "id": "Lobster",
+    "name": "Apple_5",
+    "thumb": null
+  },
+  {
+    "id": "Maggot",
+    "name": "Maggot",
+    "thumb": null
+  },
+  {
+    "id": "Mammoth",
+    "name": "Mammoth",
+    "thumb": null
+  },
+  {
+    "id": "MassiveMonster",
+    "name": "Massive Monster",
+    "thumb": null
+  },
+  {
+    "id": "Mole",
+    "name": "Mole",
+    "thumb": null
+  },
+  {
+    "id": "Monkey",
+    "name": "Monkey",
+    "thumb": null
+  },
+  {
+    "id": "Moose",
+    "name": "Moose",
+    "thumb": null
+  },
+  {
+    "id": "Mosquito",
+    "name": "Mosquito",
+    "thumb": null
+  },
+  {
+    "id": "Moth",
+    "name": "Moth",
+    "thumb": null
+  },
+  {
+    "id": "Mushroom",
+    "name": "Mushroom",
+    "thumb": null
+  },
+  {
+    "id": "NakedMoleRat",
+    "name": "MoleRat",
+    "thumb": null
+  },
+  {
+    "id": "Narwal",
+    "name": "Narwal",
+    "thumb": null
+  },
+  {
+    "id": "Nightwolf",
+    "name": "Night Wolf",
+    "thumb": null
+  },
+  {
+    "id": "Orangutan",
+    "name": "Apple_1",
+    "thumb": null
+  },
+  {
+    "id": "Orca",
+    "name": "Orca",
+    "thumb": null
+  },
+  {
+    "id": "Otter",
+    "name": "Otter",
+    "thumb": null
+  },
+  {
+    "id": "Owl",
+    "name": "Owl",
+    "thumb": null
+  },
+  {
+    "id": "PalworldFive",
+    "name": "PalworldFive",
+    "thumb": null
+  },
+  {
+    "id": "PalworldFour",
+    "name": "PalworldFour",
+    "thumb": null
+  },
+  {
+    "id": "PalworldOne",
+    "name": "PalworldOne",
+    "thumb": null
+  },
+  {
+    "id": "PalworldThree",
+    "name": "PalworldThree",
+    "thumb": null
+  },
+  {
+    "id": "PalworldTwo",
+    "name": "PalworldTwo",
+    "thumb": null
+  },
+  {
+    "id": "Panda",
+    "name": "Panda",
+    "thumb": null
+  },
+  {
+    "id": "Pangolin",
+    "name": "Pangolin",
+    "thumb": null
+  },
+  {
+    "id": "Pelican",
+    "name": "Pelican",
+    "thumb": null
+  },
+  {
+    "id": "Penguin",
+    "name": "Penguin",
+    "thumb": null
+  },
+  {
+    "id": "Pig",
+    "name": "Pig",
+    "thumb": null
+  },
+  {
+    "id": "PolarBear",
+    "name": "Polar Bear",
+    "thumb": null
+  },
+  {
+    "id": "Poop",
+    "name": "Poop",
+    "thumb": null
+  },
+  {
+    "id": "Poppy",
+    "name": "Poppy",
+    "thumb": null
+  },
+  {
+    "id": "Possum",
+    "name": "Possum",
+    "thumb": null
+  },
+  {
+    "id": "Pudding",
+    "name": "Pudding",
+    "thumb": null
+  },
+  {
+    "id": "Rabbit",
+    "name": "Rabbit",
+    "thumb": null
+  },
+  {
+    "id": "Raccoon",
+    "name": "Racoon",
+    "thumb": null
+  },
+  {
+    "id": "Red_Panda",
+    "name": "Red Panda",
+    "thumb": null
+  },
+  {
+    "id": "Reindeer",
+    "name": "Reindeer",
+    "thumb": null
+  },
+  {
+    "id": "Rhino",
+    "name": "Rhino",
+    "thumb": null
+  },
+  {
+    "id": "Robin",
+    "name": "Apple_2",
+    "thumb": null
+  },
+  {
+    "id": "SeaButterfly",
+    "name": "SeaButterfly",
+    "thumb": null
+  },
+  {
+    "id": "Seahorse",
+    "name": "Seahorse",
+    "thumb": null
+  },
+  {
+    "id": "Seal",
+    "name": "Seal",
+    "thumb": null
+  },
+  {
+    "id": "Shrew",
+    "name": "Shrew",
+    "thumb": null
+  },
+  {
+    "id": "Shrimp",
+    "name": "Shrimp",
+    "thumb": null
+  },
+  {
+    "id": "Skunk",
+    "name": "Skunk",
+    "thumb": null
+  },
+  {
+    "id": "Snail",
+    "name": "Snail",
+    "thumb": null
+  },
+  {
+    "id": "Snake",
+    "name": "Snake",
+    "thumb": null
+  },
+  {
+    "id": "SnowMonkey",
+    "name": "SnowMonkey",
+    "thumb": null
+  },
+  {
+    "id": "Sphynx",
+    "name": "Sphynx",
+    "thumb": null
+  },
+  {
+    "id": "Squirrel",
+    "name": "Squirrel",
+    "thumb": null
+  },
+  {
+    "id": "StarBunny",
+    "name": "StarBunny",
+    "thumb": null
+  },
+  {
+    "id": "Starfish",
+    "name": "Starfish",
+    "thumb": null
+  },
+  {
+    "id": "Tapir",
+    "name": "Tapir",
+    "thumb": null
+  },
+  {
+    "id": "Tiger",
+    "name": "Tiger",
+    "thumb": null
+  },
+  {
+    "id": "Trout",
+    "name": "Apple_3",
+    "thumb": null
+  },
+  {
+    "id": "Turtle",
+    "name": "Turtle",
+    "thumb": null
+  },
+  {
+    "id": "TwitchCat",
+    "name": "TwitchCat",
+    "thumb": null
+  },
+  {
+    "id": "TwitchDog",
+    "name": "TwitchDog",
+    "thumb": null
+  },
+  {
+    "id": "TwitchDogAlt",
+    "name": "TwitchDogAlt",
+    "thumb": null
+  },
+  {
+    "id": "TwitchMouse",
+    "name": "TwitchMouse",
+    "thumb": null
+  },
+  {
+    "id": "TwitchPoggers",
+    "name": "TwitchPoggers",
+    "thumb": null
+  },
+  {
+    "id": "Unicorn",
+    "name": "Unicorn",
+    "thumb": null
+  },
+  {
+    "id": "Volvy",
+    "name": "Volvy",
+    "thumb": null
+  },
+  {
+    "id": "Vulture",
+    "name": "Vulture",
+    "thumb": null
+  },
+  {
+    "id": "Webber",
+    "name": "Webber",
+    "thumb": null
+  },
+  {
+    "id": "Wombat",
+    "name": "Wombat",
+    "thumb": null
+  },
+  {
+    "id": "Worm",
+    "name": "Worm",
+    "thumb": null
+  }
+]

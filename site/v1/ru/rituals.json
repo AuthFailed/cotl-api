@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Ritual_AlmsToPoor",
+    "name": "Раздача милостыни",
+    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png"
+  },
+  {
+    "id": "Ritual_Ascend",
+    "name": "Вознесение",
+    "thumb": "icons/rituals/64/Ritual_Ascend.png"
+  },
+  {
+    "id": "Ritual_AssignFaithEnforcer",
+    "name": "Исправление нравов",
+    "thumb": "icons/rituals/64/Ritual_AssignFaithEnforcer.png"
+  },
+  {
+    "id": "Ritual_AssignTaxCollector",
+    "name": "Сбор налогов",
+    "thumb": "icons/rituals/64/Ritual_AssignTaxCollector.png"
+  },
+  {
+    "id": "Ritual_AtoneSin",
+    "name": "Гордыня грешников",
+    "thumb": "icons/rituals/64/Ritual_AtoneSin.png"
+  },
+  {
+    "id": "Ritual_BecomeDisciple",
+    "name": "Посвящение в ученики",
+    "thumb": "icons/rituals/64/Ritual_BecomeDisciple.png"
+  },
+  {
+    "id": "Ritual_Brainwashing",
+    "name": "Промывание мозгов",
+    "thumb": "icons/rituals/64/Ritual_Brainwashing.png"
+  },
+  {
+    "id": "Ritual_Cannibal",
+    "name": "Чревоугодие каннибалов",
+    "thumb": "icons/rituals/64/Ritual_Cannibal.png"
+  },
+  {
+    "id": "Ritual_ConvertToRot",
+    "name": "Гниение",
+    "thumb": "icons/rituals/64/Ritual_ConvertToRot.png"
+  },
+  {
+    "id": "Ritual_DonationRitual",
+    "name": "Обогащение",
+    "thumb": "icons/rituals/64/Ritual_DonationRitual.png"
+  },
+  {
+    "id": "Ritual_Enlightenment",
+    "name": "Просветление",
+    "thumb": "icons/rituals/64/Ritual_Enlightenment.png"
+  },
+  {
+    "id": "Ritual_Fast",
+    "name": "Пост",
+    "thumb": "icons/rituals/64/Ritual_Fast.png"
+  },
+  {
+    "id": "Ritual_FasterBuilding",
+    "name": "Радость созидания",
+    "thumb": "icons/rituals/64/Ritual_FasterBuilding.png"
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Пир",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  },
+  {
+    "id": "Ritual_Fightpit",
+    "name": "Ритуальный поединок",
+    "thumb": "icons/rituals/64/Ritual_Fightpit.png"
+  },
+  {
+    "id": "Ritual_FirePit",
+    "name": "Огненная яма",
+    "thumb": "icons/rituals/64/Ritual_FirePit.png"
+  },
+  {
+    "id": "Ritual_FishingRitual",
+    "name": "Благословение океана",
+    "thumb": "icons/rituals/64/Ritual_FishingRitual.png"
+  },
+  {
+    "id": "Ritual_FollowerWedding",
+    "name": "Бракосочетание последователей",
+    "thumb": "icons/rituals/64/Ritual_FollowerWedding.png"
+  },
+  {
+    "id": "Ritual_Funeral",
+    "name": "Панихида",
+    "thumb": "icons/rituals/64/Ritual_Funeral.png"
+  },
+  {
+    "id": "Ritual_Halloween",
+    "name": "Кровавая луна",
+    "thumb": "icons/rituals/64/Ritual_Halloween.png"
+  },
+  {
+    "id": "Ritual_HarvestRitual",
+    "name": "Мольба об урожае",
+    "thumb": "icons/rituals/64/Ritual_HarvestRitual.png"
+  },
+  {
+    "id": "Ritual_Holiday",
+    "name": "Праздничный день",
+    "thumb": "icons/rituals/64/Ritual_Holiday.png"
+  },
+  {
+    "id": "Ritual_Nudism",
+    "name": "Похоть плоти",
+    "thumb": "icons/rituals/64/Ritual_Nudism.png"
+  },
+  {
+    "id": "Ritual_Purge",
+    "name": "Гнев толпы",
+    "thumb": "icons/rituals/64/Ritual_Purge.png"
+  },
+  {
+    "id": "Ritual_RanchHarvest",
+    "name": "Ритуал стрижки",
+    "thumb": "icons/rituals/64/Ritual_RanchHarvest.png"
+  },
+  {
+    "id": "Ritual_RanchMeat",
+    "name": "Ритуал насыщения",
+    "thumb": "icons/rituals/64/Ritual_RanchMeat.png"
+  },
+  {
+    "id": "Ritual_Ressurect",
+    "name": "Оживление",
+    "thumb": "icons/rituals/64/Ritual_Ressurect.png"
+  },
+  {
+    "id": "Ritual_Sacrifice",
+    "name": "Кровавый дар",
+    "thumb": "icons/rituals/64/Ritual_Sacrifice.png"
+  },
+  {
+    "id": "Ritual_Snowman",
+    "name": "Оживление льда",
+    "thumb": "icons/rituals/64/Ritual_Snowman.png"
+  },
+  {
+    "id": "Ritual_Wedding",
+    "name": "Бракосочетание",
+    "thumb": "icons/rituals/64/Ritual_Wedding.png"
+  },
+  {
+    "id": "Ritual_WorkThroughNight",
+    "name": "Радость служения",
+    "thumb": "icons/rituals/64/Ritual_WorkThroughNight.png"
+  }
+]

@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/CRYPT_2.png",
   "upgradesFrom": "CRYPT_1",
   "upgradesTo": [
     "CRYPT_3"

@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "BED",
+    "name": "Schlafsack",
+    "thumb": "icons/structures/64/BED.png"
+  },
+  {
+    "id": "BED_2",
+    "name": "Unterkunft",
+    "thumb": "icons/structures/64/BED_2.png"
+  },
+  {
+    "id": "BED_3",
+    "name": "Große Unterkunft",
+    "thumb": "icons/structures/64/BED_3.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE",
+    "name": "Steinmine",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE_2",
+    "name": "Steinmine II",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE_2.png"
+  },
+  {
+    "id": "BODY_PIT",
+    "name": "Leichengrube",
+    "thumb": "icons/structures/64/BODY_PIT.png"
+  },
+  {
+    "id": "CHOPPING_SHRINE",
+    "name": "Schrein des Holzhackens",
+    "thumb": "icons/structures/64/CHOPPING_SHRINE.png"
+  },
+  {
+    "id": "COMPOST_BIN",
+    "name": "Kompostbehälter",
+    "thumb": "icons/structures/64/COMPOST_BIN.png"
+  },
+  {
+    "id": "COMPOST_BIN_DEAD_BODY",
+    "name": "Natürliche Bestattung",
+    "thumb": "icons/structures/64/COMPOST_BIN_DEAD_BODY.png"
+  },
+  {
+    "id": "CONFESSION_BOOTH",
+    "name": "Beichtstuhl",
+    "thumb": "icons/structures/64/CONFESSION_BOOTH.png"
+  },
+  {
+    "id": "COOKING_FIRE",
+    "name": "Kochfeuer",
+    "thumb": "icons/structures/64/COOKING_FIRE.png"
+  },
+  {
+    "id": "CRYPT_1",
+    "name": "Gruft",
+    "thumb": "icons/structures/64/CRYPT_1.png"
+  },
+  {
+    "id": "CRYPT_2",
+    "name": "Gruft II",
+    "thumb": "icons/structures/64/CRYPT_2.png"
+  },
+  {
+    "id": "CRYPT_3",
+    "name": "Gruft III",
+    "thumb": "icons/structures/64/CRYPT_3.png"
+  },
+  {
+    "id": "DANCING_FIREPIT",
+    "name": "Feuergrube",
+    "thumb": null
+  },
+  {
+    "id": "DAYCARE",
+    "name": "Kinderstube",
+    "thumb": "icons/structures/64/DAYCARE.png"
+  },
+  {
+    "id": "DEAD_WORSHIPPER",
+    "name": "Toter Anhänger",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_APPLE_BUSH",
+    "name": "Gepflegte Hecke",
+    "thumb": "icons/structures/64/DECORATION_APPLE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_APPLE_LANTERN",
+    "name": "Geschnitzter Laternenpfahl",
+    "thumb": "icons/structures/64/DECORATION_APPLE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_APPLE_STATUE",
+    "name": "Mysteriöse Fruchtstatue",
+    "thumb": "icons/structures/64/DECORATION_APPLE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_VASE",
+    "name": "Wunderschönes Bouquet",
+    "thumb": "icons/structures/64/DECORATION_APPLE_VASE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_WELL",
+    "name": "Überwachsener Brunnen",
+    "thumb": "icons/structures/64/DECORATION_APPLE_WELL.png"
+  },
+  {
+    "id": "DECORATION_BARROW",
+    "name": "Blumenschubkarre",
+    "thumb": "icons/structures/64/DECORATION_BARROW.png"
+  },
+  {
+    "id": "DECORATION_BELL_SMALL",
+    "name": "Kleine Glockenstatue",
+    "thumb": "icons/structures/64/DECORATION_BELL_SMALL.png"
+  },
+  {
+    "id": "DECORATION_BELL_STATUE",
+    "name": "Goldglockenstatue",
+    "thumb": "icons/structures/64/DECORATION_BELL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_BONE_ARCH",
+    "name": "Knochenbogengewölbe",
+    "thumb": "icons/structures/64/DECORATION_BONE_ARCH.png"
+  },
+  {
+    "id": "DECORATION_BONE_BARREL",
+    "name": "Knochenfass",
+    "thumb": "icons/structures/64/DECORATION_BONE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_BONE_CANDLE",
+    "name": "Schädelkerze",
+    "thumb": "icons/structures/64/DECORATION_BONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_BONE_FLAG",
+    "name": "Skelett-Kronenflagge",
+    "thumb": "icons/structures/64/DECORATION_BONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_BONE_LANTERN",
+    "name": "Knochenlaterne",
+    "thumb": "icons/structures/64/DECORATION_BONE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_BONE_PILLAR",
+    "name": "Schädelstapel",
+    "thumb": "icons/structures/64/DECORATION_BONE_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_BONE_SCULPTURE",
+    "name": "Knochenskulptur",
+    "thumb": "icons/structures/64/DECORATION_BONE_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_BIG",
+    "name": "Riesiger Schädel",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_BIG.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_PILE",
+    "name": "Schädelhaufen",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_PILE.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_1",
+    "name": "Leshy-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_1.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_2",
+    "name": "Heket-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_2.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_3",
+    "name": "Kallamar-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_3.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_4",
+    "name": "Shamura-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_4.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_5",
+    "name": "Jener, der wartet-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_5.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+    "name": "Henker-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_EXECUTIONER.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_WOLF",
+    "name": "Marchosias-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_WOLF.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+    "name": "Yngya-Trophäe",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_YNGYA.png"
+  },
+  {
+    "id": "DECORATION_CANDLE_BARREL",
+    "name": "Kerzenfass",
+    "thumb": "icons/structures/64/DECORATION_CANDLE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDLE",
+    "name": "Wintersonnenwende-Kerze",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDYCANE",
+    "name": "Wintersonnenwende-Laterne",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDYCANE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_SNOWMAN",
+    "name": "Wintersonnenwende-Lamm",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_SNOWMAN.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_TREE",
+    "name": "Wintersonnenwende-Baum",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_TREE.png"
+  },
+  {
+    "id": "DECORATION_CNY_DRAGON",
+    "name": "Glücksstatue",
+    "thumb": "icons/structures/64/DECORATION_CNY_DRAGON.png"
+  },
+  {
+    "id": "DECORATION_CNY_LANTERN",
+    "name": "Glückslaterne",
+    "thumb": "icons/structures/64/DECORATION_CNY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_CNY_TREE",
+    "name": "Glücksbaum",
+    "thumb": "icons/structures/64/DECORATION_CNY_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LAMP",
+    "name": "Kristalllampe",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LAMP.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LIGHT",
+    "name": "Kristalllaterne",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LIGHT.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_ROCK",
+    "name": "Kristallfels",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_ROCK.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_STATUE",
+    "name": "Kristallstatue",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_TREE",
+    "name": "Kristallbaum",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_WINDOW",
+    "name": "Kristallfenster",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_WINDOW.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BOTTLE",
+    "name": "Fäulnis in Flaschen",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BUCKET",
+    "name": "Gedärmekübel",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE1",
+    "name": "Großer Käfig",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE2",
+    "name": "Kleiner Käfig",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAULDRON",
+    "name": "Flammenkessel",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAULDRON.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_DIORAMA",
+    "name": "Fäulnisbrunnen",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FIREMACHINE",
+    "name": "Seltsame Maschine",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FIREMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FLOOR",
+    "name": "Fäulnisboden",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_IRONMAIDEN",
+    "name": "Eiserne Jungfrau des Bockhorns",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP1",
+    "name": "Klagender Busch",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP2",
+    "name": "Augapfel im Topf",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR1",
+    "name": "Stöhnende Säule",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR2",
+    "name": "Glotzender Pfahl",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE1",
+    "name": "Fäulnisbrand-Altar",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE2",
+    "name": "Fäulnisbrand-Kerze",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_TENTACLE",
+    "name": "Greiftentakel",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_TENTACLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_WALL",
+    "name": "Fäulnisbrand-Wall",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+    "name": "Großer Schornstein",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_1.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+    "name": "Kleiner Schornstein",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_2.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CLOCK",
+    "name": "Eibenholz-Uhr",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CLOCK.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+    "name": "Eibenholz-Lampenpfahl",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_PLANT",
+    "name": "Eibenholz-Pflanze",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_PLANT.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_WALL",
+    "name": "Eibenholz-Wand",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_BULB",
+    "name": "Blitzbirne",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_BULB.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST1",
+    "name": "Aufgespießter Kultist I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST2",
+    "name": "Aufgespießter Kultist II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_DIORAMA",
+    "name": "Darstellung des Berges",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_FIREPIT",
+    "name": "Feuerstelle",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_FIREPIT.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_LAMPPOST",
+    "name": "Aufgeladene Lampe",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR1",
+    "name": "Funkenschlagende Säule",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR2",
+    "name": "Statischer Pfahl",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE1",
+    "name": "Ungläubigen-Altar",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE2",
+    "name": "Wolfsstatue",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE3",
+    "name": "Alchemisten-Instrument I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE3.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE4",
+    "name": "Alchemisten-Instrument II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE4.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE5",
+    "name": "Alchemisten-Instrument III",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE5.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TESLA",
+    "name": "Energiespule",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TESLA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TREE1",
+    "name": "Bergbaum",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TREE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_WIRES",
+    "name": "Drahtbündel",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_WIRES.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL1",
+    "name": "Schwertfass",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL2",
+    "name": "Speerfass",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BELLS",
+    "name": "Große Glocke",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BELLS.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH1",
+    "name": "Schüchterner Busch",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH2",
+    "name": "Krummer Busch",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_CANDLE",
+    "name": "Große Kerze",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FLOOR",
+    "name": "Wollhafen-Boden",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+    "name": "Glockenbrunnen",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_JUG",
+    "name": "Sichelvase",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_JUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_RUG",
+    "name": "Sonnenteppich",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_RUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+    "name": "Yngya-Idol",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+    "name": "Glockensockel",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+    "name": "Wollhafen-Laternenpfahl",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_STREETLAMP.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_TREE",
+    "name": "Laubloser Baum",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_WALL",
+    "name": "Wollhafen-Mauer",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_CANDLE",
+    "name": "Sommerkerze",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+    "name": "Eimer der Erstblüten",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_FLOWERBUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_STICKBUNDLE",
+    "name": "Bündel junger Zweige",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_STICKBUNDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TALLFLOWERS",
+    "name": "Gänseblümchen im Topf",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TALLFLOWERS.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEBUSH",
+    "name": "Yngya-Hecke",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEBUSH.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEPOT",
+    "name": "Sommersetzling",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEPOT.png"
+  },
+  {
+    "id": "DECORATION_DST_ALCHEMY",
+    "name": "Alchemiemaschine",
+    "thumb": "icons/structures/64/DECORATION_DST_ALCHEMY.png"
+  },
+  {
+    "id": "DECORATION_DST_BEEFALOSKELETON",
+    "name": "Büffelskelett",
+    "thumb": "icons/structures/64/DECORATION_DST_BEEFALOSKELETON.png"
+  },
+  {
+    "id": "DECORATION_DST_DEERCLOPS",
+    "name": "Deerclops-Figur",
+    "thumb": "icons/structures/64/DECORATION_DST_DEERCLOPS.png"
+  },
+  {
+    "id": "DECORATION_DST_GLOMMERSTATUE",
+    "name": "Glommer-Statue",
+    "thumb": "icons/structures/64/DECORATION_DST_GLOMMERSTATUE.png"
+  },
+  {
+    "id": "DECORATION_DST_MARBLETREE",
+    "name": "Marmorbaum",
+    "thumb": "icons/structures/64/DECORATION_DST_MARBLETREE.png"
+  },
+  {
+    "id": "DECORATION_DST_PIGSTICK",
+    "name": "Schweinekopf",
+    "thumb": "icons/structures/64/DECORATION_DST_PIGSTICK.png"
+  },
+  {
+    "id": "DECORATION_DST_SCIENCEMACHINE",
+    "name": "Wissenschaftsmaschine",
+    "thumb": "icons/structures/64/DECORATION_DST_SCIENCEMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DST_TREE",
+    "name": "Eingetopfter Baumwächter",
+    "thumb": "icons/structures/64/DECORATION_DST_TREE.png"
+  },
+  {
+    "id": "DECORATION_DST_WALL",
+    "name": "Heumauer",
+    "thumb": "icons/structures/64/DECORATION_DST_WALL.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_EGG",
+    "name": "Großes Ei",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_EGG.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_HAROSTATUE",
+    "name": "Bildnis der Eule",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_HAROSTATUE.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_TURUA",
+    "name": "Turura-Exemplar",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_TURUA.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_WARRACKA",
+    "name": "Warrackas Samen",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_WARRACKA.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CROWN",
+    "name": "Die Flagge der Krone",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CRYSTAL",
+    "name": "Kristallflagge",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_FLAG_MUSHROOM",
+    "name": "Pilzflagge",
+    "thumb": "icons/structures/64/DECORATION_FLAG_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_FLAG_SCRIPTURE",
+    "name": "Die Flagge der Schrift",
+    "thumb": "icons/structures/64/DECORATION_FLAG_SCRIPTURE.png"
+  },
+  {
+    "id": "DECORATION_FLOWERPOTWALL",
+    "name": "Wandblumentopf",
+    "thumb": "icons/structures/64/DECORATION_FLOWERPOTWALL.png"
+  },
+  {
+    "id": "DECORATION_FLOWERVASE",
+    "name": "Blumenvase",
+    "thumb": "icons/structures/64/DECORATION_FLOWERVASE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_ARCH",
+    "name": "Blumentorbogen",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_ARCH.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOTTLE",
+    "name": "Blumenflasche",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOX_1",
+    "name": "Kamelienbeet",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOX_1.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART",
+    "name": "Blumenkarren",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART_SMALL",
+    "name": "Kleiner Blumenkarren",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART_SMALL.png"
+  },
+  {
+    "id": "DECORATION_FOUNTAIN",
+    "name": "Kronenbrunnen",
+    "thumb": "icons/structures/64/DECORATION_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_GNOME1",
+    "name": "Pea",
+    "thumb": "icons/structures/64/DECORATION_GNOME1.png"
+  },
+  {
+    "id": "DECORATION_GNOME2",
+    "name": "Owe",
+    "thumb": "icons/structures/64/DECORATION_GNOME2.png"
+  },
+  {
+    "id": "DECORATION_GNOME3",
+    "name": "Geeh",
+    "thumb": "icons/structures/64/DECORATION_GNOME3.png"
+  },
+  {
+    "id": "DECORATION_GOAT_LANTERN",
+    "name": "Die Ziegenlaterne",
+    "thumb": "icons/structures/64/DECORATION_GOAT_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_GOAT_PLANT",
+    "name": "Die Ziegenvase",
+    "thumb": "icons/structures/64/DECORATION_GOAT_PLANT.png"
+  },
+  {
+    "id": "DECORATION_GOAT_STATUE",
+    "name": "Die Ziegenstatue",
+    "thumb": "icons/structures/64/DECORATION_GOAT_STATUE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_CANDLE",
+    "name": "Blutmond-Kerze",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_PUMPKIN",
+    "name": "Blutmond-Kürbis",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_PUMPKIN.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_SKULL",
+    "name": "Blutmond-Schädel",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_SKULL.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_TREE",
+    "name": "Blutmond-Baum",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_HAY_BALE",
+    "name": "Heuballen",
+    "thumb": "icons/structures/64/DECORATION_HAY_BALE.png"
+  },
+  {
+    "id": "DECORATION_HAY_PILE",
+    "name": "Heuhaufen",
+    "thumb": "icons/structures/64/DECORATION_HAY_PILE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_FLAG_STATUE",
+    "name": "Lamm-Flaggenstatue",
+    "thumb": "icons/structures/64/DECORATION_LAMB_FLAG_STATUE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_STATUE",
+    "name": "Lammstatue",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_LEAFYLAMPPOST",
+    "name": "Blättriger Laternenpfahl",
+    "thumb": "icons/structures/64/DECORATION_LEAFYLAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_FLOWER_SCULPTURE",
+    "name": "Blättrige Blumenskulptur",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_FLOWER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_LANTERN",
+    "name": "Blättrige Laterne",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_SCULPTURE",
+    "name": "Blättrige Skulptur",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_MONSTERSHRINE",
+    "name": "Massive-Monster-Schrein",
+    "thumb": "icons/structures/64/DECORATION_MONSTERSHRINE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_1",
+    "name": "Kleiner Pilz",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_2",
+    "name": "Pilzgruppe",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_1",
+    "name": "Kleine Pilzkerze",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_2",
+    "name": "Große Pilzkerze",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_LARGE",
+    "name": "Pilzkerzenschrein",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_LARGE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_SCULPTURE",
+    "name": "Pilzskulptur",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_CRYSTAL",
+    "name": "Edelstein des Blutes",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FLAG",
+    "name": "Flagge des alten Glaubens",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FLAG.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FOUNTAIN",
+    "name": "Quelle der Trostlosigkeit",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_IRONMAIDEN",
+    "name": "Eiserne Jungfrau des alten Glaubens",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_SHRINE",
+    "name": "Schrein des alten Glaubens",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_SHRINE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_TORCH",
+    "name": "Die ewige Flamme",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_TORCH.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_WALL",
+    "name": "Mauer des Ruins",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_WALL.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LAMB",
+    "name": "Lamball Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LAMB.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LANTERN",
+    "name": "Palsphere Lantern",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_PLANT",
+    "name": "Houseless Plant",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_PLANT.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_STATUE",
+    "name": "Great Eagle Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_STATUE.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_TREE",
+    "name": "Skilled Bonsai Tree",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_TREE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_BONSAI",
+    "name": "Bonsaibaum",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_BONSAI.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_LANTERN",
+    "name": "Hängelaterne",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_PAGODA",
+    "name": "Kleine Pagode",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_PAGODA.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_VASE",
+    "name": "Pfingstrosenvase",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_VASE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_WALL",
+    "name": "Bambusmauer",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_WALL.png"
+  },
+  {
+    "id": "DECORATION_PLUSH",
+    "name": "Lamm-Plüschbildnis",
+    "thumb": "icons/structures/64/DECORATION_PLUSH.png"
+  },
+  {
+    "id": "DECORATION_POND",
+    "name": "Teich",
+    "thumb": "icons/structures/64/DECORATION_POND.png"
+  },
+  {
+    "id": "DECORATION_POST_BOX",
+    "name": "Gebetskästchen",
+    "thumb": "icons/structures/64/DECORATION_POST_BOX.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_PILE",
+    "name": "Kürbishaufen",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_PILE.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_STOOL",
+    "name": "Geschnitzter Kürbis",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_STOOL.png"
+  },
+  {
+    "id": "DECORATION_SHRUB",
+    "name": "Einfacher Strauch",
+    "thumb": "icons/structures/64/DECORATION_SHRUB.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_CRUCIFIX",
+    "name": "Kreuz mit Rosen",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_CRUCIFIX.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS1",
+    "name": "Blumen der Verlockung",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS1.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS2",
+    "name": "Vase der Eitelkeit",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS2.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_INCENSE",
+    "name": "Duft-der-Sünde-Räucherwerk",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_INCENSE.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_SKULL",
+    "name": "Schädel der Unreinheit",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_SKULL.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_STATUE",
+    "name": "Goldenes Lamm",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_SMALL_STONE_CANDLE",
+    "name": "Kleine Steinkerze",
+    "thumb": "icons/structures/64/DECORATION_SMALL_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_LANTERN",
+    "name": "Spinnenlaterne",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_PILLAR",
+    "name": "Spinnensäule",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_SCULPTURE",
+    "name": "Spinnwebenskulptur",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_TORCH",
+    "name": "Spinnenfackel",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_TORCH.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+    "name": "Spinnennetz-Kronenskulptur",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_WEB_CROWN_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_STONE",
+    "name": "Uralter Stein",
+    "thumb": "icons/structures/64/DECORATION_STONE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE",
+    "name": "Steinkerze",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE_LAMP",
+    "name": "Steinkerzenlampe",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE_LAMP.png"
+  },
+  {
+    "id": "DECORATION_STONE_FLAG",
+    "name": "Steinflagge",
+    "thumb": "icons/structures/64/DECORATION_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_STONE_HENGE",
+    "name": "Stonehenge",
+    "thumb": "icons/structures/64/DECORATION_STONE_HENGE.png"
+  },
+  {
+    "id": "DECORATION_STONE_MUSHROOM",
+    "name": "Steinerner Pilz",
+    "thumb": "icons/structures/64/DECORATION_STONE_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_STUMP_LAMB_STATUE",
+    "name": "Baumstumpf-Lammstatue",
+    "thumb": "icons/structures/64/DECORATION_STUMP_LAMB_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TORCH",
+    "name": "Fackel",
+    "thumb": "icons/structures/64/DECORATION_TORCH.png"
+  },
+  {
+    "id": "DECORATION_TORCH_BIG",
+    "name": "Große Fackel",
+    "thumb": "icons/structures/64/DECORATION_TORCH_BIG.png"
+  },
+  {
+    "id": "DECORATION_TREE",
+    "name": "Topfbusch",
+    "thumb": "icons/structures/64/DECORATION_TREE.png"
+  },
+  {
+    "id": "DECORATION_TWIG_LAMP",
+    "name": "Holzlaternen",
+    "thumb": "icons/structures/64/DECORATION_TWIG_LAMP.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_FLAG_CROWN",
+    "name": "Die Flagge der Krone",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_MUSHROOM_BAG",
+    "name": "Pilztasche",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_MUSHROOM_BAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_ROSE_BUSH",
+    "name": "Topfbusch",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_ROSE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_FLAG",
+    "name": "Steinflagge",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_STATUE",
+    "name": "Steinstatue",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_WOODEN_GUARDIAN",
+    "name": "Hölzerner Wächter",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_WOODEN_GUARDIAN.png"
+  },
+  {
+    "id": "DECORATION_VIDEO",
+    "name": "Das allsehende Auge des Zeugen",
+    "thumb": "icons/structures/64/DECORATION_VIDEO.png"
+  },
+  {
+    "id": "DECORATION_WALL_BONE",
+    "name": "Knochenwall",
+    "thumb": "icons/structures/64/DECORATION_WALL_BONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_GRASS",
+    "name": "Graswall",
+    "thumb": "icons/structures/64/DECORATION_WALL_GRASS.png"
+  },
+  {
+    "id": "DECORATION_WALL_SPIDER",
+    "name": "Spinnwebenwall",
+    "thumb": "icons/structures/64/DECORATION_WALL_SPIDER.png"
+  },
+  {
+    "id": "DECORATION_WALL_STONE",
+    "name": "Steinwall",
+    "thumb": "icons/structures/64/DECORATION_WALL_STONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_TWIGS",
+    "name": "Zweigwall",
+    "thumb": "icons/structures/64/DECORATION_WALL_TWIGS.png"
+  },
+  {
+    "id": "DECORATION_WATERINGCAN",
+    "name": "Gießkanne",
+    "thumb": "icons/structures/64/DECORATION_WATERINGCAN.png"
+  },
+  {
+    "id": "DECORATION_WEEPINGSHRINE",
+    "name": "Schrein des Weinens",
+    "thumb": "icons/structures/64/DECORATION_WEEPINGSHRINE.png"
+  },
+  {
+    "id": "DECORATION_WREATH_STICK",
+    "name": "Kranz",
+    "thumb": "icons/structures/64/DECORATION_WREATH_STICK.png"
+  },
+  {
+    "id": "DEMON_SUMMONER",
+    "name": "Dämonenbeschwörung",
+    "thumb": "icons/structures/64/DEMON_SUMMONER.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_2",
+    "name": "Dämonenbeschwörung II",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_2.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_3",
+    "name": "Dämonenbeschwörung III",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_3.png"
+  },
+  {
+    "id": "DRUM_CIRCLE",
+    "name": "Trommelkreis",
+    "thumb": "icons/structures/64/DRUM_CIRCLE.png"
+  },
+  {
+    "id": "FARM_CROP_GROWER",
+    "name": "Auftau-Erntetotem",
+    "thumb": "icons/structures/64/FARM_CROP_GROWER.png"
+  },
+  {
+    "id": "FARM_PLOT",
+    "name": "Ackerparzelle",
+    "thumb": "icons/structures/64/FARM_PLOT.png"
+  },
+  {
+    "id": "FARM_PLOT_SIGN",
+    "name": "Ackerparzellen-Schild",
+    "thumb": "icons/structures/64/FARM_PLOT_SIGN.png"
+  },
+  {
+    "id": "FARM_STATION",
+    "name": "Farm",
+    "thumb": "icons/structures/64/FARM_STATION.png"
+  },
+  {
+    "id": "FARM_STATION_II",
+    "name": "Farm II",
+    "thumb": "icons/structures/64/FARM_STATION_II.png"
+  },
+  {
+    "id": "FEAST_TABLE",
+    "name": "Festtafel",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE",
+    "name": "Lebensmittellager",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE_2",
+    "name": "Lebensmittellager II",
+    "thumb": null
+  },
+  {
+    "id": "FORAGING_SHRINE",
+    "name": "Schrein der Nahrungssuche",
+    "thumb": null
+  },
+  {
+    "id": "FURNACE_1",
+    "name": "Fäulnisbrand-Ofen",
+    "thumb": "icons/structures/64/FURNACE_1.png"
+  },
+  {
+    "id": "FURNACE_2",
+    "name": "Fäulnisbrand-Ofen II",
+    "thumb": "icons/structures/64/FURNACE_2.png"
+  },
+  {
+    "id": "FURNACE_3",
+    "name": "Fäulnisbrand-Ofen III",
+    "thumb": "icons/structures/64/FURNACE_3.png"
+  },
+  {
+    "id": "GRAVE",
+    "name": "Grab",
+    "thumb": "icons/structures/64/GRAVE.png"
+  },
+  {
+    "id": "HARVEST_TOTEM",
+    "name": "Erntetotem",
+    "thumb": "icons/structures/64/HARVEST_TOTEM.png"
+  },
+  {
+    "id": "HARVEST_TOTEM_2",
+    "name": "Hingabe-Erntetotem",
+    "thumb": "icons/structures/64/HARVEST_TOTEM_2.png"
+  },
+  {
+    "id": "HATCHERY",
+    "name": "Brutstätte",
+    "thumb": "icons/structures/64/HATCHERY.png"
+  },
+  {
+    "id": "HATCHERY_2",
+    "name": "Brutstätte II",
+    "thumb": "icons/structures/64/HATCHERY_2.png"
+  },
+  {
+    "id": "HEALING_BAY",
+    "name": "Heilquartier",
+    "thumb": "icons/structures/64/HEALING_BAY.png"
+  },
+  {
+    "id": "HEALING_BAY_2",
+    "name": "Verbessertes Heilquartier",
+    "thumb": "icons/structures/64/HEALING_BAY_2.png"
+  },
+  {
+    "id": "JANITOR_STATION",
+    "name": "Reinigungsposten",
+    "thumb": "icons/structures/64/JANITOR_STATION.png"
+  },
+  {
+    "id": "JANITOR_STATION_2",
+    "name": "Reinigungsposten II",
+    "thumb": "icons/structures/64/JANITOR_STATION_2.png"
+  },
+  {
+    "id": "KITCHEN",
+    "name": "Küche",
+    "thumb": "icons/structures/64/KITCHEN.png"
+  },
+  {
+    "id": "KITCHEN_II",
+    "name": "Küche II",
+    "thumb": null
+  },
+  {
+    "id": "KNUCKLEBONES_ARENA",
+    "name": "Astragaloi-Arena",
+    "thumb": "icons/structures/64/KNUCKLEBONES_ARENA.png"
+  },
+  {
+    "id": "LEADER_TENT",
+    "name": "Anführerzelt",
+    "thumb": "icons/structures/64/LEADER_TENT.png"
+  },
+  {
+    "id": "LIGHTNING_ROD",
+    "name": "Blitzableiter",
+    "thumb": "icons/structures/64/LIGHTNING_ROD.png"
+  },
+  {
+    "id": "LIGHTNING_ROD_2",
+    "name": "Blitzableiter II",
+    "thumb": "icons/structures/64/LIGHTNING_ROD_2.png"
+  },
+  {
+    "id": "LOGISTICS",
+    "name": "Arbeitszelt",
+    "thumb": "icons/structures/64/LOGISTICS.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION",
+    "name": "Holzplatz",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION_2",
+    "name": "Holzplatz II",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION_2.png"
+  },
+  {
+    "id": "MATING_TENT",
+    "name": "Paarungszelt",
+    "thumb": "icons/structures/64/MATING_TENT.png"
+  },
+  {
+    "id": "MEDIC",
+    "name": "Sanitäterquartier",
+    "thumb": "icons/structures/64/MEDIC.png"
+  },
+  {
+    "id": "MINING_SHRINE",
+    "name": "Schrein des Abbaus",
+    "thumb": null
+  },
+  {
+    "id": "MISSIONARY",
+    "name": "Missionar",
+    "thumb": "icons/structures/64/MISSIONARY.png"
+  },
+  {
+    "id": "MISSIONARY_II",
+    "name": "Missionar II",
+    "thumb": "icons/structures/64/MISSIONARY_II.png"
+  },
+  {
+    "id": "MISSIONARY_III",
+    "name": "Missionar III",
+    "thumb": "icons/structures/64/MISSIONARY_III.png"
+  },
+  {
+    "id": "MORGUE_1",
+    "name": "Leichenhalle",
+    "thumb": "icons/structures/64/MORGUE_1.png"
+  },
+  {
+    "id": "MORGUE_2",
+    "name": "Leichenhalle II",
+    "thumb": "icons/structures/64/MORGUE_2.png"
+  },
+  {
+    "id": "OFFERING_STATUE",
+    "name": "Opferstatue",
+    "thumb": "icons/structures/64/OFFERING_STATUE.png"
+  },
+  {
+    "id": "OUTHOUSE",
+    "name": "Toilettenhäuschen",
+    "thumb": "icons/structures/64/OUTHOUSE.png"
+  },
+  {
+    "id": "OUTHOUSE_2",
+    "name": "Toilettenhäuschen II",
+    "thumb": "icons/structures/64/OUTHOUSE_2.png"
+  },
+  {
+    "id": "PLANK_PATH",
+    "name": "Holzbohlen",
+    "thumb": "icons/structures/64/PLANK_PATH.png"
+  },
+  {
+    "id": "POOP",
+    "name": "Kot",
+    "thumb": null
+  },
+  {
+    "id": "POOP_BUCKET",
+    "name": "Düngerlager",
+    "thumb": "icons/structures/64/POOP_BUCKET.png"
+  },
+  {
+    "id": "PRISON",
+    "name": "Gefängnis",
+    "thumb": "icons/structures/64/PRISON.png"
+  },
+  {
+    "id": "PROPAGANDA_SPEAKER",
+    "name": "Propagandasprecher",
+    "thumb": "icons/structures/64/PROPAGANDA_SPEAKER.png"
+  },
+  {
+    "id": "PROXIMITY_FURNACE",
+    "name": "Heizer",
+    "thumb": "icons/structures/64/PROXIMITY_FURNACE.png"
+  },
+  {
+    "id": "PUB",
+    "name": "Getränkehaus",
+    "thumb": "icons/structures/64/PUB.png"
+  },
+  {
+    "id": "PUB_2",
+    "name": "Getränkehaus II",
+    "thumb": "icons/structures/64/PUB_2.png"
+  },
+  {
+    "id": "RACING_GATE",
+    "name": "Renntor",
+    "thumb": "icons/structures/64/RACING_GATE.png"
+  },
+  {
+    "id": "RANCH",
+    "name": "Ranch",
+    "thumb": "icons/structures/64/RANCH.png"
+  },
+  {
+    "id": "RANCH_2",
+    "name": "Ranch II",
+    "thumb": "icons/structures/64/RANCH_2.png"
+  },
+  {
+    "id": "RANCH_CHOPPING_BLOCK",
+    "name": "Schlachtblock",
+    "thumb": "icons/structures/64/RANCH_CHOPPING_BLOCK.png"
+  },
+  {
+    "id": "RANCH_FENCE",
+    "name": "Ranchzaun",
+    "thumb": "icons/structures/64/RANCH_FENCE.png"
+  },
+  {
+    "id": "RANCH_HUTCH",
+    "name": "Stall",
+    "thumb": "icons/structures/64/RANCH_HUTCH.png"
+  },
+  {
+    "id": "RANCH_TROUGH",
+    "name": "Trog",
+    "thumb": "icons/structures/64/RANCH_TROUGH.png"
+  },
+  {
+    "id": "REFINERY",
+    "name": "Raffinerie",
+    "thumb": "icons/structures/64/REFINERY.png"
+  },
+  {
+    "id": "REFINERY_2",
+    "name": "Raffinerie II",
+    "thumb": "icons/structures/64/REFINERY_2.png"
+  },
+  {
+    "id": "ROTSTONE_MINE",
+    "name": "Fäulnisbrand-Mine",
+    "thumb": "icons/structures/64/ROTSTONE_MINE.png"
+  },
+  {
+    "id": "ROTSTONE_MINE_2",
+    "name": "Fäulnisbrand-Mine II",
+    "thumb": "icons/structures/64/ROTSTONE_MINE_2.png"
+  },
+  {
+    "id": "SACRIFICE_TABLE",
+    "name": "Opfertafel",
+    "thumb": "icons/structures/64/SACRIFICE_TABLE.png"
+  },
+  {
+    "id": "SCARECROW",
+    "name": "Vogelscheuche",
+    "thumb": "icons/structures/64/SCARECROW.png"
+  },
+  {
+    "id": "SCARECROW_2",
+    "name": "Vogelscheuchenfalle",
+    "thumb": "icons/structures/64/SCARECROW_2.png"
+  },
+  {
+    "id": "SEED_BUCKET",
+    "name": "Samenlager",
+    "thumb": "icons/structures/64/SEED_BUCKET.png"
+  },
+  {
+    "id": "SHARED_HOUSE",
+    "name": "Gemeinsame Unterkunft",
+    "thumb": "icons/structures/64/SHARED_HOUSE.png"
+  },
+  {
+    "id": "SHRINE",
+    "name": "Schrein",
+    "thumb": "icons/structures/64/SHRINE.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_BOOST",
+    "name": "Stärkungsschrein der Jünger",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_BOOST.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_COLLECTION",
+    "name": "Sammelschrein der Jünger",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_COLLECTION.png"
+  },
+  {
+    "id": "SHRINE_II",
+    "name": "Schrein II",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_III",
+    "name": "Schrein III",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_IV",
+    "name": "Schrein IV",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_PASSIVE",
+    "name": "Tabernakel",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_II",
+    "name": "Tabernakel II",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_II.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_III",
+    "name": "Tabernakel III",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_III.png"
+  },
+  {
+    "id": "SHRINE_PLEASURE",
+    "name": "Sin Totem",
+    "thumb": null
+  },
+  {
+    "id": "SILO_FERTILISER",
+    "name": "Düngersilo",
+    "thumb": "icons/structures/64/SILO_FERTILISER.png"
+  },
+  {
+    "id": "SILO_SEED",
+    "name": "Samensilo",
+    "thumb": "icons/structures/64/SILO_SEED.png"
+  },
+  {
+    "id": "SURVEILLANCE",
+    "name": "Überwachungsturm",
+    "thumb": null
+  },
+  {
+    "id": "TAILOR",
+    "name": "Schneider",
+    "thumb": "icons/structures/64/TAILOR.png"
+  },
+  {
+    "id": "TEMPLE",
+    "name": "Tempel",
+    "thumb": "icons/structures/64/TEMPLE.png"
+  },
+  {
+    "id": "TEMPLE_II",
+    "name": "Tempel II",
+    "thumb": "icons/structures/64/TEMPLE_II.png"
+  },
+  {
+    "id": "TEMPLE_III",
+    "name": "Tempel III",
+    "thumb": "icons/structures/64/TEMPLE_III.png"
+  },
+  {
+    "id": "TEMPLE_IV",
+    "name": "Tempel IV",
+    "thumb": "icons/structures/64/TEMPLE_IV.png"
+  },
+  {
+    "id": "TILE_BLOOD",
+    "name": "Lavaboden",
+    "thumb": "icons/structures/64/TILE_BLOOD.png"
+  },
+  {
+    "id": "TILE_BRICKS",
+    "name": "Ziegelboden",
+    "thumb": "icons/structures/64/TILE_BRICKS.png"
+  },
+  {
+    "id": "TILE_FLOWERS",
+    "name": "Blumenboden",
+    "thumb": "icons/structures/64/TILE_FLOWERS.png"
+  },
+  {
+    "id": "TILE_FLOWERSROCKY",
+    "name": "Waldboden",
+    "thumb": "icons/structures/64/TILE_FLOWERSROCKY.png"
+  },
+  {
+    "id": "TILE_GOLD",
+    "name": "Goldboden",
+    "thumb": "icons/structures/64/TILE_GOLD.png"
+  },
+  {
+    "id": "TILE_HAY",
+    "name": "Heu-Bodenbelag",
+    "thumb": "icons/structures/64/TILE_HAY.png"
+  },
+  {
+    "id": "TILE_MOSAIC",
+    "name": "Mosaikboden",
+    "thumb": "icons/structures/64/TILE_MOSAIC.png"
+  },
+  {
+    "id": "TILE_OLDFAITH",
+    "name": "Bodenbelag des alten Glaubens",
+    "thumb": "icons/structures/64/TILE_OLDFAITH.png"
+  },
+  {
+    "id": "TILE_PATH",
+    "name": "Dreckboden",
+    "thumb": "icons/structures/64/TILE_PATH.png"
+  },
+  {
+    "id": "TILE_PLANKS",
+    "name": "Dielenboden",
+    "thumb": "icons/structures/64/TILE_PLANKS.png"
+  },
+  {
+    "id": "TILE_REDGRASS",
+    "name": "Boden mit rotem Teppich",
+    "thumb": "icons/structures/64/TILE_REDGRASS.png"
+  },
+  {
+    "id": "TILE_ROCKS",
+    "name": "Kopfsteinpflasterboden",
+    "thumb": "icons/structures/64/TILE_ROCKS.png"
+  },
+  {
+    "id": "TILE_SPOOKYPLANKS",
+    "name": "Markierter Boden",
+    "thumb": "icons/structures/64/TILE_SPOOKYPLANKS.png"
+  },
+  {
+    "id": "TILE_WATER",
+    "name": "Teichkachel",
+    "thumb": "icons/structures/64/TILE_WATER.png"
+  },
+  {
+    "id": "TOOLSHED",
+    "name": "Schreinerquartier",
+    "thumb": "icons/structures/64/TOOLSHED.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_1",
+    "name": "Exorzismus-Altar",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_1.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_2",
+    "name": "Exorzismus-Altar II",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_2.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_3",
+    "name": "Exorzismus-Altar III",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_3.png"
+  },
+  {
+    "id": "VOLCANIC_SPA",
+    "name": "Taufbad",
+    "thumb": "icons/structures/64/VOLCANIC_SPA.png"
+  },
+  {
+    "id": "VOMIT",
+    "name": "Erbrochenes",
+    "thumb": null
+  },
+  {
+    "id": "WEATHER_VANE",
+    "name": "Wetterfahne",
+    "thumb": "icons/structures/64/WEATHER_VANE.png"
+  },
+  {
+    "id": "WOLF_TRAP",
+    "name": "Wolfsfalle",
+    "thumb": "icons/structures/64/WOLF_TRAP.png"
+  },
+  {
+    "id": "WOOLY_SHACK",
+    "name": "Wooly Shack",
+    "thumb": "icons/structures/64/WOOLY_SHACK.png"
+  }
+]

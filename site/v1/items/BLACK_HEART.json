@@ -44,6 +44,7 @@
   "tags": [
     "heart"
   ],
+  "thumb": "icons/items/64/BLACK_HEART.png",
   "usedIn": {
     "items": [],
     "rituals": [],

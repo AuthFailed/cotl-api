@@ -74,6 +74,7 @@
   },
   "seed": null,
   "tags": [],
+  "thumb": "icons/items/64/LIGHTNING_SHARD.png",
   "usedIn": {
     "items": [
       "DRINK_LIGHTNING"

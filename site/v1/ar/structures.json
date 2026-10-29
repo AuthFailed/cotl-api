@@ -1,0 +1,1687 @@
+[
+  {
+    "id": "BED",
+    "name": "كيس النوم",
+    "thumb": "icons/structures/64/BED.png"
+  },
+  {
+    "id": "BED_2",
+    "name": "مأوى",
+    "thumb": "icons/structures/64/BED_2.png"
+  },
+  {
+    "id": "BED_3",
+    "name": "مأوى كبير",
+    "thumb": "icons/structures/64/BED_3.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE",
+    "name": "المحجر",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE.png"
+  },
+  {
+    "id": "BLOODSTONE_MINE_2",
+    "name": "المحجر II",
+    "thumb": "icons/structures/64/BLOODSTONE_MINE_2.png"
+  },
+  {
+    "id": "BODY_PIT",
+    "name": "حفرة دفن",
+    "thumb": "icons/structures/64/BODY_PIT.png"
+  },
+  {
+    "id": "CHOPPING_SHRINE",
+    "name": "مزار التقطيع",
+    "thumb": "icons/structures/64/CHOPPING_SHRINE.png"
+  },
+  {
+    "id": "COMPOST_BIN",
+    "name": "صندوق السماد العضوي",
+    "thumb": "icons/structures/64/COMPOST_BIN.png"
+  },
+  {
+    "id": "COMPOST_BIN_DEAD_BODY",
+    "name": "صندوق الدفن الطبيعي",
+    "thumb": "icons/structures/64/COMPOST_BIN_DEAD_BODY.png"
+  },
+  {
+    "id": "CONFESSION_BOOTH",
+    "name": "غرفة الاعتراف",
+    "thumb": "icons/structures/64/CONFESSION_BOOTH.png"
+  },
+  {
+    "id": "COOKING_FIRE",
+    "name": "موقد الطهي",
+    "thumb": "icons/structures/64/COOKING_FIRE.png"
+  },
+  {
+    "id": "CRYPT_1",
+    "name": "السرداب",
+    "thumb": "icons/structures/64/CRYPT_1.png"
+  },
+  {
+    "id": "CRYPT_2",
+    "name": "السرداب II",
+    "thumb": "icons/structures/64/CRYPT_2.png"
+  },
+  {
+    "id": "CRYPT_3",
+    "name": "السرداب III",
+    "thumb": "icons/structures/64/CRYPT_3.png"
+  },
+  {
+    "id": "DANCING_FIREPIT",
+    "name": "موقد النار",
+    "thumb": null
+  },
+  {
+    "id": "DAYCARE",
+    "name": "حضانة",
+    "thumb": "icons/structures/64/DAYCARE.png"
+  },
+  {
+    "id": "DEAD_WORSHIPPER",
+    "name": "تابع ميت",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_APPLE_BUSH",
+    "name": "شجيرة مشذّبة",
+    "thumb": "icons/structures/64/DECORATION_APPLE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_APPLE_LANTERN",
+    "name": "عمود إنارة منحوت",
+    "thumb": "icons/structures/64/DECORATION_APPLE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_APPLE_STATUE",
+    "name": "تمثال فاكهة غامض",
+    "thumb": "icons/structures/64/DECORATION_APPLE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_VASE",
+    "name": "باقة رائعة",
+    "thumb": "icons/structures/64/DECORATION_APPLE_VASE.png"
+  },
+  {
+    "id": "DECORATION_APPLE_WELL",
+    "name": "بئر تكسوها النباتات",
+    "thumb": "icons/structures/64/DECORATION_APPLE_WELL.png"
+  },
+  {
+    "id": "DECORATION_BARROW",
+    "name": "عربة يد للزهور",
+    "thumb": "icons/structures/64/DECORATION_BARROW.png"
+  },
+  {
+    "id": "DECORATION_BELL_SMALL",
+    "name": "حامل جرس صغير",
+    "thumb": "icons/structures/64/DECORATION_BELL_SMALL.png"
+  },
+  {
+    "id": "DECORATION_BELL_STATUE",
+    "name": "حامل جرس ذهبي",
+    "thumb": "icons/structures/64/DECORATION_BELL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_BONE_ARCH",
+    "name": "قوس عظمية",
+    "thumb": "icons/structures/64/DECORATION_BONE_ARCH.png"
+  },
+  {
+    "id": "DECORATION_BONE_BARREL",
+    "name": "برميل العظام",
+    "thumb": "icons/structures/64/DECORATION_BONE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_BONE_CANDLE",
+    "name": "شموع الجمجمة",
+    "thumb": "icons/structures/64/DECORATION_BONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_BONE_FLAG",
+    "name": "راية تاج عظمية",
+    "thumb": "icons/structures/64/DECORATION_BONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_BONE_LANTERN",
+    "name": "قنديل عظمي",
+    "thumb": "icons/structures/64/DECORATION_BONE_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_BONE_PILLAR",
+    "name": "كومة جماجم",
+    "thumb": "icons/structures/64/DECORATION_BONE_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_BONE_SCULPTURE",
+    "name": "منحوتة عظمية",
+    "thumb": "icons/structures/64/DECORATION_BONE_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_BIG",
+    "name": "جمجمة ضخمة",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_BIG.png"
+  },
+  {
+    "id": "DECORATION_BONE_SKULL_PILE",
+    "name": "كومة جماجم",
+    "thumb": "icons/structures/64/DECORATION_BONE_SKULL_PILE.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_1",
+    "name": "جائزة ليشي",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_1.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_2",
+    "name": "جائزة هيكت",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_2.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_3",
+    "name": "جائزة كالامار",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_3.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_4",
+    "name": "جائزة شامورا",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_4.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_5",
+    "name": "جائزة المتربص",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_5.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+    "name": "جائزة الناحرة",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_EXECUTIONER.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_WOLF",
+    "name": "جائزة مارشوسياس",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_WOLF.png"
+  },
+  {
+    "id": "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+    "name": "جائزة إينغيا",
+    "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_DLC_YNGYA.png"
+  },
+  {
+    "id": "DECORATION_CANDLE_BARREL",
+    "name": "برميل شموع",
+    "thumb": "icons/structures/64/DECORATION_CANDLE_BARREL.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDLE",
+    "name": "شمعة منتصف الشتاء",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_CANDYCANE",
+    "name": "قنديل منتصف الشتاء",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_CANDYCANE.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_SNOWMAN",
+    "name": "حَمَل منتصف الشتاء",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_SNOWMAN.png"
+  },
+  {
+    "id": "DECORATION_CHRISTMAS_TREE",
+    "name": "شجرة منتصف الشتاء",
+    "thumb": "icons/structures/64/DECORATION_CHRISTMAS_TREE.png"
+  },
+  {
+    "id": "DECORATION_CNY_DRAGON",
+    "name": "تمثال الحظ",
+    "thumb": "icons/structures/64/DECORATION_CNY_DRAGON.png"
+  },
+  {
+    "id": "DECORATION_CNY_LANTERN",
+    "name": "قنديل الحظ",
+    "thumb": "icons/structures/64/DECORATION_CNY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_CNY_TREE",
+    "name": "شجرة الحظ",
+    "thumb": "icons/structures/64/DECORATION_CNY_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LAMP",
+    "name": "مصباح بلوري",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LAMP.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_LIGHT",
+    "name": "قنديل بلوري",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_LIGHT.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_ROCK",
+    "name": "صخرة بلورية",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_ROCK.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_STATUE",
+    "name": "برج بلوري",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_TREE",
+    "name": "شجرة بلورية",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_TREE.png"
+  },
+  {
+    "id": "DECORATION_CRYSTAL_WINDOW",
+    "name": "نافذة بلورية",
+    "thumb": "icons/structures/64/DECORATION_CRYSTAL_WINDOW.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BOTTLE",
+    "name": "قارورة العفن",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_BUCKET",
+    "name": "دلو الأمعاء",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_BUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE1",
+    "name": "القفص الطويل",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAGE2",
+    "name": "القفص الصغير",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_CAULDRON",
+    "name": "المرجل المشتعل",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAULDRON.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_DIORAMA",
+    "name": "نافورة التعفن",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FIREMACHINE",
+    "name": "الآلة الغريبة",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FIREMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_FLOOR",
+    "name": "الأرضية المتعفنة",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_IRONMAIDEN",
+    "name": "العذراء الحديدية ذات قرني الكبش",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP1",
+    "name": "الشجيرة المنتحبة",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_LUMP2",
+    "name": "مقلة عين في أصيص",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_LUMP2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR1",
+    "name": "العمود المتأوه",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_PILLAR2",
+    "name": "العمود المحدِّق",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE1",
+    "name": "منصة فحم التعفن",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_STONE2",
+    "name": "شمعة فحم التعفن",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_STONE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_TENTACLE",
+    "name": "المجس المتمدد",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_TENTACLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_ROT_WALL",
+    "name": "حائط فحم التعفن",
+    "thumb": "icons/structures/64/DECORATION_DLC_ROT_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+    "name": "المدخنة الطويلة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_1.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+    "name": "المدخنة القصيرة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_2.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_CLOCK",
+    "name": "ساعة سرو الشاة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CLOCK.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+    "name": "عمود إنارة سرو الشاة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_PLANT",
+    "name": "نبتة سرو الشاة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_PLANT.png"
+  },
+  {
+    "id": "DECORATION_DLC_STEAMPUNK_WALL",
+    "name": "حائط سرو الشاة",
+    "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_BULB",
+    "name": "مصباح الصواعق",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_BULB.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST1",
+    "name": "عضو طائفة مخوزق I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_CULTIST2",
+    "name": "عضو طائفة مخوزق II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_CULTIST2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_DIORAMA",
+    "name": "نموذج الجبل",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_DIORAMA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_FIREPIT",
+    "name": "موقد النار",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_FIREPIT.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_LAMPPOST",
+    "name": "عمود إنارة مشحون",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_LAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR1",
+    "name": "عمود الشحنة الملتهبة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_PILLAR2",
+    "name": "عمود الشحنة الساكنة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_PILLAR2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE1",
+    "name": "منصة انعدام العقيدة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE2",
+    "name": "تمثال الذئب",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE3",
+    "name": "أداة الخيميائي I",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE3.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE4",
+    "name": "أداة الخيميائي II",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE4.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_STATUE5",
+    "name": "أداة الخيميائي III",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_STATUE5.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TESLA",
+    "name": "ملف الطاقة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TESLA.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_TREE1",
+    "name": "الشجرة الجبلية",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_TREE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOLF_WIRES",
+    "name": "كومة الأسلاك",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOLF_WIRES.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL1",
+    "name": "برميل السيوف",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BARREL2",
+    "name": "برميل الرماح",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BARREL2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BELLS",
+    "name": "جرس كبير",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BELLS.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH1",
+    "name": "الشجيرة الخجول",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_BUSH2",
+    "name": "الشجيرة المائلة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_BUSH2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_CANDLE",
+    "name": "الشمعة الطويلة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FLOOR",
+    "name": "أرضية ملاذ الحملان",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FLOOR.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+    "name": "نافورة الجرس",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_JUG",
+    "name": "إناء زهور الهلال",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_JUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_RUG",
+    "name": "بساط الشمس",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_RUG.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+    "name": "تمثال إينغيا",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+    "name": "جرس القاعدة",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+    "name": "عمود إنارة ملاذ الحملان",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_STREETLAMP.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_TREE",
+    "name": "الشجرة الجرداء",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_DLC_WOOLHAVEN_WALL",
+    "name": "حائط ملاذ الحملان",
+    "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_WALL.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_CANDLE",
+    "name": "شمعة الصيف",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+    "name": "دلو الزهور الأولى",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_FLOWERBUCKET.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_STICKBUNDLE",
+    "name": "حزمة الأغصان الصغيرة",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_STICKBUNDLE.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TALLFLOWERS",
+    "name": "أقحوان في أصيص",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TALLFLOWERS.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEBUSH",
+    "name": "شجيرة إينغيا",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEBUSH.png"
+  },
+  {
+    "id": "DECORATION_DLC_YNGYA_TREEPOT",
+    "name": "شتلة الصيف",
+    "thumb": "icons/structures/64/DECORATION_DLC_YNGYA_TREEPOT.png"
+  },
+  {
+    "id": "DECORATION_DST_ALCHEMY",
+    "name": "محرك كيميائي",
+    "thumb": "icons/structures/64/DECORATION_DST_ALCHEMY.png"
+  },
+  {
+    "id": "DECORATION_DST_BEEFALOSKELETON",
+    "name": "هيكل بيفالو العظمي",
+    "thumb": "icons/structures/64/DECORATION_DST_BEEFALOSKELETON.png"
+  },
+  {
+    "id": "DECORATION_DST_DEERCLOPS",
+    "name": "تمثال ديركلوبس",
+    "thumb": "icons/structures/64/DECORATION_DST_DEERCLOPS.png"
+  },
+  {
+    "id": "DECORATION_DST_GLOMMERSTATUE",
+    "name": "تمثال غلومر",
+    "thumb": "icons/structures/64/DECORATION_DST_GLOMMERSTATUE.png"
+  },
+  {
+    "id": "DECORATION_DST_MARBLETREE",
+    "name": "شجرة رخامية",
+    "thumb": "icons/structures/64/DECORATION_DST_MARBLETREE.png"
+  },
+  {
+    "id": "DECORATION_DST_PIGSTICK",
+    "name": "رأس خنزير",
+    "thumb": "icons/structures/64/DECORATION_DST_PIGSTICK.png"
+  },
+  {
+    "id": "DECORATION_DST_SCIENCEMACHINE",
+    "name": "آلة العلم",
+    "thumb": "icons/structures/64/DECORATION_DST_SCIENCEMACHINE.png"
+  },
+  {
+    "id": "DECORATION_DST_TREE",
+    "name": "حارس شجرة في أصيص",
+    "thumb": "icons/structures/64/DECORATION_DST_TREE.png"
+  },
+  {
+    "id": "DECORATION_DST_WALL",
+    "name": "حائط القش",
+    "thumb": "icons/structures/64/DECORATION_DST_WALL.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_EGG",
+    "name": "البيضة الكبيرة",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_EGG.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_HAROSTATUE",
+    "name": "تمثال البومة",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_HAROSTATUE.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_TURUA",
+    "name": "عينة توروا",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_TURUA.png"
+  },
+  {
+    "id": "DECORATION_EASTEREGG_WARRACKA",
+    "name": "بذرة واراكا",
+    "thumb": "icons/structures/64/DECORATION_EASTEREGG_WARRACKA.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CROWN",
+    "name": "راية التاج",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_FLAG_CRYSTAL",
+    "name": "راية بلورية",
+    "thumb": "icons/structures/64/DECORATION_FLAG_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_FLAG_MUSHROOM",
+    "name": "راية الفطر",
+    "thumb": "icons/structures/64/DECORATION_FLAG_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_FLAG_SCRIPTURE",
+    "name": "راية القوانين",
+    "thumb": "icons/structures/64/DECORATION_FLAG_SCRIPTURE.png"
+  },
+  {
+    "id": "DECORATION_FLOWERPOTWALL",
+    "name": "أصيص زهور معلق",
+    "thumb": "icons/structures/64/DECORATION_FLOWERPOTWALL.png"
+  },
+  {
+    "id": "DECORATION_FLOWERVASE",
+    "name": "إناء زهور",
+    "thumb": "icons/structures/64/DECORATION_FLOWERVASE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_ARCH",
+    "name": "قوس زهور",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_ARCH.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOTTLE",
+    "name": "قارورة زهور",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOTTLE.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_BOX_1",
+    "name": "حوض الكاميليا",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_BOX_1.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART",
+    "name": "عربة زهور",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART.png"
+  },
+  {
+    "id": "DECORATION_FLOWER_CART_SMALL",
+    "name": "عربة زهور صغيرة",
+    "thumb": "icons/structures/64/DECORATION_FLOWER_CART_SMALL.png"
+  },
+  {
+    "id": "DECORATION_FOUNTAIN",
+    "name": "نافورة التاج",
+    "thumb": "icons/structures/64/DECORATION_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_GNOME1",
+    "name": "بي",
+    "thumb": "icons/structures/64/DECORATION_GNOME1.png"
+  },
+  {
+    "id": "DECORATION_GNOME2",
+    "name": "أوه",
+    "thumb": "icons/structures/64/DECORATION_GNOME2.png"
+  },
+  {
+    "id": "DECORATION_GNOME3",
+    "name": "جي",
+    "thumb": "icons/structures/64/DECORATION_GNOME3.png"
+  },
+  {
+    "id": "DECORATION_GOAT_LANTERN",
+    "name": "القنديل الأعظم",
+    "thumb": "icons/structures/64/DECORATION_GOAT_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_GOAT_PLANT",
+    "name": "إناء الزهور الأعظم",
+    "thumb": "icons/structures/64/DECORATION_GOAT_PLANT.png"
+  },
+  {
+    "id": "DECORATION_GOAT_STATUE",
+    "name": "التمثال الأعظم",
+    "thumb": "icons/structures/64/DECORATION_GOAT_STATUE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_CANDLE",
+    "name": "شمعة قمر الدم",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_PUMPKIN",
+    "name": "يقطينة قمر الدم",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_PUMPKIN.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_SKULL",
+    "name": "جمجمة قمر الدم",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_SKULL.png"
+  },
+  {
+    "id": "DECORATION_HALLOWEEN_TREE",
+    "name": "شجرة قمر الدم",
+    "thumb": "icons/structures/64/DECORATION_HALLOWEEN_TREE.png"
+  },
+  {
+    "id": "DECORATION_HAY_BALE",
+    "name": "رزمة قش",
+    "thumb": "icons/structures/64/DECORATION_HAY_BALE.png"
+  },
+  {
+    "id": "DECORATION_HAY_PILE",
+    "name": "كومة قش",
+    "thumb": "icons/structures/64/DECORATION_HAY_PILE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_FLAG_STATUE",
+    "name": "تمثال راية الحَمَل",
+    "thumb": "icons/structures/64/DECORATION_LAMB_FLAG_STATUE.png"
+  },
+  {
+    "id": "DECORATION_LAMB_STATUE",
+    "name": "تمثال الحَمَل",
+    "thumb": null
+  },
+  {
+    "id": "DECORATION_LEAFYLAMPPOST",
+    "name": "عمود إنارة مغطى بالأوراق",
+    "thumb": "icons/structures/64/DECORATION_LEAFYLAMPPOST.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_FLOWER_SCULPTURE",
+    "name": "منحوتة زهور كثيفة الأوراق",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_FLOWER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_LANTERN",
+    "name": "قنديل الساق المورقة",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_LEAFY_SCULPTURE",
+    "name": "سارية الأغصان المورقة",
+    "thumb": "icons/structures/64/DECORATION_LEAFY_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_MONSTERSHRINE",
+    "name": "مزار Massive Monster",
+    "thumb": "icons/structures/64/DECORATION_MONSTERSHRINE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_1",
+    "name": "فطر صغير",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_2",
+    "name": "تجمع الفطر",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_1",
+    "name": "الفطر حامل الشموع الصغير",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_1.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_2",
+    "name": "الفطر حامل الشموع الكبير",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_2.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_CANDLE_LARGE",
+    "name": "مزار شمعة الفطر",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_CANDLE_LARGE.png"
+  },
+  {
+    "id": "DECORATION_MUSHROOM_SCULPTURE",
+    "name": "منحوتة الفطر",
+    "thumb": "icons/structures/64/DECORATION_MUSHROOM_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_CRYSTAL",
+    "name": "الجوهرة الدموية",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_CRYSTAL.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FLAG",
+    "name": "راية العقيدة القديمة",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FLAG.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_FOUNTAIN",
+    "name": "نافورة الدمار",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_FOUNTAIN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_IRONMAIDEN",
+    "name": "العذراء الحديدية من العقيدة القديمة",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_IRONMAIDEN.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_SHRINE",
+    "name": "مزار العقيدة القديمة",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_SHRINE.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_TORCH",
+    "name": "النار الأبدية",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_TORCH.png"
+  },
+  {
+    "id": "DECORATION_OLDFAITH_WALL",
+    "name": "حوائط الأطلال",
+    "thumb": "icons/structures/64/DECORATION_OLDFAITH_WALL.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LAMB",
+    "name": "Lamball Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LAMB.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_LANTERN",
+    "name": "Palsphere Lantern",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_PLANT",
+    "name": "Houseless Plant",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_PLANT.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_STATUE",
+    "name": "Great Eagle Statue",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_STATUE.png"
+  },
+  {
+    "id": "DECORATION_PALWORLD_TREE",
+    "name": "Skilled Bonsai Tree",
+    "thumb": "icons/structures/64/DECORATION_PALWORLD_TREE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_BONSAI",
+    "name": "شجرة بونساي",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_BONSAI.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_LANTERN",
+    "name": "قنديل معلق",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_PAGODA",
+    "name": "هيكل صغير",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_PAGODA.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_VASE",
+    "name": "إناء زهور الفاوانيا",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_VASE.png"
+  },
+  {
+    "id": "DECORATION_PILGRIM_WALL",
+    "name": "حائط الخيزران",
+    "thumb": "icons/structures/64/DECORATION_PILGRIM_WALL.png"
+  },
+  {
+    "id": "DECORATION_PLUSH",
+    "name": "دمية الحَمَل",
+    "thumb": "icons/structures/64/DECORATION_PLUSH.png"
+  },
+  {
+    "id": "DECORATION_POND",
+    "name": "بركة",
+    "thumb": "icons/structures/64/DECORATION_POND.png"
+  },
+  {
+    "id": "DECORATION_POST_BOX",
+    "name": "صندوق الالتماس",
+    "thumb": "icons/structures/64/DECORATION_POST_BOX.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_PILE",
+    "name": "كومة يقطين",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_PILE.png"
+  },
+  {
+    "id": "DECORATION_PUMPKIN_STOOL",
+    "name": "يقطينة منحوتة",
+    "thumb": "icons/structures/64/DECORATION_PUMPKIN_STOOL.png"
+  },
+  {
+    "id": "DECORATION_SHRUB",
+    "name": "شجيرة بسيطة",
+    "thumb": "icons/structures/64/DECORATION_SHRUB.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_CRUCIFIX",
+    "name": "رمز مُغطى بالورود",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_CRUCIFIX.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS1",
+    "name": "أزهار الإغواء",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS1.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_FLOWERS2",
+    "name": "إناء زهور فاخر",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_FLOWERS2.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_INCENSE",
+    "name": "مبخرة رائحة الخطيئة",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_INCENSE.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_SKULL",
+    "name": "جمجمة الدنس",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_SKULL.png"
+  },
+  {
+    "id": "DECORATION_SINFUL_STATUE",
+    "name": "الحَمَل الذهبي",
+    "thumb": "icons/structures/64/DECORATION_SINFUL_STATUE.png"
+  },
+  {
+    "id": "DECORATION_SMALL_STONE_CANDLE",
+    "name": "شمعة الحجر الصغير",
+    "thumb": "icons/structures/64/DECORATION_SMALL_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_LANTERN",
+    "name": "قنديل العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_LANTERN.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_PILLAR",
+    "name": "عمود العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_PILLAR.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_SCULPTURE",
+    "name": "منحوتة حرير العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_TORCH",
+    "name": "شعلة العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_TORCH.png"
+  },
+  {
+    "id": "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+    "name": "منحوتة تاج خيوط العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_SPIDER_WEB_CROWN_SCULPTURE.png"
+  },
+  {
+    "id": "DECORATION_STONE",
+    "name": "حجر قديم",
+    "thumb": "icons/structures/64/DECORATION_STONE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE",
+    "name": "شمعة الحجر",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE.png"
+  },
+  {
+    "id": "DECORATION_STONE_CANDLE_LAMP",
+    "name": "مصباح حجري",
+    "thumb": "icons/structures/64/DECORATION_STONE_CANDLE_LAMP.png"
+  },
+  {
+    "id": "DECORATION_STONE_FLAG",
+    "name": "راية حجرية",
+    "thumb": "icons/structures/64/DECORATION_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_STONE_HENGE",
+    "name": "الشاهد الحجري",
+    "thumb": "icons/structures/64/DECORATION_STONE_HENGE.png"
+  },
+  {
+    "id": "DECORATION_STONE_MUSHROOM",
+    "name": "فطر حجري",
+    "thumb": "icons/structures/64/DECORATION_STONE_MUSHROOM.png"
+  },
+  {
+    "id": "DECORATION_STUMP_LAMB_STATUE",
+    "name": "تمثال للحَمَل من جذع شجرة",
+    "thumb": "icons/structures/64/DECORATION_STUMP_LAMB_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TORCH",
+    "name": "شعلة",
+    "thumb": "icons/structures/64/DECORATION_TORCH.png"
+  },
+  {
+    "id": "DECORATION_TORCH_BIG",
+    "name": "شعلة كبيرة",
+    "thumb": "icons/structures/64/DECORATION_TORCH_BIG.png"
+  },
+  {
+    "id": "DECORATION_TREE",
+    "name": "شجيرة في أصيص",
+    "thumb": "icons/structures/64/DECORATION_TREE.png"
+  },
+  {
+    "id": "DECORATION_TWIG_LAMP",
+    "name": "قنديلان خشبيان",
+    "thumb": "icons/structures/64/DECORATION_TWIG_LAMP.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_FLAG_CROWN",
+    "name": "راية التاج",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_FLAG_CROWN.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_MUSHROOM_BAG",
+    "name": "جِوال الفطر",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_MUSHROOM_BAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_ROSE_BUSH",
+    "name": "شجيرة في أصيص",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_ROSE_BUSH.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_FLAG",
+    "name": "راية حجرية",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_FLAG.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_STONE_STATUE",
+    "name": "نصب حجري",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_STONE_STATUE.png"
+  },
+  {
+    "id": "DECORATION_TWITCH_WOODEN_GUARDIAN",
+    "name": "الحارس الخشبي",
+    "thumb": "icons/structures/64/DECORATION_TWITCH_WOODEN_GUARDIAN.png"
+  },
+  {
+    "id": "DECORATION_VIDEO",
+    "name": "العين الشاهدة على كل شيء",
+    "thumb": "icons/structures/64/DECORATION_VIDEO.png"
+  },
+  {
+    "id": "DECORATION_WALL_BONE",
+    "name": "حائط عظمي",
+    "thumb": "icons/structures/64/DECORATION_WALL_BONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_GRASS",
+    "name": "حائط عشبي",
+    "thumb": "icons/structures/64/DECORATION_WALL_GRASS.png"
+  },
+  {
+    "id": "DECORATION_WALL_SPIDER",
+    "name": "حائط حرير العنكبوت",
+    "thumb": "icons/structures/64/DECORATION_WALL_SPIDER.png"
+  },
+  {
+    "id": "DECORATION_WALL_STONE",
+    "name": "حائط حجري",
+    "thumb": "icons/structures/64/DECORATION_WALL_STONE.png"
+  },
+  {
+    "id": "DECORATION_WALL_TWIGS",
+    "name": "حائط الأغصان",
+    "thumb": "icons/structures/64/DECORATION_WALL_TWIGS.png"
+  },
+  {
+    "id": "DECORATION_WATERINGCAN",
+    "name": "إبريق ريّ",
+    "thumb": "icons/structures/64/DECORATION_WATERINGCAN.png"
+  },
+  {
+    "id": "DECORATION_WEEPINGSHRINE",
+    "name": "المزار الباكي",
+    "thumb": "icons/structures/64/DECORATION_WEEPINGSHRINE.png"
+  },
+  {
+    "id": "DECORATION_WREATH_STICK",
+    "name": "إكليل زهور",
+    "thumb": "icons/structures/64/DECORATION_WREATH_STICK.png"
+  },
+  {
+    "id": "DEMON_SUMMONER",
+    "name": "حلقة استدعاء العفاريت",
+    "thumb": "icons/structures/64/DEMON_SUMMONER.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_2",
+    "name": "حلقة استدعاء العفاريت II",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_2.png"
+  },
+  {
+    "id": "DEMON_SUMMONER_3",
+    "name": "حلقة استدعاء العفاريت III",
+    "thumb": "icons/structures/64/DEMON_SUMMONER_3.png"
+  },
+  {
+    "id": "DRUM_CIRCLE",
+    "name": "دائرة الطبول",
+    "thumb": "icons/structures/64/DRUM_CIRCLE.png"
+  },
+  {
+    "id": "FARM_CROP_GROWER",
+    "name": "طوطم تدفئة المحاصيل",
+    "thumb": "icons/structures/64/FARM_CROP_GROWER.png"
+  },
+  {
+    "id": "FARM_PLOT",
+    "name": "مزرعة",
+    "thumb": "icons/structures/64/FARM_PLOT.png"
+  },
+  {
+    "id": "FARM_PLOT_SIGN",
+    "name": "لافتة مزرعة",
+    "thumb": "icons/structures/64/FARM_PLOT_SIGN.png"
+  },
+  {
+    "id": "FARM_STATION",
+    "name": "مقر المزارعين",
+    "thumb": "icons/structures/64/FARM_STATION.png"
+  },
+  {
+    "id": "FARM_STATION_II",
+    "name": "مقر المزارعين II",
+    "thumb": "icons/structures/64/FARM_STATION_II.png"
+  },
+  {
+    "id": "FEAST_TABLE",
+    "name": "طاولة الولائم",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE",
+    "name": "مخزن الطعام",
+    "thumb": null
+  },
+  {
+    "id": "FOOD_STORAGE_2",
+    "name": "مخزن الطعام II",
+    "thumb": null
+  },
+  {
+    "id": "FORAGING_SHRINE",
+    "name": "مزار جمع الأطعمة",
+    "thumb": null
+  },
+  {
+    "id": "FURNACE_1",
+    "name": "فرن فحم التعفن",
+    "thumb": "icons/structures/64/FURNACE_1.png"
+  },
+  {
+    "id": "FURNACE_2",
+    "name": "فرن فحم التعفن II",
+    "thumb": "icons/structures/64/FURNACE_2.png"
+  },
+  {
+    "id": "FURNACE_3",
+    "name": "فرن فحم التعفن III",
+    "thumb": "icons/structures/64/FURNACE_3.png"
+  },
+  {
+    "id": "GRAVE",
+    "name": "قبر",
+    "thumb": "icons/structures/64/GRAVE.png"
+  },
+  {
+    "id": "HARVEST_TOTEM",
+    "name": "طوطم الحصاد",
+    "thumb": "icons/structures/64/HARVEST_TOTEM.png"
+  },
+  {
+    "id": "HARVEST_TOTEM_2",
+    "name": "طوطم حصاد الولاء",
+    "thumb": "icons/structures/64/HARVEST_TOTEM_2.png"
+  },
+  {
+    "id": "HATCHERY",
+    "name": "المفقس",
+    "thumb": "icons/structures/64/HATCHERY.png"
+  },
+  {
+    "id": "HATCHERY_2",
+    "name": "المفقس II",
+    "thumb": "icons/structures/64/HATCHERY_2.png"
+  },
+  {
+    "id": "HEALING_BAY",
+    "name": "كوخ العلاج",
+    "thumb": "icons/structures/64/HEALING_BAY.png"
+  },
+  {
+    "id": "HEALING_BAY_2",
+    "name": "كوخ علاج محسّن",
+    "thumb": "icons/structures/64/HEALING_BAY_2.png"
+  },
+  {
+    "id": "JANITOR_STATION",
+    "name": "مقر النظافة",
+    "thumb": "icons/structures/64/JANITOR_STATION.png"
+  },
+  {
+    "id": "JANITOR_STATION_2",
+    "name": "مقر النظافة II",
+    "thumb": "icons/structures/64/JANITOR_STATION_2.png"
+  },
+  {
+    "id": "KITCHEN",
+    "name": "المطبخ",
+    "thumb": "icons/structures/64/KITCHEN.png"
+  },
+  {
+    "id": "KITCHEN_II",
+    "name": "المطبخ",
+    "thumb": null
+  },
+  {
+    "id": "KNUCKLEBONES_ARENA",
+    "name": "ساحة جاكس",
+    "thumb": "icons/structures/64/KNUCKLEBONES_ARENA.png"
+  },
+  {
+    "id": "LEADER_TENT",
+    "name": "خيمة القائد",
+    "thumb": "icons/structures/64/LEADER_TENT.png"
+  },
+  {
+    "id": "LIGHTNING_ROD",
+    "name": "مانعة الصواعق",
+    "thumb": "icons/structures/64/LIGHTNING_ROD.png"
+  },
+  {
+    "id": "LIGHTNING_ROD_2",
+    "name": "مانعة الصواعق II",
+    "thumb": "icons/structures/64/LIGHTNING_ROD_2.png"
+  },
+  {
+    "id": "LOGISTICS",
+    "name": "خيمة العمل",
+    "thumb": "icons/structures/64/LOGISTICS.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION",
+    "name": "مخزن الأخشاب",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION.png"
+  },
+  {
+    "id": "LUMBERJACK_STATION_2",
+    "name": "مخزن الأخشاب II",
+    "thumb": "icons/structures/64/LUMBERJACK_STATION_2.png"
+  },
+  {
+    "id": "MATING_TENT",
+    "name": "خيمة التزاوج",
+    "thumb": "icons/structures/64/MATING_TENT.png"
+  },
+  {
+    "id": "MEDIC",
+    "name": "مقر الإسعاف",
+    "thumb": "icons/structures/64/MEDIC.png"
+  },
+  {
+    "id": "MINING_SHRINE",
+    "name": "مزار الاقتلاع",
+    "thumb": null
+  },
+  {
+    "id": "MISSIONARY",
+    "name": "مبنى البعثات",
+    "thumb": "icons/structures/64/MISSIONARY.png"
+  },
+  {
+    "id": "MISSIONARY_II",
+    "name": "مبنى البعثات II",
+    "thumb": "icons/structures/64/MISSIONARY_II.png"
+  },
+  {
+    "id": "MISSIONARY_III",
+    "name": "مبنى البعثات III",
+    "thumb": "icons/structures/64/MISSIONARY_III.png"
+  },
+  {
+    "id": "MORGUE_1",
+    "name": "المشرحة",
+    "thumb": "icons/structures/64/MORGUE_1.png"
+  },
+  {
+    "id": "MORGUE_2",
+    "name": "المشرحة II",
+    "thumb": "icons/structures/64/MORGUE_2.png"
+  },
+  {
+    "id": "OFFERING_STATUE",
+    "name": "نصب التقدمات",
+    "thumb": "icons/structures/64/OFFERING_STATUE.png"
+  },
+  {
+    "id": "OUTHOUSE",
+    "name": "المرحاض",
+    "thumb": "icons/structures/64/OUTHOUSE.png"
+  },
+  {
+    "id": "OUTHOUSE_2",
+    "name": "المرحاض II",
+    "thumb": "icons/structures/64/OUTHOUSE_2.png"
+  },
+  {
+    "id": "PLANK_PATH",
+    "name": "ألواح خشبية",
+    "thumb": "icons/structures/64/PLANK_PATH.png"
+  },
+  {
+    "id": "POOP",
+    "name": "فضلات",
+    "thumb": null
+  },
+  {
+    "id": "POOP_BUCKET",
+    "name": "مستودع السماد",
+    "thumb": "icons/structures/64/POOP_BUCKET.png"
+  },
+  {
+    "id": "PRISON",
+    "name": "السجن",
+    "thumb": "icons/structures/64/PRISON.png"
+  },
+  {
+    "id": "PROPAGANDA_SPEAKER",
+    "name": "سماعات الدعاية",
+    "thumb": "icons/structures/64/PROPAGANDA_SPEAKER.png"
+  },
+  {
+    "id": "PROXIMITY_FURNACE",
+    "name": "مدفأة",
+    "thumb": "icons/structures/64/PROXIMITY_FURNACE.png"
+  },
+  {
+    "id": "PUB",
+    "name": "المشرب",
+    "thumb": "icons/structures/64/PUB.png"
+  },
+  {
+    "id": "PUB_2",
+    "name": "المشرب II",
+    "thumb": "icons/structures/64/PUB_2.png"
+  },
+  {
+    "id": "RACING_GATE",
+    "name": "بوابة التسابق",
+    "thumb": "icons/structures/64/RACING_GATE.png"
+  },
+  {
+    "id": "RANCH",
+    "name": "مَربى الحيوانات",
+    "thumb": "icons/structures/64/RANCH.png"
+  },
+  {
+    "id": "RANCH_2",
+    "name": "مَربى الحيوانات II",
+    "thumb": "icons/structures/64/RANCH_2.png"
+  },
+  {
+    "id": "RANCH_CHOPPING_BLOCK",
+    "name": "حجر الذبح",
+    "thumb": "icons/structures/64/RANCH_CHOPPING_BLOCK.png"
+  },
+  {
+    "id": "RANCH_FENCE",
+    "name": "سياج مَربى الحيوانات",
+    "thumb": "icons/structures/64/RANCH_FENCE.png"
+  },
+  {
+    "id": "RANCH_HUTCH",
+    "name": "حظيرة",
+    "thumb": "icons/structures/64/RANCH_HUTCH.png"
+  },
+  {
+    "id": "RANCH_TROUGH",
+    "name": "معلف",
+    "thumb": "icons/structures/64/RANCH_TROUGH.png"
+  },
+  {
+    "id": "REFINERY",
+    "name": "وحدة المعالجة",
+    "thumb": "icons/structures/64/REFINERY.png"
+  },
+  {
+    "id": "REFINERY_2",
+    "name": "وحدة المعالجة II",
+    "thumb": "icons/structures/64/REFINERY_2.png"
+  },
+  {
+    "id": "ROTSTONE_MINE",
+    "name": "منجم فحم التعفن",
+    "thumb": "icons/structures/64/ROTSTONE_MINE.png"
+  },
+  {
+    "id": "ROTSTONE_MINE_2",
+    "name": "منجم فحم التعفن II",
+    "thumb": "icons/structures/64/ROTSTONE_MINE_2.png"
+  },
+  {
+    "id": "SACRIFICE_TABLE",
+    "name": "طاولة التقدمات",
+    "thumb": "icons/structures/64/SACRIFICE_TABLE.png"
+  },
+  {
+    "id": "SCARECROW",
+    "name": "الفزّاعة",
+    "thumb": "icons/structures/64/SCARECROW.png"
+  },
+  {
+    "id": "SCARECROW_2",
+    "name": "فزّاعة الفخاخ",
+    "thumb": "icons/structures/64/SCARECROW_2.png"
+  },
+  {
+    "id": "SEED_BUCKET",
+    "name": "مستودع البذور",
+    "thumb": "icons/structures/64/SEED_BUCKET.png"
+  },
+  {
+    "id": "SHARED_HOUSE",
+    "name": "مأوى مشترك",
+    "thumb": "icons/structures/64/SHARED_HOUSE.png"
+  },
+  {
+    "id": "SHRINE",
+    "name": "المزار",
+    "thumb": "icons/structures/64/SHRINE.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_BOOST",
+    "name": "مزار الأنصار المعززين",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_BOOST.png"
+  },
+  {
+    "id": "SHRINE_DISCIPLE_COLLECTION",
+    "name": "مزار الأنصار الجامعين",
+    "thumb": "icons/structures/64/SHRINE_DISCIPLE_COLLECTION.png"
+  },
+  {
+    "id": "SHRINE_II",
+    "name": "المزار II",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_III",
+    "name": "المزار III",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_IV",
+    "name": "المزار IV",
+    "thumb": null
+  },
+  {
+    "id": "SHRINE_PASSIVE",
+    "name": "مزار الالتماس",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_II",
+    "name": "مزار الالتماس II",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_II.png"
+  },
+  {
+    "id": "SHRINE_PASSIVE_III",
+    "name": "مزار الالتماس III",
+    "thumb": "icons/structures/64/SHRINE_PASSIVE_III.png"
+  },
+  {
+    "id": "SHRINE_PLEASURE",
+    "name": "Sin Totem",
+    "thumb": null
+  },
+  {
+    "id": "SILO_FERTILISER",
+    "name": "مخزن السماد",
+    "thumb": "icons/structures/64/SILO_FERTILISER.png"
+  },
+  {
+    "id": "SILO_SEED",
+    "name": "مخزن البذور",
+    "thumb": "icons/structures/64/SILO_SEED.png"
+  },
+  {
+    "id": "SURVEILLANCE",
+    "name": "برج المراقبة",
+    "thumb": null
+  },
+  {
+    "id": "TAILOR",
+    "name": "خيمة الخياطة",
+    "thumb": "icons/structures/64/TAILOR.png"
+  },
+  {
+    "id": "TEMPLE",
+    "name": "المجمع",
+    "thumb": "icons/structures/64/TEMPLE.png"
+  },
+  {
+    "id": "TEMPLE_II",
+    "name": "الطائفة II",
+    "thumb": "icons/structures/64/TEMPLE_II.png"
+  },
+  {
+    "id": "TEMPLE_III",
+    "name": "الطائفة III",
+    "thumb": "icons/structures/64/TEMPLE_III.png"
+  },
+  {
+    "id": "TEMPLE_IV",
+    "name": "الطائفة IV",
+    "thumb": "icons/structures/64/TEMPLE_IV.png"
+  },
+  {
+    "id": "TILE_BLOOD",
+    "name": "أرضية الحمم",
+    "thumb": "icons/structures/64/TILE_BLOOD.png"
+  },
+  {
+    "id": "TILE_BRICKS",
+    "name": "أرضية مرصوفة بالطوب",
+    "thumb": "icons/structures/64/TILE_BRICKS.png"
+  },
+  {
+    "id": "TILE_FLOWERS",
+    "name": "أرضية الزهور",
+    "thumb": "icons/structures/64/TILE_FLOWERS.png"
+  },
+  {
+    "id": "TILE_FLOWERSROCKY",
+    "name": "أرضية الغابة",
+    "thumb": "icons/structures/64/TILE_FLOWERSROCKY.png"
+  },
+  {
+    "id": "TILE_GOLD",
+    "name": "أرضية ذهبية",
+    "thumb": "icons/structures/64/TILE_GOLD.png"
+  },
+  {
+    "id": "TILE_HAY",
+    "name": "أرضية القش",
+    "thumb": "icons/structures/64/TILE_HAY.png"
+  },
+  {
+    "id": "TILE_MOSAIC",
+    "name": "أرضية الفسيفساء",
+    "thumb": "icons/structures/64/TILE_MOSAIC.png"
+  },
+  {
+    "id": "TILE_OLDFAITH",
+    "name": "أرضية العقيدة القديمة",
+    "thumb": "icons/structures/64/TILE_OLDFAITH.png"
+  },
+  {
+    "id": "TILE_PATH",
+    "name": "أرضية ترابية",
+    "thumb": "icons/structures/64/TILE_PATH.png"
+  },
+  {
+    "id": "TILE_PLANKS",
+    "name": "أرضية خشبية",
+    "thumb": "icons/structures/64/TILE_PLANKS.png"
+  },
+  {
+    "id": "TILE_REDGRASS",
+    "name": "أرضية السجادة الحمراء",
+    "thumb": "icons/structures/64/TILE_REDGRASS.png"
+  },
+  {
+    "id": "TILE_ROCKS",
+    "name": "أرضية مرصوفة بالحجارة",
+    "thumb": "icons/structures/64/TILE_ROCKS.png"
+  },
+  {
+    "id": "TILE_SPOOKYPLANKS",
+    "name": "أرضية ذات علامات",
+    "thumb": "icons/structures/64/TILE_SPOOKYPLANKS.png"
+  },
+  {
+    "id": "TILE_WATER",
+    "name": "بركة زخرفية",
+    "thumb": "icons/structures/64/TILE_WATER.png"
+  },
+  {
+    "id": "TOOLSHED",
+    "name": "ورشة النجارة",
+    "thumb": "icons/structures/64/TOOLSHED.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_1",
+    "name": "منصة تعديل السمات",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_1.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_2",
+    "name": "منصة تعديل السمات II",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_2.png"
+  },
+  {
+    "id": "TRAIT_MANIPULATOR_3",
+    "name": "منصة تعديل السمات III",
+    "thumb": "icons/structures/64/TRAIT_MANIPULATOR_3.png"
+  },
+  {
+    "id": "VOLCANIC_SPA",
+    "name": "حوض الانغمار",
+    "thumb": "icons/structures/64/VOLCANIC_SPA.png"
+  },
+  {
+    "id": "VOMIT",
+    "name": "قيء",
+    "thumb": null
+  },
+  {
+    "id": "WEATHER_VANE",
+    "name": "دليل الطقس",
+    "thumb": "icons/structures/64/WEATHER_VANE.png"
+  },
+  {
+    "id": "WOLF_TRAP",
+    "name": "فخ الذئاب",
+    "thumb": "icons/structures/64/WOLF_TRAP.png"
+  },
+  {
+    "id": "WOOLY_SHACK",
+    "name": "Wooly Shack",
+    "thumb": "icons/structures/64/WOOLY_SHACK.png"
+  }
+]

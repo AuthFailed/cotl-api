@@ -1,0 +1,27 @@
+[
+  {
+    "id": "BERRY",
+    "name": "Berries",
+    "thumb": null
+  },
+  {
+    "id": "LOG",
+    "name": "Logs",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "Bowl of Berries",
+    "thumb": null
+  },
+  {
+    "id": "SEED",
+    "name": "Berry Seed",
+    "thumb": null
+  },
+  {
+    "id": "STONE",
+    "name": "Stone",
+    "thumb": "icons/items/64/STONE.png"
+  }
+]

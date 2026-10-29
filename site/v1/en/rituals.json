@@ -1,0 +1,157 @@
+[
+  {
+    "id": "Ritual_AlmsToPoor",
+    "name": "Alms for the Poor",
+    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png"
+  },
+  {
+    "id": "Ritual_Ascend",
+    "name": "Ascend Follower Ritual",
+    "thumb": "icons/rituals/64/Ritual_Ascend.png"
+  },
+  {
+    "id": "Ritual_AssignFaithEnforcer",
+    "name": "Loyalty Enforcer",
+    "thumb": "icons/rituals/64/Ritual_AssignFaithEnforcer.png"
+  },
+  {
+    "id": "Ritual_AssignTaxCollector",
+    "name": "Tax Enforcer",
+    "thumb": "icons/rituals/64/Ritual_AssignTaxCollector.png"
+  },
+  {
+    "id": "Ritual_AtoneSin",
+    "name": "Sinner's Pride",
+    "thumb": "icons/rituals/64/Ritual_AtoneSin.png"
+  },
+  {
+    "id": "Ritual_BecomeDisciple",
+    "name": "Ritual of Discipleship",
+    "thumb": "icons/rituals/64/Ritual_BecomeDisciple.png"
+  },
+  {
+    "id": "Ritual_Brainwashing",
+    "name": "Brainwashing Ritual",
+    "thumb": "icons/rituals/64/Ritual_Brainwashing.png"
+  },
+  {
+    "id": "Ritual_Cannibal",
+    "name": "Gluttony of Cannibals",
+    "thumb": "icons/rituals/64/Ritual_Cannibal.png"
+  },
+  {
+    "id": "Ritual_ConvertToRot",
+    "name": "Ritual of Decay",
+    "thumb": "icons/rituals/64/Ritual_ConvertToRot.png"
+  },
+  {
+    "id": "Ritual_DonationRitual",
+    "name": "Ritual of Enrichment",
+    "thumb": "icons/rituals/64/Ritual_DonationRitual.png"
+  },
+  {
+    "id": "Ritual_Enlightenment",
+    "name": "Ritual of Enlightenment",
+    "thumb": "icons/rituals/64/Ritual_Enlightenment.png"
+  },
+  {
+    "id": "Ritual_Fast",
+    "name": "Ritual Fast",
+    "thumb": "icons/rituals/64/Ritual_Fast.png"
+  },
+  {
+    "id": "Ritual_FasterBuilding",
+    "name": "The Glory of Construction",
+    "thumb": "icons/rituals/64/Ritual_FasterBuilding.png"
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Feasting Ritual",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  },
+  {
+    "id": "Ritual_Fightpit",
+    "name": "Fight Pit Ritual",
+    "thumb": "icons/rituals/64/Ritual_Fightpit.png"
+  },
+  {
+    "id": "Ritual_FirePit",
+    "name": "Bonfire Ritual",
+    "thumb": "icons/rituals/64/Ritual_FirePit.png"
+  },
+  {
+    "id": "Ritual_FishingRitual",
+    "name": "Ritual of the Ocean's Bounty",
+    "thumb": "icons/rituals/64/Ritual_FishingRitual.png"
+  },
+  {
+    "id": "Ritual_FollowerWedding",
+    "name": "Follower Wedding Ceremony",
+    "thumb": "icons/rituals/64/Ritual_FollowerWedding.png"
+  },
+  {
+    "id": "Ritual_Funeral",
+    "name": "Funeral",
+    "thumb": "icons/rituals/64/Ritual_Funeral.png"
+  },
+  {
+    "id": "Ritual_Halloween",
+    "name": "Blood Moon Ritual",
+    "thumb": "icons/rituals/64/Ritual_Halloween.png"
+  },
+  {
+    "id": "Ritual_HarvestRitual",
+    "name": "Ritual of the Harvest",
+    "thumb": "icons/rituals/64/Ritual_HarvestRitual.png"
+  },
+  {
+    "id": "Ritual_Holiday",
+    "name": "Holy Day Ritual",
+    "thumb": "icons/rituals/64/Ritual_Holiday.png"
+  },
+  {
+    "id": "Ritual_Nudism",
+    "name": "Rite of Lust",
+    "thumb": "icons/rituals/64/Ritual_Nudism.png"
+  },
+  {
+    "id": "Ritual_Purge",
+    "name": "Rite of Wrath",
+    "thumb": "icons/rituals/64/Ritual_Purge.png"
+  },
+  {
+    "id": "Ritual_RanchHarvest",
+    "name": "Ritual of Shearing",
+    "thumb": "icons/rituals/64/Ritual_RanchHarvest.png"
+  },
+  {
+    "id": "Ritual_RanchMeat",
+    "name": "Ritual of Gorging",
+    "thumb": "icons/rituals/64/Ritual_RanchMeat.png"
+  },
+  {
+    "id": "Ritual_Ressurect",
+    "name": "Ritual of Resurrection",
+    "thumb": "icons/rituals/64/Ritual_Ressurect.png"
+  },
+  {
+    "id": "Ritual_Sacrifice",
+    "name": "Sacrifice of the Flesh",
+    "thumb": "icons/rituals/64/Ritual_Sacrifice.png"
+  },
+  {
+    "id": "Ritual_Snowman",
+    "name": "Life to the Ice",
+    "thumb": "icons/rituals/64/Ritual_Snowman.png"
+  },
+  {
+    "id": "Ritual_Wedding",
+    "name": "Wedding",
+    "thumb": "icons/rituals/64/Ritual_Wedding.png"
+  },
+  {
+    "id": "Ritual_WorkThroughNight",
+    "name": "Glory Through Toil",
+    "thumb": "icons/rituals/64/Ritual_WorkThroughNight.png"
+  }
+]

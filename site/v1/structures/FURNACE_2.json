@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/FURNACE_2.png",
   "upgradesFrom": "FURNACE_1",
   "upgradesTo": [
     "FURNACE_3"

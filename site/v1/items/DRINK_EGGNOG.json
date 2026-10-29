@@ -212,6 +212,7 @@
   "tags": [
     "drink"
   ],
+  "thumb": "icons/items/64/DRINK_EGGNOG.png",
   "usedIn": {
     "items": [],
     "rituals": [],

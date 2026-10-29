@@ -1,0 +1,12 @@
+[
+  {
+    "id": "FARM_PLOT",
+    "name": "Farm Plot",
+    "thumb": "icons/structures/64/FARM_PLOT.png"
+  },
+  {
+    "id": "SHRINE_II",
+    "name": "Shrine II",
+    "thumb": "icons/structures/64/SHRINE_II.png"
+  }
+]

@@ -82,6 +82,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/DECORATION_LEAFY_FLOWER_SCULPTURE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

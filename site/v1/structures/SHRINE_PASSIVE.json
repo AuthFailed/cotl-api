@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/SHRINE_PASSIVE.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "SHRINE_PASSIVE_II"

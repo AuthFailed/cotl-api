@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/FARM_STATION.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "FARM_STATION_II"

@@ -90,6 +90,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/HARVEST_TOTEM.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "HARVEST_TOTEM_2"

@@ -58,7 +58,7 @@ class PackTest(unittest.TestCase):
 
     def test_schemas_published(self):
         self.pack()
-        for name in ("index", "item", "structure", "skin", "ritual", "changes"):
+        for name in ("index", "item", "structure", "skin", "ritual", "changes", "slim"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
@@ -173,7 +173,7 @@ class PackTest(unittest.TestCase):
         spec = json.loads((self.site / "openapi.json").read_text())
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
-        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Changes"})
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Changes", "Slim"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
                      "/v1/structures.json", "/v1/skins/{id}.json", "/v1/rituals.json", "/v1/rituals/{id}.json",
                      "/v1/icons/rituals/{id}.png"):
@@ -193,6 +193,22 @@ class PackTest(unittest.TestCase):
         self.assertEqual(many[0]["id"], "Ritual_Fast")
         self.assertIn("changes.json", spec["info"]["description"])
         self.assertEqual(spec["externalDocs"]["url"], "https://github.com/AuthFailed/cotl-api#readme")
+
+    def test_icons_get_64px_thumbnails(self):
+        from PIL import Image
+        Image.new("RGBA", (200, 100), (255, 0, 0, 255)).save(self.dump / "icons" / "items" / "STONE.png")
+        self.pack()
+        stone = self.item("STONE")
+        self.assertEqual(stone["thumb"], "icons/items/64/STONE.png")
+        self.assertEqual(Image.open(self.site / "v1" / stone["thumb"]).size, (64, 32))
+        self.assertIsNone(self.item("BERRY")["thumb"])  # no icon, no thumbnail
+
+    def test_slim_lists_per_language(self):
+        self.pack()
+        ru = {e["id"]: e for e in json.loads((self.site / "v1" / "ru" / "items.json").read_text())}
+        self.assertEqual(ru["LOG"], {"id": "LOG", "name": "Брёвна", "thumb": "icons/items/64/LOG.png"})
+        self.assertEqual(ru["BERRY"]["name"], "Berries")  # no Russian name: English
+        self.assertTrue((self.site / "v1" / "en" / "rituals.json").exists())
 
     def test_missing_icon_is_null(self):
         self.pack()

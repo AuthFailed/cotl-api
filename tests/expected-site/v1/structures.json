@@ -25,6 +25,7 @@
       "h": 1,
       "w": 1
     },
+    "thumb": "icons/structures/64/FARM_PLOT.png",
     "upgradesFrom": null,
     "upgradesTo": []
   },
@@ -64,6 +65,7 @@
       "h": 3,
       "w": 3
     },
+    "thumb": "icons/structures/64/SHRINE_II.png",
     "upgradesFrom": "SHRINE",
     "upgradesTo": []
   }

@@ -80,6 +80,7 @@
     "zh-TW": "啟迪儀式"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_Enlightenment.png",
   "trait": null,
   "warmth": 0.0
 }

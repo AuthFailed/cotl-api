@@ -86,6 +86,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_TORCH_BIG.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

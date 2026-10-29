@@ -1,0 +1,907 @@
+[
+  {
+    "id": "ANIMAL_COW",
+    "name": "Коровло",
+    "thumb": "icons/items/64/ANIMAL_COW.png"
+  },
+  {
+    "id": "ANIMAL_CRAB",
+    "name": "Крабло",
+    "thumb": "icons/items/64/ANIMAL_CRAB.png"
+  },
+  {
+    "id": "ANIMAL_GOAT",
+    "name": "Якло",
+    "thumb": "icons/items/64/ANIMAL_GOAT.png"
+  },
+  {
+    "id": "ANIMAL_LLAMA",
+    "name": "Ламло",
+    "thumb": "icons/items/64/ANIMAL_LLAMA.png"
+  },
+  {
+    "id": "ANIMAL_SNAIL",
+    "name": "Улитло",
+    "thumb": "icons/items/64/ANIMAL_SNAIL.png"
+  },
+  {
+    "id": "ANIMAL_SPIDER",
+    "name": "Паукло",
+    "thumb": "icons/items/64/ANIMAL_SPIDER.png"
+  },
+  {
+    "id": "ANIMAL_TURTLE",
+    "name": "Черепахло",
+    "thumb": "icons/items/64/ANIMAL_TURTLE.png"
+  },
+  {
+    "id": "BEETROOT",
+    "name": "Свёкла",
+    "thumb": "icons/items/64/BEETROOT.png"
+  },
+  {
+    "id": "BEHOLDER_EYE",
+    "name": "Глаз свидетеля",
+    "thumb": "icons/items/64/BEHOLDER_EYE.png"
+  },
+  {
+    "id": "BEHOLDER_EYE_ROT",
+    "name": "Гниющий глаз свидетеля",
+    "thumb": "icons/items/64/BEHOLDER_EYE_ROT.png"
+  },
+  {
+    "id": "BERRY",
+    "name": "Ягода",
+    "thumb": "icons/items/64/BERRY.png"
+  },
+  {
+    "id": "BLACK_GOLD",
+    "name": "Монета",
+    "thumb": "icons/items/64/BLACK_GOLD.png"
+  },
+  {
+    "id": "BLACK_HEART",
+    "name": "Больное сердце",
+    "thumb": "icons/items/64/BLACK_HEART.png"
+  },
+  {
+    "id": "BLUE_HEART",
+    "name": "Голубое сердце",
+    "thumb": "icons/items/64/BLUE_HEART.png"
+  },
+  {
+    "id": "BONE",
+    "name": "Кость",
+    "thumb": "icons/items/64/BONE.png"
+  },
+  {
+    "id": "BOP",
+    "name": "Боп",
+    "thumb": "icons/items/64/BOP.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_AXE",
+    "name": "Lambs’ Slaughter",
+    "thumb": "icons/items/64/BROKEN_WEAPON_AXE.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_CHAIN",
+    "name": "<color=#FFD201>Shattered</color> Flail",
+    "thumb": "icons/items/64/BROKEN_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_DAGGER",
+    "name": "<color=#FFD201>Blunt</color> Dagger",
+    "thumb": "icons/items/64/BROKEN_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_GAUNTLETS",
+    "name": "<color=#FFD201>Stiffened</color> Gauntlets",
+    "thumb": "icons/items/64/BROKEN_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_HAMMER",
+    "name": "<color=#FFD201>Rusted</color> Hammer",
+    "thumb": "icons/items/64/BROKEN_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_SWORD",
+    "name": "<color=#FFD201>Snapped</color> Sword",
+    "thumb": "icons/items/64/BROKEN_WEAPON_SWORD.png"
+  },
+  {
+    "id": "CAULIFLOWER",
+    "name": "Цветная капуста",
+    "thumb": "icons/items/64/CAULIFLOWER.png"
+  },
+  {
+    "id": "CHARCOAL",
+    "name": "Charcoal",
+    "thumb": "icons/items/64/CHARCOAL.png"
+  },
+  {
+    "id": "CHILLI",
+    "name": "Острый перец",
+    "thumb": "icons/items/64/CHILLI.png"
+  },
+  {
+    "id": "COTTON",
+    "name": "Хлопок",
+    "thumb": "icons/items/64/COTTON.png"
+  },
+  {
+    "id": "CRYSTAL",
+    "name": "Обломок кристалла",
+    "thumb": "icons/items/64/CRYSTAL.png"
+  },
+  {
+    "id": "CRYSTAL_DOCTRINE_STONE",
+    "name": "Забытая скрижаль",
+    "thumb": "icons/items/64/CRYSTAL_DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DOCTRINE_STONE",
+    "name": "Осколок скрижали",
+    "thumb": "icons/items/64/DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DRINK_BEER",
+    "name": "Бочковой отвар",
+    "thumb": "icons/items/64/DRINK_BEER.png"
+  },
+  {
+    "id": "DRINK_CHILLI",
+    "name": "Пикантный отвар",
+    "thumb": "icons/items/64/DRINK_CHILLI.png"
+  },
+  {
+    "id": "DRINK_COCKTAIL",
+    "name": "Фруктовый эликсир",
+    "thumb": "icons/items/64/DRINK_COCKTAIL.png"
+  },
+  {
+    "id": "DRINK_EGGNOG",
+    "name": "Эгг-ног",
+    "thumb": "icons/items/64/DRINK_EGGNOG.png"
+  },
+  {
+    "id": "DRINK_GIN",
+    "name": "Можжевеловый настой",
+    "thumb": "icons/items/64/DRINK_GIN.png"
+  },
+  {
+    "id": "DRINK_GRASS",
+    "name": "Органический смузи",
+    "thumb": "icons/items/64/DRINK_GRASS.png"
+  },
+  {
+    "id": "DRINK_LIGHTNING",
+    "name": "Искрящийся лимонад",
+    "thumb": "icons/items/64/DRINK_LIGHTNING.png"
+  },
+  {
+    "id": "DRINK_MILKSHAKE",
+    "name": "Молочный коктейль",
+    "thumb": "icons/items/64/DRINK_MILKSHAKE.png"
+  },
+  {
+    "id": "DRINK_MUSHROOM_JUICE",
+    "name": "Грибной смузи",
+    "thumb": "icons/items/64/DRINK_MUSHROOM_JUICE.png"
+  },
+  {
+    "id": "DRINK_POOP_JUICE",
+    "name": "Навозный сок",
+    "thumb": "icons/items/64/DRINK_POOP_JUICE.png"
+  },
+  {
+    "id": "DRINK_SIN",
+    "name": "Греховная вода",
+    "thumb": "icons/items/64/DRINK_SIN.png"
+  },
+  {
+    "id": "DRINK_WINE",
+    "name": "Виноградный нектар",
+    "thumb": "icons/items/64/DRINK_WINE.png"
+  },
+  {
+    "id": "ELECTRIFIED_MAGMA",
+    "name": "Заряженный гнилогар",
+    "thumb": "icons/items/64/ELECTRIFIED_MAGMA.png"
+  },
+  {
+    "id": "FIRE_HEART",
+    "name": "Раскалённое сердце",
+    "thumb": null
+  },
+  {
+    "id": "FISH",
+    "name": "Лосось",
+    "thumb": "icons/items/64/FISH.png"
+  },
+  {
+    "id": "FISHING_ROD",
+    "name": "Удочка",
+    "thumb": "icons/items/64/FISHING_ROD.png"
+  },
+  {
+    "id": "FISH_BIG",
+    "name": "Тунец",
+    "thumb": "icons/items/64/FISH_BIG.png"
+  },
+  {
+    "id": "FISH_BLOWFISH",
+    "name": "Рыба-шар",
+    "thumb": "icons/items/64/FISH_BLOWFISH.png"
+  },
+  {
+    "id": "FISH_CRAB",
+    "name": "Краб",
+    "thumb": "icons/items/64/FISH_CRAB.png"
+  },
+  {
+    "id": "FISH_LOBSTER",
+    "name": "Омар",
+    "thumb": "icons/items/64/FISH_LOBSTER.png"
+  },
+  {
+    "id": "FISH_OCTOPUS",
+    "name": "Осьминог",
+    "thumb": "icons/items/64/FISH_OCTOPUS.png"
+  },
+  {
+    "id": "FISH_SMALL",
+    "name": "Пескарь",
+    "thumb": "icons/items/64/FISH_SMALL.png"
+  },
+  {
+    "id": "FISH_SQUID",
+    "name": "Кальмар",
+    "thumb": "icons/items/64/FISH_SQUID.png"
+  },
+  {
+    "id": "FISH_SWORDFISH",
+    "name": "Рыба-меч",
+    "thumb": "icons/items/64/FISH_SWORDFISH.png"
+  },
+  {
+    "id": "FLOWER_PURPLE",
+    "name": "Незабудка",
+    "thumb": "icons/items/64/FLOWER_PURPLE.png"
+  },
+  {
+    "id": "FLOWER_RED",
+    "name": "Камелия",
+    "thumb": "icons/items/64/FLOWER_RED.png"
+  },
+  {
+    "id": "FLOWER_WHITE",
+    "name": "Подснежник",
+    "thumb": "icons/items/64/FLOWER_WHITE.png"
+  },
+  {
+    "id": "FOLLOWERS",
+    "name": "Последователи",
+    "thumb": "icons/items/64/FOLLOWERS.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT",
+    "name": "Мясо последователя",
+    "thumb": "icons/items/64/FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT_ROTTEN",
+    "name": "Сгнившее мясо последователя",
+    "thumb": "icons/items/64/FOLLOWER_MEAT_ROTTEN.png"
+  },
+  {
+    "id": "FORGE_FLAME",
+    "name": "Sacred Flame",
+    "thumb": "icons/items/64/FORGE_FLAME.png"
+  },
+  {
+    "id": "FOUND_ITEM_DECORATION",
+    "name": "Чертёж",
+    "thumb": "icons/items/64/FOUND_ITEM_DECORATION.png"
+  },
+  {
+    "id": "FOUND_ITEM_FOLLOWERSKIN",
+    "name": "Облик последователя",
+    "thumb": "icons/items/64/FOUND_ITEM_FOLLOWERSKIN.png"
+  },
+  {
+    "id": "GIFT_MEDIUM",
+    "name": "Большой подарок",
+    "thumb": "icons/items/64/GIFT_MEDIUM.png"
+  },
+  {
+    "id": "GIFT_SMALL",
+    "name": "Маленький подарок",
+    "thumb": "icons/items/64/GIFT_SMALL.png"
+  },
+  {
+    "id": "GOD_TEAR",
+    "name": "Слеза божества",
+    "thumb": "icons/items/64/GOD_TEAR.png"
+  },
+  {
+    "id": "GOD_TEAR_FRAGMENT",
+    "name": "Осколок слезы божества",
+    "thumb": "icons/items/64/GOD_TEAR_FRAGMENT.png"
+  },
+  {
+    "id": "GOLD_NUGGET",
+    "name": "Золотой самородок",
+    "thumb": "icons/items/64/GOLD_NUGGET.png"
+  },
+  {
+    "id": "GOLD_REFINED",
+    "name": "Золотой слиток",
+    "thumb": "icons/items/64/GOLD_REFINED.png"
+  },
+  {
+    "id": "GRAPES",
+    "name": "Виноград",
+    "thumb": "icons/items/64/GRAPES.png"
+  },
+  {
+    "id": "GRASS",
+    "name": "Трава",
+    "thumb": "icons/items/64/GRASS.png"
+  },
+  {
+    "id": "HALF_BLUE_HEART",
+    "name": "Половина голубого сердца",
+    "thumb": "icons/items/64/HALF_BLUE_HEART.png"
+  },
+  {
+    "id": "HALF_HEART",
+    "name": "Половина красного сердца",
+    "thumb": "icons/items/64/HALF_HEART.png"
+  },
+  {
+    "id": "HOPS",
+    "name": "Хмель",
+    "thumb": "icons/items/64/HOPS.png"
+  },
+  {
+    "id": "ICE_HEART",
+    "name": "Ледяное сердце",
+    "thumb": null
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+    "name": "Неразборчивое письмо",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_CHARYBDIS.png"
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_SCYLLA",
+    "name": "Неразборчивое письмо",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_SCYLLA.png"
+  },
+  {
+    "id": "LEGENDARY_WEAPON_FRAGMENT",
+    "name": "Обломок легендарного орудия",
+    "thumb": "icons/items/64/LEGENDARY_WEAPON_FRAGMENT.png"
+  },
+  {
+    "id": "LIGHTNING_SHARD",
+    "name": "Заряженная сфера",
+    "thumb": "icons/items/64/LIGHTNING_SHARD.png"
+  },
+  {
+    "id": "LOG",
+    "name": "Бревно",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "LOG_REFINED",
+    "name": "Деревянная доска",
+    "thumb": "icons/items/64/LOG_REFINED.png"
+  },
+  {
+    "id": "LORE_STONE",
+    "name": "Древняя табличка",
+    "thumb": "icons/items/64/LORE_STONE.png"
+  },
+  {
+    "id": "MAGMA_STONE",
+    "name": "Гнилогар",
+    "thumb": "icons/items/64/MAGMA_STONE.png"
+  },
+  {
+    "id": "MEAL",
+    "name": "Жидкий тыквенный суп",
+    "thumb": "icons/items/64/MEAL.png"
+  },
+  {
+    "id": "MEAL_BAD_FISH",
+    "name": "Пахучее рыбное заливное",
+    "thumb": "icons/items/64/MEAL_BAD_FISH.png"
+  },
+  {
+    "id": "MEAL_BAD_MEAT",
+    "name": "Вонючий мясной паштет",
+    "thumb": "icons/items/64/MEAL_BAD_MEAT.png"
+  },
+  {
+    "id": "MEAL_BAD_MIXED",
+    "name": "Пресная водянистая смесь",
+    "thumb": "icons/items/64/MEAL_BAD_MIXED.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "Простой ягодный джем",
+    "thumb": "icons/items/64/MEAL_BERRIES.png"
+  },
+  {
+    "id": "MEAL_BURNED",
+    "name": "Горелая пища",
+    "thumb": null
+  },
+  {
+    "id": "MEAL_DEADLY",
+    "name": "Жуткое смертоносное блюдо",
+    "thumb": "icons/items/64/MEAL_DEADLY.png"
+  },
+  {
+    "id": "MEAL_EGG",
+    "name": "Аппетитная яичница",
+    "thumb": "icons/items/64/MEAL_EGG.png"
+  },
+  {
+    "id": "MEAL_FOLLOWER_MEAT",
+    "name": "Жареное мясо последователя",
+    "thumb": "icons/items/64/MEAL_FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "MEAL_GOOD_FISH",
+    "name": "Вкусный рыбный суп",
+    "thumb": "icons/items/64/MEAL_GOOD_FISH.png"
+  },
+  {
+    "id": "MEAL_GRASS",
+    "name": "Жухлый травяной салат",
+    "thumb": "icons/items/64/MEAL_GRASS.png"
+  },
+  {
+    "id": "MEAL_GREAT",
+    "name": "Аппетитный овощной салат",
+    "thumb": "icons/items/64/MEAL_GREAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_FISH",
+    "name": "Изысканное рыбное ассорти",
+    "thumb": "icons/items/64/MEAL_GREAT_FISH.png"
+  },
+  {
+    "id": "MEAL_GREAT_MEAT",
+    "name": "Густое мясное рагу",
+    "thumb": "icons/items/64/MEAL_GREAT_MEAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_MIXED",
+    "name": "Лакомая деликатесная смесь",
+    "thumb": "icons/items/64/MEAL_GREAT_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEAT",
+    "name": "Сытный мясной суп",
+    "thumb": "icons/items/64/MEAL_MEAT.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_MIXED",
+    "name": "Свежая питательная смесь",
+    "thumb": "icons/items/64/MEAL_MEDIUM_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_VEG",
+    "name": "Питательный капустный салат",
+    "thumb": "icons/items/64/MEAL_MEDIUM_VEG.png"
+  },
+  {
+    "id": "MEAL_MILK_BAD",
+    "name": "Свернувшееся молоко",
+    "thumb": "icons/items/64/MEAL_MILK_BAD.png"
+  },
+  {
+    "id": "MEAL_MILK_GOOD",
+    "name": "Сырное фондю",
+    "thumb": "icons/items/64/MEAL_MILK_GOOD.png"
+  },
+  {
+    "id": "MEAL_MILK_GREAT",
+    "name": "Пастуший пирог",
+    "thumb": "icons/items/64/MEAL_MILK_GREAT.png"
+  },
+  {
+    "id": "MEAL_MUSHROOMS",
+    "name": "Тушёные грибы",
+    "thumb": "icons/items/64/MEAL_MUSHROOMS.png"
+  },
+  {
+    "id": "MEAL_POOP",
+    "name": "Миска с экскрементами",
+    "thumb": "icons/items/64/MEAL_POOP.png"
+  },
+  {
+    "id": "MEAL_SNOW_FRUIT",
+    "name": "Мороженое с ледфрутом",
+    "thumb": "icons/items/64/MEAL_SNOW_FRUIT.png"
+  },
+  {
+    "id": "MEAL_SPICY",
+    "name": "Пюре из острого перца",
+    "thumb": "icons/items/64/MEAL_SPICY.png"
+  },
+  {
+    "id": "MEAT",
+    "name": "Мясо",
+    "thumb": "icons/items/64/MEAT.png"
+  },
+  {
+    "id": "MEAT_MORSEL",
+    "name": "Ошмёток",
+    "thumb": "icons/items/64/MEAT_MORSEL.png"
+  },
+  {
+    "id": "MILK",
+    "name": "Молоко",
+    "thumb": "icons/items/64/MILK.png"
+  },
+  {
+    "id": "MONSTER_HEART",
+    "name": "Сердце еретика",
+    "thumb": "icons/items/64/MONSTER_HEART.png"
+  },
+  {
+    "id": "MUSHROOM_SMALL",
+    "name": "Дурманный гриб",
+    "thumb": "icons/items/64/MUSHROOM_SMALL.png"
+  },
+  {
+    "id": "Necklace_1",
+    "name": "Ожерелье с цветком",
+    "thumb": "icons/items/64/Necklace_1.png"
+  },
+  {
+    "id": "Necklace_2",
+    "name": "Ожерелье с перьями",
+    "thumb": "icons/items/64/Necklace_2.png"
+  },
+  {
+    "id": "Necklace_3",
+    "name": "Ожерелье с черепом",
+    "thumb": "icons/items/64/Necklace_3.png"
+  },
+  {
+    "id": "Necklace_4",
+    "name": "Ожерелье природы",
+    "thumb": "icons/items/64/Necklace_4.png"
+  },
+  {
+    "id": "Necklace_5",
+    "name": "Ожерелье с полумесяцем",
+    "thumb": "icons/items/64/Necklace_5.png"
+  },
+  {
+    "id": "Necklace_Dark",
+    "name": "Ожерелье тьмы",
+    "thumb": "icons/items/64/Necklace_Dark.png"
+  },
+  {
+    "id": "Necklace_Deaths_Door",
+    "name": "Ожерелье перерождения",
+    "thumb": "icons/items/64/Necklace_Deaths_Door.png"
+  },
+  {
+    "id": "Necklace_Demonic",
+    "name": "Ожерелье демона",
+    "thumb": "icons/items/64/Necklace_Demonic.png"
+  },
+  {
+    "id": "Necklace_Frozen",
+    "name": "Ожерелье согревания",
+    "thumb": "icons/items/64/Necklace_Frozen.png"
+  },
+  {
+    "id": "Necklace_Gold_Skull",
+    "name": "Ожерелье с золотым черепом",
+    "thumb": "icons/items/64/Necklace_Gold_Skull.png"
+  },
+  {
+    "id": "Necklace_Light",
+    "name": "Ожерелье света",
+    "thumb": "icons/items/64/Necklace_Light.png"
+  },
+  {
+    "id": "Necklace_Loyalty",
+    "name": "Ожерелье доверия",
+    "thumb": "icons/items/64/Necklace_Loyalty.png"
+  },
+  {
+    "id": "Necklace_Missionary",
+    "name": "Ожерелье миссионера",
+    "thumb": "icons/items/64/Necklace_Missionary.png"
+  },
+  {
+    "id": "Necklace_Targeted",
+    "name": "Ожерелье неудачи",
+    "thumb": "icons/items/64/Necklace_Targeted.png"
+  },
+  {
+    "id": "Necklace_Weird",
+    "name": "Ожерелье отклонения",
+    "thumb": "icons/items/64/Necklace_Weird.png"
+  },
+  {
+    "id": "Necklace_Winter",
+    "name": "Ожерелье зимы",
+    "thumb": "icons/items/64/Necklace_Winter.png"
+  },
+  {
+    "id": "PLEASURE_POINT",
+    "name": "Грех",
+    "thumb": "icons/items/64/PLEASURE_POINT.png"
+  },
+  {
+    "id": "POOP",
+    "name": "Удобрение",
+    "thumb": "icons/items/64/POOP.png"
+  },
+  {
+    "id": "POOP_DEVOTION",
+    "name": "Посвящённое удобрение",
+    "thumb": "icons/items/64/POOP_DEVOTION.png"
+  },
+  {
+    "id": "POOP_GLOW",
+    "name": "Светящееся удобрение",
+    "thumb": "icons/items/64/POOP_GLOW.png"
+  },
+  {
+    "id": "POOP_GOLD",
+    "name": "Золотое удобрение",
+    "thumb": "icons/items/64/POOP_GOLD.png"
+  },
+  {
+    "id": "POOP_RAINBOW",
+    "name": "Радужное удобрение",
+    "thumb": "icons/items/64/POOP_RAINBOW.png"
+  },
+  {
+    "id": "POOP_ROTSTONE",
+    "name": "Гнилогарное удобрение",
+    "thumb": "icons/items/64/POOP_ROTSTONE.png"
+  },
+  {
+    "id": "PUMPKIN",
+    "name": "Тыква",
+    "thumb": "icons/items/64/PUMPKIN.png"
+  },
+  {
+    "id": "RED_HEART",
+    "name": "Красное сердце",
+    "thumb": "icons/items/64/RED_HEART.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_CHAIN",
+    "name": "Yngya's Torment",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_DAGGER",
+    "name": "Ruin of Nirah",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_GAUNTLETS",
+    "name": "Claws of the Wolf",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_HAMMER",
+    "name": "Scourge of Svargod",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_SWORD",
+    "name": "Golden End",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_SWORD.png"
+  },
+  {
+    "id": "SEED",
+    "name": "Семя ягодного куста",
+    "thumb": "icons/items/64/SEED.png"
+  },
+  {
+    "id": "SEED_BEETROOT",
+    "name": "Семя свёклы",
+    "thumb": "icons/items/64/SEED_BEETROOT.png"
+  },
+  {
+    "id": "SEED_CAULIFLOWER",
+    "name": "Семя цветной капусты",
+    "thumb": "icons/items/64/SEED_CAULIFLOWER.png"
+  },
+  {
+    "id": "SEED_CHILLI",
+    "name": "Семя острого перца",
+    "thumb": "icons/items/64/SEED_CHILLI.png"
+  },
+  {
+    "id": "SEED_COTTON",
+    "name": "Семя хлопка",
+    "thumb": "icons/items/64/SEED_COTTON.png"
+  },
+  {
+    "id": "SEED_FLOWER_RED",
+    "name": "Семя камелии",
+    "thumb": "icons/items/64/SEED_FLOWER_RED.png"
+  },
+  {
+    "id": "SEED_GRAPES",
+    "name": "Семя винограда",
+    "thumb": "icons/items/64/SEED_GRAPES.png"
+  },
+  {
+    "id": "SEED_HOPS",
+    "name": "Семя хмеля",
+    "thumb": "icons/items/64/SEED_HOPS.png"
+  },
+  {
+    "id": "SEED_MUSHROOM",
+    "name": "Спора дурманного гриба",
+    "thumb": "icons/items/64/SEED_MUSHROOM.png"
+  },
+  {
+    "id": "SEED_PUMPKIN",
+    "name": "Семя тыквы",
+    "thumb": "icons/items/64/SEED_PUMPKIN.png"
+  },
+  {
+    "id": "SEED_SNOW_FRUIT",
+    "name": "Семя ледфрута",
+    "thumb": "icons/items/64/SEED_SNOW_FRUIT.png"
+  },
+  {
+    "id": "SEED_SOZO",
+    "name": "Семя Содзо",
+    "thumb": "icons/items/64/SEED_SOZO.png"
+  },
+  {
+    "id": "SHELL",
+    "name": "Ракушка",
+    "thumb": "icons/items/64/SHELL.png"
+  },
+  {
+    "id": "SILK_THREAD",
+    "name": "Шёлковая нить",
+    "thumb": "icons/items/64/SILK_THREAD.png"
+  },
+  {
+    "id": "SNOW_CHUNK",
+    "name": "Snow Chunk",
+    "thumb": "icons/items/64/SNOW_CHUNK.png"
+  },
+  {
+    "id": "SNOW_FRUIT",
+    "name": "Ледфрут",
+    "thumb": "icons/items/64/SNOW_FRUIT.png"
+  },
+  {
+    "id": "SOOT",
+    "name": "Гнилопрах",
+    "thumb": "icons/items/64/SOOT.png"
+  },
+  {
+    "id": "SOUL",
+    "name": "Преданность",
+    "thumb": "icons/items/64/SOUL.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_10",
+    "name": "Шерсть невинной",
+    "thumb": "icons/items/64/SPECIAL_WOOL_10.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_11",
+    "name": "Шерсть рыцаря",
+    "thumb": "icons/items/64/SPECIAL_WOOL_11.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_6",
+    "name": "Шерсть решительного",
+    "thumb": "icons/items/64/SPECIAL_WOOL_6.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_7",
+    "name": "Шерсть воинственного",
+    "thumb": "icons/items/64/SPECIAL_WOOL_7.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_8",
+    "name": "Шерсть опалённой",
+    "thumb": "icons/items/64/SPECIAL_WOOL_8.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_9",
+    "name": "Шерсть притворствующего",
+    "thumb": "icons/items/64/SPECIAL_WOOL_9.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_BLACKSMITH",
+    "name": "Шерсть опалённой",
+    "thumb": "icons/items/64/SPECIAL_WOOL_BLACKSMITH.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_DECORATION",
+    "name": "Шерсть хитрого",
+    "thumb": "icons/items/64/SPECIAL_WOOL_DECORATION.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_LAMBWAR",
+    "name": "Шерсть учёной",
+    "thumb": "icons/items/64/SPECIAL_WOOL_LAMBWAR.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_RANCHER",
+    "name": "Шерсть пасущего",
+    "thumb": "icons/items/64/SPECIAL_WOOL_RANCHER.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_TAROT",
+    "name": "Шерсть звёздной",
+    "thumb": "icons/items/64/SPECIAL_WOOL_TAROT.png"
+  },
+  {
+    "id": "SPIDER_WEB",
+    "name": "Паутина",
+    "thumb": "icons/items/64/SPIDER_WEB.png"
+  },
+  {
+    "id": "STONE",
+    "name": "Камень",
+    "thumb": "icons/items/64/STONE.png"
+  },
+  {
+    "id": "STONE_REFINED",
+    "name": "Каменный блок",
+    "thumb": "icons/items/64/STONE_REFINED.png"
+  },
+  {
+    "id": "TALISMAN",
+    "name": "Священный талисман",
+    "thumb": "icons/items/64/TALISMAN.png"
+  },
+  {
+    "id": "TRINKET_CARD",
+    "name": "Карта Таро",
+    "thumb": "icons/items/64/TRINKET_CARD.png"
+  },
+  {
+    "id": "WOOL",
+    "name": "Шерсть",
+    "thumb": "icons/items/64/WOOL.png"
+  },
+  {
+    "id": "YEW_CURSED",
+    "name": "Проклятая овцина",
+    "thumb": "icons/items/64/YEW_CURSED.png"
+  },
+  {
+    "id": "YEW_HOLY",
+    "name": "Чистая овцина",
+    "thumb": "icons/items/64/YEW_HOLY.png"
+  },
+  {
+    "id": "YNGYA_GHOST",
+    "name": "Заблудшие души",
+    "thumb": "icons/items/64/YNGYA_GHOST.png"
+  },
+  {
+    "id": "YOLK",
+    "name": "Желток",
+    "thumb": "icons/items/64/YOLK.png"
+  }
+]

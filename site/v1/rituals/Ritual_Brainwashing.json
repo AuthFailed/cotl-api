@@ -80,6 +80,7 @@
     "zh-TW": "洗腦儀式"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_Brainwashing.png",
   "trait": "MushroomEncouraged",
   "warmth": 0.0
 }

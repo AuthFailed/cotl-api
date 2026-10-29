@@ -132,6 +132,7 @@
   "tags": [
     "drink"
   ],
+  "thumb": "icons/items/64/DRINK_BEER.png",
   "usedIn": {
     "items": [],
     "rituals": [],

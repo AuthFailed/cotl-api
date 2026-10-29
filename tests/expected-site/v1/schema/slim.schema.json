@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Slim",
+  "description": "v1/{lang}/{kind}.json: every entity of a kind with its name in one language (English if untranslated)",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "thumb"
+    ],
+    "additionalProperties": false,
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "thumb": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    }
+  }
+}

@@ -86,6 +86,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_DLC_ROT_CAGE1.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

@@ -84,6 +84,7 @@
     "zh-TW": "獻祭肉身"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_Sacrifice.png",
   "trait": "SacrificeEnthusiast",
   "warmth": 0.0
 }

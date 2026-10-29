@@ -1,0 +1,907 @@
+[
+  {
+    "id": "ANIMAL_COW",
+    "name": "Vachoïde",
+    "thumb": "icons/items/64/ANIMAL_COW.png"
+  },
+  {
+    "id": "ANIMAL_CRAB",
+    "name": "Craboïde",
+    "thumb": "icons/items/64/ANIMAL_CRAB.png"
+  },
+  {
+    "id": "ANIMAL_GOAT",
+    "name": "Yackoïde",
+    "thumb": "icons/items/64/ANIMAL_GOAT.png"
+  },
+  {
+    "id": "ANIMAL_LLAMA",
+    "name": "Lamaoïde",
+    "thumb": "icons/items/64/ANIMAL_LLAMA.png"
+  },
+  {
+    "id": "ANIMAL_SNAIL",
+    "name": "Escargoïde",
+    "thumb": "icons/items/64/ANIMAL_SNAIL.png"
+  },
+  {
+    "id": "ANIMAL_SPIDER",
+    "name": "Araignoïde",
+    "thumb": "icons/items/64/ANIMAL_SPIDER.png"
+  },
+  {
+    "id": "ANIMAL_TURTLE",
+    "name": "Tortoïde",
+    "thumb": "icons/items/64/ANIMAL_TURTLE.png"
+  },
+  {
+    "id": "BEETROOT",
+    "name": "Betterave",
+    "thumb": "icons/items/64/BEETROOT.png"
+  },
+  {
+    "id": "BEHOLDER_EYE",
+    "name": "Œil de Témoin",
+    "thumb": "icons/items/64/BEHOLDER_EYE.png"
+  },
+  {
+    "id": "BEHOLDER_EYE_ROT",
+    "name": "Œil de Témoin putréfié",
+    "thumb": "icons/items/64/BEHOLDER_EYE_ROT.png"
+  },
+  {
+    "id": "BERRY",
+    "name": "Baie",
+    "thumb": "icons/items/64/BERRY.png"
+  },
+  {
+    "id": "BLACK_GOLD",
+    "name": "Pièce",
+    "thumb": "icons/items/64/BLACK_GOLD.png"
+  },
+  {
+    "id": "BLACK_HEART",
+    "name": "Cœur corrompu",
+    "thumb": "icons/items/64/BLACK_HEART.png"
+  },
+  {
+    "id": "BLUE_HEART",
+    "name": "Cœur bleu",
+    "thumb": "icons/items/64/BLUE_HEART.png"
+  },
+  {
+    "id": "BONE",
+    "name": "Os",
+    "thumb": "icons/items/64/BONE.png"
+  },
+  {
+    "id": "BOP",
+    "name": "Bop",
+    "thumb": "icons/items/64/BOP.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_AXE",
+    "name": "Lambs’ Slaughter",
+    "thumb": "icons/items/64/BROKEN_WEAPON_AXE.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_CHAIN",
+    "name": "<color=#FFD201>Shattered</color> Flail",
+    "thumb": "icons/items/64/BROKEN_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_DAGGER",
+    "name": "<color=#FFD201>Blunt</color> Dagger",
+    "thumb": "icons/items/64/BROKEN_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_GAUNTLETS",
+    "name": "<color=#FFD201>Stiffened</color> Gauntlets",
+    "thumb": "icons/items/64/BROKEN_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_HAMMER",
+    "name": "<color=#FFD201>Rusted</color> Hammer",
+    "thumb": "icons/items/64/BROKEN_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "BROKEN_WEAPON_SWORD",
+    "name": "<color=#FFD201>Snapped</color> Sword",
+    "thumb": "icons/items/64/BROKEN_WEAPON_SWORD.png"
+  },
+  {
+    "id": "CAULIFLOWER",
+    "name": "Chou-fleur",
+    "thumb": "icons/items/64/CAULIFLOWER.png"
+  },
+  {
+    "id": "CHARCOAL",
+    "name": "Charcoal",
+    "thumb": "icons/items/64/CHARCOAL.png"
+  },
+  {
+    "id": "CHILLI",
+    "name": "Piment",
+    "thumb": "icons/items/64/CHILLI.png"
+  },
+  {
+    "id": "COTTON",
+    "name": "Coton",
+    "thumb": "icons/items/64/COTTON.png"
+  },
+  {
+    "id": "CRYSTAL",
+    "name": "Éclat de cristal",
+    "thumb": "icons/items/64/CRYSTAL.png"
+  },
+  {
+    "id": "CRYSTAL_DOCTRINE_STONE",
+    "name": "Pierre de commandement oubliée",
+    "thumb": "icons/items/64/CRYSTAL_DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DOCTRINE_STONE",
+    "name": "Fragm. de pierre de command.",
+    "thumb": "icons/items/64/DOCTRINE_STONE.png"
+  },
+  {
+    "id": "DRINK_BEER",
+    "name": "Breuvage brassé",
+    "thumb": "icons/items/64/DRINK_BEER.png"
+  },
+  {
+    "id": "DRINK_CHILLI",
+    "name": "Breuvage épicé",
+    "thumb": "icons/items/64/DRINK_CHILLI.png"
+  },
+  {
+    "id": "DRINK_COCKTAIL",
+    "name": "Élixir fruité",
+    "thumb": "icons/items/64/DRINK_COCKTAIL.png"
+  },
+  {
+    "id": "DRINK_EGGNOG",
+    "name": "Lait de poule",
+    "thumb": "icons/items/64/DRINK_EGGNOG.png"
+  },
+  {
+    "id": "DRINK_GIN",
+    "name": "Boisson de genièvre",
+    "thumb": "icons/items/64/DRINK_GIN.png"
+  },
+  {
+    "id": "DRINK_GRASS",
+    "name": "Smoothie bio",
+    "thumb": "icons/items/64/DRINK_GRASS.png"
+  },
+  {
+    "id": "DRINK_LIGHTNING",
+    "name": "Sirop d'étincelles",
+    "thumb": "icons/items/64/DRINK_LIGHTNING.png"
+  },
+  {
+    "id": "DRINK_MILKSHAKE",
+    "name": "Lait frappé",
+    "thumb": "icons/items/64/DRINK_MILKSHAKE.png"
+  },
+  {
+    "id": "DRINK_MUSHROOM_JUICE",
+    "name": "Smoothie aux champis",
+    "thumb": "icons/items/64/DRINK_MUSHROOM_JUICE.png"
+  },
+  {
+    "id": "DRINK_POOP_JUICE",
+    "name": "Jus de caca",
+    "thumb": "icons/items/64/DRINK_POOP_JUICE.png"
+  },
+  {
+    "id": "DRINK_SIN",
+    "name": "Concentré de péché",
+    "thumb": "icons/items/64/DRINK_SIN.png"
+  },
+  {
+    "id": "DRINK_WINE",
+    "name": "Nectar de raisin",
+    "thumb": "icons/items/64/DRINK_WINE.png"
+  },
+  {
+    "id": "ELECTRIFIED_MAGMA",
+    "name": "Charbon putrescent chargé",
+    "thumb": "icons/items/64/ELECTRIFIED_MAGMA.png"
+  },
+  {
+    "id": "FIRE_HEART",
+    "name": "Cœur en fusion",
+    "thumb": null
+  },
+  {
+    "id": "FISH",
+    "name": "Saumon",
+    "thumb": "icons/items/64/FISH.png"
+  },
+  {
+    "id": "FISHING_ROD",
+    "name": "Canne à pêche",
+    "thumb": "icons/items/64/FISHING_ROD.png"
+  },
+  {
+    "id": "FISH_BIG",
+    "name": "Thon",
+    "thumb": "icons/items/64/FISH_BIG.png"
+  },
+  {
+    "id": "FISH_BLOWFISH",
+    "name": "Poisson porc-épic",
+    "thumb": "icons/items/64/FISH_BLOWFISH.png"
+  },
+  {
+    "id": "FISH_CRAB",
+    "name": "Crabe",
+    "thumb": "icons/items/64/FISH_CRAB.png"
+  },
+  {
+    "id": "FISH_LOBSTER",
+    "name": "Homard",
+    "thumb": "icons/items/64/FISH_LOBSTER.png"
+  },
+  {
+    "id": "FISH_OCTOPUS",
+    "name": "Poulpe",
+    "thumb": "icons/items/64/FISH_OCTOPUS.png"
+  },
+  {
+    "id": "FISH_SMALL",
+    "name": "Vairon",
+    "thumb": "icons/items/64/FISH_SMALL.png"
+  },
+  {
+    "id": "FISH_SQUID",
+    "name": "Calmar",
+    "thumb": "icons/items/64/FISH_SQUID.png"
+  },
+  {
+    "id": "FISH_SWORDFISH",
+    "name": "Espadon",
+    "thumb": "icons/items/64/FISH_SWORDFISH.png"
+  },
+  {
+    "id": "FLOWER_PURPLE",
+    "name": "Myosotis",
+    "thumb": "icons/items/64/FLOWER_PURPLE.png"
+  },
+  {
+    "id": "FLOWER_RED",
+    "name": "Camélia",
+    "thumb": "icons/items/64/FLOWER_RED.png"
+  },
+  {
+    "id": "FLOWER_WHITE",
+    "name": "Perce-neige",
+    "thumb": "icons/items/64/FLOWER_WHITE.png"
+  },
+  {
+    "id": "FOLLOWERS",
+    "name": "Adeptes",
+    "thumb": "icons/items/64/FOLLOWERS.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT",
+    "name": "Chair d'adepte",
+    "thumb": "icons/items/64/FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "FOLLOWER_MEAT_ROTTEN",
+    "name": "Chair d'adepte pourrie",
+    "thumb": "icons/items/64/FOLLOWER_MEAT_ROTTEN.png"
+  },
+  {
+    "id": "FORGE_FLAME",
+    "name": "Sacred Flame",
+    "thumb": "icons/items/64/FORGE_FLAME.png"
+  },
+  {
+    "id": "FOUND_ITEM_DECORATION",
+    "name": "Plan",
+    "thumb": "icons/items/64/FOUND_ITEM_DECORATION.png"
+  },
+  {
+    "id": "FOUND_ITEM_FOLLOWERSKIN",
+    "name": "Apparence d'adepte",
+    "thumb": "icons/items/64/FOUND_ITEM_FOLLOWERSKIN.png"
+  },
+  {
+    "id": "GIFT_MEDIUM",
+    "name": "Grand cadeau",
+    "thumb": "icons/items/64/GIFT_MEDIUM.png"
+  },
+  {
+    "id": "GIFT_SMALL",
+    "name": "Petit cadeau",
+    "thumb": "icons/items/64/GIFT_SMALL.png"
+  },
+  {
+    "id": "GOD_TEAR",
+    "name": "Larme divine",
+    "thumb": "icons/items/64/GOD_TEAR.png"
+  },
+  {
+    "id": "GOD_TEAR_FRAGMENT",
+    "name": "Fragment de larme divine",
+    "thumb": "icons/items/64/GOD_TEAR_FRAGMENT.png"
+  },
+  {
+    "id": "GOLD_NUGGET",
+    "name": "Pépite d'or",
+    "thumb": "icons/items/64/GOLD_NUGGET.png"
+  },
+  {
+    "id": "GOLD_REFINED",
+    "name": "Lingot d'or",
+    "thumb": "icons/items/64/GOLD_REFINED.png"
+  },
+  {
+    "id": "GRAPES",
+    "name": "Raisin",
+    "thumb": "icons/items/64/GRAPES.png"
+  },
+  {
+    "id": "GRASS",
+    "name": "Herbe",
+    "thumb": "icons/items/64/GRASS.png"
+  },
+  {
+    "id": "HALF_BLUE_HEART",
+    "name": "Demi-cœur bleu",
+    "thumb": "icons/items/64/HALF_BLUE_HEART.png"
+  },
+  {
+    "id": "HALF_HEART",
+    "name": "Demi-cœur rouge",
+    "thumb": "icons/items/64/HALF_HEART.png"
+  },
+  {
+    "id": "HOPS",
+    "name": "Houblon",
+    "thumb": "icons/items/64/HOPS.png"
+  },
+  {
+    "id": "ICE_HEART",
+    "name": "Cœur gelé",
+    "thumb": null
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+    "name": "Lettre illisible",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_CHARYBDIS.png"
+  },
+  {
+    "id": "ILLEGIBLE_LETTER_SCYLLA",
+    "name": "Lettre illisible",
+    "thumb": "icons/items/64/ILLEGIBLE_LETTER_SCYLLA.png"
+  },
+  {
+    "id": "LEGENDARY_WEAPON_FRAGMENT",
+    "name": "Fragment d'arme légendaire",
+    "thumb": "icons/items/64/LEGENDARY_WEAPON_FRAGMENT.png"
+  },
+  {
+    "id": "LIGHTNING_SHARD",
+    "name": "Cristal chargé",
+    "thumb": "icons/items/64/LIGHTNING_SHARD.png"
+  },
+  {
+    "id": "LOG",
+    "name": "Bois",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "LOG_REFINED",
+    "name": "Planche de bois",
+    "thumb": "icons/items/64/LOG_REFINED.png"
+  },
+  {
+    "id": "LORE_STONE",
+    "name": "Tablette antique",
+    "thumb": "icons/items/64/LORE_STONE.png"
+  },
+  {
+    "id": "MAGMA_STONE",
+    "name": "Charbon putrescent",
+    "thumb": "icons/items/64/MAGMA_STONE.png"
+  },
+  {
+    "id": "MEAL",
+    "name": "Soupe à la citrouille",
+    "thumb": "icons/items/64/MEAL.png"
+  },
+  {
+    "id": "MEAL_BAD_FISH",
+    "name": "Ragoût de poisson âcre",
+    "thumb": "icons/items/64/MEAL_BAD_FISH.png"
+  },
+  {
+    "id": "MEAL_BAD_MEAT",
+    "name": "Gruau de viande fade",
+    "thumb": "icons/items/64/MEAL_BAD_MEAT.png"
+  },
+  {
+    "id": "MEAL_BAD_MIXED",
+    "name": "Mélange fade",
+    "thumb": "icons/items/64/MEAL_BAD_MIXED.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "Bol de baies basique",
+    "thumb": "icons/items/64/MEAL_BERRIES.png"
+  },
+  {
+    "id": "MEAL_BURNED",
+    "name": "Plat brûlé",
+    "thumb": null
+  },
+  {
+    "id": "MEAL_DEADLY",
+    "name": "Plat mortel",
+    "thumb": "icons/items/64/MEAL_DEADLY.png"
+  },
+  {
+    "id": "MEAL_EGG",
+    "name": "Plat d'œufs",
+    "thumb": "icons/items/64/MEAL_EGG.png"
+  },
+  {
+    "id": "MEAL_FOLLOWER_MEAT",
+    "name": "Plat de chair d'adepte",
+    "thumb": "icons/items/64/MEAL_FOLLOWER_MEAT.png"
+  },
+  {
+    "id": "MEAL_GOOD_FISH",
+    "name": "Savoureux plat de poisson",
+    "thumb": "icons/items/64/MEAL_GOOD_FISH.png"
+  },
+  {
+    "id": "MEAL_GRASS",
+    "name": "Gruau d'herbes",
+    "thumb": "icons/items/64/MEAL_GRASS.png"
+  },
+  {
+    "id": "MEAL_GREAT",
+    "name": "Plat de légumes exquis",
+    "thumb": "icons/items/64/MEAL_GREAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_FISH",
+    "name": "Succulent plat de poisson",
+    "thumb": "icons/items/64/MEAL_GREAT_FISH.png"
+  },
+  {
+    "id": "MEAL_GREAT_MEAT",
+    "name": "Plat de viande supérieur",
+    "thumb": "icons/items/64/MEAL_GREAT_MEAT.png"
+  },
+  {
+    "id": "MEAL_GREAT_MIXED",
+    "name": "Mélange délicieux",
+    "thumb": "icons/items/64/MEAL_GREAT_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEAT",
+    "name": "Bouillon de viande nourrissant",
+    "thumb": "icons/items/64/MEAL_MEAT.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_MIXED",
+    "name": "Mélange ordinaire",
+    "thumb": "icons/items/64/MEAL_MEDIUM_MIXED.png"
+  },
+  {
+    "id": "MEAL_MEDIUM_VEG",
+    "name": "Charmante chaudrée de chou-fleur",
+    "thumb": "icons/items/64/MEAL_MEDIUM_VEG.png"
+  },
+  {
+    "id": "MEAL_MILK_BAD",
+    "name": "Lait caillé tourné",
+    "thumb": "icons/items/64/MEAL_MILK_BAD.png"
+  },
+  {
+    "id": "MEAL_MILK_GOOD",
+    "name": "Fondue au fromage",
+    "thumb": "icons/items/64/MEAL_MILK_GOOD.png"
+  },
+  {
+    "id": "MEAL_MILK_GREAT",
+    "name": "Hachis parmentier",
+    "thumb": "icons/items/64/MEAL_MILK_GREAT.png"
+  },
+  {
+    "id": "MEAL_MUSHROOMS",
+    "name": "Plat de champignons",
+    "thumb": "icons/items/64/MEAL_MUSHROOMS.png"
+  },
+  {
+    "id": "MEAL_POOP",
+    "name": "Bol de caca",
+    "thumb": "icons/items/64/MEAL_POOP.png"
+  },
+  {
+    "id": "MEAL_SNOW_FRUIT",
+    "name": "Crème glacée au fruit des neiges",
+    "thumb": "icons/items/64/MEAL_SNOW_FRUIT.png"
+  },
+  {
+    "id": "MEAL_SPICY",
+    "name": "Purée de piments",
+    "thumb": "icons/items/64/MEAL_SPICY.png"
+  },
+  {
+    "id": "MEAT",
+    "name": "Viande",
+    "thumb": "icons/items/64/MEAT.png"
+  },
+  {
+    "id": "MEAT_MORSEL",
+    "name": "Restes de viande",
+    "thumb": "icons/items/64/MEAT_MORSEL.png"
+  },
+  {
+    "id": "MILK",
+    "name": "Lait",
+    "thumb": "icons/items/64/MILK.png"
+  },
+  {
+    "id": "MONSTER_HEART",
+    "name": "Cœur d'hérétique",
+    "thumb": "icons/items/64/MONSTER_HEART.png"
+  },
+  {
+    "id": "MUSHROOM_SMALL",
+    "name": "Champignon hallucinogène",
+    "thumb": "icons/items/64/MUSHROOM_SMALL.png"
+  },
+  {
+    "id": "Necklace_1",
+    "name": "Collier de fleur",
+    "thumb": "icons/items/64/Necklace_1.png"
+  },
+  {
+    "id": "Necklace_2",
+    "name": "Collier de plumes",
+    "thumb": "icons/items/64/Necklace_2.png"
+  },
+  {
+    "id": "Necklace_3",
+    "name": "Collier d'ossements",
+    "thumb": "icons/items/64/Necklace_3.png"
+  },
+  {
+    "id": "Necklace_4",
+    "name": "Collier de la nature",
+    "thumb": "icons/items/64/Necklace_4.png"
+  },
+  {
+    "id": "Necklace_5",
+    "name": "Collier lunaire",
+    "thumb": "icons/items/64/Necklace_5.png"
+  },
+  {
+    "id": "Necklace_Dark",
+    "name": "Collier sombre",
+    "thumb": "icons/items/64/Necklace_Dark.png"
+  },
+  {
+    "id": "Necklace_Deaths_Door",
+    "name": "Collier de regain",
+    "thumb": "icons/items/64/Necklace_Deaths_Door.png"
+  },
+  {
+    "id": "Necklace_Demonic",
+    "name": "Collier démoniaque",
+    "thumb": "icons/items/64/Necklace_Demonic.png"
+  },
+  {
+    "id": "Necklace_Frozen",
+    "name": "Collier chauffant",
+    "thumb": "icons/items/64/Necklace_Frozen.png"
+  },
+  {
+    "id": "Necklace_Gold_Skull",
+    "name": "Collier d'ossements dorés",
+    "thumb": "icons/items/64/Necklace_Gold_Skull.png"
+  },
+  {
+    "id": "Necklace_Light",
+    "name": "Collier de lumière",
+    "thumb": "icons/items/64/Necklace_Light.png"
+  },
+  {
+    "id": "Necklace_Loyalty",
+    "name": "Collier de fidélité",
+    "thumb": "icons/items/64/Necklace_Loyalty.png"
+  },
+  {
+    "id": "Necklace_Missionary",
+    "name": "Collier de missionnaire",
+    "thumb": "icons/items/64/Necklace_Missionary.png"
+  },
+  {
+    "id": "Necklace_Targeted",
+    "name": "Collier de malchance",
+    "thumb": "icons/items/64/Necklace_Targeted.png"
+  },
+  {
+    "id": "Necklace_Weird",
+    "name": "Collier aberrant",
+    "thumb": "icons/items/64/Necklace_Weird.png"
+  },
+  {
+    "id": "Necklace_Winter",
+    "name": "Collier de l'hiver",
+    "thumb": "icons/items/64/Necklace_Winter.png"
+  },
+  {
+    "id": "PLEASURE_POINT",
+    "name": "Péché",
+    "thumb": "icons/items/64/PLEASURE_POINT.png"
+  },
+  {
+    "id": "POOP",
+    "name": "Fertilisant",
+    "thumb": "icons/items/64/POOP.png"
+  },
+  {
+    "id": "POOP_DEVOTION",
+    "name": "Fertilisant sacré",
+    "thumb": "icons/items/64/POOP_DEVOTION.png"
+  },
+  {
+    "id": "POOP_GLOW",
+    "name": "Fertilisant lumineux",
+    "thumb": "icons/items/64/POOP_GLOW.png"
+  },
+  {
+    "id": "POOP_GOLD",
+    "name": "Fertilisant doré",
+    "thumb": "icons/items/64/POOP_GOLD.png"
+  },
+  {
+    "id": "POOP_RAINBOW",
+    "name": "Fertilisant arc-en-ciel",
+    "thumb": "icons/items/64/POOP_RAINBOW.png"
+  },
+  {
+    "id": "POOP_ROTSTONE",
+    "name": "Fertilisant putrescent",
+    "thumb": "icons/items/64/POOP_ROTSTONE.png"
+  },
+  {
+    "id": "PUMPKIN",
+    "name": "Citrouille",
+    "thumb": "icons/items/64/PUMPKIN.png"
+  },
+  {
+    "id": "RED_HEART",
+    "name": "Cœur rouge",
+    "thumb": "icons/items/64/RED_HEART.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_CHAIN",
+    "name": "Yngya's Torment",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_CHAIN.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_DAGGER",
+    "name": "Ruin of Nirah",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_DAGGER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_GAUNTLETS",
+    "name": "Claws of the Wolf",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_GAUNTLETS.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_HAMMER",
+    "name": "Scourge of Svargod",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_HAMMER.png"
+  },
+  {
+    "id": "REPAIRED_WEAPON_SWORD",
+    "name": "Golden End",
+    "thumb": "icons/items/64/REPAIRED_WEAPON_SWORD.png"
+  },
+  {
+    "id": "SEED",
+    "name": "Graine de buisson à baies",
+    "thumb": "icons/items/64/SEED.png"
+  },
+  {
+    "id": "SEED_BEETROOT",
+    "name": "Graine de betterave",
+    "thumb": "icons/items/64/SEED_BEETROOT.png"
+  },
+  {
+    "id": "SEED_CAULIFLOWER",
+    "name": "Graine de chou-fleur",
+    "thumb": "icons/items/64/SEED_CAULIFLOWER.png"
+  },
+  {
+    "id": "SEED_CHILLI",
+    "name": "Graine de piment",
+    "thumb": "icons/items/64/SEED_CHILLI.png"
+  },
+  {
+    "id": "SEED_COTTON",
+    "name": "Grain de coton",
+    "thumb": "icons/items/64/SEED_COTTON.png"
+  },
+  {
+    "id": "SEED_FLOWER_RED",
+    "name": "Graine de camélia",
+    "thumb": "icons/items/64/SEED_FLOWER_RED.png"
+  },
+  {
+    "id": "SEED_GRAPES",
+    "name": "Graine de raisin",
+    "thumb": "icons/items/64/SEED_GRAPES.png"
+  },
+  {
+    "id": "SEED_HOPS",
+    "name": "Graine de houblon",
+    "thumb": "icons/items/64/SEED_HOPS.png"
+  },
+  {
+    "id": "SEED_MUSHROOM",
+    "name": "Spores hallucinogènes",
+    "thumb": "icons/items/64/SEED_MUSHROOM.png"
+  },
+  {
+    "id": "SEED_PUMPKIN",
+    "name": "Graine de citrouille",
+    "thumb": "icons/items/64/SEED_PUMPKIN.png"
+  },
+  {
+    "id": "SEED_SNOW_FRUIT",
+    "name": "Graine de fruit des neiges",
+    "thumb": "icons/items/64/SEED_SNOW_FRUIT.png"
+  },
+  {
+    "id": "SEED_SOZO",
+    "name": "Graine de Sozo",
+    "thumb": "icons/items/64/SEED_SOZO.png"
+  },
+  {
+    "id": "SHELL",
+    "name": "Coquille",
+    "thumb": "icons/items/64/SHELL.png"
+  },
+  {
+    "id": "SILK_THREAD",
+    "name": "Fil de soie",
+    "thumb": "icons/items/64/SILK_THREAD.png"
+  },
+  {
+    "id": "SNOW_CHUNK",
+    "name": "Snow Chunk",
+    "thumb": "icons/items/64/SNOW_CHUNK.png"
+  },
+  {
+    "id": "SNOW_FRUIT",
+    "name": "Fruit des neiges",
+    "thumb": "icons/items/64/SNOW_FRUIT.png"
+  },
+  {
+    "id": "SOOT",
+    "name": "Poussière putrescente",
+    "thumb": "icons/items/64/SOOT.png"
+  },
+  {
+    "id": "SOUL",
+    "name": "Dévotion",
+    "thumb": "icons/items/64/SOUL.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_10",
+    "name": "Laine de l'innocente",
+    "thumb": "icons/items/64/SPECIAL_WOOL_10.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_11",
+    "name": "Laine du chevalier",
+    "thumb": "icons/items/64/SPECIAL_WOOL_11.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_6",
+    "name": "Laine du déterminé",
+    "thumb": "icons/items/64/SPECIAL_WOOL_6.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_7",
+    "name": "Laine du guerrier",
+    "thumb": "icons/items/64/SPECIAL_WOOL_7.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_8",
+    "name": "Laine du messager",
+    "thumb": "icons/items/64/SPECIAL_WOOL_8.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_9",
+    "name": "Laine de l'imposteur",
+    "thumb": "icons/items/64/SPECIAL_WOOL_9.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_BLACKSMITH",
+    "name": "Laine de la brûlée",
+    "thumb": "icons/items/64/SPECIAL_WOOL_BLACKSMITH.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_DECORATION",
+    "name": "Laine du rusé",
+    "thumb": "icons/items/64/SPECIAL_WOOL_DECORATION.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_LAMBWAR",
+    "name": "Laine de l'érudite",
+    "thumb": "icons/items/64/SPECIAL_WOOL_LAMBWAR.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_RANCHER",
+    "name": "Laine de l'éleveur",
+    "thumb": "icons/items/64/SPECIAL_WOOL_RANCHER.png"
+  },
+  {
+    "id": "SPECIAL_WOOL_TAROT",
+    "name": "Laine de l'astronome",
+    "thumb": "icons/items/64/SPECIAL_WOOL_TAROT.png"
+  },
+  {
+    "id": "SPIDER_WEB",
+    "name": "Soie d'araignée",
+    "thumb": "icons/items/64/SPIDER_WEB.png"
+  },
+  {
+    "id": "STONE",
+    "name": "Pierre",
+    "thumb": "icons/items/64/STONE.png"
+  },
+  {
+    "id": "STONE_REFINED",
+    "name": "Bloc de pierre",
+    "thumb": "icons/items/64/STONE_REFINED.png"
+  },
+  {
+    "id": "TALISMAN",
+    "name": "Talisman sacré",
+    "thumb": "icons/items/64/TALISMAN.png"
+  },
+  {
+    "id": "TRINKET_CARD",
+    "name": "Carte de tarot",
+    "thumb": "icons/items/64/TRINKET_CARD.png"
+  },
+  {
+    "id": "WOOL",
+    "name": "Laine",
+    "thumb": "icons/items/64/WOOL.png"
+  },
+  {
+    "id": "YEW_CURSED",
+    "name": "Écorce d'if maudite",
+    "thumb": "icons/items/64/YEW_CURSED.png"
+  },
+  {
+    "id": "YEW_HOLY",
+    "name": "Écorce d'if bénie",
+    "thumb": "icons/items/64/YEW_HOLY.png"
+  },
+  {
+    "id": "YNGYA_GHOST",
+    "name": "Âmes perdues",
+    "thumb": "icons/items/64/YNGYA_GHOST.png"
+  },
+  {
+    "id": "YOLK",
+    "name": "Jaune d'œuf",
+    "thumb": "icons/items/64/YOLK.png"
+  }
+]

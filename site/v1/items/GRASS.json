@@ -83,6 +83,7 @@
   },
   "seed": "GRASS",
   "tags": [],
+  "thumb": "icons/items/64/GRASS.png",
   "usedIn": {
     "items": [
       "DRINK_GIN",

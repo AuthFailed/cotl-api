@@ -86,6 +86,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_BOSS_TROPHY_3.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

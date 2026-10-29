@@ -76,6 +76,7 @@
   "tags": [
     "food"
   ],
+  "thumb": "icons/items/64/CHILLI.png",
   "usedIn": {
     "items": [
       "DRINK_CHILLI",

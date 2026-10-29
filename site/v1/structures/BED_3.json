@@ -90,6 +90,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/BED_3.png",
   "upgradesFrom": "BED_2",
   "upgradesTo": []
 }

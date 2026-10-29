@@ -74,6 +74,7 @@
   },
   "seed": "SEED_MUSHROOM",
   "tags": [],
+  "thumb": "icons/items/64/MUSHROOM_SMALL.png",
   "usedIn": {
     "items": [
       "DRINK_MUSHROOM_JUICE"

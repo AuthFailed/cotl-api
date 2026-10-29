@@ -178,6 +178,7 @@
   "tags": [
     "meal"
   ],
+  "thumb": "icons/items/64/MEAL_DEADLY.png",
   "usedIn": {
     "items": [],
     "rituals": [],

@@ -80,6 +80,7 @@
     "zh-TW": "罪人之傲慢"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_AtoneSin.png",
   "trait": null,
   "warmth": 0.0
 }

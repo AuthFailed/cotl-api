@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/TRAIT_MANIPULATOR_2.png",
   "upgradesFrom": "TRAIT_MANIPULATOR_1",
   "upgradesTo": [
     "TRAIT_MANIPULATOR_3"

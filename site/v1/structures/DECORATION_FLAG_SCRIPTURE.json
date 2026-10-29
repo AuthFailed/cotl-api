@@ -86,6 +86,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_FLAG_SCRIPTURE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

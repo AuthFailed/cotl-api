@@ -79,6 +79,7 @@
     "zh-TW": "神祕果實雕像"
   },
   "size": null,
+  "thumb": "icons/structures/64/DECORATION_APPLE_STATUE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

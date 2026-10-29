@@ -82,6 +82,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_TWITCH_MUSHROOM_BAG.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

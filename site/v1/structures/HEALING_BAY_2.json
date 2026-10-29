@@ -90,6 +90,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/HEALING_BAY_2.png",
   "upgradesFrom": "HEALING_BAY",
   "upgradesTo": []
 }

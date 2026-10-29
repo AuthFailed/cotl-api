@@ -78,6 +78,7 @@
     "fish",
     "big_fish"
   ],
+  "thumb": "icons/items/64/FISH_SWORDFISH.png",
   "usedIn": {
     "items": [
       "MEAL_GREAT_FISH"

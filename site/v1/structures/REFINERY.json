@@ -90,6 +90,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/REFINERY.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "REFINERY_2"

@@ -81,6 +81,7 @@
       "zh-TW": "濟寒賑貧"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -170,6 +171,7 @@
       "zh-TW": "教徒飛昇儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Ascend.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -255,6 +257,7 @@
       "zh-TW": "信仰鞏固者"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_AssignFaithEnforcer.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -340,6 +343,7 @@
       "zh-TW": "收稅員"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_AssignTaxCollector.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -425,6 +429,7 @@
       "zh-TW": "罪人之傲慢"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_AtoneSin.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -510,6 +515,7 @@
       "zh-TW": "門徒儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_BecomeDisciple.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -595,6 +601,7 @@
       "zh-TW": "洗腦儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Brainwashing.png",
     "trait": "MushroomEncouraged",
     "warmth": 0.0
   },
@@ -684,6 +691,7 @@
       "zh-TW": "暴食同類"
     },
     "sin": 25,
+    "thumb": "icons/rituals/64/Ritual_Cannibal.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -773,6 +781,7 @@
       "zh-TW": "腐爛儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_ConvertToRot.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -858,6 +867,7 @@
       "zh-TW": "富強儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_DonationRitual.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -943,6 +953,7 @@
       "zh-TW": "啟迪儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Enlightenment.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1028,6 +1039,7 @@
       "zh-TW": "禁食儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Fast.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1113,6 +1125,7 @@
       "zh-TW": "建構榮耀"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_FasterBuilding.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1198,6 +1211,7 @@
       "zh-TW": "盛宴儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Feast.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1287,6 +1301,7 @@
       "zh-TW": "決鬥場儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Fightpit.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1344,6 +1359,7 @@
       "zh-TW": "火堆儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_FirePit.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1429,6 +1445,7 @@
       "zh-TW": "海洋的贈禮儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_FishingRitual.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1518,6 +1535,7 @@
       "zh-TW": "教徒結婚典禮"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_FollowerWedding.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1607,6 +1625,7 @@
       "zh-TW": "葬禮"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Funeral.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1692,6 +1711,7 @@
       "zh-TW": "血月儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Halloween.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1777,6 +1797,7 @@
       "zh-TW": "收成儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_HarvestRitual.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1862,6 +1883,7 @@
       "zh-TW": "聖日儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Holiday.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -1951,6 +1973,7 @@
       "zh-TW": "色慾儀式"
     },
     "sin": 55,
+    "thumb": "icons/rituals/64/Ritual_Nudism.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2036,6 +2059,7 @@
       "zh-TW": "憤怒儀式"
     },
     "sin": 55,
+    "thumb": "icons/rituals/64/Ritual_Purge.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2125,6 +2149,7 @@
       "zh-TW": "剪毛儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_RanchHarvest.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2214,6 +2239,7 @@
       "zh-TW": "暴食儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_RanchMeat.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2299,6 +2325,7 @@
       "zh-TW": "復活儀式"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Ressurect.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2388,6 +2415,7 @@
       "zh-TW": "獻祭肉身"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Sacrifice.png",
     "trait": "SacrificeEnthusiast",
     "warmth": 0.0
   },
@@ -2477,6 +2505,7 @@
       "zh-TW": "賦冰新生"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Snowman.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2562,6 +2591,7 @@
       "zh-TW": "婚禮"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Wedding.png",
     "trait": null,
     "warmth": 0.0
   },
@@ -2647,6 +2677,7 @@
       "zh-TW": "勞累中求榮耀"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_WorkThroughNight.png",
     "trait": null,
     "warmth": 0.0
   }

@@ -86,6 +86,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/MORGUE_2.png",
   "upgradesFrom": "MORGUE_1",
   "upgradesTo": []
 }

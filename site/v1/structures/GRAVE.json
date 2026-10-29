@@ -86,6 +86,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/GRAVE.png",
   "upgradesFrom": "BODY_PIT",
   "upgradesTo": []
 }

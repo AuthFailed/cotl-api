@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/WEATHER_VANE.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

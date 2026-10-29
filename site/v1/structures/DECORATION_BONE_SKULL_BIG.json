@@ -82,6 +82,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/DECORATION_BONE_SKULL_BIG.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

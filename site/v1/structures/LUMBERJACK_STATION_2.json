@@ -90,6 +90,7 @@
     "h": 3,
     "w": 3
   },
+  "thumb": "icons/structures/64/LUMBERJACK_STATION_2.png",
   "upgradesFrom": "LUMBERJACK_STATION",
   "upgradesTo": []
 }

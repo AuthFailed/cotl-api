@@ -1,0 +1,12 @@
+[
+  {
+    "id": "Ritual_Fast",
+    "name": "Пост",
+    "thumb": null
+  },
+  {
+    "id": "Ritual_Feast",
+    "name": "Пир",
+    "thumb": "icons/rituals/64/Ritual_Feast.png"
+  }
+]

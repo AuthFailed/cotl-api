@@ -90,6 +90,7 @@
     "h": 5,
     "w": 5
   },
+  "thumb": "icons/structures/64/TEMPLE_II.png",
   "upgradesFrom": "TEMPLE",
   "upgradesTo": [
     "TEMPLE_III"

@@ -80,6 +80,7 @@
     "zh-TW": "禁食儀式"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_Fast.png",
   "trait": null,
   "warmth": 0.0
 }

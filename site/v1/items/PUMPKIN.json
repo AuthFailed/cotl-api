@@ -76,6 +76,7 @@
   "tags": [
     "food"
   ],
+  "thumb": "icons/items/64/PUMPKIN.png",
   "usedIn": {
     "items": [
       "MEAL",

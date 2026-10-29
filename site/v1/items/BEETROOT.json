@@ -76,6 +76,7 @@
   "tags": [
     "food"
   ],
+  "thumb": "icons/items/64/BEETROOT.png",
   "usedIn": {
     "items": [
       "MEAL_GREAT",

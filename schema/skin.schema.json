@@ -10,7 +10,8 @@
     "unlock",
     "hidden",
     "namePlain",
-    "descriptionPlain"
+    "descriptionPlain",
+    "thumb"
   ],
   "properties": {
     "id": {
@@ -63,6 +64,14 @@
         "type": "string"
       },
       "description": "description without the game's text markup"
+    },
+    "thumb": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^icons/skins/64/[A-Za-z0-9_-]+\\.png$",
+      "description": "the icon fitted into 64x64 (null if no icon)"
     }
   }
 }

@@ -5,6 +5,8 @@ import shutil
 import sys
 from pathlib import Path
 
+from PIL import Image
+
 KINDS = ("items", "structures", "skins", "rituals")
 SAFE_ID = re.compile(r"[A-Za-z0-9_-]+")
 # The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
@@ -49,6 +51,20 @@ def effect(i18n: dict, raw: dict) -> dict:
             "descriptionPlain": {lang: plain(t) for lang, t in description.items()}}
 
 
+THUMB = 64
+
+
+def thumbnail(src: Path, dst: Path) -> None:
+    """The icon fitted into THUMB x THUMB, aspect kept; small icons are copied as they are."""
+    with Image.open(src) as im:
+        if max(im.size) <= THUMB:
+            shutil.copyfile(src, dst)
+            return
+        im = im.convert("RGBA")
+        im.thumbnail((THUMB, THUMB), Image.Resampling.LANCZOS)
+        im.save(dst, optimize=True)
+
+
 def changed(old: dict, new: dict) -> bool:
     # Only fields both versions have: a field the API adds is not a change in the game.
     return any(old[k] != new[k] for k in old.keys() & new.keys())
@@ -58,7 +74,7 @@ def tree(root: Path) -> dict:
     return {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()} if root.exists() else {}
 
 
-SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "changes": "Changes"}
+SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "changes": "Changes", "slim": "Slim"}
 
 
 def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) -> dict:
@@ -88,6 +104,10 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
         name = SCHEMAS[kind[:-1]]
         paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True, example=examples[kind][:2]))
         paths[f"/v1/{kind}/{{id}}.json"] = get(kind, f"One {kind[:-1]}", ref(name, example=(examples[kind] or [None])[0]), sorted(ids[kind]))
+        paths[f"/v1/{{lang}}/{kind}.json"] = {"get": {
+            "tags": [kind], "summary": f"Every {kind[:-1]}: id, name in one language, thumbnail",
+            "parameters": [{"name": "lang", "in": "path", "required": True, "schema": {"type": "string", "enum": index["languages"]}}],
+            "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Slim"}}}}}}}
         if icons[kind]:
             paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {kind[:-1]}'s icon", {"image/png": {}}, sorted(icons[kind]))
     return {
@@ -160,11 +180,13 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
             if e.get("meal"):
                 e["meal"] = dict(e["meal"], effects=[effect(dump["i18n"], x) for x in e["meal"]["effects"]])
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"
-            e["icon"] = None
+            e["icon"] = e["thumb"] = None
             if icon.exists():
                 e["icon"] = f"icons/{kind}/{raw['id']}.png"
-                (tmp / "icons" / kind).mkdir(parents=True, exist_ok=True)
+                e["thumb"] = f"icons/{kind}/{THUMB}/{raw['id']}.png"
+                (tmp / "icons" / kind / str(THUMB)).mkdir(parents=True, exist_ok=True)
                 shutil.copyfile(icon, tmp / e["icon"])
+                thumbnail(icon, tmp / e["thumb"])
                 icons.setdefault(kind, []).append(e["id"])
             write_json(tmp / kind / f"{e['id']}.json", e)
             entities.append(e)
@@ -177,6 +199,12 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
         "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}),
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }
+    # Per language, just what a list or a picker needs: id, name (English if untranslated), thumbnail.
+    for lang in index["languages"]:
+        for kind in KINDS:
+            write_json(tmp / lang / f"{kind}.json", [
+                {"id": e["id"], "name": e["name"].get(lang) or e["name"]["en"], "thumb": e["thumb"]}
+                for e in read_json(tmp / f"{kind}.json")])
     old_dir = site_dir / "v1"
     old_index = read_json(old_dir / "index.json")
     changes = read_json(old_dir / "changes.json") or []

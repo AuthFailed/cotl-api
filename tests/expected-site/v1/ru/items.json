@@ -1,0 +1,27 @@
+[
+  {
+    "id": "BERRY",
+    "name": "Berries",
+    "thumb": null
+  },
+  {
+    "id": "LOG",
+    "name": "Брёвна",
+    "thumb": "icons/items/64/LOG.png"
+  },
+  {
+    "id": "MEAL_BERRIES",
+    "name": "Миска ягод",
+    "thumb": null
+  },
+  {
+    "id": "SEED",
+    "name": "Семя ягоды",
+    "thumb": null
+  },
+  {
+    "id": "STONE",
+    "name": "Камень",
+    "thumb": "icons/items/64/STONE.png"
+  }
+]

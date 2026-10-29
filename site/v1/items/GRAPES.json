@@ -74,6 +74,7 @@
   },
   "seed": "SEED_GRAPES",
   "tags": [],
+  "thumb": "icons/items/64/GRAPES.png",
   "usedIn": {
     "items": [
       "DRINK_COCKTAIL",

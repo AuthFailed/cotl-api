@@ -90,6 +90,7 @@
     "h": 4,
     "w": 4
   },
+  "thumb": "icons/structures/64/PUB_2.png",
   "upgradesFrom": "PUB",
   "upgradesTo": []
 }

@@ -328,6 +328,14 @@
             },
             "type": "array"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/items/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "usedIn": {
             "description": "where the item is used: structure costs, meal and drink recipes, ritual costs",
             "properties": {
@@ -366,7 +374,8 @@
           "category",
           "namePlain",
           "descriptionPlain",
-          "usedIn"
+          "usedIn",
+          "thumb"
         ],
         "title": "Item",
         "type": "object"
@@ -465,6 +474,14 @@
             "description": "sin change when performed",
             "type": "integer"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/rituals/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "trait": {
             "description": "cult trait performing it can give",
             "type": [
@@ -491,7 +508,8 @@
           "trait",
           "group",
           "alternative",
-          "doctrine"
+          "doctrine",
+          "thumb"
         ],
         "title": "Ritual",
         "type": "object"
@@ -543,6 +561,14 @@
             "description": "name without the game's text markup",
             "type": "object"
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/skins/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "unlock": {
             "type": [
               "string",
@@ -558,10 +584,40 @@
           "unlock",
           "hidden",
           "namePlain",
-          "descriptionPlain"
+          "descriptionPlain",
+          "thumb"
         ],
         "title": "Skin",
         "type": "object"
+      },
+      "Slim": {
+        "description": "v1/{lang}/{kind}.json: every entity of a kind with its name in one language (English if untranslated)",
+        "items": {
+          "additionalProperties": false,
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "name": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "thumb": {
+              "type": [
+                "string",
+                "null"
+              ]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "thumb"
+          ],
+          "type": "object"
+        },
+        "title": "Slim",
+        "type": "array"
       },
       "Structure": {
         "properties": {
@@ -664,6 +720,14 @@
               "null"
             ]
           },
+          "thumb": {
+            "description": "the icon fitted into 64x64 (null if no icon)",
+            "pattern": "^icons/structures/64/[A-Za-z0-9_-]+\\.png$",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "upgradesFrom": {
             "type": [
               "string",
@@ -688,15 +752,20 @@
           "size",
           "namePlain",
           "descriptionPlain",
-          "upgradesTo"
+          "upgradesTo",
+          "thumb"
         ],
         "title": "Structure",
         "type": "object"
       }
     }
   },
+  "externalDocs": {
+    "description": "README",
+    "url": "https://github.com/AuthFailed/cotl-api#readme"
+  },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:59:39Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:59:39Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },
@@ -708,6 +777,7 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [],
                 "schema": {
                   "$ref": "#/components/schemas/Changes"
                 }
@@ -1354,6 +1424,33 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "capturedAt": "2026-10-29T04:59:39Z",
+                  "counts": {
+                    "items": 181,
+                    "rituals": 31,
+                    "skins": 167,
+                    "structures": 337
+                  },
+                  "gameVersion": "1.5.26.1058",
+                  "languages": [
+                    "ar",
+                    "de",
+                    "en",
+                    "es",
+                    "fr",
+                    "fr-CA",
+                    "it",
+                    "ja",
+                    "ko",
+                    "nl",
+                    "pt-BR",
+                    "ru",
+                    "tr",
+                    "zh-CN",
+                    "zh-TW"
+                  ]
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Index"
                 }
@@ -1377,6 +1474,174 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "category": "NONE",
+                    "crop": null,
+                    "description": {
+                      "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                      "de": "Eine freakige Kreatur für deine Ranch.",
+                      "en": "A freakish creature for you to Ranch.",
+                      "es": "Una extraña criatura que puedes criar.",
+                      "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                      "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                      "it": "Una bizzarra creatura da allevare.",
+                      "ja": "畜舎で飼育できる、少し変わった生き物",
+                      "ko": "목장에서 키우는 희한한 동물입니다.",
+                      "nl": "Een ongewoon dier voor in je veeboerderij.",
+                      "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                      "ru": "Странное животное для разведения.",
+                      "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                      "zh-CN": "牧场的古怪生物。",
+                      "zh-TW": "牧場的怪生物。"
+                    },
+                    "descriptionPlain": {
+                      "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                      "de": "Eine freakige Kreatur für deine Ranch.",
+                      "en": "A freakish creature for you to Ranch.",
+                      "es": "Una extraña criatura que puedes criar.",
+                      "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                      "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                      "it": "Una bizzarra creatura da allevare.",
+                      "ja": "畜舎で飼育できる、少し変わった生き物",
+                      "ko": "목장에서 키우는 희한한 동물입니다.",
+                      "nl": "Een ongewoon dier voor in je veeboerderij.",
+                      "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                      "ru": "Странное животное для разведения.",
+                      "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                      "zh-CN": "牧场的古怪生物。",
+                      "zh-TW": "牧場的怪生物。"
+                    },
+                    "icon": "icons/items/ANIMAL_COW.png",
+                    "id": "ANIMAL_COW",
+                    "meal": null,
+                    "name": {
+                      "ar": "حيوان البقرة",
+                      "de": "Kuhi",
+                      "en": "Cowish",
+                      "es": "Vaquis",
+                      "fr": "Vachoïde",
+                      "fr-CA": "Vachoïde",
+                      "it": "Muuucca",
+                      "ja": "ウシモドキ",
+                      "ko": "젖소류",
+                      "nl": "Koeiig",
+                      "pt-BR": "Vaquinha",
+                      "ru": "Коровло",
+                      "tr": "İneksi",
+                      "zh-CN": "怪牛",
+                      "zh-TW": "怪牛"
+                    },
+                    "namePlain": {
+                      "ar": "حيوان البقرة",
+                      "de": "Kuhi",
+                      "en": "Cowish",
+                      "es": "Vaquis",
+                      "fr": "Vachoïde",
+                      "fr-CA": "Vachoïde",
+                      "it": "Muuucca",
+                      "ja": "ウシモドキ",
+                      "ko": "젖소류",
+                      "nl": "Koeiig",
+                      "pt-BR": "Vaquinha",
+                      "ru": "Коровло",
+                      "tr": "İneksi",
+                      "zh-CN": "怪牛",
+                      "zh-TW": "怪牛"
+                    },
+                    "seed": null,
+                    "tags": [],
+                    "thumb": "icons/items/64/ANIMAL_COW.png",
+                    "usedIn": {
+                      "items": [],
+                      "rituals": [],
+                      "structures": []
+                    }
+                  },
+                  {
+                    "category": "NONE",
+                    "crop": null,
+                    "description": {
+                      "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                      "de": "Eine freakige Kreatur für deine Ranch.",
+                      "en": "A freakish creature for you to Ranch.",
+                      "es": "Una extraña criatura que puedes criar.",
+                      "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                      "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                      "it": "Una bizzarra creatura da allevare.",
+                      "ja": "畜舎で飼育できる、少し変わった生き物",
+                      "ko": "목장에서 키우는 희한한 동물입니다.",
+                      "nl": "Een ongewoon dier voor in je veeboerderij.",
+                      "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                      "ru": "Странное животное для разведения.",
+                      "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                      "zh-CN": "牧场的古怪生物。",
+                      "zh-TW": "牧場的怪生物。"
+                    },
+                    "descriptionPlain": {
+                      "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                      "de": "Eine freakige Kreatur für deine Ranch.",
+                      "en": "A freakish creature for you to Ranch.",
+                      "es": "Una extraña criatura que puedes criar.",
+                      "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                      "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                      "it": "Una bizzarra creatura da allevare.",
+                      "ja": "畜舎で飼育できる、少し変わった生き物",
+                      "ko": "목장에서 키우는 희한한 동물입니다.",
+                      "nl": "Een ongewoon dier voor in je veeboerderij.",
+                      "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                      "ru": "Странное животное для разведения.",
+                      "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                      "zh-CN": "牧场的古怪生物。",
+                      "zh-TW": "牧場的怪生物。"
+                    },
+                    "icon": "icons/items/ANIMAL_CRAB.png",
+                    "id": "ANIMAL_CRAB",
+                    "meal": null,
+                    "name": {
+                      "ar": "حيوان السلطعون",
+                      "de": "Krabbi",
+                      "en": "Crabish",
+                      "es": "Cangrejis",
+                      "fr": "Craboïde",
+                      "fr-CA": "Craboïde",
+                      "it": "Granchiu",
+                      "ja": "カニモドキ",
+                      "ko": "꽃게류",
+                      "nl": "Krabbig",
+                      "pt-BR": "Caranguejinho",
+                      "ru": "Крабло",
+                      "tr": "Yengeçsi",
+                      "zh-CN": "怪螃蟹",
+                      "zh-TW": "怪螃蟹"
+                    },
+                    "namePlain": {
+                      "ar": "حيوان السلطعون",
+                      "de": "Krabbi",
+                      "en": "Crabish",
+                      "es": "Cangrejis",
+                      "fr": "Craboïde",
+                      "fr-CA": "Craboïde",
+                      "it": "Granchiu",
+                      "ja": "カニモドキ",
+                      "ko": "꽃게류",
+                      "nl": "Krabbig",
+                      "pt-BR": "Caranguejinho",
+                      "ru": "Крабло",
+                      "tr": "Yengeçsi",
+                      "zh-CN": "怪螃蟹",
+                      "zh-TW": "怪螃蟹"
+                    },
+                    "seed": null,
+                    "tags": [],
+                    "thumb": "icons/items/64/ANIMAL_CRAB.png",
+                    "usedIn": {
+                      "items": [],
+                      "rituals": [],
+                      "structures": []
+                    }
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Item"
@@ -1596,6 +1861,89 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "category": "NONE",
+                  "crop": null,
+                  "description": {
+                    "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                    "de": "Eine freakige Kreatur für deine Ranch.",
+                    "en": "A freakish creature for you to Ranch.",
+                    "es": "Una extraña criatura que puedes criar.",
+                    "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                    "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                    "it": "Una bizzarra creatura da allevare.",
+                    "ja": "畜舎で飼育できる、少し変わった生き物",
+                    "ko": "목장에서 키우는 희한한 동물입니다.",
+                    "nl": "Een ongewoon dier voor in je veeboerderij.",
+                    "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                    "ru": "Странное животное для разведения.",
+                    "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                    "zh-CN": "牧场的古怪生物。",
+                    "zh-TW": "牧場的怪生物。"
+                  },
+                  "descriptionPlain": {
+                    "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+                    "de": "Eine freakige Kreatur für deine Ranch.",
+                    "en": "A freakish creature for you to Ranch.",
+                    "es": "Una extraña criatura que puedes criar.",
+                    "fr": "Une créature bizarroïde à élever dans votre ranch.",
+                    "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+                    "it": "Una bizzarra creatura da allevare.",
+                    "ja": "畜舎で飼育できる、少し変わった生き物",
+                    "ko": "목장에서 키우는 희한한 동물입니다.",
+                    "nl": "Een ongewoon dier voor in je veeboerderij.",
+                    "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+                    "ru": "Странное животное для разведения.",
+                    "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+                    "zh-CN": "牧场的古怪生物。",
+                    "zh-TW": "牧場的怪生物。"
+                  },
+                  "icon": "icons/items/ANIMAL_COW.png",
+                  "id": "ANIMAL_COW",
+                  "meal": null,
+                  "name": {
+                    "ar": "حيوان البقرة",
+                    "de": "Kuhi",
+                    "en": "Cowish",
+                    "es": "Vaquis",
+                    "fr": "Vachoïde",
+                    "fr-CA": "Vachoïde",
+                    "it": "Muuucca",
+                    "ja": "ウシモドキ",
+                    "ko": "젖소류",
+                    "nl": "Koeiig",
+                    "pt-BR": "Vaquinha",
+                    "ru": "Коровло",
+                    "tr": "İneksi",
+                    "zh-CN": "怪牛",
+                    "zh-TW": "怪牛"
+                  },
+                  "namePlain": {
+                    "ar": "حيوان البقرة",
+                    "de": "Kuhi",
+                    "en": "Cowish",
+                    "es": "Vaquis",
+                    "fr": "Vachoïde",
+                    "fr-CA": "Vachoïde",
+                    "it": "Muuucca",
+                    "ja": "ウシモドキ",
+                    "ko": "젖소류",
+                    "nl": "Koeiig",
+                    "pt-BR": "Vaquinha",
+                    "ru": "Коровло",
+                    "tr": "İneksi",
+                    "zh-CN": "怪牛",
+                    "zh-TW": "怪牛"
+                  },
+                  "seed": null,
+                  "tags": [],
+                  "thumb": "icons/items/64/ANIMAL_COW.png",
+                  "usedIn": {
+                    "items": [],
+                    "rituals": [],
+                    "structures": []
+                  }
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Item"
                 }
@@ -1619,6 +1967,184 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "alternative": "Ritual_DonationRitual",
+                    "cost": [
+                      {
+                        "item": "BLACK_GOLD",
+                        "quantity": 50
+                      }
+                    ],
+                    "description": {
+                      "ar": "يمكنك توزيع <sprite name=\"icon_blackgold\"> على جميع أتباعك لزيادة <color=#FFD201>إخلاصهم.</color> سيمكنك أيضًا اكتساب +10 من العقيدة.",
+                      "de": "Verteile <sprite name=\"icon_blackgold\"> an alle Anhänger, um ihre <color=#FFD201>Loyalität</color> zu erhöhen. Du wirst auch +10 Glauben erhalten.",
+                      "en": "Distribute <sprite name=\"icon_blackgold\"> to all Followers to increase their <color=#FFD201>Loyalty.</color> You will also gain +10 Faith.",
+                      "es": "Reparte <sprite name=\"icon_blackgold\"> entre los adeptos para aumentar su <color=#FFD201>lealtad</color>. También ganarás 10 de fe.",
+                      "fr": "Vous distribuez des <sprite name=\"icon_blackgold\"> à tous vos adeptes pour augmenter leur <color=#FFD201>fidélité</color>. Vous gagnez également +10 de foi.",
+                      "fr-CA": "Vous distribuez des <sprite name=\"icon_blackgold\"> à tous vos adeptes pour augmenter leur <color=#FFD201>fidélité</color>. Vous gagnez également +10 de foi.",
+                      "it": "Distribuisci <sprite name=\"icon_blackgold\"> a tutti i membri del Culto per aumentarne la <color=#FFD201>Fedeltà</color>. +10 Fede.",
+                      "ja": "すべての信者に <sprite name=\"icon_blackgold\"> を配布することで<color=#FFD201>忠誠心</color>を高める。また信仰を10得る",
+                      "ko": "<sprite name=\"icon_blackgold\">를 모든 추종자에게 분배해 이들의 <color=#FFD201>충성심</color>을 상승시킵니다. 당신 또한 신앙을 +10 획득합니다.",
+                      "nl": "Verdeel <sprite name=\"icon_blackgold\"> onder alle volgelingen om hun <color=#FFD201>loyaliteit</color> te verhogen. Je krijgt ook +10 geloof.",
+                      "pt-BR": "Distribua <sprite name=\"icon_blackgold\"> para todos os Seguidores para aumentar a <color=#FFD201>Lealdade</color> deles. Você também ganhará +10 de Fé.",
+                      "ru": "Вы можете раздавать <sprite name=\"icon_blackgold\"> последователям, тем самым повышая их <color=#FFD201>доверие</color>. Вера увеличивается на 10 ед.",
+                      "tr": "Takipçilerine <sprite name=\"icon_blackgold\"> dağıtarak <color=#FFD201>Bağlılıklarını</color> artırırsın. Ayrıca İnanç 10 artar.",
+                      "zh-CN": "将<sprite name=\"icon_blackgold\">分送给所有教徒，提升他们的<color=#FFD201>忠诚度。</color>你也将获得信仰值 +10。",
+                      "zh-TW": "將 <sprite name=\"icon_blackgold\"> 分送給所有教徒，提升他們的<color=#FFD201>忠誠度。</color>你也將獲得信仰值 +10。"
+                    },
+                    "descriptionPlain": {
+                      "ar": "يمكنك توزيع على جميع أتباعك لزيادة إخلاصهم. سيمكنك أيضًا اكتساب +10 من العقيدة.",
+                      "de": "Verteile an alle Anhänger, um ihre Loyalität zu erhöhen. Du wirst auch +10 Glauben erhalten.",
+                      "en": "Distribute to all Followers to increase their Loyalty. You will also gain +10 Faith.",
+                      "es": "Reparte entre los adeptos para aumentar su lealtad. También ganarás 10 de fe.",
+                      "fr": "Vous distribuez des à tous vos adeptes pour augmenter leur fidélité. Vous gagnez également +10 de foi.",
+                      "fr-CA": "Vous distribuez des à tous vos adeptes pour augmenter leur fidélité. Vous gagnez également +10 de foi.",
+                      "it": "Distribuisci a tutti i membri del Culto per aumentarne la Fedeltà. +10 Fede.",
+                      "ja": "すべての信者に を配布することで忠誠心を高める。また信仰を10得る",
+                      "ko": "를 모든 추종자에게 분배해 이들의 충성심을 상승시킵니다. 당신 또한 신앙을 +10 획득합니다.",
+                      "nl": "Verdeel onder alle volgelingen om hun loyaliteit te verhogen. Je krijgt ook +10 geloof.",
+                      "pt-BR": "Distribua para todos os Seguidores para aumentar a Lealdade deles. Você também ganhará +10 de Fé.",
+                      "ru": "Вы можете раздавать последователям, тем самым повышая их доверие. Вера увеличивается на 10 ед.",
+                      "tr": "Takipçilerine dağıtarak Bağlılıklarını artırırsın. Ayrıca İnanç 10 artar.",
+                      "zh-CN": "将分送给所有教徒，提升他们的忠诚度。你也将获得信仰值 +10。",
+                      "zh-TW": "將 分送給所有教徒，提升他們的忠誠度。你也將獲得信仰值 +10。"
+                    },
+                    "doctrine": "Possessions_AlmsToPoorRitual",
+                    "faith": 10.0,
+                    "group": "pair",
+                    "icon": "icons/rituals/Ritual_AlmsToPoor.png",
+                    "id": "Ritual_AlmsToPoor",
+                    "name": {
+                      "ar": "منح الفقراء",
+                      "de": "Almosen für die Armen",
+                      "en": "Alms for the Poor",
+                      "es": "Limosna para los pobres",
+                      "fr": "Rituel de l'aumône",
+                      "fr-CA": "Rituel de l'aumône",
+                      "it": "Rito della carità",
+                      "ja": "貧者への施し",
+                      "ko": "구빈금",
+                      "nl": "Aalmoezen voor de armen",
+                      "pt-BR": "Esmolas para os Pobres",
+                      "ru": "Раздача милостыни",
+                      "tr": "Sadaka",
+                      "zh-CN": "济寒赈贫",
+                      "zh-TW": "濟寒賑貧"
+                    },
+                    "namePlain": {
+                      "ar": "منح الفقراء",
+                      "de": "Almosen für die Armen",
+                      "en": "Alms for the Poor",
+                      "es": "Limosna para los pobres",
+                      "fr": "Rituel de l'aumône",
+                      "fr-CA": "Rituel de l'aumône",
+                      "it": "Rito della carità",
+                      "ja": "貧者への施し",
+                      "ko": "구빈금",
+                      "nl": "Aalmoezen voor de armen",
+                      "pt-BR": "Esmolas para os Pobres",
+                      "ru": "Раздача милостыни",
+                      "tr": "Sadaka",
+                      "zh-CN": "济寒赈贫",
+                      "zh-TW": "濟寒賑貧"
+                    },
+                    "sin": 0,
+                    "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png",
+                    "trait": null,
+                    "warmth": 0.0
+                  },
+                  {
+                    "alternative": null,
+                    "cost": [
+                      {
+                        "item": "BONE",
+                        "quantity": 75
+                      },
+                      {
+                        "item": "FOLLOWERS",
+                        "quantity": 1
+                      }
+                    ],
+                    "description": {
+                      "ar": "يمكنك أداء <color=#FFD201>طقس</color> في مجمعك حيث يكون بوسعك السماح بسمو روح تابع إلى مستوى أعلى من الوجود. يكتسب جميع الأتباع <color=#FFD201>الإخلاص.</color>",
+                      "de": "Führe in deinem Tempel ein <color=#FFD201>Ritual</color> durch, mit dem du den Geist eines Anhängers auf eine höhere Ebene des Seins aufsteigen lassen kannst. Alle Anhänger erhalten <color=#FFD201>Loyalität</color>.",
+                      "en": "Perform a <color=#FFD201>Ritual</color> at your temple in which you can ascend a Followers spirit to a higher plane of existence. All Followers gain <color=#FFD201>Loyalty.</color>",
+                      "es": "Celebra un <color=#FFD201>ritual</color> en tu templo en el que puedes ascender el espíritu de un adepto a un plano superior de la existencia. Todos los adeptos ganan <color=#FFD201>lealtad</color>.",
+                      "fr": "<color=#FFD201>Rituel</color> sacrificiel à effectuer dans le Temple permettant à un adepte d'atteindre l'ascension de son âme. Tous les adeptes gagnent de la <color=#FFD201>fidélité</color>.",
+                      "fr-CA": "<color=#FFD201>Rituel</color> sacrificiel à effectuer dans le Temple permettant à un adepte d'atteindre l'ascension de son âme. Tous les adeptes gagnent de la <color=#FFD201>fidélité</color>.",
+                      "it": "Celebra un <color=#FFD201>rito</color> per far ascendere a un piano di esistenza superiore lo spirito di un membro del Culto, facendo ottenere <color=#FFD201>Fedeltà</color> agli altri membri.",
+                      "ja": "信者の魂を高次の存在へと昇天させる<color=#FFD201>儀式</color>を教会堂で行う。すべての信者が<color=#FFD201>忠誠心</color>を得る",
+                      "ko": "사원에서 <color=#FFD201>의식</color>을 거행해 추종자 하나의 영혼을 보다 높은 차원의 존재로 만들어줍니다. 모든 추종자들은 <color=#FFD201>충성심</color>을 얻습니다.",
+                      "nl": "Voer een <color=#FFD201>ritueel</color> uit in je tempel om de geest van een volgeling naar een hoger bestaansniveau te verheffen. Alle volgelingen worden <color=#FFD201>loyaler</color>.",
+                      "pt-BR": "Realize um <color=#FFD201>Ritual</color> em seu templo no qual você pode ascender o espírito de um seguidor para um plano de existência superior. Todos os seguidores ganharão <color=#FFD201>Lealdade</color>.",
+                      "ru": "Вы можете провести в храме <color=#FFD201>ритуал</color>, чтобы перевести дух своего последователя на другой уровень бытия и повысить <color=#FFD201>доверие</color> остальных.",
+                      "tr": "Tapınağında bir <color=#FFD201>Ayin</color> gerçekleştirerek bir Takipçi'nin daha üstün bir varoluş katına yükselmesini sağlarsın. Tüm Takipçilerin <color=#FFD201>Bağlılık</color>'ı artar.",
+                      "zh-CN": "在你的圣殿举行<color=#FFD201>仪式</color>，让一位教徒的灵魂向更高层次的存在飞升。所有教徒都能获得<color=#FFD201>忠诚度。</color>",
+                      "zh-TW": "在你的聖殿舉行<color=#FFD201>儀式</color>，讓一位教徒的靈魂飛昇到更高層次的存在。所有教徒都能獲得<color=#FFD201>忠誠度。</color>"
+                    },
+                    "descriptionPlain": {
+                      "ar": "يمكنك أداء طقس في مجمعك حيث يكون بوسعك السماح بسمو روح تابع إلى مستوى أعلى من الوجود. يكتسب جميع الأتباع الإخلاص.",
+                      "de": "Führe in deinem Tempel ein Ritual durch, mit dem du den Geist eines Anhängers auf eine höhere Ebene des Seins aufsteigen lassen kannst. Alle Anhänger erhalten Loyalität.",
+                      "en": "Perform a Ritual at your temple in which you can ascend a Followers spirit to a higher plane of existence. All Followers gain Loyalty.",
+                      "es": "Celebra un ritual en tu templo en el que puedes ascender el espíritu de un adepto a un plano superior de la existencia. Todos los adeptos ganan lealtad.",
+                      "fr": "Rituel sacrificiel à effectuer dans le Temple permettant à un adepte d'atteindre l'ascension de son âme. Tous les adeptes gagnent de la fidélité.",
+                      "fr-CA": "Rituel sacrificiel à effectuer dans le Temple permettant à un adepte d'atteindre l'ascension de son âme. Tous les adeptes gagnent de la fidélité.",
+                      "it": "Celebra un rito per far ascendere a un piano di esistenza superiore lo spirito di un membro del Culto, facendo ottenere Fedeltà agli altri membri.",
+                      "ja": "信者の魂を高次の存在へと昇天させる儀式を教会堂で行う。すべての信者が忠誠心を得る",
+                      "ko": "사원에서 의식을 거행해 추종자 하나의 영혼을 보다 높은 차원의 존재로 만들어줍니다. 모든 추종자들은 충성심을 얻습니다.",
+                      "nl": "Voer een ritueel uit in je tempel om de geest van een volgeling naar een hoger bestaansniveau te verheffen. Alle volgelingen worden loyaler.",
+                      "pt-BR": "Realize um Ritual em seu templo no qual você pode ascender o espírito de um seguidor para um plano de existência superior. Todos os seguidores ganharão Lealdade.",
+                      "ru": "Вы можете провести в храме ритуал, чтобы перевести дух своего последователя на другой уровень бытия и повысить доверие остальных.",
+                      "tr": "Tapınağında bir Ayin gerçekleştirerek bir Takipçi'nin daha üstün bir varoluş katına yükselmesini sağlarsın. Tüm Takipçilerin Bağlılık'ı artar.",
+                      "zh-CN": "在你的圣殿举行仪式，让一位教徒的灵魂向更高层次的存在飞升。所有教徒都能获得忠诚度。",
+                      "zh-TW": "在你的聖殿舉行儀式，讓一位教徒的靈魂飛昇到更高層次的存在。所有教徒都能獲得忠誠度。"
+                    },
+                    "doctrine": "LawOrder_AscendFollower",
+                    "faith": 15.0,
+                    "group": "single",
+                    "icon": "icons/rituals/Ritual_Ascend.png",
+                    "id": "Ritual_Ascend",
+                    "name": {
+                      "ar": "طقس سمو تابع",
+                      "de": "Ritual des Anhängeraufstiegs",
+                      "en": "Ascend Follower Ritual",
+                      "es": "Ritual del adepto ascendido",
+                      "fr": "Rituel de l'ascension",
+                      "fr-CA": "Rituel de l'ascension",
+                      "it": "Rito di ascesa",
+                      "ja": "信者昇天の儀式",
+                      "ko": "추종자 승진 의식",
+                      "nl": "Verheffingsritueel",
+                      "pt-BR": "Ritual de Ascensão do Seguidor",
+                      "ru": "Вознесение",
+                      "tr": "Arşa Yükselme Ayini",
+                      "zh-CN": "教徒飞升仪式",
+                      "zh-TW": "教徒飛昇儀式"
+                    },
+                    "namePlain": {
+                      "ar": "طقس سمو تابع",
+                      "de": "Ritual des Anhängeraufstiegs",
+                      "en": "Ascend Follower Ritual",
+                      "es": "Ritual del adepto ascendido",
+                      "fr": "Rituel de l'ascension",
+                      "fr-CA": "Rituel de l'ascension",
+                      "it": "Rito di ascesa",
+                      "ja": "信者昇天の儀式",
+                      "ko": "추종자 승진 의식",
+                      "nl": "Verheffingsritueel",
+                      "pt-BR": "Ritual de Ascensão do Seguidor",
+                      "ru": "Вознесение",
+                      "tr": "Arşa Yükselme Ayini",
+                      "zh-CN": "教徒飞升仪式",
+                      "zh-TW": "教徒飛昇儀式"
+                    },
+                    "sin": 0,
+                    "thumb": "icons/rituals/64/Ritual_Ascend.png",
+                    "trait": null,
+                    "warmth": 0.0
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Ritual"
@@ -1688,6 +2214,92 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "alternative": "Ritual_DonationRitual",
+                  "cost": [
+                    {
+                      "item": "BLACK_GOLD",
+                      "quantity": 50
+                    }
+                  ],
+                  "description": {
+                    "ar": "يمكنك توزيع <sprite name=\"icon_blackgold\"> على جميع أتباعك لزيادة <color=#FFD201>إخلاصهم.</color> سيمكنك أيضًا اكتساب +10 من العقيدة.",
+                    "de": "Verteile <sprite name=\"icon_blackgold\"> an alle Anhänger, um ihre <color=#FFD201>Loyalität</color> zu erhöhen. Du wirst auch +10 Glauben erhalten.",
+                    "en": "Distribute <sprite name=\"icon_blackgold\"> to all Followers to increase their <color=#FFD201>Loyalty.</color> You will also gain +10 Faith.",
+                    "es": "Reparte <sprite name=\"icon_blackgold\"> entre los adeptos para aumentar su <color=#FFD201>lealtad</color>. También ganarás 10 de fe.",
+                    "fr": "Vous distribuez des <sprite name=\"icon_blackgold\"> à tous vos adeptes pour augmenter leur <color=#FFD201>fidélité</color>. Vous gagnez également +10 de foi.",
+                    "fr-CA": "Vous distribuez des <sprite name=\"icon_blackgold\"> à tous vos adeptes pour augmenter leur <color=#FFD201>fidélité</color>. Vous gagnez également +10 de foi.",
+                    "it": "Distribuisci <sprite name=\"icon_blackgold\"> a tutti i membri del Culto per aumentarne la <color=#FFD201>Fedeltà</color>. +10 Fede.",
+                    "ja": "すべての信者に <sprite name=\"icon_blackgold\"> を配布することで<color=#FFD201>忠誠心</color>を高める。また信仰を10得る",
+                    "ko": "<sprite name=\"icon_blackgold\">를 모든 추종자에게 분배해 이들의 <color=#FFD201>충성심</color>을 상승시킵니다. 당신 또한 신앙을 +10 획득합니다.",
+                    "nl": "Verdeel <sprite name=\"icon_blackgold\"> onder alle volgelingen om hun <color=#FFD201>loyaliteit</color> te verhogen. Je krijgt ook +10 geloof.",
+                    "pt-BR": "Distribua <sprite name=\"icon_blackgold\"> para todos os Seguidores para aumentar a <color=#FFD201>Lealdade</color> deles. Você também ganhará +10 de Fé.",
+                    "ru": "Вы можете раздавать <sprite name=\"icon_blackgold\"> последователям, тем самым повышая их <color=#FFD201>доверие</color>. Вера увеличивается на 10 ед.",
+                    "tr": "Takipçilerine <sprite name=\"icon_blackgold\"> dağıtarak <color=#FFD201>Bağlılıklarını</color> artırırsın. Ayrıca İnanç 10 artar.",
+                    "zh-CN": "将<sprite name=\"icon_blackgold\">分送给所有教徒，提升他们的<color=#FFD201>忠诚度。</color>你也将获得信仰值 +10。",
+                    "zh-TW": "將 <sprite name=\"icon_blackgold\"> 分送給所有教徒，提升他們的<color=#FFD201>忠誠度。</color>你也將獲得信仰值 +10。"
+                  },
+                  "descriptionPlain": {
+                    "ar": "يمكنك توزيع على جميع أتباعك لزيادة إخلاصهم. سيمكنك أيضًا اكتساب +10 من العقيدة.",
+                    "de": "Verteile an alle Anhänger, um ihre Loyalität zu erhöhen. Du wirst auch +10 Glauben erhalten.",
+                    "en": "Distribute to all Followers to increase their Loyalty. You will also gain +10 Faith.",
+                    "es": "Reparte entre los adeptos para aumentar su lealtad. También ganarás 10 de fe.",
+                    "fr": "Vous distribuez des à tous vos adeptes pour augmenter leur fidélité. Vous gagnez également +10 de foi.",
+                    "fr-CA": "Vous distribuez des à tous vos adeptes pour augmenter leur fidélité. Vous gagnez également +10 de foi.",
+                    "it": "Distribuisci a tutti i membri del Culto per aumentarne la Fedeltà. +10 Fede.",
+                    "ja": "すべての信者に を配布することで忠誠心を高める。また信仰を10得る",
+                    "ko": "를 모든 추종자에게 분배해 이들의 충성심을 상승시킵니다. 당신 또한 신앙을 +10 획득합니다.",
+                    "nl": "Verdeel onder alle volgelingen om hun loyaliteit te verhogen. Je krijgt ook +10 geloof.",
+                    "pt-BR": "Distribua para todos os Seguidores para aumentar a Lealdade deles. Você também ganhará +10 de Fé.",
+                    "ru": "Вы можете раздавать последователям, тем самым повышая их доверие. Вера увеличивается на 10 ед.",
+                    "tr": "Takipçilerine dağıtarak Bağlılıklarını artırırsın. Ayrıca İnanç 10 artar.",
+                    "zh-CN": "将分送给所有教徒，提升他们的忠诚度。你也将获得信仰值 +10。",
+                    "zh-TW": "將 分送給所有教徒，提升他們的忠誠度。你也將獲得信仰值 +10。"
+                  },
+                  "doctrine": "Possessions_AlmsToPoorRitual",
+                  "faith": 10.0,
+                  "group": "pair",
+                  "icon": "icons/rituals/Ritual_AlmsToPoor.png",
+                  "id": "Ritual_AlmsToPoor",
+                  "name": {
+                    "ar": "منح الفقراء",
+                    "de": "Almosen für die Armen",
+                    "en": "Alms for the Poor",
+                    "es": "Limosna para los pobres",
+                    "fr": "Rituel de l'aumône",
+                    "fr-CA": "Rituel de l'aumône",
+                    "it": "Rito della carità",
+                    "ja": "貧者への施し",
+                    "ko": "구빈금",
+                    "nl": "Aalmoezen voor de armen",
+                    "pt-BR": "Esmolas para os Pobres",
+                    "ru": "Раздача милостыни",
+                    "tr": "Sadaka",
+                    "zh-CN": "济寒赈贫",
+                    "zh-TW": "濟寒賑貧"
+                  },
+                  "namePlain": {
+                    "ar": "منح الفقراء",
+                    "de": "Almosen für die Armen",
+                    "en": "Alms for the Poor",
+                    "es": "Limosna para los pobres",
+                    "fr": "Rituel de l'aumône",
+                    "fr-CA": "Rituel de l'aumône",
+                    "it": "Rito della carità",
+                    "ja": "貧者への施し",
+                    "ko": "구빈금",
+                    "nl": "Aalmoezen voor de armen",
+                    "pt-BR": "Esmolas para os Pobres",
+                    "ru": "Раздача милостыни",
+                    "tr": "Sadaka",
+                    "zh-CN": "济寒赈贫",
+                    "zh-TW": "濟寒賑貧"
+                  },
+                  "sin": 0,
+                  "thumb": "icons/rituals/64/Ritual_AlmsToPoor.png",
+                  "trait": null,
+                  "warmth": 0.0
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Ritual"
                 }
@@ -1711,6 +2323,38 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "hidden": true,
+                    "icon": null,
+                    "id": "Anglerfish",
+                    "name": {
+                      "en": "Anglerfish"
+                    },
+                    "namePlain": {
+                      "en": "Anglerfish"
+                    },
+                    "thumb": null,
+                    "unlock": "DLC"
+                  },
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "hidden": false,
+                    "icon": null,
+                    "id": "Anteater",
+                    "name": {
+                      "en": "Anteater"
+                    },
+                    "namePlain": {
+                      "en": "Anteater"
+                    },
+                    "thumb": null,
+                    "unlock": "DLC"
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Skin"
@@ -1916,6 +2560,21 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "description": {},
+                  "descriptionPlain": {},
+                  "hidden": true,
+                  "icon": null,
+                  "id": "Anglerfish",
+                  "name": {
+                    "en": "Anglerfish"
+                  },
+                  "namePlain": {
+                    "en": "Anglerfish"
+                  },
+                  "thumb": null,
+                  "unlock": "DLC"
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Skin"
                 }
@@ -1939,6 +2598,200 @@
           "200": {
             "content": {
               "application/json": {
+                "example": [
+                  {
+                    "buildable": true,
+                    "category": "FOLLOWERS",
+                    "cost": [
+                      {
+                        "item": "LOG",
+                        "quantity": 5
+                      },
+                      {
+                        "item": "BLACK_GOLD",
+                        "quantity": 10
+                      }
+                    ],
+                    "description": {
+                      "ar": "مكان لينام فيه تابع. غير مستقر للغاية وعادة ما ينهار.",
+                      "de": "Ein Schlafplatz für Anhänger. Sehr instabil, stürzt häufig zusammen.",
+                      "en": "A place for a Follower to sleep. Very unstable, will often collapse.",
+                      "es": "Para que tus adeptos duerman. Muy inestable, se rompe constantemente.",
+                      "fr": "Permet à un adepte de se reposer. Il s'abîmera rapidement.",
+                      "fr-CA": "Permet à un adepte de se reposer. Peu solide, il s'effondre souvent.",
+                      "it": "Un giaciglio per un membro del Culto. Molto instabile, si deteriora spesso.",
+                      "ja": "信者が寝るための寝床。寝心地は悪く、壊れやすい",
+                      "ko": "추종자들이 잠을 자는 곳입니다. 매우 불안정하며 가끔씩 무너집니다.",
+                      "nl": "Een plek waar een volgeling kan slapen. Heel onstabiel. Stort vaak in.",
+                      "pt-BR": "Um lugar para o Seguidor dormir. É muito instável e desaba com frequência.",
+                      "ru": "Место, где последователь может переночевать. Собран наскоро, часто разваливается.",
+                      "tr": "Bir Takipçi'nin uyuyabileceği bir yer. Oldukça dayanıksız, sık sık çöker.",
+                      "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
+                      "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
+                    },
+                    "descriptionPlain": {
+                      "ar": "مكان لينام فيه تابع. غير مستقر للغاية وعادة ما ينهار.",
+                      "de": "Ein Schlafplatz für Anhänger. Sehr instabil, stürzt häufig zusammen.",
+                      "en": "A place for a Follower to sleep. Very unstable, will often collapse.",
+                      "es": "Para que tus adeptos duerman. Muy inestable, se rompe constantemente.",
+                      "fr": "Permet à un adepte de se reposer. Il s'abîmera rapidement.",
+                      "fr-CA": "Permet à un adepte de se reposer. Peu solide, il s'effondre souvent.",
+                      "it": "Un giaciglio per un membro del Culto. Molto instabile, si deteriora spesso.",
+                      "ja": "信者が寝るための寝床。寝心地は悪く、壊れやすい",
+                      "ko": "추종자들이 잠을 자는 곳입니다. 매우 불안정하며 가끔씩 무너집니다.",
+                      "nl": "Een plek waar een volgeling kan slapen. Heel onstabiel. Stort vaak in.",
+                      "pt-BR": "Um lugar para o Seguidor dormir. É muito instável e desaba com frequência.",
+                      "ru": "Место, где последователь может переночевать. Собран наскоро, часто разваливается.",
+                      "tr": "Bir Takipçi'nin uyuyabileceği bir yer. Oldukça dayanıksız, sık sık çöker.",
+                      "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
+                      "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
+                    },
+                    "icon": "icons/structures/BED.png",
+                    "id": "BED",
+                    "menu": "Follower/Misc",
+                    "name": {
+                      "ar": "كيس النوم",
+                      "de": "Schlafsack",
+                      "en": "Sleeping Bag",
+                      "es": "Saco de dormir",
+                      "fr": "Sac de couchage",
+                      "fr-CA": "Sac de couchage",
+                      "it": "Giaciglio",
+                      "ja": "寝袋",
+                      "ko": "침낭",
+                      "nl": "Slaapzak",
+                      "pt-BR": "Saco de Dormir",
+                      "ru": "Спальный мешок",
+                      "tr": "Uyku Tulumu",
+                      "zh-CN": "睡袋",
+                      "zh-TW": "睡袋"
+                    },
+                    "namePlain": {
+                      "ar": "كيس النوم",
+                      "de": "Schlafsack",
+                      "en": "Sleeping Bag",
+                      "es": "Saco de dormir",
+                      "fr": "Sac de couchage",
+                      "fr-CA": "Sac de couchage",
+                      "it": "Giaciglio",
+                      "ja": "寝袋",
+                      "ko": "침낭",
+                      "nl": "Slaapzak",
+                      "pt-BR": "Saco de Dormir",
+                      "ru": "Спальный мешок",
+                      "tr": "Uyku Tulumu",
+                      "zh-CN": "睡袋",
+                      "zh-TW": "睡袋"
+                    },
+                    "size": {
+                      "h": 2,
+                      "w": 2
+                    },
+                    "thumb": "icons/structures/64/BED.png",
+                    "upgradesFrom": null,
+                    "upgradesTo": [
+                      "BED_2"
+                    ]
+                  },
+                  {
+                    "buildable": true,
+                    "category": "FOLLOWERS",
+                    "cost": [
+                      {
+                        "item": "LOG",
+                        "quantity": 5
+                      },
+                      {
+                        "item": "STONE",
+                        "quantity": 3
+                      },
+                      {
+                        "item": "BLACK_GOLD",
+                        "quantity": 10
+                      }
+                    ],
+                    "description": {
+                      "ar": "عليك الترقية إلى مأوى أكثر استقرارًا فاحتمال انهياره أقل.",
+                      "de": "Verbesserter Schlafplatz, der stabiler ist und viel seltener zusammengestürzt.",
+                      "en": "Upgrade to a more stable shelter, which will collapse less often.",
+                      "es": "Un lugar más acogedor donde dormir. No se romperá tan rápido como los sacos.",
+                      "fr": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+                      "fr-CA": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+                      "it": "Un riparo più stabile, che si deteriora meno spesso.",
+                      "ja": "安定感と寝心地が改善した寝床、前よりも壊れにくい",
+                      "ko": "보다 안정적인 주거지로 업그레이드 되었으며, 보다 덜 자주 무너집니다.",
+                      "nl": "Upgrade naar een stabieler onderkomen dat minder vaak instort.",
+                      "pt-BR": "Aprimore para um abrigo mais estável que desabará menos vezes.",
+                      "ru": "Место для ночлега, которое разваливается лишь изредка.",
+                      "tr": "Daha sağlam bir çadır, nispeten daha az çöker.",
+                      "zh-CN": "升级为更稳定的休息处，坍塌频率大幅降低",
+                      "zh-TW": "升級為更穩定的休息處，顛塌頻率大幅降低"
+                    },
+                    "descriptionPlain": {
+                      "ar": "عليك الترقية إلى مأوى أكثر استقرارًا فاحتمال انهياره أقل.",
+                      "de": "Verbesserter Schlafplatz, der stabiler ist und viel seltener zusammengestürzt.",
+                      "en": "Upgrade to a more stable shelter, which will collapse less often.",
+                      "es": "Un lugar más acogedor donde dormir. No se romperá tan rápido como los sacos.",
+                      "fr": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+                      "fr-CA": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+                      "it": "Un riparo più stabile, che si deteriora meno spesso.",
+                      "ja": "安定感と寝心地が改善した寝床、前よりも壊れにくい",
+                      "ko": "보다 안정적인 주거지로 업그레이드 되었으며, 보다 덜 자주 무너집니다.",
+                      "nl": "Upgrade naar een stabieler onderkomen dat minder vaak instort.",
+                      "pt-BR": "Aprimore para um abrigo mais estável que desabará menos vezes.",
+                      "ru": "Место для ночлега, которое разваливается лишь изредка.",
+                      "tr": "Daha sağlam bir çadır, nispeten daha az çöker.",
+                      "zh-CN": "升级为更稳定的休息处，坍塌频率大幅降低",
+                      "zh-TW": "升級為更穩定的休息處，顛塌頻率大幅降低"
+                    },
+                    "icon": "icons/structures/BED_2.png",
+                    "id": "BED_2",
+                    "menu": "Follower/Misc",
+                    "name": {
+                      "ar": "مأوى",
+                      "de": "Unterkunft",
+                      "en": "Shelter",
+                      "es": "Refugio",
+                      "fr": "Abri basique",
+                      "fr-CA": "Abri basique",
+                      "it": "Tenda",
+                      "ja": "テント",
+                      "ko": "주거지",
+                      "nl": "Tipi",
+                      "pt-BR": "Abrigo",
+                      "ru": "Хижина",
+                      "tr": "Çadır",
+                      "zh-CN": "休息处",
+                      "zh-TW": "休息處"
+                    },
+                    "namePlain": {
+                      "ar": "مأوى",
+                      "de": "Unterkunft",
+                      "en": "Shelter",
+                      "es": "Refugio",
+                      "fr": "Abri basique",
+                      "fr-CA": "Abri basique",
+                      "it": "Tenda",
+                      "ja": "テント",
+                      "ko": "주거지",
+                      "nl": "Tipi",
+                      "pt-BR": "Abrigo",
+                      "ru": "Хижина",
+                      "tr": "Çadır",
+                      "zh-CN": "休息处",
+                      "zh-TW": "休息處"
+                    },
+                    "size": {
+                      "h": 2,
+                      "w": 2
+                    },
+                    "thumb": "icons/structures/64/BED_2.png",
+                    "upgradesFrom": "BED",
+                    "upgradesTo": [
+                      "BED_3"
+                    ]
+                  }
+                ],
                 "schema": {
                   "items": {
                     "$ref": "#/components/schemas/Structure"
@@ -2314,6 +3167,100 @@
           "200": {
             "content": {
               "application/json": {
+                "example": {
+                  "buildable": true,
+                  "category": "FOLLOWERS",
+                  "cost": [
+                    {
+                      "item": "LOG",
+                      "quantity": 5
+                    },
+                    {
+                      "item": "BLACK_GOLD",
+                      "quantity": 10
+                    }
+                  ],
+                  "description": {
+                    "ar": "مكان لينام فيه تابع. غير مستقر للغاية وعادة ما ينهار.",
+                    "de": "Ein Schlafplatz für Anhänger. Sehr instabil, stürzt häufig zusammen.",
+                    "en": "A place for a Follower to sleep. Very unstable, will often collapse.",
+                    "es": "Para que tus adeptos duerman. Muy inestable, se rompe constantemente.",
+                    "fr": "Permet à un adepte de se reposer. Il s'abîmera rapidement.",
+                    "fr-CA": "Permet à un adepte de se reposer. Peu solide, il s'effondre souvent.",
+                    "it": "Un giaciglio per un membro del Culto. Molto instabile, si deteriora spesso.",
+                    "ja": "信者が寝るための寝床。寝心地は悪く、壊れやすい",
+                    "ko": "추종자들이 잠을 자는 곳입니다. 매우 불안정하며 가끔씩 무너집니다.",
+                    "nl": "Een plek waar een volgeling kan slapen. Heel onstabiel. Stort vaak in.",
+                    "pt-BR": "Um lugar para o Seguidor dormir. É muito instável e desaba com frequência.",
+                    "ru": "Место, где последователь может переночевать. Собран наскоро, часто разваливается.",
+                    "tr": "Bir Takipçi'nin uyuyabileceği bir yer. Oldukça dayanıksız, sık sık çöker.",
+                    "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
+                    "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
+                  },
+                  "descriptionPlain": {
+                    "ar": "مكان لينام فيه تابع. غير مستقر للغاية وعادة ما ينهار.",
+                    "de": "Ein Schlafplatz für Anhänger. Sehr instabil, stürzt häufig zusammen.",
+                    "en": "A place for a Follower to sleep. Very unstable, will often collapse.",
+                    "es": "Para que tus adeptos duerman. Muy inestable, se rompe constantemente.",
+                    "fr": "Permet à un adepte de se reposer. Il s'abîmera rapidement.",
+                    "fr-CA": "Permet à un adepte de se reposer. Peu solide, il s'effondre souvent.",
+                    "it": "Un giaciglio per un membro del Culto. Molto instabile, si deteriora spesso.",
+                    "ja": "信者が寝るための寝床。寝心地は悪く、壊れやすい",
+                    "ko": "추종자들이 잠을 자는 곳입니다. 매우 불안정하며 가끔씩 무너집니다.",
+                    "nl": "Een plek waar een volgeling kan slapen. Heel onstabiel. Stort vaak in.",
+                    "pt-BR": "Um lugar para o Seguidor dormir. É muito instável e desaba com frequência.",
+                    "ru": "Место, где последователь может переночевать. Собран наскоро, часто разваливается.",
+                    "tr": "Bir Takipçi'nin uyuyabileceği bir yer. Oldukça dayanıksız, sık sık çöker.",
+                    "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
+                    "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
+                  },
+                  "icon": "icons/structures/BED.png",
+                  "id": "BED",
+                  "menu": "Follower/Misc",
+                  "name": {
+                    "ar": "كيس النوم",
+                    "de": "Schlafsack",
+                    "en": "Sleeping Bag",
+                    "es": "Saco de dormir",
+                    "fr": "Sac de couchage",
+                    "fr-CA": "Sac de couchage",
+                    "it": "Giaciglio",
+                    "ja": "寝袋",
+                    "ko": "침낭",
+                    "nl": "Slaapzak",
+                    "pt-BR": "Saco de Dormir",
+                    "ru": "Спальный мешок",
+                    "tr": "Uyku Tulumu",
+                    "zh-CN": "睡袋",
+                    "zh-TW": "睡袋"
+                  },
+                  "namePlain": {
+                    "ar": "كيس النوم",
+                    "de": "Schlafsack",
+                    "en": "Sleeping Bag",
+                    "es": "Saco de dormir",
+                    "fr": "Sac de couchage",
+                    "fr-CA": "Sac de couchage",
+                    "it": "Giaciglio",
+                    "ja": "寝袋",
+                    "ko": "침낭",
+                    "nl": "Slaapzak",
+                    "pt-BR": "Saco de Dormir",
+                    "ru": "Спальный мешок",
+                    "tr": "Uyku Tulumu",
+                    "zh-CN": "睡袋",
+                    "zh-TW": "睡袋"
+                  },
+                  "size": {
+                    "h": 2,
+                    "w": 2
+                  },
+                  "thumb": "icons/structures/64/BED.png",
+                  "upgradesFrom": null,
+                  "upgradesTo": [
+                    "BED_2"
+                  ]
+                },
                 "schema": {
                   "$ref": "#/components/schemas/Structure"
                 }
@@ -2326,6 +3273,194 @@
           }
         },
         "summary": "One structure",
+        "tags": [
+          "structures"
+        ]
+      }
+    },
+    "/v1/{lang}/items.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ar",
+                "de",
+                "en",
+                "es",
+                "fr",
+                "fr-CA",
+                "it",
+                "ja",
+                "ko",
+                "nl",
+                "pt-BR",
+                "ru",
+                "tr",
+                "zh-CN",
+                "zh-TW"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every item: id, name in one language, thumbnail",
+        "tags": [
+          "items"
+        ]
+      }
+    },
+    "/v1/{lang}/rituals.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ar",
+                "de",
+                "en",
+                "es",
+                "fr",
+                "fr-CA",
+                "it",
+                "ja",
+                "ko",
+                "nl",
+                "pt-BR",
+                "ru",
+                "tr",
+                "zh-CN",
+                "zh-TW"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every ritual: id, name in one language, thumbnail",
+        "tags": [
+          "rituals"
+        ]
+      }
+    },
+    "/v1/{lang}/skins.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ar",
+                "de",
+                "en",
+                "es",
+                "fr",
+                "fr-CA",
+                "it",
+                "ja",
+                "ko",
+                "nl",
+                "pt-BR",
+                "ru",
+                "tr",
+                "zh-CN",
+                "zh-TW"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every skin: id, name in one language, thumbnail",
+        "tags": [
+          "skins"
+        ]
+      }
+    },
+    "/v1/{lang}/structures.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "lang",
+            "required": true,
+            "schema": {
+              "enum": [
+                "ar",
+                "de",
+                "en",
+                "es",
+                "fr",
+                "fr-CA",
+                "it",
+                "ja",
+                "ko",
+                "nl",
+                "pt-BR",
+                "ru",
+                "tr",
+                "zh-CN",
+                "zh-TW"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Slim"
+                }
+              }
+            },
+            "description": "OK"
+          }
+        },
+        "summary": "Every structure: id, name in one language, thumbnail",
         "tags": [
           "structures"
         ]

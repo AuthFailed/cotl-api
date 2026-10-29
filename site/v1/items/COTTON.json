@@ -74,6 +74,7 @@
   },
   "seed": "SEED_COTTON",
   "tags": [],
+  "thumb": "icons/items/64/COTTON.png",
   "usedIn": {
     "items": [],
     "rituals": [],

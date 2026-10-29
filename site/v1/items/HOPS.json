@@ -74,6 +74,7 @@
   },
   "seed": "SEED_HOPS",
   "tags": [],
+  "thumb": "icons/items/64/HOPS.png",
   "usedIn": {
     "items": [
       "DRINK_BEER",

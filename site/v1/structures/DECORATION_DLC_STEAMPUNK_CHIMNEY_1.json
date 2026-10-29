@@ -82,6 +82,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_DLC_STEAMPUNK_CHIMNEY_1.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

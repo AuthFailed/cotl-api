@@ -80,6 +80,7 @@
     "zh-TW": "盛宴儀式"
   },
   "sin": 0,
+  "thumb": "icons/rituals/64/Ritual_Feast.png",
   "trait": null,
   "warmth": 0.0
 }

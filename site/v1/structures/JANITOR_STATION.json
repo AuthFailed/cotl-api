@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/JANITOR_STATION.png",
   "upgradesFrom": null,
   "upgradesTo": [
     "JANITOR_STATION_2"

@@ -90,6 +90,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/DECORATION_OLDFAITH_FOUNTAIN.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

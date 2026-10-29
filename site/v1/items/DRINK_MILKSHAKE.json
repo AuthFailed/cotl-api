@@ -216,6 +216,7 @@
   "tags": [
     "drink"
   ],
+  "thumb": "icons/items/64/DRINK_MILKSHAKE.png",
   "usedIn": {
     "items": [],
     "rituals": [],

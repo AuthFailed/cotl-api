@@ -90,6 +90,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/PROPAGANDA_SPEAKER.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

@@ -76,6 +76,7 @@
   "tags": [
     "food"
   ],
+  "thumb": "icons/items/64/SNOW_FRUIT.png",
   "usedIn": {
     "items": [
       "DRINK_MILKSHAKE",

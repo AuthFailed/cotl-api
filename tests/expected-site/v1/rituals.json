@@ -18,6 +18,7 @@
       "ru": "Пост"
     },
     "sin": 0,
+    "thumb": null,
     "trait": null,
     "warmth": 0.0
   },
@@ -51,6 +52,7 @@
       "ru": "Пир"
     },
     "sin": 0,
+    "thumb": "icons/rituals/64/Ritual_Feast.png",
     "trait": null,
     "warmth": 0.0
   }

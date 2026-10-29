@@ -140,6 +140,7 @@
   "tags": [
     "drink"
   ],
+  "thumb": "icons/items/64/DRINK_COCKTAIL.png",
   "usedIn": {
     "items": [],
     "rituals": [],

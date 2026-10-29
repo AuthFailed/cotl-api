@@ -11,6 +11,7 @@
     "namePlain": {
       "en": "Anglerfish"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -25,6 +26,7 @@
     "namePlain": {
       "en": "Anteater"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -39,6 +41,7 @@
     "namePlain": {
       "en": "Armadillo"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -53,6 +56,7 @@
     "namePlain": {
       "en": "Axolotl"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -67,6 +71,7 @@
     "namePlain": {
       "en": "Badger"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -81,6 +86,7 @@
     "namePlain": {
       "en": "Bat"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -95,6 +101,7 @@
     "namePlain": {
       "en": "BatDemon"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -109,6 +116,7 @@
     "namePlain": {
       "en": "Bear"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -123,6 +131,7 @@
     "namePlain": {
       "en": "Apple_4"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -137,6 +146,7 @@
     "namePlain": {
       "en": "Bee"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -151,6 +161,7 @@
     "namePlain": {
       "en": "Beetle"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -165,6 +176,7 @@
     "namePlain": {
       "en": "Beluga"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -179,6 +191,7 @@
     "namePlain": {
       "en": "Bison"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -193,6 +206,7 @@
     "namePlain": {
       "en": "Boss Beholder 1"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -207,6 +221,7 @@
     "namePlain": {
       "en": "Boss Beholder 2"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -221,6 +236,7 @@
     "namePlain": {
       "en": "Boss Beholder 3"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -235,6 +251,7 @@
     "namePlain": {
       "en": "Boss Beholder 4"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -249,6 +266,7 @@
     "namePlain": {
       "en": "Beholder 5"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -263,6 +281,7 @@
     "namePlain": {
       "en": "Beholder 6"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -277,6 +296,7 @@
     "namePlain": {
       "en": "Boss Burrow Worm"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -291,6 +311,7 @@
     "namePlain": {
       "en": "Boss Charger"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -305,6 +326,7 @@
     "namePlain": {
       "en": "Boss Dog 1"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -319,6 +341,7 @@
     "namePlain": {
       "en": "Boss Dog 2"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -333,6 +356,7 @@
     "namePlain": {
       "en": "Boss Dog 3"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -347,6 +371,7 @@
     "namePlain": {
       "en": "Boss Dog 4"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -361,6 +386,7 @@
     "namePlain": {
       "en": "Boss Dog 5"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -375,6 +401,7 @@
     "namePlain": {
       "en": "Boss Dog 6"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -389,6 +416,7 @@
     "namePlain": {
       "en": "Boss Egg Hopper"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -403,6 +431,7 @@
     "namePlain": {
       "en": "Boss Flying Burp Frog"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -417,6 +446,7 @@
     "namePlain": {
       "en": "Boss Mama Maggot"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -431,6 +461,7 @@
     "namePlain": {
       "en": "Boss Mama Worm"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -445,6 +476,7 @@
     "namePlain": {
       "en": "Boss Millipede Poisoner"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -459,6 +491,7 @@
     "namePlain": {
       "en": "Boss Mortar Hopper"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -473,6 +506,7 @@
     "namePlain": {
       "en": "Boss Rot 1"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -487,6 +521,7 @@
     "namePlain": {
       "en": "Boss Rot 2"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -501,6 +536,7 @@
     "namePlain": {
       "en": "Boss Rot 3"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -515,6 +551,7 @@
     "namePlain": {
       "en": "Boss Rot 4"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -529,6 +566,7 @@
     "namePlain": {
       "en": "Boss Scorpion"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -543,6 +581,7 @@
     "namePlain": {
       "en": "Boss Scuttle Turret"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -557,6 +596,7 @@
     "namePlain": {
       "en": "Boss Spider Jump"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -571,6 +611,7 @@
     "namePlain": {
       "en": "Boss Spiker"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -585,6 +626,7 @@
     "namePlain": {
       "en": "Bug"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -599,6 +641,7 @@
     "namePlain": {
       "en": "BugFive"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -613,6 +656,7 @@
     "namePlain": {
       "en": "BugFour"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -627,6 +671,7 @@
     "namePlain": {
       "en": "BugThree"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -641,6 +686,7 @@
     "namePlain": {
       "en": "BugTwo"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -655,6 +701,7 @@
     "namePlain": {
       "en": "Butterfly"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -669,6 +716,7 @@
     "namePlain": {
       "en": "Camel"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -683,6 +731,7 @@
     "namePlain": {
       "en": "Capybara"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -697,6 +746,7 @@
     "namePlain": {
       "en": "Cat"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -711,6 +761,7 @@
     "namePlain": {
       "en": "Caterpillar"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -725,6 +776,7 @@
     "namePlain": {
       "en": "Chameleon"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -739,6 +791,7 @@
     "namePlain": {
       "en": "Chicken"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -753,6 +806,7 @@
     "namePlain": {
       "en": "ChosenChild"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -767,6 +821,7 @@
     "namePlain": {
       "en": "Cow"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -781,6 +836,7 @@
     "namePlain": {
       "en": "Crab"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -795,6 +851,7 @@
     "namePlain": {
       "en": "Crocodile"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -809,6 +866,7 @@
     "namePlain": {
       "en": "Crow"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -823,6 +881,7 @@
     "namePlain": {
       "en": "Cthulhu"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -837,6 +896,7 @@
     "namePlain": {
       "en": "Deer"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -851,6 +911,7 @@
     "namePlain": {
       "en": "DeerSkull"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -865,6 +926,7 @@
     "namePlain": {
       "en": "DeerRitual"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -879,6 +941,7 @@
     "namePlain": {
       "en": "Dog"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -893,6 +956,7 @@
     "namePlain": {
       "en": "DogTeddy"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -907,6 +971,7 @@
     "namePlain": {
       "en": "Dragon"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -921,6 +986,7 @@
     "namePlain": {
       "en": "DragonFive"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -935,6 +1001,7 @@
     "namePlain": {
       "en": "DragonFour"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -949,6 +1016,7 @@
     "namePlain": {
       "en": "DragonThree"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -963,6 +1031,7 @@
     "namePlain": {
       "en": "DragonTwo"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -977,6 +1046,7 @@
     "namePlain": {
       "en": "Duck"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -991,6 +1061,7 @@
     "namePlain": {
       "en": "Eagle"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -1005,6 +1076,7 @@
     "namePlain": {
       "en": "Elephant"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -1019,6 +1091,7 @@
     "namePlain": {
       "en": "Enchida"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1033,6 +1106,7 @@
     "namePlain": {
       "en": "Fennec Fox"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -1047,6 +1121,7 @@
     "namePlain": {
       "en": "Fish"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1061,6 +1136,7 @@
     "namePlain": {
       "en": "Fly"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1075,6 +1151,7 @@
     "namePlain": {
       "en": "Fox"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1089,6 +1166,7 @@
     "namePlain": {
       "en": "Frog"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -1103,6 +1181,7 @@
     "namePlain": {
       "en": "Giraffe"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -1117,6 +1196,7 @@
     "namePlain": {
       "en": "Goldfish"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1131,6 +1211,7 @@
     "namePlain": {
       "en": "Gorilla"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1145,6 +1226,7 @@
     "namePlain": {
       "en": "Hammerhead"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1159,6 +1241,7 @@
     "namePlain": {
       "en": "Hedgehog"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -1173,6 +1256,7 @@
     "namePlain": {
       "en": "Hippo"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -1187,6 +1271,7 @@
     "namePlain": {
       "en": "Horse"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -1201,6 +1286,7 @@
     "namePlain": {
       "en": "Hyena"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1215,6 +1301,7 @@
     "namePlain": {
       "en": "Ibex"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1229,6 +1316,7 @@
     "namePlain": {
       "en": "IceGore"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -1243,6 +1331,7 @@
     "namePlain": {
       "en": "Jackalope"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1257,6 +1346,7 @@
     "namePlain": {
       "en": "JellyFish"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1271,6 +1361,7 @@
     "namePlain": {
       "en": "Kiwi"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1285,6 +1376,7 @@
     "namePlain": {
       "en": "Koala"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1299,6 +1391,7 @@
     "namePlain": {
       "en": "LadyBug"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1313,6 +1406,7 @@
     "namePlain": {
       "en": "Lamb"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1327,6 +1421,7 @@
     "namePlain": {
       "en": "Leech"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1341,6 +1436,7 @@
     "namePlain": {
       "en": "Lemur"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1355,6 +1451,7 @@
     "namePlain": {
       "en": "Leopard"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1369,6 +1466,7 @@
     "namePlain": {
       "en": "Lion"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1383,6 +1481,7 @@
     "namePlain": {
       "en": "Lizard"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1397,6 +1496,7 @@
     "namePlain": {
       "en": "LizardTongue"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1411,6 +1511,7 @@
     "namePlain": {
       "en": "Llama"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1425,6 +1526,7 @@
     "namePlain": {
       "en": "Apple_5"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1439,6 +1541,7 @@
     "namePlain": {
       "en": "Maggot"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1453,6 +1556,7 @@
     "namePlain": {
       "en": "Mammoth"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1467,6 +1571,7 @@
     "namePlain": {
       "en": "Massive Monster"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1481,6 +1586,7 @@
     "namePlain": {
       "en": "Mole"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -1495,6 +1601,7 @@
     "namePlain": {
       "en": "Monkey"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1509,6 +1616,7 @@
     "namePlain": {
       "en": "Moose"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1523,6 +1631,7 @@
     "namePlain": {
       "en": "Mosquito"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1537,6 +1646,7 @@
     "namePlain": {
       "en": "Moth"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1551,6 +1661,7 @@
     "namePlain": {
       "en": "Mushroom"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1565,6 +1676,7 @@
     "namePlain": {
       "en": "MoleRat"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -1579,6 +1691,7 @@
     "namePlain": {
       "en": "Narwal"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1593,6 +1706,7 @@
     "namePlain": {
       "en": "Night Wolf"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1607,6 +1721,7 @@
     "namePlain": {
       "en": "Apple_1"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1621,6 +1736,7 @@
     "namePlain": {
       "en": "Orca"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -1635,6 +1751,7 @@
     "namePlain": {
       "en": "Otter"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -1649,6 +1766,7 @@
     "namePlain": {
       "en": "Owl"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1663,6 +1781,7 @@
     "namePlain": {
       "en": "PalworldFive"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1677,6 +1796,7 @@
     "namePlain": {
       "en": "PalworldFour"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1691,6 +1811,7 @@
     "namePlain": {
       "en": "PalworldOne"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1705,6 +1826,7 @@
     "namePlain": {
       "en": "PalworldThree"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1719,6 +1841,7 @@
     "namePlain": {
       "en": "PalworldTwo"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1733,6 +1856,7 @@
     "namePlain": {
       "en": "Panda"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1747,6 +1871,7 @@
     "namePlain": {
       "en": "Pangolin"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1761,6 +1886,7 @@
     "namePlain": {
       "en": "Pelican"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1775,6 +1901,7 @@
     "namePlain": {
       "en": "Penguin"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1789,6 +1916,7 @@
     "namePlain": {
       "en": "Pig"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1803,6 +1931,7 @@
     "namePlain": {
       "en": "Polar Bear"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1817,6 +1946,7 @@
     "namePlain": {
       "en": "Poop"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1831,6 +1961,7 @@
     "namePlain": {
       "en": "Poppy"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -1845,6 +1976,7 @@
     "namePlain": {
       "en": "Possum"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1859,6 +1991,7 @@
     "namePlain": {
       "en": "Pudding"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1873,6 +2006,7 @@
     "namePlain": {
       "en": "Rabbit"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -1887,6 +2021,7 @@
     "namePlain": {
       "en": "Racoon"
     },
+    "thumb": null,
     "unlock": "Dungeon4"
   },
   {
@@ -1901,6 +2036,7 @@
     "namePlain": {
       "en": "Red Panda"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1915,6 +2051,7 @@
     "namePlain": {
       "en": "Reindeer"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -1929,6 +2066,7 @@
     "namePlain": {
       "en": "Rhino"
     },
+    "thumb": null,
     "unlock": "Dungeon2"
   },
   {
@@ -1943,6 +2081,7 @@
     "namePlain": {
       "en": "Apple_2"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1957,6 +2096,7 @@
     "namePlain": {
       "en": "SeaButterfly"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -1971,6 +2111,7 @@
     "namePlain": {
       "en": "Seahorse"
     },
+    "thumb": null,
     "unlock": "Dungeon3"
   },
   {
@@ -1985,6 +2126,7 @@
     "namePlain": {
       "en": "Seal"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -1999,6 +2141,7 @@
     "namePlain": {
       "en": "Shrew"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2013,6 +2156,7 @@
     "namePlain": {
       "en": "Shrimp"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2027,6 +2171,7 @@
     "namePlain": {
       "en": "Skunk"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2041,6 +2186,7 @@
     "namePlain": {
       "en": "Snail"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2055,6 +2201,7 @@
     "namePlain": {
       "en": "Snake"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2069,6 +2216,7 @@
     "namePlain": {
       "en": "SnowMonkey"
     },
+    "thumb": null,
     "unlock": "Dungeon5"
   },
   {
@@ -2083,6 +2231,7 @@
     "namePlain": {
       "en": "Sphynx"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2097,6 +2246,7 @@
     "namePlain": {
       "en": "Squirrel"
     },
+    "thumb": null,
     "unlock": "Dungeon1"
   },
   {
@@ -2111,6 +2261,7 @@
     "namePlain": {
       "en": "StarBunny"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -2125,6 +2276,7 @@
     "namePlain": {
       "en": "Starfish"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2139,6 +2291,7 @@
     "namePlain": {
       "en": "Tapir"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2153,6 +2306,7 @@
     "namePlain": {
       "en": "Tiger"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2167,6 +2321,7 @@
     "namePlain": {
       "en": "Apple_3"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2181,6 +2336,7 @@
     "namePlain": {
       "en": "Turtle"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2195,6 +2351,7 @@
     "namePlain": {
       "en": "TwitchCat"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2209,6 +2366,7 @@
     "namePlain": {
       "en": "TwitchDog"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2223,6 +2381,7 @@
     "namePlain": {
       "en": "TwitchDogAlt"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2237,6 +2396,7 @@
     "namePlain": {
       "en": "TwitchMouse"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2251,6 +2411,7 @@
     "namePlain": {
       "en": "TwitchPoggers"
     },
+    "thumb": null,
     "unlock": "DLC"
   },
   {
@@ -2265,6 +2426,7 @@
     "namePlain": {
       "en": "Unicorn"
     },
+    "thumb": null,
     "unlock": "Other"
   },
   {
@@ -2279,6 +2441,7 @@
     "namePlain": {
       "en": "Volvy"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -2293,6 +2456,7 @@
     "namePlain": {
       "en": "Vulture"
     },
+    "thumb": null,
     "unlock": "Dungeon6"
   },
   {
@@ -2307,6 +2471,7 @@
     "namePlain": {
       "en": "Webber"
     },
+    "thumb": null,
     "unlock": "SpecialEvents"
   },
   {
@@ -2321,6 +2486,7 @@
     "namePlain": {
       "en": "Wombat"
     },
+    "thumb": null,
     "unlock": "Major_DLC"
   },
   {
@@ -2335,6 +2501,7 @@
     "namePlain": {
       "en": "Worm"
     },
+    "thumb": null,
     "unlock": "Other"
   }
 ]

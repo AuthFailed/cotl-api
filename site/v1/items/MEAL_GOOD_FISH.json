@@ -170,6 +170,7 @@
   "tags": [
     "meal"
   ],
+  "thumb": "icons/items/64/MEAL_GOOD_FISH.png",
   "usedIn": {
     "items": [],
     "rituals": [],

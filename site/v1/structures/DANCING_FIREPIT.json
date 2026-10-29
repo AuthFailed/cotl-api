@@ -86,6 +86,7 @@
     "h": 5,
     "w": 5
   },
+  "thumb": null,
   "upgradesFrom": null,
   "upgradesTo": []
 }

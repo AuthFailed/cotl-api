@@ -77,6 +77,7 @@
     "h": 1,
     "w": 1
   },
+  "thumb": "icons/structures/64/DECORATION_DLC_WOOLHAVEN_FLOOR.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }

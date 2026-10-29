@@ -86,6 +86,7 @@
     "h": 2,
     "w": 2
   },
+  "thumb": "icons/structures/64/DECORATION_DLC_WOLF_DIORAMA.png",
   "upgradesFrom": null,
   "upgradesTo": []
 }
