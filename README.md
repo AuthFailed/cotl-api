@@ -27,8 +27,9 @@ the game's text markup), and `icon` (a path relative to `v1/`, or null).
 - **item**: `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`)
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
   `upgradesFrom` (structure id or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
-  place it from the build menu), `buildable` (in the game's list of buildable structures), `category` (`FOOD`,
-  `FAITH`, … for buildable ones, else null)
+  place it from the build menu), `menu` (build menu tab and section, e.g. `Follower/Food`,
+  `Faith/Sin`, `Aesthetic/Path`, or null), `buildable` (in the build menu), `category` (the game's structure
+  category, `FOOD`, `FAITH`, …, for buildable ones, else null)
 - **skin**: `unlock` (where the game drops it: `Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`,
   `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game,
   and no icons yet.

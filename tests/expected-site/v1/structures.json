@@ -12,6 +12,7 @@
     "descriptionPlain": {},
     "icon": "icons/structures/FARM_PLOT.png",
     "id": "FARM_PLOT",
+    "menu": "Follower/Food",
     "name": {
       "en": "Farm Plot",
       "ru": "Грядка"
@@ -49,6 +50,7 @@
     },
     "icon": "icons/structures/SHRINE_II.png",
     "id": "SHRINE_II",
+    "menu": "Faith/General",
     "name": {
       "en": "Shrine II",
       "ru": "Святилище II"

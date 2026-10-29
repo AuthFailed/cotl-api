@@ -245,7 +245,7 @@
       "Structure": {
         "properties": {
           "buildable": {
-            "description": "in the game's list of structures the player can build",
+            "description": "appears in the build menu",
             "type": "boolean"
           },
           "category": {
@@ -298,6 +298,13 @@
           "id": {
             "pattern": "^[A-Za-z0-9_-]+$",
             "type": "string"
+          },
+          "menu": {
+            "description": "build menu tab and section, e.g. Follower/Food, Faith/Sin, Aesthetic/Path; null if not in the build menu",
+            "type": [
+              "string",
+              "null"
+            ]
           },
           "name": {
             "additionalProperties": {

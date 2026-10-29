@@ -11,6 +11,7 @@
   "descriptionPlain": {},
   "icon": "icons/structures/FARM_PLOT.png",
   "id": "FARM_PLOT",
+  "menu": "Follower/Food",
   "name": {
     "en": "Farm Plot",
     "ru": "Грядка"

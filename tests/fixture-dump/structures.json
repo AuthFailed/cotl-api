@@ -15,7 +15,8 @@
       "h": 1
     },
     "buildable": true,
-    "category": "FOOD"
+    "category": "FOOD",
+    "menu": "Follower/Food"
   },
   {
     "id": "SHRINE_II",
@@ -37,6 +38,7 @@
       "h": 3
     },
     "buildable": true,
-    "category": "FAITH"
+    "category": "FAITH",
+    "menu": "Faith/General"
   }
 ]

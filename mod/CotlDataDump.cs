@@ -143,8 +143,28 @@ public class CotlDataDump : BaseUnityPlugin
         Logger.LogInfo($"items: {items.Count}");
     }
 
+    // The build menu's tabs and sections, as its own category classes list them (StructuresData.AllStructures misses some).
+    static Dictionary<StructureBrain.TYPES, string> BuildMenu()
+    {
+        var sections = new List<(string, IEnumerable<StructureBrain.TYPES>)>();
+        foreach (Lamb.UI.BuildMenu.FollowerCategory.Category c in Enum.GetValues(typeof(Lamb.UI.BuildMenu.FollowerCategory.Category)))
+            sections.Add(($"Follower/{c}", Lamb.UI.BuildMenu.FollowerCategory.GetStructuresForCategory(c)));
+        sections.Add(("Faith/General", Lamb.UI.BuildMenu.FaithCategory.AllStructures()));
+        sections.Add(("Faith/Sin", Lamb.UI.BuildMenu.FaithCategory.SinStructures()));
+        foreach (Lamb.UI.BuildMenu.MajorDLCCategory.Category c in Enum.GetValues(typeof(Lamb.UI.BuildMenu.MajorDLCCategory.Category)))
+            sections.Add(($"MajorDLC/{c}", Lamb.UI.BuildMenu.MajorDLCCategory.GetStructuresForCategory(c)));
+        foreach (DataManager.DecorationType d in Enum.GetValues(typeof(DataManager.DecorationType)))
+            sections.Add(($"Aesthetic/{d}", DataManager.DecorationsForType(d)));
+        var menu = new Dictionary<StructureBrain.TYPES, string>();
+        foreach (var (name, types) in sections)
+            foreach (var t in types ?? Enumerable.Empty<StructureBrain.TYPES>())
+                if (!menu.ContainsKey(t)) menu[t] = name;
+        return menu;
+    }
+
     void ReadStructures()
     {
+        var menu = BuildMenu();
         structures = Named<StructureBrain.TYPES>("Structures").Select(t =>
         {
             StructuresData info = null;
@@ -154,9 +174,10 @@ public class CotlDataDump : BaseUnityPlugin
                 ["cost"] = StructuresData.GetCost(t).Select(c => new Dictionary<string, object> { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
                 ["upgradesFrom"] = info != null && info.IsUpgrade ? info.UpgradeFromType.ToString() : null,
                 ["size"] = null,
+                ["menu"] = menu.TryGetValue(t, out var m) ? m : null,
+                ["buildable"] = menu.ContainsKey(t),
                 // GetCategory falls back to TECH for anything it doesn't list, so only buildable types get one.
-                ["buildable"] = StructuresData.AllStructures.Contains(t),
-                ["category"] = StructuresData.AllStructures.Contains(t) ? StructuresData.GetCategory(t).ToString() : null,
+                ["category"] = menu.ContainsKey(t) ? StructuresData.GetCategory(t).ToString() : null,
             };
         }).ToList();
         Logger.LogInfo($"structures: {structures.Count}");
