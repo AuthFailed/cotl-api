@@ -7,9 +7,14 @@
       }
     ],
     "description": {},
+    "descriptionPlain": {},
     "icon": "icons/structures/FARM_PLOT.png",
     "id": "FARM_PLOT",
     "name": {
+      "en": "Farm Plot",
+      "ru": "Грядка"
+    },
+    "namePlain": {
       "en": "Farm Plot",
       "ru": "Грядка"
     },
@@ -34,9 +39,17 @@
       "en": "Gathers more devotion.",
       "ru": "Собирает больше веры."
     },
+    "descriptionPlain": {
+      "en": "Gathers more devotion.",
+      "ru": "Собирает больше веры."
+    },
     "icon": "icons/structures/SHRINE_II.png",
     "id": "SHRINE_II",
     "name": {
+      "en": "Shrine II",
+      "ru": "Святилище II"
+    },
+    "namePlain": {
       "en": "Shrine II",
       "ru": "Святилище II"
     },

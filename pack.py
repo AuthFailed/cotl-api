@@ -25,7 +25,25 @@ def texts(i18n: dict, term) -> dict:
     return {lang: text for lang, text in i18n.get(term, {}).items() if text and LANGUAGE.match(lang)} if term else {}
 
 
-SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin"}
+def plain(text: str) -> str:
+    """The game's text without its TextMeshPro markup: <color>, <sprite>, <br>, and any other tag (one text
+    closes a <color> with </cult>)."""
+    text = re.sub(r"<br\s*/?>", "\n", text)
+    text = re.sub(r"<[^>]*>", "", text)
+    text = re.sub(r"[ \t]{2,}", " ", text)
+    return re.sub(r"[ \t]+([.,!?;:])", r"\1", "\n".join(line.strip() for line in text.split("\n"))).strip()
+
+
+def changed(old: dict, new: dict) -> bool:
+    # Only fields both versions have: a field the API adds is not a change in the game.
+    return any(old[k] != new[k] for k in old.keys() & new.keys())
+
+
+def tree(root: Path) -> dict:
+    return {p.relative_to(root).as_posix(): p.read_bytes() for p in root.rglob("*") if p.is_file()} if root.exists() else {}
+
+
+SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "changes": "Changes"}
 
 
 def openapi(index: dict, ids: dict, icons: dict) -> dict:
@@ -49,6 +67,7 @@ def openapi(index: dict, ids: dict, icons: dict) -> dict:
         return {"application/json": {"schema": {"type": "array", "items": s} if many else s}}
 
     paths = {"/v1/index.json": get("index", "Game version, capture date, languages and counts", ref("Index"))}
+    paths["/v1/changes.json"] = get("index", "What each game version added, removed or changed, newest first", ref("Changes"))
     for kind in KINDS:
         name = SCHEMAS[kind[:-1]]
         paths[f"/v1/{kind}.json"] = get(kind, f"Every {kind[:-1]}", ref(name, many=True))
@@ -86,6 +105,8 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
             e = {k: v for k, v in raw.items() if k not in ("nameTerm", "descTerm")}
             e["name"] = texts(dump["i18n"], raw.get("nameTerm"))
             e["description"] = texts(dump["i18n"], raw.get("descTerm"))
+            e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}
+            e["descriptionPlain"] = {lang: plain(t) for lang, t in e["description"].items()}
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"
             e["icon"] = None
             if icon.exists():
@@ -104,8 +125,27 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
         "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.match(lang)}),
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }
-    write_json(tmp / "index.json", index)
+    old_dir = site_dir / "v1"
+    old_index = read_json(old_dir / "index.json")
+    changes = read_json(old_dir / "changes.json") or []
+    if old_index:
+        diff = {"added": {}, "removed": {}, "changed": {}}
+        for kind in KINDS:
+            old_ids = {e["id"] for e in read_json(old_dir / f"{kind}.json") or []}
+            new_ids = set(ids[kind])
+            diff["added"][kind] = sorted(new_ids - old_ids)
+            diff["removed"][kind] = sorted(old_ids - new_ids)
+            diff["changed"][kind] = sorted(i for i in new_ids & old_ids if
+                                           changed(read_json(old_dir / kind / f"{i}.json"), read_json(tmp / kind / f"{i}.json")))
+        if any(v for d in diff.values() for v in d.values()):
+            changes = [{"gameVersion": index["gameVersion"], "capturedAt": index["capturedAt"], **diff}] + changes
+    write_json(tmp / "changes.json", changes)
     shutil.copytree(Path(__file__).parent / "schema", tmp / "schema")
+    # Recapturing the same game shouldn't change the site: keep the old capture time if nothing else moved.
+    if old_index and old_index.get("gameVersion") == index["gameVersion"] and \
+            {k: v for k, v in tree(old_dir).items() if k != "index.json"} == tree(tmp):
+        index["capturedAt"] = old_index["capturedAt"]
+    write_json(tmp / "index.json", index)
     # Swap in whole so ids the game dropped don't linger as stale files.
     shutil.rmtree(site_dir / "v1", ignore_errors=True)
     tmp.rename(site_dir / "v1")

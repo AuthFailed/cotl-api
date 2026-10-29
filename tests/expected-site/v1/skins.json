@@ -1,20 +1,28 @@
 [
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Cat",
     "name": {
       "en": "Cat"
     },
+    "namePlain": {
+      "en": "Cat"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Deer",
     "name": {
+      "en": "Deer"
+    },
+    "namePlain": {
       "en": "Deer"
     },
     "unlock": "Dungeon1"

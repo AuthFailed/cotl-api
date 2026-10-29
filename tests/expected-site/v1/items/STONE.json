@@ -1,9 +1,20 @@
 {
   "category": "Resource",
-  "description": {},
+  "description": {
+    "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
+    "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
+  },
+  "descriptionPlain": {
+    "en": "Hard rock.\nHeavy.",
+    "ru": "Твёрдый камень."
+  },
   "icon": "icons/items/STONE.png",
   "id": "STONE",
   "name": {
+    "en": "Stone",
+    "ru": "Камень"
+  },
+  "namePlain": {
     "en": "Stone",
     "ru": "Камень"
   }

@@ -1,9 +1,13 @@
 {
   "category": "Food",
   "description": {},
+  "descriptionPlain": {},
   "icon": null,
   "id": "BERRY",
   "name": {
+    "en": "Berries"
+  },
+  "namePlain": {
     "en": "Berries"
   }
 }

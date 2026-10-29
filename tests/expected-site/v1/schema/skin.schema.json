@@ -8,7 +8,9 @@
     "description",
     "icon",
     "unlock",
-    "hidden"
+    "hidden",
+    "namePlain",
+    "descriptionPlain"
   ],
   "properties": {
     "id": {
@@ -47,6 +49,20 @@
     },
     "hidden": {
       "type": "boolean"
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
     }
   }
 }

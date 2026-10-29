@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Changes",
+  "description": "Newest first: what each new game version added, removed or changed.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "gameVersion",
+      "capturedAt",
+      "added",
+      "removed",
+      "changed"
+    ],
+    "properties": {
+      "gameVersion": {
+        "type": "string"
+      },
+      "capturedAt": {
+        "type": "string"
+      },
+      "added": {
+        "type": "object",
+        "required": [
+          "items",
+          "structures",
+          "skins"
+        ],
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "removed": {
+        "type": "object",
+        "required": [
+          "items",
+          "structures",
+          "skins"
+        ],
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "changed": {
+        "type": "object",
+        "required": [
+          "items",
+          "structures",
+          "skins"
+        ],
+        "additionalProperties": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

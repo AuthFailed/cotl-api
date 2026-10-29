@@ -4,9 +4,17 @@
     "en": "Wood for building.",
     "ru": "Дерево для стройки."
   },
+  "descriptionPlain": {
+    "en": "Wood for building.",
+    "ru": "Дерево для стройки."
+  },
   "icon": "icons/items/LOG.png",
   "id": "LOG",
   "name": {
+    "en": "Logs",
+    "ru": "Брёвна"
+  },
+  "namePlain": {
     "en": "Logs",
     "ru": "Брёвна"
   }

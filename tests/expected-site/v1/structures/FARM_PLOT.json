@@ -6,9 +6,14 @@
     }
   ],
   "description": {},
+  "descriptionPlain": {},
   "icon": "icons/structures/FARM_PLOT.png",
   "id": "FARM_PLOT",
   "name": {
+    "en": "Farm Plot",
+    "ru": "Грядка"
+  },
+  "namePlain": {
     "en": "Farm Plot",
     "ru": "Грядка"
   },

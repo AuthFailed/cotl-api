@@ -2,9 +2,13 @@
   {
     "category": "Food",
     "description": {},
+    "descriptionPlain": {},
     "icon": null,
     "id": "BERRY",
     "name": {
+      "en": "Berries"
+    },
+    "namePlain": {
       "en": "Berries"
     }
   },
@@ -14,19 +18,38 @@
       "en": "Wood for building.",
       "ru": "Дерево для стройки."
     },
+    "descriptionPlain": {
+      "en": "Wood for building.",
+      "ru": "Дерево для стройки."
+    },
     "icon": "icons/items/LOG.png",
     "id": "LOG",
     "name": {
+      "en": "Logs",
+      "ru": "Брёвна"
+    },
+    "namePlain": {
       "en": "Logs",
       "ru": "Брёвна"
     }
   },
   {
     "category": "Resource",
-    "description": {},
+    "description": {
+      "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
+      "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
+    },
+    "descriptionPlain": {
+      "en": "Hard rock.\nHeavy.",
+      "ru": "Твёрдый камень."
+    },
     "icon": "icons/items/STONE.png",
     "id": "STONE",
     "name": {
+      "en": "Stone",
+      "ru": "Камень"
+    },
+    "namePlain": {
       "en": "Stone",
       "ru": "Камень"
     }

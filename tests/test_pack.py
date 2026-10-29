@@ -58,16 +58,72 @@ class PackTest(unittest.TestCase):
 
     def test_schemas_published(self):
         self.pack()
-        for name in ("index", "item", "structure", "skin"):
+        for name in ("index", "item", "structure", "skin", "changes"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
+
+    def edit(self, name, change):
+        path = self.dump / f"{name}.json"
+        data = json.loads(path.read_text())
+        result = change(data)
+        path.write_text(json.dumps(data if result is None else result))
+
+    def test_plain_text_drops_markup(self):
+        self.pack()
+        stone = self.item("STONE")
+        self.assertEqual(stone["descriptionPlain"], {"en": "Hard rock.\nHeavy.", "ru": "Твёрдый камень."})
+        self.assertEqual(stone["namePlain"], {"en": "Stone", "ru": "Камень"})
+
+    def test_recapture_of_same_game_keeps_site_identical(self):
+        self.pack()
+        first = tree(self.site)
+        self.edit("meta", lambda m: m.update(capturedAt="2026-11-01T00:00:00Z"))
+        self.pack()
+        self.assertEqual(tree(self.site), first)
+
+    def test_real_change_updates_captured_at(self):
+        self.pack()
+        self.edit("meta", lambda m: m.update(capturedAt="2026-11-01T00:00:00Z"))
+        self.edit("items", lambda items: [dict(i, category="Stones") if i["id"] == "STONE" else i for i in items])
+        self.assertEqual(self.pack()["capturedAt"], "2026-11-01T00:00:00Z")
+
+    def changes(self):
+        return json.loads((self.site / "v1" / "changes.json").read_text())
+
+    def test_first_publish_has_empty_changelog(self):
+        self.pack()
+        self.assertEqual(self.changes(), [])
+
+    def test_changelog_records_added_removed_changed(self):
+        self.pack()
+        self.edit("meta", lambda m: m.update(gameVersion="1.4.7", capturedAt="2026-11-01T00:00:00Z"))
+        self.edit("items", lambda items: [dict(i, category="Stones") if i["id"] == "STONE" else i
+                                          for i in items if i["id"] != "LOG"] + [{"id": "COAL", "nameTerm": "Inventory/STONE", "category": "Resource"}])
+        shutil.copy(self.dump / "icons/items/LOG.png", self.dump / "icons/items/COAL.png")
+        self.pack()
+        self.assertEqual(self.changes(), [{
+            "gameVersion": "1.4.7", "capturedAt": "2026-11-01T00:00:00Z",
+            "added": {"items": ["COAL"], "structures": [], "skins": []},
+            "removed": {"items": ["LOG"], "structures": [], "skins": []},
+            "changed": {"items": ["STONE"], "structures": [], "skins": []},
+        }])
+        self.edit("meta", lambda m: m.update(capturedAt="2026-11-02T00:00:00Z"))
+        self.pack()  # nothing changed: no new entry
+        self.assertEqual(len(self.changes()), 1)
+
+    def test_new_field_is_not_a_game_change(self):
+        self.pack()
+        self.edit("meta", lambda m: m.update(gameVersion="1.4.7"))
+        self.edit("items", lambda items: [dict(i, tags=["food"]) for i in items])
+        self.pack()
+        self.assertEqual(self.changes(), [])
 
     def test_openapi_describes_every_endpoint(self):
         self.pack()
         spec = json.loads((self.site / "openapi.json").read_text())
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
-        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin"})
+        self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Changes"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
                      "/v1/structures.json", "/v1/skins/{id}.json"):
             self.assertIn(path, spec["paths"])

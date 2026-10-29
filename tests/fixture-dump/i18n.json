@@ -34,5 +34,9 @@
   },
   "Skins/Deer": {
     "en": "Deer"
+  },
+  "Inventory/STONE/Description": {
+    "en": "<color=#FFD201>Hard</color> rock <sprite name=\"icon_stone\">.<br>Heavy.",
+    "ru": "Твёрдый <sprite name=\"icon_stone\"> камень."
   }
 }

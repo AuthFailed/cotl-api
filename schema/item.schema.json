@@ -7,7 +7,9 @@
     "name",
     "description",
     "icon",
-    "category"
+    "category",
+    "namePlain",
+    "descriptionPlain"
   ],
   "properties": {
     "id": {
@@ -43,6 +45,27 @@
         "string",
         "null"
       ]
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "food, fish, big_fish, meat, heart, gift"
     }
   }
 }
