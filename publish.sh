@@ -7,7 +7,9 @@ source .env
 : "${COTL_SSH:?}" "${COTL_KEY:?}" "${COTL_GAME_DIR:?}" "${COTL_SAVES_DIR:?}"
 [ -f mod/CotlDataDump.dll ] || { echo "build the mod first: mod/build.sh <Managed dir> <BepInEx core dir>"; exit 1; }
 
-pc() { ssh -i "$COTL_KEY" -o ConnectTimeout=15 "$COTL_SSH" "$@"; }
+# -n: ssh would otherwise read (and use up) this script's stdin, answers to the prompt included.
+pc() { ssh -n -i "$COTL_KEY" -o ConnectTimeout=15 "$COTL_SSH" "$@"; }
+pc_stdin() { ssh -i "$COTL_KEY" -o ConnectTimeout=15 "$COTL_SSH" "$@"; }
 q() { printf '%q' "$1"; }
 GAME=$(q "$COTL_GAME_DIR") SAVES=$(q "$COTL_SAVES_DIR") SUMS=$(q "${COTL_SUMS:-/tmp/cotl-saves-before2.sha256}")
 PLUGIN="$GAME/BepInEx/plugins/CotlDataDump.dll" CFG="$GAME/BepInEx/config/chrsnv.cotldata.dump.cfg" OUT="$GAME/BepInEx/plugins/CotlDataDump"
@@ -39,7 +41,7 @@ cleanup() {
 trap cleanup EXIT
 
 pc "rm -rf $OUT; printf '[General]\nArmed = true\nSlot = 0\n\n[Jobs]\nItems = true\nStructures = true\nSkins = true\n' > $CFG"
-pc "cat > $PLUGIN" < mod/CotlDataDump.dll
+pc_stdin "cat > $PLUGIN" < mod/CotlDataDump.dll
 pc 'DISPLAY=:0 XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus nohup steam -applaunch 1313140 >/tmp/cotl-launch.log 2>&1 &'
 echo "game launching; waiting for the dump (up to 10 minutes)"
 seen=0

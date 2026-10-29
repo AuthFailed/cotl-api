@@ -12,7 +12,10 @@ FAKES = {
     # ssh <opts> host 'cmd': fail with 255 when the command contains $FAKE_SSH_DOWN, else run it here
     "ssh": 'cmd="${@: -1}"; echo "$cmd" >> "$FAKE_LOG"\n'
            'if [ -n "${FAKE_SSH_DOWN:-}" ] && [[ "$cmd" == *"$FAKE_SSH_DOWN"* ]]; then exit 255; fi\n'
-           'exec bash -c "$cmd"',
+           # like real ssh, a command that doesn't read stdin still forwards (and so uses up) the caller's
+           'if [ "$1" = -n ]; then exec bash -c "$cmd" < /dev/null; fi\n'
+           'if [[ "$cmd" == "cat >"* ]]; then exec bash -c "$cmd"; fi\n'
+           'cat > /dev/null; exec bash -c "$cmd" < /dev/null',
     "pgrep": 'exit "${FAKE_PGREP:-1}"',
     "pkill": "exit 0",
     "sleep": "exit 0",
