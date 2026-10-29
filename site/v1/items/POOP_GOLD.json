@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/POOP_GOLD.png",
   "id": "POOP_GOLD",
+  "meal": null,
   "name": {
     "ar": "سماد ذهبي",
     "de": "Goldener Dünger",

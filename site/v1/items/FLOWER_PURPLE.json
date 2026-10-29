@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FLOWER_PURPLE.png",
   "id": "FLOWER_PURPLE",
+  "meal": null,
   "name": {
     "ar": "اذكرني",
     "de": "Vergissmeinnicht",

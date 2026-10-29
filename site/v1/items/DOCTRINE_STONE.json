@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/DOCTRINE_STONE.png",
   "id": "DOCTRINE_STONE",
+  "meal": null,
   "name": {
     "ar": "جزء من حجر وصايا",
     "de": "Gebotsstein-Fragment",

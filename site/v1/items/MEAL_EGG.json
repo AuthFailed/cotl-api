@@ -36,6 +36,63 @@
   },
   "icon": "icons/items/MEAL_EGG.png",
   "id": "MEAL_EGG",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 100,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithUp\"> فرصة لعودة تابع مسن إلى شبابه بنسبة <color=#FFD201>100%</color>.",
+          "de": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100 %</color> Chance, dass ein älterer Anhänger wieder jung wird.",
+          "en": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> chance of an elderly Follower becoming young again.",
+          "es": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100 %</color> de probabilidades de que un adepto anciano vuelva a ser joven.",
+          "fr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100 %</color> de chances qu'un adepte âgé redevienne jeune.",
+          "fr-CA": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100 %</color> de chances qu'un adepte âgé redevienne jeune.",
+          "it": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> di possibilità che un membro anziano ringiovanisca.",
+          "ja": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color>の確率で高齢の信者が若返る",
+          "ko": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> 확률로 나이 든 추종자가 다시 젊어집니다.",
+          "nl": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> kans dat een bejaarde volgeling weer jong wordt.",
+          "pt-BR": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> de chance de um Seguidor idoso tornar-se jovem novamente.",
+          "ru": "<sprite name=\"icon_FaithUp\"> Пожилой последователь омолаживается с вероятностью <color=#FFD201>100%</color>.",
+          "tr": "<sprite name=\"icon_FaithUp\"> İhtiyar bir Takipçi <color=#FFD201>%100</color> ihtimalle tekrar genç olur.",
+          "zh-CN": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> 的机率使年长教徒恢复年轻。",
+          "zh-TW": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>100%</color> 的機率使年長教徒恢復年輕。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لعودة تابع مسن إلى شبابه بنسبة 100%.",
+          "de": "100 % Chance, dass ein älterer Anhänger wieder jung wird.",
+          "en": "100% chance of an elderly Follower becoming young again.",
+          "es": "100 % de probabilidades de que un adepto anciano vuelva a ser joven.",
+          "fr": "100 % de chances qu'un adepte âgé redevienne jeune.",
+          "fr-CA": "100 % de chances qu'un adepte âgé redevienne jeune.",
+          "it": "100% di possibilità che un membro anziano ringiovanisca.",
+          "ja": "100%の確率で高齢の信者が若返る",
+          "ko": "100% 확률로 나이 든 추종자가 다시 젊어집니다.",
+          "nl": "100% kans dat een bejaarde volgeling weer jong wordt.",
+          "pt-BR": "100% de chance de um Seguidor idoso tornar-se jovem novamente.",
+          "ru": "Пожилой последователь омолаживается с вероятностью 100%.",
+          "tr": "İhtiyar bir Takipçi %100 ihtimalle tekrar genç olur.",
+          "zh-CN": "100% 的机率使年长教徒恢复年轻。",
+          "zh-TW": "100% 的機率使年長教徒恢復年輕。"
+        },
+        "type": "OldFollowerYoung"
+      }
+    ],
+    "faith": 3,
+    "recipes": [
+      [
+        {
+          "item": "YOLK",
+          "quantity": 1
+        }
+      ]
+    ],
+    "satiation": 100,
+    "satiationPlayer": 75,
+    "stars": 3,
+    "tummyRating": 1.0
+  },
   "name": {
     "ar": "وجبة من البيض",
     "de": "Eiermahlzeit",
@@ -70,5 +127,7 @@
     "zh-CN": "蛋蛋餐",
     "zh-TW": "蛋蛋餐"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/GOD_TEAR.png",
   "id": "GOD_TEAR",
+  "meal": null,
   "name": {
     "ar": "دمعة سيد",
     "de": "Gottesträne",

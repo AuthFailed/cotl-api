@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MONSTER_HEART.png",
   "id": "MONSTER_HEART",
+  "meal": null,
   "name": {
     "ar": "قلب منشق",
     "de": "Herz eines Ketzers",

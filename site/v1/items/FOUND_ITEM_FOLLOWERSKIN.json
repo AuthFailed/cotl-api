@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/FOUND_ITEM_FOLLOWERSKIN.png",
   "id": "FOUND_ITEM_FOLLOWERSKIN",
+  "meal": null,
   "name": {
     "ar": "شكل تابع",
     "de": "Anhängerform",

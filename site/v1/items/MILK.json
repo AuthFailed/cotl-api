@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MILK.png",
   "id": "MILK",
+  "meal": null,
   "name": {
     "ar": "حليب",
     "de": "Milch",

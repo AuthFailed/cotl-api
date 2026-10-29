@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/BLUE_HEART.png",
   "id": "BLUE_HEART",
+  "meal": null,
   "name": {
     "ar": "قلب أزرق",
     "de": "Blaues Herz",

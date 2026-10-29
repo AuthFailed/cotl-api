@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ANIMAL_LLAMA.png",
   "id": "ANIMAL_LLAMA",
+  "meal": null,
   "name": {
     "ar": "حيوان اللاما",
     "de": "Lamai",

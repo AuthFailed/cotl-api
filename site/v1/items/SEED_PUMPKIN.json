@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_PUMPKIN.png",
   "id": "SEED_PUMPKIN",
+  "meal": null,
   "name": {
     "ar": "بذرة يقطين",
     "de": "Kürbiskern",

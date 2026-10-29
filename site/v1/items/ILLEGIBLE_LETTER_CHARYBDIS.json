@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ILLEGIBLE_LETTER_CHARYBDIS.png",
   "id": "ILLEGIBLE_LETTER_CHARYBDIS",
+  "meal": null,
   "name": {
     "ar": "رسالة مبهمة",
     "de": "Unleserlicher Brief",

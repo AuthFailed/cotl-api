@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MEAT.png",
   "id": "MEAT",
+  "meal": null,
   "name": {
     "ar": "لحم",
     "de": "Fleisch",

@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/REPAIRED_WEAPON_SWORD.png",
   "id": "REPAIRED_WEAPON_SWORD",
+  "meal": null,
   "name": {
     "en": "Golden End"
   },

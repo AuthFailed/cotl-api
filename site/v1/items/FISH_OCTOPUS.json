@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FISH_OCTOPUS.png",
   "id": "FISH_OCTOPUS",
+  "meal": null,
   "name": {
     "ar": "أخطبوط",
     "de": "Oktopus",

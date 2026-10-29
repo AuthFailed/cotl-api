@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Gold_Skull.png",
   "id": "Necklace_Gold_Skull",
+  "meal": null,
   "name": {
     "ar": "قلادة الجمجمة الذهبية",
     "de": "Goldene Schädelhalskette",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/GOLD_NUGGET.png",
   "id": "GOLD_NUGGET",
+  "meal": null,
   "name": {
     "ar": "قطعة ذهب",
     "de": "Goldklumpen",

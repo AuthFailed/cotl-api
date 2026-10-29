@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Light.png",
   "id": "Necklace_Light",
+  "meal": null,
   "name": {
     "ar": "قلادة النور",
     "de": "Lichthalskette",

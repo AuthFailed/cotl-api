@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Missionary.png",
   "id": "Necklace_Missionary",
+  "meal": null,
   "name": {
     "ar": "قلادة البعثات",
     "de": "Missionarshalskette",

@@ -36,6 +36,63 @@
   },
   "icon": "icons/items/MEAL_MILK_BAD.png",
   "id": "MEAL_MILK_BAD",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": true,
+    "effects": [
+      {
+        "chance": 30,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة للإصابة بمرض بنسبة <color=#FFD201>30%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30 %</color> Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> chance of causing illness.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30 %</color> de probabilidad de provocar una enfermedad",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30 %</color> de chances de rendre l'adepte malade.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30 %</color> de chances de rendre l'adepte malade.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> di possibilità che il membro del Culto si ammali.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color>の確率で病気にかかる",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color>의 확률로 병에 걸립니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> kans op het veroorzaken van een ziekte.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> de chance de causar uma doença",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь заболевает с вероятностью <color=#FFD201>30%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%30</color> ihtimalle hastalığa yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> 机率造成疾病",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>30%</color> 機率造成疾病"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة للإصابة بمرض بنسبة 30%.",
+          "de": "30 % Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "30% chance of causing illness.",
+          "es": "30 % de probabilidad de provocar una enfermedad",
+          "fr": "30 % de chances de rendre l'adepte malade.",
+          "fr-CA": "30 % de chances de rendre l'adepte malade.",
+          "it": "30% di possibilità che il membro del Culto si ammali.",
+          "ja": "30%の確率で病気にかかる",
+          "ko": "30%의 확률로 병에 걸립니다.",
+          "nl": "30% kans op het veroorzaken van een ziekte.",
+          "pt-BR": "30% de chance de causar uma doença",
+          "ru": "Последователь заболевает с вероятностью 30%.",
+          "tr": "%30 ihtimalle hastalığa yol açar.",
+          "zh-CN": "30% 机率造成疾病",
+          "zh-TW": "30% 機率造成疾病"
+        },
+        "type": "CausesIllness"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "MILK",
+          "quantity": 1
+        }
+      ]
+    ],
+    "satiation": 60,
+    "satiationPlayer": 25,
+    "stars": 1,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "حليب متخثر فاسد",
     "de": "Verdorbener Quark",
@@ -70,5 +127,7 @@
     "zh-CN": "变质奶豆腐",
     "zh-TW": "變質奶酪"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

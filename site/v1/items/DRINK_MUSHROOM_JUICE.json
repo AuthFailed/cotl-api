@@ -36,6 +36,101 @@
   },
   "icon": "icons/items/DRINK_MUSHROOM_JUICE.png",
   "id": "DRINK_MUSHROOM_JUICE",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 75,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة لتشوش تابع بنسبة <color=#FFD201>75%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> Chance, dass ein Anhänger duselig wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> chance of causing a Follower to become Befuddled.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>の確率で信者が混乱する",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь становится сконфуженным с вероятностью <color=#FFD201>75%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%75</color> ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 机率使教徒神智不清。",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 機率使教徒神智不清。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لتشوش تابع بنسبة 75%.",
+          "de": "75 % Chance, dass ein Anhänger duselig wird.",
+          "en": "75% chance of causing a Follower to become Befuddled.",
+          "es": "75 % de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "75 % de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "75 % de chances de donner l'esprit confus à un adepte.",
+          "it": "75% di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "75%の確率で信者が混乱する",
+          "ko": "75%의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "75% kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "75% de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "Последователь становится сконфуженным с вероятностью 75%.",
+          "tr": "%75 ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "75% 机率使教徒神智不清。",
+          "zh-TW": "75% 機率使教徒神智不清。"
+        },
+        "type": "CausesDrunk"
+      },
+      {
+        "chance": 50,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithUp\"> فرصة لمنع التابع من المعارضة بنسبة <color=#FFD201>50%</color>.",
+          "de": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50 %</color> Chance, dass ein abtrünniger Anhänger sich wieder einreiht.",
+          "en": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> chance of stopping a Follower from dissenting.",
+          "es": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50 %</color> de probabilidad de que un adepto desertor cambie de opinión",
+          "fr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50 %</color> de chances que l'adepte abandonne ses idées de rébellion.",
+          "fr-CA": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50 %</color> de chances que l'adepte abandonne ses idées de rébellion.",
+          "it": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> di possibilità che il membro del Culto smetta di dissentire.",
+          "ja": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color>の確率で離反中の信者が離反をやめる",
+          "ko": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color>의 확률로 추종자가 대립을 멈춥니다.",
+          "nl": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> kans dat een volgeling stopt met ketteren.",
+          "pt-BR": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> de chance de um seguidor rebelde parar de se rebelar",
+          "ru": "<sprite name=\"icon_FaithUp\"> Инакомыслящий последователь исправляется с вероятностью <color=#FFD201>50%</color>.",
+          "tr": "<sprite name=\"icon_FaithUp\"> Bir Takipçi <color=#FFD201>%50</color> ihtimalle başkaldırmayı bırakır.",
+          "zh-CN": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> 机率使反教者停止反教",
+          "zh-TW": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>50%</color> 機率使反教者停止反教"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لمنع التابع من المعارضة بنسبة 50%.",
+          "de": "50 % Chance, dass ein abtrünniger Anhänger sich wieder einreiht.",
+          "en": "50% chance of stopping a Follower from dissenting.",
+          "es": "50 % de probabilidad de que un adepto desertor cambie de opinión",
+          "fr": "50 % de chances que l'adepte abandonne ses idées de rébellion.",
+          "fr-CA": "50 % de chances que l'adepte abandonne ses idées de rébellion.",
+          "it": "50% di possibilità che il membro del Culto smetta di dissentire.",
+          "ja": "50%の確率で離反中の信者が離反をやめる",
+          "ko": "50%의 확률로 추종자가 대립을 멈춥니다.",
+          "nl": "50% kans dat een volgeling stopt met ketteren.",
+          "pt-BR": "50% de chance de um seguidor rebelde parar de se rebelar",
+          "ru": "Инакомыслящий последователь исправляется с вероятностью 50%.",
+          "tr": "Bir Takipçi %50 ihtimalle başkaldırmayı bırakır.",
+          "zh-CN": "50% 机率使反教者停止反教",
+          "zh-TW": "50% 機率使反教者停止反教"
+        },
+        "type": "RemovesDissent"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "MUSHROOM_SMALL",
+          "quantity": 5
+        }
+      ]
+    ],
+    "satiation": 0,
+    "satiationPlayer": 0,
+    "stars": 0,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "حليب مخفوق بالفطر",
     "de": "Pilzshake",
@@ -70,5 +165,7 @@
     "zh-CN": "菇菇昔",
     "zh-TW": "菇菇昔"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

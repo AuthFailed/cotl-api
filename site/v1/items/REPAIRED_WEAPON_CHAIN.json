@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/REPAIRED_WEAPON_CHAIN.png",
   "id": "REPAIRED_WEAPON_CHAIN",
+  "meal": null,
   "name": {
     "en": "Yngya's Torment"
   },

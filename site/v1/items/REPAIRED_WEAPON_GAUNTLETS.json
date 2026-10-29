@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/REPAIRED_WEAPON_GAUNTLETS.png",
   "id": "REPAIRED_WEAPON_GAUNTLETS",
+  "meal": null,
   "name": {
     "en": "Claws of the Wolf"
   },

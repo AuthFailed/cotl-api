@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/POOP.png",
   "id": "POOP",
+  "meal": null,
   "name": {
     "ar": "سماد",
     "de": "Dünger",

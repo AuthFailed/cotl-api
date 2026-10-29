@@ -36,6 +36,32 @@
   },
   "icon": "icons/items/MEAL_MILK_GREAT.png",
   "id": "MEAL_MILK_GREAT",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": true,
+    "effects": [],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "MILK",
+          "quantity": 1
+        },
+        {
+          "item": "CAULIFLOWER",
+          "quantity": 3
+        },
+        {
+          "item": "BEETROOT",
+          "quantity": 3
+        }
+      ]
+    ],
+    "satiation": 100,
+    "satiationPlayer": 100,
+    "stars": 4,
+    "tummyRating": 1.0
+  },
   "name": {
     "ar": "فطيرة الراعي",
     "de": "Hirtenpastete",
@@ -70,5 +96,7 @@
     "zh-CN": "牧者奶派",
     "zh-TW": "牧者的派"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

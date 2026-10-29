@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ANIMAL_CRAB.png",
   "id": "ANIMAL_CRAB",
+  "meal": null,
   "name": {
     "ar": "حيوان السلطعون",
     "de": "Krabbi",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/GOLD_REFINED.png",
   "id": "GOLD_REFINED",
+  "meal": null,
   "name": {
     "ar": "سبائك ذهب",
     "de": "Goldbarren",

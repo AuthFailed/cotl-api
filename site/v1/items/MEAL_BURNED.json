@@ -36,6 +36,17 @@
   },
   "icon": null,
   "id": "MEAL_BURNED",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [],
+    "faith": 0,
+    "recipes": [],
+    "satiation": 60,
+    "satiationPlayer": 25,
+    "stars": 1,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "وجبة محروقة",
     "de": "Verbrannte Mahlzeit",
@@ -70,5 +81,7 @@
     "zh-CN": "烧糊餐点",
     "zh-TW": "燒焦餐"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

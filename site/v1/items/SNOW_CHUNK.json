@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/SNOW_CHUNK.png",
   "id": "SNOW_CHUNK",
+  "meal": null,
   "name": {
     "en": "Snow Chunk"
   },

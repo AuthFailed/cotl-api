@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/RED_HEART.png",
   "id": "RED_HEART",
+  "meal": null,
   "name": {
     "ar": "قلب أحمر",
     "de": "Rotes Herz",

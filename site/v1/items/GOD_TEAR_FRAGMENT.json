@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/GOD_TEAR_FRAGMENT.png",
   "id": "GOD_TEAR_FRAGMENT",
+  "meal": null,
   "name": {
     "ar": "جزء من دمعة سيد",
     "de": "Gottestränen-Fragment",

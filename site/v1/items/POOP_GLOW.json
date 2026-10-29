@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/POOP_GLOW.png",
   "id": "POOP_GLOW",
+  "meal": null,
   "name": {
     "ar": "سماد لامع",
     "de": "Leuchtender Dünger",

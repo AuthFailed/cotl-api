@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_RANCHER.png",
   "id": "SPECIAL_WOOL_RANCHER",
+  "meal": null,
   "name": {
     "ar": "صوف مُربّي الحيوانات",
     "de": "Wolle des Ranchers",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FOLLOWER_MEAT_ROTTEN.png",
   "id": "FOLLOWER_MEAT_ROTTEN",
+  "meal": null,
   "name": {
     "ar": "لحم أتباع فاسد",
     "de": "Vergammeltes Anhängerfleisch",

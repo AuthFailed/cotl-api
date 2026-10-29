@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/BEETROOT.png",
   "id": "BEETROOT",
+  "meal": null,
   "name": {
     "ar": "بنجر",
     "de": "Rote Beete",

@@ -36,6 +36,105 @@
   },
   "icon": "icons/items/DRINK_GRASS.png",
   "id": "DRINK_GRASS",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 75,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة لتشوش تابع بنسبة <color=#FFD201>75%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> Chance, dass ein Anhänger duselig wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> chance of causing a Follower to become Befuddled.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>の確率で信者が混乱する",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь становится сконфуженным с вероятностью <color=#FFD201>75%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%75</color> ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 机率使教徒神智不清。",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 機率使教徒神智不清。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لتشوش تابع بنسبة 75%.",
+          "de": "75 % Chance, dass ein Anhänger duselig wird.",
+          "en": "75% chance of causing a Follower to become Befuddled.",
+          "es": "75 % de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "75 % de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "75 % de chances de donner l'esprit confus à un adepte.",
+          "it": "75% di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "75%の確率で信者が混乱する",
+          "ko": "75%의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "75% kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "75% de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "Последователь становится сконфуженным с вероятностью 75%.",
+          "tr": "%75 ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "75% 机率使教徒神智不清。",
+          "zh-TW": "75% 機率使教徒神智不清。"
+        },
+        "type": "CausesDrunk"
+      },
+      {
+        "chance": 30,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithUp\"> فرصة لمنح أتباع سمة عشوائية بنسبة <color=#FFD201>30%</color>.",
+          "de": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30 %</color> Chance, Anhängern eine zufällige Eigenschaft zu geben.",
+          "en": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> chance of giving Followers a random trait.",
+          "es": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30 %</color> de probabilidad de que un adepto obtenga un rasgo al azar.",
+          "fr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30 %</color> de chances d'octroyer à l'adepte une croyance aléatoire.",
+          "fr-CA": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30 %</color> de chances d'octroyer à l'adepte une croyance aléatoire.",
+          "it": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> di possibilità che il membro del Culto ottenga un tratto casuale.",
+          "ja": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color>の確率で信者がランダムな特性を獲得する",
+          "ko": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> 확률로 추종자에게 무작위 특성을 부여합니다.",
+          "nl": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> kans dat een volgeling een willekeurige eigenschap krijgt.",
+          "pt-BR": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> de chance de conceder um novo aspecto aos seguidores.",
+          "ru": "<sprite name=\"icon_FaithUp\"> Последователь получает случайную особенность с вероятностью <color=#FFD201>30%</color>.",
+          "tr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>%30</color> ihtimalle Takipçilere rastgele bir özellik verir.",
+          "zh-CN": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> 几率赋予教徒一项随机特质。",
+          "zh-TW": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>30%</color> 機率賦予教徒一項隨機特質。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لمنح أتباع سمة عشوائية بنسبة 30%.",
+          "de": "30 % Chance, Anhängern eine zufällige Eigenschaft zu geben.",
+          "en": "30% chance of giving Followers a random trait.",
+          "es": "30 % de probabilidad de que un adepto obtenga un rasgo al azar.",
+          "fr": "30 % de chances d'octroyer à l'adepte une croyance aléatoire.",
+          "fr-CA": "30 % de chances d'octroyer à l'adepte une croyance aléatoire.",
+          "it": "30% di possibilità che il membro del Culto ottenga un tratto casuale.",
+          "ja": "30%の確率で信者がランダムな特性を獲得する",
+          "ko": "30% 확률로 추종자에게 무작위 특성을 부여합니다.",
+          "nl": "30% kans dat een volgeling een willekeurige eigenschap krijgt.",
+          "pt-BR": "30% de chance de conceder um novo aspecto aos seguidores.",
+          "ru": "Последователь получает случайную особенность с вероятностью 30%.",
+          "tr": "%30 ihtimalle Takipçilere rastgele bir özellik verir.",
+          "zh-CN": "30% 几率赋予教徒一项随机特质。",
+          "zh-TW": "30% 機率賦予教徒一項隨機特質。"
+        },
+        "type": "AddRandomTrait"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "GRASS",
+          "quantity": 25
+        },
+        {
+          "item": "HOPS",
+          "quantity": 5
+        }
+      ]
+    ],
+    "satiation": 0,
+    "satiationPlayer": 50,
+    "stars": 2,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "عصير كثيف عضوي",
     "de": "Organischer Smoothie",
@@ -70,5 +169,7 @@
     "zh-CN": "有机奶昔",
     "zh-TW": "有機奶昔"
   },
-  "tags": []
+  "tags": [
+    "drink"
+  ]
 }

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_7.png",
   "id": "SPECIAL_WOOL_7",
+  "meal": null,
   "name": {
     "ar": "صوف المحارب",
     "de": "Wolle des Kriegers",

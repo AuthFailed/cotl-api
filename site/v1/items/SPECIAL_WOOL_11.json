@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_11.png",
   "id": "SPECIAL_WOOL_11",
+  "meal": null,
   "name": {
     "ar": "صوف الفارس",
     "de": "Wolle des Ritters",

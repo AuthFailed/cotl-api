@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_CHILLI.png",
   "id": "SEED_CHILLI",
+  "meal": null,
   "name": {
     "ar": "بذرة فلفل حار",
     "de": "Chilisamen",

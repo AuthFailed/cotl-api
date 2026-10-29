@@ -36,6 +36,105 @@
   },
   "icon": "icons/items/DRINK_LIGHTNING.png",
   "id": "DRINK_LIGHTNING",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 75,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة لتشوش تابع بنسبة <color=#FFD201>75%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> Chance, dass ein Anhänger duselig wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> chance of causing a Follower to become Befuddled.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75 %</color> de chances de donner l'esprit confus à un adepte.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>の確率で信者が混乱する",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color>의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь становится сконфуженным с вероятностью <color=#FFD201>75%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%75</color> ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 机率使教徒神智不清。",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>75%</color> 機率使教徒神智不清。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لتشوش تابع بنسبة 75%.",
+          "de": "75 % Chance, dass ein Anhänger duselig wird.",
+          "en": "75% chance of causing a Follower to become Befuddled.",
+          "es": "75 % de probabilidad de que al adepto le entre un mareíllo.",
+          "fr": "75 % de chances de donner l'esprit confus à un adepte.",
+          "fr-CA": "75 % de chances de donner l'esprit confus à un adepte.",
+          "it": "75% di possibilità che il membro del Culto soffra di stordimento.",
+          "ja": "75%の確率で信者が混乱する",
+          "ko": "75%의 확률로 추종자가 심신미약 상태가 됩니다.",
+          "nl": "75% kans dat een volgeling bedwelmd raakt.",
+          "pt-BR": "75% de chance de fazer com que o seguidor fique com Hiperidratação.",
+          "ru": "Последователь становится сконфуженным с вероятностью 75%.",
+          "tr": "%75 ihtimalle bir Takipçi'nin sersemlemesine yol açar.",
+          "zh-CN": "75% 机率使教徒神智不清。",
+          "zh-TW": "75% 機率使教徒神智不清。"
+        },
+        "type": "CausesDrunk"
+      },
+      {
+        "chance": 25,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithUp\"> فرصة لوقاية تابع من التعفن بنسبة <color=#FFD201>25%</color>.",
+          "de": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25 %</color> Chance, einen Anhänger von Fäulnis abzuhalten.",
+          "en": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> chance of stopping a Follower from Rotting.",
+          "es": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25 %</color> de probabilidad de evitar que un adepto se descomponga.",
+          "fr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25 %</color> de chances d'empêcher l'adepte de se putréfier.",
+          "fr-CA": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25 %</color> de chances d'empêcher l'adepte de se putréfier.",
+          "it": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> di possibilità che il membro del Culto si riprenda dalla marcescenza.",
+          "ja": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color>の確率で信者の腐敗が止まる",
+          "ko": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> 확률로 추종자가 부패 상태에서 풀려납니다.",
+          "nl": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> kans dat een volgeling niet gaat rotten.",
+          "pt-BR": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> de chance de impedir que um seguidor apodreça.",
+          "ru": "<sprite name=\"icon_FaithUp\"> Последователь перестаёт гнить с вероятностью <color=#FFD201>25%</color>.",
+          "tr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>%25</color> ihtimalle bir Takipçi'nin Çürümesini durdurur.",
+          "zh-CN": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> 几率使教徒停止腐烂。",
+          "zh-TW": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>25%</color> 機率使教徒停止腐爛。"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لوقاية تابع من التعفن بنسبة 25%.",
+          "de": "25 % Chance, einen Anhänger von Fäulnis abzuhalten.",
+          "en": "25% chance of stopping a Follower from Rotting.",
+          "es": "25 % de probabilidad de evitar que un adepto se descomponga.",
+          "fr": "25 % de chances d'empêcher l'adepte de se putréfier.",
+          "fr-CA": "25 % de chances d'empêcher l'adepte de se putréfier.",
+          "it": "25% di possibilità che il membro del Culto si riprenda dalla marcescenza.",
+          "ja": "25%の確率で信者の腐敗が止まる",
+          "ko": "25% 확률로 추종자가 부패 상태에서 풀려납니다.",
+          "nl": "25% kans dat een volgeling niet gaat rotten.",
+          "pt-BR": "25% de chance de impedir que um seguidor apodreça.",
+          "ru": "Последователь перестаёт гнить с вероятностью 25%.",
+          "tr": "%25 ihtimalle bir Takipçi'nin Çürümesini durdurur.",
+          "zh-CN": "25% 几率使教徒停止腐烂。",
+          "zh-TW": "25% 機率使教徒停止腐爛。"
+        },
+        "type": "RemoveMutation"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "LIGHTNING_SHARD",
+          "quantity": 3
+        },
+        {
+          "item": "GRAPES",
+          "quantity": 4
+        }
+      ]
+    ],
+    "satiation": 0,
+    "satiationPlayer": 50,
+    "stars": 2,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "عصير الصواعق",
     "de": "Blitzsaftgetränk",
@@ -70,5 +169,7 @@
     "zh-CN": "电光饮",
     "zh-TW": "電光水"
   },
-  "tags": []
+  "tags": [
+    "drink"
+  ]
 }

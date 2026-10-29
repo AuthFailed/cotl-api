@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/FOLLOWERS.png",
   "id": "FOLLOWERS",
+  "meal": null,
   "name": {
     "ar": "الأتباع",
     "de": "Anhänger",

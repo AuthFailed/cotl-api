@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Dark.png",
   "id": "Necklace_Dark",
+  "meal": null,
   "name": {
     "ar": "قلادة الظلام",
     "de": "Dunkle Halskette",

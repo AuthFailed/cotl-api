@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/BROKEN_WEAPON_AXE.png",
   "id": "BROKEN_WEAPON_AXE",
+  "meal": null,
   "name": {
     "en": "Lambs’ Slaughter"
   },

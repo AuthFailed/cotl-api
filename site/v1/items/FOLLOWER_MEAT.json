@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FOLLOWER_MEAT.png",
   "id": "FOLLOWER_MEAT",
+  "meal": null,
   "name": {
     "ar": "لحم أتباع",
     "de": "Anhängerfleisch",

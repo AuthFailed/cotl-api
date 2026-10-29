@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/YEW_CURSED.png",
   "id": "YEW_CURSED",
+  "meal": null,
   "name": {
     "ar": "سرو الشاة الملعون",
     "de": "Verfluchtes Eibenholz",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_FLOWER_RED.png",
   "id": "SEED_FLOWER_RED",
+  "meal": null,
   "name": {
     "ar": "بذرة الكاميليا",
     "de": "Kameliensamen",

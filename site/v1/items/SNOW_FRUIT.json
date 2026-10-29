@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SNOW_FRUIT.png",
   "id": "SNOW_FRUIT",
+  "meal": null,
   "name": {
     "ar": "فاكهة الجليد",
     "de": "Schneefrucht",

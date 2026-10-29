@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_DECORATION.png",
   "id": "SPECIAL_WOOL_DECORATION",
+  "meal": null,
   "name": {
     "ar": "صوف الماكر",
     "de": "Wolle des Klugen",

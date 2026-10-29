@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Winter.png",
   "id": "Necklace_Winter",
+  "meal": null,
   "name": {
     "ar": "قلادة الشتاء",
     "de": "Winter-Halskette",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_BLACKSMITH.png",
   "id": "SPECIAL_WOOL_BLACKSMITH",
+  "meal": null,
   "name": {
     "ar": "صوف المسفوعة",
     "de": "Wolle des Verkohlten",

@@ -36,6 +36,71 @@
   },
   "icon": "icons/items/MEAL_GREAT_MEAT.png",
   "id": "MEAL_GREAT_MEAT",
+  "meal": {
+    "cookTime": 42.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 75,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithUp\"> فرصة لإسقاط موارد قيّمة بنسبة <color=#FFD201>75%</color>.",
+          "de": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75 %</color> Chance, dass wertvolle Ressourcen hinterlassen werden.",
+          "en": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> chance of dropping valuable resources.",
+          "es": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75 %</color> de probabilidad de soltar recursos valiosos",
+          "fr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75 %</color> de chances de générer des ressources.",
+          "fr-CA": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75 %</color> de chances de générer des ressources précieuses.",
+          "it": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> di possibilità che il membro del Culto lasci cadere risorse preziose.",
+          "ja": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color>の確率で貴重な資源をドロップする",
+          "ko": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color>의 확률로 귀중한 자원을 떨어뜨립니다",
+          "nl": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> kans op het uitscheiden van waardevolle grondstoffen.",
+          "pt-BR": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> de chance de encontrar recursos valiosos",
+          "ru": "<sprite name=\"icon_FaithUp\"> Последователь отдаёт ценные материалы с вероятностью <color=#FFD201>75%</color>.",
+          "tr": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>%75</color> ihtimalle değerli kaynaklar çıkar.",
+          "zh-CN": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> 机率掉落贵重资源",
+          "zh-TW": "<sprite name=\"icon_FaithUp\"> <color=#FFD201>75%</color> 機率掉落貴重資源"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة لإسقاط موارد قيّمة بنسبة 75%.",
+          "de": "75 % Chance, dass wertvolle Ressourcen hinterlassen werden.",
+          "en": "75% chance of dropping valuable resources.",
+          "es": "75 % de probabilidad de soltar recursos valiosos",
+          "fr": "75 % de chances de générer des ressources.",
+          "fr-CA": "75 % de chances de générer des ressources précieuses.",
+          "it": "75% di possibilità che il membro del Culto lasci cadere risorse preziose.",
+          "ja": "75%の確率で貴重な資源をドロップする",
+          "ko": "75%의 확률로 귀중한 자원을 떨어뜨립니다",
+          "nl": "75% kans op het uitscheiden van waardevolle grondstoffen.",
+          "pt-BR": "75% de chance de encontrar recursos valiosos",
+          "ru": "Последователь отдаёт ценные материалы с вероятностью 75%.",
+          "tr": "%75 ihtimalle değerli kaynaklar çıkar.",
+          "zh-CN": "75% 机率掉落贵重资源",
+          "zh-TW": "75% 機率掉落貴重資源"
+        },
+        "type": "DropLoot"
+      }
+    ],
+    "faith": 3,
+    "recipes": [
+      [
+        {
+          "item": "MEAT",
+          "quantity": 4
+        },
+        {
+          "item": "FISH_CRAB",
+          "quantity": 1
+        },
+        {
+          "item": "FISH_LOBSTER",
+          "quantity": 1
+        }
+      ]
+    ],
+    "satiation": 100,
+    "satiationPlayer": 75,
+    "stars": 3,
+    "tummyRating": 1.0
+  },
   "name": {
     "ar": "وجبة لحم شهية عامرة",
     "de": "Mächtiges Fleischfestmahl",
@@ -70,5 +135,7 @@
     "zh-CN": "美味肉肉盛宴",
     "zh-TW": "美味肉肉盛宴"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

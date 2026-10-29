@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/POOP_RAINBOW.png",
   "id": "POOP_RAINBOW",
+  "meal": null,
   "name": {
     "ar": "سماد ملون",
     "de": "Regenbogen-Dünger",

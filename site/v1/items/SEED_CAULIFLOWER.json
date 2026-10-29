@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_CAULIFLOWER.png",
   "id": "SEED_CAULIFLOWER",
+  "meal": null,
   "name": {
     "ar": "بذرة قرنبيط",
     "de": "Blumenkohlsamen",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_SNOW_FRUIT.png",
   "id": "SEED_SNOW_FRUIT",
+  "meal": null,
   "name": {
     "ar": "بذرة فاكهة الجليد",
     "de": "Schneefrucht-Samen",

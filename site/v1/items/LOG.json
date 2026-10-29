@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/LOG.png",
   "id": "LOG",
+  "meal": null,
   "name": {
     "ar": "خشب",
     "de": "Holz",

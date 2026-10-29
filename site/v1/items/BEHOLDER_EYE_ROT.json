@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/BEHOLDER_EYE_ROT.png",
   "id": "BEHOLDER_EYE_ROT",
+  "meal": null,
   "name": {
     "ar": "عين الشاهد الفاسدة",
     "de": "Fauliges Auge des Zeugen",

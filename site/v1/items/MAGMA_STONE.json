@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MAGMA_STONE.png",
   "id": "MAGMA_STONE",
+  "meal": null,
   "name": {
     "ar": "فحم التعفن",
     "de": "Fäulnisbrand",

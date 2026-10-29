@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/BLACK_HEART.png",
   "id": "BLACK_HEART",
+  "meal": null,
   "name": {
     "ar": "قلب فاسد",
     "de": "Krankes Herz",

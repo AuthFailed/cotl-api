@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/CAULIFLOWER.png",
   "id": "CAULIFLOWER",
+  "meal": null,
   "name": {
     "ar": "قرنبيط",
     "de": "Blumenkohl",

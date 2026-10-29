@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Weird.png",
   "id": "Necklace_Weird",
+  "meal": null,
   "name": {
     "ar": "قلادة غير طبيعية",
     "de": "Abnormale Halskette",

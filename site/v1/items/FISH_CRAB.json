@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FISH_CRAB.png",
   "id": "FISH_CRAB",
+  "meal": null,
   "name": {
     "ar": "سلطعون",
     "de": "Krabbe",

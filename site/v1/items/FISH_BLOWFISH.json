@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FISH_BLOWFISH.png",
   "id": "FISH_BLOWFISH",
+  "meal": null,
   "name": {
     "ar": "سمكة منتفخة",
     "de": "Kugelfisch",

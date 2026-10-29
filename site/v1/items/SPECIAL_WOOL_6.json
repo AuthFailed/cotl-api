@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_6.png",
   "id": "SPECIAL_WOOL_6",
+  "meal": null,
   "name": {
     "ar": "صوف الصامد",
     "de": "Wolle des Entschlossenen",

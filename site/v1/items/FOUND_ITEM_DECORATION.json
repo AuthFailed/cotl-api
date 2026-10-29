@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/FOUND_ITEM_DECORATION.png",
   "id": "FOUND_ITEM_DECORATION",
+  "meal": null,
   "name": {
     "ar": "مخطط",
     "de": "Blaupause",

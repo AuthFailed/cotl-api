@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SPECIAL_WOOL_TAROT.png",
   "id": "SPECIAL_WOOL_TAROT",
+  "meal": null,
   "name": {
     "ar": "صوف العرافة",
     "de": "Wolle der Sternguckerin",

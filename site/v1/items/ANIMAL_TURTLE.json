@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ANIMAL_TURTLE.png",
   "id": "ANIMAL_TURTLE",
+  "meal": null,
   "name": {
     "ar": "حيوان السلحفاة",
     "de": "Schildkröti",

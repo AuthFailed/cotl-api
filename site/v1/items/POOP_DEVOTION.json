@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/POOP_DEVOTION.png",
   "id": "POOP_DEVOTION",
+  "meal": null,
   "name": {
     "ar": "سماد الولاء",
     "de": "Ergebener Dünger",

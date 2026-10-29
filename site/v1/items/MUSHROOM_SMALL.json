@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MUSHROOM_SMALL.png",
   "id": "MUSHROOM_SMALL",
+  "meal": null,
   "name": {
     "ar": "فطر التطويع",
     "de": "Gehirnwäschepilz",

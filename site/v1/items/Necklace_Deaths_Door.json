@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/Necklace_Deaths_Door.png",
   "id": "Necklace_Deaths_Door",
+  "meal": null,
   "name": {
     "ar": "قلادة النمو من جديد",
     "de": "Nachwachs-Halskette",

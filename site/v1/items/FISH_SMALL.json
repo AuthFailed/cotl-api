@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FISH_SMALL.png",
   "id": "FISH_SMALL",
+  "meal": null,
   "name": {
     "ar": "سمكة منوة",
     "de": "Elritze",

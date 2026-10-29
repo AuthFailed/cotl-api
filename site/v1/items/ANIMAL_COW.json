@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ANIMAL_COW.png",
   "id": "ANIMAL_COW",
+  "meal": null,
   "name": {
     "ar": "حيوان البقرة",
     "de": "Kuhi",

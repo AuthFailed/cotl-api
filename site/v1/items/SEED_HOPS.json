@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_HOPS.png",
   "id": "SEED_HOPS",
+  "meal": null,
   "name": {
     "ar": "بذور جنجل",
     "de": "Hopfensamen",

@@ -36,6 +36,63 @@
   },
   "icon": "icons/items/MEAL_GRASS.png",
   "id": "MEAL_GRASS",
+  "meal": {
+    "cookTime": 30.0,
+    "dlc": false,
+    "effects": [
+      {
+        "chance": 25,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة للإصابة بمرض بنسبة <color=#FFD201>25%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25 %</color> Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> chance of causing illness.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25 %</color> de probabilidad de provocar una enfermedad",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25 %</color> de chances de rendre l'adepte malade.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25 %</color> de chances de rendre l'adepte malade.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> di possibilità che il membro del Culto si ammali.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color>の確率で病気にかかる",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color>의 확률로 병에 걸립니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> kans op het veroorzaken van een ziekte.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> de chance de causar uma doença",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь заболевает с вероятностью <color=#FFD201>25%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%25</color> ihtimalle hastalığa yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> 机率造成疾病",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>25%</color> 機率造成疾病"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة للإصابة بمرض بنسبة 25%.",
+          "de": "25 % Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "25% chance of causing illness.",
+          "es": "25 % de probabilidad de provocar una enfermedad",
+          "fr": "25 % de chances de rendre l'adepte malade.",
+          "fr-CA": "25 % de chances de rendre l'adepte malade.",
+          "it": "25% di possibilità che il membro del Culto si ammali.",
+          "ja": "25%の確率で病気にかかる",
+          "ko": "25%의 확률로 병에 걸립니다.",
+          "nl": "25% kans op het veroorzaken van een ziekte.",
+          "pt-BR": "25% de chance de causar uma doença",
+          "ru": "Последователь заболевает с вероятностью 25%.",
+          "tr": "%25 ihtimalle hastalığa yol açar.",
+          "zh-CN": "25% 机率造成疾病",
+          "zh-TW": "25% 機率造成疾病"
+        },
+        "type": "CausesIllness"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "GRASS",
+          "quantity": 5
+        }
+      ]
+    ],
+    "satiation": 60,
+    "satiationPlayer": 0,
+    "stars": 0,
+    "tummyRating": 0.25
+  },
   "name": {
     "ar": "عصيدة عشبية",
     "de": "Grasschleim",
@@ -70,5 +127,7 @@
     "zh-CN": "青草稀粥",
     "zh-TW": "青草稀粥"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

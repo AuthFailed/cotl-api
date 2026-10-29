@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/HALF_HEART.png",
   "id": "HALF_HEART",
+  "meal": null,
   "name": {
     "ar": "نصف قلب أحمر",
     "de": "Halbes rotes Herz",

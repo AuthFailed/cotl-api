@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FLOWER_WHITE.png",
   "id": "FLOWER_WHITE",
+  "meal": null,
   "name": {
     "ar": "ندفة",
     "de": "Schneeglöckchen",

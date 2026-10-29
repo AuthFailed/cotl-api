@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ELECTRIFIED_MAGMA.png",
   "id": "ELECTRIFIED_MAGMA",
+  "meal": null,
   "name": {
     "ar": "فحم تعفن صاعق",
     "de": "Aufgeladener Fäulnisbrand",

@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/BLACK_GOLD.png",
   "id": "BLACK_GOLD",
+  "meal": null,
   "name": {
     "ar": "عملة",
     "de": "Münze",

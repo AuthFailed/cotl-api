@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/FORGE_FLAME.png",
   "id": "FORGE_FLAME",
+  "meal": null,
   "name": {
     "en": "Sacred Flame"
   },

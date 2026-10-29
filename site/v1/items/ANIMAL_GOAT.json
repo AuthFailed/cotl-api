@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/ANIMAL_GOAT.png",
   "id": "ANIMAL_GOAT",
+  "meal": null,
   "name": {
     "ar": "حيوان القطاس",
     "de": "Yaki",

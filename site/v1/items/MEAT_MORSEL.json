@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/MEAT_MORSEL.png",
   "id": "MEAT_MORSEL",
+  "meal": null,
   "name": {
     "ar": "قطعة",
     "de": "Häppchen",

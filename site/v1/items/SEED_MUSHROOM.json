@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/SEED_MUSHROOM.png",
   "id": "SEED_MUSHROOM",
+  "meal": null,
   "name": {
     "ar": "بوغ فطر تطويع",
     "de": "Gehirnwäschepilz-Spore",

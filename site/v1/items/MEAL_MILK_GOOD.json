@@ -36,6 +36,67 @@
   },
   "icon": "icons/items/MEAL_MILK_GOOD.png",
   "id": "MEAL_MILK_GOOD",
+  "meal": {
+    "cookTime": 36.0,
+    "dlc": true,
+    "effects": [
+      {
+        "chance": 10,
+        "description": {
+          "ar": "<sprite name=\"icon_FaithDown\"> فرصة للإصابة بمرض بنسبة <color=#FFD201>10%</color>.",
+          "de": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10 %</color> Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> chance of causing illness.",
+          "es": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10 %</color> de probabilidad de provocar una enfermedad",
+          "fr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10 %</color> de chances de rendre l'adepte malade.",
+          "fr-CA": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10 %</color> de chances de rendre l'adepte malade.",
+          "it": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> di possibilità che il membro del Culto si ammali.",
+          "ja": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color>の確率で病気にかかる",
+          "ko": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color>의 확률로 병에 걸립니다.",
+          "nl": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> kans op het veroorzaken van een ziekte.",
+          "pt-BR": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> de chance de causar uma doença",
+          "ru": "<sprite name=\"icon_FaithDown\"> Последователь заболевает с вероятностью <color=#FFD201>10%</color>.",
+          "tr": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>%10</color> ihtimalle hastalığa yol açar.",
+          "zh-CN": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> 机率造成疾病",
+          "zh-TW": "<sprite name=\"icon_FaithDown\"> <color=#FFD201>10%</color> 機率造成疾病"
+        },
+        "descriptionPlain": {
+          "ar": "فرصة للإصابة بمرض بنسبة 10%.",
+          "de": "10 % Chance, dass eine Krankheit ausgelöst wird.",
+          "en": "10% chance of causing illness.",
+          "es": "10 % de probabilidad de provocar una enfermedad",
+          "fr": "10 % de chances de rendre l'adepte malade.",
+          "fr-CA": "10 % de chances de rendre l'adepte malade.",
+          "it": "10% di possibilità che il membro del Culto si ammali.",
+          "ja": "10%の確率で病気にかかる",
+          "ko": "10%의 확률로 병에 걸립니다.",
+          "nl": "10% kans op het veroorzaken van een ziekte.",
+          "pt-BR": "10% de chance de causar uma doença",
+          "ru": "Последователь заболевает с вероятностью 10%.",
+          "tr": "%10 ihtimalle hastalığa yol açar.",
+          "zh-CN": "10% 机率造成疾病",
+          "zh-TW": "10% 機率造成疾病"
+        },
+        "type": "CausesIllness"
+      }
+    ],
+    "faith": 0,
+    "recipes": [
+      [
+        {
+          "item": "MILK",
+          "quantity": 1
+        },
+        {
+          "item": "PUMPKIN",
+          "quantity": 3
+        }
+      ]
+    ],
+    "satiation": 75,
+    "satiationPlayer": 50,
+    "stars": 2,
+    "tummyRating": 0.5
+  },
   "name": {
     "ar": "جبن مذاب",
     "de": "Käsefondue",
@@ -70,5 +131,7 @@
     "zh-CN": "芝士奶酪锅",
     "zh-TW": "起司火鍋"
   },
-  "tags": []
+  "tags": [
+    "meal"
+  ]
 }

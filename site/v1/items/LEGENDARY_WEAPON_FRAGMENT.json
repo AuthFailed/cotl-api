@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/LEGENDARY_WEAPON_FRAGMENT.png",
   "id": "LEGENDARY_WEAPON_FRAGMENT",
+  "meal": null,
   "name": {
     "ar": "جزء من سلاح أسطوري",
     "de": "Legendäres Waffenfragment",

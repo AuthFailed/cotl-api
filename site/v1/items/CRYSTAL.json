@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/CRYSTAL.png",
   "id": "CRYSTAL",
+  "meal": null,
   "name": {
     "ar": "شظايا بلورية",
     "de": "Kristallscherben",

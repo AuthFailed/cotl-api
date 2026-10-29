@@ -4,6 +4,7 @@
   "descriptionPlain": {},
   "icon": "icons/items/TRINKET_CARD.png",
   "id": "TRINKET_CARD",
+  "meal": null,
   "name": {
     "ar": "بطاقة تارو",
     "de": "Tarotkarte",

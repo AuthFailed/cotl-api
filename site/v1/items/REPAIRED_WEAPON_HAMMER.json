@@ -8,6 +8,7 @@
   },
   "icon": "icons/items/REPAIRED_WEAPON_HAMMER.png",
   "id": "REPAIRED_WEAPON_HAMMER",
+  "meal": null,
   "name": {
     "en": "Scourge of Svargod"
   },

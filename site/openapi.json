@@ -138,6 +138,111 @@
             "pattern": "^[A-Za-z0-9_-]+$",
             "type": "string"
           },
+          "meal": {
+            "description": "Meals and drinks only (null otherwise): how to make it and what it does",
+            "properties": {
+              "cookTime": {
+                "description": "cooking time (the game's own units)",
+                "type": "number"
+              },
+              "dlc": {
+                "type": "boolean"
+              },
+              "effects": {
+                "items": {
+                  "properties": {
+                    "chance": {
+                      "description": "percent",
+                      "type": "integer"
+                    },
+                    "description": {
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "required": [
+                        "en"
+                      ],
+                      "type": "object"
+                    },
+                    "descriptionPlain": {
+                      "additionalProperties": {
+                        "type": "string"
+                      },
+                      "type": "object"
+                    },
+                    "type": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "chance",
+                    "description",
+                    "descriptionPlain"
+                  ],
+                  "type": "object"
+                },
+                "type": "array"
+              },
+              "faith": {
+                "description": "faith gained when followers eat it",
+                "type": "integer"
+              },
+              "recipes": {
+                "description": "every ingredient combination the game accepts; empty for what the kitchen doesn't cook (a burned meal comes from overcooking)",
+                "items": {
+                  "items": {
+                    "properties": {
+                      "item": {
+                        "type": "string"
+                      },
+                      "quantity": {
+                        "minimum": 1,
+                        "type": "integer"
+                      }
+                    },
+                    "required": [
+                      "item",
+                      "quantity"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                },
+                "type": "array"
+              },
+              "satiation": {
+                "description": "how much a follower's hunger it fills (the game's own units)",
+                "type": "integer"
+              },
+              "satiationPlayer": {
+                "description": "how much it heals the player when eaten",
+                "type": "integer"
+              },
+              "stars": {
+                "description": "quality stars the cooking menu shows",
+                "type": "integer"
+              },
+              "tummyRating": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "recipes",
+              "satiation",
+              "satiationPlayer",
+              "stars",
+              "tummyRating",
+              "faith",
+              "cookTime",
+              "dlc",
+              "effects"
+            ],
+            "type": [
+              "object",
+              "null"
+            ]
+          },
           "name": {
             "additionalProperties": {
               "minLength": 1,
@@ -156,7 +261,7 @@
             "type": "object"
           },
           "tags": {
-            "description": "food, fish, big_fish, meat, heart, gift",
+            "description": "food, fish, big_fish, meat, heart, gift, meal, drink",
             "items": {
               "type": "string"
             },
@@ -367,7 +472,7 @@
     }
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:39:19Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T04:45:14Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },

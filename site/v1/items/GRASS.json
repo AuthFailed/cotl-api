@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/GRASS.png",
   "id": "GRASS",
+  "meal": null,
   "name": {
     "ar": "عشب",
     "de": "Gras",

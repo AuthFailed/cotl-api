@@ -36,6 +36,7 @@
   },
   "icon": "icons/items/FISHING_ROD.png",
   "id": "FISHING_ROD",
+  "meal": null,
   "name": {
     "ar": "صنارة صيد",
     "de": "Angelrute",
