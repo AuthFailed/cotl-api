@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "让白天时不奉拜的教徒来此祈祷，储存虔诚度",
     "zh-TW": "讓白天時不負責奉拜的教徒來此祈禱，儲存虔誠值"
   },
+  "descriptionPlain": {
+    "ar": "مكان للأتباع الذين لا يعبرون عن تبجيلهم ليلتمسوا مطالبهم فيه على مدار اليوم ويقدموا الولاء.",
+    "de": "Ein Ort, an dem Anhänger tagsüber beten und Hingabe hinterlegen können, wenn sie dir nicht am Schrein huldigen.",
+    "en": "A place for Followers who are not worshipping to pray throughout the day and deposit Devotion.",
+    "es": "Un lugar para que los adeptos ociosos recen durante el día y donde puedan depositar su devoción.",
+    "fr": "Permet aux adeptes qui ne prient pas auprès de l'Autel de générer de la dévotion au cours de la journée.",
+    "fr-CA": "Permet aux adeptes qui ne prient pas auprès du Sanctuaire de générer de la dévotion au cours de la journée.",
+    "it": "Un luogo dove i membri del Culto che non sono in adorazione possono pregare durante il giorno e depositare Devozione.",
+    "ja": "祈りを捧げる以外の作業をしている信者からも祈念を集め、蓄えておくための場所",
+    "ko": "하루 종일 기도와 헌신을 바치지 않을 신자들을 위한 장소입니다.",
+    "nl": "Een plaats waar volgelingen die je niet bij het altaar vereren, overdag kunnen bidden voor meer devotie.",
+    "pt-BR": "Um lugar para os Seguidores que não estiverem adorando rezarem no decorrer do dia e depositarem Devoção.",
+    "ru": "Идол, у которого не занятые молением последователи могут помолиться на протяжении дня и выразить свою преданность.",
+    "tr": "Tapınmayan Takipçilerin gün içinde dua edebileceği ve Sadakat biriktirebileceği bir yer.",
+    "zh-CN": "让白天时不奉拜的教徒来此祈祷，储存虔诚度",
+    "zh-TW": "讓白天時不負責奉拜的教徒來此祈禱，儲存虔誠值"
+  },
   "icon": "icons/structures/SHRINE_PASSIVE_III.png",
   "id": "SHRINE_PASSIVE_III",
+  "menu": "Faith/General",
   "name": {
+    "ar": "مزار الالتماس III",
+    "de": "Tabernakel III",
+    "en": "Tabernacle III",
+    "es": "Tabernáculo III",
+    "fr": "Tabernacle III",
+    "fr-CA": "Tabernacle III",
+    "it": "Tabernacolo III",
+    "ja": "礼拝像 III",
+    "ko": "이동식 예배소 III",
+    "nl": "Tabernakel III",
+    "pt-BR": "Tabernáculo III",
+    "ru": "Молельня III",
+    "tr": "Dua Heykeli III",
+    "zh-CN": "圣像 III",
+    "zh-TW": "聖像 III"
+  },
+  "namePlain": {
     "ar": "مزار الالتماس III",
     "de": "Tabernakel III",
     "en": "Tabernacle III",

@@ -17,6 +17,23 @@
     "zh-CN": "令人为之惊叹的渔获。",
     "zh-TW": "令人為之驚嘆的漁獲。"
   },
+  "descriptionPlain": {
+    "ar": "صيد استثنائي حقًا.",
+    "de": "Ein wirklich bemerkenswerter Fang.",
+    "en": "A truly remarkable catch.",
+    "es": "Una captura impresionante.",
+    "fr": "Une prise remarquable.",
+    "fr-CA": "Une prise remarquable.",
+    "it": "Una preda davvero notevole.",
+    "ja": "滅多に釣り上げることのできない魚",
+    "ko": "놀라운 월척입니다.",
+    "nl": "Een waarlijk bijzondere vangst.",
+    "pt-BR": "Uma pesca realmente notável.",
+    "ru": "Очень достойный улов.",
+    "tr": "Takdire şayan bir av.",
+    "zh-CN": "令人为之惊叹的渔获。",
+    "zh-TW": "令人為之驚嘆的漁獲。"
+  },
   "icon": "icons/items/FISH_SWORDFISH.png",
   "id": "FISH_SWORDFISH",
   "name": {
@@ -35,5 +52,27 @@
     "tr": "Kılıç Balığı",
     "zh-CN": "剑鱼",
     "zh-TW": "劍魚"
-  }
+  },
+  "namePlain": {
+    "ar": "سمكة أبو سيف",
+    "de": "Schwertfisch",
+    "en": "Swordfish",
+    "es": "Pez espada",
+    "fr": "Espadon",
+    "fr-CA": "Espadon",
+    "it": "Pesce spada",
+    "ja": "メカジキ",
+    "ko": "황새치",
+    "nl": "Zwaardvis",
+    "pt-BR": "Peixe-Espada",
+    "ru": "Рыба-меч",
+    "tr": "Kılıç Balığı",
+    "zh-CN": "剑鱼",
+    "zh-TW": "劍魚"
+  },
+  "tags": [
+    "food",
+    "fish",
+    "big_fish"
+  ]
 }

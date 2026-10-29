@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "优雅花瓶里有盛开的美丽牡丹。",
     "zh-TW": "優雅花瓶裡有盛開的美麗牡丹。"
   },
+  "descriptionPlain": {
+    "ar": "أزهار فاوانيا جميلة ونضرة في أناء أنيق.",
+    "de": "Schöne, blühende Pfingstrosen in einer eleganten Vase.",
+    "en": "Beautiful, blooming peonies in an elegant vase.",
+    "es": "Unas preciosas peonías en flor que sobresalen de un elegante jarrón.",
+    "fr": "De belles pivoines en fleur dans un vase élégant.",
+    "fr-CA": "De belles pivoines en fleur dans un vase élégant.",
+    "it": "Bellissime peonie in fiore, in un vaso elegante.",
+    "ja": "美しいシャクヤクの花が入っている上質な花瓶",
+    "ko": "우아한 꽃병 안에 아름답고 활짝 핀 모란이 담겨있습니다.",
+    "nl": "Prachtige, bloeiende pioenrozen in een elegante vaas.",
+    "pt-BR": "Um vaso elegante com flores de peônia.",
+    "ru": "Прекрасные распустившиеся цветы в элегантной вазе.",
+    "tr": "Şık bir vazoda hoş, göz alıcı şakayıklar.",
+    "zh-CN": "优雅花瓶里有盛开的美丽牡丹。",
+    "zh-TW": "優雅花瓶裡有盛開的美麗牡丹。"
+  },
   "icon": "icons/structures/DECORATION_PILGRIM_VASE.png",
   "id": "DECORATION_PILGRIM_VASE",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "إناء زهور الفاوانيا",
+    "de": "Pfingstrosenvase",
+    "en": "Vase of Peonies",
+    "es": "Jarrón de peonía",
+    "fr": "Vase de pivoines",
+    "fr-CA": "Vase de pivoines",
+    "it": "Vaso di peonie",
+    "ja": "シャクヤクの花瓶",
+    "ko": "모란 꽃병",
+    "nl": "Vaas met pioenrozen",
+    "pt-BR": "Vaso de Peônias",
+    "ru": "Ваза с пионами",
+    "tr": "Şakayık Vazosu",
+    "zh-CN": "牡丹花瓶",
+    "zh-TW": "牡丹花瓶"
+  },
+  "namePlain": {
     "ar": "إناء زهور الفاوانيا",
     "de": "Pfingstrosenvase",
     "en": "Vase of Peonies",

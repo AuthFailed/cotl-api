@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "埋葬死者",
     "zh-TW": "埋葬死者"
   },
+  "descriptionPlain": {
+    "ar": "لدفن الموتى.",
+    "de": "Begrabe die Gefallenen.",
+    "en": "Bury the fallen.",
+    "es": "Entierra a los caídos.",
+    "fr": "Permet d'enterrer les défunts.",
+    "fr-CA": "Permet d'enterrer les défunts.",
+    "it": "Per seppellire i caduti.",
+    "ja": "死者を埋葬するための場所",
+    "ko": "죽은 자들을 묻습니다.",
+    "nl": "Begraaf de gevallenen.",
+    "pt-BR": "Enterre os que caíram",
+    "ru": "Камень над могилой.",
+    "tr": "Ölülerini toprağa ver.",
+    "zh-CN": "埋葬死者",
+    "zh-TW": "埋葬死者"
+  },
   "icon": "icons/structures/GRAVE.png",
   "id": "GRAVE",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "قبر",
+    "de": "Grab",
+    "en": "Grave",
+    "es": "Tumba",
+    "fr": "Tombe",
+    "fr-CA": "Tombe",
+    "it": "Tomba",
+    "ja": "墓石",
+    "ko": "무덤",
+    "nl": "Graf",
+    "pt-BR": "Túmulo",
+    "ru": "Могила с надгробием",
+    "tr": "Mezar",
+    "zh-CN": "坟墓",
+    "zh-TW": "墳墓"
+  },
+  "namePlain": {
     "ar": "قبر",
     "de": "Grab",
     "en": "Grave",

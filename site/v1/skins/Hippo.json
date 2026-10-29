@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Hippo",
   "name": {
+    "en": "Hippo"
+  },
+  "namePlain": {
     "en": "Hippo"
   },
   "unlock": "Dungeon3"

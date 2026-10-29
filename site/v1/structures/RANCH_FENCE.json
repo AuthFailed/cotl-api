@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -22,9 +24,44 @@
     "zh-CN": "用于阻止动物逃离牧场。",
     "zh-TW": "用於阻止動物逃離牧場。"
   },
+  "descriptionPlain": {
+    "ar": "يُستخدم لمنع الحيوانات من الهرب من مَربى الحيوانات.",
+    "de": "Wird verwendet, um Tiere davon abzuhalten, deine Ranch zu verlassen.",
+    "en": "Used to stop animals from escaping your Ranch.",
+    "es": "Evita que los animales se escapen.",
+    "fr": "Empêche les animaux de s'enfuir du ranch.",
+    "fr-CA": "Empêche les animaux de s'enfuir du ranch.",
+    "it": "Impiegata per impedire agli animali di fuggire dall'Allevamento.",
+    "ja": "動物が畜舎から逃げないようにするための囲い",
+    "ko": "동물들이 목장에서 탈출하지 못하게 막습니다.",
+    "nl": "Gebruikt om te voorkomen dat je dieren ontsnappen.",
+    "pt-BR": "Usada para impedir que os animais escapem do rancho.",
+    "ru": "Забор, предотвращающий побег животных из хлева.",
+    "tr": "Hayvanların Hayvan Çiftliği'nden kaçmasını önlemek için kullanılır.",
+    "zh-CN": "用于阻止动物逃离牧场。",
+    "zh-TW": "用於阻止動物逃離牧場。"
+  },
   "icon": "icons/structures/RANCH_FENCE.png",
   "id": "RANCH_FENCE",
+  "menu": "MajorDLC/Ranching",
   "name": {
+    "ar": "سياج مَربى الحيوانات",
+    "de": "Ranchzaun",
+    "en": "Ranch Fence",
+    "es": "Valla del rancho",
+    "fr": "Clôture du ranch",
+    "fr-CA": "Clôture du ranch",
+    "it": "Recinzione",
+    "ja": "畜舎用囲い",
+    "ko": "목장 울타리",
+    "nl": "Veehek",
+    "pt-BR": "Cerca de Rancho",
+    "ru": "Загон",
+    "tr": "Hayvan Çiftliği Çiti",
+    "zh-CN": "牧场栅栏",
+    "zh-TW": "牧場柵欄"
+  },
+  "namePlain": {
     "ar": "سياج مَربى الحيوانات",
     "de": "Ranchzaun",
     "en": "Ranch Fence",

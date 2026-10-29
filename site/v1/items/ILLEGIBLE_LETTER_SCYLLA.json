@@ -17,6 +17,23 @@
     "zh-CN": "将这封信交给<color=#FFD201>腐烂之地</color>的<color=#FFD201>卡律布迪斯</color>。",
     "zh-TW": "將信交給<color=#FFD201>腐朽之地</color>的<color=#FFD201>卡律布狄斯</color>。"
   },
+  "descriptionPlain": {
+    "ar": "عليك توصيل هذه إلى كاريبديس في بؤرة التعفن.",
+    "de": "Bring ihn zu Charybdis in Die Fäulnis.",
+    "en": "Deliver this to Charybdis in The Rot.",
+    "es": "Ve a Tierra putrefacta y dásela a Caribdis.",
+    "fr": "Livrez cette lettre à Charybde dans la Putrescence.",
+    "fr-CA": "Livrez cette lettre à Charybde dans la Putrescence.",
+    "it": "Consegnala a Cariddi nel Marcioventre.",
+    "ja": "腐敗の地にいるカリュブディスに渡そう",
+    "ko": "부패산의 카리브디스에게 가져가세요.",
+    "nl": "Bezorg dit aan Charybdis in de Rotting.",
+    "pt-BR": "Entregue para Caríbdis na Putrefação.",
+    "ru": "Послание, которое нужно доставить Харибде в Гниль.",
+    "tr": "Bunu Piyeten'de Charybdis'e götür.",
+    "zh-CN": "将这封信交给腐烂之地的卡律布迪斯。",
+    "zh-TW": "將信交給腐朽之地的卡律布狄斯。"
+  },
   "icon": "icons/items/ILLEGIBLE_LETTER_SCYLLA.png",
   "id": "ILLEGIBLE_LETTER_SCYLLA",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Okunamayan Mektup",
     "zh-CN": "字迹不清的信",
     "zh-TW": "難以識別的信"
-  }
+  },
+  "namePlain": {
+    "ar": "رسالة مبهمة",
+    "de": "Unleserlicher Brief",
+    "en": "Illegible Letter",
+    "es": "Carta ilegible",
+    "fr": "Lettre illisible",
+    "fr-CA": "Lettre illisible",
+    "it": "Lettera indecifrabile",
+    "ja": "判読不可能な手紙",
+    "ko": "읽을 수 없는 편지",
+    "nl": "Onleesbare brief",
+    "pt-BR": "Carta Ilegível",
+    "ru": "Неразборчивое письмо",
+    "tr": "Okunamayan Mektup",
+    "zh-CN": "字迹不清的信",
+    "zh-TW": "難以識別的信"
+  },
+  "tags": []
 }

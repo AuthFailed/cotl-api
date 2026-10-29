@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "井底的水可能还很新鲜。",
     "zh-TW": "井底的水可能還很新鮮。"
   },
+  "descriptionPlain": {
+    "ar": "قد تكون المياه في أعماقها ما زالت عذبة.",
+    "de": "Das Wasser darin könnte noch frisch sein.",
+    "en": "The water below may still be fresh.",
+    "es": "Puede que el agua del fondo aún esté limpia.",
+    "fr": "L'eau qui s'y trouve est peut-être encore fraîche.",
+    "fr-CA": "L'eau qui s'y trouve est peut-être encore fraîche.",
+    "it": "Le sue acque potrebbero essere ancora fresche.",
+    "ja": "中の水は未だにキレイなようだ",
+    "ko": "그래도 물은 아직 깨끗할 겁니다.",
+    "nl": "Het water beneden is mogelijk nog drinkbaar.",
+    "pt-BR": "A água lá embaixo talvez ainda seja potável.",
+    "ru": "Источник воды, чью свежесть ещё предстоит выяснить.",
+    "tr": "İçindeki su belki de hâlâ tazedir.",
+    "zh-CN": "井底的水可能还很新鲜。",
+    "zh-TW": "井底的水可能還很新鮮。"
+  },
   "icon": "icons/structures/DECORATION_APPLE_WELL.png",
   "id": "DECORATION_APPLE_WELL",
+  "menu": null,
   "name": {
+    "ar": "بئر تكسوها النباتات",
+    "de": "Überwachsener Brunnen",
+    "en": "Overgrown Well",
+    "es": "Pozo descuidado",
+    "fr": "Puits couvert de végétation",
+    "fr-CA": "Puits couvert de végétation",
+    "it": "Pozzo lussureggiante",
+    "ja": "ツタの井戸",
+    "ko": "덩굴로 뒤덮인 우물",
+    "nl": "Overwoekerde put",
+    "pt-BR": "Poço Descuidado",
+    "ru": "Заросший колодец",
+    "tr": "Sarmaşıklı Kuyu",
+    "zh-CN": "蔓生之井",
+    "zh-TW": "蔓生之井"
+  },
+  "namePlain": {
     "ar": "بئر تكسوها النباتات",
     "de": "Überwachsener Brunnen",
     "en": "Overgrown Well",

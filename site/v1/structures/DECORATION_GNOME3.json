@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "第三个小矮人。",
     "zh-TW": "第三個小矮人。"
   },
+  "descriptionPlain": {
+    "ar": "القزم الثالث.",
+    "de": "Der dritte Gnom.",
+    "en": "The third gnome.",
+    "es": "El tercer gnomo.",
+    "fr": "Le troisième gnome.",
+    "fr-CA": "Le troisième gnome.",
+    "it": "Il terzo gnomo.",
+    "ja": "3番目のノーム",
+    "ko": "세 번째 노움입니다.",
+    "nl": "De derde kabouter.",
+    "pt-BR": "O terceiro gnomo.",
+    "ru": "Третий гном.",
+    "tr": "Üçüncü cüce.",
+    "zh-CN": "第三个小矮人。",
+    "zh-TW": "第三個小矮人。"
+  },
   "icon": "icons/structures/DECORATION_GNOME3.png",
   "id": "DECORATION_GNOME3",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "جي",
+    "de": "Geeh",
+    "en": "Geeh",
+    "es": "Ge",
+    "fr": "Géh",
+    "fr-CA": "Géh",
+    "it": "Gii",
+    "ja": "ジイ",
+    "ko": "기히",
+    "nl": "Gee",
+    "pt-BR": "Pepo",
+    "ru": "Джи",
+    "tr": "Gum",
+    "zh-CN": "驹",
+    "zh-TW": "駒"
+  },
+  "namePlain": {
     "ar": "جي",
     "de": "Geeh",
     "en": "Geeh",

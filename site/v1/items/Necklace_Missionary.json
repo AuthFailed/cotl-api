@@ -17,6 +17,23 @@
     "zh-CN": "增加教徒传教成功的机率。",
     "zh-TW": "增加教徒傳教成功的機率。"
   },
+  "descriptionPlain": {
+    "ar": "تزيد فرص التابع في القيام ببعثة ناجحة.",
+    "de": "Anhänger-Chance auf eine erfolgreiche Mission erhöht sich.",
+    "en": "Follower chances of a successful missionary increased.",
+    "es": "Aumentan las probabilidades de éxito del adepto en una misión.",
+    "fr": "Augmente les chances de l'adepte de réussir sa mission.",
+    "fr-CA": "Augmente les chances de l'adepte de réussir sa mission.",
+    "it": "Il membro del Culto avrà più possibilità di successo in missione.",
+    "ja": "信者の宣教成功率が上昇する",
+    "ko": "추종자의 선교 성공 확률이 증가합니다.",
+    "nl": "Deze volgeling heeft een verhoogde kans op een succesvolle zendingsreis.",
+    "pt-BR": "Aumenta as chances de o trabalho missionário do Seguidor ser bem-sucedido.",
+    "ru": "Украшение, помогающее последователю вернуться с задания невредимым.",
+    "tr": "Takipçi'nin misyonerlik görevini başarıyla tamamlama ihtimalini artırır.",
+    "zh-CN": "增加教徒传教成功的机率。",
+    "zh-TW": "增加教徒傳教成功的機率。"
+  },
   "icon": "icons/items/Necklace_Missionary.png",
   "id": "Necklace_Missionary",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Misyoner Kolyesi",
     "zh-CN": "传教项链",
     "zh-TW": "傳教項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة البعثات",
+    "de": "Missionarshalskette",
+    "en": "Missionary Necklace",
+    "es": "Collar de misionero",
+    "fr": "Collier de missionnaire",
+    "fr-CA": "Collier de missionnaire",
+    "it": "Collana missionaria",
+    "ja": "宣教のネックレス",
+    "ko": "선교사의 목걸이",
+    "nl": "Zendingsketting",
+    "pt-BR": "Colar Missionário",
+    "ru": "Ожерелье миссионера",
+    "tr": "Misyoner Kolyesi",
+    "zh-CN": "传教项链",
+    "zh-TW": "傳教項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

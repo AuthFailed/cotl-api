@@ -17,6 +17,23 @@
     "zh-CN": "纯洁之花，用途甚广。",
     "zh-TW": "純潔無瑕的花，用途廣泛。"
   },
+  "descriptionPlain": {
+    "ar": "زهرة نقية متعددة الاستخدامات.",
+    "de": "Eine reine Blume mit zahlreichen Verwendungsmöglichkeiten.",
+    "en": "A flower of purity, with many uses.",
+    "es": "Una flor de extrema pureza que alberga muchos usos.",
+    "fr": "Une fleur de pureté aux nombreux usages.",
+    "fr-CA": "Une fleur de pureté aux nombreux usages.",
+    "it": "Un fiore di purezza dai molteplici usi.",
+    "ja": "純粋さを象徴する花。いろいろな使い道がある",
+    "ko": "여러가지 용도를 가진 순결의 꽃입니다.",
+    "nl": "Een zuivere bloem met veel toepassingen.",
+    "pt-BR": "Uma flor da pureza, com muitos usos.",
+    "ru": "Символизирующий чистоту цветок, которому есть множество применений.",
+    "tr": "Çok kullanışlı olan, saf bir çiçek.",
+    "zh-CN": "纯洁之花，用途甚广。",
+    "zh-TW": "純潔無瑕的花，用途廣泛。"
+  },
   "icon": "icons/items/FLOWER_WHITE.png",
   "id": "FLOWER_WHITE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kardelen",
     "zh-CN": "雪花莲",
     "zh-TW": "雪落"
-  }
+  },
+  "namePlain": {
+    "ar": "ندفة",
+    "de": "Schneeglöckchen",
+    "en": "Snowdrop",
+    "es": "Campanilla de invierno",
+    "fr": "Perce-neige",
+    "fr-CA": "Perce-neige",
+    "it": "Bucaneve",
+    "ja": "マツユキソウ",
+    "ko": "눈방울",
+    "nl": "Sneeuwklokje",
+    "pt-BR": "Galanto",
+    "ru": "Подснежник",
+    "tr": "Kardelen",
+    "zh-CN": "雪花莲",
+    "zh-TW": "雪落"
+  },
+  "tags": []
 }

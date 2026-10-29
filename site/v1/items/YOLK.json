@@ -17,6 +17,23 @@
     "zh-CN": "不是死掉的教徒……",
     "zh-TW": "不是死掉的教徒……"
   },
+  "descriptionPlain": {
+    "ar": "ليس تابعًا ميتًا...",
+    "de": "Kein toter Anhänger...",
+    "en": "Not a dead Follower...",
+    "es": "No es un adepto muerto...",
+    "fr": "Mais non, ce ne sont pas les restes d'un adepte mort...",
+    "fr-CA": "Mais non, ce ne sont pas les restes d'un adepte mort...",
+    "it": "Non è un membro defunto...",
+    "ja": "信者の死体、ではないが…",
+    "ko": "노른자는 죽은 추종자임을 나타내지 않는다.",
+    "nl": "Geen dode volgeling...",
+    "pt-BR": "Não é um Seguidor morto...",
+    "ru": "Не мёртвый последователь.",
+    "tr": "Hayır, ölü bir Takipçi değil...",
+    "zh-CN": "不是死掉的教徒……",
+    "zh-TW": "不是死掉的教徒……"
+  },
   "icon": "icons/items/YOLK.png",
   "id": "YOLK",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Yumurta Sarısı",
     "zh-CN": "蛋黄",
     "zh-TW": "蛋黃"
-  }
+  },
+  "namePlain": {
+    "ar": "بيضة",
+    "de": "Eigelb",
+    "en": "Yolk",
+    "es": "Yema",
+    "fr": "Jaune d'œuf",
+    "fr-CA": "Jaune d'œuf",
+    "it": "Tuorlo",
+    "ja": "黄身",
+    "ko": "노른자",
+    "nl": "Eigeel",
+    "pt-BR": "Gema",
+    "ru": "Желток",
+    "tr": "Yumurta Sarısı",
+    "zh-CN": "蛋黄",
+    "zh-TW": "蛋黃"
+  },
+  "tags": []
 }

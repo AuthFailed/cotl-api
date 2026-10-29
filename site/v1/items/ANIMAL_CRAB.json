@@ -17,6 +17,23 @@
     "zh-CN": "牧场的古怪生物。",
     "zh-TW": "牧場的怪生物。"
   },
+  "descriptionPlain": {
+    "ar": "كائن غريب يمكنك تربيته في مَربى الحيوانات.",
+    "de": "Eine freakige Kreatur für deine Ranch.",
+    "en": "A freakish creature for you to Ranch.",
+    "es": "Una extraña criatura que puedes criar.",
+    "fr": "Une créature bizarroïde à élever dans votre ranch.",
+    "fr-CA": "Une créature bizarroïde à élever dans votre ranch.",
+    "it": "Una bizzarra creatura da allevare.",
+    "ja": "畜舎で飼育できる、少し変わった生き物",
+    "ko": "목장에서 키우는 희한한 동물입니다.",
+    "nl": "Een ongewoon dier voor in je veeboerderij.",
+    "pt-BR": "Uma criatura esquisita para criar no Rancho.",
+    "ru": "Странное животное для разведения.",
+    "tr": "Hayvan Çiftliği'nde bakabileceğin acayip bir yaratık.",
+    "zh-CN": "牧场的古怪生物。",
+    "zh-TW": "牧場的怪生物。"
+  },
   "icon": "icons/items/ANIMAL_CRAB.png",
   "id": "ANIMAL_CRAB",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Yengeçsi",
     "zh-CN": "怪螃蟹",
     "zh-TW": "怪螃蟹"
-  }
+  },
+  "namePlain": {
+    "ar": "حيوان السلطعون",
+    "de": "Krabbi",
+    "en": "Crabish",
+    "es": "Cangrejis",
+    "fr": "Craboïde",
+    "fr-CA": "Craboïde",
+    "it": "Granchiu",
+    "ja": "カニモドキ",
+    "ko": "꽃게류",
+    "nl": "Krabbig",
+    "pt-BR": "Caranguejinho",
+    "ru": "Крабло",
+    "tr": "Yengeçsi",
+    "zh-CN": "怪螃蟹",
+    "zh-TW": "怪螃蟹"
+  },
+  "tags": []
 }

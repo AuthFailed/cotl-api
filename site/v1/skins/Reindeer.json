@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Reindeer",
   "name": {
+    "en": "Reindeer"
+  },
+  "namePlain": {
     "en": "Reindeer"
   },
   "unlock": "Dungeon5"

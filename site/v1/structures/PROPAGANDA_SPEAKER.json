@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "确保教徒听见你发言。教徒在传声筒范围内时，工作与祈祷速度增加 20%",
     "zh-TW": "確保教徒聽見你的話語。教徒在傳聲筒範圍內時，工作與祈禱速度增加 20%"
   },
+  "descriptionPlain": {
+    "ar": "للتأكد من توصيل رسالتك لأتباعك. عندما يكون الأتباع في نطاق السماعات ستزيد سرعتهم في العمل والتماس الطلبات بنسبة 20%.",
+    "de": "Stelle sicher, dass deine Anhänger deine Botschaft hören. In Reichweite der Sprecher arbeiten und beten Anhänger 20 % schneller.",
+    "en": "Ensure your Followers hear your message. When within range of speakers, Followers will work and pray 20% faster.",
+    "es": "Asegúrate de que tu palabra llega a oídos de tus seguidores. Los adeptos que estén dentro del rango de alcance trabajarán y rezarán un 20 % más rápido.",
+    "fr": "Permet de diffuser votre propagande. Les adeptes à portée travailleront et prieront 20 % plus vite.",
+    "fr-CA": "Permet de diffuser votre propagande. Les adeptes à portée travailleront et prieront 20 % plus vite.",
+    "it": "Si assicurano che i membri del Culto ascoltino il Verbo, facendoli lavorare e pregare il 20% più rapidamente quando sono nel loro raggio d'azione.",
+    "ja": "あなたの言葉を確実に信者へと届けるためのもの。スピーカーの範囲内にいる信者の作業速度と祈念生成速度が20%上昇する",
+    "ko": "추종자들에게 당신의 메시지를 전달합니다. 연사의 범위 내에 있는 추종자들이 20% 더 빠르게 일과 기도를 합니다.",
+    "nl": "Zorg ervoor dat je volgelingen je boodschap horen. Volgelingen binnen bereik van de speakers werken en bidden 20% sneller.",
+    "pt-BR": "Garanta que seus Seguidores ouçam sua palavra. Quando estiverem dentro do alcance dos alto-falantes, os Seguidores trabalharão e rezarão 20% mais rápido.",
+    "ru": "Рупоры, разносящие вашу речь по всему поселению. В радиусе действия громкоговорителей последователи работают и молятся на 20% быстрее.",
+    "tr": "Takipçilerin mesajını duymasını sağla. Hoparlör menzili içindeki Takipçiler %20 daha hızlı çalışır ve dua eder.",
+    "zh-CN": "确保教徒听见你发言。教徒在传声筒范围内时，工作与祈祷速度增加 20%",
+    "zh-TW": "確保教徒聽見你的話語。教徒在傳聲筒範圍內時，工作與祈禱速度增加 20%"
+  },
   "icon": "icons/structures/PROPAGANDA_SPEAKER.png",
   "id": "PROPAGANDA_SPEAKER",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "سماعات الدعاية",
+    "de": "Propagandasprecher",
+    "en": "Propaganda Speakers",
+    "es": "Altavoces propagandísticos",
+    "fr": "Zélateurs",
+    "fr-CA": "Zélateurs",
+    "it": "Altoparlanti di propaganda",
+    "ja": "プロパガンダ用スピーカー",
+    "ko": "선전 연사",
+    "nl": "Propagandaspeakers",
+    "pt-BR": "Alto-Falantes de Propaganda",
+    "ru": "Громкоговорители",
+    "tr": "Propaganda Hoparlörü",
+    "zh-CN": "教会传声筒",
+    "zh-TW": "教會傳聲筒"
+  },
+  "namePlain": {
     "ar": "سماعات الدعاية",
     "de": "Propagandasprecher",
     "en": "Propaganda Speakers",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "门徒会收集范围内其他建筑的<color=#FFD201>虔诚度</color> <sprite name=\"icon_spirits\"> 并存放于此。",
     "zh-TW": "門徒會收集範圍內其他建築的<color=#FFD201>虔誠值</color> <sprite name=\"icon_spirits\"> 並存放於此。"
   },
+  "descriptionPlain": {
+    "ar": "سيجمع الأنصار الولاء من المباني الأخرى داخل النطاق ويودعونه هنا.",
+    "de": "Jünger sammeln Hingabe aus anderen Gebäuden innerhalb des Radius und hinterlegen sie hier.",
+    "en": "Disciples will collect Devotion from other structures within radius and deposit it here.",
+    "es": "Los discípulos recolectan devoción en las estructuras dentro del alcance y la depositan aquí.",
+    "fr": "Les disciples collectent de la dévotion des autres structures de la zone et la déposent ici.",
+    "fr-CA": "Les disciples collectent de la dévotion des autres structures de la zone et la déposent ici.",
+    "it": "Qui i discepoli conserveranno la Devozione raccolta dalle altre strutture nel raggio d'azione.",
+    "ja": "使徒が範囲内のほかの建造物から祈念 を集めて、ここに蓄える",
+    "ko": "사도들이 범위 내 다른 건축물에서 헌신 을 모아 이곳에 저장합니다.",
+    "nl": "Discipelen verzamelen devotie bij andere gebouwen binnen bereik en plaatsen die hier.",
+    "pt-BR": "Discípulos coletarão Devoção de outras estruturas dentro de seu raio para depositá-la aqui.",
+    "ru": "Место, которое может накапливать преданность, перенесённую вашими учениками с других строений в радиусе действия.",
+    "tr": "Müritler alan içindeki diğer yapılardan Sadakat toplayıp burada depolar.",
+    "zh-CN": "门徒会收集范围内其他建筑的虔诚度 并存放于此。",
+    "zh-TW": "門徒會收集範圍內其他建築的虔誠值 並存放於此。"
+  },
   "icon": "icons/structures/SHRINE_DISCIPLE_COLLECTION.png",
   "id": "SHRINE_DISCIPLE_COLLECTION",
+  "menu": "Faith/General",
   "name": {
+    "ar": "مزار الأنصار الجامعين",
+    "de": "Sammelschrein der Jünger",
+    "en": "Collected Shrine of Disciples",
+    "es": "Santuario de discípulos de recolección",
+    "fr": "Autel de collecte des disciples",
+    "fr-CA": "Autel de collecte des disciples",
+    "it": "Santuario di raccolta dei discepoli",
+    "ja": "使徒の収集祭壇",
+    "ko": "집중된 사도의 성지",
+    "nl": "Verzamelaltaar der discipelen",
+    "pt-BR": "Santuário dos Discípulos Coletor",
+    "ru": "Сохраняющий алтарь учеников",
+    "tr": "Sadık Mürit Mabedi",
+    "zh-CN": "门徒集中圣坛",
+    "zh-TW": "門徒集中聖壇"
+  },
+  "namePlain": {
     "ar": "مزار الأنصار الجامعين",
     "de": "Sammelschrein der Jünger",
     "en": "Collected Shrine of Disciples",

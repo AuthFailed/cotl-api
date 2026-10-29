@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "将死去的教徒埋进简单的坑里。避免遗体腐烂",
     "zh-TW": "將死去的教徒埋進簡單的坑裡。避免遺體腐爛"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك دفن الأتباع الموتى في حفرة بسيطة لتجنب تعفن الجثث.",
+    "de": "Begrabe tote Anhänger in einer einfachen Grube. Damit keine verwesenden Leichen herumliegen.",
+    "en": "Bury dead Followers in a simple pit. Avoids rotting corpses.",
+    "es": "Entierra a los adeptos muertos en un foso sencillo, así evitas que se pudran.",
+    "fr": "Permet d'enterrer les adeptes morts et de protéger leurs dépouilles de la putréfaction.",
+    "fr-CA": "Permet d'enterrer les adeptes morts et de protéger leurs dépouilles de la putréfaction.",
+    "it": "Una semplice fossa adatta alla sepoltura dei membri del Culto defunti, evitandone la decomposizione.",
+    "ja": "信者の死体を埋めるための穴。死体の腐敗を防ぐ",
+    "ko": "단순한 구덩이에 죽은 추종자들을 묻습니다. 썩은 시체를 피할 수 있습니다.",
+    "nl": "Begraaf dode volgelingen in een simpel gat. Zo voorkom je dat lijken gaan rotten.",
+    "pt-BR": "Enterre os Seguidores mortos de um jeito simples. Evita cadáveres em decomposição.",
+    "ru": "Яма, в которой можно похоронить погибшего последователя, чтобы избежать разложения тела.",
+    "tr": "Ölü Takipçileri gömebileceğin, basit bir çukur. Cesetlerin çürümesini önler.",
+    "zh-CN": "将死去的教徒埋进简单的坑里。避免遗体腐烂",
+    "zh-TW": "將死去的教徒埋進簡單的坑裡。避免遺體腐爛"
+  },
   "icon": "icons/structures/BODY_PIT.png",
   "id": "BODY_PIT",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "حفرة دفن",
+    "de": "Leichengrube",
+    "en": "Body Pit",
+    "es": "Fosa común",
+    "fr": "Fosse commune",
+    "fr-CA": "Fosse commune",
+    "it": "Fossa di sepoltura",
+    "ja": "土葬穴",
+    "ko": "시체 구덩이",
+    "nl": "Gat in de grond",
+    "pt-BR": "Cova",
+    "ru": "Могила",
+    "tr": "Ceset Çukuru",
+    "zh-CN": "尸坑",
+    "zh-TW": "屍坑"
+  },
+  "namePlain": {
     "ar": "حفرة دفن",
     "de": "Leichengrube",
     "en": "Body Pit",

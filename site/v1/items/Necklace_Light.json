@@ -17,6 +17,23 @@
     "zh-CN": "没有明确效果……不过通常得有所牺牲才能获得知识。",
     "zh-TW": "沒有明確效果……不過通常得有所犧牲才能獲得知識。"
   },
+  "descriptionPlain": {
+    "ar": "تأثيرها غير معروف... لكن غالبًا ما تُجنى المعرفة بتقديم تضحيات.",
+    "de": "Kein bekannter Effekt … allerdings wird Wissen oft durch Opfer erlangt.",
+    "en": "No known effect... though knowledge is oft gained through sacrifice.",
+    "es": "Que se sepa, no posee ningún efecto, pero, a menudo, la sabiduría se obtiene por medio del sacrificio.",
+    "fr": "Aucun effet connu... Mais la connaissance s'acquiert souvent par le sacrifice.",
+    "fr-CA": "Aucun effet connu... Mais la connaissance s'acquiert souvent par le sacrifice.",
+    "it": "Non se ne conosce l'effetto... sebbene la conoscenza venga spesso acquisita attraverso il sacrificio.",
+    "ja": "効果不明。しかし知識とは古より、生贄によって得られてきたものである",
+    "ko": "알려진 효과 없음. 번제를 통해 종종 지식을 얻을 수 있습니다.",
+    "nl": "Geen bekende effecten... Hoewel kennis veelal wordt vergaard via offers.",
+    "pt-BR": "Não se sabe se possui algum efeito... mas geralmente o conhecimento é obtido por meio do sacrifício.",
+    "ru": "Украшение, обладающее неизвестным действием… которое, возможно, выявит жертва.",
+    "tr": "Etkisi bilinmiyor. Ancak bilgi, genelde fedakârlıkla elde edilir.",
+    "zh-CN": "没有明确效果……不过通常得有所牺牲才能获得知识。",
+    "zh-TW": "沒有明確效果……不過通常得有所犧牲才能獲得知識。"
+  },
   "icon": "icons/items/Necklace_Light.png",
   "id": "Necklace_Light",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Işık Kolyesi",
     "zh-CN": "光明项链",
     "zh-TW": "光明項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة النور",
+    "de": "Lichthalskette",
+    "en": "Light Necklace",
+    "es": "Collar de luz",
+    "fr": "Collier de lumière",
+    "fr-CA": "Collier de lumière",
+    "it": "Collana luminosa",
+    "ja": "光のネックレス",
+    "ko": "빛의 목걸이",
+    "nl": "Lichtketting",
+    "pt-BR": "Colar da Luz",
+    "ru": "Ожерелье света",
+    "tr": "Işık Kolyesi",
+    "zh-CN": "光明项链",
+    "zh-TW": "光明項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

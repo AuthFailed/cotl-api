@@ -17,6 +17,23 @@
     "zh-CN": "教徒不会受冻。",
     "zh-TW": "教徒不會受凍。"
   },
+  "descriptionPlain": {
+    "ar": "لن يتجمد التابع.",
+    "de": "Der Anhänger wird nicht frieren.",
+    "en": "Follower will not freeze.",
+    "es": "El adepto no se congelará nunca.",
+    "fr": "L'adepte n'aura jamais froid.",
+    "fr-CA": "L'adepte n'aura jamais froid.",
+    "it": "Il membro del Culto non congelerà.",
+    "ja": "信者が凍結しなくなる",
+    "ko": "추종자가 빙결 상태에 걸리지 않습니다.",
+    "nl": "Volgeling bevriest niet.",
+    "pt-BR": "O seguidor não congelará.",
+    "ru": "Украшение, позволяющее последователю не замерзать.",
+    "tr": "Takipçi donmaz.",
+    "zh-CN": "教徒不会受冻。",
+    "zh-TW": "教徒不會受凍。"
+  },
   "icon": "icons/items/Necklace_Frozen.png",
   "id": "Necklace_Frozen",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Isıtan Kolye",
     "zh-CN": "温暖项链",
     "zh-TW": "暖暖項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة التدفئة",
+    "de": "Wärmende Halskette",
+    "en": "Warming Necklace",
+    "es": "Collar de ascuas",
+    "fr": "Collier chauffant",
+    "fr-CA": "Collier chauffant",
+    "it": "Collana del tepore",
+    "ja": "温もりのネックレス",
+    "ko": "온기의 목걸이",
+    "nl": "Verwarmende ketting",
+    "pt-BR": "Colar Aquecedor",
+    "ru": "Ожерелье согревания",
+    "tr": "Isıtan Kolye",
+    "zh-CN": "温暖项链",
+    "zh-TW": "暖暖項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

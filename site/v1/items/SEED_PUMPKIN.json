@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántala en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantalo in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_PUMPKIN.png",
   "id": "SEED_PUMPKIN",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Bal Kabağı Tohumu",
     "zh-CN": "南瓜种子",
     "zh-TW": "南瓜種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذرة يقطين",
+    "de": "Kürbiskern",
+    "en": "Pumpkin Seed",
+    "es": "Semilla de calabaza",
+    "fr": "Graine de citrouille",
+    "fr-CA": "Graines de citrouille",
+    "it": "Seme di zucca",
+    "ja": "カボチャの種",
+    "ko": "호박 씨앗",
+    "nl": "Pompoenzaden",
+    "pt-BR": "Semente de Abóbora",
+    "ru": "Семя тыквы",
+    "tr": "Bal Kabağı Tohumu",
+    "zh-CN": "南瓜种子",
+    "zh-TW": "南瓜種子"
+  },
+  "tags": []
 }

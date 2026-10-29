@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Boss_Rot_4",
   "name": {
+    "en": "Boss Rot 4"
+  },
+  "namePlain": {
     "en": "Boss Rot 4"
   },
   "unlock": "Dungeon6"

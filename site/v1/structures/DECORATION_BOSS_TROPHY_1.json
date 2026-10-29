@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "FLOWER_RED",
@@ -30,9 +32,44 @@
     "zh-CN": "击杀莱蟋的纪念品",
     "zh-TW": "擊殺萊蟋的紀念品"
   },
+  "descriptionPlain": {
+    "ar": "جائزة لقتلك ليشي.",
+    "de": "Eine Trophäe für das Töten von Leshy",
+    "en": "A trophy for killing Leshy.",
+    "es": "Un trofeo por matar a Leshy.",
+    "fr": "Un trophée pour avoir tué Leshy",
+    "fr-CA": "Un trophée pour avoir tué Leshy.",
+    "it": "Un trofeo per l'uccisione di Leshy.",
+    "ja": "レーシィを殺した証の記念碑",
+    "ko": "레쉬를 죽여서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het doden van Leshy.",
+    "pt-BR": "Um troféu por matar Leshy",
+    "ru": "Доказательство победы над Лешим.",
+    "tr": "Leshy öldüğünde kazandığın miras.",
+    "zh-CN": "击杀莱蟋的纪念品",
+    "zh-TW": "擊殺萊蟋的紀念品"
+  },
   "icon": "icons/structures/DECORATION_BOSS_TROPHY_1.png",
   "id": "DECORATION_BOSS_TROPHY_1",
+  "menu": "Aesthetic/Dungeon1",
   "name": {
+    "ar": "جائزة ليشي",
+    "de": "Leshy-Trophäe",
+    "en": "Leshy Trophy",
+    "es": "Trofeo de Leshy",
+    "fr": "Trophée de Leshy",
+    "fr-CA": "Trophée de Leshy",
+    "it": "Trofeo di Leshy",
+    "ja": "レーシィの記念碑",
+    "ko": "레쉬 전리품",
+    "nl": "Leshy-trofee",
+    "pt-BR": "Troféu de Leshy",
+    "ru": "Трофей (Леший)",
+    "tr": "Leshy Mirası",
+    "zh-CN": "莱蟋纪念品",
+    "zh-TW": "萊蟋紀念品"
+  },
+  "namePlain": {
     "ar": "جائزة ليشي",
     "de": "Leshy-Trophäe",
     "en": "Leshy Trophy",

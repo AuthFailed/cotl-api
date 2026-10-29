@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعه في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántala en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantala in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_MUSHROOM.png",
   "id": "SEED_MUSHROOM",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Zihinbozan Mantarı Sporu",
     "zh-CN": "噬心蘑菇孢子",
     "zh-TW": "噬心蘑菇孢子"
-  }
+  },
+  "namePlain": {
+    "ar": "بوغ فطر تطويع",
+    "de": "Gehirnwäschepilz-Spore",
+    "en": "Menticide Mushroom Spore",
+    "es": "Espora de seta lavacerebros",
+    "fr": "Spores hallucinogènes",
+    "fr-CA": "Spores hallucinogènes",
+    "it": "Spora di fungo menticida",
+    "ja": "洗脳キノコの胞子",
+    "ko": "정신살해 버섯 포자",
+    "nl": "Hersenschimmelsporen",
+    "pt-BR": "Esporo de Cogumelo Menticida",
+    "ru": "Спора дурманного гриба",
+    "tr": "Zihinbozan Mantarı Sporu",
+    "zh-CN": "噬心蘑菇孢子",
+    "zh-TW": "噬心蘑菇孢子"
+  },
+  "tags": []
 }

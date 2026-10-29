@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Lobster",
   "name": {
+    "en": "Apple_5"
+  },
+  "namePlain": {
     "en": "Apple_5"
   },
   "unlock": "Other"

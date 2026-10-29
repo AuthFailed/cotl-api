@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MUSHROOM_SMALL",
@@ -22,9 +24,44 @@
     "zh-CN": "能放几根蜡烛的蘑菇烛台",
     "zh-TW": "能放幾根蠟燭的蘑菇燭臺"
   },
+  "descriptionPlain": {
+    "ar": "فطر يحمل بضع شموع.",
+    "de": "Pilzständer für ein paar Kerzen.",
+    "en": "Mushroom stands for a few candles.",
+    "es": "Soportes de setas para varias velas.",
+    "fr": "Plusieurs bougeoirs champignons.",
+    "fr-CA": "Plusieurs bougeoirs champignons.",
+    "it": "Un portacandele fungino.",
+    "ja": "ロウソクが数本乗っている、キノコでできた燭台",
+    "ko": "초를 올려놓을 수 있는 버섯 지지대입니다.",
+    "nl": "Paddenstoelenkandelaar voor een paar kaarsen.",
+    "pt-BR": "Suportes de cogumelos para algumas velas",
+    "ru": "Свечи, расположенные на шляпках грибов.",
+    "tr": "Üstünde birkaç mum duran mantarlar.",
+    "zh-CN": "能放几根蜡烛的蘑菇烛台",
+    "zh-TW": "能放幾根蠟燭的蘑菇燭臺"
+  },
   "icon": "icons/structures/DECORATION_MUSHROOM_CANDLE_1.png",
   "id": "DECORATION_MUSHROOM_CANDLE_1",
+  "menu": "Aesthetic/Mushroom",
   "name": {
+    "ar": "الفطر حامل الشموع الصغير",
+    "de": "Kleine Pilzkerze",
+    "en": "Small Mushroom Candle",
+    "es": "Vela seta pequeña",
+    "fr": "Bougies sur champignons",
+    "fr-CA": "Bougies sur champignons",
+    "it": "Fungo portacandele piccolo",
+    "ja": "キノコのロウソク（小）",
+    "ko": "소형 버섯 촛대",
+    "nl": "Kleine paddenstoelenkandelaar",
+    "pt-BR": "Pequeno Castiçal de Cogumelo",
+    "ru": "Малый грибной подсвечник",
+    "tr": "Mumlu Küçük Mantar",
+    "zh-CN": "小型蘑菇烛台",
+    "zh-TW": "小型蘑菇燭臺"
+  },
+  "namePlain": {
     "ar": "الفطر حامل الشموع الصغير",
     "de": "Kleine Pilzkerze",
     "en": "Small Mushroom Candle",

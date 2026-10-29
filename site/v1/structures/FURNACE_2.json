@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "燃烧<color=#FD1D03>腐烧</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>为教会供暖。可以抵御<color=#FD1D03>暴风雪</color>。",
     "zh-TW": "<color=#FD1D03>冬天</color>燃燒<color=#FD1D03>腐燃</color> <sprite name=\"icon_MagmaStone\"> 可以溫暖教會。放入一定數量的腐燃時，可以驅散<color=#FD1D03>暴風雪</color>。"
   },
+  "descriptionPlain": {
+    "ar": "يحرق فحم التعفن لتدفئة الطائفة في الشتاء. سينهي العواصف الثلجية عندما يكون ممتلئًا إلى أقصى حد لسعته.",
+    "de": "Verbrennt Fäulnisbrand, um den Kult im Winter warmzuhalten. Kann Schneestürme vertreiben.",
+    "en": "Burns Rotburn to warm the Cult in winter. Can dispel blizzards.",
+    "es": "Quema petrodumbre para calentar la secta cuando llega el invierno. Si se llena del todo, despeja las ventiscas.",
+    "fr": "Brûle du charbon putrescent pour réchauffer le culte en hiver. Fait disparaître les blizzards s'il est à pleine capacité.",
+    "fr-CA": "Brûle du charbon putrescent pour réchauffer la secte en hiver. Fait disparaître les blizzards s'il est à pleine capacité.",
+    "it": "Brucia marciolite per riscaldare il Culto in inverno. Dissipa le bufere quando è a capienza massima.",
+    "ja": "腐敗石 を燃やすことで、冬の教団を温めてくれる。吹雪を止められる",
+    "ko": "겨울에 부패석탄 을 태워 교단을 따뜻하게 유지합니다. 눈보라를 몰아냅니다.",
+    "nl": "Verbrandt rotsteen om de sekte warm te houden in de winter. Houdt sneeuwstormen tegen.",
+    "pt-BR": "Queima Putrefogo para aquecer o Culto no inverno. Dissipará nevascas na capacidade total.",
+    "ru": "Печь для сжигания гнилогара и отопления поселения в течение зимы. Разгоняет метель при наполнении до предела.",
+    "tr": "Çürükateş yakarak Tarikat'ı kışın ısıtır. Tamamen doldurulduğu zaman tipileri durdurur.",
+    "zh-CN": "燃烧腐烧，在冬日为教会供暖。可以抵御暴风雪。",
+    "zh-TW": "冬天燃燒腐燃 可以溫暖教會。放入一定數量的腐燃時，可以驅散暴風雪。"
+  },
   "icon": "icons/structures/FURNACE_2.png",
   "id": "FURNACE_2",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "فرن فحم التعفن II",
+    "de": "Fäulnisbrand-Ofen II",
+    "en": "Rotburn Furnace II",
+    "es": "Caldera de petrodumbre II",
+    "fr": "Fourneau à charbon putrescent II",
+    "fr-CA": "Fournaise à charbon putrescent II",
+    "it": "Fornace a marciolite II",
+    "ja": "腐敗石ストーブ II",
+    "ko": "부패석탄 화로 II",
+    "nl": "Rotsteenoven II",
+    "pt-BR": "Fornalha Putrefogo II",
+    "ru": "Гнилогарная печь II",
+    "tr": "Çürükateş Sobası II",
+    "zh-CN": "腐烧火炉 II",
+    "zh-TW": "腐燃爐 II"
+  },
+  "namePlain": {
     "ar": "فرن فحم التعفن II",
     "de": "Fäulnisbrand-Ofen II",
     "en": "Rotburn Furnace II",

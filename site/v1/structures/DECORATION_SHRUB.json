@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [],
   "description": {
     "ar": "شجيرة زينة بسيطة.",
@@ -17,9 +19,44 @@
     "zh-CN": "简朴的装饰用矮树",
     "zh-TW": "簡樸的裝飾用矮樹"
   },
+  "descriptionPlain": {
+    "ar": "شجيرة زينة بسيطة.",
+    "de": "Ein einfacher dekorativer Strauch.",
+    "en": "A simple decorative shrub.",
+    "es": "Un arbusto decorativo sencillo.",
+    "fr": "Un arbuste décoratif. Tout simplement.",
+    "fr-CA": "Un simple arbuste décoratif.",
+    "it": "Un semplice arbusto ornamentale.",
+    "ja": "装飾向けの簡素な低木",
+    "ko": "단순한 장식용 관목입니다.",
+    "nl": "Een eenvoudige decoratieve struik.",
+    "pt-BR": "Um arbusto decorativo simples",
+    "ru": "Куст для украшения поселения.",
+    "tr": "Basit bir dekoratif çalı.",
+    "zh-CN": "简朴的装饰用矮树",
+    "zh-TW": "簡樸的裝飾用矮樹"
+  },
   "icon": "icons/structures/DECORATION_SHRUB.png",
   "id": "DECORATION_SHRUB",
+  "menu": null,
   "name": {
+    "ar": "شجيرة بسيطة",
+    "de": "Einfacher Strauch",
+    "en": "Simple Shrub",
+    "es": "Arbusto sencillo",
+    "fr": "Arbuste",
+    "fr-CA": "Arbuste",
+    "it": "Arbusto semplice",
+    "ja": "低木",
+    "ko": "단순한 관목",
+    "nl": "Simpele struik",
+    "pt-BR": "Arbusto Simples",
+    "ru": "Обычный куст",
+    "tr": "Basit Çalı",
+    "zh-CN": "简朴矮树",
+    "zh-TW": "簡樸矮樹"
+  },
+  "namePlain": {
     "ar": "شجيرة بسيطة",
     "de": "Einfacher Strauch",
     "en": "Simple Shrub",

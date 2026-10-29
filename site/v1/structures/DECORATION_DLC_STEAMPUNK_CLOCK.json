@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "这里谁会看时间……？",
     "zh-TW": "這裡有人看得懂時間嗎……？"
   },
+  "descriptionPlain": {
+    "ar": "هل يمكن لأحد هنا قراءة الساعة...؟",
+    "de": "Kennt hier irgendjemand die Uhr …?",
+    "en": "Can anyone here read time...?",
+    "es": "¿Queda alguien por aquí que sepa leer la hora?",
+    "fr": "Qui sait donc lire l'heure en ces contrées...?",
+    "fr-CA": "Qui sait lire l'heure en ces contrées?",
+    "it": "C'è qualcuno che sa leggere le lancette...?",
+    "ja": "ねえ誰か、この時計って読める…？",
+    "ko": "혹시 시계 볼 줄 아는 사람...?",
+    "nl": "Kan iemand hier klokkijken?",
+    "pt-BR": "Alguém aqui consegue ver as horas...?",
+    "ru": "Устройство на случай, если кто-нибудь в поселении научится определять время.",
+    "tr": "Burada saat okuyabilen var mı ki?",
+    "zh-CN": "这里谁会看时间……？",
+    "zh-TW": "這裡有人看得懂時間嗎……？"
+  },
   "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_CLOCK.png",
   "id": "DECORATION_DLC_STEAMPUNK_CLOCK",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "ساعة سرو الشاة",
+    "de": "Eibenholz-Uhr",
+    "en": "Yewbark Clock",
+    "es": "Reloj de corteza de tejo",
+    "fr": "Horloge d'écorce d'if",
+    "fr-CA": "Horloge d'écorce d'if",
+    "it": "Orologio in legno di tasso",
+    "ja": "樹皮製の時計",
+    "ko": "주목나무 시계",
+    "nl": "Taxushouten klok",
+    "pt-BR": "Relógio de Teixo",
+    "ru": "Овциновые часы",
+    "tr": "Porsukkabuğu Saat",
+    "zh-CN": "紫衫钟",
+    "zh-TW": "紫杉時鐘"
+  },
+  "namePlain": {
     "ar": "ساعة سرو الشاة",
     "de": "Eibenholz-Uhr",
     "en": "Yewbark Clock",

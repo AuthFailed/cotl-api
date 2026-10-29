@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Raccoon",
   "name": {
+    "en": "Racoon"
+  },
+  "namePlain": {
     "en": "Racoon"
   },
   "unlock": "Dungeon4"

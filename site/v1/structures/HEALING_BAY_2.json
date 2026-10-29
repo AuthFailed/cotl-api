@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "治疗生病教徒的地方，需要的资源较少",
     "zh-TW": "治療生病教徒的地方，需要的資源較少"
   },
+  "descriptionPlain": {
+    "ar": "مقر مخصص لعلاج الأتباع المرضى. يتطلب موارد أقل",
+    "de": "Ein Ort, um kranke Anhänger zu heilen. Verbraucht weniger Ressourcen.",
+    "en": "A station for you to heal sick Followers. Requires less resources",
+    "es": "Una estación para curar a tus adeptos enfermos. Requiere menos recursos.",
+    "fr": "Permet de soigner les adeptes malades. Nécessite moins de ressources.",
+    "fr-CA": "Permet de soigner les adeptes malades. Nécessite moins de ressources.",
+    "it": "Una struttura per guarire i membri del Culto ammalati. Necessita di meno risorse.",
+    "ja": "病気になった信者が回復するための場所。資源の消費量が減少する",
+    "ko": "병든 추종자들을 치료하는 곳입니다. 보다 적은 자원을 요구합니다",
+    "nl": "Een plaats waar je zieke volgelingen kunt genezen. Minder grondstoffen vereist.",
+    "pt-BR": "Uma estação para você curar Seguidores doentes. Requer menos recursos",
+    "ru": "Место, где можно потратить меньше материалов на лечение заболевших последователей.",
+    "tr": "Hasta Takipçilerin iyileşebileceği bir çadır. Daha az kaynak gerektirir.",
+    "zh-CN": "治疗生病教徒的地方，需要的资源较少",
+    "zh-TW": "治療生病教徒的地方，需要的資源較少"
+  },
   "icon": "icons/structures/HEALING_BAY_2.png",
   "id": "HEALING_BAY_2",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "كوخ علاج محسّن",
+    "de": "Verbessertes Heilquartier",
+    "en": "Improved Healing Bay",
+    "es": "Enfermería mejorada",
+    "fr": "Poste de soins amélioré",
+    "fr-CA": "Poste de soins amélioré",
+    "it": "Infermeria avanzata",
+    "ja": "治療所 II",
+    "ko": "개선된 회복소",
+    "nl": "Verbeterde verpleegpost",
+    "pt-BR": "Compartimento de Cura Aprimorado",
+    "ru": "Улучшенная лечебница",
+    "tr": "Gelişmiş Şifa Çadırı",
+    "zh-CN": "改良版治疗间",
+    "zh-TW": "改良版治療間"
+  },
+  "namePlain": {
     "ar": "كوخ علاج محسّن",
     "de": "Verbessertes Heilquartier",
     "en": "Improved Healing Bay",

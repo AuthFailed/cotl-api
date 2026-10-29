@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "充满阳光的精编。",
     "zh-TW": "織工精細，陽光普照。"
   },
+  "descriptionPlain": {
+    "ar": "منسوج بخيوط عالية الجودة ذات لون مشرق.",
+    "de": "Von feiner und sonniger Webart.",
+    "en": "Of fine and sunny weave.",
+    "es": "Confeccionada con un tejido fino y soleado.",
+    "fr": "Au tissage fin et lumineux.",
+    "fr-CA": "Au tissage fin et lumineux.",
+    "it": "Di pregiata e solare tessitura.",
+    "ja": "太陽のように派手で明るい",
+    "ko": "섬세하고 화사하게 짜낸 직조물.",
+    "nl": "Van fijn en zonnig weefsel.",
+    "pt-BR": "Feito de um tecido radiante e refinado.",
+    "ru": "Искусно сотканное полотно, напоминающее о солнечных днях.",
+    "tr": "Güneş gibi parıldar.",
+    "zh-CN": "充满阳光的精编。",
+    "zh-TW": "織工精細，陽光普照。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_RUG.png",
   "id": "DECORATION_DLC_WOOLHAVEN_RUG",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "بساط الشمس",
+    "de": "Sonnenteppich",
+    "en": "Sun Rug",
+    "es": "Alfombra astral",
+    "fr": "Tapis soleil",
+    "fr-CA": "Tapis soleil",
+    "it": "Tappeto con sole",
+    "ja": "太陽のラグマット",
+    "ko": "태양 깔개",
+    "nl": "Zonnetapijt",
+    "pt-BR": "Tapete Solar",
+    "ru": "Ковёр с солнцем",
+    "tr": "Güneş Halısı",
+    "zh-CN": "太阳地毯",
+    "zh-TW": "太陽地毯"
+  },
+  "namePlain": {
     "ar": "بساط الشمس",
     "de": "Sonnenteppich",
     "en": "Sun Rug",

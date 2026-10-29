@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Tapir",
   "name": {
+    "en": "Tapir"
+  },
+  "namePlain": {
     "en": "Tapir"
   },
   "unlock": "DLC"

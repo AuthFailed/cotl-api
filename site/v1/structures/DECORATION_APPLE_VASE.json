@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "一束新鲜的美丽百合花。",
     "zh-TW": "一束新鮮的美麗百合花。"
   },
+  "descriptionPlain": {
+    "ar": "مجموعة من الزنابق النضرة المبهجة.",
+    "de": "Ein schöner Strauß aus frischen Lilien.",
+    "en": "A pleasing bouquet of fresh lilies.",
+    "es": "Un bonito ramo de lirios recién cortados.",
+    "fr": "Un joli bouquet de lys frais.",
+    "fr-CA": "Un joli bouquet de lys frais.",
+    "it": "Un grazioso bouquet di gigli freschi.",
+    "ja": "鮮やかなユリの花が飾られている",
+    "ko": "생생한 백합을 엮은 예쁜 꽃다발을 꽂았습니다.",
+    "nl": "Een aangenaam boeket van verse lelies.",
+    "pt-BR": "Um lindo buquê com lírios frescos.",
+    "ru": "Очаровательный букет свежесрезанных лилий.",
+    "tr": "Göz alıcı bir taze zambak buketi.",
+    "zh-CN": "一束新鲜的美丽百合花。",
+    "zh-TW": "一束新鮮的美麗百合花。"
+  },
   "icon": "icons/structures/DECORATION_APPLE_VASE.png",
   "id": "DECORATION_APPLE_VASE",
+  "menu": null,
   "name": {
+    "ar": "باقة رائعة",
+    "de": "Wunderschönes Bouquet",
+    "en": "Lovely Arrangement",
+    "es": "Adorno floral",
+    "fr": "Arrangement raffiné",
+    "fr-CA": "Arrangement raffiné",
+    "it": "Composizione adorabile",
+    "ja": "オシャレな花瓶",
+    "ko": "사랑스러운 꽃병",
+    "nl": "Beeldige schikking",
+    "pt-BR": "Arranjo Gracioso",
+    "ru": "Прекрасная ваза с цветами",
+    "tr": "Hoş Buket",
+    "zh-CN": "迷人摆饰",
+    "zh-TW": "迷人擺飾"
+  },
+  "namePlain": {
     "ar": "باقة رائعة",
     "de": "Wunderschönes Bouquet",
     "en": "Lovely Arrangement",

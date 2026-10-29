@@ -17,6 +17,23 @@
     "zh-CN": "够辣，不论天有多冷都让身子热起来。",
     "zh-TW": "夠辣，不論天有多冷都能溫暖你。"
   },
+  "descriptionPlain": {
+    "ar": "تكفي حرارته لتدفئتك مهما كانت شدة البرد.",
+    "de": "Würzig genug, um dich aufzuwärmen, egal wie kalt es ist.",
+    "en": "Spicy enough to warm you up no matter how cold it is.",
+    "es": "Su picor calienta hasta en los días más fríos.",
+    "fr": "Suffisamment épicé pour vous réchauffer par temps glacial.",
+    "fr-CA": "Suffisamment épicé pour vous réchauffer par temps glacial.",
+    "it": "Così piccante da scacciare il gelo.",
+    "ja": "とてもスパイシー。どんなに寒くてもポカポカしてくる食料",
+    "ko": "어찌나 매운지, 주변이 아무리 추워도 몸을 덥히기에 충분합니다.",
+    "nl": "Pittig genoeg om je op te warmen, hoe koud het ook is.",
+    "pt-BR": "Picante o bastante para aquecer você, não importa quão frio esteja.",
+    "ru": "Овощ, способный согреть в самые жестокие холода.",
+    "tr": "Hava ne kadar soğuk olursa olsun içini ısıtacak kadar acı.",
+    "zh-CN": "够辣，不论天有多冷都让身子热起来。",
+    "zh-TW": "夠辣，不論天有多冷都能溫暖你。"
+  },
   "icon": "icons/items/CHILLI.png",
   "id": "CHILLI",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Acı Biber",
     "zh-CN": "辣椒",
     "zh-TW": "辣椒"
-  }
+  },
+  "namePlain": {
+    "ar": "فلفل حار",
+    "de": "Chili",
+    "en": "Chilli",
+    "es": "Chile",
+    "fr": "Piment",
+    "fr-CA": "Piment",
+    "it": "Peperoncino",
+    "ja": "チリ",
+    "ko": "고추",
+    "nl": "Chilipeper",
+    "pt-BR": "Pimenta",
+    "ru": "Острый перец",
+    "tr": "Acı Biber",
+    "zh-CN": "辣椒",
+    "zh-TW": "辣椒"
+  },
+  "tags": [
+    "food"
+  ]
 }

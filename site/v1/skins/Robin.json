@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Robin",
   "name": {
+    "en": "Apple_2"
+  },
+  "namePlain": {
     "en": "Apple_2"
   },
   "unlock": "Other"

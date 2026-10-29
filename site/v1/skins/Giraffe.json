@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Giraffe",
   "name": {
+    "en": "Giraffe"
+  },
+  "namePlain": {
     "en": "Giraffe"
   },
   "unlock": "Dungeon2"

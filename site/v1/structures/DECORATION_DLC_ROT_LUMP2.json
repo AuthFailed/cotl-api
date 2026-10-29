@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "被监视的感觉最美妙了。",
     "zh-TW": "沒什麼比被注視的感覺更棒了。"
   },
+  "descriptionPlain": {
+    "ar": "ليس هناك شيء ألطف من أن تشعر أنك مراقَب.",
+    "de": "Es gibt nichts Schöneres, als sich beobachtet zu fühlen.",
+    "en": "There's nothing nicer than feeling watched.",
+    "es": "No hay nada mejor que sentir que te observan.",
+    "fr": "Rien de plus agréable que de savoir qu'on nous surveille.",
+    "fr-CA": "Rien de plus agréable que de savoir qu'on nous épie.",
+    "it": "Non c'è sensazione più bella del sentirsi osservati.",
+    "ja": "視線を感じるってサイコー！",
+    "ko": "누군가의 시선이 느껴지는 것만큼 기분 좋은 것도 없지요.",
+    "nl": "Er gaat niets boven het gevoel dat je bekeken wordt.",
+    "pt-BR": "Não há nada mais incrível do que se sentir vigiado.",
+    "ru": "Украшение, дарящее приятное ощущение постоянной слежки.",
+    "tr": "Seyredilmeyi kim istemez?",
+    "zh-CN": "被监视的感觉最美妙了。",
+    "zh-TW": "沒什麼比被注視的感覺更棒了。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_LUMP2.png",
   "id": "DECORATION_DLC_ROT_LUMP2",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "مقلة عين في أصيص",
+    "de": "Augapfel im Topf",
+    "en": "Potted Eyeball",
+    "es": "Ojo en un tiesto",
+    "fr": "Globe oculaire en pot",
+    "fr-CA": "Globe oculaire en pot",
+    "it": "Bulbo oculare in vaso",
+    "ja": "眼球の鉢植え",
+    "ko": "점박이 안구",
+    "nl": "Oog in een pot",
+    "pt-BR": "Globo Ocular Envasado",
+    "ru": "Глаз в горшке",
+    "tr": "Saksılı Göz",
+    "zh-CN": "眼球盆栽",
+    "zh-TW": "盆栽眼球"
+  },
+  "namePlain": {
     "ar": "مقلة عين في أصيص",
     "de": "Augapfel im Topf",
     "en": "Potted Eyeball",

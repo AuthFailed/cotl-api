@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "换上节日装饰。",
     "zh-TW": "掛著節日裝飾品。"
   },
+  "descriptionPlain": {
+    "ar": "مزخرفة بزينة احتفالية.",
+    "de": "Geschmückt mit festlichen Ornamenten.",
+    "en": "Adorned with festive ornaments.",
+    "es": "Decorado con adornos festivos.",
+    "fr": "Orné de décorations festives.",
+    "fr-CA": "Orné de décorations festives.",
+    "it": "Adornato di decorazioni festive.",
+    "ja": "祝祭用の飾りがたくさん付いている",
+    "ko": "축제용 장식으로 예쁘게 꾸몄습니다.",
+    "nl": "Versierd met feestelijke ornamenten.",
+    "pt-BR": "Adornada com ornamentos festivos.",
+    "ru": "Дерево, увешанное праздничными украшениями.",
+    "tr": "Özel güne uygun dekorasyonlarla süslenmiş.",
+    "zh-CN": "换上节日装饰。",
+    "zh-TW": "掛著節日裝飾品。"
+  },
   "icon": "icons/structures/DECORATION_CHRISTMAS_TREE.png",
   "id": "DECORATION_CHRISTMAS_TREE",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "شجرة منتصف الشتاء",
+    "de": "Wintersonnenwende-Baum",
+    "en": "Midwinter Tree",
+    "es": "Árbol invernal",
+    "fr": "Sapin de la mi-hiver",
+    "fr-CA": "Sapin de la mi-hiver",
+    "it": "Albero del solstizio d'inverno",
+    "ja": "冬至のツリー",
+    "ko": "한겨울절 나무",
+    "nl": "Midwinterboom",
+    "pt-BR": "Árvore do Festival de Inverno",
+    "ru": "Солнцестояльное древо",
+    "tr": "Kış Ortası Ağacı",
+    "zh-CN": "冬至树",
+    "zh-TW": "冬至樹木"
+  },
+  "namePlain": {
     "ar": "شجرة منتصف الشتاء",
     "de": "Wintersonnenwende-Baum",
     "en": "Midwinter Tree",

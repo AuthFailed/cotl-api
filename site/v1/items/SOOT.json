@@ -17,6 +17,23 @@
     "zh-CN": "燃烧腐烧的副产物。",
     "zh-TW": "燃燒腐燃的副產物。"
   },
+  "descriptionPlain": {
+    "ar": "نتاج حرق فحم التعفن.",
+    "de": "Das Nebenprodukt der Verbrennung von Fäulnisbrand.",
+    "en": "The byproduct of burning Rotburn.",
+    "es": "El resultado de quemar petrodumbre.",
+    "fr": "Le résultat de la combustion du charbon putrescent.",
+    "fr-CA": "Le résultat de la combustion du charbon putrescent.",
+    "it": "Prodotta dalla combustione di marciolite.",
+    "ja": "腐敗石を燃やすと生じる副産物",
+    "ko": "부패석탄을 태우고 남은 부산물입니다.",
+    "nl": "Het bijproduct van verbrand rotsteen.",
+    "pt-BR": "O resíduo gerado ao queimar Putrefogo.",
+    "ru": "Продукт горения гнилогара.",
+    "tr": "Yanan Çürükateş'ten geriye kalan bir madde.",
+    "zh-CN": "燃烧腐烧的副产物。",
+    "zh-TW": "燃燒腐燃的副產物。"
+  },
   "icon": "icons/items/SOOT.png",
   "id": "SOOT",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Çürükkurum",
     "zh-CN": "腐灰",
     "zh-TW": "腐灰"
-  }
+  },
+  "namePlain": {
+    "ar": "سناج التعفن",
+    "de": "Fäulnisruß",
+    "en": "Rotgrit",
+    "es": "Hollidumbre",
+    "fr": "Poussière putrescente",
+    "fr-CA": "Poussière putrescente",
+    "it": "Marciuliggine",
+    "ja": "腐敗砂",
+    "ko": "부패그을음",
+    "nl": "Rotroet",
+    "pt-BR": "Putrigem",
+    "ru": "Гнилопрах",
+    "tr": "Çürükkurum",
+    "zh-CN": "腐灰",
+    "zh-TW": "腐灰"
+  },
+  "tags": []
 }

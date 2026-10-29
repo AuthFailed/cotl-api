@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "捕捉企图偷走<color=#FFD201>农地</color>范围内种子的鸟",
     "zh-TW": "捕捉企圖偷走範圍內<color=#FFD201>農地</color>裡種子的鳥"
   },
+  "descriptionPlain": {
+    "ar": "تصطاد الطيور التي تحاول سرقة البذور من المزارع التي في نطاقها.",
+    "de": "Fängt Vögel, die Saatgut von Ackerparzellen in Reichweite stehlen.",
+    "en": "Catches birds that try to steal the seeds from Farm Plots within range.",
+    "es": "Atrapa a los pájaros que intentan robar las semillas de las parcelas que estén dentro de su alcance.",
+    "fr": "Piège les oiseaux qui tentent de voler les graines des parcelles agricoles à proximité.",
+    "fr-CA": "Piège les oiseaux qui tentent de voler les graines des parcelles agricoles à proximité.",
+    "it": "Cattura gli uccelli che cercano di rubare i semi dagli Appezzamenti nel raggio d'azione.",
+    "ja": "範囲内の農作地に植えられた種を狙う鳥を捕まえてくれる",
+    "ko": "범위 내 밭 경작지에서 씨앗을 훔치려는 새들을 잡아냅니다.",
+    "nl": "Vangt vogels die zaden van landbouwpercelen binnen bereik proberen te stelen.",
+    "pt-BR": "Captura os pássaros que tentam roubar sementes dos Terrenos Agrícolas dentro do alcance",
+    "ru": "Чучело, которое ловит птиц, пытающихся украсть семена с участков земли в радиусе действия.",
+    "tr": "Menzil içindeki Tarlalardan tohum çalmaya çalışan kuşları yakalar.",
+    "zh-CN": "捕捉企图偷走农地范围内种子的鸟",
+    "zh-TW": "捕捉企圖偷走範圍內農地裡種子的鳥"
+  },
   "icon": "icons/structures/SCARECROW_2.png",
   "id": "SCARECROW_2",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "فزّاعة الفخاخ",
+    "de": "Vogelscheuchenfalle",
+    "en": "Trap Scarecrow",
+    "es": "Espantapájaros trampa",
+    "fr": "Épouvantail piégeur",
+    "fr-CA": "Épouvantail piégeur",
+    "it": "Spaventapasseri trappola",
+    "ja": "罠付きかかし",
+    "ko": "함정 허수아비",
+    "nl": "Vogelverschrikkerval",
+    "pt-BR": "Armadilha de Espantalho",
+    "ru": "Пугало с ловушкой",
+    "tr": "Tuzaklı Korkuluk",
+    "zh-CN": "陷阱稻草人",
+    "zh-TW": "陷阱稻草羊"
+  },
+  "namePlain": {
     "ar": "فزّاعة الفخاخ",
     "de": "Vogelscheuchenfalle",
     "en": "Trap Scarecrow",

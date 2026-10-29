@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Kiwi",
   "name": {
+    "en": "Kiwi"
+  },
+  "namePlain": {
     "en": "Kiwi"
   },
   "unlock": "DLC"

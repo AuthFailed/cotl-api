@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "أرضية دَب فيها التحلل.",
@@ -17,9 +19,44 @@
     "zh-CN": "在腐物上起舞。",
     "zh-TW": "在腐爛的地板上跳舞。"
   },
+  "descriptionPlain": {
+    "ar": "أرضية دَب فيها التحلل.",
+    "de": "Tanze auf dem Verfall.",
+    "en": "Dance upon the decay.",
+    "es": "Danza sobre la tierra marchita.",
+    "fr": "Dansez sur un sol démoniaque.",
+    "fr-CA": "Dansez sur un sol démoniaque.",
+    "it": "Danza sulla decomposizione.",
+    "ja": "腐食した床の上で踊ろう",
+    "ko": "퇴락 위에서의 춤.",
+    "nl": "Dans over het verderf.",
+    "pt-BR": "Dance sob a deterioração.",
+    "ru": "Покрытие для пира во время чумы.",
+    "tr": "Çürümenin üzerinde dans et.",
+    "zh-CN": "在腐物上起舞。",
+    "zh-TW": "在腐爛的地板上跳舞。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_FLOOR.png",
   "id": "DECORATION_DLC_ROT_FLOOR",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "الأرضية المتعفنة",
+    "de": "Fäulnisboden",
+    "en": "Rotted Flooring",
+    "es": "Suelo putrefacto",
+    "fr": "Sol putrescent",
+    "fr-CA": "Sol putrescent",
+    "it": "Pavimentazione marcescente",
+    "ja": "腐敗タイル",
+    "ko": "부패한 바닥",
+    "nl": "Verrotte vloer",
+    "pt-BR": "Piso Putrefato",
+    "ru": "Гниющий настил",
+    "tr": "Çürük Döşeme",
+    "zh-CN": "腐烂地板",
+    "zh-TW": "腐朽地板"
+  },
+  "namePlain": {
     "ar": "الأرضية المتعفنة",
     "de": "Fäulnisboden",
     "en": "Rotted Flooring",

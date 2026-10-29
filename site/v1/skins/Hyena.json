@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Hyena",
   "name": {
+    "en": "Hyena"
+  },
+  "namePlain": {
     "en": "Hyena"
   },
   "unlock": "Dungeon6"

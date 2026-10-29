@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "升级版圣坛，保留的虔诚度上限增加至？？？？点<sprite name=\"icon_spirits\">",
     "zh-TW": "升級版聖壇，保留的虔誠值上限增加至？？？？點 <sprite name=\"icon_spirits\">"
   },
+  "descriptionPlain": {
+    "ar": "عليك ترقية مزارك لزيادة الحد الأقصى لسعته إلى???? من الولاء.",
+    "de": "Verbessere deinen Schrein, um seine Maximalkapazität auf???? Hingabe zu erhöhen.",
+    "en": "Upgrade your shrine to increase its maximum capacity to???? Devotion.",
+    "es": "Mejora tu santuario para aumentar su capacidad a???? de devoción.",
+    "fr": "Améliore votre Autel pour pouvoir conserver jusqu'à???? de dévotion.",
+    "fr-CA": "Améliore votre Autel afin de pouvoir conserver jusqu'à???? de dévotion.",
+    "it": "Migliora il Santuario, portandone la capacità massima di Devozione a????.",
+    "ja": "より発展した祭壇。祈念 の最大貯蓄量が????に増加する",
+    "ko": "성지의 헌신 수용량을????로 증가시킵니다",
+    "nl": "Verbeter je altaar en verhoog de capaciteit naar??? devotie.",
+    "pt-BR": "Aprimore seu santuário para aumentar sua capacidade máxima para???? de Devoção",
+    "ru": "Улучшенный алтарь, накапливающий до???? ед. преданности.",
+    "tr": "Mabet'i yükselterek kapasitesini???? kat fazla Sadakat birikecek şekilde artırır.",
+    "zh-CN": "升级版圣坛，保留的虔诚度上限增加至？？？？点",
+    "zh-TW": "升級版聖壇，保留的虔誠值上限增加至？？？？點"
+  },
   "icon": null,
   "id": "SHRINE_IV",
+  "menu": null,
   "name": {
+    "ar": "المزار IV",
+    "de": "Schrein IV",
+    "en": "Shrine IV",
+    "es": "Santuario IV",
+    "fr": "Autel IV",
+    "fr-CA": "Autel IV",
+    "it": "Santuario IV",
+    "ja": "祭壇 IV",
+    "ko": "성지 IV",
+    "nl": "Altaar IV",
+    "pt-BR": "Santuário IV",
+    "ru": "Алтарь IV",
+    "tr": "Mabet IV",
+    "zh-CN": "圣坛 IV",
+    "zh-TW": "聖壇 IV"
+  },
+  "namePlain": {
     "ar": "المزار IV",
     "de": "Schrein IV",
     "en": "Shrine IV",

@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "在此存放餐点，防止食物<color=#01D5A2>腐坏</color>",
     "zh-TW": "在此存放餐點，防止食物<color=#01D5A2>腐壞</color>"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك تخرين الوجبات هنا لحمايتها من التعفن.",
+    "de": "Lagere Lebensmittel hier, um sie vor dem Vergammeln zu schützen.",
+    "en": "Store meals here to stop them from rotting.",
+    "es": "Almacena comida aquí para que evitar que se ponga mala.",
+    "fr": "Permet de conserver les plats et éviter qu'ils ne pourrissent.",
+    "fr-CA": "Permet de conserver les plats et éviter qu'ils ne pourrissent.",
+    "it": "Vi si possono conservare i pasti per evitare che vadano a male.",
+    "ja": "料理はここに保管しておくことで、腐敗を防ぐことができる",
+    "ko": "음식이 부패하지 않게 보관합니다",
+    "nl": "Bewaar hier maaltijden zodat ze niet rotten.",
+    "pt-BR": "Armazene as refeições aqui para evitar que apodreçam",
+    "ru": "Хранилище для приготовленной еды, в котором она не сгнивает.",
+    "tr": "Yemeklerin bozulmasını önlemek için onları burada depola.",
+    "zh-CN": "在此存放餐点，防止食物腐坏",
+    "zh-TW": "在此存放餐點，防止食物腐壞"
+  },
   "icon": null,
   "id": "FOOD_STORAGE",
+  "menu": null,
   "name": {
+    "ar": "مخزن الطعام",
+    "de": "Lebensmittellager",
+    "en": "Food Storage",
+    "es": "Almacén de comida",
+    "fr": "Réserve de nourriture",
+    "fr-CA": "Réserve de nourriture",
+    "it": "Contenitore per cibi",
+    "ja": "食料保管庫",
+    "ko": "음식 보관소",
+    "nl": "Voedselopslag",
+    "pt-BR": "Armazém de Alimentos",
+    "ru": "Склад продовольствия",
+    "tr": "Yiyecek Deposu",
+    "zh-CN": "食物储藏架",
+    "zh-TW": "食物儲藏架"
+  },
+  "namePlain": {
     "ar": "مخزن الطعام",
     "de": "Lebensmittellager",
     "en": "Food Storage",

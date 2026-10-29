@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "充满能量。",
     "zh-TW": "能量嗡嗡作響。"
   },
+  "descriptionPlain": {
+    "ar": "يفيض بالطاقة.",
+    "de": "Sprüht vor Energie.",
+    "en": "Buzzing with energy.",
+    "es": "La estructura exuda energía.",
+    "fr": "Débordant d'énergie.",
+    "fr-CA": "Débordant d'énergie.",
+    "it": "Vibra di energia.",
+    "ja": "内部のエネルギーがブーンという音を放っている",
+    "ko": "짜릿한 기운이 지직거립니다.",
+    "nl": "Zoemt van de energie.",
+    "pt-BR": "Zumbe com energia.",
+    "ru": "Столб, гудящий от энергии.",
+    "tr": "Enerjiyle dolup taşıyor.",
+    "zh-CN": "充满能量。",
+    "zh-TW": "能量嗡嗡作響。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_PILLAR1.png",
   "id": "DECORATION_DLC_WOLF_PILLAR1",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "عمود الشحنة الملتهبة",
+    "de": "Funkenschlagende Säule",
+    "en": "Sparking Pillar",
+    "es": "Pilar chispeante",
+    "fr": "Pilier d'étincelles",
+    "fr-CA": "Pilier d'étincelles",
+    "it": "Pilastro scintillante",
+    "ja": "スパークピラー",
+    "ko": "번뜩이는 기둥",
+    "nl": "Vonkende pilaar",
+    "pt-BR": "Pilar Chispante",
+    "ru": "Искрящаяся колонна",
+    "tr": "Kıvılcımlı Sütun",
+    "zh-CN": "火花柱子",
+    "zh-TW": "電光柱子"
+  },
+  "namePlain": {
     "ar": "عمود الشحنة الملتهبة",
     "de": "Funkenschlagende Säule",
     "en": "Sparking Pillar",

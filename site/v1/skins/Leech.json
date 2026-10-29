@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Leech",
   "name": {
+    "en": "Leech"
+  },
+  "namePlain": {
     "en": "Leech"
   },
   "unlock": "DLC"

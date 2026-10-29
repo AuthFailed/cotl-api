@@ -17,6 +17,23 @@
     "zh-CN": "真是奇怪的项链……",
     "zh-TW": "真是奇怪的項鍊…"
   },
+  "descriptionPlain": {
+    "ar": "يا لها من قلادة غريبة...",
+    "de": "Was für eine seltsame Halskette …",
+    "en": "What a strange necklace...",
+    "es": "Un collar de lo más raro...",
+    "fr": "Quel étrange collier...",
+    "fr-CA": "Quel étrange collier...",
+    "it": "Che collana bizzarra...",
+    "ja": "なんだか不気味なネックレス…",
+    "ko": "참 이상한 목걸이네요...",
+    "nl": "Wat een vreemde ketting...",
+    "pt-BR": "Que colar mais estranho...",
+    "ru": "Очень странное украшение.",
+    "tr": "Ne tuhaf bir kolye...",
+    "zh-CN": "真是奇怪的项链……",
+    "zh-TW": "真是奇怪的項鍊…"
+  },
   "icon": "icons/items/Necklace_Weird.png",
   "id": "Necklace_Weird",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Anormal Kolye",
     "zh-CN": "奇葩项链",
     "zh-TW": "奇葩項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة غير طبيعية",
+    "de": "Abnormale Halskette",
+    "en": "Abnormal Necklace",
+    "es": "Collar anómalo",
+    "fr": "Collier aberrant",
+    "fr-CA": "Collier anormal",
+    "it": "Collana anormale",
+    "ja": "異常のネックレス",
+    "ko": "비정상의 목걸이",
+    "nl": "Abnormale ketting",
+    "pt-BR": "Colar Anormal",
+    "ru": "Ожерелье отклонения",
+    "tr": "Anormal Kolye",
+    "zh-CN": "奇葩项链",
+    "zh-TW": "奇葩項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

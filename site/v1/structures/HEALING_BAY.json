@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "治疗生病教徒的地方",
     "zh-TW": "治療生病教徒的地方"
   },
+  "descriptionPlain": {
+    "ar": "مقر مخصص لعلاج الأتباع المرضى.",
+    "de": "Ein Ort, um kranke Anhänger zu heilen.",
+    "en": "A station for you to heal sick Followers.",
+    "es": "Para curar a tus adeptos enfermos.",
+    "fr": "Permet de soigner les adeptes malades.",
+    "fr-CA": "Permet de soigner les adeptes malades.",
+    "it": "Una struttura per guarire i membri del Culto ammalati.",
+    "ja": "病気になった信者が回復するための場所",
+    "ko": "병든 추종자들을 치료하는 곳입니다.",
+    "nl": "Een plaats waar je zieke volgelingen kunt genezen.",
+    "pt-BR": "Uma estação para você curar Seguidores doentes",
+    "ru": "Место, где проходят лечение заболевшие последователи.",
+    "tr": "Hasta Takipçilerin iyileşebileceği bir çadır.",
+    "zh-CN": "治疗生病教徒的地方",
+    "zh-TW": "治療生病教徒的地方"
+  },
   "icon": "icons/structures/HEALING_BAY.png",
   "id": "HEALING_BAY",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "كوخ العلاج",
+    "de": "Heilquartier",
+    "en": "Healing Bay",
+    "es": "Enfermería",
+    "fr": "Poste de soins",
+    "fr-CA": "Poste de soins",
+    "it": "Infermeria",
+    "ja": "治療所",
+    "ko": "회복소",
+    "nl": "Verpleegpost",
+    "pt-BR": "Compartimento de Cura",
+    "ru": "Лечебница",
+    "tr": "Şifa Çadırı",
+    "zh-CN": "治疗间",
+    "zh-TW": "治療間"
+  },
+  "namePlain": {
     "ar": "كوخ العلاج",
     "de": "Heilquartier",
     "en": "Healing Bay",

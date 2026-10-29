@@ -17,6 +17,23 @@
     "zh-CN": "小小的螯。",
     "zh-TW": "小小的螯。"
   },
+  "descriptionPlain": {
+    "ar": "كماشة صغيرة.",
+    "de": "Ein kleiner Zwicker.",
+    "en": "A wee nipper.",
+    "es": "Mira qué tenacitas.",
+    "fr": "Un pince-sans-rire.",
+    "fr-CA": "Un pince-sans-rire.",
+    "it": "Una pinza naturale.",
+    "ja": "小さなハサミの持ち主",
+    "ko": "꼬마입니다.",
+    "nl": "Een klein bijtertje.",
+    "pt-BR": "Um pequeno pinçador.",
+    "ru": "Мелкое ракообразное.",
+    "tr": "Mıncıran bir ufaklık.",
+    "zh-CN": "小小的螯。",
+    "zh-TW": "小小的螯。"
+  },
   "icon": "icons/items/FISH_CRAB.png",
   "id": "FISH_CRAB",
   "name": {
@@ -35,5 +52,26 @@
     "tr": "Yengeç",
     "zh-CN": "螃蟹",
     "zh-TW": "螃蟹"
-  }
+  },
+  "namePlain": {
+    "ar": "سلطعون",
+    "de": "Krabbe",
+    "en": "Crab",
+    "es": "Cangrejo",
+    "fr": "Crabe",
+    "fr-CA": "Crabe",
+    "it": "Granchio",
+    "ja": "カニ",
+    "ko": "게",
+    "nl": "Krab",
+    "pt-BR": "Caranguejo",
+    "ru": "Краб",
+    "tr": "Yengeç",
+    "zh-CN": "螃蟹",
+    "zh-TW": "螃蟹"
+  },
+  "tags": [
+    "food",
+    "fish"
+  ]
 }

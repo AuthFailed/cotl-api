@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Koala",
   "name": {
+    "en": "Koala"
+  },
+  "namePlain": {
     "en": "Koala"
   },
   "unlock": "Other"

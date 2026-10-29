@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "触手可及的武器。",
     "zh-TW": "武器觸手可及。"
   },
+  "descriptionPlain": {
+    "ar": "أسلحة في متناول اليد.",
+    "de": "Mach ein Fass auf … eins voller Waffen!",
+    "en": "Arms within arms reach.",
+    "es": "Que nunca te veas entre la espada y la pared.",
+    "fr": "Elles seront toujours à portée de main.",
+    "fr-CA": "Elles seront toujours à portée de main.",
+    "it": "Pronte da brandire.",
+    "ja": "武器の貯蔵は十分だ",
+    "ko": "무기는 항상 무지막지하게.",
+    "nl": "Handwapens binnen handbereik.",
+    "pt-BR": "Armas ao seu alcance.",
+    "ru": "Оружие на случай нападения.",
+    "tr": "El altında dursun, tarikat da hazır olsun.",
+    "zh-CN": "触手可及的武器。",
+    "zh-TW": "武器觸手可及。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_BARREL1.png",
   "id": "DECORATION_DLC_WOOLHAVEN_BARREL1",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "برميل السيوف",
+    "de": "Schwertfass",
+    "en": "Barrel of Swords",
+    "es": "Barril con espadas",
+    "fr": "Baril d'épées",
+    "fr-CA": "Baril d'épées",
+    "it": "Barile di spade",
+    "ja": "剣の木桶",
+    "ko": "칼꽂이 통",
+    "nl": "Vat met zwaarden",
+    "pt-BR": "Barril de Espadas",
+    "ru": "Бочка с мечами",
+    "tr": "Kılıç Fıçısı",
+    "zh-CN": "剑桶",
+    "zh-TW": "劍桶"
+  },
+  "namePlain": {
     "ar": "برميل السيوف",
     "de": "Schwertfass",
     "en": "Barrel of Swords",

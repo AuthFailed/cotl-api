@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Bear",
   "name": {
+    "en": "Bear"
+  },
+  "namePlain": {
     "en": "Bear"
   },
   "unlock": "Dungeon4"

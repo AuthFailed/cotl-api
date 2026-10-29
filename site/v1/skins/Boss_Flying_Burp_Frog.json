@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Boss_Flying_Burp_Frog",
   "name": {
+    "en": "Boss Flying Burp Frog"
+  },
+  "namePlain": {
     "en": "Boss Flying Burp Frog"
   },
   "unlock": "Dungeon2"

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "实验用具。",
     "zh-TW": "實驗用的工具。"
   },
+  "descriptionPlain": {
+    "ar": "أدوات لإجراء التجارب.",
+    "de": "Werkzeuge zum Experimentieren.",
+    "en": "Tools for experimentation.",
+    "es": "Herramientas para experimentar.",
+    "fr": "Outil d'expérimentation.",
+    "fr-CA": "Outil d'expérimentation.",
+    "it": "Attrezzi di sperimentazione.",
+    "ja": "実験のための道具",
+    "ko": "실험의 도구입니다.",
+    "nl": "Gereedschap voor experimenten.",
+    "pt-BR": "Ferramentas para experimentação.",
+    "ru": "Орудие для испытания.",
+    "tr": "Deney araç gereçleri.",
+    "zh-CN": "实验用具。",
+    "zh-TW": "實驗用的工具。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_STATUE3.png",
   "id": "DECORATION_DLC_WOLF_STATUE3",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "أداة الخيميائي I",
+    "de": "Alchemisten-Instrument I",
+    "en": "Alchemist's Instrument I",
+    "es": "Instrumental de alquimista I",
+    "fr": "Instrument d'alchimiste I",
+    "fr-CA": "Instrument d'alchimiste I",
+    "it": "Strumento dell'alchimista I",
+    "ja": "錬金術師の器具 I",
+    "ko": "연금술사의 도구 I",
+    "nl": "Alchemistenapparaat I",
+    "pt-BR": "Instrumento de Alquimia I",
+    "ru": "Инструмент алхимика I",
+    "tr": "Simyacı Aleti I",
+    "zh-CN": "炼金术士的器具 I",
+    "zh-TW": "鍊金術士的器具 I"
+  },
+  "namePlain": {
     "ar": "أداة الخيميائي I",
     "de": "Alchemisten-Instrument I",
     "en": "Alchemist's Instrument I",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "又酷又恐怖的岩石层",
     "zh-TW": "又酷又恐怖的岩石層"
   },
+  "descriptionPlain": {
+    "ar": "تكوين حجري مخيف أخاذ.",
+    "de": "Eine coole, gruselig wirkende Steinformation.",
+    "en": "A cool spooky stone formation.",
+    "es": "Una formación rocosa que da un poco de mal rollo.",
+    "fr": "Une petite pile de pierres.",
+    "fr-CA": "Une étrange petite pile de pierres.",
+    "it": "Un cumulo di pietre inquietante, seppure affascinante.",
+    "ja": "規則的に配置された石。怪しげでクール",
+    "ko": "멋지고 으스스한 돌덩어리입니다.",
+    "nl": "Een coole, spookachtige stapel stenen.",
+    "pt-BR": "Uma formação rochosa descolada e assustadora",
+    "ru": "Кусок скалы, который выглядит мрачно и жутко.",
+    "tr": "Havalı ve ürkütücü bir şekilde dizilmiş taşlar.",
+    "zh-CN": "又酷又恐怖的岩石层",
+    "zh-TW": "又酷又恐怖的岩石層"
+  },
   "icon": "icons/structures/DECORATION_STONE.png",
   "id": "DECORATION_STONE",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "حجر قديم",
+    "de": "Uralter Stein",
+    "en": "Ancient Stone",
+    "es": "Piedra ancestral",
+    "fr": "Pierres antiques",
+    "fr-CA": "Pierres antiques",
+    "it": "Cairn",
+    "ja": "エンシェントストーン",
+    "ko": "고대의 돌",
+    "nl": "Eeuwenoude stenen",
+    "pt-BR": "Pedra Antiga",
+    "ru": "Древний камень",
+    "tr": "Kadim Taş",
+    "zh-CN": "古老石头",
+    "zh-TW": "古老石頭"
+  },
+  "namePlain": {
     "ar": "حجر قديم",
     "de": "Uralter Stein",
     "en": "Ancient Stone",

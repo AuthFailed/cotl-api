@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "设立坚实的界限。",
     "zh-TW": "設立堅實的邊界。"
   },
+  "descriptionPlain": {
+    "ar": "لوضع حدود صارمة.",
+    "de": "Um feste Grenzen zu setzen.",
+    "en": "To set firm boundaries.",
+    "es": "Para establecer unos límites bien definidos.",
+    "fr": "Pour poser des limites fermes.",
+    "fr-CA": "Pour poser des limites fermes.",
+    "it": "Quando bisogna mettere dei paletti.",
+    "ja": "しっかりとした境界を作るのにピッタリ",
+    "ko": "튼튼하게 경계를 짓습니다.",
+    "nl": "Stelt duidelijke grenzen.",
+    "pt-BR": "Para criar limites inabaláveis.",
+    "ru": "Часть ограды, помогающей чётко обозначить границы.",
+    "tr": "Sınır çizmek isteyenler için.",
+    "zh-CN": "设立坚实的界限。",
+    "zh-TW": "設立堅實的邊界。"
+  },
   "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_WALL.png",
   "id": "DECORATION_DLC_STEAMPUNK_WALL",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "حائط سرو الشاة",
+    "de": "Eibenholz-Wand",
+    "en": "Yewbark Wall",
+    "es": "Muro de corteza de tejo",
+    "fr": "Mur d'écorce d'if",
+    "fr-CA": "Mur d'écorce d'if",
+    "it": "Muro in legno di tasso",
+    "ja": "樹皮製のカベ",
+    "ko": "주목나무 벽",
+    "nl": "Taxushouten muur",
+    "pt-BR": "Parede de Teixo",
+    "ru": "Овциновый кол",
+    "tr": "Porsukkabuğu Duvar",
+    "zh-CN": "紫衫墙",
+    "zh-TW": "紫杉牆"
+  },
+  "namePlain": {
     "ar": "حائط سرو الشاة",
     "de": "Eibenholz-Wand",
     "en": "Yewbark Wall",

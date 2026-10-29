@@ -17,6 +17,23 @@
     "zh-CN": "一种生长在阴影中的花，用途甚广。",
     "zh-TW": "生長於陰暗處的花，用途廣泛。"
   },
+  "descriptionPlain": {
+    "ar": "زهرة تنمو في الظل ولها استخدامات كثيرة.",
+    "de": "Eine im Schatten wachsende Blume mit zahlreichen Verwendungsmöglichkeiten.",
+    "en": "A flower that grows in shade, with many uses.",
+    "es": "Una flor que crece a la sombra y alberga muchos usos.",
+    "fr": "Une fleur de l'ombre aux nombreux usages.",
+    "fr-CA": "Une fleur de l'ombre aux nombreux usages.",
+    "it": "Un fiore che cresce nell'ombra, dai molteplici usi.",
+    "ja": "日陰で育つ花。いろいろな使い道がある",
+    "ko": "여러가지 용도를 가진 그늘 꽃입니다.",
+    "nl": "Een bloem met veel toepassingen die in de schaduw groeit.",
+    "pt-BR": "Uma flor que cresce na sombra, com muitos usos.",
+    "ru": "Растущий в тени цветок, которому есть множество применений.",
+    "tr": "Gölgede yetişen, kullanışlı bir çiçek.",
+    "zh-CN": "一种生长在阴影中的花，用途甚广。",
+    "zh-TW": "生長於陰暗處的花，用途廣泛。"
+  },
   "icon": "icons/items/FLOWER_PURPLE.png",
   "id": "FLOWER_PURPLE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Unutmabeni",
     "zh-CN": "勿忘我",
     "zh-TW": "勿忘我"
-  }
+  },
+  "namePlain": {
+    "ar": "اذكرني",
+    "de": "Vergissmeinnicht",
+    "en": "Forget-Me-Not",
+    "es": "Nomeolvides",
+    "fr": "Myosotis",
+    "fr-CA": "Myosotis",
+    "it": "Nontiscordardimé",
+    "ja": "ワスレナグサ",
+    "ko": "잊지마꽃",
+    "nl": "Vergeet-mij-niet",
+    "pt-BR": "Não-me-esqueças",
+    "ru": "Незабудка",
+    "tr": "Unutmabeni",
+    "zh-CN": "勿忘我",
+    "zh-TW": "勿忘我"
+  },
+  "tags": []
 }

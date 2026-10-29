@@ -17,6 +17,23 @@
     "zh-CN": "用于建造稳固建筑物的材料。",
     "zh-TW": "用於建造穩固建築物的材料。"
   },
+  "descriptionPlain": {
+    "ar": "مادة تُستخدم لبناء المباني المتينة.",
+    "de": "Ein Material, das zum Bau stabiler Strukturen verwendet wird.",
+    "en": "A material used for building sturdy structures.",
+    "es": "Un material usado para construir estructuras fuertes.",
+    "fr": "Un matériau utilisé pour construire des structures solides.",
+    "fr-CA": "Un matériau utilisé pour construire des structures solides.",
+    "it": "Un materiale impiegato nella costruzione di strutture robuste.",
+    "ja": "頑丈な建築物を作る際に使われる素材",
+    "ko": "단단한 건축물을 짓기 위한 재료입니다.",
+    "nl": "Een materiaal voor de constructie van stevige gebouwen.",
+    "pt-BR": "Material usado para construir estruturas robustas.",
+    "ru": "Материал для возведения долговечных построек.",
+    "tr": "Dayanıklı yapılar inşa etmek için kullanılan bir malzeme.",
+    "zh-CN": "用于建造稳固建筑物的材料。",
+    "zh-TW": "用於建造穩固建築物的材料。"
+  },
   "icon": "icons/items/STONE_REFINED.png",
   "id": "STONE_REFINED",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Taş Tuğla",
     "zh-CN": "石砖",
     "zh-TW": "石磚"
-  }
+  },
+  "namePlain": {
+    "ar": "كتل حجرية",
+    "de": "Steinblöcke",
+    "en": "Stone Blocks",
+    "es": "Bloques de piedra",
+    "fr": "Bloc de pierre",
+    "fr-CA": "Bloc de pierre",
+    "it": "Blocchi di pietra",
+    "ja": "石材",
+    "ko": "돌 블럭",
+    "nl": "Stenen blokken",
+    "pt-BR": "Blocos de Pedra",
+    "ru": "Каменный блок",
+    "tr": "Taş Tuğla",
+    "zh-CN": "石砖",
+    "zh-TW": "石磚"
+  },
+  "tags": []
 }

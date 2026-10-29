@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MUSHROOM_SMALL",
@@ -26,9 +28,44 @@
     "zh-CN": "赞颂菌类的雕塑饰品！",
     "zh-TW": "讚頌蕈菇的雕塑飾品！"
   },
+  "descriptionPlain": {
+    "ar": "منحوتة زخرفية للاحتفاء بالفطر!",
+    "de": "Eine dekorative Skulptur, um Pilze zu preisen!",
+    "en": "A decorative sculpture to celebrate fungus!",
+    "es": "¡Una escultura en honor a los hongos!",
+    "fr": "Une sculpture décorative en l'honneur des champignons!",
+    "fr-CA": "Une sculpture décorative en l'honneur des champignons!",
+    "it": "Una scultura decorativa per celebrare i funghi!",
+    "ja": "キノコを称える芸術的なオブジェ！",
+    "ko": "곰팡이를 기리는 장식용 조각상입니다!",
+    "nl": "Een decoratief beeld ter ere van de fungus!",
+    "pt-BR": "Uma escultura decorativa feita para celebrar os fungos!",
+    "ru": "Памятник во славу грибного царства.",
+    "tr": "Mantarların şerefine yapılmış, dekoratif bir heykel!",
+    "zh-CN": "赞颂菌类的雕塑饰品！",
+    "zh-TW": "讚頌蕈菇的雕塑飾品！"
+  },
   "icon": "icons/structures/DECORATION_MUSHROOM_SCULPTURE.png",
   "id": "DECORATION_MUSHROOM_SCULPTURE",
+  "menu": "Aesthetic/Mushroom",
   "name": {
+    "ar": "منحوتة الفطر",
+    "de": "Pilzskulptur",
+    "en": "Mushroom Sculpture",
+    "es": "Escultura de seta",
+    "fr": "Sculpture de champignon",
+    "fr-CA": "Sculpture de champignon",
+    "it": "Scultura fungina",
+    "ja": "キノコのモニュメント",
+    "ko": "버섯 조각상",
+    "nl": "Paddenstoelenbeeld",
+    "pt-BR": "Escultura de Cogumelo",
+    "ru": "Статуя в виде гриба",
+    "tr": "Mantar Heykeli",
+    "zh-CN": "蘑菇雕塑品",
+    "zh-TW": "蘑菇雕塑品"
+  },
+  "namePlain": {
     "ar": "منحوتة الفطر",
     "de": "Pilzskulptur",
     "en": "Mushroom Sculpture",

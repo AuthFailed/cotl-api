@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Boss_Dog_3",
   "name": {
+    "en": "Boss Dog 3"
+  },
+  "namePlain": {
     "en": "Boss Dog 3"
   },
   "unlock": "Dungeon5"

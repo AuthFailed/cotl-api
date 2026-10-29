@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "范围内的建筑物不会被雪覆盖。仅在<color=#FFD201>腐烧火炉</color>有燃料时有效。",
     "zh-TW": "範圍內的建築物不會被雪覆蓋。<color=#FFD201>腐燃爐</color>內有燃料時才會運作。"
   },
+  "descriptionPlain": {
+    "ar": "لن يتراكم الجليد على المباني التي في نطاقها. ستعمل فقط عندما يكون فرن فحم التعفن مزودًا بالوقود.",
+    "de": "Gebäude in Reichweite werden nicht eingeschneit. Funktioniert nur, wenn der Fäulnisbrand-Ofen befeuert wird.",
+    "en": "Structures will not be snowed under within range. Will only work when the Rotburn Furnace is fuelled.",
+    "es": "Evita que las estructuras al alcance queden sepultadas bajo la nieve. Solo funciona si la caldera de petrodumbre tiene combustible.",
+    "fr": "Les structures à portée ne seront pas ensevelies sous la neige. Ne fonctionne que si le fourneau à charbon putrescent est alimenté.",
+    "fr-CA": "Les structures à portée ne seront pas ensevelies sous la neige. Ne fonctionne que si la fournaise à charbon putrescent est alimentée.",
+    "it": "Le strutture nel raggio d'azione non verranno coperte di neve. Funziona solo dopo aver alimentato la fornace a marciolite.",
+    "ja": "範囲内にある建築物が雪に埋もれなくなる。腐敗石ストーブに燃料を入れないと動かない",
+    "ko": "범위 내 구조물이 눈에 덮이지 않습니다. 부패석탄 화로에 연료가 있을 때만 작동합니다.",
+    "nl": "Gebouwen binnen bereik sneeuwen niet onder. Werkt alleen als de rotsteenoven brandstof heeft.",
+    "pt-BR": "Estruturas não serão cobertas por neve no seu alcance. Funcionará apenas quando a Fornalha Putrefogo estiver abastecida.",
+    "ru": "Печка, которая не позволяет снегу заносить постройки в радиусе действия. Работает, только когда растоплена гнилогарная печь.",
+    "tr": "Menzilindeki yapılar kara gömülemez. Yalnızca Çürükateş Sobası'nda yakacak varken çalışır.",
+    "zh-CN": "范围内的建筑物不会被雪覆盖。仅在腐烧火炉有燃料时有效。",
+    "zh-TW": "範圍內的建築物不會被雪覆蓋。腐燃爐內有燃料時才會運作。"
+  },
   "icon": "icons/structures/PROXIMITY_FURNACE.png",
   "id": "PROXIMITY_FURNACE",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "مدفأة",
+    "de": "Heizer",
+    "en": "Heater",
+    "es": "Difusor",
+    "fr": "Radiateur",
+    "fr-CA": "Radiateur",
+    "it": "Stufa",
+    "ja": "暖房",
+    "ko": "온열기",
+    "nl": "Kachel",
+    "pt-BR": "Aquecedor",
+    "ru": "Обогреватель",
+    "tr": "Isıtıcı",
+    "zh-CN": "加热器",
+    "zh-TW": "暖爐"
+  },
+  "namePlain": {
     "ar": "مدفأة",
     "de": "Heizer",
     "en": "Heater",

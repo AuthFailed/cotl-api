@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "以石头雕成的装饰雕像",
     "zh-TW": "以石頭雕成的裝飾雕像"
   },
+  "descriptionPlain": {
+    "ar": "نصب زخرفي منحوت من الحجر.",
+    "de": "Eine dekorative, aus Stein gehauene Statue.",
+    "en": "A decorative statue carved from stone.",
+    "es": "Una estatua decorativa tallada en piedra.",
+    "fr": "Une belle statue taillée dans la pierre.",
+    "fr-CA": "Une belle statue taillée dans la pierre.",
+    "it": "Una scultura decorativa scolpita nella pietra.",
+    "ja": "石を彫って作られた装飾用の像",
+    "ko": "돌로 조각한 장식용 조각상입니다.",
+    "nl": "Een decoratief standbeeld van steen.",
+    "pt-BR": "Uma estátua decorativa esculpida em pedra.",
+    "ru": "Статуя, высеченная из камня.",
+    "tr": "Taş oyularak yapılmış, dekoratif bir heykel.",
+    "zh-CN": "以石头雕成的装饰雕像",
+    "zh-TW": "以石頭雕成的裝飾雕像"
+  },
   "icon": "icons/structures/DECORATION_TWITCH_STONE_STATUE.png",
   "id": "DECORATION_TWITCH_STONE_STATUE",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "نصب حجري",
+    "de": "Steinstatue",
+    "en": "Stone Statue",
+    "es": "Estatua de piedra",
+    "fr": "Statue en pierre",
+    "fr-CA": "Statue en pierre",
+    "it": "Scultura di pietra",
+    "ja": "ストーンスタチュー",
+    "ko": "돌 조각상",
+    "nl": "Stenen standbeeld",
+    "pt-BR": "Estátua de Pedra",
+    "ru": "Каменное изваяние",
+    "tr": "Taş Heykel",
+    "zh-CN": "石雕像",
+    "zh-TW": "石雕像"
+  },
+  "namePlain": {
     "ar": "نصب حجري",
     "de": "Steinstatue",
     "en": "Stone Statue",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Moose",
   "name": {
+    "en": "Moose"
+  },
+  "namePlain": {
     "en": "Moose"
   },
   "unlock": "DLC"

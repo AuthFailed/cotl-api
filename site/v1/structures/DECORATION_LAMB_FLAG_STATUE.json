@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "伟大圣羊的雕像",
     "zh-TW": "偉大聖羊的雕像"
   },
+  "descriptionPlain": {
+    "ar": "تمثال الحَمَل العظيم.",
+    "de": "Eine Statue des mächtigen Lamms.",
+    "en": "A statue of the mighty Lamb.",
+    "es": "Una estatua del todopoderoso Cordero.",
+    "fr": "Une statue de l'honorable Agneau.",
+    "fr-CA": "Une statue de l'honorable Agneau.",
+    "it": "Una statua dell'Agnello onnipotente.",
+    "ja": "偉大なる子羊をかたどった石像",
+    "ko": "강력한 어린 양의 조각상입니다.",
+    "nl": "Een standbeeld van het machtige Lam.",
+    "pt-BR": "Uma estátua do poderoso Cordeiro",
+    "ru": "Изваяние великого ягнёнка.",
+    "tr": "Yüce Kuzu'nun bir heykeli.",
+    "zh-CN": "伟大圣羊的雕像",
+    "zh-TW": "偉大聖羊的雕像"
+  },
   "icon": "icons/structures/DECORATION_LAMB_FLAG_STATUE.png",
   "id": "DECORATION_LAMB_FLAG_STATUE",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "تمثال راية الحَمَل",
+    "de": "Lamm-Flaggenstatue",
+    "en": "Lamb Flag Statue",
+    "es": "Estatua de la bandera del Cordero",
+    "fr": "Agneau en pierre",
+    "fr-CA": "Agneau en pierre",
+    "it": "Statua dell'Agnello con bandiera",
+    "ja": "旗付きの石像",
+    "ko": "어린 양의 깃대 조각상",
+    "nl": "Standbeeld met de vlag van het Lam",
+    "pt-BR": "Estátua do Cordeiro com Bandeira",
+    "ru": "Статуя ягнёнка с флагом",
+    "tr": "Kuzu Bayrağı Heykeli",
+    "zh-CN": "圣羊旗雕像",
+    "zh-TW": "聖羊旗雕像"
+  },
+  "namePlain": {
     "ar": "تمثال راية الحَمَل",
     "de": "Lamm-Flaggenstatue",
     "en": "Lamb Flag Statue",

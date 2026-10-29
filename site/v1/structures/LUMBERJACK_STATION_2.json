@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "一位教徒将生产 <sprite name=\"icon_wood\">",
     "zh-TW": "一位教徒將生產 <sprite name=\"icon_wood\">"
   },
+  "descriptionPlain": {
+    "ar": "سينتج تابع",
+    "de": "Ein Anhänger erzeugt",
+    "en": "A Follower will generate",
+    "es": "Un adepto producirá.",
+    "fr": "Permet à un adepte de couper du.",
+    "fr-CA": "Permet à un adepte de couper du.",
+    "it": "Un membro del Culto può generarvi.",
+    "ja": "信者が を生成する場所",
+    "ko": "추종자가 를 생성합니다.",
+    "nl": "Een volgeling genereert",
+    "pt-BR": "Um seguidor gerará",
+    "ru": "Место, где последователи могут добывать.",
+    "tr": "Bir Takipçi'nin toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产",
+    "zh-TW": "一位教徒將生產"
+  },
   "icon": "icons/structures/LUMBERJACK_STATION_2.png",
   "id": "LUMBERJACK_STATION_2",
+  "menu": "Follower/Items",
   "name": {
+    "ar": "مخزن الأخشاب II",
+    "de": "Holzplatz II",
+    "en": "Lumberyard II",
+    "es": "Aserradero II",
+    "fr": "Poste de bûcheron II",
+    "fr-CA": "Poste de bûcheron II",
+    "it": "Segheria II",
+    "ja": "木材伐採所 II",
+    "ko": "벌목소 II",
+    "nl": "Houthakkerij II",
+    "pt-BR": "Depósito de Madeiras II",
+    "ru": "Лесопилка II",
+    "tr": "Odun Deposu II",
+    "zh-CN": "伐木工站 II",
+    "zh-TW": "伐木工站 II"
+  },
+  "namePlain": {
     "ar": "مخزن الأخشاب II",
     "de": "Holzplatz II",
     "en": "Lumberyard II",

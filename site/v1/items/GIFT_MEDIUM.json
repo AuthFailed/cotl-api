@@ -17,6 +17,23 @@
     "zh-CN": "增加教徒忠诚度的礼物。",
     "zh-TW": "增加教徒忠誠度的禮物。"
   },
+  "descriptionPlain": {
+    "ar": "هدية لزيادة إخلاص تابع.",
+    "de": "Ein Geschenk, um die Loyalität deiner Anhänger zu steigern.",
+    "en": "A gift to raise the Loyalty of a Follower.",
+    "es": "Un regalo para aumentar la lealtad de un adepto.",
+    "fr": "Un cadeau permettant d'augmenter la fidélité d'un adepte.",
+    "fr-CA": "Un cadeau permettant d'accroître la fidélité d'un adepte.",
+    "it": "Un dono per aumentare la Fedeltà di un membro del Culto.",
+    "ja": "信者の忠誠心を高めてくれる贈り物",
+    "ko": "추종자의 충성심을 상승시키는 선물입니다.",
+    "nl": "Een geschenk om de loyaliteit van een volgeling te verhogen.",
+    "pt-BR": "Um presente para aumentar a Lealdade de um Seguidor.",
+    "ru": "Дар, помогающий укрепить доверие последователя.",
+    "tr": "Bir Takipçi'nin Bağlılık'ını artırmaya yarayan bir hediye.",
+    "zh-CN": "增加教徒忠诚度的礼物。",
+    "zh-TW": "增加教徒忠誠度的禮物。"
+  },
   "icon": "icons/items/GIFT_MEDIUM.png",
   "id": "GIFT_MEDIUM",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Büyük Hediye",
     "zh-CN": "大型礼物",
     "zh-TW": "大型禮物"
-  }
+  },
+  "namePlain": {
+    "ar": "هدية كبيرة",
+    "de": "Großes Geschenk",
+    "en": "Big Gift",
+    "es": "Regalo grande",
+    "fr": "Grand cadeau",
+    "fr-CA": "Grand cadeau",
+    "it": "Dono grande",
+    "ja": "贈り物（大）",
+    "ko": "큰 선물",
+    "nl": "Groot geschenk",
+    "pt-BR": "Presente Grande",
+    "ru": "Большой подарок",
+    "tr": "Büyük Hediye",
+    "zh-CN": "大型礼物",
+    "zh-TW": "大型禮物"
+  },
+  "tags": [
+    "gift"
+  ]
 }

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "一次能派三位教徒展开神圣任务。教徒成功的机率进一步增加，完成传教的速度进一步提升",
     "zh-TW": "一次能派三位教徒展開神聖任務。教徒成功的機率進一步增加，完成傳教的速度進一步提升"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك إرسال ثلاثة أتباع في مهمة عظيمة في الوقت نفسه. سيكون احتمال نجاح الأتباع أكبر وسيكملون مهمتهم على نحو أسرع.",
+    "de": "Entsende drei Anhänger gleichzeitig auf eine heilige Mission. Die Anhänger werden noch größere Erfolgschancen haben und ihre Mission noch schneller abschließen.",
+    "en": "Send three Followers on a holy quest at once. Followers will have an even higher likelihood of success and complete their mission even more quickly.",
+    "es": "Envía a tres seguidores a la vez a una misión sagrada. Los adeptos tendrán una mayor probabilidad de salir victoriosos y completar la misión en menos tiempo todavía.",
+    "fr": "Permet d'envoyer jusqu'à trois missionnaires en même temps. Ils finiront leur mission encore plus rapidement et auront bien plus de chances de la réussir.",
+    "fr-CA": "Permet d'envoyer jusqu'à trois missionnaires en même temps. Ils finiront leur mission encore plus rapidement et auront bien plus de chances de la réussir.",
+    "it": "Invia tre membri del Culto alla volta in una missione sacra. Essi avranno maggiori probabilità di successo e completeranno la missione ancor più rapidamente.",
+    "ja": "3人の信者を聖なる宣教の使命へと派遣する。宣教の成功率がさらに高まり、宣教が完了するまでの時間がさらに短くなる",
+    "ko": "한 번에 성스러운 임무를 위해 추종자 셋을 보냅니다. 추종자들이 임무를 성공할 확률이 더 높고 훨씬 빠르게 돌아옵니다.",
+    "nl": "Stuur drie volgelingen tegelijk op een heilige zendingsreis. De kans op succes is nog hoger en volgelingen voltooien hun reis nog sneller.",
+    "pt-BR": "Envie três Seguidores em uma tarefa sagrada de uma vez só. Os Seguidores têm chance ainda maior de completar a missão com sucesso e mais rapidamente.",
+    "ru": "Здание, где можно снарядить в путь трёх последователей одновременно. Миссионеры находят искомое с повышенной вероятностью и возвращаются быстрее.",
+    "tr": "Aynı anda üç Takipçi'yi kutsal göreve gönderebilirsin. Takipçilerin başarılı olma ihtimali daha da artar ve görev daha da hızlı tamamlanır.",
+    "zh-CN": "一次能派三位教徒展开神圣任务。教徒成功的机率进一步增加，完成传教的速度进一步提升",
+    "zh-TW": "一次能派三位教徒展開神聖任務。教徒成功的機率進一步增加，完成傳教的速度進一步提升"
+  },
   "icon": "icons/structures/MISSIONARY_III.png",
   "id": "MISSIONARY_III",
+  "menu": "Faith/General",
   "name": {
+    "ar": "مبنى البعثات III",
+    "de": "Missionar III",
+    "en": "Missionary III",
+    "es": "Misionero III",
+    "fr": "Poste de mission III",
+    "fr-CA": "Poste de mission III",
+    "it": "Missione III",
+    "ja": "宣教師 III",
+    "ko": "선교지 III",
+    "nl": "Zendingshuis III",
+    "pt-BR": "Missionário III",
+    "ru": "Домик миссионера III",
+    "tr": "Misyoner Binası III",
+    "zh-CN": "传教团 III",
+    "zh-TW": "傳教團 III"
+  },
+  "namePlain": {
     "ar": "مبنى البعثات III",
     "de": "Missionar III",
     "en": "Missionary III",

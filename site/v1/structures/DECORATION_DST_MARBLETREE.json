@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "恐怕用斧头也砍不倒。",
     "zh-TW": "用斧頭恐怕也砍不倒。"
   },
+  "descriptionPlain": {
+    "ar": "لا أظن أنه يمكن قطعها بفأس.",
+    "de": "Ich glaube nicht, dass man da mit einer Axt durchkommt.",
+    "en": "I dont think an axe will cut it.",
+    "es": "No parece que se pueda cortar con un hacha.",
+    "fr": "Une hache ne suffira pas à le tailler.",
+    "fr-CA": "Une hache ne suffira pas à le tailler.",
+    "it": "Difficile che un'ascia possa bastare.",
+    "ja": "斧なんかでは切り倒せなさそうだ",
+    "ko": "도끼로는 잘리지 않을 거 같습니다.",
+    "nl": "Ik denk dat je hier het bijltje wel bij neer kunt gooien.",
+    "pt-BR": "Não sei se um machado será suficiente para cortá-la.",
+    "ru": "Не думаю, что оно срубится топором.",
+    "tr": "Baltanın bunu kesebileceğini sanmıyorum.",
+    "zh-CN": "恐怕用斧头也砍不倒。",
+    "zh-TW": "用斧頭恐怕也砍不倒。"
+  },
   "icon": "icons/structures/DECORATION_DST_MARBLETREE.png",
   "id": "DECORATION_DST_MARBLETREE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "شجرة رخامية",
+    "de": "Marmorbaum",
+    "en": "Marble Tree",
+    "es": "Árbol de mármol",
+    "fr": "Arbre en marbre",
+    "fr-CA": "Arbre en marbre",
+    "it": "Albero marmoreo",
+    "ja": "大理石の木",
+    "ko": "대리석 나무",
+    "nl": "Marmeren boom",
+    "pt-BR": "Árvore de Mármore",
+    "ru": "Мраморное дерево",
+    "tr": "Mermer Ağacı",
+    "zh-CN": "大理石树",
+    "zh-TW": "大理石樹"
+  },
+  "namePlain": {
     "ar": "شجرة رخامية",
     "de": "Marmorbaum",
     "en": "Marble Tree",

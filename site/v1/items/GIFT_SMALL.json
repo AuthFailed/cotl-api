@@ -17,6 +17,23 @@
     "zh-CN": "增加教徒忠诚度的小型礼物。",
     "zh-TW": "增加教徒忠誠度的小型禮物。"
   },
+  "descriptionPlain": {
+    "ar": "هدية صغيرة لزيادة إخلاص تابع.",
+    "de": "Ein kleines Geschenk, um die Loyalität deiner Anhänger zu steigern.",
+    "en": "A small gift to raise the Loyalty of a Follower.",
+    "es": "Un regalito para aumentar la lealtad de un adepto.",
+    "fr": "Un petit cadeau permettant d'augmenter la fidélité d'un adepte.",
+    "fr-CA": "Un petit cadeau permettant d'accroître la fidélité d'un adepte.",
+    "it": "Un piccolo dono per aumentare la Fedeltà di un membro del Culto.",
+    "ja": "信者の忠誠心を高めてくれる小さな贈り物",
+    "ko": "추종자의 충성심을 상승시키는 작은 선물입니다.",
+    "nl": "Een klein geschenk om de loyaliteit van een volgeling te verhogen.",
+    "pt-BR": "Um pequeno presente para aumentar a Lealdade de um Seguidor.",
+    "ru": "Скромный дар, помогающий укрепить доверие последователя.",
+    "tr": "Bir Takipçi'nin Bağlılık'ını artırmaya yarayan küçük bir hediye.",
+    "zh-CN": "增加教徒忠诚度的小型礼物。",
+    "zh-TW": "增加教徒忠誠度的小型禮物。"
+  },
   "icon": "icons/items/GIFT_SMALL.png",
   "id": "GIFT_SMALL",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Küçük Hediye",
     "zh-CN": "小型礼物",
     "zh-TW": "小型禮物"
-  }
+  },
+  "namePlain": {
+    "ar": "هدية صغيرة",
+    "de": "Kleines Geschenk",
+    "en": "Small Gift",
+    "es": "Regalo pequeño",
+    "fr": "Petit cadeau",
+    "fr-CA": "Petit cadeau",
+    "it": "Dono piccolo",
+    "ja": "贈り物（小）",
+    "ko": "소형 선물",
+    "nl": "Klein geschenk",
+    "pt-BR": "Presente Pequeno",
+    "ru": "Маленький подарок",
+    "tr": "Küçük Hediye",
+    "zh-CN": "小型礼物",
+    "zh-TW": "小型禮物"
+  },
+  "tags": [
+    "gift"
+  ]
 }

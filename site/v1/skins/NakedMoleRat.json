@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "NakedMoleRat",
   "name": {
+    "en": "MoleRat"
+  },
+  "namePlain": {
     "en": "MoleRat"
   },
   "unlock": "Dungeon6"

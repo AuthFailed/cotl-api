@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MUSHROOM_SMALL",
@@ -22,9 +24,44 @@
     "zh-CN": "一大袋紫色蘑菇",
     "zh-TW": "一大袋紫色蘑菇"
   },
+  "descriptionPlain": {
+    "ar": "جِوال كبير ممتلئ بفطر أرجواني.",
+    "de": "Eine große Tasche voller lila Pilze.",
+    "en": "A big bag full of purple mushrooms.",
+    "es": "Una bolsa grande llena de setas moradas.",
+    "fr": "Un grand sac de champignons violets.",
+    "fr-CA": "Un gros sac de champignons mauves.",
+    "it": "Un grosso sacco pieno di funghi viola.",
+    "ja": "紫色のキノコがたくさん入った袋",
+    "ko": "보라색 버섯으로 가득한 커다란 자루입니다.",
+    "nl": "Een grote tas vol paarse paddenstoelen.",
+    "pt-BR": "Uma bolsa grande cheia de cogumelos roxos.",
+    "ru": "Большой мешок, полный фиолетовых грибов.",
+    "tr": "Mor mantarlarla dolu büyük bir çuval.",
+    "zh-CN": "一大袋紫色蘑菇",
+    "zh-TW": "一大袋紫色蘑菇"
+  },
   "icon": "icons/structures/DECORATION_TWITCH_MUSHROOM_BAG.png",
   "id": "DECORATION_TWITCH_MUSHROOM_BAG",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "جِوال الفطر",
+    "de": "Pilztasche",
+    "en": "Bag of Mushrooms",
+    "es": "Bolsa de setas",
+    "fr": "Sac de champignons",
+    "fr-CA": "Sac de champignons",
+    "it": "Sacco di funghi",
+    "ja": "キノコの袋",
+    "ko": "버섯 자루",
+    "nl": "Tas vol paddenstoelen",
+    "pt-BR": "Bolsa de Cogumelos",
+    "ru": "Мешок с грибами",
+    "tr": "Mantar Çuvalı",
+    "zh-CN": "一袋蘑菇",
+    "zh-TW": "一袋蘑菇"
+  },
+  "namePlain": {
     "ar": "جِوال الفطر",
     "de": "Pilztasche",
     "en": "Bag of Mushrooms",

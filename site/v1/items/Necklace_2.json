@@ -17,6 +17,23 @@
     "zh-CN": "增加教徒的移动速度",
     "zh-TW": "教徒的移動速度增加"
   },
+  "descriptionPlain": {
+    "ar": "ستزيد سرعة حركة التابع.",
+    "de": "Das Bewegungstempo deiner Anhänger erhöht sich.",
+    "en": "Follower will have increased movement speed.",
+    "es": "El adepto se moverá más rápido.",
+    "fr": "Permet à un adepte de se déplacer plus rapidement.",
+    "fr-CA": "Permet à un adepte de se déplacer plus rapidement.",
+    "it": "Il membro del Culto avrà velocità di movimento aumentata.",
+    "ja": "信者の移動速度が上昇する",
+    "ko": "추종자들의 이동 속도가 증가합니다",
+    "nl": "Volgeling beweegt sneller.",
+    "pt-BR": "O Seguidor terá a velocidade de movimento aumentada",
+    "ru": "Украшение, помогающее последователю передвигаться быстрее.",
+    "tr": "Takipçi'nin hareket hızı artar.",
+    "zh-CN": "增加教徒的移动速度",
+    "zh-TW": "教徒的移動速度增加"
+  },
   "icon": "icons/items/Necklace_2.png",
   "id": "Necklace_2",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Tüy Kolyesi",
     "zh-CN": "羽毛项链",
     "zh-TW": "羽毛項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة الريش",
+    "de": "Federhalskette",
+    "en": "Feather Necklace",
+    "es": "Collar de plumas",
+    "fr": "Collier de plumes",
+    "fr-CA": "Collier de plumes",
+    "it": "Collana piumata",
+    "ja": "羽根のネックレス",
+    "ko": "깃털 목걸이",
+    "nl": "Verenketting",
+    "pt-BR": "Colar de Penas",
+    "ru": "Ожерелье с перьями",
+    "tr": "Tüy Kolyesi",
+    "zh-CN": "羽毛项链",
+    "zh-TW": "羽毛項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Jackalope",
   "name": {
+    "en": "Jackalope"
+  },
+  "namePlain": {
     "en": "Jackalope"
   },
   "unlock": "Dungeon5"

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "SnowMonkey",
   "name": {
+    "en": "SnowMonkey"
+  },
+  "namePlain": {
     "en": "SnowMonkey"
   },
   "unlock": "Dungeon5"

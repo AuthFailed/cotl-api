@@ -17,6 +17,23 @@
     "zh-CN": "有八只扭来扭去的脚。",
     "zh-TW": "有八隻扭來扭去的腳。"
   },
+  "descriptionPlain": {
+    "ar": "لديه ثماني أرجل تتلوى.",
+    "de": "Er hat acht sich windende Tentakel.",
+    "en": "It has eight wiggling legs.",
+    "es": "Tiene ocho patas viscosas.",
+    "fr": "Il a huit bras qui gigotent dans tous les sens.",
+    "fr-CA": "Il a huit bras qui gigotent dans tous les sens.",
+    "it": "Ha otto arti che si dimenano.",
+    "ja": "ウネウネ動く足を8本持った生き物",
+    "ko": "8개의 흐느적거리는 다리를 가졌습니다.",
+    "nl": "Het heeft acht kronkelende armen.",
+    "pt-BR": "Tem oito braços que se mexem.",
+    "ru": "Моллюск с восемью извивающимися щупальцами.",
+    "tr": "Kıpır kıpır sekiz dokunacı var.",
+    "zh-CN": "有八只扭来扭去的脚。",
+    "zh-TW": "有八隻扭來扭去的腳。"
+  },
   "icon": "icons/items/FISH_OCTOPUS.png",
   "id": "FISH_OCTOPUS",
   "name": {
@@ -35,5 +52,27 @@
     "tr": "Ahtapot",
     "zh-CN": "章鱼",
     "zh-TW": "章魚"
-  }
+  },
+  "namePlain": {
+    "ar": "أخطبوط",
+    "de": "Oktopus",
+    "en": "Octopus",
+    "es": "Pulpo",
+    "fr": "Poulpe",
+    "fr-CA": "Pieuvre",
+    "it": "Polpo",
+    "ja": "タコ",
+    "ko": "문어",
+    "nl": "Octopus",
+    "pt-BR": "Polvo",
+    "ru": "Осьминог",
+    "tr": "Ahtapot",
+    "zh-CN": "章鱼",
+    "zh-TW": "章魚"
+  },
+  "tags": [
+    "food",
+    "fish",
+    "big_fish"
+  ]
 }

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Llama",
   "name": {
+    "en": "Llama"
+  },
+  "namePlain": {
     "en": "Llama"
   },
   "unlock": "DLC"

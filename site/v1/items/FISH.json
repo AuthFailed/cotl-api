@@ -17,6 +17,23 @@
     "zh-CN": "令人满足的主菜。",
     "zh-TW": "令人滿足的主菜。"
   },
+  "descriptionPlain": {
+    "ar": "طبق رئيسي مشبع.",
+    "de": "Ein befriedigendes Hauptgericht.",
+    "en": "A satisfactory main dish.",
+    "es": "Un primer plato muy nutritivo.",
+    "fr": "Un délicieux plat principal.",
+    "fr-CA": "Un plat principal rassasiant.",
+    "it": "Un piatto estremamente nutriente.",
+    "ja": "空腹を満たすメインディッシュ",
+    "ko": "만족스러운 메인 디쉬입니다.",
+    "nl": "Een bevredigend hoofdgerecht.",
+    "pt-BR": "Um prato principal satisfatório.",
+    "ru": "Вкусная рыба.",
+    "tr": "Doyurucu bir ana yemek.",
+    "zh-CN": "令人满足的主菜。",
+    "zh-TW": "令人滿足的主菜。"
+  },
   "icon": "icons/items/FISH.png",
   "id": "FISH",
   "name": {
@@ -35,5 +52,26 @@
     "tr": "Somon",
     "zh-CN": "鲑鱼",
     "zh-TW": "鮭魚"
-  }
+  },
+  "namePlain": {
+    "ar": "سلمون",
+    "de": "Lachs",
+    "en": "Salmon",
+    "es": "Salmón",
+    "fr": "Saumon",
+    "fr-CA": "Saumon",
+    "it": "Salmone",
+    "ja": "サケ",
+    "ko": "연어",
+    "nl": "Zalm",
+    "pt-BR": "Salmão",
+    "ru": "Лосось",
+    "tr": "Somon",
+    "zh-CN": "鲑鱼",
+    "zh-TW": "鮭魚"
+  },
+  "tags": [
+    "food",
+    "fish"
+  ]
 }

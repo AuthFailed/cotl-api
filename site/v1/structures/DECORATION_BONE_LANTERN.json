@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "BONE",
@@ -22,9 +24,44 @@
     "zh-CN": "兼具照明与威吓的用途",
     "zh-TW": "兼具照明與威嚇的用途"
   },
+  "descriptionPlain": {
+    "ar": "للإضاءة والإخافة.",
+    "de": "Zum Licht- und Angstmachen.",
+    "en": "To illuminate and intimidate.",
+    "es": "Para iluminar e intimidar.",
+    "fr": "Illumine et intimide.",
+    "fr-CA": "Illumine et intimide.",
+    "it": "Per illuminare e intimidire.",
+    "ja": "恐ろしい見た目の明かり",
+    "ko": "빛을 밝히며 위협을 가하는 목적입니다.",
+    "nl": "Voor goede verlichting en intimidatie.",
+    "pt-BR": "Para iluminar e intimidar",
+    "ru": "Освещает и устрашает.",
+    "tr": "Hem ışıklandırmak hem gözdağı vermek için.",
+    "zh-CN": "兼具照明与威吓的用途",
+    "zh-TW": "兼具照明與威嚇的用途"
+  },
   "icon": "icons/structures/DECORATION_BONE_LANTERN.png",
   "id": "DECORATION_BONE_LANTERN",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "قنديل عظمي",
+    "de": "Knochenlaterne",
+    "en": "Bone Lantern",
+    "es": "Farol de huesos",
+    "fr": "Lanterne d'os",
+    "fr-CA": "Lanterne d'os",
+    "it": "Portalanterna d'ossa",
+    "ja": "ボーンランタン",
+    "ko": "뼈 랜턴",
+    "nl": "Knokkellantaarn",
+    "pt-BR": "Lanterna de Ossos",
+    "ru": "Костяной фонарь",
+    "tr": "Kemik Fener",
+    "zh-CN": "骨头架灯笼",
+    "zh-TW": "骨頭燈籠架"
+  },
+  "namePlain": {
     "ar": "قنديل عظمي",
     "de": "Knochenlaterne",
     "en": "Bone Lantern",

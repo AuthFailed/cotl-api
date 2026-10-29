@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "和教徒玩距骨骰。你获胜时，教徒的忠诚度增加，落败时，教徒将毫无收获。",
     "zh-TW": "和教徒玩距骨骰。你獲勝時，教徒的忠誠度增加，落敗時，教徒將毫無收穫。"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك لعب جاكس مع أتباعك. إذا فزت فسيكتسبون الإخلاص، وإذا خسرت فلن يكتسبوا شيئًا.",
+    "de": "Spiele Astragaloi mit deinen Anhängern. Wenn du gewinnst, erhalten sie Loyalität, wenn du verlierst, erhalten sie nichts.",
+    "en": "Play Knucklebones with your Followers. If you win they gain Loyalty, if you lose they gain nothing.",
+    "es": "Juega a la matatena con tus adeptos. Si ganas, obtienen más lealtad; si pierdes, no cambia nada.",
+    "fr": "Jouez aux Osselets avec vos adeptes. Si vous gagnez, leur fidélité croît et si vous perdez, il ne se passe rien.",
+    "fr-CA": "Jouez aux Osselets avec vos adeptes. Si vous gagnez, leur fidélité croît et si vous perdez, il ne se passe rien.",
+    "it": "Gioca agli astragali coi membri del Culto. Se vinci, ottengono Fedeltà; se perdi, non ottengono nulla.",
+    "ja": "Knucklebonesを信者と遊ぶための施設。勝つと忠誠心が高まり、負けると何ももらえない",
+    "ko": "추종자들과 너클본을 플레이 합니다. 이길 시 충성심을 얻으며 패배 시 아무 것도 얻지 못합니다.",
+    "nl": "Speel bikkelspel met je volgelingen. Als je wint, worden ze loyaler. Als je verliest, gebeurt er niets.",
+    "pt-BR": "Dispute partidas de Jogo da Bugalha com seus Seguidores. Se você ganhar, a Lealdade deles aumenta, se perder, nada muda.",
+    "ru": "Место, где можно играть в кости с последователями, укрепляя их доверие при победе и ни на что не влияя при проигрыше.",
+    "tr": "Takipçilerinle Aşık Oyunu oyna. Kazanırsan Bağlılıkları artar, kaybedersen hiçbir şey kazanmazlar.",
+    "zh-CN": "和教徒玩距骨骰。你获胜时，教徒的忠诚度增加，落败时，教徒将毫无收获。",
+    "zh-TW": "和教徒玩距骨骰。你獲勝時，教徒的忠誠度增加，落敗時，教徒將毫無收穫。"
+  },
   "icon": "icons/structures/KNUCKLEBONES_ARENA.png",
   "id": "KNUCKLEBONES_ARENA",
+  "menu": "Faith/General",
   "name": {
+    "ar": "ساحة جاكس",
+    "de": "Astragaloi-Arena",
+    "en": "Knucklebones Arena",
+    "es": "Arena de matatena",
+    "fr": "Arène des Osselets",
+    "fr-CA": "Arène des Osselets",
+    "it": "Arena degli astragali",
+    "ja": "ナックルボーン・アリーナ",
+    "ko": "너클본 투기장",
+    "nl": "Bikkelspelarena",
+    "pt-BR": "Arena de Jogo da Bugalha",
+    "ru": "Клуб игры в кости",
+    "tr": "Aşık Oyunu Arenası",
+    "zh-CN": "距骨骰竞技场",
+    "zh-TW": "距骨骰競技場"
+  },
+  "namePlain": {
     "ar": "ساحة جاكس",
     "de": "Astragaloi-Arena",
     "en": "Knucklebones Arena",

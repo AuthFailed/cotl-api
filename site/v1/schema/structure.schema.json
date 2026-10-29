@@ -9,7 +9,9 @@
     "icon",
     "cost",
     "upgradesFrom",
-    "size"
+    "size",
+    "namePlain",
+    "descriptionPlain"
   ],
   "properties": {
     "id": {
@@ -84,6 +86,38 @@
           "minimum": 1
         }
       }
+    },
+    "namePlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "name without the game's text markup"
+    },
+    "descriptionPlain": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string"
+      },
+      "description": "description without the game's text markup"
+    },
+    "category": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "the game's structure category (FOOD, FAITH, ...), null if not buildable"
+    },
+    "buildable": {
+      "type": "boolean",
+      "description": "appears in the build menu"
+    },
+    "menu": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "build menu tab and section, e.g. Follower/Food, Faith/Sin, Aesthetic/Path; null if not in the build menu"
     }
   }
 }

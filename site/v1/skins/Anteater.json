@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Anteater",
   "name": {
+    "en": "Anteater"
+  },
+  "namePlain": {
     "en": "Anteater"
   },
   "unlock": "DLC"

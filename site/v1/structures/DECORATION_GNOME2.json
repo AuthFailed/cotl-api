@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "第二个小矮人。",
     "zh-TW": "第二個小矮人。"
   },
+  "descriptionPlain": {
+    "ar": "القزم الثاني.",
+    "de": "Der zweite Gnom.",
+    "en": "The second gnome.",
+    "es": "El segundo gnomo.",
+    "fr": "Le deuxième gnome.",
+    "fr-CA": "Le deuxième gnome.",
+    "it": "Il secondo gnomo.",
+    "ja": "2番目のノーム",
+    "ko": "두 번째 노움입니다.",
+    "nl": "De tweede kabouter.",
+    "pt-BR": "O segundo gnomo.",
+    "ru": "Второй гном.",
+    "tr": "İkinci cüce.",
+    "zh-CN": "第二个小矮人。",
+    "zh-TW": "第二個小矮人。"
+  },
   "icon": "icons/structures/DECORATION_GNOME2.png",
   "id": "DECORATION_GNOME2",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "أوه",
+    "de": "Owe",
+    "en": "Owe",
+    "es": "O",
+    "fr": "Oh",
+    "fr-CA": "Oh",
+    "it": "Ooo",
+    "ja": "オウ",
+    "ko": "오위",
+    "nl": "Oh",
+    "pt-BR": "Opepo",
+    "ru": "Оу",
+    "tr": "Om",
+    "zh-CN": "欧",
+    "zh-TW": "歐"
+  },
+  "namePlain": {
     "ar": "أوه",
     "de": "Owe",
     "en": "Owe",

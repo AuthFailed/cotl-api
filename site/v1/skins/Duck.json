@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Duck",
   "name": {
+    "en": "Duck"
+  },
+  "namePlain": {
     "en": "Duck"
   },
   "unlock": "Dungeon3"

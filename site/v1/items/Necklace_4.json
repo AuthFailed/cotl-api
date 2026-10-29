@@ -17,6 +17,23 @@
     "zh-CN": "教徒将采到额外资源",
     "zh-TW": "教徒將採到額外資源"
   },
+  "descriptionPlain": {
+    "ar": "سيجمع تابع موارد إضافية.",
+    "de": "Der Anhänger erhält Bonusressourcen.",
+    "en": "Follower will harvest bonus resources.",
+    "es": "El adepto cosechará recursos adicionales.",
+    "fr": "Permet à un adepte de récolter des ressources supplémentaires.",
+    "fr-CA": "Permet à un adepte de récolter des ressources supplémentaires.",
+    "it": "Il membro del Culto raccoglierà risorse aggiuntive.",
+    "ja": "信者が集める素材の量が増える",
+    "ko": "추종자들이 추가 자원을 수확합니다.",
+    "nl": "Volgeling zal bonusgrondstoffen oogsten.",
+    "pt-BR": "O Seguidor coletará bônus de recursos",
+    "ru": "Украшение, помогающее последователю собирать больше материалов.",
+    "tr": "Takipçi fazladan kaynak toplar.",
+    "zh-CN": "教徒将采到额外资源",
+    "zh-TW": "教徒將採到額外資源"
+  },
   "icon": "icons/items/Necklace_4.png",
   "id": "Necklace_4",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Doğanın Kolyesi",
     "zh-CN": "自然项链",
     "zh-TW": "自然項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة الطبيعة",
+    "de": "Naturhalskette",
+    "en": "Natures Necklace",
+    "es": "Collar de la naturaleza",
+    "fr": "Collier de la nature",
+    "fr-CA": "Collier de la nature",
+    "it": "Collana naturale",
+    "ja": "大自然のネックレス",
+    "ko": "자연의 목걸이",
+    "nl": "Natuurketting",
+    "pt-BR": "Colar da Natureza",
+    "ru": "Ожерелье природы",
+    "tr": "Doğanın Kolyesi",
+    "zh-CN": "自然项链",
+    "zh-TW": "自然項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

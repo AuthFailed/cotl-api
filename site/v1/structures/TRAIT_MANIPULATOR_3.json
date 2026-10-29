@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "YEW_CURSED",
@@ -26,9 +28,44 @@
     "zh-CN": "转换一名教徒的特质。新增一项特质。",
     "zh-TW": "轉換一名教徒的特質。新增一項特質。"
   },
+  "descriptionPlain": {
+    "ar": "تُستخدم لتغيير سمات تابع. تسمح بإضافة سمة جديدة.",
+    "de": "Verändere die Eigenschaften eines Anhängers. Füge eine neue Eigenschaft hinzu.",
+    "en": "Alter a Followers traits. Add a new trait.",
+    "es": "Modifica los rasgos de un adepto. Otorga un rasgo nuevo.",
+    "fr": "Modifie les croyances d'un adepte. Ajoute une nouvelle croyance.",
+    "fr-CA": "Modifie les croyances d'un adepte. Ajoute une nouvelle croyance.",
+    "it": "Altera i tratti di un membro del Culto, aggiungendogliene uno.",
+    "ja": "信者の特性を変更する。新しい特性を1つ追加する",
+    "ko": "추종자의 특성을 바꿉니다. 특성 하나를 추가합니다.",
+    "nl": "Verander de eigenschappen van een volgeling. Voeg een nieuwe eigenschap toe.",
+    "pt-BR": "Altera os aspectos de um seguidor. Adiciona um novo aspecto.",
+    "ru": "Постройка, позволяющая наделить последователя новой особенностью.",
+    "tr": "Bir Takipçi'nin özelliklerini değiştirir. Yeni bir özellik ekleyebilirsin.",
+    "zh-CN": "转换一名教徒的特质。新增一项特质。",
+    "zh-TW": "轉換一名教徒的特質。新增一項特質。"
+  },
   "icon": "icons/structures/TRAIT_MANIPULATOR_3.png",
   "id": "TRAIT_MANIPULATOR_3",
+  "menu": "MajorDLC/Misc",
   "name": {
+    "ar": "منصة تعديل السمات III",
+    "de": "Exorzismus-Altar III",
+    "en": "Exorcism Altar III",
+    "es": "Altar de exorcismos III",
+    "fr": "Autel d'exorcisme III",
+    "fr-CA": "Autel d'exorcisme III",
+    "it": "Altare esorcizzante III",
+    "ja": "悪魔祓いの祭壇 III",
+    "ko": "구마 제단 III",
+    "nl": "Uitdrijvingsaltaar III",
+    "pt-BR": "Altar de Exorcismo III",
+    "ru": "Алтарь экзорциста III",
+    "tr": "Arındırma Sunağı III",
+    "zh-CN": "驱魔祭坛 III",
+    "zh-TW": "驅魔祭壇 III"
+  },
+  "namePlain": {
     "ar": "منصة تعديل السمات III",
     "de": "Exorzismus-Altar III",
     "en": "Exorcism Altar III",

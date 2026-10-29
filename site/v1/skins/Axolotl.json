@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Axolotl",
   "name": {
+    "en": "Axolotl"
+  },
+  "namePlain": {
     "en": "Axolotl"
   },
   "unlock": "Other"

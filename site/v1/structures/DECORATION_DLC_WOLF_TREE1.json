@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "习惯寒冷气候。",
     "zh-TW": "適應寒冷氣候。"
   },
+  "descriptionPlain": {
+    "ar": "متأقلمة مع الطقس البارد.",
+    "de": "An kaltes Klima gewöhnt.",
+    "en": "Accustomed to cold climates.",
+    "es": "Prospera en los climas más fríos.",
+    "fr": "Habitué aux climats froids.",
+    "fr-CA": "Habitué aux climats froids.",
+    "it": "Abituato a climi freddi.",
+    "ja": "寒い気候に適応した植物",
+    "ko": "추운 지역에 적응했습니다.",
+    "nl": "Gewend aan koude weersomstandigheden.",
+    "pt-BR": "Acostumada a climas frios.",
+    "ru": "Дерево, способное пережить самые жестокие морозы.",
+    "tr": "Soğuk iklimlere alışıktır.",
+    "zh-CN": "习惯寒冷气候。",
+    "zh-TW": "適應寒冷氣候。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_TREE1.png",
   "id": "DECORATION_DLC_WOLF_TREE1",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "الشجرة الجبلية",
+    "de": "Bergbaum",
+    "en": "Alpine Tree",
+    "es": "Árbol alpino",
+    "fr": "Arbre alpin",
+    "fr-CA": "Arbre alpin",
+    "it": "Abete",
+    "ja": "高山の木鉢",
+    "ko": "고산지 나무",
+    "nl": "Alpenboom",
+    "pt-BR": "Árvore Alpina",
+    "ru": "Хвойное дерево",
+    "tr": "Alp Ağacı",
+    "zh-CN": "高山树",
+    "zh-TW": "高山樹木"
+  },
+  "namePlain": {
     "ar": "الشجرة الجبلية",
     "de": "Bergbaum",
     "en": "Alpine Tree",

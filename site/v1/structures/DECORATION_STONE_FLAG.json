@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "升旗用的岩石柱",
     "zh-TW": "升旗用的岩石柱"
   },
+  "descriptionPlain": {
+    "ar": "عمود حجري لرفع رايتك.",
+    "de": "Eine Steinsäule zum Hissen deiner Flagge.",
+    "en": "A stone pillar to raise your flag.",
+    "es": "Un pilar de piedra para alzar tu bandera.",
+    "fr": "Un solide pilier en pierre pour porter votre étendard.",
+    "fr-CA": "Un solide pilier en pierre pour porter votre étendard.",
+    "it": "Un monolite di pietra per innalzare la tua bandiera.",
+    "ja": "石でできた、旗をかかげる用の支柱",
+    "ko": "깃발을 달 수 있는 돌 기둥입니다.",
+    "nl": "Een stenen pilaar om je vlag aan te hijsen.",
+    "pt-BR": "Um pilar de pedras que ergue a sua bandeira",
+    "ru": "Каменный флагшток с вашим знаменем.",
+    "tr": "Bayrağının dalgalandığı taş bir direk.",
+    "zh-CN": "升旗用的岩石柱",
+    "zh-TW": "升旗用的岩石柱"
+  },
   "icon": "icons/structures/DECORATION_STONE_FLAG.png",
   "id": "DECORATION_STONE_FLAG",
+  "menu": "Aesthetic/Dungeon1",
   "name": {
+    "ar": "راية حجرية",
+    "de": "Steinflagge",
+    "en": "Stone Flag",
+    "es": "Piedra con bandera",
+    "fr": "Porte-étendard en pierre",
+    "fr-CA": "Porte-étendard en pierre",
+    "it": "Monolite portabandiera",
+    "ja": "ストーンフラッグ",
+    "ko": "돌 깃대",
+    "nl": "Steen met vlag",
+    "pt-BR": "Bandeira de Pedra",
+    "ru": "Камень с флагом",
+    "tr": "Taş Bayrak",
+    "zh-CN": "岩石旗杆",
+    "zh-TW": "岩石旗桿"
+  },
+  "namePlain": {
     "ar": "راية حجرية",
     "de": "Steinflagge",
     "en": "Stone Flag",

@@ -17,6 +17,23 @@
     "zh-CN": "有用的建材。",
     "zh-TW": "有用的建材。"
   },
+  "descriptionPlain": {
+    "ar": "مادة بناء مفيدة.",
+    "de": "Ein nützliches Baumaterial.",
+    "en": "A useful building material.",
+    "es": "Un material muy útil para construir.",
+    "fr": "Un matériau de construction très utile.",
+    "fr-CA": "Un matériau de construction très utile.",
+    "it": "Un utile materiale da costruzione.",
+    "ja": "便利な建築素材",
+    "ko": "유용한 건축용 자재입니다.",
+    "nl": "Een handig bouwmateriaal.",
+    "pt-BR": "Um material de construção útil.",
+    "ru": "Строительный материал.",
+    "tr": "Kullanışlı bir inşa malzemesi.",
+    "zh-CN": "有用的建材。",
+    "zh-TW": "有用的建材。"
+  },
   "icon": "icons/items/STONE.png",
   "id": "STONE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Taş",
     "zh-CN": "石材",
     "zh-TW": "石材"
-  }
+  },
+  "namePlain": {
+    "ar": "حجر",
+    "de": "Stein",
+    "en": "Stone",
+    "es": "Piedra",
+    "fr": "Pierre",
+    "fr-CA": "Pierre",
+    "it": "Pietra",
+    "ja": "石",
+    "ko": "돌",
+    "nl": "Steen",
+    "pt-BR": "Pedra",
+    "ru": "Камень",
+    "tr": "Taş",
+    "zh-CN": "石材",
+    "zh-TW": "石材"
+  },
+  "tags": []
 }

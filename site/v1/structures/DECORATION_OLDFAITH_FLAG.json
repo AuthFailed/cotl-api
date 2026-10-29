@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "BLACK_GOLD",
@@ -26,9 +28,44 @@
     "zh-CN": "印有古老经文标志的旗子",
     "zh-TW": "印有古老經文標誌的旗子"
   },
+  "descriptionPlain": {
+    "ar": "راية عليها رمز لقانون قديم.",
+    "de": "Eine Flagge, die das Symbol uralter Schriften trägt.",
+    "en": "A flag bearing a symbol of ancient scripture.",
+    "es": "Una bandera con el símbolo de una escritura ancestral.",
+    "fr": "Un étendard portant un symbole ancien.",
+    "fr-CA": "Un drapeau portant un symbole ancien.",
+    "it": "Una bandiera col simbolo delle antiche scritture.",
+    "ja": "古い聖典のシンボルが描かれた旗",
+    "ko": "고대 경전의 상징이 그려진 깃발입니다.",
+    "nl": "Een vlag met het symbool van de eeuwenoude schrift.",
+    "pt-BR": "Uma bandeira que carrega um símbolo da antiga escritura.",
+    "ru": "Флаг с эмблемой древнего манускрипта.",
+    "tr": "Kadim kanunların simgesini taşıyan bir bayrak.",
+    "zh-CN": "印有古老经文标志的旗子",
+    "zh-TW": "印有古老經文標誌的旗子"
+  },
   "icon": "icons/structures/DECORATION_OLDFAITH_FLAG.png",
   "id": "DECORATION_OLDFAITH_FLAG",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "راية العقيدة القديمة",
+    "de": "Flagge des alten Glaubens",
+    "en": "Flag of the Old Faith",
+    "es": "Bandera de la Antigua Fe",
+    "fr": "Étendard de la Vieille croyance",
+    "fr-CA": "Étendard de la Vieille croyance",
+    "it": "Bandiera dell'Antico Credo",
+    "ja": "旧き信仰の旗",
+    "ko": "옛 신앙의 깃발",
+    "nl": "Vlag van het Oude Geloof",
+    "pt-BR": "Bandeira da Antiga Fé",
+    "ru": "Флаг древней веры",
+    "tr": "Kadim İnanç'ın Bayrağı",
+    "zh-CN": "古老信仰之旗",
+    "zh-TW": "古老信仰之旗"
+  },
+  "namePlain": {
     "ar": "راية العقيدة القديمة",
     "de": "Flagge des alten Glaubens",
     "en": "Flag of the Old Faith",

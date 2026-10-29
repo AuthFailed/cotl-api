@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "这片土地上前所未见之物。",
     "zh-TW": "這片土地上前所未見。"
   },
+  "descriptionPlain": {
+    "ar": "لم يُر من قبل في هذه الأراضي.",
+    "de": "Das hat es in diesen Ländern bisher noch nie gegeben.",
+    "en": "Unseen before in these Lands.",
+    "es": "Nunca antes vista en estas tierras.",
+    "fr": "Jamais vu dans ces terres.",
+    "fr-CA": "Jamais vu dans ces terres.",
+    "it": "Mai vista prima in queste terre.",
+    "ja": "この地では見たことがない形をしている",
+    "ko": "이 땅에서 본 적 없는 과일입니다.",
+    "nl": "Nooit eerder gezien in deze landen.",
+    "pt-BR": "Nunca vista nestas terras.",
+    "ru": "Фрукт, какого эти земли ещё не видели.",
+    "tr": "Bu topraklarda daha önce böylesi görülmemişti.",
+    "zh-CN": "这片土地上前所未见之物。",
+    "zh-TW": "這片土地上前所未見。"
+  },
   "icon": "icons/structures/DECORATION_APPLE_STATUE.png",
   "id": "DECORATION_APPLE_STATUE",
+  "menu": null,
   "name": {
+    "ar": "تمثال فاكهة غامض",
+    "de": "Mysteriöse Fruchtstatue",
+    "en": "Mysterious Fruit Statue",
+    "es": "Estatua de fruta misteriosa",
+    "fr": "Statue de fruit mystérieux",
+    "fr-CA": "Statue de fruit mystérieux",
+    "it": "Statua del frutto misterioso",
+    "ja": "謎の果物の石像",
+    "ko": "수수께끼의 과일 조각상",
+    "nl": "Mysterieus fruitstandbeeld",
+    "pt-BR": "Estátua da Fruta Misteriosa",
+    "ru": "Статуя загадочного фрукта",
+    "tr": "Gizemli Meyve Heykeli",
+    "zh-CN": "神秘果实雕像",
+    "zh-TW": "神祕果實雕像"
+  },
+  "namePlain": {
     "ar": "تمثال فاكهة غامض",
     "de": "Mysteriöse Fruchtstatue",
     "en": "Mysterious Fruit Statue",

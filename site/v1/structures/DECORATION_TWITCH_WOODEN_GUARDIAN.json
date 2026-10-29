@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "以木头雕成的装饰雕像",
     "zh-TW": "以木頭雕成的裝飾雕像"
   },
+  "descriptionPlain": {
+    "ar": "تمثال زخرفي منحوت من الخشب.",
+    "de": "Eine dekorative, aus Holz geschnitzte Statue.",
+    "en": "A decorative statue carved from wood.",
+    "es": "Una estatua decorativa tallada en madera.",
+    "fr": "Une belle statue taillée dans le bois.",
+    "fr-CA": "Une belle statue taillée dans le bois.",
+    "it": "Una statua decorativa scolpita nel legno.",
+    "ja": "木を彫って作られた装飾用の像",
+    "ko": "나무로 조각한 장식용 조각상입니다.",
+    "nl": "Een decoratief standbeeld van hout.",
+    "pt-BR": "Uma estátua decorativa esculpida em madeira.",
+    "ru": "Статуя, высеченная из дерева.",
+    "tr": "Ağaç oyularak yapılmış, dekoratif bir heykel.",
+    "zh-CN": "以木头雕成的装饰雕像",
+    "zh-TW": "以木頭雕成的裝飾雕像"
+  },
   "icon": "icons/structures/DECORATION_TWITCH_WOODEN_GUARDIAN.png",
   "id": "DECORATION_TWITCH_WOODEN_GUARDIAN",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "الحارس الخشبي",
+    "de": "Hölzerner Wächter",
+    "en": "Wooden Guardian",
+    "es": "Guardián de madera",
+    "fr": "Garde de bois",
+    "fr-CA": "Gardien en bois",
+    "it": "Guardiano di legno",
+    "ja": "ウッド・ガーディアン",
+    "ko": "목제 수호상",
+    "nl": "Houten bewaker",
+    "pt-BR": "Guardião de Madeira",
+    "ru": "Деревянный страж",
+    "tr": "Ağaç Muhafız",
+    "zh-CN": "木头守护者",
+    "zh-TW": "木頭守護者"
+  },
+  "namePlain": {
     "ar": "الحارس الخشبي",
     "de": "Hölzerner Wächter",
     "en": "Wooden Guardian",

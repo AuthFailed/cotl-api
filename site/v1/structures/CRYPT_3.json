@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "能埋葬多位死去的教徒，避免尸体腐烂。可容纳的遗体数进一步增加",
     "zh-TW": "能埋葬多位死去的教徒，避免屍體腐爛。可容納的遺體數進一步增加"
   },
+  "descriptionPlain": {
+    "ar": "لدفن العديد من الأتباع الموتى وتجنب تعفن الجثث. يتسع لعدد أكبر من الجثث.",
+    "de": "Bette mehrere tote Anhänger zur letzten Ruhe. Vermeidet verwesende Leichen. Kann noch mehr Tote aufnehmen.",
+    "en": "Lay multiple dead Followers to rest. Avoids rotting corpses. Holds even more dead.",
+    "es": "Otorga reposo a varios adeptos muertos y evita que los cuerpos se descompongan. Proporciona aún más espacio.",
+    "fr": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient. Peut contenir encore plus de morts.",
+    "fr-CA": "Déposez plusieurs corps d'adeptes morts. Permet d'éviter que les cadavres se putréfient. Peut contenir encore plus de morts.",
+    "it": "Vi puoi seppellire svariati membri del Culto defunti, evitandone la decomposizione.",
+    "ja": "信者の死体を複数埋葬するための施設。死体の腐敗を防ぐ。埋葬できる数がさらに増える",
+    "ko": "여러 명의 죽은 추종자들을 안치합니다. 시체가 썩는 것을 방지합니다. 시체를 훨씬 더 많이 안치할 수 있습니다.",
+    "nl": "Leg meerdere dode volgelingen te ruste. Zo voorkom je dat lijken gaan rotten. Biedt nog meer plaats.",
+    "pt-BR": "Posicione vários Seguidores mortos para que eles descansem. Retém ainda mais mortos.",
+    "ru": "Усыпальница, в которой можно упокоить много мёртвых последователей. Тела не разлагаются.",
+    "tr": "Birden fazla ölü Takipçi'yi gömebilirsin. Cesetlerin çürümesini önler. Daha da fazla ölü alır.",
+    "zh-CN": "能埋葬多位死去的教徒，避免尸体腐烂。可容纳的遗体数进一步增加",
+    "zh-TW": "能埋葬多位死去的教徒，避免屍體腐爛。可容納的遺體數進一步增加"
+  },
   "icon": "icons/structures/CRYPT_3.png",
   "id": "CRYPT_3",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "السرداب III",
+    "de": "Gruft III",
+    "en": "Crypt III",
+    "es": "Cripta III",
+    "fr": "Crypte III",
+    "fr-CA": "Crypte III",
+    "it": "Cripta III",
+    "ja": "地下墓地 III",
+    "ko": "지하묘실 III",
+    "nl": "Crypte III",
+    "pt-BR": "Cripta III",
+    "ru": "Склеп III",
+    "tr": "Mezar Odası III",
+    "zh-CN": "墓室 III",
+    "zh-TW": "墓室 III"
+  },
+  "namePlain": {
     "ar": "السرداب III",
     "de": "Gruft III",
     "en": "Crypt III",

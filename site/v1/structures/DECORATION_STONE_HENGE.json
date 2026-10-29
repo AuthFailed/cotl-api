@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "是谁建造的？",
     "zh-TW": "是誰建造的？"
   },
+  "descriptionPlain": {
+    "ar": "مَن بناه؟",
+    "de": "Wer hat es erschaffen?",
+    "en": "Who made it?",
+    "es": "¿Quién lo habrá hecho?",
+    "fr": "Qui a bien pu créer ça?",
+    "fr-CA": "Qui a bien pu construire ça?",
+    "it": "Di chi è opera?",
+    "ja": "誰が作ったのだろう？",
+    "ko": "누가 만들었을까요?",
+    "nl": "Wie heeft dit gebouwd?",
+    "pt-BR": "Quem fez isso?",
+    "ru": "Кто его создал?",
+    "tr": "Yosun tutmuş bir taş kemer.",
+    "zh-CN": "是谁建造的？",
+    "zh-TW": "是誰建造的？"
+  },
   "icon": "icons/structures/DECORATION_STONE_HENGE.png",
   "id": "DECORATION_STONE_HENGE",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "الشاهد الحجري",
+    "de": "Stonehenge",
+    "en": "Stonehenge",
+    "es": "Stonehenge",
+    "fr": "Stonehenge",
+    "fr-CA": "Stonehenge",
+    "it": "Stonehenge",
+    "ja": "ストーンヘンジ",
+    "ko": "스톤헨지",
+    "nl": "Stonehenge",
+    "pt-BR": "Stonehenge",
+    "ru": "Стоунхендж",
+    "tr": "Taş Kemer",
+    "zh-CN": "巨石群",
+    "zh-TW": "巨石群"
+  },
+  "namePlain": {
     "ar": "الشاهد الحجري",
     "de": "Stonehenge",
     "en": "Stonehenge",

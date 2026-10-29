@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "让采石速度增加",
     "zh-TW": "讓採石速度增加"
   },
+  "descriptionPlain": {
+    "ar": "يتيح اقتلاع الحجارة بصورة أسرع.",
+    "de": "Ermöglicht schnelleren Steinabbau.",
+    "en": "Allows faster stone mining.",
+    "es": "Permite extraer piedra más rápido.",
+    "fr": "Permet de miner de la pierre plus rapidement.",
+    "fr-CA": "Permet de miner de la pierre plus rapidement.",
+    "it": "Consente un'estrazione più rapida della pietra.",
+    "ja": "石の採掘速度が上昇する",
+    "ko": "채광 속도를 더 빠르게합니다.",
+    "nl": "Je volgelingen delven sneller steen.",
+    "pt-BR": "Permite uma mineração de pedras mais rápida.",
+    "ru": "Небольшой алтарь, который ускоряет добычу камня.",
+    "tr": "Taş çıkarmayı hızlandırır.",
+    "zh-CN": "让采石速度增加",
+    "zh-TW": "讓採石速度增加"
+  },
   "icon": null,
   "id": "MINING_SHRINE",
+  "menu": null,
   "name": {
+    "ar": "مزار الاقتلاع",
+    "de": "Schrein des Abbaus",
+    "en": "Mining Shrine",
+    "es": "Santuario de mina",
+    "fr": "Autel de la pierre",
+    "fr-CA": "Autel de la pierre",
+    "it": "Santuario minerario",
+    "ja": "採鉱の祭壇",
+    "ko": "채광 신단",
+    "nl": "Groeve-altaar",
+    "pt-BR": "Santuário da Mineração",
+    "ru": "Алтарь гор",
+    "tr": "Madencilik Mabedi",
+    "zh-CN": "采石圣坛",
+    "zh-TW": "採石聖壇"
+  },
+  "namePlain": {
     "ar": "مزار الاقتلاع",
     "de": "Schrein des Abbaus",
     "en": "Mining Shrine",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "彰显你的充分准备。",
     "zh-TW": "讓敵人看看你準備了多少。"
   },
+  "descriptionPlain": {
+    "ar": "لإظهار مدى استعدادك للأعداء.",
+    "de": "Lass sie sehen, wie gut du vorbereitet bist.",
+    "en": "Let them see how prepared you are.",
+    "es": "Que vean que no caerás ante nadie.",
+    "fr": "Montrez au monde combien vous êtes préparé.",
+    "fr-CA": "Montrez-leur à quel point vous êtes bien préparé.",
+    "it": "A portata di mano per ogni evenienza.",
+    "ja": "戦う準備ができていることを敵に示すためのもの",
+    "ko": "얼마나 만반의 준비가 되었는지 보여주세요.",
+    "nl": "Laat ze zien hoe goed je bent voorbereid.",
+    "pt-BR": "Deixe que vejam o seu preparo.",
+    "ru": "Наглядное подтверждение того, что вы готовы ко всему.",
+    "tr": "Ne kadar hazırlıklı olduğunu herkes görsün.",
+    "zh-CN": "彰显你的充分准备。",
+    "zh-TW": "讓敵人看看你準備了多少。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_BARREL2.png",
   "id": "DECORATION_DLC_WOOLHAVEN_BARREL2",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "برميل الرماح",
+    "de": "Speerfass",
+    "en": "Barrel of Spears",
+    "es": "Barril con lanzas",
+    "fr": "Baril de lances",
+    "fr-CA": "Baril de lances",
+    "it": "Barile di lance",
+    "ja": "槍の木桶",
+    "ko": "창꽂이 통",
+    "nl": "Vat met speren",
+    "pt-BR": "Barril de Lanças",
+    "ru": "Бочка с копьями",
+    "tr": "Mızrak Fıçısı",
+    "zh-CN": "长矛桶",
+    "zh-TW": "長矛桶"
+  },
+  "namePlain": {
     "ar": "برميل الرماح",
     "de": "Speerfass",
     "en": "Barrel of Spears",

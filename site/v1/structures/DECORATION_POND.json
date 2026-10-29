@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "宁静的池塘",
     "zh-TW": "寧靜的池塘"
   },
+  "descriptionPlain": {
+    "ar": "بركة تبعث على السكينة.",
+    "de": "Ein ruhiger Teich.",
+    "en": "A tranquil pond.",
+    "es": "Un estanque tranquilo.",
+    "fr": "Un étang paisible.",
+    "fr-CA": "Un étang paisible.",
+    "it": "Un placido stagno.",
+    "ja": "見ているだけで心が落ち着く池",
+    "ko": "고요한 연못입니다.",
+    "nl": "Een rustgevende vijver.",
+    "pt-BR": "Um lago tranquilo.",
+    "ru": "Небольшой тихий водоём.",
+    "tr": "Huzur verici bir gölet.",
+    "zh-CN": "宁静的池塘",
+    "zh-TW": "寧靜的池塘"
+  },
   "icon": "icons/structures/DECORATION_POND.png",
   "id": "DECORATION_POND",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "بركة",
+    "de": "Teich",
+    "en": "Pond",
+    "es": "Estanque",
+    "fr": "Étang",
+    "fr-CA": "Étang",
+    "it": "Stagno",
+    "ja": "池",
+    "ko": "연못",
+    "nl": "Vijver",
+    "pt-BR": "Lago",
+    "ru": "Пруд",
+    "tr": "Gölet",
+    "zh-CN": "池塘",
+    "zh-TW": "池塘"
+  },
+  "namePlain": {
     "ar": "بركة",
     "de": "Teich",
     "en": "Pond",

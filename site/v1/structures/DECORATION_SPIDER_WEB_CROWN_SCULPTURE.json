@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "SPIDER_WEB",
@@ -22,9 +24,44 @@
     "zh-CN": "蜘蛛网缠绕着你的标志",
     "zh-TW": "用蜘蛛網呈現你的標誌"
   },
+  "descriptionPlain": {
+    "ar": "رمزك في شبكة عنكبوت.",
+    "de": "Dein Symbol, aus Spinnweben gemacht.",
+    "en": "Your symbol captured in a cobweb.",
+    "es": "Tu símbolo capturado en una telaraña.",
+    "fr": "Votre symbole dans une toile d'araignée.",
+    "fr-CA": "Votre symbole dans une toile d'araignée.",
+    "it": "Il tuo simbolo imprigionato da una ragnatela.",
+    "ja": "教団のシンボルがあしらわれた、クモの巣でできたオブジェ",
+    "ko": "당신의 상징이 거미줄에 달려있습니다.",
+    "nl": "Je symbool gevangen in een spinnenweb.",
+    "pt-BR": "Seu símbolo capturado em uma teia de aranha",
+    "ru": "Ваш символ на нитях паутины.",
+    "tr": "Simgenin örümcek ağlarıyla çevrili hâli.",
+    "zh-CN": "蜘蛛网缠绕着你的标志",
+    "zh-TW": "用蜘蛛網呈現你的標誌"
+  },
   "icon": "icons/structures/DECORATION_SPIDER_WEB_CROWN_SCULPTURE.png",
   "id": "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+  "menu": "Aesthetic/Spider",
   "name": {
+    "ar": "منحوتة تاج خيوط العنكبوت",
+    "de": "Spinnennetz-Kronenskulptur",
+    "en": "Web Crown Sculpture",
+    "es": "Escultura de corona con telaraña",
+    "fr": "Couronne de soie",
+    "fr-CA": "Couronne de soie",
+    "it": "Corona nella tela",
+    "ja": "クモの巣のモニュメント",
+    "ko": "거미줄 왕관 조각",
+    "nl": "Beeld van een kroon met spinnenwebben",
+    "pt-BR": "Escultura da Coroa em Teias",
+    "ru": "Украшение с короной на паутине",
+    "tr": "Ağ Tacı Heykeli",
+    "zh-CN": "蛛网圣冠雕塑品",
+    "zh-TW": "蛛網聖冠雕塑品"
+  },
+  "namePlain": {
     "ar": "منحوتة تاج خيوط العنكبوت",
     "de": "Spinnennetz-Kronenskulptur",
     "en": "Web Crown Sculpture",

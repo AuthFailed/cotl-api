@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántala en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantalo in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Zaai deze op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_CHILLI.png",
   "id": "SEED_CHILLI",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Acı Biber Tohumu",
     "zh-CN": "辣椒种子",
     "zh-TW": "辣椒種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذرة فلفل حار",
+    "de": "Chilisamen",
+    "en": "Chilli Seed",
+    "es": "Semilla de chile",
+    "fr": "Graine de piment",
+    "fr-CA": "Graine de piment",
+    "it": "Seme di peperoncino",
+    "ja": "チリの種",
+    "ko": "고추 씨앗",
+    "nl": "Chilizaden",
+    "pt-BR": "Semente de Pimenta",
+    "ru": "Семя острого перца",
+    "tr": "Acı Biber Tohumu",
+    "zh-CN": "辣椒种子",
+    "zh-TW": "辣椒種子"
+  },
+  "tags": []
 }

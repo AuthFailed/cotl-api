@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Fox",
   "name": {
+    "en": "Fox"
+  },
+  "namePlain": {
     "en": "Fox"
   },
   "unlock": "Other"

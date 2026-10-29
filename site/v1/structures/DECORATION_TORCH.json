@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "光源之一",
     "zh-TW": "光源之一"
   },
+  "descriptionPlain": {
+    "ar": "مصدر ضوء.",
+    "de": "Eine Lichtquelle.",
+    "en": "A light source.",
+    "es": "Una fuente de luz.",
+    "fr": "Source de lumière.",
+    "fr-CA": "Source de lumière.",
+    "it": "Una fonte luminosa.",
+    "ja": "暗いところで光を放つ",
+    "ko": "광원입니다.",
+    "nl": "Een lichtbron.",
+    "pt-BR": "Uma fonte de luz",
+    "ru": "Источник света.",
+    "tr": "Bir ışık kaynağı.",
+    "zh-CN": "光源之一",
+    "zh-TW": "光源之一"
+  },
   "icon": "icons/structures/DECORATION_TORCH.png",
   "id": "DECORATION_TORCH",
+  "menu": null,
   "name": {
+    "ar": "شعلة",
+    "de": "Fackel",
+    "en": "Torch",
+    "es": "Antorcha",
+    "fr": "Torche",
+    "fr-CA": "Torche",
+    "it": "Torcia",
+    "ja": "たいまつ",
+    "ko": "횃불",
+    "nl": "Fakkel",
+    "pt-BR": "Tocha",
+    "ru": "Факел",
+    "tr": "Meşale",
+    "zh-CN": "火炬",
+    "zh-TW": "火炬"
+  },
+  "namePlain": {
     "ar": "شعلة",
     "de": "Fackel",
     "en": "Torch",

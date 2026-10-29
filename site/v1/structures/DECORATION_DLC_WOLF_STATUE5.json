@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "解剖用具。",
     "zh-TW": "解剖用的工具。"
   },
+  "descriptionPlain": {
+    "ar": "أدوات للتشريح.",
+    "de": "Werkzeuge zum Sezieren.",
+    "en": "Tools for dissection.",
+    "es": "Herramientas para diseccionar.",
+    "fr": "Outil de dissection.",
+    "fr-CA": "Outil de dissection.",
+    "it": "Attrezzi di dissezione.",
+    "ja": "解剖のための道具",
+    "ko": "해부의 도구입니다.",
+    "nl": "Gereedschap voor ontleding.",
+    "pt-BR": "Ferramentas para dissecação.",
+    "ru": "Орудие для препарирования.",
+    "tr": "Teşrih araç gereçleri.",
+    "zh-CN": "解剖用具。",
+    "zh-TW": "解剖用的工具。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_STATUE5.png",
   "id": "DECORATION_DLC_WOLF_STATUE5",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "أداة الخيميائي III",
+    "de": "Alchemisten-Instrument III",
+    "en": "Alchemist's Instrument III",
+    "es": "Instrumental de alquimista III",
+    "fr": "Instrument d'alchimiste III",
+    "fr-CA": "Instrument d'alchimiste III",
+    "it": "Strumento dell'alchimista III",
+    "ja": "錬金術師の器具 III",
+    "ko": "연금술사의 도구 III",
+    "nl": "Alchemistenapparaat III",
+    "pt-BR": "Instrumento de Alquimia III",
+    "ru": "Инструмент алхимика III",
+    "tr": "Simyacı Aleti III",
+    "zh-CN": "炼金术士的器具 III",
+    "zh-TW": "鍊金術士的器具 III"
+  },
+  "namePlain": {
     "ar": "أداة الخيميائي III",
     "de": "Alchemisten-Instrument III",
     "en": "Alchemist's Instrument III",

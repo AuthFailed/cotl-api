@@ -17,6 +17,23 @@
     "zh-CN": "看起来曾经是某种圣坛的一部分……",
     "zh-TW": "看起來曾經是某種聖壇的一部分……"
   },
+  "descriptionPlain": {
+    "ar": "يبدو أنها كانت جزءًا من مزار من نوع ما...",
+    "de": "Sieht aus, als gehörte es einst zu einer Art Schrein...",
+    "en": "It looks like it was once part of a shrine of some kind...",
+    "es": "Parece que antes formaba parte de una especie de santuario...",
+    "fr": "Elle semble faire partie d'une sorte d'autel...",
+    "fr-CA": "Elle semble faire partie d'une sorte d'autel...",
+    "it": "Sembra che un tempo facesse parte di una specie di santuario...",
+    "ja": "祭壇かなにかの一部に使われていたようだが…",
+    "ko": "한때 성지의 일부분이었던 것으로 보입니다...",
+    "nl": "Het ziet eruit alsof het ooit deel was van een soort altaar...",
+    "pt-BR": "Parece que isso fazia parte de um tipo de santuário...",
+    "ru": "Небольшая раковина, которая раньше была частью некоего алтаря.",
+    "tr": "Bir zamanlar bir mabedin parçasıymış gibi duruyor...",
+    "zh-CN": "看起来曾经是某种圣坛的一部分……",
+    "zh-TW": "看起來曾經是某種聖壇的一部分……"
+  },
   "icon": "icons/items/SHELL.png",
   "id": "SHELL",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kabuk",
     "zh-CN": "壳",
     "zh-TW": "殼"
-  }
+  },
+  "namePlain": {
+    "ar": "صدفة",
+    "de": "Schneckenhaus",
+    "en": "Shell",
+    "es": "Concha",
+    "fr": "Coquille",
+    "fr-CA": "Coquille",
+    "it": "Guscio",
+    "ja": "殻",
+    "ko": "껍데기",
+    "nl": "Schelp",
+    "pt-BR": "Concha",
+    "ru": "Ракушка",
+    "tr": "Kabuk",
+    "zh-CN": "壳",
+    "zh-TW": "殼"
+  },
+  "tags": []
 }

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "新旧交替之时盛开。",
     "zh-TW": "新舊交替之時盛開。"
   },
+  "descriptionPlain": {
+    "ar": "تزدهر عندما يلتقي القديم الجديد.",
+    "de": "Blüht, wenn das Alte auf das Neue trifft.",
+    "en": "Blooms when old meets new.",
+    "es": "Florece cuando lo clásico coincide con lo novedoso.",
+    "fr": "Fleurit à la croisée de l'ancien et du nouveau.",
+    "fr-CA": "Fleurit à la croisée de l'ancien et du nouveau.",
+    "it": "Fiorisce quando il vecchio incontra il nuovo.",
+    "ja": "旧きが新しきと出会う時、その花を咲かせる",
+    "ko": "옛 것이 새로운 것을 만나면 꽃을 피웁니다.",
+    "nl": "Bloeit wanneer het oude en nieuwe samenkomen.",
+    "pt-BR": "Floresce quando o velho encontra o novo.",
+    "ru": "Дерево, которое цветёт, когда старое встречается с новым.",
+    "tr": "Eskilerle yeniler bir olunca çiçek açacak.",
+    "zh-CN": "新旧交替之时盛开。",
+    "zh-TW": "新舊交替之時盛開。"
+  },
   "icon": "icons/structures/DECORATION_CNY_TREE.png",
   "id": "DECORATION_CNY_TREE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "شجرة الحظ",
+    "de": "Glücksbaum",
+    "en": "Fortuitous Tree",
+    "es": "Árbol fortuito",
+    "fr": "Arbre de providence",
+    "fr-CA": "Arbre de providence",
+    "it": "Albero dell'auspicio",
+    "ja": "幸運の木",
+    "ko": "행운의 나무",
+    "nl": "Fortuinlijke boom",
+    "pt-BR": "Árvore Fortuita",
+    "ru": "Дерево удачи",
+    "tr": "Şans Ağacı",
+    "zh-CN": "吉祥树",
+    "zh-TW": "吉祥樹"
+  },
+  "namePlain": {
     "ar": "شجرة الحظ",
     "de": "Glücksbaum",
     "en": "Fortuitous Tree",

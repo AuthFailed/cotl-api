@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "致敬掠食者。",
     "zh-TW": "紀念掠食者。"
   },
+  "descriptionPlain": {
+    "ar": "تقديرًا للمفترس.",
+    "de": "Ehre das Raubtier.",
+    "en": "Honour the predator.",
+    "es": "Un homenaje al depredador.",
+    "fr": "Honorez les prédateurs.",
+    "fr-CA": "Honorez les prédateurs.",
+    "it": "Omaggio al predatore.",
+    "ja": "捕食者を称えよ",
+    "ko": "포식자에게 영광을.",
+    "nl": "Hulde aan het roofdier.",
+    "pt-BR": "Honra ao predador.",
+    "ru": "Памятник хищнику.",
+    "tr": "Avcıya selam olsun.",
+    "zh-CN": "致敬掠食者。",
+    "zh-TW": "紀念掠食者。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_STATUE2.png",
   "id": "DECORATION_DLC_WOLF_STATUE2",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "تمثال الذئب",
+    "de": "Wolfsstatue",
+    "en": "Lupine Statue",
+    "es": "Estatua lupina",
+    "fr": "Statue lupine",
+    "fr-CA": "Statue lupine",
+    "it": "Scultura lupina",
+    "ja": "オオカミの石像",
+    "ko": "늑대 조각상",
+    "nl": "Wolvenstandbeeld",
+    "pt-BR": "Estátua Lupina",
+    "ru": "Статуя волка",
+    "tr": "Tavşan Heykeli",
+    "zh-CN": "狼雕像",
+    "zh-TW": "狼族雕像"
+  },
+  "namePlain": {
     "ar": "تمثال الذئب",
     "de": "Wolfsstatue",
     "en": "Lupine Statue",

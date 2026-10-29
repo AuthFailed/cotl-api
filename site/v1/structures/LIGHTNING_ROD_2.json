@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "保护大范围内的教徒和建筑物不受闪电侵扰。产生<color=#FFD201>蓄能碎片</color> <sprite name=\"icon_LightningShard\">",
     "zh-TW": "保護大範圍內的教徒和建築物不受閃電侵擾。產生<color=#FFD201>蓄能碎片</color> <sprite name=\"icon_LightningShard\">"
   },
+  "descriptionPlain": {
+    "ar": "تحمي الأتباع والمباني في نطاق كبير من الصواعق. تولد شظايا صاعقة",
+    "de": "Schützt Anhänger und Gebäude in großer Reichweite vor Blitzen. Erzeugt Aufgeladene Splitter.",
+    "en": "Protects Followers and structures within a large range from lightning. Generates Charged Shards. Won't be destroyed by lightning strike.",
+    "es": "Protege de los rayos a los adeptos y estructuras que estén al alcance. Genera fragmentos tormentosos",
+    "fr": "Protège de la foudre les adeptes et les structures à grande portée. Génère des cristaux chargés.",
+    "fr-CA": "Protège de la foudre les adeptes et les structures à grande portée. Génère des cristaux chargés.",
+    "it": "Protegge dai fulmini i membri del Culto e le strutture nel raggio d'azione. Genera elettroschegge.",
+    "ja": "より広い範囲内の信者と建築物を雷から守る。帯電球 を生成する",
+    "ko": "일정 범위 내 추종자와 건물을 번개로부터 보호합니다. 충전된 조각 을 생성합니다.",
+    "nl": "Beschermt volgelingen en gebouwen binnen een groot bereik tegen de bliksem. Genereert opgeladen kristallen",
+    "pt-BR": "Protege seguidores e estruturas em uma grande área contra raios. Gera Fragmentos Energizados",
+    "ru": "Устройство, защищающее последователей и постройки от удара молнии в большом радиусе действия и создающее заряженные сферы.",
+    "tr": "Geniş bir menzildeki Takipçileri ve yapıları yıldırımdan korur. Enerji Yüklü Parçacık oluşturur.",
+    "zh-CN": "保护大范围内的教徒和建筑物不受闪电侵扰。产生蓄能碎片",
+    "zh-TW": "保護大範圍內的教徒和建築物不受閃電侵擾。產生蓄能碎片"
+  },
   "icon": "icons/structures/LIGHTNING_ROD_2.png",
   "id": "LIGHTNING_ROD_2",
+  "menu": null,
   "name": {
+    "ar": "مانعة الصواعق II",
+    "de": "Blitzableiter II",
+    "en": "Lightning Rod II",
+    "es": "Pararrayos II",
+    "fr": "Paratonnerre II",
+    "fr-CA": "Paratonnerre II",
+    "it": "Parafulmine II",
+    "ja": "避雷針 II",
+    "ko": "피뢰침 II",
+    "nl": "Bliksemafleider II",
+    "pt-BR": "Para-raios II",
+    "ru": "Громоотвод II",
+    "tr": "Paratoner II",
+    "zh-CN": "闪电神杖 II",
+    "zh-TW": "閃電神杖 II"
+  },
+  "namePlain": {
     "ar": "مانعة الصواعق II",
     "de": "Blitzableiter II",
     "en": "Lightning Rod II",

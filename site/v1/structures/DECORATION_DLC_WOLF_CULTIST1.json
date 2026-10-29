@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "这是对敌人的警告。",
     "zh-TW": "給敵人的警告。"
   },
+  "descriptionPlain": {
+    "ar": "تحذير لأعدائك.",
+    "de": "Eine Warnung an deine Feinde.",
+    "en": "A warning to your enemies.",
+    "es": "Una advertencia para tus enemigos.",
+    "fr": "Un avertissement pour vos ennemis.",
+    "fr-CA": "Un avertissement pour vos ennemis.",
+    "it": "Un monito per i tuoi nemici.",
+    "ja": "敵に対する警告代わりの装飾",
+    "ko": "적들에게 보내는 경고입니다.",
+    "nl": "Een waarschuwing voor je vijanden.",
+    "pt-BR": "Um aviso aos seus inimigos.",
+    "ru": "Предупреждение для ваших врагов.",
+    "tr": "Düşmanların için minik bir uyarı.",
+    "zh-CN": "这是对敌人的警告。",
+    "zh-TW": "給敵人的警告。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_CULTIST1.png",
   "id": "DECORATION_DLC_WOLF_CULTIST1",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "عضو طائفة مخوزق I",
+    "de": "Aufgespießter Kultist I",
+    "en": "Piked Cultist I",
+    "es": "Adepto ensartado I",
+    "fr": "Cultiste embroché I",
+    "fr-CA": "Adepte embroché I",
+    "it": "Cultista impalato I",
+    "ja": "串刺しの異端者 I",
+    "ko": "창꽂이 교단원 I",
+    "nl": "Gespietst sektelid I",
+    "pt-BR": "Cultista Empalado I",
+    "ru": "Язычник на колу I",
+    "tr": "Kazığa Oturtulmuş Tarikatçı I",
+    "zh-CN": "被刺穿的教徒 I",
+    "zh-TW": "被刺穿的邪教徒 I"
+  },
+  "namePlain": {
     "ar": "عضو طائفة مخوزق I",
     "de": "Aufgespießter Kultist I",
     "en": "Piked Cultist I",

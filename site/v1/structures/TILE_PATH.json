@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "لكنها من أجود أنواع التراب.",
@@ -17,9 +19,44 @@
     "zh-CN": "只用最上等的泥土",
     "zh-TW": "只用最上等的泥土"
   },
+  "descriptionPlain": {
+    "ar": "لكنها من أجود أنواع التراب.",
+    "de": "Besteht nur aus dem feinsten Dreck.",
+    "en": "Only the finest dirt.",
+    "es": "El barro de la mayor calidad, por supuesto.",
+    "fr": "Il y a une certaine beauté dans cette crasse...",
+    "fr-CA": "Fait à partir de la meilleure terre qui soit.",
+    "it": "Solo la terra più fine.",
+    "ja": "最上品質のドロだけを集めて作られたもの",
+    "ko": "가장 고운 흙만 엄선했습니다.",
+    "nl": "Alleen de beste aarde is goed genoeg.",
+    "pt-BR": "Só o melhor da terra",
+    "ru": "Лучшие грязевые ванны у вас под ногами.",
+    "tr": "En kaliteli toprak kullanıldı.",
+    "zh-CN": "只用最上等的泥土",
+    "zh-TW": "只用最上等的泥土"
+  },
   "icon": "icons/structures/TILE_PATH.png",
   "id": "TILE_PATH",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية ترابية",
+    "de": "Dreckboden",
+    "en": "Dirt Flooring",
+    "es": "Suelo de barro",
+    "fr": "Sol sale",
+    "fr-CA": "Sol en terre",
+    "it": "Pavimentazione in terra battuta",
+    "ja": "ドロタイル",
+    "ko": "흙 바닥",
+    "nl": "Aardevloer",
+    "pt-BR": "Piso de Terra",
+    "ru": "Грязевой настил",
+    "tr": "Toprak Döşeme",
+    "zh-CN": "泥土地板",
+    "zh-TW": "泥土地板"
+  },
+  "namePlain": {
     "ar": "أرضية ترابية",
     "de": "Dreckboden",
     "en": "Dirt Flooring",

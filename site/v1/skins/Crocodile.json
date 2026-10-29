@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Crocodile",
   "name": {
+    "en": "Crocodile"
+  },
+  "namePlain": {
     "en": "Crocodile"
   },
   "unlock": "Dungeon3"

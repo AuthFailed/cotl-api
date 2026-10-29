@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "玻璃瓶里的烧灼腐烂正在蠕动……",
     "zh-TW": "小玻璃瓶裡裝滿了不斷翻騰的燃燒腐朽物……"
   },
+  "descriptionPlain": {
+    "ar": "قارورة معبأة بعفن مشتعل متأجج...",
+    "de": "Ein Glasfläschchen gefüllt mit schäumender, brennender Fäulnis …",
+    "en": "A glass vial filled with churning, burning Rot...",
+    "es": "Un vial de cristal con restos de putrefacción abrasadora.",
+    "fr": "Un flacon de verre rempli de putrescence ardente...",
+    "fr-CA": "Un flacon de verre rempli de putrescence ardente...",
+    "it": "Il marciume brucia e ribolle in questa fiala di vetro...",
+    "ja": "ガラス製の瓶。中には燃えるような腐敗が渦巻いている…",
+    "ko": "온통 불타고 휘몰아치는 부패로 채운 유리병입니다...",
+    "nl": "Een reageerbuisje met kolkende, brandende rotting...",
+    "pt-BR": "Um frasco de vidro repleto de Putrefação, ardente e agitada...",
+    "ru": "Стеклянный сосуд с кипящей гнилью.",
+    "tr": "Durmadan yanan Çürük'le dolu bir cam şişe.",
+    "zh-CN": "玻璃瓶里的烧灼腐烂正在蠕动……",
+    "zh-TW": "小玻璃瓶裡裝滿了不斷翻騰的燃燒腐朽物……"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_BOTTLE.png",
   "id": "DECORATION_DLC_ROT_BOTTLE",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "قارورة العفن",
+    "de": "Fäulnis in Flaschen",
+    "en": "Bottled Rot",
+    "es": "Putrefacción embotellada",
+    "fr": "Putréfaction en bouteille",
+    "fr-CA": "Putréfaction en bouteille",
+    "it": "Marciume sotto vetro",
+    "ja": "腐敗の瓶詰",
+    "ko": "병에 담은 부패",
+    "nl": "Gebottelde rotting",
+    "pt-BR": "Putrefação Engarrafada",
+    "ru": "Колба с гнилью",
+    "tr": "Bir Şişe Çürük",
+    "zh-CN": "瓶装腐烂",
+    "zh-TW": "瓶裝腐朽物"
+  },
+  "namePlain": {
     "ar": "قارورة العفن",
     "de": "Fäulnis in Flaschen",
     "en": "Bottled Rot",

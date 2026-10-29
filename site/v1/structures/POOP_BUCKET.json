@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "圣战之后，在此存放<color=#FFD201>肥料</color>。教徒会自动将肥料放入<color=#FFD201>肥料储仓</color>。",
     "zh-TW": "聖戰之後，在此存放<color=#FFD201>肥料</color>。教徒會自動將肥料放入<color=#FFD201>肥料儲倉</color>。"
   },
+  "descriptionPlain": {
+    "ar": "بعد خوض حملة، يمكنك إيداع السماد هنا. سيوزعه الأتباع تلقائيًا على مخازن السماد.",
+    "de": "Nach einem Kreuzzug kannst du hier Dünger deponieren. Anhänger werden diesen dann automatisch auf Düngersilos verteilen.",
+    "en": "After a Crusade, deposit Fertiliser here. Followers will automatically distribute it to Fertiliser Silos.",
+    "es": "Deposita fertilizante aquí tras una cruzada para que tus adeptos lo lleven a los silos de fertilizante.",
+    "fr": "Une fois un donjon terminé, déposez du fertilisant ici. Vos adeptes le répartiront automatiquement dans les silos à fertilisant.",
+    "fr-CA": "Une fois une croisade terminée, déposez du fertilisant ici. Vos adeptes le répartiront automatiquement dans les silos à fertilisant.",
+    "it": "Deposita qui il concime dopo una crociata. I membri del Culto lo distribuiranno automaticamente ai Silo di concime.",
+    "ja": "聖戦から戻った際に肥料をここに保管すると、信者が自動で肥料サイロに肥料を運んでくれる",
+    "ko": "성전 후, 퇴비가 이곳에 쌓입니다. 추종자들은 자동적으로 퇴비 저장고에 퇴비를 가져다 놓습니다.",
+    "nl": "Deponeer hier mest na een kruistocht. Volgelingen verplaatsen die dan automatisch naar mestsilo's.",
+    "pt-BR": "Após uma cruzada, deposite Fertilizante aqui. Os seguidores o distribuirão automaticamente aos Silos de Fertilizantes.",
+    "ru": "Ведро, в которое можно положить удобрения после похода. Ваши последователи сами распределят их по хранилищам удобрений.",
+    "tr": "Bir Sefer'in ardından burada Gübre depolayabilirsin. Takipçiler Gübre'yi otomatik olarak Gübre Ambarlarına dağıtır.",
+    "zh-CN": "圣战之后，在此存放肥料。教徒会自动将肥料放入肥料储仓。",
+    "zh-TW": "聖戰之後，在此存放肥料。教徒會自動將肥料放入肥料儲倉。"
+  },
   "icon": "icons/structures/POOP_BUCKET.png",
   "id": "POOP_BUCKET",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "مستودع السماد",
+    "de": "Düngerlager",
+    "en": "Fertiliser Storage",
+    "es": "Almacén de fertilizante",
+    "fr": "Réserve de fertilisant",
+    "fr-CA": "Réserve de fertilisant",
+    "it": "Contenitore per concime",
+    "ja": "肥料保管庫",
+    "ko": "퇴비 보관소",
+    "nl": "Mestopslag",
+    "pt-BR": "Armazém de Fertilizantes",
+    "ru": "Ёмкость для удобрений",
+    "tr": "Gübre Deposu",
+    "zh-CN": "肥料存放区",
+    "zh-TW": "肥料存放區"
+  },
+  "namePlain": {
     "ar": "مستودع السماد",
     "de": "Düngerlager",
     "en": "Fertiliser Storage",

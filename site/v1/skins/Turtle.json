@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Turtle",
   "name": {
+    "en": "Turtle"
+  },
+  "namePlain": {
     "en": "Turtle"
   },
   "unlock": "DLC"

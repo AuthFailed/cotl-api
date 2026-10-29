@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Starfish",
   "name": {
+    "en": "Starfish"
+  },
+  "namePlain": {
     "en": "Starfish"
   },
   "unlock": "Other"

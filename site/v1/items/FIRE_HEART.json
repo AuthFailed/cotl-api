@@ -1,6 +1,7 @@
 {
   "category": "NONE",
   "description": {},
+  "descriptionPlain": {},
   "icon": null,
   "id": "FIRE_HEART",
   "name": {
@@ -19,5 +20,23 @@
     "tr": "Kor Kalp",
     "zh-CN": "熔心",
     "zh-TW": "熔心"
-  }
+  },
+  "namePlain": {
+    "ar": "القلب المشتعل",
+    "de": "Geschmolzenes Herz",
+    "en": "Molten Heart",
+    "es": "Corazón ígneo",
+    "fr": "Cœur en fusion",
+    "fr-CA": "Cœur en fusion",
+    "it": "Cuore ardente",
+    "ja": "炎の心臓",
+    "ko": "녹아내린 심장",
+    "nl": "Smeulend hart",
+    "pt-BR": "Coração Queimado",
+    "ru": "Раскалённое сердце",
+    "tr": "Kor Kalp",
+    "zh-CN": "熔心",
+    "zh-TW": "熔心"
+  },
+  "tags": []
 }

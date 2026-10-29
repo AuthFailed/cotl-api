@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -12,9 +14,16 @@
   "description": {
     "en": "Summons Followers who have generated <color=#FFD201>Sin</color> for you to collect."
   },
+  "descriptionPlain": {
+    "en": "Summons Followers who have generated Sin for you to collect."
+  },
   "icon": null,
   "id": "SHRINE_PLEASURE",
+  "menu": null,
   "name": {
+    "en": "Sin Totem"
+  },
+  "namePlain": {
     "en": "Sin Totem"
   },
   "size": {

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "农夫可以为你收割作物，并存放在箱子内供你囤积粮食",
     "zh-TW": "農夫可以為你收割作物，並存放在箱子內供你囤積食物"
   },
+  "descriptionPlain": {
+    "ar": "سيتمكن المزارعون من حصاد محاصيلك ووضعها في صندوق حتى يمكنك جمعها.",
+    "de": "Die Farmer können deine Feldfrüchte für dich ernten und sie in einer Truhe deponieren, aus der du sie einsammeln kannst.",
+    "en": "Farmers will be able to harvest your crops and deposit them in a chest for you to collect.",
+    "es": "Los granjeros recolectarán los cultivos por ti y depositarán la cosecha en un cofre.",
+    "fr": "Les fermiers récolteront les plantations et les déposeront dans un coffre.",
+    "fr-CA": "Les fermiers récolteront les plantations et les déposeront dans un coffre.",
+    "it": "Permette ai membri addetti alla coltivazione di raccogliere le colture e depositarle in un forziere per te.",
+    "ja": "割り振られた信者が農作物を収穫し、箱に集めてくれる",
+    "ko": "농부들이 곡식을 수확하고 상자에 배치할 수 있게 됩니다.",
+    "nl": "Volgelingen kunnen je gewassen oogsten en ze in een kist leggen, zodat je ze later kunt verzamelen.",
+    "pt-BR": "Fazendeiros poderão fazer as colheitas e depositá-las em um baú para você coletá-las.",
+    "ru": "Место, где хранятся садовые инструменты. Последователи будут складывать собранный урожай в сундук, из которого вы сможете его забрать.",
+    "tr": "Çiftçiler mahsulleri toplayabilir ve kolayca erişmen için bir sandığa koyar.",
+    "zh-CN": "农夫可以为你收割作物，并存放在箱子内供你囤积粮食",
+    "zh-TW": "農夫可以為你收割作物，並存放在箱子內供你囤積食物"
+  },
   "icon": "icons/structures/FARM_STATION_II.png",
   "id": "FARM_STATION_II",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "مقر المزارعين II",
+    "de": "Farm II",
+    "en": "Farmer Station II",
+    "es": "Granja II",
+    "fr": "Poste de fermier II",
+    "fr-CA": "Poste de fermier II",
+    "it": "Casetta agricola II",
+    "ja": "農産作業所 II",
+    "ko": "농부 배치소 II",
+    "nl": "Landbouwstation II",
+    "pt-BR": "Estação da Fazenda II",
+    "ru": "Ферма II",
+    "tr": "Çiftçi Kulübesi II",
+    "zh-CN": "农夫站 II",
+    "zh-TW": "農夫站 II"
+  },
+  "namePlain": {
     "ar": "مقر المزارعين II",
     "de": "Farm II",
     "en": "Farmer Station II",

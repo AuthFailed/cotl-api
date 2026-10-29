@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FAITH",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "关不听话的教徒",
     "zh-TW": "關不聽話的教徒"
   },
+  "descriptionPlain": {
+    "ar": "يحتجز الأتباع غير المطيعين.",
+    "de": "Hier werden ungezogene Anhänger eingesperrt.",
+    "en": "Holds naughty Followers.",
+    "es": "Para los adeptos más malotes.",
+    "fr": "Permet d'emprisonner les adeptes rebelles.",
+    "fr-CA": "Permet d'emprisonner les adeptes rebelles.",
+    "it": "Imprigiona i membri del Culto più ribelli.",
+    "ja": "反抗的な信者を捕らえておくための場所",
+    "ko": "못된 추종자들을 수용합니다.",
+    "nl": "Hier kun je stoute volgelingen gevangen houden.",
+    "pt-BR": "Detém os Seguidores desobedientes",
+    "ru": "Место заключения провинившихся последователей.",
+    "tr": "Yaramaz Takipçileri hapseder.",
+    "zh-CN": "关不听话的教徒",
+    "zh-TW": "關不聽話的教徒"
+  },
   "icon": "icons/structures/PRISON.png",
   "id": "PRISON",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "السجن",
+    "de": "Gefängnis",
+    "en": "Prison",
+    "es": "Cárcel",
+    "fr": "Prison",
+    "fr-CA": "Prison",
+    "it": "Gogna",
+    "ja": "首枷",
+    "ko": "감옥",
+    "nl": "Gevang",
+    "pt-BR": "Prisão",
+    "ru": "Тюрьма",
+    "tr": "Boyunduruk",
+    "zh-CN": "监狱",
+    "zh-TW": "牢獄"
+  },
+  "namePlain": {
     "ar": "السجن",
     "de": "Gefängnis",
     "en": "Prison",

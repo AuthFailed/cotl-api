@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "LadyBug",
   "name": {
+    "en": "LadyBug"
+  },
+  "namePlain": {
     "en": "LadyBug"
   },
   "unlock": "DLC"

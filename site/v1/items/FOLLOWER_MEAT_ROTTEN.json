@@ -17,6 +17,23 @@
     "zh-CN": "生前追随你的教徒身上的腐肉。",
     "zh-TW": "生前追隨你的教徒身上的腐肉。"
   },
+  "descriptionPlain": {
+    "ar": "اللحم الفاسد لأحد أتباعك السابقين.",
+    "de": "Vergammeltes Fleisch, das von jemandem stammt, der dir einst gefolgt ist.",
+    "en": "The rotten meat of one who once followed you.",
+    "es": "La carne podrida de uno de tus adeptos.",
+    "fr": "La viande pourrie de ceux qui vous ont servi autrefois.",
+    "fr-CA": "La chair pourrie de ceux qui vous ont servi autrefois.",
+    "it": "Le carni marcite di chi un tempo ti seguiva.",
+    "ja": "かつて、あなたを信じ敬っていた者の腐った肉",
+    "ko": "한때 당신을 따랐던 자의 썩은 고기입니다.",
+    "nl": "Het bedorven vlees van iemand die je volgde.",
+    "pt-BR": "A carne apodrecida de alguém que costumava te seguir.",
+    "ru": "Разложившаяся плоть того, кто чтил ваш культ при жизни.",
+    "tr": "Vaktinde senin yolundan giden birinin çürümüş eti.",
+    "zh-CN": "生前追随你的教徒身上的腐肉。",
+    "zh-TW": "生前追隨你的教徒身上的腐肉。"
+  },
   "icon": "icons/items/FOLLOWER_MEAT_ROTTEN.png",
   "id": "FOLLOWER_MEAT_ROTTEN",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Çürük Takipçi Eti",
     "zh-CN": "教徒腐肉",
     "zh-TW": "教徒腐肉"
-  }
+  },
+  "namePlain": {
+    "ar": "لحم أتباع فاسد",
+    "de": "Vergammeltes Anhängerfleisch",
+    "en": "Follower Meat Rotten",
+    "es": "Carne de adepto podrida",
+    "fr": "Chair d'adepte pourrie",
+    "fr-CA": "Chair d'adepte pourrie",
+    "it": "Carni decomposte di seguace",
+    "ja": "腐った信者肉",
+    "ko": "썩은 추종자 고기",
+    "nl": "Bedorven volgelingenvlees",
+    "pt-BR": "Carne de Seguidor Apodrecida",
+    "ru": "Сгнившее мясо последователя",
+    "tr": "Çürük Takipçi Eti",
+    "zh-CN": "教徒腐肉",
+    "zh-TW": "教徒腐肉"
+  },
+  "tags": []
 }

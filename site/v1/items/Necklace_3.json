@@ -17,6 +17,23 @@
     "zh-CN": "教徒的寿命将异常增加，增长为预期寿命的二倍。",
     "zh-TW": "教徒的壽命將異常增加，成為預期壽命的二倍。"
   },
+  "descriptionPlain": {
+    "ar": "سيعيش التابع عمرًا أطول من الطبيعي، ضعف المتوقع غالبًا.",
+    "de": "Der Anhänger lebt unnatürlich lange; doppelt so lange wie gewöhnlich.",
+    "en": "Follower will live an unnaturally long life, double what would usually be expected.",
+    "es": "El adepto tendrá una vida el doble de larga de lo normal.",
+    "fr": "Permet à un adepte de vivre deux fois plus longtemps.",
+    "fr-CA": "Permet à un adepte de vivre deux fois plus longtemps.",
+    "it": "Il membro del Culto vivrà una vita innaturalmente lunga, il doppio di quanto ci si aspetterebbe.",
+    "ja": "信者の寿命が長くなり、本来の2倍の長さを生き続ける",
+    "ko": "추종자가 비자연적으로 오래 살며, 예상 수명의 2배를 살게 됩니다.",
+    "nl": "Volgeling leeft onnatuurlijk lang, dubbel zo lang als normaal.",
+    "pt-BR": "O Seguidor terá uma vida estranhamente longa, o dobro do que se esperaria.",
+    "ru": "Украшение, увеличивающее продолжительность жизни последователя вдвое.",
+    "tr": "Takipçi beklenenin iki katı kadar, sıra dışı biçimde uzun yaşar.",
+    "zh-CN": "教徒的寿命将异常增加，增长为预期寿命的二倍。",
+    "zh-TW": "教徒的壽命將異常增加，成為預期壽命的二倍。"
+  },
   "icon": "icons/items/Necklace_3.png",
   "id": "Necklace_3",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Kafatası Kolyesi",
     "zh-CN": "头骨项链",
     "zh-TW": "頭骨項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة الجمجمة",
+    "de": "Schädelhalskette",
+    "en": "Skull Necklace",
+    "es": "Collar de calaveras",
+    "fr": "Collier d'ossements",
+    "fr-CA": "Collier à crâne",
+    "it": "Collana con teschio",
+    "ja": "頭蓋骨のネックレス",
+    "ko": "해골 목걸이",
+    "nl": "Schedelketting",
+    "pt-BR": "Colar de Crânio",
+    "ru": "Ожерелье с черепом",
+    "tr": "Kafatası Kolyesi",
+    "zh-CN": "头骨项链",
+    "zh-TW": "頭骨項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

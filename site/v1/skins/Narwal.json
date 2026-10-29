@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Narwal",
   "name": {
+    "en": "Narwal"
+  },
+  "namePlain": {
     "en": "Narwal"
   },
   "unlock": "DLC"

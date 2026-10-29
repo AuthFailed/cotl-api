@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "火焰的燃烧与古老信仰一同延续着……",
     "zh-TW": "火焰的燃燒與古老信仰一同延續著……"
   },
+  "descriptionPlain": {
+    "ar": "تستعر ما دامت العقيدة القديمة باقية...",
+    "de": "Brennt so lange, wie der alte Glauben andauert …",
+    "en": "Burning as long as the Old Faith perseveres...",
+    "es": "Su fuego arderá hasta que se desvanezca la Antigua Fe.",
+    "fr": "Brûlera tant que la Vieille croyance existera...",
+    "fr-CA": "Brûlera tant que la Vieille croyance existera...",
+    "it": "Arde fintantoché l'Antico Credo perdura...",
+    "ja": "旧き信仰がある限り、この炎が消えることはない…",
+    "ko": "옛 신앙이 남아있는 한 타오릅니다...",
+    "nl": "Brandt zolang het Oude Geloof blijft bestaan...",
+    "pt-BR": "Queima enquanto a Antiga Fé persevera...",
+    "ru": "Огонь, который будет пылать, пока жива древняя вера.",
+    "tr": "Kadim İnanç baki kaldıkça yanacak.",
+    "zh-CN": "火焰的燃烧与古老信仰一同延续着……",
+    "zh-TW": "火焰的燃燒與古老信仰一同延續著……"
+  },
   "icon": "icons/structures/DECORATION_OLDFAITH_TORCH.png",
   "id": "DECORATION_OLDFAITH_TORCH",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "النار الأبدية",
+    "de": "Die ewige Flamme",
+    "en": "The Eternal Flame",
+    "es": "La llama eterna",
+    "fr": "Flamme éternelle",
+    "fr-CA": "Flamme éternelle",
+    "it": "La Fiamma eterna",
+    "ja": "永遠の炎",
+    "ko": "영원의 화염",
+    "nl": "De eeuwig brandende vlam",
+    "pt-BR": "A Chama Eterna",
+    "ru": "Вечное пламя",
+    "tr": "Ebedi Alev",
+    "zh-CN": "永恒烈焰",
+    "zh-TW": "永恆烈焰"
+  },
+  "namePlain": {
     "ar": "النار الأبدية",
     "de": "Die ewige Flamme",
     "en": "The Eternal Flame",

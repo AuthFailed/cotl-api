@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "赐给教徒应得的奢华体验，在教徒睡觉时收集虔诚度<sprite name=\"icon_spirits\">。永远不会坍塌",
     "zh-TW": "賜給教徒應得的奢華體驗，在教徒睡覺時收集虔誠值 <sprite name=\"icon_spirits\">。永遠不會顛塌"
   },
+  "descriptionPlain": {
+    "ar": "لمنح تابعك الرفاهية التي يستحقها. يجمع الولاء في أثناء نومه. لا ينهار أبدًا.",
+    "de": "Gewähre deinen Anhängern den Luxus, den sie verdienen. Sammelt während des Schlafens Hingabe. Stürzt nie zusammen.",
+    "en": "Give your Follower the luxury they deserve. Collects Devotion while they sleep. Never collapses.",
+    "es": "Dale a tus adeptos el lujo que se merecen. Recolecta devoción mientras duermen. No se romperá nunca.",
+    "fr": "Offrez à vos adeptes le confort qu'ils méritent. Récolte de la dévotion lorsqu'ils dorment. Ne s'effondrera jamais.",
+    "fr-CA": "Offrez à vos adeptes le confort qu'ils méritent. Récolte de la dévotion lorsqu'ils dorment. Ne s'effondrera jamais.",
+    "it": "Offri ai membri del Culto il lusso che meritano. Accumula Devozione mentre dormono. Non si deteriora mai.",
+    "ja": "忠実で勤勉な信者に見合った寝床。信者が寝ている間、祈念 を集める。決して壊れない",
+    "ko": "추종자들에게 어울리는 사치를 제공합니다. 추종자들이 잘 때 헌신 을 모읍니다. 결코 무너지지 않습니다.",
+    "nl": "Geef je volgelingen de luxe die ze verdienen. Verzamel devotie terwijl ze slapen. Stort nooit in.",
+    "pt-BR": "Dê ao seu Seguidor o luxo que ele merece. Colete Devoção enquanto ele dorme. Nunca desaba.",
+    "ru": "Место для ночлега, где ваш последователь может отдохнуть со всеми возможными удобствами. Накапливает преданность во время сна. Не разваливается.",
+    "tr": "Takipçilerine hak ettikleri lüksü yaşat. Takipçiler uyurken Sadakat toplar. Asla çökmez.",
+    "zh-CN": "赐给教徒应得的奢华体验，在教徒睡觉时收集虔诚度。永远不会坍塌",
+    "zh-TW": "賜給教徒應得的奢華體驗，在教徒睡覺時收集虔誠值 。永遠不會顛塌"
+  },
   "icon": "icons/structures/BED_3.png",
   "id": "BED_3",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "مأوى كبير",
+    "de": "Große Unterkunft",
+    "en": "Grand Shelter",
+    "es": "Gran refugio",
+    "fr": "Abri agréable",
+    "fr-CA": "Abri agréable",
+    "it": "Capanna",
+    "ja": "寝室",
+    "ko": "대형 주거지",
+    "nl": "Blokhut",
+    "pt-BR": "Abrigo Grande",
+    "ru": "Шатёр",
+    "tr": "Büyük Çadır",
+    "zh-CN": "豪华休息处",
+    "zh-TW": "豪華休息處"
+  },
+  "namePlain": {
     "ar": "مأوى كبير",
     "de": "Große Unterkunft",
     "en": "Grand Shelter",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "BugThree",
   "name": {
+    "en": "BugThree"
+  },
+  "namePlain": {
     "en": "BugThree"
   },
   "unlock": "Dungeon6"

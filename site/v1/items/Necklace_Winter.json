@@ -17,6 +17,23 @@
     "zh-CN": "冬天时，教徒工作速度增加 50%。",
     "zh-TW": "冬天時，教徒工作速度增加 50%。"
   },
+  "descriptionPlain": {
+    "ar": "سيعمل التابع على نحو أسرع بنسبة 50% خلال الشتاء.",
+    "de": "Der Anhänger arbeitet im Winter 50 % schneller.",
+    "en": "Follower works 50% faster during Winter.",
+    "es": "El adepto trabaja un 50 % más rápido en invierno.",
+    "fr": "L'adepte travaille 50 % plus vite en hiver.",
+    "fr-CA": "L'adepte travaille 50 % plus vite durant l'hiver.",
+    "it": "Il membro del Culto lavorerà il 50% più velocemente in inverno.",
+    "ja": "冬の間、信者の作業速度が50%上昇する",
+    "ko": "추종자가 겨울 동안 50% 더 빠르게 일합니다.",
+    "nl": "Volgeling werkt 50% sneller in de winter.",
+    "pt-BR": "O seguidor trabalha 50% mais rápido durante o Inverno.",
+    "ru": "Украшение, позволяющее последователю работать на 50% быстрее в зимнее время.",
+    "tr": "Takipçi kışın %50 daha hızlı çalışır.",
+    "zh-CN": "冬天时，教徒工作速度增加 50%。",
+    "zh-TW": "冬天時，教徒工作速度增加 50%。"
+  },
   "icon": "icons/items/Necklace_Winter.png",
   "id": "Necklace_Winter",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Kış Kolyesi",
     "zh-CN": "寒冬项链",
     "zh-TW": "寒冬項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة الشتاء",
+    "de": "Winter-Halskette",
+    "en": "Winter Necklace",
+    "es": "Collar de escarcha",
+    "fr": "Collier de l'hiver",
+    "fr-CA": "Collier d'hiver",
+    "it": "Collana d'inverno",
+    "ja": "冬のネックレス",
+    "ko": "겨울의 목걸이",
+    "nl": "Winterketting",
+    "pt-BR": "Colar do Inverno",
+    "ru": "Ожерелье зимы",
+    "tr": "Kış Kolyesi",
+    "zh-CN": "寒冬项链",
+    "zh-TW": "寒冬項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

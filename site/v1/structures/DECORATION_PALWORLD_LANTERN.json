@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -8,9 +10,16 @@
   "description": {
     "en": "A beautiful lantern that really captures you."
   },
+  "descriptionPlain": {
+    "en": "A beautiful lantern that really captures you."
+  },
   "icon": "icons/structures/DECORATION_PALWORLD_LANTERN.png",
   "id": "DECORATION_PALWORLD_LANTERN",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "en": "Palsphere Lantern"
+  },
+  "namePlain": {
     "en": "Palsphere Lantern"
   },
   "size": {

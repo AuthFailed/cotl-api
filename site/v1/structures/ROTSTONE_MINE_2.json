@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "一位教徒将生产 <sprite name=\"icon_MagmaStone\">。将生产更多腐烧。",
     "zh-TW": "一位教徒將生產 <sprite name=\"icon_MagmaStone\">。將產生更多腐燃。"
   },
+  "descriptionPlain": {
+    "ar": "سينتج تابع. سينتج فحم تعفن أكثر.",
+    "de": "Ein Anhänger erzeugt. Erzeugt mehr Fäulnisbrand.",
+    "en": "A Follower will generate. Will produce more Rotburn.",
+    "es": "Un adepto producirá más y más petrodumbre.",
+    "fr": "Permet à un adepte de miner du. Produit davantage de charbon putrescent.",
+    "fr-CA": "Permet à un adepte de miner du. Produit davantage de charbon putrescent.",
+    "it": "Un membro del Culto può generarvi. Produrrà più marciolite.",
+    "ja": "信者が を生成する場所。腐敗石の生成量が増える",
+    "ko": "추종자가 을 생성합니다. 부패석탄이 더 산출됩니다.",
+    "nl": "Een volgeling genereert. Produceert meer rotsteen.",
+    "pt-BR": "Um Seguidor gerará. Produz mais Putrefogo.",
+    "ru": "Место, где последователи добывают больше.",
+    "tr": "Bir Takipçi'nin toplamasını sağlar. Daha fazla Çürükateş üretir.",
+    "zh-CN": "一位教徒将生产 。将生产更多腐烧。",
+    "zh-TW": "一位教徒將生產 。將產生更多腐燃。"
+  },
   "icon": "icons/structures/ROTSTONE_MINE_2.png",
   "id": "ROTSTONE_MINE_2",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "منجم فحم التعفن II",
+    "de": "Fäulnisbrand-Mine II",
+    "en": "Rotburn Mine II",
+    "es": "Mina de petrodumbre II",
+    "fr": "Mine à charbon putrescent II",
+    "fr-CA": "Mine à charbon putrescent II",
+    "it": "Miniera di marciolite II",
+    "ja": "腐敗石鉱 II",
+    "ko": "부패석탄 채광 II",
+    "nl": "Rotsteengroeve II",
+    "pt-BR": "Mina Putrefogo II",
+    "ru": "Гнилогарный рудник II",
+    "tr": "Çürükateş Madeni II",
+    "zh-CN": "腐烧场 II",
+    "zh-TW": "腐燃礦場 II"
+  },
+  "namePlain": {
     "ar": "منجم فحم التعفن II",
     "de": "Fäulnisbrand-Mine II",
     "en": "Rotburn Mine II",

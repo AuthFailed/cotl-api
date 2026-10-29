@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Beetle",
   "name": {
+    "en": "Beetle"
+  },
+  "namePlain": {
     "en": "Beetle"
   },
   "unlock": "Dungeon4"

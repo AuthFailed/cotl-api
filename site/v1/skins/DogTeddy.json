@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "DogTeddy",
   "name": {
+    "en": "DogTeddy"
+  },
+  "namePlain": {
     "en": "DogTeddy"
   },
   "unlock": "DLC"

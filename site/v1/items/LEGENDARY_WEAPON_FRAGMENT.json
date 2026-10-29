@@ -17,6 +17,23 @@
     "zh-CN": "将这件东西带给羊绒仙境的<color=#FFD201>拉米</color>进行修复。",
     "zh-TW": "將碎片帶去羊絨仙境給<color=#FFD201>拉米</color>修復。"
   },
+  "descriptionPlain": {
+    "ar": "عليك جلبه إلى رامي في ملاذ الحملان لإصلاحه.",
+    "de": "Bringe es zur Reparatur zu Rami in Wollhafen.",
+    "en": "Bring this to Rami in Woolhaven for repair.",
+    "es": "Ve a Vellones Elíseos y dáselo a Rami para que lo arregle.",
+    "fr": "Amenez ce fragment à Rami à Havrelaine pour le réparer.",
+    "fr-CA": "Amenez ce fragment à Rami à Havrelaine pour le réparer.",
+    "it": "Portalo a Rami nell'Aldilàna perché la ripari.",
+    "ja": "羊毛の聖域にいるラミに渡して、復元してもらおう",
+    "ko": "포근쉼터의 라미에게 가져가 수리하세요.",
+    "nl": "Breng dit naar Rami in Wolhaven om het te repareren.",
+    "pt-BR": "Leve até a Rami em Santa Lã para consertar.",
+    "ru": "Часть орудия, которое может починить Рами в Шерстополе.",
+    "tr": "Bunu tamir etmek için Yüntepe'de Rami'ye götür.",
+    "zh-CN": "将这件东西带给羊绒仙境的拉米进行修复。",
+    "zh-TW": "將碎片帶去羊絨仙境給拉米修復。"
+  },
   "icon": "icons/items/LEGENDARY_WEAPON_FRAGMENT.png",
   "id": "LEGENDARY_WEAPON_FRAGMENT",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Efsanevi Silah Parçası",
     "zh-CN": "传奇武器碎片",
     "zh-TW": "傳奇武器碎片"
-  }
+  },
+  "namePlain": {
+    "ar": "جزء من سلاح أسطوري",
+    "de": "Legendäres Waffenfragment",
+    "en": "Legendary Weapon Fragment",
+    "es": "Fragmento de arma legendaria",
+    "fr": "Fragment d'arme légendaire",
+    "fr-CA": "Fragment d'arme légendaire",
+    "it": "Frammento d'arma leggendaria",
+    "ja": "伝説の武器のかけら",
+    "ko": "전설적인 무기 파편",
+    "nl": "Legendarisch wapenstuk",
+    "pt-BR": "Fragmento de Arma Lendária",
+    "ru": "Обломок легендарного орудия",
+    "tr": "Efsanevi Silah Parçası",
+    "zh-CN": "传奇武器碎片",
+    "zh-TW": "傳奇武器碎片"
+  },
+  "tags": []
 }

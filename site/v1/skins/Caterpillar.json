@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Caterpillar",
   "name": {
+    "en": "Caterpillar"
+  },
+  "namePlain": {
     "en": "Caterpillar"
   },
   "unlock": "Other"

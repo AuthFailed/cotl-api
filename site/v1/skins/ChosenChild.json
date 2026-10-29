@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "ChosenChild",
   "name": {
+    "en": "ChosenChild"
+  },
+  "namePlain": {
     "en": "ChosenChild"
   },
   "unlock": "Major_DLC"

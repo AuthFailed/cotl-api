@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "这棵树……会动？",
     "zh-TW": "這棵樹……會動？"
   },
+  "descriptionPlain": {
+    "ar": "هل هذا... حي؟",
+    "de": "Ist er... lebendig?",
+    "en": "Is it... alive?",
+    "es": "¿Está... vivo?",
+    "fr": "Est-ce qu'il est... vivant?",
+    "fr-CA": "Est-ce qu'il est... vivant?",
+    "it": "È... vivo?",
+    "ja": "これって…生きてるの？",
+    "ko": "살아... 있는 건가요?",
+    "nl": "Leeft het?",
+    "pt-BR": "Ele está... vivo?",
+    "ru": "Оно… живое?",
+    "tr": "Bu şey... canlı mı?",
+    "zh-CN": "这棵树……会动？",
+    "zh-TW": "這棵樹……會動？"
+  },
   "icon": "icons/structures/DECORATION_DST_TREE.png",
   "id": "DECORATION_DST_TREE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "حارس شجرة في أصيص",
+    "de": "Eingetopfter Baumwächter",
+    "en": "Potted Treeguard",
+    "es": "Árbol guardián en maceta",
+    "fr": "Arbre gardien",
+    "fr-CA": "Arbre gardien",
+    "it": "Guardialbero in vaso",
+    "ja": "ツリーガードの鉢植え",
+    "ko": "화분에 심은 트리가드",
+    "nl": "Boombewaker in pot",
+    "pt-BR": "Guardião da Floresta em Vaso",
+    "ru": "Пальмовый энт",
+    "tr": "Saksılı Treeguard",
+    "zh-CN": "树人守卫盆栽",
+    "zh-TW": "樹人守衛盆栽"
+  },
+  "namePlain": {
     "ar": "حارس شجرة في أصيص",
     "de": "Eingetopfter Baumwächter",
     "en": "Potted Treeguard",

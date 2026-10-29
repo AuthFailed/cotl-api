@@ -1,6 +1,71 @@
 {
   "components": {
     "schemas": {
+      "Changes": {
+        "description": "Newest first: what each new game version added, removed or changed.",
+        "items": {
+          "properties": {
+            "added": {
+              "additionalProperties": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "required": [
+                "items",
+                "structures",
+                "skins"
+              ],
+              "type": "object"
+            },
+            "capturedAt": {
+              "type": "string"
+            },
+            "changed": {
+              "additionalProperties": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "required": [
+                "items",
+                "structures",
+                "skins"
+              ],
+              "type": "object"
+            },
+            "gameVersion": {
+              "type": "string"
+            },
+            "removed": {
+              "additionalProperties": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "required": [
+                "items",
+                "structures",
+                "skins"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "gameVersion",
+            "capturedAt",
+            "added",
+            "removed",
+            "changed"
+          ],
+          "type": "object"
+        },
+        "title": "Changes",
+        "type": "array"
+      },
       "Index": {
         "properties": {
           "capturedAt": {
@@ -55,6 +120,13 @@
             },
             "type": "object"
           },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
           "icon": {
             "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
             "type": [
@@ -75,6 +147,20 @@
               "en"
             ],
             "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
+          "tags": {
+            "description": "food, fish, big_fish, meat, heart, gift",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
           }
         },
         "required": [
@@ -82,7 +168,9 @@
           "name",
           "description",
           "icon",
-          "category"
+          "category",
+          "namePlain",
+          "descriptionPlain"
         ],
         "title": "Item",
         "type": "object"
@@ -94,6 +182,13 @@
               "minLength": 1,
               "type": "string"
             },
+            "type": "object"
+          },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
             "type": "object"
           },
           "hidden": {
@@ -120,6 +215,13 @@
             ],
             "type": "object"
           },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
+            "type": "object"
+          },
           "unlock": {
             "type": [
               "string",
@@ -133,13 +235,26 @@
           "description",
           "icon",
           "unlock",
-          "hidden"
+          "hidden",
+          "namePlain",
+          "descriptionPlain"
         ],
         "title": "Skin",
         "type": "object"
       },
       "Structure": {
         "properties": {
+          "buildable": {
+            "description": "appears in the build menu",
+            "type": "boolean"
+          },
+          "category": {
+            "description": "the game's structure category (FOOD, FAITH, ...), null if not buildable",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "cost": {
             "items": {
               "properties": {
@@ -166,6 +281,13 @@
             },
             "type": "object"
           },
+          "descriptionPlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "description without the game's text markup",
+            "type": "object"
+          },
           "icon": {
             "pattern": "^icons/(items|structures|skins)/[A-Za-z0-9_-]+\\.png$",
             "type": [
@@ -177,6 +299,13 @@
             "pattern": "^[A-Za-z0-9_-]+$",
             "type": "string"
           },
+          "menu": {
+            "description": "build menu tab and section, e.g. Follower/Food, Faith/Sin, Aesthetic/Path; null if not in the build menu",
+            "type": [
+              "string",
+              "null"
+            ]
+          },
           "name": {
             "additionalProperties": {
               "minLength": 1,
@@ -185,6 +314,13 @@
             "required": [
               "en"
             ],
+            "type": "object"
+          },
+          "namePlain": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "description": "name without the game's text markup",
             "type": "object"
           },
           "size": {
@@ -221,7 +357,9 @@
           "icon",
           "cost",
           "upgradesFrom",
-          "size"
+          "size",
+          "namePlain",
+          "descriptionPlain"
         ],
         "title": "Structure",
         "type": "object"
@@ -229,12 +367,35 @@
     }
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T03:16:16Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T03:52:30Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },
   "openapi": "3.1.0",
   "paths": {
+    "/v1/changes.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Changes"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "What each game version added, removed or changed, newest first",
+        "tags": [
+          "index"
+        ]
+      }
+    },
     "/v1/icons/items/{id}.png": {
       "get": {
         "parameters": [

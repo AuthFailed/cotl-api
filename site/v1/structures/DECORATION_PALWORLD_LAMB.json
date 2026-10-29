@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -8,9 +10,16 @@
   "description": {
     "en": "A strange, round thing. Looks familiar..."
   },
+  "descriptionPlain": {
+    "en": "A strange, round thing. Looks familiar..."
+  },
   "icon": "icons/structures/DECORATION_PALWORLD_LAMB.png",
   "id": "DECORATION_PALWORLD_LAMB",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "en": "Lamball Statue"
+  },
+  "namePlain": {
     "en": "Lamball Statue"
   },
   "size": {

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "COTTON",
@@ -30,9 +32,44 @@
     "zh-CN": "将孩子安置在托儿所内，照顾起来更轻松。",
     "zh-TW": "將孩子安置在托兒所內，照顧起來更輕鬆。"
   },
+  "descriptionPlain": {
+    "ar": "عليك وضع الصغار في الحضانة لرعايتهم بسهولة.",
+    "de": "Bringe Babys in die Kinderstube, um ihre Betreuung zu vereinfachen.",
+    "en": "Place babies in the Nursery to more easily care for them.",
+    "es": "Deja a los bebés en la guardería para cuidar mejor de ellos.",
+    "fr": "Placez les bébés dans la crèche pour vous en occuper plus facilement.",
+    "fr-CA": "Placez les bébés dans la garderie pour vous en occuper plus facilement.",
+    "it": "Qui i bimbi possono essere accuditi più facilmente.",
+    "ja": "赤ちゃんを世話するための施設",
+    "ko": "아이들을 양육원에 배치하면 더 쉽게 돌볼 수 있습니다.",
+    "nl": "Plaats baby's in de kinderkamer om makkelijker voor ze te kunnen zorgen.",
+    "pt-BR": "Deixe os bebês no Berçário para cuidar deles mais facilmente.",
+    "ru": "Место, где удобнее следить за малышами.",
+    "tr": "Bebeklerle ilgilenmeyi kolaylaştırmak için bebekleri bir Kreş'e yerleştir.",
+    "zh-CN": "将孩子安置在托儿所内，照顾起来更轻松。",
+    "zh-TW": "將孩子安置在托兒所內，照顧起來更輕鬆。"
+  },
   "icon": "icons/structures/DAYCARE.png",
   "id": "DAYCARE",
+  "menu": "Faith/Sin",
   "name": {
+    "ar": "حضانة",
+    "de": "Kinderstube",
+    "en": "Nursery",
+    "es": "Guardería",
+    "fr": "Crèche",
+    "fr-CA": "Garderie",
+    "it": "Asilo",
+    "ja": "育児室",
+    "ko": "양육원",
+    "nl": "Kinderkamer",
+    "pt-BR": "Berçário",
+    "ru": "Ясли",
+    "tr": "Kreş",
+    "zh-CN": "托儿所",
+    "zh-TW": "托兒所"
+  },
+  "namePlain": {
     "ar": "حضانة",
     "de": "Kinderstube",
     "en": "Nursery",

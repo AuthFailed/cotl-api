@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "圣战之后，在此存放<color=#FFD201>种子</color>。教徒会自动将种子放入<color=#FFD201>种子储仓</color>。",
     "zh-TW": "聖戰之後，在此存放<color=#FFD201>種子</color>。教徒會自動將種子放入<color=#FFD201>種子儲倉</color>。"
   },
+  "descriptionPlain": {
+    "ar": "بعد خوض حملة، يمكنك إيداع البذور هنا. سيوزعها الأتباع تلقائيًا على مخازن البذور.",
+    "de": "Nach einem Kreuzzug kannst du hier Samen deponieren. Anhänger werden diese dann automatisch auf Samensilos verteilen.",
+    "en": "After a Crusade, deposit seeds here. Followers will automatically distribute them to Seed Silos.",
+    "es": "Deposita semillas aquí tras una cruzada para que tus adeptos las lleven a los silos de semillas.",
+    "fr": "Une fois un donjon terminé, déposez des graines ici. Vos adeptes les répartiront automatiquement dans les silos à graines.",
+    "fr-CA": "Une fois une croisade terminée, déposez des graines ici. Vos adeptes les répartiront automatiquement dans les silos à graines.",
+    "it": "Deposita qui i semi dopo una crociata. I membri del Culto li distribuiranno automaticamente ai Silo di semi.",
+    "ja": "聖戦から戻った際に種をここに保管すると、信者が自動で種サイロに種を運んでくれる",
+    "ko": "성전 후, 씨앗이 이곳에 쌓입니다. 추종자들은 자동적으로 씨앗 저장고에 씨앗을 가져다 놓습니다.",
+    "nl": "Deponeer hier zaden na een kruistocht. Volgelingen verplaatsen die dan automatisch naar zaadsilo's.",
+    "pt-BR": "Após uma cruzada, deposite sementes aqui. Os seguidores as distribuirão automaticamente aos Silos de Sementes.",
+    "ru": "Хранилище, в которое можно положить семена после похода. Ваши последователи сами распределят их по хранилищам семян.",
+    "tr": "Bir Sefer'in ardından burada tohum depolayabilirsin. Takipçiler tohumu otomatik olarak Tohum Ambarlarına dağıtır.",
+    "zh-CN": "圣战之后，在此存放种子。教徒会自动将种子放入种子储仓。",
+    "zh-TW": "聖戰之後，在此存放種子。教徒會自動將種子放入種子儲倉。"
+  },
   "icon": "icons/structures/SEED_BUCKET.png",
   "id": "SEED_BUCKET",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "مستودع البذور",
+    "de": "Samenlager",
+    "en": "Seed Storage",
+    "es": "Almacén de semillas",
+    "fr": "Réserve de graines",
+    "fr-CA": "Réserve de graines",
+    "it": "Contenitore per semi",
+    "ja": "種保管庫",
+    "ko": "씨앗 보관소",
+    "nl": "Zaadopslag",
+    "pt-BR": "Armazém de Sementes",
+    "ru": "Ёмкость для семян",
+    "tr": "Tohum Deposu",
+    "zh-CN": "种子存放区",
+    "zh-TW": "種子存放區"
+  },
+  "namePlain": {
     "ar": "مستودع البذور",
     "de": "Samenlager",
     "en": "Seed Storage",

@@ -17,6 +17,23 @@
     "zh-CN": "将这件东西带到<color=#FFD201>羊绒仙境</color>。",
     "zh-TW": "將羊毛帶回<color=#FFD201>羊絨仙境</color>。"
   },
+  "descriptionPlain": {
+    "ar": "عليك إعادة هذا إلى ملاذ الحملان.",
+    "de": "Bringe sie nach Wollhafen zurück.",
+    "en": "Return this to Woolhaven.",
+    "es": "Llévala a Vellones Elíseos.",
+    "fr": "Ramenez cet objet à Havrelaine.",
+    "fr-CA": "Ramenez cet objet à Havrelaine.",
+    "it": "Restituiscila all'Aldilàna.",
+    "ja": "羊毛の聖域まで持っていこう",
+    "ko": "포근쉼터로 가져가세요.",
+    "nl": "Breng dit terug naar Wolhaven.",
+    "pt-BR": "Devolva para Santa Lã.",
+    "ru": "Клок шерсти, который нужно принести в Шерстополь.",
+    "tr": "Bunu Yüntepe'ye geri götür.",
+    "zh-CN": "将这件东西带到羊绒仙境。",
+    "zh-TW": "將羊毛帶回羊絨仙境。"
+  },
   "icon": "icons/items/SPECIAL_WOOL_TAROT.png",
   "id": "SPECIAL_WOOL_TAROT",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Yıldızlara Bakanın Yünü",
     "zh-CN": "占星师羊毛",
     "zh-TW": "占星者羊毛"
-  }
+  },
+  "namePlain": {
+    "ar": "صوف العرافة",
+    "de": "Wolle der Sternguckerin",
+    "en": "Wool of the Stargazer",
+    "es": "Lana de la Astrónoma",
+    "fr": "Laine de l'astronome",
+    "fr-CA": "Laine de l'astronome",
+    "it": "Lana dell'astronoma",
+    "ja": "星見のウール",
+    "ko": "별을 보는 자의 모직",
+    "nl": "Wol van de sterrenkijker",
+    "pt-BR": "Pelagem da Admiração Estelar",
+    "ru": "Шерсть звёздной",
+    "tr": "Yıldızlara Bakanın Yünü",
+    "zh-CN": "占星师羊毛",
+    "zh-TW": "占星者羊毛"
+  },
+  "tags": []
 }

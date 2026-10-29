@@ -17,6 +17,23 @@
     "zh-CN": "可以圣化为金币的金块。",
     "zh-TW": "可以聖化成金幣的金塊。"
   },
+  "descriptionPlain": {
+    "ar": "قطعة من الذهب يمكن تحويلها إلى عملة.",
+    "de": "Ein Klumpen Gold, der zu Münzen verarbeitet werden kann.",
+    "en": "A nugget of gold that can be refined into coin.",
+    "es": "Una pepita de oro que se puede pulir para convertirla en una moneda.",
+    "fr": "Une pépite d'or qui peut être transformée en pièce.",
+    "fr-CA": "Une pépite d'or qui peut être transformée en pièce.",
+    "it": "Una pepita d'oro che può essere raffinata in moneta.",
+    "ja": "金貨へと精錬することのできる金塊",
+    "ko": "동전으로 주조 가능한 금 덩어리입니다.",
+    "nl": "Een klompje goud dat kan worden bewerkt tot munten.",
+    "pt-BR": "Uma pepita de ouro que pode ser refinada em uma moeda.",
+    "ru": "Кусок металла, который можно переплавить в монеты.",
+    "tr": "Altın paraya dönüştürülebilecek bir altın parçası.",
+    "zh-CN": "可以圣化为金币的金块。",
+    "zh-TW": "可以聖化成金幣的金塊。"
+  },
   "icon": "icons/items/GOLD_NUGGET.png",
   "id": "GOLD_NUGGET",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Altın Parçası",
     "zh-CN": "金块",
     "zh-TW": "金塊"
-  }
+  },
+  "namePlain": {
+    "ar": "قطعة ذهب",
+    "de": "Goldklumpen",
+    "en": "Gold Nugget",
+    "es": "Pepita de oro",
+    "fr": "Pépite d'or",
+    "fr-CA": "Pépite d'or",
+    "it": "Pepita d'oro",
+    "ja": "金塊",
+    "ko": "금 덩어리",
+    "nl": "Goudklompje",
+    "pt-BR": "Pepita de Ouro",
+    "ru": "Золотой самородок",
+    "tr": "Altın Parçası",
+    "zh-CN": "金块",
+    "zh-TW": "金塊"
+  },
+  "tags": []
 }

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "精美的雕制容器里装着内脏。",
     "zh-TW": "精心雕琢的容器內擺著內臟。"
   },
+  "descriptionPlain": {
+    "ar": "أحشاء في حاوية منحوتة جميلة.",
+    "de": "Innereien in einem liebevoll verarbeiteten Behälter.",
+    "en": "Innards in a lovely carved container.",
+    "es": "Con una talla preciosa y un puñado de entrañas.",
+    "fr": "Des viscères conservés dans un joli récipient sculpté.",
+    "fr-CA": "Des viscères conservés dans un beau récipient sculpté.",
+    "it": "Interiora riposte in un recipiente finemente intagliato.",
+    "ja": "内臓が詰め込まれた、かわいらしい容器",
+    "ko": "예쁘게 꾸민 통에 온갖 내장이 담겨 있습니다.",
+    "nl": "Organen in een mooi uitgesneden houder.",
+    "pt-BR": "Tripas em um adorável recipiente talhado.",
+    "ru": "Внутренние органы в аккуратной каменной урне.",
+    "tr": "Çok şık bir kovaya doldurulmuş organlar.",
+    "zh-CN": "精美的雕制容器里装着内脏。",
+    "zh-TW": "精心雕琢的容器內擺著內臟。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_BUCKET.png",
   "id": "DECORATION_DLC_ROT_BUCKET",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "دلو الأمعاء",
+    "de": "Gedärmekübel",
+    "en": "Bucket o' Guts",
+    "es": "Cubo con tripas",
+    "fr": "Seau d'entrailles",
+    "fr-CA": "Seau d'entrailles",
+    "it": "Secchio di viscere",
+    "ja": "内臓バケツ",
+    "ko": "내장 양동이",
+    "nl": "Emmer ingewanden",
+    "pt-BR": "Balde de Vísceras",
+    "ru": "Урна с останками",
+    "tr": "Bir Kova Sakatat",
+    "zh-CN": "内脏桶",
+    "zh-TW": "桶裝內臟"
+  },
+  "namePlain": {
     "ar": "دلو الأمعاء",
     "de": "Gedärmekübel",
     "en": "Bucket o' Guts",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "纪念传承至今之事",
     "zh-TW": "紀念傳承至今之事"
   },
+  "descriptionPlain": {
+    "ar": "للاحتفاء بالصمود أمام الصعاب.",
+    "de": "Zur Feier dessen, was fortdauert.",
+    "en": "To commemorate what has endured.",
+    "es": "Para conmemorar lo que ha perdurado.",
+    "fr": "Pour commémorer ce qui a été, jadis.",
+    "fr-CA": "Pour commémorer ce qui a été, jadis.",
+    "it": "Per commemorare ciò che è stato patito.",
+    "ja": "長き時を耐え忍んできた宗派を称えるための祭壇",
+    "ko": "견뎌온 것을 기념하기 위한 것입니다.",
+    "nl": "Ter nagedachtenis aan alles dat blijft voortbestaan.",
+    "pt-BR": "Para comemorar aquilo que resistiu.",
+    "ru": "Напоминание о пройденных испытаниях.",
+    "tr": "Kalanları yâd etmek için.",
+    "zh-CN": "纪念传承至今之事",
+    "zh-TW": "紀念傳承至今之事"
+  },
   "icon": "icons/structures/DECORATION_OLDFAITH_SHRINE.png",
   "id": "DECORATION_OLDFAITH_SHRINE",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "مزار العقيدة القديمة",
+    "de": "Schrein des alten Glaubens",
+    "en": "Shrine of the Old Faith",
+    "es": "Santuario de la Antigua Fe",
+    "fr": "Autel de la Vieille croyance",
+    "fr-CA": "Autel de la Vieille croyance",
+    "it": "Santuario dell'Antico Credo",
+    "ja": "旧き信仰の祭壇",
+    "ko": "옛 신앙의 성지",
+    "nl": "Altaar van het Oude Geloof",
+    "pt-BR": "Santuário da Antiga Fé",
+    "ru": "Алтарь древней веры",
+    "tr": "Kadim İnanç'ın Mabedi",
+    "zh-CN": "古老信仰之圣坛",
+    "zh-TW": "古老信仰之聖壇"
+  },
+  "namePlain": {
     "ar": "مزار العقيدة القديمة",
     "de": "Schrein des alten Glaubens",
     "en": "Shrine of the Old Faith",

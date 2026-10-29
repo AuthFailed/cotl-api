@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Squirrel",
   "name": {
+    "en": "Squirrel"
+  },
+  "namePlain": {
     "en": "Squirrel"
   },
   "unlock": "Dungeon1"

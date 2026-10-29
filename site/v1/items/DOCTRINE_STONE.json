@@ -17,6 +17,23 @@
     "zh-CN": "可以用来在圣殿祭坛颁布新<color=#FFD201>教条</cult>的戒律石。",
     "zh-TW": "可以用來在聖殿祭壇頒布新<color=#FFD201>教條</cult>的戒律石。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن استخدام أحجار الوصايا لإعلان تعاليم جديدة من منصة مجمعك.",
+    "de": "Gebotssteine, die am Altar deines Tempels verwendet werden können, um neue Doktrinen zu verkünden.",
+    "en": "Commandment Stones that can be used to declare new Doctrines from the Altar in your Temple.",
+    "es": "Piedras de los mandamientos que puedes usar para declarar nuevas doctrinas en el altar de tu templo.",
+    "fr": "Pierres de commandement qui peuvent être utilisées pour adopter de nouvelles doctrines sur l'Autel du Temple.",
+    "fr-CA": "Pierres de commandement qui peuvent être utilisées pour adopter de nouvelles doctrines sur l'Autel du Temple.",
+    "it": "Pietre dei comandamenti che possono sbloccare nuove dottrine all'altare del tempio.",
+    "ja": "教会堂の講壇にて、新しい教条を宣言する際に使うための戒律石",
+    "ko": "계명석은 사원의 제단에서 새로운 교리를 선포하는 데 사용됩니다.",
+    "nl": "Met geboden-tabletten kun je nieuwe doctrines proclameren bij de kansel in je tempel.",
+    "pt-BR": "Pedras da Lei que podem ser usadas para declarar novas Doutrinas no Altar do seu Templo.",
+    "ru": "Священный камень, на котором можно высечь новую заповедь в храме.",
+    "tr": "Tapınak'taki Sunak'tan yeni İlkeler ilan etmek için kullanabileceğin Hüküm Taşları.",
+    "zh-CN": "可以用来在圣殿祭坛颁布新教条的戒律石。",
+    "zh-TW": "可以用來在聖殿祭壇頒布新教條的戒律石。"
+  },
   "icon": "icons/items/DOCTRINE_STONE.png",
   "id": "DOCTRINE_STONE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Hüküm Taşı Parçası",
     "zh-CN": "戒律石碎块",
     "zh-TW": "戒律石碎塊"
-  }
+  },
+  "namePlain": {
+    "ar": "جزء من حجر وصايا",
+    "de": "Gebotsstein-Fragment",
+    "en": "Commandment Stone Fragment",
+    "es": "Fragmento de piedra de los mandamientos",
+    "fr": "Fragm. de pierre de command.",
+    "fr-CA": "Fragm. de pierre de command.",
+    "it": "Framm. Pietra comandamenti",
+    "ja": "戒律石のかけら",
+    "ko": "계명석 조각",
+    "nl": "Geboden-tabletstuk",
+    "pt-BR": "Fragmento de Pedra da Lei",
+    "ru": "Осколок скрижали",
+    "tr": "Hüküm Taşı Parçası",
+    "zh-CN": "戒律石碎块",
+    "zh-TW": "戒律石碎塊"
+  },
+  "tags": []
 }

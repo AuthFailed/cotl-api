@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "FLOWER_WHITE",
@@ -26,9 +28,44 @@
     "zh-CN": "绿色的冬天之神。",
     "zh-TW": "一身綠的冬日之神。"
   },
+  "descriptionPlain": {
+    "ar": "سيدة الشتاء في ثوبها الأخضر.",
+    "de": "Die Wintergöttin in Grün.",
+    "en": "The Winter God in green.",
+    "es": "El dios del invierno se viste de verde.",
+    "fr": "La déesse de l'hiver se met au vert.",
+    "fr-CA": "La déesse de l'hiver se met au vert.",
+    "it": "La divinità dell'inverno in verde.",
+    "ja": "冬の神を模した植木",
+    "ko": "신록빛깔 겨울신입니다.",
+    "nl": "De wintergod in het groen.",
+    "pt-BR": "A Deusa do Inverno em forma verdejante.",
+    "ru": "Богиня зимы в зелёном одеянии.",
+    "tr": "Kış Tanrısı'nın yeşil tasviri.",
+    "zh-CN": "绿色的冬天之神。",
+    "zh-TW": "一身綠的冬日之神。"
+  },
   "icon": "icons/structures/DECORATION_DLC_YNGYA_TREEBUSH.png",
   "id": "DECORATION_DLC_YNGYA_TREEBUSH",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "شجيرة إينغيا",
+    "de": "Yngya-Hecke",
+    "en": "Hedge of Yngya",
+    "es": "Seto de Yngya",
+    "fr": "Haie d'Yngya",
+    "fr-CA": "Haie d'Yngya",
+    "it": "Siepe di Yngya",
+    "ja": "イングャの植木",
+    "ko": "잉갸의 생울타리",
+    "nl": "Heg van Yngya",
+    "pt-BR": "Sebe de Yngya",
+    "ru": "Куст Ингьи",
+    "tr": "Yngya Çalısı",
+    "zh-CN": "殷亚树篱",
+    "zh-TW": "殷亞樹籬"
+  },
+  "namePlain": {
     "ar": "شجيرة إينغيا",
     "de": "Yngya-Hecke",
     "en": "Hedge of Yngya",

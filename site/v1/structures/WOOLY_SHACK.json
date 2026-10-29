@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -16,9 +18,16 @@
   "description": {
     "en": "Craft woollen items to keep Followers from freezing."
   },
+  "descriptionPlain": {
+    "en": "Craft woollen items to keep Followers from freezing."
+  },
   "icon": "icons/structures/WOOLY_SHACK.png",
   "id": "WOOLY_SHACK",
+  "menu": null,
   "name": {
+    "en": "Wooly Shack"
+  },
+  "namePlain": {
     "en": "Wooly Shack"
   },
   "size": {

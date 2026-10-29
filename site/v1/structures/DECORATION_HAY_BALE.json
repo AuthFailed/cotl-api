@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "一捆干草",
     "zh-TW": "一捆乾草"
   },
+  "descriptionPlain": {
+    "ar": "رزمة من القش.",
+    "de": "Ein Heuballen.",
+    "en": "A bale of hay.",
+    "es": "Una paca de heno.",
+    "fr": "Une simple botte de foin.",
+    "fr-CA": "Une simple botte de foin.",
+    "it": "Una balla di fieno.",
+    "ja": "俵状にまとめられた干し草",
+    "ko": "건초 뭉치입니다.",
+    "nl": "Een baal van hooi.",
+    "pt-BR": "Um fardo de feno",
+    "ru": "Сухая скошенная трава, скатанная в тюк.",
+    "tr": "Balyalanmış saman.",
+    "zh-CN": "一捆干草",
+    "zh-TW": "一捆乾草"
+  },
   "icon": "icons/structures/DECORATION_HAY_BALE.png",
   "id": "DECORATION_HAY_BALE",
+  "menu": "Aesthetic/Dungeon1",
   "name": {
+    "ar": "رزمة قش",
+    "de": "Heuballen",
+    "en": "Hay Bale",
+    "es": "Paca de heno",
+    "fr": "Botte de foin",
+    "fr-CA": "Botte de foin",
+    "it": "Balla di fieno",
+    "ja": "干し草俵",
+    "ko": "건초 뭉치",
+    "nl": "Hooibaal",
+    "pt-BR": "Fardo de Feno",
+    "ru": "Тюк сена",
+    "tr": "Saman Balyası",
+    "zh-CN": "干草捆",
+    "zh-TW": "乾草捆"
+  },
+  "namePlain": {
     "ar": "رزمة قش",
     "de": "Heuballen",
     "en": "Hay Bale",

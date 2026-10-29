@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Gorilla",
   "name": {
+    "en": "Gorilla"
+  },
+  "namePlain": {
     "en": "Gorilla"
   },
   "unlock": "DLC"

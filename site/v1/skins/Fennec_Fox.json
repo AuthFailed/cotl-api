@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Fennec_Fox",
   "name": {
+    "en": "Fennec Fox"
+  },
+  "namePlain": {
     "en": "Fennec Fox"
   },
   "unlock": "Dungeon2"

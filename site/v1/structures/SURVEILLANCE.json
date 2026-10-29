@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "窥视教徒的内心想法",
     "zh-TW": "窺視教徒的內心想法"
   },
+  "descriptionPlain": {
+    "ar": "لمعرفة ما يدور في أذهان أتباعك.",
+    "de": "Erhalte Einblick in die Gedanken deiner Anhänger.",
+    "en": "Peer into the minds of your Followers.",
+    "es": "Adéntrate en las mentes de tus adeptos.",
+    "fr": "Lisez les pensées de vos adeptes.",
+    "fr-CA": "Lisez les pensées de vos adeptes.",
+    "it": "Scruta nella mente dei membri del Culto.",
+    "ja": "信者の思考を見透かすことができる",
+    "ko": "추종자들의 마음을 엿봅니다.",
+    "nl": "Gluur in de gedachten van je volgelingen.",
+    "pt-BR": "Dê uma espiada nas mentes de seus Seguidores",
+    "ru": "Башня, позволяющая вам заглянуть в сознание своих последователей.",
+    "tr": "Takipçilerinin zihinlerini oku.",
+    "zh-CN": "窥视教徒的内心想法",
+    "zh-TW": "窺視教徒的內心想法"
+  },
   "icon": null,
   "id": "SURVEILLANCE",
+  "menu": null,
   "name": {
+    "ar": "برج المراقبة",
+    "de": "Überwachungsturm",
+    "en": "Surveillance Tower",
+    "es": "Torre de vigilancia",
+    "fr": "Tour de surveillance",
+    "fr-CA": "Tour de surveillance",
+    "it": "Torre di sorveglianza",
+    "ja": "監視塔",
+    "ko": "감시탑",
+    "nl": "Bewakingstoren",
+    "pt-BR": "Torre de Vigilância",
+    "ru": "Наблюдательная вышка",
+    "tr": "Gözetleme Kulesi",
+    "zh-CN": "监视塔",
+    "zh-TW": "監視塔"
+  },
+  "namePlain": {
     "ar": "برج المراقبة",
     "de": "Überwachungsturm",
     "en": "Surveillance Tower",

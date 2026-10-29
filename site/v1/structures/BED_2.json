@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "升级为更稳定的休息处，坍塌频率大幅降低",
     "zh-TW": "升級為更穩定的休息處，顛塌頻率大幅降低"
   },
+  "descriptionPlain": {
+    "ar": "عليك الترقية إلى مأوى أكثر استقرارًا فاحتمال انهياره أقل.",
+    "de": "Verbesserter Schlafplatz, der stabiler ist und viel seltener zusammengestürzt.",
+    "en": "Upgrade to a more stable shelter, which will collapse less often.",
+    "es": "Un lugar más acogedor donde dormir. No se romperá tan rápido como los sacos.",
+    "fr": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+    "fr-CA": "Faites le bonheur de vos adeptes en leur offrant un abri un peu plus solide.",
+    "it": "Un riparo più stabile, che si deteriora meno spesso.",
+    "ja": "安定感と寝心地が改善した寝床、前よりも壊れにくい",
+    "ko": "보다 안정적인 주거지로 업그레이드 되었으며, 보다 덜 자주 무너집니다.",
+    "nl": "Upgrade naar een stabieler onderkomen dat minder vaak instort.",
+    "pt-BR": "Aprimore para um abrigo mais estável que desabará menos vezes.",
+    "ru": "Место для ночлега, которое разваливается лишь изредка.",
+    "tr": "Daha sağlam bir çadır, nispeten daha az çöker.",
+    "zh-CN": "升级为更稳定的休息处，坍塌频率大幅降低",
+    "zh-TW": "升級為更穩定的休息處，顛塌頻率大幅降低"
+  },
   "icon": "icons/structures/BED_2.png",
   "id": "BED_2",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "مأوى",
+    "de": "Unterkunft",
+    "en": "Shelter",
+    "es": "Refugio",
+    "fr": "Abri basique",
+    "fr-CA": "Abri basique",
+    "it": "Tenda",
+    "ja": "テント",
+    "ko": "주거지",
+    "nl": "Tipi",
+    "pt-BR": "Abrigo",
+    "ru": "Хижина",
+    "tr": "Çadır",
+    "zh-CN": "休息处",
+    "zh-TW": "休息處"
+  },
+  "namePlain": {
     "ar": "مأوى",
     "de": "Unterkunft",
     "en": "Shelter",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -26,9 +28,44 @@
     "zh-CN": "装满花朵的独轮车",
     "zh-TW": "裝滿花朵的獨輪車"
   },
+  "descriptionPlain": {
+    "ar": "عربة يد مليئة بالزهور.",
+    "de": "Eine Schubkarre voller Blumen.",
+    "en": "A wheelbarrow filled with flowers.",
+    "es": "Una carretilla llena de flores.",
+    "fr": "Une petite brouette de fleurs.",
+    "fr-CA": "Une petite brouette de fleurs.",
+    "it": "Una carriola che funge da fioriera.",
+    "ja": "花がたくさん乗った手押し車",
+    "ko": "꽃으로 채워진 바퀴 수레입니다.",
+    "nl": "Een kruiwagen vol met bloemen.",
+    "pt-BR": "Um carrinho de mão cheio de flores",
+    "ru": "Тачка, наполненная цветами.",
+    "tr": "Çiçeklerle dolu bir el arabası.",
+    "zh-CN": "装满花朵的独轮车",
+    "zh-TW": "裝滿花朵的獨輪車"
+  },
   "icon": "icons/structures/DECORATION_BARROW.png",
   "id": "DECORATION_BARROW",
+  "menu": "Aesthetic/Dungeon1",
   "name": {
+    "ar": "عربة يد للزهور",
+    "de": "Blumenschubkarre",
+    "en": "Flower Barrow",
+    "es": "Carretilla de flores",
+    "fr": "Brouette fleurie",
+    "fr-CA": "Brouette fleurie",
+    "it": "Carriola fiorita",
+    "ja": "花の手押し車",
+    "ko": "꽃 수레",
+    "nl": "Bloemenkruiwagen",
+    "pt-BR": "Floreira Carrinho de Mão",
+    "ru": "Тележка с цветами",
+    "tr": "El Arabasında Çiçek",
+    "zh-CN": "花朵独轮车",
+    "zh-TW": "花朵獨輪車"
+  },
+  "namePlain": {
     "ar": "عربة يد للزهور",
     "de": "Blumenschubkarre",
     "en": "Flower Barrow",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "最好的礼物便是黑暗中的光明。",
     "zh-TW": "最棒的禮物就是黑暗中的光芒。"
   },
+  "descriptionPlain": {
+    "ar": "إن أهديت فأهدِ نورًا يبدد الظلام.",
+    "de": "Das größte Geschenk ist ein Licht in der Dunkelheit.",
+    "en": "The greatest gift is light in the dark.",
+    "es": "El regalo más preciado es una luz en la oscuridad.",
+    "fr": "La lumière qui brille dans l'obscurité est le plus beau des cadeaux.",
+    "fr-CA": "Le plus beau des cadeaux, c'est la lumière dans les ténèbres.",
+    "it": "Una luce nel buio, quale regalo migliore?",
+    "ja": "闇を照らす光こそ、最高の贈り物",
+    "ko": "어둠 속 한 줄기 빛이야말로 가장 큰 선물일지니.",
+    "nl": "Het grootste geschenk is licht in de duisternis.",
+    "pt-BR": "O maior presente é a luz na escuridão.",
+    "ru": "Подарок судьбы в тёмные времена.",
+    "tr": "Karanlıktaki ışık, en büyük armağandır.",
+    "zh-CN": "最好的礼物便是黑暗中的光明。",
+    "zh-TW": "最棒的禮物就是黑暗中的光芒。"
+  },
   "icon": "icons/structures/DECORATION_CHRISTMAS_CANDLE.png",
   "id": "DECORATION_CHRISTMAS_CANDLE",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "شمعة منتصف الشتاء",
+    "de": "Wintersonnenwende-Kerze",
+    "en": "Midwinter Candle",
+    "es": "Vela invernal",
+    "fr": "Bougie de la mi-hiver",
+    "fr-CA": "Bougie de la mi-hiver",
+    "it": "Candela del solstizio d'inverno",
+    "ja": "冬至のキャンドル",
+    "ko": "한겨울철 촛대",
+    "nl": "Midwinterkaars",
+    "pt-BR": "Vela do Festival de Inverno",
+    "ru": "Солнцестояльная свеча",
+    "tr": "Kış Ortası Mumu",
+    "zh-CN": "冬至蜡烛",
+    "zh-TW": "冬至蠟燭"
+  },
+  "namePlain": {
     "ar": "شمعة منتصف الشتاء",
     "de": "Wintersonnenwende-Kerze",
     "en": "Midwinter Candle",

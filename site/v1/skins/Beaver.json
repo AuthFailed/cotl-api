@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Beaver",
   "name": {
+    "en": "Apple_4"
+  },
+  "namePlain": {
     "en": "Apple_4"
   },
   "unlock": "Other"

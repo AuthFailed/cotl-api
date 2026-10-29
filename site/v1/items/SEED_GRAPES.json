@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántalas en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantalo in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_GRAPES.png",
   "id": "SEED_GRAPES",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Üzüm Tohumları",
     "zh-CN": "葡萄种子",
     "zh-TW": "葡萄種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذور عنب",
+    "de": "Traubensamen",
+    "en": "Grape Seeds",
+    "es": "Semillas de uva",
+    "fr": "Graine de raisin",
+    "fr-CA": "Graines de raisin",
+    "it": "Seme d'uva",
+    "ja": "ブドウの種",
+    "ko": "포도 씨앗",
+    "nl": "Druivenzaden",
+    "pt-BR": "Sementes de Uvas",
+    "ru": "Семя винограда",
+    "tr": "Üzüm Tohumları",
+    "zh-CN": "葡萄种子",
+    "zh-TW": "葡萄種子"
+  },
+  "tags": []
 }

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -22,9 +24,44 @@
     "zh-CN": "在教会中饲养动物。指派教徒成为牧工，照顾并清洗动物。",
     "zh-TW": "在教會中飼養動物。指派教徒成為牧工，照顧動物並清理排泄物。"
   },
+  "descriptionPlain": {
+    "ar": "يُخصص للاحتفاظ بحيوانات في طائفتك. يمكنك تعيين تابع مربي حيوانات ليرعاها وينظفها.",
+    "de": "Halte Tiere in deinem Kult. Weise einen Anhänger an, sich als Rancher um die Tiere zu kümmern und sie zu säubern.",
+    "en": "Keep animals in your Cult. Assign a Follower to care for and clean your animals as a Rancher.",
+    "es": "Cría animales en tu secta. Asigna a un adepto como ganadero para que cuide de ellos y los mantenga limpios.",
+    "fr": "Gardez des animaux dans votre culte. Assignez un adepte au rôle d'éleveur pour qu'il s'occupe des animaux et les nettoie.",
+    "fr-CA": "Gardez des animaux au sein de votre secte. Assignez un adepte au rôle d'éleveur pour qu'il s'occupe des animaux et les nettoie.",
+    "it": "Vi si allevano gli animali del Culto. Permette la nomina di allevabestie che se ne prendano cura e li mantengano puliti.",
+    "ja": "教団内で動物を育てるための場所。牧畜家に任命した信者が、動物の世話や掃除をしてくれる",
+    "ko": "교단에서 동물을 둘 수 있습니다. 추종자를 목동으로 임명하여 동물을 돌보고 청소하게 하세요.",
+    "nl": "Met dit gebouw kun je dieren in je sekte houden. Wijs een volgeling aan als veehouder om voor de dieren te zorgen en ze te wassen.",
+    "pt-BR": "Crie animais em seu Culto. Indique um Seguidor para cuidar e limpar seus animais como Rancheiro.",
+    "ru": "Место для содержания животных, позволяющее назначенным последователям ухаживать за ними.",
+    "tr": "Tarikat'ında hayvan bakabilirsin. Bir Takipçi'yi Hayvan Bakıcısı olarak atayarak hayvanlarla ilgilenmesini ve onları temizlemesini sağlayabilirsin.",
+    "zh-CN": "在教会中饲养动物。指派教徒成为牧工，照顾并清洗动物。",
+    "zh-TW": "在教會中飼養動物。指派教徒成為牧工，照顧動物並清理排泄物。"
+  },
   "icon": "icons/structures/RANCH_2.png",
   "id": "RANCH_2",
+  "menu": "MajorDLC/Ranching",
   "name": {
+    "ar": "مَربى الحيوانات II",
+    "de": "Ranch II",
+    "en": "Ranch II",
+    "es": "Rancho II",
+    "fr": "Ranch II",
+    "fr-CA": "Ranch II",
+    "it": "Allevamento II",
+    "ja": "畜舎 II",
+    "ko": "목장 II",
+    "nl": "Veeboerderij II",
+    "pt-BR": "Rancho II",
+    "ru": "Хлев II",
+    "tr": "Hayvan Çiftliği II",
+    "zh-CN": "牧场 II",
+    "zh-TW": "牧場 II"
+  },
+  "namePlain": {
     "ar": "مَربى الحيوانات II",
     "de": "Ranch II",
     "en": "Ranch II",

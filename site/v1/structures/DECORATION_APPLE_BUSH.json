@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "怀抱敬爱之心，种植修剪而成。",
     "zh-TW": "懷抱敬愛之心，種植修剪而成。"
   },
+  "descriptionPlain": {
+    "ar": "زُرعت وشُكلت تبجيلًا للتاج.",
+    "de": "Mit Ehrfurcht gezüchtet und geformt.",
+    "en": "Grown and shaped with reverance.",
+    "es": "Moldeado con gran admiración.",
+    "fr": "Cultivée et façonnée avec respect.",
+    "fr-CA": "Cultivée et taillée avec respect.",
+    "it": "Coltivata e modellata con riverenza.",
+    "ja": "敬意をもって手入れされている",
+    "ko": "경건 속에 자라나 모양을 형성했습니다.",
+    "nl": "Gekweekt en gevormd met eerbied.",
+    "pt-BR": "Cultivada e mantida com louvor.",
+    "ru": "Растение, выращенное и остриженное с благоговением.",
+    "tr": "Saygıyla yetiştirilmiş ve şekil verilmiş.",
+    "zh-CN": "怀抱敬爱之心，种植修剪而成。",
+    "zh-TW": "懷抱敬愛之心，種植修剪而成。"
+  },
   "icon": "icons/structures/DECORATION_APPLE_BUSH.png",
   "id": "DECORATION_APPLE_BUSH",
+  "menu": null,
   "name": {
+    "ar": "شجيرة مشذّبة",
+    "de": "Gepflegte Hecke",
+    "en": "Manicured Hedge",
+    "es": "Seto podado",
+    "fr": "Haie entretenue",
+    "fr-CA": "Haie entretenue",
+    "it": "Siepe curata",
+    "ja": "王冠の植木",
+    "ko": "손질된 생울타리",
+    "nl": "Vormgesnoeide struik",
+    "pt-BR": "Cerca Viva Podada",
+    "ru": "Декоративный куст",
+    "tr": "Budanmış Çalı",
+    "zh-CN": "整洁树篱",
+    "zh-TW": "整潔樹籬"
+  },
+  "namePlain": {
     "ar": "شجيرة مشذّبة",
     "de": "Gepflegte Hecke",
     "en": "Manicured Hedge",

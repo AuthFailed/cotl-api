@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "这个领袖的雕像跟某个遥远的世界有些某种联系……",
     "zh-TW": "這尊教主的聖羊像與某個遙遠的世界有關係……"
   },
+  "descriptionPlain": {
+    "ar": "دمية القائد هذه تمثل صلة بعالم ما بعيد...",
+    "de": "Dieses Bildnis des Anführers hat eine Verbindung zu einer entfernten Welt …",
+    "en": "This effigy of the leader holds a connection to some distant world...",
+    "es": "Esta efigie del líder está conectada con un mundo lejano...",
+    "fr": "Un lien semble exister entre cette représentation du Guide du culte et un monde très lointain...",
+    "fr-CA": "Un lien semble exister entre cette effigie du Guide et un monde très lointain...",
+    "it": "L'effigie del leader conserva un legame con un mondo lontano...",
+    "ja": "教祖の姿を称える像。どこかの異世界とのつながりを感じる…",
+    "ko": "이 교주 인형은 머나먼 세계와의 연결을 이어줍니다...",
+    "nl": "Er is een band tussen deze beeltenis van een pluche lam en een of andere verre wereld...",
+    "pt-BR": "Esta efígie do Líder carrega uma conexão com um mundo distante...",
+    "ru": "Украшение, хранящее связь с неким далёким миром.",
+    "tr": "Önderin bu figürünün başka bir dünyayla bağı var gibi...",
+    "zh-CN": "这个领袖的雕像跟某个遥远的世界有些某种联系……",
+    "zh-TW": "這尊教主的聖羊像與某個遙遠的世界有關係……"
+  },
   "icon": "icons/structures/DECORATION_PLUSH.png",
   "id": "DECORATION_PLUSH",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "دمية الحَمَل",
+    "de": "Lamm-Plüschbildnis",
+    "en": "Lamb Plush Effigy",
+    "es": "Efigie de Cordero de peluche",
+    "fr": "Agneau en peluche",
+    "fr-CA": "Agneau en peluche",
+    "it": "Effigie peluche dell'Agnello",
+    "ja": "子羊のぬいぐるみ像",
+    "ko": "어린 양 플러시 인형",
+    "nl": "Pluche lam",
+    "pt-BR": "Efígie de Pelúcia do Cordeiro",
+    "ru": "Чучело плюшевого ягнёнка",
+    "tr": "Pelüş Kuzu Figürü",
+    "zh-CN": "圣羊毛绒雕像",
+    "zh-TW": "絨毛聖羊像"
+  },
+  "namePlain": {
     "ar": "دمية الحَمَل",
     "de": "Lamm-Plüschbildnis",
     "en": "Lamb Plush Effigy",

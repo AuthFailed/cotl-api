@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "指派教徒成为医生，护送生病或受伤的教徒前往治疗间。",
     "zh-TW": "指派教徒成為醫生，護送生病或受傷的教徒前往治療間。"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك تعيين تابع مسعفًا ليصطحب الأتباع المرضى أو المصابين إلى كوخ العلاج.",
+    "de": "Ernenne einen Anhänger zum Sanitäter und lass ihn kranke oder verletzte Anhänger zum Heilquartier begleiten.",
+    "en": "Assign a Follower to be a Medic and escort sick or injured Followers to the Healing Bay.",
+    "es": "Asigna a un adepto como médico para que acompañe a los enfermos o heridos a la enfermería.",
+    "fr": "Assigne le rôle de toubib à un adepte pour qu'il escorte les adeptes malades ou blessés au poste de soins.",
+    "fr-CA": "Assigne le rôle de médecin à un adepte pour qu'il escorte les adeptes malades ou blessés au poste de soins.",
+    "it": "Permette la nomina di un medico che scorti i membri ammalati o feriti in Infermeria.",
+    "ja": "医者に任命した信者が、病気やケガの信者を治療所まで連れて行く",
+    "ko": "추종자에게 간호 업무를 할당하면 병들거나 다친 추종자를 회복소로 부축합니다.",
+    "nl": "Wijs een volgeling aan om verpleger te worden die zieke of gewonde volgelingen naar de verpleegpost brengt.",
+    "pt-BR": "Indique um Médico para levar seguidores doentes e feridos até o Compartimento de Cura.",
+    "ru": "Строение, позволяющее назначенному последователю провожать больных и раненых в лечебницу.",
+    "tr": "Bir Takipçi'yi Sıhhiyeci olarak atayarak hasta veya yaralı Takipçileri Şifa Çadırı'na götürmesini sağlayabilirsin.",
+    "zh-CN": "指派教徒成为医生，护送生病或受伤的教徒前往治疗间。",
+    "zh-TW": "指派教徒成為醫生，護送生病或受傷的教徒前往治療間。"
+  },
   "icon": "icons/structures/MEDIC.png",
   "id": "MEDIC",
+  "menu": "MajorDLC/Misc",
   "name": {
+    "ar": "مقر الإسعاف",
+    "de": "Sanitäterquartier",
+    "en": "Medic Station",
+    "es": "Estación médica",
+    "fr": "Poste de toubib",
+    "fr-CA": "Poste du personnel médical",
+    "it": "Presidio medico",
+    "ja": "医務室",
+    "ko": "간호소",
+    "nl": "Verplegerstent",
+    "pt-BR": "Estação de Saúde",
+    "ru": "Медпункт",
+    "tr": "Sıhhiye Çadırı",
+    "zh-CN": "医护站",
+    "zh-TW": "醫護站"
+  },
+  "namePlain": {
     "ar": "مقر الإسعاف",
     "de": "Sanitäterquartier",
     "en": "Medic Station",

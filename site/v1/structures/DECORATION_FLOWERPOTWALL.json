@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -26,9 +28,44 @@
     "zh-CN": "挂在桩上的小花盆",
     "zh-TW": "掛在樁上的小花盆"
   },
+  "descriptionPlain": {
+    "ar": "أصائص زهور صغيرة معلقة بعمود.",
+    "de": "Kleine Blumentöpfe, die an Pfosten hängen.",
+    "en": "Small flower pots strung upon a post.",
+    "es": "Unas pequeñas macetas colgadas de un poste.",
+    "fr": "Des petits pots de fleurs suspendus à des rondins de bois.",
+    "fr-CA": "Des petits pots de fleurs suspendus à des bûches de bois.",
+    "it": "Piccoli vasi di fiori appesi a pali di legno.",
+    "ja": "小さな花瓶が括りつけられた木の柱",
+    "ko": "기둥 위에 거는 작은 화분입니다.",
+    "nl": "Kleine bloempotten aan een paal.",
+    "pt-BR": "Pequenos vasos de flores amarrados em um poste",
+    "ru": "Маленькие цветочные горшки, подвешенные к столбам.",
+    "tr": "Birkaç direğe asılmış küçük çiçek saksıları.",
+    "zh-CN": "挂在桩上的小花盆",
+    "zh-TW": "掛在樁上的小花盆"
+  },
   "icon": "icons/structures/DECORATION_FLOWERPOTWALL.png",
   "id": "DECORATION_FLOWERPOTWALL",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "أصيص زهور معلق",
+    "de": "Wandblumentopf",
+    "en": "Wall Flower Pot",
+    "es": "Maceta de pared",
+    "fr": "Pots de fleurs suspendus",
+    "fr-CA": "Pots de fleurs suspendus",
+    "it": "Vasi di fiori da parete",
+    "ja": "花瓶の柱",
+    "ko": "벽 화분",
+    "nl": "Muurbloempot",
+    "pt-BR": "Vaso de Parede",
+    "ru": "Подвесные цветочные горшки",
+    "tr": "Saksılı Çiçek Direkleri",
+    "zh-CN": "墙脚花盆",
+    "zh-TW": "牆腳花盆"
+  },
+  "namePlain": {
     "ar": "أصيص زهور معلق",
     "de": "Wandblumentopf",
     "en": "Wall Flower Pot",

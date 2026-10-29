@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Capybara",
   "name": {
+    "en": "Capybara"
+  },
+  "namePlain": {
     "en": "Capybara"
   },
   "unlock": "Dungeon2"

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "奇怪的铁质装置，还会发光……",
     "zh-TW": "奇怪的發光鐵製裝置……"
   },
+  "descriptionPlain": {
+    "ar": "آلة حديدية غريبة متوهجة...",
+    "de": "Eine seltsame, eiserne Vorrichtung, die leuchtet …",
+    "en": "An odd, iron contraption that glows...",
+    "es": "Un misterioso artilugio de hierro que resplandece.",
+    "fr": "Un étrange appareil en fer qui brille...",
+    "fr-CA": "Un étrange appareil en fer qui brille...",
+    "it": "Un bizzarro congegno di ferro che luccica...",
+    "ja": "鉄でできた謎の機械。なんだか光ってるけど…",
+    "ko": "기묘하게 빛나는 강철 장치입니다...",
+    "nl": "Een vreemd ijzeren apparaat dat gloeit...",
+    "pt-BR": "Uma engenhoca de ferro estranha que emite brilho...",
+    "ru": "Необычное железное приспособление, источающее свет.",
+    "tr": "Acayip, parıldayan demir bir cihaz.",
+    "zh-CN": "奇怪的铁质装置，还会发光……",
+    "zh-TW": "奇怪的發光鐵製裝置……"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_FIREMACHINE.png",
   "id": "DECORATION_DLC_ROT_FIREMACHINE",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "الآلة الغريبة",
+    "de": "Seltsame Maschine",
+    "en": "Strange Machine",
+    "es": "Máquina ignota",
+    "fr": "Étrange machine",
+    "fr-CA": "Étrange machine",
+    "it": "Strana macchina",
+    "ja": "奇妙な機械",
+    "ko": "기이한 기계",
+    "nl": "Vreemde machine",
+    "pt-BR": "Máquina Estranha",
+    "ru": "Загадочное устройство",
+    "tr": "Garip Makine",
+    "zh-CN": "奇怪机器",
+    "zh-TW": "詭異機器"
+  },
+  "namePlain": {
     "ar": "الآلة الغريبة",
     "de": "Seltsame Maschine",
     "en": "Strange Machine",

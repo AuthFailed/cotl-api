@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "建造并激活该建筑物，可以显示出<color=#FFD201>冬天</color>何时开始、持续多久，以及严寒程度如何。",
     "zh-TW": "建造後，啟用此建築物可顯示<color=#FFD201>冬天</color>的開始時間、持續時間和嚴酷程度。"
   },
+  "descriptionPlain": {
+    "ar": "فور بنائه، يمكنك تفعيل هذا المبنى لعرض موعد حلول فصل الشتاء ومدته وشدته.",
+    "de": "Sobald du dieses Gebäude aufgebaut hast, aktiviere es, um zu sehen, wann der Winter beginnt, wie lange er dauern und wie hart er sein wird.",
+    "en": "Once built, activate this structure to show when winter will begin, how long it will last, and how severe it will be.",
+    "es": "Una estructura que muestra cuándo llegará el invierno, cuánto durará y lo difícil que va a ser.",
+    "fr": "Activez cette structure pour vous informer de l'arrivée de l'hiver, de sa durée et de sa gravité.",
+    "fr-CA": "Activez cette structure pour vous informer de l'arrivée de l'hiver, de sa durée et de sa gravité.",
+    "it": "Una volta costruita, attiva questa struttura per mostrare quando inizierà l'inverno, quanto durerà e quanto sarà rigido.",
+    "ja": "起動すると、次の冬の開始時期やその長さ、程度を予報してくれる",
+    "ko": "이 건물을 건설 후 작동시키면 겨울이 언제 시작되는지, 얼마나 오래 지속되는지, 얼마나 혹독할지를 알 수 있습니다.",
+    "nl": "Activeer dit gebouw om aan te geven wanneer de winter begint, hoelang hij duurt en hoe hevig hij zal zijn.",
+    "pt-BR": "Após construir, ative a estrutura para mostrar quando o inverno for começar, o tempo de duração e a severidade.",
+    "ru": "Устройство, которое после включения предсказывает начало зимы, а также её длительность и суровость.",
+    "tr": "Bu yapıyı inşa ettikten sonra etkinleştirerek kışın ne zaman başlayacağını, ne kadar süreceğini ve ne kadar şiddetli olacağını görebilirsin.",
+    "zh-CN": "建造并激活该建筑物，可以显示出冬天何时开始、持续多久，以及严寒程度如何。",
+    "zh-TW": "建造後，啟用此建築物可顯示冬天的開始時間、持續時間和嚴酷程度。"
+  },
   "icon": "icons/structures/WEATHER_VANE.png",
   "id": "WEATHER_VANE",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "دليل الطقس",
+    "de": "Wetterfahne",
+    "en": "Weather Vane",
+    "es": "Veleta",
+    "fr": "Girouette",
+    "fr-CA": "Girouette",
+    "it": "Meteosentinella",
+    "ja": "風向計",
+    "ko": "풍향계",
+    "nl": "Weervaan",
+    "pt-BR": "Cata-vento",
+    "ru": "Метеобашня",
+    "tr": "Hava Habercisi",
+    "zh-CN": "天象仪",
+    "zh-TW": "天象儀"
+  },
+  "namePlain": {
     "ar": "دليل الطقس",
     "de": "Wetterfahne",
     "en": "Weather Vane",

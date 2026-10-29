@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "电能循环、爆发，又回到起点。",
     "zh-TW": "能量循環往復，生生不息。"
   },
+  "descriptionPlain": {
+    "ar": "تدور الطاقة في حلقة وتندفع ثم تبدأ من جديد.",
+    "de": "Der Strom macht Schleifen, birst hervor und beginnt von neuem.",
+    "en": "The power loops, bursts, and begins again.",
+    "es": "La energía da vueltas, estalla y... vuelta a empezar.",
+    "fr": "Le courant boucle, s'interrompt et recommence à nouveau.",
+    "fr-CA": "Le courant boucle, s'interrompt et recommence à nouveau.",
+    "it": "La corrente vortica, emana lampi e ricomincia.",
+    "ja": "循環と急増、そして再開されるサイクル。それが電力だ",
+    "ko": "전력이 돌고 돌다 터진 후, 다시 시작됩니다.",
+    "nl": "De stroom loopt in een lus, piekt en begint weer opnieuw.",
+    "pt-BR": "A energia circula, irrompe e recomeça.",
+    "ru": "Прибор, в котором бесконечно рождается и угасает энергия.",
+    "tr": "İçindeki güç döngüsü asla durmaz.",
+    "zh-CN": "电能循环、爆发，又回到起点。",
+    "zh-TW": "能量循環往復，生生不息。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_TESLA.png",
   "id": "DECORATION_DLC_WOLF_TESLA",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "ملف الطاقة",
+    "de": "Energiespule",
+    "en": "Energy Coil",
+    "es": "Bobina eléctrica",
+    "fr": "Bobine d'énergie",
+    "fr-CA": "Bobine d'énergie",
+    "it": "Bobina elettrica",
+    "ja": "エネルギーコイル",
+    "ko": "에너지 코일",
+    "nl": "Elektrische spoel",
+    "pt-BR": "Bobina de Energia",
+    "ru": "Трансформатор",
+    "tr": "Enerji Bobini",
+    "zh-CN": "能量线圈",
+    "zh-TW": "能量線圈"
+  },
+  "namePlain": {
     "ar": "ملف الطاقة",
     "de": "Energiespule",
     "en": "Energy Coil",

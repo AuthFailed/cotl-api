@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Mosquito",
   "name": {
+    "en": "Mosquito"
+  },
+  "namePlain": {
     "en": "Mosquito"
   },
   "unlock": "DLC"

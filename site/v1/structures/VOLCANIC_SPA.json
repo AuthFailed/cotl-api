@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "进行净体礼，为<color=#FFD201>受冻的教徒</color><sprite name=\"icon_Freezing\">暖身。",
     "zh-TW": "透過沐浴溫暖<color=#FFD201>受凍的教徒</color> <sprite name=\"icon_Freezing\">。"
   },
+  "descriptionPlain": {
+    "ar": "حوض اغتسال لتدفئة الأتباع المتجمدين",
+    "de": "Nimm Waschungen vor, um die frierenden Anhänger aufzuwärmen.",
+    "en": "Perform ablutions to warm up freezing Followers",
+    "es": "Lleva a cabo una ablución para que tus adeptos congelados entren en calor.",
+    "fr": "Faites des ablutions pour réchauffer les adeptes frigorifiés.",
+    "fr-CA": "Faites des ablutions pour réchauffer les adeptes frigorifiés.",
+    "it": "Compi delle abluzioni per riscaldare i membri del Culto congelati.",
+    "ja": "凍結状態の信者 を沐浴させて温めるための施設",
+    "ko": "세정식을 실시하여 얼어붙는 추종자 들을 따뜻하게 녹입니다",
+    "nl": "Met een zuiverend bad kun je bevriezende volgelingen opwarmen.",
+    "pt-BR": "Realize imersões para aquecer Seguidores congelados.",
+    "ru": "Купальня, в которой можно согреть замёрзших последователей.",
+    "tr": "Donuk Takipçilerini ısıtmak için onları yıka.",
+    "zh-CN": "进行净体礼，为受冻的教徒暖身。",
+    "zh-TW": "透過沐浴溫暖受凍的教徒 。"
+  },
   "icon": "icons/structures/VOLCANIC_SPA.png",
   "id": "VOLCANIC_SPA",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "حوض الانغمار",
+    "de": "Taufbad",
+    "en": "Baptismal Bath",
+    "es": "Tina bautismal",
+    "fr": "Bain de baptême",
+    "fr-CA": "Bain de baptême",
+    "it": "Vasca battesimale",
+    "ja": "洗礼の浴場",
+    "ko": "세례반",
+    "nl": "Doopbad",
+    "pt-BR": "Banho Batismal",
+    "ru": "Купель",
+    "tr": "Vaftiz Kâsesi",
+    "zh-CN": "洗礼浴",
+    "zh-TW": "聖洗池"
+  },
+  "namePlain": {
     "ar": "حوض الانغمار",
     "de": "Taufbad",
     "en": "Baptismal Bath",

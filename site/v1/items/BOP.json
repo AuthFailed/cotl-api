@@ -17,6 +17,23 @@
     "zh-CN": "带着<color=#FFD201>巴普</color>去见山上的<color=#FFD201>贝瑞丝</color>。",
     "zh-TW": "帶著<color=#FFD201>巴普</color>去見山上的<color=#FFD201>貝瑞絲</color>。"
   },
+  "descriptionPlain": {
+    "ar": "عليك جلب بوب إلى بيريث على الجبل.",
+    "de": "Bring Bop zu Berith auf den Berg.",
+    "en": "Bring Bop to Berith on the mountain.",
+    "es": "Lleva a Bop a la montaña para que se reúna con Berith.",
+    "fr": "Amenez Bop à Berith sur la montagne.",
+    "fr-CA": "Amenez Bop à Berith sur la montagne",
+    "it": "Riporta Bop da Berith sulla montagna.",
+    "ja": "山にいるベリトのところにボップを連れていく",
+    "ko": "밥을 산의 베리스에게 데려가세요.",
+    "nl": "Breng Bop naar Berith op de berg.",
+    "pt-BR": "Leve Bop até Berith na montanha.",
+    "ru": "Отнести Бопа к Верифу на гору.",
+    "tr": "Bop'u dağda Berith'e götür.",
+    "zh-CN": "带着巴普去见山上的贝瑞丝。",
+    "zh-TW": "帶著巴普去見山上的貝瑞絲。"
+  },
   "icon": "icons/items/BOP.png",
   "id": "BOP",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Bop",
     "zh-CN": "巴普",
     "zh-TW": "巴普"
-  }
+  },
+  "namePlain": {
+    "ar": "بوب",
+    "de": "Bop",
+    "en": "Bop",
+    "es": "Bop",
+    "fr": "Bop",
+    "fr-CA": "Bop",
+    "it": "Bop",
+    "ja": "ボップ",
+    "ko": "밥",
+    "nl": "Bop",
+    "pt-BR": "Bop",
+    "ru": "Боп",
+    "tr": "Bop",
+    "zh-CN": "巴普",
+    "zh-TW": "巴普"
+  },
+  "tags": []
 }

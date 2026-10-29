@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Bison",
   "name": {
+    "en": "Bison"
+  },
+  "namePlain": {
     "en": "Bison"
   },
   "unlock": "Dungeon2"

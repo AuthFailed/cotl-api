@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "几乎就像朋友陪伴在侧。",
     "zh-TW": "彷彿擁有朋友似的。"
   },
+  "descriptionPlain": {
+    "ar": "كأن لديك أصدقاء.",
+    "de": "Fast so, als hätte man Freunde.",
+    "en": "Almost like having friends.",
+    "es": "Casi como tener amigos.",
+    "fr": "C'est presque comme avoir des amis.",
+    "fr-CA": "C'est presque comme avoir des amis.",
+    "it": "Quasi come avere un amico.",
+    "ja": "友だちがたくさんできた気分",
+    "ko": "꼭 친구랑 같이 있는 기분입니다.",
+    "nl": "Het lijkt net alsof je vrienden hebt.",
+    "pt-BR": "É quase como ter amigos.",
+    "ru": "Украшение, заменяющее друзей.",
+    "tr": "Arkadaşının olması böyle bir his demek.",
+    "zh-CN": "几乎就像朋友陪伴在侧。",
+    "zh-TW": "彷彿擁有朋友似的。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_PILLAR1.png",
   "id": "DECORATION_DLC_ROT_PILLAR1",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "العمود المتأوه",
+    "de": "Stöhnende Säule",
+    "en": "Groaning Pillar",
+    "es": "Pilar quejicoso",
+    "fr": "Pilier plaintif",
+    "fr-CA": "Pilier plaintif",
+    "it": "Pilastro gemente",
+    "ja": "呻き声の柱",
+    "ko": "끙끙거리는 기둥",
+    "nl": "Kreunende pilaar",
+    "pt-BR": "Pilar Resmungante",
+    "ru": "Хрипящая колонна",
+    "tr": "Homurdayan Sütun",
+    "zh-CN": "呻吟柱子",
+    "zh-TW": "呻吟之柱"
+  },
+  "namePlain": {
     "ar": "العمود المتأوه",
     "de": "Stöhnende Säule",
     "en": "Groaning Pillar",

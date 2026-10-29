@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "防止鸟偷走<color=#FFD201>农地</color>范围内的种子",
     "zh-TW": "防止鳥偷走範圍內<color=#FFD201>農地</color>裡的種子"
   },
+  "descriptionPlain": {
+    "ar": "تمنع الطيور من سرقة البذور من المزارع التي في نطاقها.",
+    "de": "Hält Vögel davon ab, Saatgut von Ackerparzellen in Reichweite zu stehlen.",
+    "en": "Prevents birds from stealing the seeds from Farm Plots within range.",
+    "es": "Evita que los pájaros roben las semillas de las parcelas que estén dentro de su alcance.",
+    "fr": "Empêche les oiseaux de voler les graines des parcelles agricoles à proximité.",
+    "fr-CA": "Empêche les oiseaux de voler les graines des parcelles agricoles à proximité.",
+    "it": "Impedisce agli uccelli di rubare i semi dagli Appezzamenti nel raggio d'azione.",
+    "ja": "範囲内の農作地に植えられた種を狙う鳥を追い払ってくれる",
+    "ko": "범위 내 밭 경작지에서 씨앗을 훔치려는 새들을 막습니다.",
+    "nl": "Voorkomt dat vogels de zaden van landbouwpercelen binnen bereik stelen.",
+    "pt-BR": "Impede que os pássaros roubem sementes dos Terrenos Agrícolas dentro do alcance.",
+    "ru": "Чучело, отпугивающее птиц от участков земли в радиусе действия.",
+    "tr": "Kuşların menzil içindeki Tarlalardan tohum çalmasını önler.",
+    "zh-CN": "防止鸟偷走农地范围内的种子",
+    "zh-TW": "防止鳥偷走範圍內農地裡的種子"
+  },
   "icon": "icons/structures/SCARECROW.png",
   "id": "SCARECROW",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "الفزّاعة",
+    "de": "Vogelscheuche",
+    "en": "Scarecrow",
+    "es": "Espantapájaros",
+    "fr": "Épouvantail",
+    "fr-CA": "Épouvantail",
+    "it": "Spaventapasseri",
+    "ja": "かかし",
+    "ko": "허수아비",
+    "nl": "Vogelverschrikker",
+    "pt-BR": "Espantalho",
+    "ru": "Пугало",
+    "tr": "Korkuluk",
+    "zh-CN": "稻草人",
+    "zh-TW": "稻草羊"
+  },
+  "namePlain": {
     "ar": "الفزّاعة",
     "de": "Vogelscheuche",
     "en": "Scarecrow",

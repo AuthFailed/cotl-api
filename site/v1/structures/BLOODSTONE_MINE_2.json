@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "一位教徒将生产 <sprite name=\"icon_stone\">",
     "zh-TW": "一位教徒將生產 <sprite name=\"icon_stone\">"
   },
+  "descriptionPlain": {
+    "ar": "سينتج تابع",
+    "de": "Ein Anhänger erzeugt",
+    "en": "A Follower will generate",
+    "es": "Un adepto producirá.",
+    "fr": "Permet à un adepte de miner de la.",
+    "fr-CA": "Permet à un adepte d'extraire de la.",
+    "it": "Un membro del Culto può generarvi.",
+    "ja": "信者が を生成する場所",
+    "ko": "추종자가 을 생성합니다.",
+    "nl": "Een volgeling genereert",
+    "pt-BR": "Um seguidor gerará",
+    "ru": "Место, где последователи могут добывать.",
+    "tr": "Bir Takipçi'nin toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产",
+    "zh-TW": "一位教徒將生產"
+  },
   "icon": "icons/structures/BLOODSTONE_MINE_2.png",
   "id": "BLOODSTONE_MINE_2",
+  "menu": "Follower/Items",
   "name": {
+    "ar": "المحجر II",
+    "de": "Steinmine II",
+    "en": "Stone Mine II",
+    "es": "Mina de piedra II",
+    "fr": "Mine II",
+    "fr-CA": "Mine II",
+    "it": "Cava II",
+    "ja": "石材坑道 II",
+    "ko": "돌 광산 II",
+    "nl": "Steengroeve II",
+    "pt-BR": "Mina de Pedras II",
+    "ru": "Каменоломня II",
+    "tr": "Taş Madeni II",
+    "zh-CN": "采石场 II",
+    "zh-TW": "採石場 II"
+  },
+  "namePlain": {
     "ar": "المحجر II",
     "de": "Steinmine II",
     "en": "Stone Mine II",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "YEW_HOLY",
@@ -26,9 +28,44 @@
     "zh-CN": "纪念击败行刑者的纪念品。",
     "zh-TW": "擊敗處刑者的紀念品。"
   },
+  "descriptionPlain": {
+    "ar": "جائزة لهزيمتك الناحرة.",
+    "de": "Eine Trophäe für den Sieg über den Henker.",
+    "en": "A trophy for defeating the Executioner.",
+    "es": "Un trofeo otorgado a quienes han derrotado al Ejecutor.",
+    "fr": "Un trophée pour avoir tué la Bourrelle.",
+    "fr-CA": "Un trophée pour avoir tué l’Exécutrice.",
+    "it": "Un trofeo per aver sconfitto la carnefice.",
+    "ja": "処刑者を殺した証の記念碑",
+    "ko": "처형자를 물리쳐서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het verslaan van de beul.",
+    "pt-BR": "Um troféu por derrotar a Algoz.",
+    "ru": "Доказательство того, что карательница не обладает всесилием.",
+    "tr": "Cellat öldüğünde kazandığın miras.",
+    "zh-CN": "纪念击败行刑者的纪念品。",
+    "zh-TW": "擊敗處刑者的紀念品。"
+  },
   "icon": "icons/structures/DECORATION_BOSS_TROPHY_DLC_EXECUTIONER.png",
   "id": "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "جائزة الناحرة",
+    "de": "Henker-Trophäe",
+    "en": "Executioner Trophy",
+    "es": "Trofeo del Ejecutor",
+    "fr": "Trophée de la Bourrelle",
+    "fr-CA": "Trophée de l'Exécutrice",
+    "it": "Trofeo della carnefice",
+    "ja": "処刑者の記念碑",
+    "ko": "처형자 전리품",
+    "nl": "Beultrofee",
+    "pt-BR": "Troféu da Algoz",
+    "ru": "Трофей (карательница)",
+    "tr": "Cellat Mirası",
+    "zh-CN": "行刑者纪念品",
+    "zh-TW": "處刑者紀念品"
+  },
+  "namePlain": {
     "ar": "جائزة الناحرة",
     "de": "Henker-Trophäe",
     "en": "Executioner Trophy",

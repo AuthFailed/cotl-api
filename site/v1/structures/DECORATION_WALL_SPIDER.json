@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "SPIDER_WEB",
@@ -22,9 +24,44 @@
     "zh-CN": "比岩石墙坚固",
     "zh-TW": "比岩石牆堅固"
   },
+  "descriptionPlain": {
+    "ar": "أقوى من الحجر.",
+    "de": "Stärker als Stein.",
+    "en": "Stronger than stone.",
+    "es": "Más fuerte que la piedra.",
+    "fr": "Plus solide que la pierre.",
+    "fr-CA": "Plus solide que la pierre.",
+    "it": "Più resistente di quello di pietra.",
+    "ja": "石よりも頑丈",
+    "ko": "돌보다 강력합니다.",
+    "nl": "Sterker dan steen.",
+    "pt-BR": "Mais forte que pedra",
+    "ru": "Более надёжное, чем каменная стена.",
+    "tr": "Taştan daha sağlam.",
+    "zh-CN": "比岩石墙坚固",
+    "zh-TW": "比岩石牆堅固"
+  },
   "icon": "icons/structures/DECORATION_WALL_SPIDER.png",
   "id": "DECORATION_WALL_SPIDER",
+  "menu": "Aesthetic/Spider",
   "name": {
+    "ar": "حائط حرير العنكبوت",
+    "de": "Spinnwebenwall",
+    "en": "Spider Silk Wall",
+    "es": "Muro de seda de araña",
+    "fr": "Mur de soie",
+    "fr-CA": "Mur de soie",
+    "it": "Muro di seta di ragno",
+    "ja": "クモ糸のカベ",
+    "ko": "거미줄 벽",
+    "nl": "Spinragmuur",
+    "pt-BR": "Parede de Seda de Aranha",
+    "ru": "Заграждение из паутины",
+    "tr": "Örümcek İpeği Duvar",
+    "zh-CN": "蜘蛛丝墙",
+    "zh-TW": "蜘蛛絲牆"
+  },
+  "namePlain": {
     "ar": "حائط حرير العنكبوت",
     "de": "Spinnwebenwall",
     "en": "Spider Silk Wall",

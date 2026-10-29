@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Panda",
   "name": {
+    "en": "Panda"
+  },
+  "namePlain": {
     "en": "Panda"
   },
   "unlock": "DLC"

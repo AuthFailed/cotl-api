@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "BLACK_GOLD",
@@ -22,9 +24,44 @@
     "zh-CN": "燃烧<color=#FD1D03>腐烧</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>为教会供暖。",
     "zh-TW": "<color=#FD1D03>冬天</color>燃燒<color=#FD1D03>腐燃</color> <sprite name=\"icon_MagmaStone\"> 可以溫暖教會。"
   },
+  "descriptionPlain": {
+    "ar": "يحرق فحم التعفن لتدفئة الطائفة في الشتاء.",
+    "de": "Verbrennt Fäulnisbrand, um den Kult im Winter warmzuhalten.",
+    "en": "Burns Rotburn to warm the Cult in winter.",
+    "es": "Quema petrodumbre para calentar la secta cuando llega el invierno.",
+    "fr": "Brûle du charbon putrescent pour réchauffer le culte en hiver.",
+    "fr-CA": "Brûle du charbon putrescent pour réchauffer la secte en hiver.",
+    "it": "Brucia marciolite per riscaldare il Culto in inverno.",
+    "ja": "腐敗石 を燃やすことで、冬の教団を温めてくれる",
+    "ko": "겨울에 부패석탄 을 태워 교단을 따뜻하게 유지합니다.",
+    "nl": "Verbrandt rotsteen om de sekte warm te houden in de winter.",
+    "pt-BR": "Queima Putrefogo para aquecer o Culto no inverno.",
+    "ru": "Печь для сжигания гнилогара и отопления поселения в течение зимы.",
+    "tr": "Çürükateş yakarak Tarikat'ı kışın ısıtır.",
+    "zh-CN": "燃烧腐烧，在冬日为教会供暖。",
+    "zh-TW": "冬天燃燒腐燃 可以溫暖教會。"
+  },
   "icon": "icons/structures/FURNACE_1.png",
   "id": "FURNACE_1",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "فرن فحم التعفن",
+    "de": "Fäulnisbrand-Ofen",
+    "en": "Rotburn Furnace",
+    "es": "Caldera de petrodumbre",
+    "fr": "Fourneau à charbon putrescent",
+    "fr-CA": "Fournaise à charbon putrescent",
+    "it": "Fornace a marciolite",
+    "ja": "腐敗石ストーブ",
+    "ko": "부패석탄 화로",
+    "nl": "Rotsteenoven",
+    "pt-BR": "Fornalha Putrefogo",
+    "ru": "Гнилогарная печь",
+    "tr": "Çürükateş Sobası",
+    "zh-CN": "腐烧火炉",
+    "zh-TW": "腐燃爐"
+  },
+  "namePlain": {
     "ar": "فرن فحم التعفن",
     "de": "Fäulnisbrand-Ofen",
     "en": "Rotburn Furnace",

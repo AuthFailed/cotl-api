@@ -17,6 +17,23 @@
     "zh-CN": "用于建造神圣建筑物的昂贵材料。",
     "zh-TW": "用於建造神聖建築物的昂貴材料。"
   },
+  "descriptionPlain": {
+    "ar": "مادة ثمينة تُستخدم لبناء مباني سامية.",
+    "de": "Ein teures Material, das für den Bau heiliger Bauten verwendet wird.",
+    "en": "An expensive material used for building sacred structures.",
+    "es": "Un material muy caro usado para construir cosas sagradas.",
+    "fr": "Un matériau précieux utilisé pour construire des structures sacrées.",
+    "fr-CA": "Un matériau précieux utilisé pour construire des structures sacrées.",
+    "it": "Un materiale costoso, impiegato nella costruzione di strutture sacre.",
+    "ja": "神聖なる建造物を作る際に使われた貴重な素材",
+    "ko": "성스러운 건물을 짓는 데 사용하는 값비싼 재료입니다.",
+    "nl": "Een duur materiaal dat wordt gebruikt voor het bouwen van heilige gebouwen.",
+    "pt-BR": "Material caro usado para construir estruturas sagradas.",
+    "ru": "Ценный материал для возведения культовых построек.",
+    "tr": "Kutsal yapılar yapmaya yarayan, pahalı bir malzeme.",
+    "zh-CN": "用于建造神圣建筑物的昂贵材料。",
+    "zh-TW": "用於建造神聖建築物的昂貴材料。"
+  },
   "icon": "icons/items/GOLD_REFINED.png",
   "id": "GOLD_REFINED",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Altın Külçe",
     "zh-CN": "金条",
     "zh-TW": "金條"
-  }
+  },
+  "namePlain": {
+    "ar": "سبائك ذهب",
+    "de": "Goldbarren",
+    "en": "Gold Bars",
+    "es": "Lingote de oro",
+    "fr": "Lingot d'or",
+    "fr-CA": "Lingot d'or",
+    "it": "Lingotti d'oro",
+    "ja": "金の延棒",
+    "ko": "금괴",
+    "nl": "Goudstaven",
+    "pt-BR": "Barras de Ouro",
+    "ru": "Золотой слиток",
+    "tr": "Altın Külçe",
+    "zh-CN": "金条",
+    "zh-TW": "金條"
+  },
+  "tags": []
 }

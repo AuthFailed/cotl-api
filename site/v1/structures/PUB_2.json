@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "为教徒酿制饮料，产生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\"> <br>可存放更多饮料。",
     "zh-TW": "為教徒釀製飲料，產生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\"> <br>可存放更多飲料。"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك تحضير مشروبات لأتباعك لإنتاج خطيئة\nيخزن مشروبات أكثر.",
+    "de": "Braue Getränke für deine Anhänger, um Sünde zu erzeugen.\nLagert mehr Getränke.",
+    "en": "Brew drinks for your Followers to generate Sin\nStores more drinks.",
+    "es": "Elabora bebidas para que tus adeptos generen Pecado\nAlmacena más bebidas.",
+    "fr": "Préparez des boissons pour que vos adeptes génèrent du péché\n. Peut contenir plus de boissons.",
+    "fr-CA": "Préparez des boissons pour que vos adeptes génèrent du péché.\nPeut contenir plus de boissons.",
+    "it": "Prepara bevande per i membri del Culto, generando Peccato.\nConserva più bevande.",
+    "ja": "信者に罪 を生成させるための飲み物を醸造する\nより多くの飲み物を保管できる",
+    "ko": "추종자들이 술을 마시고 죄 를 만들어내게 합니다.\n더 많은 술을 보관합니다.",
+    "nl": "Brouw dranken voor je volgelingen om zonde te genereren.\nBiedt meer plaats voor dranken.",
+    "pt-BR": "Prepare bebidas para seus Seguidores, que gerarão Pecado\nArmazena mais bebidas.",
+    "ru": "Заведение, в котором можно готовить больше напитков, увеличивающих греховность.",
+    "tr": "Günah oluşturmak için Takipçilerine içecek hazırla.\nDaha fazla içecek depolar.",
+    "zh-CN": "为教徒酿制饮料，产生罪孽\n可存放更多饮料。",
+    "zh-TW": "為教徒釀製飲料，產生罪孽\n可存放更多飲料。"
+  },
   "icon": "icons/structures/PUB_2.png",
   "id": "PUB_2",
+  "menu": "Faith/Sin",
   "name": {
+    "ar": "المشرب II",
+    "de": "Getränkehaus II",
+    "en": "Drinkhouse II",
+    "es": "Tasca II",
+    "fr": "Buvette II",
+    "fr-CA": "Buvette II",
+    "it": "Bevanderia II",
+    "ja": "ドリンクスタンド II",
+    "ko": "음료소 II",
+    "nl": "Drankhuis II",
+    "pt-BR": "Taverna II",
+    "ru": "Питейное заведение II",
+    "tr": "İçecek İstasyonu II",
+    "zh-CN": "调饮室 II",
+    "zh-TW": "調飲所 II"
+  },
+  "namePlain": {
     "ar": "المشرب II",
     "de": "Getränkehaus II",
     "en": "Drinkhouse II",

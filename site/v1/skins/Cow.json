@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Cow",
   "name": {
+    "en": "Cow"
+  },
+  "namePlain": {
     "en": "Cow"
   },
   "unlock": "Dungeon1"

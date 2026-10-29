@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Nightwolf",
   "name": {
+    "en": "Night Wolf"
+  },
+  "namePlain": {
     "en": "Night Wolf"
   },
   "unlock": "Other"

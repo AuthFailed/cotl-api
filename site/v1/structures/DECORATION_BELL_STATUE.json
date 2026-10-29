@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "用木架支撑的金钟",
     "zh-TW": "用木架支撐的金鐘"
   },
+  "descriptionPlain": {
+    "ar": "قوس يتدلى منه جرس ذهبي.",
+    "de": "Ein Bogengewölbe mit einer goldenen Glocke.",
+    "en": "An arch that houses a golden bell.",
+    "es": "Un arco que da refugio a una campana de oro.",
+    "fr": "Une arche portant une cloche dorée.",
+    "fr-CA": "Une arche portant une cloche dorée.",
+    "it": "Un arco che alloggia una campanella d'oro.",
+    "ja": "黄金のベルが付いたアーチ",
+    "ko": "아치에 황금 종이 달려있습니다.",
+    "nl": "Een boog met een gouden klok erin.",
+    "pt-BR": "Um arco que abriga um sino dourado",
+    "ru": "Арка, к которой подвешен золотой колокол.",
+    "tr": "Altın çan asılı bir kemer.",
+    "zh-CN": "用木架支撑的金钟",
+    "zh-TW": "用木架支撐的金鐘"
+  },
   "icon": "icons/structures/DECORATION_BELL_STATUE.png",
   "id": "DECORATION_BELL_STATUE",
+  "menu": null,
   "name": {
+    "ar": "حامل جرس ذهبي",
+    "de": "Goldglockenstatue",
+    "en": "Golden Bell Statue",
+    "es": "Estatua de campana de oro",
+    "fr": "Cloche dorée suspendue",
+    "fr-CA": "Cloche dorée suspendue",
+    "it": "Arco campanile",
+    "ja": "ベルスタンド",
+    "ko": "황금 종 조각상",
+    "nl": "Standbeeld met gouden klok",
+    "pt-BR": "Estátua de Sino Dourado",
+    "ru": "Арка с колоколом",
+    "tr": "Altın Çan Heykeli",
+    "zh-CN": "金钟立架",
+    "zh-TW": "金鐘立架"
+  },
+  "namePlain": {
     "ar": "حامل جرس ذهبي",
     "de": "Goldglockenstatue",
     "en": "Golden Bell Statue",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Armadillo",
   "name": {
+    "en": "Armadillo"
+  },
+  "namePlain": {
     "en": "Armadillo"
   },
   "unlock": "Dungeon5"

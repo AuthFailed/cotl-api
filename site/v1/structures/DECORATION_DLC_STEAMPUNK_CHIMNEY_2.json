@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "烧小火时用。",
     "zh-TW": "適合小巧的火。"
   },
+  "descriptionPlain": {
+    "ar": "لألسنة النيران القصيرة.",
+    "de": "Für kleine Feuer.",
+    "en": "For small fires.",
+    "es": "Para las llamas más tímidas.",
+    "fr": "Pour les petits feux.",
+    "fr-CA": "Pour les petits feux.",
+    "it": "Per piccoli fuochi.",
+    "ja": "小さな火元のための煙突",
+    "ko": "작은 불꽃을 위해.",
+    "nl": "Voor kleine vuren.",
+    "pt-BR": "Para pequenos foguinhos.",
+    "ru": "Часть маленького камина.",
+    "tr": "Minik ateşler için.",
+    "zh-CN": "烧小火时用。",
+    "zh-TW": "適合小巧的火。"
+  },
   "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_CHIMNEY_2.png",
   "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "المدخنة القصيرة",
+    "de": "Kleiner Schornstein",
+    "en": "Small Chimney",
+    "es": "Chimenea baja",
+    "fr": "Petite cheminée",
+    "fr-CA": "Petite cheminée",
+    "it": "Piccolo camino",
+    "ja": "煙突（小）",
+    "ko": "낮은 굴뚝",
+    "nl": "Kleine schoorsteen",
+    "pt-BR": "Chaminé Pequena",
+    "ru": "Маленький дымоход",
+    "tr": "Minik Şömine",
+    "zh-CN": "小型烟囱",
+    "zh-TW": "小煙囪"
+  },
+  "namePlain": {
     "ar": "المدخنة القصيرة",
     "de": "Kleiner Schornstein",
     "en": "Small Chimney",

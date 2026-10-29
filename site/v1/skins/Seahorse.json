@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Seahorse",
   "name": {
+    "en": "Seahorse"
+  },
+  "namePlain": {
     "en": "Seahorse"
   },
   "unlock": "Dungeon3"

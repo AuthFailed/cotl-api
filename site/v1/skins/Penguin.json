@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Penguin",
   "name": {
+    "en": "Penguin"
+  },
+  "namePlain": {
     "en": "Penguin"
   },
   "unlock": "DLC"

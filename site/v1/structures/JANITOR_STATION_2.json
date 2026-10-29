@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "让教徒自行清理脏乱的建筑。教徒还会清洁户外厕所。",
     "zh-TW": "讓教徒自行清理髒亂的建築。教徒還會清潔戶外廁所。"
   },
+  "descriptionPlain": {
+    "ar": "مبنى يتيح للأتباع تنظيف مخلفاتهم. سينظف الأتباع المراحيض أيضًا.",
+    "de": "Ein Gebäude, das Anhängern die Möglichkeit gibt, sich um ihren Dreck zu kümmern. Anhänger reinigen auch Toilettenhäuschen.",
+    "en": "A building that allows Followers to clean up their own mess. Followers will also clean outhouses.",
+    "es": "Un edificio que les permite a tus adeptos limpiar sus propios desastres, así como las letrinas.",
+    "fr": "Permet aux adeptes de nettoyer leurs propres déchets. Ils laveront également les toilettes.",
+    "fr-CA": "Permet aux adeptes de nettoyer eux-mêmes leurs immondices. Ils laveront aussi les toilettes.",
+    "it": "Permette ai membri del Culto di ripulire i propri disastri e le latrine.",
+    "ja": "信者が汚れを自分でキレイにするための道具が入った施設。野外便所も掃除するようになる",
+    "ko": "추종자들이 쓰레기를 치울 수 있게 해주는 건물입니다. 추종자들이 화장실도 청소합니다.",
+    "nl": "Met dit gebouw kunnen volgelingen hun eigen viezigheid opruimen. Volgelingen maken ook plees schoon.",
+    "pt-BR": "Uma construção que permite que os Seguidores limpem suas bagunças. Os Seguidores também limparão os Banheiros Externos.",
+    "ru": "Место, где хранятся хозяйственные инструменты, с помощью которых последователи могут убирать за собой, а также чистить туалеты.",
+    "tr": "Takipçilerin kendi pisliğini temizlemesini sağlayan bir yapı. Takipçiler ayrıca tuvaletleri de temizler.",
+    "zh-CN": "让教徒自行清理脏乱的建筑。教徒还会清洁户外厕所。",
+    "zh-TW": "讓教徒自行清理髒亂的建築。教徒還會清潔戶外廁所。"
+  },
   "icon": "icons/structures/JANITOR_STATION_2.png",
   "id": "JANITOR_STATION_2",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "مقر النظافة II",
+    "de": "Reinigungsposten II",
+    "en": "Janitor Station II",
+    "es": "Estación de limpieza II",
+    "fr": "Poste de nettoyage II",
+    "fr-CA": "Poste de nettoyage II",
+    "it": "Casetta delle pulizie II",
+    "ja": "清掃用具庫 II",
+    "ko": "관리소 II",
+    "nl": "Schoonmaakstation II",
+    "pt-BR": "Estação de Limpeza II",
+    "ru": "Чулан II",
+    "tr": "Temizlikçi Kulübesi II",
+    "zh-CN": "清洁员站 II",
+    "zh-TW": "清潔員站 II"
+  },
+  "namePlain": {
     "ar": "مقر النظافة II",
     "de": "Reinigungsposten II",
     "en": "Janitor Station II",

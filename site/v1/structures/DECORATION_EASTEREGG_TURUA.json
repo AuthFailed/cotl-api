@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "保存完好的奇怪东西。",
     "zh-TW": "奇怪的東西，保存得十分良好。"
   },
+  "descriptionPlain": {
+    "ar": "كائن غريب محفوظ في حالة ممتازة.",
+    "de": "Ein seltsames Ding, perfekt erhalten.",
+    "en": "A strange thing, perfectly preserved.",
+    "es": "Una criatura de lo más inusual que ha sido preservada.",
+    "fr": "Étrange, mais très bien conservé.",
+    "fr-CA": "Étrange, mais très bien conservé.",
+    "it": "Una strana creatura, perfettamente preservata.",
+    "ja": "完璧な保存状態の、不思議な何か",
+    "ko": "완벽하게 보존된 낯선 존재.",
+    "nl": "Een vreemd ding dat perfect bewaard is gebleven.",
+    "pt-BR": "Uma coisa estranha e perfeitamente preservada.",
+    "ru": "Диковинное создание, сохранённое в своём первозданном виде.",
+    "tr": "Kusursuz bir şekilde muhafaza edilmiş, acayip bir nesne.",
+    "zh-CN": "保存完好的奇怪东西。",
+    "zh-TW": "奇怪的東西，保存得十分良好。"
+  },
   "icon": "icons/structures/DECORATION_EASTEREGG_TURUA.png",
   "id": "DECORATION_EASTEREGG_TURUA",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "عينة توروا",
+    "de": "Turura-Exemplar",
+    "en": "Specimen of Turua",
+    "es": "Espécimen de Turua",
+    "fr": "Spécimen de Turua",
+    "fr-CA": "Spécimen de Turua",
+    "it": "Esemplare di Turua",
+    "ja": "トゥルアの標本",
+    "ko": "투루아의 표본",
+    "nl": "Specimen van Turua",
+    "pt-BR": "Espécime de Turua",
+    "ru": "Отпрыск Туруа",
+    "tr": "Turua Numunesi",
+    "zh-CN": "图卢阿标本",
+    "zh-TW": "圖盧阿標本"
+  },
+  "namePlain": {
     "ar": "عينة توروا",
     "de": "Turura-Exemplar",
     "en": "Specimen of Turua",

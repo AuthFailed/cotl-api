@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "永远立在那里，见证你的圣教之美。",
     "zh-TW": "持續見證你的美麗教會。"
   },
+  "descriptionPlain": {
+    "ar": "شاهد دائم على جمال طائفتك.",
+    "de": "Ein ständiger Zeuge der Schönheit deines Kultes.",
+    "en": "A constant witness to the beauty of your Cult.",
+    "es": "Testigo eterno de la belleza de tu secta.",
+    "fr": "Un témoin de la beauté de votre culte.",
+    "fr-CA": "Un témoin de la beauté de votre secte.",
+    "it": "Un assiduo testimone della bellezza del Culto.",
+    "ja": "教団の美しさに見惚れているのだろうか",
+    "ko": "우리 교단의 아름다움을 쉼없이 지켜봅니다.",
+    "nl": "Een constante aanschouwer van je beeldschone sekte.",
+    "pt-BR": "Uma testemunha constante da beleza do seu Culto.",
+    "ru": "Вечный свидетель процветания вашего поселения.",
+    "tr": "Tarikat'ının güzelliği karşısında ağzı hep açık.",
+    "zh-CN": "永远立在那里，见证你的圣教之美。",
+    "zh-TW": "持續見證你的美麗教會。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_PILLAR2.png",
   "id": "DECORATION_DLC_ROT_PILLAR2",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "العمود المحدِّق",
+    "de": "Glotzender Pfahl",
+    "en": "Gawking Post",
+    "es": "Poste boquiabierto",
+    "fr": "Poste d'émerveillement",
+    "fr-CA": "Poste d'émerveillement",
+    "it": "Tronco spione",
+    "ja": "凝視の樹木",
+    "ko": "응시하는 푯대",
+    "nl": "Gapende paal",
+    "pt-BR": "Poste Esbugalhado",
+    "ru": "Глазеющий столб",
+    "tr": "Aval Direk",
+    "zh-CN": "瞪眼柱",
+    "zh-TW": "呆視木樁"
+  },
+  "namePlain": {
     "ar": "العمود المحدِّق",
     "de": "Glotzender Pfahl",
     "en": "Gawking Post",

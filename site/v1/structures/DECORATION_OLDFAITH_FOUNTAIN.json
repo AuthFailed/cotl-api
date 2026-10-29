@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -30,9 +32,44 @@
     "zh-CN": "汩汩涌动的混乱之泉",
     "zh-TW": "汩汩湧動的混亂之泉"
   },
+  "descriptionPlain": {
+    "ar": "ينبوع من الفوضى المتدفقة.",
+    "de": "Eine plätschernder Born der Zerrüttung.",
+    "en": "A burbling spring of entropy.",
+    "es": "Un manantial burbujeante de entropía.",
+    "fr": "Source bouillonnante d'entropie.",
+    "fr-CA": "Source gargouillant d'entropie.",
+    "it": "Una sorgente gorgogliante di entropia.",
+    "ja": "エントロピーが流れだす噴水",
+    "ko": "엔트로피가 솟아나는 샘입니다.",
+    "nl": "Een kabbelende bron vol wanorde.",
+    "pt-BR": "Um chafariz borbulhante de entropia.",
+    "ru": "Бурлящий источник энтропии.",
+    "tr": "Kederle akan bir çeşme.",
+    "zh-CN": "汩汩涌动的混乱之泉",
+    "zh-TW": "汩汩湧動的混亂之泉"
+  },
   "icon": "icons/structures/DECORATION_OLDFAITH_FOUNTAIN.png",
   "id": "DECORATION_OLDFAITH_FOUNTAIN",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "نافورة الدمار",
+    "de": "Quelle der Trostlosigkeit",
+    "en": "Fount of Desolation",
+    "es": "Fuente de la desolación",
+    "fr": "Fontaine de la désolation",
+    "fr-CA": "Fontaine de la désolation",
+    "it": "Fonte di desolazione",
+    "ja": "荒廃の噴水",
+    "ko": "적막의 샘",
+    "nl": "Bron van verlatenheid",
+    "pt-BR": "Fonte da Desolação",
+    "ru": "Фонтан опустошения",
+    "tr": "Kasvet Çeşmesi",
+    "zh-CN": "荒废之泉",
+    "zh-TW": "荒廢之泉"
+  },
+  "namePlain": {
     "ar": "نافورة الدمار",
     "de": "Quelle der Trostlosigkeit",
     "en": "Fount of Desolation",

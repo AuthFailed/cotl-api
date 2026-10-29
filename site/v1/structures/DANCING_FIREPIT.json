@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "<color=#FD1D03>教徒</color>会在月光之下来此跳舞，提升对你的<color=#FD1D03>忠诚度</color>",
     "zh-TW": "<color=#FD1D03>教徒</color>會在月光之下來此跳舞，提升對你的<color=#FD1D03>忠誠度</color>"
   },
+  "descriptionPlain": {
+    "ar": "سيرقص أتباعك هنا تحت ضوء القمر لزيادة إخلاصهم لك.",
+    "de": "Deine Anhänger werden hier im Mondlicht tanzen, was ihre Loyalität dir gegenüber erhöht.",
+    "en": "Your Followers will dance here beneath the moonlight to increase their Loyalty to you.",
+    "es": "Tus adeptos bailarán a la luz de la luna para aumentar su lealtad hacia ti.",
+    "fr": "Permet à vos adeptes de danser sous la lune en votre honneur. Augmente leur fidélité.",
+    "fr-CA": "Permet à vos adeptes de danser sous la lune en votre honneur. Accroît leur fidélité.",
+    "it": "I membri del Culto danzeranno al chiaro di luna per aumentare la loro Fedeltà nei tuoi confronti.",
+    "ja": "月の光が降り注ぐ中、信者たちが心を1つにして踊ることで教祖への忠誠心が高まる",
+    "ko": "당신의 추종자들이 달빛 아래 이곳에서 춤추며 당신에 대한 충성심을 고취시킬 것입니다.",
+    "nl": "Je volgelingen dansen hier onder het maanlicht voor meer loyaliteit aan jou.",
+    "pt-BR": "Seus Seguidores dançarão aqui sob o luar para aumentar a Lealdade deles a você.",
+    "ru": "Место, где могут плясать по ночам ваши последователи, повышая своё доверие к вам.",
+    "tr": "Takipçilerin ay ışığının altında dans ederek Bağlılık seviyelerini artırmasını sağlar.",
+    "zh-CN": "教徒会在月光之下来此跳舞，提升对你的忠诚度",
+    "zh-TW": "教徒會在月光之下來此跳舞，提升對你的忠誠度"
+  },
   "icon": null,
   "id": "DANCING_FIREPIT",
+  "menu": null,
   "name": {
+    "ar": "موقد النار",
+    "de": "Feuergrube",
+    "en": "Fire Pit",
+    "es": "Fogata",
+    "fr": "Feu de joie",
+    "fr-CA": "Feu de joie",
+    "it": "Pira",
+    "ja": "大篝火",
+    "ko": "요리용 화덕",
+    "nl": "Vuurplaats",
+    "pt-BR": "Fogueira",
+    "ru": "Огненная яма",
+    "tr": "Ateş Çukuru",
+    "zh-CN": "火堆",
+    "zh-TW": "火堆"
+  },
+  "namePlain": {
     "ar": "موقد النار",
     "de": "Feuergrube",
     "en": "Fire Pit",

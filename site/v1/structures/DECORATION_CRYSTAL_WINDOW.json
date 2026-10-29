@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "CRYSTAL",
@@ -22,9 +24,44 @@
     "zh-CN": "装有彩绘玻璃的拱形窗",
     "zh-TW": "裝有彩繪玻璃的拱形窗"
   },
+  "descriptionPlain": {
+    "ar": "نافذة مقوسة من الزجاج المعشق.",
+    "de": "Ein gewölbtes Fenster aus Buntglas.",
+    "en": "An arched window of stained glass.",
+    "es": "Una ventana arqueada con vidriera.",
+    "fr": "Une fenêtre de vitraux cristallins.",
+    "fr-CA": "Une fenêtre de vitraux cristallins.",
+    "it": "Una vetrata colorata arcuata.",
+    "ja": "ステンドグラスがはめ込まれた窓",
+    "ko": "스테인드 글라스로 된 아치형 창문입니다.",
+    "nl": "Een boograam met glas in lood.",
+    "pt-BR": "Uma janela arqueada com um vitral",
+    "ru": "Арочное окно с витражным стеклом.",
+    "tr": "Vitrayla süslenmiş, kemerli bir pencere.",
+    "zh-CN": "装有彩绘玻璃的拱形窗",
+    "zh-TW": "裝有彩繪玻璃的拱形窗"
+  },
   "icon": "icons/structures/DECORATION_CRYSTAL_WINDOW.png",
   "id": "DECORATION_CRYSTAL_WINDOW",
+  "menu": "Aesthetic/Crystal",
   "name": {
+    "ar": "نافذة بلورية",
+    "de": "Kristallfenster",
+    "en": "Crystal Window",
+    "es": "Ventana de cristal",
+    "fr": "Fenêtre de cristal",
+    "fr-CA": "Fenêtre de cristal",
+    "it": "Vetrata",
+    "ja": "クリスタルウィンドウ",
+    "ko": "수정 창문",
+    "nl": "Kristalraam",
+    "pt-BR": "Janela de Cristal",
+    "ru": "Кристальное окно",
+    "tr": "Kristal Pencere",
+    "zh-CN": "水晶窗",
+    "zh-TW": "水晶窗"
+  },
+  "namePlain": {
     "ar": "نافذة بلورية",
     "de": "Kristallfenster",
     "en": "Crystal Window",

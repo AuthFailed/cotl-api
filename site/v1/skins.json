@@ -1,1670 +1,2338 @@
 [
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Anglerfish",
     "name": {
       "en": "Anglerfish"
     },
+    "namePlain": {
+      "en": "Anglerfish"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Anteater",
     "name": {
       "en": "Anteater"
     },
+    "namePlain": {
+      "en": "Anteater"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Armadillo",
     "name": {
       "en": "Armadillo"
     },
+    "namePlain": {
+      "en": "Armadillo"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Axolotl",
     "name": {
       "en": "Axolotl"
     },
+    "namePlain": {
+      "en": "Axolotl"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Badger",
     "name": {
       "en": "Badger"
     },
+    "namePlain": {
+      "en": "Badger"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Bat",
     "name": {
       "en": "Bat"
     },
+    "namePlain": {
+      "en": "Bat"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "BatDemon",
     "name": {
       "en": "BatDemon"
     },
+    "namePlain": {
+      "en": "BatDemon"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Bear",
     "name": {
       "en": "Bear"
     },
+    "namePlain": {
+      "en": "Bear"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Beaver",
     "name": {
       "en": "Apple_4"
     },
+    "namePlain": {
+      "en": "Apple_4"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Bee",
     "name": {
       "en": "Bee"
     },
+    "namePlain": {
+      "en": "Bee"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Beetle",
     "name": {
       "en": "Beetle"
     },
+    "namePlain": {
+      "en": "Beetle"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Beluga",
     "name": {
       "en": "Beluga"
     },
+    "namePlain": {
+      "en": "Beluga"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Bison",
     "name": {
       "en": "Bison"
     },
+    "namePlain": {
+      "en": "Bison"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_1",
     "name": {
       "en": "Boss Beholder 1"
     },
+    "namePlain": {
+      "en": "Boss Beholder 1"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_2",
     "name": {
       "en": "Boss Beholder 2"
     },
+    "namePlain": {
+      "en": "Boss Beholder 2"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_3",
     "name": {
       "en": "Boss Beholder 3"
     },
+    "namePlain": {
+      "en": "Boss Beholder 3"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_4",
     "name": {
       "en": "Boss Beholder 4"
     },
+    "namePlain": {
+      "en": "Boss Beholder 4"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_5",
     "name": {
       "en": "Beholder 5"
     },
+    "namePlain": {
+      "en": "Beholder 5"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Beholder_6",
     "name": {
       "en": "Beholder 6"
     },
+    "namePlain": {
+      "en": "Beholder 6"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Burrow_Worm",
     "name": {
       "en": "Boss Burrow Worm"
     },
+    "namePlain": {
+      "en": "Boss Burrow Worm"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Charger",
     "name": {
       "en": "Boss Charger"
     },
+    "namePlain": {
+      "en": "Boss Charger"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_1",
     "name": {
       "en": "Boss Dog 1"
     },
+    "namePlain": {
+      "en": "Boss Dog 1"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_2",
     "name": {
       "en": "Boss Dog 2"
     },
+    "namePlain": {
+      "en": "Boss Dog 2"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_3",
     "name": {
       "en": "Boss Dog 3"
     },
+    "namePlain": {
+      "en": "Boss Dog 3"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_4",
     "name": {
       "en": "Boss Dog 4"
     },
+    "namePlain": {
+      "en": "Boss Dog 4"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_5",
     "name": {
       "en": "Boss Dog 5"
     },
+    "namePlain": {
+      "en": "Boss Dog 5"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Dog_6",
     "name": {
       "en": "Boss Dog 6"
     },
+    "namePlain": {
+      "en": "Boss Dog 6"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Egg_Hopper",
     "name": {
       "en": "Boss Egg Hopper"
     },
+    "namePlain": {
+      "en": "Boss Egg Hopper"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Flying_Burp_Frog",
     "name": {
       "en": "Boss Flying Burp Frog"
     },
+    "namePlain": {
+      "en": "Boss Flying Burp Frog"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Mama_Maggot",
     "name": {
       "en": "Boss Mama Maggot"
     },
+    "namePlain": {
+      "en": "Boss Mama Maggot"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Mama_Worm",
     "name": {
       "en": "Boss Mama Worm"
     },
+    "namePlain": {
+      "en": "Boss Mama Worm"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Millipede_Poisoner",
     "name": {
       "en": "Boss Millipede Poisoner"
     },
+    "namePlain": {
+      "en": "Boss Millipede Poisoner"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Mortar_Hopper",
     "name": {
       "en": "Boss Mortar Hopper"
     },
+    "namePlain": {
+      "en": "Boss Mortar Hopper"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Rot_1",
     "name": {
       "en": "Boss Rot 1"
     },
+    "namePlain": {
+      "en": "Boss Rot 1"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Rot_2",
     "name": {
       "en": "Boss Rot 2"
     },
+    "namePlain": {
+      "en": "Boss Rot 2"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Rot_3",
     "name": {
       "en": "Boss Rot 3"
     },
+    "namePlain": {
+      "en": "Boss Rot 3"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Rot_4",
     "name": {
       "en": "Boss Rot 4"
     },
+    "namePlain": {
+      "en": "Boss Rot 4"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Scorpion",
     "name": {
       "en": "Boss Scorpion"
     },
+    "namePlain": {
+      "en": "Boss Scorpion"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Scuttle_Turret",
     "name": {
       "en": "Boss Scuttle Turret"
     },
+    "namePlain": {
+      "en": "Boss Scuttle Turret"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Spider_Jump",
     "name": {
       "en": "Boss Spider Jump"
     },
+    "namePlain": {
+      "en": "Boss Spider Jump"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Boss_Spiker",
     "name": {
       "en": "Boss Spiker"
     },
+    "namePlain": {
+      "en": "Boss Spiker"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Bug",
     "name": {
       "en": "Bug"
     },
+    "namePlain": {
+      "en": "Bug"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "BugFive",
     "name": {
       "en": "BugFive"
     },
+    "namePlain": {
+      "en": "BugFive"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "BugFour",
     "name": {
       "en": "BugFour"
     },
+    "namePlain": {
+      "en": "BugFour"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "BugThree",
     "name": {
       "en": "BugThree"
     },
+    "namePlain": {
+      "en": "BugThree"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "BugTwo",
     "name": {
       "en": "BugTwo"
     },
+    "namePlain": {
+      "en": "BugTwo"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Butterfly",
     "name": {
       "en": "Butterfly"
     },
+    "namePlain": {
+      "en": "Butterfly"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Camel",
     "name": {
       "en": "Camel"
     },
+    "namePlain": {
+      "en": "Camel"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Capybara",
     "name": {
       "en": "Capybara"
     },
+    "namePlain": {
+      "en": "Capybara"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Cat",
     "name": {
       "en": "Cat"
     },
+    "namePlain": {
+      "en": "Cat"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Caterpillar",
     "name": {
       "en": "Caterpillar"
     },
+    "namePlain": {
+      "en": "Caterpillar"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Chameleon",
     "name": {
       "en": "Chameleon"
     },
+    "namePlain": {
+      "en": "Chameleon"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Chicken",
     "name": {
       "en": "Chicken"
     },
+    "namePlain": {
+      "en": "Chicken"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "ChosenChild",
     "name": {
       "en": "ChosenChild"
     },
+    "namePlain": {
+      "en": "ChosenChild"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Cow",
     "name": {
       "en": "Cow"
     },
+    "namePlain": {
+      "en": "Cow"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Crab",
     "name": {
       "en": "Crab"
     },
+    "namePlain": {
+      "en": "Crab"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Crocodile",
     "name": {
       "en": "Crocodile"
     },
+    "namePlain": {
+      "en": "Crocodile"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Crow",
     "name": {
       "en": "Crow"
     },
+    "namePlain": {
+      "en": "Crow"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Cthulhu",
     "name": {
       "en": "Cthulhu"
     },
+    "namePlain": {
+      "en": "Cthulhu"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Deer",
     "name": {
       "en": "Deer"
     },
+    "namePlain": {
+      "en": "Deer"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "DeerSkull",
     "name": {
       "en": "DeerSkull"
     },
+    "namePlain": {
+      "en": "DeerSkull"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Deer_ritual",
     "name": {
       "en": "DeerRitual"
     },
+    "namePlain": {
+      "en": "DeerRitual"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Dog",
     "name": {
       "en": "Dog"
     },
+    "namePlain": {
+      "en": "Dog"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "DogTeddy",
     "name": {
       "en": "DogTeddy"
     },
+    "namePlain": {
+      "en": "DogTeddy"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Dragon",
     "name": {
       "en": "Dragon"
     },
+    "namePlain": {
+      "en": "Dragon"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "DragonFive",
     "name": {
       "en": "DragonFive"
     },
+    "namePlain": {
+      "en": "DragonFive"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "DragonFour",
     "name": {
       "en": "DragonFour"
     },
+    "namePlain": {
+      "en": "DragonFour"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "DragonThree",
     "name": {
       "en": "DragonThree"
     },
+    "namePlain": {
+      "en": "DragonThree"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "DragonTwo",
     "name": {
       "en": "DragonTwo"
     },
+    "namePlain": {
+      "en": "DragonTwo"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Duck",
     "name": {
       "en": "Duck"
     },
+    "namePlain": {
+      "en": "Duck"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Eagle",
     "name": {
       "en": "Eagle"
     },
+    "namePlain": {
+      "en": "Eagle"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Elephant",
     "name": {
       "en": "Elephant"
     },
+    "namePlain": {
+      "en": "Elephant"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Enchida",
     "name": {
       "en": "Enchida"
     },
+    "namePlain": {
+      "en": "Enchida"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Fennec_Fox",
     "name": {
       "en": "Fennec Fox"
     },
+    "namePlain": {
+      "en": "Fennec Fox"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Fish",
     "name": {
       "en": "Fish"
     },
+    "namePlain": {
+      "en": "Fish"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Fly",
     "name": {
       "en": "Fly"
     },
+    "namePlain": {
+      "en": "Fly"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Fox",
     "name": {
       "en": "Fox"
     },
+    "namePlain": {
+      "en": "Fox"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Frog",
     "name": {
       "en": "Frog"
     },
+    "namePlain": {
+      "en": "Frog"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Giraffe",
     "name": {
       "en": "Giraffe"
     },
+    "namePlain": {
+      "en": "Giraffe"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Goldfish",
     "name": {
       "en": "Goldfish"
     },
+    "namePlain": {
+      "en": "Goldfish"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Gorilla",
     "name": {
       "en": "Gorilla"
     },
+    "namePlain": {
+      "en": "Gorilla"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Hammerhead",
     "name": {
       "en": "Hammerhead"
     },
+    "namePlain": {
+      "en": "Hammerhead"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Hedgehog",
     "name": {
       "en": "Hedgehog"
     },
+    "namePlain": {
+      "en": "Hedgehog"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Hippo",
     "name": {
       "en": "Hippo"
     },
+    "namePlain": {
+      "en": "Hippo"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Horse",
     "name": {
       "en": "Horse"
     },
+    "namePlain": {
+      "en": "Horse"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Hyena",
     "name": {
       "en": "Hyena"
     },
+    "namePlain": {
+      "en": "Hyena"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Ibex",
     "name": {
       "en": "Ibex"
     },
+    "namePlain": {
+      "en": "Ibex"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "IceGore",
     "name": {
       "en": "IceGore"
     },
+    "namePlain": {
+      "en": "IceGore"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Jackalope",
     "name": {
       "en": "Jackalope"
     },
+    "namePlain": {
+      "en": "Jackalope"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Jellyfish",
     "name": {
       "en": "JellyFish"
     },
+    "namePlain": {
+      "en": "JellyFish"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Kiwi",
     "name": {
       "en": "Kiwi"
     },
+    "namePlain": {
+      "en": "Kiwi"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Koala",
     "name": {
       "en": "Koala"
     },
+    "namePlain": {
+      "en": "Koala"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "LadyBug",
     "name": {
       "en": "LadyBug"
     },
+    "namePlain": {
+      "en": "LadyBug"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Lamb",
     "name": {
       "en": "Lamb"
     },
+    "namePlain": {
+      "en": "Lamb"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Leech",
     "name": {
       "en": "Leech"
     },
+    "namePlain": {
+      "en": "Leech"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Lemur",
     "name": {
       "en": "Lemur"
     },
+    "namePlain": {
+      "en": "Lemur"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Leopard",
     "name": {
       "en": "Leopard"
     },
+    "namePlain": {
+      "en": "Leopard"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Lion",
     "name": {
       "en": "Lion"
     },
+    "namePlain": {
+      "en": "Lion"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Lizard",
     "name": {
       "en": "Lizard"
     },
+    "namePlain": {
+      "en": "Lizard"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "LizardTongue",
     "name": {
       "en": "LizardTongue"
     },
+    "namePlain": {
+      "en": "LizardTongue"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Llama",
     "name": {
       "en": "Llama"
     },
+    "namePlain": {
+      "en": "Llama"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Lobster",
     "name": {
       "en": "Apple_5"
     },
+    "namePlain": {
+      "en": "Apple_5"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Maggot",
     "name": {
       "en": "Maggot"
     },
+    "namePlain": {
+      "en": "Maggot"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Mammoth",
     "name": {
       "en": "Mammoth"
     },
+    "namePlain": {
+      "en": "Mammoth"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "MassiveMonster",
     "name": {
       "en": "Massive Monster"
     },
+    "namePlain": {
+      "en": "Massive Monster"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Mole",
     "name": {
       "en": "Mole"
     },
+    "namePlain": {
+      "en": "Mole"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Monkey",
     "name": {
       "en": "Monkey"
     },
+    "namePlain": {
+      "en": "Monkey"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Moose",
     "name": {
       "en": "Moose"
     },
+    "namePlain": {
+      "en": "Moose"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Mosquito",
     "name": {
       "en": "Mosquito"
     },
+    "namePlain": {
+      "en": "Mosquito"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Moth",
     "name": {
       "en": "Moth"
     },
+    "namePlain": {
+      "en": "Moth"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Mushroom",
     "name": {
       "en": "Mushroom"
     },
+    "namePlain": {
+      "en": "Mushroom"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "NakedMoleRat",
     "name": {
       "en": "MoleRat"
     },
+    "namePlain": {
+      "en": "MoleRat"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Narwal",
     "name": {
       "en": "Narwal"
     },
+    "namePlain": {
+      "en": "Narwal"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Nightwolf",
     "name": {
       "en": "Night Wolf"
     },
+    "namePlain": {
+      "en": "Night Wolf"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Orangutan",
     "name": {
       "en": "Apple_1"
     },
+    "namePlain": {
+      "en": "Apple_1"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Orca",
     "name": {
       "en": "Orca"
     },
+    "namePlain": {
+      "en": "Orca"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Otter",
     "name": {
       "en": "Otter"
     },
+    "namePlain": {
+      "en": "Otter"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Owl",
     "name": {
       "en": "Owl"
     },
+    "namePlain": {
+      "en": "Owl"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "PalworldFive",
     "name": {
       "en": "PalworldFive"
     },
+    "namePlain": {
+      "en": "PalworldFive"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "PalworldFour",
     "name": {
       "en": "PalworldFour"
     },
+    "namePlain": {
+      "en": "PalworldFour"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "PalworldOne",
     "name": {
       "en": "PalworldOne"
     },
+    "namePlain": {
+      "en": "PalworldOne"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "PalworldThree",
     "name": {
       "en": "PalworldThree"
     },
+    "namePlain": {
+      "en": "PalworldThree"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "PalworldTwo",
     "name": {
       "en": "PalworldTwo"
     },
+    "namePlain": {
+      "en": "PalworldTwo"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Panda",
     "name": {
       "en": "Panda"
     },
+    "namePlain": {
+      "en": "Panda"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Pangolin",
     "name": {
       "en": "Pangolin"
     },
+    "namePlain": {
+      "en": "Pangolin"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Pelican",
     "name": {
       "en": "Pelican"
     },
+    "namePlain": {
+      "en": "Pelican"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Penguin",
     "name": {
       "en": "Penguin"
     },
+    "namePlain": {
+      "en": "Penguin"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Pig",
     "name": {
       "en": "Pig"
     },
+    "namePlain": {
+      "en": "Pig"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "PolarBear",
     "name": {
       "en": "Polar Bear"
     },
+    "namePlain": {
+      "en": "Polar Bear"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Poop",
     "name": {
       "en": "Poop"
     },
+    "namePlain": {
+      "en": "Poop"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Poppy",
     "name": {
       "en": "Poppy"
     },
+    "namePlain": {
+      "en": "Poppy"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Possum",
     "name": {
       "en": "Possum"
     },
+    "namePlain": {
+      "en": "Possum"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Pudding",
     "name": {
       "en": "Pudding"
     },
+    "namePlain": {
+      "en": "Pudding"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Rabbit",
     "name": {
       "en": "Rabbit"
     },
+    "namePlain": {
+      "en": "Rabbit"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Raccoon",
     "name": {
       "en": "Racoon"
     },
+    "namePlain": {
+      "en": "Racoon"
+    },
     "unlock": "Dungeon4"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Red_Panda",
     "name": {
       "en": "Red Panda"
     },
+    "namePlain": {
+      "en": "Red Panda"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Reindeer",
     "name": {
       "en": "Reindeer"
     },
+    "namePlain": {
+      "en": "Reindeer"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Rhino",
     "name": {
       "en": "Rhino"
     },
+    "namePlain": {
+      "en": "Rhino"
+    },
     "unlock": "Dungeon2"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Robin",
     "name": {
       "en": "Apple_2"
     },
+    "namePlain": {
+      "en": "Apple_2"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "SeaButterfly",
     "name": {
       "en": "SeaButterfly"
     },
+    "namePlain": {
+      "en": "SeaButterfly"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Seahorse",
     "name": {
       "en": "Seahorse"
     },
+    "namePlain": {
+      "en": "Seahorse"
+    },
     "unlock": "Dungeon3"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Seal",
     "name": {
       "en": "Seal"
     },
+    "namePlain": {
+      "en": "Seal"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Shrew",
     "name": {
       "en": "Shrew"
     },
+    "namePlain": {
+      "en": "Shrew"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Shrimp",
     "name": {
       "en": "Shrimp"
     },
+    "namePlain": {
+      "en": "Shrimp"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Skunk",
     "name": {
       "en": "Skunk"
     },
+    "namePlain": {
+      "en": "Skunk"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Snail",
     "name": {
       "en": "Snail"
     },
+    "namePlain": {
+      "en": "Snail"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Snake",
     "name": {
       "en": "Snake"
     },
+    "namePlain": {
+      "en": "Snake"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "SnowMonkey",
     "name": {
       "en": "SnowMonkey"
     },
+    "namePlain": {
+      "en": "SnowMonkey"
+    },
     "unlock": "Dungeon5"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Sphynx",
     "name": {
       "en": "Sphynx"
     },
+    "namePlain": {
+      "en": "Sphynx"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Squirrel",
     "name": {
       "en": "Squirrel"
     },
+    "namePlain": {
+      "en": "Squirrel"
+    },
     "unlock": "Dungeon1"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "StarBunny",
     "name": {
       "en": "StarBunny"
     },
+    "namePlain": {
+      "en": "StarBunny"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Starfish",
     "name": {
       "en": "Starfish"
     },
+    "namePlain": {
+      "en": "Starfish"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Tapir",
     "name": {
       "en": "Tapir"
     },
+    "namePlain": {
+      "en": "Tapir"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Tiger",
     "name": {
       "en": "Tiger"
     },
+    "namePlain": {
+      "en": "Tiger"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Trout",
     "name": {
       "en": "Apple_3"
     },
+    "namePlain": {
+      "en": "Apple_3"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Turtle",
     "name": {
       "en": "Turtle"
     },
+    "namePlain": {
+      "en": "Turtle"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "TwitchCat",
     "name": {
       "en": "TwitchCat"
     },
+    "namePlain": {
+      "en": "TwitchCat"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "TwitchDog",
     "name": {
       "en": "TwitchDog"
     },
+    "namePlain": {
+      "en": "TwitchDog"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "TwitchDogAlt",
     "name": {
       "en": "TwitchDogAlt"
     },
+    "namePlain": {
+      "en": "TwitchDogAlt"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "TwitchMouse",
     "name": {
       "en": "TwitchMouse"
     },
+    "namePlain": {
+      "en": "TwitchMouse"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "TwitchPoggers",
     "name": {
       "en": "TwitchPoggers"
     },
+    "namePlain": {
+      "en": "TwitchPoggers"
+    },
     "unlock": "DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Unicorn",
     "name": {
       "en": "Unicorn"
     },
+    "namePlain": {
+      "en": "Unicorn"
+    },
     "unlock": "Other"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Volvy",
     "name": {
       "en": "Volvy"
     },
+    "namePlain": {
+      "en": "Volvy"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Vulture",
     "name": {
       "en": "Vulture"
     },
+    "namePlain": {
+      "en": "Vulture"
+    },
     "unlock": "Dungeon6"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": true,
     "icon": null,
     "id": "Webber",
     "name": {
       "en": "Webber"
     },
+    "namePlain": {
+      "en": "Webber"
+    },
     "unlock": "SpecialEvents"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Wombat",
     "name": {
       "en": "Wombat"
     },
+    "namePlain": {
+      "en": "Wombat"
+    },
     "unlock": "Major_DLC"
   },
   {
     "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Worm",
     "name": {
+      "en": "Worm"
+    },
+    "namePlain": {
       "en": "Worm"
     },
     "unlock": "Other"

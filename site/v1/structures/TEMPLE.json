@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FAITH",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "建造圣殿以便布道和举行仪式",
     "zh-TW": "建造聖殿以便講道和舉行儀式"
   },
+  "descriptionPlain": {
+    "ar": "عليك بناء مجمع لإلقاء الخطب وأداء الطقوس.",
+    "de": "Erbaue einen Tempel, um Predigten abzuhalten und Rituale durchzuführen.",
+    "en": "Establish a Temple to preach Sermons and perform Rituals.",
+    "es": "Construye un templo para dar sermones y celebrar rituales.",
+    "fr": "Le cœur de votre culte. Permet de prononcer des sermons et de réaliser des rituels.",
+    "fr-CA": "Le cœur de votre secte. Permet de prononcer des sermons et de réaliser des rituels.",
+    "it": "Costruisci un tempio ove predicare sermoni e celebrare riti.",
+    "ja": "説教や儀式を行うための教会堂",
+    "ko": "설교와 의식을 수행하는 사원을 짓습니다.",
+    "nl": "Bouw een tempel om preken te geven en rituelen uit te voeren.",
+    "pt-BR": "Crie um Templo para pregar Sermões e realizar Rituais.",
+    "ru": "Здание, в котором можно читать проповеди и проводить ритуалы.",
+    "tr": "Vaaz vermek ve Ayin yapmak için bir Tapınak inşa et.",
+    "zh-CN": "建造圣殿以便布道和举行仪式",
+    "zh-TW": "建造聖殿以便講道和舉行儀式"
+  },
   "icon": "icons/structures/TEMPLE.png",
   "id": "TEMPLE",
+  "menu": "Faith/General",
   "name": {
+    "ar": "المجمع",
+    "de": "Tempel",
+    "en": "Temple",
+    "es": "Templo",
+    "fr": "Temple",
+    "fr-CA": "Temple",
+    "it": "Tempio",
+    "ja": "教会堂",
+    "ko": "사원",
+    "nl": "Tempel",
+    "pt-BR": "Templo",
+    "ru": "Храм",
+    "tr": "Tapınak",
+    "zh-CN": "圣殿",
+    "zh-TW": "聖殿"
+  },
+  "namePlain": {
     "ar": "المجمع",
     "de": "Tempel",
     "en": "Temple",

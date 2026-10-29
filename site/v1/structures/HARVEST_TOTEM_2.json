@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "增加范围之内<color=#FFD201>农地</color>的作物生长速度，同时缓慢提升虔诚度<sprite name=\"icon_spirits\">。",
     "zh-TW": "增加範圍之內<color=#FFD201>農地</color>的作物生長速度，同時緩慢產生虔誠值 <sprite name=\"icon_spirits\">。"
   },
+  "descriptionPlain": {
+    "ar": "يزيد سرعة نمو المزارع التي في محيطه بينما ينمو فيها الولاء ببطء.",
+    "de": "Erhöhe das Wachstumstempo von Ackerparzellen in Reichweite und erzeuge gleichzeitig mit der Zeit Hingabe.",
+    "en": "Increase the growth speed of Farm Plots within range, while slowly generating Devotion.",
+    "es": "Aumenta la velocidad de crecimiento de las parcelas que estén dentro del alcance y va generando devoción poco a poco.",
+    "fr": "Augmente la vitesse de croissance des parcelles agricoles à portée tout en générant une petite quantité de dévotion.",
+    "fr-CA": "Augmente la vitesse de croissance des parcelles agricoles à portée tout en générant une petite quantité de dévotion.",
+    "it": "Velocizza la crescita delle colture in tutti gli Appezzamenti nel raggio d'azione, generando lentamente Devozione.",
+    "ja": "範囲内にあるすべての農作地の成長速度が上昇する。加えてゆっくりと祈念 を生成する",
+    "ko": "범위 내의 밭 경작지의 성장 속도를 가속화하고, 천천히 헌신을 생성합니다.",
+    "nl": "Verhoogt de groeisnelheid van alle landbouwpercelen binnen bereik en genereert tegelijkertijd langzaam devotie.",
+    "pt-BR": "Aumente a velocidade de cultivo dos Terrenos Agrícolas dentro do alcance enquanto gera Devoção lentamente.",
+    "ru": "Предмет, ускоряющий созревание урожая на всех участках земли в радиусе действия и медленно накапливающий преданность.",
+    "tr": "Menzilinde bulunan tüm Tarlalardaki mahsullerin büyüme hızını artırır ve yavaş yavaş Sadakat oluşturur.",
+    "zh-CN": "增加范围之内农地的作物生长速度，同时缓慢提升虔诚度。",
+    "zh-TW": "增加範圍之內農地的作物生長速度，同時緩慢產生虔誠值 。"
+  },
   "icon": "icons/structures/HARVEST_TOTEM_2.png",
   "id": "HARVEST_TOTEM_2",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "طوطم حصاد الولاء",
+    "de": "Hingabe-Erntetotem",
+    "en": "Devotion Harvest Totem",
+    "es": "Tótem de la cosecha devoto",
+    "fr": "Totem de dévotion",
+    "fr-CA": "Totem de dévotion",
+    "it": "Totem del raccolto devoto",
+    "ja": "祈念豊作のトーテム",
+    "ko": "헌신 수확의 토템",
+    "nl": "Devotie-oogsttotem",
+    "pt-BR": "Totem da Colheita da Devoção",
+    "ru": "Тотем урожая и преданности",
+    "tr": "Sadakat Hasadı Totemi",
+    "zh-CN": "虔诚收获图腾",
+    "zh-TW": "虔誠收穫圖騰柱"
+  },
+  "namePlain": {
     "ar": "طوطم حصاد الولاء",
     "de": "Hingabe-Erntetotem",
     "en": "Devotion Harvest Totem",

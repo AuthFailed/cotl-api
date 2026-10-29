@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "这个雕塑品描绘着来自遥远土地的某种野兽……",
     "zh-TW": "這個雕塑品描繪著來自遙遠土地的某種野獸……"
   },
+  "descriptionPlain": {
+    "ar": "تمثال يصور وحشًا من أرض نائية...",
+    "de": "Eine Skulptur, die eine Bestie aus einem weit entfernten Land darstellt...",
+    "en": "A sculpture depicting a beast from a distant land...",
+    "es": "La escultura de una bestia de tierras lejanas...",
+    "fr": "Une sculpture représentant une bête originaire d'une contrée lointaine...",
+    "fr-CA": "Une sculpture représentant une bête originaire d'une contrée lointaine...",
+    "it": "Una scultura che raffigura la bestia di una terra lontana...",
+    "ja": "どこか遠い地のバケモノらしいが…",
+    "ko": "머나먼 땅의 야수를 묘사하는 조각입니다...",
+    "nl": "Een beeld van een beest uit een land hier ver vandaan...",
+    "pt-BR": "Uma escultura de uma fera de uma terra distante...",
+    "ru": "Изваяние зверя из далёких краёв.",
+    "tr": "Uzak diyarlardan gelen bir yaratığın heykeli.",
+    "zh-CN": "这个雕塑品描绘着来自遥远土地的某种野兽……",
+    "zh-TW": "這個雕塑品描繪著來自遙遠土地的某種野獸……"
+  },
   "icon": "icons/structures/DECORATION_DST_DEERCLOPS.png",
   "id": "DECORATION_DST_DEERCLOPS",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "تمثال ديركلوبس",
+    "de": "Deerclops-Figur",
+    "en": "Deerclops Figure",
+    "es": "Figura de ciervo cíclope",
+    "fr": "Sculpture de Deerclops",
+    "fr-CA": "Sculpture de Deerclops",
+    "it": "Statuetta di Cervociclope",
+    "ja": "ディアクロプスの像",
+    "ko": "외눈사슴 모형",
+    "nl": "Deerclops-beeld",
+    "pt-BR": "Estátua de Deerclops",
+    "ru": "Фигура Циклополеня",
+    "tr": "Deerclops Figürü",
+    "zh-CN": "独眼巨鹿",
+    "zh-TW": "獨眼巨鹿"
+  },
+  "namePlain": {
     "ar": "تمثال ديركلوبس",
     "de": "Deerclops-Figur",
     "en": "Deerclops Figure",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Hedgehog",
   "name": {
+    "en": "Hedgehog"
+  },
+  "namePlain": {
     "en": "Hedgehog"
   },
   "unlock": "Dungeon1"

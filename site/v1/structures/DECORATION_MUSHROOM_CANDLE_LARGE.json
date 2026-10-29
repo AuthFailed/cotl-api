@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "MUSHROOM_SMALL",
@@ -22,9 +24,44 @@
     "zh-CN": "摆满蜡烛的明亮菌类",
     "zh-TW": "擺滿蠟燭的明亮蕈菇"
   },
+  "descriptionPlain": {
+    "ar": "فطر لامع بداخله شمعة.",
+    "de": "Ein heller, mit Kerzen gefüllter Pilz.",
+    "en": "A bright, candle-filled fungus.",
+    "es": "Un hongo brillante lleno de velas.",
+    "fr": "Un champignon abritant une petite bougie.",
+    "fr-CA": "Un champignon abritant une petite bougie.",
+    "it": "Un fungo che alloggia una candela.",
+    "ja": "中にロウソクが飾られたキノコ",
+    "ko": "밝고, 초로 가득한 곰팡이입니다.",
+    "nl": "Een fungus vol kaarsen.",
+    "pt-BR": "Um fungo brilhante preenchido por velas",
+    "ru": "Гриб с ярко горящей свечой внутри.",
+    "tr": "İçinde mum olan, parlak bir mantar.",
+    "zh-CN": "摆满蜡烛的明亮菌类",
+    "zh-TW": "擺滿蠟燭的明亮蕈菇"
+  },
   "icon": "icons/structures/DECORATION_MUSHROOM_CANDLE_LARGE.png",
   "id": "DECORATION_MUSHROOM_CANDLE_LARGE",
+  "menu": null,
   "name": {
+    "ar": "مزار شمعة الفطر",
+    "de": "Pilzkerzenschrein",
+    "en": "Mushroom Candle Shrine",
+    "es": "Santuario de vela seta",
+    "fr": "Autel champignon",
+    "fr-CA": "Autel champignon",
+    "it": "Fungo con nicchia per candela",
+    "ja": "マッシュルーム・キャンドル",
+    "ko": "버섯 촛대 성지",
+    "nl": "Paddenstoelenaltaar met kaarsen",
+    "pt-BR": "Santuário do Castiçal de Cogumelo",
+    "ru": "Грибной алтарь со свечой",
+    "tr": "Mumlu Mantar Mabet",
+    "zh-CN": "蘑菇烛台圣坛",
+    "zh-TW": "蘑菇燭台聖壇"
+  },
+  "namePlain": {
     "ar": "مزار شمعة الفطر",
     "de": "Pilzkerzenschrein",
     "en": "Mushroom Candle Shrine",

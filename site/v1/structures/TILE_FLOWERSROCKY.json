@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "لاستحضار روح الطبيعة.",
@@ -17,9 +19,44 @@
     "zh-CN": "为你带来大自然",
     "zh-TW": "為你帶來大自然"
   },
+  "descriptionPlain": {
+    "ar": "لاستحضار روح الطبيعة.",
+    "de": "Hol die Natur zu dir.",
+    "en": "Bring nature to you.",
+    "es": "Imprégnate de naturaleza.",
+    "fr": "Pour être au plus près de la nature.",
+    "fr-CA": "Pour être au plus près de la nature.",
+    "it": "Porta la natura in casa.",
+    "ja": "自然に包まれたい人に",
+    "ko": "당신에게 자연을 가져다줍니다.",
+    "nl": "Breng de natuur naar je toe.",
+    "pt-BR": "Traga a floresta até você",
+    "ru": "Уголок природы.",
+    "tr": "Doğayı evine getir.",
+    "zh-CN": "为你带来大自然",
+    "zh-TW": "為你帶來大自然"
+  },
   "icon": "icons/structures/TILE_FLOWERSROCKY.png",
   "id": "TILE_FLOWERSROCKY",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية الغابة",
+    "de": "Waldboden",
+    "en": "Forest Flooring",
+    "es": "Suelo forestal",
+    "fr": "Sol de forêt",
+    "fr-CA": "Sol de forêt",
+    "it": "Pavimentazione a bosco",
+    "ja": "森の小道タイル",
+    "ko": "숲 바닥",
+    "nl": "Bosvloer",
+    "pt-BR": "Piso da Floresta",
+    "ru": "Лесной настил",
+    "tr": "Orman Döşemesi",
+    "zh-CN": "森林地板",
+    "zh-TW": "森林地板"
+  },
+  "namePlain": {
     "ar": "أرضية الغابة",
     "de": "Waldboden",
     "en": "Forest Flooring",

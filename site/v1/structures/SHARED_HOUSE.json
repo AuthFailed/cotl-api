@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "供多位教徒睡觉的地方，永远不会坍塌。",
     "zh-TW": "供多位教徒睡覺的地方，永遠不會顛塌"
   },
+  "descriptionPlain": {
+    "ar": "مكان مناسب لأن ينام فيه عدة أتباع. لا ينهار أبدًا.",
+    "de": "Ein Ort, an dem mehrere Anhänger schlafen können. Stürzt nie ein.",
+    "en": "A place for multiple Followers to sleep. Never collapses.",
+    "es": "Para que duerman varios adeptos. No se rompe nunca.",
+    "fr": "Permet à plusieurs adeptes de se reposer. Ne s'abîmera jamais.",
+    "fr-CA": "Permet à plusieurs adeptes de se reposer. Ne s'effondre jamais.",
+    "it": "Può accogliere più membri del Culto alla volta. Non si deteriora mai.",
+    "ja": "複数の信者が寝るための場所。決して壊れない",
+    "ko": "여러 명의 추종자들이 잠을 잘 수 있는 곳입니다. 절대 무너지지 않습니다.",
+    "nl": "Een onderkomen voor meerdere volgelingen. Stort nooit in.",
+    "pt-BR": "Um lugar onde vários Seguidores podem dormir. Nunca desaba.",
+    "ru": "Место для ночлега, где могут отдохнуть несколько последователей. Не разваливается.",
+    "tr": "Birden fazla Takipçi'nin içinde uyuyabileceği bir yer. Asla çökmez.",
+    "zh-CN": "供多位教徒睡觉的地方，永远不会坍塌。",
+    "zh-TW": "供多位教徒睡覺的地方，永遠不會顛塌"
+  },
   "icon": "icons/structures/SHARED_HOUSE.png",
   "id": "SHARED_HOUSE",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "مأوى مشترك",
+    "de": "Gemeinsame Unterkunft",
+    "en": "Shared Shelter",
+    "es": "Refugio compartido",
+    "fr": "Abri collectif",
+    "fr-CA": "Abri collectif",
+    "it": "Riparo condiviso",
+    "ja": "共用テント",
+    "ko": "공유 주거지",
+    "nl": "Gedeelde blokhut",
+    "pt-BR": "Abrigo Compartilhado",
+    "ru": "Общежитие",
+    "tr": "Ortak Çadır",
+    "zh-CN": "同住休息处",
+    "zh-TW": "同住休息處"
+  },
+  "namePlain": {
     "ar": "مأوى مشترك",
     "de": "Gemeinsame Unterkunft",
     "en": "Shared Shelter",

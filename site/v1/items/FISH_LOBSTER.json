@@ -17,6 +17,23 @@
     "zh-CN": "大大的螯。",
     "zh-TW": "大大的螯。"
   },
+  "descriptionPlain": {
+    "ar": "كماشة كبيرة.",
+    "de": "Ein großer Zwicker.",
+    "en": "A big nipper.",
+    "es": "Mira qué pedazo de tenazas.",
+    "fr": "Un crabe, en mieux.",
+    "fr-CA": "Un crabe, en mieux.",
+    "it": "La regina dei crostacei.",
+    "ja": "大きなハサミの持ち主",
+    "ko": "커다란 놈입니다.",
+    "nl": "Een groot bijtertje.",
+    "pt-BR": "Um grande pinçador.",
+    "ru": "Крупное ракообразное.",
+    "tr": "Mıncıran, büyük bir ufaklık.",
+    "zh-CN": "大大的螯。",
+    "zh-TW": "大大的螯。"
+  },
   "icon": "icons/items/FISH_LOBSTER.png",
   "id": "FISH_LOBSTER",
   "name": {
@@ -35,5 +52,27 @@
     "tr": "Istakoz",
     "zh-CN": "龙虾",
     "zh-TW": "龍蝦"
-  }
+  },
+  "namePlain": {
+    "ar": "جرادة بحر",
+    "de": "Hummer",
+    "en": "Lobster",
+    "es": "Langosta",
+    "fr": "Homard",
+    "fr-CA": "Homard",
+    "it": "Aragosta",
+    "ja": "ロブスター",
+    "ko": "랍스터",
+    "nl": "Kreeft",
+    "pt-BR": "Lagosta",
+    "ru": "Омар",
+    "tr": "Istakoz",
+    "zh-CN": "龙虾",
+    "zh-TW": "龍蝦"
+  },
+  "tags": [
+    "food",
+    "fish",
+    "big_fish"
+  ]
 }

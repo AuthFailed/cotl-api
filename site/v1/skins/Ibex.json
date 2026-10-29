@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Ibex",
   "name": {
+    "en": "Ibex"
+  },
+  "namePlain": {
     "en": "Ibex"
   },
   "unlock": "Dungeon5"

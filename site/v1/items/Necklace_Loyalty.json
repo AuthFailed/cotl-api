@@ -17,6 +17,23 @@
     "zh-CN": "教徒永远不会反教。",
     "zh-TW": "教徒永遠不會反教。"
   },
+  "descriptionPlain": {
+    "ar": "التابع لن يعارض أبدًا.",
+    "de": "Der Anhänger wird nie abtrünnig.",
+    "en": "Follower will never Dissent.",
+    "es": "El adepto no querrá disentir nunca.",
+    "fr": "L'adepte ne se rebellera jamais.",
+    "fr-CA": "L'adepte ne se rebellera jamais.",
+    "it": "Il membro del Culto non dissentirà mai.",
+    "ja": "信者が決して離反しなくなる",
+    "ko": "추종자가 절대 반목하지 않습니다.",
+    "nl": "Deze volgeling zal nooit afvallig worden.",
+    "pt-BR": "O Seguidor nunca se rebelará.",
+    "ru": "Украшение, помогающее последователю избегать инакомыслия.",
+    "tr": "Takipçi asla başkaldırmaz.",
+    "zh-CN": "教徒永远不会反教。",
+    "zh-TW": "教徒永遠不會反教。"
+  },
   "icon": "icons/items/Necklace_Loyalty.png",
   "id": "Necklace_Loyalty",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Bağlılık Kolyesi",
     "zh-CN": "忠诚项链",
     "zh-TW": "忠誠項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة الإخلاص",
+    "de": "Loyalitätshalskette",
+    "en": "Loyalty Necklace",
+    "es": "Collar de lealtad",
+    "fr": "Collier de fidélité",
+    "fr-CA": "Collier de fidélité",
+    "it": "Collana della fedeltà",
+    "ja": "忠誠のネックレス",
+    "ko": "충성심의 목걸이",
+    "nl": "Loyaliteitsketting",
+    "pt-BR": "Colar da Lealdade",
+    "ru": "Ожерелье доверия",
+    "tr": "Bağlılık Kolyesi",
+    "zh-CN": "忠诚项链",
+    "zh-TW": "忠誠項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

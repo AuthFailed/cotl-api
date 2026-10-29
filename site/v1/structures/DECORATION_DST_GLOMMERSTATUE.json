@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "有种令人反感的可爱感。",
     "zh-TW": "有種令人反感的可愛感。"
   },
+  "descriptionPlain": {
+    "ar": "إنه لطيف بطريقة مقززة.",
+    "de": "Sie ist niedlich, auf eine eklige Art und Weise.",
+    "en": "It's cute, in a gross kind of way.",
+    "es": "Monísimo y espeluznante a partes iguales.",
+    "fr": "Mignonne et dégoûtante à la fois.",
+    "fr-CA": "À la fois adorable et dégoûtante.",
+    "it": "È carino, in un modo quasi disgustoso.",
+    "ja": "かわいい、と同時に気味が悪い",
+    "ko": "징그럽게 귀엽습니다.",
+    "nl": "Het is schattig, een smerig soort schattig.",
+    "pt-BR": "É fofinha, mas de um jeito um tanto asqueroso.",
+    "ru": "Омерзительно милая.",
+    "tr": "Sevimli olduğu kadar iğrenç de.",
+    "zh-CN": "有种令人反感的可爱感。",
+    "zh-TW": "有種令人反感的可愛感。"
+  },
   "icon": "icons/structures/DECORATION_DST_GLOMMERSTATUE.png",
   "id": "DECORATION_DST_GLOMMERSTATUE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "تمثال غلومر",
+    "de": "Glommer-Statue",
+    "en": "Glommer Statue",
+    "es": "Estatua de Glommer",
+    "fr": "Statue de Glommer",
+    "fr-CA": "Statue de Glommer",
+    "it": "Statua di Glommer",
+    "ja": "グロマーの像",
+    "ko": "글로머 동상",
+    "nl": "Glommer-standbeeld",
+    "pt-BR": "Estátua do Gloomer",
+    "ru": "Статуя гломмера",
+    "tr": "Glommer Heykeli",
+    "zh-CN": "格罗姆雕像",
+    "zh-TW": "格羅姆雕像"
+  },
+  "namePlain": {
     "ar": "تمثال غلومر",
     "de": "Glommer-Statue",
     "en": "Glommer Statue",

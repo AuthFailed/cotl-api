@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "要解开这团线可不容易。",
     "zh-TW": "想解開它？祝你好運。"
   },
+  "descriptionPlain": {
+    "ar": "حظًا موفقًا في فك تشابكها.",
+    "de": "Viel Glück dabei, das wieder zu entwirren.",
+    "en": "Good luck getting that untangled.",
+    "es": "Puf, mucha suerte desenredando eso.",
+    "fr": "Bonne chance pour démêler tout ça.",
+    "fr-CA": "Bonne chance pour démêler tout ça.",
+    "it": "Buona fortuna a sbrogliarli...",
+    "ja": "複雑に絡まっている。解くには骨が折れそうだ",
+    "ko": "이걸 풀어야 한다고요? 행운을 빕니다.",
+    "nl": "Die krijg je niet meer uit elkaar.",
+    "pt-BR": "Boa sorte para desemaranhar.",
+    "ru": "Моток, который уже не распутать.",
+    "tr": "Çözülmesi biraz uzun sürebilir.",
+    "zh-CN": "要解开这团线可不容易。",
+    "zh-TW": "想解開它？祝你好運。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_WIRES.png",
   "id": "DECORATION_DLC_WOLF_WIRES",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "كومة الأسلاك",
+    "de": "Drahtbündel",
+    "en": "Wire Bundle",
+    "es": "Maraña de cables",
+    "fr": "Tas de câbles",
+    "fr-CA": "Tas de câbles",
+    "it": "Groviglio di cavi",
+    "ja": "ワイヤーの塊",
+    "ko": "전선 꾸러미",
+    "nl": "Kluwen kabels",
+    "pt-BR": "Aglomerado de Fios",
+    "ru": "Клубок проводов",
+    "tr": "Tel Demeti",
+    "zh-CN": "线束",
+    "zh-TW": "交纏電纜"
+  },
+  "namePlain": {
     "ar": "كومة الأسلاك",
     "de": "Drahtbündel",
     "en": "Wire Bundle",

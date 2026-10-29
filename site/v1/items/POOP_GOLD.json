@@ -17,6 +17,23 @@
     "zh-CN": "施肥后，收成作物时将产生黄金。",
     "zh-TW": "施肥後，收成作物時將產生黃金。"
   },
+  "descriptionPlain": {
+    "ar": "المحاصيل التي تُزرع باستخدامه تنتج ذهبًا عند حصادها.",
+    "de": "Damit gedüngte Feldfrüchte ergeben bei der Ernte Gold.",
+    "en": "Crops grown with this will produce gold when harvested.",
+    "es": "Los cultivos en los que se use esto producirán oro al cosecharlos.",
+    "fr": "Les plantations fertilisées avec ceci produisent de l'or à la récolte.",
+    "fr-CA": "Les plantations fertilisées avec ceci produisent de l'or à la récolte.",
+    "it": "Le colture produrranno oro al momento del raccolto.",
+    "ja": "これを使って育てた作物は収穫時に金貨を生む",
+    "ko": "이 거름을 먹고 자란 곡식은 수확할 때 황금 곡식을 생산합니다.",
+    "nl": "Gewassen die groeien op deze mest produceren goud als ze worden geoogst.",
+    "pt-BR": "Plantações cultivadas com isto produzirão ouro na colheita.",
+    "ru": "Удобрение, позволяющее вырастить монеты.",
+    "tr": "Bununla yetişen mahsuller toplandığında altın verir.",
+    "zh-CN": "施肥后，收成作物时将产生黄金。",
+    "zh-TW": "施肥後，收成作物時將產生黃金。"
+  },
   "icon": "icons/items/POOP_GOLD.png",
   "id": "POOP_GOLD",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Altın Gübre",
     "zh-CN": "黄金肥料",
     "zh-TW": "黃金肥料"
-  }
+  },
+  "namePlain": {
+    "ar": "سماد ذهبي",
+    "de": "Goldener Dünger",
+    "en": "Golden Fertiliser",
+    "es": "Fertilizante dorado",
+    "fr": "Fertilisant doré",
+    "fr-CA": "Fertilisant doré",
+    "it": "Concime dorato",
+    "ja": "黄金の肥料",
+    "ko": "황금 퇴비",
+    "nl": "Gouden mest",
+    "pt-BR": "Fertilizante Dourado",
+    "ru": "Золотое удобрение",
+    "tr": "Altın Gübre",
+    "zh-CN": "黄金肥料",
+    "zh-TW": "黃金肥料"
+  },
+  "tags": []
 }

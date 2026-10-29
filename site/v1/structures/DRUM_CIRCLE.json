@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "在击鼓圈圈表演，让击鼓节奏打动信徒……产生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">",
     "zh-TW": "在擊鼓圈圈表演，讓擊鼓節奏打動信徒……產生<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك العزف في دائرة الطبول وإغواء الأوفياء بالإيقاع... تنتج خطيئة",
+    "de": "Tritt beim Trommelkreis auf und führe die Gläubigen mit rhythmischen Beats in Versuchung... Erzeugt Sünde.",
+    "en": "Perform at the Drum Circle and let the rhythmic beats tempt the faithful... Generates Sin",
+    "es": "Actúa en el círculo musical y deja que el ritmo tiente a los fieles... Genera Pecado",
+    "fr": "Prenez part au cercle de tambours et laissez le rythme convaincre les fidèles... Génère du péché.",
+    "fr-CA": "Prenez part au cercle de tambours et laissez le rythme s'emparer des fidèles... Génère du péché.",
+    "it": "Esibisciti al Circolo percussivo e lascia che battiti ritmici tentino i fedeli... Genera Peccato.",
+    "ja": "ドラムサークルで軽快なリズムを演奏することで信仰心をそそのかす。罪 を生成する",
+    "ko": "드럼 서클에서 경쾌한 비트로 신자들을 유혹합니다... 죄 를 만들어냅니다.",
+    "nl": "Doe mee in de trommelkring en laat het ritme trouwe volgelingen in verleiding brengen... Genereert zonde",
+    "pt-BR": "Utilize o Círculo de Tambores e deixe que as batidas rítmicas cativem os fiéis... Gera Pecado",
+    "ru": "Место, где можно вовлечь правоверных в танец, увеличивающий греховность.",
+    "tr": "Davul Şenliği'nde hünerlerini sergile ve inancına bağlı olanların aklını çel. Günah oluşturur.",
+    "zh-CN": "在击鼓圈圈表演，让击鼓节奏打动信徒……产生罪孽",
+    "zh-TW": "在擊鼓圈圈表演，讓擊鼓節奏打動信徒……產生罪孽"
+  },
   "icon": "icons/structures/DRUM_CIRCLE.png",
   "id": "DRUM_CIRCLE",
+  "menu": "Faith/Sin",
   "name": {
+    "ar": "دائرة الطبول",
+    "de": "Trommelkreis",
+    "en": "Drum Circle",
+    "es": "Círculo musical",
+    "fr": "Cercle de tambours",
+    "fr-CA": "Cercle de tambours",
+    "it": "Circolo percussivo",
+    "ja": "ドラムサークル",
+    "ko": "드럼 서클",
+    "nl": "Trommelkring",
+    "pt-BR": "Círculo de Tambores",
+    "ru": "Барабанный круг",
+    "tr": "Davul Şenliği",
+    "zh-CN": "击鼓圈圈",
+    "zh-TW": "擊鼓圈圈"
+  },
+  "namePlain": {
     "ar": "دائرة الطبول",
     "de": "Trommelkreis",
     "en": "Drum Circle",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Enchida",
   "name": {
+    "en": "Enchida"
+  },
+  "namePlain": {
     "en": "Enchida"
   },
   "unlock": "DLC"

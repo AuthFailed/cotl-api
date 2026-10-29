@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOLLOWERS",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
     "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
   },
+  "descriptionPlain": {
+    "ar": "مكان لينام فيه تابع. غير مستقر للغاية وعادة ما ينهار.",
+    "de": "Ein Schlafplatz für Anhänger. Sehr instabil, stürzt häufig zusammen.",
+    "en": "A place for a Follower to sleep. Very unstable, will often collapse.",
+    "es": "Para que tus adeptos duerman. Muy inestable, se rompe constantemente.",
+    "fr": "Permet à un adepte de se reposer. Il s'abîmera rapidement.",
+    "fr-CA": "Permet à un adepte de se reposer. Peu solide, il s'effondre souvent.",
+    "it": "Un giaciglio per un membro del Culto. Molto instabile, si deteriora spesso.",
+    "ja": "信者が寝るための寝床。寝心地は悪く、壊れやすい",
+    "ko": "추종자들이 잠을 자는 곳입니다. 매우 불안정하며 가끔씩 무너집니다.",
+    "nl": "Een plek waar een volgeling kan slapen. Heel onstabiel. Stort vaak in.",
+    "pt-BR": "Um lugar para o Seguidor dormir. É muito instável e desaba com frequência.",
+    "ru": "Место, где последователь может переночевать. Собран наскоро, часто разваливается.",
+    "tr": "Bir Takipçi'nin uyuyabileceği bir yer. Oldukça dayanıksız, sık sık çöker.",
+    "zh-CN": "供一位教徒睡觉的地方，非常不稳定，会经常坍塌。",
+    "zh-TW": "供一位教徒睡覺的地方，非常不穩定，會經常顛塌"
+  },
   "icon": "icons/structures/BED.png",
   "id": "BED",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "كيس النوم",
+    "de": "Schlafsack",
+    "en": "Sleeping Bag",
+    "es": "Saco de dormir",
+    "fr": "Sac de couchage",
+    "fr-CA": "Sac de couchage",
+    "it": "Giaciglio",
+    "ja": "寝袋",
+    "ko": "침낭",
+    "nl": "Slaapzak",
+    "pt-BR": "Saco de Dormir",
+    "ru": "Спальный мешок",
+    "tr": "Uyku Tulumu",
+    "zh-CN": "睡袋",
+    "zh-TW": "睡袋"
+  },
+  "namePlain": {
     "ar": "كيس النوم",
     "de": "Schlafsack",
     "en": "Sleeping Bag",

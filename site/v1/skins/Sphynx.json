@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Sphynx",
   "name": {
+    "en": "Sphynx"
+  },
+  "namePlain": {
     "en": "Sphynx"
   },
   "unlock": "DLC"

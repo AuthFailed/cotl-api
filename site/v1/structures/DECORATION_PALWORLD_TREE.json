@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -8,9 +10,16 @@
   "description": {
     "en": "Bearing odd fruit, this tree is full of potential."
   },
+  "descriptionPlain": {
+    "en": "Bearing odd fruit, this tree is full of potential."
+  },
   "icon": "icons/structures/DECORATION_PALWORLD_TREE.png",
   "id": "DECORATION_PALWORLD_TREE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "en": "Skilled Bonsai Tree"
+  },
+  "namePlain": {
     "en": "Skilled Bonsai Tree"
   },
   "size": {

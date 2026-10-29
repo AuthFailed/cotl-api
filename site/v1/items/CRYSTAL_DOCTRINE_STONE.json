@@ -17,6 +17,23 @@
     "zh-CN": "解锁未选择教条的石头。",
     "zh-TW": "解鎖未選擇教條的石頭。"
   },
+  "descriptionPlain": {
+    "ar": "حجر يُستخدم لفتح تعاليم لم تُستخدم.",
+    "de": "Stein für das Freischalten von nicht verwendeten Doktrinen.",
+    "en": "Stone used for unlocking unused Doctrines.",
+    "es": "Una piedra que desbloquea doctrinas que no están en uso.",
+    "fr": "Une pierre pour débloquer les doctrines inutilisées.",
+    "fr-CA": "Une pierre pour débloquer les doctrines inutilisées.",
+    "it": "Pietra da spendere per sbloccare le dottrine precedentemente scartate.",
+    "ja": "選ばなかった教条をアンロックするために必要な石",
+    "ko": "사용되지 않은 교리를 해금하는 데 쓰이는 돌입니다.",
+    "nl": "Dit tablet dient voor het ontgrendelen van niet gebruikte doctrines.",
+    "pt-BR": "Pedra usada para desbloquear Doutrinas inutilizadas.",
+    "ru": "Плита, позволяющая начертать непровозглашённую заповедь.",
+    "tr": "Kullanılmayan İlkeleri açmak için kullanılan taş.",
+    "zh-CN": "解锁未选择教条的石头。",
+    "zh-TW": "解鎖未選擇教條的石頭。"
+  },
   "icon": "icons/items/CRYSTAL_DOCTRINE_STONE.png",
   "id": "CRYSTAL_DOCTRINE_STONE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Unutulmuş Hüküm Taşı",
     "zh-CN": "忘却戒律石",
     "zh-TW": "忘卻戒律石"
-  }
+  },
+  "namePlain": {
+    "ar": "حجر وصايا منسية",
+    "de": "Vergessener Gebotsstein",
+    "en": "Forgotten Commandment Stone",
+    "es": "Piedra de los mandamientos olvidados",
+    "fr": "Pierre de commandement oubliée",
+    "fr-CA": "Pierre de commandement oubliée",
+    "it": "Pietra dei comandamenti dimenticati",
+    "ja": "忘れ去られた戒律石",
+    "ko": "잊힌 계명석",
+    "nl": "Vergeten geboden-tablet",
+    "pt-BR": "Pedra da Lei Esquecida",
+    "ru": "Забытая скрижаль",
+    "tr": "Unutulmuş Hüküm Taşı",
+    "zh-CN": "忘却戒律石",
+    "zh-TW": "忘卻戒律石"
+  },
+  "tags": []
 }

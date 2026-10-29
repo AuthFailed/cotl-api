@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "最早盛开的清新花朵。",
     "zh-TW": "第一批新鮮花卉。"
   },
+  "descriptionPlain": {
+    "ar": "الزهور الأولى النضرة.",
+    "de": "Die allerersten, frisch und blumig.",
+    "en": "The first, fresh and floral.",
+    "es": "Los primeros brotes de la estación; coloridos y florales.",
+    "fr": "L'éclosion des premiers bourgeons.",
+    "fr-CA": "L'éclosion des premiers bourgeons.",
+    "it": "Sbocciano i primi fiorellini.",
+    "ja": "咲いたばかりの花。とてもフローラル",
+    "ko": "처음으로 피어난 꽃들을 담았습니다.",
+    "nl": "De eerste, fris en bloemig.",
+    "pt-BR": "Flores frescas florescidas.",
+    "ru": "Яркие, свежие цветы.",
+    "tr": "Taze ve çiçeksi kokularla dolu.",
+    "zh-CN": "最早盛开的清新花朵。",
+    "zh-TW": "第一批新鮮花卉。"
+  },
   "icon": "icons/structures/DECORATION_DLC_YNGYA_FLOWERBUCKET.png",
   "id": "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "دلو الزهور الأولى",
+    "de": "Eimer der Erstblüten",
+    "en": "Bucket of First Blooms",
+    "es": "Cubo con florecillas",
+    "fr": "Seau des premières floraisons",
+    "fr-CA": "Seau des premières floraisons",
+    "it": "Secchio di prime fioriture",
+    "ja": "初咲きの花桶",
+    "ko": "첫꽃동이",
+    "nl": "Emmer van de eerste bloei",
+    "pt-BR": "Balde de Desbrochares",
+    "ru": "Ведро первоцветов",
+    "tr": "İlkbahar Kovası",
+    "zh-CN": "第一朵繁花桶",
+    "zh-TW": "初綻花桶"
+  },
+  "namePlain": {
     "ar": "دلو الزهور الأولى",
     "de": "Eimer der Erstblüten",
     "en": "Bucket of First Blooms",

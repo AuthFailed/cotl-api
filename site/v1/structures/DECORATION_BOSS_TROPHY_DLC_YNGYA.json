@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "YEW_HOLY",
@@ -26,9 +28,44 @@
     "zh-CN": "纪念击败殷亚的纪念品。",
     "zh-TW": "擊敗殷亞的紀念品。"
   },
+  "descriptionPlain": {
+    "ar": "جائزة لهزيمتك إينغيا.",
+    "de": "Eine Trophäe für den Sieg über Yngya.",
+    "en": "A trophy for defeating Yngya.",
+    "es": "Un trofeo otorgado a quienes han derrotado a Yngya.",
+    "fr": "Un trophée pour avoir tué Yngya.",
+    "fr-CA": "Un trophée pour avoir tué Yngya.",
+    "it": "Un trofeo per aver sconfitto Yngya.",
+    "ja": "イングャを殺した証の記念碑",
+    "ko": "잉갸를 물리쳐서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het verslaan van Yngya.",
+    "pt-BR": "Um troféu por derrotar Yngya.",
+    "ru": "Доказательство того, что Ингья не обладает всесилием.",
+    "tr": "Yngya öldüğünde kazandığın miras.",
+    "zh-CN": "纪念击败殷亚的纪念品。",
+    "zh-TW": "擊敗殷亞的紀念品。"
+  },
   "icon": "icons/structures/DECORATION_BOSS_TROPHY_DLC_YNGYA.png",
   "id": "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "جائزة إينغيا",
+    "de": "Yngya-Trophäe",
+    "en": "Yngya Trophy",
+    "es": "Trofeo de Yngya",
+    "fr": "Trophée de Yngya",
+    "fr-CA": "Trophée de Yngya",
+    "it": "Trofeo di Yngya",
+    "ja": "イングャの記念碑",
+    "ko": "잉갸 전리품",
+    "nl": "Yngya-trofee",
+    "pt-BR": "Troféu de Yngya",
+    "ru": "Трофей (Ингья)",
+    "tr": "Yngya Mirası",
+    "zh-CN": "殷亚纪念品",
+    "zh-TW": "殷亞紀念品"
+  },
+  "namePlain": {
     "ar": "جائزة إينغيا",
     "de": "Yngya-Trophäe",
     "en": "Yngya Trophy",

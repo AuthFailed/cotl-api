@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "在寂静中呲裂。",
     "zh-TW": "在寧靜中劈啪作響。"
   },
+  "descriptionPlain": {
+    "ar": "تسري فيه الطاقة بهدوء.",
+    "de": "Knistert in der Stille.",
+    "en": "Crackles in the quiet.",
+    "es": "Crepita en el silencio.",
+    "fr": "On entend ses crépitements dans le silence.",
+    "fr-CA": "Crépite dans le silence.",
+    "it": "Crepita nella calma.",
+    "ja": "静かな空間でパチパチと音を立てている",
+    "ko": "조용히 지글거립니다.",
+    "nl": "Knettert stilletjes.",
+    "pt-BR": "Estala no silêncio.",
+    "ru": "Глухо шумящий в тишине фонарь.",
+    "tr": "Sessizlikte çatırdar.",
+    "zh-CN": "在寂静中呲裂。",
+    "zh-TW": "在寧靜中劈啪作響。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOLF_PILLAR2.png",
   "id": "DECORATION_DLC_WOLF_PILLAR2",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "عمود الشحنة الساكنة",
+    "de": "Statischer Pfahl",
+    "en": "Static Post",
+    "es": "Poste estático",
+    "fr": "Pilier électrostatique",
+    "fr-CA": "Pilier électrostatique",
+    "it": "Colonnina statica",
+    "ja": "ワイヤーピラー",
+    "ko": "정전기 푯대",
+    "nl": "Statische paal",
+    "pt-BR": "Poste Estático",
+    "ru": "Потрескивающий столб",
+    "tr": "Statik Direk",
+    "zh-CN": "静态柱",
+    "zh-TW": "靜電燈柱"
+  },
+  "namePlain": {
     "ar": "عمود الشحنة الساكنة",
     "de": "Statischer Pfahl",
     "en": "Static Post",

@@ -1,6 +1,7 @@
 {
   "category": "NONE",
   "description": {},
+  "descriptionPlain": {},
   "icon": "icons/items/BLACK_HEART.png",
   "id": "BLACK_HEART",
   "name": {
@@ -19,5 +20,25 @@
     "tr": "Çürümüş Kalp",
     "zh-CN": "病缠黑心",
     "zh-TW": "病纏黑心"
-  }
+  },
+  "namePlain": {
+    "ar": "قلب فاسد",
+    "de": "Krankes Herz",
+    "en": "Diseased Heart",
+    "es": "Corazón enfermo",
+    "fr": "Cœur corrompu",
+    "fr-CA": "Le Cœur corrompu",
+    "it": "Cuore afflitto",
+    "ja": "病みし心臓",
+    "ko": "병든 심장",
+    "nl": "Ziekelijk hart",
+    "pt-BR": "Coração Doente",
+    "ru": "Больное сердце",
+    "tr": "Çürümüş Kalp",
+    "zh-CN": "病缠黑心",
+    "zh-TW": "病纏黑心"
+  },
+  "tags": [
+    "heart"
+  ]
 }

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "BONE",
@@ -22,9 +24,44 @@
     "zh-CN": "某种超壮观生物的遗骸",
     "zh-TW": "某種超壯觀生物的遺骸"
   },
+  "descriptionPlain": {
+    "ar": "رفات كائن مبهر حقًا.",
+    "de": "Die Überbleibsel eines wahrhaft beeindruckenden Wesens.",
+    "en": "The remains of something truly impressive.",
+    "es": "Los restos de algo impresionante.",
+    "fr": "Tout ce qu'il reste d'une créature impressionnante.",
+    "fr-CA": "Tout ce qu'il reste d'une créature impressionnante.",
+    "it": "Le spoglie di qualcosa di stupefacente.",
+    "ja": "すさまじく巨大な何かの遺骨",
+    "ko": "무언가 진정으로 인상깊은 것의 유해입니다.",
+    "nl": "De overblijfselen van iets waarlijk indrukwekkends.",
+    "pt-BR": "Os restos de algo realmente impressionante",
+    "ru": "Всё, что осталось от некоего гигантского существа.",
+    "tr": "Etkileyici bir varlığın kalıntıları.",
+    "zh-CN": "某种超壮观生物的遗骸",
+    "zh-TW": "某種超壯觀生物的遺骸"
+  },
   "icon": "icons/structures/DECORATION_BONE_SKULL_BIG.png",
   "id": "DECORATION_BONE_SKULL_BIG",
+  "menu": "Aesthetic/Spider",
   "name": {
+    "ar": "جمجمة ضخمة",
+    "de": "Riesiger Schädel",
+    "en": "Giant Skull",
+    "es": "Calavera gigante",
+    "fr": "Crâne géant",
+    "fr-CA": "Crâne géant",
+    "it": "Teschio gigante",
+    "ja": "ジャイアントスカル",
+    "ko": "거대 해골",
+    "nl": "Enorme schedel",
+    "pt-BR": "Crânio Gigante",
+    "ru": "Огромный череп",
+    "tr": "Dev Kafatası",
+    "zh-CN": "巨大头骨",
+    "zh-TW": "巨大頭骨"
+  },
+  "namePlain": {
     "ar": "جمجمة ضخمة",
     "de": "Riesiger Schädel",
     "en": "Giant Skull",

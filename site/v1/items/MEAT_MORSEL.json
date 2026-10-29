@@ -17,6 +17,23 @@
     "zh-CN": "一块干瘪的肉",
     "zh-TW": "一塊乾癟的肉"
   },
+  "descriptionPlain": {
+    "ar": "قطعة صغيرة من اللحم.",
+    "de": "Ein mickriges Stück Fleisch.",
+    "en": "A scrawny piece of meat.",
+    "es": "Un pedazo de carne un poco escuálido.",
+    "fr": "Un misérable morceau de viande...",
+    "fr-CA": "Un misérable morceau de viande...",
+    "it": "Un misero pezzo di carne.",
+    "ja": "痩せこけた肉のかけら",
+    "ko": "뼈만 남은 고기조각입니다.",
+    "nl": "Een mager stukje vlees.",
+    "pt-BR": "Um pedaço de carne bem magro.",
+    "ru": "Крошечный кусок мяса.",
+    "tr": "Küçük bir et parçası.",
+    "zh-CN": "一块干瘪的肉",
+    "zh-TW": "一塊乾癟的肉"
+  },
   "icon": "icons/items/MEAT_MORSEL.png",
   "id": "MEAT_MORSEL",
   "name": {
@@ -35,5 +52,26 @@
     "tr": "Et Parçası",
     "zh-CN": "丁点儿肉",
     "zh-TW": "帶骨肉"
-  }
+  },
+  "namePlain": {
+    "ar": "قطعة",
+    "de": "Häppchen",
+    "en": "Morsel",
+    "es": "Pedazo de carne",
+    "fr": "Restes de viande",
+    "fr-CA": "Restes de viande",
+    "it": "Boccone",
+    "ja": "肉の小片",
+    "ko": "음식 조각",
+    "nl": "Brokje",
+    "pt-BR": "Petisco",
+    "ru": "Ошмёток",
+    "tr": "Et Parçası",
+    "zh-CN": "丁点儿肉",
+    "zh-TW": "帶骨肉"
+  },
+  "tags": [
+    "food",
+    "meat"
+  ]
 }

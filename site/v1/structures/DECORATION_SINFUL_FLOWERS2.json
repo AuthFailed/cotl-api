@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "FLOWER_RED",
@@ -22,9 +24,44 @@
     "zh-CN": "放有美丽鲜花的水晶花瓶。",
     "zh-TW": "放有美麗鮮花的水晶花瓶。"
   },
+  "descriptionPlain": {
+    "ar": "زهور جميلة في إناء بلوري.",
+    "de": "Wunderschöne Blüten in einer Kristallvase.",
+    "en": "Beautiful blooms in a crystal vase.",
+    "es": "Un jarrón de cristal con unas bonitas flores.",
+    "fr": "De belles fleurs dans un vase en cristal.",
+    "fr-CA": "De belles fleurs dans un vase en cristal.",
+    "it": "Bellissimi fiori schiusi in un vaso di cristallo.",
+    "ja": "美しい花が飾られた、クリスタルでできた花瓶",
+    "ko": "수정 꽃병 안에 아름답게 꽃이 피었습니다.",
+    "nl": "Prachtige bloemen in een kristallen vaas.",
+    "pt-BR": "Um vaso de cristal adornado com lindas flores.",
+    "ru": "Распустившиеся бутоны в хрустальной вазе.",
+    "tr": "Kristal bir vazoda duran zarif çiçekler.",
+    "zh-CN": "放有美丽鲜花的水晶花瓶。",
+    "zh-TW": "放有美麗鮮花的水晶花瓶。"
+  },
   "icon": "icons/structures/DECORATION_SINFUL_FLOWERS2.png",
   "id": "DECORATION_SINFUL_FLOWERS2",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "إناء زهور فاخر",
+    "de": "Vase der Eitelkeit",
+    "en": "Vase of Vanity",
+    "es": "Jarrón del orgullo",
+    "fr": "Vase de la vanité",
+    "fr-CA": "Vase de la vanité",
+    "it": "Vaso della vanità",
+    "ja": "虚栄の花瓶",
+    "ko": "허영의 꽃병",
+    "nl": "Vaas der ijdelheid",
+    "pt-BR": "Vaso da Vaidade",
+    "ru": "Ваза тщеславия",
+    "tr": "Gösterişli Vazo",
+    "zh-CN": "浮华花瓶",
+    "zh-TW": "浮華花瓶"
+  },
+  "namePlain": {
     "ar": "إناء زهور فاخر",
     "de": "Vase der Eitelkeit",
     "en": "Vase of Vanity",

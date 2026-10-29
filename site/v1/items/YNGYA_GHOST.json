@@ -17,6 +17,23 @@
     "zh-CN": "被宰杀的圣羊之灵魂。",
     "zh-TW": "被屠殺羔羊的靈魂。"
   },
+  "descriptionPlain": {
+    "ar": "أرواح الحملان المقتولة.",
+    "de": "Die Geister von geschlachteten Lämmern.",
+    "en": "The spirits of slaughtered lambs.",
+    "es": "Los espíritus de todos los corderos masacrados.",
+    "fr": "Les esprits d'agneaux massacrés.",
+    "fr-CA": "Les esprits d'agneaux massacrés.",
+    "it": "Gli spiriti degli agnelli macellati.",
+    "ja": "殺された羊の魂",
+    "ko": "도살당한 양들의 영혼.",
+    "nl": "De geesten van geslachte lammetjes.",
+    "pt-BR": "Os espíritos dos cordeiros mortos.",
+    "ru": "Души зарезанных ягнят.",
+    "tr": "Katledilen kuzuların ruhları.",
+    "zh-CN": "被宰杀的圣羊之灵魂。",
+    "zh-TW": "被屠殺羔羊的靈魂。"
+  },
   "icon": "icons/items/YNGYA_GHOST.png",
   "id": "YNGYA_GHOST",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kayıp Ruhlar",
     "zh-CN": "失落之灵",
     "zh-TW": "失落靈魂"
-  }
+  },
+  "namePlain": {
+    "ar": "الأرواح الضالة",
+    "de": "Verlorene Seelen",
+    "en": "Lost Souls",
+    "es": "Almas perdidas",
+    "fr": "Âmes perdues",
+    "fr-CA": "Âmes perdues",
+    "it": "Anime sperdute",
+    "ja": "迷える魂",
+    "ko": "잊힌 영혼",
+    "nl": "Verloren zielen",
+    "pt-BR": "Almas Perdidas",
+    "ru": "Заблудшие души",
+    "tr": "Kayıp Ruhlar",
+    "zh-CN": "失落之灵",
+    "zh-TW": "失落靈魂"
+  },
+  "tags": []
 }

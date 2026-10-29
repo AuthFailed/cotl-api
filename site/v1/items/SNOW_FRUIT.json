@@ -17,6 +17,23 @@
     "zh-CN": "闪闪发光的果实，只在最严寒的气候生长。",
     "zh-TW": "閃亮亮的果實，只在最嚴寒的氣候生長。"
   },
+  "descriptionPlain": {
+    "ar": "فاكهة برّاقة تنمو حتى في أشد حالات الطقس برودة.",
+    "de": "Eine glitzernde Frucht, die sogar im kältesten Klima wächst.",
+    "en": "A glittering fruit that grows even in the coldest of climates.",
+    "es": "Una fruta resplandeciente que crece bajo el clima más glacial.",
+    "fr": "Un fruit scintillant capable de pousser même en climat glacial.",
+    "fr-CA": "Un fruit chatoyant capable de pousser même en climat glacial.",
+    "it": "Un frutto scintillante che cresce nei climi più rigidi.",
+    "ja": "極寒の中でも育つ、キラキラと輝くフルーツ",
+    "ko": "가장 추운 기후에서도 자라나는 반짝이는 과일입니다.",
+    "nl": "Een glinsterende vrucht die zelfs in de allerkoudste klimaten groeit.",
+    "pt-BR": "Uma fruta cintilante que cresce até mesmo no frio mais intenso.",
+    "ru": "Сверкающий фрукт, которому не страшны морозы.",
+    "tr": "En soğuk iklimlerde bile yetişen, ışıl ışıl bir meyve.",
+    "zh-CN": "闪闪发光的果实，只在最严寒的气候生长。",
+    "zh-TW": "閃亮亮的果實，只在最嚴寒的氣候生長。"
+  },
   "icon": "icons/items/SNOW_FRUIT.png",
   "id": "SNOW_FRUIT",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Kar Meyvesi",
     "zh-CN": "雪果",
     "zh-TW": "雪果"
-  }
+  },
+  "namePlain": {
+    "ar": "فاكهة الجليد",
+    "de": "Schneefrucht",
+    "en": "Snow Fruit",
+    "es": "Fruta nívea",
+    "fr": "Fruit des neiges",
+    "fr-CA": "Fruit des neiges",
+    "it": "Frutto d'inverno",
+    "ja": "スノーフルーツ",
+    "ko": "눈열매",
+    "nl": "Sneeuwfruit",
+    "pt-BR": "Fruta Nevada",
+    "ru": "Ледфрут",
+    "tr": "Kar Meyvesi",
+    "zh-CN": "雪果",
+    "zh-TW": "雪果"
+  },
+  "tags": [
+    "food"
+  ]
 }

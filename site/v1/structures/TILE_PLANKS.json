@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "ألواح خشبية مثالية للمشي.",
@@ -17,9 +19,44 @@
     "zh-CN": "适合行走的铺地木板",
     "zh-TW": "適合行走的鋪地木板"
   },
+  "descriptionPlain": {
+    "ar": "ألواح خشبية مثالية للمشي.",
+    "de": "Holzbohlen, die perfekt geeignet sind, um darauf zu gehen.",
+    "en": "Wooden planks, perfect for walking.",
+    "es": "Tablas de madera, perfectas para caminar sobre ellas.",
+    "fr": "Des planches de bois, idéales pour créer des chemins.",
+    "fr-CA": "Des planches de bois, idéales pour créer des chemins.",
+    "it": "Assi di legno, perfette per camminare.",
+    "ja": "木製の板。道を作るのに最適",
+    "ko": "나무 판자로, 걸어다니기에 최적입니다.",
+    "nl": "Houten planken, perfect om over te lopen.",
+    "pt-BR": "Tábuas de madeira, perfeitas para serem pisadas",
+    "ru": "Прочные деревянные доски.",
+    "tr": "Üstünde yürümeye uygun ahşap döşeme.",
+    "zh-CN": "适合行走的铺地木板",
+    "zh-TW": "適合行走的鋪地木板"
+  },
   "icon": "icons/structures/TILE_PLANKS.png",
   "id": "TILE_PLANKS",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية خشبية",
+    "de": "Dielenboden",
+    "en": "Plank Flooring",
+    "es": "Suelo de tarima",
+    "fr": "Plancher",
+    "fr-CA": "Plancher de bois",
+    "it": "Pavimentazione a listoni",
+    "ja": "木板タイル",
+    "ko": "판자 바닥",
+    "nl": "Planken vloer",
+    "pt-BR": "Piso de Madeira",
+    "ru": "Деревянный настил",
+    "tr": "Parke Döşeme",
+    "zh-CN": "木板地板",
+    "zh-TW": "木板地板"
+  },
+  "namePlain": {
     "ar": "أرضية خشبية",
     "de": "Dielenboden",
     "en": "Plank Flooring",

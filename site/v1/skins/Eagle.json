@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Eagle",
   "name": {
+    "en": "Eagle"
+  },
+  "namePlain": {
     "en": "Eagle"
   },
   "unlock": "Dungeon2"

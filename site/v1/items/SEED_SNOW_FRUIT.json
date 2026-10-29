@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。只在<color=#70F7FF>冬天</color>生长。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。只在<color=#70F7FF>冬天</color>生長。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة. ستنمو في الشتاء فقط.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein. Wächst nur im Winter.",
+    "en": "Plant this in a Farm Plot. Will only grow in Winter.",
+    "es": "Plántala en una parcela. Solo crece en invierno.",
+    "fr": "À planter sur une parcelle agricole. Ne pousse qu'en hiver.",
+    "fr-CA": "À planter sur une parcelle agricole. Ne pousse qu'en hiver.",
+    "it": "Piantalo in un Appezzamento. Cresce solo in inverno.",
+    "ja": "農作地に植えよう。冬の間しか育たない",
+    "ko": "밭 경작지에 심습니다. 겨울에만 자랍니다.",
+    "nl": "Zaai deze op een landbouwperceel. Groeit alleen in de winter.",
+    "pt-BR": "Plante em um Terreno Agrícola. Crescerá apenas no Inverno.",
+    "ru": "Семечко, которое можно посадить на участке земли. Прорастает только зимой.",
+    "tr": "Bir Tarla'ya ek. Yalnızca kışın büyür.",
+    "zh-CN": "可种在农地里。只在冬天生长。",
+    "zh-TW": "可種在農地裡。只在冬天生長。"
+  },
   "icon": "icons/items/SEED_SNOW_FRUIT.png",
   "id": "SEED_SNOW_FRUIT",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kar Meyvesi Tohumu",
     "zh-CN": "雪果种子",
     "zh-TW": "雪果種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذرة فاكهة الجليد",
+    "de": "Schneefrucht-Samen",
+    "en": "Snow Fruit Seed",
+    "es": "Semilla de fruta nívea",
+    "fr": "Graine de fruit des neiges",
+    "fr-CA": "Graine de fruit des neiges",
+    "it": "Seme di frutto d'inverno",
+    "ja": "スノーフルーツの種",
+    "ko": "눈열매 씨앗",
+    "nl": "Sneeuwfruitzaden",
+    "pt-BR": "Semente de Fruta Nevada",
+    "ru": "Семя ледфрута",
+    "tr": "Kar Meyvesi Tohumu",
+    "zh-CN": "雪果种子",
+    "zh-TW": "雪果種子"
+  },
+  "tags": []
 }

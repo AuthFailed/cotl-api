@@ -17,6 +17,23 @@
     "zh-CN": "举行秘密仪式的有用祭品。",
     "zh-TW": "舉行祕密儀式的有用祭品。"
   },
+  "descriptionPlain": {
+    "ar": "تقدمة مفيدة في الطقوس الخفية.",
+    "de": "Ein nützliches Opfer für geheime Rituale.",
+    "en": "A useful offering for clandestine rituals.",
+    "es": "Una ofrenda muy útil a la hora de realizar rituales clandestinos.",
+    "fr": "Une offrande utilisée pour accomplir des rituels interdits.",
+    "fr-CA": "Une offrande utilisée pour accomplir des rituels interdits.",
+    "it": "Un'utile offerta per riti clandestini.",
+    "ja": "秘密の儀式に使える供え物",
+    "ko": "은밀한 의식에 유용한 제물입니다.",
+    "nl": "Een handig offer voor clandestiene rituelen.",
+    "pt-BR": "Uma oferenda útil para rituais clandestinos.",
+    "ru": "Дар, который можно принести короне во время тайного ритуала.",
+    "tr": "Gizli ayinlerde sıkça kullanılan bir adak.",
+    "zh-CN": "举行秘密仪式的有用祭品。",
+    "zh-TW": "舉行祕密儀式的有用祭品。"
+  },
   "icon": "icons/items/BONE.png",
   "id": "BONE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kemik",
     "zh-CN": "骨头",
     "zh-TW": "骨頭"
-  }
+  },
+  "namePlain": {
+    "ar": "عظام",
+    "de": "Knochen",
+    "en": "Bone",
+    "es": "Hueso",
+    "fr": "Os",
+    "fr-CA": "Os",
+    "it": "Osso",
+    "ja": "骨",
+    "ko": "뼈",
+    "nl": "Bot",
+    "pt-BR": "Osso",
+    "ru": "Кость",
+    "tr": "Kemik",
+    "zh-CN": "骨头",
+    "zh-TW": "骨頭"
+  },
+  "tags": []
 }

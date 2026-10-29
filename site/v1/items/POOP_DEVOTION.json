@@ -17,6 +17,23 @@
     "zh-CN": "施肥后，作物生长完毕时将产生<color=#FFD201>虔诚度</color>。",
     "zh-TW": "施肥後，作物生長完畢時將產生<color=#FFD201>虔誠值</color>。"
   },
+  "descriptionPlain": {
+    "ar": "المحاصيل التي تُزرع باستخدامه ستنتج ولاء عند اكتمال نموها.",
+    "de": "Damit gedüngte Feldfrüchte erzeugen Hingabe, wenn sie voll ausgewachsen sind.",
+    "en": "Crops grown with this will generate Devotion when fully grown.",
+    "es": "Los cultivos en los que se use esto generarán devoción cuando crezcan.",
+    "fr": "Les plantations fertilisées avec ceci génèrent de la dévotion une fois cultivées.",
+    "fr-CA": "Les plantations fertilisées avec ceci génèrent de la dévotion une fois cultivées.",
+    "it": "Le colture produrranno Devozione al massimo della crescita.",
+    "ja": "これを使って育てた作物は成長しきると祈念を生成する",
+    "ko": "이 거름을 먹고 자란 곡식은 완전히 자랄 시 헌신을 생성합니다.",
+    "nl": "Gewassen die groeien op deze mest produceren devotie als ze volgroeid zijn.",
+    "pt-BR": "Plantações cultivadas com isto gerarão Devoção ao crescer totalmente.",
+    "ru": "Удобрение, насыщающее выросшие растения преданностью.",
+    "tr": "Bununla yetişen mahsuller tamamen büyüdüğünde Sadakat oluşturur.",
+    "zh-CN": "施肥后，作物生长完毕时将产生虔诚度。",
+    "zh-TW": "施肥後，作物生長完畢時將產生虔誠值。"
+  },
   "icon": "icons/items/POOP_DEVOTION.png",
   "id": "POOP_DEVOTION",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Sadık Gübre",
     "zh-CN": "虔诚肥料",
     "zh-TW": "虔誠肥料"
-  }
+  },
+  "namePlain": {
+    "ar": "سماد الولاء",
+    "de": "Ergebener Dünger",
+    "en": "Devoted Fertiliser",
+    "es": "Fertilizante devoto",
+    "fr": "Fertilisant sacré",
+    "fr-CA": "Fertilisant sacré",
+    "it": "Concime devoto",
+    "ja": "献身の肥料",
+    "ko": "헌신이 깃든 퇴비",
+    "nl": "Toegewijde mest",
+    "pt-BR": "Fertilizante Devoto",
+    "ru": "Посвящённое удобрение",
+    "tr": "Sadık Gübre",
+    "zh-CN": "虔诚肥料",
+    "zh-TW": "虔誠肥料"
+  },
+  "tags": []
 }

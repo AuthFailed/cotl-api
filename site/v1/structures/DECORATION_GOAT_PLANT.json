@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "史上最佳花瓶！",
     "zh-TW": "史上最佳花瓶！"
   },
+  "descriptionPlain": {
+    "ar": "أعظم إناء زهور على الإطلاق!",
+    "de": "Die großartigste Vase aller Zeiten!",
+    "en": "The greatest vase of all time!",
+    "es": "Como se te rompa, voy y me chivo.",
+    "fr": "Ce vase va vous rendre chèvre!",
+    "fr-CA": "Ce vase va vous faire « chèvre-irer »!",
+    "it": "Il più bel vaso che si sia mai visto!",
+    "ja": "この世で最高の花瓶！",
+    "ko": "역사상 최고, 꽃병.",
+    "nl": "De geweldigste vaas aller tijden!",
+    "pt-BR": "O melhor vaso de todos os tempos!",
+    "ru": "Самая рогатая ваза в мире.",
+    "tr": "Kolay kolay kırılmaz.",
+    "zh-CN": "史上最佳花瓶！",
+    "zh-TW": "史上最佳花瓶！"
+  },
   "icon": "icons/structures/DECORATION_GOAT_PLANT.png",
   "id": "DECORATION_GOAT_PLANT",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "إناء الزهور الأعظم",
+    "de": "Die Ziegenvase",
+    "en": "The Goat Vase",
+    "es": "Jarrón de la Cabra",
+    "fr": "Vase chèvre",
+    "fr-CA": "Vase chèvre",
+    "it": "Vaso del Capro",
+    "ja": "山羊の花瓶",
+    "ko": "염소 꽃병",
+    "nl": "De Geitvaas",
+    "pt-BR": "O Vaso do Bode",
+    "ru": "Козья ваза",
+    "tr": "Keçi Vazosu",
+    "zh-CN": "山羊花瓶",
+    "zh-TW": "山羊花瓶"
+  },
+  "namePlain": {
     "ar": "إناء الزهور الأعظم",
     "de": "Die Ziegenvase",
     "en": "The Goat Vase",

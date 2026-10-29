@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "最平和者，也会被逼至反击。",
     "zh-TW": "愛好和平之人也可能受到壓迫。"
   },
+  "descriptionPlain": {
+    "ar": "حتى المسالمون يمكن أن يُجبروا على تعذيب الآخرين.",
+    "de": "Sogar die Friedfertigen können geschubst werden.",
+    "en": "Even the peaceful may be pushed.",
+    "es": "Hasta la criatura más pacífica acaba cediendo.",
+    "fr": "Même les plus pacifiques peuvent être contraints d'agir.",
+    "fr-CA": "Même les plus pacifiques peuvent être contraints d'y recourir.",
+    "it": "Anche i più pacifici possono trovarsi alle strette.",
+    "ja": "平和を好む者でも、中に押し込められることがあるかもしれない",
+    "ko": "온유한 자도 밀려날 수 있으니.",
+    "nl": "Zelfs de vreedzamen kunnen onder druk worden gezet.",
+    "pt-BR": "Até os mansos podem ser pressionados.",
+    "ru": "Доказательство того, что даже кроткие могут дать отпор.",
+    "tr": "Barışçıl kimselerin dahi bir sınırı vardır.",
+    "zh-CN": "最平和者，也会被逼至反击。",
+    "zh-TW": "愛好和平之人也可能受到壓迫。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_IRONMAIDEN.png",
   "id": "DECORATION_DLC_ROT_IRONMAIDEN",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "العذراء الحديدية ذات قرني الكبش",
+    "de": "Eiserne Jungfrau des Bockhorns",
+    "en": "Iron Maiden of Ram Horn",
+    "es": "Doncella de hierro del carnero",
+    "fr": "Dame de fer de la Corne de bélier",
+    "fr-CA": "Dame de fer de la Corne de bélier",
+    "it": "Vergine di ferro del Corno d'ariete",
+    "ja": "雄羊のアイアンメイデン",
+    "ko": "산양뿔의 아이언 메이든",
+    "nl": "IJzeren maagd van Ramhoorn",
+    "pt-BR": "Dama de Ferro Encarneirada",
+    "ru": "Железная дева бараньего рога",
+    "tr": "Koç Boynuzunun Çivili Tabutu",
+    "zh-CN": "羊角之铁娘子",
+    "zh-TW": "公羊角之鐵娘子"
+  },
+  "namePlain": {
     "ar": "العذراء الحديدية ذات قرني الكبش",
     "de": "Eiserne Jungfrau des Bockhorns",
     "en": "Iron Maiden of Ram Horn",

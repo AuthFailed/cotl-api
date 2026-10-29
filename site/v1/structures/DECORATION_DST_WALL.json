@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "不太稳固",
     "zh-TW": "不太穩固"
   },
+  "descriptionPlain": {
+    "ar": "ليس متينًا للغاية.",
+    "de": "Nicht besonders stabil.",
+    "en": "Not very sturdy.",
+    "es": "No es muy resistente.",
+    "fr": "Rien de très solide.",
+    "fr-CA": "Pas très solide.",
+    "it": "Non è granché resistente.",
+    "ja": "あまり頑丈ではない",
+    "ko": "튼튼하진 않습니다.",
+    "nl": "Niet erg stevig.",
+    "pt-BR": "Não é muito resistente.",
+    "ru": "Хуже, чем многое другое.",
+    "tr": "Pek dayanıklı değil.",
+    "zh-CN": "不太稳固",
+    "zh-TW": "不太穩固"
+  },
   "icon": "icons/structures/DECORATION_DST_WALL.png",
   "id": "DECORATION_DST_WALL",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "حائط القش",
+    "de": "Heumauer",
+    "en": "Hay Wall",
+    "es": "Muro de heno",
+    "fr": "Mur en paille",
+    "fr-CA": "Mur en paille",
+    "it": "Muro di fieno",
+    "ja": "干し草の壁",
+    "ko": "건초 벽",
+    "nl": "Muur van hooi",
+    "pt-BR": "Parede de Feno",
+    "ru": "Сенной барьер",
+    "tr": "Saman Duvar",
+    "zh-CN": "干草墙",
+    "zh-TW": "乾草牆"
+  },
+  "namePlain": {
     "ar": "حائط القش",
     "de": "Heumauer",
     "en": "Hay Wall",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "击杀待终冠主的纪念品",
     "zh-TW": "擊殺待終冠主的紀念品"
   },
+  "descriptionPlain": {
+    "ar": "جائزة لقتلك المتربص.",
+    "de": "Eine Trophäe für das Töten von Jener, der wartet",
+    "en": "A trophy for killing The One Who Waits.",
+    "es": "Un trofeo por matar a Aquel Que Espera.",
+    "fr": "Un trophée pour avoir tué Celui qui attend",
+    "fr-CA": "Un trophée pour avoir tué Celui qui attend.",
+    "it": "Un trofeo per l'uccisione dell'Ombra che attende.",
+    "ja": "待ち受けし者を殺した証の記念碑",
+    "ko": "기다리는 자를 죽여서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het doden van Degene Die Wacht.",
+    "pt-BR": "Um troféu por matar Aquele Que Espera",
+    "ru": "Доказательство победы над Тем-кто-ждёт.",
+    "tr": "Vaktini Bekleyen öldüğünde kazandığın miras.",
+    "zh-CN": "击杀待终冠主的纪念品",
+    "zh-TW": "擊殺待終冠主的紀念品"
+  },
   "icon": "icons/structures/DECORATION_BOSS_TROPHY_5.png",
   "id": "DECORATION_BOSS_TROPHY_5",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "جائزة المتربص",
+    "de": "Jener, der wartet-Trophäe",
+    "en": "The One Who Waits Trophy",
+    "es": "Trofeo de Aquel Que Espera",
+    "fr": "Trophée de Celui qui attend",
+    "fr-CA": "Trophée de Celui qui attend",
+    "it": "Trofeo dell'Ombra che attende",
+    "ja": "待ち受けし者の記念碑",
+    "ko": "기다리는 자 전리품",
+    "nl": "Degene Die Wacht-trofee",
+    "pt-BR": "Troféu de Aquele Que Espera",
+    "ru": "Трофей (Тот-кто-ждёт)",
+    "tr": "Vaktini Bekleyen Mirası",
+    "zh-CN": "待终冠主纪念品",
+    "zh-TW": "待終冠主紀念品"
+  },
+  "namePlain": {
     "ar": "جائزة المتربص",
     "de": "Jener, der wartet-Trophäe",
     "en": "The One Who Waits Trophy",

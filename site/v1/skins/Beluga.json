@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Beluga",
   "name": {
+    "en": "Beluga"
+  },
+  "namePlain": {
     "en": "Beluga"
   },
   "unlock": "Dungeon5"

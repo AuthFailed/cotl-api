@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "赞颂雪羊羔！",
     "zh-TW": "讚頌雪羊！"
   },
+  "descriptionPlain": {
+    "ar": "ليحيَ حَمَل الجليد!",
+    "de": "Preiset das Schneelamm!",
+    "en": "Praise the snowlamb!",
+    "es": "¡Alabado sea el cordero de nieve!",
+    "fr": "Gloire à l'agneau de neige!",
+    "fr-CA": "Gloire à l'agneau de neige!",
+    "it": "Lode all'Agnello di neve!",
+    "ja": "雪ヒツジを称えよ！",
+    "ko": "눈-어린 양을 찬양하라!",
+    "nl": "Prijs het sneeuwlam!",
+    "pt-BR": "Glória ao Cordeiro de Neve!",
+    "ru": "Украшение во славу снегнёнка.",
+    "tr": "Kardan Kuzu çok yaşa!",
+    "zh-CN": "赞颂雪羊羔！",
+    "zh-TW": "讚頌雪羊！"
+  },
   "icon": "icons/structures/DECORATION_CHRISTMAS_SNOWMAN.png",
   "id": "DECORATION_CHRISTMAS_SNOWMAN",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "حَمَل منتصف الشتاء",
+    "de": "Wintersonnenwende-Lamm",
+    "en": "Midwinter Lamb",
+    "es": "Cordero invernal",
+    "fr": "Agneau de la mi-hiver",
+    "fr-CA": "Agneau de la mi-hiver",
+    "it": "Agnello del solstizio d'inverno",
+    "ja": "冬至の雪ヒツジ",
+    "ko": "한겨울철 어린 양",
+    "nl": "Midwinterlam",
+    "pt-BR": "Cordeiro do Festival de Inverno",
+    "ru": "Солнцестояльный ягнёнок",
+    "tr": "Kış Ortası Kuzusu",
+    "zh-CN": "冬至圣羊",
+    "zh-TW": "冬至聖羊"
+  },
+  "namePlain": {
     "ar": "حَمَل منتصف الشتاء",
     "de": "Wintersonnenwende-Lamm",
     "en": "Midwinter Lamb",

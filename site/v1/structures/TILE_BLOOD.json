@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "عليك السير بحذر...",
@@ -17,9 +19,44 @@
     "zh-CN": "小心前进……",
     "zh-TW": "小心前進……"
   },
+  "descriptionPlain": {
+    "ar": "عليك السير بحذر...",
+    "de": "Mit Vorsicht betreten …",
+    "en": "Tread with care...",
+    "es": "Mira por donde pisas.",
+    "fr": "Attention où vous mettez les pattes...",
+    "fr-CA": "Attention où vous mettez les pattes...",
+    "it": "Occhio a dove metti i piedi...",
+    "ja": "足元には気を付けて…",
+    "ko": "조심히 걸으십시오...",
+    "nl": "Voorzichtig betreden...",
+    "pt-BR": "Siga com cuidado...",
+    "ru": "Плитка из застывшей магмы.",
+    "tr": "Bastığın yere dikkat et.",
+    "zh-CN": "小心前进……",
+    "zh-TW": "小心前進……"
+  },
   "icon": "icons/structures/TILE_BLOOD.png",
   "id": "TILE_BLOOD",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية الحمم",
+    "de": "Lavaboden",
+    "en": "Lava Flooring",
+    "es": "Suelo de lava",
+    "fr": "Sol de lave",
+    "fr-CA": "Sol de lave",
+    "it": "Pavimentazione in lava",
+    "ja": "マグマタイル",
+    "ko": "용암 바닥",
+    "nl": "Lavavloer",
+    "pt-BR": "Piso de Lava",
+    "ru": "Лавовый настил",
+    "tr": "Lavlı Döşeme",
+    "zh-CN": "岩浆地板",
+    "zh-TW": "岩漿地板"
+  },
+  "namePlain": {
     "ar": "أرضية الحمم",
     "de": "Lavaboden",
     "en": "Lava Flooring",

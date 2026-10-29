@@ -17,6 +17,23 @@
     "zh-CN": "教徒会抵御一次自然死亡。项链生效后损毁。",
     "zh-TW": "教徒不會自然死亡。項鍊生效後損毀。"
   },
+  "descriptionPlain": {
+    "ar": "سينجو التابع من ميتة طبيعية. ستُدمر القلادة بعد ذلك.",
+    "de": "Der Anhänger wird einen natürlichen Tod überleben. Die Halskette ist danach zerstört.",
+    "en": "Follower will survive a natural death. Necklace will be destroyed after.",
+    "es": "El adepto sobrevive a una muerte natural una vez. El collar se destruye tras su uso.",
+    "fr": "L'adepte survivra à une mort naturelle. Le collier sera ensuite détruit.",
+    "fr-CA": "L'adepte survivra à une mort naturelle. Le collier sera ensuite détruit.",
+    "it": "Il membro sopravviverà a una morte naturale. La collana si distruggerà subito dopo.",
+    "ja": "病死や老衰などの自然死を1度だけ生き延びる。効果発動後、このネックレスが壊れる",
+    "ko": "추종자가 자연사를 한 번 살아 남습니다. 그 후 목걸이는 파괴됩니다.",
+    "nl": "Volgeling overleeft natuurlijke dood. Ketting wordt daarna vernietigd.",
+    "pt-BR": "Permite que o seguidor sobreviva a uma morte natural. O colar será destruído depois.",
+    "ru": "Украшение, возвращающее последователя к жизни после естественной смерти, а затем распадающееся.",
+    "tr": "Takipçi doğal bir ölümü atlatır. Kolye bunun ardından yok olur.",
+    "zh-CN": "教徒会抵御一次自然死亡。项链生效后损毁。",
+    "zh-TW": "教徒不會自然死亡。項鍊生效後損毀。"
+  },
   "icon": "icons/items/Necklace_Deaths_Door.png",
   "id": "Necklace_Deaths_Door",
   "name": {
@@ -35,5 +52,25 @@
     "tr": "Ecel Kovan Kolye",
     "zh-CN": "重生项链",
     "zh-TW": "重生項鍊"
-  }
+  },
+  "namePlain": {
+    "ar": "قلادة النمو من جديد",
+    "de": "Nachwachs-Halskette",
+    "en": "Regrowth Necklace",
+    "es": "Collar del fénix",
+    "fr": "Collier de regain",
+    "fr-CA": "Collier de regain",
+    "it": "Collana della rinascita",
+    "ja": "再生のネックレス",
+    "ko": "재성장의 목걸이",
+    "nl": "Opbloeiketting",
+    "pt-BR": "Colar da Regeneração",
+    "ru": "Ожерелье перерождения",
+    "tr": "Ecel Kovan Kolye",
+    "zh-CN": "重生项链",
+    "zh-TW": "重生項鍊"
+  },
+  "tags": [
+    "gift"
+  ]
 }

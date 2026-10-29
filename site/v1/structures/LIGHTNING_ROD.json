@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -26,9 +28,44 @@
     "zh-CN": "保护范围内的教徒和建筑物不受闪电侵扰。产生<color=#FFD201>蓄能碎片</color> <sprite name=\"icon_LightningShard\">。不会遭闪电摧毁。",
     "zh-TW": "保護範圍內的教徒和建築物不受閃電侵擾。產生<color=#FFD201>蓄能碎片</color> <sprite name=\"icon_LightningShard\">。不會被雷擊摧毀。"
   },
+  "descriptionPlain": {
+    "ar": "تحمي الأتباع والمباني في نطاقها من الصواعق. تولد شظايا صاعقة. لن تُدمَّر إذا ضُربت بصاعقة.",
+    "de": "Schützt Anhänger und Gebäude in Reichweite vor Blitzen. Erzeugt Aufgeladene Splitter. Wird nicht von einem Blitzschlag zerstört.",
+    "en": "Protects Followers and structures within range from lightning. Generates Charged Shards. Won't be destroyed by lightning strike.",
+    "es": "Protege de los rayos a los adeptos y estructuras que estén al alcance. Genera fragmentos tormentosos. No se derrumbará aunque le caiga un rayo.",
+    "fr": "Protège de la foudre les adeptes et les structures à portée. Génère des cristaux chargés. Ne sera pas détruit par la foudre.",
+    "fr-CA": "Protège de la foudre les adeptes et les structures à portée. Génère des cristaux chargés. Ne sera pas détruit par la foudre.",
+    "it": "Protegge dai fulmini i membri del Culto e le strutture nel raggio d'azione. Genera elettroschegge. Non può essere distrutto da un fulmine.",
+    "ja": "範囲内にいる信者や建築物を雷から守る。帯電球 を生成する。雷に打たれても壊れない",
+    "ko": "범위 내 추종자와 건물을 번개로부터 보호합니다. 충전된 조각 을 생성합니다. 번개로 파괴되지 않습니다.",
+    "nl": "Beschermt volgelingen en gebouwen binnen bereik tegen de bliksem. Maakt opgeladen kristallen aan. Gaat niet kapot door blikseminslagen.",
+    "pt-BR": "Protege Seguidores e estruturas em seu alcance contra raios. Gera Fragmentos Energizados. Não será destruído por raios.",
+    "ru": "Устройство, защищающее последователей и постройки от удара молнии в радиусе действия и создающее заряженные сферы. Не разрушается при ударе молнии.",
+    "tr": "Menzilindeki Takipçileri ve yapıları yıldırımdan korur. Enerji Yüklü Parçacık oluşturur. Yıldırım tarafından yok edilemez.",
+    "zh-CN": "保护范围内的教徒和建筑物不受闪电侵扰。产生蓄能碎片 。不会遭闪电摧毁。",
+    "zh-TW": "保護範圍內的教徒和建築物不受閃電侵擾。產生蓄能碎片 。不會被雷擊摧毀。"
+  },
   "icon": "icons/structures/LIGHTNING_ROD.png",
   "id": "LIGHTNING_ROD",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "مانعة الصواعق",
+    "de": "Blitzableiter",
+    "en": "Lightning Rod",
+    "es": "Pararrayos",
+    "fr": "Paratonnerre",
+    "fr-CA": "Paratonnerre",
+    "it": "Parafulmine",
+    "ja": "避雷針",
+    "ko": "피뢰침",
+    "nl": "Bliksemafleider",
+    "pt-BR": "Para-raios",
+    "ru": "Громоотвод",
+    "tr": "Paratoner",
+    "zh-CN": "闪电神杖",
+    "zh-TW": "閃電神杖"
+  },
+  "namePlain": {
     "ar": "مانعة الصواعق",
     "de": "Blitzableiter",
     "en": "Lightning Rod",

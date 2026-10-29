@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "教徒能来这座雕像前为你留下<color=#FFD201>供品</color>",
     "zh-TW": "教徒能來這座雕像前留下榮耀你的<color=#FFD201>供品</color>"
   },
+  "descriptionPlain": {
+    "ar": "نصب يمكن للأتباع ترك تقدمات عنده تقديرًا لك.",
+    "de": "Eine Statue, bei der Anhänger zu deinen Ehren Opfer hinterlassen können.",
+    "en": "A statue where Followers can leave Offerings in your honour.",
+    "es": "Una estatua a la que tus adeptos pueden hacerle ofrendas en tu honor.",
+    "fr": "Permet aux adeptes de déposer des offrandes en votre honneur.",
+    "fr-CA": "Permet aux adeptes de déposer des offrandes en votre honneur.",
+    "it": "Una statua presso la quale i membri del Culto possono lasciare offerte in tuo onore.",
+    "ja": "あなたを称える供物を信者が捧げるための場所",
+    "ko": "추종자들이 제물을 바칠 수 있게 해주는 조각상입니다.",
+    "nl": "Een standbeeld waar volgelingen offers in jouw naam kunnen brengen.",
+    "pt-BR": "Uma estátua na qual Seguidores podem deixar Oferendas em sua homenagem.",
+    "ru": "Чаша, где последователи могут оставлять подношения.",
+    "tr": "Takipçilerin senin adına Adak bırakabileceği bir heykel.",
+    "zh-CN": "教徒能来这座雕像前为你留下供品",
+    "zh-TW": "教徒能來這座雕像前留下榮耀你的供品"
+  },
   "icon": "icons/structures/OFFERING_STATUE.png",
   "id": "OFFERING_STATUE",
+  "menu": "Faith/General",
   "name": {
+    "ar": "نصب التقدمات",
+    "de": "Opferstatue",
+    "en": "Offering Statue",
+    "es": "Estatua de las ofrendas",
+    "fr": "Coupe à offrandes",
+    "fr-CA": "Coupe à offrandes",
+    "it": "Statua delle offerte",
+    "ja": "供物台",
+    "ko": "번제의 조각상",
+    "nl": "Offerstandbeeld",
+    "pt-BR": "Estátua de Oferendas",
+    "ru": "Чаша для подношений",
+    "tr": "Adak Heykeli",
+    "zh-CN": "供品雕像",
+    "zh-TW": "供品雕像"
+  },
+  "namePlain": {
     "ar": "نصب التقدمات",
     "de": "Opferstatue",
     "en": "Offering Statue",

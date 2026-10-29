@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "COTTON",
@@ -30,9 +32,44 @@
     "zh-CN": "供蛋孵化之处，孵化速度加快。",
     "zh-TW": "供蛋孵化之處，孵化速度加快。"
   },
+  "descriptionPlain": {
+    "ar": "مكان لتفقيس البيض. سيفقس البيض أسرع.",
+    "de": "Ein Ort, um Eier auszubrüten. Der Nachwuchs schlüpft schneller.",
+    "en": "A place for eggs to hatch. Eggs will hatch quicker.",
+    "es": "Para que los huevos eclosionen. Los huevos eclosionarán con mayor rapidez.",
+    "fr": "Un lieu pour faire éclore les œufs. Les œufs écloront plus vite.",
+    "fr-CA": "Un lieu pour faire éclore les œufs. Ils écloront plus vite.",
+    "it": "Un luogo dove far schiudere le uova ancor più rapidamente.",
+    "ja": "タマゴをふ化する場所。早くふ化できる",
+    "ko": "알을 이곳에 놓아 부화시킵니다. 알이 더 빠르게 부화합니다.",
+    "nl": "Een plaats waar eieren uitgebroed worden. Eieren komen sneller uit.",
+    "pt-BR": "Um lugar para chocar ovos. Chocará os ovos mais rápido.",
+    "ru": "Место, где яйца вылупляются быстрее.",
+    "tr": "Yumurtaların kuluçka dönemini geçirebileceği bir yer. Kuluçka süresi kısalır.",
+    "zh-CN": "供蛋孵化之处，孵化速度加快。",
+    "zh-TW": "供蛋孵化之處，孵化速度加快。"
+  },
   "icon": "icons/structures/HATCHERY_2.png",
   "id": "HATCHERY_2",
+  "menu": "Faith/Sin",
   "name": {
+    "ar": "المفقس II",
+    "de": "Brutstätte II",
+    "en": "Hatchery II",
+    "es": "Incubadora II",
+    "fr": "Couveuse II",
+    "fr-CA": "Couveuse II",
+    "it": "Incubatrice II",
+    "ja": "ふ化場 II",
+    "ko": "부화장 II",
+    "nl": "Broedplaats II",
+    "pt-BR": "Chocadeira II",
+    "ru": "Инкубатор II",
+    "tr": "Kuluçkalık II",
+    "zh-CN": "孵化所 II",
+    "zh-TW": "孵化所 II"
+  },
+  "namePlain": {
     "ar": "المفقس II",
     "de": "Brutstätte II",
     "en": "Hatchery II",

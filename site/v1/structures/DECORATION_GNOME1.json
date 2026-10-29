@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "第一个小矮人。",
     "zh-TW": "第一個小矮人。"
   },
+  "descriptionPlain": {
+    "ar": "القزم الأول.",
+    "de": "Der erste Gnom.",
+    "en": "The first gnome.",
+    "es": "El primer gnomo.",
+    "fr": "Le premier gnome.",
+    "fr-CA": "Le premier gnome.",
+    "it": "Il primo gnomo.",
+    "ja": "1番目のノーム",
+    "ko": "첫 번째 노움입니다.",
+    "nl": "De eerste kabouter.",
+    "pt-BR": "O primeiro gnomo.",
+    "ru": "Первый гном.",
+    "tr": "İlk cüce.",
+    "zh-CN": "第一个小矮人。",
+    "zh-TW": "第一個小矮人。"
+  },
   "icon": "icons/structures/DECORATION_GNOME1.png",
   "id": "DECORATION_GNOME1",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "بي",
+    "de": "Pea",
+    "en": "Pea",
+    "es": "Pe",
+    "fr": "Péh",
+    "fr-CA": "Péh",
+    "it": "Pii",
+    "ja": "ピイ",
+    "ko": "피",
+    "nl": "Pee",
+    "pt-BR": "Tepo",
+    "ru": "Пи",
+    "tr": "Pim",
+    "zh-CN": "匹",
+    "zh-TW": "匹"
+  },
+  "namePlain": {
     "ar": "بي",
     "de": "Pea",
     "en": "Pea",

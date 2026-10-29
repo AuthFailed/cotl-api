@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Mushroom",
   "name": {
+    "en": "Mushroom"
+  },
+  "namePlain": {
     "en": "Mushroom"
   },
   "unlock": "Other"

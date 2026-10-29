@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "PUMPKIN",
@@ -26,9 +28,44 @@
     "zh-CN": "庆祝血月的装饰用南瓜",
     "zh-TW": "慶祝血月的裝飾用南瓜"
   },
+  "descriptionPlain": {
+    "ar": "هذه اليقطينة لتكريم قمر الدم.",
+    "de": "Ein dekorativer Kürbis zur Feier des Blutmondes.",
+    "en": "Honour the Blood Moon with this pumpkin.",
+    "es": "Una calabaza decorativa para la luna de sangre.",
+    "fr": "Une citrouille décorative de la lune de sang.",
+    "fr-CA": "Honorez la lune de sang avec cette citrouille décorative.",
+    "it": "Una zucca per commemorare la Luna di sangue.",
+    "ja": "紅血の月を称えるための装飾用カボチャ",
+    "ko": "핏빛 달을 기리는 호박입니다.",
+    "nl": "Eer de bloedmaan met deze pompoen.",
+    "pt-BR": "Uma abóbora decorativa para a Lua de Sangue",
+    "ru": "Тыква, выросшая под кровавой луной.",
+    "tr": "Bu bal kabağıyla Kanlı Ay'ın anısına sahip çık.",
+    "zh-CN": "庆祝血月的装饰用南瓜",
+    "zh-TW": "慶祝血月的裝飾用南瓜"
+  },
   "icon": "icons/structures/DECORATION_HALLOWEEN_PUMPKIN.png",
   "id": "DECORATION_HALLOWEEN_PUMPKIN",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "يقطينة قمر الدم",
+    "de": "Blutmond-Kürbis",
+    "en": "Blood Moon Pumpkin",
+    "es": "Calabaza de luna de sangre",
+    "fr": "Citrouille de la lune de sang",
+    "fr-CA": "Citrouille de la lune de sang",
+    "it": "Zucca della Luna di sangue",
+    "ja": "紅血の月のカボチャ",
+    "ko": "핏빛 달 호박",
+    "nl": "Bloedmaanpompoen",
+    "pt-BR": "Abóbora da Lua de Sangue",
+    "ru": "Кровавая тыква",
+    "tr": "Kanlı Ay Bal Kabağı",
+    "zh-CN": "血月南瓜",
+    "zh-TW": "血月南瓜"
+  },
+  "namePlain": {
     "ar": "يقطينة قمر الدم",
     "de": "Blutmond-Kürbis",
     "en": "Blood Moon Pumpkin",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Moth",
   "name": {
+    "en": "Moth"
+  },
+  "namePlain": {
     "en": "Moth"
   },
   "unlock": "Dungeon6"

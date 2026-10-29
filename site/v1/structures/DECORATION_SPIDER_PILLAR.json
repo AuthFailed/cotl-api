@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "SPIDER_WEB",
@@ -22,9 +24,44 @@
     "zh-CN": "挂着蜘蛛丝的柱子",
     "zh-TW": "掛著蜘蛛絲的柱子"
   },
+  "descriptionPlain": {
+    "ar": "عمود يكسوه حرير العنكبوت.",
+    "de": "Eine von Spinnweben verhüllte Säule.",
+    "en": "A pillar draped in spider silk.",
+    "es": "Un pilar cubierto de seda de araña.",
+    "fr": "Un pilier recouvert de soie d'araignée.",
+    "fr-CA": "Un pilier recouvert de soie d'araignée.",
+    "it": "Un monolite drappeggiato con seta di ragno.",
+    "ja": "クモの糸で覆われた柱",
+    "ko": "거미줄이 뒤엉킨 기둥입니다.",
+    "nl": "Een pilaar gedrapeerd met spinrag.",
+    "pt-BR": "Um pilar envolto em seda de aranha",
+    "ru": "Столб, покрытый паутиной.",
+    "tr": "Üstünden örümcek ipeği sarkan bir sütun.",
+    "zh-CN": "挂着蜘蛛丝的柱子",
+    "zh-TW": "掛著蜘蛛絲的柱子"
+  },
   "icon": "icons/structures/DECORATION_SPIDER_PILLAR.png",
   "id": "DECORATION_SPIDER_PILLAR",
+  "menu": "Aesthetic/Spider",
   "name": {
+    "ar": "عمود العنكبوت",
+    "de": "Spinnensäule",
+    "en": "Spider Pillar",
+    "es": "Pilar araña",
+    "fr": "Pilier araignée",
+    "fr-CA": "Pilier araignée",
+    "it": "Monolite aracnoideo",
+    "ja": "スパイダーピラー",
+    "ko": "거미 기둥",
+    "nl": "Spinnenpilaar",
+    "pt-BR": "Pilar de Aranha",
+    "ru": "Паучья колонна",
+    "tr": "Örümcek Sütunu",
+    "zh-CN": "蜘蛛柱子",
+    "zh-TW": "蜘蛛柱子"
+  },
+  "namePlain": {
     "ar": "عمود العنكبوت",
     "de": "Spinnensäule",
     "en": "Spider Pillar",

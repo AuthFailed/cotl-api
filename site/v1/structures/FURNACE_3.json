@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "燃烧<color=#FD1D03>腐烧</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>为教会供暖。可以抵御<color=#FD1D03>暴风雪</color>，而且能容纳更多腐烧。<br>并解锁<color=#FD1D03>加热器</color>。",
     "zh-TW": "燃燒<color=#FD1D03>腐燃</color><sprite name=\"icon_MagmaStone\">，在<color=#FD1D03>冬日</color>為教會供暖。可以抵禦<color=#FD1D03>暴風雪</color>，<br>而且能容納更多腐燃。並解鎖<color=#FD1D03>加熱器</color>。"
   },
+  "descriptionPlain": {
+    "ar": "يحرق فحم التعفن لتدفئة الطائفة في الشتاء. سينهي العواصف الثلجية ويسع كمية أكبر من فحم التعفن.\nيفتح أيضًا المدافئ.",
+    "de": "Verbrennt Fäulnisbrand, um den Kult im Winter warmzuhalten. Vertreibt Schneestürme und kann mehr Fäulnisbrand fassen.\nSchaltet auch Heizer frei.",
+    "en": "Burns Rotburn to warm the Cult in winter. Will dispel blizzards and holds more Rotburn.\nAlso unlocks Heaters.",
+    "es": "Quema petrodumbre para calentar la secta cuando llega el invierno. Despeja las ventiscas y almacena más petrodumbre.\nTambién desbloquea los difusores.",
+    "fr": "Brûle du charbon putrescent pour réchauffer le culte en hiver. Fait disparaître les blizzards et peut contenir davantage de charbon putrescent.\nDébloque également les radiateurs.",
+    "fr-CA": "Brûle du charbon putrescent pour réchauffer la secte en hiver. Fait disparaître les blizzards et peut contenir davantage de charbon putrescent.\nDébloque également les radiateurs.",
+    "it": "Brucia la marciolite per riscaldare il Culto in inverno. Dissipa le bufere e può contenere più marciolite.\nInoltre sblocca le Stufe.",
+    "ja": "腐敗石 を燃やすことで、冬の教団を温めてくれる。吹雪を止められるほか、腐敗石の容量が増える\nまた、暖房をアンロックする",
+    "ko": "겨울에 부패석탄 을 태워 교단을 따뜻하게 유지합니다. 눈보라도 몰아낼 수 있으며, 부패석탄을 더 채울 수 있습니다.\n또한 온열기를 잠금 해제합니다.",
+    "nl": "Verbrandt rotsteen om de sekte warm te houden in de winter. Houdt sneeuwstormen tegen en heeft meer ruimte voor rotsteen.\nOntgrendelt ook kachels.",
+    "pt-BR": "Queima Putrefogo para aquecer o Culto no inverno. Dissipará nevascas e suporta mais Putrefogo.\nDesbloqueia Aquecedores.",
+    "ru": "Печь для сжигания гнилогара и отопления поселения в течение зимы. Разгоняет метели и вмещает больше гнилогара.\nПозволяет ставить обогреватели.",
+    "tr": "Çürükateş yakarak Tarikat'ı kışın ısıtır. Tipileri durdurur ve daha fazla Çürükateş muhafaza edebilir.\nAyrıca Isıtıcıların kilidini açar.",
+    "zh-CN": "燃烧腐烧，在冬日为教会供暖。可以抵御暴风雪，而且能容纳更多腐烧。\n并解锁加热器。",
+    "zh-TW": "燃燒腐燃，在冬日為教會供暖。可以抵禦暴風雪，\n而且能容納更多腐燃。並解鎖加熱器。"
+  },
   "icon": "icons/structures/FURNACE_3.png",
   "id": "FURNACE_3",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "فرن فحم التعفن III",
+    "de": "Fäulnisbrand-Ofen III",
+    "en": "Rotburn Furnace III",
+    "es": "Caldera de petrodumbre III",
+    "fr": "Fourneau à charbon putrescent III",
+    "fr-CA": "Fournaise à charbon putrescent III",
+    "it": "Fornace a marciolite III",
+    "ja": "腐敗石ストーブ III",
+    "ko": "부패석탄 화로 III",
+    "nl": "Rotsteenoven III",
+    "pt-BR": "Fornalha Putrefogo III",
+    "ru": "Гнилогарная печь III",
+    "tr": "Çürükateş Sobası III",
+    "zh-CN": "腐烧火炉 III",
+    "zh-TW": "腐燃爐 III"
+  },
+  "namePlain": {
     "ar": "فرن فحم التعفن III",
     "de": "Fäulnisbrand-Ofen III",
     "en": "Rotburn Furnace III",

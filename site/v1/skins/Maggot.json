@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Maggot",
   "name": {
+    "en": "Maggot"
+  },
+  "namePlain": {
     "en": "Maggot"
   },
   "unlock": "Dungeon6"

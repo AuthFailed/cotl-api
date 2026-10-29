@@ -17,6 +17,23 @@
     "zh-CN": "能制作衣物的精美丝线。",
     "zh-TW": "能製作衣物的精美絲線。"
   },
+  "descriptionPlain": {
+    "ar": "خيط ناعم يُستخدم في صناعة الملابس.",
+    "de": "Ein edles Garn für die Herstellung von Kleidung.",
+    "en": "A fine thread for crafting clothes.",
+    "es": "Un hilo muy fino para confeccionar ropa.",
+    "fr": "Un fil très fin pour confectionner des vêtements.",
+    "fr-CA": "Un fil très fin pour confectionner des vêtements.",
+    "it": "Un filo sottile per realizzare indumenti.",
+    "ja": "服をクラフトするための上質な糸",
+    "ko": "옷을 만들 수 있는 고급 실입니다.",
+    "nl": "Een fijne draad om kleding mee te maken.",
+    "pt-BR": "Um fio refinado que serve para fabricar roupas.",
+    "ru": "Моток ниток для создания одежды.",
+    "tr": "Kıyafet üretmek için kullanılan ince iplik.",
+    "zh-CN": "能制作衣物的精美丝线。",
+    "zh-TW": "能製作衣物的精美絲線。"
+  },
   "icon": "icons/items/SILK_THREAD.png",
   "id": "SILK_THREAD",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "İpek İplik",
     "zh-CN": "丝线",
     "zh-TW": "絲線"
-  }
+  },
+  "namePlain": {
+    "ar": "خيط حريري",
+    "de": "Seidener Faden",
+    "en": "Silk Thread",
+    "es": "Hilo de seda",
+    "fr": "Fil de soie",
+    "fr-CA": "Fil de soie",
+    "it": "Filo di seta",
+    "ja": "絹糸",
+    "ko": "비단 실",
+    "nl": "Zijdedraad",
+    "pt-BR": "Fio de Seda",
+    "ru": "Шёлковая нить",
+    "tr": "İpek İplik",
+    "zh-CN": "丝线",
+    "zh-TW": "絲線"
+  },
+  "tags": []
 }

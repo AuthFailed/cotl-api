@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Lemur",
   "name": {
+    "en": "Lemur"
+  },
+  "namePlain": {
     "en": "Lemur"
   },
   "unlock": "Other"

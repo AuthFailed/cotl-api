@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "تُرى كم عدد الحملان التي مشت على تلك الحجارة في الماضي؟",
@@ -17,9 +19,44 @@
     "zh-CN": "曾有多少圣羊从这些石板上踩过？",
     "zh-TW": "過去有多少羔羊踩踏過這些石頭？"
   },
+  "descriptionPlain": {
+    "ar": "تُرى كم عدد الحملان التي مشت على تلك الحجارة في الماضي؟",
+    "de": "Wie viele Lämmer sind einst über diese Steine gelaufen?",
+    "en": "How many lambs once trod these stones?",
+    "es": "¿Cuántos corderos habrán recorrido estas piedras en el pasado?",
+    "fr": "Combien d'agneaux ont-ils foulé ces pierres?",
+    "fr-CA": "Combien d'agneaux ont-ils foulé ces pierres?",
+    "it": "Quanti agnelli hanno, un tempo, calpestato queste pietre?",
+    "ja": "かつて、何匹もの羊がこの上を歩いたのだろうか",
+    "ko": "얼마나 많은 양이 이 돌바닥을 밟았을지?",
+    "nl": "Hoeveel lammetjes hebben ooit over deze stenen gelopen?",
+    "pt-BR": "Quantos cordeiros já pisaram nessas pedras?",
+    "ru": "Камни, по которым когда-то ходило множество ягнят.",
+    "tr": "Acaba bir zamanlar kaç kuzu bu taşların üzerinden geçti?",
+    "zh-CN": "曾有多少圣羊从这些石板上踩过？",
+    "zh-TW": "過去有多少羔羊踩踏過這些石頭？"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_FLOOR.png",
   "id": "DECORATION_DLC_WOOLHAVEN_FLOOR",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية ملاذ الحملان",
+    "de": "Wollhafen-Boden",
+    "en": "Woolhaven Floor",
+    "es": "Suelo de Vellones Elíseos",
+    "fr": "Sol de Havrelaine",
+    "fr-CA": "Sol de Havrelaine",
+    "it": "Pavimentazione dell'Aldilàna",
+    "ja": "羊毛の聖域のタイル",
+    "ko": "포근쉼터 바닥",
+    "nl": "Wolhavenvloer",
+    "pt-BR": "Piso da Santa Lã",
+    "ru": "Шерстопольский настил",
+    "tr": "Yüntepe Döşemesi",
+    "zh-CN": "羊绒仙境地板",
+    "zh-TW": "羊絨仙境地板"
+  },
+  "namePlain": {
     "ar": "أرضية ملاذ الحملان",
     "de": "Wollhafen-Boden",
     "en": "Woolhaven Floor",

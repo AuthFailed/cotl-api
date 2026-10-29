@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "用来屠宰动物，获取肉食。",
     "zh-TW": "用於屠宰動物獲得肉。"
   },
+  "descriptionPlain": {
+    "ar": "يُستخدم لذبح الحيوانات للحصول على لحومها.",
+    "de": "Wird verwendet, um Tiere für Fleisch zu schlachten.",
+    "en": "Used to slaughter animals for meat.",
+    "es": "Úsala para sacrificar a un animal y coger su carne.",
+    "fr": "Sert à massacrer les animaux pour obtenir de la viande.",
+    "fr-CA": "Sert à abattre les animaux pour obtenir de la viande.",
+    "it": "Impiegato per ricavare carne macellando gli animali.",
+    "ja": "動物を畜殺して肉を入手するために使用できる",
+    "ko": "동물들을 도살해 고기를 얻는데 사용합니다.",
+    "nl": "Gebruikt om dieren te slachten voor vlees.",
+    "pt-BR": "Usada no abate de animais para obter carne.",
+    "ru": "Место для убоя.",
+    "tr": "Hayvanları kesip et elde etmek için kullanılır.",
+    "zh-CN": "用来屠宰动物，获取肉食。",
+    "zh-TW": "用於屠宰動物獲得肉。"
+  },
   "icon": "icons/structures/RANCH_CHOPPING_BLOCK.png",
   "id": "RANCH_CHOPPING_BLOCK",
+  "menu": "MajorDLC/Ranching",
   "name": {
+    "ar": "حجر الذبح",
+    "de": "Schlachtblock",
+    "en": "Butcher's Block",
+    "es": "Tabla de cortar",
+    "fr": "Billot de boucher",
+    "fr-CA": "Bloc de boucher",
+    "it": "Battilardo",
+    "ja": "畜殺台",
+    "ko": "도살 구역",
+    "nl": "Hakblok",
+    "pt-BR": "Mesa de Abate",
+    "ru": "Разделочный камень",
+    "tr": "Kasap Tezgâhı",
+    "zh-CN": "屠夫砧板",
+    "zh-TW": "宰殺台"
+  },
+  "namePlain": {
     "ar": "حجر الذبح",
     "de": "Schlachtblock",
     "en": "Butcher's Block",

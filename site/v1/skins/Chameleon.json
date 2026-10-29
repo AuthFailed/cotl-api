@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Chameleon",
   "name": {
+    "en": "Chameleon"
+  },
+  "namePlain": {
     "en": "Chameleon"
   },
   "unlock": "Major_DLC"

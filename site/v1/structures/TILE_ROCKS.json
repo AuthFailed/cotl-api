@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "صلبة وتشعرك بالحنين.",
@@ -17,9 +19,44 @@
     "zh-CN": "稳固又怀旧",
     "zh-TW": "穩固又懷舊"
   },
+  "descriptionPlain": {
+    "ar": "صلبة وتشعرك بالحنين.",
+    "de": "Robust und nostalgisch.",
+    "en": "Sturdy and nostalgic.",
+    "es": "Robusto y con un toque nostálgico.",
+    "fr": "Solide et empreint de nostalgie.",
+    "fr-CA": "Solide et empreint de nostalgie.",
+    "it": "Resistente e intramontabile.",
+    "ja": "頑丈でいて、どこか懐かしい",
+    "ko": "단단하고 추억을 불러일으킵니다.",
+    "nl": "Robuust en nostalgisch.",
+    "pt-BR": "Resistente e nostálgico",
+    "ru": "Плитка, напоминающая о дорожках в саду.",
+    "tr": "Sağlam ve nostaljik.",
+    "zh-CN": "稳固又怀旧",
+    "zh-TW": "穩固又懷舊"
+  },
   "icon": "icons/structures/TILE_ROCKS.png",
   "id": "TILE_ROCKS",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية مرصوفة بالحجارة",
+    "de": "Kopfsteinpflasterboden",
+    "en": "Cobblestone Flooring",
+    "es": "Suelo de adoquines",
+    "fr": "Sol pavé",
+    "fr-CA": "Sol pavé",
+    "it": "Pavimentazione in ciottolato",
+    "ja": "丸石タイル",
+    "ko": "조약돌 바닥",
+    "nl": "Geplaveide vloer",
+    "pt-BR": "Piso de Pedras Arredondadas",
+    "ru": "Каменный настил",
+    "tr": "Taş Döşeme",
+    "zh-CN": "圆石地板",
+    "zh-TW": "圓石地板"
+  },
+  "namePlain": {
     "ar": "أرضية مرصوفة بالحجارة",
     "de": "Kopfsteinpflasterboden",
     "en": "Cobblestone Flooring",

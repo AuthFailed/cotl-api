@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "IceGore",
   "name": {
+    "en": "IceGore"
+  },
+  "namePlain": {
     "en": "IceGore"
   },
   "unlock": "Major_DLC"

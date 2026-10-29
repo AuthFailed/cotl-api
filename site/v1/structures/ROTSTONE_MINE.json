@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -26,9 +28,44 @@
     "zh-CN": "一位教徒将生产 <sprite name=\"icon_MagmaStone\">",
     "zh-TW": "一位教徒將生產 <sprite name=\"icon_MagmaStone\">"
   },
+  "descriptionPlain": {
+    "ar": "سينتج تابع",
+    "de": "Ein Anhänger erzeugt.",
+    "en": "A Follower will generate",
+    "es": "Un adepto producirá.",
+    "fr": "Permet à un adepte de miner du.",
+    "fr-CA": "Permet à un adepte de miner du.",
+    "it": "Un membro del Culto può generarvi.",
+    "ja": "信者が を生成する場所",
+    "ko": "추종자가 을 생성합니다.",
+    "nl": "Een volgeling genereert",
+    "pt-BR": "Um Seguidor gerará.",
+    "ru": "Место, где последователи добывают.",
+    "tr": "Bir Takipçi'nin toplamasını sağlar.",
+    "zh-CN": "一位教徒将生产",
+    "zh-TW": "一位教徒將生產"
+  },
   "icon": "icons/structures/ROTSTONE_MINE.png",
   "id": "ROTSTONE_MINE",
+  "menu": "MajorDLC/Winter",
   "name": {
+    "ar": "منجم فحم التعفن",
+    "de": "Fäulnisbrand-Mine",
+    "en": "Rotburn Mine",
+    "es": "Mina de petrodumbre",
+    "fr": "Mine à charbon putrescent",
+    "fr-CA": "Mine à charbon putrescent",
+    "it": "Miniera di marciolite",
+    "ja": "腐敗石鉱",
+    "ko": "부패석탄광",
+    "nl": "Rotsteengroeve",
+    "pt-BR": "Mina Putrefogo",
+    "ru": "Гнилогарный рудник",
+    "tr": "Çürükateş Madeni",
+    "zh-CN": "腐烧场",
+    "zh-TW": "腐燃礦場"
+  },
+  "namePlain": {
     "ar": "منجم فحم التعفن",
     "de": "Fäulnisbrand-Mine",
     "en": "Rotburn Mine",

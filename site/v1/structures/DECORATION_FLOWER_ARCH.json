@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "藤蔓与盛开花朵交织建成的拱门",
     "zh-TW": "藤蔓與盛開花朵交織建成的拱門"
   },
+  "descriptionPlain": {
+    "ar": "ممر مقوس من الزهور والأغصان المتداخلة.",
+    "de": "Ein Bogengang aus verflochtenen Blüten und Ranken.",
+    "en": "An archway of woven blooms and vines.",
+    "es": "Un arco hecho con flores y enredaderas.",
+    "fr": "Une arche de fleurs et de vignes tissées.",
+    "fr-CA": "Une arche de fleurs et de vignes tissées.",
+    "it": "Un arco di fiori e rampicanti intrecciati.",
+    "ja": "花やツタを編み込んで作られたアーチ",
+    "ko": "자수된 꽃잎과 줄기로 된 아치형 입구입니다.",
+    "nl": "Een boog van gevlochten bloemen en klimplanten.",
+    "pt-BR": "Um arco ornado por flores e trepadeiras",
+    "ru": "Арка, сплетённая из прутьев и цветов.",
+    "tr": "Çiçekler ve sarmaşıklar örülerek yapılmış bir kemer.",
+    "zh-CN": "藤蔓与盛开花朵交织建成的拱门",
+    "zh-TW": "藤蔓與盛開花朵交織建成的拱門"
+  },
   "icon": "icons/structures/DECORATION_FLOWER_ARCH.png",
   "id": "DECORATION_FLOWER_ARCH",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "قوس زهور",
+    "de": "Blumentorbogen",
+    "en": "Flower Arch",
+    "es": "Arco de flores",
+    "fr": "Arche fleurie",
+    "fr-CA": "Arche fleurie",
+    "it": "Arco di fiori",
+    "ja": "フラワーアーチ",
+    "ko": "꽃 아치",
+    "nl": "Bloemenboog",
+    "pt-BR": "Arco de Flores",
+    "ru": "Цветочная арка",
+    "tr": "Çiçek Kemeri",
+    "zh-CN": "花朵拱门",
+    "zh-TW": "花朵拱門"
+  },
+  "namePlain": {
     "ar": "قوس زهور",
     "de": "Blumentorbogen",
     "en": "Flower Arch",

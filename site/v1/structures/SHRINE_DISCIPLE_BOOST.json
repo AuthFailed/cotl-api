@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "在此圣坛祈祷的门徒能在圣战期间赋予你强化力量。",
     "zh-TW": "在此聖壇祈禱的門徒能在聖戰期間賦予你強化力量。"
   },
+  "descriptionPlain": {
+    "ar": "يلتمس الأنصار مطالبهم في هذا المزار لمنحك تعزيزات في أثناء الحملات.",
+    "de": "Jünger beten an diesem Schrein, um dich auf Kreuzzügen zu stärken.",
+    "en": "Disciples pray at this Shrine to give you boosts while Crusading.",
+    "es": "Los discípulos rezan en este santuario para animarte mientras estás de cruzada.",
+    "fr": "Les disciples prient dans cet Autel pour vous octroyer des bonus lors de votre exploration des donjons.",
+    "fr-CA": "Les disciples prient auprès de cet Autel pour vous octroyer des bonus lors de vos croisades.",
+    "it": "I discepoli pregano in questo santuario per garantirti dei potenziamenti durante le crociate.",
+    "ja": "この祭壇で使徒が祈ると、聖戦時に強化を得られる",
+    "ko": "사도들이 성지에서 기도해 성전 동안 보너스를 제공합니다.",
+    "nl": "Discipelen bidden bij dit altaar om je boosts te geven tijdens kruistochten.",
+    "pt-BR": "Discípulos rezam neste Santuário para fortalecer você durante as Cruzadas.",
+    "ru": "Место, где ваши ученики могут молиться, усиливая вас на время похода.",
+    "tr": "Sen Sefer'deyken Müritler bu Mabet'te dua ederek sana takviyeler sağlar.",
+    "zh-CN": "在此圣坛祈祷的门徒能在圣战期间赋予你强化力量。",
+    "zh-TW": "在此聖壇祈禱的門徒能在聖戰期間賦予你強化力量。"
+  },
   "icon": "icons/structures/SHRINE_DISCIPLE_BOOST.png",
   "id": "SHRINE_DISCIPLE_BOOST",
+  "menu": "Faith/General",
   "name": {
+    "ar": "مزار الأنصار المعززين",
+    "de": "Stärkungsschrein der Jünger",
+    "en": "Empowered Shrine of Disciples",
+    "es": "Santuario de discípulos de fortalecimiento",
+    "fr": "Autel de pouvoir des disciples",
+    "fr-CA": "Autel de pouvoir des disciples",
+    "it": "Santuario potenziato dei discepoli",
+    "ja": "使徒の強化祭壇",
+    "ko": "강화된 사도의 성지",
+    "nl": "Krachtig altaar der discipelen",
+    "pt-BR": "Santuário dos Discípulos Fortalecido",
+    "ru": "Усиливающий алтарь учеников",
+    "tr": "Güçlendiren Mürit Mabedi",
+    "zh-CN": "门徒助力圣坛",
+    "zh-TW": "門徒助力聖壇"
+  },
+  "namePlain": {
     "ar": "مزار الأنصار المعززين",
     "de": "Stärkungsschrein der Jünger",
     "en": "Empowered Shrine of Disciples",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -8,9 +10,16 @@
   "description": {
     "en": "The stone likeness of some great winged creature."
   },
+  "descriptionPlain": {
+    "en": "The stone likeness of some great winged creature."
+  },
   "icon": "icons/structures/DECORATION_PALWORLD_STATUE.png",
   "id": "DECORATION_PALWORLD_STATUE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "en": "Great Eagle Statue"
+  },
+  "namePlain": {
     "en": "Great Eagle Statue"
   },
   "size": {

@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "升级版圣殿和圣坛，能收集更多虔诚度，让更多追随者祈祷",
     "zh-TW": "升級版聖殿和聖壇，能收集更多虔誠值，讓更多追隨者祈禱"
   },
+  "descriptionPlain": {
+    "ar": "عليك ترقية المجمع والمزار. يمكنك جمع قدر أكبر من الولاء والسماح لعدد أكبر من الأتباع بالتماس مطالبهم.",
+    "de": "Verbessere deinen Tempel und den Schrein. Erhalte mehr Hingabe und ermögliche mehr Anhängern, zu beten.",
+    "en": "Upgrade Temple and Shrine. Collect more Devotion and allow more Followers to pray.",
+    "es": "Mejora el templo y el santuario. Recolecta más devoción y da cabida a más adeptos para que recen.",
+    "fr": "Permet d'améliorer le Temple et l'Autel. Augmente votre dévotion et le nombre d'adeptes pouvant prier en même temps.",
+    "fr-CA": "Permet d'améliorer le Temple et le Sanctuaire. Accroît votre dévotion et le nombre d'adeptes pouvant prier en même temps.",
+    "it": "Migliora il Tempio e il Santuario. Accumula più Devozione e permette a più membri del Culto di pregare.",
+    "ja": "教会堂と祭壇をアップグレードする。より多くの祈念を集め、より多くの信者が祈りを捧げることができる",
+    "ko": "사원과 성지를 업그레이드 합니다. 더 많은 헌신을 모으며 더 많은 추종자들이 기도를 할 수 있습니다.",
+    "nl": "Verbeter je tempel en altaar. Verzamel meer devotie en zorg dat meer volgelingen kunnen bidden.",
+    "pt-BR": "Aprimore Templo e Santuário. Colete mais Devoção para que mais Seguidores rezem.",
+    "ru": "Улучшенные храм и алтарь, которые позволяют хранить больше преданности и привлекать больше последователей к молитве.",
+    "tr": "Tapınak ve Mabet'i yükseltir. Daha fazla Sadakat toplar ve daha fazla Takipçi'nin dua etmesine olanak sağlar.",
+    "zh-CN": "升级版圣殿和圣坛，能收集更多虔诚度，让更多追随者祈祷",
+    "zh-TW": "升級版聖殿和聖壇，能收集更多虔誠值，讓更多追隨者祈禱"
+  },
   "icon": "icons/structures/TEMPLE_IV.png",
   "id": "TEMPLE_IV",
+  "menu": null,
   "name": {
+    "ar": "الطائفة IV",
+    "de": "Tempel IV",
+    "en": "Cult IV",
+    "es": "Secta IV",
+    "fr": "Culte IV",
+    "fr-CA": "Secte IV",
+    "it": "Culto IV",
+    "ja": "教団 IV",
+    "ko": "교단 IV",
+    "nl": "Sekte IV",
+    "pt-BR": "Culto IV",
+    "ru": "Поселение IV",
+    "tr": "Tarikat IV",
+    "zh-CN": "圣教 IV",
+    "zh-TW": "聖教 IV"
+  },
+  "namePlain": {
     "ar": "الطائفة IV",
     "de": "Tempel IV",
     "en": "Cult IV",

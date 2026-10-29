@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "DragonThree",
   "name": {
+    "en": "DragonThree"
+  },
+  "namePlain": {
     "en": "DragonThree"
   },
   "unlock": "Dungeon6"

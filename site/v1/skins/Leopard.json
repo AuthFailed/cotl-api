@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Leopard",
   "name": {
+    "en": "Leopard"
+  },
+  "namePlain": {
     "en": "Leopard"
   },
   "unlock": "Dungeon5"

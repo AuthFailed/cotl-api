@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "血红色水晶，闻起来有铁的味道……",
     "zh-TW": "血紅色水晶，聞起來有鐵的味道……"
   },
+  "descriptionPlain": {
+    "ar": "بلورة لونها أحمر دموي. تفوح منها راحة الحديد...",
+    "de": "Ein blutroter Kristall. Riecht nach Eisen …",
+    "en": "A blood-red crystal. Smells of iron...",
+    "es": "Un cristal carmesí. Huele a hierro...",
+    "fr": "Un cristal rouge sang, avec une légère odeur de fer...",
+    "fr-CA": "Un cristal rouge sang, avec une légère odeur de fer...",
+    "it": "Un cristallo rosso sangue. Ha un vago odore ferroso...",
+    "ja": "血のように赤いクリスタル。鉄のにおいがする…",
+    "ko": "피처럼 붉은 수정입니다. 쇠 냄새가 납니다...",
+    "nl": "Een bloedrood kristal. Stinkt naar ijzer...",
+    "pt-BR": "Um cristal vermelho como sangue. Tem cheiro de ferro...",
+    "ru": "Кроваво-красный кристалл, пахнущий железом.",
+    "tr": "Kan kırmızısı bir kristal. Demir kokuyor.",
+    "zh-CN": "血红色水晶，闻起来有铁的味道……",
+    "zh-TW": "血紅色水晶，聞起來有鐵的味道……"
+  },
   "icon": "icons/structures/DECORATION_OLDFAITH_CRYSTAL.png",
   "id": "DECORATION_OLDFAITH_CRYSTAL",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "الجوهرة الدموية",
+    "de": "Edelstein des Blutes",
+    "en": "Gem of Gore",
+    "es": "Gema crúor",
+    "fr": "Gemme de sang",
+    "fr-CA": "Gemme de sang",
+    "it": "Gemma della violenza",
+    "ja": "血の宝石",
+    "ko": "선혈의 보석",
+    "nl": "Bloederige steen",
+    "pt-BR": "Gema da Sanguinolência",
+    "ru": "Кристалл расчленения",
+    "tr": "Kan Mücevheri",
+    "zh-CN": "血腥宝石",
+    "zh-TW": "血腥寶石"
+  },
+  "namePlain": {
     "ar": "الجوهرة الدموية",
     "de": "Edelstein des Blutes",
     "en": "Gem of Gore",

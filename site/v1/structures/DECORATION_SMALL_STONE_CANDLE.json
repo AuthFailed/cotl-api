@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "放着一根蜡烛的古老石头",
     "zh-TW": "放著一根蠟燭的古老石頭"
   },
+  "descriptionPlain": {
+    "ar": "حجر قديم يحوي شمعة واحدة.",
+    "de": "Ein uralter Stein mit einer einzelnen Kerze.",
+    "en": "An ancient stone holding a single candle.",
+    "es": "Una piedra ancestral que sujeta una vela.",
+    "fr": "Une vieille pierre abritant une bougie.",
+    "fr-CA": "Une vieille pierre abritant une bougie.",
+    "it": "Un'antica pietra che alloggia una singola candela.",
+    "ja": "小さなロウソクの入った石",
+    "ko": "양초를 하나 올려놓은 고대의 돌입니다.",
+    "nl": "Een eeuwenoude steen met één kaars.",
+    "pt-BR": "Uma pedra antiga com uma única vela",
+    "ru": "Небольшой камень с одной свечой.",
+    "tr": "İçinde tek bir mum olan kadim bir taş.",
+    "zh-CN": "放着一根蜡烛的古老石头",
+    "zh-TW": "放著一根蠟燭的古老石頭"
+  },
   "icon": "icons/structures/DECORATION_SMALL_STONE_CANDLE.png",
   "id": "DECORATION_SMALL_STONE_CANDLE",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "شمعة الحجر الصغير",
+    "de": "Kleine Steinkerze",
+    "en": "Small Stone Candle",
+    "es": "Vela de piedra pequeña",
+    "fr": "Bougeoir en pierre",
+    "fr-CA": "Bougeoir en pierre",
+    "it": "Pietra con nicchia per candela",
+    "ja": "ストーンキャンドル（小）",
+    "ko": "소형 석재 촛대",
+    "nl": "Kaars op een kleine steen",
+    "pt-BR": "Pequeno Castiçal de Pedra",
+    "ru": "Свеча на камне",
+    "tr": "Mumlu Küçük Taş",
+    "zh-CN": "小型岩石烛台",
+    "zh-TW": "小型岩石燭臺"
+  },
+  "namePlain": {
     "ar": "شمعة الحجر الصغير",
     "de": "Kleine Steinkerze",
     "en": "Small Stone Candle",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "将肥料放在这里供教徒在农地上使用",
     "zh-TW": "將肥料放在這裡供教徒用在農地上"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك وضع السماد هنا ليستخدمه أتباعك في المزارع.",
+    "de": "Lagere hier Dünger, den deine Anhänger auf den Ackerparzellen nutzen können.",
+    "en": "Put fertiliser here for your Followers to use on Farm Plots.",
+    "es": "Mete fertilizante para que tus adeptos lo usen en las parcelas.",
+    "fr": "Placez du fertilisant ici pour que vos adeptes l'utilisent sur les parcelles agricoles.",
+    "fr-CA": "Placez du fertilisant ici pour que vos adeptes l'utilisent sur les parcelles agricoles.",
+    "it": "Qui puoi depositare il concime che i membri del Culto spanderanno sugli Appezzamenti.",
+    "ja": "ここに保管した肥料は、信者が農作地で活用してくれる",
+    "ko": "추종자들이 밭 경작지에 사용할 퇴비를 저장합니다.",
+    "nl": "Bewaar hier mest die je volgelingen kunnen gebruiken op landbouwpercelen.",
+    "pt-BR": "Coloque fertilizantes aqui para seus Seguidores usá-los em Terrenos Agrícolas",
+    "ru": "Место для хранения удобрений, которые фермеры используют на участках земли.",
+    "tr": "Takipçilerinin Tarlalarda kullanması için buraya gübre koy.",
+    "zh-CN": "将肥料放在这里供教徒在农地上使用",
+    "zh-TW": "將肥料放在這裡供教徒用在農地上"
+  },
   "icon": "icons/structures/SILO_FERTILISER.png",
   "id": "SILO_FERTILISER",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "مخزن السماد",
+    "de": "Düngersilo",
+    "en": "Fertiliser Silo",
+    "es": "Silo de fertilizante",
+    "fr": "Silo à fertilisant",
+    "fr-CA": "Silo à fertilisant",
+    "it": "Silo di concime",
+    "ja": "肥料サイロ",
+    "ko": "퇴비 저장고",
+    "nl": "Mestsilo",
+    "pt-BR": "Silo de Fertilizantes",
+    "ru": "Хранилище удобрений",
+    "tr": "Gübre Ambarı",
+    "zh-CN": "肥料储仓",
+    "zh-TW": "肥料儲倉"
+  },
+  "namePlain": {
     "ar": "مخزن السماد",
     "de": "Düngersilo",
     "en": "Fertiliser Silo",

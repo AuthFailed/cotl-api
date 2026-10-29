@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Mammoth",
   "name": {
+    "en": "Mammoth"
+  },
+  "namePlain": {
     "en": "Mammoth"
   },
   "unlock": "Dungeon5"

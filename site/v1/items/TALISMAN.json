@@ -17,6 +17,23 @@
     "zh-CN": "能在圣殿祭坛解锁新<color=#FFD201>毛纺</color>的神秘古物。",
     "zh-TW": "能在聖殿祭壇解鎖新<color=#FFD201>毛紡</color>的神祕古物。"
   },
+  "descriptionPlain": {
+    "ar": "آثار غامضة تفتح أردية جديدة من منصة مجمعك.",
+    "de": "Mystische Relikte, die neue Vliese am Altar deines Tempels freischalten können.",
+    "en": "Mystical relics that can unlock new Fleeces from the Altar in your Temple.",
+    "es": "Las reliquias místicas pueden desbloquear nuevos vellocinos en el altar de tu templo.",
+    "fr": "Les reliques mystiques permettent de débloquer de nouvelles pelisses sur l'Autel du Temple.",
+    "fr-CA": "Les reliques mystiques permettent de débloquer de nouvelles toisons sur l'Autel du Temple.",
+    "it": "Reliquie mistiche che possono sbloccare nuovi velli all'altare del Tempio.",
+    "ja": "神秘の込められた遺物。教会堂内の講壇にて、新たな羊毛をアンロックできる",
+    "ko": "신비로운 유물은 사원의 제단에서 새로운 양털을 해금할 수 있게 해줍니다.",
+    "nl": "Met mystieke relikwieën kun je nieuwe vachten ontgrendelen bij de kansel in je tempel.",
+    "pt-BR": "Relíquias Místicas que podem debloquear novas Lãs no Altar do seu Templo.",
+    "ru": "Древняя реликвия, которая позволяет открывать новые руна в храме.",
+    "tr": "Tapınak'taki Sunak'tan yeni Postlar açmak için kullanabileceğin mistik yadigârlar.",
+    "zh-CN": "能在圣殿祭坛解锁新毛纺的神秘古物。",
+    "zh-TW": "能在聖殿祭壇解鎖新毛紡的神祕古物。"
+  },
   "icon": "icons/items/TALISMAN.png",
   "id": "TALISMAN",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kutsal Tılsım",
     "zh-CN": "神圣护身符",
     "zh-TW": "神聖護身符"
-  }
+  },
+  "namePlain": {
+    "ar": "تميمة عظيمة",
+    "de": "Heiliger Talisman",
+    "en": "Holy Talisman",
+    "es": "Talismán sagrado",
+    "fr": "Talisman sacré",
+    "fr-CA": "Talisman sacré",
+    "it": "Talismano sacro",
+    "ja": "聖なる魔除け",
+    "ko": "성스러운 부적",
+    "nl": "Heilige talisman",
+    "pt-BR": "Talismã Sagrado",
+    "ru": "Священный талисман",
+    "tr": "Kutsal Tılsım",
+    "zh-CN": "神圣护身符",
+    "zh-TW": "神聖護身符"
+  },
+  "tags": []
 }

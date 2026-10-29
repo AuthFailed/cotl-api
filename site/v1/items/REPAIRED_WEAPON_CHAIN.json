@@ -3,9 +3,16 @@
   "description": {
     "en": "This weapon will not reach its full potential until it is brought to <color=#FFD201>Kudaai</color>."
   },
+  "descriptionPlain": {
+    "en": "This weapon will not reach its full potential until it is brought to Kudaai."
+  },
   "icon": "icons/items/REPAIRED_WEAPON_CHAIN.png",
   "id": "REPAIRED_WEAPON_CHAIN",
   "name": {
     "en": "Yngya's Torment"
-  }
+  },
+  "namePlain": {
+    "en": "Yngya's Torment"
+  },
+  "tags": []
 }

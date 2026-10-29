@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Lizard",
   "name": {
+    "en": "Lizard"
+  },
+  "namePlain": {
     "en": "Lizard"
   },
   "unlock": "Dungeon6"

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "FLOWER_RED",
@@ -22,9 +24,44 @@
     "zh-CN": "装满花朵的玻璃瓶",
     "zh-TW": "裝滿花朵的玻璃瓶"
   },
+  "descriptionPlain": {
+    "ar": "قارورة زجاجية مليئة بالزهور.",
+    "de": "Eine Glasflasche mit Blumen.",
+    "en": "A glass bottle filled with flowers.",
+    "es": "Una botella de cristal llena de flores.",
+    "fr": "Une petite bouteille fleurie.",
+    "fr-CA": "Une petite bouteille fleurie.",
+    "it": "Una bottiglia di vetro piena di fiori.",
+    "ja": "中に花が入ったガラス瓶",
+    "ko": "꽃으로 채워진 유리병입니다.",
+    "nl": "Een glazen fles vol bloemen.",
+    "pt-BR": "Uma garrafa de vidro cheia de flores",
+    "ru": "Стеклянная бутыль, наполненная цветами.",
+    "tr": "Çiçeklerle dolu cam bir şişe.",
+    "zh-CN": "装满花朵的玻璃瓶",
+    "zh-TW": "裝滿花朵的玻璃瓶"
+  },
   "icon": "icons/structures/DECORATION_FLOWER_BOTTLE.png",
   "id": "DECORATION_FLOWER_BOTTLE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "قارورة زهور",
+    "de": "Blumenflasche",
+    "en": "Flower Bottle",
+    "es": "Botella de flores",
+    "fr": "Fleurs en bouteille",
+    "fr-CA": "Fleurs en bouteille",
+    "it": "Bottiglia fiorita",
+    "ja": "花入りボトル",
+    "ko": "꽃 병",
+    "nl": "Bloemenfles",
+    "pt-BR": "Garrafa de Flores",
+    "ru": "Бутыль с цветами",
+    "tr": "Çiçek Şişesi",
+    "zh-CN": "瓶中花",
+    "zh-TW": "瓶中花"
+  },
+  "namePlain": {
     "ar": "قارورة زهور",
     "de": "Blumenflasche",
     "en": "Flower Bottle",

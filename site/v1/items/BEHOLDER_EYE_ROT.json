@@ -17,6 +17,23 @@
     "zh-CN": "可拿给<color=yellow>普霖波</color>换取奖励。",
     "zh-TW": "可拿給<color=yellow>普霖波</color>換取獎勵。"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك أخذها إلى بليمبو للحصول على مكافأة.",
+    "de": "Bringst du es zu Plimbo, erhältst du eine Belohnung.",
+    "en": "Take this to Plimbo for a reward.",
+    "es": "Llévale esto a Plimbo y consigue una recompensa.",
+    "fr": "À apporter à Plimbo pour recevoir une récompense.",
+    "fr-CA": "À apporter à Plimbo pour recevoir une récompense.",
+    "it": "Consegnalo a Plimbo per ricevere una ricompensa.",
+    "ja": "プリンボに渡すことで報酬がもらえる",
+    "ko": "플림보에게 들고가면 보상을 얻습니다.",
+    "nl": "Breng dit naar Plimbo voor een beloning.",
+    "pt-BR": "Leve isso para o Plimbo e ganhe uma recompensa.",
+    "ru": "Вещь, за которую Плимбо даёт награду.",
+    "tr": "Ödül için bunu Plimbo'ya götür.",
+    "zh-CN": "可拿给普霖波换取奖励。",
+    "zh-TW": "可拿給普霖波換取獎勵。"
+  },
   "icon": "icons/items/BEHOLDER_EYE_ROT.png",
   "id": "BEHOLDER_EYE_ROT",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Şahidin Çürük Gözü",
     "zh-CN": "腐烂见证者之眼",
     "zh-TW": "腐爛的見證者之眼"
-  }
+  },
+  "namePlain": {
+    "ar": "عين الشاهد الفاسدة",
+    "de": "Fauliges Auge des Zeugen",
+    "en": "Rotten Eye of the Witness",
+    "es": "Ojo de testigo putrefacto",
+    "fr": "Œil de Témoin putréfié",
+    "fr-CA": "Œil de Témoin putréfié",
+    "it": "Occhio marcio di Testimone",
+    "ja": "腐敗した魔眼",
+    "ko": "목격자의 부패한 눈",
+    "nl": "Verrot oog van de getuige",
+    "pt-BR": "Olho da Testemunha Putrefato",
+    "ru": "Гниющий глаз свидетеля",
+    "tr": "Şahidin Çürük Gözü",
+    "zh-CN": "腐烂见证者之眼",
+    "zh-TW": "腐爛的見證者之眼"
+  },
+  "tags": []
 }

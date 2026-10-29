@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Lamb",
   "name": {
+    "en": "Lamb"
+  },
+  "namePlain": {
     "en": "Lamb"
   },
   "unlock": "Other"

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -22,9 +24,44 @@
     "zh-CN": "绿意盎然的藤蔓制成的五朔柱",
     "zh-TW": "綠意盎然的藤蔓製成的五朔柱"
   },
+  "descriptionPlain": {
+    "ar": "سارية من الأغصان الخضراء النضرة.",
+    "de": "Ein Maibaum aus blühenden grünen Ranken.",
+    "en": "A maypole of vivid green vines.",
+    "es": "Un poste de enredaderas muy verdes.",
+    "fr": "Une sculpture de vignes vertes.",
+    "fr-CA": "Une sculpture de vignes vertes.",
+    "it": "Un albero della cuccagna realizzato con verdi viti.",
+    "ja": "鮮やかな緑色のツタで作られたメイポール",
+    "ko": "생생한 푸른 덩굴의 기둥입니다.",
+    "nl": "Een meiboom van levendige groene klimplanten.",
+    "pt-BR": "Um mastro de trepadeiras verdes e vibrantes",
+    "ru": "Украшение из зелёной лозы.",
+    "tr": "Canlı yeşil sarmaşıklarla kaplı bir direk.",
+    "zh-CN": "绿意盎然的藤蔓制成的五朔柱",
+    "zh-TW": "綠意盎然的藤蔓製成的五朔柱"
+  },
   "icon": "icons/structures/DECORATION_LEAFY_SCULPTURE.png",
   "id": "DECORATION_LEAFY_SCULPTURE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "سارية الأغصان المورقة",
+    "de": "Blättrige Skulptur",
+    "en": "Leafy Sculpture",
+    "es": "Escultura frondosa",
+    "fr": "Sculpture végétale",
+    "fr-CA": "Sculpture végétale",
+    "it": "Scultura rigogliosa",
+    "ja": "リーフモニュメント",
+    "ko": "잎이 무성한 조각상",
+    "nl": "Beeld van bladeren",
+    "pt-BR": "Escultura Frondosa",
+    "ru": "Столб с листьями",
+    "tr": "Yaprak Kaplı Heykel",
+    "zh-CN": "叶子雕塑品",
+    "zh-TW": "葉子雕塑品"
+  },
+  "namePlain": {
     "ar": "سارية الأغصان المورقة",
     "de": "Blättrige Skulptur",
     "en": "Leafy Sculpture",

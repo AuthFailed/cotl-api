@@ -17,6 +17,23 @@
     "zh-CN": "富有营养，还留有些许温度。",
     "zh-TW": "營養豐富，還有些許餘溫。"
   },
+  "descriptionPlain": {
+    "ar": "مغذٍ ولا يزال فاترًا.",
+    "de": "Nahrhaft und noch ein bisschen warm.",
+    "en": "Nourishing and still slightly warm.",
+    "es": "Calentita y llena de nutrientes.",
+    "fr": "Nourrissant, et encore tiède.",
+    "fr-CA": "Nourrissant, et encore tiède.",
+    "it": "Nutriente e ancora tiepido.",
+    "ja": "栄養満点の飲み物。まだ少し温かい",
+    "ko": "영양가 넘치는 액체. 아직 따뜻합니다.",
+    "nl": "Voedzaam en nog een beetje warm.",
+    "pt-BR": "Nutritivo e ainda morno.",
+    "ru": "Питательный напиток, всё ещё хранящий тепло.",
+    "tr": "Besleyici ve biraz ılık.",
+    "zh-CN": "富有营养，还留有些许温度。",
+    "zh-TW": "營養豐富，還有些許餘溫。"
+  },
   "icon": "icons/items/MILK.png",
   "id": "MILK",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Süt",
     "zh-CN": "牛奶",
     "zh-TW": "牛奶"
-  }
+  },
+  "namePlain": {
+    "ar": "حليب",
+    "de": "Milch",
+    "en": "Milk",
+    "es": "Leche",
+    "fr": "Lait",
+    "fr-CA": "Lait",
+    "it": "Latte",
+    "ja": "ミルク",
+    "ko": "우유",
+    "nl": "Melk",
+    "pt-BR": "Leite",
+    "ru": "Молоко",
+    "tr": "Süt",
+    "zh-CN": "牛奶",
+    "zh-TW": "牛奶"
+  },
+  "tags": []
 }

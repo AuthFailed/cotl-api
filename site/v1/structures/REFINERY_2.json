@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "将资源圣化为：<sprite name=\"icon_LogRefined\"><sprite name=\"icon_StoneRefined\"><sprite name=\"icon_GoldRefined\">",
     "zh-TW": "將資源聖化為：<sprite name=\"icon_LogRefined\"> <sprite name=\"icon_StoneRefined\"> <sprite name=\"icon_GoldRefined\">"
   },
+  "descriptionPlain": {
+    "ar": "لتحويل الموارد إلى:",
+    "de": "Weihe Ressourcen ein zu:",
+    "en": "Consecrate resources into:",
+    "es": "Consagra recursos para:",
+    "fr": "Permet de créer les ressources sacrées suivantes:",
+    "fr-CA": "Permet de créer les ressources sacrées suivantes:",
+    "it": "Consacra le risorse e le trasforma in:.",
+    "ja": "資源を聖別して を精錬できる",
+    "ko": "자원을 다음의 자원으로 변경시킵니다:",
+    "nl": "Wijd grondstoffen in en verander ze in:",
+    "pt-BR": "Consagre recursos para:",
+    "ru": "Место, где последователи могут превращать материалы в, и.",
+    "tr": "Kaynakları şuna dönüştür:",
+    "zh-CN": "将资源圣化为：",
+    "zh-TW": "將資源聖化為："
+  },
   "icon": "icons/structures/REFINERY_2.png",
   "id": "REFINERY_2",
+  "menu": "Follower/Items",
   "name": {
+    "ar": "وحدة المعالجة II",
+    "de": "Raffinerie II",
+    "en": "Refinery II",
+    "es": "Refinería II",
+    "fr": "Raffinerie II",
+    "fr-CA": "Raffinerie II",
+    "it": "Raffineria II",
+    "ja": "精錬所 II",
+    "ko": "정제소 II",
+    "nl": "Raffinaderij II",
+    "pt-BR": "Refinaria II",
+    "ru": "Святилище II",
+    "tr": "Rafineri II",
+    "zh-CN": "圣化台 II",
+    "zh-TW": "聖化台 II"
+  },
+  "namePlain": {
     "ar": "وحدة المعالجة II",
     "de": "Raffinerie II",
     "en": "Refinery II",

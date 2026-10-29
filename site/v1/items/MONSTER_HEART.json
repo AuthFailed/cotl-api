@@ -17,6 +17,23 @@
     "zh-CN": "能在圣殿祭坛解锁新<color=#FFD201>圣冠能力</color>的不洁之心。",
     "zh-TW": "能在聖殿祭壇解鎖新<color=#FFD201>聖冠能力</color>的不潔之心。"
   },
+  "descriptionPlain": {
+    "ar": "قلوب قاسية تفتح قدرات تاج جديدة من منصة مجمعك.",
+    "de": "Unheilige Herzen, die neue Kronenfähigkeiten am Altar deines Tempels freischalten können.",
+    "en": "Unholy hearts that can unlock new Crown Abilities from the Altar in your Temple.",
+    "es": "Los corazones impíos pueden desbloquear nuevos poderes de la corona en el altar de tu templo.",
+    "fr": "Les cœurs impies permettent de débloquer de nouveaux Pouvoirs de la Couronne sur l'Autel du Temple.",
+    "fr-CA": "Les cœurs impies permettent de débloquer de nouveaux Pouvoirs de la Couronne sur l'Autel du Temple.",
+    "it": "Cuori empi che possono sbloccare nuove Abilità della Corona all'altare del Tempio.",
+    "ja": "不浄なる心臓。教会堂内の講壇にて、新たな王冠の権能をアンロックするのに必要",
+    "ko": "불경한 심장은 사원의 제단에서 새로운 왕관 능력을 해금할 수 있게 해줍니다.",
+    "nl": "Met heidense harten kun je nieuwe kroonkrachten ontgrendelen bij de kansel in je tempel.",
+    "pt-BR": "Corações profanos que podem debloquear novas Habilidades da Coroa no Altar do seu Templo.",
+    "ru": "Порочное сердце, которое позволяет открывать новые способности короны в храме.",
+    "tr": "Tapınak'taki Sunak'tan yeni Taç Yetenekleri açmak için kullanabileceğin habis kalpler.",
+    "zh-CN": "能在圣殿祭坛解锁新圣冠能力的不洁之心。",
+    "zh-TW": "能在聖殿祭壇解鎖新聖冠能力的不潔之心。"
+  },
   "icon": "icons/items/MONSTER_HEART.png",
   "id": "MONSTER_HEART",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Sapkın Kalbi",
     "zh-CN": "异教徒之心",
     "zh-TW": "異教徒之心"
-  }
+  },
+  "namePlain": {
+    "ar": "قلب منشق",
+    "de": "Herz eines Ketzers",
+    "en": "Heart of a Heretic",
+    "es": "Corazón de hereje",
+    "fr": "Cœur d'hérétique",
+    "fr-CA": "Cœur d'hérétique",
+    "it": "Cuore eretico",
+    "ja": "異端者の心臓",
+    "ko": "이단의 심장",
+    "nl": "Hart van een ketter",
+    "pt-BR": "Coração de Herege",
+    "ru": "Сердце еретика",
+    "tr": "Sapkın Kalbi",
+    "zh-CN": "异教徒之心",
+    "zh-TW": "異教徒之心"
+  },
+  "tags": []
 }

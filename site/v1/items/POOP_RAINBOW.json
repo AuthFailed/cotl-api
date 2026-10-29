@@ -17,6 +17,23 @@
     "zh-CN": "施肥后，作物立即生长完毕。",
     "zh-TW": "施肥後，作物立即生長完畢。"
   },
+  "descriptionPlain": {
+    "ar": "المحاصيل التي تُزرع باستخدامه تنمو على الفور.",
+    "de": "Damit gedüngte Feldfrüchte wachsen sofort.",
+    "en": "Crops grown with this will grow instantly.",
+    "es": "Los cultivos en los que se use esto crecerán de inmediato.",
+    "fr": "Les plantations fertilisées avec ceci poussent instantanément.",
+    "fr-CA": "Les plantations fertilisées avec ceci poussent instantanément.",
+    "it": "Le colture cresceranno in un battibaleno.",
+    "ja": "これを使って育てた作物は成長が早い",
+    "ko": "이 거름을 먹고 자란 곡식은 즉시 성장합니다.",
+    "nl": "Zaden gezaaid op deze mest groeien direct uit tot gewassen.",
+    "pt-BR": "Plantações cultivadas com isto crescerão instantaneamente.",
+    "ru": "Удобрение, заставляющее посевы взойти моментально.",
+    "tr": "Bununla yetişen mahsuller anında büyür.",
+    "zh-CN": "施肥后，作物立即生长完毕。",
+    "zh-TW": "施肥後，作物立即生長完畢。"
+  },
   "icon": "icons/items/POOP_RAINBOW.png",
   "id": "POOP_RAINBOW",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Gökkuşağı Gübre",
     "zh-CN": "彩虹肥料",
     "zh-TW": "彩虹肥料"
-  }
+  },
+  "namePlain": {
+    "ar": "سماد ملون",
+    "de": "Regenbogen-Dünger",
+    "en": "Rainbow Fertiliser",
+    "es": "Fertilizante arcoíris",
+    "fr": "Fertilisant arc-en-ciel",
+    "fr-CA": "Fertilisant arc-en-ciel",
+    "it": "Concime arcobaleno",
+    "ja": "虹色の肥料",
+    "ko": "무지개 퇴비",
+    "nl": "Regenboogmest",
+    "pt-BR": "Fertilizante de Arco-Íris",
+    "ru": "Радужное удобрение",
+    "tr": "Gökkuşağı Gübre",
+    "zh-CN": "彩虹肥料",
+    "zh-TW": "彩虹肥料"
+  },
+  "tags": []
 }

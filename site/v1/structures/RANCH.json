@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -22,9 +24,44 @@
     "zh-CN": "在教会中饲育动物。结合<color=#FFD201>牧场栅栏</color>使用，牧场栅栏需要占据 <color=#FFD201>8</color> 个空格子。",
     "zh-TW": "在教會中飼育動物。可與<color=#FFD201>牧場柵欄</color>搭配使用，建造牧場柵欄需要 <color=#FFD201>8</color> 格空白方塊。"
   },
+  "descriptionPlain": {
+    "ar": "يُخصص لتربية حيوانات في طائفتك والاحتفاظ بها. يُستخدم مع سياج مَربى الحيوانات الذي يتطلب 8 بلاطات فارغة.",
+    "de": "Züchte und halte Tiere in deinem Kult. Funktioniert zusammen mit dem Ranchzaun, der 8 leere Felder benötigt.",
+    "en": "Raise and keep animals in your Cult. Works together with the Ranch Fence, which requires 8 empty tiles.",
+    "es": "Cría y da cobijo a animales en tu secta. Si no quieres que se escapen, construye una valla (ocupa 8 baldosas vacías).",
+    "fr": "Gardez et élevez des animaux dans votre culte. Fonctionne avec la clôture du ranch, qui requiert 8 cases vides.",
+    "fr-CA": "Gardez et élevez des animaux au sein de votre secte. Fonctionne avec la clôture du ranch, qui requiert 8 cases vides.",
+    "it": "Vi si allevano gli animali del Culto. Funziona insieme alla Recinzione, che richiede 8 caselle vuote.",
+    "ja": "教団内で動物を育てるための場所。畜舎用囲いを一緒に設置できるが、その場合は何もないタイルが8個必要",
+    "ko": "교단에서 동물을 두고 기를 수 있습니다. 목장 울타리와 함께 작동하며, 빈 타일 8개가 필요합니다.",
+    "nl": "Met dit gebouw kun je dieren in je sekte houden. Werkt samen met het veehek, dat 8 lege tegels vereist.",
+    "pt-BR": "Crie e mantenha animais em seu Culto. Funciona com a Cerca de Rancho, que requer 8 ladrilhos vazios.",
+    "ru": "Место для содержания животных. Для установки ограды требуется 8 пустых клеток.",
+    "tr": "Tarikat'ında hayvan yetiştirmeye ve bakmaya yarar. 8 boş kare gerektiren Hayvan Çiftliği Çiti ile birlikte çalışır.",
+    "zh-CN": "在教会中饲育动物。结合牧场栅栏使用，牧场栅栏需要占据 8 个空格子。",
+    "zh-TW": "在教會中飼育動物。可與牧場柵欄搭配使用，建造牧場柵欄需要 8 格空白方塊。"
+  },
   "icon": "icons/structures/RANCH.png",
   "id": "RANCH",
+  "menu": "MajorDLC/Ranching",
   "name": {
+    "ar": "مَربى الحيوانات",
+    "de": "Ranch",
+    "en": "Ranch",
+    "es": "Rancho",
+    "fr": "Ranch",
+    "fr-CA": "Ranch",
+    "it": "Allevamento",
+    "ja": "畜舎",
+    "ko": "목장",
+    "nl": "Veeboerderij",
+    "pt-BR": "Rancho",
+    "ru": "Хлев",
+    "tr": "Hayvan Çiftliği",
+    "zh-CN": "牧场",
+    "zh-TW": "牧場"
+  },
+  "namePlain": {
     "ar": "مَربى الحيوانات",
     "de": "Ranch",
     "en": "Ranch",

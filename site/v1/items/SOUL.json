@@ -17,6 +17,23 @@
     "zh-CN": "一教之主的货币。",
     "zh-TW": "一教之主的貨幣。"
   },
+  "descriptionPlain": {
+    "ar": "رأس مال قادة الطوائف.",
+    "de": "Die Währung der Kultführer.",
+    "en": "The currency of Cult leaders.",
+    "es": "La moneda de los líderes de sectas.",
+    "fr": "Votre ressource la plus précieuse.",
+    "fr-CA": "Votre ressource la plus précieuse.",
+    "it": "La valuta dei leader di un culto.",
+    "ja": "教団の教祖が扱う通貨",
+    "ko": "교주가 사용하는 재화입니다.",
+    "nl": "Het betaalmiddel van sekteleiders.",
+    "pt-BR": "A moeda dos líderes de Cultos.",
+    "ru": "То, в чём оценивается влияние духовных вождей.",
+    "tr": "Tarikat önderlerinin para birimi.",
+    "zh-CN": "一教之主的货币。",
+    "zh-TW": "一教之主的貨幣。"
+  },
   "icon": "icons/items/SOUL.png",
   "id": "SOUL",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Sadakat",
     "zh-CN": "虔诚",
     "zh-TW": "虔誠"
-  }
+  },
+  "namePlain": {
+    "ar": "الولاء",
+    "de": "Hingabe",
+    "en": "Devotion",
+    "es": "Devoción",
+    "fr": "Dévotion",
+    "fr-CA": "Dévotion",
+    "it": "Devozione",
+    "ja": "祈念",
+    "ko": "헌신",
+    "nl": "Devotie",
+    "pt-BR": "Devoção",
+    "ru": "Преданность",
+    "tr": "Sadakat",
+    "zh-CN": "虔诚",
+    "zh-TW": "虔誠"
+  },
+  "tags": []
 }

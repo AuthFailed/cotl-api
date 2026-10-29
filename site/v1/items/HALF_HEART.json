@@ -1,6 +1,7 @@
 {
   "category": "NONE",
   "description": {},
+  "descriptionPlain": {},
   "icon": "icons/items/HALF_HEART.png",
   "id": "HALF_HEART",
   "name": {
@@ -19,5 +20,25 @@
     "tr": "Yarım Kırmızı Kalp",
     "zh-CN": "半颗红心",
     "zh-TW": "半顆紅心"
-  }
+  },
+  "namePlain": {
+    "ar": "نصف قلب أحمر",
+    "de": "Halbes rotes Herz",
+    "en": "Half Red Heart",
+    "es": "Medio corazón rojo",
+    "fr": "Demi-cœur rouge",
+    "fr-CA": "Demi-cœur rouge",
+    "it": "Mezzo cuore rosso",
+    "ja": "レッドハート（半）",
+    "ko": "붉은 심장 반쪽",
+    "nl": "Half rood hart",
+    "pt-BR": "Meio Coração Vermelho",
+    "ru": "Половина красного сердца",
+    "tr": "Yarım Kırmızı Kalp",
+    "zh-CN": "半颗红心",
+    "zh-TW": "半顆紅心"
+  },
+  "tags": [
+    "heart"
+  ]
 }

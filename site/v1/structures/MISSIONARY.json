@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "派你的教徒展开神圣任务，收集资源。前提是教徒能活着回来……",
     "zh-TW": "派你的教徒展開神聖任務，收集資源，前提是教徒能活著回來……"
   },
+  "descriptionPlain": {
+    "ar": "يمكنك إرسال أتباعك في مهمة عظيمة ليجمعوا الموارد. إن عادوا أحياء بالطبع...",
+    "de": "Schicke deine Anhänger auf eine heilige Mission, um Ressourcen zu sammeln. Nun, falls sie es lebendig zurückschaffen...",
+    "en": "Send your Followers on a holy quest to gather resources. That is, if they make it back alive...",
+    "es": "Encarga a tus adeptos misiones sagradas para que recolecten provisiones. Eso si vuelven con vida...",
+    "fr": "Envoyez vos adeptes collecter des ressources. Du moins, s'ils reviennent en vie...",
+    "fr-CA": "Envoyez vos adeptes collecter des ressources. En espérant qu'ils reviennent en vie...",
+    "it": "Invia i membri del Culto in una missione sacra per recuperare risorse. Sempre che riescano a tornare vivi...",
+    "ja": "信者を聖なる宣教の使命へと派遣することで、様々な資源を集めることができる。もちろん、無事に生きて戻ってくればの話だが",
+    "ko": "추종자들을 신성한 임무에 파견해 자원을 모으게 합니다. 물론 돌아올 수 있을 때의 이야기지만...",
+    "nl": "Stuur je volgelingen op een heilige zendingsreis om grondstoffen te verzamelen. Nu maar hopen dat ze het overleven en terugkomen...",
+    "pt-BR": "Envie seus Seguidores em tarefas sagradas para coletar recursos. Isso se conseguirem voltar com vida.",
+    "ru": "Здание, где можно снарядить в путь последователя. Миссионеры возвращаются с добычей — если выживают.",
+    "tr": "Kutsal göreve gönderdiğin Takipçiler kaynaklarla geri döner. Tabii hayatta kalabilirlerse...",
+    "zh-CN": "派你的教徒展开神圣任务，收集资源。前提是教徒能活着回来……",
+    "zh-TW": "派你的教徒展開神聖任務，收集資源，前提是教徒能活著回來……"
+  },
   "icon": "icons/structures/MISSIONARY.png",
   "id": "MISSIONARY",
+  "menu": "Faith/General",
   "name": {
+    "ar": "مبنى البعثات",
+    "de": "Missionar",
+    "en": "Missionary",
+    "es": "Misionero",
+    "fr": "Poste de mission",
+    "fr-CA": "Poste de mission",
+    "it": "Missione",
+    "ja": "宣教師",
+    "ko": "선교사",
+    "nl": "Zendingshuis",
+    "pt-BR": "Missionário",
+    "ru": "Домик миссионера",
+    "tr": "Misyoner Binası",
+    "zh-CN": "传教团",
+    "zh-TW": "傳教團"
+  },
+  "namePlain": {
     "ar": "مبنى البعثات",
     "de": "Missionar",
     "en": "Missionary",

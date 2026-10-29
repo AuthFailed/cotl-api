@@ -1,6 +1,7 @@
 {
   "category": "NONE",
   "description": {},
+  "descriptionPlain": {},
   "icon": "icons/items/RED_HEART.png",
   "id": "RED_HEART",
   "name": {
@@ -19,5 +20,25 @@
     "tr": "Kırmızı Kalp",
     "zh-CN": "红心",
     "zh-TW": "紅心"
-  }
+  },
+  "namePlain": {
+    "ar": "قلب أحمر",
+    "de": "Rotes Herz",
+    "en": "Red Heart",
+    "es": "Corazón rojo",
+    "fr": "Cœur rouge",
+    "fr-CA": "Cœur rouge",
+    "it": "Cuore rosso",
+    "ja": "レッドハート",
+    "ko": "붉은 심장",
+    "nl": "Rood hart",
+    "pt-BR": "Coração Vermelho",
+    "ru": "Красное сердце",
+    "tr": "Kırmızı Kalp",
+    "zh-CN": "红心",
+    "zh-TW": "紅心"
+  },
+  "tags": [
+    "heart"
+  ]
 }

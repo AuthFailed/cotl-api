@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Poppy",
   "name": {
+    "en": "Poppy"
+  },
+  "namePlain": {
     "en": "Poppy"
   },
   "unlock": "Dungeon1"

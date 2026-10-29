@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [],
   "description": {
     "ar": "يمكن وضع تقدمات هنا لاستبدال عناصر بها...",
@@ -17,9 +19,44 @@
     "zh-CN": "放置贡品，换取物品……",
     "zh-TW": "放上供品，換取物品……"
   },
+  "descriptionPlain": {
+    "ar": "يمكن وضع تقدمات هنا لاستبدال عناصر بها...",
+    "de": "Platziere Opfer, damit du etwas erhältst …",
+    "en": "Place offerings for something to claim...",
+    "es": "Deja una ofrenda y aguarda a que alguien o algo la reclame.",
+    "fr": "Placez des offrandes. Quelque chose viendra s'en emparer...",
+    "fr-CA": "Placez des offrandes. Quelque chose viendra s'en emparer...",
+    "it": "Porta delle offerte per avere qualcosa in cambio...",
+    "ja": "何かを授かるために、供物を捧げよう…",
+    "ko": "여기에 공물을 바쳐 원하는 바를 이루세요...",
+    "nl": "Plaats offers om iets te claimen...",
+    "pt-BR": "Coloque oferendas para que algo as reivindique...",
+    "ru": "Место, где можно оставить подношение и получить награду.",
+    "tr": "Ulu varlıklara adak sunarak karşılığını al.",
+    "zh-CN": "放置贡品，换取物品……",
+    "zh-TW": "放上供品，換取物品……"
+  },
   "icon": "icons/structures/SACRIFICE_TABLE.png",
   "id": "SACRIFICE_TABLE",
+  "menu": null,
   "name": {
+    "ar": "طاولة التقدمات",
+    "de": "Opfertafel",
+    "en": "Table of Offerings",
+    "es": "Losa de ofrendas",
+    "fr": "Table d'offrandes",
+    "fr-CA": "Table d'offrandes",
+    "it": "Altare delle offerte",
+    "ja": "供物の祭壇",
+    "ko": "공물 탁자",
+    "nl": "Offertafel",
+    "pt-BR": "Mesa de Oferendas",
+    "ru": "Жертвенник",
+    "tr": "Adak Masası",
+    "zh-CN": "供品桌",
+    "zh-TW": "供品桌"
+  },
+  "namePlain": {
     "ar": "طاولة التقدمات",
     "de": "Opfertafel",
     "en": "Table of Offerings",

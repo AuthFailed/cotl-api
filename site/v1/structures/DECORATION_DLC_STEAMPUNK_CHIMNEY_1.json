@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LIGHTNING_SHARD",
@@ -22,9 +24,44 @@
     "zh-CN": "烧大火时用。",
     "zh-TW": "適合高聳的火。"
   },
+  "descriptionPlain": {
+    "ar": "لألسنة النيران الطويلة.",
+    "de": "Für große Feuer.",
+    "en": "For tall fires.",
+    "es": "Para las llamas más orgullosas.",
+    "fr": "Pour les grands feux.",
+    "fr-CA": "Pour les grands feux.",
+    "it": "Per grossi fuochi.",
+    "ja": "大きな火元のための煙突",
+    "ko": "드높은 불길을 위해.",
+    "nl": "Voor hoge vuren.",
+    "pt-BR": "Para grandes fogaréus.",
+    "ru": "Часть большого камина.",
+    "tr": "Uzun ateşler için.",
+    "zh-CN": "烧大火时用。",
+    "zh-TW": "適合高聳的火。"
+  },
   "icon": "icons/structures/DECORATION_DLC_STEAMPUNK_CHIMNEY_1.png",
   "id": "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+  "menu": "Aesthetic/Wolf",
   "name": {
+    "ar": "المدخنة الطويلة",
+    "de": "Großer Schornstein",
+    "en": "Tall Chimney",
+    "es": "Chimenea alta",
+    "fr": "Grande cheminée",
+    "fr-CA": "Grande cheminée",
+    "it": "Grosso camino",
+    "ja": "煙突",
+    "ko": "높은 굴뚝",
+    "nl": "Hoge schoorsteen",
+    "pt-BR": "Chaminé Grande",
+    "ru": "Высокий дымоход",
+    "tr": "Uzun Şömine",
+    "zh-CN": "高型烟囱",
+    "zh-TW": "高煙囪"
+  },
+  "namePlain": {
     "ar": "المدخنة الطويلة",
     "de": "Großer Schornstein",
     "en": "Tall Chimney",

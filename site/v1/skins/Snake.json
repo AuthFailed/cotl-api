@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Snake",
   "name": {
+    "en": "Snake"
+  },
+  "namePlain": {
     "en": "Snake"
   },
   "unlock": "Other"

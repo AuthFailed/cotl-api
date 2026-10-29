@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG",
@@ -30,9 +32,44 @@
     "zh-CN": "让觅食速度增加",
     "zh-TW": "讓覓食速度增加"
   },
+  "descriptionPlain": {
+    "ar": "يتيح جمع الأطعمة بصورة أسرع.",
+    "de": "Ermöglicht schnellere Nahrungssuche.",
+    "en": "Allows faster foraging.",
+    "es": "Permite encontrar provisiones más rápido.",
+    "fr": "Permet de cueillir et récolter plus rapidement.",
+    "fr-CA": "Permet de cueillir et récolter plus rapidement.",
+    "it": "Consente di foraggiare più rapidamente.",
+    "ja": "食料の収集速度が上昇する",
+    "ko": "채집 속도를 더 빠르게합니다.",
+    "nl": "Je volgelingen verzamelen sneller voedsel.",
+    "pt-BR": "Permite uma coleta mais rápida.",
+    "ru": "Небольшой алтарь, который ускоряет сбор съедобных даров леса.",
+    "tr": "Toplayıcılığı hızlandırır.",
+    "zh-CN": "让觅食速度增加",
+    "zh-TW": "讓覓食速度增加"
+  },
   "icon": null,
   "id": "FORAGING_SHRINE",
+  "menu": null,
   "name": {
+    "ar": "مزار جمع الأطعمة",
+    "de": "Schrein der Nahrungssuche",
+    "en": "Foraging Shrine",
+    "es": "Santuario de provisiones",
+    "fr": "Autel de la cueillette",
+    "fr-CA": "Autel de la cueillette",
+    "it": "Santuario del foraggiamento",
+    "ja": "収集の祭壇",
+    "ko": "채집 신단",
+    "nl": "Verzamelaltaar",
+    "pt-BR": "Santuário da Coleta",
+    "ru": "Алтарь пищи",
+    "tr": "Toplayıcılık Mabedi",
+    "zh-CN": "觅食圣坛",
+    "zh-TW": "覓食聖壇"
+  },
+  "namePlain": {
     "ar": "مزار جمع الأطعمة",
     "de": "Schrein der Nahrungssuche",
     "en": "Foraging Shrine",

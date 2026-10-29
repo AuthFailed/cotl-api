@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -22,9 +24,44 @@
     "zh-CN": "曾是圣羊聚会的地方。",
     "zh-TW": "曾是羔羊的集合點。"
   },
+  "descriptionPlain": {
+    "ar": "كانت مكان تجمع للحملان في الماضي.",
+    "de": "Einst ein Ort, an dem sich die Lämmer versammelten.",
+    "en": "Once a place for lambs to gather.",
+    "es": "Antaño era el lugar de reunión de los corderos.",
+    "fr": "Autrefois un lieu de rassemblement pour les agneaux.",
+    "fr-CA": "Autrefois un lieu de rassemblement pour les agneaux.",
+    "it": "Un tempo, il luogo in cui si radunavano gli agnelli.",
+    "ja": "その昔、羊たちが集まる憩いの場所だったもの",
+    "ko": "한때 양들이 모이던 장소.",
+    "nl": "Ooit een plek waar lammetjes samenkwamen.",
+    "pt-BR": "Outrora foi um local para os cordeiros se reunirem.",
+    "ru": "Сооружение, у которого когда-то собирались ягнята.",
+    "tr": "Bir zamanlar kuzular burada toplanırdı.",
+    "zh-CN": "曾是圣羊聚会的地方。",
+    "zh-TW": "曾是羔羊的集合點。"
+  },
   "icon": "icons/structures/DECORATION_DLC_WOOLHAVEN_FOUNTAIN.png",
   "id": "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "نافورة الجرس",
+    "de": "Glockenbrunnen",
+    "en": "Bell Fountain",
+    "es": "Fuente repiqueteante",
+    "fr": "Fontaine clochette",
+    "fr-CA": "Fontaine clochette",
+    "it": "Fontana a campana",
+    "ja": "鈴の噴水",
+    "ko": "방울 분수",
+    "nl": "Belvormige fontein",
+    "pt-BR": "Fonte do Sino",
+    "ru": "Колокольный фонтан",
+    "tr": "Zil Çeşme",
+    "zh-CN": "钟型喷泉",
+    "zh-TW": "鈴鐺噴泉"
+  },
+  "namePlain": {
     "ar": "نافورة الجرس",
     "de": "Glockenbrunnen",
     "en": "Bell Fountain",

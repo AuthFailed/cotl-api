@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "PalworldThree",
   "name": {
+    "en": "PalworldThree"
+  },
+  "namePlain": {
     "en": "PalworldThree"
   },
   "unlock": "Other"

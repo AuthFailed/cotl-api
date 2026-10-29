@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "通信用的小箱子",
     "zh-TW": "通信用的小箱子"
   },
+  "descriptionPlain": {
+    "ar": "صندوق صغير للمراسلة.",
+    "de": "Ein kleiner Kasten für Korrespondenz.",
+    "en": "A small box for correspondence.",
+    "es": "Un pequeño buzón para correspondencia.",
+    "fr": "Une petite boîte pour envoyer des missives.",
+    "fr-CA": "Une petite boîte pour envoyer des missives.",
+    "it": "Una piccola cassetta per la corrispondenza.",
+    "ja": "手紙を受け取るためのポスト",
+    "ko": "편지를 주고받기 위한 작은 상자입니다.",
+    "nl": "Een kleine doos voor correspondentie.",
+    "pt-BR": "Uma pequena caixa postal",
+    "ru": "Небольшой ящик для посланий.",
+    "tr": "İletişim sağlamaya yarayan küçük bir kutu.",
+    "zh-CN": "通信用的小箱子",
+    "zh-TW": "通信用的小箱子"
+  },
   "icon": "icons/structures/DECORATION_POST_BOX.png",
   "id": "DECORATION_POST_BOX",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "صندوق الالتماس",
+    "de": "Gebetskästchen",
+    "en": "Prayer Box",
+    "es": "Buzón de oraciones",
+    "fr": "Boîte à prière",
+    "fr-CA": "Boîte à prière",
+    "it": "Cassetta spirituale",
+    "ja": "郵便ポスト",
+    "ko": "기도함",
+    "nl": "Gebedsdoosje",
+    "pt-BR": "Caixa de Orações",
+    "ru": "Молитвенный ящик",
+    "tr": "Dua Kutusu",
+    "zh-CN": "祈祷箱",
+    "zh-TW": "祈禱箱"
+  },
+  "namePlain": {
     "ar": "صندوق الالتماس",
     "de": "Gebetskästchen",
     "en": "Prayer Box",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "印有你的圣冠标志的旗子。",
     "zh-TW": "印有紅眼聖冠標誌的旗子"
   },
+  "descriptionPlain": {
+    "ar": "راية عليها رمز تاجك.",
+    "de": "Eine Flagge, die das Symbol der Krone trägt.",
+    "en": "A flag bearing the symbol of your Crown.",
+    "es": "Una bandera con el símbolo de tu corona.",
+    "fr": "L'étendard portant le symbole de votre Couronne.",
+    "fr-CA": "Un drapeau portant le symbole de votre Couronne.",
+    "it": "Una bandiera col simbolo della Corona.",
+    "ja": "王冠のシンボルが描かれた旗",
+    "ko": "당신의 왕관이 그려진 깃발입니다.",
+    "nl": "Een vlag met het symbool van je Kroon.",
+    "pt-BR": "Uma bandeira que carrega o símbolo da sua Coroa.",
+    "ru": "Флаг с изображением вашей короны.",
+    "tr": "Tacının simgesini taşıyan bir bayrak.",
+    "zh-CN": "印有你的圣冠标志的旗子。",
+    "zh-TW": "印有紅眼聖冠標誌的旗子"
+  },
   "icon": "icons/structures/DECORATION_TWITCH_FLAG_CROWN.png",
   "id": "DECORATION_TWITCH_FLAG_CROWN",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "راية التاج",
+    "de": "Die Flagge der Krone",
+    "en": "Flag of the Crown",
+    "es": "Bandera de la corona",
+    "fr": "Étendard de la Couronne",
+    "fr-CA": "Étendard de la Couronne",
+    "it": "Bandiera della Corona",
+    "ja": "王冠の旗",
+    "ko": "왕관 깃발",
+    "nl": "Vlag van de Kroon",
+    "pt-BR": "Bandeira da Coroa",
+    "ru": "Флаг с короной",
+    "tr": "Taç Bayrağı",
+    "zh-CN": "圣冠旗",
+    "zh-TW": "聖冠旗"
+  },
+  "namePlain": {
     "ar": "راية التاج",
     "de": "Die Flagge der Krone",
     "en": "Flag of the Crown",

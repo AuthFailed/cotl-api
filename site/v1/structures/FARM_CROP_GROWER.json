@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "保护范围内的<color=#FFD201>农地</color>不受低温侵扰，以利作物生长。",
     "zh-TW": "保護範圍內的<color=#FFD201>農地</color>不受寒氣侵擾，以利作物生長。"
   },
+  "descriptionPlain": {
+    "ar": "يحمي المزارع في نطاقه من البرد فيسمح بنمو المحاصيل.",
+    "de": "Schütze Ackerparzellen in Reichweite vor der Kälte, damit die Feldfrüchte wachsen können.",
+    "en": "Protect Farm Plots within range from the cold, allowing crops to grow.",
+    "es": "Protege las parcelas del frío para que los cultivos puedan crecer.",
+    "fr": "Protège du froid les parcelles agricoles à portée afin que les plantations puissent pousser.",
+    "fr-CA": "Protège du froid les parcelles agricoles à portée afin que les plantations puissent pousser.",
+    "it": "Protegge dal gelo gli Appezzamenti nel raggio d'azione, preservando la crescita delle colture.",
+    "ja": "範囲内にある農作地を寒さから守り、農作物が育つようにする",
+    "ko": "일정 범위 내 밭 경작지를 한기로부터 보호하여 작물이 자랄 수 있게 합니다.",
+    "nl": "Beschermt landbouwpercelen binnen bereik tegen de kou, waardoor gewassen kunnen groeien.",
+    "pt-BR": "Protege Terrenos Agrícolas em seu alcance contra o frio, permitindo que as plantações cresçam.",
+    "ru": "Предмет, защищающий участки земли от холода и позволяющий всходить посевам в радиусе действия.",
+    "tr": "Menzildeki Tarlaları soğuktan koruyarak mahsul yetişmesini sağlar.",
+    "zh-CN": "保护范围内的农地不受低温侵扰，以利作物生长。",
+    "zh-TW": "保護範圍內的農地不受寒氣侵擾，以利作物生長。"
+  },
   "icon": "icons/structures/FARM_CROP_GROWER.png",
   "id": "FARM_CROP_GROWER",
+  "menu": null,
   "name": {
+    "ar": "طوطم تدفئة المحاصيل",
+    "de": "Auftau-Erntetotem",
+    "en": "Thawing Harvest Totem",
+    "es": "Tótem de la cosecha del deshielo",
+    "fr": "Totem de dégel de récolte",
+    "fr-CA": "Totem de dégel de récolte",
+    "it": "Totem del raccolto disgelante",
+    "ja": "防寒豊作のトーテム",
+    "ko": "해동 수확의 토템",
+    "nl": "Ontdooiende-oogsttotem",
+    "pt-BR": "Totem da Colheita em Degelo",
+    "ru": "Тотем оттаивания посевов",
+    "tr": "Kış Hasadı Totemi",
+    "zh-CN": "解冻收获图腾柱",
+    "zh-TW": "解凍收穫圖騰柱"
+  },
+  "namePlain": {
     "ar": "طوطم تدفئة المحاصيل",
     "de": "Auftau-Erntetotem",
     "en": "Thawing Harvest Totem",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -8,9 +10,16 @@
   "description": {
     "en": "A pretty plant without a house."
   },
+  "descriptionPlain": {
+    "en": "A pretty plant without a house."
+  },
   "icon": "icons/structures/DECORATION_PALWORLD_PLANT.png",
   "id": "DECORATION_PALWORLD_PLANT",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "en": "Houseless Plant"
+  },
+  "namePlain": {
     "en": "Houseless Plant"
   },
   "size": {

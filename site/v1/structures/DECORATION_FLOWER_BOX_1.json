@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -26,9 +28,44 @@
     "zh-CN": "装饰用的山茶花坛",
     "zh-TW": "裝飾用的山茶花壇"
   },
+  "descriptionPlain": {
+    "ar": "حوض زينة من زهور الكاميليا.",
+    "de": "Ein dekoratives Beet aus Kamelienblumen.",
+    "en": "A decorative bed of Camellia flowers.",
+    "es": "Una cama decorativa de camelias.",
+    "fr": "Un joli parterre de camélias.",
+    "fr-CA": "Un joli parterre de camélias.",
+    "it": "Un'aiuola decorativa di fiori di camelia.",
+    "ja": "ツバキの花が咲き誇る花壇",
+    "ko": "동백나무 꽃으로 장식된 침대입니다.",
+    "nl": "Een decoratief bloembed van cameliabloemen.",
+    "pt-BR": "Uma cama decorativa feita de Camélias",
+    "ru": "Красивая клумба, на которой растут камелии.",
+    "tr": "Kamelya çiçeklerinden yapılmış, dekoratif bir yatak.",
+    "zh-CN": "装饰用的山茶花坛",
+    "zh-TW": "裝飾用的山茶花壇"
+  },
   "icon": "icons/structures/DECORATION_FLOWER_BOX_1.png",
   "id": "DECORATION_FLOWER_BOX_1",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "حوض الكاميليا",
+    "de": "Kamelienbeet",
+    "en": "Camellia Bed",
+    "es": "Cama de camelias",
+    "fr": "Parterre de camélias",
+    "fr-CA": "Parterre de camélias",
+    "it": "Aiuola di camelie",
+    "ja": "ツバキの花壇",
+    "ko": "동백나무 침대",
+    "nl": "Cameliabed",
+    "pt-BR": "Cama de Camélias",
+    "ru": "Клумба с камелиями",
+    "tr": "Kamelya Yatak",
+    "zh-CN": "山茶花坛",
+    "zh-TW": "山茶花壇"
+  },
+  "namePlain": {
     "ar": "حوض الكاميليا",
     "de": "Kamelienbeet",
     "en": "Camellia Bed",

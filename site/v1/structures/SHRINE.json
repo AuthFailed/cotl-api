@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FAITH",
   "cost": [
     {
       "item": "BLACK_GOLD",
@@ -22,9 +24,44 @@
     "zh-CN": "让你的<color=#FFD201>教徒</color>祈祷之处。圣坛会保留教徒产生的虔诚度<sprite name=\"icon_spirits\">",
     "zh-TW": "讓你的<color=#FFD201>教徒</color>祈禱之處。聖壇會保留教徒產生的虔誠值 <sprite name=\"icon_spirits\">"
   },
+  "descriptionPlain": {
+    "ar": "مكان مخصص لالتماسات أتباعك. سيخزن المزار الولاء الذي يقدمونه.",
+    "de": "Ein Ort, an dem deine Anhänger beten können. Der Schrein speichert die Hingabe, die sie erschaffen.",
+    "en": "A place for your Followers to pray. The shrine will hold the Devotion they create.",
+    "es": "Un lugar para que tus adeptos recen. El santuario guardará la devoción que los adeptos generen.",
+    "fr": "Permet à vos adeptes de prier. L'Autel conservera la dévotion générée.",
+    "fr-CA": "Permet à vos adeptes de prier. L'Autel conservera la dévotion générée.",
+    "it": "Un luogo in cui i membri del Culto possono pregare, generando e accumulando Devozione.",
+    "ja": "信者が祈りを捧げるための場所。信者が生み出した祈念 は祭壇に蓄えられる",
+    "ko": "추종자들이 기도를 드리는 곳. 성지에서 생성되는 헌신을 축적합니다.",
+    "nl": "Een plaats waar je volgelingen kunnen bidden. Het altaar bewaart de devotie die ze genereren.",
+    "pt-BR": "Um lugar para seus Seguidores rezarem. O santuário manterá a Devoção que gerar.",
+    "ru": "Место, где ваши последователи могут молиться. Алтарь накапливает выраженную ими преданность.",
+    "tr": "Takipçilerin dua edebileceği bir yer. Mabette Takipçilerin oluşturduğu Sadakat birikir.",
+    "zh-CN": "让你的教徒祈祷之处。圣坛会保留教徒产生的虔诚度",
+    "zh-TW": "讓你的教徒祈禱之處。聖壇會保留教徒產生的虔誠值"
+  },
   "icon": "icons/structures/SHRINE.png",
   "id": "SHRINE",
+  "menu": "Faith/General",
   "name": {
+    "ar": "المزار",
+    "de": "Schrein",
+    "en": "Shrine",
+    "es": "Santuario",
+    "fr": "Autel",
+    "fr-CA": "Autel",
+    "it": "Santuario",
+    "ja": "祭壇",
+    "ko": "성지",
+    "nl": "Altaar",
+    "pt-BR": "Santuário",
+    "ru": "Алтарь",
+    "tr": "Mabet",
+    "zh-CN": "圣坛",
+    "zh-TW": "聖壇"
+  },
+  "namePlain": {
     "ar": "المزار",
     "de": "Schrein",
     "en": "Shrine",

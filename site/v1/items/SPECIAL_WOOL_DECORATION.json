@@ -17,6 +17,23 @@
     "zh-CN": "将这件东西带到<color=#FFD201>羊绒仙境</color>。",
     "zh-TW": "將羊毛帶回<color=#FFD201>羊絨仙境</color>。"
   },
+  "descriptionPlain": {
+    "ar": "عليك إعادة هذا إلى ملاذ الحملان.",
+    "de": "Bringe sie nach Wollhafen zurück.",
+    "en": "Return this to Woolhaven.",
+    "es": "Llévala a Vellones Elíseos.",
+    "fr": "Ramenez cet objet à Havrelaine.",
+    "fr-CA": "Ramenez cet objet à Havrelaine.",
+    "it": "Restituiscila all'Aldilàna.",
+    "ja": "羊毛の聖域まで持っていこう",
+    "ko": "포근쉼터로 가져가세요.",
+    "nl": "Breng dit terug naar Wolhaven.",
+    "pt-BR": "Devolva para Santa Lã.",
+    "ru": "Клок шерсти, который нужно принести в Шерстополь.",
+    "tr": "Bunu Yüntepe'ye geri götür.",
+    "zh-CN": "将这件东西带到羊绒仙境。",
+    "zh-TW": "將羊毛帶回羊絨仙境。"
+  },
   "icon": "icons/items/SPECIAL_WOOL_DECORATION.png",
   "id": "SPECIAL_WOOL_DECORATION",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Kurnazın Yünü",
     "zh-CN": "精明者羊毛",
     "zh-TW": "精明者羊毛"
-  }
+  },
+  "namePlain": {
+    "ar": "صوف الماكر",
+    "de": "Wolle des Klugen",
+    "en": "Wool of the Shrewd",
+    "es": "Lana del Astuto",
+    "fr": "Laine du rusé",
+    "fr-CA": "Laine du rusé",
+    "it": "Lana dell'accorto",
+    "ja": "観察者のウール",
+    "ko": "명민한 자의 모직",
+    "nl": "Wol van de gehaaide",
+    "pt-BR": "Pelagem da Perspicácia",
+    "ru": "Шерсть хитрого",
+    "tr": "Kurnazın Yünü",
+    "zh-CN": "精明者羊毛",
+    "zh-TW": "精明者羊毛"
+  },
+  "tags": []
 }

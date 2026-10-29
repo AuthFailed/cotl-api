@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [],
   "description": {
     "ar": "أنماط نُسقت بإتقان.",
@@ -17,9 +19,44 @@
     "zh-CN": "摆放完美的图案",
     "zh-TW": "圖案擺放完美"
   },
+  "descriptionPlain": {
+    "ar": "أنماط نُسقت بإتقان.",
+    "de": "Perfekt gelegte Muster.",
+    "en": "Perfectly placed patterns.",
+    "es": "Un patrón colocado a la perfección.",
+    "fr": "Des carreaux soigneusement assemblés.",
+    "fr-CA": "Des carreaux soigneusement assemblés.",
+    "it": "Tutto perfettamente al suo posto.",
+    "ja": "模様が規則的に配置されたタイル",
+    "ko": "완벽한 격자무늬입니다.",
+    "nl": "Machtig mooi mozaïek.",
+    "pt-BR": "Padrões posicionados com perfeição",
+    "ru": "Геометрически правильные узоры.",
+    "tr": "Mükemmel uyuma sahip desenler.",
+    "zh-CN": "摆放完美的图案",
+    "zh-TW": "圖案擺放完美"
+  },
   "icon": "icons/structures/TILE_MOSAIC.png",
   "id": "TILE_MOSAIC",
+  "menu": "Aesthetic/Path",
   "name": {
+    "ar": "أرضية الفسيفساء",
+    "de": "Mosaikboden",
+    "en": "Mosaic Flooring",
+    "es": "Suelo mosaico",
+    "fr": "Sol en mosaïque",
+    "fr-CA": "Sol en mosaïque",
+    "it": "Pavimentazione a mosaico",
+    "ja": "モザイクタイル",
+    "ko": "모자이크 바닥",
+    "nl": "Mozaïekvloer",
+    "pt-BR": "Piso de Mosaico",
+    "ru": "Мозаичный настил",
+    "tr": "Mozaik Döşeme",
+    "zh-CN": "马赛克地板",
+    "zh-TW": "馬賽克地板"
+  },
+  "namePlain": {
     "ar": "أرضية الفسيفساء",
     "de": "Mosaikboden",
     "en": "Mosaic Flooring",

@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Crab",
   "name": {
+    "en": "Crab"
+  },
+  "namePlain": {
     "en": "Crab"
   },
   "unlock": "Other"

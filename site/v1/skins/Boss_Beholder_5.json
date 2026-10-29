@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": true,
   "icon": null,
   "id": "Boss_Beholder_5",
   "name": {
+    "en": "Beholder 5"
+  },
+  "namePlain": {
     "en": "Beholder 5"
   },
   "unlock": "Dungeon5"

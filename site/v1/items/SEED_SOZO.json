@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántala en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantalo in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Laat deze uitgroeien tot paddenstoelen op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_SOZO.png",
   "id": "SEED_SOZO",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Sozo Tohumu",
     "zh-CN": "索佐的种子",
     "zh-TW": "索佐的種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذرة سوزو",
+    "de": "Sozo-Samen",
+    "en": "Seed of Sozo",
+    "es": "Semilla de Sozo",
+    "fr": "Graine de Sozo",
+    "fr-CA": "Graines de Sozo",
+    "it": "Seme di Sozo",
+    "ja": "ソーゾウの種",
+    "ko": "소조의 씨앗",
+    "nl": "Sozo-zaden",
+    "pt-BR": "Semente de Sozo",
+    "ru": "Семя Содзо",
+    "tr": "Sozo Tohumu",
+    "zh-CN": "索佐的种子",
+    "zh-TW": "索佐的種子"
+  },
+  "tags": []
 }

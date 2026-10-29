@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "升级版圣坛，保留的虔诚度上限增加至 30 点<sprite name=\"icon_spirits\">",
     "zh-TW": "升級版聖壇，保留的虔誠值上限增加至 30 點 <sprite name=\"icon_spirits\">"
   },
+  "descriptionPlain": {
+    "ar": "عليك ترقية مزارك لزيادة الحد الأقصى لسعته إلى 30x من الولاء.",
+    "de": "Verbessere deinen Schrein, um seine Maximalkapazität auf 30 Hingabe zu erhöhen",
+    "en": "Upgrade your shrine to increase its maximum capacity to 30x Devotion.",
+    "es": "Mejora tu santuario para aumentar su capacidad a x30 de devoción.",
+    "fr": "Améliore votre Autel pour pouvoir conserver jusqu'à 30 de dévotion.",
+    "fr-CA": "Améliore votre Autel afin de pouvoir conserver jusqu'à 30x de dévotion.",
+    "it": "Migliora il Santuario, portandone la capacità massima di Devozione a 30.",
+    "ja": "より発展した祭壇。祈念 の最大貯蓄量が30に増加する",
+    "ko": "성지의 헌신 수용량을 30배로 증가시킵니다.",
+    "nl": "Verbeter je altaar en verhoog de capaciteit naar 30x devotie.",
+    "pt-BR": "Aprimore seu santuário para aumentar sua capacidade máxima para 30x Devoção",
+    "ru": "Улучшенный алтарь, накапливающий до 30 ед. преданности.",
+    "tr": "Mabet'i yükselterek kapasitesini 30 kat fazla Sadakat birikecek şekilde artırır.",
+    "zh-CN": "升级版圣坛，保留的虔诚度上限增加至 30 点",
+    "zh-TW": "升級版聖壇，保留的虔誠值上限增加至 30 點"
+  },
   "icon": null,
   "id": "SHRINE_II",
+  "menu": null,
   "name": {
+    "ar": "المزار II",
+    "de": "Schrein II",
+    "en": "Shrine II",
+    "es": "Santuario II",
+    "fr": "Autel II",
+    "fr-CA": "Autel II",
+    "it": "Santuario II",
+    "ja": "祭壇 II",
+    "ko": "성지 II",
+    "nl": "Altaar II",
+    "pt-BR": "Santuário II",
+    "ru": "Алтарь II",
+    "tr": "Mabet II",
+    "zh-CN": "圣坛 II",
+    "zh-TW": "聖壇 II"
+  },
+  "namePlain": {
     "ar": "المزار II",
     "de": "Schrein II",
     "en": "Shrine II",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -22,9 +24,44 @@
     "zh-CN": "看起来很眼熟的雕像……",
     "zh-TW": "看起來非常眼熟的雕像……"
   },
+  "descriptionPlain": {
+    "ar": "تمثال يبدو مألوفًا للغاية...",
+    "de": "Eine sehr vertraut wirkende Statue …",
+    "en": "A very familiar looking statue...",
+    "es": "Una estatua que te resulta de lo más familiar...",
+    "fr": "Une statue étrangement familière...",
+    "fr-CA": "Une statue étrangement familière...",
+    "it": "Una statua dall'aspetto familiare...",
+    "ja": "すごく見覚えのある石像だ…",
+    "ko": "정말 익숙해 보이는 조각상입니다...",
+    "nl": "Een standbeeld dat er bekend uitziet...",
+    "pt-BR": "Uma estátua deveras familiar...",
+    "ru": "Изваяние, которое выглядит очень знакомым.",
+    "tr": "Çok tanıdık bir heykel.",
+    "zh-CN": "看起来很眼熟的雕像……",
+    "zh-TW": "看起來非常眼熟的雕像……"
+  },
   "icon": "icons/structures/DECORATION_EASTEREGG_HAROSTATUE.png",
   "id": "DECORATION_EASTEREGG_HAROSTATUE",
+  "menu": "Aesthetic/Major_DLC",
   "name": {
+    "ar": "تمثال البومة",
+    "de": "Bildnis der Eule",
+    "en": "Effigy of the Owl",
+    "es": "Efigie del Búho",
+    "fr": "Effigie du Hibou",
+    "fr-CA": "Effigie du Hibou",
+    "it": "Effigie del Gufo",
+    "ja": "梟の石像",
+    "ko": "올빼미 조각",
+    "nl": "Uilenbeeld",
+    "pt-BR": "Efígie da Coruja",
+    "ru": "Статуя Филина",
+    "tr": "Baykuş Heykeli",
+    "zh-CN": "猫头鹰雕像",
+    "zh-TW": "貓頭鷹肖像"
+  },
+  "namePlain": {
     "ar": "تمثال البومة",
     "de": "Bildnis der Eule",
     "en": "Effigy of the Owl",

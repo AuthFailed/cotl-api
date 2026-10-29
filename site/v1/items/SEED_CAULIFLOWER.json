@@ -17,6 +17,23 @@
     "zh-CN": "可种在<color=#FFD201>农地</color>里。",
     "zh-TW": "可種在<color=#FFD201>農地</color>裡。"
   },
+  "descriptionPlain": {
+    "ar": "يمكن زرعها في مزرعة.",
+    "de": "Pflanze ihn auf einer Ackerparzelle ein.",
+    "en": "Plant this in a Farm Plot.",
+    "es": "Plántala en una parcela.",
+    "fr": "À planter sur une parcelle agricole.",
+    "fr-CA": "À planter sur une parcelle agricole.",
+    "it": "Piantalo in un Appezzamento.",
+    "ja": "農作地に植えよう",
+    "ko": "밭 경작지에 심습니다.",
+    "nl": "Zaai deze op een landbouwperceel.",
+    "pt-BR": "Plante em um Terreno Agrícola.",
+    "ru": "Семечко, которое можно посадить на участке земли.",
+    "tr": "Bir Tarla'ya ek.",
+    "zh-CN": "可种在农地里。",
+    "zh-TW": "可種在農地裡。"
+  },
   "icon": "icons/items/SEED_CAULIFLOWER.png",
   "id": "SEED_CAULIFLOWER",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Karnabahar Tohumu",
     "zh-CN": "花菜种子",
     "zh-TW": "白花椰菜種子"
-  }
+  },
+  "namePlain": {
+    "ar": "بذرة قرنبيط",
+    "de": "Blumenkohlsamen",
+    "en": "Cauliflower Seed",
+    "es": "Semilla de coliflor",
+    "fr": "Graine de chou-fleur",
+    "fr-CA": "Graines de chou-fleur",
+    "it": "Seme di cavolfiore",
+    "ja": "カリフラワーの種",
+    "ko": "콜리플라워 씨앗",
+    "nl": "Bloemkoolzaden",
+    "pt-BR": "Semente de Couve-Flor",
+    "ru": "Семя цветной капусты",
+    "tr": "Karnabahar Tohumu",
+    "zh-CN": "花菜种子",
+    "zh-TW": "白花椰菜種子"
+  },
+  "tags": []
 }

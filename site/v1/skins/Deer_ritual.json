@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Deer_ritual",
   "name": {
+    "en": "DeerRitual"
+  },
+  "namePlain": {
     "en": "DeerRitual"
   },
   "unlock": "Dungeon1"

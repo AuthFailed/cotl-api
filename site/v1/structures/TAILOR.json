@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "SPIDER_WEB",
@@ -26,9 +28,44 @@
     "zh-CN": "为徒众制作服装，让教徒穿得有型。",
     "zh-TW": "為徒眾製作服裝，讓教徒穿得有型。"
   },
+  "descriptionPlain": {
+    "ar": "عليك خياطة أزياء للأتباع للحفاظ على أناقتهم.",
+    "de": "Erstelle Outfits für Anhänger, damit sie stylish bleiben.",
+    "en": "Create outfits for Followers to keep them stylish.",
+    "es": "Crea atuendos para que los adeptos vayan a la moda.",
+    "fr": "Confectionnez des tenues pour que vos adeptes soient à la pointe de la mode.",
+    "fr-CA": "Confectionnez des tenues pour que vos adeptes soient à la fine pointe de la mode.",
+    "it": "Crea indumenti alla moda per i membri del Culto.",
+    "ja": "信者をオシャレにする教団服を作る",
+    "ko": "추종자의 멋진 옷을 만들어냅니다.",
+    "nl": "Maak outfits voor volgelingen zodat ze er stijlvol bij lopen.",
+    "pt-BR": "Crie trajes para manter os Seguidores estilosos.",
+    "ru": "Мастерская, в которой можно шить модные костюмы для последователей.",
+    "tr": "Takipçilerinin şık görünmesi için kıyafetler oluştur.",
+    "zh-CN": "为徒众制作服装，让教徒穿得有型。",
+    "zh-TW": "為徒眾製作服裝，讓教徒穿得有型。"
+  },
   "icon": "icons/structures/TAILOR.png",
   "id": "TAILOR",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "خيمة الخياطة",
+    "de": "Schneider",
+    "en": "Tailor",
+    "es": "Sastre",
+    "fr": "Atelier de couture",
+    "fr-CA": "Atelier de couture",
+    "it": "Sartoria",
+    "ja": "仕立屋",
+    "ko": "양복점",
+    "nl": "Kleermaker",
+    "pt-BR": "Alfaiataria",
+    "ru": "Ателье",
+    "tr": "Terzi",
+    "zh-CN": "裁缝间",
+    "zh-TW": "裁縫間"
+  },
+  "namePlain": {
     "ar": "خيمة الخياطة",
     "de": "Schneider",
     "en": "Tailor",

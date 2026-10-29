@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Elephant",
   "name": {
+    "en": "Elephant"
+  },
+  "namePlain": {
     "en": "Elephant"
   },
   "unlock": "Dungeon3"

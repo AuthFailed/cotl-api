@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG",
@@ -26,9 +28,44 @@
     "zh-CN": "农夫站可允许教徒浇灌附近的作物。",
     "zh-TW": "農夫站讓教徒為鄰近作物澆水。"
   },
+  "descriptionPlain": {
+    "ar": "يتيح مقر المزارعين للأتباع ريّ المحاصيل القريبة.",
+    "de": "Farmen ermöglichen Anhängern, Feldfrüchte in der Nähe zu bewässern.",
+    "en": "Farmer Station's allows Followers to water nearby crops.",
+    "es": "La estación de granja permite a los adeptos regar cultivos cercanos.",
+    "fr": "Le Poste de fermier permet aux adeptes d'arroser les cultures à proximité.",
+    "fr-CA": "Le fermier arrose et récolte les plantations.",
+    "it": "Permette ai membri del Culto di annaffiare le colture nel raggio d'azione.",
+    "ja": "農産作業所を設置すると、信者が近くの作物に水をやってくれる",
+    "ko": "농부 배치소는 추종자들이 근방의 곡식에 물을 주게 합니다.",
+    "nl": "Met het landbouwstation kunnen volgelingen gewassen in de buurt water geven.",
+    "pt-BR": "A Estação da Fazenda permite que os Seguidores reguem as plantações nas proximidades.",
+    "ru": "Место, где хранятся садовые инструменты. Вы можете поручить последователю поливать всходы.",
+    "tr": "Çiftçi Kulübesi, Takipçilerinin yakındaki mahsulleri sulamasını sağlar.",
+    "zh-CN": "农夫站可允许教徒浇灌附近的作物。",
+    "zh-TW": "農夫站讓教徒為鄰近作物澆水。"
+  },
   "icon": "icons/structures/FARM_STATION.png",
   "id": "FARM_STATION",
+  "menu": "Follower/Food",
   "name": {
+    "ar": "مقر المزارعين",
+    "de": "Farm",
+    "en": "Farmer Station",
+    "es": "Granja",
+    "fr": "Poste de fermier",
+    "fr-CA": "Poste de fermier",
+    "it": "Casetta agricola",
+    "ja": "農産作業所",
+    "ko": "농부 배치소",
+    "nl": "Landbouwstation",
+    "pt-BR": "Estação da Fazenda",
+    "ru": "Ферма",
+    "tr": "Çiftçi Kulübesi",
+    "zh-CN": "农夫站",
+    "zh-TW": "農夫站"
+  },
+  "namePlain": {
     "ar": "مقر المزارعين",
     "de": "Farm",
     "en": "Farmer Station",

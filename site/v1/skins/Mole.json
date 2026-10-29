@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Mole",
   "name": {
+    "en": "Mole"
+  },
+  "namePlain": {
     "en": "Mole"
   },
   "unlock": "Major_DLC"

@@ -17,6 +17,23 @@
     "zh-CN": "将这封信交给<color=#FFD201>羊堕雪山</color>的<color=#FFD201>斯库拉</color>.",
     "zh-TW": "將信交給<color=#FFD201>羊墮之淵</color>的<color=#FFD201>斯庫拉</color>。"
   },
+  "descriptionPlain": {
+    "ar": "عليك توصيل هذه إلى سيلا في مسقط النعاج.",
+    "de": "Bring ihn zu Scylla in Auenfall.",
+    "en": "Deliver this to Scylla in Ewefall.",
+    "es": "Ve a Balalbor y dásela a Escila.",
+    "fr": "Livrez cette lettre à Scylla à la Chute de la Brebis.",
+    "fr-CA": "Livrez cette lettre à Scylla à la Chute de la Brebis.",
+    "it": "Consegnala a Scilla a Pecoruzzola.",
+    "ja": "雌羊の滝にいるスキュラに渡そう",
+    "ko": "암양폭포의 스킬라에게 가져가세요.",
+    "nl": "Bezorg dit aan Scylla in Ooiendam.",
+    "pt-BR": "Entregue para Cila na Cordeirada.",
+    "ru": "Послание, которое нужно доставить Сцилле на Овечью гору.",
+    "tr": "Bunu Maryadibi'nde Scylla'ya götür.",
+    "zh-CN": "将这封信交给羊堕雪山的斯库拉.",
+    "zh-TW": "將信交給羊墮之淵的斯庫拉。"
+  },
   "icon": "icons/items/ILLEGIBLE_LETTER_CHARYBDIS.png",
   "id": "ILLEGIBLE_LETTER_CHARYBDIS",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Okunamayan Mektup",
     "zh-CN": "字迹不清的信",
     "zh-TW": "難以識別的信"
-  }
+  },
+  "namePlain": {
+    "ar": "رسالة مبهمة",
+    "de": "Unleserlicher Brief",
+    "en": "Illegible Letter",
+    "es": "Carta ilegible",
+    "fr": "Lettre illisible",
+    "fr-CA": "Lettre illisible",
+    "it": "Lettera indecifrabile",
+    "ja": "判読不可能な手紙",
+    "ko": "읽을 수 없는 편지",
+    "nl": "Onleesbare brief",
+    "pt-BR": "Carta Ilegível",
+    "ru": "Неразборчивое письмо",
+    "tr": "Okunamayan Mektup",
+    "zh-CN": "字迹不清的信",
+    "zh-TW": "難以識別的信"
+  },
+  "tags": []
 }

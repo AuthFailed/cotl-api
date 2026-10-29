@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "BLACK_GOLD",
@@ -26,9 +28,44 @@
     "zh-CN": "覆满血红色玫瑰的金色十字架。",
     "zh-TW": "覆滿血紅色玫瑰的金色十字架。"
   },
+  "descriptionPlain": {
+    "ar": "رمز ذهبي مُغطى بورود حمراء قانية.",
+    "de": "Ein goldenes Kreuz, das mit blutroten Rosen bedeckt ist.",
+    "en": "A golden cross covered in blood red roses.",
+    "es": "Una cruz dorada cubierta de rosas de color carmesí.",
+    "fr": "Une croix en or recouverte de roses rouges comme le sang.",
+    "fr-CA": "Une croix en or recouverte de roses rouges comme le sang.",
+    "it": "Una croce d'oro ricoperta di rose rosso sangue.",
+    "ja": "血塗られた赤いバラで覆われた黄金の十字架",
+    "ko": "핏빛 장미로 뒤덮인 황금 십자가입니다.",
+    "nl": "Een gouden kruis bedekt met bloedrode rozen.",
+    "pt-BR": "Um cruz dourada coberta de rosas vermelhas como sangue.",
+    "ru": "Золотой крест, обвитый кроваво-красными розами.",
+    "tr": "Kan kırmızısı güllerle kaplı altın bir haç.",
+    "zh-CN": "覆满血红色玫瑰的金色十字架。",
+    "zh-TW": "覆滿血紅色玫瑰的金色十字架。"
+  },
   "icon": "icons/structures/DECORATION_SINFUL_CRUCIFIX.png",
   "id": "DECORATION_SINFUL_CRUCIFIX",
+  "menu": "Aesthetic/DLC",
   "name": {
+    "ar": "رمز مُغطى بالورود",
+    "de": "Kreuz mit Rosen",
+    "en": "Rose Covered Cross",
+    "es": "Cruz cubierta de rosas",
+    "fr": "Croix couverte de roses",
+    "fr-CA": "Croix couverte de roses",
+    "it": "Croce ricoperta di rose",
+    "ja": "バラの十字架",
+    "ko": "장미로 덮인 십자가",
+    "nl": "Kruis bedekt met rozen",
+    "pt-BR": "Cruz Coberta de Rosas",
+    "ru": "Украшенный розами крест",
+    "tr": "Güllerle Kaplı Haç",
+    "zh-CN": "玫瑰十字架",
+    "zh-TW": "玫瑰十字架"
+  },
+  "namePlain": {
     "ar": "رمز مُغطى بالورود",
     "de": "Kreuz mit Rosen",
     "en": "Rose Covered Cross",

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "STONE_REFINED",
@@ -26,9 +28,44 @@
     "zh-CN": "装有闪亮水晶的塔，光芒四射",
     "zh-TW": "裝有閃亮水晶的塔，光芒四射"
   },
+  "descriptionPlain": {
+    "ar": "برج براق يتكون من بلورة لامعة",
+    "de": "Ein strahlender Turm aus leuchtendem Kristall.",
+    "en": "A radiant tower of shining crystal.",
+    "es": "Una brillante torre de cristal.",
+    "fr": "Une structure portant un cristal lumineux.",
+    "fr-CA": "Une structure portant un cristal lumineux.",
+    "it": "Un piedistallo che sorregge un cristallo scintillante.",
+    "ja": "キラキラと輝くクリスタルが使われた石塔",
+    "ko": "빛나는 수정이 달린 발광하는 탑입니다.",
+    "nl": "Een stralende toren van glinsterend kristal.",
+    "pt-BR": "Uma torre radiante feita de cristais brilhantes",
+    "ru": "Светящаяся башня, которую венчает сверкающий кристалл.",
+    "tr": "Parlak kristallerle süslenmiş, göz alıcı bir kule.",
+    "zh-CN": "装有闪亮水晶的塔，光芒四射",
+    "zh-TW": "裝有閃亮水晶的塔，光芒四射"
+  },
   "icon": "icons/structures/DECORATION_CRYSTAL_STATUE.png",
   "id": "DECORATION_CRYSTAL_STATUE",
+  "menu": "Aesthetic/Crystal",
   "name": {
+    "ar": "برج بلوري",
+    "de": "Kristallstatue",
+    "en": "Crystal Statue",
+    "es": "Estatua de cristal",
+    "fr": "Tour de cristal",
+    "fr-CA": "Tour de cristal",
+    "it": "Scultura cristallina",
+    "ja": "クリスタルスタチュー",
+    "ko": "수정 조각상",
+    "nl": "Kristalstandbeeld",
+    "pt-BR": "Estátua de Cristal",
+    "ru": "Кристальная стела",
+    "tr": "Kristal Heykel",
+    "zh-CN": "水晶雕塑品",
+    "zh-TW": "水晶雕像"
+  },
+  "namePlain": {
     "ar": "برج بلوري",
     "de": "Kristallstatue",
     "en": "Crystal Statue",

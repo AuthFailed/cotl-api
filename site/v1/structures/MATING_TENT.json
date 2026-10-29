@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "TECH",
   "cost": [
     {
       "item": "SILK_THREAD",
@@ -26,9 +28,44 @@
     "zh-CN": "邀请两位教徒决定是否愿意一起生蛋。须花费<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">",
     "zh-TW": "邀請兩位教徒決定是否願意一起生蛋。須花費<color=#FFD201>罪孽</color> <sprite name=\"icon_SinDoctrine\">"
   },
+  "descriptionPlain": {
+    "ar": "عليك دعوة تابعَين ليقررا إذا كانا يرغبان في تكوين بيضة معًا. تكلف خطيئة",
+    "de": "Lade zwei Anhänger ein, um sie entscheiden zu lassen, ob sie gemeinsam ein Ei zeugen möchten. Kostet Sünde.",
+    "en": "Invite two Followers to decide if they wish to make an Egg together. Costs Sin",
+    "es": "Invita a dos adeptos para que decidan si quieren poner un huevo juntos. Cuesta Pecado",
+    "fr": "Proposez à deux adeptes de concevoir un œuf ensemble. Coûte du péché.",
+    "fr-CA": "Proposez à deux adeptes de concevoir un œuf ensemble. Coûte du péché.",
+    "it": "Invita due membri del Culto e lascia che decidano se vogliono concepire un uovo insieme. Costa Peccato.",
+    "ja": "信者2人を招いて、一緒にタマゴをつくる意志があるかを決める。罪 がコストになる",
+    "ko": "두 명의 추종자들이 합심해 알을 낳게 합니다. 죄 를 지불해야 합니다.",
+    "nl": "Nodig twee volgelingen uit om te bedenken of ze samen een ei willen maken. Kost zonde",
+    "pt-BR": "Convide dois Seguidores para decidirem se desejam produzir um Ovo juntos. Custa Pecado",
+    "ru": "Место, куда можно пригласить двух последователей для создания яйца, воспользовавшись грехами.",
+    "tr": "İki Takipçi'yi davet ederek birlikte bir Yumurta oluşturmalarını sağla. Günah tüketir.",
+    "zh-CN": "邀请两位教徒决定是否愿意一起生蛋。须花费罪孽",
+    "zh-TW": "邀請兩位教徒決定是否願意一起生蛋。須花費罪孽"
+  },
   "icon": "icons/structures/MATING_TENT.png",
   "id": "MATING_TENT",
+  "menu": "Faith/Sin",
   "name": {
+    "ar": "خيمة التزاوج",
+    "de": "Paarungszelt",
+    "en": "Mating Tent",
+    "es": "Refugio del revolcón",
+    "fr": "Tente de l'accouplement",
+    "fr-CA": "Tente de l'accouplement",
+    "it": "Tenda della fecondazione",
+    "ja": "子作りテント",
+    "ko": "짝짓기 텐트",
+    "nl": "Paringstent",
+    "pt-BR": "Barraca de Acasalamento",
+    "ru": "Любовный шатёр",
+    "tr": "Aşk Çadırı",
+    "zh-CN": "交配帐篷",
+    "zh-TW": "交配帳篷"
+  },
+  "namePlain": {
     "ar": "خيمة التزاوج",
     "de": "Paarungszelt",
     "en": "Mating Tent",

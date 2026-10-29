@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "CRYSTAL",
@@ -26,9 +28,44 @@
     "zh-CN": "击杀凯拉鰢的纪念品",
     "zh-TW": "擊殺凱拉鰢的紀念品"
   },
+  "descriptionPlain": {
+    "ar": "جائزة لقتلك كالامار.",
+    "de": "Eine Trophäe für das Töten von Kallamar",
+    "en": "A trophy for killing Kallamar.",
+    "es": "Un trofeo por matar a Kallamar.",
+    "fr": "Un trophée pour avoir tué Kallamar",
+    "fr-CA": "Un trophée pour avoir tué Kallamar.",
+    "it": "Un trofeo per l'uccisione di Kallamar.",
+    "ja": "カラマールを殺した証の記念碑",
+    "ko": "칼라마르를 죽여서 얻은 전리품입니다.",
+    "nl": "Een trofee voor het doden van Kallamar.",
+    "pt-BR": "Um troféu por matar Kallamar",
+    "ru": "Доказательство победы над Калламаром.",
+    "tr": "Kallamar öldüğünde kazandığın miras.",
+    "zh-CN": "击杀凯拉鰢的纪念品",
+    "zh-TW": "擊殺凱拉鰢的紀念品"
+  },
   "icon": "icons/structures/DECORATION_BOSS_TROPHY_3.png",
   "id": "DECORATION_BOSS_TROPHY_3",
+  "menu": "Aesthetic/Crystal",
   "name": {
+    "ar": "جائزة كالامار",
+    "de": "Kallamar-Trophäe",
+    "en": "Kallamar Trophy",
+    "es": "Trofeo de Kallamar",
+    "fr": "Trophée de Kallamar",
+    "fr-CA": "Trophée de Kallamar",
+    "it": "Trofeo di Kallamar",
+    "ja": "カラマールの記念碑",
+    "ko": "칼라마르 전리품",
+    "nl": "Kallamar-trofee",
+    "pt-BR": "Troféu de Kallamar",
+    "ru": "Трофей (Калламар)",
+    "tr": "Kallamar Mirası",
+    "zh-CN": "凯拉鰢纪念品",
+    "zh-TW": "凱拉鰢紀念品"
+  },
+  "namePlain": {
     "ar": "جائزة كالامار",
     "de": "Kallamar-Trophäe",
     "en": "Kallamar Trophy",

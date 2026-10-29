@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Shrew",
   "name": {
+    "en": "Shrew"
+  },
+  "namePlain": {
     "en": "Shrew"
   },
   "unlock": "Other"

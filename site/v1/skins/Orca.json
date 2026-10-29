@@ -1,9 +1,13 @@
 {
   "description": {},
+  "descriptionPlain": {},
   "hidden": false,
   "icon": null,
   "id": "Orca",
   "name": {
+    "en": "Orca"
+  },
+  "namePlain": {
     "en": "Orca"
   },
   "unlock": "Major_DLC"

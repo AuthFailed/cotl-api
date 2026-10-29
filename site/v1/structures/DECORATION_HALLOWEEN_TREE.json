@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "LOG",
@@ -22,9 +24,44 @@
     "zh-CN": "血月期间才找得到的装饰用树",
     "zh-TW": "血月期間才找得到的裝飾用樹"
   },
+  "descriptionPlain": {
+    "ar": "شجرة تنمو فقط في أثناء ظهور قمر الدم.",
+    "de": "Ein dekorativer Baum zur Feier des Blutmondes.",
+    "en": "A tree that only grows during the Blood Moon.",
+    "es": "Un árbol decorativo que solo aparece durante la luna de sangre.",
+    "fr": "Un arbre décoratif qui ne peut être trouvé que lors de la lune de sang.",
+    "fr-CA": "Un arbre qui ne pousse que lors de la lune de sang.",
+    "it": "Un albero che cresce solo durante la Luna di sangue.",
+    "ja": "紅血の月の期間中にしか見つからない装飾用の木",
+    "ko": "핏빛 달이 들 때 자라는 나무입니다.",
+    "nl": "Een boom die alleen groeit tijdens de bloedmaan.",
+    "pt-BR": "Uma árvore decorativa encontrada apenas durante a Lua de Sangue",
+    "ru": "Дерево, которое появляется только под кровавой луной.",
+    "tr": "Yalnızca Kanlı Ay sırasında büyüyen bir ağaç.",
+    "zh-CN": "血月期间才找得到的装饰用树",
+    "zh-TW": "血月期間才找得到的裝飾用樹"
+  },
   "icon": "icons/structures/DECORATION_HALLOWEEN_TREE.png",
   "id": "DECORATION_HALLOWEEN_TREE",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "شجرة قمر الدم",
+    "de": "Blutmond-Baum",
+    "en": "Blood Moon Tree",
+    "es": "Árbol de luna de sangre",
+    "fr": "Arbre de la lune de sang",
+    "fr-CA": "Arbre de la lune de sang",
+    "it": "Albero della Luna di sangue",
+    "ja": "紅血の月の木",
+    "ko": "핏빛 달 나무",
+    "nl": "Bloedmaanboom",
+    "pt-BR": "Árvore da Lua de Sangue",
+    "ru": "Кровавое дерево",
+    "tr": "Kanlı Ay Ağacı",
+    "zh-CN": "血月之树",
+    "zh-TW": "血月之樹"
+  },
+  "namePlain": {
     "ar": "شجرة قمر الدم",
     "de": "Blutmond-Baum",
     "en": "Blood Moon Tree",

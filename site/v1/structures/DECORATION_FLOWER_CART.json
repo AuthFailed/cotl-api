@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "GRASS",
@@ -26,9 +28,44 @@
     "zh-CN": "装满花朵的木制拉车",
     "zh-TW": "裝滿花朵的木製拉車"
   },
+  "descriptionPlain": {
+    "ar": "عربة خشبية مليئة بالزهور.",
+    "de": "Ein hölzerner Karren mit Blumen.",
+    "en": "A wooden cart filled with flowers.",
+    "es": "Un carro de madera lleno de flores.",
+    "fr": "Une petite charrette de fleurs.",
+    "fr-CA": "Une petite charrette de fleurs.",
+    "it": "Un carretto di legno pieno di fiori.",
+    "ja": "花でいっぱいの木製の手押し車",
+    "ko": "꽃으로 채워진 목제 수레입니다.",
+    "nl": "Een houten kar vol bloemen.",
+    "pt-BR": "Uma carroça de madeira cheia de flores",
+    "ru": "Деревянная повозка, наполненная цветами.",
+    "tr": "Çiçeklerle dolu tahta bir araba.",
+    "zh-CN": "装满花朵的木制拉车",
+    "zh-TW": "裝滿花朵的木製拉車"
+  },
   "icon": "icons/structures/DECORATION_FLOWER_CART.png",
   "id": "DECORATION_FLOWER_CART",
+  "menu": "Aesthetic/Special_Events",
   "name": {
+    "ar": "عربة زهور",
+    "de": "Blumenkarren",
+    "en": "Flower Cart",
+    "es": "Carro de flores",
+    "fr": "Charrette fleurie",
+    "fr-CA": "Charrette fleurie",
+    "it": "Carretto fiorito",
+    "ja": "フラワーカート",
+    "ko": "꽃 수레",
+    "nl": "Bloemenkar",
+    "pt-BR": "Carroça de Flores",
+    "ru": "Повозка с цветами",
+    "tr": "Çiçek Arabası",
+    "zh-CN": "花朵拉车",
+    "zh-TW": "花朵拉車"
+  },
+  "namePlain": {
     "ar": "عربة زهور",
     "de": "Blumenkarren",
     "en": "Flower Cart",

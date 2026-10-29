@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG_REFINED",
@@ -30,9 +32,44 @@
     "zh-CN": "让教徒为其他教会成员烹煮餐点",
     "zh-TW": "讓教徒為其他教會成員烹煮餐點"
   },
+  "descriptionPlain": {
+    "ar": "يتيح للأتباع طهي وجبات لرفقائهم من أعضاء الطائفة.",
+    "de": "Ermöglicht Anhängern, Mahlzeiten für die anderen Kultmitglieder zu kochen.",
+    "en": "Allows Followers to cook meals for their fellow Cult members.",
+    "es": "Permite que los adeptos cocinen platos para el resto de la secta.",
+    "fr": "Permet aux adeptes de cuisiner des repas pour les membres du culte.",
+    "fr-CA": "Permet aux adeptes de cuisiner des repas pour les membres de la secte.",
+    "it": "Permette ai membri del Culto di cucinare i propri pasti.",
+    "ja": "教団の信者が自ら料理を作るための場所。作られた料理は他の信者も食べる",
+    "ko": "추종자들이 다른 교단원들을 위해 요리를 할 수 있게 합니다.",
+    "nl": "In de keuken kunnen volgelingen maaltijden bereiden voor hun mede-sekteleden.",
+    "pt-BR": "Permite que os Seguidores cozinhem refeições para os colegas membros do Culto.",
+    "ru": "Место, где последователи могут готовить друг для друга пищу.",
+    "tr": "Takipçilerin dost Tarikat üyeleri için yemek pişirmesini sağlar.",
+    "zh-CN": "让教徒为其他教会成员烹煮餐点",
+    "zh-TW": "讓教徒為其他教會成員烹煮餐點"
+  },
   "icon": "icons/structures/KITCHEN.png",
   "id": "KITCHEN",
+  "menu": "Follower/Misc",
   "name": {
+    "ar": "المطبخ",
+    "de": "Küche",
+    "en": "Kitchen",
+    "es": "Cocina",
+    "fr": "Cuisine",
+    "fr-CA": "Cuisine",
+    "it": "Cucina",
+    "ja": "キッチン",
+    "ko": "주방",
+    "nl": "Keuken",
+    "pt-BR": "Cozinha",
+    "ru": "Кухня",
+    "tr": "Mutfak",
+    "zh-CN": "厨房",
+    "zh-TW": "廚房"
+  },
+  "namePlain": {
     "ar": "المطبخ",
     "de": "Küche",
     "en": "Kitchen",

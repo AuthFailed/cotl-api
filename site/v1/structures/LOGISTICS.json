@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "MAJOR_DLC",
   "cost": [
     {
       "item": "YEW_HOLY",
@@ -26,9 +28,44 @@
     "zh-CN": "允许教徒将资源移动至教会中的指定建筑物。",
     "zh-TW": "允許教徒將資源移動至教會中的指定建築物。"
   },
+  "descriptionPlain": {
+    "ar": "تسمح للأتباع بنقل الموارد إلى المباني المختارة في طائفتك.",
+    "de": "Erlaube es Anhängern, Ressourcen in ausgewählte Gebäude des Kults zu verlegen.",
+    "en": "Allow Followers to move resources to select structures in the Cult.",
+    "es": "Permite que los adeptos trasladen recursos a otras estructuras de la secta.",
+    "fr": "Permet aux adeptes d'amener des ressources à une structure prédéfinie du culte.",
+    "fr-CA": "Permet aux adeptes d'amener des ressources à une structure prédéfinie de la secte.",
+    "it": "Permette ai membri del Culto di trasferire risorse alle strutture selezionate.",
+    "ja": "指示を出すことで、信者が資源を建築物まで運んでくれる",
+    "ko": "추종자들이 교단의 건물로 자원을 가져올 수 있게 합니다.",
+    "nl": "Laat volgelingen grondstoffen naar bepaalde gebouwen in het kamp brengen.",
+    "pt-BR": "Permite que seguidores transportem recursos para estruturas designadas no Culto.",
+    "ru": "Место, позволяющее выбрать постройки, в которые последователи будут относить материалы.",
+    "tr": "Takipçilerin kaynakları Tarikat'taki belirli yapılara taşımasına olanak verir.",
+    "zh-CN": "允许教徒将资源移动至教会中的指定建筑物。",
+    "zh-TW": "允許教徒將資源移動至教會中的指定建築物。"
+  },
   "icon": "icons/structures/LOGISTICS.png",
   "id": "LOGISTICS",
+  "menu": "MajorDLC/Misc",
   "name": {
+    "ar": "خيمة العمل",
+    "de": "Arbeitszelt",
+    "en": "Work Tent",
+    "es": "Carpa de trabajo",
+    "fr": "Tente de travail",
+    "fr-CA": "Tente de travail",
+    "it": "Tenda da lavoro",
+    "ja": "作業テント",
+    "ko": "노동 텐트",
+    "nl": "Werktent",
+    "pt-BR": "Barraca de Trabalho",
+    "ru": "Рабочий шатёр",
+    "tr": "Çalışma Çadırı",
+    "zh-CN": "派工帐篷",
+    "zh-TW": "派工帳篷"
+  },
+  "namePlain": {
     "ar": "خيمة العمل",
     "de": "Arbeitszelt",
     "en": "Work Tent",

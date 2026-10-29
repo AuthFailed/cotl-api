@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "MAGMA_STONE",
@@ -22,9 +24,44 @@
     "zh-CN": "尽在掌握。",
     "zh-TW": "一切盡在掌握之間。"
   },
+  "descriptionPlain": {
+    "ar": "كل شيء في متناوله.",
+    "de": "Es ist alles zum Greifen nah.",
+    "en": "It is all within grasp.",
+    "es": "Todo queda al alcance.",
+    "fr": "Ne passez pas trop près.",
+    "fr-CA": "Ne passez pas trop près.",
+    "it": "Afferra tutto in un guizzo.",
+    "ja": "その触手はすべてに届く",
+    "ko": "전부 손아귀에 들어옵니다.",
+    "nl": "Alles binnen bereik.",
+    "pt-BR": "Tudo ao seu alcance.",
+    "ru": "Воплощённая цепкость.",
+    "tr": "Ondan kimse kaçamaz.",
+    "zh-CN": "尽在掌握。",
+    "zh-TW": "一切盡在掌握之間。"
+  },
   "icon": "icons/structures/DECORATION_DLC_ROT_TENTACLE.png",
   "id": "DECORATION_DLC_ROT_TENTACLE",
+  "menu": "Aesthetic/Rot",
   "name": {
+    "ar": "المجس المتمدد",
+    "de": "Greiftentakel",
+    "en": "Reaching Tentacle",
+    "es": "Tentáculo del abismo",
+    "fr": "Tentacule envahissant",
+    "fr-CA": "Tentacule envahissant",
+    "it": "Tentacolo proteso",
+    "ja": "うごめく触手",
+    "ko": "내뻗는 촉수",
+    "nl": "Reikende tentakel",
+    "pt-BR": "Tentáculo Vicinal",
+    "ru": "Вытянутое щупальце",
+    "tr": "Uzanan Dokunaç",
+    "zh-CN": "蔓延触手",
+    "zh-TW": "蔓延觸手"
+  },
+  "namePlain": {
     "ar": "المجس المتمدد",
     "de": "Greiftentakel",
     "en": "Reaching Tentacle",

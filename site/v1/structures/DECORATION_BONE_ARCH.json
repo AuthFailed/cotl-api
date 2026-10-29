@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "AESTHETIC",
   "cost": [
     {
       "item": "BONE",
@@ -22,9 +24,44 @@
     "zh-CN": "用骨头建造的拱门",
     "zh-TW": "用骨頭建造的拱門"
   },
+  "descriptionPlain": {
+    "ar": "قوس مصنوعة من العظام.",
+    "de": "Ein Bogengewölbe aus Knochen.",
+    "en": "An arch constructed of bones.",
+    "es": "Un arco hecho con huesos.",
+    "fr": "Une arche faite d'ossements.",
+    "fr-CA": "Une arche faite d'ossements.",
+    "it": "Un arco fatto di ossa.",
+    "ja": "骨で作られたアーチ",
+    "ko": "뼈로 만들어진 아치입니다.",
+    "nl": "Een boog gemaakt van botten.",
+    "pt-BR": "Um arco construído com ossos",
+    "ru": "Арка, сложенная из костей.",
+    "tr": "Kemiklerden yapılmış bir kemer.",
+    "zh-CN": "用骨头建造的拱门",
+    "zh-TW": "用骨頭建造的拱門"
+  },
   "icon": "icons/structures/DECORATION_BONE_ARCH.png",
   "id": "DECORATION_BONE_ARCH",
+  "menu": "Aesthetic/All",
   "name": {
+    "ar": "قوس عظمية",
+    "de": "Knochenbogengewölbe",
+    "en": "Bone Arch",
+    "es": "Arco de huesos",
+    "fr": "Arche d'os",
+    "fr-CA": "Arche d'os",
+    "it": "Arco d'ossa",
+    "ja": "ボーンアーチ",
+    "ko": "뼈 아치",
+    "nl": "Boog van beenderen",
+    "pt-BR": "Arco de Ossos",
+    "ru": "Костяная арка",
+    "tr": "Kemik Kemer",
+    "zh-CN": "骨头拱门",
+    "zh-TW": "骨頭拱門"
+  },
+  "namePlain": {
     "ar": "قوس عظمية",
     "de": "Knochenbogengewölbe",
     "en": "Bone Arch",

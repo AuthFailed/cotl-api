@@ -1,4 +1,6 @@
 {
+  "buildable": false,
+  "category": null,
   "cost": [
     {
       "item": "MUSHROOM_SMALL",
@@ -22,9 +24,44 @@
     "zh-CN": "一些大型蘑菇",
     "zh-TW": "一些大型蘑菇"
   },
+  "descriptionPlain": {
+    "ar": "بعض الفطر الكبير.",
+    "de": "Ein paar große Pilze.",
+    "en": "Some large mushrooms.",
+    "es": "Unas setas muy grandes.",
+    "fr": "Deux gros champignons.",
+    "fr-CA": "Deux gros champignons.",
+    "it": "Un paio di funghi di grandi dimensioni.",
+    "ja": "2本のキノコが生えた見た目の置物",
+    "ko": "좀 커다란 버섯들입니다.",
+    "nl": "Een paar grote paddenstoelen.",
+    "pt-BR": "Alguns cogumelos grandes",
+    "ru": "Пара крупных грибов.",
+    "tr": "Birkaç büyük mantar.",
+    "zh-CN": "一些大型蘑菇",
+    "zh-TW": "一些大型蘑菇"
+  },
   "icon": "icons/structures/DECORATION_MUSHROOM_2.png",
   "id": "DECORATION_MUSHROOM_2",
+  "menu": null,
   "name": {
+    "ar": "تجمع الفطر",
+    "de": "Pilzgruppe",
+    "en": "Mushroom Cluster",
+    "es": "Racimo de setas",
+    "fr": "Duo de champignons",
+    "fr-CA": "Duo de champignons",
+    "it": "Gruppo fungino",
+    "ja": "ツインキノコ",
+    "ko": "버섯 무리",
+    "nl": "Trosje paddenstoelen",
+    "pt-BR": "Cogumelos Aglomerados",
+    "ru": "Грибы",
+    "tr": "Mantar Kümesi",
+    "zh-CN": "蘑菇群",
+    "zh-TW": "蘑菇群"
+  },
+  "namePlain": {
     "ar": "تجمع الفطر",
     "de": "Pilzgruppe",
     "en": "Mushroom Cluster",

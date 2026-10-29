@@ -1,6 +1,7 @@
 {
   "category": "NONE",
   "description": {},
+  "descriptionPlain": {},
   "icon": "icons/items/BLUE_HEART.png",
   "id": "BLUE_HEART",
   "name": {
@@ -19,5 +20,25 @@
     "tr": "Mavi Kalp",
     "zh-CN": "蓝心",
     "zh-TW": "藍心"
-  }
+  },
+  "namePlain": {
+    "ar": "قلب أزرق",
+    "de": "Blaues Herz",
+    "en": "Blue Heart",
+    "es": "Corazón azul",
+    "fr": "Cœur bleu",
+    "fr-CA": "Cœur bleu",
+    "it": "Cuore blu",
+    "ja": "ブルーハート",
+    "ko": "푸른 심장",
+    "nl": "Blauw hart",
+    "pt-BR": "Coração Azul",
+    "ru": "Голубое сердце",
+    "tr": "Mavi Kalp",
+    "zh-CN": "蓝心",
+    "zh-TW": "藍心"
+  },
+  "tags": [
+    "heart"
+  ]
 }

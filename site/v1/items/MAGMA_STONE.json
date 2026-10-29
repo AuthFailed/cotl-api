@@ -17,6 +17,23 @@
     "zh-CN": "在大地之母腹中钙化腐烂形成。",
     "zh-TW": "在大地之母的腹中鈣化腐爛形成。"
   },
+  "descriptionPlain": {
+    "ar": "عفن متحجر من باطن الأرض.",
+    "de": "Verkalkte Fäulnis aus dem Bauch der Erde.",
+    "en": "Calcified rot from the belly of the earth.",
+    "es": "Podredumbre calcificada que yace en las entrañas de la tierra.",
+    "fr": "De la pourriture calcinée issue des entrailles de la terre.",
+    "fr-CA": "De la pourriture calcinée issue des entrailles de la Terre.",
+    "it": "Marciume calcificato dalle viscere della terra.",
+    "ja": "地中深くで石化した腐敗の塊",
+    "ko": "지구의 뱃속에서 뭉친 부패 덩어리입니다.",
+    "nl": "Versteende rot uit de krochten van de aarde.",
+    "pt-BR": "Podridão calcificada que surge das entranhas da terra.",
+    "ru": "Затвердевшая гниль из чрева земли.",
+    "tr": "Dünyanın bağrından kopmuş, kireçlenmiş çürüme.",
+    "zh-CN": "在大地之母腹中钙化腐烂形成。",
+    "zh-TW": "在大地之母的腹中鈣化腐爛形成。"
+  },
   "icon": "icons/items/MAGMA_STONE.png",
   "id": "MAGMA_STONE",
   "name": {
@@ -35,5 +52,23 @@
     "tr": "Çürükateş",
     "zh-CN": "腐烧",
     "zh-TW": "腐燃"
-  }
+  },
+  "namePlain": {
+    "ar": "فحم التعفن",
+    "de": "Fäulnisbrand",
+    "en": "Rotburn",
+    "es": "Petrodumbre",
+    "fr": "Charbon putrescent",
+    "fr-CA": "Charbon putrescent",
+    "it": "Marciolite",
+    "ja": "腐敗石",
+    "ko": "부패석탄",
+    "nl": "Rotsteen",
+    "pt-BR": "Putrefogo",
+    "ru": "Гнилогар",
+    "tr": "Çürükateş",
+    "zh-CN": "腐烧",
+    "zh-TW": "腐燃"
+  },
+  "tags": []
 }
