@@ -9,6 +9,7 @@ Base URL: `https://api.cotl.info/v1/`
 | Path | What |
 |---|---|
 | `index.json` | game version, capture date, languages, counts |
+| `changes.json` | per game version, newest first: ids added, removed, changed |
 | `items.json`, `items/{id}.json` | every item |
 | `structures.json`, `structures/{id}.json` | every structure |
 | `skins.json`, `skins/{id}.json` | every follower skin (form) |
@@ -20,12 +21,14 @@ Base URL: `https://api.cotl.info/v1/`
 ## Fields
 
 Every entity has `id`, `name` and `description` (maps from language code to text; a language without a
-translation is left out, `en` is always there in `name`), and `icon` (a path relative to `v1/`, or null).
+translation is left out, `en` is always there in `name`), `namePlain` and `descriptionPlain` (the same without
+the game's text markup), and `icon` (a path relative to `v1/`, or null).
 
-- **item**: `category` (the game's item category)
+- **item**: `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`)
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
   `upgradesFrom` (structure id or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
-  place it from the build menu)
+  place it from the build menu), `buildable` (in the game's list of buildable structures), `category` (`FOOD`,
+  `FAITH`, … for buildable ones, else null)
 - **skin**: `unlock` (where the game drops it: `Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`,
   `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game,
   and no icons yet.
@@ -95,7 +98,7 @@ Examples (only `en` and `ru` shown; the real files have every language):
 ```
 
 Text is the game's own and can hold its TextMeshPro markup, e.g. `<sprite name="icon_spirits">` for an
-inline icon; strip `<...>` tags if you only want plain text. An item's `category` is `NONE` when the game
+inline icon; `namePlain`/`descriptionPlain` have it removed. An item's `category` is `NONE` when the game
 doesn't put it in one.
 
 ## Compatibility

@@ -1,5 +1,7 @@
 [
   {
+    "buildable": true,
+    "category": "FOOD",
     "cost": [
       {
         "item": "LOG",
@@ -25,6 +27,8 @@
     "upgradesFrom": null
   },
   {
+    "buildable": true,
+    "category": "FAITH",
     "cost": [
       {
         "item": "STONE",

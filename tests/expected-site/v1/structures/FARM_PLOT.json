@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FOOD",
   "cost": [
     {
       "item": "LOG",

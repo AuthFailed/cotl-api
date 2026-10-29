@@ -128,11 +128,17 @@ public class CotlDataDump : BaseUnityPlugin
         return term;
     }
 
+    static readonly Dictionary<string, Func<InventoryItem.ITEM_TYPE, bool>> ItemTags = new Dictionary<string, Func<InventoryItem.ITEM_TYPE, bool>> {
+        ["food"] = InventoryItem.IsFood, ["fish"] = InventoryItem.IsFish, ["big_fish"] = InventoryItem.IsBigFish,
+        ["meat"] = InventoryItem.IsMeat, ["heart"] = InventoryItem.IsHeart, ["gift"] = InventoryItem.IsGiftOrNecklace,
+    };
+
     void ReadItems()
     {
         items = Named<InventoryItem.ITEM_TYPE>("Inventory").Select(t => new Dictionary<string, object> {
             ["id"] = t.ToString(), ["nameTerm"] = Term($"Inventory/{t}"), ["descTerm"] = Term($"Inventory/{t}/Description"),
             ["category"] = InventoryItem.GetItemCategory(t).ToString(),
+            ["tags"] = ItemTags.Where(tag => tag.Value(t)).Select(tag => tag.Key).ToList(),
         }).ToList();
         Logger.LogInfo($"items: {items.Count}");
     }
@@ -148,6 +154,9 @@ public class CotlDataDump : BaseUnityPlugin
                 ["cost"] = StructuresData.GetCost(t).Select(c => new Dictionary<string, object> { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
                 ["upgradesFrom"] = info != null && info.IsUpgrade ? info.UpgradeFromType.ToString() : null,
                 ["size"] = null,
+                // GetCategory falls back to TECH for anything it doesn't list, so only buildable types get one.
+                ["buildable"] = StructuresData.AllStructures.Contains(t),
+                ["category"] = StructuresData.AllStructures.Contains(t) ? StructuresData.GetCategory(t).ToString() : null,
             };
         }).ToList();
         Logger.LogInfo($"structures: {structures.Count}");

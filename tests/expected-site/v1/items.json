@@ -10,7 +10,10 @@
     },
     "namePlain": {
       "en": "Berries"
-    }
+    },
+    "tags": [
+      "food"
+    ]
   },
   {
     "category": "Resource",
@@ -31,7 +34,8 @@
     "namePlain": {
       "en": "Logs",
       "ru": "Брёвна"
-    }
+    },
+    "tags": []
   },
   {
     "category": "Resource",
@@ -52,6 +56,7 @@
     "namePlain": {
       "en": "Stone",
       "ru": "Камень"
-    }
+    },
+    "tags": []
   }
 ]

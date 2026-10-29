@@ -244,8 +244,12 @@
       },
       "Structure": {
         "properties": {
+          "buildable": {
+            "description": "in the game's list of structures the player can build",
+            "type": "boolean"
+          },
           "category": {
-            "description": "build menu category, null if not in the build menu",
+            "description": "the game's structure category (FOOD, FAITH, ...), null if not buildable",
             "type": [
               "string",
               "null"
@@ -329,13 +333,6 @@
             ],
             "type": [
               "object",
-              "null"
-            ]
-          },
-          "tier": {
-            "description": "build menu tier (Zero to Three), null if not in the build menu",
-            "type": [
-              "string",
               "null"
             ]
           },

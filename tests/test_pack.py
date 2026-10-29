@@ -114,7 +114,7 @@ class PackTest(unittest.TestCase):
     def test_new_field_is_not_a_game_change(self):
         self.pack()
         self.edit("meta", lambda m: m.update(gameVersion="1.4.7"))
-        self.edit("items", lambda items: [dict(i, tags=["food"]) for i in items])
+        self.edit("items", lambda items: [dict(i, rarity="common") for i in items])
         self.pack()
         self.assertEqual(self.changes(), [])
 

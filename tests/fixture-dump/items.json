@@ -3,18 +3,23 @@
     "id": "LOG",
     "nameTerm": "Inventory/LOG",
     "descTerm": "Inventory/LOG/Description",
-    "category": "Resource"
+    "category": "Resource",
+    "tags": []
   },
   {
     "id": "BERRY",
     "nameTerm": "Inventory/BERRY",
     "descTerm": null,
-    "category": "Food"
+    "category": "Food",
+    "tags": [
+      "food"
+    ]
   },
   {
     "id": "STONE",
     "nameTerm": "Inventory/STONE",
     "descTerm": "Inventory/STONE/Description",
-    "category": "Resource"
+    "category": "Resource",
+    "tags": []
   }
 ]

@@ -1,4 +1,6 @@
 {
+  "buildable": true,
+  "category": "FAITH",
   "cost": [
     {
       "item": "STONE",
