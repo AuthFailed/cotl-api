@@ -1,0 +1,93 @@
+"""publish.sh against a fake PC: ssh runs each remote command locally, steam drops the fixture dump."""
+import os
+import shutil
+import stat
+import subprocess
+import tempfile
+import unittest
+from pathlib import Path
+
+ROOT = Path(__file__).parent.parent
+FAKES = {
+    # ssh <opts> host 'cmd': fail with 255 when the command contains $FAKE_SSH_DOWN, else run it here
+    "ssh": 'cmd="${@: -1}"; echo "$cmd" >> "$FAKE_LOG"\n'
+           'if [ -n "${FAKE_SSH_DOWN:-}" ] && [[ "$cmd" == *"$FAKE_SSH_DOWN"* ]]; then exit 255; fi\n'
+           'exec bash -c "$cmd"',
+    "pgrep": 'exit "${FAKE_PGREP:-1}"',
+    "pkill": "exit 0",
+    "sleep": "exit 0",
+    "steam": 'mkdir -p "$FAKE_OUT" && cp -R "$FAKE_DUMP/." "$FAKE_OUT/"\n'
+             'if [ -n "${FAKE_TOUCH_SAVES:-}" ]; then echo new > "$FAKE_SAVES/slot_9.json"; fi',
+    # rsync -a --partial -e ... host:<escaped path>/ dest/
+    "rsync": 'src="${@: -2:1}"; eval "p=${src#*:}"; mkdir -p "${@: -1}"; cp -R "$p/." "${@: -1}"',
+}
+
+
+class PublishTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = Path(tempfile.mkdtemp())
+        self.addCleanup(lambda: (os.chmod(self.tmp / "home", 0o755), shutil.rmtree(self.tmp)))
+        self.repo = self.tmp / "repo"
+        self.repo.mkdir()
+        for f in ("publish.sh", "pack.py"):
+            shutil.copy(ROOT / f, self.repo / f)
+        shutil.copytree(ROOT / "schema", self.repo / "schema")
+        (self.repo / "mod").mkdir()
+        (self.repo / "mod" / "CotlDataDump.dll").write_bytes(b"dll")
+        self.game = self.tmp / "Cult of the Lamb"
+        for d in ("BepInEx/plugins", "BepInEx/config"):
+            (self.game / d).mkdir(parents=True)
+        self.saves = self.tmp / "saves dir"
+        self.saves.mkdir()
+        (self.saves / "slot_0.json").write_text("save")
+        (self.tmp / "home").mkdir()
+        (self.repo / ".env").write_text(
+            f'COTL_SSH=pc\nCOTL_KEY=key\nCOTL_GAME_DIR="{self.game}"\nCOTL_SAVES_DIR="{self.saves}"\n'
+            f'COTL_SUMS="{self.tmp / "sums"}"\n')
+        bin = self.tmp / "bin"
+        bin.mkdir()
+        for name, body in FAKES.items():
+            (bin / name).write_text("#!/usr/bin/env bash\n" + body + "\n")
+            (bin / name).chmod(0o755)
+        subprocess.run(["git", "init", "-q"], cwd=self.repo, check=True)
+        self.env = {**os.environ, "PATH": f"{bin}:{os.environ['PATH']}", "HOME": str(self.tmp / "home"),
+                    "FAKE_LOG": str(self.tmp / "ssh.log"), "FAKE_DUMP": str(ROOT / "tests" / "fixture-dump"),
+                    "FAKE_OUT": str(self.game / "BepInEx/plugins/CotlDataDump"), "FAKE_SAVES": str(self.saves)}
+
+    def run_publish(self, **env):
+        r = subprocess.run(["bash", "publish.sh"], cwd=self.repo, input="n\n", capture_output=True, text=True,
+                           env={**self.env, **env}, timeout=60)
+        self.log = (self.tmp / "ssh.log").read_text() if (self.tmp / "ssh.log").exists() else ""
+        return r
+
+    def installed(self):
+        return "cat >" in self.log
+
+    def test_happy_path_cleans_up_before_packing(self):
+        r = self.run_publish()
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        self.assertTrue((self.repo / "site" / "v1" / "index.json").exists())
+        self.assertFalse((self.game / "BepInEx/plugins/CotlDataDump.dll").exists())
+        self.assertFalse((self.game / "BepInEx/config/chrsnv.cotldata.dump.cfg").exists())
+        self.assertLess(r.stdout.index("saves unchanged"), r.stdout.index("items: 3"))
+
+    def test_unreachable_pc_is_not_taken_as_game_stopped(self):
+        r = self.run_publish(FAKE_SSH_DOWN="pgrep")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertFalse(self.installed())
+
+    def test_new_save_file_during_run_stops_before_packing(self):
+        r = self.run_publish(FAKE_TOUCH_SAVES="1")
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("SAVES CHANGED", r.stdout)
+        self.assertFalse((self.repo / "site").exists())
+
+    def test_failed_backup_stops_the_run(self):
+        os.chmod(self.tmp / "home", 0o555)  # cp -a into ~/cotl-saves-backup-* fails
+        r = self.run_publish()
+        self.assertNotEqual(r.returncode, 0)
+        self.assertFalse(self.installed())
+
+
+if __name__ == "__main__":
+    unittest.main()
