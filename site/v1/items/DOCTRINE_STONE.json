@@ -73,5 +73,10 @@
     "zh-TW": "戒律石碎塊"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

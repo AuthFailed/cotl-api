@@ -17,5 +17,10 @@
     "en": "Claws of the Wolf"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

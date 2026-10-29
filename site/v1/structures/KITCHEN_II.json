@@ -87,5 +87,6 @@
     "zh-TW": "廚房 II"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

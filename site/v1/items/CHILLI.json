@@ -75,5 +75,13 @@
   "seed": "SEED_CHILLI",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "DRINK_CHILLI",
+      "MEAL_SPICY"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

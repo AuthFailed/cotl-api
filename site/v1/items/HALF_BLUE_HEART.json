@@ -43,5 +43,10 @@
   "seed": null,
   "tags": [
     "heart"
-  ]
+  ],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -86,5 +86,6 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "FURNACE_2"
+  "upgradesFrom": "FURNACE_2",
+  "upgradesTo": []
 }

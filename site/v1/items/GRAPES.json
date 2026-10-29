@@ -73,5 +73,17 @@
     "zh-TW": "葡萄"
   },
   "seed": "SEED_GRAPES",
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_COCKTAIL",
+      "DRINK_GIN",
+      "DRINK_LIGHTNING",
+      "DRINK_WINE"
+    ],
+    "rituals": [],
+    "structures": [
+      "PUB"
+    ]
+  }
 }

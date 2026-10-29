@@ -90,5 +90,8 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "SHRINE"
+  "upgradesFrom": "SHRINE",
+  "upgradesTo": [
+    "SHRINE_III"
+  ]
 }

@@ -75,5 +75,14 @@
   "seed": "SEED_CAULIFLOWER",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_GREAT",
+      "MEAL_MEDIUM_VEG",
+      "MEAL_MILK_GREAT"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -90,5 +90,8 @@
     "h": 1,
     "w": 1
   },
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": [
+    "HARVEST_TOTEM_2"
+  ]
 }

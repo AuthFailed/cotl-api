@@ -73,5 +73,54 @@
     "zh-TW": "骨頭"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "MEAL_FOLLOWER_MEAT"
+    ],
+    "rituals": [
+      "Ritual_Ascend",
+      "Ritual_AssignFaithEnforcer",
+      "Ritual_AssignTaxCollector",
+      "Ritual_AtoneSin",
+      "Ritual_BecomeDisciple",
+      "Ritual_Cannibal",
+      "Ritual_ConvertToRot",
+      "Ritual_DonationRitual",
+      "Ritual_Enlightenment",
+      "Ritual_Fast",
+      "Ritual_FasterBuilding",
+      "Ritual_Feast",
+      "Ritual_Fightpit",
+      "Ritual_FirePit",
+      "Ritual_FishingRitual",
+      "Ritual_FollowerWedding",
+      "Ritual_Funeral",
+      "Ritual_HarvestRitual",
+      "Ritual_Holiday",
+      "Ritual_Nudism",
+      "Ritual_Purge",
+      "Ritual_RanchHarvest",
+      "Ritual_RanchMeat",
+      "Ritual_Ressurect",
+      "Ritual_Sacrifice",
+      "Ritual_Snowman",
+      "Ritual_Wedding",
+      "Ritual_WorkThroughNight"
+    ],
+    "structures": [
+      "DECORATION_BONE_ARCH",
+      "DECORATION_BONE_BARREL",
+      "DECORATION_BONE_FLAG",
+      "DECORATION_BONE_LANTERN",
+      "DECORATION_BONE_PILLAR",
+      "DECORATION_BONE_SCULPTURE",
+      "DECORATION_BONE_SKULL_BIG",
+      "DECORATION_BONE_SKULL_PILE",
+      "DECORATION_DST_BEEFALOSKELETON",
+      "DECORATION_HALLOWEEN_SKULL",
+      "DECORATION_SINFUL_SKULL",
+      "DECORATION_WALL_BONE"
+    ]
+  }
 }

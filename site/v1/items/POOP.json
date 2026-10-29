@@ -73,5 +73,18 @@
     "zh-TW": "肥料"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_MILKSHAKE",
+      "DRINK_POOP_JUICE",
+      "MEAL_DEADLY",
+      "MEAL_POOP"
+    ],
+    "rituals": [],
+    "structures": [
+      "BED_3",
+      "SHARED_HOUSE"
+    ]
+  }
 }

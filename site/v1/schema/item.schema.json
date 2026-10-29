@@ -9,7 +9,8 @@
     "icon",
     "category",
     "namePlain",
-    "descriptionPlain"
+    "descriptionPlain",
+    "usedIn"
   ],
   "properties": {
     "id": {
@@ -230,6 +231,35 @@
             "winter"
           ],
           "description": "the only season it grows in, unless a Farm Crop Grower or rotstone fertiliser is used"
+        }
+      }
+    },
+    "usedIn": {
+      "type": "object",
+      "description": "where the item is used: structure costs, meal and drink recipes, ritual costs",
+      "required": [
+        "structures",
+        "items",
+        "rituals"
+      ],
+      "properties": {
+        "structures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rituals": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
         }
       }
     }

@@ -73,5 +73,15 @@
     "zh-TW": "蛋黃"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_EGGNOG",
+      "MEAL_EGG"
+    ],
+    "rituals": [],
+    "structures": [
+      "DECORATION_EASTEREGG_EGG"
+    ]
+  }
 }

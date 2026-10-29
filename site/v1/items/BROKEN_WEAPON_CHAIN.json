@@ -17,5 +17,10 @@
     "en": "Shattered Flail"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

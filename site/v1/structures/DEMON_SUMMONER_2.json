@@ -90,5 +90,8 @@
     "h": 3,
     "w": 3
   },
-  "upgradesFrom": "DEMON_SUMMONER"
+  "upgradesFrom": "DEMON_SUMMONER",
+  "upgradesTo": [
+    "DEMON_SUMMONER_3"
+  ]
 }

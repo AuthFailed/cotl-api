@@ -42,5 +42,6 @@
     "zh-TW": "便便"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

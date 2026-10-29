@@ -73,5 +73,15 @@
     "zh-TW": "罪孽"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_SIN"
+    ],
+    "rituals": [],
+    "structures": [
+      "HATCHERY_2",
+      "PUB_2"
+    ]
+  }
 }

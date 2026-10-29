@@ -90,5 +90,8 @@
     "h": 4,
     "w": 4
   },
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": [
+    "PUB_2"
+  ]
 }

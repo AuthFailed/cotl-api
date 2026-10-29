@@ -87,7 +87,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "BED_2"
+    ]
   },
   {
     "buildable": true,
@@ -181,7 +184,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "BED"
+    "upgradesFrom": "BED",
+    "upgradesTo": [
+      "BED_3"
+    ]
   },
   {
     "buildable": true,
@@ -275,7 +281,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "BED_2"
+    "upgradesFrom": "BED_2",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -365,7 +372,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "BLOODSTONE_MINE_2"
+    ]
   },
   {
     "buildable": true,
@@ -459,7 +469,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "BLOODSTONE_MINE"
+    "upgradesFrom": "BLOODSTONE_MINE",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -549,7 +560,10 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "GRAVE"
+    ]
   },
   {
     "buildable": false,
@@ -639,7 +653,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -733,7 +748,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -823,7 +839,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -917,7 +934,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -1007,7 +1025,8 @@
       "h": 4,
       "w": 4
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -1097,7 +1116,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "CRYPT_2"
+    ]
   },
   {
     "buildable": true,
@@ -1187,7 +1209,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "CRYPT_1"
+    "upgradesFrom": "CRYPT_1",
+    "upgradesTo": [
+      "CRYPT_3"
+    ]
   },
   {
     "buildable": true,
@@ -1277,7 +1302,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "CRYPT_2"
+    "upgradesFrom": "CRYPT_2",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1367,7 +1393,8 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -1461,7 +1488,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1507,7 +1535,8 @@
       "zh-TW": "教徒遺體"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1590,7 +1619,8 @@
       "zh-TW": "整潔樹籬"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1673,7 +1703,8 @@
       "zh-TW": "木製燈柱"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1756,7 +1787,8 @@
       "zh-TW": "神祕果實雕像"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1839,7 +1871,8 @@
       "zh-TW": "迷人擺飾"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -1922,7 +1955,8 @@
       "zh-TW": "蔓生之井"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2012,7 +2046,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -2098,7 +2133,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -2188,7 +2224,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2274,7 +2311,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2364,7 +2402,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2450,7 +2489,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2536,7 +2576,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2622,7 +2663,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2708,7 +2750,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2794,7 +2837,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2880,7 +2924,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -2966,7 +3011,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3060,7 +3106,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3150,7 +3197,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3240,7 +3288,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3330,7 +3379,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3420,7 +3470,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3510,7 +3561,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3600,7 +3652,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3690,7 +3743,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3776,7 +3830,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3862,7 +3917,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -3948,7 +4004,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4034,7 +4091,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4120,7 +4178,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4206,7 +4265,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4292,7 +4352,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4378,7 +4439,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4464,7 +4526,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4550,7 +4613,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4636,7 +4700,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4726,7 +4791,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4816,7 +4882,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4902,7 +4969,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -4988,7 +5056,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5074,7 +5143,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5164,7 +5234,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5254,7 +5325,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5344,7 +5416,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5434,7 +5507,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5520,7 +5594,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5601,7 +5676,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5691,7 +5767,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5777,7 +5854,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5863,7 +5941,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -5949,7 +6028,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6035,7 +6115,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6125,7 +6206,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6215,7 +6297,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6301,7 +6384,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6387,7 +6471,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6473,7 +6558,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6559,7 +6645,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6645,7 +6732,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6731,7 +6819,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6821,7 +6910,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6907,7 +6997,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -6993,7 +7084,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7083,7 +7175,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7173,7 +7266,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7263,7 +7357,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7349,7 +7444,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7435,7 +7531,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7525,7 +7622,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7615,7 +7713,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7705,7 +7804,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7795,7 +7895,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7885,7 +7986,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -7975,7 +8077,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8065,7 +8168,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8151,7 +8255,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8237,7 +8342,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8323,7 +8429,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8409,7 +8516,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8495,7 +8603,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8581,7 +8690,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8667,7 +8777,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8753,7 +8864,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8839,7 +8951,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -8920,7 +9033,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9006,7 +9120,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9092,7 +9207,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9178,7 +9294,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9264,7 +9381,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9350,7 +9468,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9436,7 +9555,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9522,7 +9642,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9608,7 +9729,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9698,7 +9820,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9788,7 +9911,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9878,7 +10002,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -9968,7 +10093,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10058,7 +10184,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10148,7 +10275,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10234,7 +10362,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10324,7 +10453,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10410,7 +10540,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10496,7 +10627,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10582,7 +10714,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10672,7 +10805,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10758,7 +10892,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10844,7 +10979,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -10930,7 +11066,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11016,7 +11153,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11102,7 +11240,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11188,7 +11327,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11274,7 +11414,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11364,7 +11505,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11450,7 +11592,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11540,7 +11683,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -11630,7 +11774,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11720,7 +11865,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11806,7 +11952,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11892,7 +12039,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -11978,7 +12126,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12068,7 +12217,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12158,7 +12308,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12248,7 +12399,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12334,7 +12486,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12420,7 +12573,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12506,7 +12660,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12592,7 +12747,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12678,7 +12834,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12764,7 +12921,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12850,7 +13008,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -12940,7 +13099,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13030,7 +13190,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13120,7 +13281,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13206,7 +13368,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13292,7 +13455,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13378,7 +13542,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13464,7 +13629,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -13545,7 +13711,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13635,7 +13802,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13721,7 +13889,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13807,7 +13976,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13893,7 +14063,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -13979,7 +14150,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14065,7 +14237,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -14151,7 +14324,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14237,7 +14411,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14323,7 +14498,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -14409,7 +14585,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14499,7 +14676,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14589,7 +14767,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14679,7 +14858,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14773,7 +14953,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14863,7 +15044,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -14953,7 +15135,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15043,7 +15226,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15129,7 +15313,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15159,7 +15344,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15189,7 +15375,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15219,7 +15406,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15249,7 +15437,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15279,7 +15468,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15365,7 +15555,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15451,7 +15642,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15537,7 +15729,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15627,7 +15820,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15713,7 +15907,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15799,7 +15994,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15885,7 +16081,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -15971,7 +16168,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16057,7 +16255,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16147,7 +16346,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -16228,7 +16428,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16318,7 +16519,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16404,7 +16606,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16490,7 +16693,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16580,7 +16784,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16666,7 +16871,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16752,7 +16958,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16838,7 +17045,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -16924,7 +17132,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17010,7 +17219,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -17096,7 +17306,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17182,7 +17393,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17268,7 +17480,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17354,7 +17567,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17440,7 +17654,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17526,7 +17741,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17612,7 +17828,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17698,7 +17915,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17784,7 +18002,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -17870,7 +18089,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -17956,7 +18176,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18046,7 +18267,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18132,7 +18354,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18218,7 +18441,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18304,7 +18528,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18390,7 +18615,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18476,7 +18702,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18562,7 +18789,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18648,7 +18876,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18734,7 +18963,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -18824,7 +19054,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18910,7 +19141,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -18996,7 +19228,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19082,7 +19315,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19168,7 +19402,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19254,7 +19489,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19344,7 +19580,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19434,7 +19671,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19520,7 +19758,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19614,7 +19853,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "DEMON_SUMMONER_2"
+    ]
   },
   {
     "buildable": true,
@@ -19708,7 +19950,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "DEMON_SUMMONER"
+    "upgradesFrom": "DEMON_SUMMONER",
+    "upgradesTo": [
+      "DEMON_SUMMONER_3"
+    ]
   },
   {
     "buildable": true,
@@ -19802,7 +20047,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "DEMON_SUMMONER_2"
+    "upgradesFrom": "DEMON_SUMMONER_2",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -19892,7 +20138,8 @@
       "h": 4,
       "w": 4
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -19982,7 +20229,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -20072,7 +20320,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -20158,7 +20407,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -20248,7 +20498,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "FARM_STATION_II"
+    ]
   },
   {
     "buildable": true,
@@ -20338,7 +20591,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "FARM_STATION"
+    "upgradesFrom": "FARM_STATION",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -20419,7 +20673,8 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -20513,7 +20768,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "FOOD_STORAGE_2"
+    ]
   },
   {
     "buildable": false,
@@ -20603,7 +20861,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "FOOD_STORAGE"
+    "upgradesFrom": "FOOD_STORAGE",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -20697,7 +20956,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -20783,7 +21043,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "FURNACE_2"
+    ]
   },
   {
     "buildable": true,
@@ -20873,7 +21136,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "FURNACE_1"
+    "upgradesFrom": "FURNACE_1",
+    "upgradesTo": [
+      "FURNACE_3"
+    ]
   },
   {
     "buildable": true,
@@ -20963,7 +21229,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "FURNACE_2"
+    "upgradesFrom": "FURNACE_2",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21053,7 +21320,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": "BODY_PIT"
+    "upgradesFrom": "BODY_PIT",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21147,7 +21415,10 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "HARVEST_TOTEM_2"
+    ]
   },
   {
     "buildable": true,
@@ -21241,7 +21512,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": "HARVEST_TOTEM"
+    "upgradesFrom": "HARVEST_TOTEM",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21335,7 +21607,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "HATCHERY_2"
+    ]
   },
   {
     "buildable": true,
@@ -21429,7 +21704,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "HATCHERY"
+    "upgradesFrom": "HATCHERY",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21523,7 +21799,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "HEALING_BAY_2"
+    ]
   },
   {
     "buildable": true,
@@ -21617,7 +21896,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "HEALING_BAY"
+    "upgradesFrom": "HEALING_BAY",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21707,7 +21987,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "JANITOR_STATION_2"
+    ]
   },
   {
     "buildable": true,
@@ -21797,7 +22080,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "JANITOR_STATION"
+    "upgradesFrom": "JANITOR_STATION",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -21891,7 +22175,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -21982,7 +22267,8 @@
       "zh-TW": "廚房 II"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22076,7 +22362,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22166,7 +22453,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22256,7 +22544,10 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "LIGHTNING_ROD_2"
+    ]
   },
   {
     "buildable": false,
@@ -22346,7 +22637,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": "LIGHTNING_ROD"
+    "upgradesFrom": "LIGHTNING_ROD",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22436,7 +22728,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22526,7 +22819,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "LUMBERJACK_STATION_2"
+    ]
   },
   {
     "buildable": true,
@@ -22620,7 +22916,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "LUMBERJACK_STATION"
+    "upgradesFrom": "LUMBERJACK_STATION",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22710,7 +23007,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22800,7 +23098,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -22890,7 +23189,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -22984,7 +23284,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "MISSIONARY_II"
+    ]
   },
   {
     "buildable": true,
@@ -23078,7 +23381,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "MISSIONARY"
+    "upgradesFrom": "MISSIONARY",
+    "upgradesTo": [
+      "MISSIONARY_III"
+    ]
   },
   {
     "buildable": true,
@@ -23172,7 +23478,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "MISSIONARY_II"
+    "upgradesFrom": "MISSIONARY_II",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -23262,7 +23569,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "MORGUE_2"
+    ]
   },
   {
     "buildable": true,
@@ -23352,7 +23662,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "MORGUE_1"
+    "upgradesFrom": "MORGUE_1",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -23446,7 +23757,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -23536,7 +23848,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "OUTHOUSE_2"
+    ]
   },
   {
     "buildable": true,
@@ -23630,7 +23945,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "OUTHOUSE"
+    "upgradesFrom": "OUTHOUSE",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -23711,7 +24027,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -23757,7 +24074,8 @@
       "zh-TW": "便便"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -23847,7 +24165,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -23937,7 +24256,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24031,7 +24351,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24117,7 +24438,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24211,7 +24533,10 @@
       "h": 4,
       "w": 4
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "PUB_2"
+    ]
   },
   {
     "buildable": true,
@@ -24305,7 +24630,8 @@
       "h": 4,
       "w": 4
     },
-    "upgradesFrom": "PUB"
+    "upgradesFrom": "PUB",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24391,7 +24717,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24477,7 +24804,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "RANCH_2"
+    ]
   },
   {
     "buildable": true,
@@ -24563,7 +24893,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "RANCH"
+    "upgradesFrom": "RANCH",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24653,7 +24984,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24739,7 +25071,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24829,7 +25162,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -24919,7 +25253,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25013,7 +25348,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "REFINERY_2"
+    ]
   },
   {
     "buildable": true,
@@ -25107,7 +25445,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "REFINERY"
+    "upgradesFrom": "REFINERY",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25197,7 +25536,10 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "ROTSTONE_MINE_2"
+    ]
   },
   {
     "buildable": true,
@@ -25287,7 +25629,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "ROTSTONE_MINE"
+    "upgradesFrom": "ROTSTONE_MINE",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -25368,7 +25711,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25458,7 +25802,10 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "SCARECROW_2"
+    ]
   },
   {
     "buildable": true,
@@ -25552,7 +25899,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": "SCARECROW"
+    "upgradesFrom": "SCARECROW",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25642,7 +25990,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25736,7 +26085,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -25822,7 +26172,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "SHRINE_II"
+    ]
   },
   {
     "buildable": true,
@@ -25912,7 +26265,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -26002,7 +26356,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -26096,7 +26451,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "SHRINE"
+    "upgradesFrom": "SHRINE",
+    "upgradesTo": [
+      "SHRINE_III"
+    ]
   },
   {
     "buildable": false,
@@ -26190,7 +26548,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "SHRINE_II"
+    "upgradesFrom": "SHRINE_II",
+    "upgradesTo": [
+      "SHRINE_IV"
+    ]
   },
   {
     "buildable": false,
@@ -26284,7 +26645,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "SHRINE_III"
+    "upgradesFrom": "SHRINE_III",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -26374,7 +26736,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "SHRINE_PASSIVE_II"
+    ]
   },
   {
     "buildable": true,
@@ -26464,7 +26829,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "SHRINE_PASSIVE"
+    "upgradesFrom": "SHRINE_PASSIVE",
+    "upgradesTo": [
+      "SHRINE_PASSIVE_III"
+    ]
   },
   {
     "buildable": true,
@@ -26554,7 +26922,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "SHRINE_PASSIVE_II"
+    "upgradesFrom": "SHRINE_PASSIVE_II",
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -26588,7 +26957,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -26678,7 +27048,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -26772,7 +27143,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -26866,7 +27238,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -26956,7 +27329,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27046,7 +27420,10 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "TEMPLE_II"
+    ]
   },
   {
     "buildable": false,
@@ -27140,7 +27517,10 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": "TEMPLE"
+    "upgradesFrom": "TEMPLE",
+    "upgradesTo": [
+      "TEMPLE_III"
+    ]
   },
   {
     "buildable": false,
@@ -27234,7 +27614,10 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": "TEMPLE_II"
+    "upgradesFrom": "TEMPLE_II",
+    "upgradesTo": [
+      "TEMPLE_IV"
+    ]
   },
   {
     "buildable": false,
@@ -27328,7 +27711,8 @@
       "h": 5,
       "w": 5
     },
-    "upgradesFrom": "TEMPLE_III"
+    "upgradesFrom": "TEMPLE_III",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27409,7 +27793,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27490,7 +27875,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27571,7 +27957,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27652,7 +28039,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27733,7 +28121,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27814,7 +28203,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27895,7 +28285,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -27976,7 +28367,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28057,7 +28449,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28138,7 +28531,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -28219,7 +28613,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28300,7 +28695,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -28381,7 +28777,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28462,7 +28859,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28548,7 +28946,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28638,7 +29037,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": [
+      "TRAIT_MANIPULATOR_2"
+    ]
   },
   {
     "buildable": true,
@@ -28728,7 +29130,10 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "TRAIT_MANIPULATOR_1"
+    "upgradesFrom": "TRAIT_MANIPULATOR_1",
+    "upgradesTo": [
+      "TRAIT_MANIPULATOR_3"
+    ]
   },
   {
     "buildable": true,
@@ -28818,7 +29223,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": "TRAIT_MANIPULATOR_2"
+    "upgradesFrom": "TRAIT_MANIPULATOR_2",
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -28908,7 +29314,8 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -28954,7 +29361,8 @@
       "zh-TW": "嘔吐物"
     },
     "size": null,
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -29044,7 +29452,8 @@
       "h": 2,
       "w": 2
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -29134,7 +29543,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": false,
@@ -29172,6 +29582,7 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   }
 ]

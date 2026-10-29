@@ -79,5 +79,6 @@
     "zh-TW": "整潔樹籬"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

@@ -82,5 +82,10 @@
     "zh-TW": "雪果種子"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

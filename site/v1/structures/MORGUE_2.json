@@ -86,5 +86,6 @@
     "h": 3,
     "w": 3
   },
-  "upgradesFrom": "MORGUE_1"
+  "upgradesFrom": "MORGUE_1",
+  "upgradesTo": []
 }

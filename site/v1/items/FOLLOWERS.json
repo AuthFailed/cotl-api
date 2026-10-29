@@ -41,5 +41,16 @@
     "zh-TW": "教徒"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [
+      "Ritual_Ascend",
+      "Ritual_Cannibal",
+      "Ritual_Fightpit",
+      "Ritual_FollowerWedding",
+      "Ritual_Sacrifice"
+    ],
+    "structures": []
+  }
 }

@@ -75,5 +75,14 @@
   "seed": "SEED_BEETROOT",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_GREAT",
+      "MEAL_GREAT_MIXED",
+      "MEAL_MILK_GREAT"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

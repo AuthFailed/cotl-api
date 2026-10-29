@@ -73,5 +73,34 @@
     "zh-TW": "腐燃"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [
+      "Ritual_ConvertToRot",
+      "Ritual_Snowman"
+    ],
+    "structures": [
+      "DECORATION_DLC_ROT_BOTTLE",
+      "DECORATION_DLC_ROT_BUCKET",
+      "DECORATION_DLC_ROT_CAGE1",
+      "DECORATION_DLC_ROT_CAGE2",
+      "DECORATION_DLC_ROT_CAULDRON",
+      "DECORATION_DLC_ROT_DIORAMA",
+      "DECORATION_DLC_ROT_FIREMACHINE",
+      "DECORATION_DLC_ROT_IRONMAIDEN",
+      "DECORATION_DLC_ROT_LUMP1",
+      "DECORATION_DLC_ROT_LUMP2",
+      "DECORATION_DLC_ROT_PILLAR1",
+      "DECORATION_DLC_ROT_PILLAR2",
+      "DECORATION_DLC_ROT_STONE1",
+      "DECORATION_DLC_ROT_STONE2",
+      "DECORATION_DLC_ROT_TENTACLE",
+      "DECORATION_DLC_ROT_WALL",
+      "DECORATION_EASTEREGG_TURUA",
+      "DECORATION_EASTEREGG_WARRACKA",
+      "ROTSTONE_MINE",
+      "ROTSTONE_MINE_2"
+    ]
+  }
 }

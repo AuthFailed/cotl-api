@@ -75,5 +75,17 @@
   "seed": null,
   "tags": [
     "meat"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_DEADLY",
+      "MEAL_FOLLOWER_MEAT"
+    ],
+    "rituals": [],
+    "structures": [
+      "DECORATION_OLDFAITH_FOUNTAIN",
+      "DECORATION_OLDFAITH_IRONMAIDEN",
+      "DECORATION_SINFUL_CRUCIFIX"
+    ]
+  }
 }

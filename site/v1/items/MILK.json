@@ -73,5 +73,15 @@
     "zh-TW": "牛奶"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_MILKSHAKE",
+      "MEAL_MILK_BAD",
+      "MEAL_MILK_GOOD",
+      "MEAL_MILK_GREAT"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

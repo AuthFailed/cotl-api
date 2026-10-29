@@ -34,5 +34,6 @@
     "h": 3,
     "w": 3
   },
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

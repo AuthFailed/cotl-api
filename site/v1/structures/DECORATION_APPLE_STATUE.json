@@ -79,5 +79,6 @@
     "zh-TW": "神祕果實雕像"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

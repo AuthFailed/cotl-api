@@ -73,5 +73,13 @@
     "zh-TW": "羊毛"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [
+      "Ritual_RanchHarvest",
+      "Ritual_RanchMeat"
+    ],
+    "structures": []
+  }
 }

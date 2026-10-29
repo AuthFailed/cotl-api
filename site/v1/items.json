@@ -74,7 +74,12 @@
       "zh-TW": "怪牛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -151,7 +156,12 @@
       "zh-TW": "怪螃蟹"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -228,7 +238,12 @@
       "zh-TW": "怪氂牛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -305,7 +320,12 @@
       "zh-TW": "怪羊駝"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -382,7 +402,12 @@
       "zh-TW": "怪蝸牛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -459,7 +484,12 @@
       "zh-TW": "怪蜘蛛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -536,7 +566,12 @@
       "zh-TW": "怪烏龜"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -615,7 +650,16 @@
     "seed": "SEED_BEETROOT",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT",
+        "MEAL_GREAT_MIXED",
+        "MEAL_MILK_GREAT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -692,7 +736,12 @@
       "zh-TW": "見證者之眼"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -769,7 +818,12 @@
       "zh-TW": "腐爛的見證者之眼"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -848,7 +902,16 @@
     "seed": "SEED",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "DRINK_GIN",
+        "MEAL_BAD_MIXED",
+        "MEAL_BERRIES"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "COINS",
@@ -925,7 +988,62 @@
       "zh-TW": "金幣"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_AlmsToPoor"
+      ],
+      "structures": [
+        "BED",
+        "BED_2",
+        "BLOODSTONE_MINE",
+        "BODY_PIT",
+        "CHOPPING_SHRINE",
+        "CONFESSION_BOOTH",
+        "CRYPT_1",
+        "DANCING_FIREPIT",
+        "DECORATION_BELL_STATUE",
+        "DECORATION_OLDFAITH_CRYSTAL",
+        "DECORATION_OLDFAITH_FLAG",
+        "DECORATION_OLDFAITH_FOUNTAIN",
+        "DECORATION_SINFUL_CRUCIFIX",
+        "DECORATION_SINFUL_STATUE",
+        "DEMON_SUMMONER",
+        "FARM_PLOT",
+        "FARM_STATION",
+        "FOOD_STORAGE",
+        "FORAGING_SHRINE",
+        "FURNACE_1",
+        "GRAVE",
+        "HARVEST_TOTEM",
+        "HEALING_BAY",
+        "KITCHEN_II",
+        "KNUCKLEBONES_ARENA",
+        "LEADER_TENT",
+        "LUMBERJACK_STATION",
+        "MINING_SHRINE",
+        "MISSIONARY",
+        "MISSIONARY_II",
+        "MORGUE_1",
+        "OFFERING_STATUE",
+        "OUTHOUSE",
+        "OUTHOUSE_2",
+        "PRISON",
+        "PROPAGANDA_SPEAKER",
+        "REFINERY",
+        "SCARECROW",
+        "SHRINE",
+        "SHRINE_II",
+        "SHRINE_III",
+        "SHRINE_PASSIVE",
+        "SHRINE_PASSIVE_II",
+        "SILO_FERTILISER",
+        "SILO_SEED",
+        "SURVEILLANCE",
+        "TEMPLE_II"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -972,7 +1090,12 @@
     "seed": null,
     "tags": [
       "heart"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1019,7 +1142,12 @@
     "seed": null,
     "tags": [
       "heart"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1096,7 +1224,56 @@
       "zh-TW": "骨頭"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "MEAL_FOLLOWER_MEAT"
+      ],
+      "rituals": [
+        "Ritual_Ascend",
+        "Ritual_AssignFaithEnforcer",
+        "Ritual_AssignTaxCollector",
+        "Ritual_AtoneSin",
+        "Ritual_BecomeDisciple",
+        "Ritual_Cannibal",
+        "Ritual_ConvertToRot",
+        "Ritual_DonationRitual",
+        "Ritual_Enlightenment",
+        "Ritual_Fast",
+        "Ritual_FasterBuilding",
+        "Ritual_Feast",
+        "Ritual_Fightpit",
+        "Ritual_FirePit",
+        "Ritual_FishingRitual",
+        "Ritual_FollowerWedding",
+        "Ritual_Funeral",
+        "Ritual_HarvestRitual",
+        "Ritual_Holiday",
+        "Ritual_Nudism",
+        "Ritual_Purge",
+        "Ritual_RanchHarvest",
+        "Ritual_RanchMeat",
+        "Ritual_Ressurect",
+        "Ritual_Sacrifice",
+        "Ritual_Snowman",
+        "Ritual_Wedding",
+        "Ritual_WorkThroughNight"
+      ],
+      "structures": [
+        "DECORATION_BONE_ARCH",
+        "DECORATION_BONE_BARREL",
+        "DECORATION_BONE_FLAG",
+        "DECORATION_BONE_LANTERN",
+        "DECORATION_BONE_PILLAR",
+        "DECORATION_BONE_SCULPTURE",
+        "DECORATION_BONE_SKULL_BIG",
+        "DECORATION_BONE_SKULL_PILE",
+        "DECORATION_DST_BEEFALOSKELETON",
+        "DECORATION_HALLOWEEN_SKULL",
+        "DECORATION_SINFUL_SKULL",
+        "DECORATION_WALL_BONE"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -1173,7 +1350,12 @@
       "zh-TW": "巴普"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1194,7 +1376,12 @@
       "en": "Lambs’ Slaughter"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1215,7 +1402,12 @@
       "en": "Shattered Flail"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1236,7 +1428,12 @@
       "en": "Blunt Dagger"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1257,7 +1454,12 @@
       "en": "Stiffened Gauntlets"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1278,7 +1480,12 @@
       "en": "Rusted Hammer"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1299,7 +1506,12 @@
       "en": "Snapped Sword"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1378,7 +1590,16 @@
     "seed": "SEED_CAULIFLOWER",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT",
+        "MEAL_MEDIUM_VEG",
+        "MEAL_MILK_GREAT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1399,7 +1620,12 @@
       "en": "Charcoal"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1478,7 +1704,15 @@
     "seed": "SEED_CHILLI",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "DRINK_CHILLI",
+        "MEAL_SPICY"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1555,7 +1789,17 @@
       "zh-TW": "棉花"
     },
     "seed": "SEED_COTTON",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DAYCARE",
+        "HATCHERY",
+        "HATCHERY_2",
+        "WOOLY_SHACK"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -1632,7 +1876,25 @@
       "zh-TW": "水晶碎片"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DECORATION_BOSS_TROPHY_3",
+        "DECORATION_CRYSTAL_LAMP",
+        "DECORATION_CRYSTAL_LIGHT",
+        "DECORATION_CRYSTAL_ROCK",
+        "DECORATION_CRYSTAL_STATUE",
+        "DECORATION_CRYSTAL_TREE",
+        "DECORATION_CRYSTAL_WINDOW",
+        "DECORATION_FLAG_CRYSTAL",
+        "KITCHEN_II",
+        "LUMBERJACK_STATION_2",
+        "MISSIONARY_III",
+        "OUTHOUSE_2"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -1709,7 +1971,12 @@
       "zh-TW": "忘卻戒律石"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1786,7 +2053,12 @@
       "zh-TW": "戒律石碎塊"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -1921,7 +2193,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2098,7 +2375,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2241,7 +2523,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2456,7 +2743,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2637,7 +2929,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2814,7 +3111,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -2991,7 +3293,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3210,7 +3517,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3383,7 +3695,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3560,7 +3877,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3733,7 +4055,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3906,7 +4233,12 @@
     "seed": null,
     "tags": [
       "drink"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -3983,7 +4315,12 @@
       "zh-TW": "蓄能腐燃"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4028,7 +4365,12 @@
       "zh-TW": "熔心"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4108,7 +4450,15 @@
     "tags": [
       "food",
       "fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GOOD_FISH",
+        "MEAL_MEDIUM_MIXED"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4185,7 +4535,12 @@
       "zh-TW": "釣竿"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4266,7 +4621,14 @@
       "food",
       "fish",
       "big_fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_MIXED"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4346,7 +4708,14 @@
     "tags": [
       "food",
       "fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_FISH"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4426,7 +4795,14 @@
     "tags": [
       "food",
       "fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_MEAT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4507,7 +4883,14 @@
       "food",
       "fish",
       "big_fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_MEAT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4588,7 +4971,14 @@
       "food",
       "fish",
       "big_fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_FISH"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4668,7 +5058,15 @@
     "tags": [
       "food",
       "fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_BAD_FISH",
+        "MEAL_BAD_MIXED"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4748,7 +5146,14 @@
     "tags": [
       "food",
       "fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_FISH"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4829,7 +5234,14 @@
       "food",
       "fish",
       "big_fish"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_FISH"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -4906,7 +5318,15 @@
       "zh-TW": "勿忘我"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DECORATION_DLC_YNGYA_TALLFLOWERS",
+        "DECORATION_DLC_YNGYA_TREEPOT"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -4983,7 +5403,34 @@
       "zh-TW": "山茶花"
     },
     "seed": "SEED_FLOWER_RED",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_COCKTAIL"
+      ],
+      "rituals": [
+        "Ritual_Funeral",
+        "Ritual_Nudism"
+      ],
+      "structures": [
+        "DECORATION_BARROW",
+        "DECORATION_BOSS_TROPHY_1",
+        "DECORATION_FLOWERPOTWALL",
+        "DECORATION_FLOWERVASE",
+        "DECORATION_FLOWER_BOTTLE",
+        "DECORATION_FLOWER_BOX_1",
+        "DECORATION_FLOWER_CART",
+        "DECORATION_FLOWER_CART_SMALL",
+        "DECORATION_HALLOWEEN_SKULL",
+        "DECORATION_OLDFAITH_SHRINE",
+        "DECORATION_SINFUL_FLOWERS1",
+        "DECORATION_SINFUL_FLOWERS2",
+        "DECORATION_SINFUL_INCENSE",
+        "DECORATION_WATERINGCAN",
+        "HEALING_BAY",
+        "HEALING_BAY_2"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -5060,7 +5507,15 @@
       "zh-TW": "雪落"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DECORATION_DLC_YNGYA_TALLFLOWERS",
+        "DECORATION_DLC_YNGYA_TREEBUSH"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -5105,7 +5560,18 @@
       "zh-TW": "教徒"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_Ascend",
+        "Ritual_Cannibal",
+        "Ritual_Fightpit",
+        "Ritual_FollowerWedding",
+        "Ritual_Sacrifice"
+      ],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5184,7 +5650,19 @@
     "seed": null,
     "tags": [
       "meat"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_DEADLY",
+        "MEAL_FOLLOWER_MEAT"
+      ],
+      "rituals": [],
+      "structures": [
+        "DECORATION_OLDFAITH_FOUNTAIN",
+        "DECORATION_OLDFAITH_IRONMAIDEN",
+        "DECORATION_SINFUL_CRUCIFIX"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -5261,7 +5739,12 @@
       "zh-TW": "教徒腐肉"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5282,7 +5765,12 @@
       "en": "Sacred Flame"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5327,7 +5815,12 @@
       "zh-TW": "藍圖"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5372,7 +5865,12 @@
       "zh-TW": "教徒外觀"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5451,7 +5949,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5530,7 +6033,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5607,7 +6115,12 @@
       "zh-TW": "神之淚"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5684,7 +6197,12 @@
       "zh-TW": "神之淚碎塊"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5761,7 +6279,12 @@
       "zh-TW": "金塊"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -5838,7 +6361,62 @@
       "zh-TW": "金條"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "BED_3",
+        "BLOODSTONE_MINE_2",
+        "COMPOST_BIN",
+        "COMPOST_BIN_DEAD_BODY",
+        "CRYPT_2",
+        "CRYPT_3",
+        "DECORATION_BOSS_TROPHY_1",
+        "DECORATION_BOSS_TROPHY_2",
+        "DECORATION_BOSS_TROPHY_3",
+        "DECORATION_BOSS_TROPHY_4",
+        "DECORATION_BOSS_TROPHY_5",
+        "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+        "DECORATION_BOSS_TROPHY_DLC_WOLF",
+        "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+        "DECORATION_MUSHROOM_SCULPTURE",
+        "DECORATION_VIDEO",
+        "DEMON_SUMMONER_2",
+        "DEMON_SUMMONER_3",
+        "DRUM_CIRCLE",
+        "FOOD_STORAGE_2",
+        "HARVEST_TOTEM_2",
+        "HEALING_BAY_2",
+        "JANITOR_STATION",
+        "JANITOR_STATION_2",
+        "KITCHEN",
+        "LIGHTNING_ROD",
+        "LOGISTICS",
+        "LUMBERJACK_STATION_2",
+        "MATING_TENT",
+        "MISSIONARY_III",
+        "MORGUE_2",
+        "POOP_BUCKET",
+        "PUB_2",
+        "REFINERY_2",
+        "SCARECROW_2",
+        "SEED_BUCKET",
+        "SHARED_HOUSE",
+        "SHRINE_DISCIPLE_BOOST",
+        "SHRINE_DISCIPLE_COLLECTION",
+        "SHRINE_IV",
+        "SHRINE_PASSIVE_III",
+        "SHRINE_PLEASURE",
+        "TAILOR",
+        "TEMPLE_III",
+        "TEMPLE_IV",
+        "TRAIT_MANIPULATOR_1",
+        "TRAIT_MANIPULATOR_2",
+        "TRAIT_MANIPULATOR_3",
+        "WOOLY_SHACK"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -5915,7 +6493,19 @@
       "zh-TW": "葡萄"
     },
     "seed": "SEED_GRAPES",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_COCKTAIL",
+        "DRINK_GIN",
+        "DRINK_LIGHTNING",
+        "DRINK_WINE"
+      ],
+      "rituals": [],
+      "structures": [
+        "PUB"
+      ]
+    }
   },
   {
     "category": "GRASS",
@@ -6001,7 +6591,61 @@
       "zh-TW": "青草"
     },
     "seed": "GRASS",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_GIN",
+        "DRINK_GRASS",
+        "MEAL_DEADLY",
+        "MEAL_GRASS"
+      ],
+      "rituals": [],
+      "structures": [
+        "DAYCARE",
+        "DECORATION_APPLE_BUSH",
+        "DECORATION_APPLE_VASE",
+        "DECORATION_BARROW",
+        "DECORATION_CHRISTMAS_TREE",
+        "DECORATION_CNY_LANTERN",
+        "DECORATION_DLC_STEAMPUNK_PLANT",
+        "DECORATION_DLC_WOOLHAVEN_BUSH1",
+        "DECORATION_DLC_WOOLHAVEN_BUSH2",
+        "DECORATION_DLC_YNGYA_CANDLE",
+        "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+        "DECORATION_DLC_YNGYA_STICKBUNDLE",
+        "DECORATION_DLC_YNGYA_TREEBUSH",
+        "DECORATION_DLC_YNGYA_TREEPOT",
+        "DECORATION_DST_WALL",
+        "DECORATION_FLAG_CROWN",
+        "DECORATION_FLAG_SCRIPTURE",
+        "DECORATION_FLOWERPOTWALL",
+        "DECORATION_FLOWER_ARCH",
+        "DECORATION_FLOWER_BOX_1",
+        "DECORATION_FLOWER_CART",
+        "DECORATION_GOAT_PLANT",
+        "DECORATION_HALLOWEEN_CANDLE",
+        "DECORATION_HAY_BALE",
+        "DECORATION_HAY_PILE",
+        "DECORATION_LEAFYLAMPPOST",
+        "DECORATION_LEAFY_FLOWER_SCULPTURE",
+        "DECORATION_LEAFY_LANTERN",
+        "DECORATION_LEAFY_SCULPTURE",
+        "DECORATION_OLDFAITH_FLAG",
+        "DECORATION_OLDFAITH_TORCH",
+        "DECORATION_PALWORLD_PLANT",
+        "DECORATION_PILGRIM_VASE",
+        "DECORATION_PILGRIM_WALL",
+        "DECORATION_PLUSH",
+        "DECORATION_TREE",
+        "DECORATION_TWITCH_ROSE_BUSH",
+        "DECORATION_WALL_GRASS",
+        "DECORATION_WEEPINGSHRINE",
+        "DECORATION_WREATH_STICK",
+        "FARM_PLOT",
+        "HATCHERY",
+        "RANCH_TROUGH"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -6048,7 +6692,12 @@
     "seed": null,
     "tags": [
       "heart"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6095,7 +6744,12 @@
     "seed": null,
     "tags": [
       "heart"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6172,7 +6826,21 @@
       "zh-TW": "啤酒花"
     },
     "seed": "SEED_HOPS",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_BEER",
+        "DRINK_CHILLI",
+        "DRINK_COCKTAIL",
+        "DRINK_EGGNOG",
+        "DRINK_GRASS",
+        "DRINK_POOP_JUICE"
+      ],
+      "rituals": [],
+      "structures": [
+        "PUB"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -6217,7 +6885,12 @@
       "zh-TW": "冰心"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6294,7 +6967,12 @@
       "zh-TW": "難以識別的信"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6371,7 +7049,12 @@
       "zh-TW": "難以識別的信"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6448,7 +7131,12 @@
       "zh-TW": "傳奇武器碎片"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6525,7 +7213,41 @@
       "zh-TW": "蓄能碎片"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_LIGHTNING"
+      ],
+      "rituals": [],
+      "structures": [
+        "DECORATION_DLC_STEAMPUNK_CHIMNEY_1",
+        "DECORATION_DLC_STEAMPUNK_CHIMNEY_2",
+        "DECORATION_DLC_STEAMPUNK_CLOCK",
+        "DECORATION_DLC_STEAMPUNK_LAMPPOST",
+        "DECORATION_DLC_WOLF_BULB",
+        "DECORATION_DLC_WOLF_CULTIST1",
+        "DECORATION_DLC_WOLF_CULTIST2",
+        "DECORATION_DLC_WOLF_DIORAMA",
+        "DECORATION_DLC_WOLF_FIREPIT",
+        "DECORATION_DLC_WOLF_LAMPPOST",
+        "DECORATION_DLC_WOLF_PILLAR1",
+        "DECORATION_DLC_WOLF_PILLAR2",
+        "DECORATION_DLC_WOLF_STATUE1",
+        "DECORATION_DLC_WOLF_STATUE2",
+        "DECORATION_DLC_WOLF_STATUE3",
+        "DECORATION_DLC_WOLF_STATUE4",
+        "DECORATION_DLC_WOLF_STATUE5",
+        "DECORATION_DLC_WOLF_TESLA",
+        "DECORATION_DLC_WOLF_WIRES",
+        "DECORATION_DLC_WOOLHAVEN_CANDLE",
+        "FARM_CROP_GROWER",
+        "LIGHTNING_ROD",
+        "LIGHTNING_ROD_2",
+        "PROXIMITY_FURNACE",
+        "VOLCANIC_SPA",
+        "WEATHER_VANE"
+      ]
+    }
   },
   {
     "category": "LOGS",
@@ -6602,7 +7324,80 @@
       "zh-TW": "木材"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_FirePit"
+      ],
+      "structures": [
+        "BED",
+        "BED_2",
+        "BODY_PIT",
+        "CHOPPING_SHRINE",
+        "COOKING_FIRE",
+        "DANCING_FIREPIT",
+        "DECORATION_APPLE_LANTERN",
+        "DECORATION_BELL_SMALL",
+        "DECORATION_BELL_STATUE",
+        "DECORATION_BONE_BARREL",
+        "DECORATION_CANDLE_BARREL",
+        "DECORATION_CHRISTMAS_CANDYCANE",
+        "DECORATION_CNY_DRAGON",
+        "DECORATION_CNY_TREE",
+        "DECORATION_CRYSTAL_TREE",
+        "DECORATION_DLC_STEAMPUNK_PLANT",
+        "DECORATION_DLC_STEAMPUNK_WALL",
+        "DECORATION_DLC_WOLF_CULTIST1",
+        "DECORATION_DLC_WOLF_CULTIST2",
+        "DECORATION_DLC_WOLF_DIORAMA",
+        "DECORATION_DLC_WOLF_TREE1",
+        "DECORATION_DLC_WOOLHAVEN_BARREL1",
+        "DECORATION_DLC_WOOLHAVEN_BARREL2",
+        "DECORATION_DLC_WOOLHAVEN_RUG",
+        "DECORATION_DLC_YNGYA_CANDLE",
+        "DECORATION_DLC_YNGYA_FLOWERBUCKET",
+        "DECORATION_DST_PIGSTICK",
+        "DECORATION_DST_TREE",
+        "DECORATION_FLAG_CROWN",
+        "DECORATION_FLAG_MUSHROOM",
+        "DECORATION_FLAG_SCRIPTURE",
+        "DECORATION_FLOWER_CART_SMALL",
+        "DECORATION_GOAT_STATUE",
+        "DECORATION_HALLOWEEN_PUMPKIN",
+        "DECORATION_HALLOWEEN_TREE",
+        "DECORATION_OLDFAITH_IRONMAIDEN",
+        "DECORATION_PALWORLD_TREE",
+        "DECORATION_PILGRIM_BONSAI",
+        "DECORATION_PILGRIM_LANTERN",
+        "DECORATION_PILGRIM_PAGODA",
+        "DECORATION_POST_BOX",
+        "DECORATION_PUMPKIN_STOOL",
+        "DECORATION_SINFUL_INCENSE",
+        "DECORATION_STUMP_LAMB_STATUE",
+        "DECORATION_TORCH",
+        "DECORATION_TORCH_BIG",
+        "DECORATION_TWIG_LAMP",
+        "DECORATION_TWITCH_FLAG_CROWN",
+        "DECORATION_TWITCH_WOODEN_GUARDIAN",
+        "DECORATION_WALL_TWIGS",
+        "DEMON_SUMMONER",
+        "FARM_PLOT_SIGN",
+        "FARM_STATION",
+        "FORAGING_SHRINE",
+        "LUMBERJACK_STATION",
+        "MISSIONARY",
+        "OFFERING_STATUE",
+        "PRISON",
+        "PROPAGANDA_SPEAKER",
+        "REFINERY",
+        "SCARECROW",
+        "SILO_SEED",
+        "SURVEILLANCE",
+        "TEMPLE",
+        "TEMPLE_II"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -6679,7 +7474,61 @@
       "zh-TW": "木板"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "BED_3",
+        "COMPOST_BIN",
+        "COMPOST_BIN_DEAD_BODY",
+        "CONFESSION_BOOTH",
+        "DAYCARE",
+        "DEMON_SUMMONER_2",
+        "DRUM_CIRCLE",
+        "FARM_CROP_GROWER",
+        "FARM_STATION_II",
+        "FOOD_STORAGE",
+        "FOOD_STORAGE_2",
+        "FURNACE_2",
+        "FURNACE_3",
+        "HARVEST_TOTEM",
+        "HARVEST_TOTEM_2",
+        "HATCHERY",
+        "HATCHERY_2",
+        "HEALING_BAY",
+        "HEALING_BAY_2",
+        "JANITOR_STATION",
+        "JANITOR_STATION_2",
+        "KITCHEN",
+        "KNUCKLEBONES_ARENA",
+        "LUMBERJACK_STATION_2",
+        "MEDIC",
+        "MISSIONARY_II",
+        "MISSIONARY_III",
+        "OUTHOUSE",
+        "OUTHOUSE_2",
+        "POOP_BUCKET",
+        "PUB",
+        "PUB_2",
+        "RANCH",
+        "RANCH_2",
+        "RANCH_FENCE",
+        "RANCH_HUTCH",
+        "RANCH_TROUGH",
+        "REFINERY_2",
+        "SCARECROW_2",
+        "SEED_BUCKET",
+        "SHRINE_II",
+        "SHRINE_III",
+        "SHRINE_IV",
+        "SILO_FERTILISER",
+        "TEMPLE_III",
+        "TEMPLE_IV",
+        "TOOLSHED",
+        "WOOLY_SHACK"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -6756,7 +7605,12 @@
       "zh-TW": "古老石板"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -6833,7 +7687,36 @@
       "zh-TW": "腐燃"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_ConvertToRot",
+        "Ritual_Snowman"
+      ],
+      "structures": [
+        "DECORATION_DLC_ROT_BOTTLE",
+        "DECORATION_DLC_ROT_BUCKET",
+        "DECORATION_DLC_ROT_CAGE1",
+        "DECORATION_DLC_ROT_CAGE2",
+        "DECORATION_DLC_ROT_CAULDRON",
+        "DECORATION_DLC_ROT_DIORAMA",
+        "DECORATION_DLC_ROT_FIREMACHINE",
+        "DECORATION_DLC_ROT_IRONMAIDEN",
+        "DECORATION_DLC_ROT_LUMP1",
+        "DECORATION_DLC_ROT_LUMP2",
+        "DECORATION_DLC_ROT_PILLAR1",
+        "DECORATION_DLC_ROT_PILLAR2",
+        "DECORATION_DLC_ROT_STONE1",
+        "DECORATION_DLC_ROT_STONE2",
+        "DECORATION_DLC_ROT_TENTACLE",
+        "DECORATION_DLC_ROT_WALL",
+        "DECORATION_EASTEREGG_TURUA",
+        "DECORATION_EASTEREGG_WARRACKA",
+        "ROTSTONE_MINE",
+        "ROTSTONE_MINE_2"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -6968,7 +7851,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7103,7 +7991,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7238,7 +8131,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7381,7 +8279,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7516,7 +8419,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7605,7 +8513,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7786,7 +8699,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -7921,7 +8839,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8136,7 +9059,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8309,7 +9237,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8444,7 +9377,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8587,7 +9525,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8772,7 +9715,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -8915,7 +9863,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9096,7 +10049,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9269,7 +10227,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9412,7 +10375,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9585,7 +10553,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9720,7 +10693,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9859,7 +10837,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -9963,7 +10946,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10048,7 +11036,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10183,7 +11176,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10318,7 +11316,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10453,7 +11456,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10533,7 +11541,19 @@
     "tags": [
       "food",
       "meat"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_GREAT_MEAT",
+        "MEAL_GREAT_MIXED",
+        "MEAL_MEAT",
+        "MEAL_MEDIUM_MIXED"
+      ],
+      "rituals": [],
+      "structures": [
+        "DECORATION_DST_PIGSTICK"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -10613,7 +11633,15 @@
     "tags": [
       "food",
       "meat"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_BAD_MEAT",
+        "MEAL_BAD_MIXED"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10690,7 +11718,17 @@
       "zh-TW": "牛奶"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_MILKSHAKE",
+        "MEAL_MILK_BAD",
+        "MEAL_MILK_GOOD",
+        "MEAL_MILK_GREAT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10767,7 +11805,12 @@
       "zh-TW": "異教徒之心"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -10844,7 +11887,26 @@
       "zh-TW": "噬心蘑菇"
     },
     "seed": "SEED_MUSHROOM",
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_MUSHROOM_JUICE"
+      ],
+      "rituals": [
+        "Ritual_Brainwashing"
+      ],
+      "structures": [
+        "DECORATION_BOSS_TROPHY_2",
+        "DECORATION_FLAG_MUSHROOM",
+        "DECORATION_MUSHROOM_1",
+        "DECORATION_MUSHROOM_2",
+        "DECORATION_MUSHROOM_CANDLE_1",
+        "DECORATION_MUSHROOM_CANDLE_2",
+        "DECORATION_MUSHROOM_CANDLE_LARGE",
+        "DECORATION_MUSHROOM_SCULPTURE",
+        "DECORATION_TWITCH_MUSHROOM_BAG"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -10923,7 +11985,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11002,7 +12069,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11081,7 +12153,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11160,7 +12237,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11239,7 +12321,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11318,7 +12405,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11397,7 +12489,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11476,7 +12573,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11555,7 +12657,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11634,7 +12741,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11713,7 +12825,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11792,7 +12909,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11871,7 +12993,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -11950,7 +13077,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12029,7 +13161,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12108,7 +13245,12 @@
     "seed": null,
     "tags": [
       "gift"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12185,7 +13327,17 @@
       "zh-TW": "罪孽"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_SIN"
+      ],
+      "rituals": [],
+      "structures": [
+        "HATCHERY_2",
+        "PUB_2"
+      ]
+    }
   },
   {
     "category": "POOP",
@@ -12262,7 +13414,20 @@
       "zh-TW": "肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_MILKSHAKE",
+        "DRINK_POOP_JUICE",
+        "MEAL_DEADLY",
+        "MEAL_POOP"
+      ],
+      "rituals": [],
+      "structures": [
+        "BED_3",
+        "SHARED_HOUSE"
+      ]
+    }
   },
   {
     "category": "POOP",
@@ -12339,7 +13504,12 @@
       "zh-TW": "虔誠肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "POOP",
@@ -12416,7 +13586,12 @@
       "zh-TW": "發光肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "POOP",
@@ -12493,7 +13668,12 @@
       "zh-TW": "黃金肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "POOP",
@@ -12570,7 +13750,12 @@
       "zh-TW": "彩虹肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "POOP",
@@ -12647,7 +13832,12 @@
       "zh-TW": "腐燃肥料"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12726,7 +13916,23 @@
     "seed": "SEED_PUMPKIN",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL",
+        "MEAL_GREAT",
+        "MEAL_MEDIUM_MIXED",
+        "MEAL_MILK_GOOD"
+      ],
+      "rituals": [
+        "Ritual_Halloween"
+      ],
+      "structures": [
+        "DECORATION_HALLOWEEN_PUMPKIN",
+        "DECORATION_PUMPKIN_PILE",
+        "DECORATION_PUMPKIN_STOOL"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -12773,7 +13979,12 @@
     "seed": null,
     "tags": [
       "heart"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12794,7 +14005,12 @@
       "en": "Yngya's Torment"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12815,7 +14031,12 @@
       "en": "Ruin of Nirah"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12836,7 +14057,12 @@
       "en": "Claws of the Wolf"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12857,7 +14083,12 @@
       "en": "Scourge of Svargod"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12878,7 +14109,12 @@
       "en": "Golden End"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -12964,7 +14200,12 @@
       "zh-TW": "莓果樹叢種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13050,7 +14291,12 @@
       "zh-TW": "甜菜根種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13136,7 +14382,12 @@
       "zh-TW": "白花椰菜種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13222,7 +14473,12 @@
       "zh-TW": "辣椒種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13308,7 +14564,12 @@
       "zh-TW": "棉花種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13394,7 +14655,12 @@
       "zh-TW": "山茶花種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13480,7 +14746,12 @@
       "zh-TW": "葡萄種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13566,7 +14837,12 @@
       "zh-TW": "啤酒花種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13652,7 +14928,12 @@
       "zh-TW": "噬心蘑菇孢子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13738,7 +15019,12 @@
       "zh-TW": "南瓜種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13824,7 +15110,12 @@
       "zh-TW": "雪果種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13901,7 +15192,12 @@
       "zh-TW": "索佐的種子"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -13978,7 +15274,12 @@
       "zh-TW": "殼"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14055,7 +15356,14 @@
       "zh-TW": "絲線"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "MATING_TENT"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -14076,7 +15384,12 @@
       "en": "Snow Chunk"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14155,7 +15468,15 @@
     "seed": "SEED_SNOW_FRUIT",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "DRINK_MILKSHAKE",
+        "MEAL_SNOW_FRUIT"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14232,7 +15553,12 @@
       "zh-TW": "腐灰"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "SOULS",
@@ -14309,7 +15635,12 @@
       "zh-TW": "虔誠"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14386,7 +15717,12 @@
       "zh-TW": "無辜者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14463,7 +15799,12 @@
       "zh-TW": "騎士羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14540,7 +15881,12 @@
       "zh-TW": "堅毅者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14617,7 +15963,12 @@
       "zh-TW": "戰士羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14694,7 +16045,12 @@
       "zh-TW": "卜卦者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14771,7 +16127,12 @@
       "zh-TW": "妄想者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14848,7 +16209,12 @@
       "zh-TW": "焦黑者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -14925,7 +16291,12 @@
       "zh-TW": "精明者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15002,7 +16373,12 @@
       "zh-TW": "學者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15079,7 +16455,12 @@
       "zh-TW": "牧工羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15156,7 +16537,12 @@
       "zh-TW": "占星者羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15233,7 +16619,25 @@
       "zh-TW": "蜘蛛絲"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "BLOODSTONE_MINE_2",
+        "COMPOST_BIN",
+        "DECORATION_BOSS_TROPHY_4",
+        "DECORATION_SPIDER_LANTERN",
+        "DECORATION_SPIDER_PILLAR",
+        "DECORATION_SPIDER_SCULPTURE",
+        "DECORATION_SPIDER_TORCH",
+        "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+        "DECORATION_WALL_SPIDER",
+        "DEMON_SUMMONER_3",
+        "LEADER_TENT",
+        "TAILOR"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -15310,7 +16714,91 @@
       "zh-TW": "石材"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "BED_2",
+        "BLOODSTONE_MINE",
+        "COOKING_FIRE",
+        "CRYPT_1",
+        "DECORATION_APPLE_STATUE",
+        "DECORATION_APPLE_WELL",
+        "DECORATION_BONE_CANDLE",
+        "DECORATION_CHRISTMAS_CANDLE",
+        "DECORATION_CHRISTMAS_SNOWMAN",
+        "DECORATION_DLC_ROT_CAGE1",
+        "DECORATION_DLC_ROT_CAULDRON",
+        "DECORATION_DLC_ROT_DIORAMA",
+        "DECORATION_DLC_ROT_IRONMAIDEN",
+        "DECORATION_DLC_ROT_STONE1",
+        "DECORATION_DLC_ROT_STONE2",
+        "DECORATION_DLC_WOLF_PILLAR1",
+        "DECORATION_DLC_WOLF_PILLAR2",
+        "DECORATION_DLC_WOLF_STATUE1",
+        "DECORATION_DLC_WOLF_STATUE2",
+        "DECORATION_DLC_WOLF_STATUE3",
+        "DECORATION_DLC_WOLF_STATUE4",
+        "DECORATION_DLC_WOLF_STATUE5",
+        "DECORATION_DLC_WOOLHAVEN_BELLS",
+        "DECORATION_DLC_WOOLHAVEN_JUG",
+        "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE1",
+        "DECORATION_DLC_WOOLHAVEN_SMALLSTATUE2",
+        "DECORATION_DLC_WOOLHAVEN_STREETLAMP",
+        "DECORATION_DLC_WOOLHAVEN_WALL",
+        "DECORATION_DST_ALCHEMY",
+        "DECORATION_DST_DEERCLOPS",
+        "DECORATION_DST_GLOMMERSTATUE",
+        "DECORATION_DST_MARBLETREE",
+        "DECORATION_DST_SCIENCEMACHINE",
+        "DECORATION_FOUNTAIN",
+        "DECORATION_GNOME1",
+        "DECORATION_GNOME2",
+        "DECORATION_GNOME3",
+        "DECORATION_GOAT_LANTERN",
+        "DECORATION_HALLOWEEN_CANDLE",
+        "DECORATION_LAMB_FLAG_STATUE",
+        "DECORATION_LEAFYLAMPPOST",
+        "DECORATION_OLDFAITH_FOUNTAIN",
+        "DECORATION_OLDFAITH_SHRINE",
+        "DECORATION_OLDFAITH_TORCH",
+        "DECORATION_OLDFAITH_WALL",
+        "DECORATION_PALWORLD_LAMB",
+        "DECORATION_PALWORLD_LANTERN",
+        "DECORATION_PALWORLD_STATUE",
+        "DECORATION_PILGRIM_VASE",
+        "DECORATION_POND",
+        "DECORATION_SMALL_STONE_CANDLE",
+        "DECORATION_STONE",
+        "DECORATION_STONE_CANDLE",
+        "DECORATION_STONE_CANDLE_LAMP",
+        "DECORATION_STONE_FLAG",
+        "DECORATION_STONE_HENGE",
+        "DECORATION_STONE_MUSHROOM",
+        "DECORATION_TORCH_BIG",
+        "DECORATION_TWITCH_STONE_FLAG",
+        "DECORATION_TWITCH_STONE_STATUE",
+        "DECORATION_WALL_STONE",
+        "DECORATION_WATERINGCAN",
+        "DECORATION_WEEPINGSHRINE",
+        "DEMON_SUMMONER",
+        "FORAGING_SHRINE",
+        "KITCHEN_II",
+        "MINING_SHRINE",
+        "MISSIONARY",
+        "MORGUE_1",
+        "OFFERING_STATUE",
+        "PROPAGANDA_SPEAKER",
+        "REFINERY",
+        "SHRINE_PASSIVE",
+        "SILO_SEED",
+        "SURVEILLANCE",
+        "TEMPLE",
+        "TEMPLE_II",
+        "VOLCANIC_SPA"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -15387,7 +16875,59 @@
       "zh-TW": "石磚"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "BLOODSTONE_MINE_2",
+        "CONFESSION_BOOTH",
+        "CRYPT_2",
+        "CRYPT_3",
+        "DECORATION_BOSS_TROPHY_1",
+        "DECORATION_BOSS_TROPHY_5",
+        "DECORATION_CRYSTAL_STATUE",
+        "DECORATION_DLC_WOOLHAVEN_FOUNTAIN",
+        "DECORATION_DST_BEEFALOSKELETON",
+        "DECORATION_EASTEREGG_HAROSTATUE",
+        "DECORATION_MONSTERSHRINE",
+        "DECORATION_OLDFAITH_CRYSTAL",
+        "DECORATION_VIDEO",
+        "DEMON_SUMMONER_2",
+        "DEMON_SUMMONER_3",
+        "FARM_STATION_II",
+        "FOOD_STORAGE",
+        "FURNACE_2",
+        "FURNACE_3",
+        "GRAVE",
+        "HARVEST_TOTEM",
+        "HARVEST_TOTEM_2",
+        "KITCHEN",
+        "KNUCKLEBONES_ARENA",
+        "LIGHTNING_ROD_2",
+        "MEDIC",
+        "MISSIONARY_II",
+        "MORGUE_2",
+        "RANCH_CHOPPING_BLOCK",
+        "RANCH_HUTCH",
+        "REFINERY_2",
+        "ROTSTONE_MINE",
+        "SCARECROW_2",
+        "SHARED_HOUSE",
+        "SHRINE_DISCIPLE_BOOST",
+        "SHRINE_DISCIPLE_COLLECTION",
+        "SHRINE_II",
+        "SHRINE_III",
+        "SHRINE_IV",
+        "SHRINE_PASSIVE_II",
+        "SHRINE_PASSIVE_III",
+        "SHRINE_PLEASURE",
+        "TEMPLE_III",
+        "TEMPLE_IV",
+        "WEATHER_VANE",
+        "WOLF_TRAP"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -15464,7 +17004,12 @@
       "zh-TW": "神聖護身符"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15509,7 +17054,12 @@
       "zh-TW": "塔羅牌"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15586,7 +17136,15 @@
       "zh-TW": "羊毛"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_RanchHarvest",
+        "Ritual_RanchMeat"
+      ],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15663,7 +17221,20 @@
       "zh-TW": "受到詛咒的紫杉"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DECORATION_DLC_WOOLHAVEN_TREE",
+        "DECORATION_DLC_YNGYA_STICKBUNDLE",
+        "RANCH_CHOPPING_BLOCK",
+        "ROTSTONE_MINE_2",
+        "TRAIT_MANIPULATOR_1",
+        "TRAIT_MANIPULATOR_2",
+        "TRAIT_MANIPULATOR_3"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -15740,7 +17311,19 @@
       "zh-TW": "純淨紫杉"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+        "DECORATION_BOSS_TROPHY_DLC_WOLF",
+        "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+        "LOGISTICS",
+        "RACING_GATE",
+        "WOLF_TRAP"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -15817,7 +17400,12 @@
       "zh-TW": "失落靈魂"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "NONE",
@@ -15894,6 +17482,16 @@
       "zh-TW": "蛋黃"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [
+        "DRINK_EGGNOG",
+        "MEAL_EGG"
+      ],
+      "rituals": [],
+      "structures": [
+        "DECORATION_EASTEREGG_EGG"
+      ]
+    }
   }
 ]

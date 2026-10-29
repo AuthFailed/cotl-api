@@ -90,5 +90,6 @@
     "h": 3,
     "w": 3
   },
-  "upgradesFrom": "HEALING_BAY"
+  "upgradesFrom": "HEALING_BAY",
+  "upgradesTo": []
 }

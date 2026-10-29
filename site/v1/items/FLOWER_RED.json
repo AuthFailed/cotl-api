@@ -73,5 +73,32 @@
     "zh-TW": "山茶花"
   },
   "seed": "SEED_FLOWER_RED",
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_COCKTAIL"
+    ],
+    "rituals": [
+      "Ritual_Funeral",
+      "Ritual_Nudism"
+    ],
+    "structures": [
+      "DECORATION_BARROW",
+      "DECORATION_BOSS_TROPHY_1",
+      "DECORATION_FLOWERPOTWALL",
+      "DECORATION_FLOWERVASE",
+      "DECORATION_FLOWER_BOTTLE",
+      "DECORATION_FLOWER_BOX_1",
+      "DECORATION_FLOWER_CART",
+      "DECORATION_FLOWER_CART_SMALL",
+      "DECORATION_HALLOWEEN_SKULL",
+      "DECORATION_OLDFAITH_SHRINE",
+      "DECORATION_SINFUL_FLOWERS1",
+      "DECORATION_SINFUL_FLOWERS2",
+      "DECORATION_SINFUL_INCENSE",
+      "DECORATION_WATERINGCAN",
+      "HEALING_BAY",
+      "HEALING_BAY_2"
+    ]
+  }
 }

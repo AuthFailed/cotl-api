@@ -90,5 +90,6 @@
     "h": 3,
     "w": 3
   },
-  "upgradesFrom": "LUMBERJACK_STATION"
+  "upgradesFrom": "LUMBERJACK_STATION",
+  "upgradesTo": []
 }

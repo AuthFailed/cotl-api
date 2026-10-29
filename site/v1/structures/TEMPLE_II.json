@@ -90,5 +90,8 @@
     "h": 5,
     "w": 5
   },
-  "upgradesFrom": "TEMPLE"
+  "upgradesFrom": "TEMPLE",
+  "upgradesTo": [
+    "TEMPLE_III"
+  ]
 }

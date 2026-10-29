@@ -73,5 +73,19 @@
     "zh-TW": "啤酒花"
   },
   "seed": "SEED_HOPS",
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_BEER",
+      "DRINK_CHILLI",
+      "DRINK_COCKTAIL",
+      "DRINK_EGGNOG",
+      "DRINK_GRASS",
+      "DRINK_POOP_JUICE"
+    ],
+    "rituals": [],
+    "structures": [
+      "PUB"
+    ]
+  }
 }

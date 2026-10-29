@@ -73,5 +73,24 @@
     "zh-TW": "噬心蘑菇"
   },
   "seed": "SEED_MUSHROOM",
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [
+      "DRINK_MUSHROOM_JUICE"
+    ],
+    "rituals": [
+      "Ritual_Brainwashing"
+    ],
+    "structures": [
+      "DECORATION_BOSS_TROPHY_2",
+      "DECORATION_FLAG_MUSHROOM",
+      "DECORATION_MUSHROOM_1",
+      "DECORATION_MUSHROOM_2",
+      "DECORATION_MUSHROOM_CANDLE_1",
+      "DECORATION_MUSHROOM_CANDLE_2",
+      "DECORATION_MUSHROOM_CANDLE_LARGE",
+      "DECORATION_MUSHROOM_SCULPTURE",
+      "DECORATION_TWITCH_MUSHROOM_BAG"
+    ]
+  }
 }

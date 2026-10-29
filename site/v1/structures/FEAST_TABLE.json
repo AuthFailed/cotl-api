@@ -77,5 +77,6 @@
     "h": 5,
     "w": 5
   },
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

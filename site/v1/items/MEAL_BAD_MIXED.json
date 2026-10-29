@@ -139,5 +139,10 @@
   "seed": null,
   "tags": [
     "meal"
-  ]
+  ],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -73,5 +73,10 @@
     "zh-TW": "索佐的種子"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

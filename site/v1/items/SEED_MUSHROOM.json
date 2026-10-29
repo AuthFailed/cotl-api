@@ -82,5 +82,10 @@
     "zh-TW": "噬心蘑菇孢子"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -73,5 +73,10 @@
     "zh-TW": "卜卦者羊毛"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

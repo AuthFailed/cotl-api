@@ -41,5 +41,10 @@
     "zh-TW": "教徒外觀"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

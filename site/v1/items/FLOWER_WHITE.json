@@ -73,5 +73,13 @@
     "zh-TW": "雪落"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "DECORATION_DLC_YNGYA_TALLFLOWERS",
+      "DECORATION_DLC_YNGYA_TREEBUSH"
+    ]
+  }
 }

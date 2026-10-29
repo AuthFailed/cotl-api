@@ -90,5 +90,6 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "BED_2"
+  "upgradesFrom": "BED_2",
+  "upgradesTo": []
 }

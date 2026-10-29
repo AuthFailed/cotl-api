@@ -73,5 +73,23 @@
     "zh-TW": "水晶碎片"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "DECORATION_BOSS_TROPHY_3",
+      "DECORATION_CRYSTAL_LAMP",
+      "DECORATION_CRYSTAL_LIGHT",
+      "DECORATION_CRYSTAL_ROCK",
+      "DECORATION_CRYSTAL_STATUE",
+      "DECORATION_CRYSTAL_TREE",
+      "DECORATION_CRYSTAL_WINDOW",
+      "DECORATION_FLAG_CRYSTAL",
+      "KITCHEN_II",
+      "LUMBERJACK_STATION_2",
+      "MISSIONARY_III",
+      "OUTHOUSE_2"
+    ]
+  }
 }

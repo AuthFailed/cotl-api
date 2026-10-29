@@ -75,5 +75,14 @@
   "seed": "SEED",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "DRINK_GIN",
+      "MEAL_BAD_MIXED",
+      "MEAL_BERRIES"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -86,5 +86,6 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "FOOD_STORAGE"
+  "upgradesFrom": "FOOD_STORAGE",
+  "upgradesTo": []
 }

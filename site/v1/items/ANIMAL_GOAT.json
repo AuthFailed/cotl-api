@@ -73,5 +73,10 @@
     "zh-TW": "怪氂牛"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

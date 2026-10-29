@@ -73,5 +73,15 @@
     "zh-TW": "棉花"
   },
   "seed": "SEED_COTTON",
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "DAYCARE",
+      "HATCHERY",
+      "HATCHERY_2",
+      "WOOLY_SHACK"
+    ]
+  }
 }

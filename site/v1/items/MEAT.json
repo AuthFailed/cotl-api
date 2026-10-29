@@ -76,5 +76,17 @@
   "tags": [
     "food",
     "meat"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_GREAT_MEAT",
+      "MEAL_GREAT_MIXED",
+      "MEAL_MEAT",
+      "MEAL_MEDIUM_MIXED"
+    ],
+    "rituals": [],
+    "structures": [
+      "DECORATION_DST_PIGSTICK"
+    ]
+  }
 }

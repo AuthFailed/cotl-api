@@ -73,5 +73,23 @@
     "zh-TW": "蜘蛛絲"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "BLOODSTONE_MINE_2",
+      "COMPOST_BIN",
+      "DECORATION_BOSS_TROPHY_4",
+      "DECORATION_SPIDER_LANTERN",
+      "DECORATION_SPIDER_PILLAR",
+      "DECORATION_SPIDER_SCULPTURE",
+      "DECORATION_SPIDER_TORCH",
+      "DECORATION_SPIDER_WEB_CROWN_SCULPTURE",
+      "DECORATION_WALL_SPIDER",
+      "DEMON_SUMMONER_3",
+      "LEADER_TENT",
+      "TAILOR"
+    ]
+  }
 }

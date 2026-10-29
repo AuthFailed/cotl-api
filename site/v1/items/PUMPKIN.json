@@ -75,5 +75,21 @@
   "seed": "SEED_PUMPKIN",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL",
+      "MEAL_GREAT",
+      "MEAL_MEDIUM_MIXED",
+      "MEAL_MILK_GOOD"
+    ],
+    "rituals": [
+      "Ritual_Halloween"
+    ],
+    "structures": [
+      "DECORATION_HALLOWEEN_PUMPKIN",
+      "DECORATION_PUMPKIN_PILE",
+      "DECORATION_PUMPKIN_STOOL"
+    ]
+  }
 }

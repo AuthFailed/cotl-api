@@ -76,5 +76,13 @@
   "tags": [
     "food",
     "meat"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_BAD_MEAT",
+      "MEAL_BAD_MIXED"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

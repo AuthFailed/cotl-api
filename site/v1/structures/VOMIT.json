@@ -42,5 +42,6 @@
     "zh-TW": "嘔吐物"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

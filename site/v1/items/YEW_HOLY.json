@@ -73,5 +73,17 @@
     "zh-TW": "純淨紫杉"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "DECORATION_BOSS_TROPHY_DLC_EXECUTIONER",
+      "DECORATION_BOSS_TROPHY_DLC_WOLF",
+      "DECORATION_BOSS_TROPHY_DLC_YNGYA",
+      "LOGISTICS",
+      "RACING_GATE",
+      "WOLF_TRAP"
+    ]
+  }
 }

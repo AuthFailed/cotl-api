@@ -75,5 +75,13 @@
   "seed": "SEED_SNOW_FRUIT",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "DRINK_MILKSHAKE",
+      "MEAL_SNOW_FRUIT"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }

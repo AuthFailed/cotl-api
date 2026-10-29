@@ -90,5 +90,6 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "REFINERY"
+  "upgradesFrom": "REFINERY",
+  "upgradesTo": []
 }

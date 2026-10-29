@@ -42,5 +42,6 @@
     "zh-TW": "教徒遺體"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

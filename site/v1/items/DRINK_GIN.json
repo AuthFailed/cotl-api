@@ -177,5 +177,10 @@
   "seed": null,
   "tags": [
     "drink"
-  ]
+  ],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

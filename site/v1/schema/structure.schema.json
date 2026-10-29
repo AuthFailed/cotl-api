@@ -11,7 +11,8 @@
     "upgradesFrom",
     "size",
     "namePlain",
-    "descriptionPlain"
+    "descriptionPlain",
+    "upgradesTo"
   ],
   "properties": {
     "id": {
@@ -118,6 +119,13 @@
         "null"
       ],
       "description": "build menu tab and section, e.g. Follower/Food, Faith/Sin, Aesthetic/Path; null if not in the build menu"
+    },
+    "upgradesTo": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "structures that upgrade from this one (the reverse of upgradesFrom)"
     }
   }
 }

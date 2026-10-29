@@ -79,5 +79,6 @@
     "zh-TW": "蔓生之井"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

@@ -82,5 +82,6 @@
     "h": 2,
     "w": 2
   },
-  "upgradesFrom": "RANCH"
+  "upgradesFrom": "RANCH",
+  "upgradesTo": []
 }

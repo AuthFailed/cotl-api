@@ -82,5 +82,10 @@
     "zh-TW": "葡萄種子"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

@@ -79,5 +79,6 @@
     "zh-TW": "木製燈柱"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }

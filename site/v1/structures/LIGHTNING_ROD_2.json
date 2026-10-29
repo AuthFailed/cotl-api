@@ -86,5 +86,6 @@
     "h": 1,
     "w": 1
   },
-  "upgradesFrom": "LIGHTNING_ROD"
+  "upgradesFrom": "LIGHTNING_ROD",
+  "upgradesTo": []
 }

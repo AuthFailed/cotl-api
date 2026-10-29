@@ -90,5 +90,6 @@
     "h": 1,
     "w": 1
   },
-  "upgradesFrom": "SCARECROW"
+  "upgradesFrom": "SCARECROW",
+  "upgradesTo": []
 }

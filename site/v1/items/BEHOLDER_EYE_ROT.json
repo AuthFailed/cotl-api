@@ -73,5 +73,10 @@
     "zh-TW": "腐爛的見證者之眼"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

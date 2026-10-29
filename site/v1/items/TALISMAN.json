@@ -73,5 +73,10 @@
     "zh-TW": "神聖護身符"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": []
+  }
 }

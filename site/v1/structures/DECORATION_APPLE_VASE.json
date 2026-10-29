@@ -79,5 +79,6 @@
     "zh-TW": "迷人擺飾"
   },
   "size": null,
-  "upgradesFrom": null
+  "upgradesFrom": null,
+  "upgradesTo": []
 }
