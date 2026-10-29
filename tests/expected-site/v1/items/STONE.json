@@ -21,5 +21,12 @@
     "ru": "Камень"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [],
+    "structures": [
+      "SHRINE_II"
+    ]
+  }
 }

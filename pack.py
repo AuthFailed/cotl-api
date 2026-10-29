@@ -103,11 +103,31 @@ def openapi(index: dict, ids: dict, icons: dict) -> dict:
     }
 
 
+def cross_references(dump: dict):
+    """Where each item is used (structure and ritual costs, recipes), and what each structure upgrades into."""
+    used = {i["id"]: {"structures": set(), "items": set(), "rituals": set()} for i in dump["items"]}
+    for kind, entity, costs in (
+            [("structures", s, [s.get("cost", [])]) for s in dump["structures"]] +
+            [("rituals", r, [r.get("cost", [])]) for r in dump["rituals"]] +
+            [("items", i, (i.get("meal") or {}).get("recipes", [])) for i in dump["items"]]):
+        for cost in costs:
+            for c in cost:
+                if c["item"] in used:
+                    used[c["item"]][kind].add(entity["id"])
+    upgrades = {}
+    for st in dump["structures"]:
+        if st.get("upgradesFrom"):
+            upgrades.setdefault(st["upgradesFrom"], []).append(st["id"])
+    return ({i: {k: sorted(v) for k, v in u.items()} for i, u in used.items()},
+            {i: sorted(v) for i, v in upgrades.items()})
+
+
 def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     tmp = site_dir / "v1.tmp"
     shutil.rmtree(tmp, ignore_errors=True)
     ids, icons = {}, {}
     item_ids = {e["id"] for e in dump["items"]}
+    used_in, upgrades_to = cross_references(dump)
     for kind in KINDS:
         entities = []
         for raw in sorted(dump[kind], key=lambda e: e["id"]):
@@ -121,6 +141,10 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
                 e["seed"] = None
             if e.get("crop") and e["crop"]["grows"] not in item_ids:
                 e["crop"] = dict(e["crop"], grows=None)
+            if kind == "items":
+                e["usedIn"] = used_in[e["id"]]
+            if kind == "structures":
+                e["upgradesTo"] = upgrades_to.get(e["id"], [])
             if e.get("meal"):
                 e["meal"] = dict(e["meal"], effects=[effect(dump["i18n"], x) for x in e["meal"]["effects"]])
             icon = dump_dir / "icons" / kind / f"{raw['id']}.png"

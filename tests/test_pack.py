@@ -153,6 +153,21 @@ class PackTest(unittest.TestCase):
         self.assertEqual(feast["icon"], "icons/rituals/Ritual_Feast.png")
         self.assertTrue((self.site / "v1" / "icons" / "rituals" / "Ritual_Feast.png").exists())
 
+    def structure(self, id):
+        return json.loads((self.site / "v1" / "structures" / f"{id}.json").read_text())
+
+    def test_items_list_where_they_are_used(self):
+        self.pack()
+        self.assertEqual(self.item("LOG")["usedIn"], {"structures": ["FARM_PLOT", "SHRINE_II"], "items": [], "rituals": ["Ritual_Feast"]})
+        self.assertEqual(self.item("BERRY")["usedIn"], {"structures": [], "items": ["MEAL_BERRIES"], "rituals": []})
+        self.assertEqual(self.item("SEED")["usedIn"], {"structures": [], "items": [], "rituals": []})
+
+    def test_structures_list_what_they_upgrade_to(self):
+        self.edit("structures", lambda st: [dict(x, upgradesFrom="FARM_PLOT") if x["id"] == "SHRINE_II" else x for x in st])
+        self.pack()
+        self.assertEqual(self.structure("FARM_PLOT")["upgradesTo"], ["SHRINE_II"])
+        self.assertEqual(self.structure("SHRINE_II")["upgradesTo"], [])
+
     def test_openapi_describes_every_endpoint(self):
         self.pack()
         spec = json.loads((self.site / "openapi.json").read_text())

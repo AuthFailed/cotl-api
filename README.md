@@ -25,7 +25,7 @@ Every entity has `id`, `name` and `description` (maps from language code to text
 translation is left out, `en` is always there in `name`), `namePlain` and `descriptionPlain` (the same without
 the game's text markup), and `icon` (a path relative to `v1/`, or null).
 
-- **item**: `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`,
+- **item**: `usedIn` (`{ "structures", "items", "rituals" }`: what costs it, or uses it in a recipe), `category` (the game's item category), `tags` (any of `food`, `fish`, `big_fish`, `meat`, `heart`, `gift`,
   `meal`, `drink`), `meal` (meals and drinks only, else null): `recipes` (every ingredient combination the game
   accepts, as `[[{ "item", "quantity" }]]`), `satiation`, `satiationPlayer`, `stars` (the cooking menu's quality
   stars), `tummyRating`, `faith`, `cookTime`, `dlc`, and `effects` (`type`, `chance` in percent, and its text as
@@ -35,7 +35,7 @@ the game's text markup), and `icon` (a path relative to `v1/`, or null).
   `harvests` (`{ "min", "max" }` times one seed can be harvested), `season` (`spring` or `winter`: the only
   season it grows in without a Farm Crop Grower or rotstone fertiliser).
 - **structure**: `cost` (`[{ "item": "<item id>", "quantity": n }]`, base prices without in-game discounts),
-  `upgradesFrom` (structure id or null), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
+  `upgradesFrom` (structure id or null), `upgradesTo` (the reverse, a list), `size` (`{ "w", "h" }` in grid cells, or null when the game doesn't
   place it from the build menu), `menu` (build menu tab and section, e.g. `Follower/Food`,
   `Faith/Sin`, `Aesthetic/Path`, or null), `buildable` (in the build menu), `category` (the game's structure
   category, `FOOD`, `FAITH`, …, for buildable ones, else null)

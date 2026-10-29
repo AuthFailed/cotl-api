@@ -25,7 +25,8 @@
       "h": 1,
       "w": 1
     },
-    "upgradesFrom": null
+    "upgradesFrom": null,
+    "upgradesTo": []
   },
   {
     "buildable": true,
@@ -63,6 +64,7 @@
       "h": 3,
       "w": 3
     },
-    "upgradesFrom": "SHRINE"
+    "upgradesFrom": "SHRINE",
+    "upgradesTo": []
   }
 ]

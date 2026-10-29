@@ -16,7 +16,14 @@
     "seed": "SEED",
     "tags": [
       "food"
-    ]
+    ],
+    "usedIn": {
+      "items": [
+        "MEAL_BERRIES"
+      ],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "Resource",
@@ -41,7 +48,17 @@
       "ru": "Брёвна"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [
+        "Ritual_Feast"
+      ],
+      "structures": [
+        "FARM_PLOT",
+        "SHRINE_II"
+      ]
+    }
   },
   {
     "category": "NONE",
@@ -92,7 +109,12 @@
     "seed": null,
     "tags": [
       "meal"
-    ]
+    ],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "SEEDS",
@@ -120,7 +142,12 @@
       "ru": "Семя ягоды"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": []
+    }
   },
   {
     "category": "Resource",
@@ -145,6 +172,13 @@
       "ru": "Камень"
     },
     "seed": null,
-    "tags": []
+    "tags": [],
+    "usedIn": {
+      "items": [],
+      "rituals": [],
+      "structures": [
+        "SHRINE_II"
+      ]
+    }
   }
 ]

@@ -21,5 +21,15 @@
     "ru": "Брёвна"
   },
   "seed": null,
-  "tags": []
+  "tags": [],
+  "usedIn": {
+    "items": [],
+    "rituals": [
+      "Ritual_Feast"
+    ],
+    "structures": [
+      "FARM_PLOT",
+      "SHRINE_II"
+    ]
+  }
 }

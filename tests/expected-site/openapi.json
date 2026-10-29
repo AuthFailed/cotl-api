@@ -327,6 +327,35 @@
               "type": "string"
             },
             "type": "array"
+          },
+          "usedIn": {
+            "description": "where the item is used: structure costs, meal and drink recipes, ritual costs",
+            "properties": {
+              "items": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "rituals": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              },
+              "structures": {
+                "items": {
+                  "type": "string"
+                },
+                "type": "array"
+              }
+            },
+            "required": [
+              "structures",
+              "items",
+              "rituals"
+            ],
+            "type": "object"
           }
         },
         "required": [
@@ -336,7 +365,8 @@
           "icon",
           "category",
           "namePlain",
-          "descriptionPlain"
+          "descriptionPlain",
+          "usedIn"
         ],
         "title": "Item",
         "type": "object"
@@ -639,6 +669,13 @@
               "string",
               "null"
             ]
+          },
+          "upgradesTo": {
+            "description": "structures that upgrade from this one (the reverse of upgradesFrom)",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
           }
         },
         "required": [
@@ -650,7 +687,8 @@
           "upgradesFrom",
           "size",
           "namePlain",
-          "descriptionPlain"
+          "descriptionPlain",
+          "upgradesTo"
         ],
         "title": "Structure",
         "type": "object"

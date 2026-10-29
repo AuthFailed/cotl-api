@@ -15,5 +15,12 @@
   "seed": "SEED",
   "tags": [
     "food"
-  ]
+  ],
+  "usedIn": {
+    "items": [
+      "MEAL_BERRIES"
+    ],
+    "rituals": [],
+    "structures": []
+  }
 }
