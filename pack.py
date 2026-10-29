@@ -6,9 +6,17 @@ import sys
 from pathlib import Path
 
 KINDS = ("items", "structures", "skins", "rituals")
-SAFE_ID = re.compile(r"^[A-Za-z0-9_-]+$")
+SAFE_ID = re.compile(r"[A-Za-z0-9_-]+")
 # The game's localisation sheet also has non-language columns ("Chara Count", "Comments", ...).
-LANGUAGE = re.compile(r"^[a-z]{2}(-[A-Za-z]{2})?$")
+LANGUAGE = re.compile(r"[a-z]{2,3}(-[A-Za-z0-9]{2,8})*")
+# The raw fields each kind publishes (name, description, icon and cross-references are added by the packer). A new
+# field the mod dumps stays private until it is listed here, because within v1 a published field is forever.
+PUBLIC = {
+    "items": ("category", "tags", "meal", "seed", "crop"),
+    "structures": ("cost", "upgradesFrom", "size", "menu", "buildable", "category"),
+    "skins": ("unlock", "hidden"),
+    "rituals": ("cost", "faith", "warmth", "sin", "trait", "group", "alternative", "doctrine"),
+}
 
 
 def load_dump(dump_dir: Path) -> dict:
@@ -22,7 +30,7 @@ def write_json(path: Path, obj) -> None:
 
 
 def texts(i18n: dict, term) -> dict:
-    return {lang: text for lang, text in i18n.get(term, {}).items() if text and LANGUAGE.match(lang)} if term else {}
+    return {lang: text for lang, text in i18n.get(term, {}).items() if text and LANGUAGE.fullmatch(lang)} if term else {}
 
 
 def plain(text: str) -> str:
@@ -131,7 +139,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     for kind in KINDS:
         entities = []
         for raw in sorted(dump[kind], key=lambda e: e["id"]):
-            e = {k: v for k, v in raw.items() if k not in ("nameTerm", "descTerm")}
+            e = {"id": raw["id"], **{k: raw[k] for k in PUBLIC[kind] if k in raw}}
             e["name"] = texts(dump["i18n"], raw.get("nameTerm"))
             e["description"] = texts(dump["i18n"], raw.get("descTerm"))
             e["namePlain"] = {lang: plain(t) for lang, t in e["name"].items()}
@@ -162,7 +170,7 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     index = {
         "gameVersion": dump["meta"]["gameVersion"],
         "capturedAt": dump["meta"]["capturedAt"],
-        "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.match(lang)}),
+        "languages": sorted({lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}),
         "counts": {kind: len(dump[kind]) for kind in KINDS},
     }
     old_dir = site_dir / "v1"
@@ -201,8 +209,9 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
         ids = [e["id"] for e in dump[kind]]
         if not ids:
             found.append(f"{kind}: none in the dump")
-        found += [f"{kind}: duplicate id {id}" for id in sorted({i for i in ids if ids.count(i) > 1})]
-        found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.match(id)]
+        lower = [i.lower() for i in ids]  # ids are file names, and macOS file names ignore case
+        found += [f"{kind}: duplicate id {id}" for id in sorted({i for i in ids if lower.count(i.lower()) > 1})]
+        found += [f"{kind}: id {id!r} is not safe as a file name" for id in ids if not SAFE_ID.fullmatch(id)]
         found += [f"{kind}: {e['id']} has no English name" for e in dump[kind]
                   if not texts(dump["i18n"], e.get("nameTerm")).get("en")]
         found += [f"{kind}: {e['id']} effect {x['type']} has no English text" for e in dump[kind]
@@ -215,7 +224,7 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
                 ("sizes", sum(bool(e.get("size")) for e in dump[kind]), sum(bool(e.get("size")) for e in old))):
             if now < before * 0.9:
                 found.append(f"{kind}: {now} {what} now, {before} before (more than 10% fewer)")
-    languages = {lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.match(lang)}
+    languages = {lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}
     found += [f"language {lang} is gone" for lang in sorted(set((previous or {}).get("languages", [])) - languages)]
     return found
 

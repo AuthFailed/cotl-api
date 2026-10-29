@@ -268,6 +268,26 @@ class RefuseTest(unittest.TestCase):
         self.edit("i18n", lambda t: {k: v for k, v in t.items() if k != "CookingData/CausesIllPoopy/Description"})
         self.assertRefused()
 
+    def test_refuses_id_with_trailing_newline(self):
+        self.edit("skins", lambda skins: skins[:2] + [{"id": "Cat2\n", "nameTerm": "Skins/Cat"}])
+        self.assertRefused()
+
+    def test_refuses_ids_that_differ_only_in_case(self):
+        self.edit("skins", lambda skins: skins + [dict(skins[0], id=skins[0]["id"].lower())])
+        self.assertRefused()
+
+    def test_unknown_raw_fields_are_not_published(self):
+        self.edit("items", lambda items: [dict(i, debugNote="internal") for i in items])
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
+        self.assertNotIn("debugNote", json.loads((self.site / "v1" / "items" / "LOG.json").read_text()))
+
+    def test_newer_language_codes_are_kept(self):
+        self.edit("i18n", lambda t: {k: dict(v, **{"zh-Hans": "木头", "es-419": "Troncos"}) if k == "Inventory/LOG" else v for k, v in t.items()})
+        self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
+        name = json.loads((self.site / "v1" / "items" / "LOG.json").read_text())["name"]
+        self.assertEqual(name["zh-Hans"], "木头")
+        self.assertEqual(name["es-419"], "Troncos")
+
     def test_first_publish_has_no_count_check(self):
         self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 0)
         self.assertTrue((self.site / "v1" / "index.json").exists())
