@@ -1,0 +1,240 @@
+// CotlDataDump: dumps items, structures and skins from Cult of the Lamb for pack.py.
+//
+// Phase 1, main menu, before any save loads: costs (GetCost applies the loaded save's Mine II discount),
+// item/structure data, skins, translations. Phase 2: continues save slot 0 and, in the base, reads
+// footprints and icons, which only exist there. Saving is blocked the whole time, and the process is
+// killed at the end. Output: BepInEx/plugins/CotlDataDump/ (raw dump format in docs/design.md).
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using BepInEx;
+using BepInEx.Configuration;
+using HarmonyLib;
+using I2.Loc;
+using Lamb.UI.Assets;
+using MMTools;
+using Newtonsoft.Json;
+using src.Managers;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+[BepInPlugin("chrsnv.cotldata.dump", "COTL Data Dump", "0.1.0")]
+public class CotlDataDump : BaseUnityPlugin
+{
+    ConfigEntry<int> slot;
+    ConfigEntry<bool> doItems, doStructures, doSkins;
+    string outDir;
+    bool started, finished;
+    readonly List<object> errors = new List<object>();
+    readonly HashSet<string> terms = new HashSet<string>();
+    readonly Dictionary<string, Dictionary<string, string>> i18n = new Dictionary<string, Dictionary<string, string>>();
+    List<Dictionary<string, object>> items, structures, skins;
+    string en = "en";
+
+    void Awake()
+    {
+        slot = Config.Bind("General", "Slot", 0, "Save slot to continue for phase 2 (footprints and icons). Never written to.");
+        doItems = Config.Bind("Jobs", "Items", true, "items.json and item icons.");
+        doStructures = Config.Bind("Jobs", "Structures", true, "structures.json and structure icons.");
+        doSkins = Config.Bind("Jobs", "Skins", true, "skins.json.");
+        outDir = Path.Combine(Paths.PluginPath, "CotlDataDump");
+        Directory.CreateDirectory(outDir);
+        new Harmony("chrsnv.cotldata.dump").PatchAll(typeof(CotlDataDump));
+        SceneManager.sceneLoaded += OnSceneLoaded;
+        Logger.LogInfo("loaded; saving is blocked while this plugin is installed");
+    }
+
+    [HarmonyPrefix, HarmonyPatch(typeof(SaveAndLoad), "Saving")] static bool NoSave() => false;
+    [HarmonyPrefix, HarmonyPatch(typeof(SaveAndLoad), nameof(SaveAndLoad.SaveMetaData))] static bool NoMeta() => false;
+    [HarmonyPrefix, HarmonyPatch(typeof(PersistenceManager), nameof(PersistenceManager.Save))] static bool NoPersist() => false;
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Logger.LogInfo($"scene loaded: {scene.name}");
+        if (scene.name == "Main Menu" && !started) { started = true; StartCoroutine(MainMenu()); }
+        if (scene.name == "Base Biome 1" && started && !finished) StartCoroutine(Base());
+    }
+
+    IEnumerator MainMenu()
+    {
+        yield return new WaitForSecondsRealtime(8f);
+        // A loaded save would change costs; DataManager must still be the fresh one the game makes on demand.
+        if (UpgradeSystem.GetUnlocked(UpgradeSystem.Type.Economy_MineII)) Fail("costs", "a save's upgrades are already loaded");
+        var english = LocalizationManager.Sources.SelectMany(s => s.mLanguages).FirstOrDefault(l => l.Name == "English");
+        if (english != null && !string.IsNullOrEmpty(english.Code)) en = english.Code;
+        if (doItems.Value) Try("Items", ReadItems);
+        if (doStructures.Value) Try("Structures", ReadStructures);
+        if (doSkins.Value) Try("Skins", ReadSkins);
+        Try("Translations", ReadTranslations);
+        int s = slot.Value;
+        Logger.LogInfo($"phase 1 done; continuing save slot {s}");
+        SaveAndLoad.SAVE_SLOT = s;
+        // same as the menu's Continue (LoadMenu.ContinueGame)
+        MMTransition.Play(MMTransition.TransitionType.ChangeRoomWaitToResume, MMTransition.Effect.BlackFade, "Base Biome 1", 3f, "", () => SaveAndLoad.Load(s));
+    }
+
+    IEnumerator Base()
+    {
+        float waited = 0f;
+        while (!SaveAndLoad.Loaded && waited < 180f) { waited += Time.unscaledDeltaTime; yield return null; }
+        yield return new WaitForSecondsRealtime(5f);
+        DataManager.Instance.DisableSaving = true;
+        if (doItems.Value) Try("ItemIcons", ItemIcons);
+        if (doStructures.Value) Try("StructureFootprints", StructureFootprints);
+        finished = true;
+        Write("items.json", items ?? new List<Dictionary<string, object>>());
+        Write("structures.json", structures ?? new List<Dictionary<string, object>>());
+        Write("skins.json", skins ?? new List<Dictionary<string, object>>());
+        Write("i18n.json", i18n);
+        Write("meta.json", new Dictionary<string, object> {
+            ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
+            ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ"), ["errors"] = errors });
+        File.WriteAllText(Path.Combine(outDir, "done"), "");
+        Logger.LogInfo("dump done");
+        yield return new WaitForSecondsRealtime(1f);
+        // Quit is swallowed under Proton; saving is blocked, so ending the process loses nothing.
+        System.Diagnostics.Process.GetCurrentProcess().Kill();
+    }
+
+    // ---------- phase 1 ----------
+
+    // Enum.GetNames: GetValues gives one name for aliased values. Types without an English name are internal.
+    static IEnumerable<T> Named<T>(string prefix) =>
+        Enum.GetNames(typeof(T)).Where(n => !string.IsNullOrEmpty(LocalizationManager.GetTranslation($"{prefix}/{n}", overrideLanguage: "English")))
+            .Select(n => (T)Enum.Parse(typeof(T), n));
+
+    string Term(string term)
+    {
+        if (string.IsNullOrEmpty(LocalizationManager.GetTranslation(term, overrideLanguage: "English"))) return null;
+        terms.Add(term);
+        return term;
+    }
+
+    void ReadItems()
+    {
+        items = Named<InventoryItem.ITEM_TYPE>("Inventory").Select(t => new Dictionary<string, object> {
+            ["id"] = t.ToString(), ["nameTerm"] = Term($"Inventory/{t}"), ["descTerm"] = Term($"Inventory/{t}/Description"),
+            ["category"] = InventoryItem.GetItemCategory(t).ToString(),
+        }).ToList();
+        Logger.LogInfo($"items: {items.Count}");
+    }
+
+    void ReadStructures()
+    {
+        structures = Named<StructureBrain.TYPES>("Structures").Select(t =>
+        {
+            StructuresData info = null;
+            try { info = StructuresData.GetInfoByType(t, 0); } catch { }
+            return new Dictionary<string, object> {
+                ["id"] = t.ToString(), ["nameTerm"] = Term($"Structures/{t}"), ["descTerm"] = Term($"Structures/{t}/Description"),
+                ["cost"] = StructuresData.GetCost(t).Select(c => new Dictionary<string, object> { ["item"] = c.CostItem.ToString(), ["quantity"] = c.CostValue }).ToList(),
+                ["upgradesFrom"] = info != null && info.IsUpgrade ? info.UpgradeFromType.ToString() : null,
+                ["size"] = null,
+            };
+        }).ToList();
+        Logger.LogInfo($"structures: {structures.Count}");
+    }
+
+    void ReadSkins()
+    {
+        skins = new List<Dictionary<string, object>>();
+        foreach (var c in WorshipperData.Instance.Characters.Where(c => !c.Invariant && c.Skin.Count > 0))
+        {
+            string id = new string(c.Skin[0].Skin.Select(ch => char.IsLetterOrDigit(ch) && ch < 128 || ch == '_' || ch == '-' ? ch : '_').ToArray());
+            // The game has no translated skin names, only this title.
+            i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = c.Title };
+            skins.Add(new Dictionary<string, object> {
+                ["id"] = id, ["nameTerm"] = $"Skins/{id}", ["unlock"] = c.DropLocation.ToString(), ["hidden"] = c.Hidden,
+            });
+        }
+        Logger.LogInfo($"skins: {skins.Count}");
+    }
+
+    void ReadTranslations()
+    {
+        foreach (var source in LocalizationManager.Sources)
+            foreach (var term in terms)
+            {
+                var data = source.GetTermData(term);
+                if (data == null || i18n.ContainsKey(term)) continue;
+                i18n[term] = source.mLanguages.Select((l, i) => (code: string.IsNullOrEmpty(l.Code) ? l.Name : l.Code, text: i < data.Languages.Length ? data.Languages[i] : null))
+                    .Where(p => !string.IsNullOrEmpty(p.text)).ToDictionary(p => p.code, p => p.text);
+            }
+        Logger.LogInfo($"i18n: {i18n.Count} terms");
+    }
+
+    // ---------- phase 2 ----------
+
+    void ItemIcons()
+    {
+        var maps = Resources.FindObjectsOfTypeAll<InventoryIconMapping>();
+        if (maps.Length == 0) throw new Exception("no InventoryIconMapping loaded");
+        int n = 0;
+        foreach (var item in items ?? new List<Dictionary<string, object>>())
+        {
+            var t = (InventoryItem.ITEM_TYPE)Enum.Parse(typeof(InventoryItem.ITEM_TYPE), (string)item["id"]);
+            var sprite = maps.Select(m => { try { return m.GetImage(t); } catch { return null; } }).FirstOrDefault(sp => sp);
+            if (sprite) { SaveSprite(sprite, "items", (string)item["id"]); n++; }
+        }
+        Logger.LogInfo($"item icons: {n}");
+    }
+
+    void StructureFootprints()
+    {
+        var list = FindObjectOfType<TypeAndPlacementObjects>();
+        if (!list) throw new Exception("no build list (TypeAndPlacementObjects) in the base scene");
+        var byId = (structures ?? new List<Dictionary<string, object>>()).ToDictionary(s => (string)s["id"]);
+        int n = 0;
+        foreach (var entry in list.TypeAndPlacementObject)
+        {
+            if (!byId.TryGetValue(entry.Type.ToString(), out var s) || s["size"] != null) continue;
+            Try($"{entry.Type} footprint", () =>
+            {
+                var placement = entry.Addr_PlacementObject != null && entry.Addr_PlacementObject.RuntimeKeyIsValid() ? entry.PlacementObject : null;
+                var b = placement ? placement.GetComponent<PlacementObject>()?.Bounds : null;
+                if (b != null) s["size"] = new Dictionary<string, int> { ["w"] = b.Value.x, ["h"] = b.Value.y };
+                if (entry.IconImage) SaveSprite(entry.IconImage, "structures", entry.Type.ToString());
+                n++;
+            });
+        }
+        Logger.LogInfo($"structure footprints/icons: {n}");
+    }
+
+    // A sprite's own pixels as a PNG (its texture needn't be readable).
+    void SaveSprite(Sprite sp, string kind, string id)
+    {
+        string dir = Path.Combine(outDir, "icons", kind);
+        Directory.CreateDirectory(dir);
+        var rt = RenderTexture.GetTemporary(sp.texture.width, sp.texture.height, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.sRGB);
+        Graphics.Blit(sp.texture, rt);
+        var was = RenderTexture.active;
+        RenderTexture.active = rt;
+        var rect = sp.textureRect;
+        var tex = new Texture2D((int)rect.width, (int)rect.height, TextureFormat.RGBA32, false);
+        tex.ReadPixels(rect, 0, 0);
+        tex.Apply();
+        RenderTexture.active = was;
+        RenderTexture.ReleaseTemporary(rt);
+        File.WriteAllBytes(Path.Combine(dir, id + ".png"), tex.EncodeToPNG());
+        Destroy(tex);
+    }
+
+    // ---------- helpers ----------
+
+    void Write(string name, object value) =>
+        File.WriteAllText(Path.Combine(outDir, name), JsonConvert.SerializeObject(value, Formatting.Indented));
+
+    void Fail(string job, string message)
+    {
+        Logger.LogError($"{job}: {message}");
+        errors.Add(new Dictionary<string, string> { ["job"] = job, ["message"] = message });
+    }
+
+    void Try(string job, Action action)
+    {
+        try { action(); }
+        catch (Exception e) { Fail(job, e.ToString()); }
+    }
+}
