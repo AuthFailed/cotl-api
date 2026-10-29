@@ -137,7 +137,8 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
     old_dir = site_dir / "v1"
     old_index = read_json(old_dir / "index.json")
     changes = read_json(old_dir / "changes.json") or []
-    if old_index:
+    # Only a new game version gets an entry; a recapture of the same one changes the API, not the game.
+    if old_index and old_index.get("gameVersion") != index["gameVersion"]:
         diff = {"added": {}, "removed": {}, "changed": {}}
         for kind in KINDS:
             old_ids = {e["id"] for e in read_json(old_dir / f"{kind}.json") or []}

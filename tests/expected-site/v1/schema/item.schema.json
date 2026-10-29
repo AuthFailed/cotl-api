@@ -87,7 +87,7 @@
       "properties": {
         "recipes": {
           "type": "array",
-          "description": "every ingredient combination the game accepts",
+          "description": "every ingredient combination the game accepts; empty for what the kitchen doesn't cook (a burned meal comes from overcooking)",
           "items": {
             "type": "array",
             "items": {

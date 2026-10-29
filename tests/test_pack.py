@@ -111,6 +111,12 @@ class PackTest(unittest.TestCase):
         self.pack()  # nothing changed: no new entry
         self.assertEqual(len(self.changes()), 1)
 
+    def test_same_game_version_adds_no_changelog_entry(self):
+        self.pack()
+        self.edit("items", lambda items: [dict(i, category="Stones") if i["id"] == "STONE" else i for i in items])
+        self.pack()  # a different capture of the same game is a change in the API, not the game
+        self.assertEqual(self.changes(), [])
+
     def test_new_field_is_not_a_game_change(self):
         self.pack()
         self.edit("meta", lambda m: m.update(gameVersion="1.4.7"))
