@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Narwal.png",
   "id": "Narwal",
+  "invariant": false,
   "name": {
     "en": "Narwal"
   },
@@ -11,5 +12,10 @@
     "en": "Narwal"
   },
   "thumb": "icons/skins/64/Narwal.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Narwal",
+    "Narwal2",
+    "Narwal3"
+  ]
 }

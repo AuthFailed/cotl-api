@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Anglerfish.png",
   "id": "Anglerfish",
+  "invariant": false,
   "name": {
     "en": "Anglerfish"
   },
@@ -11,5 +12,10 @@
     "en": "Anglerfish"
   },
   "thumb": "icons/skins/64/Anglerfish.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Anglerfish",
+    "Anglerfish2",
+    "Anglerfish3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Rhino.png",
   "id": "Rhino",
+  "invariant": false,
   "name": {
     "en": "Rhino"
   },
@@ -11,5 +12,10 @@
     "en": "Rhino"
   },
   "thumb": "icons/skins/64/Rhino.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Rhino",
+    "Rhino2",
+    "Rhino3"
+  ]
 }

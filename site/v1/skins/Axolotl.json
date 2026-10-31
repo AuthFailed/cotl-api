@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Axolotl.png",
   "id": "Axolotl",
+  "invariant": false,
   "name": {
     "en": "Axolotl"
   },
@@ -11,5 +12,10 @@
     "en": "Axolotl"
   },
   "thumb": "icons/skins/64/Axolotl.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Axolotl",
+    "Axolotl2",
+    "Axolotl3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Nightwolf.png",
   "id": "Nightwolf",
+  "invariant": false,
   "name": {
     "en": "Night Wolf"
   },
@@ -11,5 +12,10 @@
     "en": "Night Wolf"
   },
   "thumb": "icons/skins/64/Nightwolf.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Nightwolf",
+    "Nightwolf2",
+    "Nightwolf3"
+  ]
 }

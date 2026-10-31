@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Hyena.png",
   "id": "Hyena",
+  "invariant": false,
   "name": {
     "en": "Hyena"
   },
@@ -11,5 +12,10 @@
     "en": "Hyena"
   },
   "thumb": "icons/skins/64/Hyena.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Hyena",
+    "Hyena2",
+    "Hyena3"
+  ]
 }

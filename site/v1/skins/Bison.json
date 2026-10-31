@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Bison.png",
   "id": "Bison",
+  "invariant": false,
   "name": {
     "en": "Bison"
   },
@@ -11,5 +12,10 @@
     "en": "Bison"
   },
   "thumb": "icons/skins/64/Bison.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Bison",
+    "Bison2",
+    "Bison3"
+  ]
 }

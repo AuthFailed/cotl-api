@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/IceGore.png",
   "id": "IceGore",
+  "invariant": false,
   "name": {
     "en": "IceGore"
   },
@@ -11,5 +12,8 @@
     "en": "IceGore"
   },
   "thumb": "icons/skins/64/IceGore.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "IceGore"
+  ]
 }

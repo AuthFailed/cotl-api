@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/DogTeddy.png",
   "id": "DogTeddy",
+  "invariant": false,
   "name": {
     "en": "DogTeddy"
   },
@@ -11,5 +12,10 @@
     "en": "DogTeddy"
   },
   "thumb": "icons/skins/64/DogTeddy.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "DogTeddy",
+    "DogTeddy2",
+    "DogTeddy3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Lion.png",
   "id": "Lion",
+  "invariant": false,
   "name": {
     "en": "Lion"
   },
@@ -11,5 +12,10 @@
     "en": "Lion"
   },
   "thumb": "icons/skins/64/Lion.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Lion",
+    "Lion2",
+    "Lion3"
+  ]
 }

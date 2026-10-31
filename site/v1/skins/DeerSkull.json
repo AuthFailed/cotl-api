@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/DeerSkull.png",
   "id": "DeerSkull",
+  "invariant": false,
   "name": {
     "en": "DeerSkull"
   },
@@ -11,5 +12,10 @@
     "en": "DeerSkull"
   },
   "thumb": "icons/skins/64/DeerSkull.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "DeerSkull",
+    "DeerSkull2",
+    "DeerSkull3"
+  ]
 }

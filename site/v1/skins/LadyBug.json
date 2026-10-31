@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/LadyBug.png",
   "id": "LadyBug",
+  "invariant": false,
   "name": {
     "en": "LadyBug"
   },
@@ -11,5 +12,10 @@
     "en": "LadyBug"
   },
   "thumb": "icons/skins/64/LadyBug.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "LadyBug",
+    "LadyBug2",
+    "LadyBug3"
+  ]
 }

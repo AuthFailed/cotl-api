@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Lobster.png",
   "id": "Lobster",
+  "invariant": false,
   "name": {
     "en": "Apple_5"
   },
@@ -11,5 +12,10 @@
     "en": "Apple_5"
   },
   "thumb": "icons/skins/64/Lobster.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Lobster",
+    "Lobster2",
+    "Lobster3"
+  ]
 }

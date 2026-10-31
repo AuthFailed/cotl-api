@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Duck.png",
   "id": "Duck",
+  "invariant": false,
   "name": {
     "en": "Duck"
   },
@@ -11,5 +12,10 @@
     "en": "Duck"
   },
   "thumb": "icons/skins/64/Duck.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Duck",
+    "Duck2",
+    "Duck3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Koala.png",
   "id": "Koala",
+  "invariant": false,
   "name": {
     "en": "Koala"
   },
@@ -11,5 +12,10 @@
     "en": "Koala"
   },
   "thumb": "icons/skins/64/Koala.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Koala",
+    "Koala2",
+    "Koala3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/PolarBear.png",
   "id": "PolarBear",
+  "invariant": false,
   "name": {
     "en": "Polar Bear"
   },
@@ -11,5 +12,10 @@
     "en": "Polar Bear"
   },
   "thumb": "icons/skins/64/PolarBear.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "PolarBear",
+    "PolarBear2",
+    "PolarBear3"
+  ]
 }

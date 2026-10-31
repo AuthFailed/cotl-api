@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Volvy.png",
   "id": "Volvy",
+  "invariant": false,
   "name": {
     "en": "Volvy"
   },
@@ -11,5 +12,8 @@
     "en": "Volvy"
   },
   "thumb": "icons/skins/64/Volvy.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "Volvy"
+  ]
 }

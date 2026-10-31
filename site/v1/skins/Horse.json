@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Horse.png",
   "id": "Horse",
+  "invariant": false,
   "name": {
     "en": "Horse"
   },
@@ -11,5 +12,10 @@
     "en": "Horse"
   },
   "thumb": "icons/skins/64/Horse.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Horse",
+    "Horse2",
+    "Horse3"
+  ]
 }

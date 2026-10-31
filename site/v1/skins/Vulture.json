@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Vulture.png",
   "id": "Vulture",
+  "invariant": false,
   "name": {
     "en": "Vulture"
   },
@@ -11,5 +12,10 @@
     "en": "Vulture"
   },
   "thumb": "icons/skins/64/Vulture.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Vulture",
+    "Vulture2",
+    "Vulture3"
+  ]
 }

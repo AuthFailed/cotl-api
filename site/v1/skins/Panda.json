@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Panda.png",
   "id": "Panda",
+  "invariant": false,
   "name": {
     "en": "Panda"
   },
@@ -11,5 +12,10 @@
     "en": "Panda"
   },
   "thumb": "icons/skins/64/Panda.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Panda",
+    "Panda2",
+    "Panda3"
+  ]
 }

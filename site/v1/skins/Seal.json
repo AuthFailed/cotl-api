@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Seal.png",
   "id": "Seal",
+  "invariant": false,
   "name": {
     "en": "Seal"
   },
@@ -11,5 +12,10 @@
     "en": "Seal"
   },
   "thumb": "icons/skins/64/Seal.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Seal",
+    "Seal2",
+    "Seal3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Cat.png",
   "id": "Cat",
+  "invariant": false,
   "name": {
     "en": "Cat"
   },
@@ -11,5 +12,10 @@
     "en": "Cat"
   },
   "thumb": "icons/skins/64/Cat.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Cat",
+    "Cat2",
+    "Cat3"
+  ]
 }

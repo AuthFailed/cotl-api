@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/CultLeader_3.png",
+  "id": "CultLeader_3",
+  "invariant": true,
+  "name": {
+    "en": "CultLeader 3"
+  },
+  "namePlain": {
+    "en": "CultLeader 3"
+  },
+  "thumb": "icons/skins/64/CultLeader_3.png",
+  "unlock": "Dungeon3",
+  "variants": [
+    "CultLeader 3"
+  ]
+}

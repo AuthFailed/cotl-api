@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Mole.png",
   "id": "Mole",
+  "invariant": false,
   "name": {
     "en": "Mole"
   },
@@ -11,5 +12,10 @@
     "en": "Mole"
   },
   "thumb": "icons/skins/64/Mole.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "Mole",
+    "Mole2",
+    "Mole3"
+  ]
 }

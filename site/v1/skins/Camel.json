@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Camel.png",
   "id": "Camel",
+  "invariant": false,
   "name": {
     "en": "Camel"
   },
@@ -11,5 +12,10 @@
     "en": "Camel"
   },
   "thumb": "icons/skins/64/Camel.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Camel",
+    "Camel2",
+    "Camel3"
+  ]
 }

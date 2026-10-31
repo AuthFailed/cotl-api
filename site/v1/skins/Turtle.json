@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Turtle.png",
   "id": "Turtle",
+  "invariant": false,
   "name": {
     "en": "Turtle"
   },
@@ -11,5 +12,10 @@
     "en": "Turtle"
   },
   "thumb": "icons/skins/64/Turtle.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Turtle",
+    "Turtle2",
+    "Turtle3"
+  ]
 }

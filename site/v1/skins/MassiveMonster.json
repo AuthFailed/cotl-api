@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/MassiveMonster.png",
   "id": "MassiveMonster",
+  "invariant": false,
   "name": {
     "en": "Massive Monster"
   },
@@ -11,5 +12,9 @@
     "en": "Massive Monster"
   },
   "thumb": "icons/skins/64/MassiveMonster.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "MassiveMonster",
+    "MassiveMonster2"
+  ]
 }

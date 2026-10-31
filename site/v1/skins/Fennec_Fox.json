@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Fennec_Fox.png",
   "id": "Fennec_Fox",
+  "invariant": false,
   "name": {
     "en": "Fennec Fox"
   },
@@ -11,5 +12,10 @@
     "en": "Fennec Fox"
   },
   "thumb": "icons/skins/64/Fennec_Fox.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Fennec Fox",
+    "Fennec Fox2",
+    "Fennec Fox3"
+  ]
 }

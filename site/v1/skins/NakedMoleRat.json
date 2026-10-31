@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/NakedMoleRat.png",
   "id": "NakedMoleRat",
+  "invariant": false,
   "name": {
     "en": "MoleRat"
   },
@@ -11,5 +12,10 @@
     "en": "MoleRat"
   },
   "thumb": "icons/skins/64/NakedMoleRat.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "NakedMoleRat",
+    "NakedMoleRat2",
+    "NakedMoleRat3"
+  ]
 }

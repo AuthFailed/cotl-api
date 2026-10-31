@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Moose.png",
   "id": "Moose",
+  "invariant": false,
   "name": {
     "en": "Moose"
   },
@@ -11,5 +12,10 @@
     "en": "Moose"
   },
   "thumb": "icons/skins/64/Moose.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Moose",
+    "Moose2",
+    "Moose3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Bear.png",
   "id": "Bear",
+  "invariant": false,
   "name": {
     "en": "Bear"
   },
@@ -11,5 +12,10 @@
     "en": "Bear"
   },
   "thumb": "icons/skins/64/Bear.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Bear",
+    "Bear2",
+    "Bear3"
+  ]
 }

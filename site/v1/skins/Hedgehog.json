@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Hedgehog.png",
   "id": "Hedgehog",
+  "invariant": false,
   "name": {
     "en": "Hedgehog"
   },
@@ -11,5 +12,10 @@
     "en": "Hedgehog"
   },
   "thumb": "icons/skins/64/Hedgehog.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Hedgehog",
+    "Hedgehog2",
+    "Hedgehog3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Dog_5.png",
   "id": "Boss_Dog_5",
+  "invariant": false,
   "name": {
     "en": "Boss Dog 5"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Dog 5"
   },
   "thumb": "icons/skins/64/Boss_Dog_5.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Boss Dog 5"
+  ]
 }

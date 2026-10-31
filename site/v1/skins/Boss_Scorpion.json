@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Scorpion.png",
   "id": "Boss_Scorpion",
+  "invariant": false,
   "name": {
     "en": "Boss Scorpion"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Scorpion"
   },
   "thumb": "icons/skins/64/Boss_Scorpion.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Boss Scorpion"
+  ]
 }

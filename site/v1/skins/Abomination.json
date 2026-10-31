@@ -1,0 +1,20 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Abomination.png",
+  "id": "Abomination",
+  "invariant": true,
+  "name": {
+    "en": "Abomination"
+  },
+  "namePlain": {
+    "en": "Abomination"
+  },
+  "thumb": "icons/skins/64/Abomination.png",
+  "unlock": "Other",
+  "variants": [
+    "Abomination",
+    "Abomination2"
+  ]
+}

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Tiger.png",
   "id": "Tiger",
+  "invariant": false,
   "name": {
     "en": "Tiger"
   },
@@ -11,5 +12,10 @@
     "en": "Tiger"
   },
   "thumb": "icons/skins/64/Tiger.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Tiger",
+    "Tiger2",
+    "Tiger3"
+  ]
 }

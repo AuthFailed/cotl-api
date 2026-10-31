@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Bat.png",
   "id": "Bat",
+  "invariant": false,
   "name": {
     "en": "Bat"
   },
@@ -11,5 +12,10 @@
     "en": "Bat"
   },
   "thumb": "icons/skins/64/Bat.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Bat",
+    "Bat2",
+    "Bat3"
+  ]
 }

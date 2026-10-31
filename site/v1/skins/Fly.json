@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Fly.png",
   "id": "Fly",
+  "invariant": false,
   "name": {
     "en": "Fly"
   },
@@ -11,5 +12,10 @@
     "en": "Fly"
   },
   "thumb": "icons/skins/64/Fly.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Fly",
+    "Fly2",
+    "Fly3"
+  ]
 }

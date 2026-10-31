@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Worm.png",
   "id": "Worm",
+  "invariant": false,
   "name": {
     "en": "Worm"
   },
@@ -11,5 +12,10 @@
     "en": "Worm"
   },
   "thumb": "icons/skins/64/Worm.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Worm",
+    "Worm2",
+    "Worm3"
+  ]
 }

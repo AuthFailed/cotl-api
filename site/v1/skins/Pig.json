@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Pig.png",
   "id": "Pig",
+  "invariant": false,
   "name": {
     "en": "Pig"
   },
@@ -11,5 +12,10 @@
     "en": "Pig"
   },
   "thumb": "icons/skins/64/Pig.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Pig",
+    "Pig2",
+    "Pig3"
+  ]
 }

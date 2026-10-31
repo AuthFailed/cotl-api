@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Seahorse.png",
   "id": "Seahorse",
+  "invariant": false,
   "name": {
     "en": "Seahorse"
   },
@@ -11,5 +12,10 @@
     "en": "Seahorse"
   },
   "thumb": "icons/skins/64/Seahorse.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Seahorse",
+    "Seahorse2",
+    "Seahorse3"
+  ]
 }

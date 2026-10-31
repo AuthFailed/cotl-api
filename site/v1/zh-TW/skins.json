@@ -1,5 +1,10 @@
 [
   {
+    "id": "Abomination",
+    "name": "Abomination",
+    "thumb": "icons/skins/64/Abomination.png"
+  },
+  {
     "id": "Anglerfish",
     "name": "Anglerfish",
     "thumb": "icons/skins/64/Anglerfish.png"
@@ -65,6 +70,16 @@
     "thumb": "icons/skins/64/Bison.png"
   },
   {
+    "id": "Boss_Aym",
+    "name": "Aym",
+    "thumb": "icons/skins/64/Boss_Aym.png"
+  },
+  {
+    "id": "Boss_Baal",
+    "name": "Baal",
+    "thumb": "icons/skins/64/Boss_Baal.png"
+  },
+  {
     "id": "Boss_Beholder_1",
     "name": "Boss Beholder 1",
     "thumb": "icons/skins/64/Boss_Beholder_1.png"
@@ -103,6 +118,11 @@
     "id": "Boss_Charger",
     "name": "Boss Charger",
     "thumb": "icons/skins/64/Boss_Charger.png"
+  },
+  {
+    "id": "Boss_Death_Cat",
+    "name": "Boss Death Cat",
+    "thumb": "icons/skins/64/Boss_Death_Cat.png"
   },
   {
     "id": "Boss_Dog_1",
@@ -295,6 +315,46 @@
     "thumb": "icons/skins/64/Cthulhu.png"
   },
   {
+    "id": "CultLeader_1",
+    "name": "CultLeader 1",
+    "thumb": "icons/skins/64/CultLeader_1.png"
+  },
+  {
+    "id": "CultLeader_1_Healed",
+    "name": "CultLeader 1 Healed",
+    "thumb": "icons/skins/64/CultLeader_1_Healed.png"
+  },
+  {
+    "id": "CultLeader_2",
+    "name": "CultLeader 2",
+    "thumb": "icons/skins/64/CultLeader_2.png"
+  },
+  {
+    "id": "CultLeader_2_Healed",
+    "name": "CultLeader 2 Healed",
+    "thumb": "icons/skins/64/CultLeader_2_Healed.png"
+  },
+  {
+    "id": "CultLeader_3",
+    "name": "CultLeader 3",
+    "thumb": "icons/skins/64/CultLeader_3.png"
+  },
+  {
+    "id": "CultLeader_3_Healed",
+    "name": "CultLeader 3 Healed",
+    "thumb": "icons/skins/64/CultLeader_3_Healed.png"
+  },
+  {
+    "id": "CultLeader_4",
+    "name": "CultLeader 4",
+    "thumb": "icons/skins/64/CultLeader_4.png"
+  },
+  {
+    "id": "CultLeader_4_Healed",
+    "name": "CultLeader 4 Healed",
+    "thumb": "icons/skins/64/CultLeader_4_Healed.png"
+  },
+  {
     "id": "Deer",
     "name": "Deer",
     "thumb": "icons/skins/64/Deer.png"
@@ -363,6 +423,11 @@
     "id": "Enchida",
     "name": "Enchida",
     "thumb": "icons/skins/64/Enchida.png"
+  },
+  {
+    "id": "Executioner",
+    "name": "Executioner",
+    "thumb": "icons/skins/64/Executioner.png"
   },
   {
     "id": "Fennec_Fox",
@@ -445,6 +510,11 @@
     "thumb": "icons/skins/64/Jackalope.png"
   },
   {
+    "id": "Jalala",
+    "name": "Jalala",
+    "thumb": "icons/skins/64/Jalala.png"
+  },
+  {
     "id": "Jellyfish",
     "name": "JellyFish",
     "thumb": "icons/skins/64/Jellyfish.png"
@@ -525,6 +595,11 @@
     "thumb": "icons/skins/64/MassiveMonster.png"
   },
   {
+    "id": "Midas",
+    "name": "Midas",
+    "thumb": "icons/skins/64/Midas.png"
+  },
+  {
     "id": "Mole",
     "name": "Mole",
     "thumb": "icons/skins/64/Mole.png"
@@ -558,6 +633,11 @@
     "id": "NakedMoleRat",
     "name": "MoleRat",
     "thumb": "icons/skins/64/NakedMoleRat.png"
+  },
+  {
+    "id": "Narayana",
+    "name": "Narayana",
+    "thumb": "icons/skins/64/Narayana.png"
   },
   {
     "id": "Narwal",
@@ -690,6 +770,11 @@
     "thumb": "icons/skins/64/Rhino.png"
   },
   {
+    "id": "Rinor",
+    "name": "Rinor",
+    "thumb": "icons/skins/64/Rinor.png"
+  },
+  {
     "id": "Robin",
     "name": "Apple_2",
     "thumb": "icons/skins/64/Robin.png"
@@ -738,6 +823,26 @@
     "id": "SnowMonkey",
     "name": "SnowMonkey",
     "thumb": "icons/skins/64/SnowMonkey.png"
+  },
+  {
+    "id": "Snowman_Good_1",
+    "name": "Snowman1",
+    "thumb": "icons/skins/64/Snowman_Good_1.png"
+  },
+  {
+    "id": "Snowman_Good_2",
+    "name": "Snowman2",
+    "thumb": "icons/skins/64/Snowman_Good_2.png"
+  },
+  {
+    "id": "Snowman_Good_3",
+    "name": "Snowman3",
+    "thumb": "icons/skins/64/Snowman_Good_3.png"
+  },
+  {
+    "id": "Sozo",
+    "name": "Sozo",
+    "thumb": "icons/skins/64/Sozo.png"
   },
   {
     "id": "Sphynx",
@@ -833,5 +938,10 @@
     "id": "Worm",
     "name": "Worm",
     "thumb": "icons/skins/64/Worm.png"
+  },
+  {
+    "id": "Yngya",
+    "name": "Yngya",
+    "thumb": "icons/skins/64/Yngya.png"
   }
 ]

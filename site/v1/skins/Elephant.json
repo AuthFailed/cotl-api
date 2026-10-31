@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Elephant.png",
   "id": "Elephant",
+  "invariant": false,
   "name": {
     "en": "Elephant"
   },
@@ -11,5 +12,10 @@
     "en": "Elephant"
   },
   "thumb": "icons/skins/64/Elephant.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Elephant",
+    "Elephant2",
+    "Elephant3"
+  ]
 }

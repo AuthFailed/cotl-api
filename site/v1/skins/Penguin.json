@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Penguin.png",
   "id": "Penguin",
+  "invariant": false,
   "name": {
     "en": "Penguin"
   },
@@ -11,5 +12,10 @@
     "en": "Penguin"
   },
   "thumb": "icons/skins/64/Penguin.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Penguin",
+    "Penguin2",
+    "Penguin3"
+  ]
 }

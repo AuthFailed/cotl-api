@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Deer_ritual.png",
   "id": "Deer_ritual",
+  "invariant": false,
   "name": {
     "en": "DeerRitual"
   },
@@ -11,5 +12,10 @@
     "en": "DeerRitual"
   },
   "thumb": "icons/skins/64/Deer_ritual.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Deer_ritual",
+    "Deer_ritual2",
+    "Deer_ritual3"
+  ]
 }

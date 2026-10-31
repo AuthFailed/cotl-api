@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Hammerhead.png",
   "id": "Hammerhead",
+  "invariant": false,
   "name": {
     "en": "Hammerhead"
   },
@@ -11,5 +12,10 @@
     "en": "Hammerhead"
   },
   "thumb": "icons/skins/64/Hammerhead.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Hammerhead",
+    "Hammerhead2",
+    "Hammerhead3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Otter.png",
   "id": "Otter",
+  "invariant": false,
   "name": {
     "en": "Otter"
   },
@@ -11,5 +12,10 @@
     "en": "Otter"
   },
   "thumb": "icons/skins/64/Otter.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Otter",
+    "Otter2",
+    "Otter3"
+  ]
 }

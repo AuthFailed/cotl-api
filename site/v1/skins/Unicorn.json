@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Unicorn.png",
   "id": "Unicorn",
+  "invariant": false,
   "name": {
     "en": "Unicorn"
   },
@@ -11,5 +12,10 @@
     "en": "Unicorn"
   },
   "thumb": "icons/skins/64/Unicorn.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Unicorn",
+    "Unicorn2",
+    "Unicorn3"
+  ]
 }

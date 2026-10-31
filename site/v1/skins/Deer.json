@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Deer.png",
   "id": "Deer",
+  "invariant": false,
   "name": {
     "en": "Deer"
   },
@@ -11,5 +12,10 @@
     "en": "Deer"
   },
   "thumb": "icons/skins/64/Deer.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Deer",
+    "Deer2",
+    "Deer3"
+  ]
 }

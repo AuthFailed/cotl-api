@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Boss_Aym.png",
+  "id": "Boss_Aym",
+  "invariant": true,
+  "name": {
+    "en": "Aym"
+  },
+  "namePlain": {
+    "en": "Aym"
+  },
+  "thumb": "icons/skins/64/Boss_Aym.png",
+  "unlock": "Other",
+  "variants": [
+    "Boss Aym"
+  ]
+}

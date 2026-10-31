@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Capybara.png",
   "id": "Capybara",
+  "invariant": false,
   "name": {
     "en": "Capybara"
   },
@@ -11,5 +12,10 @@
     "en": "Capybara"
   },
   "thumb": "icons/skins/64/Capybara.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Capybara",
+    "Capybara2",
+    "Capybara3"
+  ]
 }

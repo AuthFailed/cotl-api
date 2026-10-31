@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/TwitchPoggers.png",
   "id": "TwitchPoggers",
+  "invariant": false,
   "name": {
     "en": "TwitchPoggers"
   },
@@ -11,5 +12,8 @@
     "en": "TwitchPoggers"
   },
   "thumb": "icons/skins/64/TwitchPoggers.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "TwitchPoggers"
+  ]
 }

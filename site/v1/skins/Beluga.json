@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Beluga.png",
   "id": "Beluga",
+  "invariant": false,
   "name": {
     "en": "Beluga"
   },
@@ -11,5 +12,10 @@
     "en": "Beluga"
   },
   "thumb": "icons/skins/64/Beluga.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Beluga",
+    "Beluga2",
+    "Beluga3"
+  ]
 }

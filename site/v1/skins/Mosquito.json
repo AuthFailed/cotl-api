@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Mosquito.png",
   "id": "Mosquito",
+  "invariant": false,
   "name": {
     "en": "Mosquito"
   },
@@ -11,5 +12,10 @@
     "en": "Mosquito"
   },
   "thumb": "icons/skins/64/Mosquito.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Mosquito",
+    "Mosquito2",
+    "Mosquito3"
+  ]
 }

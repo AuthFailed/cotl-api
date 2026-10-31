@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Reindeer.png",
   "id": "Reindeer",
+  "invariant": false,
   "name": {
     "en": "Reindeer"
   },
@@ -11,5 +12,10 @@
     "en": "Reindeer"
   },
   "thumb": "icons/skins/64/Reindeer.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Reindeer",
+    "Reindeer2",
+    "Reindeer3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/StarBunny.png",
   "id": "StarBunny",
+  "invariant": false,
   "name": {
     "en": "StarBunny"
   },
@@ -11,5 +12,8 @@
     "en": "StarBunny"
   },
   "thumb": "icons/skins/64/StarBunny.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "StarBunny"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Owl.png",
   "id": "Owl",
+  "invariant": false,
   "name": {
     "en": "Owl"
   },
@@ -11,5 +12,10 @@
     "en": "Owl"
   },
   "thumb": "icons/skins/64/Owl.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Owl",
+    "Owl2",
+    "Owl3"
+  ]
 }

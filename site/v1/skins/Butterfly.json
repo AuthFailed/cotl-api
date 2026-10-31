@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Butterfly.png",
   "id": "Butterfly",
+  "invariant": false,
   "name": {
     "en": "Butterfly"
   },
@@ -11,5 +12,10 @@
     "en": "Butterfly"
   },
   "thumb": "icons/skins/64/Butterfly.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Butterfly",
+    "Butterfly2",
+    "Butterfly3"
+  ]
 }

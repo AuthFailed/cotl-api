@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/SnowMonkey.png",
   "id": "SnowMonkey",
+  "invariant": false,
   "name": {
     "en": "SnowMonkey"
   },
@@ -11,5 +12,10 @@
     "en": "SnowMonkey"
   },
   "thumb": "icons/skins/64/SnowMonkey.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "SnowMonkey",
+    "SnowMonkey2",
+    "SnowMonkey3"
+  ]
 }

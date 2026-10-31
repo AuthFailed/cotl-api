@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Webber.png",
   "id": "Webber",
+  "invariant": false,
   "name": {
     "en": "Webber"
   },
@@ -11,5 +12,10 @@
     "en": "Webber"
   },
   "thumb": "icons/skins/64/Webber.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "Webber",
+    "Webber2",
+    "Webber3"
+  ]
 }

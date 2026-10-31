@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Moth.png",
   "id": "Moth",
+  "invariant": false,
   "name": {
     "en": "Moth"
   },
@@ -11,5 +12,10 @@
     "en": "Moth"
   },
   "thumb": "icons/skins/64/Moth.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Moth",
+    "Moth2",
+    "Moth3"
+  ]
 }

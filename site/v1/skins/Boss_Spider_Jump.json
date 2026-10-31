@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Spider_Jump.png",
   "id": "Boss_Spider_Jump",
+  "invariant": false,
   "name": {
     "en": "Boss Spider Jump"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Spider Jump"
   },
   "thumb": "icons/skins/64/Boss_Spider_Jump.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Boss Spider Jump"
+  ]
 }

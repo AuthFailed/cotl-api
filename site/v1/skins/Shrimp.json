@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Shrimp.png",
   "id": "Shrimp",
+  "invariant": false,
   "name": {
     "en": "Shrimp"
   },
@@ -11,5 +12,10 @@
     "en": "Shrimp"
   },
   "thumb": "icons/skins/64/Shrimp.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Shrimp",
+    "Shrimp2",
+    "Shrimp3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Red_Panda.png",
   "id": "Red_Panda",
+  "invariant": false,
   "name": {
     "en": "Red Panda"
   },
@@ -11,5 +12,10 @@
     "en": "Red Panda"
   },
   "thumb": "icons/skins/64/Red_Panda.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Red Panda",
+    "Red Panda2",
+    "Red Panda3"
+  ]
 }

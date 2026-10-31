@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Lemur.png",
   "id": "Lemur",
+  "invariant": false,
   "name": {
     "en": "Lemur"
   },
@@ -11,5 +12,10 @@
     "en": "Lemur"
   },
   "thumb": "icons/skins/64/Lemur.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Lemur",
+    "Lemur2",
+    "Lemur3"
+  ]
 }

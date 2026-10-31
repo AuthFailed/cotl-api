@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Squirrel.png",
   "id": "Squirrel",
+  "invariant": false,
   "name": {
     "en": "Squirrel"
   },
@@ -11,5 +12,10 @@
     "en": "Squirrel"
   },
   "thumb": "icons/skins/64/Squirrel.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Squirrel",
+    "Squirrel2",
+    "Squirrel3"
+  ]
 }

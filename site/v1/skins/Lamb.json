@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Lamb.png",
   "id": "Lamb",
+  "invariant": false,
   "name": {
     "en": "Lamb"
   },
@@ -11,5 +12,12 @@
     "en": "Lamb"
   },
   "thumb": "icons/skins/64/Lamb.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Lamb",
+    "Lamb2",
+    "Lamb3",
+    "Lamb4",
+    "Lamb5"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Rabbit.png",
   "id": "Rabbit",
+  "invariant": false,
   "name": {
     "en": "Rabbit"
   },
@@ -11,5 +12,10 @@
     "en": "Rabbit"
   },
   "thumb": "icons/skins/64/Rabbit.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Rabbit",
+    "Rabbit2",
+    "Rabbit3"
+  ]
 }

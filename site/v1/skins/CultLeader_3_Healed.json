@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/CultLeader_3_Healed.png",
+  "id": "CultLeader_3_Healed",
+  "invariant": true,
+  "name": {
+    "en": "CultLeader 3 Healed"
+  },
+  "namePlain": {
+    "en": "CultLeader 3 Healed"
+  },
+  "thumb": "icons/skins/64/CultLeader_3_Healed.png",
+  "unlock": "Dungeon1",
+  "variants": [
+    "CultLeader 3 Healed"
+  ]
+}

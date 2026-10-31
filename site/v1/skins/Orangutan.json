@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Orangutan.png",
   "id": "Orangutan",
+  "invariant": false,
   "name": {
     "en": "Apple_1"
   },
@@ -11,5 +12,10 @@
     "en": "Apple_1"
   },
   "thumb": "icons/skins/64/Orangutan.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Orangutan",
+    "Orangutan2",
+    "Orangutan3"
+  ]
 }

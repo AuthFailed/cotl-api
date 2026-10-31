@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Fish.png",
   "id": "Fish",
+  "invariant": false,
   "name": {
     "en": "Fish"
   },
@@ -11,5 +12,10 @@
     "en": "Fish"
   },
   "thumb": "icons/skins/64/Fish.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Fish",
+    "Fish2",
+    "Fish3"
+  ]
 }

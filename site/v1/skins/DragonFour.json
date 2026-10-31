@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/DragonFour.png",
   "id": "DragonFour",
+  "invariant": false,
   "name": {
     "en": "DragonFour"
   },
@@ -11,5 +12,10 @@
     "en": "DragonFour"
   },
   "thumb": "icons/skins/64/DragonFour.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "DragonFour",
+    "DragonFour2",
+    "DragonFour3"
+  ]
 }
