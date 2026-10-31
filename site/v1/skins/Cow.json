@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Cow.png",
   "id": "Cow",
+  "invariant": false,
   "name": {
     "en": "Cow"
   },
@@ -11,5 +12,10 @@
     "en": "Cow"
   },
   "thumb": "icons/skins/64/Cow.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Cow",
+    "Cow2",
+    "Cow3"
+  ]
 }

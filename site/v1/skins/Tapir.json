@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Tapir.png",
   "id": "Tapir",
+  "invariant": false,
   "name": {
     "en": "Tapir"
   },
@@ -11,5 +12,10 @@
     "en": "Tapir"
   },
   "thumb": "icons/skins/64/Tapir.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Tapir",
+    "Tapir2",
+    "Tapir3"
+  ]
 }

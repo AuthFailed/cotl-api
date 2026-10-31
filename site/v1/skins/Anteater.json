@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Anteater.png",
   "id": "Anteater",
+  "invariant": false,
   "name": {
     "en": "Anteater"
   },
@@ -11,5 +12,10 @@
     "en": "Anteater"
   },
   "thumb": "icons/skins/64/Anteater.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Anteater",
+    "Anteater2",
+    "Anteater3"
+  ]
 }

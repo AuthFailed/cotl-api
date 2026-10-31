@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Jellyfish.png",
   "id": "Jellyfish",
+  "invariant": false,
   "name": {
     "en": "JellyFish"
   },
@@ -11,5 +12,10 @@
     "en": "JellyFish"
   },
   "thumb": "icons/skins/64/Jellyfish.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Jellyfish",
+    "Jellyfish2",
+    "Jellyfish3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Pudding.png",
   "id": "Pudding",
+  "invariant": false,
   "name": {
     "en": "Pudding"
   },
@@ -11,5 +12,8 @@
     "en": "Pudding"
   },
   "thumb": "icons/skins/64/Pudding.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Pudding"
+  ]
 }

@@ -56,7 +56,8 @@ the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb`
   `Faith/Sin`, `Aesthetic/Path`, or null), `buildable` (in the build menu), `category` (the game's structure
   category, `FOOD`, `FAITH`, …, for buildable ones, else null)
 - **skin**: `unlock` (where the game drops it: `Dungeon1`…`Dungeon6`, `Other`, `DLC`, `SpecialEvents`,
-  `Major_DLC`), `hidden` (the game hides it until unlocked). Skins only have English names, as in the game.
+  `Major_DLC`), `hidden` (the game hides it until unlocked), `invariant` (bosses, cult leaders and other forms the game
+  never offers as an unlock), `variants` (every Spine skin name of the form, as a save's `SkinName` stores it). Skins only have English names, as in the game.
 
 - **ritual**: `cost`, `faith`, `warmth`, `sin` (what performing it changes; faith is the base value, before
   cult traits), `trait` (cult trait it can give, or null), `group` (`secondary`, `pair`, `single`, `special`, as

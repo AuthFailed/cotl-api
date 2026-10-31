@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Midas.png",
+  "id": "Midas",
+  "invariant": true,
+  "name": {
+    "en": "Midas"
+  },
+  "namePlain": {
+    "en": "Midas"
+  },
+  "thumb": "icons/skins/64/Midas.png",
+  "unlock": "Major_DLC",
+  "variants": [
+    "Midas"
+  ]
+}

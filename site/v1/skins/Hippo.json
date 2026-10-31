@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Hippo.png",
   "id": "Hippo",
+  "invariant": false,
   "name": {
     "en": "Hippo"
   },
@@ -11,5 +12,10 @@
     "en": "Hippo"
   },
   "thumb": "icons/skins/64/Hippo.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Hippo",
+    "Hippo2",
+    "Hippo3"
+  ]
 }

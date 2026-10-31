@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Llama.png",
   "id": "Llama",
+  "invariant": false,
   "name": {
     "en": "Llama"
   },
@@ -11,5 +12,10 @@
     "en": "Llama"
   },
   "thumb": "icons/skins/64/Llama.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Llama",
+    "Llama2",
+    "Llama3"
+  ]
 }

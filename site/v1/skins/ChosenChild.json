@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/ChosenChild.png",
   "id": "ChosenChild",
+  "invariant": false,
   "name": {
     "en": "ChosenChild"
   },
@@ -11,5 +12,8 @@
     "en": "ChosenChild"
   },
   "thumb": "icons/skins/64/ChosenChild.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "ChosenChild"
+  ]
 }

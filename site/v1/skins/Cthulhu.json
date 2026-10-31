@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Cthulhu.png",
   "id": "Cthulhu",
+  "invariant": false,
   "name": {
     "en": "Cthulhu"
   },
@@ -11,5 +12,10 @@
     "en": "Cthulhu"
   },
   "thumb": "icons/skins/64/Cthulhu.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Cthulhu",
+    "Cthulhu2",
+    "Cthulhu3"
+  ]
 }

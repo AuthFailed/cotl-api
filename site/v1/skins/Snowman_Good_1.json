@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Snowman_Good_1.png",
+  "id": "Snowman_Good_1",
+  "invariant": true,
+  "name": {
+    "en": "Snowman1"
+  },
+  "namePlain": {
+    "en": "Snowman1"
+  },
+  "thumb": "icons/skins/64/Snowman_Good_1.png",
+  "unlock": "Major_DLC",
+  "variants": [
+    "Snowman/Good_1"
+  ]
+}

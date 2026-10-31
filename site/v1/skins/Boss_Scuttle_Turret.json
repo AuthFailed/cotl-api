@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Scuttle_Turret.png",
   "id": "Boss_Scuttle_Turret",
+  "invariant": false,
   "name": {
     "en": "Boss Scuttle Turret"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Scuttle Turret"
   },
   "thumb": "icons/skins/64/Boss_Scuttle_Turret.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Boss Scuttle Turret"
+  ]
 }

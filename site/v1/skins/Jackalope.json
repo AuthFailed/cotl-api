@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Jackalope.png",
   "id": "Jackalope",
+  "invariant": false,
   "name": {
     "en": "Jackalope"
   },
@@ -11,5 +12,10 @@
     "en": "Jackalope"
   },
   "thumb": "icons/skins/64/Jackalope.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Jackalope",
+    "Jackalope2",
+    "Jackalope3"
+  ]
 }

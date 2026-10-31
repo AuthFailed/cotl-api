@@ -86,6 +86,11 @@ class PackTest(unittest.TestCase):
         self.assertTrue((self.site / "v1" / "save-schema" / "1.4.6.json").exists())
         self.assertEqual(json.loads((self.site / "v1" / "index.json").read_text())["saveSchemas"], ["1.4.6", "1.4.10"])
 
+    def test_skins_publish_invariant_forms_and_variants(self):
+        self.pack()
+        boss = json.loads((self.site / "v1" / "skins" / "Boss_Death_Cat.json").read_text())
+        self.assertEqual((boss["invariant"], boss["variants"]), (True, ["Boss Death Cat"]))
+
     def test_plain_text_drops_markup(self):
         self.pack()
         stone = self.item("STONE")

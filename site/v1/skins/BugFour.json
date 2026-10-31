@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/BugFour.png",
   "id": "BugFour",
+  "invariant": false,
   "name": {
     "en": "BugFour"
   },
@@ -11,5 +12,10 @@
     "en": "BugFour"
   },
   "thumb": "icons/skins/64/BugFour.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "BugFour",
+    "BugFour2",
+    "BugFour3"
+  ]
 }

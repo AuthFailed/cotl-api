@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Boss_Baal.png",
+  "id": "Boss_Baal",
+  "invariant": true,
+  "name": {
+    "en": "Baal"
+  },
+  "namePlain": {
+    "en": "Baal"
+  },
+  "thumb": "icons/skins/64/Boss_Baal.png",
+  "unlock": "Other",
+  "variants": [
+    "Boss Baal"
+  ]
+}

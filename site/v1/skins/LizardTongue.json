@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/LizardTongue.png",
   "id": "LizardTongue",
+  "invariant": false,
   "name": {
     "en": "LizardTongue"
   },
@@ -11,5 +12,10 @@
     "en": "LizardTongue"
   },
   "thumb": "icons/skins/64/LizardTongue.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "LizardTongue",
+    "LizardTongue2",
+    "LizardTongue3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Skunk.png",
   "id": "Skunk",
+  "invariant": false,
   "name": {
     "en": "Skunk"
   },
@@ -11,5 +12,10 @@
     "en": "Skunk"
   },
   "thumb": "icons/skins/64/Skunk.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Skunk",
+    "Skunk2",
+    "Skunk3"
+  ]
 }

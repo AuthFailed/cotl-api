@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Goldfish.png",
   "id": "Goldfish",
+  "invariant": false,
   "name": {
     "en": "Goldfish"
   },
@@ -11,5 +12,10 @@
     "en": "Goldfish"
   },
   "thumb": "icons/skins/64/Goldfish.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Goldfish",
+    "Goldfish2",
+    "Goldfish3"
+  ]
 }

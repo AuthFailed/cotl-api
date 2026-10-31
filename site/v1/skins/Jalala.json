@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": false,
+  "icon": "icons/skins/Jalala.png",
+  "id": "Jalala",
+  "invariant": true,
+  "name": {
+    "en": "Jalala"
+  },
+  "namePlain": {
+    "en": "Jalala"
+  },
+  "thumb": "icons/skins/64/Jalala.png",
+  "unlock": "DLC",
+  "variants": [
+    "Jalala"
+  ]
+}

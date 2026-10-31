@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/CultLeader_4.png",
+  "id": "CultLeader_4",
+  "invariant": true,
+  "name": {
+    "en": "CultLeader 4"
+  },
+  "namePlain": {
+    "en": "CultLeader 4"
+  },
+  "thumb": "icons/skins/64/CultLeader_4.png",
+  "unlock": "Dungeon4",
+  "variants": [
+    "CultLeader 4"
+  ]
+}

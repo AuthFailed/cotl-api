@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Bee.png",
   "id": "Bee",
+  "invariant": false,
   "name": {
     "en": "Bee"
   },
@@ -11,5 +12,10 @@
     "en": "Bee"
   },
   "thumb": "icons/skins/64/Bee.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Bee",
+    "Bee2",
+    "Bee3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Snake.png",
   "id": "Snake",
+  "invariant": false,
   "name": {
     "en": "Snake"
   },
@@ -11,5 +12,10 @@
     "en": "Snake"
   },
   "thumb": "icons/skins/64/Snake.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Snake",
+    "Snake2",
+    "Snake3"
+  ]
 }

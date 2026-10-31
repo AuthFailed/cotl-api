@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Mama_Maggot.png",
   "id": "Boss_Mama_Maggot",
+  "invariant": false,
   "name": {
     "en": "Boss Mama Maggot"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Mama Maggot"
   },
   "thumb": "icons/skins/64/Boss_Mama_Maggot.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Boss Mama Maggot"
+  ]
 }

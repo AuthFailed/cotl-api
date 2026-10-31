@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Poppy.png",
   "id": "Poppy",
+  "invariant": false,
   "name": {
     "en": "Poppy"
   },
@@ -11,5 +12,10 @@
     "en": "Poppy"
   },
   "thumb": "icons/skins/64/Poppy.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Poppy",
+    "Poppy2",
+    "Poppy3"
+  ]
 }

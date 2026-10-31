@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": null,
   "id": "Deer",
+  "invariant": false,
   "name": {
     "en": "Deer"
   },
@@ -11,5 +12,8 @@
     "en": "Deer"
   },
   "thumb": null,
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Deer"
+  ]
 }

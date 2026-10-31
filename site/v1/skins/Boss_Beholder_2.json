@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Beholder_2.png",
   "id": "Boss_Beholder_2",
+  "invariant": false,
   "name": {
     "en": "Boss Beholder 2"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Beholder 2"
   },
   "thumb": "icons/skins/64/Boss_Beholder_2.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Boss Beholder 2"
+  ]
 }

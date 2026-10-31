@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": null,
+  "id": "Boss_Death_Cat",
+  "invariant": true,
+  "name": {
+    "en": "The One Who Waits"
+  },
+  "namePlain": {
+    "en": "The One Who Waits"
+  },
+  "thumb": null,
+  "unlock": "Other",
+  "variants": [
+    "Boss Death Cat"
+  ]
+}

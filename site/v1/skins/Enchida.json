@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Enchida.png",
   "id": "Enchida",
+  "invariant": false,
   "name": {
     "en": "Enchida"
   },
@@ -11,5 +12,10 @@
     "en": "Enchida"
   },
   "thumb": "icons/skins/64/Enchida.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Enchida",
+    "Enchida2",
+    "Enchida3"
+  ]
 }

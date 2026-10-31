@@ -2,9 +2,29 @@
   {
     "description": {},
     "descriptionPlain": {},
+    "hidden": true,
+    "icon": null,
+    "id": "Boss_Death_Cat",
+    "invariant": true,
+    "name": {
+      "en": "The One Who Waits"
+    },
+    "namePlain": {
+      "en": "The One Who Waits"
+    },
+    "thumb": null,
+    "unlock": "Other",
+    "variants": [
+      "Boss Death Cat"
+    ]
+  },
+  {
+    "description": {},
+    "descriptionPlain": {},
     "hidden": false,
     "icon": null,
     "id": "Cat",
+    "invariant": false,
     "name": {
       "en": "Cat"
     },
@@ -12,7 +32,10 @@
       "en": "Cat"
     },
     "thumb": null,
-    "unlock": "Other"
+    "unlock": "Other",
+    "variants": [
+      "Cat"
+    ]
   },
   {
     "description": {},
@@ -20,6 +43,7 @@
     "hidden": true,
     "icon": null,
     "id": "Deer",
+    "invariant": false,
     "name": {
       "en": "Deer"
     },
@@ -27,6 +51,9 @@
       "en": "Deer"
     },
     "thumb": null,
-    "unlock": "Dungeon1"
+    "unlock": "Dungeon1",
+    "variants": [
+      "Deer"
+    ]
   }
 ]

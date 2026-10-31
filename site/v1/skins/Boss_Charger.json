@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Charger.png",
   "id": "Boss_Charger",
+  "invariant": false,
   "name": {
     "en": "Boss Charger"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Charger"
   },
   "thumb": "icons/skins/64/Boss_Charger.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Boss Charger"
+  ]
 }

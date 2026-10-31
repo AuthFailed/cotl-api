@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Narayana.png",
+  "id": "Narayana",
+  "invariant": true,
+  "name": {
+    "en": "Narayana"
+  },
+  "namePlain": {
+    "en": "Narayana"
+  },
+  "thumb": "icons/skins/64/Narayana.png",
+  "unlock": "Major_DLC",
+  "variants": [
+    "Narayana"
+  ]
+}

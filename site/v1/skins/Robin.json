@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Robin.png",
   "id": "Robin",
+  "invariant": false,
   "name": {
     "en": "Apple_2"
   },
@@ -11,5 +12,10 @@
     "en": "Apple_2"
   },
   "thumb": "icons/skins/64/Robin.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Robin",
+    "Robin2",
+    "Robin3"
+  ]
 }

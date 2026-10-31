@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Shrew.png",
   "id": "Shrew",
+  "invariant": false,
   "name": {
     "en": "Shrew"
   },
@@ -11,5 +12,10 @@
     "en": "Shrew"
   },
   "thumb": "icons/skins/64/Shrew.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Shrew",
+    "Shrew2",
+    "Shrew3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/TwitchMouse.png",
   "id": "TwitchMouse",
+  "invariant": false,
   "name": {
     "en": "TwitchMouse"
   },
@@ -11,5 +12,10 @@
     "en": "TwitchMouse"
   },
   "thumb": "icons/skins/64/TwitchMouse.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "TwitchMouse",
+    "TwitchMouse2",
+    "TwitchMouse3"
+  ]
 }

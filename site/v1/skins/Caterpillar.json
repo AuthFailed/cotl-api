@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Caterpillar.png",
   "id": "Caterpillar",
+  "invariant": false,
   "name": {
     "en": "Caterpillar"
   },
@@ -11,5 +12,10 @@
     "en": "Caterpillar"
   },
   "thumb": "icons/skins/64/Caterpillar.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Caterpillar",
+    "Caterpillar2",
+    "Caterpillar3"
+  ]
 }

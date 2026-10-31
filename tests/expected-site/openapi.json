@@ -1498,6 +1498,10 @@
             "pattern": "^[A-Za-z0-9_-]+$",
             "type": "string"
           },
+          "invariant": {
+            "description": "The game marks the form invariant: bosses, cult leaders and other forms it never offers as an unlock",
+            "type": "boolean"
+          },
           "name": {
             "additionalProperties": {
               "minLength": 1,
@@ -1528,6 +1532,13 @@
               "string",
               "null"
             ]
+          },
+          "variants": {
+            "description": "Every Spine skin name of the form, as a save's FollowerInfo.SkinName stores it",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
           }
         },
         "required": [
@@ -2707,7 +2718,7 @@
                     "relics": 1,
                     "rituals": 2,
                     "sermons": 1,
-                    "skins": 2,
+                    "skins": 3,
                     "structures": 2,
                     "tarot": 2,
                     "traits": 1,
@@ -3490,32 +3501,40 @@
                   {
                     "description": {},
                     "descriptionPlain": {},
-                    "hidden": false,
+                    "hidden": true,
                     "icon": null,
-                    "id": "Cat",
+                    "id": "Boss_Death_Cat",
+                    "invariant": true,
                     "name": {
-                      "en": "Cat"
+                      "en": "The One Who Waits"
                     },
                     "namePlain": {
-                      "en": "Cat"
+                      "en": "The One Who Waits"
                     },
                     "thumb": null,
-                    "unlock": "Other"
+                    "unlock": "Other",
+                    "variants": [
+                      "Boss Death Cat"
+                    ]
                   },
                   {
                     "description": {},
                     "descriptionPlain": {},
-                    "hidden": true,
+                    "hidden": false,
                     "icon": null,
-                    "id": "Deer",
+                    "id": "Cat",
+                    "invariant": false,
                     "name": {
-                      "en": "Deer"
+                      "en": "Cat"
                     },
                     "namePlain": {
-                      "en": "Deer"
+                      "en": "Cat"
                     },
                     "thumb": null,
-                    "unlock": "Dungeon1"
+                    "unlock": "Other",
+                    "variants": [
+                      "Cat"
+                    ]
                   }
                 ],
                 "schema": {
@@ -3547,6 +3566,7 @@
             "required": true,
             "schema": {
               "enum": [
+                "Boss_Death_Cat",
                 "Cat",
                 "Deer"
               ],
@@ -3561,17 +3581,21 @@
                 "example": {
                   "description": {},
                   "descriptionPlain": {},
-                  "hidden": false,
+                  "hidden": true,
                   "icon": null,
-                  "id": "Cat",
+                  "id": "Boss_Death_Cat",
+                  "invariant": true,
                   "name": {
-                    "en": "Cat"
+                    "en": "The One Who Waits"
                   },
                   "namePlain": {
-                    "en": "Cat"
+                    "en": "The One Who Waits"
                   },
                   "thumb": null,
-                  "unlock": "Other"
+                  "unlock": "Other",
+                  "variants": [
+                    "Boss Death Cat"
+                  ]
                 },
                 "schema": {
                   "$ref": "#/components/schemas/Skin"

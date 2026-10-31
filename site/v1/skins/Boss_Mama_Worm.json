@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Mama_Worm.png",
   "id": "Boss_Mama_Worm",
+  "invariant": false,
   "name": {
     "en": "Boss Mama Worm"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Mama Worm"
   },
   "thumb": "icons/skins/64/Boss_Mama_Worm.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Boss Mama Worm"
+  ]
 }

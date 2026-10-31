@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Lizard.png",
   "id": "Lizard",
+  "invariant": false,
   "name": {
     "en": "Lizard"
   },
@@ -11,5 +12,10 @@
     "en": "Lizard"
   },
   "thumb": "icons/skins/64/Lizard.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Lizard",
+    "Lizard2",
+    "Lizard3"
+  ]
 }

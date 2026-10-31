@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Mushroom.png",
   "id": "Mushroom",
+  "invariant": false,
   "name": {
     "en": "Mushroom"
   },
@@ -11,5 +12,8 @@
     "en": "Mushroom"
   },
   "thumb": "icons/skins/64/Mushroom.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Mushroom"
+  ]
 }

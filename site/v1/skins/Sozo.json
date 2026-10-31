@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Sozo.png",
+  "id": "Sozo",
+  "invariant": true,
+  "name": {
+    "en": "Sozo"
+  },
+  "namePlain": {
+    "en": "Sozo"
+  },
+  "thumb": "icons/skins/64/Sozo.png",
+  "unlock": "Other",
+  "variants": [
+    "Sozo"
+  ]
+}

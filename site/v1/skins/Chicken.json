@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Chicken.png",
   "id": "Chicken",
+  "invariant": false,
   "name": {
     "en": "Chicken"
   },
@@ -11,5 +12,10 @@
     "en": "Chicken"
   },
   "thumb": "icons/skins/64/Chicken.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Chicken",
+    "Chicken2",
+    "Chicken3"
+  ]
 }

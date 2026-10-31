@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/TwitchDog.png",
   "id": "TwitchDog",
+  "invariant": false,
   "name": {
     "en": "TwitchDog"
   },
@@ -11,5 +12,8 @@
     "en": "TwitchDog"
   },
   "thumb": "icons/skins/64/TwitchDog.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "TwitchDog"
+  ]
 }

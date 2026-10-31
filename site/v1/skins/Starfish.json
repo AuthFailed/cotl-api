@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Starfish.png",
   "id": "Starfish",
+  "invariant": false,
   "name": {
     "en": "Starfish"
   },
@@ -11,5 +12,10 @@
     "en": "Starfish"
   },
   "thumb": "icons/skins/64/Starfish.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Starfish",
+    "Starfish2",
+    "Starfish3"
+  ]
 }

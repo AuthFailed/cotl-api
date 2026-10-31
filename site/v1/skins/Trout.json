@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Trout.png",
   "id": "Trout",
+  "invariant": false,
   "name": {
     "en": "Apple_3"
   },
@@ -11,5 +12,10 @@
     "en": "Apple_3"
   },
   "thumb": "icons/skins/64/Trout.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Trout",
+    "Trout2",
+    "Trout3"
+  ]
 }

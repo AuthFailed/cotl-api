@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/TwitchCat.png",
   "id": "TwitchCat",
+  "invariant": false,
   "name": {
     "en": "TwitchCat"
   },
@@ -11,5 +12,10 @@
     "en": "TwitchCat"
   },
   "thumb": "icons/skins/64/TwitchCat.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "TwitchCat",
+    "TwitchCat2",
+    "TwitchCat3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Fox.png",
   "id": "Fox",
+  "invariant": false,
   "name": {
     "en": "Fox"
   },
@@ -11,5 +12,10 @@
     "en": "Fox"
   },
   "thumb": "icons/skins/64/Fox.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Fox",
+    "Fox2",
+    "Fox3"
+  ]
 }

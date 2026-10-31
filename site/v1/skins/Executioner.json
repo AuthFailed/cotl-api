@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Executioner.png",
+  "id": "Executioner",
+  "invariant": true,
+  "name": {
+    "en": "Executioner"
+  },
+  "namePlain": {
+    "en": "Executioner"
+  },
+  "thumb": "icons/skins/64/Executioner.png",
+  "unlock": "Major_DLC",
+  "variants": [
+    "Executioner"
+  ]
+}

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": null,
   "id": "PalworldOne",
+  "invariant": false,
   "name": {
     "en": "PalworldOne"
   },
@@ -11,5 +12,8 @@
     "en": "PalworldOne"
   },
   "thumb": null,
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "PalworldOne"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Beetle.png",
   "id": "Beetle",
+  "invariant": false,
   "name": {
     "en": "Beetle"
   },
@@ -11,5 +12,10 @@
     "en": "Beetle"
   },
   "thumb": "icons/skins/64/Beetle.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Beetle",
+    "Beetle2",
+    "Beetle3"
+  ]
 }

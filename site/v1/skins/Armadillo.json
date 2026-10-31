@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Armadillo.png",
   "id": "Armadillo",
+  "invariant": false,
   "name": {
     "en": "Armadillo"
   },
@@ -11,5 +12,10 @@
     "en": "Armadillo"
   },
   "thumb": "icons/skins/64/Armadillo.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Armadillo",
+    "Armadillo2",
+    "Armadillo3"
+  ]
 }

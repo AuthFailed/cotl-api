@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Orca.png",
   "id": "Orca",
+  "invariant": false,
   "name": {
     "en": "Orca"
   },
@@ -11,5 +12,10 @@
     "en": "Orca"
   },
   "thumb": "icons/skins/64/Orca.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "Orca",
+    "Orca2",
+    "Orca3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Kiwi.png",
   "id": "Kiwi",
+  "invariant": false,
   "name": {
     "en": "Kiwi"
   },
@@ -11,5 +12,10 @@
     "en": "Kiwi"
   },
   "thumb": "icons/skins/64/Kiwi.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Kiwi",
+    "Kiwi2",
+    "Kiwi3"
+  ]
 }

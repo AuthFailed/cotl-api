@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Raccoon.png",
   "id": "Raccoon",
+  "invariant": false,
   "name": {
     "en": "Racoon"
   },
@@ -11,5 +12,10 @@
     "en": "Racoon"
   },
   "thumb": "icons/skins/64/Raccoon.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Raccoon",
+    "Raccoon2",
+    "Raccoon3"
+  ]
 }

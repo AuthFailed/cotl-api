@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Pelican.png",
   "id": "Pelican",
+  "invariant": false,
   "name": {
     "en": "Pelican"
   },
@@ -11,5 +12,10 @@
     "en": "Pelican"
   },
   "thumb": "icons/skins/64/Pelican.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Pelican",
+    "Pelican2",
+    "Pelican3"
+  ]
 }

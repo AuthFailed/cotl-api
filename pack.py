@@ -20,7 +20,7 @@ LANGUAGE = re.compile(r"[a-z]{2,3}(-[A-Za-z0-9]{2,8})*")
 PUBLIC = {
     "items": ("category", "tags", "meal", "seed", "crop"),
     "structures": ("cost", "upgradesFrom", "size", "menu", "buildable", "category"),
-    "skins": ("unlock", "hidden"),
+    "skins": ("unlock", "hidden", "invariant", "variants"),
     "rituals": ("cost", "faith", "warmth", "sin", "trait", "group", "alternative", "doctrine"),
     "doctrines": ("category", "level", "choice", "alternative", "kind", "ritual"),
     "sermons": ("glyph",),

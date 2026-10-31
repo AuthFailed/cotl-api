@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Beholder_6.png",
   "id": "Boss_Beholder_6",
+  "invariant": false,
   "name": {
     "en": "Beholder 6"
   },
@@ -11,5 +12,8 @@
     "en": "Beholder 6"
   },
   "thumb": "icons/skins/64/Boss_Beholder_6.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Boss Beholder 6"
+  ]
 }

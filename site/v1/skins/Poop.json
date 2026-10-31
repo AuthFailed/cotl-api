@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Poop.png",
   "id": "Poop",
+  "invariant": false,
   "name": {
     "en": "Poop"
   },
@@ -11,5 +12,9 @@
     "en": "Poop"
   },
   "thumb": "icons/skins/64/Poop.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Poop",
+    "Poop2"
+  ]
 }

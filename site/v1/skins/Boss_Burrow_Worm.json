@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Burrow_Worm.png",
   "id": "Boss_Burrow_Worm",
+  "invariant": false,
   "name": {
     "en": "Boss Burrow Worm"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Burrow Worm"
   },
   "thumb": "icons/skins/64/Boss_Burrow_Worm.png",
-  "unlock": "Dungeon1"
+  "unlock": "Dungeon1",
+  "variants": [
+    "Boss Burrow Worm"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Wombat.png",
   "id": "Wombat",
+  "invariant": false,
   "name": {
     "en": "Wombat"
   },
@@ -11,5 +12,10 @@
     "en": "Wombat"
   },
   "thumb": "icons/skins/64/Wombat.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "Wombat",
+    "Wombat2",
+    "Wombat3"
+  ]
 }

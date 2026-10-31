@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Maggot.png",
   "id": "Maggot",
+  "invariant": false,
   "name": {
     "en": "Maggot"
   },
@@ -11,5 +12,10 @@
     "en": "Maggot"
   },
   "thumb": "icons/skins/64/Maggot.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Maggot",
+    "Maggot2",
+    "Maggot3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Millipede_Poisoner.png",
   "id": "Boss_Millipede_Poisoner",
+  "invariant": false,
   "name": {
     "en": "Boss Millipede Poisoner"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Millipede Poisoner"
   },
   "thumb": "icons/skins/64/Boss_Millipede_Poisoner.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Boss Millipede Poisoner"
+  ]
 }

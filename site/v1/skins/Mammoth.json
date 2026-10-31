@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Mammoth.png",
   "id": "Mammoth",
+  "invariant": false,
   "name": {
     "en": "Mammoth"
   },
@@ -11,5 +12,10 @@
     "en": "Mammoth"
   },
   "thumb": "icons/skins/64/Mammoth.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Mammoth",
+    "Mammoth2",
+    "Mammoth3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Eagle.png",
   "id": "Eagle",
+  "invariant": false,
   "name": {
     "en": "Eagle"
   },
@@ -11,5 +12,10 @@
     "en": "Eagle"
   },
   "thumb": "icons/skins/64/Eagle.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Eagle",
+    "Eagle2",
+    "Eagle3"
+  ]
 }

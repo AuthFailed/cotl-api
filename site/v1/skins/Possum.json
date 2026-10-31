@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Possum.png",
   "id": "Possum",
+  "invariant": false,
   "name": {
     "en": "Possum"
   },
@@ -11,5 +12,10 @@
     "en": "Possum"
   },
   "thumb": "icons/skins/64/Possum.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Possum",
+    "Possum2",
+    "Possum3"
+  ]
 }

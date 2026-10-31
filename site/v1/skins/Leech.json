@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Leech.png",
   "id": "Leech",
+  "invariant": false,
   "name": {
     "en": "Leech"
   },
@@ -11,5 +12,10 @@
     "en": "Leech"
   },
   "thumb": "icons/skins/64/Leech.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Leech",
+    "Leech2",
+    "Leech3"
+  ]
 }

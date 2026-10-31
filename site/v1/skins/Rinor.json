@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": false,
+  "icon": "icons/skins/Rinor.png",
+  "id": "Rinor",
+  "invariant": true,
+  "name": {
+    "en": "Rinor"
+  },
+  "namePlain": {
+    "en": "Rinor"
+  },
+  "thumb": "icons/skins/64/Rinor.png",
+  "unlock": "DLC",
+  "variants": [
+    "Rinor"
+  ]
+}

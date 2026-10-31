@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Gorilla.png",
   "id": "Gorilla",
+  "invariant": false,
   "name": {
     "en": "Gorilla"
   },
@@ -11,5 +12,10 @@
     "en": "Gorilla"
   },
   "thumb": "icons/skins/64/Gorilla.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Gorilla",
+    "Gorilla2",
+    "Gorilla3"
+  ]
 }

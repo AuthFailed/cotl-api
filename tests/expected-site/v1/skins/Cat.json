@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": null,
   "id": "Cat",
+  "invariant": false,
   "name": {
     "en": "Cat"
   },
@@ -11,5 +12,8 @@
     "en": "Cat"
   },
   "thumb": null,
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Cat"
+  ]
 }

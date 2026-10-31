@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/BatDemon.png",
   "id": "BatDemon",
+  "invariant": false,
   "name": {
     "en": "BatDemon"
   },
@@ -11,5 +12,10 @@
     "en": "BatDemon"
   },
   "thumb": "icons/skins/64/BatDemon.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "BatDemon",
+    "BatDemon2",
+    "BatDemon3"
+  ]
 }

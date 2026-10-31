@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Crab.png",
   "id": "Crab",
+  "invariant": false,
   "name": {
     "en": "Crab"
   },
@@ -11,5 +12,10 @@
     "en": "Crab"
   },
   "thumb": "icons/skins/64/Crab.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Crab",
+    "Crab2",
+    "Crab3"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Rot_4.png",
   "id": "Boss_Rot_4",
+  "invariant": false,
   "name": {
     "en": "Boss Rot 4"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Rot 4"
   },
   "thumb": "icons/skins/64/Boss_Rot_4.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "Boss Rot 4"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Crow.png",
   "id": "Crow",
+  "invariant": false,
   "name": {
     "en": "Crow"
   },
@@ -11,5 +12,10 @@
     "en": "Crow"
   },
   "thumb": "icons/skins/64/Crow.png",
-  "unlock": "SpecialEvents"
+  "unlock": "SpecialEvents",
+  "variants": [
+    "Crow",
+    "Crow2",
+    "Crow3"
+  ]
 }

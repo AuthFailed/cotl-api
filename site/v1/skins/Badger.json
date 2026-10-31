@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Badger.png",
   "id": "Badger",
+  "invariant": false,
   "name": {
     "en": "Badger"
   },
@@ -11,5 +12,10 @@
     "en": "Badger"
   },
   "thumb": "icons/skins/64/Badger.png",
-  "unlock": "Dungeon4"
+  "unlock": "Dungeon4",
+  "variants": [
+    "Badger",
+    "Badger2",
+    "Badger3"
+  ]
 }

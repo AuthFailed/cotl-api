@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Pangolin.png",
   "id": "Pangolin",
+  "invariant": false,
   "name": {
     "en": "Pangolin"
   },
@@ -11,5 +12,10 @@
     "en": "Pangolin"
   },
   "thumb": "icons/skins/64/Pangolin.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Pangolin",
+    "Pangolin2",
+    "Pangolin3"
+  ]
 }

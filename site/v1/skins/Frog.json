@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Frog.png",
   "id": "Frog",
+  "invariant": false,
   "name": {
     "en": "Frog"
   },
@@ -11,5 +12,10 @@
     "en": "Frog"
   },
   "thumb": "icons/skins/64/Frog.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Frog",
+    "Frog2",
+    "Frog3"
+  ]
 }

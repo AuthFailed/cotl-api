@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Crocodile.png",
   "id": "Crocodile",
+  "invariant": false,
   "name": {
     "en": "Crocodile"
   },
@@ -11,5 +12,10 @@
     "en": "Crocodile"
   },
   "thumb": "icons/skins/64/Crocodile.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Crocodile",
+    "Crocodile2",
+    "Crocodile3"
+  ]
 }

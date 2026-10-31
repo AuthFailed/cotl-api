@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/TwitchDogAlt.png",
   "id": "TwitchDogAlt",
+  "invariant": false,
   "name": {
     "en": "TwitchDogAlt"
   },
@@ -11,5 +12,8 @@
     "en": "TwitchDogAlt"
   },
   "thumb": "icons/skins/64/TwitchDogAlt.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "TwitchDogAlt"
+  ]
 }

@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/DragonTwo.png",
   "id": "DragonTwo",
+  "invariant": false,
   "name": {
     "en": "DragonTwo"
   },
@@ -11,5 +12,10 @@
     "en": "DragonTwo"
   },
   "thumb": "icons/skins/64/DragonTwo.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "DragonTwo",
+    "DragonTwo2",
+    "DragonTwo3"
+  ]
 }

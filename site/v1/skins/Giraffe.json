@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Giraffe.png",
   "id": "Giraffe",
+  "invariant": false,
   "name": {
     "en": "Giraffe"
   },
@@ -11,5 +12,10 @@
     "en": "Giraffe"
   },
   "thumb": "icons/skins/64/Giraffe.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Giraffe",
+    "Giraffe2",
+    "Giraffe3"
+  ]
 }

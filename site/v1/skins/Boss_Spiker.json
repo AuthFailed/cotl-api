@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Spiker.png",
   "id": "Boss_Spiker",
+  "invariant": false,
   "name": {
     "en": "Boss Spiker"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Spiker"
   },
   "thumb": "icons/skins/64/Boss_Spiker.png",
-  "unlock": "Dungeon3"
+  "unlock": "Dungeon3",
+  "variants": [
+    "Boss Spiker"
+  ]
 }

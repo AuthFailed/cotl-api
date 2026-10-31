@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Boss_Egg_Hopper.png",
   "id": "Boss_Egg_Hopper",
+  "invariant": false,
   "name": {
     "en": "Boss Egg Hopper"
   },
@@ -11,5 +12,8 @@
     "en": "Boss Egg Hopper"
   },
   "thumb": "icons/skins/64/Boss_Egg_Hopper.png",
-  "unlock": "Dungeon2"
+  "unlock": "Dungeon2",
+  "variants": [
+    "Boss Egg Hopper"
+  ]
 }

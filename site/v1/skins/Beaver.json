@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Beaver.png",
   "id": "Beaver",
+  "invariant": false,
   "name": {
     "en": "Apple_4"
   },
@@ -11,5 +12,10 @@
     "en": "Apple_4"
   },
   "thumb": "icons/skins/64/Beaver.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Beaver",
+    "Beaver2",
+    "Beaver3"
+  ]
 }

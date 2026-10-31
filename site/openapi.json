@@ -1498,6 +1498,10 @@
             "pattern": "^[A-Za-z0-9_-]+$",
             "type": "string"
           },
+          "invariant": {
+            "description": "The game marks the form invariant: bosses, cult leaders and other forms it never offers as an unlock",
+            "type": "boolean"
+          },
           "name": {
             "additionalProperties": {
               "minLength": 1,
@@ -1528,6 +1532,13 @@
               "string",
               "null"
             ]
+          },
+          "variants": {
+            "description": "Every Spine skin name of the form, as a save's FollowerInfo.SkinName stores it",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
           }
         },
         "required": [
@@ -2069,7 +2080,7 @@
     "url": "https://github.com/AuthFailed/cotl-api#readme"
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-31T06:58:34Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-31T08:55:04Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },
@@ -3998,6 +4009,7 @@
             "required": true,
             "schema": {
               "enum": [
+                "Abomination",
                 "Anglerfish",
                 "Anteater",
                 "Armadillo",
@@ -4011,6 +4023,8 @@
                 "Beetle",
                 "Beluga",
                 "Bison",
+                "Boss_Aym",
+                "Boss_Baal",
                 "Boss_Beholder_1",
                 "Boss_Beholder_2",
                 "Boss_Beholder_3",
@@ -4019,6 +4033,7 @@
                 "Boss_Beholder_6",
                 "Boss_Burrow_Worm",
                 "Boss_Charger",
+                "Boss_Death_Cat",
                 "Boss_Dog_1",
                 "Boss_Dog_2",
                 "Boss_Dog_3",
@@ -4057,6 +4072,14 @@
                 "Crocodile",
                 "Crow",
                 "Cthulhu",
+                "CultLeader_1",
+                "CultLeader_1_Healed",
+                "CultLeader_2",
+                "CultLeader_2_Healed",
+                "CultLeader_3",
+                "CultLeader_3_Healed",
+                "CultLeader_4",
+                "CultLeader_4_Healed",
                 "Deer",
                 "DeerSkull",
                 "Deer_ritual",
@@ -4071,6 +4094,7 @@
                 "Eagle",
                 "Elephant",
                 "Enchida",
+                "Executioner",
                 "Fennec_Fox",
                 "Fish",
                 "Fly",
@@ -4087,6 +4111,7 @@
                 "Ibex",
                 "IceGore",
                 "Jackalope",
+                "Jalala",
                 "Jellyfish",
                 "Kiwi",
                 "Koala",
@@ -4103,6 +4128,7 @@
                 "Maggot",
                 "Mammoth",
                 "MassiveMonster",
+                "Midas",
                 "Mole",
                 "Monkey",
                 "Moose",
@@ -4110,6 +4136,7 @@
                 "Moth",
                 "Mushroom",
                 "NakedMoleRat",
+                "Narayana",
                 "Narwal",
                 "Nightwolf",
                 "Orangutan",
@@ -4131,6 +4158,7 @@
                 "Red_Panda",
                 "Reindeer",
                 "Rhino",
+                "Rinor",
                 "Robin",
                 "SeaButterfly",
                 "Seahorse",
@@ -4141,6 +4169,10 @@
                 "Snail",
                 "Snake",
                 "SnowMonkey",
+                "Snowman_Good_1",
+                "Snowman_Good_2",
+                "Snowman_Good_3",
+                "Sozo",
                 "Sphynx",
                 "Squirrel",
                 "StarBunny",
@@ -4159,7 +4191,8 @@
                 "Vulture",
                 "Webber",
                 "Wombat",
-                "Worm"
+                "Worm",
+                "Yngya"
               ],
               "type": "string"
             }
@@ -4903,7 +4936,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "capturedAt": "2026-10-31T06:58:34Z",
+                  "capturedAt": "2026-10-31T08:55:04Z",
                   "counts": {
                     "crownAbilities": 5,
                     "curses": 31,
@@ -4914,7 +4947,7 @@
                     "relics": 72,
                     "rituals": 31,
                     "sermons": 7,
-                    "skins": 167,
+                    "skins": 189,
                     "structures": 337,
                     "tarot": 85,
                     "traits": 122,
@@ -6994,8 +7027,29 @@
                     "description": {},
                     "descriptionPlain": {},
                     "hidden": true,
+                    "icon": "icons/skins/Abomination.png",
+                    "id": "Abomination",
+                    "invariant": true,
+                    "name": {
+                      "en": "Abomination"
+                    },
+                    "namePlain": {
+                      "en": "Abomination"
+                    },
+                    "thumb": "icons/skins/64/Abomination.png",
+                    "unlock": "Other",
+                    "variants": [
+                      "Abomination",
+                      "Abomination2"
+                    ]
+                  },
+                  {
+                    "description": {},
+                    "descriptionPlain": {},
+                    "hidden": true,
                     "icon": "icons/skins/Anglerfish.png",
                     "id": "Anglerfish",
+                    "invariant": false,
                     "name": {
                       "en": "Anglerfish"
                     },
@@ -7003,22 +7057,12 @@
                       "en": "Anglerfish"
                     },
                     "thumb": "icons/skins/64/Anglerfish.png",
-                    "unlock": "DLC"
-                  },
-                  {
-                    "description": {},
-                    "descriptionPlain": {},
-                    "hidden": false,
-                    "icon": "icons/skins/Anteater.png",
-                    "id": "Anteater",
-                    "name": {
-                      "en": "Anteater"
-                    },
-                    "namePlain": {
-                      "en": "Anteater"
-                    },
-                    "thumb": "icons/skins/64/Anteater.png",
-                    "unlock": "DLC"
+                    "unlock": "DLC",
+                    "variants": [
+                      "Anglerfish",
+                      "Anglerfish2",
+                      "Anglerfish3"
+                    ]
                   }
                 ],
                 "schema": {
@@ -7050,6 +7094,7 @@
             "required": true,
             "schema": {
               "enum": [
+                "Abomination",
                 "Anglerfish",
                 "Anteater",
                 "Armadillo",
@@ -7063,6 +7108,8 @@
                 "Beetle",
                 "Beluga",
                 "Bison",
+                "Boss_Aym",
+                "Boss_Baal",
                 "Boss_Beholder_1",
                 "Boss_Beholder_2",
                 "Boss_Beholder_3",
@@ -7071,6 +7118,7 @@
                 "Boss_Beholder_6",
                 "Boss_Burrow_Worm",
                 "Boss_Charger",
+                "Boss_Death_Cat",
                 "Boss_Dog_1",
                 "Boss_Dog_2",
                 "Boss_Dog_3",
@@ -7109,6 +7157,14 @@
                 "Crocodile",
                 "Crow",
                 "Cthulhu",
+                "CultLeader_1",
+                "CultLeader_1_Healed",
+                "CultLeader_2",
+                "CultLeader_2_Healed",
+                "CultLeader_3",
+                "CultLeader_3_Healed",
+                "CultLeader_4",
+                "CultLeader_4_Healed",
                 "Deer",
                 "DeerSkull",
                 "Deer_ritual",
@@ -7123,6 +7179,7 @@
                 "Eagle",
                 "Elephant",
                 "Enchida",
+                "Executioner",
                 "Fennec_Fox",
                 "Fish",
                 "Fly",
@@ -7139,6 +7196,7 @@
                 "Ibex",
                 "IceGore",
                 "Jackalope",
+                "Jalala",
                 "Jellyfish",
                 "Kiwi",
                 "Koala",
@@ -7155,6 +7213,7 @@
                 "Maggot",
                 "Mammoth",
                 "MassiveMonster",
+                "Midas",
                 "Mole",
                 "Monkey",
                 "Moose",
@@ -7162,6 +7221,7 @@
                 "Moth",
                 "Mushroom",
                 "NakedMoleRat",
+                "Narayana",
                 "Narwal",
                 "Nightwolf",
                 "Orangutan",
@@ -7188,6 +7248,7 @@
                 "Red_Panda",
                 "Reindeer",
                 "Rhino",
+                "Rinor",
                 "Robin",
                 "SeaButterfly",
                 "Seahorse",
@@ -7198,6 +7259,10 @@
                 "Snail",
                 "Snake",
                 "SnowMonkey",
+                "Snowman_Good_1",
+                "Snowman_Good_2",
+                "Snowman_Good_3",
+                "Sozo",
                 "Sphynx",
                 "Squirrel",
                 "StarBunny",
@@ -7216,7 +7281,8 @@
                 "Vulture",
                 "Webber",
                 "Wombat",
-                "Worm"
+                "Worm",
+                "Yngya"
               ],
               "type": "string"
             }
@@ -7230,16 +7296,21 @@
                   "description": {},
                   "descriptionPlain": {},
                   "hidden": true,
-                  "icon": "icons/skins/Anglerfish.png",
-                  "id": "Anglerfish",
+                  "icon": "icons/skins/Abomination.png",
+                  "id": "Abomination",
+                  "invariant": true,
                   "name": {
-                    "en": "Anglerfish"
+                    "en": "Abomination"
                   },
                   "namePlain": {
-                    "en": "Anglerfish"
+                    "en": "Abomination"
                   },
-                  "thumb": "icons/skins/64/Anglerfish.png",
-                  "unlock": "DLC"
+                  "thumb": "icons/skins/64/Abomination.png",
+                  "unlock": "Other",
+                  "variants": [
+                    "Abomination",
+                    "Abomination2"
+                  ]
                 },
                 "schema": {
                   "$ref": "#/components/schemas/Skin"

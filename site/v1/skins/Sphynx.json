@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Sphynx.png",
   "id": "Sphynx",
+  "invariant": false,
   "name": {
     "en": "Sphynx"
   },
@@ -11,5 +12,10 @@
     "en": "Sphynx"
   },
   "thumb": "icons/skins/64/Sphynx.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Sphynx",
+    "Sphynx2",
+    "Sphynx3"
+  ]
 }

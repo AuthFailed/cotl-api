@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Yngya.png",
+  "id": "Yngya",
+  "invariant": true,
+  "name": {
+    "en": "Yngya"
+  },
+  "namePlain": {
+    "en": "Yngya"
+  },
+  "thumb": "icons/skins/64/Yngya.png",
+  "unlock": "Major_DLC",
+  "variants": [
+    "Yngya"
+  ]
+}

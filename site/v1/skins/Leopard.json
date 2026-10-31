@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Leopard.png",
   "id": "Leopard",
+  "invariant": false,
   "name": {
     "en": "Leopard"
   },
@@ -11,5 +12,10 @@
     "en": "Leopard"
   },
   "thumb": "icons/skins/64/Leopard.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Leopard",
+    "Leopard2",
+    "Leopard3"
+  ]
 }

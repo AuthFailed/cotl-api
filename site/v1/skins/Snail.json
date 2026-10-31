@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Snail.png",
   "id": "Snail",
+  "invariant": false,
   "name": {
     "en": "Snail"
   },
@@ -11,5 +12,10 @@
     "en": "Snail"
   },
   "thumb": "icons/skins/64/Snail.png",
-  "unlock": "Other"
+  "unlock": "Other",
+  "variants": [
+    "Snail",
+    "Snail2",
+    "Snail3"
+  ]
 }

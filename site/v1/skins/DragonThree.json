@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/DragonThree.png",
   "id": "DragonThree",
+  "invariant": false,
   "name": {
     "en": "DragonThree"
   },
@@ -11,5 +12,10 @@
     "en": "DragonThree"
   },
   "thumb": "icons/skins/64/DragonThree.png",
-  "unlock": "Dungeon6"
+  "unlock": "Dungeon6",
+  "variants": [
+    "DragonThree",
+    "DragonThree2",
+    "DragonThree3"
+  ]
 }

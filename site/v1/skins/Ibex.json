@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Ibex.png",
   "id": "Ibex",
+  "invariant": false,
   "name": {
     "en": "Ibex"
   },
@@ -11,5 +12,10 @@
     "en": "Ibex"
   },
   "thumb": "icons/skins/64/Ibex.png",
-  "unlock": "Dungeon5"
+  "unlock": "Dungeon5",
+  "variants": [
+    "Ibex",
+    "Ibex2",
+    "Ibex4"
+  ]
 }

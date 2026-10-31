@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/Monkey.png",
   "id": "Monkey",
+  "invariant": false,
   "name": {
     "en": "Monkey"
   },
@@ -11,5 +12,10 @@
     "en": "Monkey"
   },
   "thumb": "icons/skins/64/Monkey.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "Monkey",
+    "Monkey2",
+    "Monkey3"
+  ]
 }

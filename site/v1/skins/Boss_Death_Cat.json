@@ -1,0 +1,19 @@
+{
+  "description": {},
+  "descriptionPlain": {},
+  "hidden": true,
+  "icon": "icons/skins/Boss_Death_Cat.png",
+  "id": "Boss_Death_Cat",
+  "invariant": true,
+  "name": {
+    "en": "Boss Death Cat"
+  },
+  "namePlain": {
+    "en": "Boss Death Cat"
+  },
+  "thumb": "icons/skins/64/Boss_Death_Cat.png",
+  "unlock": "Other",
+  "variants": [
+    "Boss Death Cat"
+  ]
+}

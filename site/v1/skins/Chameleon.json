@@ -4,6 +4,7 @@
   "hidden": false,
   "icon": "icons/skins/Chameleon.png",
   "id": "Chameleon",
+  "invariant": false,
   "name": {
     "en": "Chameleon"
   },
@@ -11,5 +12,10 @@
     "en": "Chameleon"
   },
   "thumb": "icons/skins/64/Chameleon.png",
-  "unlock": "Major_DLC"
+  "unlock": "Major_DLC",
+  "variants": [
+    "Chameleon",
+    "Chameleon2",
+    "Chameleon3"
+  ]
 }

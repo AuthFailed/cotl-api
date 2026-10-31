@@ -4,6 +4,7 @@
   "hidden": true,
   "icon": "icons/skins/SeaButterfly.png",
   "id": "SeaButterfly",
+  "invariant": false,
   "name": {
     "en": "SeaButterfly"
   },
@@ -11,5 +12,10 @@
     "en": "SeaButterfly"
   },
   "thumb": "icons/skins/64/SeaButterfly.png",
-  "unlock": "DLC"
+  "unlock": "DLC",
+  "variants": [
+    "SeaButterfly",
+    "SeaButterfly2",
+    "SeaButterfly3"
+  ]
 }
