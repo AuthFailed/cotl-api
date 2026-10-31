@@ -266,23 +266,25 @@ public class CotlDataDump : BaseUnityPlugin
     void ReadSkins()
     {
         skins = new List<Dictionary<string, object>>();
-        foreach (var c in WorshipperData.Instance.Characters.Where(c => !c.Invariant && c.Skin.Count > 0))
+        // Invariant forms too (bosses, cult leaders): saves use them, and the editor needs their portraits.
+        foreach (var c in WorshipperData.Instance.Characters.Where(c => c.Skin.Count > 0))
         {
             string id = new string(c.Skin[0].Skin.Select(ch => char.IsLetterOrDigit(ch) && ch < 128 || ch == '_' || ch == '-' ? ch : '_').ToArray());
             // Some forms are listed twice (e.g. for two drop locations); the first entry is the one the game finds.
             if (skinNames.TryGetValue(id, out var first))
             {
                 // the same form listed twice is skipped; two forms whose names clean up to one id would lose one
-                if (first == c.Skin[0].Skin) { Logger.LogWarning($"skin {id} listed again as {c.Title}, skipped"); continue; }
+                if (first == c.Skin[0].Skin || c.Invariant) { Logger.LogWarning($"skin {id} listed again as {c.Title}, skipped"); continue; }
                 Fail("Skins", $"\"{first}\" and \"{c.Skin[0].Skin}\" both become id {id}");
                 continue;
             }
             skinNames[id] = c.Skin[0].Skin;
             // The game has no translated skin names, only this title.
-            i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = c.Title };
+            i18n[$"Skins/{id}"] = new Dictionary<string, string> { [en] = string.IsNullOrEmpty(c.Title) ? c.Skin[0].Skin : c.Title };
             skinSources[id] = c;
             skins.Add(new Dictionary<string, object> {
                 ["id"] = id, ["nameTerm"] = $"Skins/{id}", ["unlock"] = c.DropLocation.ToString(), ["hidden"] = c.Hidden,
+                ["invariant"] = c.Invariant, ["variants"] = c.Skin.Select(s => s.Skin).Distinct().ToList(),
             });
         }
         Logger.LogInfo($"skins: {skins.Count}");

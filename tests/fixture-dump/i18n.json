@@ -150,5 +150,8 @@
   "TarotCards/Fleece1/Name": {
     "en": "Golden Fleece",
     "ru": "Золотое руно"
+  },
+  "Skins/Boss_Death_Cat": {
+    "en": "The One Who Waits"
   }
 }

@@ -3,12 +3,30 @@
     "id": "Cat",
     "nameTerm": "Skins/Cat",
     "unlock": "Other",
-    "hidden": false
+    "hidden": false,
+    "invariant": false,
+    "variants": [
+      "Cat"
+    ]
   },
   {
     "id": "Deer",
     "nameTerm": "Skins/Deer",
     "unlock": "Dungeon1",
-    "hidden": true
+    "hidden": true,
+    "invariant": false,
+    "variants": [
+      "Deer"
+    ]
+  },
+  {
+    "id": "Boss_Death_Cat",
+    "nameTerm": "Skins/Boss_Death_Cat",
+    "unlock": "Other",
+    "hidden": true,
+    "invariant": true,
+    "variants": [
+      "Boss Death Cat"
+    ]
   }
 ]

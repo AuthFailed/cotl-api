@@ -1,5 +1,10 @@
 [
   {
+    "id": "Boss_Death_Cat",
+    "name": "The One Who Waits",
+    "thumb": null
+  },
+  {
     "id": "Cat",
     "name": "Cat",
     "thumb": null

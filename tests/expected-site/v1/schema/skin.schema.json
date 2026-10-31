@@ -72,6 +72,17 @@
       ],
       "pattern": "^icons/skins/64/[A-Za-z0-9_-]+\\.png$",
       "description": "the icon fitted into 64x64 (null if no icon)"
+    },
+    "invariant": {
+      "type": "boolean",
+      "description": "The game marks the form invariant: bosses, cult leaders and other forms it never offers as an unlock"
+    },
+    "variants": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Every Spine skin name of the form, as a save's FollowerInfo.SkinName stores it"
     }
   }
 }
