@@ -23,6 +23,7 @@ Base URL: `https://api.cotl.info/v1/`
 | `crownAbilities.json`, `fleeces.json` (and `{kind}/{id}.json`) | what the crown menu sells, fleeces |
 | `icons/{kind}/{id}.png`, `icons/{kind}/64/{id}.png` | icons, and the same fitted into 64×64 |
 | `{lang}/{kind}.json` | per language and kind, just `id`, `name` (English if untranslated) and `thumb` |
+| `save-schema.json`, `save-schema/{version}.json` | names and types of a 1.5+ save's fields (newest, and per game version) |
 | `schema/{index,item,structure,skin}.schema.json` | JSON Schemas |
 
 `{id}` is the game's own name (`BERRY`, `FARM_PLOT`, …) and stays the same across game versions.
@@ -77,6 +78,16 @@ the game's text markup), `icon` (a path relative to `v1/`, or null), and `thumb`
 - **outfit**: `cost`, `requirements`, `protection`, `effects` (as a meal's), `tab` (the tailor menu tab), `groups`,
   `forSale`. The icon is the outfit as the tailor draws it.
 - **crownAbility**: `cost`, `dlc`; **fleece**: `fleece` (the game's number), `cost`, `pack`
+
+## Save schema
+
+1.5+ saves (`slot_N.mp`, `meta_N.mp`) are MessagePack arrays without field names. `save-schema.json` names them:
+`roots` (`slot`: `DataManager`, `meta`: `MetaData`), `types` (per type, `fields` of `{ "key", "name", "type" }`:
+the array index, the game's field name, and its type) and `enums` (per enum, number → name). A `type` is one of
+`bool`, `int8`…`uint64`, `float32`, `float64`, `string`, `bytes`, or `{ "list": T }`, `{ "map": [K, V] }`,
+`{ "nullable": T }`, `{ "enum": name }`, `{ "object": type }`, `{ "other": CLR type }`. The keys move between game
+versions, so `save-schema/{version}.json` keeps every published version (listed in `index.json` as `saveSchemas`):
+read the version from the meta file's `MetaData.Version`.
 
 Skins, tarot cards and outfits have no sprites in the game; their icons are rendered from the game's own
 Spine models at capture time (follower forms with their default colours). The five Palworld forms
