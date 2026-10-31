@@ -1,0 +1,127 @@
+{
+  "roots": {
+    "slot": "DataManager",
+    "meta": "MetaData"
+  },
+  "types": {
+    "DataManager": {
+      "fields": [
+        {
+          "key": 0,
+          "name": "AllowSaving",
+          "type": "bool"
+        },
+        {
+          "key": 325,
+          "name": "TwitchSettings",
+          "type": {
+            "object": "TwitchSettings"
+          }
+        },
+        {
+          "key": 410,
+          "name": "CultName",
+          "type": "string"
+        },
+        {
+          "key": 1109,
+          "name": "Followers",
+          "type": {
+            "list": {
+              "object": "FollowerInfo"
+            }
+          }
+        },
+        {
+          "key": 1111,
+          "name": "Followers_Dead",
+          "type": {
+            "list": {
+              "object": "FollowerInfo"
+            }
+          }
+        },
+        {
+          "key": 1162,
+          "name": "items",
+          "type": {
+            "list": {
+              "object": "InventoryItem"
+            }
+          }
+        }
+      ]
+    },
+    "FollowerInfo": {
+      "fields": [
+        {
+          "key": 0,
+          "name": "ID",
+          "type": "int32"
+        },
+        {
+          "key": 1,
+          "name": "_name",
+          "type": "string"
+        },
+        {
+          "key": 15,
+          "name": "SkinName",
+          "type": "string"
+        }
+      ]
+    },
+    "InventoryItem": {
+      "fields": [
+        {
+          "key": 0,
+          "name": "type",
+          "type": "int32"
+        },
+        {
+          "key": 1,
+          "name": "quantity",
+          "type": "int32"
+        },
+        {
+          "key": 2,
+          "name": "QuantityReserved",
+          "type": "int32"
+        }
+      ]
+    },
+    "MetaData": {
+      "fields": [
+        {
+          "key": 0,
+          "name": "CultName",
+          "type": "string"
+        },
+        {
+          "key": 4,
+          "name": "Day",
+          "type": "int32"
+        },
+        {
+          "key": 6,
+          "name": "PlayTime",
+          "type": "float32"
+        },
+        {
+          "key": 29,
+          "name": "Version",
+          "type": "string"
+        }
+      ]
+    },
+    "TwitchSettings": {
+      "fields": []
+    }
+  },
+  "enums": {
+    "InventoryItem.ITEM_TYPE": {
+      "0": "NONE",
+      "1": "LOG"
+    }
+  }
+}

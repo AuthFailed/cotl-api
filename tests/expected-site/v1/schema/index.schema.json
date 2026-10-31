@@ -42,6 +42,13 @@
         "null"
       ],
       "description": "the game's Steam build the data was captured from (null if unknown)"
+    },
+    "saveSchemas": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Game versions with a save schema at save-schema/{version}.json, oldest first"
     }
   }
 }

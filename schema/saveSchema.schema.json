@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SaveSchema",
+  "description": "The MessagePack key, name and type of every field in a 1.5+ save, for one game version.",
+  "type": "object",
+  "required": ["gameVersion", "roots", "types", "enums"],
+  "properties": {
+    "gameVersion": { "type": "string" },
+    "roots": {
+      "type": "object",
+      "required": ["slot", "meta"],
+      "properties": { "slot": { "type": "string" }, "meta": { "type": "string" } },
+      "additionalProperties": false
+    },
+    "types": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["fields"],
+        "properties": {
+          "fields": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["key", "name", "type"],
+              "properties": {
+                "key": { "type": "integer", "minimum": 0 },
+                "name": { "type": "string" },
+                "type": { "$ref": "#/$defs/fieldType" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "enums": {
+      "type": "object",
+      "additionalProperties": { "type": "object", "additionalProperties": { "type": "string" } }
+    }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "fieldType": {
+      "oneOf": [
+        { "enum": ["bool", "int8", "uint8", "int16", "uint16", "int32", "uint32", "int64", "uint64", "float32", "float64", "string", "bytes"] },
+        { "type": "object", "required": ["list"], "properties": { "list": { "$ref": "#/$defs/fieldType" } }, "additionalProperties": false },
+        { "type": "object", "required": ["map"], "properties": { "map": { "type": "array", "items": { "$ref": "#/$defs/fieldType" }, "minItems": 2, "maxItems": 2 } }, "additionalProperties": false },
+        { "type": "object", "required": ["nullable"], "properties": { "nullable": { "$ref": "#/$defs/fieldType" } }, "additionalProperties": false },
+        { "type": "object", "required": ["enum"], "properties": { "enum": { "type": "string" } }, "additionalProperties": false },
+        { "type": "object", "required": ["object"], "properties": { "object": { "type": "string" } }, "additionalProperties": false },
+        { "type": "object", "required": ["other"], "properties": { "other": { "type": "string" } }, "additionalProperties": false }
+      ]
+    }
+  }
+}

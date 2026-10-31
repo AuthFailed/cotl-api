@@ -59,7 +59,7 @@ class PackTest(unittest.TestCase):
     def test_schemas_published(self):
         self.pack()
         for name in ("index", "item", "structure", "skin", "ritual", "doctrine", "sermon", "tarot", "relic", "weapon", "curse", "trait",
-                     "outfit", "crownAbility", "fleece", "changes", "slim"):
+                     "outfit", "crownAbility", "fleece", "changes", "slim", "saveSchema"):
             self.assertEqual((self.site / "v1" / "schema" / f"{name}.schema.json").read_bytes(),
                              (HERE.parent / "schema" / f"{name}.schema.json").read_bytes())
 
@@ -68,6 +68,23 @@ class PackTest(unittest.TestCase):
         data = json.loads(path.read_text())
         result = change(data)
         path.write_text(json.dumps(data if result is None else result))
+
+    def test_save_schema_published(self):
+        self.pack()
+        s = json.loads((self.site / "v1" / "save-schema.json").read_text())
+        self.assertEqual(s["gameVersion"], "1.4.6")
+        self.assertEqual(s["roots"], {"slot": "DataManager", "meta": "MetaData"})
+        self.assertEqual({f["key"]: f["name"] for f in s["types"]["DataManager"]["fields"]}[1109], "Followers")
+        self.assertEqual((self.site / "v1" / "save-schema" / "1.4.6.json").read_bytes(),
+                         (self.site / "v1" / "save-schema.json").read_bytes())
+        self.assertEqual(json.loads((self.site / "v1" / "index.json").read_text())["saveSchemas"], ["1.4.6"])
+
+    def test_old_save_schemas_are_kept(self):
+        self.pack()
+        self.edit("meta", lambda m: m.update(gameVersion="1.4.10"))
+        self.pack()
+        self.assertTrue((self.site / "v1" / "save-schema" / "1.4.6.json").exists())
+        self.assertEqual(json.loads((self.site / "v1" / "index.json").read_text())["saveSchemas"], ["1.4.6", "1.4.10"])
 
     def test_plain_text_drops_markup(self):
         self.pack()
@@ -175,10 +192,10 @@ class PackTest(unittest.TestCase):
         self.assertEqual(spec["openapi"], "3.1.0")
         self.assertEqual(spec["info"]["version"], "1.4.6")
         self.assertEqual(set(spec["components"]["schemas"]), {"Index", "Item", "Structure", "Skin", "Ritual", "Doctrine", "Sermon", "Tarot", "Relic", "Weapon", "Curse", "Trait",
-                                                              "Outfit", "CrownAbility", "Fleece", "Changes", "Slim"})
+                                                              "Outfit", "CrownAbility", "Fleece", "Changes", "Slim", "SaveSchema"})
         for path in ("/v1/index.json", "/v1/items.json", "/v1/items/{id}.json", "/v1/icons/items/{id}.png",
                      "/v1/structures.json", "/v1/skins/{id}.json", "/v1/rituals.json", "/v1/rituals/{id}.json",
-                     "/v1/icons/rituals/{id}.png"):
+                     "/v1/icons/rituals/{id}.png", "/v1/save-schema.json", "/v1/save-schema/{version}.json"):
             self.assertIn(path, spec["paths"])
         id_param = spec["paths"]["/v1/items/{id}.json"]["get"]["parameters"][0]
         self.assertEqual(id_param["schema"]["enum"], ["BERRY", "LOG", "MEAL_BERRIES", "SEED", "STONE"])
@@ -287,6 +304,23 @@ class RefuseTest(unittest.TestCase):
         before = tree(self.site)
         self.assertEqual(pack.main(["pack.py", str(self.dump), str(self.site)]), 1)
         self.assertEqual(tree(self.site), before)
+
+    def test_refuses_missing_save_schema(self):
+        (self.dump / "saveSchema.json").unlink()
+        self.assertRefused()
+
+    def test_refuses_save_schema_shrink(self):
+        self.previous(5)
+        fields = [{"key": n, "name": f"F{n}", "type": "bool"} for n in range(10)]
+        (self.site / "v1" / "save-schema.json").write_text(json.dumps({"types": {"DataManager": {"fields": fields}}}))
+        self.assertRefused()
+
+    def test_refuses_save_schema_losing_types(self):
+        self.previous(5)
+        dump = json.loads((self.dump / "saveSchema.json").read_text())
+        types = {**dump["types"], **{f"Lost{n}": {"fields": []} for n in range(10)}}
+        (self.site / "v1" / "save-schema.json").write_text(json.dumps({"roots": dump["roots"], "types": types}))
+        self.assertRefused()
 
     def test_refuses_job_error(self):
         self.edit("meta", lambda m: m["errors"].append({"job": "Skins", "message": "boom"}))

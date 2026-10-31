@@ -37,8 +37,14 @@ PUBLIC = {
 
 
 def load_dump(dump_dir: Path) -> dict:
-    return {name: json.loads((dump_dir / f"{name}.json").read_text(encoding="utf-8"))
+    dump = {name: json.loads((dump_dir / f"{name}.json").read_text(encoding="utf-8"))
             for name in (*KINDS, "i18n", "meta")}
+    dump["saveSchema"] = read_json(dump_dir / "saveSchema.json")  # problems() refuses a dump without it
+    return dump
+
+
+def version_key(version: str) -> tuple:
+    return tuple(int(p) if p.isdigit() else 0 for p in version.split("."))
 
 
 def write_json(path: Path, obj) -> None:
@@ -106,7 +112,8 @@ def tree(root: Path) -> dict:
 
 SCHEMAS = {"index": "Index", "item": "Item", "structure": "Structure", "skin": "Skin", "ritual": "Ritual", "doctrine": "Doctrine",
            "sermon": "Sermon", "tarot": "Tarot", "relic": "Relic", "weapon": "Weapon", "curse": "Curse", "trait": "Trait",
-           "outfit": "Outfit", "crownAbility": "CrownAbility", "fleece": "Fleece", "changes": "Changes", "slim": "Slim"}
+           "outfit": "Outfit", "crownAbility": "CrownAbility", "fleece": "Fleece", "changes": "Changes", "slim": "Slim",
+           "saveSchema": "SaveSchema"}
 
 
 def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) -> dict:
@@ -143,6 +150,13 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
             "responses": {"200": {"description": "OK", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Slim"}}}}}}}
         if icons[kind]:
             paths[f"/v1/icons/{kind}/{{id}}.png"] = get(kind, f"A {one}'s icon", {"image/png": {}}, sorted(icons[kind]))
+    paths["/v1/save-schema.json"] = get("saveSchema", "Names and types of a 1.5+ save's fields, for the newest game version",
+                                        ref("SaveSchema"))
+    paths["/v1/save-schema/{version}.json"] = {"get": {
+        "tags": ["saveSchema"], "summary": "The same for one game version (every version since it was first published)",
+        "parameters": [{"name": "version", "in": "path", "required": True,
+                        "schema": {"type": "string", "enum": index.get("saveSchemas", [])}}],
+        "responses": {"200": {"description": "OK", "content": ref("SaveSchema")}, "404": {"description": "No such version"}}}}
     return {
         "openapi": "3.1.0",
         "info": {
@@ -172,7 +186,8 @@ def openapi(index: dict, ids: dict, icons: dict, examples: dict, changes: list) 
                  {"name": "traits", "description": "Follower and cult traits"},
                  {"name": "outfits", "description": "Follower outfits from the tailor: cost, effects, protection"},
                  {"name": "crownAbilities", "description": "Abilities the crown menu sells for monster hearts"},
-                 {"name": "fleeces", "description": "Fleeces: cost and pack"}],
+                 {"name": "fleeces", "description": "Fleeces: cost and pack"},
+                 {"name": "saveSchema", "description": "Save files: the MessagePack key, name and type of every field"}],
         "paths": paths,
         "components": {"schemas": schemas},
     }
@@ -275,6 +290,13 @@ def build_site(dump: dict, dump_dir: Path, site_dir: Path) -> dict:
         if any(v for d in diff.values() for v in d.values()):
             changes = [{"gameVersion": index["gameVersion"], "capturedAt": index["capturedAt"], **diff}] + changes
     write_json(tmp / "changes.json", changes)
+    # Old saves need the schema of the game version that wrote them, so every version's copy is kept.
+    if (old_dir / "save-schema").is_dir():
+        shutil.copytree(old_dir / "save-schema", tmp / "save-schema")
+    save_schema = {"gameVersion": index["gameVersion"], **dump["saveSchema"]}
+    write_json(tmp / "save-schema.json", save_schema)
+    write_json(tmp / "save-schema" / f"{index['gameVersion']}.json", save_schema)
+    index["saveSchemas"] = sorted((p.stem for p in (tmp / "save-schema").glob("*.json")), key=version_key)
     shutil.copytree(Path(__file__).parent / "schema", tmp / "schema")
     # Recapturing the same game shouldn't change the site: keep the old capture time if nothing else moved.
     if old_index and old_index.get("gameVersion") == index["gameVersion"] and \
@@ -313,6 +335,16 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
                 ("sizes", sum(bool(e.get("size")) for e in dump[kind]), sum(bool(e.get("size")) for e in old))):
             if now < before * 0.9:
                 found.append(f"{kind}: {now} {what} now, {before} before (more than 10% fewer)")
+    if not dump.get("saveSchema"):
+        found.append("saveSchema: none in the dump")
+    else:
+        # Either count can collapse alone: the root's fields, or the nested types once their attribute lookup breaks.
+        old = read_json(site_dir / "v1" / "save-schema.json") or {}
+        root = lambda s: ((s.get("types") or {}).get((s.get("roots") or {}).get("slot", "DataManager")) or {}).get("fields", [])
+        for what, now, before in (("root fields", len(root(dump["saveSchema"])), len(root(old))),
+                                  ("types", len(dump["saveSchema"].get("types") or {}), len(old.get("types") or {}))):
+            if now < before * 0.9 or now == 0:
+                found.append(f"saveSchema: {now} {what} now, {before} before (more than 10% fewer)")
     languages = {lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}
     found += [f"language {lang} is gone" for lang in sorted(set((previous or {}).get("languages", [])) - languages)]
     return found

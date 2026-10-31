@@ -9,6 +9,7 @@ while read -r kind one; do
   check-jsonschema --schemafile "$S/$one.schema.json" "$V1/$kind"/*.json
 done < <(python3 -c "import sys; sys.path.insert(0, sys.argv[1]); import pack; [print(k, v) for k, v in pack.SINGULAR.items()]" "$(dirname "$0")")
 check-jsonschema --schemafile "$S/changes.schema.json" "$V1/changes.json"
+check-jsonschema --schemafile "$S/saveSchema.schema.json" "$V1/save-schema.json" "$V1"/save-schema/*.json
 for lang in $(python3 -I -c "import json,sys;print(*json.load(open(sys.argv[1]))['languages'])" "$V1/index.json"); do
   check-jsonschema --schemafile "$S/slim.schema.json" "$V1/$lang"/*.json
 done
