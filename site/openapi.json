@@ -492,6 +492,13 @@
             },
             "type": "array"
           },
+          "saveSchemas": {
+            "description": "Game versions with a save schema at save-schema/{version}.json, oldest first",
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
           "steamBuildId": {
             "description": "the game's Steam build the data was captured from (null if unknown)",
             "type": [
@@ -1214,6 +1221,184 @@
         "title": "Ritual",
         "type": "object"
       },
+      "SaveSchema": {
+        "$defs": {
+          "fieldType": {
+            "oneOf": [
+              {
+                "enum": [
+                  "bool",
+                  "int8",
+                  "uint8",
+                  "int16",
+                  "uint16",
+                  "int32",
+                  "uint32",
+                  "int64",
+                  "uint64",
+                  "float32",
+                  "float64",
+                  "string",
+                  "bytes"
+                ]
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "list": {
+                    "$ref": "#/$defs/fieldType"
+                  }
+                },
+                "required": [
+                  "list"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "map": {
+                    "items": {
+                      "$ref": "#/$defs/fieldType"
+                    },
+                    "maxItems": 2,
+                    "minItems": 2,
+                    "type": "array"
+                  }
+                },
+                "required": [
+                  "map"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "nullable": {
+                    "$ref": "#/$defs/fieldType"
+                  }
+                },
+                "required": [
+                  "nullable"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "enum": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "enum"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "object": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "object"
+                ],
+                "type": "object"
+              },
+              {
+                "additionalProperties": false,
+                "properties": {
+                  "other": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "other"
+                ],
+                "type": "object"
+              }
+            ]
+          }
+        },
+        "additionalProperties": false,
+        "description": "The MessagePack key, name and type of every field in a 1.5+ save, for one game version.",
+        "properties": {
+          "enums": {
+            "additionalProperties": {
+              "additionalProperties": {
+                "type": "string"
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "gameVersion": {
+            "type": "string"
+          },
+          "roots": {
+            "additionalProperties": false,
+            "properties": {
+              "meta": {
+                "type": "string"
+              },
+              "slot": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "slot",
+              "meta"
+            ],
+            "type": "object"
+          },
+          "types": {
+            "additionalProperties": {
+              "additionalProperties": false,
+              "properties": {
+                "fields": {
+                  "items": {
+                    "additionalProperties": false,
+                    "properties": {
+                      "key": {
+                        "minimum": 0,
+                        "type": "integer"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "type": {
+                        "$ref": "#/$defs/fieldType"
+                      }
+                    },
+                    "required": [
+                      "key",
+                      "name",
+                      "type"
+                    ],
+                    "type": "object"
+                  },
+                  "type": "array"
+                }
+              },
+              "required": [
+                "fields"
+              ],
+              "type": "object"
+            },
+            "type": "object"
+          }
+        },
+        "required": [
+          "gameVersion",
+          "roots",
+          "types",
+          "enums"
+        ],
+        "title": "SaveSchema",
+        "type": "object"
+      },
       "Sermon": {
         "properties": {
           "description": {
@@ -1884,7 +2069,7 @@
     "url": "https://github.com/AuthFailed/cotl-api#readme"
   },
   "info": {
-    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-29T05:45:42Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
+    "description": "Items, structures and follower skins from *Cult of the Lamb*, taken from the game (version 1.5.26.1058, captured 2026-10-31T06:58:34Z). Static JSON: no keys, no rate limits, open CORS. Within `v1/` fields are only added, never removed.\n\nWhat changed with each game version: [changes.json](/v1/changes.json). Field-by-field documentation and examples: the [README](https://github.com/AuthFailed/cotl-api#readme).\n\nUnofficial fan project; the game, its data and art belong to Massive Monster and Devolver Digital. Source: [github.com/AuthFailed/cotl-api](https://github.com/AuthFailed/cotl-api).",
     "title": "Cult of the Lamb data API",
     "version": "1.5.26.1058"
   },
@@ -4718,7 +4903,7 @@
             "content": {
               "application/json": {
                 "example": {
-                  "capturedAt": "2026-10-29T05:45:42Z",
+                  "capturedAt": "2026-10-31T06:58:34Z",
                   "counts": {
                     "crownAbilities": 5,
                     "curses": 31,
@@ -4752,6 +4937,9 @@
                     "tr",
                     "zh-CN",
                     "zh-TW"
+                  ],
+                  "saveSchemas": [
+                    "1.5.26.1058"
                   ],
                   "steamBuildId": 25223484
                 },
@@ -6439,6 +6627,67 @@
         "summary": "One ritual",
         "tags": [
           "rituals"
+        ]
+      }
+    },
+    "/v1/save-schema.json": {
+      "get": {
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": null,
+                "schema": {
+                  "$ref": "#/components/schemas/SaveSchema"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such id"
+          }
+        },
+        "summary": "Names and types of a 1.5+ save's fields, for the newest game version",
+        "tags": [
+          "saveSchema"
+        ]
+      }
+    },
+    "/v1/save-schema/{version}.json": {
+      "get": {
+        "parameters": [
+          {
+            "in": "path",
+            "name": "version",
+            "required": true,
+            "schema": {
+              "enum": [
+                "1.5.26.1058"
+              ],
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "content": {
+              "application/json": {
+                "example": null,
+                "schema": {
+                  "$ref": "#/components/schemas/SaveSchema"
+                }
+              }
+            },
+            "description": "OK"
+          },
+          "404": {
+            "description": "No such version"
+          }
+        },
+        "summary": "The same for one game version (every version since it was first published)",
+        "tags": [
+          "saveSchema"
         ]
       }
     },
@@ -9787,6 +10036,10 @@
     {
       "description": "Fleeces: cost and pack",
       "name": "fleeces"
+    },
+    {
+      "description": "Save files: the MessagePack key, name and type of every field",
+      "name": "saveSchema"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "capturedAt": "2026-10-29T05:45:42Z",
+  "capturedAt": "2026-10-31T06:58:34Z",
   "counts": {
     "crownAbilities": 5,
     "curses": 31,
@@ -33,6 +33,9 @@
     "tr",
     "zh-CN",
     "zh-TW"
+  ],
+  "saveSchemas": [
+    "1.5.26.1058"
   ],
   "steamBuildId": 25223484
 }
