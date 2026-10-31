@@ -9,6 +9,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using BepInEx;
 using BepInEx.Configuration;
 using HarmonyLib;
@@ -85,6 +86,7 @@ public class CotlDataDump : BaseUnityPlugin
         {
             Try("Doctrines", ReadDoctrines); Try("Tarot", ReadTarot); Try("Relics", ReadRelics); Try("Weapons", ReadWeapons);
             Try("Traits", ReadTraits); Try("Outfits", ReadOutfits); Try("CrownAbilities", ReadCrownAbilities);
+            Try("SaveSchema", ReadSaveSchema);
         }
         int s = slot.Value;
         Logger.LogInfo($"phase 1 done; continuing save slot {s}");
@@ -118,6 +120,7 @@ public class CotlDataDump : BaseUnityPlugin
         foreach (var kind in new[] { "doctrines", "sermons", "tarot", "relics", "weapons", "curses", "traits", "outfits", "crownAbilities", "fleeces" })
             Write($"{kind}.json", more.TryGetValue(kind, out var l) ? l : new List<Dict>());
         Write("i18n.json", i18n);
+        Write("saveSchema.json", saveSchema);
         Write("meta.json", new Dictionary<string, object> {
             ["gameVersion"] = Application.version, ["pluginVersion"] = Info.Metadata.Version.ToString(),
             ["capturedAt"] = DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ssZ", System.Globalization.CultureInfo.InvariantCulture),
@@ -330,6 +333,70 @@ public class CotlDataDump : BaseUnityPlugin
     // ---------- more kinds (each list is what the game's own UI iterates) ----------
 
     readonly Dictionary<string, List<Dict>> more = new Dictionary<string, List<Dict>>();
+    readonly Dict saveSchema = new Dict();
+
+    static readonly Dictionary<Type, string> Primitives = new Dictionary<Type, string> {
+        [typeof(bool)] = "bool", [typeof(sbyte)] = "int8", [typeof(byte)] = "uint8", [typeof(short)] = "int16",
+        [typeof(ushort)] = "uint16", [typeof(int)] = "int32", [typeof(uint)] = "uint32", [typeof(long)] = "int64",
+        [typeof(ulong)] = "uint64", [typeof(float)] = "float32", [typeof(double)] = "float64", [typeof(string)] = "string",
+        [typeof(byte[])] = "bytes" };
+
+    // A 1.5+ save is MessagePack-CSharp arrays without names: each [Key(n)] member of DataManager (slots) and MetaData
+    // (meta files), and of every [MessagePackObject] type they reach, with its key and type.
+    void ReadSaveSchema()
+    {
+        var types = new Dict();
+        var enums = new Dict();
+        var queue = new Queue<Type>(new[] { typeof(DataManager), typeof(MetaData) });
+        var seen = new HashSet<Type>(queue);
+        string Name(Type t) => t.FullName.Replace('+', '.');
+        object Describe(Type t)
+        {
+            if (Primitives.TryGetValue(t, out var p)) return p;
+            var inner = Nullable.GetUnderlyingType(t);
+            if (inner != null) return new Dict { ["nullable"] = Describe(inner) };
+            if (t.IsEnum)
+            {
+                if (!enums.ContainsKey(Name(t)))
+                    enums[Name(t)] = Enum.GetValues(t).Cast<object>()
+                        .GroupBy(v => Convert.ChangeType(v, Enum.GetUnderlyingType(t)).ToString())
+                        .ToDictionary(g => g.Key, g => (object)g.First().ToString());
+                return new Dict { ["enum"] = Name(t) };
+            }
+            if (t.IsArray) return new Dict { ["list"] = Describe(t.GetElementType()) };
+            if (t.IsGenericType)
+            {
+                var g = t.GetGenericTypeDefinition();
+                var a = t.GetGenericArguments();
+                if (g == typeof(List<>) || g == typeof(HashSet<>)) return new Dict { ["list"] = Describe(a[0]) };
+                if (g == typeof(Dictionary<,>)) return new Dict { ["map"] = new List<object> { Describe(a[0]), Describe(a[1]) } };
+            }
+            if (t.IsDefined(typeof(MessagePack.MessagePackObjectAttribute), false))
+            {
+                if (seen.Add(t)) queue.Enqueue(t);
+                return new Dict { ["object"] = Name(t) };
+            }
+            return new Dict { ["other"] = Name(t) };
+        }
+        const BindingFlags members = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+        while (queue.Count > 0)
+        {
+            var t = queue.Dequeue();
+            var fields = new List<Dict>();
+            foreach (var m in t.GetFields(members).Cast<MemberInfo>().Concat(t.GetProperties(members)))
+            {
+                var key = m.GetCustomAttributes(typeof(MessagePack.KeyAttribute), true).Cast<MessagePack.KeyAttribute>().FirstOrDefault();
+                if (key?.IntKey == null) continue;
+                var type = m is FieldInfo f ? f.FieldType : ((PropertyInfo)m).PropertyType;
+                fields.Add(new Dict { ["key"] = key.IntKey.Value, ["name"] = m.Name, ["type"] = Describe(type) });
+            }
+            types[Name(t)] = new Dict { ["fields"] = fields.OrderBy(x => (int)x["key"]).ToList() };
+        }
+        saveSchema["roots"] = new Dict { ["slot"] = Name(typeof(DataManager)), ["meta"] = Name(typeof(MetaData)) };
+        saveSchema["types"] = types;
+        saveSchema["enums"] = enums;
+        Logger.LogInfo($"save schema: {types.Count} types, {enums.Count} enums");
+    }
     static readonly string[] SermonCategories = { "WorkAndWorship", "Possession", "Food", "Afterlife", "LawAndOrder", "Pleasure", "Winter" };
 
     // Doctrines as the temple offers them: GetSermonReward(category, level 1-4, first or second choice), plus the nine

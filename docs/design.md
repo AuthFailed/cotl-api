@@ -54,7 +54,7 @@ assemblies, BepInEx.dll, 0Harmony.dll).
     English title (`Title`; the game has no translated skin names), unlock source (`DropLocation`), hidden flag.
   - **Translations**: the terms the jobs above reference, in every language.
 - Writes a raw dump to `BepInEx/plugins/CotlDataDump/`: `items.json`, `structures.json`, `skins.json`,
-  `i18n.json`, `meta.json` (game version, plugin version, per-job errors), `icons/{kind}/{id}.png`, then a
+  `i18n.json`, `saveSchema.json` (the save's MessagePack keys, names and types), `meta.json` (game version, plugin version, per-job errors), `icons/{kind}/{id}.png`, then a
   `done` marker, and kills the process (Quit is swallowed under Proton).
 - The dump is game-shaped (localisation terms, raw enum names). Reshaping the public format happens in the
   packer, so it never needs a new game run.
