@@ -1,6 +1,5 @@
 # Save schema Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
 **Goal:** Publish `v1/save-schema.json`: the names and types of every keyed field in a 1.5+ save, per game version.
 
@@ -10,7 +9,7 @@ keeps every earlier version's copy, and lists the versions in `index.json`.
 
 **Tech Stack:** C# (BepInEx 5 plugin, built by `mod/build.sh`), Python 3.12 (`pack.py`, `unittest`), JSON Schema, `check.sh`.
 
-**Spec:** `/Users/roman-laptop/Проекты/cotl-save-editor/docs/superpowers/specs/2026-10-31-cotl-save-editor-design.md` (section "Save schema (cotl-api change)").
+**Spec:** `https://github.com/AuthFailed/cotl-save-editor/blob/main/docs/specs/2026-10-31-cotl-save-editor-design.md` (section "Save schema (cotl-api change)").
 
 ## Global Constraints
 

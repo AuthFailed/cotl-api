@@ -3,4 +3,3 @@ __pycache__/
 mod/*.dll
 dump/
 types/types.d.ts
-.superpowers/
