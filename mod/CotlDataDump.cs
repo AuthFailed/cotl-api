@@ -383,7 +383,11 @@ public class CotlDataDump : BaseUnityPlugin
         {
             var t = queue.Dequeue();
             var fields = new List<Dict>();
-            foreach (var m in t.GetFields(members).Cast<MemberInfo>().Concat(t.GetProperties(members)))
+            // DeclaredOnly per class up the chain: GetFields alone skips a base class's private members.
+            var declared = new List<MemberInfo>();
+            for (var c = t; c != null && c != typeof(object); c = c.BaseType)
+                declared.AddRange(c.GetFields(members | BindingFlags.DeclaredOnly).Cast<MemberInfo>().Concat(c.GetProperties(members | BindingFlags.DeclaredOnly)));
+            foreach (var m in declared)
             {
                 var key = m.GetCustomAttributes(typeof(MessagePack.KeyAttribute), true).Cast<MessagePack.KeyAttribute>().FirstOrDefault();
                 if (key?.IntKey == null) continue;

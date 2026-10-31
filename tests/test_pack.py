@@ -315,6 +315,13 @@ class RefuseTest(unittest.TestCase):
         (self.site / "v1" / "save-schema.json").write_text(json.dumps({"types": {"DataManager": {"fields": fields}}}))
         self.assertRefused()
 
+    def test_refuses_save_schema_losing_types(self):
+        self.previous(5)
+        dump = json.loads((self.dump / "saveSchema.json").read_text())
+        types = {**dump["types"], **{f"Lost{n}": {"fields": []} for n in range(10)}}
+        (self.site / "v1" / "save-schema.json").write_text(json.dumps({"roots": dump["roots"], "types": types}))
+        self.assertRefused()
+
     def test_refuses_job_error(self):
         self.edit("meta", lambda m: m["errors"].append({"job": "Skins", "message": "boom"}))
         self.assertRefused()

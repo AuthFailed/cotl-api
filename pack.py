@@ -338,10 +338,13 @@ def problems(dump: dict, dump_dir: Path, site_dir: Path) -> list:
     if not dump.get("saveSchema"):
         found.append("saveSchema: none in the dump")
     else:
-        fields = lambda s: len(((s or {}).get("types") or {}).get("DataManager", {}).get("fields", []))
-        now, before = fields(dump["saveSchema"]), fields(read_json(site_dir / "v1" / "save-schema.json"))
-        if now < before * 0.9 or now == 0:
-            found.append(f"saveSchema: {now} DataManager fields now, {before} before (more than 10% fewer)")
+        # Either count can collapse alone: the root's fields, or the nested types once their attribute lookup breaks.
+        old = read_json(site_dir / "v1" / "save-schema.json") or {}
+        root = lambda s: ((s.get("types") or {}).get((s.get("roots") or {}).get("slot", "DataManager")) or {}).get("fields", [])
+        for what, now, before in (("root fields", len(root(dump["saveSchema"])), len(root(old))),
+                                  ("types", len(dump["saveSchema"].get("types") or {}), len(old.get("types") or {}))):
+            if now < before * 0.9 or now == 0:
+                found.append(f"saveSchema: {now} {what} now, {before} before (more than 10% fewer)")
     languages = {lang for t in dump["i18n"].values() for lang, text in t.items() if text and LANGUAGE.fullmatch(lang)}
     found += [f"language {lang} is gone" for lang in sorted(set((previous or {}).get("languages", [])) - languages)]
     return found
